@@ -24,13 +24,21 @@ You can also change the order of the information in which this information appea
 
 The changes you make to the Details view for an object also determine the availability and order of fields that users see in the following areas:
 
-<ul> 
- <li> <p>New <object> boxes, such as New Task and New Issue</p> <p> <img src="assets/new-task-dialog-350x267.png" style="width: 350;height: 267;"> </p> </li> 
- <li> <p>Edit <object> screens, such as Edit Task and Edit Issue</p> <p> <img src="assets/edit-task-screen-350x237.png" style="width: 350;height: 237;"> </p> </li> 
- <li> <p>Summary <img src="assets/summary-panel-icon.png"> panel for lists of tasks and issues</p> <p> <img src="assets/summary-area-350x238.png" style="width: 350;height: 238;"> </p> <note type="note">
-   Changes to the layout templates affect the order and availability of fields in the Summary panel only for the tasks and issues that are assigned to the logged-in user. 
-  </note> </li> 
-</ul>
+* New <object> boxes, such as New Task and New Issue
+
+  ![](assets/new-task-dialog-350x267.png)
+
+* Edit <object> screens, such as Edit Task and Edit Issue
+
+  ![](assets/edit-task-screen-350x237.png)
+
+* Summary ![](assets/summary-panel-icon.png) panel for lists of tasks and issues
+
+  ![](assets/summary-area-350x238.png)
+
+  >[!NOTE]
+  >
+  >Changes to the layout templates affect the order and availability of fields in the Summary panel only for the tasks and issues that are assigned to the logged-in user.
 
 For information about layout templates for groups, see [Create and modify a group’s layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -59,21 +67,37 @@ You must have the following to perform the steps in this article:
 
 ## Customize what users see in the Details view
 
-<ol> 
- <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
- <li value="2">Click the down arrow <img src="assets/dropdown-arrow-12x12.png" style="width: 12;height: 12;"> under <span class="bold">Customize what users see</span>, then click <span class="bold">Project, Task</span>, <span class="bold">Issue</span>, <!--
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the down arrow ![](assets/dropdown-arrow-12x12.png) under `Customize what users see`, then click `Project, Task`, `Issue`, 
+
+   <!--
    Document,
-  --><span class="bold">Program</span>, or <span class="bold">Portfolio</span><!--
+   -->
+
+   `Program`, or `Portfolio`
+
+   <!--
    , or Billing Record
-  -->.</li> 
- <li value="3">In the <span class="bold">Details</span> section, do any of the following to customize what users see in the Details view:
-  <ul>
-   <li>Drag any section headers <img src="assets/move-icon---dots.png"> to change their order.</li>
-   <li><p>Enable or disable options under <span class="bold">Overview</span> and <span class="bold">Custom Forms</span> to show or hide them. </p><p>If you hide all fields in one of these sections, the entire section is hidden.</p><p>All of the fields are enabled by default.</p></li>
-  </ul></li> 
- <li value="4"> <p>Continue customizing the layout template.</p> <p>Or</p> <p>If you are finished customizing, click <span class="bold">Save</span>.</p> <note type="tip">
-   You can 
-   <span class="bold">Save</span> your progress at any time, then continue to modify the template later.
-  </note> </li> 
-</ol>
+   -->
+
+   .
+
+1. In the `Details` section, do any of the following to customize what users see in the Details view:
+
+  * Drag any section headers ![](assets/move-icon---dots.png) to change their order.
+  * Enable or disable options under `Overview` and `Custom Forms` to show or hide them.
+
+    If you hide all fields in one of these sections, the entire section is hidden.
+
+    All of the fields are enabled by default.
+
+1. Continue customizing the layout template.
+
+   Or
+
+   If you are finished customizing, click `Save`.
+
+   >[!TIP]
+   >
+   >You can `Save` your progress at any time, then continue to modify the template later.
 

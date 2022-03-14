@@ -42,22 +42,28 @@ You must have the following to perform the steps in this article:
 
 ## Set a custom status as a default status for a group
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> In the left panel, click Groups, then click the name of the group where you want to create or customize statuses. 
- <li value="3"> <p>In the left panel, click Statuses. </p> </li> 
- <li value="4">Click <span class="bold">Set Default Statuses</span> near the upper-right corner.</li> 
- <li value="5"> <p>In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Save</span>.</p> <p>The status is now available as a default status for use with projects associated with the group.</p> </li> 
- <li value="7"> <p>Associate the custom status with the project where you want to use it.</p> <p>You associate the status with the project by associating the group where the status resides with the project. Users can use the custom status only if the group where the status resides is associated with the project.</p> <note type="note">
-    If you assign the project to a different group, the project status will reload and could change.
-  </note> 
-  <ol> 
-   <li value="1"> <p>Go to the project where you want to use the custom status.</p> </li> 
-   <li value="2"> <p> Click the More menu , then click Edit. </p> </li> 
-   <li value="3">In the <span class="bold">Edit Project</span> box that displays, in the <span class="bold">Group</span> field under <span class="bold">Project association</span>, select the group that the custom status is associated with.</li> 
-   <li value="4">Click <span class="bold">Save Changes</span>.</li> 
-  </ol> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click Statuses. 
+1. Click `Set Default Statuses` near the upper-right corner.
+1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.
+1. Click `Save`.
+
+   The status is now available as a default status for use with projects associated with the group.
+
+1. Associate the custom status with the project where you want to use it.
+
+   You associate the status with the project by associating the group where the status resides with the project. Users can use the custom status only if the group where the status resides is associated with the project.
+
+   >[!NOTE]
+   >
+   >If you assign the project to a different group, the project status will reload and could change.
+
+  1. Go to the project where you want to use the custom status.
+  1. Click the More menu , then click Edit. 
+  1. In the `Edit Project` box that displays, in the `Group` field under `Project association`, select the group that the custom status is associated with.
+  
+  1. Click `Save Changes`.
 
 ## Groups inherit default status configurations
 

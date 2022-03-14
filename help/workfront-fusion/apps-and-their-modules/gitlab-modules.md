@@ -31,56 +31,56 @@ The procedure for connecting GitLab to Workfront Fusion is different based on wh
 
 ### Connect to a GitLab private server
 
-<ol> 
- <li value="1"> <p>In any Workfront Fusion Gitlab module, click <b>Add</b> next to the connection field.</p> </li> 
- <li value="2"> <p>Configure the following fields:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Connection type</td> 
-     <td>Select <b>GitLab (private server)</b></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Connection name</td> 
-     <td> <p>Enter a name for the connection.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Domain</td> 
-     <td>Enter your GitLab server domain, such as <code>gitlab.com</code> (default) or <code>gitlab.<your server>.com</code>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Private token</td> 
-     <td>Enter your private token. For information on creating a private token, see <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token">Creating a personal access token</a> in the GitLab documentation.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Click <b>Continue</b> to save the connection and return to the module.</p> </li> 
-</ol>
+1. In any Workfront Fusion Gitlab module, click **Add** next to the connection field.
+1. Configure the following fields:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Connection type</td> 
+      <td>Select <b>GitLab (private server)</b></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Connection name</td> 
+      <td> <p>Enter a name for the connection.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Domain</td> 
+      <td>Enter your GitLab server domain, such as <code>gitlab.com</code> (default) or <code>gitlab.&lt;your server&gt;.com</code>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Private token</td> 
+      <td>Enter your private token. For information on creating a private token, see <a href="https://docs.gitlab.com/ee/user/profile/personal_access_tokens.html#creating-a-personal-access-token">Creating a personal access token</a> in the GitLab documentation.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Continue** to save the connection and return to the module.
 
 ### Connect to GitLab using gitlab.com
 
-<ol> 
- <li value="1"> <p>In any Workfront Fusion Gitlab module, click <b>Add</b> next to the connection field.</p> </li> 
- <li value="2"> <p>Configure the following fields:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Connection type</td> 
-     <td>Select <b>GitLab (gitlab.com)</b></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Connection name</td> 
-     <td> <p>Enter a name for the connection.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Click <b>Continue</b>.</p> </li> 
- <li value="4"> <p>Click <b>Authorize</b> to create the connection and return to the module.</p> </li> 
-</ol>
+1. In any Workfront Fusion Gitlab module, click **Add** next to the connection field.
+1. Configure the following fields:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Connection type</td> 
+      <td>Select <b>GitLab (gitlab.com)</b></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Connection name</td> 
+      <td> <p>Enter a name for the connection.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Continue**.
+1. Click **Authorize** to create the connection and return to the module.
 
 ## GitLab modules and their fields
 

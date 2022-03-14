@@ -54,29 +54,29 @@ To use Qualtrics modules, you must have a Qualtrics account.
 
 You can create a connection to your Qualtrics account directly from inside a Qualtrics module.
 
-<ol> 
- <li value="1"> <p>In any Qualtrics module, click <span class="bold">Add </span>next to the Connection field.</p> </li> 
- <li value="2"> <p>Enter the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Connection name</p> </td> 
-     <td> <p>Enter a name for the new connection.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Data Center ID&nbsp;</td> 
-     <td>Use the format <code><Data Center ID>.qualtrics.com</code>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">API Key</td> 
-     <td>To locate your API key, see <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">API Token Authentication</a> in the Qualtrics documentation.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Click <span class="bold">Continue </span>to create the connection and go back to the module.</p> </li> 
-</ol>
+1. In any Qualtrics module, click `Add`next to the Connection field.
+1. Enter the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Connection name</p> </td> 
+      <td> <p>Enter a name for the new connection.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Data Center ID&nbsp;</td> 
+      <td>Use the format <code>&lt;Data Center ID&gt;.qualtrics.com</code>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">API Key</td> 
+      <td>To locate your API key, see <a href="https://api.qualtrics.com/instructions/docs/Instructions/api-key-authentication.md">API Token Authentication</a> in the Qualtrics documentation.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Continue`to create the connection and go back to the module.
 
 ## Qualtrics modules and their fields
 

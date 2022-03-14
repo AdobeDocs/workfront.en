@@ -52,16 +52,51 @@ You must have the following access to perform the steps in this article:
 
 To change the display name in a project grouping:
 
-<ol> 
- <li value="1">Go to a list of projects.</li> 
- <li value="2">From the <span class="bold">Grouping</span>drop-down menu, select <span class="bold">New Grouping</span>.</li> 
- <li value="3">Click&nbsp;<span class="bold">Add Grouping</span>, and start typing "Portfolio Name" in the <span class="bold">First by:</span> field, then select it when it displays in the list.</li> 
- <li value="4">Click <span class="bold">Switch to Text Mode</span>.</li> 
- <li value="5"> <p>Done one of following:</p> 
-  <ul> 
-   <li> <p> Add the following code to the existing text available in the <span class="bold">Group your Report</span> box:</p> <p><code>group.0.displayname=Your </code><code data-mc-edit-date="2019-01-07T12:27:43.3787530-05:00" data-mc-editor="alinawilson" data-mc-comment="Alina: maybe add a screen shot here?" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-01-07T12:27:30.8346347-05:00">Value</code> </p> <p>Or, in this case:</p> <p><code>group.0.displayname=Portfolio</code> </p> </li> 
-   <li> <p>Remove all the lines in the text mode interface of the grouping that have the word "name" in them, then add the line:</p> <p><code>group.0.name=Your Value</code> </p> <p>Or, in this case:</p> <p><code>group.0.name=Portfolio</code> </p> <p>You can also leave the <code>group.0.name</code> line blank, in which case the grouping shows the name of the value you are grouping by.</p> <p> <img src="assets/grouping-edited-name-no-name-350x162.png" style="width: 350;height: 162;"> </p> </li> 
-  </ul> </li> 
- <li value="6">Click <span class="bold">Done</span>, then <span class="bold">Save Grouping</span>.</li> 
-</ol>
+1. Go to a list of projects.
+1. From the `Grouping`drop-down menu, select `New Grouping`.
+
+1. Click  `Add Grouping`, and start typing "Portfolio Name" in the `First by:` field, then select it when it displays in the list.
+
+1. Click `Switch to Text Mode`.
+1. Done one of following:
+
+  * Add the following code to the existing text available in the `Group your Report` box:
+
+    ```  
+    group.0.displayname=Your
+    ```
+
+    ```  
+    Value
+    ```
+
+    Or, in this case:
+
+    ```  
+    group.0.displayname=Portfolio
+    ```
+
+  * Remove all the lines in the text mode interface of the grouping that have the word "name" in them, then add the line:
+
+    ```  
+    group.0.name=Your Value
+    ```
+
+    Or, in this case:
+
+    ```  
+    group.0.name=Portfolio
+    ```
+
+    You can also leave the   
+  
+    ```  
+    group.0.name
+    ```  
+  
+    line blank, in which case the grouping shows the name of the value you are grouping by.
+
+    ![](assets/grouping-edited-name-no-name-350x162.png)
+
+1. Click `Done`, then `Save Grouping`.
 

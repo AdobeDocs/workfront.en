@@ -43,8 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## Update the status of a story or subtask
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. (Optional) Click the Switch team icon , then either select a new Scrum team from the drop-down menu or search for a team in the search bar. 
- <li value="3">Navigate to an active iteration.</li> 
- <li value="4">Drag a story from one status column on the story board into another column.<br><img src="assets/agile-storyboard-progress-2021-350x140.png" style="width: 350;height: 140;"></li> 
-</ol>
+1. Navigate to an active iteration.
+1. Drag a story from one status column on the story board into another column.  
+   ![](assets/agile-storyboard-progress-2021-350x140.png)
 

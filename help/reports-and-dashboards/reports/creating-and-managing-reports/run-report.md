@@ -45,21 +45,26 @@ You must have the following access to perform the steps in this article:
 
 ## Run a report
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. </li> 
- <li value="2"> <p>Select from the following options:</p> 
-  <ul> 
-   <li><span class="bold">My Reports:</span> Reports that you have created.</li> 
-   <li><span class="bold">Shared With Me:</span> Reports that other users have shared with you.</li> 
-   <li><span class="bold">All Reports:</span> All reports in the system that you have access to.</li> 
-  </ul> </li> 
- <li value="3">Click the name of the report that you want to run.<br>Or<br>If the report was created using prompts, select the appropriate information from the drop-down menus, then click <span class="bold">Run Report</span>.<br>For more information about prompts, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.<br>The contents of the report display with a timestamp in the upper-right corner of the report that includes the date, time, and time zone when the report was run from the context of the user who ran the report.</li> 
- <li value="4">(Optional) Click the <span class="bold">Reload icon</span>  to refresh the results in a report if the report has been displayed in your browser for a while.<br></li> 
- <li value="5"> <p>(Conditional) If the report uses filters or prompts, click <span class="bold">Show Filters and Prompts</span> to display a list of filters and prompts that are being used on the report you are viewing. If the report contains only filters or only prompts, <span class="bold">Show Filters</span> or <span class="bold">Show Prompts</span> appears instead.</p> <p>  </p>  <p>Information displays below the report name on the left side of the page. For prompts, this is information about the prompt selections made at the time the report was run, as described in Step 4.</p> </li> <note type="note">
-  If you are using Custom Prompts, they do not display. Only the system prompts display. Custom Filters always display.
-  <br>
- </note> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
+1. Select from the following options:
+
+  * `My Reports:` Reports that you have created.
+  * `Shared With Me:` Reports that other users have shared with you.
+  * `All Reports:` All reports in the system that you have access to.
+
+1. Click the name of the report that you want to run.  
+   Or  
+   If the report was created using prompts, select the appropriate information from the drop-down menus, then click `Run Report`.  
+   For more information about prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).  
+   The contents of the report display with a timestamp in the upper-right corner of the report that includes the date, time, and time zone when the report was run from the context of the user who ran the report.
+
+1. (Optional) Click the `Reload icon`  to refresh the results in a report if the report has been displayed in your browser for a while.  
+
+1. (Conditional) If the report uses filters or prompts, click `Show Filters and Prompts` to display a list of filters and prompts that are being used on the report you are viewing. If the report contains only filters or only prompts, `Show Filters` or `Show Prompts` appears instead.
+
+   Information displays below the report name on the left side of the page. For prompts, this is information about the prompt selections made at the time the report was run, as described in Step 4.
+
+1. If you are using Custom Prompts, they do not display. Only the system prompts display. Custom Filters always display.
 
 ## View a cached report
 

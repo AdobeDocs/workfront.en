@@ -60,23 +60,29 @@ A custom status that you set as a default group status is used in the following 
 
 ## Set a custom status as a default status
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
- <li value="3">(Conditional) To set a default status for a group, begin typing the name of the group in the menu in the upper-right corner.</li> 
- <li value="4">Click the <span class="bold">Set Default Statuses</span> drop-down menu.</li> 
- <li value="5">In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want.</li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
- <li value="7"> <p>Associate the project with the group where the status resides. <!--
-    This step isn’t in older documentation
-   --></p> <p>Users can use the custom status only if the group where the status resides is associated with the project. </p> <note type="note">
-    If you are setting the custom status for a group, and you later assign the project to a different group, the project status will reload and could change.
-  </note> 
-  <ol> 
-   <li value="1"> <p>Go to the project where you want to use the custom status.</p> </li> 
-   <li value="2"> <p> Click the More menu , then click Edit. </p> </li> 
-   <li value="3">In the <span class="bold">Edit Project</span> box that displays, in the <span class="bold">Group</span> field under <span class="bold">Project association</span>, select the group where the status resides.</li> 
-   <li value="4">Click <span class="bold">Save Changes</span>.</li> 
-  </ol> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Project Preferences` > `Statuses`.
+
+1. (Conditional) To set a default status for a group, begin typing the name of the group in the menu in the upper-right corner.
+1. Click the `Set Default Statuses` drop-down menu.
+1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want.
+1. Click `Save`.
+1. Associate the project with the group where the status resides. 
+
+   <!--
+   This step isn’t in older documentation
+   -->
+
+   Users can use the custom status only if the group where the status resides is associated with the project.
+
+   >[!NOTE]
+   >
+   >If you are setting the custom status for a group, and you later assign the project to a different group, the project status will reload and could change.
+
+  1. Go to the project where you want to use the custom status.
+  1. Click the More menu , then click Edit. 
+  1. In the `Edit Project` box that displays, in the `Group` field under `Project association`, select the group where the status resides.
+  
+  1. Click `Save Changes`.
 

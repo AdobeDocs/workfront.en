@@ -76,11 +76,20 @@ By giving projects a new priority, you can rank them in order of importance.
 
 To edit the Project Planning Priority:
 
-<ol>
- <li value="1"> Go to the <span class="bold">Resource Planner</span>.<br></li>
- <li value="2"><p> Click inside the field to the left of the project name which contains a number, and enter a number to change Planning Priority, then press Enter.<br><img src="assets/mceclip4.png"><br>Or<br>Hover over the name of the project and click the indicator to the left of the project name, and drag it and drop it in the correct spot, to change the priority. </p><p><img src="assets/drag-and-drop-projects-rp--1--350x184.png" alt="drag_and_drop_projects_RP__1_.png" style="width: 350;height: 184;"></p><p>When you select numbers to prioritize projects, select lower numbers for higher (more important) priorities, and higher numbers for lower (less important) priorities. When you change the priority number of a project to a lower number (higher priority), all other projects in the Resource Planner shift down on the list (become less important).<br>When you change the priority number of a project to a higher number (lower priority), all other projects in the Resource Planner shift up on the list (become more important).</p></li>
- <li value="3">Click <span class="bold">Save</span>.<br>The order of the projects changes according to your selections and this becomes your custom project priority in the Resource Planner. Other users cannot see your order of priority for the projects in the Resource Planner, although they might be able to view the same projects in their Resource Planners. </li>
-</ol>
+1. Go to the `Resource Planner`.  
+
+1. Click inside the field to the left of the project name which contains a number, and enter a number to change Planning Priority, then press Enter.  
+   ![](assets/mceclip4.png)  
+   Or  
+   Hover over the name of the project and click the indicator to the left of the project name, and drag it and drop it in the correct spot, to change the priority.
+
+   ![drag_and_drop_projects_RP__1_.png](assets/drag-and-drop-projects-rp--1--350x184.png)
+
+   When you select numbers to prioritize projects, select lower numbers for higher (more important) priorities, and higher numbers for lower (less important) priorities. When you change the priority number of a project to a lower number (higher priority), all other projects in the Resource Planner shift down on the list (become less important).  
+   When you change the priority number of a project to a higher number (lower priority), all other projects in the Resource Planner shift up on the list (become more important).
+
+1. Click `Save`.  
+   The order of the projects changes according to your selections and this becomes your custom project priority in the Resource Planner. Other users cannot see your order of priority for the projects in the Resource Planner, although they might be able to view the same projects in their Resource Planners.
 
 ## Order projects according to their Portfolio Priority in the Resource Planner
 
@@ -92,18 +101,25 @@ To edit the Project Planning Priority:
 >
 >For information about prioritizing projects in the Portfolio Optimizer, see [Prioritize projects in the Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-<ol>
- <li value="1"><p>Open the <span class="bold">Resource Planner</span> in the <span class="bold">Project View</span>.</p></li>
- <li value="2">Click the <span class="bold">Settings</span> icon.</li>
- <li value="3"><p>Enable the <span class="bold">Display Portfolio Priorities</span> setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.</p><p><img src="assets/rp-portfolio-priority-unordered-(1)-350x203.png" style="width: 350;height: 203;"></p><p>The portfolio priorities of the projects display only in the Project view of the Resource Planner.</p></li>
- <li value="4"><p>Click <span class="bold">Order</span> to order the projects according to the portfolio priorities. </p><p>If you have projects that belong to more than one portfolio, you could see multiple projects with the same portfolio priority in the Resource Planner. In this case, the projects with the same portfolio priority are listed by the following criteria, in this order:</p>
-  <ol>
-   <li value="1"><p>Alignment Score</p></li>
-   <li value="2"><p>Planned Start Date</p></li>
-   <li value="3"><p>Project Name</p></li>
-  </ol><p><img src="assets/rp-portfolio-priority-ordered-350x225.png" style="width: 350;height: 225;"></p></li>
- <li value="5">Click <span class="bold">Save</span>.</li>
-</ol>
+1. Open the `Resource Planner` in the `Project View`.
+1. Click the `Settings` icon.
+1. Enable the `Display Portfolio Priorities` setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
+
+   ![](assets/rp-portfolio-priority-unordered-(1)-350x203.png)
+
+   The portfolio priorities of the projects display only in the Project view of the Resource Planner.
+
+1. Click `Order` to order the projects according to the portfolio priorities.
+
+   If you have projects that belong to more than one portfolio, you could see multiple projects with the same portfolio priority in the Resource Planner. In this case, the projects with the same portfolio priority are listed by the following criteria, in this order:
+
+  1. Alignment Score
+  1. Planned Start Date
+  1. Project Name
+
+   ![](assets/rp-portfolio-priority-ordered-350x225.png)
+
+1. Click `Save`.
 
 ## The effect of changing the Project Planning Priority on User Available Hours
 

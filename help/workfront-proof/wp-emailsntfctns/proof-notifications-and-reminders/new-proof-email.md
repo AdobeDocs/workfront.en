@@ -27,22 +27,28 @@ The email your recipients receive is called the New Proof email. Only the proof 
 
 The New proof email contains:
 
-<ul> 
- <li>Your personal message (if you choose to include one)<br></li> <note type="note">
-   If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see 
-  <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.
- </note> 
- <li>Personal link to the proof</li> 
- <li><span class="bold">View details</span> link that takes you to the associated Workfront object (such as a project, task, or issue)</li> 
- <li>Thumbnail of the proof image</li> 
- <li>The following proof details:</li> 
- <ul> 
-  <li>Proof name</li> 
-  <li> <p>Version number</p> <p>For more information, see .</p> </li> 
-  <li>List of the reviewers and their progress on the proof</li> 
-  <li> <p>A link to share the proof with someone else</p> <p>This allows you to share the proof URL and/or the download link for the original file. This does not allow you to explicitly add reviewers to the proof, you will only be sharing the public proof URL, and the recipient will receive read only access to the proof.<br></p> <p>See <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md" class="MCXref xref">Share a Proof in Workfront Proof</a> for more information.<br></p> <p>If you don't want this link to appear on your recipient's email, you can disable the Public Sharing settings on the proof </p> <p>(Download original file and Public URL). See <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref">Manage Proof Details in Workfront Proof</a> for more information.</p> </li> 
- </ul> 
-</ul>
+* Your personal message (if you choose to include one)  
+* If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+* Personal link to the proof
+* `View details` link that takes you to the associated Workfront object (such as a project, task, or issue)
+* Thumbnail of the proof image
+* The following proof details:
+
+  * Proof name
+  * Version number
+
+    For more information, see .
+  
+  * List of the reviewers and their progress on the proof
+  * A link to share the proof with someone else
+
+    This allows you to share the proof URL and/or the download link for the original file. This does not allow you to explicitly add reviewers to the proof, you will only be sharing the public proof URL, and the recipient will receive read only access to the proof.
+
+    See [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) for more information.
+
+    If you don't want this link to appear on your recipient's email, you can disable the Public Sharing settings on the proof
+
+    (Download original file and Public URL). See [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) for more information.
 
 ## The Activity Log
 
@@ -67,15 +73,14 @@ You can specify whether you want to send an email alert to the reviewers on a pr
 
 When you are creating a new proof in the New proof page, under the `Share` section, you can select whether to send email alerts:
 
-<ul> 
- <li>Here you can decide if you want to Notify people by email (1). If you deselect this option, none of your reviewers receive an email to let them know that the proof is ready for their review.</li> 
- <li>You can also include a Custom message in the email notification (2).</li> 
- <li>If you decide to add your own custom message you will be able to put in a customized subject line (3) and a message in the body of the email (4).</li> 
- <li> <p>To discard the custom message simply click on the link (5).</p> <note type="note">
-    If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see 
-   <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.
-  </note> </li> 
-</ul>
+* Here you can decide if you want to Notify people by email (1). If you deselect this option, none of your reviewers receive an email to let them know that the proof is ready for their review.
+* You can also include a Custom message in the email notification (2).
+* If you decide to add your own custom message you will be able to put in a customized subject line (3) and a message in the body of the email (4).
+* To discard the custom message simply click on the link (5).
+
+  >[!NOTE]
+  >
+  >If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ![New_Proof_page_1.png](assets/new-proof-page-1-350x186.png)
 

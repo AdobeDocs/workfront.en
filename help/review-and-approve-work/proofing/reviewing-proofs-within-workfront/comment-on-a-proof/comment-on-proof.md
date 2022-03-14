@@ -53,75 +53,74 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3"> <p>At the top of the proofing viewer, click <span class="bold">Add comment</span>.</p> </li> 
- <li value="4"> <p>(Conditional) If this is a video proof, play the video proof, then click<span class="bold"> Add comment</span> at the point in the video where you want the comment using the playheads</p> 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <ol> 
-    <li value="1"> <p> For ease of use, pause the video, click in the time line where you want the comment.</p> </li> 
-    <li value="2"> <p>For better precision, you can click the values above the playheads and type new values.<br></p> </li> 
-    <li value="3"> <p>To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.</p> </li> 
-    <li value="4"> <p>To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.</p> </li> 
-   </ol> 
-  </div> </li> 
- <li value="5"> <p>To draw attention to a specific location on the proof, click the markup tool you want in the toolbar, then mark the area of the proof that you want to comment on:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Draw a freehand line</span> </td> 
-     <td> <img src="assets/freehand-line.png"> </td> 
-     <td>Lets you add a freehand line on the selected area.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Draw a line </span> </td> 
-     <td> <img src="assets/line.png"> </td> 
-     <td>Lets you draw a line on the selected area.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Draw an arrow</span> </td> 
-     <td> <img src="assets/arrow.png"> </td> 
-     <td>Lets you add an arrow to an area you select.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Highlight an area</span> </td> 
-     <td> <img src="assets/highlight.png"> </td> 
-     <td>Highlights the area you select.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Draw a rectangle</span> </td> 
-     <td> <img src="assets/rectangle.png"> </td> 
-     <td>Lets you draw a rectangle around an area.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Polyline</span> </td> 
-     <td> <img src="assets/polyline.png"> </td> 
-     <td> <p>Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is useful for working with technical and architectural images.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Change markup color, thickness, or opacity</span> </td> 
-     <td> <img src="assets/change-color.png"> </td> 
-     <td>Lets you change the color, thickness and opacity of the markup tools.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Text</span> </td> 
-     <td> <img src="assets/copy-of-text.png"> </td> 
-     <td> <p>This tool appears on the left of the other tools when the proof is a text-based document. It provides markup tools for commenting on text in proofs. <br></p> <p>When you click this tool and then select text on your proof, annotation options appear beneath the selected text.<br></p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> <note type="note">
-  In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
- </note> 
- <li value="6">Type your comment in the <span class="bold">Add comment</span> box on the right.</li> 
- <li value="7"> <p><a name="@mention-in-comment"></a>(Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> </li> 
- <li value="8"> (Optional) To attach&nbsp;a file to a comment, do either of the following: 
-  <ul>
-   <li>Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.</li>
-   <li>Drag a file from a&nbsp;location on your computer and drop it into the comment area.</li>
-  </ul></li> 
- <li value="9">Click <span class="bold">Post</span>.</li> 
-</ol>
+1. At the top of the proofing viewer, click `Add comment`.
+1. (Conditional) If this is a video proof, play the video proof, then click `Add comment` at the point in the video where you want the comment using the playheads
+
+   ` `**Tips: **``
+
+  1. For ease of use, pause the video, click in the time line where you want the comment.
+  1. For better precision, you can click the values above the playheads and type new values.  
+
+  1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
+  1. To comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.
+
+1. To draw attention to a specific location on the proof, click the markup tool you want in the toolbar, then mark the area of the proof that you want to comment on:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Draw a freehand line</span> </td> 
+      <td> <img src="assets/freehand-line.png"> </td> 
+      <td>Lets you add a freehand line on the selected area.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Draw a line </span> </td> 
+      <td> <img src="assets/line.png"> </td> 
+      <td>Lets you draw a line on the selected area.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Draw an arrow</span> </td> 
+      <td> <img src="assets/arrow.png"> </td> 
+      <td>Lets you add an arrow to an area you select.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Highlight an area</span> </td> 
+      <td> <img src="assets/highlight.png"> </td> 
+      <td>Highlights the area you select.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Draw a rectangle</span> </td> 
+      <td> <img src="assets/rectangle.png"> </td> 
+      <td>Lets you draw a rectangle around an area.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Polyline</span> </td> 
+      <td> <img src="assets/polyline.png"> </td> 
+      <td> <p>Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is useful for working with technical and architectural images.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Change markup color, thickness, or opacity</span> </td> 
+      <td> <img src="assets/change-color.png"> </td> 
+      <td>Lets you change the color, thickness and opacity of the markup tools.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Text</span> </td> 
+      <td> <img src="assets/copy-of-text.png"> </td> 
+      <td> <p>This tool appears on the left of the other tools when the proof is a text-based document. It provides markup tools for commenting on text in proofs. <br></p> <p>When you click this tool and then select text on your proof, annotation options appear beneath the selected text.<br></p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
+1. Type your comment in the `Add comment` box on the right.
+1. (Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;For more information, see [Tag users to share a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
+1. (Optional) To attach&nbsp;a file to a comment, do either of the following:
+
+  * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
+  * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+
+1. Click `Post`.
 

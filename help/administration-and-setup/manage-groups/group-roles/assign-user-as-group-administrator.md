@@ -39,11 +39,11 @@ You must have the following to perform the steps in this article:
 
 ## Assign a user as a group administrator
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Click the name of the group for which you want to assign a group administrator.</li> In the header, near the upper-right corner, click one of the user profile pictures under Group Administrators. In the box that displays, click Search for a user, start typing the user's name, then click the name when it appears. 
- <li value="6">Repeat the previous step to add any other users as group administrators for the group.</li> 
- <li value="7">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group for which you want to assign a group administrator.
+1. Repeat the previous step to add any other users as group administrators for the group.
+1. Click `Save`.
 

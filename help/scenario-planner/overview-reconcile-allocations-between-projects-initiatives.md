@@ -49,24 +49,25 @@ Both processes create a connection between the projects and their corresponding 
 >
 >You can view initiatives, connect them to projects, and view their resource allocations on a project only if your organization has purchased an additional license for the Workfront Scenario Planner.
 
-<ul> 
- <li> <p> You can assign users, teams, and job roles to work items on a project and you can assign job roles to initiatives. As a result, you can only reconcile job roles between projects and initiatives. </p> <note type="tip">
-   To reconcile the users' time on a project with role allocations on the initiatives you must associate users with job roles. 
-  </note> </li> 
-</ul>
+* You can assign users, teams, and job roles to work items on a project and you can assign job roles to initiatives. As a result, you can only reconcile job roles between projects and initiatives.
 
-<ul> 
- <li> <p>You can view initiative job role allocation on a linked project in the following areas of the project: </p> 
-  <ul> Scenario Planner section of the Project Details area on a project. For more information, see the following articles: Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner Manage information in the project Overview area Tip: You cannot see job role information from the project and the initiative side-by-side in the Scenario Planner section of the Project Details. 
-   <li> <p>The Role Allocation panel in the following areas:</p> 
-    <ul> 
-     <li> <p>Workload Balancer of the project</p> <p>For information about how to viewand reconcile the allocations of roles betweenthe initiative and the linked project in the Workload Balancer, see <a href="../scenario-planner/show-role-allocation-workload-balancer.md" class="MCXref xref" xrefformat="{para}">Show role allocation for projects and initiatives in the Workload Balancer</a>. </p> </li> Tasks section For information about how to reconcile the allocations of roles between the initiative and the linked project in the Tasks section, see Show role allocation for projects and initiatives in the task list. 
-    </ul> <note type="tip">
-     You can see job role information from the project and the initiative side-by-side in Role Allocation panel. 
-    </note> </li> 
-  </ul> </li> 
- <li> <p>You cannot view job role allocation for a project on a linked initiative. For more information, see <a href="../scenario-planner/import-projects-to-plans.md" class="MCXref xref" xrefformat="{para}">Import projects to plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
-</ul>
+  >[!TIP]
+  >
+  >To reconcile the users' time on a project with role allocations on the initiatives you must associate users with job roles.
+
+* You can view initiative job role allocation on a linked project in the following areas of the project:
+
+  * The Role Allocation panel in the following areas:
+
+    * Workload Balancer of the project
+
+      For information about how to viewand reconcile the allocations of roles betweenthe initiative and the linked project in the Workload Balancer, see [Show role allocation for projects and initiatives in the Workload Balancer](../scenario-planner/show-role-allocation-workload-balancer.md).
+
+    >[!TIP]
+    >
+    >You can see job role information from the project and the initiative side-by-side in Role Allocation panel.
+
+* You cannot view job role allocation for a project on a linked initiative. For more information, see [Import projects to plans in the Adobe Workfront Scenario Planner](../scenario-planner/import-projects-to-plans.md).
 
 ##  
 

@@ -52,39 +52,56 @@ You must have the following before you can start:
 
 ## Considerations about editing goals
 
-<ul> 
- <li> <p>You can edit goals from any time period. </p> <p>You can edit the following information for a past goal:&nbsp;</p> 
-  <ul> 
-   <li> <p>Name</p> </li> 
-   <li> <p>Time period</p> </li> 
-   <li> <p>Status</p> <note type="tip">
-     If the goal is Closed, reopening it recalculates the Progress percent complete
-    </note> </li> 
-   <li> <p>Owner</p> </li> 
-   <li> <p>Description</p> </li> 
-   <li> <p>Results and activities</p> </li> 
-  </ul> </li> 
-</ul>
+* You can edit goals from any time period.
+
+  You can edit the following information for a past goal:&nbsp;
+
+  * Name
+  * Time period
+  * Status
+
+    >[!TIP]
+    >
+    >If the goal is Closed, reopening it recalculates the Progress percent complete
+
+  * Owner
+  * Description
+  * Results and activities
 
 ## Edit goals
 
-<ol> 
- <li value="1">Go to a goal that you want to edit and click the goal name to open the <span class="bold">Goal Details</span> panel. </li> 
- <li value="2"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png"></span> , then click <span class="bold">Edit</span>. </p> <p> <img src="assets/edit-goal-highlighted.png"> </p> </li> 
- <li value="3"> <p>Update the name of the goal in the <span class="bold">Goal</span> field. </p> </li> 
- <li value="4"> <p>Select a time period when the goal should be completed. </p> <p>Select from the following predefined options:</p> 
-  <ul> 
-   <li>The current year</li> 
-   <li>The quarters of the current year</li> 
-   <li>The next two years</li> 
-   <li>The quarters of the next two years</li> 
-  </ul> <p>Or</p> <p>Click <span class="bold">Define custom dates</span> to select a custom time frame. </p> </li> 
- <li value="5"> <p>(Conditional) Select a start and an end date for your goal, if you clicked <span class="bold">Define custom dates</span>. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>You cannot create a goal with dates in the past. </p> </li> 
- <li value="6"> <p> (Optional) Click <span class="bold">Reset custom dates</span> to return to the predefined options. </p> <note type="tip">
-   We recommend that everyone in your organization selects the same time frames for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your over-arching strategy. 
-  </note> </li> 
- <li value="7">Click the <span class="bold">Owner</span> field and select a new owner for the goal, if you want to indicate someone else as the owner of the goal. </li> 
- <li value="8">(Conditional)&nbsp;Start typing the name of a user, team, group, or the name of your organization in the <span class="bold">Owner</span> field, then select it when it displays in the list. You can have only one owner for a goal. </li> 
- <li value="9">Update the <span class="bold">Description</span> of the goal, then click <span class="bold">Save</span>. </li> 
-</ol>
+1. Go to a goal that you want to edit and click the goal name to open the `Goal Details` panel. 
+1. Click the ` `More icon` ![](assets/more-icon.png)
+
+   ` , then click `Edit`.
+
+   ![](assets/edit-goal-highlighted.png)
+
+1. Update the name of the goal in the `Goal` field. 
+1. Select a time period when the goal should be completed.
+
+   Select from the following predefined options:
+
+  * The current year
+  * The quarters of the current year
+  * The next two years
+  * The quarters of the next two years
+
+   Or
+
+   Click `Define custom dates` to select a custom time frame. 
+
+1. (Conditional) Select a start and an end date for your goal, if you clicked `Define custom dates`.
+
+   ` `**Warning: **``You cannot create a goal with dates in the past. 
+
+1. (Optional) Click `Reset custom dates` to return to the predefined options.
+
+   >[!TIP]
+   >
+   >We recommend that everyone in your organization selects the same time frames for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your over-arching strategy.
+
+1. Click the `Owner` field and select a new owner for the goal, if you want to indicate someone else as the owner of the goal. 
+1. (Conditional) Start typing the name of a user, team, group, or the name of your organization in the `Owner` field, then select it when it displays in the list. You can have only one owner for a goal. 
+1. Update the `Description` of the goal, then click `Save`.
 

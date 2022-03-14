@@ -40,28 +40,70 @@ Before you can access your favorites and recent items from Slack, you must
 
 ## Access your Favorites list from Slack
 
-<ol> 
- <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
- <li value="2"> <p>From any channel, start typing the following command in the message field:&nbsp;<br><code style="font-style: normal;">/workfront favorites</code></p> <note type="note">
-   Commands are case sensitive. You can start your command with 
-   <code>/wf</code> instead of 
-   <code>/workfront</code>.
-   <br>
-  </note> <p>A list of your Favorites displays.</p> <p><em><img src="assets/slack-favorites-with-show-more-button-350x202.png" alt="slack_favorites_with_show_more_button.png" style="width: 350;height: 202;"></em> </p> </li> 
- <li value="3">(Optional) Click <span class="bold">Show more</span> to list more Favorites.</li> 
- <li value="4">Click the name of a favorite to open it in Workfront in a new browser tab.</li> 
-</ol>
+1. Log in to your Slack instance and log in to Workfront from Slack.  
+   For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+
+1. From any channel, start typing the following command in the message field:&nbsp;
+
+   ```
+   /workfront favorites
+   ```
+
+   >[!NOTE]
+   >
+   >Commands are case sensitive. You can start your command with    >
+   >
+   >```   >
+   >/wf
+   >```   >
+   >
+   >instead of    >
+   >
+   >```   >
+   >/workfront
+   >```   >
+   >
+   >.
+
+   A list of your Favorites displays.
+
+* ![slack_favorites_with_show_more_button.png](assets/slack-favorites-with-show-more-button-350x202.png)
+
+* 
+
+1. (Optional) Click `Show more` to list more Favorites.
+1. Click the name of a favorite to open it in Workfront in a new browser tab.
 
 ## Access your recent items list from Slack
 
-<ol> 
- <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
- <li value="2"> <p>From any channel, start typing the following command in the message field:&nbsp;<br><code style="font-style: normal;">/workfront recent</code></p> <note type="note">
-   Commands are case sensitive. You can start your command with 
-   <code>/wf</code> instead of 
-   <code>/workfront</code>.
-  </note> <p>A list of your Recent Items displays, in the order they were accessed last, with the most recent at the top. The items are listed three at a time and are grouped by object type.<br><img src="assets/slack-recent-items-350x249.png" alt="slack_recent_items.png" style="width: 350;height: 249;"><br></p> </li> 
- <li value="3">(Optional) Click <span class="bold">Show more</span> to list more Recent Items.</li> 
- <li value="4">(Optional)&nbsp;Click the name of an item you have recently accessed to open it in Workfront in a new browser tab.</li> 
-</ol>
+1. Log in to your Slack instance and log in to Workfront from Slack.  
+   For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+
+1. From any channel, start typing the following command in the message field:&nbsp;
+
+   ```
+   /workfront recent
+   ```
+
+   >[!NOTE]
+   >
+   >Commands are case sensitive. You can start your command with    >
+   >
+   >```   >
+   >/wf
+   >```   >
+   >
+   >instead of    >
+   >
+   >```   >
+   >/workfront
+   >```   >
+   >
+   >.
+
+   A list of your Recent Items displays, in the order they were accessed last, with the most recent at the top. The items are listed three at a time and are grouped by object type.  
+   ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
+
+1. (Optional) Click `Show more` to list more Recent Items.
+1. (Optional)&nbsp;Click the name of an item you have recently accessed to open it in Workfront in a new browser tab.
 

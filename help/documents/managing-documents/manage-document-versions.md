@@ -51,11 +51,13 @@ If you need information about uploading new versions of a document to Workfront,
 
 ## View a list of all versions of a document
 
-View and manage details for a previous document version 
+View and manage details for a previous document version
 
-<ol> 
- <li value="1"> <p>Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.</p> <p> <img src="assets/version-drop-dn-doc-dtls-nwe-350x93.png" style="width: 350;height: 93;"> </p> <p>Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof). </p> </li> 
-</ol>
+1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
+
+   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+
+   Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 
 Download a single document version In the Summary, under Versions, click the click the More menu to the right of the version, then click Download in the drop-down list that appears. 
 

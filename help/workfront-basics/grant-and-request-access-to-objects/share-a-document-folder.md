@@ -56,39 +56,53 @@ You must have the following access to perform the steps in this article:
 
 ## Share a folder
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Documents. </p> <p>Or</p> <p> With a Workfront object open, click Documents in the left panel. </p> </li> 
- <li value="2"> <p>Select the folder, then click the Share icon <img src="assets/share-icon.png"> in the toolbar.</p> <p>The folder <!--
-    must be in the top five levels of a folder hierarchy on an object, and
-   -->cannot be a smart folder.</p> </li> 
- <li value="3"> <p>In the box that displays, under <span class="bold">Give folder access to</span>, start typing the name of the user, team, job role, group, or company you want to share the folder with, then press <span class="bold">Enter</span> when the name displays.</p> </li> 
- <li value="4"> <p>To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">View it</td> 
-     <td> <p>Ability to view the folder and its contents.</p> <p>Click <span class="bold">Advanced Settings</span> to specify whether you want to allow the following:</p> 
-      <ul> 
-       <li><span class="bold">Download</span>: Ability to download the folder and its contents as a ZIP file</li> 
-       <li> <p><span class="bold">Share</span>: Ability to share the folder with others in the system</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Manage it</td> 
-     <td> <p>Ability to view and edit the folder and its contents</p> <p>Click <span class="bold">Advanced Settings</span> to specify whether you want to allow users to do the following:</p> 
-      <ul> 
-       <li><span class="bold">Delete</span>: Delete the folder and its contents from the system</li> 
-       <li><b>Download</b>: Download the folder and its contents as a ZIP file</li> 
-       <li><span class="bold">Share</span>: Share the folder and its contents with other users in the system</li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">(Optional) Repeat Steps 3-4 to add other names to the list and configure their options.</li> 
- <li value="6"> <p>(Optional) If you want everyone in the system to be able to view the folder and its contents, click the gear icon <img src="assets/gear-icon-settings-with-dn-arrow.jpg"> in the upper right corner of the sharing box, then click <span class="bold">Make this visible system-wide.</span></p> <p>If you change your mind, you can, click <span class="bold">Remove system-wide access</span> (the default option).</p> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Documents.
+
+   Or
+
+   With a Workfront object open, click Documents in the left panel. 
+
+1. Select the folder, then click the Share icon ![](assets/share-icon.png) in the toolbar.
+
+   The folder 
+
+   <!--
+   must be in the top five levels of a folder hierarchy on an object, and
+   -->
+
+   cannot be a smart folder.
+
+1. In the box that displays, under `Give folder access to`, start typing the name of the user, team, job role, group, or company you want to share the folder with, then press `Enter` when the name displays.
+1. To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">View it</td> 
+      <td> <p>Ability to view the folder and its contents.</p> <p>Click <span class="bold">Advanced Settings</span> to specify whether you want to allow the following:</p> 
+       <ul> 
+        <li><span class="bold">Download</span>: Ability to download the folder and its contents as a ZIP file</li> 
+        <li> <p><span class="bold">Share</span>: Ability to share the folder with others in the system</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Manage it</td> 
+      <td> <p>Ability to view and edit the folder and its contents</p> <p>Click <span class="bold">Advanced Settings</span> to specify whether you want to allow users to do the following:</p> 
+       <ul> 
+        <li><span class="bold">Delete</span>: Delete the folder and its contents from the system</li> 
+        <li><b>Download</b>: Download the folder and its contents as a ZIP file</li> 
+        <li><span class="bold">Share</span>: Share the folder and its contents with other users in the system</li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat Steps 3-4 to add other names to the list and configure their options.
+1. (Optional) If you want everyone in the system to be able to view the folder and its contents, click the gear icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click `Make this visible system-wide.`
+
+   If you change your mind, you can, click `Remove system-wide access` (the default option).
 
 ## How your recipients access the contents of a folder you share with them
 
@@ -98,11 +112,13 @@ Currently, when you share a folder, your recipients do not see the folder in the
 
 When you share the parent object where a document folder resides, your recipients also get access to the folder:
 
-<ul> 
- <li>If you grant your recipients View access to the parent object, they have View access to the folder.</li> 
- <li>If you grant your recipients Contribute or Manage access to the parent object, they have Manage access to the folder.</li> 
- <li>If you grant one type of access (View, Contribute, or Manage) to the parent object, and another type to the folder, your recipients have the highest of those two types of access to documents within the folder<p>For example, if you share the parent object with View access, and the folder with Manage access, your recipients have Manage to the documents in the folder.</p><note type="note">
-   An attached document inherits permissions only from the object where it was attached. If you create a folder on the object and move the document into the folder, it inherits the folder's permissions. But, if you create a folder on a parent or grandparent object and move the document into that folder, it does not inherit that folder's permissions.
-  </note></li> 
-</ul>
+* If you grant your recipients View access to the parent object, they have View access to the folder.
+* If you grant your recipients Contribute or Manage access to the parent object, they have Manage access to the folder.
+* If you grant one type of access (View, Contribute, or Manage) to the parent object, and another type to the folder, your recipients have the highest of those two types of access to documents within the folder
+
+  For example, if you share the parent object with View access, and the folder with Manage access, your recipients have Manage to the documents in the folder.
+
+  >[!NOTE]
+  >
+  >An attached document inherits permissions only from the object where it was attached. If you create a folder on the object and move the document into the folder, it inherits the folder's permissions. But, if you create a folder on a parent or grandparent object and move the document into that folder, it does not inherit that folder's permissions.
 

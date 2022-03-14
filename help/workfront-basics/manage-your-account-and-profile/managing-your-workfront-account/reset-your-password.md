@@ -41,16 +41,21 @@ You must have the following access to perform the steps in this article:
 
 ## Reset your password in Adobe Workfront
 
-<ol> 
- <li value="1"> <p> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.</p>  </li> 
- <li value="2">Click the More menu , then click Edit.</li> 
- <li value="3"> <p>In theEdit Person box that displays, under <span class="bold">Personal Info</span>, click <span class="bold">Reset Password</span>.</p>  <p>If your organization has integrated Workfront with an SSO solution, you may be routed to reset your passwords through your SSO&nbsp;system when you click <span class="bold">Reset Password</span>.&nbsp;This resets your SSO password which affects logging in to all your other applications inside your organization.</p> </li> 
- <li value="4"> <p>Type your old password, then type the new password you want twice.</p> <p>Your password must be at least 8 characters and contain two of the following types of characters:</p> 
-  <ul> 
-   <li> <p>Letters</p> </li> 
-   <li> <p>Numbers</p> </li> 
-   <li> <p>Special characters (i.e. ! @ # $ % etc.)</p> </li> 
-  </ul> <p>Password rules might be more strict than this, depending on configuration settings set by your Workfront administrator.</p> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
+1. Click the More menu , then click Edit.
+1. In theEdit Person box that displays, under `Personal Info`, click `Reset Password`.
+
+   If your organization has integrated Workfront with an SSO solution, you may be routed to reset your passwords through your SSO system when you click `Reset Password`.&nbsp;This resets your SSO password which affects logging in to all your other applications inside your organization.
+
+1. Type your old password, then type the new password you want twice.
+
+   Your password must be at least 8 characters and contain two of the following types of characters:
+
+  * Letters
+  * Numbers
+  * Special characters (i.e. ! @ # $ % etc.)
+
+   Password rules might be more strict than this, depending on configuration settings set by your Workfront administrator.
+
+1. Click `Save Changes`.
 

@@ -37,28 +37,36 @@ You must have the following access to perform the steps in this article:
 
 ## Filter in a board
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <p>Access a board. For information, see <a href="../../agile/get-started-with-boards/create-edit-board.md" class="MCXref xref">Create or edit a board</a>.</p> </li> 
- <li value="3"> <p>Click the filter icon <img src="assets/filter-icon-spectrum-25x25.png" alt="Filter" style="width: 25;height: 25;"> and select <span class="bold">Archived cards</span> to display any archived cards. Select <span class="bold">Archived cards</span> again to display only active cards.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select `Archived cards` to display any archived cards. Select `Archived cards` again to display only active cards.
 
 <!--
 Search in a board
 -->
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <!--
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. 
+
+   <!--
    Access a board. For information, see Create or edit a board.
-  --> </li> 
- <li value="3"> <!--
+   -->
+
+1. 
+
+   <!--
    Click the search icon and type a search term. Then, press Enter.
-  --> <!--
+   -->
+
+   <!--
    The search locates all cards that contain the search term.
-  --> <!--
+   -->
+
+   <!--
    Click the X to clear the search.
-  --> <!--
-  --> </li> 
-</ol>
+   -->
+
+   <!--
+
+   -->
 

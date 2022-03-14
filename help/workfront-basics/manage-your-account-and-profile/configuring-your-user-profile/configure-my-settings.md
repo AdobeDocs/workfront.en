@@ -186,7 +186,15 @@ The following grid shows what sections in the My Settings area are visible&nbsp;
 ## Configuring the My Settings area
 
 1. Depending on your access level, you can update&nbsp;the following sections:
-1. `<li><a href="#personal-info" class="MCXref xref">Personal Info</a> </li>` `<li><a href="#preferences" class="MCXref xref">Preferences</a> </li>` `<li><a href="#notifications" class="MCXref xref">Notifications</a> </li>` `<li><a href="#access" class="MCXref xref">Access</a> </li>` `<li><a href="#organization" class="MCXref xref">Organization</a> </li>` `<li><a href="#resource-planning" class="MCXref xref">Resource Planning</a> </li>` `<li><a href="#custom-forms" class="MCXref xref">Custom Form</a> </li>` `<li><a href="#comment" class="MCXref xref">Comment</a> </li>` 
+
+  * [Personal Info](#personal-info) 
+  * [Preferences](#preferences) 
+  * [Notifications](#notifications) 
+  * [Access](#access) 
+  * [Organization](#organization) 
+  * [Resource Planning](#resource-planning) 
+  * [Custom Form](#custom-forms) 
+  * [Comment](#comment)
 
 1. Click Save.
 

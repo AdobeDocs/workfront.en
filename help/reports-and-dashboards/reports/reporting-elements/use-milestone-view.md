@@ -64,45 +64,60 @@ For information about how to switch to the Milestone view, see the section [Swit
 
 When viewing a project list or project report in the Milestone view, the following information&nbsp;is available:
 
-<ul> 
- <li><span class="bold">Planned Dates or Projected Dates:</span> Specify whether you want to display Planned Dates or Projected Dates in the Milestone view.<br>Dates are displayed for the Start and Completion, as well as for each Milestone within the Milestone Path.<br>If you are viewing Planned Dates and you also have Manage access to the project, you can edit the following dates directly from the Milestone view:&nbsp;(If you are viewing Projected Dates, the dates cannot be edited because Projected Dates are calculated and cannot be manually changed.)</li> 
- <ul> 
-  <li><span class="bold">Project Start Dates:</span> If a project is scheduled from the Start Date, you can manually change the Start Date of the project, and the Completion Date is then calculated.</li> 
-  <li><span class="bold">Project Completion Dates:</span> If a project is scheduled from the Completion Date, you can manually change the Completion Date of the project, and the Start Date is then calculated.</li> 
-  <li><span class="bold">Task Completion Dates:</span> You can manually update Completion&nbsp;for tasks directly from the Milestone view.</li> 
- </ul> 
- <li><span class="bold">Percent Complete:</span> Displays the completion percentage of each task and project.<br>You can disable the completion percentage from being displayed,&nbsp;as described in the section <a href="#configuring-whether-project-status-icons-and-percent-complete-are-displayed" class="MCXref xref">Configure what information displays in the Milestone view</a> in this article.<br>You can adjust the completion percentage directly from the Milestone view, as described in the section <a href="#adjusting-percent-complete-in-the-milestone-view" class="MCXref xref">Adjust Percent Complete for tasks in the Milestone view</a> in this article.</li> 
- <li><span class="bold">Task status icons:</span> A status icon is displayed next to each&nbsp;project and task in the Milestone view.<br> 
-  <ul> 
-   <li>On Time<br><img src="assets/gantt-ontime.png" alt=""></li> 
-   <li>Behind<br><img src="assets/gantt-behind.png" alt=""></li> 
-   <li>At Risk<br><img src="assets/gantt-atrisk.png" alt=""></li> 
-   <li>Late<br><img src="assets/gantt-late.png" alt=""></li> 
-  </ul><p>You can disable these status icons from being displayed, as described in the section <a href="#configuring-whether-project-status-icons-and-percent-complete-are-displayed" class="MCXref xref">Configure what information displays in the Milestone view</a> in this article.<br>For more detailed&nbsp;information about each status type, see the article <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</p></li> 
- <li><span class="bold">Task status shading for completed tasks</span>: After a task is marked Complete, the background of the task is shaded in the Milestone view to indicate whether the task was completed on time or late:</li> 
- <ul> 
-  <li><span class="bold">Red shading for task column</span>: The background of a task is red when the Progress Status is <span class="bold">Late</span>.</li> 
-  <li><span class="bold">Green shading for task column</span>: The background of a task is green when the Progress Status is <span class="bold">On Time</span>.</li> 
- </ul> 
- <li><span class="bold">Project status shading for the Project Start and Completion columns</span>: 
-  <ul> 
-   <li><span class="bold">Project Start Column</span>: The background of the Project Start column is red or green only when the Actual Start Date is populated: 
-    <ul> 
-     <li><span class="bold">Red shading for Project Start column</span>: The background of the Project Start column is red when the Progress Status of the project is&nbsp;<span class="bold">Late</span>.</li> 
-     <li><span class="bold">Green shading for Project Start column</span>: The background of the Project Start column&nbsp;is green when the Progress Status of the project is&nbsp;<span class="bold">On Time</span>.</li> 
-    </ul></li> 
-   <li><span class="bold">Project Completion column</span>: The background of the Project Completion column is red or green only when the Actual Completion Date is populated:<br> 
-    <ul> 
-     <li><span class="bold">Red Shading for Project Completion column</span>: The background of the Project Completion column is red when the Progress Status of the project is <span class="bold">Late</span>.</li> 
-     <li><span class="bold">Green shading for the Project Completion column</span>: The background of the Project Completion column is green when the Progress Status of the project is <span class="bold">On Time</span>.</li> 
-    </ul></li> <note type="note">
-    No color shading is assigned to the Start and Completion columns when the tasks have a Progress Status of At&nbsp;Risk or Behind. 
-   </note> 
-   <p><img src="assets/milestone-view-with-shading-350x97.png" alt="milestone_view_with_shading.png" style="width: 350;height: 97;"></p> 
-  </ul></li> 
- <li><span class="bold">Project name</span>: The project name is displayed with a link to the project.</li> 
- <li><span class="bold">Project Condition icon</span>: An icon is displayed next to the project name, indicating the condition of the project.</li> 
-</ul>
+* `Planned Dates or Projected Dates:` Specify whether you want to display Planned Dates or Projected Dates in the Milestone view.  
+  Dates are displayed for the Start and Completion, as well as for each Milestone within the Milestone Path.  
+  If you are viewing Planned Dates and you also have Manage access to the project, you can edit the following dates directly from the Milestone view:&nbsp;(If you are viewing Projected Dates, the dates cannot be edited because Projected Dates are calculated and cannot be manually changed.)
+
+  * `Project Start Dates:` If a project is scheduled from the Start Date, you can manually change the Start Date of the project, and the Completion Date is then calculated.
+  * `Project Completion Dates:` If a project is scheduled from the Completion Date, you can manually change the Completion Date of the project, and the Start Date is then calculated.
+  * `Task Completion Dates:` You can manually update Completion&nbsp;for tasks directly from the Milestone view.
+
+* `Percent Complete:` Displays the completion percentage of each task and project.  
+  You can disable the completion percentage from being displayed,&nbsp;as described in the section [Configure what information displays in the Milestone view](#configuring-whether-project-status-icons-and-percent-complete-are-displayed) in this article.  
+  You can adjust the completion percentage directly from the Milestone view, as described in the section [Adjust Percent Complete for tasks in the Milestone view](#adjusting-percent-complete-in-the-milestone-view) in this article.
+
+* `Task status icons:` A status icon is displayed next to each&nbsp;project and task in the Milestone view.
+
+  * On Time  
+    ![](assets/gantt-ontime.png)
+
+  * Behind  
+    ![](assets/gantt-behind.png)
+
+  * At Risk  
+    ![](assets/gantt-atrisk.png)
+
+  * Late  
+    ![](assets/gantt-late.png)
+
+  You can disable these status icons from being displayed, as described in the section [Configure what information displays in the Milestone view](#configuring-whether-project-status-icons-and-percent-complete-are-displayed) in this article.  
+  For more detailed&nbsp;information about each status type, see the article [Task Progress Status overview](../../../manage-work/tasks/task-information/task-progress-status.md).
+
+* `Task status shading for completed tasks`: After a task is marked Complete, the background of the task is shaded in the Milestone view to indicate whether the task was completed on time or late:
+
+  * `Red shading for task column`: The background of a task is red when the Progress Status is `Late`.
+  
+  * `Green shading for task column`: The background of a task is green when the Progress Status is `On Time`.
+
+* `Project status shading for the Project Start and Completion columns`:
+
+  * `Project Start Column`: The background of the Project Start column is red or green only when the Actual Start Date is populated:
+
+    * `Red shading for Project Start column`: The background of the Project Start column is red when the Progress Status of the project is  `Late`.
+    
+    * `Green shading for Project Start column`: The background of the Project Start column is green when the Progress Status of the project is  `On Time`.
+
+  * `Project Completion column`: The background of the Project Completion column is red or green only when the Actual Completion Date is populated:
+
+    * `Red Shading for Project Completion column`: The background of the Project Completion column is red when the Progress Status of the project is `Late`.
+    
+    * `Green shading for the Project Completion column`: The background of the Project Completion column is green when the Progress Status of the project is `On Time`.
+
+  * No color shading is assigned to the Start and Completion columns when the tasks have a Progress Status of At&nbsp;Risk or Behind. 
+  * ![milestone_view_with_shading.png](assets/milestone-view-with-shading-350x97.png)
+
+* `Project name`: The project name is displayed with a link to the project.
+* `Project Condition icon`: An icon is displayed next to the project name, indicating the condition of the project.
 
 ## Configure what information displays in the Milestone view
 
@@ -117,26 +132,29 @@ Any changes you make to these options apply only to you; other users are not aff
 
 To configure whether project status icons and completion percentage of projects display:
 
-<ol> 
- <li value="1">Go to the list of projects or to the project report&nbsp;that contains the milestones you want to view.</li> 
- <li value="2">Click the <span class="bold">View</span> drop-down menu, then click <span class="bold">Milestone</span>.<br>If you are viewing a list of projects inside a Portfolio or a Program, select the <span class="bold">Milestone</span> subtab.<br></li> 
- <li value="3">Click <span class="bold">Options</span>&nbsp;in the upper-right corner of the Milestone view.<br><img src="assets/milestone-view-options-350x141.png" alt="milestone_view_options.png" style="width: 350;height: 141;"></li> 
- <li value="4"> <p>Select from the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Progress Status</td> 
-     <td> <p>Select this option to display progress status icons next to each&nbsp;project and task.</p> <p>This option is enabled by default.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Percent Complete</td> 
-     <td> <p>Select this option to display the completion percentage next to each project and task.</p> <p>This option is enabled by default.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Go to the list of projects or to the project report&nbsp;that contains the milestones you want to view.
+1. Click the `View` drop-down menu, then click `Milestone`.  
+   If you are viewing a list of projects inside a Portfolio or a Program, select the `Milestone` subtab.  
+
+1. Click `Options`&nbsp;in the upper-right corner of the Milestone view.  
+   ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
+
+1. Select from the following options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Progress Status</td> 
+      <td> <p>Select this option to display progress status icons next to each&nbsp;project and task.</p> <p>This option is enabled by default.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Percent Complete</td> 
+      <td> <p>Select this option to display the completion percentage next to each project and task.</p> <p>This option is enabled by default.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Adjust Percent Complete for tasks in the Milestone view
 

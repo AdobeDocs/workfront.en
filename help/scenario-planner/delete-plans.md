@@ -61,11 +61,14 @@ You can delete a plan or you can delete one scenario in a plan.
 
 To delete a plan:
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then click&nbsp;Scenarios.</p> <p>A list of plans displays. </p> </li> 
- <li value="2">Click the name of a plan to open it.</li> 
- <li value="3"> <p>Click the <span class="bold">More menu</span> <img src="assets/more-menu.png"> to the right of the plan name, then click <span class="bold">Delete</span> > <span class="bold">Yes, delete it</span>.</p> <p>The plan is deleted and you return to the list of plans. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+
+   A list of plans displays. 
+
+1. Click the name of a plan to open it.
+1. Click the `More menu` ![](assets/more-menu.png) to the right of the plan name, then click `Delete` > `Yes, delete it`.
+
+   The plan is deleted and you return to the list of plans.
 
 ### Delete scenarios
 
@@ -84,12 +87,16 @@ To delete a plan:
 
 To delete a scenario:
 
-<ol> 
- <li value="1"> <p>Go to the plan for which you want to delete a scenario. </p> <p>By default, the Initial scenario displays.</p> </li> 
- <li value="2">Click <span class="bold">Compare scenarios</span>.</li> 
- <li value="3"> <p>From the upper-right corner of the scenario card, click the <span class="bold">More</span> menu <img src="assets/more-menu.png">, then click <span class="bold">Delete</span>. </p> <p>The scenario is deleted.</p> </li> 
- <li value="4">Click <span class="bold">Save plan</span> to save your changes. </li> 
-</ol>
+1. Go to the plan for which you want to delete a scenario.
+
+   By default, the Initial scenario displays.
+
+1. Click `Compare scenarios`.
+1. From the upper-right corner of the scenario card, click the `More` menu ![](assets/more-menu.png), then click `Delete`.
+
+   The scenario is deleted.
+
+1. Click `Save plan` to save your changes.
 
 <!--
 Delete initiatives Important: Consider the following when deleting initiatives: Deleting an initiative deletes the job roles and cost information from the initiative. When you delete an initiative that is published to a project, the initiative is removed from the scenario but the Scenario Planner area remains in the Project Details section. If the initiative you delete is the only published initiative on the scenario, the indicator that the plan has been published is also removed. For information about publishing initiatives to projects, see Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner. To delete an initiative: Click the Main Menu icon , then click Scenarios. A list of plans displays. Click the name of a plan to open it, then locate the initiative you want to delete. Click the More menu to the right of the initiative name, then click Delete > Yes, delete it. The initiative is deleted. Click Save Plan to save your changes.

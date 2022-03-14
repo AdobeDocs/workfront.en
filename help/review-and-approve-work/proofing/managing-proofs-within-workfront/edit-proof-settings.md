@@ -47,51 +47,49 @@ You must have the following access to perform the steps in this article:
 
 Some settings may be locked if your Workfront administrator disabled them at the account level.
 
-<ol> 
- <li value="1"> <p>Go to the project, task, or issue where you want the proof, then click the <span class="bold">Documents</span> tab.</p> </li> 
- <li value="2"> <p>Mouse over the proof, then click <span class="bold">Document Details</span>.</p> </li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Proofing Viewer Settings</span>. </p> </li> 
- <li value="4"> <p>Adjust the following settings:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Require login. This proof cannot be shared with guest users</td> 
-     <td> <p>If you require higher levels of security for your review and approval process, you can use require login to the proof. This means that only Workfront&nbsp;users can be added to the proof. They must enter their email and password before they can access it.</p> <note type="note">
-       <em style="font-style: normal;">If Login required is enabled, Subscriptions cannot be enabled.</em> 
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Require decisions to be electronically signed</td> 
-     <td> <p>You can require an electronic signature of any reviewer who makes a decision on the proof. When&nbsp;a reviewer makes a decision, a prompt appears asking them to input their email and password and to confirm their decision. <!--
-        For more information, see Understanding electronic signatures in Workfront Proof
-       --></p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Lock proof when all required decisions are made</td> 
-     <td> <p>You can set a proof state to lock when the final Approver makes their decision. This is useful if you want to make sure that your reviewers won't be able to go back to the proof and add additional comments or change their decisions.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Allow downloading the original file</td> 
-     <td> <p>You can allow reviewers on a proof to download the original file from which a proof was created. This is enabled by default.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Allow sharing proof via public URL or embed code</td> 
-     <td>You can allow users to share the proof with a public URL or embed code. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Allow subscribing to proof via public URL or embed code</td> 
-     <td> <p>Enabling subscription on the proof allows people who have not been added explicitly to the proof to subscribe themselves to the proof (i.e. add themselves to the proof). They will then be assigned the role and email alert that you select for them in the Subscription settings.</p> <p>If Subscription has been enabled on a proof, the fields below will become active:</p> 
-      <ul> 
-       <li><span class="bold">Subscriber validation required</span> - Subscriber must click a link in an email to access a proof<br>Selecting this option means that the person subscribing will not get immediate access to the proof, but will get a link to the proof in an email. The purpose of subscriber validation is to ensure that the person has entered a correct email address to which they have access.</li> 
-       <li><span class="bold">Default role for new subscribers -</span> This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
-       <li><span class="bold">Default email alert for new subscribers</span>&nbsp;- This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to the project, task, or issue where you want the proof, then click the `Documents` tab.
+1. Mouse over the proof, then click `Document Details`.
+1. In the left panel, click `Proofing Viewer Settings`. 
+1. Adjust the following settings:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Require login. This proof cannot be shared with guest users</td> 
+      <td> <p>If you require higher levels of security for your review and approval process, you can use require login to the proof. This means that only Workfront&nbsp;users can be added to the proof. They must enter their email and password before they can access it.</p> <p>Note: <em style="font-style: normal;">If Login required is enabled, Subscriptions cannot be enabled.</em> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Require decisions to be electronically signed</td> 
+      <td> <p>You can require an electronic signature of any reviewer who makes a decision on the proof. When&nbsp;a reviewer makes a decision, a prompt appears asking them to input their email and password and to confirm their decision. <!--
+         For more information, see Understanding electronic signatures in Workfront Proof
+        --></p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Lock proof when all required decisions are made</td> 
+      <td> <p>You can set a proof state to lock when the final Approver makes their decision. This is useful if you want to make sure that your reviewers won't be able to go back to the proof and add additional comments or change their decisions.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Allow downloading the original file</td> 
+      <td> <p>You can allow reviewers on a proof to download the original file from which a proof was created. This is enabled by default.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Allow sharing proof via public URL or embed code</td> 
+      <td>You can allow users to share the proof with a public URL or embed code. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Allow subscribing to proof via public URL or embed code</td> 
+      <td> <p>Enabling subscription on the proof allows people who have not been added explicitly to the proof to subscribe themselves to the proof (i.e. add themselves to the proof). They will then be assigned the role and email alert that you select for them in the Subscription settings.</p> <p>If Subscription has been enabled on a proof, the fields below will become active:</p> 
+       <ul> 
+        <li><span class="bold">Subscriber validation required</span> - Subscriber must click a link in an email to access a proof<br>Selecting this option means that the person subscribing will not get immediate access to the proof, but will get a link to the proof in an email. The purpose of subscriber validation is to ensure that the person has entered a correct email address to which they have access.</li> 
+        <li><span class="bold">Default role for new subscribers -</span> This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
+        <li><span class="bold">Default email alert for new subscribers</span>&nbsp;- This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Save`.
 
 &nbsp;

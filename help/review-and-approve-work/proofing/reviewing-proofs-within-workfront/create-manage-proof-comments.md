@@ -47,100 +47,108 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">(Conditional) If this is a video proof, play the video proof, then click<span class="bold"> Add comment</span> at the point in the video where you want the comment. (You can also pause the video, click in the time line where you want the comment, then click <span class="bold">Add comment</span>.)</li> 
- <p>Or</p> 
- <p>If you want to comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.<br></p> 
- <p> <img src="assets/playheads-in-video-timeline-350x76.png" alt="playheads_in_video_timeline.png" style="width: 350;height: 76;"> </p> 
- <p>For better precision, you can click the values above the playheads and type new values.<br></p> 
- <p> <img src="assets/click-above-playheads-to-type-values-350x79.png" alt="click_above_playheads_to_type_values.png" style="width: 350;height: 79;"></p> 
- <li value="4"> <p>Click <span class="bold">Add comment</span>. <br></p> <p> <img src="assets/add-comment-350x73.png" alt="Add_comment.png" style="width: 350;height: 73;"> </p> </li> 
- <li value="5"> <p>To draw attention to a specific location on the proof, click the markup tool you want in the toolbar that appears above the proof.<br></p> <p> <img src="assets/comment-markup-toobar-horizontal.png" alt="Comment_markup_toobar-horizontal.png"> </p> <p>You can hover over the tools to see the following descriptions:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Draw a freehand line</span> </td> 
-     <td>Lets you add a line on the selected area on the proof.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Draw an arrow</span> </td> 
-     <td>Lets you add an arrow to an area you select.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Highlight an area</span> </td> 
-     <td>Highlights the area you select.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Draw a rectangle</span> </td> 
-     <td>Lets you draw a rectangle around an area.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Polyline</span> </td> 
-     <td> <p>Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is especially useful for working with technical and architectural images.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Text</td> 
-     <td> <p>This tool appears on the left of the other tools when you open a proof containing text. </p> <p> <img src="assets/comment-tools-with-text-tool-appearing.png" alt="Comment_tools_with_text_tool_appearing.png"> </p> <p>It provides markup tools for commenting on text in proofs. (For a list of text file types supported for this tool, see <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a>.)<br></p> <p>When you click this tool and then select text on your proof, annotation options appear beneath the selected text:<br></p> <p>You can hover over the options to see descriptions for them.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6"> <p>(Optional) Click the square of color at the top of the viewer to display the markup color options, then use the options listed below to specify how the markup will look.</p> <p> <img src="assets/comment-color-tool-350x240.png" alt="Comment_color_tool.png" style="width: 350;height: 240;"> </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Set as default</span> </td> 
-     <td>(Available only for proofing license holders.) Sets the color, Opacity, and Thickness you select as the defaults for comment markup on all proofs, and marks the color&nbsp;with a star.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Opacity</span> </td> 
-     <td>Select the opacity level you want for your comment marks. A lower opacity level is more transparent; a higher opacity level is more opaque.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Thickness</span> </td> 
-     <td>Select the thickness of the comment marks, from 1 to 20 pixels.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="7">Mark the area of the proof that you want to comment on.</li> 
- <p>In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)</p> 
- <p>You can also mark multiple areas of an interactive proof as long as the areas are all on the same page. </p> 
- <li value="8">Type your comment in the <span class="bold">Add comment</span> box on the right.</li> 
- <li value="9"> <p><a name="@mention-in-comment"></a>(Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;</p> <p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> </li> 
- <li value="10"> (Optional) To attach&nbsp;a file to a comment, do either of the following: 
-  <ul> 
-   <li>Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.</li> 
-   <li>Drag a file from a&nbsp;location on your computer and drop it into the comment area.</li> 
-  </ul></li> 
- <li value="11">Click <span class="bold">Post</span>.</li> 
- <p>Adobe Workfront drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.<br></p> 
- <p> <img src="assets/pin-for-comment-350x179.png" alt="pin_for_comment.png" style="width: 350;height: 179;"> <br> </p> 
-</ol>
+1. (Conditional) If this is a video proof, play the video proof, then click `Add comment` at the point in the video where you want the comment. (You can also pause the video, click in the time line where you want the comment, then click `Add comment`.)
+
+1. Or
+1. If you want to comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.  
+1. ![playheads_in_video_timeline.png](assets/playheads-in-video-timeline-350x76.png)
+
+1. For better precision, you can click the values above the playheads and type new values.  
+1. ![click_above_playheads_to_type_values.png](assets/click-above-playheads-to-type-values-350x79.png)
+
+1. Click `Add comment`.
+
+   ![Add_comment.png](assets/add-comment-350x73.png)
+
+1. To draw attention to a specific location on the proof, click the markup tool you want in the toolbar that appears above the proof.
+
+   ![Comment_markup_toobar-horizontal.png](assets/comment-markup-toobar-horizontal.png)
+
+   You can hover over the tools to see the following descriptions:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Draw a freehand line</span> </td> 
+      <td>Lets you add a line on the selected area on the proof.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Draw an arrow</span> </td> 
+      <td>Lets you add an arrow to an area you select.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Highlight an area</span> </td> 
+      <td>Highlights the area you select.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Draw a rectangle</span> </td> 
+      <td>Lets you draw a rectangle around an area.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Polyline</span> </td> 
+      <td> <p>Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is especially useful for working with technical and architectural images.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Text</td> 
+      <td> <p>This tool appears on the left of the other tools when you open a proof containing text. </p> <p> <img src="assets/comment-tools-with-text-tool-appearing.png" alt="Comment_tools_with_text_tool_appearing.png"> </p> <p>It provides markup tools for commenting on text in proofs. (For a list of text file types supported for this tool, see <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a> in <a href="../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md" class="MCXref xref">Supported proofing file types and size limits overview</a>.)<br></p> <p>When you click this tool and then select text on your proof, annotation options appear beneath the selected text:<br></p> <p>You can hover over the options to see descriptions for them.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Click the square of color at the top of the viewer to display the markup color options, then use the options listed below to specify how the markup will look.
+
+   ![Comment_color_tool.png](assets/comment-color-tool-350x240.png)
+
+   | `Set as default`  |(Available only for proofing license holders.) Sets the color, Opacity, and Thickness you select as the defaults for comment markup on all proofs, and marks the color&nbsp;with a star. |
+   |---|---|
+   | `Opacity`  |Select the opacity level you want for your comment marks. A lower opacity level is more transparent; a higher opacity level is more opaque. |
+   | `Thickness`  |Select the thickness of the comment marks, from 1 to 20 pixels. |
+
+1. Mark the area of the proof that you want to comment on.
+1. In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
+1. You can also mark multiple areas of an interactive proof as long as the areas are all on the same page. 
+1. Type your comment in the `Add comment` box on the right.
+1. (Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;
+
+   For more information, see [Tag users to share a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
+
+1. (Optional) To attach&nbsp;a file to a comment, do either of the following:
+
+  * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
+  * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
+
+1. Click `Post`.
+1. Adobe Workfront drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.  
+1. ![pin_for_comment.png](assets/pin-for-comment-350x179.png)
 
 ## View comments
 
-<ol> 
- <li value="1">Open the proof where you want to view comments.</li> 
- <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="3"> <p>(Optional) Use the <span class="bold">Previous comment</span> and <span class="bold">Next comment</span> buttons on the right edge of the screen to navigate forward and back through comments.</p> <p> <img src="assets/prev-commt-next-commnt-350x224.png" style="width: 350;height: 224;"> <br> </p> </li> 
- <li value="4"> Click any comment to view the comment marks on the proof.</li> 
- <p>&nbsp;Or</p> 
- <p>&nbsp;In a video proof, hover over the point in the timeline where a comment was made, then click the numbered balloon that appears. <br></p> 
- <p> <img src="assets/proof-comment-video-350x190.png" alt="proof_comment_video.png" style="width: 350;height: 190;"> </p> 
- <p>Each comment displays the following information: 
-  <ul> 
-   <li>Name of the user who made the comment</li> 
-   <li>The page number where the comment was made (in static proofs containing more than one page)</li> 
-   <li><p>The frame number or range of footage where the comment was made (in video proofs)</p><p>If the comment you are viewing was applied to a range of video footage, you can click the Play button to review the range.</p></li> 
-   <li>Text included with the comment</li> 
-   <li>Any attachments that were uploaded to the comment</li> 
-  </ul></p> 
- <li value="5">(Optional) To adjust the size of the comment list, hover over the left edge of the comment area (not on the comment that is currently open) until the mouse pointer changes for horizontal resizing, then drag the edge where you want it.</li> 
- <p> <img src="assets/resize-comment-area-mouse.png" alt="resize_comment_area-mouse.png"> <br> </p> 
-</ol>
+1. Open the proof where you want to view comments.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. (Optional) Use the `Previous comment` and `Next comment` buttons on the right edge of the screen to navigate forward and back through comments.
+
+   ![](assets/prev-commt-next-commnt-350x224.png)
+
+1. Click any comment to view the comment marks on the proof.
+1. &nbsp;Or
+1. &nbsp;In a video proof, hover over the point in the timeline where a comment was made, then click the numbered balloon that appears.   
+1. ![proof_comment_video.png](assets/proof-comment-video-350x190.png)
+
+1. Each comment displays the following information:
+
+  * Name of the user who made the comment
+  * The page number where the comment was made (in static proofs containing more than one page)
+  * The frame number or range of footage where the comment was made (in video proofs)
+
+    If the comment you are viewing was applied to a range of video footage, you can click the Play button to review the range.
+  
+  * Text included with the comment
+  * Any attachments that were uploaded to the comment
+
+1. (Optional) To adjust the size of the comment list, hover over the left edge of the comment area (not on the comment that is currently open) until the mouse pointer changes for horizontal resizing, then drag the edge where you want it.
+1. ![resize_comment_area-mouse.png](assets/resize-comment-area-mouse.png)
 
 ## View comments on the Updates tab in Workfront
 
@@ -187,94 +195,100 @@ You can also reply to a proof comment from the Updates area for the document.
 
 You can filter the comments that display by defining filter parameter such as user, actions, unread status, and more.
 
-<ol> 
- <li value="1">Open the proof where you want to filter comments.</li> 
- <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="3"> <p>In the comments area, click the <span class="bold">Filter</span> icon.<br></p> <p> <img src="assets/proof-comment-filter.png" alt="proof_comment_filter.png"> </p> </li> 
- <li value="4"> <p>Use the options that appear below the <span class="bold">Filter</span> icon to filter the comments by any of the following criteria:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Authors</span> </td> 
-     <td>Displays only comments and comment replies made by users you specify. Begin typing the name of any user, then select the user you want from the list that appears. The number of comments added by the users you specify displays next to their names.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Actions</span> </td> 
-     <td>(if Actions are enabled in your system): Displays only comments that match the action you select. A number displayed to the right of an action indicates how many comments are associated with that action. The option <span class="bold">Unactioned</span> allows you to display only comments that contain no action.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">General filtering options</span> </td> 
-     <td> 
-      <ul> 
-       <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
-       <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
-       <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
-       <li><span class="bold">Current page only</span>:&nbsp;(Available only for static and interactive proofs.) Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.</li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Apply</span>&nbsp;or click the <span class="bold">Filter</span> icon to view the comment list with your filter criteria applied.</li> 
- <p>The list is filtered, and the Filter icon displays swith a blue dot to indicate that a filter is applied.</p> 
- <p> <img src="assets/proof-comment-filtered-350x212.png" alt="proof_comment_filtered.png" style="width: 350;height: 212;"> </p> 
- <li value="6">When you are finished filtering and you want to see all the comments, click the <span class="bold">Filter</span> icon, click <span class="bold">Reset</span>, then click the <span class="bold">Filter</span> icon again.</li> 
-</ol>
+1. Open the proof where you want to filter comments.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. In the comments area, click the `Filter` icon.
+
+   ![proof_comment_filter.png](assets/proof-comment-filter.png)
+
+1. Use the options that appear below the `Filter` icon to filter the comments by any of the following criteria:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Authors</span> </td> 
+      <td>Displays only comments and comment replies made by users you specify. Begin typing the name of any user, then select the user you want from the list that appears. The number of comments added by the users you specify displays next to their names.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Actions</span> </td> 
+      <td>(if Actions are enabled in your system): Displays only comments that match the action you select. A number displayed to the right of an action indicates how many comments are associated with that action. The option <span class="bold">Unactioned</span> allows you to display only comments that contain no action.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">General filtering options</span> </td> 
+      <td> 
+       <ul> 
+        <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
+        <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
+        <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
+        <li><span class="bold">Current page only</span>:&nbsp;(Available only for static and interactive proofs.) Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.</li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Apply` or click the `Filter` icon to view the comment list with your filter criteria applied.
+
+1. The list is filtered, and the Filter icon displays swith a blue dot to indicate that a filter is applied.
+1. ![proof_comment_filtered.png](assets/proof-comment-filtered-350x212.png)
+
+1. When you are finished filtering and you want to see all the comments, click the `Filter` icon, click `Reset`, then click the `Filter` icon again.
 
 ## Sort the comment list
 
 When you sort the comment list, the sort option you choose is remembered the next time you open a proof in the proofing viewer you are using.
 
-<ol> 
- <li value="1">Open the proof where you want to sort comments.</li> 
- <li value="2">If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.<br></li> 
- <li value="3">Click the sorting&nbsp;menu to open it.</li> 
- <p> <img src="assets/mceclip3.png"> <br> </p> 
- <li value="4"> <p> Select one of the following sort options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Latest</td> 
-     <td>Displays the most recent comments at the top of the comment list.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Oldest</td> 
-     <td>Displays the oldest comments at the top of the comment list (default).</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Creator A-Z</td> 
-     <td>Displays comments grouped by the user who created the comment, listed in alphabetical order.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Creator Z-A</td> 
-     <td>Displays comments grouped by the user who created the comment, listed in reverse alphabetical order.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Page (down, up)</td> 
-     <td>(Available only for static proofs.) Displays comments in order of when they appear in relation to the page number or video timeline.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Timestamp (down)</td> 
-     <td>(Available only for video proofs.) Displays comments in order of when they appear in relation to the video timeline. Comments made later in the timeline display&nbsp;first.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Timestamp (up)</td> 
-     <td>(Available only for video proofs.) Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Device (up)</span> </td> 
-     <td>(Available only for interactive proofs.) Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Device (down)</td> 
-     <td> <p>(Available only for interactive proofs.) Displays comments in order according to the resolution selected when the comment was made. Comments made on higher resolutions display first.</p> <p>For information about changing the resolution in an interactive proof, see&nbsp;<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Open the proof where you want to sort comments.
+1. If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+
+1. Click the sorting&nbsp;menu to open it.
+1. ![](assets/mceclip3.png)   
+
+1. Select one of the following sort options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Latest</td> 
+      <td>Displays the most recent comments at the top of the comment list.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Oldest</td> 
+      <td>Displays the oldest comments at the top of the comment list (default).</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Creator A-Z</td> 
+      <td>Displays comments grouped by the user who created the comment, listed in alphabetical order.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Creator Z-A</td> 
+      <td>Displays comments grouped by the user who created the comment, listed in reverse alphabetical order.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Page (down, up)</td> 
+      <td>(Available only for static proofs.) Displays comments in order of when they appear in relation to the page number or video timeline.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Timestamp (down)</td> 
+      <td>(Available only for video proofs.) Displays comments in order of when they appear in relation to the video timeline. Comments made later in the timeline display&nbsp;first.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Timestamp (up)</td> 
+      <td>(Available only for video proofs.) Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Device (up)</span> </td> 
+      <td>(Available only for interactive proofs.) Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Device (down)</td> 
+      <td> <p>(Available only for interactive proofs.) Displays comments in order according to the resolution selected when the comment was made. Comments made on higher resolutions display first.</p> <p>For information about changing the resolution in an interactive proof, see&nbsp;<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Edit a comment
 
@@ -291,18 +305,19 @@ When you edit a comment, the time the comment was made is not affected.
 
 To edit a comment:
 
-<ol> 
- <li value="1">Open the proof containing the comment that you want to edit.</li> 
- <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="3">Hover over the comment you want to edit, click the <span class="bold">More</span> (three dots) icon that appears, then click <span class="bold">Edit</span> in the drop-down menu.</li> 
- <p> <img src="assets/edit-a-comment-more-icon.png" alt="Edit_a_comment-More_icon.png"> </p> 
- <li value="4"> <p>Make any changes in the comment, then click <span class="bold">Post</span>.</p> 
-  <div> 
-   <p>The label "Edited" appears on the comment. When a reviewer mouses over this, your name and the date and time of the changes appear. If you edit the comment more than once, this information appears only for the most recent change.</p> 
-   <p> <img src="assets/comments-edited-label-350x211.png" alt="Comments-Edited_label.png" style="width: 350;height: 211;"> </p> 
-   <p>This label also appears above the comment when you select the document in the Documents area and view the <span class="bold">Updates</span> tabin the Summary.</p>  
-  </div> </li> 
-</ol>
+1. Open the proof containing the comment that you want to edit.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. Hover over the comment you want to edit, click the `More` (three dots) icon that appears, then click `Edit` in the drop-down menu.
+
+1. ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
+
+1. Make any changes in the comment, then click `Post`.
+
+   The label "Edited" appears on the comment. When a reviewer mouses over this, your name and the date and time of the changes appear. If you edit the comment more than once, this information appears only for the most recent change.
+
+   ![Comments-Edited_label.png](assets/comments-edited-label-350x211.png)
+
+   This label also appears above the comment when you select the document in the Documents area and view the `Updates` tabin the Summary.
 
 ## Resolve a comment
 
@@ -344,12 +359,12 @@ For more information, see [Use actions on proof comments](../../../review-and-ap
 
 As a reviewer of a proof, you can quickly mark all comments as Read.
 
-<ol> 
- <li value="1">Open the proof containing the comments you want to mark as Read.</li> 
- <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.<br></li> 
- <li value="3">Above the comment list, click the <span class="bold">More</span> (three dots) icon, then click <span class="bold">Mark all as read</span>.</li> 
- <p> <img src="assets/mceclip8-350x173.png" style="width: 350;height: 173;"> </p> 
-</ol>
+1. Open the proof containing the comments you want to mark as Read.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+
+1. Above the comment list, click the `More` (three dots) icon, then click `Mark all as read`.
+
+1. ![](assets/mceclip8-350x173.png)
 
 ## Delete a comment or reply
 
@@ -366,12 +381,13 @@ After a comment is deleted, the system logs an&nbsp;entry in the proof activity 
 
 To delete a comment or reply:
 
-<ol> 
- <li value="1">Open the proof containing the comment or reply that you want to delete.</li> 
- <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="3"> <p>Select the comment or reply, then click the <span class="bold">More</span> (three dots) icon.<br></p> <p> <img src="assets/phq-viewer-comment-edit.png" alt="phq_viewer_comment_edit.png"> </p> </li> 
- <li value="4">Click <span class="bold">Delete</span> ><span class="bold"> Yes, delete it</span>.</li> 
-</ol>
+1. Open the proof containing the comment or reply that you want to delete.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. Select the comment or reply, then click the `More` (three dots) icon.
+
+   ![phq_viewer_comment_edit.png](assets/phq-viewer-comment-edit.png)
+
+1. Click `Delete` > `Yes, delete it`.
 
 ## Receive email notifications about comments
 

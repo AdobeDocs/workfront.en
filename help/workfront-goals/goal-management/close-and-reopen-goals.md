@@ -70,17 +70,35 @@ You must have the following before you can start:
 
 ## Close goals
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of Workfront.</p> <p>The Goal List opens. </p> </li> 
- <li value="2"> <p>(Optional) Modify your filters to display only goals that are active. </p> <p>For information about filtering information in Workfront Goals, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li> 
- <li value="3"> <p>Click an active goal.</p> <p>The Goal Details panel displays on the right. </p> </li> 
- <li value="4">(Optional and recommended) Click the <span class="bold">Updates</span> tab and add an update in the <span class="bold">Comment here</span> field about the reason you are closing the goal, then click <span class="bold">Post</span>. </li> 
- <li value="5"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png"></span> to the right of the goal name, then click <span class="bold">Close</span> > <span class="bold">Close Goal</span>. </p> <p>This closes the goal and saves the current progress on the goal and its results and activities. </p> <note type="important"> 
-   <p>If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.</p> 
-   <p> <img src="assets/closing-goals-with-active-aligned-goals-warning-350x71.png" style="width: 350;height: 71;"> </p> 
-  </note> </li> 
- <li value="6">(Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of Workfront.
+
+   The Goal List opens. 
+
+1. (Optional) Modify your filters to display only goals that are active.
+
+   For information about filtering information in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md). 
+
+1. Click an active goal.
+
+   The Goal Details panel displays on the right. 
+
+1. (Optional and recommended) Click the `Updates` tab and add an update in the `Comment here` field about the reason you are closing the goal, then click `Post`. 
+
+1. Click the ` `More icon` ![](assets/more-icon.png)
+
+   ` to the right of the goal name, then click `Close` > `Close Goal`.
+
+   This closes the goal and saves the current progress on the goal and its results and activities.
+
+   >[!IMPORTANT]
+   >
+   >If the goal has contributing goals that are still active, the progress of the goal continues to update based on the progress of the aligned goals.
+   >
+   >
+   >![](assets/closing-goals-with-active-aligned-goals-warning-350x71.png)   >
+   >
+
+1. (Optional) Modify your filters again to display only closed goals. The goals you closed display on the screen.
 
 ## Reopen goals
 
@@ -90,11 +108,25 @@ You can reopen closed goals if you decided that they have become relevant again 
 >
 >`You can reopen closed goals from a past period.`
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of Workfront.</p> <p>The Goal List opens. </p> </li> 
- <li value="2"> <p>(Optional) Modify your filters to display only goals that are closed. </p> <p>For information about filtering information in Workfront Goals, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> <p>Only closed goals display in the Goal List. </p> </li> 
- <li value="3"> <p>Click a closed goal.</p> <p>This opens the Goal Details panel. </p> </li> 
- <li value="4"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png"></span> to the right of the goal name, then click <span class="bold">Reopen</span>><span class="bold">Reopen</span>.</p> <p>This reopens the goal in a status of Active. The progress of the goal is recalculated starting with the current date. </p> </li> 
- <li value="5">(Optional) Modify your filters again to display only active goals. The goals you opened display on the screen. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of Workfront.
+
+   The Goal List opens. 
+
+1. (Optional) Modify your filters to display only goals that are closed.
+
+   For information about filtering information in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+
+   Only closed goals display in the Goal List. 
+
+1. Click a closed goal.
+
+   This opens the Goal Details panel. 
+
+1. Click the ` `More icon` ![](assets/more-icon.png)
+
+   ` to the right of the goal name, then click `Reopen`> `Reopen`.
+
+   This reopens the goal in a status of Active. The progress of the goal is recalculated starting with the current date. 
+
+1. (Optional) Modify your filters again to display only active goals. The goals you opened display on the screen.
 

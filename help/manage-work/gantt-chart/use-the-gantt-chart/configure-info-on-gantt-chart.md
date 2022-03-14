@@ -109,13 +109,14 @@ The following table details the display options for the Gantt chart:
 
 ## Configure Display Options
 
-<ol> 
- <li value="1">Go to the Task List Gantt Chart or the Project List Gantt Chart.<br>For more information on where the either Gantt chart is located, see <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md" class="MCXref xref">Get started with the Gantt Chart</a>.</li> 
- <li value="2">(Optional) Select the&nbsp;<span class="bold">Switch to Projected Dates</span>&nbsp;setting to display the tasks by their Projected Dates. By default, tasks are displayed by their Planned Dates in the Gantt chart.</li> 
- <li value="3">Click&nbsp;the options icon to display the&nbsp;<span class="bold">Options</span>&nbsp;dialog box.<br><img src="assets/options-350x72.png" alt="Options.png" style="width: 350;height: 72;"></li> 
- <li value="4">Select the configuration options&nbsp;that you want to display in the Gantt chart.</li> <note type="note">
-  Not all of the configuration options are available in the Project List Gantt Chart.
- </note> 
- <li value="5">Click anywhere in the Gantt chart to close the&nbsp;<span class="bold">Options</span>&nbsp;dialog box.&nbsp;</li> 
-</ol>
+1. Go to the Task List Gantt Chart or the Project List Gantt Chart.  
+   For more information on where the either Gantt chart is located, see [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
+
+1. (Optional) Select the  `Switch to Projected Dates`&nbsp;setting to display the tasks by their Projected Dates. By default, tasks are displayed by their Planned Dates in the Gantt chart.
+1. Click the options icon to display the  `Options`&nbsp;dialog box.  
+   ![Options.png](assets/options-350x72.png)
+
+1. Select the configuration options&nbsp;that you want to display in the Gantt chart.
+1. Not all of the configuration options are available in the Project List Gantt Chart.
+1. Click anywhere in the Gantt chart to close the  `Options`&nbsp;dialog box.&nbsp;
 

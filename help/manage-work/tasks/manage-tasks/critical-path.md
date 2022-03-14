@@ -13,20 +13,22 @@ Determining the Critical Path of a project is an automatic way for Adobe Workfro
 
 The following features can impact the Critical Path of a project:
 
-<ul> 
- <li> <p>The Work Breakdown Structure of the project.</p> <p>For more information about Work Breakdown Structure, see <a href="../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md" class="MCXref xref">Determine Work Breakdown Structure in a project </a></p> </li> 
- <li>The time (duration) that each task will take to complete.</li> 
- <li> <p>The dependencies between the tasks.</p> <p>Consider the following:</p> 
-  <ul> 
-   <li> <p>When a task on the Critical Path has a predecessor relationship, its predecessors and successors are also on the Critical Path if the changes on dates of the predecessors or the successors directly impact their dependents. </p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-     <span class="autonumber"><span><b>Tip: </b></span></span> 
-     <p>When the date of the successor of a task does not directly impact the date of their dependent tasks and it does not impact the dates of the project, the successor task is not on the Critical Path. </p> 
-     <p> <img src="assets/successor-not-on-critical-path-350x150.png" style="width: 350;height: 150;"> </p> 
-    </div> </li> 
-   <li> <p>When a subtask is identified as a Critical Path task, the parent task is also identified as a Critical Path task, if the Projected Start Date and time of the parent is the same as that of the subtask.</p> </li> 
-  </ul> </li> 
-</ul>
+* The Work Breakdown Structure of the project.
+
+  For more information about Work Breakdown Structure, see [Determine Work Breakdown Structure in a project](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+
+* The time (duration) that each task will take to complete.
+* The dependencies between the tasks.
+
+  Consider the following:
+
+  * When a task on the Critical Path has a predecessor relationship, its predecessors and successors are also on the Critical Path if the changes on dates of the predecessors or the successors directly impact their dependents. 
+  
+    ` `**Tip: **`` When the date of the successor of a task does not directly impact the date of their dependent tasks and it does not impact the dates of the project, the successor task is not on the Critical Path.
+
+    ![](assets/successor-not-on-critical-path-350x150.png)
+
+  * When a subtask is identified as a Critical Path task, the parent task is also identified as a Critical Path task, if the Projected Start Date and time of the parent is the same as that of the subtask.
 
 Taking these features into consideration, the system calculates the Critical Path by using the longest path between the earliest task and the task that determines the end of the project. The Critical Path Calculation takes into account what is the earliest and latest time that each task can start and finish by without making the project longer. This process determines which tasks are "critical" (and belong to the longest path) and which ones have "total float" (can be delayed without making the project longer).
 
@@ -72,12 +74,17 @@ You can view the tasks that belong to the Critical Path in the following areas o
 
 To view tasks on the Critical Path in the Gantt chart:
 
-<ol> 
- <li value="1">Go to a project for which you want to view the Critical Path.</li> 
- <li value="2"> Click Tasks in the left panel. </li> 
- <li value="3"> <p>Click the <span class="bold">Gantt Chart</span> icon in the upper-right corner of the task list.</p> <p> <img src="assets/gantt-chart-icon--1-.png" alt="gantt_chart_icon__1_.png"> <br> </p> </li> 
- <li value="4"> <p>Expand the <span class="bold">Options</span> menu, then enable the <span class="bold">Critical Path</span> option.</p> <p>The tasks that are on the Critical Path have a red line above their timeline in the Gantt chart. </p> <p> <img src="assets/crtitical-path-on-gantt--1--350x137.png" alt="crtitical_path_on_gantt__1_.png" style="width: 350;height: 137;"> <br> </p> </li> 
-</ol>
+1. Go to a project for which you want to view the Critical Path.
+1. Click Tasks in the left panel. 
+1. Click the `Gantt Chart` icon in the upper-right corner of the task list.
+
+   ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
+
+1. Expand the `Options` menu, then enable the `Critical Path` option.
+
+   The tasks that are on the Critical Path have a red line above their timeline in the Gantt chart.
+
+   ![crtitical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
 ### View the Critical Path in a task list or report
 

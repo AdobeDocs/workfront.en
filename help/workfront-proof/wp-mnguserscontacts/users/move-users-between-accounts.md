@@ -17,18 +17,21 @@ If you are a Workfront Proof administrator and you have one or more&nbsp;satelli
 
 ## Moving Users Between Connected Accounts
 
-<ol> 
- <li value="1">Click <span class="bold">Settings</span> > <span class="bold">Account settings</span>.</li> 
- <li value="2">Open the <span class="bold">Users</span> tab.</li> 
- <li value="3">Click the <span class="bold">Move user</span>&nbsp;icon (1). <img src="assets/move-user2-350x95.png" alt="Move_user2.png" style="width: 350;height: 95;"></li> 
- <li value="4">In&nbsp;the Move user box that appears, confirm the&nbsp;user you want to move (1).</li> 
- <li value="5">Select a destination account from&nbsp;the connected accounts list (2).</li> 
- <li value="6">Assign the&nbsp;profile permission (3) that&nbsp;this user should have on the new account.</li> 
- <li value="7">Select a user (4) who should take ownership of&nbsp;the items that won't be moved. <br>This includes the items that you will decide to leave on the old account and the items that can't be moved (see <a href="https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved">Items That Can't Be Moved</a> below).</li> 
- <li value="8">Check the checkboxes if you want to move the proofs (5)&nbsp;and files (6)&nbsp;along with the user.</li> 
- <li value="9">Create a name for the folder (7) in which all the moved items will be placed on the new account.</li> 
- <li value="10">Click <span class="bold">Move user</span> (8) to start the&nbsp;process.<br><img src="assets/moving-users-pop-up-350x380.png" alt="Moving_users_pop-up.png" style="width: 350;height: 380;"></li> 
-</ol>
+1. Click `Settings` > `Account settings`.
+
+1. Open the `Users` tab.
+1. Click the `Move user`&nbsp;icon (1). ![Move_user2.png](assets/move-user2-350x95.png)
+
+1. In&nbsp;the Move user box that appears, confirm the&nbsp;user you want to move (1).
+1. Select a destination account from&nbsp;the connected accounts list (2).
+1. Assign the&nbsp;profile permission (3) that&nbsp;this user should have on the new account.
+1. Select a user (4) who should take ownership of&nbsp;the items that won't be moved.   
+   This includes the items that you will decide to leave on the old account and the items that can't be moved (see [Items That Can't Be Moved](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can't-be-moved) below).
+
+1. Check the checkboxes if you want to move the proofs (5)&nbsp;and files (6)&nbsp;along with the user.
+1. Create a name for the folder (7) in which all the moved items will be placed on the new account.
+1. Click `Move user` (8) to start the&nbsp;process.  
+   ![Moving_users_pop-up.png](assets/moving-users-pop-up-350x380.png)
 
 If you choose to move the user without their proofs and files then this action will be performed straight&nbsp;away. If you choose to move the user along with their proofs and files, the user's profile will be reassigned straight&nbsp;away, but the proofs and files will be gradually appearing on the destination account as this operation requires time to transfer the data.
 

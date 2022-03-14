@@ -57,16 +57,20 @@ We recommend that you create Topic Groups before you create a Queue Topic. Howev
 
 To create a Topic Group:
 
-<ol> 
- <li value="1"> Go to the project that you published as a Help Request Queue.<br>For more information about publishing a project as a Help Request Queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</li> 
- <li value="2"> Click Topic Groups in the left panel. You might need to click Show More, then Topic Groups. </li> 
- <li value="3"> Click <span class="bold">New Topic Group</span>.<br><img src="assets/10-350x170.png" alt="" style="width: 350;height: 170;"></li> 
- <li value="4"> Specify the following information: 
-  <ul>
-   <li><span class="bold">Name</span>: The name is visible to users who submit requests to this request queue. </li>
-   <li><span class="bold">Description</span>: The description displays when users select the topic group in the process of submitting a new request. </li>
-   <li><span class="bold">Add to Topic Group</span>: You can add the new Topic Group to an existing Topic Group, or you can add it directly to the project published as a Help Request Queue. </li>
-  </ul></li> 
- <li value="5"> Click <span class="bold">Save</span>.<br>This creates a new Topic Group in your Request Queue. You can now select additional categories from the first drop-down menu under a Request Queue.<br>For more information about submitting requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>.</li> 
-</ol>
+1. Go to the project that you published as a Help Request Queue.  
+   For more information about publishing a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+1. Click Topic Groups in the left panel. You might need to click Show More, then Topic Groups. 
+1. Click `New Topic Group`.  
+   ![](assets/10-350x170.png)
+
+1. Specify the following information:
+
+  * `Name`: The name is visible to users who submit requests to this request queue. 
+  * `Description`: The description displays when users select the topic group in the process of submitting a new request. 
+  * `Add to Topic Group`: You can add the new Topic Group to an existing Topic Group, or you can add it directly to the project published as a Help Request Queue.
+
+1. Click `Save`.  
+   This creates a new Topic Group in your Request Queue. You can now select additional categories from the first drop-down menu under a Request Queue.  
+   For more information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 

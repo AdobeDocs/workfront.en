@@ -61,27 +61,32 @@ In order to get the best data for your projects, use templates that have accurat
 >
 >Some of the following fields are calculations that Workfront performs based on information that users input. You cannot manually update these fields.
 
-<ul> 
- <li> <p>Planned Hours</p> <p>This is the most important field to fill out.</p> <note type="note">
-   If your teams don't use planned hours, you can still see some data based on project duration.
-   <br>For more information, see the section 
-   <a href="#duration" class="MCXref xref">Duration view</a> in this article.
-  </note> </li> 
- <li> <p>Project Name</p> <p>The name should be descriptive of the project.</p> </li> 
- <li> <p>Project Condition</p> </li> 
- <li> <p>Project Status</p> </li> 
- <li> <p>Project Planned Start Date</p> </li> 
- <li> <p>Planned Completion Date</p> </li> 
- <li> <p>Project Actual Start Date</p> </li> 
- <li> <p>Project Actual End Date</p> </li> 
- <li> <p>Project Duration Hours</p> </li> 
- <li> <p>Project Actual Hours</p> </li> 
- <li> <p>Task Status (This includes marking tasks Completed.)</p> </li> 
- <li> <p>Task Name</p> </li> 
- <li> <p>Task Percent Complete</p> </li> 
- <li> <p>Task Planned Start Date</p> </li> 
- <li> <p>Task Planned Completion Date</p> </li> 
-</ul>
+* Planned Hours
+
+  This is the most important field to fill out.
+
+  >[!NOTE]
+  >
+  >If your teams don't use planned hours, you can still see some data based on project duration.  
+  >For more information, see the section [Duration view](#duration) in this article.
+
+* Project Name
+
+  The name should be descriptive of the project.
+
+* Project Condition
+* Project Status
+* Project Planned Start Date
+* Planned Completion Date
+* Project Actual Start Date
+* Project Actual End Date
+* Project Duration Hours
+* Project Actual Hours
+* Task Status (This includes marking tasks Completed.)
+* Task Name
+* Task Percent Complete
+* Task Planned Start Date
+* Task Planned Completion Date
 
 >[!IMPORTANT]
 >
@@ -93,20 +98,22 @@ By default, the Burndown and Project treemap visualizations are based on planned
 
 In Enhanced analytics, the duration of a project is calculated by the following formulas:
 
-<ul> 
- <li> <p>Planned Timeframe: <code>Planned Completion Date of the project - Start Date of the project</code></p> </li> 
- <li> <p>Days Worked: <code>Planned Duration for tasks completed in the selected date range / Typical hours per work day</code></p> <note type="note">
-   8 hours is the default number for 
-   <b>Typical hours per work day</b>. A Adobe Workfront administrator can update the 
-   <b>Typical hours per work day</b> setting under 
-   <b>Setup</b> > 
-   <b>Project Preferences</b> > 
-   <b>Projects</b> > 
-   <b>Timelines</b>.
-   <br>To learn more, see 
-   <a href="../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.
-  </note> </li> 
-</ul>
+* Planned Timeframe: 
+
+  ```
+  Planned Completion Date of the project - Start Date of the project
+  ```
+
+* Days Worked: 
+
+  ```
+  Planned Duration for tasks completed in the selected date range / Typical hours per work day
+  ```
+
+  >[!NOTE]
+  >
+  >8 hours is the default number for **Typical hours per work day**. A Adobe Workfront administrator can update the **Typical hours per work day** setting under **Setup** > **Project Preferences** > **Projects** > **Timelines**.  
+  >To learn more, see [Configure system-wide project preferences](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 For information on Planned Duration, see [Overview of project Duration](../manage-work/projects/planning-a-project/project-duration.md).
 

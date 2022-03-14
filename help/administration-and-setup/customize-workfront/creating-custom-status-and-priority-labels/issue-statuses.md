@@ -42,11 +42,13 @@ You can access and modify system-level issue&nbsp;statuses. You can edit some in
 
 To access system-level issue statuses:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
- <li value="3"> <p>Click the <span class="bold">Issues</span> tab to see the issue statuses available in Workfront.</p> <p> <img src="assets/issue-status-350x212.png" style="width: 350;height: 212;"> </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Project Preferences` > `Statuses`.
+
+1. Click the `Issues` tab to see the issue statuses available in Workfront.
+
+   ![](assets/issue-status-350x212.png)
 
 ## System issue statuses
 

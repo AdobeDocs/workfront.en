@@ -35,11 +35,19 @@ Or are you only interested in results pertaining to Workfront Fusion? Select tha
 >
 >You must be logged in to Workfront One to access this feature.
 
-<ol> 
- <li value="1"> <p>On the search results page, make sure that the <span class="bold">Personalized Search Results</span> toggle is enabled, then click <span class="bold">Edit Preferences</span>.</p> <p> <img src="assets/editpref-350x152.png" style="width: 350;height: 152;"> </p> </li> 
- <li value="2"> <p>Click the <span class="uitext">Search Preferences</span> tab.</p> <p> <img src="assets/search-preferences-tab-350x224.png" style="width: 350;height: 224;"> </p> </li> 
- <li value="3"> <p>Enable any options that you want to see prioritized in your search results. </p> <p>For example, if you enable <span class="uitext">Workfront Classic</span> in the <span class="uitext">Version</span> section, the main link of each search result will display articles for Workfront Classic, and users will have to click the subordinate link of each result to view documentation for the new Workfront experience.</p> <p>Your changes are saved automatically.</p> </li> 
-</ol>
+1. On the search results page, make sure that the `Personalized Search Results` toggle is enabled, then click `Edit Preferences`.
+
+   ![](assets/editpref-350x152.png)
+
+1. Click the `Search Preferences` tab.
+
+   ![](assets/search-preferences-tab-350x224.png)
+
+1. Enable any options that you want to see prioritized in your search results.
+
+   For example, if you enable `Workfront Classic` in the `Version` section, the main link of each search result will display articles for Workfront Classic, and users will have to click the subordinate link of each result to view documentation for the new Workfront experience.
+
+   Your changes are saved automatically.
 
 ### A single search result for Workfront Classic and New Workfront Experience articles
 
@@ -102,9 +110,9 @@ Breadcrumbs
 
 Now when you're viewing a Adobe Workfront Classic article, you can easily switch to the new Adobe Workfront experience version of the article (or vice-versa).
 
-<ol> 
- <li value="1"> <p>At the top of any article, click the <span class="bold">Currently viewing</span> drop-down menu to switch to the other version of the article, if one is available.</p> <p> <img src="assets/switch-version-350x179.png" style="width: 350;height: 179;"> </p> </li> 
-</ol>
+1. At the top of any article, click the `Currently viewing` drop-down menu to switch to the other version of the article, if one is available.
+
+   ![](assets/switch-version-350x179.png)
 
 ### Follow articles
 

@@ -38,79 +38,81 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Edit task finances in the Task Details section 
+Edit task finances in the Task Details section
 
-<ol> 
- <li value="1"> <p>Go to a project where you want to view a task.</p> <note type="note">
-   To find a task, you can also search for it, and click the name to access the task. For more information on searching for objects in Workfront, see 
-   <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md" class="MCXref xref">Search Adobe Workfront</a>.
-  </note> </li> 
- <li value="2"> Click Tasks in the left panel. </li> 
- <li value="3">Click the name of a task that you want to view.</li> 
- <li value="4">Click <span class="bold">Task Details</span>.</li> (Optional) Click the Collapse all icon in the top right of the Task Details page. Note: Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see Customize the Details view using a layout template. 
- <li value="6"> Click Finance to expand and view the financial information for the task. Click the Edit icon in the upper-right corner of the Details section, then click Finance. </li> 
- <li value="7"> Edit any field that is available for editing, by single-clicking the field or click +Add to add information to an empty field. </li> 
- <li value="8"> <p>Review or edit the following information in the Finance area: </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Cost Type</td> 
-     <td> <p>Specify the Cost Type for the task. This is going to determine how the cost of the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
-      <ul> 
-       <li> <p>No Cost</p> </li> 
-       <li> <p>Fixed Hourly </p> </li> 
-       <li> <p> User Hourly </p> </li> 
-       <li> <p> Role Hourly</p> </li> 
-      </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Revenue Type</td> 
-     <td> <p>Specify the Revenue Type for the task. This is going to determine how the Revenue on the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
-      <ul> 
-       <li> <p> Not Billable </p> </li> 
-       <li> <p>User Hourly </p> </li> 
-       <li> <p>Role Hourly </p> </li> 
-       <li> <p>Fixed Hourly </p> </li> 
-       <li> <p>User Hourly w/Cap </p> </li> 
-       <li> <p>Role Hourly w/Cap </p> </li> 
-       <li> <p>User Hourly Plus Fixed </p> </li> 
-       <li> <p>Role Hourly Plus Fixed </p> </li> 
-       <li> <p>Fixed Revenue </p> </li> 
-      </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Planned Cost</td> 
-     <td> <p>This is a calculation that shows the cost of the task based on the planned hours, the cost type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Actual&nbsp;Cost</td> 
-     <td> <p> This is a calculation that shows the cost of the task based on the actual hours, the cost type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Planned Revenue</td> 
-     <td> <p>This is a calculation that shows the revenue associated with the task based on the planned hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Actual&nbsp;Revenue</td> 
-     <td> <p>This is a calculation that shows the revenue associated with the task based on the actual hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">CPI/SPI/CSI</span> </td> 
-     <td> <p>These are task performance metrics that show how your task is performing, at a given time. Their values are calculated based on the Performance Index Method of the project.<br>For more information see the following articles:</p> 
-      <ul> 
-       <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a> </p> </li> 
-       <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calculate Schedule Performance Index (SPI) </a> </p> </li> 
-       <li> <p> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calculate Cost Schedule Performance Index (CSI)</a> </p> </p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Estimate at Completion (EAC)</td> 
-     <td> <p>This is a calculation that shows the total cost of your task, at completion. For more information about estimate at completion, see <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculate Estimate At Completion (EAC)</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="9"> <p>(Conditional) If you are editing the fields in the Finance section, click <span class="bold">Save</span>Changes. </p> </li> 
-</ol>
+1. Go to a project where you want to view a task.
+
+   >[!NOTE]
+   >
+   >To find a task, you can also search for it, and click the name to access the task. For more information on searching for objects in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+
+1. Click Tasks in the left panel. 
+1. Click the name of a task that you want to view.
+1. Click `Task Details`.
+1. Click Finance to expand and view the financial information for the task. Click the Edit icon in the upper-right corner of the Details section, then click Finance. 
+1. Edit any field that is available for editing, by single-clicking the field or click +Add to add information to an empty field. 
+1. Review or edit the following information in the Finance area: 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Cost Type</td> 
+      <td> <p>Specify the Cost Type for the task. This is going to determine how the cost of the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
+       <ul> 
+        <li> <p>No Cost</p> </li> 
+        <li> <p>Fixed Hourly </p> </li> 
+        <li> <p> User Hourly </p> </li> 
+        <li> <p> Role Hourly</p> </li> 
+       </ul> <p>For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a> . Your Workfront administrator or a group administrator selects the default Cost Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a> .</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Revenue Type</td> 
+      <td> <p>Specify the Revenue Type for the task. This is going to determine how the Revenue on the task is calculated, based on the number of hours on the tasks. </p> <p>Select from the following options: </p> 
+       <ul> 
+        <li> <p> Not Billable </p> </li> 
+        <li> <p>User Hourly </p> </li> 
+        <li> <p>Role Hourly </p> </li> 
+        <li> <p>Fixed Hourly </p> </li> 
+        <li> <p>User Hourly w/Cap </p> </li> 
+        <li> <p>Role Hourly w/Cap </p> </li> 
+        <li> <p>User Hourly Plus Fixed </p> </li> 
+        <li> <p>Role Hourly Plus Fixed </p> </li> 
+        <li> <p>Fixed Revenue </p> </li> 
+       </ul> <p>For more information about tracking revenue, see<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Overview of Billing and Revenue</a> . </p> <p>Your Workfront administrator or group administrator selects the default Revenue Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Planned Cost</td> 
+      <td> <p>This is a calculation that shows the cost of the task based on the planned hours, the cost type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Actual&nbsp;Cost</td> 
+      <td> <p> This is a calculation that shows the cost of the task based on the actual hours, the cost type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Planned Revenue</td> 
+      <td> <p>This is a calculation that shows the revenue associated with the task based on the planned hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Actual&nbsp;Revenue</td> 
+      <td> <p>This is a calculation that shows the revenue associated with the task based on the actual hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">CPI/SPI/CSI</span> </td> 
+      <td> <p>These are task performance metrics that show how your task is performing, at a given time. Their values are calculated based on the Performance Index Method of the project.<br>For more information see the following articles:</p> 
+       <ul> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calculate Schedule Performance Index (SPI) </a> </p> </li> 
+        <li> <p> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calculate Cost Schedule Performance Index (CSI)</a> </p> </p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Estimate at Completion (EAC)</td> 
+      <td> <p>This is a calculation that shows the total cost of your task, at completion. For more information about estimate at completion, see <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculate Estimate At Completion (EAC)</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Conditional) If you are editing the fields in the Finance section, click `Save`Changes.
 

@@ -52,9 +52,14 @@ A proof that has been archived appears only in the `Archived proofs` view, with 
 
 To display the Archived proofs view:
 
-<ol> 
- <li value="1"> <p>Click <span class="bold">Views</span>, then click <span class="bold">All items</span> > <span class="bold">Archived proofs</span>.<br></p> <p>When you click the name of an archived proof in this list, the Proof details page appears, displaying an <span class="bold">Unarchive</span> button at the top of this page.<br></p> <p>Also, if you expand the <span class="bold">Activity</span> section on this page, you can view an entry telling you when the proof was archived and who archived it.<br><img src="assets/archived-proof-activity-expanded-350x77.png" alt="Archived_proof_Activity_expanded.png" style="width: 350;height: 77;"><br>If the <span class="bold">Activity</span> section does not display a name of the user who archived the proof, this means that the proof was archived automatically after 60 days of inactivity.<br>To view the contents of an archived proof, you must first unarchive it.&nbsp;</p> </li> 
-</ol>
+1. Click `Views`, then click `All items` > `Archived proofs`.
+
+   When you click the name of an archived proof in this list, the Proof details page appears, displaying an `Unarchive` button at the top of this page.
+
+   Also, if you expand the `Activity` section on this page, you can view an entry telling you when the proof was archived and who archived it.  
+   ![Archived_proof_Activity_expanded.png](assets/archived-proof-activity-expanded-350x77.png)  
+   If the `Activity` section does not display a name of the user who archived the proof, this means that the proof was archived automatically after 60 days of inactivity.  
+   To view the contents of an archived proof, you must first unarchive it.&nbsp;
 
 ## Unarchiving Proofs
 

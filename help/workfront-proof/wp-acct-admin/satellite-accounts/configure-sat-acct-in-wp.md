@@ -25,25 +25,39 @@ Any Billing Administrator can create a Satellite account. For information about 
 
 To create a Satellite account:
 
-<ol> 
- <li value="1">Go to the Billing page.<br>For more information about the billing page, see&nbsp;<a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>.</li> 
- <li value="2"> <p>Click the <span class="bold">New Satellite</span> account button. (1)</p> <p>A pop-up window appears.</p> <p> <img src="assets/new-satellite-account-350x156.png" alt="New_Satellite_Account.png" style="width: 350;height: 156;"> </p> </li> 
- <li value="3">Enter the details of your client, including any relevant promo codes.</li> 
- <li value="4">Click <span class="bold">Save<br></span>The Satellite account appears automatically within the Accounts drop-down menu at the top of the Billing page.</li> 
- <li value="5">Select the new Satellite account from the drop-down menu.</li> 
- <li value="6">Continue with <a href="#selecting-a-plan-for-your-satellite-account" class="MCXref xref">Selecting a plan for your Satellite account</a> to upgrade your Satellite account.<br></li> 
-</ol>
+1. Go to the Billing page.  
+   For more information about the billing page, see&nbsp; [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+
+1. Click the `New Satellite` account button. (1)
+
+   A pop-up window appears.
+
+   ![New_Satellite_Account.png](assets/new-satellite-account-350x156.png)
+
+1. Enter the details of your client, including any relevant promo codes.
+1. Click `Save  
+   `The Satellite account appears automatically within the Accounts drop-down menu at the top of the Billing page.
+1. Select the new Satellite account from the drop-down menu.
+1. Continue with [Selecting a plan for your Satellite account](#selecting-a-plan-for-your-satellite-account) to upgrade your Satellite account.
 
 ## Selecting a plan for your Satellite account
 
 After you have set up the Satellite account as described in [Creating a Satellite account](#setting-up-a-satellite-account), you need to upgrade it to the desired plan.
 
-<ol> 
- <li value="1">Go to the Billing page.<br>For more information about the billing page, see&nbsp;<a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>.</li> 
- <li value="2"> <p>In the <span class="bold">Your accounts</span> drop-down menu at the top of the page (1), choose the relevant Satellite account.</p> <p>The billing page for the Satellite account appears, and the billing contact details from your account are automatically replicated.</p> <p> <img src="assets/satellite-account-change-plan-350x156.png" alt="Satellite_Account_Change_Plan.png" style="width: 350;height: 156;"> </p> </li> 
- <li value="3">Click the <span class="bold">Change Plan</span> button in the upper-right of the page. (2)<br>Or<br>Open the pop-up by clicking your current or next plan name. (3)</li> 
- <li value="4">Upgrade or downgrade your plan.<br></li> 
-</ol>
+1. Go to the Billing page.  
+   For more information about the billing page, see&nbsp; [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+
+1. In the `Your accounts` drop-down menu at the top of the page (1), choose the relevant Satellite account.
+
+   The billing page for the Satellite account appears, and the billing contact details from your account are automatically replicated.
+
+   ![Satellite_Account_Change_Plan.png](assets/satellite-account-change-plan-350x156.png)
+
+1. Click the `Change Plan` button in the upper-right of the page. (2)  
+   Or  
+   Open the pop-up by clicking your current or next plan name. (3)
+
+1. Upgrade or downgrade your plan.
 
 ## Adding users to your Satellite account
 

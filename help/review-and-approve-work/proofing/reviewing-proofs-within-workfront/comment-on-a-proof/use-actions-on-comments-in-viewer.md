@@ -52,18 +52,21 @@ To apply an action to an existing comment in the proofing viewer:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">Do one of the following: 
-  <ul>
-   <li><p>Click the flag icon in the lower-right corner of the comment,&nbsp;then click the action you want in the drop-down menu.</p><p><img src="assets/actions-flag-icon-350x198.png" style="width: 350;height: 198;"></p></li>
-   <li><p>Click the <span class="bold">More</span> icon (three horizontal dots on the comment),&nbsp;then click the action you want in the lower section of the drop-down menu that appears.</p><p><img src="assets/actions-on-coments-more-menu-350x347.png" alt="Actions_on_coments-More_menu.png" style="width: 350;height: 347;"></p></li>
-  </ul></li> 
- <li value="4"> <p>(Optional) If you change your mind, you can do either of the followinng:</p> 
-  <ul> 
-   <li>Click the flag icon or the <span class="bold">More</span> icon again,&nbsp;then click <span class="bold">Remove action</span>.</li> 
-   <li> <p>Repeat step 1 to apply a different action. </p> </li> 
-  </ul> </li> 
-</ol>
+1. Do one of the following:
+
+  * Click the flag icon in the lower-right corner of the comment,&nbsp;then click the action you want in the drop-down menu.
+
+    ![](assets/actions-flag-icon-350x198.png)
+
+  * Click the `More` icon (three horizontal dots on the comment),&nbsp;then click the action you want in the lower section of the drop-down menu that appears.
+
+    ![Actions_on_coments-More_menu.png](assets/actions-on-coments-more-menu-350x347.png)
+
+1. (Optional) If you change your mind, you can do either of the followinng:
+
+  * Click the flag icon or the `More` icon again, then click `Remove action`.
+  
+  * Repeat step 1 to apply a different action.
 
 >[!TIP]
 >

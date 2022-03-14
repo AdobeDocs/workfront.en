@@ -38,13 +38,11 @@ Make sure that storing Flash Shared Objects is allowed on the computer and that 
 
 To check if the Shared Objects are allowed:
 
-<ol> 
- <li value="1">Right click in the Workfront Proof Viewer.</li> 
- <li value="2">Select <span class="bold">Global Settings</span> from the context menu.</li> 
- <li value="3">Go to the <span class="bold">Storage</span> tab.</li> 
- <li value="4">Make sure that <span class="bold">Allow sites to save information on this computer</span> is selected (1).</li> 
- <p> <img src="assets/2017-06-09-1929-350x267.png" alt="2017-06-09_1929.png" style="width: 350;height: 267;"> </p> 
-</ol>
+1. Right click in the Workfront Proof Viewer.
+1. Select `Global Settings` from the context menu.
+1. Go to the `Storage` tab.
+1. Make sure that `Allow sites to save information on this computer` is selected (1).
+1. ![2017-06-09_1929.png](assets/2017-06-09-1929-350x267.png)
 
 ## Increasing Flash storage
 

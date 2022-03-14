@@ -66,18 +66,17 @@ If you or your teams do not modify the daily hour allocations on work assignment
 
 Do the following:
 
-<ul> 
- <li> <p>Pick a transition date. </p> <note type="tip">
-   Give your team 2-4 weeks to get through the training prior to the transition date. For information about which training is right for you, see the section 
-   <a href="#step4" class="MCXref xref">Migrate from Resource Scheduling to the Workload Balancer</a> in this article. 
-  </note> </li> 
- <li> <p>Follow these guidelines to assist your teams:</p> 
-  <ul> 
-   <li> <p>Encourage your teams to visit the <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">Overview of the Workload Balancer</a> page and all the pages linked from there to dig deeper into how the Workload Balancer works. </p> </li> 
-   <li> <p>Host FAQ meetings for your teams to answer questions the week before the transition, make the switch, and then hold another FAQ meeting to answer follow-up questions.</p> </li> 
-   <li> <p>Submit feedback to Workfront using the Feedback button in the top toolbar. Our product developers are always interested in hearing your use cases for how we can make the Workload Balancer provide more value. </p> </li> 
-  </ul> </li> 
-</ul>
+* Pick a transition date.
+
+  >[!TIP]
+  >
+  >Give your team 2-4 weeks to get through the training prior to the transition date. For information about which training is right for you, see the section [Migrate from Resource Scheduling to the Workload Balancer](#step4) in this article.
+
+* Follow these guidelines to assist your teams:
+
+  * Encourage your teams to visit the [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) page and all the pages linked from there to dig deeper into how the Workload Balancer works. 
+  * Host FAQ meetings for your teams to answer questions the week before the transition, make the switch, and then hold another FAQ meeting to answer follow-up questions.
+  * Submit feedback to Workfront using the Feedback button in the top toolbar. Our product developers are always interested in hearing your use cases for how we can make the Workload Balancer provide more value.
 
 ### Step 3c: You or your teams manage user allocations in the Scheduling tools
 
@@ -85,21 +84,27 @@ If your workflow matches this scenario, you should be more strategic in your tra
 
 Consider the following when making the transition to the Workload Balancer when you use this scheduling functionality:
 
-<ul> 
- <li> <p>Decide whether it is possible to put a hold on managing allocations for 1-2 weeks as your resource managers make the switch. To do this: </p> 
-  <ul> 
-   <li> <p>Find out the average duration of tasks in your current projects and take that into consideration when determining how long you need to put a hold on managing the user allocations. </p> <note type="tip">
-     You need to only look at your current or planning projects, which are those for which your teams are actively making assignments and managing daily allocations. 
-    </note> </li> 
-  </ul> 
-  <ul> 
-   <li> <p>Create a task report and add the task Duration field in the view and group it by Project Name. Summarize the Duration column in the View by the Average, then save your report. </p> <p>For information about creating a report, see <a href="../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a> . </p> </li> 
-   <li> <p>Analyze your task report. For example, if your average task duration is 3 days, then a one week transition might be best. Have the team stop managing user allocations for a week. The following week, transition the team to the Workload Balancer and begin managing user allocations that following week.</p> <p> <img src="assets/timeline-stop-using-resource-scheduler-callouts-350x178.png" style="width: 350;height: 178;"> </p> <note type="tip">
-     You can continue to make task and issue assignments during the transition period. Assignments made will be reflected in both the Resource Scheduler and Workload Balancer.
-    </note> </li> 
-  </ul> </li> 
- <li> <p>If you are a larger organization with teams managing resources for hundreds of projects, you may consider transitioning from the Resource Scheduler to the Workload Balancer one portfolio at a time. Consider a phased roll-out by creating customized filters in the Workload Balancer to look at one specific portfolio at a time.</p> </li> 
-</ul>
+* Decide whether it is possible to put a hold on managing allocations for 1-2 weeks as your resource managers make the switch. To do this:
+
+  * Find out the average duration of tasks in your current projects and take that into consideration when determining how long you need to put a hold on managing the user allocations.
+
+    >[!TIP]
+    >
+    >You need to only look at your current or planning projects, which are those for which your teams are actively making assignments and managing daily allocations.
+
+  * Create a task report and add the task Duration field in the view and group it by Project Name. Summarize the Duration column in the View by the Average, then save your report.
+
+    For information about creating a report, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) . 
+  
+  * Analyze your task report. For example, if your average task duration is 3 days, then a one week transition might be best. Have the team stop managing user allocations for a week. The following week, transition the team to the Workload Balancer and begin managing user allocations that following week.
+
+    ![](assets/timeline-stop-using-resource-scheduler-callouts-350x178.png)
+
+    >[!TIP]
+    >
+    >You can continue to make task and issue assignments during the transition period. Assignments made will be reflected in both the Resource Scheduler and Workload Balancer.
+
+* If you are a larger organization with teams managing resources for hundreds of projects, you may consider transitioning from the Resource Scheduler to the Workload Balancer one portfolio at a time. Consider a phased roll-out by creating customized filters in the Workload Balancer to look at one specific portfolio at a time.
 
 * Allow your resource managers to team up: have one person review assignments made in the Resource Scheduling tools and one making appropriate adjustments in the Workload Balancer. Once that team of two reconciles both tools, have them shift their workflows to the Workload Balancer.
 

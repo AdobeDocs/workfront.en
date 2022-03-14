@@ -57,22 +57,35 @@ You can share your templates with other users using Template Sharing. This actio
 
 To share a template:
 
-<ol> 
- <li value="1"> From the Main Menu icon , click Templates. </li> 
- <li value="2"> <p>Do one of the following:<br> Click the name of a template to open it, then click the More menu , then Template Sharing.</p> <p>Or</p> <p>Select a template from the list, click the Share icon <img src="assets/share-icon.png">, then click<span class="bold"> Template.</span></p> <note type="tip">
-   You can share an object only with active users, teams, 
-   <span>roles,</span> or companies.
-  </note> </li> 
- <li value="3"> <p>In the <span class="bold">Template Access</span> box, select the people, teams, roles, groups, or companies you want to share the template with.</p> <p> </p> <p>You can also click the <span class="bold">Options</span> icon to make the template available system-wide:</p> </li> 
- <li value="4"> <p>From the drop-down menu for each entity with which you are sharing, select from the following:</p> 
-  <ul> 
-   <li> <p><span class="bold">View</span>: Users with these permissions are able to view the template and create a project using it, or attach it to an existing project.</p> <note type="tip">
-     Your Workfront administrator must give you Edit access to projects to be able to create projects.
-    </note> </li> 
-   <li> <p><span class="bold">Manage</span>: Users with these permissions are able to edit or delete the template.</p> <p>For information about the Advanced Settings <img src="assets/gear-icon-in-access-levels.png"> available here, see the section <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions" class="MCXref xref">Advanced Settings for template sharing</a> in the article <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>.</p> </li> 
-  </ul> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. From the Main Menu icon , click Templates. 
+1. Do one of the following:  
+   Click the name of a template to open it, then click the More menu , then Template Sharing.
+
+   Or
+
+   Select a template from the list, click the Share icon ![](assets/share-icon.png), then click `Template.`
+
+   >[!TIP]
+   >
+   >You can share an object only with active users, teams, `roles,` or companies.
+
+1. In the `Template Access` box, select the people, teams, roles, groups, or companies you want to share the template with.
+
+   You can also click the `Options` icon to make the template available system-wide:
+
+1. From the drop-down menu for each entity with which you are sharing, select from the following:
+
+  * `View`: Users with these permissions are able to view the template and create a project using it, or attach it to an existing project.
+
+    >[!TIP]
+    >
+    >Your Workfront administrator must give you Edit access to projects to be able to create projects.
+
+  * `Manage`: Users with these permissions are able to edit or delete the template.
+
+    For information about the Advanced Settings ![](assets/gear-icon-in-access-levels.png) available here, see the section [Advanced Settings for template sharing](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
+1. Click `Save`.
 
 ## Share a project from a template
 
@@ -80,22 +93,29 @@ With template Project Sharing, you can define who has permissions on the project
 
 To share future projects created from a template with users:
 
-<ol> 
- <li value="1"> <p>Do one of the following:<br> Click the name of a template to open it, then click the More menu , then Template Sharing.</p>   <p>Or</p> <p>Select a template from the list, click <span class="bold">Share</span>, then click<span class="bold"> Project.</span></p> </li> 
- <li value="2"> <p>In the <span class="bold">Project Access</span> box, select the people, teams, roles, groups, or companies the template is shared with. </p> <note type="tip">
-   You can share an object only with active users, teams, 
-   <span>roles,</span> or companies.
-  </note> </li> 
- <li value="3"> <p>From the drop-down menu for each entity, select from the following:</p> 
-  <ul> 
-   <li> <p><span class="bold">No access</span>: You can specify which users will not have any access to the template.<br>This option is available only when bulk sharing projects from templates.&nbsp;</p> </li> 
-   <li> <p><span class="bold">View</span>: Users with these permissions can view projects created from the template.</p> </li> 
-   <li> <p><span class="bold">Contribute</span>: Users with these permissions can contribute to projects created from the template&nbsp;</p> </li> 
-   <li> <p><span class="bold">Manage</span>: Users with these permissions can manage or delete projects created from this template.</p> </li> 
-  </ul> </li> 
- <li value="4"> <p>(Optional) Click the <span class="bold">Options</span> icon to make the projects available system-wide.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Save</span>.</p> </li> 
-</ol>
+1. Do one of the following:  
+   Click the name of a template to open it, then click the More menu , then Template Sharing.
+
+   Or
+
+   Select a template from the list, click `Share`, then click `Project.`
+
+1. In the `Project Access` box, select the people, teams, roles, groups, or companies the template is shared with.
+
+   >[!TIP]
+   >
+   >You can share an object only with active users, teams, `roles,` or companies.
+
+1. From the drop-down menu for each entity, select from the following:
+
+  * `No access`: You can specify which users will not have any access to the template.  
+    This option is available only when bulk sharing projects from templates.&nbsp;
+  * `View`: Users with these permissions can view projects created from the template.
+  * `Contribute`: Users with these permissions can contribute to projects created from the template&nbsp;
+  * `Manage`: Users with these permissions can manage or delete projects created from this template.
+
+1. (Optional) Click the `Options` icon to make the projects available system-wide.
+1. Click `Save`.
 
 <!--
 Overview of project sharing from other sources You may already have been assigned access to projects from other areas of Workfront. You may have been assigned access to projects from the following areas: When a project is created For more information about sharing projects when the project is created, see the "Access" section in Edit projects. When your Workfront administrator sets user access levels For more information about setting access levels, see Create or modify custom access levels. When using the project access template When using the Template Project Sharing feature, if a user's access to a project is View, but you set the access permissions for Template Project Sharing to Manage, the user will have Manage permission for every project created using this specific template. The user will only have View permission for the other projects they are on.
@@ -109,17 +129,21 @@ You can share multiple templates as well as projects from multiple templates at 
 >
 >When you select multiple templates, you cannot view who already has permissions to the individual templates.
 
-<ol> 
- <li value="1"> <p>Go to a list of templates.</p> </li> 
- <li value="2"> <p>Select multiple templates, then click .</p>  <note type="tip">
-   You can share an object only with active users, teams, 
-   <span>roles,</span> or companies.
-  </note> </li> 
- <li value="3"> <p>Click <span class="bold">Template</span> to share the selected templates. </p> <p>Or</p> <p>Click <span class="bold">Project</span> to share the projects that will be created from the selected templates. </p> </li> 
- <li value="4"> <p>Continue sharing the templates or the projects, as described in the following sections in this article: </p> 
-  <ul> 
-   <li> <p><a href="#share" class="MCXref xref">Share a template</a> </p> </li> 
-   <li> <p><a href="#project-sharing" class="MCXref xref">Share a project from a template</a> </p> </li> 
-  </ul> </li> 
-</ol>
+1. Go to a list of templates.
+1. Select multiple templates, then click .
+
+   >[!TIP]
+   >
+   >You can share an object only with active users, teams, `roles,` or companies.
+
+1. Click `Template` to share the selected templates.
+
+   Or
+
+   Click `Project` to share the projects that will be created from the selected templates. 
+
+1. Continue sharing the templates or the projects, as described in the following sections in this article:
+
+  * [Share a template](#share) 
+  * [Share a project from a template](#project-sharing)
 

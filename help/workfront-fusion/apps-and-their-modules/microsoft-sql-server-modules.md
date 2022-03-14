@@ -78,9 +78,7 @@ If another module tries to access the same data, it has to wait until the previo
 
 Turn on Auto-commit. Auto-commit finishes (commits) every transaction immediately after the module execution is done.
 
-<ol> 
- <li value="1">Click the Scenario settings icon <img src="assets/scenario-settings-icon.png">at the bottom of the screen.</li> 
- <li value="2">Click the <span class="bold">Auto commit</span> checkbox.</li> 
- <li value="3">Click <span class="bold">OK</span> to save the scenario settings.</li> 
-</ol>
+1. Click the Scenario settings icon ![](assets/scenario-settings-icon.png)at the bottom of the screen.
+1. Click the `Auto commit` checkbox.
+1. Click `OK` to save the scenario settings.
 

@@ -92,29 +92,41 @@ To be able to build a calculated field that references a multi-select custom fie
 
 To build the calculated custom field that references the multi-select custom field:
 
-<ol> 
- <li value="1">Create a custom form, or edit an existing one.<br>For information about creating custom forms, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li> 
- <li value="2">Click<span class="bold"> Add a Field</span>, then <span class="bold">Calculated</span> to add the multi-select custom field to the form.</li> 
- <li value="3">In the <span class="bold">Label</span> box, name the new calculated field to indicate that it references the multi-select custom field.<br>For example: "Calculated Multi-select Field."</li> 
- <li value="4">In the <span class="bold">Calculation</span> box, enter the following code:<br><pre>{DE:Multi-select Custom Field}</pre><note type="important">
-   Replace "Multi-select Custom Field" with the actual name of your multi-select custom field, as it appears in Workfront.
-  </note><br><img src="assets/calculated-multi-select-custom-field-350x201.png" style="width: 350;height: 201;"><br></li> 
- <li value="5">(Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the <span class="bold">Update previous calculations</span>&nbsp;option.<br>This ensures that the new field is automatically populated with the value from the multi-select custom field as it is added to the forms attached to the objects already.</li> 
- <li value="6">Click <span class="bold">Done</span>.</li> 
- <li value="7">Click <span class="bold">Save +Close</span>.</li> 
-</ol>
+1. Create a custom form, or edit an existing one.  
+   For information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click `Add a Field`, then `Calculated` to add the multi-select custom field to the form.
+
+1. In the `Label` box, name the new calculated field to indicate that it references the multi-select custom field.  
+   For example: "Calculated Multi-select Field."
+
+1. In the `Calculation` box, enter the following code:  
+   <pre>{DE:Multi-select Custom Field}</pre>
+
+   >[!IMPORTANT]
+   >
+   >Replace "Multi-select Custom Field" with the actual name of your multi-select custom field, as it appears in Workfront.
+
+   ![](assets/calculated-multi-select-custom-field-350x201.png)  
+
+1. (Optional) If the multi-select custom field is already on this form and if this form is already attached to objects, enable the `Update previous calculations`&nbsp;option.  
+   This ensures that the new field is automatically populated with the value from the multi-select custom field as it is added to the forms attached to the objects already.
+
+1. Click `Done`.
+1. Click `Save +Close`.
 
 ### Build a chart that references a calculated custom field
 
-<ol> 
- <li value="1"> Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. </li> 
- <li value="2"> (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, select all the objects in your report, then click <span class="bold">Edit</span>. </li> 
- <li value="3"> (Optional and conditional) Enable the <span class="bold">Recalculate Custom Expressions</span> field, then click <span class="bold">Save Changes</span>.<br><img src="assets/recalculate-custom-expressions-350x259.png" style="width: 350;height: 259;"><br></li> 
- <li value="4"> Click <span class="bold">Report Actions</span>, then <span class="bold">Edit</span>. </li> 
- <li value="5"><font size="2">Select the <span class="bold">Groupings</span> tab, then click <span class="bold">Add Grouping</span>.</font> </li> 
- <li value="6"><font size="2">Add the<span class="bold"> Calculated Multi-select Field</span> you created as your grouping.</font> </li> 
- <li value="7"><font size="2">Select the <span class="bold">Chart</span> tab, and add a chart to your report.<br>For information about adding a chart to a report, see the section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Add a chart to a report</a> in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</font> </li> 
- <li value="8"><font size="2">Select the <span class="bold">Calculated Multi-select Field</span> as one of the fields to display in the chart.</font> </li> 
- <li value="9"><font size="2">Click <span class="bold">Save + Close</span>.<br>The report displays the results grouped by the Calculated Multi-select Field in a chart.</font> </li> 
-</ol>
+1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
+1. (Optional) To ensure that all the calculated fields that you want to chart by are populated with values, select all the objects in your report, then click `Edit`. 
+1. (Optional and conditional) Enable the `Recalculate Custom Expressions` field, then click `Save Changes`.  
+   ![](assets/recalculate-custom-expressions-350x259.png)  
+
+1. Click `Report Actions`, then `Edit`. 
+
+1. `<font size="2">Select the <span class="bold">Groupings</span> tab, then click <span class="bold">Add Grouping</span>.</font>` 
+1. `<font size="2">Add the<span class="bold"> Calculated Multi-select Field</span> you created as your grouping.</font>` 
+1. `<font size="2">Select the <span class="bold">Chart</span> tab, and add a chart to your report.<br>For information about adding a chart to a report, see the section <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">Add a chart to a report</a> in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</font>` 
+1. `<font size="2">Select the <span class="bold">Calculated Multi-select Field</span> as one of the fields to display in the chart.</font>` 
+1. `<font size="2">Click <span class="bold">Save + Close</span>.<br>The report displays the results grouped by the Calculated Multi-select Field in a chart.</font>`
 

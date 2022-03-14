@@ -69,7 +69,23 @@ You must have the following access to perform the steps in this article:
 
 You can quickly view details about the predecessor from the task list.
 
-<ol> 
- <li value="1"> <p>On the task list, mouse over the predecessor number in the <span class="bold">Predecessors</span> column.</p> <p>A box with the details of the predecessor displays. </p> <p> <img src="assets/cpr4-350x175.png" alt="" style="width: 350;height: 175;"> </p> <p>The following details are displayed:</p> <p><span class="bold">Predecessor name:</span> The name of the predecessor that is being referenced. In the above example, the predecessor is Market Research.</p> <p><span class="bold">Project name:</span> The name of the project where the predecessor resides. In the above example, the project name is Target Markets.</p> <p><span class="bold">Number of predecessors (left of details box):</span> The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 0 predecessors.</p> <p><span class="bold">Requested:</span> The date when the predecessor task was requested.</p> <p><span class="bold">Due Date:</span> The date when the predecessor task is due.</p> <p><span class="bold">Number of successors (right of details box):</span> The number of successor (or dependent) tasks for the predecessor being referenced. In the above example, the predecessor being referenced has 1 successor.</p> </li> 
-</ol>
+1. On the task list, mouse over the predecessor number in the `Predecessors` column.
+
+   A box with the details of the predecessor displays.
+
+   ![](assets/cpr4-350x175.png)
+
+   The following details are displayed:
+
+   `Predecessor name:` The name of the predecessor that is being referenced. In the above example, the predecessor is Market Research.
+
+   `Project name:` The name of the project where the predecessor resides. In the above example, the project name is Target Markets.
+
+   `Number of predecessors (left of details box):` The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 0 predecessors.
+
+   `Requested:` The date when the predecessor task was requested.
+
+   `Due Date:` The date when the predecessor task is due.
+
+   `Number of successors (right of details box):` The number of successor (or dependent) tasks for the predecessor being referenced. In the above example, the predecessor being referenced has 1 successor.
 

@@ -45,25 +45,25 @@ To use DocuSign modules, you must have a DocuSign account.
 
 To create a connection for your DocuSign modules:
 
-<ol> 
- <li value="1">Click <span class="bold">Add</span> next to the Connection box when you begin configuring the first DocuSign module.</li> 
- <li value="2"> <p>Enter the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Connection name</p> </td> 
-     <td>Enter a name for the new DocuSign connection</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Account type</td> 
-     <td>Select whether you the account you want to connect to is a production account or a demo account.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3">Continue as described in <a href="../../workfront-fusion/connections/connect-to-fusion-general.md#connect" class="MCXref xref">Create a connection to Workfront Fusion - Basic instructions</a>.</li> 
-</ol>
+1. Click `Add` next to the Connection box when you begin configuring the first DocuSign module.
+1. Enter the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Connection name</p> </td> 
+      <td>Enter a name for the new DocuSign connection</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Account type</td> 
+      <td>Select whether you the account you want to connect to is a production account or a demo account.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Continue as described in [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md#connect).
 
 ## DocuSign modules and their fields
 

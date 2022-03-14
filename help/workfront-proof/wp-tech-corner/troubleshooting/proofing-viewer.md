@@ -52,21 +52,20 @@ Please see our [Problems With Viewing Proofs - Flash Shared Objects Explained](.
 
 ## Identify Where the&nbsp;Problem Is
 
-<ul> 
- <li> Are the proofs opening in a different browser?&nbsp;</li> 
- <li>If you’re using one browser on a daily basis and you’re having trouble with viewing the proofs there try to open the same proof in a different browser on your computer. To do this simply copy the proof link from the URL bar of your main browser and paste it into a different browser. If the proof opens ok there, review your main browser configuration, plugins and extensions as these may be interfering.</li> <note type="note">
-  We do not have any preferable browser, but if you’re having any performance issues in your current browser we would advise&nbsp;switching to a different one. 
- </note> 
- <li>Are the proofs opening on a different machine in your location?<br>If your proof is not opening in any browser on your machine try to open it on a different computer in your location and/or outside your location. This will allow you to determine if an issue is down to your particular machine or if it’s something in your local network.<br>If your security level is higher your connections to Workfront Proof may be blocked by: 
-  <ul>
-   <li>Your local AV software</li>
-   <li>Your network security solution</li>
-   <li>DNS, firewall or proxy configuration</li><note type="note">
-    These are the settings that are beyond&nbsp;our control. There are various security solutions available and we are not able to tell which are implemented in your network and which may be blocking connections to Workfront Proof. It is also not up to Workfront Proof to decide on your internal security configuration. If you’re having problems with opening the proofs on the multiple machines in your location/network we would recommend you to get in touch with your IT team so they could check the network settings and authorize or add the Workfront Proof to the allowlist, if needed.
-   </note>
-  </ul></li> 
- <li> Are the connections to Workfront Proof allowed in your network?<br>Inside the Proof Viewer we load the tiles - fragments of the pages. If this content does not load ok at your end it may be that some connections to Workfront Proof are blocked in your network. You will want to make sure that all connections and all content from *.proofhq.com is added to the allowlist. Your IT team should be able to help with verifying this.&nbsp;</li> 
-</ul>
+* Are the proofs opening in a different browser?&nbsp;
+* If you’re using one browser on a daily basis and you’re having trouble with viewing the proofs there try to open the same proof in a different browser on your computer. To do this simply copy the proof link from the URL bar of your main browser and paste it into a different browser. If the proof opens ok there, review your main browser configuration, plugins and extensions as these may be interfering.
+* We do not have any preferable browser, but if you’re having any performance issues in your current browser we would advise&nbsp;switching to a different one. 
+* Are the proofs opening on a different machine in your location?  
+  If your proof is not opening in any browser on your machine try to open it on a different computer in your location and/or outside your location. This will allow you to determine if an issue is down to your particular machine or if it’s something in your local network.  
+  If your security level is higher your connections to Workfront Proof may be blocked by:
+
+  * Your local AV software
+  * Your network security solution
+  * DNS, firewall or proxy configuration
+  * These are the settings that are beyond&nbsp;our control. There are various security solutions available and we are not able to tell which are implemented in your network and which may be blocking connections to Workfront Proof. It is also not up to Workfront Proof to decide on your internal security configuration. If you’re having problems with opening the proofs on the multiple machines in your location/network we would recommend you to get in touch with your IT team so they could check the network settings and authorize or add the Workfront Proof to the allowlist, if needed.
+
+* Are the connections to Workfront Proof allowed in your network?  
+  Inside the Proof Viewer we load the tiles - fragments of the pages. If this content does not load ok at your end it may be that some connections to Workfront Proof are blocked in your network. You will want to make sure that all connections and all content from &#42;.proofhq.com is added to the allowlist. Your IT team should be able to help with verifying this.&nbsp;
 
 ## Review Plugins
 

@@ -90,12 +90,15 @@ You can add any task or issue to any iteration if&nbsp;you have Manage access to
 * If the task or issue is not assigned to a team, the task or issue is assigned to the team who owns the iteration.
 * You can't add parent tasks to the iteration. If you add any child tasks, the parent task appears on the Scrum board as a swimlane.
 
-<ol> 
- <li value="1">Go to the project, report, or dashboard that contains the task or issue you want to add to an iteration.</li> 
- <li value="2">Select one or more tasks or issues.</li> Click More > Add to Iteration. You cannot assign tasks or issues assigned to non-agile teams. 
- <li value="4"> <p>In the <span class="bold">Add Stories</span> box, type the name of the iteration.</p> <note type="note">
-   You can move a story from an existing iteration to a new iteration.
-  </note> </li> 
- <li value="5">If you are adding tasks, click <span class="bold">Add Stories</span>.<br>Or<br>If you are adding issues, click <span class="bold">Add Issues</span>.</li> 
-</ol>
+1. Go to the project, report, or dashboard that contains the task or issue you want to add to an iteration.
+1. Select one or more tasks or issues.
+1. In the `Add Stories` box, type the name of the iteration.
+
+   >[!NOTE]
+   >
+   >You can move a story from an existing iteration to a new iteration.
+
+1. If you are adding tasks, click `Add Stories`.  
+   Or  
+   If you are adding issues, click `Add Issues`.
 

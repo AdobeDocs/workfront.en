@@ -61,14 +61,15 @@ For more information about adjusting settings in the Workload Balancer, see [Nav
 
 To ensure a streamlined and user-friendly experience when you manage your resources in the Workload Balancer, the following usability improvements are now available:
 
-<ul> 
- <li> <p>You can now open the Summary for issues and tasks from the Summary icon instead of the More menu. This experience is now consistent to that of lists.</p> <note type="note">
-   This option is available only in the new Adobe Workfront experience.
-  </note> </li> 
- <li> <p>You can access the More menu to the left of an object bar rather than at the end of an object bar. This makes it easier to find when objects span a long period of time.</p> </li> 
- <li> <p>You can access the assignment features with a keyboard shortcut. Previously, this was available only from the More menu.</p> </li> 
- <li>You can load all remaining items under a user’s name instead of just the following 20 items by clicking Load More.</li> 
-</ul>
+* You can now open the Summary for issues and tasks from the Summary icon instead of the More menu. This experience is now consistent to that of lists.
+
+  >[!NOTE]
+  >
+  >This option is available only in the new Adobe Workfront experience.
+
+* You can access the More menu to the left of an object bar rather than at the end of an object bar. This makes it easier to find when objects span a long period of time.
+* You can access the assignment features with a keyboard shortcut. Previously, this was available only from the More menu.
+* You can load all remaining items under a user’s name instead of just the following 20 items by clicking Load More.
 
 For more information about navigating the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 

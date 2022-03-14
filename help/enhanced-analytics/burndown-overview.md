@@ -20,11 +20,17 @@ The solid blue line shows the planned velocity from the start date to the planne
 
 The actual line shows the number of hours—or days—spent on the project over time. The color of this line indicates the condition of the project each day:
 
-<ul> 
- <li> <p><span class="bold">Green</span>: The project is on target.</p> <p> <p> <img src="assets/burndown-green.png"> </p> </p> </li> 
- <li> <p><span class="bold">Orange</span>: The project is at risk.</p> <p> <p> <img src="assets/burndown-orange.png"> </p> </p> </li> 
- <li> <p><span class="bold">Red</span>: The project is in trouble.</p> <p> <p> <img src="assets/burndown-red.png"> </p> </p> </li> 
-</ul>
+* `Green`: The project is on target.
+
+  ![](assets/burndown-green.png)
+
+* `Orange`: The project is at risk.
+
+  ![](assets/burndown-orange.png)
+
+* `Red`: The project is in trouble.
+
+  ![](assets/burndown-red.png)
 
 For more information on these project conditions, see [Overview of Project Condition and Condition Type](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
@@ -75,39 +81,68 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Burndown visualization
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon, then select <b>Analytics</b>.</p> </li> 
- <li value="2"> <p>(Optional) To use a different date range, select new start and end dates from the date range filter.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </p> <p>For information on using the date range filter, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> </li> 
- <li value="3"> <p>(Conditional) If you need to limit the project data set, select and apply the filters that you want to use.</p> <p>For more information on adding filters in Enhanced analytics, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.</p> </li> 
- <li value="4"> <p>(Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.</p> <p>All other visualizations update to the same date range and a timeframe filter is created.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </p> </li> 
- <li value="5"> <p>On the Flight plan or Project treemap visualization, click a project to view more information.</p> <p>The Burndown and Tasks in flight visualizations display.</p> <note type="note"> 
-   <p>To learn more about these other visualizations, see:</p> 
-   <ul> 
-    <li><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">View the Flight plan visualization in Enhanced analytics</a> </li> 
-    <li><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">View the Project treemap visualization in Enhanced analytics</a> </li> 
-    <li><a href="../enhanced-analytics/tasks-in-flight-overview.md" class="MCXref xref">View the Tasks in flight visualization in Enhanced analytics</a> </li> 
-   </ul> 
-  </note> </li> 
- <li value="6"> <p>(Optional) Change the view from <span>planned hours</span> to <b>duration</b>.</p> <p>Planned hours is selected by default.</p> <note type="note">
-   Selecting 
-   <span class="bold">duration</span> changes all hours information to days.
-   <br>
-   <img src="assets/duration-burndown-350x112.png" style="width: 350;height: 112;">
-   <br>For more information on duration in the Enhanced analytics area, see the "Duration view" section in 
-   <a href="../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Enhanced analytics overview</a>.
-   <br>
-  </note> </li> 
- <li value="7"> <p>Click any point on the line graph.</p> <p>The exact date displays and further information about tasks and hours—or days—for the selected day displays below.</p> <p> <img src="assets/burndown-task-and-hour-changes-350x121.png" style="width: 350;height: 121;"> </p> <note type="note">
-   If the actual velocity is a flat line that runs along the x axis (inline with 0 hours or 0 days) of the visualization, this means that no planned hours—or days—were added to the project.
-   <br>If the actual velocity is a flat line above the x axis (inline with a number of hours or number of days) that never goes down, this means that no tasks were completed within the filtered time period.
-  </note> </li> 
- <li value="8"> <p>(Optional) To export the visualization data, click the <b>Export</b> icon <img src="assets/export.png">in the top-right corner of the visualization, then select the export format:</p> 
-  <ul> 
-   <li> <p><b>Chart (PNG)</b> </p> </li> 
-   <li> <p><b>Data Table (XSLX)</b> </p> </li> 
-  </ul> </li> 
- <li value="9"> <p>(Optional) To see details about the progress of tasks in the selected project, look at the Tasks in flight visualization that appears below the Burndown visualization.</p> </li> 
-</ol>
+1. Click the Main Menu icon, then select **Analytics**.
+1. (Optional) To use a different date range, select new start and end dates from the date range filter.
+
+   ![](assets/filters-select-date-range-350x344.png)
+
+   For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+1. (Conditional) If you need to limit the project data set, select and apply the filters that you want to use.
+
+   For more information on adding filters in Enhanced analytics, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.
+
+1. (Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.
+
+   All other visualizations update to the same date range and a timeframe filter is created.
+
+   ![](assets/timeframe-filter-350x220.png)
+
+1. On the Flight plan or Project treemap visualization, click a project to view more information.
+
+   The Burndown and Tasks in flight visualizations display.
+
+   >[!NOTE]
+   >
+   >To learn more about these other visualizations, see:
+   >
+   >  
+   >  
+   >  * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
+   >  * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
+   >  * [View the Tasks in flight visualization in Enhanced analytics](../enhanced-analytics/tasks-in-flight-overview.md) 
+   >  
+   >
+
+1. (Optional) Change the view from `planned hours` to **duration**.
+
+   Planned hours is selected by default.
+
+   >[!NOTE]
+   >
+   >Selecting `duration` changes all hours information to days.  
+   >![](assets/duration-burndown-350x112.png)  
+   >For more information on duration in the Enhanced analytics area, see the "Duration view" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
+
+1. Click any point on the line graph.
+
+   The exact date displays and further information about tasks and hours—or days—for the selected day displays below.
+
+   ![](assets/burndown-task-and-hour-changes-350x121.png)
+
+   >[!NOTE]
+   >
+   >If the actual velocity is a flat line that runs along the x axis (inline with 0 hours or 0 days) of the visualization, this means that no planned hours—or days—were added to the project.  
+   >If the actual velocity is a flat line above the x axis (inline with a number of hours or number of days) that never goes down, this means that no tasks were completed within the filtered time period.
+
+1. (Optional) To export the visualization data, click the **Export** icon ![](assets/export.png)in the top-right corner of the visualization, then select the export format:
+
+  * **Chart (PNG)** 
+  * **Data Table (XSLX)**
+
+1. (Optional) To see details about the progress of tasks in the selected project, look at the Tasks in flight visualization that appears below the Burndown visualization.
 
 ## Video walk-through
 

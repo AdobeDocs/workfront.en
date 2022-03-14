@@ -13,33 +13,15 @@ These settings allow you to set default values that apply to all new proofs crea
 
 ## Configure new proof settings
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span>.</p> </li> 
- <li value="2"> <p>In the left panel, click <span class="bold">Proofs</span> > <span class="bold">Proof settings</span>.</p> </li> 
- <li value="3"> <p>Configure the following settings:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Require login</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Copy owner from original proof for new versions</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Allow users to delete their proof comments</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Require decisions to be electronically signed </td> 
-     <td>&nbsp;</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup`.
+1. In the left panel, click `Proofs` > `Proof settings`.
+1. Configure the following settings:
+
+   | Require login |&nbsp; |
+   |---|---|
+   | Copy owner from original proof for new versions |&nbsp; |
+   | Allow users to delete their proof comments |&nbsp; |
+   | Require decisions to be electronically signed  |&nbsp; |
 
 ## Configure proof decisions
 

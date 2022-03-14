@@ -21,16 +21,19 @@ You can download the original files from active, locked, and archived proofs to 
 
 ## Downloading Files From a Single Proof
 
-<ol> 
- <li value="1">In the List or Thumbnail list layout, click the <span class="bold">More</span> button at the end of the row where the proof is listed.</li> 
- <p> <img src="assets/more-button-small.png" alt="More_button_small.png"> </p> 
- <p>If you need more information about these layouts, see <a href="../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md" class="MCXref xref">Page Layout on the Views Tab in Workfront Proof</a>.</p> 
- <li value="2">Click&nbsp;<span class="bold">Download original </span>in the menu that appears.<br>You can also select the proof in the list, click the <span class="bold">More</span> button above the list, then click <span class="bold">Download</span>.<br>You can also download files: 
-  <ul>
-   <li>While viewing the Proof Details page for the proof.<br><img src="assets/download-btn-in-proof-details-350x32.png" alt="Download_btn_in_Proof_Details.png" style="width: 350;height: 32;"></li>
-   <li>While viewing the proof in the proofing viewer (see&nbsp;.<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md" class="MCXref xref">Review proofs within Adobe Workfront</a>)<br><img src="assets/download-proof-btn-in-viewer.png" alt="download_proof_btn_in_viewer.png"></li>
-  </ul></li> 
-</ol>
+1. In the List or Thumbnail list layout, click the `More` button at the end of the row where the proof is listed.
+1. ![More_button_small.png](assets/more-button-small.png)
+
+1. If you need more information about these layouts, see [Page Layout on the Views Tab in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md).
+1. Click  `Download original`in the menu that appears.  
+   You can also select the proof in the list, click the `More` button above the list, then click `Download`.  
+   You can also download files:
+
+  * While viewing the Proof Details page for the proof.  
+    ![Download_btn_in_Proof_Details.png](assets/download-btn-in-proof-details-350x32.png)
+
+  * While viewing the proof in the proofing viewer (see&nbsp;. [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md))  
+    ![download_proof_btn_in_viewer.png](assets/download-proof-btn-in-viewer.png)
 
 ## Downloading Files From Multiple Proofs
 
@@ -44,12 +47,13 @@ Limit of batch download is currently 4GB
 
 To download original files from multiple proofs:
 
-<ol> 
- <li value="1">Go to the <span class="bold">Folder details</span> page or any <span class="bold">Views</span> page that lists the proofs containing original files you want to download (see <a href="../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md" class="MCXref xref">Manage Folders in Workfront Proof</a> and <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md" class="MCXref xref">Manage Items on the Views Page in Workfront Proof</a>).</li> 
- <li value="2">Check the box for every proof containing the files you want.<br></li> <note type="note">
-   Batch downloading from archived proofs is currently not available.
- </note> 
- <li value="3">Click the <span class="bold">More</span> button above the list, then click <span class="bold">Download</span>.<br><img src="assets/more-button-above-lists-350x42.png" alt="More_button_above_lists.png" style="width: 350;height: 42;"></li> 
- <li value="4">When you receive an email notifying you that your batch download is prepared, click the download link.<br>Only the original file from the latest version of each proof is included in the batch download ZIP file.</li> 
-</ol>
+1. Go to the `Folder details` page or any `Views` page that lists the proofs containing original files you want to download (see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) and [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)).
+
+1. Check the box for every proof containing the files you want.  
+1. Batch downloading from archived proofs is currently not available.
+1. Click the `More` button above the list, then click `Download`.  
+   ![More_button_above_lists.png](assets/more-button-above-lists-350x42.png)
+
+1. When you receive an email notifying you that your batch download is prepared, click the download link.  
+   Only the original file from the latest version of each proof is included in the batch download ZIP file.
 

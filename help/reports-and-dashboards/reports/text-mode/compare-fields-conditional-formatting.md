@@ -45,25 +45,60 @@ For example, if the Actual Start Date of a task is after the Planned Start Date 
 
 To compare the Planned Start Date and Actual Start Date of task using conditional formatting:
 
-<ol> 
- <li value="1">Go to a task view or a report.</li> 
- <li value="2">(Conditional) If you are working with a report, from the<span class="bold"> Columns (View)</span> tab, click the header of the column you want to conditionally format to select it.<br>For example, select the <span class="bold">Actual&nbsp;Start Date</span> column if you want to add the conditional formatting to it by comparing the Planned Start Date and the Actual Start Date fields.</li> 
- <li value="3">Click <span class="bold">Advanced Options</span>, then click Add a <span class="bold">Rule for this Column</span>.</li> 
- <li value="4">Enter the comparison criteria using existing values found in the builder and specify your conditional formatting.<br>For example, we want to highlight tasks where the Actual Start Date is later than ( or greater than) the Planned Start Date. Select the Greater Than modifier, and select an actual date in the date field.<br>&nbsp;<img src="assets/cond-format-1-350x84.png" alt="" style="width: 350;height: 84;"></li> 
- <li value="5">(Optional) Select <span class="bold">Apply to entire row</span> if you want to apply the formatting to the entire row.</li> 
- <li value="6">Click <span class="bold">Add Rule</span>, then <span class="bold">Done</span>.</li> 
- <li value="7">Select the <span class="bold">Actual Start Date</span> column, then click <span class="bold">Switch to Text Mode</span>.</li> 
- <li value="8"><span class="bold">Click to edit text</span> mode then add the following line of text:<br><code>styledef.case.0.comparison.rightmethod= <field to compare></code><br>In our example:&nbsp;<code>styledef.case.0.comparison.rightmethod=plannedStartDate</code><br><note type="note">
-    If you are comparing a Workfront native field, use camel case syntax for the name of the field. If you are comparing a custom field, use 
-   <span class="bold">DE:Actual Name of the Field</span> for the name field you are comparing with the first field.
-   <br>For example, if you are comparing the 
-   <span class="bold">Actual Start Date</span> with a custom field labeled 
-   <span class="bold">Delivery Date</span>, add the following statement in your text mode code:
-   <br>
-   <code>styledef.case.0.comparison.rightmethod=DE:Delivery Date</code>
-  </note></li> 
- <li value="9">Ensure that the <code>righttext</code> line of code matches the statement in the <code>rightmethod</code> line of code.<br><img src="assets/cond-format-2-350x171.png" alt="" style="width: 350;height: 171;"></li> 
- <li value="10">Click <span class="bold">Save</span>.</li> 
- <li value="11">Click <span class="bold">Save + Close</span>.<br>The column highlights the fields that meet your criteria.</li> 
-</ol>
+1. Go to a task view or a report.
+1. (Conditional) If you are working with a report, from the `Columns (View)` tab, click the header of the column you want to conditionally format to select it.  
+   For example, select the `Actual Start Date` column if you want to add the conditional formatting to it by comparing the Planned Start Date and the Actual Start Date fields.
+
+1. Click `Advanced Options`, then click Add a `Rule for this Column`.
+
+1. Enter the comparison criteria using existing values found in the builder and specify your conditional formatting.  
+   For example, we want to highlight tasks where the Actual Start Date is later than ( or greater than) the Planned Start Date. Select the Greater Than modifier, and select an actual date in the date field.  
+   &nbsp; ![](assets/cond-format-1-350x84.png)
+
+1. (Optional) Select `Apply to entire row` if you want to apply the formatting to the entire row.
+1. Click `Add Rule`, then `Done`.
+
+1. Select the `Actual Start Date` column, then click `Switch to Text Mode`.
+
+1. `Click to edit text` mode then add the following line of text:
+
+   ```
+   styledef.case.0.comparison.rightmethod= <field to compare>
+   ```
+
+   In our example:&nbsp;
+
+   ```
+   styledef.case.0.comparison.rightmethod=plannedStartDate
+   ```
+
+   >[!NOTE]
+   >
+   >If you are comparing a Workfront native field, use camel case syntax for the name of the field. If you are comparing a custom field, use `DE:Actual Name of the Field` for the name field you are comparing with the first field.  
+   >For example, if you are comparing the `Actual Start Date` with a custom field labeled `Delivery Date`, add the following statement in your text mode code:  
+   >
+   >
+   >```   >
+   >styledef.case.0.comparison.rightmethod=DE:Delivery Date
+   >```   >
+   >
+
+1. Ensure that the 
+
+   ```
+   righttext
+   ```
+
+   line of code matches the statement in the 
+
+   ```
+   rightmethod
+   ```
+
+   line of code.  
+   ![](assets/cond-format-2-350x171.png)
+
+1. Click `Save`.
+1. Click `Save + Close`.  
+   The column highlights the fields that meet your criteria.
 

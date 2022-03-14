@@ -42,12 +42,12 @@ You must have the following to perform the steps in this article:
 
 ## Configure task and issues preferences for everyone in Workfront
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="2">In the left panel, click <span class="bold">Project Preferences</span> ><span class="bold"> Tasks & Issues.</span></li> 
- <li value="3"> On the page that appears, continue with one of the 5 sections listed below to configure settings for New Task Defaults, Issues, Deletion, Actual Dates, and Access.</li> 
- <li value="4"> <p>Click <span class="bold">Save</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. In the left panel, click `Project Preferences` > `Tasks & Issues.`
+
+1. On the page that appears, continue with one of the 5 sections listed below to configure settings for New Task Defaults, Issues, Deletion, Actual Dates, and Access.
+1. Click `Save`.
 
 * [New Task Defaults](#new-task-defaults) 
 * [Issues](#issues) 
@@ -213,16 +213,18 @@ For information about how a group administrator configures task and issue prefer
 
 To lock or unlock a task or issue preference so that groups can configure it
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Tasks & Issues</span>.</li> 
- <li value="3"> <p>Do any of the following:</p> 
-  <ul> 
-   <li> <p>If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it <img src="assets/unlock-toggle-button.png">.</p> </li> 
-   <li> <p>If you want your group and all groups below it to use your configuration for a preference, make sure that it is locked (this is the default).</p> <note type="important">
-     We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
-    </note> </li> 
-  </ul> </li> 
- <li value="4">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Project Preferences` > `Tasks & Issues`.
+
+1. Do any of the following:
+
+  * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+  * If you want your group and all groups below it to use your configuration for a preference, make sure that it is locked (this is the default).
+
+    >[!IMPORTANT]
+    >
+    >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
+
+1. Click `Save`.
 

@@ -42,45 +42,54 @@ You must have the following access to use the functionality in this article:
 
 ## View a template
 
-<ol> 
- <li value="1"> <p>Click the Templates icon <img src="assets/fusion-template-icon.png"> in the side navigation menu.</p> </li> 
- <li value="2"> <p>Select the tab that contains the template you want to view.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Public templates</td> 
-     <td> <p> All templates that were published and then approved by the administrator. On the template tiles, you can see the name of the template, its preview, and the socket icon with a number indicating how many times the template has been used so far.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Team templates</td> 
-     <td> <p>All templates created by your team members including the ones that were already made public by the administrator. On the template tiles, you can see the name of the template, the status icons that are described in detail in the Publishing and sharing templates section of this documentation, and the Delete buttons.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>(Optional) Search for the template you want to view. You can search by the name of the template or by the name of the app used in the particular template.</p> <note type="note"> 
-   <ul> 
-    <li> <p>If the template you want to access was not created by a you or member of your team, and is not public yet, you can ask the person who created and published it to share the template link with you.</p> </li> 
-    <li> <p>If you cannot find the public template that has been created by you, contact the administrator. It is possible that before approving your template, the administrator had renamed it.</p> </li> 
-   </ul> 
-  </note> </li> 
- <li value="4"> <p>Click the template that you want to view.</p> </li> 
-</ol>
+1. Click the Templates icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Select the tab that contains the template you want to view.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Public templates</td> 
+      <td> <p> All templates that were published and then approved by the administrator. On the template tiles, you can see the name of the template, its preview, and the socket icon with a number indicating how many times the template has been used so far.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Team templates</td> 
+      <td> <p>All templates created by your team members including the ones that were already made public by the administrator. On the template tiles, you can see the name of the template, the status icons that are described in detail in the Publishing and sharing templates section of this documentation, and the Delete buttons.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Search for the template you want to view. You can search by the name of the template or by the name of the app used in the particular template.
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * If the template you want to access was not created by a you or member of your team, and is not public yet, you can ask the person who created and published it to share the template link with you.
+   >  * If you cannot find the public template that has been created by you, contact the administrator. It is possible that before approving your template, the administrator had renamed it.
+   >  
+   >
+
+1. Click the template that you want to view.
 
 ## Edit a template
 
 You can edit any templates that are available in the Team templates tab.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Templates</span> icon <img src="assets/fusion-template-icon.png"> in the side navigation menu.</p> </li> 
- <li value="2"> <p>Click the <span class="bold">Team templates</span> tab.</p> </li> 
- <li value="3"> <p>Click the <span class="bold">Private</span> tab.</p> </li> 
- <li value="4"> <p>Click the template you want to edit.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Edit</span> in the top-right corner </p> <p>or</p> <p> Click the template diagram.</p> </li> 
- <li value="6"> <p>Make changes in the template. You can access all options that were available when creating the template. To see these options, see <a href="../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md" class="MCXref xref">Create new templates in Adobe Workfront Fusion</a>. Then click the save icon at the very bottom of the page.</p> </li> 
- <li value="7"> <p>Click the <span class="bold">Save</span> icon <img src="assets/save-icon.png">.</p> </li> 
-</ol>
+1. Click the `Templates` icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Click the `Team templates` tab.
+1. Click the `Private` tab.
+1. Click the template you want to edit.
+1. Click `Edit` in the top-right corner
+
+   or
+
+   Click the template diagram.
+
+1. Make changes in the template. You can access all options that were available when creating the template. To see these options, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Then click the save icon at the very bottom of the page.
+1. Click the `Save` icon ![](assets/save-icon.png).
 
 >[!NOTE]
 >
@@ -92,10 +101,13 @@ You can only delete templates that are not yet approved. If you want to delete a
 
 Please note that once you delete a template, it cannot be restored. Team templates are available for all members of your team so before deleting a template we advise you to check if other team members do not need it.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Templates</span> icon <img src="assets/fusion-template-icon.png"> in the side navigation menu.</p> </li> 
- <li value="2"> <p>Click the <span class="bold">Team templates</span> tab.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Delete</span> next to the template name</p> <p>Or</p> <p>Click the name of the template to go into the template. Click <span class="bold">Options</span> in the top right corner and select <span class="bold">Delete</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Really?</span> to confirm the delete.</p> </li> 
-</ol>
+1. Click the `Templates` icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Click the `Team templates` tab.
+1. Click `Delete` next to the template name
+
+   Or
+
+   Click the name of the template to go into the template. Click `Options` in the top right corner and select `Delete`.
+
+1. Click `Really?` to confirm the delete.
 

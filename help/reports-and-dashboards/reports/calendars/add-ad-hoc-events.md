@@ -43,20 +43,19 @@ You must have the following access to perform the steps in this article:
 
 ## Add ad-hoc events to a calendar report
 
-<ol> 
- <li value="1">Within the calendar, go to the date to which you want to add an ad-hoc event, then click the starting date for your event.</li> 
- <li value="2">Enter the event name and, if desired, select a color for the event.</li> 
- <li value="3">(Conditional) If your ad-hoc event takes place over several days, check <span class="bold">This will span multiple days</span>, then select the ending date from the pop-up calendar.<br><img src="assets/calendar-report---span-multiple-days-350x247.png" alt="calendar_report_-_span_multiple_days.png" style="width: 350;height: 247;"></li> 
- <li value="4">Click <span class="bold">Save.</span></li> 
- <li value="5">(Optional) To modify an ad-hoc event:
-  <ol>
-   <li value="1">Click the event on the calendar to open the details page for the event.</li>
-   <li value="2">Click the edit icon (pencil), edit the event, then click <span class="bold">Save.</span></li>
-  </ol></li> 
- <li value="6">(Optional) To delete an ad-hoc event:
-  <ol>
-   <li value="1">Click the event on the calendar to open the details page for the event.</li>
-   <li value="2">Click the trash can icon, then click <span class="bold">Yes, Delete it.</span></li>
-  </ol></li> 
-</ol>
+1. Within the calendar, go to the date to which you want to add an ad-hoc event, then click the starting date for your event.
+1. Enter the event name and, if desired, select a color for the event.
+1. (Conditional) If your ad-hoc event takes place over several days, check `This will span multiple days`, then select the ending date from the pop-up calendar.  
+   ![calendar_report_-_span_multiple_days.png](assets/calendar-report---span-multiple-days-350x247.png)
+
+1. Click `Save.`
+1. (Optional) To modify an ad-hoc event:
+
+  1. Click the event on the calendar to open the details page for the event.
+  1. Click the edit icon (pencil), edit the event, then click `Save.`
+
+1. (Optional) To delete an ad-hoc event:
+
+  1. Click the event on the calendar to open the details page for the event.
+  1. Click the trash can icon, then click `Yes, Delete it.`
 

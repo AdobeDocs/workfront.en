@@ -45,25 +45,45 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
 
 ## Share a Workfront Library item
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="3"> <p>Select the area where the item you want to share is located.</p> <p>You can choose Library, My Content , or Collections.</p> <p> <img src="assets/library-left-panel---new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
- <li value="4"> <p>(Conditional) If you are in the list view, click the <span class="bold">Show grid view</span> icon <img src="assets/grid-view-icon.png"> to switch to the grid view.</p> </li> 
- <li value="5">Navigate to the item and hover, then click the <span class="bold">More</span> icon in the upper-right corner.</li> 
- <li value="6"> <p>Select <span class="bold">Share</span> in the drop-down menu.</p> <p>The Share dialog displays.</p> <p>The Share dialog shows only the Workfront Library users and organizational units that you have shared the item with. </p> <note type="note">
-    The Share dialog shows only the Workfront Library users and organizational units that you have shared the item with. 
-  </note> </li> 
- <li value="7"> <p>In the <span class="bold">Give access to</span> box, begin typing the name of the Workfront Library user or organizational unit that you want to share the item with, then click the name when it displays in the drop-down list. </p> <p>The user displays in the list and is, by default, given View permission to the item.</p> <note type="tip">
-   If a user has a Manager or higher access level to Workfront Library, you can choose to increase their permission level to Manage. 
-  </note> </li> 
- <li value="8"> <p>(Optional) To change a user's permissions to the shared content, click the permissions level drop-down menu arrow, then select the desired permission.</p> <p> <img src="assets/sharechangeaccess-350x118.png" style="width: 350;height: 118;"> </p> <p>If a user with whom you want to share the content does not have an permissions level drop-down menu arrow, then you cannot increase their permissions. For more information on access to shared items, see <a href="#specifyi" class="MCXref xref">Specify users' permissions for shared items</a>.</p> </li> 
- <li value="9"> <p>(Optional) To share the item with an external user:</p> 
-  <ol> 
-   <li value="1">Enable <span class="bold">Make this public to external users</span>.</li> 
-   <li value="2">Click <span class="bold">Copy Link</span>.</li> 
-   <li value="3">Paste the link in a third-party tool such as a chat or email application, then distribute to the user.</li> 
-  </ol> </li> 
- <li value="10">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. Select the area where the item you want to share is located.
+
+   You can choose Library, My Content , or Collections.
+
+   ![](assets/library-left-panel---new-350x217.png)
+
+1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Navigate to the item and hover, then click the `More` icon in the upper-right corner.
+1. Select `Share` in the drop-down menu.
+
+   The Share dialog displays.
+
+   The Share dialog shows only the Workfront Library users and organizational units that you have shared the item with.
+
+   >[!NOTE]
+   >
+   >The Share dialog shows only the Workfront Library users and organizational units that you have shared the item with.
+
+1. In the `Give access to` box, begin typing the name of the Workfront Library user or organizational unit that you want to share the item with, then click the name when it displays in the drop-down list.
+
+   The user displays in the list and is, by default, given View permission to the item.
+
+   >[!TIP]
+   >
+   >If a user has a Manager or higher access level to Workfront Library, you can choose to increase their permission level to Manage.
+
+1. (Optional) To change a user's permissions to the shared content, click the permissions level drop-down menu arrow, then select the desired permission.
+
+   ![](assets/sharechangeaccess-350x118.png)
+
+   If a user with whom you want to share the content does not have an permissions level drop-down menu arrow, then you cannot increase their permissions. For more information on access to shared items, see [Specify users' permissions for shared items](#specifyi).
+
+1. (Optional) To share the item with an external user:
+
+  1. Enable `Make this public to external users`.
+  1. Click `Copy Link`.
+  1. Paste the link in a third-party tool such as a chat or email application, then distribute to the user.
+
+1. Click `Save`.
 

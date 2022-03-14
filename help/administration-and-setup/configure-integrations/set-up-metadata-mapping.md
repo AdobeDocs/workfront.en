@@ -58,22 +58,32 @@ Before you can map fields for the metadata mapping process, you must enable the 
 
 ## Configure Workfront to send metadata
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="2"> <p> In the left panel, click <span class="bold">Documents</span> > <span class="bold">Metadata Mapping</span>. </p> <p> <img src="assets/metadata-mapping-350x193.png" style="width: 350;height: 193;"> </p> </li> 
- <li value="3"> In the <span class="bold">Select Source Field for Mapping</span> box, begin typing the name of the Workfront field you want to map to Workfront Library or Workfront DAM, then select it when you see it in the list.</li> 
- <li value="4">In the <span class="bold">Select Target Field for Mapping</span> box, select the field you want to populate with the information in the selected Workfront field.<br></li> 
- <li value="5"> <p>Click <span class="bold">Add Mapping</span>.</p> <p>The mapped field displays in the mapped fields listed at the bottom of the page.</p> </li> 
- <li value="6">Repeat Steps 5 and 6 until you add all the desired Workfront fields and their corresponding Workfront Library or Workfront DAM fields.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. In the left panel, click `Documents` > `Metadata Mapping`.
+
+   ![](assets/metadata-mapping-350x193.png)
+
+1. In the `Select Source Field for Mapping` box, begin typing the name of the Workfront field you want to map to Workfront Library or Workfront DAM, then select it when you see it in the list.
+1. In the `Select Target Field for Mapping` box, select the field you want to populate with the information in the selected Workfront field.  
+
+1. Click `Add Mapping`.
+
+   The mapped field displays in the mapped fields listed at the bottom of the page.
+
+1. Repeat Steps 5 and 6 until you add all the desired Workfront fields and their corresponding Workfront Library or Workfront DAM fields.
 
 ## Delete mapped fields
 
-<ol> 
- <li value="1">Log in to Workfront as the administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="3">In the left panel click <span class="bold">Documents</span> > <span class="bold">Metadata Mapping</span>.</li> 
- <li value="4">In the list of mapped fields, select the fields you want to remove from metadata mapping.</li> 
- <li value="5"> <p>Click <span class="bold">Delete</span>.</p> <p>The designated fields are no longer mapped. Now when a user sends a document from Workfront to Workfront Library or Workfront DAM, the metadata contained within the deleted fields is not transferred with the document. </p> <p>A document sent prior to you deleting the mapped fields retains the original metadata sent with it, including the metadata for the deleted fields.</p> </li> 
-</ol>
+1. Log in to Workfront as the administrator.
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. In the left panel click `Documents` > `Metadata Mapping`.
+
+1. In the list of mapped fields, select the fields you want to remove from metadata mapping.
+1. Click `Delete`.
+
+   The designated fields are no longer mapped. Now when a user sends a document from Workfront to Workfront Library or Workfront DAM, the metadata contained within the deleted fields is not transferred with the document.
+
+   A document sent prior to you deleting the mapped fields retains the original metadata sent with it, including the metadata for the deleted fields.
 

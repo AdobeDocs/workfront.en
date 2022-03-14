@@ -64,27 +64,29 @@ To use the Workfront Fusion DevTool, you first need to install it.
 
 To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool extension to your Chrome browser, as described in [Install the Chrome DevTool extension](#install).
 
-<ol> 
- <li value="1"> <p>Open your Workfront Fusion scenario.</p> </li> 
- <li value="2"> <p>Open Chrome Developer Tools:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Mac</td> 
-     <td>Command + Option + I</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Windows</td> 
-     <td> <p>Control + Shift + I</p> <p> Or </p> <p>F12</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> <note type="tip">
-   We recommend docking the Chrome Developer Console to the bottom to maintain a better view of your modules.
-  </note> </li> 
- <li value="3"> <p>Click the<span class="bold"> Workfront Fusion</span> tab in Chrome Dev Tools.</p> </li> 
-</ol>
+1. Open your Workfront Fusion scenario.
+1. Open Chrome Developer Tools:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Mac</td> 
+      <td>Command + Option + I</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Windows</td> 
+      <td> <p>Control + Shift + I</p> <p> Or </p> <p>F12</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!TIP]
+   >
+   >We recommend docking the Chrome Developer Console to the bottom to maintain a better view of your modules.
+
+1. Click the `Workfront Fusion` tab in Chrome Dev Tools.
 
 ## Use the Workfront Fusion DevTool
 
@@ -98,74 +100,69 @@ Workfront Fusion DevTool is divided into 3 main sections. You can find these in 
 
 Live Stream displays what is happening in the background when you click Run once in your scenario.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Live Stream</span> icon <img src="assets/live-stream-icon.png"> to open the Live Stream section.</p> </li> 
- <li value="2"> <p>Do any of the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Action</th> 
-     <th>Instructions</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">View request information</td> 
-     <td> <p>You can view the following information for each module in your scenario</p> 
-      <ul> 
-       <li> <p>Request Headers (API endpoint URL, http method, time and date the request was called, request headers, and query string)</p> </li> 
-       <li> <p>Request Body</p> </li> 
-       <li> <p>Response Headers</p> </li> 
-       <li> <p>Response Body</p> </li> 
-      </ul> <p>To view this information, click the appropriate tab in the right panel of the Workfront Fusion DevTool.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Search requests and responses</p> </td> 
-     <td> <p>Enter the search term into the search field in the left panel of the Workfront Fusion DevTool to display only requests that contain the search term.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Remove list of requests </p> </td> 
-     <td> <p>Click the trash bin icon in the top-right corner of the DevTool's left panel to clear the list of requests recorded by the Workfront Fusion DevTool. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Enable Console Logging</p> </td> 
-     <td> <p>Click the computer icon <img src="assets/console-computer-icon.png"> in the top-right corner of the DevTool's left panel.</p> <p>Logging in the console is enabled when the computer icon is green.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Retrieve the Request in the Raw JSON Format or cURL</p> </td> 
-     <td> 
-      <ul> 
-       <li> <p><span class="bold">Raw JSON</span> </p> <p>Click <span class="bold">Copy RAW</span> in the upper-right corner of the DevTool's right pane.</p> </li> 
-       <li> <p><span class="bold">cURL</span> </p> <p>Click <span class="bold">Copy cURL</span> in the upper-right corner of the DevTool's right pane.</p> </li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Live Stream` icon ![](assets/live-stream-icon.png) to open the Live Stream section.
+1. Do any of the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Action</th> 
+      <th>Instructions</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">View request information</td> 
+      <td> <p>You can view the following information for each module in your scenario</p> 
+       <ul> 
+        <li> <p>Request Headers (API endpoint URL, http method, time and date the request was called, request headers, and query string)</p> </li> 
+        <li> <p>Request Body</p> </li> 
+        <li> <p>Response Headers</p> </li> 
+        <li> <p>Response Body</p> </li> 
+       </ul> <p>To view this information, click the appropriate tab in the right panel of the Workfront Fusion DevTool.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Search requests and responses</p> </td> 
+      <td> <p>Enter the search term into the search field in the left panel of the Workfront Fusion DevTool to display only requests that contain the search term.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Remove list of requests </p> </td> 
+      <td> <p>Click the trash bin icon in the top-right corner of the DevTool's left panel to clear the list of requests recorded by the Workfront Fusion DevTool. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Enable Console Logging</p> </td> 
+      <td> <p>Click the computer icon <img src="assets/console-computer-icon.png"> in the top-right corner of the DevTool's left panel.</p> <p>Logging in the console is enabled when the computer icon is green.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Retrieve the Request in the Raw JSON Format or cURL</p> </td> 
+      <td> 
+       <ul> 
+        <li> <p><span class="bold">Raw JSON</span> </p> <p>Click <span class="bold">Copy RAW</span> in the upper-right corner of the DevTool's right pane.</p> </li> 
+        <li> <p><span class="bold">cURL</span> </p> <p>Click <span class="bold">Copy cURL</span> in the upper-right corner of the DevTool's right pane.</p> </li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ### Scenario Debugger
 
 The Scenario Debugger is useful for more complex scenarios. It displays the history of the scenario runs and enables you to search modules by their name or ID.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Scenario Debugger</span> icon <img src="assets/scenario-debugger-icon.png"> to open the Scenario Debugger.</p> </li> 
- <li value="2"> <p>(Optional) Enter the search term (name or module ID) in the search field in the left pane of Workfront Fusion DevTool in the Scenario Debugger section.</p> </li> 
- <li value="3"> <p>Double-click the module's name to open its settings in the scenario editor.</p> </li> 
- <li value="4"> <p>View request details by clicking the desired operation.</p> </li> 
-</ol>
+1. Click the `Scenario Debugger` icon ![](assets/scenario-debugger-icon.png) to open the Scenario Debugger.
+1. (Optional) Enter the search term (name or module ID) in the search field in the left pane of Workfront Fusion DevTool in the Scenario Debugger section.
+1. Double-click the module's name to open its settings in the scenario editor.
+1. View request details by clicking the desired operation.
 
 ### Tools
 
 The Workfront Fusion DevTool features tools that make setting up your scenario easier.
 
-<ol> 
- <li value="1"> <li> <li> <p>Click the <span class="bold">Tools</span> icon <img src="assets/console-tools-icon.png"> to open the Tools.</p> </li> </li> </li> 
- <li value="2"> <p>Select the tool you want to use</p> </li> 
- <li value="3"> <p>Configure the fields as detailed below.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Run</span>.</p> </li> 
-</ol>
+1. `<li> <li> <p>Click the <span class="bold">Tools</span> icon <img src="assets/console-tools-icon.png"> to open the Tools.</p> </li> </li>` 
+1. Select the tool you want to use
+1. Configure the fields as detailed below.
+1. Click `Run`.
 
 Tools and their fields:
 

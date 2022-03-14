@@ -53,12 +53,23 @@ You must have the following before you can start:
 
 ## Access Workfront Goals
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner.</p> <p> <img src="assets/main-menu-align-icon-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The Goal List displays. </p> <note type="important">
-   When you have the correct access to Workfront Goals, you can view goals they you or anyone else created in the Goal List, by default.
-  </note> </li> 
- <li value="2"> <p>(Optional) Click the name of a goal to open or edit it. </p> <p>Or</p> <p>Click <span class="bold">Add Goal</span> in the upper-right corner to add a new goal. </p> <p>For information about creating goals, see <a href="../../workfront-goals/goal-management/create-goals.md" class="MCXref xref">Create goals in Adobe Workfront Goals</a>. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner.
+
+   ![](assets/main-menu-align-icon-highlighted-350x463.png)
+
+   The Goal List displays.
+
+   >[!IMPORTANT]
+   >
+   >When you have the correct access to Workfront Goals, you can view goals they you or anyone else created in the Goal List, by default.
+
+1. (Optional) Click the name of a goal to open or edit it.
+
+   Or
+
+   Click `Add Goal` in the upper-right corner to add a new goal.
+
+   For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
 ## Open and manage individual goals
 
@@ -76,17 +87,25 @@ You must access an individual goal to perform the following actions as you manag
 
 To access an individual goal in Workfront Goals:
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of Workfront.</p> <p>The Goal List displays by default. </p> </li> 
- <li value="2"> <p>Click the name of a goal in the list to access it</p> <p>Or</p> <p>Click one of the following options in the left panel:</p> 
-  <ul> 
-   <li>Goal Alignment</li> 
-   <li>Check-in </li> 
-   <li> <p>Pulse </p> </li> 
-  </ul> <note type="note">
-   Depending on what action you want to perform on the individual goal, you might choose to select different sections every time. For information about the differences between the Workfront Goals sections, see 
-   <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md" class="MCXref xref">Overview of the Adobe Workfront Goals sections</a>. 
-  </note> </li> 
- <li value="3"> <p>Click the name of a goal in the Goal List or Check-in or Pulse sections, or in a card on the Goal Alignment section.&nbsp;</p> <p>The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal&nbsp;Details panel, see <a href="../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md" class="MCXref xref">Update goals in the Goal Details panel in&nbsp;Adobe Workfront Goals</a>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of Workfront.
+
+   The Goal List displays by default. 
+
+1. Click the name of a goal in the list to access it
+
+   Or
+
+   Click one of the following options in the left panel:
+
+  * Goal Alignment
+  * Check-in 
+  * Pulse
+
+   >[!NOTE]
+   >
+   >Depending on what action you want to perform on the individual goal, you might choose to select different sections every time. For information about the differences between the Workfront Goals sections, see [Overview of the Adobe Workfront Goals sections](../../workfront-goals/goal-review-and-workfront-goals-sections/overview-of-wf-goals-sections.md).
+
+1. Click the name of a goal in the Goal List or Check-in or Pulse sections, or in a card on the Goal Alignment section.&nbsp;
+
+   The Goal Details panel displays on the right. You can update the goal, its results, and activities in the Goal Details panel when you have access to manage it. For information about updating goals using the Goal&nbsp;Details panel, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
 

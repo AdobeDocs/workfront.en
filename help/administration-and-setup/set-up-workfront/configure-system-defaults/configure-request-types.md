@@ -56,13 +56,14 @@ As a Workfront administrator, you can configure the names of the request types i
 
 To customize the names of the request types:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
- <li value="3">Click the <span class="bold">Issues</span> tab.</li> 
- <li value="4"> <p>At the top of the <span class="bold">Issues</span> tab, hover over the name of a request type, then click the <span class="bold">Edit</span> icon that appears.<br></p>  </li> 
- <li value="5"> <p>In the box that appears, type a new name, then press <span class="bold">Enter</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Project Preferences` > `Statuses`.
+
+1. Click the `Issues` tab.
+1. At the top of the `Issues` tab, hover over the name of a request type, then click the `Edit` icon that appears.  
+
+1. In the box that appears, type a new name, then press `Enter`.
 
 ## Configure issue statuses within different request types
 

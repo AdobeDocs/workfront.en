@@ -57,18 +57,21 @@ Before you can view alternate currencies as described in this section, the Workf
 
 To convert financial values between currencies when working with reports:
 
-<ol> 
- <li value="1"> <p>Go to the report where you want to convert financial values to a different currency.</p> </li> 
- <li value="2"> <p>Click the <span class="bold">View</span> drop-down list, click <span class="bold">Change Currency</span>, then select one of the following currencies that you want to display financial values in:</p> 
-  <ul> 
-   <li> <p>Project's Original&nbsp;Currency</p> </li> 
-   <li> <p>Any of the other currencies</p> <note type="tip">
-     You can choose only currencies previously selected in Setup. 
-    </note> </li> 
-  </ul> <p>Using this option allows you to quickly convert financial values in a report between rate values.</p> <p>  </p>  <!--
+1. Go to the report where you want to convert financial values to a different currency.
+1. Click the `View` drop-down list, click `Change Currency`, then select one of the following currencies that you want to display financial values in:
+
+  * Project's Original&nbsp;Currency
+  * Any of the other currencies
+
+    >[!TIP]
+    >
+    >You can choose only currencies previously selected in Setup.
+
+   Using this option allows you to quickly convert financial values in a report between rate values.
+
+   <!--
    Tip: You can also select the Change Currency option to convert financial values in other lists.
-  --> </li> 
-</ol>
+   -->
 
 ## Display the Default Currency across multiple projects with different currencies
 
@@ -110,18 +113,23 @@ To display two projects with custom currencies in a report:
 
 If a grouping is applied on a task or hour list within a project, the sums in the grouping are displayed in the project's currency.
 
-<ol> 
- <li value="1"> <p>Create a project with a custom currency, different than the system default currency.</p> </li> 
- <li value="2"> <p>Go to the project and ensure that it includes hours that have been logged for tasks.</p> <p>For more information about logging time, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</p> <note type="note">
-    The tasks should be assigned to users or job roles with Rate per Hour cost rates.
-  </note> </li> 
- <li value="3"> <p> Click Tasks. </p> </li> 
- <li value="4"> <p>Expand the <span class="bold">View</span> drop-down menu and select <span class="bold">New View</span>.</p> </li> 
- <li value="5"> <p>Add <span class="bold">Actual Cost</span> in the new View as a new column, and summarize it by <span class="bold">Sum</span>.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Done</span>, then click <span class="bold">Save View</span>.</p> </li> 
- <li value="7"> <p>Expand the <span class="bold">Grouping</span> drop-down menu and select <span class="bold">New Grouping</span>.</p> </li> 
- <li value="8"> <p>Add <span class="bold">Actual Completion Date</span> in the new grouping as a new field, then click <span class="bold">Save Grouping</span>.</p> <p>The <span class="bold">Actual Cost</span> column summarizes in the new Grouping and displays the total in the currency of the project.</p> </li> 
-</ol>
+1. Create a project with a custom currency, different than the system default currency.
+1. Go to the project and ensure that it includes hours that have been logged for tasks.
+
+   For more information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+
+   >[!NOTE]
+   >
+   >The tasks should be assigned to users or job roles with Rate per Hour cost rates.
+
+1. Click Tasks. 
+1. Expand the `View` drop-down menu and select `New View`.
+1. Add `Actual Cost` in the new View as a new column, and summarize it by `Sum`.
+1. Click `Done`, then click `Save View`.
+1. Expand the `Grouping` drop-down menu and select `New Grouping`.
+1. Add `Actual Completion Date` in the new grouping as a new field, then click `Save Grouping`.
+
+   The `Actual Cost` column summarizes in the new Grouping and displays the total in the currency of the project.
 
 ## Edit reports with unique currencies
 
@@ -129,15 +137,16 @@ The financial fields in a report are not editable until you change the report se
 
 To in-line edit a financial field in a report:
 
-<ol> 
- <li value="1"> <p>Navigate to a report.</p> <note type="note">
-   If the default currency does not display for a list in any other area, you can edit the View to display the default currency.
-   <br>For information on how to change the currency in a View, see the section in this article 
-   <a href="#applying-financial-values-to-a-report" class="MCXref xref">Apply financial values to a report</a>.
-  </note> </li> 
- <li value="2"> <p>Click <span class="bold">Report Actions</span>, then select <span class="bold">Edit</span>.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Report Settings</span>.</p> </li> 
- <li value="4"> <p>Click the <span class="bold">Default Currency</span> drop-down, then select <span class="bold">Project's Original Currency</span>.</p> <p>  </p> </li> 
- <li value="5"> <p>Click <span class="bold">Done</span>.</p> </li> 
-</ol>
+1. Navigate to a report.
+
+   >[!NOTE]
+   >
+   >If the default currency does not display for a list in any other area, you can edit the View to display the default currency.  
+   >For information on how to change the currency in a View, see the section in this article [Apply financial values to a report](#applying-financial-values-to-a-report).
+
+1. Click `Report Actions`, then select `Edit`.
+1. Click `Report Settings`.
+1. Click the `Default Currency` drop-down, then select `Project's Original Currency`.
+
+1. Click `Done`.
 

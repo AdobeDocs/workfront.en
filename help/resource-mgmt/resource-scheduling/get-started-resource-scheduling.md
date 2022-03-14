@@ -77,13 +77,16 @@ For more information about project statuses, see the article [Create or edit a s
 
 In order to be most effective when using the resource scheduling tools in Workfront, ensure that tasks and issues in your system have the following criteria defined:
 
-<ul> 
- <li>Durations</li> 
- <li>Planned Start Dates</li> 
- <li>Planned Hours <br>Planned Hours are required in order to modify user allocations, as described in the article <a href="../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md" class="MCXref xref">Manage user allocations in the Scheduling areas</a>.<br> <note type="note">  The Planned Hours field in the Resource Scheduling card actually shows the sum of all workPerDay values, not the Planned Hours on the task. workPerDay values are calculated by dividing the Planned Hours value by the Task Duration. For non-zero Durations, the values usually match the Planned Hours of the task, although some small discrepancies due to rounding could happen. When a Duration is 0 Days, the Planned Hours displays 0 Hours. 
-  </note></li> 
- <li>Role Assignments</li> 
-</ul>
+* Durations
+* Planned Start Dates
+* Planned Hours   
+  Planned Hours are required in order to modify user allocations, as described in the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+
+  >[!NOTE]
+  >
+  >The Planned Hours field in the Resource Scheduling card actually shows the sum of all workPerDay values, not the Planned Hours on the task. workPerDay values are calculated by dividing the Planned Hours value by the Task Duration. For non-zero Durations, the values usually match the Planned Hours of the task, although some small discrepancies due to rounding could happen. When a Duration is 0 Days, the Planned Hours displays 0 Hours.
+
+* Role Assignments
 
 ## View information in the Scheduling areas
 
@@ -100,20 +103,20 @@ Depending on where you want to schedule resources, you can access the Scheduling
 * For a project in the Scheduling section 
 * For a team, in the Schedule section
 
-<ol> 
- <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
-  <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
-   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-  </ul></li> 
- <li value="2">(Optional) Click the <span class="bold">Full-Screen</span> icon, located in the upper-right corner of the scheduling timeline.<br><img src="assets/scheduling-fullscreen-enter.png" alt="scheduling_fullscreen_enter.png"><br>The scheduling timeline displays in full-screen mode. When viewing the scheduling timeline in full-screen mode, the scheduling timeline occupies the entire screen; all other information is hidden (including any team or project information, the Global Navigation Bar, and browser information).</li> 
- <li value="3">(Optional) To exit full-screen mode, do either of the following: 
-  <ul> 
-   <li>Click the <span class="bold">Full-Screen</span> icon.</li> 
-   <li>Press the Esc key. </li> 
-  </ul></li> 
-</ol>
+1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
+
+  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
+  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+
+1. (Optional) Click the `Full-Screen` icon, located in the upper-right corner of the scheduling timeline.  
+   ![scheduling_fullscreen_enter.png](assets/scheduling-fullscreen-enter.png)  
+   The scheduling timeline displays in full-screen mode. When viewing the scheduling timeline in full-screen mode, the scheduling timeline occupies the entire screen; all other information is hidden (including any team or project information, the Global Navigation Bar, and browser information).
+
+1. (Optional) To exit full-screen mode, do either of the following:
+
+  * Click the `Full-Screen` icon.
+  * Press the Esc key.
 
 ### View resource assignments and details
 
@@ -167,37 +170,40 @@ On the scheduling timeline, you can minimize tasks and issues that are displayed
 
 #### Minimize tasks and issues for individual users
 
-<ol> 
- <li value="1">Click the caret next to the user on the scheduling timeline whose tasks and issues you want to minimize.<br><img src="assets/scheduling-minimize-user-350x137.png" alt="scheduling_minimize_user.png" style="width: 350;height: 137;"><br><p>The way tasks and issue display depends on the following settings:</p> 
-  <ul> 
-   <li>If you enable the <span class="bold">Show Totals for Daily Planned Hours</span> the following conditions apply: 
-    <ul> 
-     <li>Only Planned Hours for the user display</li> 
-     <li><p>Tasks and issues are hidden</p></li> 
-    </ul></li> 
-  </ul></li> 
-</ol>
+1. Click the caret next to the user on the scheduling timeline whose tasks and issues you want to minimize.  
+   ![scheduling_minimize_user.png](assets/scheduling-minimize-user-350x137.png)  
+   The way tasks and issue display depends on the following settings:
 
-<ol> 
- <li style="list-style-type: none;" value="1"> 
-  <ul> 
-   <li>If you enable the <span class="bold"> Show Totals for Daily Planned Hours</span> tasks and issues for the user are minimized.<br><img src="assets/rs-user-collapsed--1--350x152.png" alt="RS_user_collapsed__1_.png" style="width: 350;height: 152;"></li> 
-  </ul> </li> 
-</ol>
+  * If you enable the `Show Totals for Daily Planned Hours` the following conditions apply:
+
+    * Only Planned Hours for the user display
+    * Tasks and issues are hidden
+
+1.
+
+  * If you enable the `Show Totals for Daily Planned Hours` tasks and issues for the user are minimized.  
+    ![RS_user_collapsed__1_.png](assets/rs-user-collapsed--1--350x152.png)
 
 #### Minimize tasks and issues for a job role
 
 You can minimize tasks and issues for all users that are associated with a specific job role.
 
-<ol> 
- <li value="1">Click the caret next to the job role on the scheduling timeline that contains the users whose tasks and issues you want to minimize.<br><img src="assets/scheduling-minimize-group-350x137.png" alt="scheduling_minimize_group.png" style="width: 350;height: 137;"><br>Tasks and issues for all users associated with that role are minimized if you disable the <span class="bold">Show Totals for Daily Planned Hours</span> setting.<br>Tasks and issues are hidden and only the Planned Hours for the users display if you enable this setting.<br><img src="assets/rs-role-collapsed--1--350x125.png" alt="RS_role_collapsed__1_.png" style="width: 350;height: 125;"></li> 
-</ol>
+1. Click the caret next to the job role on the scheduling timeline that contains the users whose tasks and issues you want to minimize.  
+   ![scheduling_minimize_group.png](assets/scheduling-minimize-group-350x137.png)  
+   Tasks and issues for all users associated with that role are minimized if you disable the `Show Totals for Daily Planned Hours` setting.  
+   Tasks and issues are hidden and only the Planned Hours for the users display if you enable this setting.  
+   ![RS_role_collapsed__1_.png](assets/rs-role-collapsed--1--350x125.png)
 
 #### Minimize tasks and issues for all users
 
-<ol> 
- <li value="1">Click <span class="bold">Collapse All</span> at the top of the Users and Roles area.<br><img src="assets/resourcescheduling-collapseall-350x261.png" alt="resourcescheduling_collapseall.png" style="width: 350;height: 261;"><br>Or<br>Click the caret next to any user or job role on the scheduling timeline while holding the Shift key.<br><img src="assets/scheduling-minimize-user-350x137.png" style="width: 350;height: 137;"><br>Tasks and issues for all users and roles are minimized if you disable the <span class="bold">Show Totals for Daily Planned Hours</span> and tasks and issues are hidden if you enable it. <br>If the <span class="bold">Show Totals for Daily Planned Hours</span> is enabled only the Planned Hours for the users display. Tasks and issues remain minimized for the Unassigned area. <br><img src="assets/rs-all-collapsed---1--350x102.png" alt="RS_all_collapsed___1_.png" style="width: 350;height: 102;"></li> 
-</ol>
+1. Click `Collapse All` at the top of the Users and Roles area.  
+   ![resourcescheduling_collapseall.png](assets/resourcescheduling-collapseall-350x261.png)  
+   Or  
+   Click the caret next to any user or job role on the scheduling timeline while holding the Shift key.  
+   ![](assets/scheduling-minimize-user-350x137.png)  
+   Tasks and issues for all users and roles are minimized if you disable the `Show Totals for Daily Planned Hours` and tasks and issues are hidden if you enable it.   
+   If the `Show Totals for Daily Planned Hours` is enabled only the Planned Hours for the users display. Tasks and issues remain minimized for the Unassigned area.   
+   ![RS_all_collapsed___1_.png](assets/rs-all-collapsed---1--350x102.png)
 
 ### Adjust the date range of the Scheduling areas
 
@@ -205,18 +211,27 @@ By default, 14 consecutive days (including weekends) are displayed on the schedu
 
 Use any of the following options to modify the date range for which data idisplays on the scheduling timeline:
 
-<ul> 
- <li><span class="bold">Date Range Options:</span> Click the current date range, then select the number of weeks to display on the timeline. You can display Day (single day), 1 week (7 days), 2 weeks (14 days), 3 weeks (21 days), 4 weeks (28 days), or 6 weeks (42 days).<br><p>Consider the following when adjusting the date range of the scheduling timeline:</p> 
-  <ul> 
-   <li>The date range options you select are preserved the next time you visit the scheduling timeline. </li> 
-   <li>When viewing the scheduling timeline in the Day view, user allocations are not displayed.<br><img src="assets/resource-daterange-zoom-350x227.png" alt="resource_daterange_zoom.png" style="width: 350;height: 227;"></li> 
-  </ul></li> 
- <li><span style="line-height: 1.5;" class="bold">Calendar:</span> Click the current date range, then click the day prior to or after the current day. The time between the current day and the selected day is the new range.<br><img src="assets/resource-daterange-350x227.png" alt="resource_daterange.png" style="width: 350;height: 227;"><br></li> 
- <li> <p><span class="bold">Today:</span> Click this option to display the current day. The current day is then displayed on the far left of the date range.<br>Click the left and right arrows to view past or future dates.</p> <note type="note">
-   The time frame you select is preserved when refreshing the page.
-  </note> <p> <img src="assets/resource-daterange-today-350x227.png" alt="resource_daterange_today.png" style="width: 350;height: 227;"> <br> </p> </li> 
- <li><span class="bold">Drag-and-drop of the date range:</span> Drag the date range at the top of the scheduling timeline.<br><img src="assets/resourcescheduling-daterange-350x141.png" alt="resourcescheduling_daterange.png" style="width: 350;height: 141;"></li> 
-</ul>
+* `Date Range Options:` Click the current date range, then select the number of weeks to display on the timeline. You can display Day (single day), 1 week (7 days), 2 weeks (14 days), 3 weeks (21 days), 4 weeks (28 days), or 6 weeks (42 days).  
+  Consider the following when adjusting the date range of the scheduling timeline:
+
+  * The date range options you select are preserved the next time you visit the scheduling timeline. 
+  * When viewing the scheduling timeline in the Day view, user allocations are not displayed.  
+    ![resource_daterange_zoom.png](assets/resource-daterange-zoom-350x227.png)
+
+* `Calendar:` Click the current date range, then click the day prior to or after the current day. The time between the current day and the selected day is the new range.  
+  ![resource_daterange.png](assets/resource-daterange-350x227.png)  
+
+* `Today:` Click this option to display the current day. The current day is then displayed on the far left of the date range.  
+  Click the left and right arrows to view past or future dates.
+
+  >[!NOTE]
+  >
+  >The time frame you select is preserved when refreshing the page.
+
+  ![resource_daterange_today.png](assets/resource-daterange-today-350x227.png)
+
+* `Drag-and-drop of the date range:` Drag the date range at the top of the scheduling timeline.  
+  ![resourcescheduling_daterange.png](assets/resourcescheduling-daterange-350x141.png)
 
 ## Configure Settings in the Scheduling areas
 

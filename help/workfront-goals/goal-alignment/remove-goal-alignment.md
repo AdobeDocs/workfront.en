@@ -64,15 +64,17 @@ Consider the following when removing alignment between two goals:
 
 ## Remove goal alignment
 
-<ol> 
- <li value="1">Go to a child goal aligned to a parent goal. </li> 
- <li value="2">Click the goal name to open the <span class="bold">Goal&nbsp;Details</span> panel. </li> 
- <li value="3"> <p><span>Click the <span class="bold">gear icon</span> <img src="assets/gear-icon-settings.png"> next to the parent goal. </span> </p> <p> <img src="assets/edit-remove-alignment-350x88.png" style="width: 350;height: 88;"> </p> <p>The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. </p> </li> 
- <li value="4"> <p>(Optional) Click <span class="bold">Undo</span> in the lower-left corner of the screen if you want to revert this change and keep the goals aligned. </p> </li> 
- <li value="5"> <p> <p>(Optional)&nbsp;Add activities and results to either goals to indicate their progress. For information about adding activities and results, see the following articles:</p> 
-   <ul> 
-    <li><a href="../../workfront-goals/results-and-activities/add-activities-to-goals.md" class="MCXref xref">Add activities to goals in&nbsp;Adobe Workfront Goals</a> </li> 
-    <li><a href="../../workfront-goals/results-and-activities/add-results-to-goals.md" class="MCXref xref">Add results to goals in Adobe Workfront Goals</a> </li> 
-   </ul> </p> </li> 
-</ol>
+1. Go to a child goal aligned to a parent goal. 
+1. Click the goal name to open the `Goal Details` panel. 
+1. `Click the `gear icon` ![](assets/gear-icon-settings.png) next to the parent goal.`
+
+   ![](assets/edit-remove-alignment-350x88.png)
+
+   The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
+
+1. (Optional) Click `Undo` in the lower-left corner of the screen if you want to revert this change and keep the goals aligned. 
+1. (Optional)&nbsp;Add activities and results to either goals to indicate their progress. For information about adding activities and results, see the following articles:
+
+  * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
+  * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 

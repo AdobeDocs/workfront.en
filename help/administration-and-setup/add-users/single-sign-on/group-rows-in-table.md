@@ -49,65 +49,80 @@ For more information, see [link to Beta enrollment info].
 
 ## Group rows in a table
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Reports</span>.</p> </li> 
- <li value="2"> <p>Click <span class="bold">New report</span>.</p> <p>Or</p> <p>Go to an existing report, click the <span class="bold">More Menu</span> icon <img src="assets/more-icon.png"> in the report header, then select <span class="bold">Edit</span>. <!--
-    Should this step be a separate section and just a link here?
-   --></p> </li> 
- <li value="3"> <p>(Conditional) To group rows on an existing table, click the <b>Edit</b> icon <img src="assets/edit-icon.png"> in the table header.</p> </li> 
- <li value="4"> <p>In the right panel, locate the field that you want group by and drag it to the <span class="bold">Group</span> section.</p> <p>You can use the Search box to find the group you want.</p> </li> 
- <li value="5"> <p>(Optional) Type a new name for the group.</p> </li> 
- <li value="6"> <p>Select an option to indicate how you want the grouped rows to be sorted.</p> <p>The options vary based on the type of field you are using to group your rows.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Currency</td> 
-     <td> 
-      <ul> 
-       <li> <p>Smallest to Biggest</p> </li> 
-       <li> <p>Biggest to Smallest</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Date</td> 
-     <td> 
-      <ul> 
-       <li> <p>Oldest - Newest</p> </li> 
-       <li> <p>Newest - Oldest</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Percent</td> 
-     <td> 
-      <ul> 
-       <li> <p>Smallest to Biggest</p> </li> 
-       <li> <p>Biggest to Smallest</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Text</td> 
-     <td> 
-      <ul> 
-       <li> <p>A - Z</p> </li> 
-       <li> <p>Z - A</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Time</td> 
-     <td> 
-      <ul> 
-       <li> <p>Smallest to Biggest</p> </li> 
-       <li> <p>Biggest to Smallest</p> </li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="7"> <p>(Optional) To have rows in a group collapsed by default, click the <span class="bold">More menu</span> icon <img src="assets/more-icon.png"> next to the group, then select <span class="bold">Collapse</span>.</p> <note type="note">
-   Each group can be set individually to display with rows collapsed or expanded. By default, all grouped rows are collapsed.
-  </note> </li> 
- <li value="8"> <p>(Optional) To display a count in the group row, click the <span class="bold">More menu</span> icon <img src="assets/more-icon-27x15.png" style="width: 27;height: 15;"> next to the group, then select <span class="bold">Display count</span>.</p> </li> 
- <li value="9"> <p>(Optional) To remove a group, click the <span class="bold">More menu</span> icon <img src="assets/more-icon.png"> next to the group, then select <span class="bold">Remove group</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Reports`.
+1. Click `New report`.
+
+   Or
+
+   Go to an existing report, click the `More Menu` icon ![](assets/more-icon.png) in the report header, then select `Edit`. 
+
+   <!--
+   Should this step be a separate section and just a link here?
+   -->
+
+1. (Conditional) To group rows on an existing table, click the **Edit** icon ![](assets/edit-icon.png) in the table header.
+1. In the right panel, locate the field that you want group by and drag it to the `Group` section.
+
+   You can use the Search box to find the group you want.
+
+1. (Optional) Type a new name for the group.
+1. Select an option to indicate how you want the grouped rows to be sorted.
+
+   The options vary based on the type of field you are using to group your rows.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Currency</td> 
+      <td> 
+       <ul> 
+        <li> <p>Smallest to Biggest</p> </li> 
+        <li> <p>Biggest to Smallest</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Date</td> 
+      <td> 
+       <ul> 
+        <li> <p>Oldest - Newest</p> </li> 
+        <li> <p>Newest - Oldest</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Percent</td> 
+      <td> 
+       <ul> 
+        <li> <p>Smallest to Biggest</p> </li> 
+        <li> <p>Biggest to Smallest</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Text</td> 
+      <td> 
+       <ul> 
+        <li> <p>A - Z</p> </li> 
+        <li> <p>Z - A</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Time</td> 
+      <td> 
+       <ul> 
+        <li> <p>Smallest to Biggest</p> </li> 
+        <li> <p>Biggest to Smallest</p> </li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) To have rows in a group collapsed by default, click the `More menu` icon ![](assets/more-icon.png) next to the group, then select `Collapse`.
+
+   >[!NOTE]
+   >
+   >Each group can be set individually to display with rows collapsed or expanded. By default, all grouped rows are collapsed.
+
+1. (Optional) To display a count in the group row, click the `More menu` icon ![](assets/more-icon-27x15.png) next to the group, then select `Display count`.
+1. (Optional) To remove a group, click the `More menu` icon ![](assets/more-icon.png) next to the group, then select `Remove group`.
 

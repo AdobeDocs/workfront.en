@@ -53,14 +53,11 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 
 ### `Assignments`
 
-<ul> Task assigned to you - [assigner's name] Issue assigned to you - [assigner's name] Issue assigned to [team name] - [assigner's name] Task assigned to [team name] - [assigner's name] <note type="note"> 
-  <ul> 
-   <li>Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).</li> 
-   <li>It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;</li> 
-   <li>If you assign work to yourself or a team you belong to, you will not receive a notification. </li> 
-  </ul> 
- </note> 
-</ul>
+*
+
+  * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
+  * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
+  * If you assign work to yourself or a team you belong to, you will not receive a notification.
 
 ### `Comments`
 

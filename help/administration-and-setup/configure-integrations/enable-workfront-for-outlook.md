@@ -41,13 +41,17 @@ You must have the following to perform the steps in this article:
 
 ## Enable the Workfront Outlook add-in
 
-<ol> 
- <li value="1">Log in to Workfront as the administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="3">Expand <span class="bold">System</span>, then click <span class="bold">Preferences</span>.</li> 
- <li value="4"> <p>Ensure that <span class="bold">Let people use Workfront's mobile applications and the Workfront Outlook Add-In</span> is selected.<br>In addition to allowing the Workfront mobile applications to be used, this setting also allows the Workfront Outlook Add-In to be used.</p> <p>This option is enabled by default.</p> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Log in to Workfront as the administrator.
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Expand `System`, then click `Preferences`.
+
+1. Ensure that `Let people use Workfront's mobile applications and the Workfront Outlook Add-In` is selected.  
+   In addition to allowing the Workfront mobile applications to be used, this setting also allows the Workfront Outlook Add-In to be used.
+
+   This option is enabled by default.
+
+1. Click `Save`.
 
 ## Installing the Workfront Outlook add-in
 

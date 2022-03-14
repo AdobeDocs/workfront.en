@@ -43,10 +43,14 @@ You must have the following access to perform the steps in this article:
 
 ## Remove an external page from a dashboard
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon , then click Dashboards. </p> </li> 
- <li value="2"> <p>Select the dashboard from which you want to remove the external page, then click <span class="bold">Edit</span> .</p> <p>  </p> </li> 
- <li value="3"> <p>On the right side of the screen, locate the external page you want to remove and click the <span class="bold">Delete</span> icon <img src="assets/delete.png">.</p> <p> <img src="assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png" style="width: 350;height: 284;"> <br> </p> </li> 
- <li value="4"> <p>Click <span class="bold">Save +&nbsp;Close</span> in the lower-left corner.</p> <p>This removes the external page from the selected dashboard. The external page remains in&nbsp;Workfront and can be accessed from a report.&nbsp;For information, see the "View external pages in a report" section in the article <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </li> 
-</ol>
+1. Click the Main Menu icon , then click Dashboards. 
+1. Select the dashboard from which you want to remove the external page, then click `Edit` .
+
+1. On the right side of the screen, locate the external page you want to remove and click the `Delete` icon ![](assets/delete.png).
+
+   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+
+1. Click `Save + Close` in the lower-left corner.
+
+   This removes the external page from the selected dashboard. The external page remains in&nbsp;Workfront and can be accessed from a report.&nbsp;For information, see the "View external pages in a report" section in the article [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 

@@ -81,18 +81,22 @@ Consider the following when selecting a Priority for your projects:
 
 ## Update the project Priority field
 
-<ol> 
- <li value="1">Go to the project whose Priority you want to update.</li> 
- <li value="2"> Click Project Details in the left panel.</li> 
- <li value="3"> Click&nbsp;the <span class="bold">Edit</span> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;<span class="bold">Overview</span>. </li> 
- <li value="4"> <p>In the <span class="bold">Priority</span> field, select from the following options:</p> 
-  <ul> 
-   <li>None</li> 
-   <li>Low</li> 
-   <li> <p>Normal</p> <p>This is the default priority. </p> </li> 
-   <li>High</li> 
-   <li>Urgent</li> 
-  </ul> <p>  </p> </li> 
- <li value="5"> <p> Click Save Changes.</p> <p>You must communicate with other users and have an understanding what each level of priority means for the project.<br></p> </li> 
-</ol>
+1. Go to the project whose Priority you want to update.
+1. Click Project Details in the left panel.
+1. Click the `Edit` icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project Details area, then click  `Overview`. 
+
+1. In the `Priority` field, select from the following options:
+
+  * None
+  * Low
+  * Normal
+
+    This is the default priority. 
+  
+  * High
+  * Urgent
+
+1. Click Save Changes.
+
+   You must communicate with other users and have an understanding what each level of priority means for the project.
 

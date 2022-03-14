@@ -13,14 +13,13 @@ This task view identifies tasks that will have to complete late because of weeke
 
 This view displays the following:
 
-<ul> 
- <li>The Duration of tasks</li> 
- <li>The Planned Start and Planned Completion Dates of the tasks</li> 
- <li>The duration of the tasks according to the number of days between the Planned Start and Planned Completion Dates of the tasks (Calendar Duration)</li> 
- <li>The number of the day in the project's schedule when the task starts (Calendar Start Date)</li> 
- <li>The Week Day Duration of the tasks according to the number of weekdays between the Planned Start and Planned Completion Dates of the tasks (Week Day Duration)</li> 
- <li>If the Week Day&nbsp;Duration is greater than the duration of the tasks, which suggests that there are exception days in the duration of the tasks, the tasks are marked as an "Exception".<br><img src="assets/tasks-with-calendar-exceptions-350x51.png" alt="tasks_with_calendar_exceptions.png" style="width: 350;height: 51;"></li> 
-</ul>
+* The Duration of tasks
+* The Planned Start and Planned Completion Dates of the tasks
+* The duration of the tasks according to the number of days between the Planned Start and Planned Completion Dates of the tasks (Calendar Duration)
+* The number of the day in the project's schedule when the task starts (Calendar Start Date)
+* The Week Day Duration of the tasks according to the number of weekdays between the Planned Start and Planned Completion Dates of the tasks (Week Day Duration)
+* If the Week Day&nbsp;Duration is greater than the duration of the tasks, which suggests that there are exception days in the duration of the tasks, the tasks are marked as an "Exception".  
+  ![tasks_with_calendar_exceptions.png](assets/tasks-with-calendar-exceptions-350x51.png)
 
 ## Access requirements
 

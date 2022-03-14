@@ -57,15 +57,20 @@ You must have the following to perform the steps in this article:
 
 ## Customize user interface terminology
 
-<ol> 
- <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
- <li value="2">Click <span class="bold">Set Terminology</span> near the upper-right corner of the page.</li> 
- <li value="3">Do any of the following:
-  <ul>
-   <li><p>To use an alternative term provided by Workfront, click the down arrow&nbsp;<img src="assets/dropdown-arrow.png"> next to the label, then click the alternative label you want in the drop-down list.</p><note type="note">
-     Alternative labels provided in the drop-down lists are supported in versions of Workfront localized for non-English languages.
-    </note></li>
-   <li><p>To provide your own custom alternative for the label displayed for an object, click <span class="bold">Set custom name</span> to the right of the label, then type the <span class="bold">Singular</span> and <span class="bold">Plural</span> forms of the custom term. You can click <span class="bold">Reset</span> if you change your mind.</p><p>You can customize the following object names:</p>
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click `Set Terminology` near the upper-right corner of the page.
+1. Do any of the following:
+
+  * To use an alternative term provided by Workfront, click the down arrow&nbsp; ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
+
+    >[!NOTE]
+    >
+    >Alternative labels provided in the drop-down lists are supported in versions of Workfront localized for non-English languages.
+
+  * To provide your own custom alternative for the label displayed for an object, click `Set custom name` to the right of the label, then type the `Singular` and `Plural` forms of the custom term. You can click `Reset` if you change your mind.
+
+    You can customize the following object names:
+
     <table cellspacing="0">
      <col>
      <col>
@@ -97,19 +102,27 @@ You must have the following to perform the steps in this article:
        <td><p>These objects require an additional license. For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p></td>
       </tr>Workfront Scenario Planner objects Initiative Scenario Plan These objects require an additional license. For information, see Get started with the Adobe Workfront Scenario Planner.
      </tbody>
-    </table></li>
-  </ul></li> 
- <li value="4"> <p>When you are finished, click <span class="bold">Done</span>.</p> <note type="tip">
-   After you click Done (and even after you save your layout template), you can always return to the Set Terminology settings and click Reset next to any custom terms to return them to their default state.
-  </note> </li> 
- <li value="5"> <p> <p>Continue customizing the layout template.</p> <p>Or</p> <p>If you are finished customizing, click <span class="bold">Save</span>.</p> </p> </li> 
- <li value="6">To see your terminology changes:
-  <ol>
-   <li value="1"><p>Log out and back in to Workfront.</p></li>
-   <li value="2">Close all browser tabs that you have open for your Workfront environment.</li>
-  </ol><note type="important">
-   This is also required for anyone who used the layout template before you made the terminology changes.
-  </note></li> 
-</ol>
+    </table>
+
+1. When you are finished, click `Done`.
+
+   >[!TIP]
+   >
+   >After you click Done (and even after you save your layout template), you can always return to the Set Terminology settings and click Reset next to any custom terms to return them to their default state.
+
+1. Continue customizing the layout template.
+
+   Or
+
+   If you are finished customizing, click `Save`.
+
+1. To see your terminology changes:
+
+  1. Log out and back in to Workfront.
+  1. Close all browser tabs that you have open for your Workfront environment.
+
+   >[!IMPORTANT]
+   >
+   >This is also required for anyone who used the layout template before you made the terminology changes.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

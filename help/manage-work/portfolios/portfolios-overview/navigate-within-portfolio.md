@@ -43,47 +43,68 @@ You must have the following access to perform the steps in this article:
 
 ## Navigate within a portfolio
 
-<ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
- <li style="font-weight: bold;" value="2"> Click Portfolios.</li> 
- <li value="3"> From the Filter drop-down menu, select the following: 
-  <ul> 
-   <li><span class="bold">Portfolios I Own</span>: Includes a list of portfolios for which you are designated as the Portfolio Manager.</li> 
-   <li><span class="bold">All</span>: Includes all portfolios for which you have at least access to View.<br>For more information about access to Portfolios, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a>.<br>For more information about permissions to Portfolios, see&nbsp;<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md" class="MCXref xref">Share a portfolio in Adobe Workfront</a>.<br><br>To add new portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio</a>.</li> 
-  </ul> </li> 
- <li value="4"> Click the name of a portfolio to access it.<br>The following portfolio performance metrics are displayed in the Portfolio Details area inside a portfolio: 
-  <ul>
-   <li>Whether the portfolio is On Time</li>
-   <li>Whether the portfolio is On Budget</li>
-   <li>The Return on Investment (ROI)</li>
-   <li>The portfolio Alignment</li>
-   <li>The portfolio Net Value<br><br></li>
-  </ul></li> 
- <li value="5"> (Optional) &nbsp; Click Projects in the left panel to view projects associated with the selected portfolio, then select any of the following filters from the Filter drop-down menu:
-  <ul>
-   <li><span class="bold">Active</span>: Includes all projects associated with the selected portfolio which are in the following statuses:<br>- Planning<br>- Approved<br>- Current</li>
-   <li><span class="bold">Requested</span>: Includes projects associated with the selected portfolio with a status of <span class="bold">Requested</span>.<br>For information about reviewing Requested projects, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md" class="MCXref xref">Review Requested Projects</a>.</li>
-   <li><p><span class="bold">All</span>: Includes all projects associated with the selected portfolio.</p><note type="note">
-     To see only specific projects, consider creating a project filter in the 
-     <span class="bold">Filter</span> drop-down menu at the top of the list of projects to decrease the number of projects displayed.
-    </note><p>For more information about creating filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p></li>
-  </ul></li> 
- <li value="6"> Click Programs in the left panel to create Programs within the portfolio or manage existing ones.<br>For information about programs, see the <a href="../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Create and manage programs </a> section.</li> 
- <li value="7">(Optional) Expand the Portfolio Details area in the left panel, then click Overview or Custom Forms to edit information about the portfolio.</li> 
- <li value="8"> <p>(Optional) Click Portfolio Optimization in the left panel to optimize the performance of the portfolio.</p> <note type="important">
-   Your company must have a Business or higher Workfront plan to have access to the Portfolio Optimizer.
-  </note> <p>For information about using the Portfolio Optimizer, see the <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Manage projects in the Portfolio Optimizer</a> section.&nbsp;</p> </li> 
- <li value="9">(Optional) Click Documents in the left panel to attach documents to the portfolio.</li> 
- <li value="10">(Optional) &nbsp;Click Updates in the left panel to add comments to the update stream of the portfolio.</li> 
- <li value="11"> (Optional) <![CDATA[
-]]>Click the More menu to do one of the following:
-  <ul>
-   Deactivate the portfolio. When a portfolio is deactivated, you can no longer associate it with projects at the project level.
-   <li>Delete the portfolio.<br><note type="important">
-      This does not delete the projects associated with the portfolio. This removes the name of the portfolio from the projects currently associated with it.&nbsp;
-    </note></li>
-   <li>Share the portfolio with other users.</li>
-  </ul></li> 
- <li value="12"> (Optional) Click the Star icon to the right of the portfolio name to add the portfolio to your list of favorites. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click Portfolios.
+1. From the Filter drop-down menu, select the following:
+
+  * `Portfolios I Own`: Includes a list of portfolios for which you are designated as the Portfolio Manager.
+  * `All`: Includes all portfolios for which you have at least access to View.  
+    For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
+    For more information about permissions to Portfolios, see&nbsp; [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).  
+  
+    To add new portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+
+1. Click the name of a portfolio to access it.  
+   The following portfolio performance metrics are displayed in the Portfolio Details area inside a portfolio:
+
+  * Whether the portfolio is On Time
+  * Whether the portfolio is On Budget
+  * The Return on Investment (ROI)
+  * The portfolio Alignment
+  * The portfolio Net Value
+
+1. (Optional) &nbsp; Click Projects in the left panel to view projects associated with the selected portfolio, then select any of the following filters from the Filter drop-down menu:
+
+  * `Active`: Includes all projects associated with the selected portfolio which are in the following statuses:  
+    - Planning  
+    - Approved  
+    - Current
+  
+  * `Requested`: Includes projects associated with the selected portfolio with a status of `Requested`.  
+    For information about reviewing Requested projects, see [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+  
+  * `All`: Includes all projects associated with the selected portfolio.
+
+    >[!NOTE]
+    >
+    >To see only specific projects, consider creating a project filter in the `Filter` drop-down menu at the top of the list of projects to decrease the number of projects displayed.
+
+    For more information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. Click Programs in the left panel to create Programs within the portfolio or manage existing ones.  
+   For information about programs, see the [Create and manage programs](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) section.
+
+1. (Optional) Expand the Portfolio Details area in the left panel, then click Overview or Custom Forms to edit information about the portfolio.
+1. (Optional) Click Portfolio Optimization in the left panel to optimize the performance of the portfolio.
+
+   >[!IMPORTANT]
+   >
+   >Your company must have a Business or higher Workfront plan to have access to the Portfolio Optimizer.
+
+   For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section.&nbsp;
+
+1. (Optional) Click Documents in the left panel to attach documents to the portfolio.
+1. (Optional) &nbsp;Click Updates in the left panel to add comments to the update stream of the portfolio.
+1. (Optional) <![CDATA[]]>Click the More menu to do one of the following:
+
+  * Delete the portfolio.
+
+    >[!IMPORTANT]
+    >
+    >This does not delete the projects associated with the portfolio. This removes the name of the portfolio from the projects currently associated with it.&nbsp;
+
+  * Share the portfolio with other users.
+
+1. (Optional) Click the Star icon to the right of the portfolio name to add the portfolio to your list of favorites.
 

@@ -59,14 +59,17 @@ For information on metadata syncing, see
 
 To send a document:
 
-<ol> 
- <li value="1"> <p>Go to the <span class="bold">Documents</span> area in Workfront, and select the document you want to send.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Send to</span>, then choose the Experience Manager Assets integration your administrator set up.</p> <note type="note">
-   Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
-  </note> <p> <img src="assets/copy-of-send-to-in-toolbar-350x149.png" style="width: 350;height: 149;"> </p> </li> 
- <li value="3"> <p>Choose where you want the asset to go, then click <span class="bold">Select Folder</span>.</p> </li> 
- <li value="4"> <p>When you find your desired destination, click <span class="bold">Save</span>. </p> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront, and select the document you want to send.
+1. Click `Send to`, then choose the Experience Manager Assets integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
+
+   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+
+1. Choose where you want the asset to go, then click `Select Folder`.
+1. When you find your desired destination, click `Save`.
 
 ## Send a new version to Experience Manager Assets
 
@@ -74,11 +77,14 @@ You can add a new version to a document you have previously uploaded to Workfron
 
 To send the most recent version:
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span> area in Workfront, and locate the document.</li> 
- <li value="2"> <p>Click <span class="bold">Send to</span>, then choose the Experience Manager Assets integration your administrator set up.</p> <note type="note">
-   Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
-  </note> <p> <img src="assets/copy-of-send-to-in-toolbar-350x149.png" style="width: 350;height: 149;"> </p> </li> 
- <li value="3"> <p>Click <span class="bold">Save</span>. The new version saves in the same location as the previous version. </p> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront, and locate the document.
+1. Click `Send to`, then choose the Experience Manager Assets integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
+
+   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+
+1. Click `Save`. The new version saves in the same location as the previous version.
 

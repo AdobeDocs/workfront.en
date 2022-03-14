@@ -39,24 +39,44 @@ You must have the following to perform the steps in this article:
 
 ## Configure user access to projects using a custom access level
 
-<ol> 
- <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
- <li value="2"> <p>Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of Projects, then select the abilities you want to grant under <b>Fine-tune your settings</b>.</p> <p> <img src="assets/planner-fine-tune-your-settings-with-copy-projects-350x93.png" style="width: 350;height: 93;"> </p> <note type="note"> 
-   <ul> 
-    <li>Users with a Work license have limited project rights. They can contribute to a project, but not manage one.</li> 
-    <li>Users with a Review license have View rights on projects from converted issues, but their View rights are limited.</li> 
-    <li> <p>For information about permissions users can grant when sharing projects with others, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> </li> 
-    <li> <p>When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting tasks, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref" data-mc-variable-override="">Interdependency and hierarchy of objects</a> in&nbsp;the article <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref" data-mc-variable-override="">Understand objects in Adobe Workfront</a>.</p> </li> 
-   </ul> 
-  </note> </li> 
- <li value="3"> <p>(Optional) Click <span class="bold">set sharing defaults</span> to the right of the Create option, then <span class="bold">Add Rule</span> to add a sharing rule for new projects.</p> <p>When the user with this access level creates a project, the project is shared automatically with the users you select in the menu on the left. </p> <p> <img src="assets/project-sharing-menu-350x230.png" style="width: 350;height: 230;"> </p> <p>In the menu on the right, you specify how you want the project shared with those users:</p> <p> <img src="assets/project-sharing-right-menu-350x234.png" style="width: 350;height: 234;"> </p> <note type="note">
-    If a user with this access level is using a project access template, the template overrides the sharing settings in the access level. For information about project access templates, see 
-   <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.
-  </note> <p>You can repeat this step to add as many project sharing rules as you need for the access level.</p> </li> 
- <li value="4">Click the X to close the <span class="bold">Fine-tune your settings</span> box.</li> 
- <li value="5"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
- <li value="6"> <p>When you are finished, click Save.</p> <p>After the access level is created, you can assign it to a user. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Edit a user's profile</a>.</p> </li> 
-</ol>
+1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Projects, then select the abilities you want to grant under **Fine-tune your settings**.
+
+   ![](assets/planner-fine-tune-your-settings-with-copy-projects-350x93.png)
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * Users with a Work license have limited project rights. They can contribute to a project, but not manage one.
+   >  * Users with a Review license have View rights on projects from converted issues, but their View rights are limited.
+   >  * For information about permissions users can grant when sharing projects with others, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+   >  * When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting tasks, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in&nbsp;the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+   >  
+   >
+
+1. (Optional) Click `set sharing defaults` to the right of the Create option, then `Add Rule` to add a sharing rule for new projects.
+
+   When the user with this access level creates a project, the project is shared automatically with the users you select in the menu on the left.
+
+   ![](assets/project-sharing-menu-350x230.png)
+
+   In the menu on the right, you specify how you want the project shared with those users:
+
+   ![](assets/project-sharing-right-menu-350x234.png)
+
+   >[!NOTE]
+   >
+   >If a user with this access level is using a project access template, the template overrides the sharing settings in the access level. For information about project access templates, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+
+   You can repeat this step to add as many project sharing rules as you need for the access level.
+
+1. Click the X to close the `Fine-tune your settings` box.
+1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. When you are finished, click Save.
+
+   After the access level is created, you can assign it to a user. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ## Access to reports, dashboards, and calendars by license type
 

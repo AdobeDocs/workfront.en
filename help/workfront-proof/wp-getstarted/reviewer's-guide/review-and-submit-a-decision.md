@@ -32,14 +32,16 @@ You can navigate through the proof pages using the tools (1) at the bottom of th
 
 If you want to add a comment to the proof, or to mark-up an area of the proof:
 
-<ol> 
- <li value="1"> <p>Click the orange <span class="bold">Add Comment</span> button (2)</p> <p> <img src="assets/reviewer's-guide---reviewing-350x191.png" style="width: 350;height: 191;"> </p> </li> 
- <li value="2">Type your comment into the comments box (3)</li> 
- <li value="3">Add one or more markups (4) to highlight the area of the proof referring to - you have a variety of tools (4) to choose from.</li> 
- <p>Use the rectangle tool to draw a simple box shape. Pencil (freehand tool) is great for more precise and complex selections. Use the line tool to draw straight lines or polyline to create various shapes. Add arrows to call something out or indicate a piece of text. The marker tool can be a great highlighter and with the crop tool you can indicate a trim area. Change markups color, thickness, or delete markups.</p> 
- <p> <img src="assets/reviewer's-guide---reviewing-2-350x195.png" alt="Reviewer_s_guide_-_reviewing_2.png" style="width: 350;height: 195;"> </p> 
- <li value="4">Click <span class="bold">Save</span> (5) when you are finished</li> 
-</ol>
+1. Click the orange `Add Comment` button (2)
+
+   ![](assets/reviewer's-guide---reviewing-350x191.png)
+
+1. Type your comment into the comments box (3)
+1. Add one or more markups (4) to highlight the area of the proof referring to - you have a variety of tools (4) to choose from.
+1. Use the rectangle tool to draw a simple box shape. Pencil (freehand tool) is great for more precise and complex selections. Use the line tool to draw straight lines or polyline to create various shapes. Add arrows to call something out or indicate a piece of text. The marker tool can be a great highlighter and with the crop tool you can indicate a trim area. Change markups color, thickness, or delete markups.
+1. ![Reviewer_s_guide_-_reviewing_2.png](assets/reviewer's-guide---reviewing-2-350x195.png)
+
+1. Click `Save` (5) when you are finished
 
 As soon as you save your comment a new comment box will activate so you can continue your work without any additional clicks.
 
@@ -53,14 +55,12 @@ If you are reviewing a proof that contains text that is selectable, then you wil
 
 You can correct a text or make some comment markup:
 
-<ol> 
- <li value="1">Activate the text tool (6)</li> 
- <li value="2">Highlight a part of a text on the proof (7) - your selection will be placed into the active comment box (8)</li> 
- <li value="3">Select one of the annotation options (9)</li> 
- <li value="4">Add your own comment text inside the box</li> 
- <li value="5">Save your comment.</li> 
- <img src="assets/reviewer's-guide---reviewing-3-350x190.png" alt="Reviewer_s_guide_-_reviewing_3.png" style="width: 350;height: 190;"> 
-</ol>
+1. Activate the text tool (6)
+1. Highlight a part of a text on the proof (7) - your selection will be placed into the active comment box (8)
+1. Select one of the annotation options (9)
+1. Add your own comment text inside the box
+1. Save your comment.
+1.
 
 >[!NOTE]
 >

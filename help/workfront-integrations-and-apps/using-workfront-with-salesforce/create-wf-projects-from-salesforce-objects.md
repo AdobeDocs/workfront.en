@@ -82,41 +82,86 @@ Once you configure the triggers, the process of creating Workfront projects is e
 
 To configure triggers in Salesforce:
 
-<ol> 
- <li value="1">Log in to Salesforce as the system administrator.&nbsp;</li> 
- <li value="2"> <p> (Conditional) In Salesforce Classic, click <span class="bold">Setup</span>, and under the <span class="bold">Build</span> section, expand <span class="bold">Lightning Bolt</span>.</p> <p>Or</p> <p>In Salesforce Lightning Experience, click the <span class="bold">Setup icon</span>, then <span class="bold">Setup</span>, and under <span class="bold">PLATFORM TOOLS</span> expand <span class="bold">Apps</span>.</p> </li> 
- <li value="3"> <p> Click <span class="bold">Installed Packages</span>.</p> <p>Notice that the <span class="bold">Workfront</span> package has been installed.</p> </li> 
- <li value="4">Click <span class="bold">Configure</span> next to<span class="bold"> Workfront</span>.</li> 
- <li value="5"> <p>Log in to Workfront as a system administrator.</p> <p>The <span class="bold">Triggers</span> page displays.</p> <p> <img src="assets/salesforce-triggers-page-empty-350x134.png" alt="salesforce_triggers_page_empty.png" style="width: 350;height: 134;"> </p> </li> 
- <li value="6">Click <span class="bold">New Trigger</span>.&nbsp;</li> 
- <li value="7">From the <span class="bold">Salesforce Object </span>drop-down menu, select <span class="bold">Opportunity</span>.<span class="bold"><br></span>This is a required field.</li> 
- <li value="8">(Conditional) Specify the following: 
-  <ol>
-   <li value="1">From the <span class="bold">Stage</span> drop-down menu, select a&nbsp;<span class="bold">Stage</span>.<br>When an opportunity reaches the Stage specified here, a project is created in Workfront. This is a required field.</li>
-   <li value="2">In the <span class="bold">Portfolio or Program</span> field, start typing the name of a Portfolio or Program where you want the project to be placed in Workfront, then select it when it appears in the list.<br>If you do not specify a Portfolio or a Program, the new project is created and added to the Projects I Own list of the user logged in to Workfront when configuring the triggers. That user is also the Project Owner for the new project.</li>
-   <li value="3"><p>Start typing the name of a Template that you want to associate with the new Workfront project, then select it when it appears in the list.<br>This is a required field.&nbsp;</p><note type="note">
-     If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the Projects I Own list of the user who is the owner of the new project, according to the template. 
-    </note></li>
-   <li value="4">(Optional) Select the <span class="bold">Create a new project for each sold product type field</span>, if you want to create a new project for every type of product that is sold under any one opportunity.&nbsp;</li>
-   <li value="5"><p>(Conditional) Select a <span class="bold">Product</span> in the <span class="bold">Product</span> drop-down menu.</p><p>This is a required field.</p></li>
-   <li value="6"><p>(Conditional)&nbsp;Start typing the name of a <span class="bold">Template</span> that you want to associate with the new Workfront project if the specified Product is on the Opportunity. Select it when it appears in the list.</p><p>This is a required field.</p><p>The project created when a new product is added to the Salesforce opportunity is placed in the same Portfolio or Program selected for the opportunity.</p><note type="important">
-     The project is created only when the Stage is updated on the Opportunity. A unique project is created for each product specified when the Stage field is updated, and not as the products are added to Opportunities.
-    </note></li>
-  </ol></li> 
- <li value="9">(Optional) Click <span class="bold">New Trigger</span>.&nbsp;</li> 
- <li value="10">(Optional)&nbsp;From the <span class="bold">Salesforce Object </span>drop-down menu, select <span class="bold">Account</span>.</li> 
- <li value="11">This is a required field.&nbsp;</li> 
- <li value="12">(Conditional) Specify the following:&nbsp;<br>
-  <ol>
-   <li value="1"><p>Select a <span class="bold">Type</span> from the <span class="bold">Type</span> drop-down menu.<br>When any <span class="bold">Account</span> is designated as the <span class="bold">Type</span> specified here in Salesforce, a <span class="bold">Project</span> is created in Workfront.</p><p>This is a required field.&nbsp;</p></li>
-   <li value="2"><p>(Optional) Start typing the name of a <span class="bold">Portfolio</span> or <span class="bold">Program</span> where you want the project to be placed in Workfront in the <span class="bold">Portfolio or Program</span> field, then select it when it appears in the list.</p><p>If you do not specify a Portfolio or a Program, the new project is created and added to the <span class="bold">Projects I Own</span> list of the user logged in to Workfront from Salesforce. The user is also the Project Owner for the new project.&nbsp;</p></li>
-   <li value="3"><p>Start typing the name of a <span class="bold">Template</span> that you want to associate with the new Workfront project, then select it when it appears in the list.</p><p>This is a required field.&nbsp;</p><note type="note">
-     If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the 
-     <span class="bold">Projects I Own</span> list of the user who is the owner of the new project, according to the template. 
-    </note></li>
-  </ol><img src="assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png" alt="salesforce_triggers_page_with_cleaned_up_template_names.png" style="width: 350;height: 157;"></li> 
- <li value="13">Click <span class="bold">Save</span>.<br>Workfront projects are now generated every time any of the triggers are met.</li> 
-</ol>
+1. Log in to Salesforce as the system administrator.&nbsp;
+1. (Conditional) In Salesforce Classic, click `Setup`, and under the `Build` section, expand `Lightning Bolt`.
+
+   Or
+
+   In Salesforce Lightning Experience, click the `Setup icon`, then `Setup`, and under `PLATFORM TOOLS` expand `Apps`.
+
+1. Click `Installed Packages`.
+
+   Notice that the `Workfront` package has been installed.
+
+1. Click `Configure` next to `Workfront`.
+
+1. Log in to Workfront as a system administrator.
+
+   The `Triggers` page displays.
+
+   ![salesforce_triggers_page_empty.png](assets/salesforce-triggers-page-empty-350x134.png)
+
+1. Click `New Trigger`.&nbsp;
+1. From the `Salesforce Object`drop-down menu, select `Opportunity`. `  
+   `This is a required field.
+
+1. (Conditional) Specify the following:
+
+  1. From the `Stage` drop-down menu, select a  `Stage`.  
+     When an opportunity reaches the Stage specified here, a project is created in Workfront. This is a required field.
+  
+  1. In the `Portfolio or Program` field, start typing the name of a Portfolio or Program where you want the project to be placed in Workfront, then select it when it appears in the list.  
+     If you do not specify a Portfolio or a Program, the new project is created and added to the Projects I Own list of the user logged in to Workfront when configuring the triggers. That user is also the Project Owner for the new project.
+  
+  1. Start typing the name of a Template that you want to associate with the new Workfront project, then select it when it appears in the list.  
+     This is a required field.&nbsp;
+
+     >[!NOTE]
+     >
+     >If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the Projects I Own list of the user who is the owner of the new project, according to the template.
+
+  1. (Optional) Select the `Create a new project for each sold product type field`, if you want to create a new project for every type of product that is sold under any one opportunity.&nbsp;
+  1. (Conditional) Select a `Product` in the `Product` drop-down menu.
+
+     This is a required field.
+  
+  1. (Conditional) Start typing the name of a `Template` that you want to associate with the new Workfront project if the specified Product is on the Opportunity. Select it when it appears in the list.
+
+     This is a required field.
+
+     The project created when a new product is added to the Salesforce opportunity is placed in the same Portfolio or Program selected for the opportunity.
+
+     >[!IMPORTANT]
+     >
+     >The project is created only when the Stage is updated on the Opportunity. A unique project is created for each product specified when the Stage field is updated, and not as the products are added to Opportunities.
+
+1. (Optional) Click `New Trigger`.&nbsp;
+1. (Optional) From the `Salesforce Object`drop-down menu, select `Account`.
+
+1. This is a required field.&nbsp;
+1. (Conditional) Specify the following:&nbsp;
+
+  1. Select a `Type` from the `Type` drop-down menu.  
+     When any `Account` is designated as the `Type` specified here in Salesforce, a `Project` is created in Workfront.
+
+     This is a required field.&nbsp;
+  
+  1. (Optional) Start typing the name of a `Portfolio` or `Program` where you want the project to be placed in Workfront in the `Portfolio or Program` field, then select it when it appears in the list.
+
+     If you do not specify a Portfolio or a Program, the new project is created and added to the `Projects I Own` list of the user logged in to Workfront from Salesforce. The user is also the Project Owner for the new project.&nbsp;
+  
+  1. Start typing the name of a `Template` that you want to associate with the new Workfront project, then select it when it appears in the list.
+
+     This is a required field.&nbsp;
+
+     >[!NOTE]
+     >
+     >If you have specified a Template Owner on the template that you are planning to use for this integration, that becomes the Project Owner of the new project. The new projects appear under the `Projects I Own` list of the user who is the owner of the new project, according to the template.
+
+   ![salesforce_triggers_page_with_cleaned_up_template_names.png](assets/salesforce-triggers-page-with-cleaned-up-template-names-350x157.png)
+
+1. Click `Save`.  
+   Workfront projects are now generated every time any of the triggers are met.
 
 ### Understanding Project Names
 
@@ -134,25 +179,35 @@ You must have a Workfront account and be logged in to Workfront to view the Proj
 
 To view projects created from an Opportunity or Account:&nbsp;
 
-<ol> 
- <li value="1">Go to an Opportunity or Account.</li> 
- <li value="2"> <p>Go to the <span class="bold">Workfront</span> section.</p> <note type="note">
-   Depending on how your Workfront administrator configured this section, it might have a different name.
-  </note> </li> 
- <li value="3"> <p>Select the <span class="bold">Projects</span> tab.</p> <p>All projects created by defined triggers are listed in this tab. Any user in Salesforce who also has a Workfront account and who might have permissions to see these projects in Workfront can also see them in Salesforce for the Opportunity or the Account that generated them.</p> <p> <img src="assets/salesforce-projects-tab-with-projects-listed-350x150.png" alt="salesforce_projects_tab_with_projects_listed.png" style="width: 350;height: 150;"> </p> <p>You can view the following information about the projects created by the integration:</p> 
-  <ul> 
-   <li>Project Name&nbsp;</li> 
-   <li>Reference Number</li> 
-   <li>Entry Date</li> 
-   <li>Name of the Owner</li> 
-   <li>Status</li> 
-   <li>Condition</li> 
-   <li>Planned Completion Date</li> 
-   <li>Percent Complete<span class="bold"><br></span>When this information is updated in Workfront, you can see the fields updated in this list.&nbsp;</li> 
-  </ul> </li> 
- <li value="4">(Optional) Click the name of a project to open it in Workfront.&nbsp;</li> 
- <li value="5"> <p>(Optional) Click <span class="bold">Go to Salesforce</span> to access the Opportunity or Account where the project originated.</p> <note type="note">
-   The Go to Salesforce link is visible to all Workfront users who can view the project. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account from where the project was generated.&nbsp;&nbsp;
-  </note> </li> 
-</ol>
+1. Go to an Opportunity or Account.
+1. Go to the `Workfront` section.
+
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator configured this section, it might have a different name.
+
+1. Select the `Projects` tab.
+
+   All projects created by defined triggers are listed in this tab. Any user in Salesforce who also has a Workfront account and who might have permissions to see these projects in Workfront can also see them in Salesforce for the Opportunity or the Account that generated them.
+
+   ![salesforce_projects_tab_with_projects_listed.png](assets/salesforce-projects-tab-with-projects-listed-350x150.png)
+
+   You can view the following information about the projects created by the integration:
+
+  * Project Name&nbsp;
+  * Reference Number
+  * Entry Date
+  * Name of the Owner
+  * Status
+  * Condition
+  * Planned Completion Date
+  * Percent Complete `  
+    `When this information is updated in Workfront, you can see the fields updated in this list.&nbsp;
+
+1. (Optional) Click the name of a project to open it in Workfront.&nbsp;
+1. (Optional) Click `Go to Salesforce` to access the Opportunity or Account where the project originated.
+
+   >[!NOTE]
+   >
+   >The Go to Salesforce link is visible to all Workfront users who can view the project. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account from where the project was generated.&nbsp;&nbsp;
 

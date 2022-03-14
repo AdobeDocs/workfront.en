@@ -54,21 +54,39 @@ You must have the following:
 
 ## Create a template
 
-<ol> 
- <li value="1"> From the Main Menu click Templates.</li> 
- <li value="2"> <p>Click <span class="bold">New Template</span>.</p> <p>The template is untitled.</p>   </li> 
- <li value="3"> Specify a name for the new template in the template header, then press <span class="bold">Enter.</span></li> 
- <li value="4"> Click the Template Tasks section in the left panel. </li> 
- <li value="5"> <p>Click<span class="bold"> Start Adding Template Tasks</span>.</p> <p>Or</p> <p>Click <span class="bold">New Template Task</span> to start adding tasks to your template.</p> <p>Adding template tasks to a template is identical to adding tasks to a project.</p> <p>For more information about adding tasks to a project, see <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p> <note type="note">
-   You cannot add recurring tasks to a template. 
-  </note> </li> 
- <li value="6"> <p>(Optional) Click the <span class="bold">Gantt chart</span> icon in the upper-right corner of the Task List to see a visual representation of the template's task list. </p> <note type="tip">
-   You cannot edit tasks directly from this Gantt chart.
-  </note> </li> 
- <li value="7"> <p>To add information to your new template, click the More menu , then click Edit.</p> <p>For information about editing a template, see <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a>.</p> </li> 
- <li value="8">Click <span class="bold">Save Changes</span>.</li> 
- <li value="9">(Optional) If you want to add additional items to the template, see the section <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template" class="MCXref xref">Add additional items to a template</a> in the article <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Edit project templates</a>. </li> 
-</ol>
+1. From the Main Menu click Templates.
+1. Click `New Template`.
+
+   The template is untitled.
+
+1. Specify a name for the new template in the template header, then press `Enter.`
+1. Click the Template Tasks section in the left panel. 
+1. Click `Start Adding Template Tasks`.
+
+   Or
+
+   Click `New Template Task` to start adding tasks to your template.
+
+   Adding template tasks to a template is identical to adding tasks to a project.
+
+   For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+   >[!NOTE]
+   >
+   >You cannot add recurring tasks to a template.
+
+1. (Optional) Click the `Gantt chart` icon in the upper-right corner of the Task List to see a visual representation of the template's task list.
+
+   >[!TIP]
+   >
+   >You cannot edit tasks directly from this Gantt chart.
+
+1. To add information to your new template, click the More menu , then click Edit.
+
+   For information about editing a template, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+1. Click `Save Changes`.
+1. (Optional) If you want to add additional items to the template, see the section [Add additional items to a template](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template) in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Template settings determined by group association
 

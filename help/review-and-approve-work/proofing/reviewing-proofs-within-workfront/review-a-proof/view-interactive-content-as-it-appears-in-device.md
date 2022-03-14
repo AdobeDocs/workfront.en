@@ -45,32 +45,49 @@ Your Adobe Workfront administrator has configured your system so that you review
 
 * In the Desktop Proofing Viewer, you can view how content appears and responds both in various resolutions and on various devices. When a reviewer specifies a certain device, the content appears as it would on that device, with the user interface specifications for the device. For example, a red button on one brand of smart phone may be blue on a different brand.
 
-<ul> 
- <li> <p>In the Web Proofing Viewer, you can view interactive content as it appears in the resolutions for the various devices. But the Web Proofing Viewer does not emulate the content using interface specifications on these devices, such as button color.</p> <note type="note">
-   Your Workfront administrator can configure custom devices for users in your organization, as described in Configuring Custom Devices for Interactive Proofs in the article 
-   <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.
-  </note> </li> 
-</ul>
+* In the Web Proofing Viewer, you can view interactive content as it appears in the resolutions for the various devices. But the Web Proofing Viewer does not emulate the content using interface specifications on these devices, such as button color.
+
+  >[!NOTE]
+  >
+  >Your Workfront administrator can configure custom devices for users in your organization, as described in Configuring Custom Devices for Interactive Proofs in the article [Configure a user's proofing access](../../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
 ## View a proof with a preset device or resolution setting
 
-<ol> 
- <li value="1">Go to the document list that contains the proof you want to open.</li> 
- <li value="2">Hover over the document, then click&nbsp;<span class="bold">Open proof</span>.</li> 
- <li value="3"> <p>Click <span class="bold">Responsive</span> at the center-bottom of the proofing viewer.<br></p> <p> <img src="assets/resolution-option-in-dpv-350x64.png" alt="Resolution_option_in_DPV.png" style="width: 350;height: 64;"> <br> </p> </li> 
- <li value="4"> <p>In the Desktop Proofing Viewer, in the list of devices and resolutions that appears, click the one you want.</p> <p>Or</p> <p>In the Web Proofing Viewer, in the list of resolutions that appears, click the one you want.</p> <p>If you need information about how these two viewers differ, see <a href="../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> <p>The interactive proof renders in the resolution you select.</p> </li> 
-</ol>
+1. Go to the document list that contains the proof you want to open.
+1. Hover over the document, then click  `Open proof`.
+1. Click `Responsive` at the center-bottom of the proofing viewer.
+
+   ![Resolution_option_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
+
+1. In the Desktop Proofing Viewer, in the list of devices and resolutions that appears, click the one you want.
+
+   Or
+
+   In the Web Proofing Viewer, in the list of resolutions that appears, click the one you want.
+
+   If you need information about how these two viewers differ, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+
+   The interactive proof renders in the resolution you select.
 
 ## View a proof with a custom resolution setting
 
-<ol> 
- <li value="1"> <p>Go to the document list that contains the proof you want to open.</p> </li> 
- <li value="2">Hover over the document, then click&nbsp;<span class="bold">Open proof</span>.</li> 
- <li value="3">Click <span class="bold">Responsive</span> at the center-bottom of the Proofing Viewer.</li> 
- <li value="4"> <p>Type a custom&nbsp;<span class="bold">Responsive&nbsp;</span>resolution.</p> <p> <img src="assets/type-a-custom-resolution-dpv.png" alt="Type_a_custom_resolution_DPV.png"> </p> <p>Or</p> <p>Mouse over your interactive content and drag the blue border on the bottom-right corner, or the right or bottom edge, to the resolution you want.&nbsp;</p> <p> <img src="assets/drag-blue-edges-for-resolution-350x251.png" alt="Drag_blue_edges_for_resolution.png" style="width: 350;height: 251;"> </p> <p>The custom resolution displays in the following locations:</p> 
-  <ul> 
-   <li>In the&nbsp;<span class="bold">Resolution&nbsp;</span>panel at the bottom-center of the viewer. <br><img src="assets/screenshot-2018-05-15-10-27-54.png" alt="Screenshot_2018-05-15_10-27-54.png"></li> 
-   <li>In any comments reviewers add to the proof. Each comment includes the screen resolution that was selected when the reviewer created the comment.<br></li> 
-  </ul> </li> 
-</ol>
+1. Go to the document list that contains the proof you want to open.
+1. Hover over the document, then click  `Open proof`.
+1. Click `Responsive` at the center-bottom of the Proofing Viewer.
+1. Type a custom  `Responsive`resolution.
+
+   ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
+
+   Or
+
+   Mouse over your interactive content and drag the blue border on the bottom-right corner, or the right or bottom edge, to the resolution you want.&nbsp;
+
+   ![Drag_blue_edges_for_resolution.png](assets/drag-blue-edges-for-resolution-350x251.png)
+
+   The custom resolution displays in the following locations:
+
+  * In the  `Resolution`panel at the bottom-center of the viewer.   
+    ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
+
+  * In any comments reviewers add to the proof. Each comment includes the screen resolution that was selected when the reviewer created the comment.
 

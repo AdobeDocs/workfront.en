@@ -67,31 +67,42 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 ## Display a field's edit history
 
-<ol> 
- <li value="1"> <p>Go to a custom form where you want to add the calculated field.</p> <note type="important">
-   You must add the field whose history you want to capture on the form first and save the form at least once before you can add the calculated field. 
-  </note> </li> 
- <li value="2"> <p>To create the single-line text custom field, for example, do the following:</p> 
-  <ol> 
-   <li value="1"> <p>Click&nbsp;<span class="bold">Single Line Text Field</span>.</p> </li> 
-   <li value="2"> <p>Specify a <span class="bold">Label</span> for the custom field, for example: <i>Instructions</i>.</p> </li> 
-   <li value="3"> <p>(Optional) Click the <span class="bold">Name</span> field to update it. The Name of the field matches the Label you just entered by default. </p> </li> 
-   <li value="4"> <p>For this example, select&nbsp;<span class="bold">Text</span> in the <span class="bold">Format</span> field to format the custom field as text. This is the default. </p> </li> 
-   <li value="5"> <p>Click&nbsp;<span class="bold">Done</span>, then <span class="bold">Save +&nbsp;Close</span>. </p> </li> 
-  </ol> </li> 
- <li value="3"> <p>Click the name of the form you added the <i>Instructions</i> field to. </p> </li> 
- <li value="4">Click <span class="bold">Calculated</span> to add a calculated custom field to the form.<br></li> 
- <li value="5">Specify a <span class="bold">Label</span> for the calculated custom field, for example: <i>Instructions Edit History</i>. This is the field that will capture any changes made to the <i>Instructions</i> text field you created in Step 2. </li> 
- <li value="6">(Optional) Click the <span class="bold">Name</span> field to update it. The Name of the field matches the Label you just entered by default. </li> 
- <li value="7"> <p> In the <span class="bold">Calculation</span> field, specify the following calculation for your custom field:</p> <p><code>LEFT(IF(LEFT(Instructions Edit History,LEN(IF(ISBLANK(Instructions),"-",Instructions)))=Instructions ,Instructions Edit History,CONCAT(IF(ISBLANK(Instructions),"-",Instructions)," (",$$NOW,") | ",Instructions Edit History)),2000)</code> </p> <note type="tip">
-   In the above code, replace 
-   <i>Instructions</i> with the exact name of your single-line text field whose history you are tracking and 
-   <i>Instructions Edit History</i> with the exact name of your calculated field. 
-  </note> </li> 
- <li value="8"> <p>(Recommended) Type the same code in the <span class="bold">Instructions</span> field on the calculated field on the form. </p> </li> 
- <li value="9"> <p>Always select&nbsp;<span class="bold">Text</span> in the <span class="bold">Format</span> field to format the calculated custom field as text. This is the default. </p> </li> 
- <li value="10">Click&nbsp;<span class="bold">Done</span>, then <span class="bold">Save+Close</span>.</li> 
- <li value="11"> <p>(Optional)&nbsp;Attach the custom form to an object.</p> <p>When someone changes the information in the Instructions field</p> </li> 
-</ol>
+1. Go to a custom form where you want to add the calculated field.
+
+   >[!IMPORTANT]
+   >
+   >You must add the field whose history you want to capture on the form first and save the form at least once before you can add the calculated field.
+
+1. To create the single-line text custom field, for example, do the following:
+
+  1. Click  `Single Line Text Field`.
+  1. Specify a `Label` for the custom field, for example: *Instructions*.
+  1. (Optional) Click the `Name` field to update it. The Name of the field matches the Label you just entered by default. 
+  1. For this example, select  `Text` in the `Format` field to format the custom field as text. This is the default. 
+  1. Click  `Done`, then `Save + Close`.
+
+1. Click the name of the form you added the *Instructions* field to. 
+1. Click `Calculated` to add a calculated custom field to the form.  
+
+1. Specify a `Label` for the calculated custom field, for example: *Instructions Edit History*. This is the field that will capture any changes made to the *Instructions* text field you created in Step 2. 
+
+1. (Optional) Click the `Name` field to update it. The Name of the field matches the Label you just entered by default. 
+1. In the `Calculation` field, specify the following calculation for your custom field:
+
+   ```
+   LEFT(IF(LEFT(Instructions Edit History,LEN(IF(ISBLANK(Instructions),"-",Instructions)))=Instructions ,Instructions Edit History,CONCAT(IF(ISBLANK(Instructions),"-",Instructions)," (",$$NOW,") | ",Instructions Edit History)),2000)
+   ```
+
+   >[!TIP]
+   >
+   >In the above code, replace *Instructions* with the exact name of your single-line text field whose history you are tracking and *Instructions Edit History* with the exact name of your calculated field.
+
+1. (Recommended) Type the same code in the `Instructions` field on the calculated field on the form. 
+1. Always select  `Text` in the `Format` field to format the calculated custom field as text. This is the default. 
+1. Click  `Done`, then `Save+Close`.
+
+1. (Optional)&nbsp;Attach the custom form to an object.
+
+   When someone changes the information in the Instructions field
 
 &nbsp;

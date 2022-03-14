@@ -52,72 +52,90 @@ The process for creating or customizing a view differs depending on whether you 
 
 You can create a new standard view, or you can customize an existing standard view that you previously created.
 
-<ol> 
- <li value="1">Click the<span class="bold"> View</span> drop-down menu on any list where you want to create or customize a view.</li> 
- <li value="2">(Optional) To customize an existing view, select the standard View you want to customize.<br>Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.</li> 
- <li value="3">Click the <span class="bold">View</span> drop-down menu, then click <span class="bold">Customize View</span> or<span class="bold"> New View</span>.<br>The <span class="bold">Customize View</span> dialog box displays.<br></li> 
- <li value="4"> <p>In the <span class="bold">Column Preview</span> section, do any of the following:</p> 
-  <ul> 
-   <li>Modify the value of any column by clicking the column title and then selecting a new field.</li> 
-   <li>Add a column by clicking <span class="bold">Add Column</span>, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.</li> 
-   <li>Adjust the order that columns appear by dragging the column title to a new location. 
-    <ul> 
-     <li>(Optional) In the <span class="bold">Column Settings</span> area, click the <a name="summarize-this-column-by"></a><span class="bold">Summarize this column by</span> drop-down list, then select one of the available options for summarizing the information. When you choose this option, the information in your column is aggregated in the groupings of the report.<br>For date fields, you can summarize the values by the following options: 
-      <ul> 
-       <li>Maximum</li> 
-       <li>Minimum</li> 
-      </ul><p>For number and currency fields, you can summarize the values by the following options:</p> 
-      <ul> 
-       <li>Count</li> 
-       <li>Sum</li> 
-       <li>Average</li> 
-       <li>Maximum</li> 
-       <li>Minimum</li> 
-      </ul> <note type="note">  
-       <p>The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:</p> 
-       <ul> 
-        <li>All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.</li> 
-        <li>Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.</li> 
-        <li>Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.</li> 
-       </ul> 
-      </note><p>For more information about using groupings in a report, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p></li> 
-     <li>(Optional) Click <span class="bold">Advanced Options</span> to specify the following information for the column:<p> 
-       <table cellspacing="0"> 
-        <col> 
-        <col> 
-        <thead> 
-         <tr> 
-          <th> </th> 
-          <th> </th> 
-         </tr> 
-        </thead> 
-        <tbody> 
-         <tr> 
-          <td role="rowheader"><span class="bold">Custom Column Label</span></td> 
-          <td><p>Specify a custom label for the column. This label replaces the default label.</p></td> 
-         </tr> 
-         <tr> 
-          <td role="rowheader"><span class="bold">Field Format</span></td> 
-          <td>Select the format in which you want the values to be displayed for fields in the column.</td> 
-         </tr> 
-         <tr> 
-          <td role="rowheader"><span class="bold">Show this column when on a Dashboard</span></td> 
-          <td><p>Select this option to show this column on a dashboard, when the report is displayed side by side with another report. When this option is unselected, this column is not displayed when viewing the report on a dashboard where reports are displayed side by side.</p></td> 
-         </tr> 
-         <tr> 
-          <td role="rowheader"><span class="bold">Column Rules</span></td> 
-          <td><p>Click <span class="bold">Add a Rule for this Column</span> to define a rule for the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <span class="bold">Add Rule</span> after you have finished defining the rule.</p></td> 
-         </tr> 
-        </tbody> 
-       </table></p><p>For more information about conditionally formatting views in reports, see the article <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>.</p></li> 
-    </ul></li> 
-  </ul> </li> 
- <li value="5">(Conditional) If you clicked <span class="bold">Advanced Options</span>, click <span class="bold">Done</span>.</li> 
- <li value="6"> <p>Click <span class="bold">Save View</span> to create a new View or to replace the current View with your changes.<br>Or<br>Click <span class="bold">Save as New View</span> to save your changes as a new View.</p> <note type="tip">
-   The 
-   <span class="bold">Save as New View</span> is the only option available when you customize a built-in Workfront view.
-  </note> <p>Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.</p> </li> 
-</ol>
+1. Click the `View` drop-down menu on any list where you want to create or customize a view.
+1. (Optional) To customize an existing view, select the standard View you want to customize.  
+   Standard Views are available on any type of list in Workfront, such as a report, project list, or task list.
+1. Click the `View` drop-down menu, then click `Customize View` or `New View`.  
+   The `Customize View` dialog box displays.  
+
+1. In the `Column Preview` section, do any of the following:
+
+  * Modify the value of any column by clicking the column title and then selecting a new field.
+  * Add a column by clicking `Add Column`, begin typing the name of the column that you want to add, then click it when it appears in the drop-down list.
+  * Adjust the order that columns appear by dragging the column title to a new location.
+
+    * (Optional) In the `Column Settings` area, click the `Summarize this column by` drop-down list, then select one of the available options for summarizing the information. When you choose this option, the information in your column is aggregated in the groupings of the report.  
+      For date fields, you can summarize the values by the following options:
+
+      * Maximum
+      * Minimum
+
+      For number and currency fields, you can summarize the values by the following options:
+
+      * Count
+      * Sum
+      * Average
+      * Maximum
+      * Minimum
+
+      >[!NOTE]
+      >
+      >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+      >
+      >  
+      >  
+      >  * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+      >  * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+      >  * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+      >  
+      >
+
+      For more information about using groupings in a report, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+    
+    * (Optional) Click `Advanced Options` to specify the following information for the column:
+
+      <table cellspacing="0"> 
+       <col> 
+       <col> 
+       <thead> 
+        <tr> 
+         <th> </th> 
+         <th> </th> 
+        </tr> 
+       </thead> 
+       <tbody> 
+        <tr> 
+         <td role="rowheader"><span class="bold">Custom Column Label</span></td> 
+         <td><p>Specify a custom label for the column. This label replaces the default label.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"><span class="bold">Field Format</span></td> 
+         <td>Select the format in which you want the values to be displayed for fields in the column.</td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"><span class="bold">Show this column when on a Dashboard</span></td> 
+         <td><p>Select this option to show this column on a dashboard, when the report is displayed side by side with another report. When this option is unselected, this column is not displayed when viewing the report on a dashboard where reports are displayed side by side.</p></td> 
+        </tr> 
+        <tr> 
+         <td role="rowheader"><span class="bold">Column Rules</span></td> 
+         <td><p>Click <span class="bold">Add a Rule for this Column</span> to define a rule for the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <span class="bold">Add Rule</span> after you have finished defining the rule.</p></td> 
+        </tr> 
+       </tbody> 
+      </table>
+
+      For more information about conditionally formatting views in reports, see the article [Use conditional formatting in Text Mode](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+
+1. (Conditional) If you clicked `Advanced Options`, click `Done`.
+
+1. Click `Save View` to create a new View or to replace the current View with your changes.  
+   Or  
+   Click `Save as New View` to save your changes as a new View.
+
+   >[!TIP]
+   >
+   >The `Save as New View` is the only option available when you customize a built-in Workfront view.
+
+   Your access dictates how the view is saved. If you created the view originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the view impact users with whom the view has been shared.
 
 ### Create or customize an Agile view
 
@@ -131,17 +149,31 @@ For more information about Agile views, see the article [Manage a project in the
 
 To create or customize an Agile view:
 
-<ol> 
- <li value="1">Go to the list of tasks on a project.</li> 
- <li value="2">Click the <span class="bold">Agile</span> icon .<br></li> 
- <li value="3">(Conditional) To customize an existing Agile view:</li> 
- <ol> 
-  <li value="1">Click the <span class="bold">View</span> drop-down menu, then select the Agile View you want to customize.<br>You cannot customize the default Agile view.</li> 
-  <li value="2">Click the <span class="bold">View</span> drop-down menu again, then click <span class="bold">Customize View</span>.<br><img src="assets/view-agile-customize.png" alt=""></li> 
- </ol> 
- <li value="4">(Conditional) To create a new Agile view, click <span class="bold">New View</span>.<br>The <span class="bold">Customize Agile View</span> dialog box displays.<br></li> 
- <li value="5">In the <span class="bold">Customize Agile View</span> dialog box, specify a name for the Agile view.<br>We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.<br>This name is displayed in the <span class="bold">View</span> drop-down menu when selecting a view.</li> 
- <li value="6"> <p>Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <p>Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.</p> <p>Users can move stories among these status columns on the Agile story board.<br>When defining status columns, you can do the following:</p> <p> 
+1. Go to the list of tasks on a project.
+1. Click the `Agile` icon .  
+
+1. (Conditional) To customize an existing Agile view:
+
+  1. Click the `View` drop-down menu, then select the Agile View you want to customize.  
+     You cannot customize the default Agile view.
+  
+  1. Click the `View` drop-down menu again, then click `Customize View`.  
+     ![](assets/view-agile-customize.png)
+
+1. (Conditional) To create a new Agile view, click `New View`.  
+   The `Customize Agile View` dialog box displays.  
+
+1. In the `Customize Agile View` dialog box, specify a name for the Agile view.  
+   We recommend that you include the word "Agile" in your view name, so users know this is an Agile view.  
+   This name is displayed in the `View` drop-down menu when selecting a view.
+
+1. Define the status columns to display on the story board in the agile view. These are the task statuses that are defined by the Workfront administrator, as described in [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+
+   Only system statuses are available to use on the Agile story board. If a status is available only for an individual group you are a member of, the status is not available on the agile story board. Furthermore, tasks that are in a status that is available only to a custom group are not visible when viewing the project in an Agile view.
+
+   Users can move stories among these status columns on the Agile story board.  
+   When defining status columns, you can do the following:
+
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -165,8 +197,10 @@ To create or customize an Agile view:
       <td>Click the <span class="bold">Plus</span> icon, then select the status you want to add.<br>All default system statuses are displayed, as well as any custom statuses that have been shared with you.<br>You can configure up to 10 statuses to display.</td> 
      </tr> 
     </tbody> 
-   </table> </p> <p> </p> <p> </p> </li> 
- <li value="7"> <p>In the <span class="bold">Associate Card Color to</span> area, select from the following options: </p> <p> 
+   </table>
+
+1. In the `Associate Card Color to` area, select from the following options:
+
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -199,17 +233,25 @@ To create or customize an Agile view:
       <td> All stories with the same primary assignee are the same color.<br>The primary assignee is the user who was first assigned to the task. </td> 
      </tr> 
     </tbody> 
-   </table> </p> </li> 
- <li value="8"> <p>In the <span class="bold">Agile</span> section, in the <span class="bold">Additional Fields</span> area, click <span class="bold">Add Field</span>, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)<br>Repeat this process to add up to 3 additional fields to the story cards.<br>When you add fields to story cards, fields are view-only and display only when the field is populated.</p> <p>By default, the following types of data is displayed on the story card:</p> 
-  <ul> 
-   <li>Story name with a link directly to the task</li> 
-   <li>The project name with a link directly to the project<br>This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.</li> 
-   <li>The task description</li> 
-   <li>Current commitment</li> 
-   <li>View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete</li> 
-   <li>Assigned Users</li> 
-  </ul> <p>You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.</p> </li> 
- <li value="9">Click <span class="bold">Save</span>.<br>Your access dictates how the View is saved. If you created the View originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the View impact users with whom the View has been shared.</li> 
-</ol>
+   </table>
+
+1. In the `Agile` section, in the `Additional Fields` area, click `Add Field`, then select the field you want to add to story cards. (These are the same fields you can add when creating customizing a view or creating columns for a report.)  
+   Repeat this process to add up to 3 additional fields to the story cards.  
+   When you add fields to story cards, fields are view-only and display only when the field is populated.
+
+   By default, the following types of data is displayed on the story card:
+
+  * Story name with a link directly to the task
+  * The project name with a link directly to the project  
+    This link is displayed only when using the agile view on an iteration; it is not displayed when using an Agile view on a project.
+  * The task description
+  * Current commitment
+  * View and edit the percent complete either by adjusting the percent complete itself or by adjusting the number of points or hours that are complete
+  * Assigned Users
+
+   You can display additional data (including custom data) on story cards. You might want to display additional fields on story cards for any number of reasons. For example, you might want to display the Customer ID if you are working on stories for multiple customers within the project, or you might want to display the Task Start Date.
+
+1. Click `Save`.  
+   Your access dictates how the View is saved. If you created the View originally, you can save the changes; otherwise, you are prompted to save a version. Keep in mind that changes you make to the View impact users with whom the View has been shared.
 
 &nbsp;

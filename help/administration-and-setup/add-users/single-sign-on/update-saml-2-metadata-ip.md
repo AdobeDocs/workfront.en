@@ -55,31 +55,50 @@ To set your ADFS metadata to update automatically, complete the steps in this se
 
 By default, ADFS is configured to automatically check for updates to all of its relying party trust metadata; however, the default is set to poll only every 24 hours. You can change this value with powershell commands.
 
-<ol> 
- <li value="1">Log in to the ADFS server and open the ADFS Management Console. </li> 
- <li value="2">In the left-hand panel, expand <span class="bold">ADFS 2.0,</span> then expand <span class="bold">Trust Relationships.</span></li> 
- <li value="3">Click the <span class="bold">Relying Party Trusts</span> folder.</li> 
- <li value="4"> <p>Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click<span class="bold"> Update from Federation Metadata</span>.</p> </li> 
- <li value="5"> <p>(Conditional) If this option is dimmed (which means that the relying party trust was previously configured using a metadata file), complete the following. </p> 
-  <ol style="list-style-type: lower-alpha;"> 
-   <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
-   <li value="2">Click <span class="bold">System</span> > <span class="bold">Single Sign On (SSO)</span>.</li> 
-   <li value="3">Click <span class="bold">Edit Settings.</span> </li> 
-   <li value="4">Click <span class="bold">Edit Configuration</span>, then select <span class="bold">SAML 2.0</span> in the <span class="bold">Type</span> drop-down list. </li> 
-   <li value="5"> <p>Copy the <span class="bold">Metadata URL</span>, which should be similar to the following: </p> <p>https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData</p> </li> 
-   <li value="6">On the ADFS server, right-click on the relying party trust that you previously configured, then click <span class="bold">Properties.</span></li> 
-   <li value="7">Click the <span class="bold">Monitoring</span> tab, then paste the URL that you copied from Workfront into the <span class="bold">Relying party's federation metadata URL</span> field.</li> 
-   <li value="8">Check the options to <span class="bold">Monitor relying party</span> and <span class="bold">Automatically update relying party</span>.</li> 
-   <li value="9">Click <span class="bold">OK.</span></li> 
-   <li value="10">Select the relying party trust that you previously configured to be used with Workfront; then, in the right-hand panel, click <span class="bold">Update from Federation Metadata.</span></li> 
-  </ol> </li> 
- <li class="p1" value="6">Click <span class="bold">OK</span> to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.</li> 
- <li class="p1" value="7">Open <span class="bold">Windows Powershell Modules.</span></li> 
- <li class="p1" value="8"> <p>After all the modules load, run the following command in powershell:<br></p> <p><span class="bold">Get-ADFSProperties</span> </p> </li> 
- <li class="p1" value="9"> <p>Look for the value next to <span class="bold">Monitoring Interval.</span></p> <p>It will be a number that represents the number of minutes between polls. The default should be 1440 (1440 minutes = 24 hours).</p> </li> 
- <li class="p1" value="10"> <p>Set a new value by running the following command in powershell:<br></p> <p><span class="bold">Set-ADFSProperties -MonitoringInterval 1</span> <br>This changes the monitoring interval from every 24 hours to every minute. You can change the 1 to another larger value if you want it to poll less frequently.</p> </li> 
- <li class="p1" value="11"> <p>To verify that this is working correctly, use the <span class="bold">Event Viewer</span> to look for the following information in the ADFS2.0 logs: <br></p> <p><span class="bold">Event ID 156 and 157</span> </p> </li> 
-</ol>
+1. Log in to the ADFS server and open the ADFS Management Console. 
+1. In the left-hand panel, expand `ADFS 2.0,` then expand `Trust Relationships.`
+
+1. Click the `Relying Party Trusts` folder.
+1. Select the relying party trust that you previously configured to be used with Workfront, then in the right-hand panel, click `Update from Federation Metadata`.
+1. (Conditional) If this option is dimmed (which means that the relying party trust was previously configured using a metadata file), complete the following.
+
+  1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+  
+  1. Click `System` > `Single Sign On (SSO)`.
+  
+  1. Click `Edit Settings.` 
+  1. Click `Edit Configuration`, then select `SAML 2.0` in the `Type` drop-down list. 
+  
+  1. Copy the `Metadata URL`, which should be similar to the following:
+
+     https://<yourdomain>.my.workfront.com/sso/downloadSAML2MetaData
+  
+  1. On the ADFS server, right-click on the relying party trust that you previously configured, then click `Properties.`
+  1. Click the `Monitoring` tab, then paste the URL that you copied from Workfront into the `Relying party's federation metadata URL` field.
+  
+  1. Check the options to `Monitor relying party` and `Automatically update relying party`.
+  
+  1. Click `OK.`
+  1. Select the relying party trust that you previously configured to be used with Workfront; then, in the right-hand panel, click `Update from Federation Metadata.`
+
+1. Click `OK` to ignore the message about some of the content in the federation metadata not being supported by ADFS 2.0.
+1. Open `Windows Powershell Modules.`
+1. After all the modules load, run the following command in powershell:
+
+   `Get-ADFSProperties` 
+
+1. Look for the value next to `Monitoring Interval.`
+
+   It will be a number that represents the number of minutes between polls. The default should be 1440 (1440 minutes = 24 hours).
+
+1. Set a new value by running the following command in powershell:
+
+   `Set-ADFSProperties -MonitoringInterval 1`   
+   This changes the monitoring interval from every 24 hours to every minute. You can change the 1 to another larger value if you want it to poll less frequently.
+
+1. To verify that this is working correctly, use the `Event Viewer` to look for the following information in the ADFS2.0 logs:
+
+   `Event ID 156 and 157`
 
 ### Force your ADFS metadata to update
 

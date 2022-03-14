@@ -45,26 +45,30 @@ You must have the following access to perform the steps in this article:
 
 ## Add a Leveling Delay to a task
 
-<ol> 
- <li value="1">Go to a task for which you want to add a Leveling Delay.</li> 
- <li value="2"> Click the More icon to the right of the task name, then click Edit. <p>  </p> </li> 
- <li value="3"> <p>Click <span class="bold">Settings</span>.<br></p> <p>  </p> </li> 
- <li value="4"> <p>Specify the <span class="bold">Leveling Delay</span>, in hours, then choose a unit of time.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</p> <p>Select from the following options for units of time:</p> 
-  <ul> 
-   <li> <p>Minutes</p> </li> 
-   <li> <p>Hours.&nbsp;This is the default.</p> </li> 
-   <li> <p>Days</p> </li> 
-   <li> <p>Weeks</p> </li> 
-   <li> <p>Months</p> </li> 
-   <li> <p>Elapsed Minutes</p> </li> 
-   <li> <p>Elapsed Hours</p> </li> 
-   <li> <p>Elapsed Days</p> </li> 
-   <li> <p>Elapsed Weeks</p> </li> 
-   <li> <p>Elapsed Months</p> </li> 
-  </ul> <note type="tip">
-   Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days. 
-  </note> </li> 
- <li value="5">Click <span class="bold">Save</span>.&nbsp;</li> 
-</ol>
+1. Go to a task for which you want to add a Leveling Delay.
+1. Click the More icon to the right of the task name, then click Edit. 
+1. Click `Settings`.
+
+1. Specify the `Leveling Delay`, in hours, then choose a unit of time.  
+   This is the time that the resource will be delayed starting the task due to resource conflicts.
+
+   Select from the following options for units of time:
+
+  * Minutes
+  * Hours.&nbsp;This is the default.
+  * Days
+  * Weeks
+  * Months
+  * Elapsed Minutes
+  * Elapsed Hours
+  * Elapsed Days
+  * Elapsed Weeks
+  * Elapsed Months
+
+   >[!TIP]
+   >
+   >Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days.
+
+1. Click `Save`.&nbsp;
 
 &nbsp;

@@ -31,21 +31,27 @@ This is an app built specifically for tablets. If you'd like to use Workfront Pr
 
 The Workfront Proof tablet&nbsp;app is available in the Apple App Store and the Google Play Store.
 
-<ol> 
- <li value="1"> <p>Click the link below to download the app and install it on your device.</p> <p> <img src="assets/download-on-the-app-store-button--1--168x52.png" alt="download-on-the-app-store-button__1_.png" style="width: 168;height: 52;"> </p> <p> <img src="assets/google-play-btn-164x49.png" alt="google-play-btn.png" style="width: 164;height: 49;"> <br> </p> </li> 
-</ol>
+1. Click the link below to download the app and install it on your device.
+
+   ![download-on-the-app-store-button__1_.png](assets/download-on-the-app-store-button--1--168x52.png)
+
+   ![google-play-btn.png](assets/google-play-btn-164x49.png)
 
 ## Log in
 
 The Workfront Proof tablet&nbsp;app gives you access to the dashboard with the proofs that need your attention. To access the dashboard:
 
-<ol> 
- <li value="1">Do one of the following: 
-  <ul> 
-   <li><p>Log in using your Workfront Proof credentials.<br></p><p>If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don’t have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.</p></li> 
-   <li><p>If Single Sign-On is enabled in your account, tap that option on the login screen. </p><p>You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider’s page where you will be able to log in using your password.</p><p><img src="assets/login-screen-350x261.png" alt="Login_screen.png" style="width: 350;height: 261;"><br></p></li> 
-  </ul></li> 
-</ol>
+1. Do one of the following:
+
+  * Log in using your Workfront Proof credentials.
+
+    If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don’t have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.
+  
+  * If Single Sign-On is enabled in your account, tap that option on the login screen.
+
+    You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider’s page where you will be able to log in using your password.
+
+    ![Login_screen.png](assets/login-screen-350x261.png)
 
 ## The Dashboard
 
@@ -77,19 +83,32 @@ Another view that you may find useful is the *Recent* view - it shows you the pr
 
 ## Review proofs in the app
 
-<ol> 
- <li value="1"> <p>Click the proof's name to open in the Workfront Proof Viewer.</p> <p>Or</p> <p>To open a proof from an email notification, reviewers can click on the <span class="bold">Go to proof</span> link in the notification. <br>If you have a Workfront Proof account, you can log in and access your proof from the dashboard.</p> <note type="note">
-    &nbsp;You must have the app installed on your device to be able to review proofs in Workfront Proof, even if you don’t have a Workfront Proof account.
-   <br>
-  </note> <p>When you open a proof for the first time, we will show you a tour helping you get started with reviewing proofs in the app.</p> <p> <img src="assets/dashboard-views-350x446.gif" alt="dashboard_views.gif" style="width: 350;height: 446;"> </p> </li> 
- <li value="2">Navigate in your proof: 
-  <ul> 
-   <li><p>To jump to a specific page of the proof, swipe sideways or use the thumbnails list.</p><p>You can also use the arrows at the bottom of the page or put in a specific page number.</p></li> 
-   <li>To go to a different version of the proof, use the version drop-down menu at the top of the page.</li> 
-   <li>To zoom in, pinch the screen.</li> 
-   <li><p>To pan, press and hold and move the image around until you find the right position.</p><p><br></p><p>Reviewing proofs in the mobile app is as simple as reviewing proofs using the Workfront Proof Viewer. Below we will take a closer look at adding comments and markups, managing feedback and making decisions. We will also discuss different options available in the sidebar of the app.</p></li> 
-  </ul></li> 
-</ol>
+1. Click the proof's name to open in the Workfront Proof Viewer.
+
+   Or
+
+   To open a proof from an email notification, reviewers can click on the `Go to proof` link in the notification.   
+   If you have a Workfront Proof account, you can log in and access your proof from the dashboard.
+
+   >[!NOTE]
+   >
+   >&nbsp;You must have the app installed on your device to be able to review proofs in Workfront Proof, even if you don’t have a Workfront Proof account.
+
+   When you open a proof for the first time, we will show you a tour helping you get started with reviewing proofs in the app.
+
+   ![dashboard_views.gif](assets/dashboard-views-350x446.gif)
+
+1. Navigate in your proof:
+
+  * To jump to a specific page of the proof, swipe sideways or use the thumbnails list.
+
+    You can also use the arrows at the bottom of the page or put in a specific page number.
+  
+  * To go to a different version of the proof, use the version drop-down menu at the top of the page.
+  * To zoom in, pinch the screen.
+  * To pan, press and hold and move the image around until you find the right position.
+
+    Reviewing proofs in the mobile app is as simple as reviewing proofs using the Workfront Proof Viewer. Below we will take a closer look at adding comments and markups, managing feedback and making decisions. We will also discuss different options available in the sidebar of the app.
 
 ## Comment in the app
 
@@ -109,33 +128,20 @@ Every markup left on the proof drops a pin on the image. To view the comment and
 
 Proofing text on the go is really in the Workfront Proof tablet app. The text annotation tool is available in the markups toolbar after you click on the orange&nbsp;Add comment button.
 
-<ol> 
- <li value="1">Select the tool and then tap on the word you want to highlight.</li> 
- <li value="2"> <p>Hold your finger on the word until highlight becomes available and use the sliders to highlight the whole word or phrase you want to markup.</p> <p>The text tool has four options to choose from:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Highlight</span> </td> 
-     <td>Highlights the text and copies it into the comment box.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Replace</span> </td> 
-     <td>Adds [REPLACE] and [WITH] into the comment box together with the text, making it easier for you to recommend replacement text.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Delete</span> </td> 
-     <td>Strikes through the text and adds [DELETE] to the comment box.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Insert after</span> </td> 
-     <td>Adds [INSERT AFTER] into the comment box.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>(Optional)To paste text from another document you have saved on your tablet, tap and holding your finger on the comment box until you see an option to paste the text copied from the document.</p> <p>&nbsp;</p> </li> 
-</ol>
+1. Select the tool and then tap on the word you want to highlight.
+1. Hold your finger on the word until highlight becomes available and use the sliders to highlight the whole word or phrase you want to markup.
+
+   The text tool has four options to choose from:
+
+   | `Highlight`  |Highlights the text and copies it into the comment box. |
+   |---|---|
+   | `Replace`  |Adds [REPLACE] and [WITH] into the comment box together with the text, making it easier for you to recommend replacement text. |
+   | `Delete`  |Strikes through the text and adds [DELETE] to the comment box. |
+   | `Insert after`  |Adds [INSERT AFTER] into the comment box. |
+
+1. (Optional)To paste text from another document you have saved on your tablet, tap and holding your finger on the comment box until you see an option to paste the text copied from the document.
+
+   &nbsp;
 
 ## Manage comments in the mobile app
 
@@ -169,16 +175,26 @@ The compare mode is available in the top right corner of the screen.
 
 The compare tool displays the two most recent versions of the proof.
 
-<ol> 
- <li value="1">To change the versions you want to compare, use the version drop-downs at the top of the page.</li> 
- <li value="2"> <p>To select a different proof from the same folder, use the folder browser (the folder icon available at the top of the page).</p> <p> <img src="assets/version-dropdowns-350x265.png" alt="version_dropdowns.png" style="width: 350;height: 265;"> <br> <img src="assets/folder-browser-350x269.png" alt="folder_browser.png" style="width: 350;height: 269;"> <br>The compare tool gives you the ability to compare versions side by side to check if the&nbsp;requested changes were made. If you unlock the navigation, you will be able to compare different pages of both versions.</p> <p> <img src="assets/unlock-navigation-350x266.png" alt="unlock_navigation.png" style="width: 350;height: 266;"> </p> <p>Now you are able to compare different pages of the proofs you are looking at. You can also compare different pages of the same proof, which can be helpful if you're checking your proofs for messaging and branding consistency.</p> <p> <img src="assets/unlocked-proof-350x290.png" alt="unlocked_proof.png" style="width: 350;height: 290;"> </p> </li> 
-</ol>
+1. To change the versions you want to compare, use the version drop-downs at the top of the page.
+1. To select a different proof from the same folder, use the folder browser (the folder icon available at the top of the page).
+
+   ![version_dropdowns.png](assets/version-dropdowns-350x265.png)   
+   ![folder_browser.png](assets/folder-browser-350x269.png)   
+   The compare tool gives you the ability to compare versions side by side to check if the&nbsp;requested changes were made. If you unlock the navigation, you will be able to compare different pages of both versions.
+
+   ![unlock_navigation.png](assets/unlock-navigation-350x266.png)
+
+   Now you are able to compare different pages of the proofs you are looking at. You can also compare different pages of the same proof, which can be helpful if you're checking your proofs for messaging and branding consistency.
+
+   ![unlocked_proof.png](assets/unlocked-proof-350x290.png)
 
 ## Make decisions in the app
 
-<ol> 
- <li value="1"> <p>Tap the green decision button at the top of the page.<br></p> <p> <img src="assets/decisions-350x303.png" alt="decisions.png" style="width: 350;height: 303;"> </p> <p>If you don’t see the green <span class="bold">Finish review</span> button and you think you should make a decision on the proof, your Workfront Proof administrator can update your proof role, as explained in <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p> </li> 
-</ol>
+1. Tap the green decision button at the top of the page.
+
+   ![decisions.png](assets/decisions-350x303.png)
+
+   If you don’t see the green `Finish review` button and you think you should make a decision on the proof, your Workfront Proof administrator can update your proof role, as explained in [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ## The proofing viewer sidebar
 

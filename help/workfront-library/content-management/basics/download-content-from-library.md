@@ -39,11 +39,20 @@ If you change the file format of the item and then upload it back to Workfront L
 
 You can download multiple types of files in the same batch. For example, you can down folders, collections, and content files at the same time. Depending on the size of the download, the items might be placed in a .zip file and emailed to you.
 
-<ol> 
- <li value="1"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="2"> <p>Select the area where the items you want to download are located.</p> <p>Depending on your access level to Workfront Library, you might be able to choose Library, My Content , or Collections. </p> <p>If the items you want to download are spread out on different areas, you will need to do a download batch for each area separately.</p> </li> 
- <li value="3"> <p>(Conditional) If you are in the list view, click the <span class="bold">Show grid view</span> icon <img src="assets/grid-view-icon.png"> to switch to the grid view.</p> </li> 
- <li value="4">Select the items you want to download by pressing the Ctrl key and clicking each item.</li> 
- <li value="5"> <p>Click <span class="bold">Download</span> in the upper-right corner of the window.</p> <p> <img src="assets/downloadbtn-350x73.png" style="width: 350;height: 73;"> </p> <p>Click the <span class="bold">Document</span> icon <img src="assets/library-document-icon.png">in the upper-right corner of the window, then select <span class="bold">Download</span>.</p> <p>The items are either downloaded or placed in a .zip file and emailed to you.</p> </li> 
-</ol>
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. Select the area where the items you want to download are located.
+
+   Depending on your access level to Workfront Library, you might be able to choose Library, My Content , or Collections.
+
+   If the items you want to download are spread out on different areas, you will need to do a download batch for each area separately.
+
+1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Select the items you want to download by pressing the Ctrl key and clicking each item.
+1. Click `Download` in the upper-right corner of the window.
+
+   ![](assets/downloadbtn-350x73.png)
+
+   Click the `Document` icon ![](assets/library-document-icon.png)in the upper-right corner of the window, then select `Download`.
+
+   The items are either downloaded or placed in a .zip file and emailed to you.
 

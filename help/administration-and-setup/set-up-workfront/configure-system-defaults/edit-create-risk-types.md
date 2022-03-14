@@ -49,14 +49,16 @@ Some risk types are already in Workfront, by default. To reflect the needs of yo
 
 ### Edit existing risk types
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Risk Types</span>.</li> 
- <li value="3">Select the risk type you want to edit.</li> 
- <li value="4">Click <span class="bold">Edit</span>.</li> 
- <li value="5"> <p>(Optional) Change the name and the description of the risk type.</p> <p>There is a character limit of 50 characters for the <span class="bold">Name</span> and the <span class="bold">Description</span> fields.</p> </li> 
- <li value="6">Click <span class="bold">Save Changes.</span></li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Risk Types`.
+1. Select the risk type you want to edit.
+1. Click `Edit`.
+1. (Optional) Change the name and the description of the risk type.
+
+   There is a character limit of 50 characters for the `Name` and the `Description` fields.
+
+1. Click `Save Changes.`
 
 ### Create new risk types
 
@@ -64,16 +66,19 @@ Some risk types are already in Workfront, by default. To reflect the needs of yo
 
 To create a new risk type:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Risk Types</span>.</li> 
- <li value="3"> <p>Click <span class="bold">New Risk Type</span>.</p> </li> 
- <li value="4"> <p>Type a <span class="bold">Name</span> (required) and a <span class="bold">Description</span> (optional) for the risk type.</p> <p>There is a character limit of 50 characters for the <span class="bold">Name</span> and the <span class="bold">Description</span> fields.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Create Risk Type</span>. If you used in-line edit to add your risk type, click <span class="bold">Enter</span> when you are done.</p> <note type="note">
-   If you need to edit a custom risk type, see the section 
-   <a href="#editing-existing-risk-types" class="MCXref xref">Edit existing risk types</a> in this article.
-  </note> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Risk Types`.
+1. Click `New Risk Type`.
+1. Type a `Name` (required) and a `Description` (optional) for the risk type.
+
+   There is a character limit of 50 characters for the `Name` and the `Description` fields.
+
+1. Click `Create Risk Type`. If you used in-line edit to add your risk type, click `Enter` when you are done.
+
+   >[!NOTE]
+   >
+   >If you need to edit a custom risk type, see the section [Edit existing risk types](#editing-existing-risk-types) in this article.
 
 ## Attach risks with risk types on projects
 

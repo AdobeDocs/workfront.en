@@ -46,13 +46,16 @@ When a user creates a project, their Home group is automatically assigned to the
 
 ## Update the default status for a specific group
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
- <li value="2">In the left panel, click <span class="bold">Project Preferences</span>, then <span class="bold">Statuses</span>.</li> 
- <li value="3">Click <span class="bold">Requests</span>, then type the name of the group in the <span class="bold">System Statuses</span> search box located on the right.</li> 
- <li value="4">Select the group.</li> 
- <li value="5"> <p>Click the Set Default Statuses drop-down menu, then choose the status you want the Done button to use. </p> <note type="important">
-   This status is used only when they user has no assigned Home Team and the RLV status has been deleted.
-  </note> </li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. In the left panel, click `Project Preferences`, then `Statuses`.
+
+1. Click `Requests`, then type the name of the group in the `System Statuses` search box located on the right.
+
+1. Select the group.
+1. Click the Set Default Statuses drop-down menu, then choose the status you want the Done button to use.
+
+   >[!IMPORTANT]
+   >
+   >This status is used only when they user has no assigned Home Team and the RLV status has been deleted.
+
+1. Click `Save`.
 

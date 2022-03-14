@@ -62,100 +62,105 @@ You can search the comment list for text contained in the comment itself, commen
 
 You can filter the comments that display by defining filter parameter such as user, actions, unread status, and more.
 
-<ol> 
- <li value="1">Open the proof where you want to filter comments.</li> 
- <li value="2">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="3"> <p>In the comments area, click the <span class="bold">Filter</span> icon.<br></p> <p> <img src="assets/proof-comment-filter.png" alt="proof_comment_filter.png"> </p> </li> 
- <li value="4"> <p>Use the options that appear below the <span class="bold">Filter</span> icon to filter the comments by any of the following criteria:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Authors</span> </td> 
-     <td>Displays only comments and comment replies made by users you specify. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Actions</span> </td> 
-     <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.Configure default proof settings</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">General filtering options</span> </td> 
-     <td> 
-      <ul> 
-       <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
-       <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
-       <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
-       <li><span class="bold">Current page only</span>:Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.&nbsp;Available only for static and interactive proofs.</li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Apply</span>&nbsp;or click the <span class="bold">Filter</span> icon to view the comment list with your filter criteria applied. The Filter icon displays with a blue dot to indicate that a filter is applied.</li> 
- <li value="6">When you are finished filtering and you want to see all the comments, click the <span class="bold">Filter</span> icon, click <span class="bold">Reset</span>, then click the <span class="bold">Filter</span> icon again.</li> 
-</ol>
+1. Open the proof where you want to filter comments.
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. In the comments area, click the `Filter` icon.
+
+   ![proof_comment_filter.png](assets/proof-comment-filter.png)
+
+1. Use the options that appear below the `Filter` icon to filter the comments by any of the following criteria:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Authors</span> </td> 
+      <td>Displays only comments and comment replies made by users you specify. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Actions</span> </td> 
+      <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.Configure default proof settings</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">General filtering options</span> </td> 
+      <td> 
+       <ul> 
+        <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
+        <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
+        <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
+        <li><span class="bold">Current page only</span>:Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.&nbsp;Available only for static and interactive proofs.</li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Apply` or click the `Filter` icon to view the comment list with your filter criteria applied. The Filter icon displays with a blue dot to indicate that a filter is applied.
+
+1. When you are finished filtering and you want to see all the comments, click the `Filter` icon, click `Reset`, then click the `Filter` icon again.
 
 ## Sort the comment list
 
 When you sort the comment list, the sort option you choose is remembered the next time you open a proof in the proofing viewer you are using.
 
-<ol> 
- <li value="1">Open the proof where you want to sort comments.</li> 
- <li value="2">If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.<br></li> 
- <li value="3">Click the sorting&nbsp;menu to open it.</li> 
- <p> <img src="assets/mceclip3.png"> <br> </p> 
- <li value="4"> <p> Select one of the following sort options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Latest</td> 
-     <td>Displays the most recent comments at the top of the comment list.</td> 
-     <td>Available for all proofs</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Oldest</td> 
-     <td>Displays the oldest comments at the top of the comment list. This is the default. </td> 
-     <td>Available for all proofs</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Creator A-Z</td> 
-     <td>Displays comments grouped by the user who created the comment, listed in alphabetical order.</td> 
-     <td>Available for all proofs</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Creator Z-A</td> 
-     <td>Displays comments grouped by the user who created the comment, listed in reverse alphabetical order.</td> 
-     <td>Available for all proofs</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Page (down, up)</td> 
-     <td>Displays comments in order of when they appear in relation to the page number or video timeline. </td> 
-     <td>Available only for static proofs.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Timestamp (down)</td> 
-     <td>Displays comments in order of when they appear in relation to the video timeline. Comments made later in the timeline display&nbsp;first. </td> 
-     <td>Available only for video proofs.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Timestamp (up)</td> 
-     <td>Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first. </td> 
-     <td>Available only for video proofs.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Device (up)</span> </td> 
-     <td>Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
-     <td>Available only for interactive proofs.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Device (down)</td> 
-     <td> <p>(Available only for interactive proofs.) Displays comments in order according to the resolution selected when the comment was made. Comments made on higher resolutions display first.</p> <p>For information about changing the resolution in an interactive proof, see&nbsp;<a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</p> </td> 
-     <td>Available only for interactive proofs.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Open the proof where you want to sort comments.
+1. If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+
+1. Click the sorting&nbsp;menu to open it.
+1. ![](assets/mceclip3.png)   
+
+1. Select one of the following sort options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Latest</td> 
+      <td>Displays the most recent comments at the top of the comment list.</td> 
+      <td>Available for all proofs</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Oldest</td> 
+      <td>Displays the oldest comments at the top of the comment list. This is the default. </td> 
+      <td>Available for all proofs</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Creator A-Z</td> 
+      <td>Displays comments grouped by the user who created the comment, listed in alphabetical order.</td> 
+      <td>Available for all proofs</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Creator Z-A</td> 
+      <td>Displays comments grouped by the user who created the comment, listed in reverse alphabetical order.</td> 
+      <td>Available for all proofs</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Page (down, up)</td> 
+      <td>Displays comments in order of when they appear in relation to the page number or video timeline. </td> 
+      <td>Available only for static proofs.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Timestamp (down)</td> 
+      <td>Displays comments in order of when they appear in relation to the video timeline. Comments made later in the timeline display&nbsp;first. </td> 
+      <td>Available only for video proofs.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Timestamp (up)</td> 
+      <td>Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first. </td> 
+      <td>Available only for video proofs.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Device (up)</span> </td> 
+      <td>Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
+      <td>Available only for interactive proofs.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Device (down)</td> 
+      <td> <p>(Available only for interactive proofs.) Displays comments in order according to the resolution selected when the comment was made. Comments made on higher resolutions display first.</p> <p>For information about changing the resolution in an interactive proof, see&nbsp;<a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</p> </td> 
+      <td>Available only for interactive proofs.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 

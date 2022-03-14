@@ -105,36 +105,39 @@ Depending on which field is visible in the view you can assign the following ent
 
 To assign issues in a list:
 
-<ol> 
- <li value="1"> <p>Go to a list of issues that has the Assigned To, Assigned, or Assignments fields in the view.</p> </li> 
- <li value="2"> <p>To assign issues do one of the following:</p> 
-  <ul> 
-   <li> <p>Click inside the <span class="bold">Assigned To</span> or <span class="bold">Assigned</span> fields and start typing the name of an active user that you want to assign to the issue, then click it when it displays in the list.</p>  </li> 
-   <li> <p>Click inside the <span class="bold">Assignments</span> field and start typing the name of an <span>active</span> user, <span>job role</span>, or <span>active</span> team that you want to assign to the issue, then click it when it displays in the list.</p>  </li> 
-  </ul> </li> 
- <li value="3"> <p>(Conditional) When visible in the Assignments field, click the <span class="bold">People icon</span> <span></span> in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see <a href="../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md" class="MCXref xref">Create advanced assignments</a>. </p> <note type="tip">
-   You cannot make advanced assignments from the Assigned To or Assigned fields.
-  </note> </li> 
- <li value="4"> <p>After adding your assignees to the issue, press Enter or click anywhere on the page to save your changes. </p> </li> 
-</ol>
+1. Go to a list of issues that has the Assigned To, Assigned, or Assignments fields in the view.
+1. To assign issues do one of the following:
+
+  * Click inside the `Assigned To` or `Assigned` fields and start typing the name of an active user that you want to assign to the issue, then click it when it displays in the list.
+  * Click inside the `Assignments` field and start typing the name of an `active` user, `job role`, or `active` team that you want to assign to the issue, then click it when it displays in the list.
+
+1. (Conditional) When visible in the Assignments field, click the `People icon` `` in the upper-right corner of the assignments box to open the Advanced Assignments box and create advanced assignments. For more information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+
+   >[!TIP]
+   >
+   >You cannot make advanced assignments from the Assigned To or Assigned fields.
+
+1. After adding your assignees to the issue, press Enter or click anywhere on the page to save your changes.
 
 ## Assign issues in bulk
 
-<ol> 
- <li value="1">Go to a list of issues that you want to assign in bulk. </li> 
- <li value="2"> Select several issues in the list. </li> 
- <li value="3"> Click the Edit icon . <p>The <span class="bold">Edit Issues</span> dialog box opens.</p> </li> 
- <li value="4"> <p>In the <span class="bold">Assignments</span> area, select the <span class="bold">Assignee</span> box, then start typing the name of a user, job role, or team that you want to assign to all the issues. </p> <note type="important">
-   If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues. 
-  </note> </li> 
- <li value="5">(Optional) Select the radio button in the <span class="bold">Issue Owner</span> column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. </li> 
- <li value="6">(Optional) Select a role that the user should fulfill on the issue from the <span class="bold">Pick a role</span> drop-down menu in the <span class="bold">Assignee's Role</span> column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary&nbsp;Role. </li> 
- <li value="7">(Optional) If you want to remove existing assignees from all issues do one of the following:
-  <ol>
-   <li value="1">Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click <span class="bold">Remove Assignee</span> to add additional assignees to remove. </li>
-   <li value="2">Click&nbsp;<span class="bold">Remove All&nbsp;Existing Assignees</span> to remove all assignees from all selected issues.</li>
-  </ol></li> 
- <li value="8">Click&nbsp;<span class="bold">Save Changes</span>.</li> 
- <li value="9">(Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the <span class="bold">X icon</span> next to the name of an assignee to remove it from the issue. </li> 
-</ol>
+1. Go to a list of issues that you want to assign in bulk. 
+1. Select several issues in the list. 
+1. Click the Edit icon . The `Edit Issues` dialog box opens.
+1. In the `Assignments` area, select the `Assignee` box, then start typing the name of a user, job role, or team that you want to assign to all the issues.
+
+   >[!IMPORTANT]
+   >
+   >If any of the issues is already assigned, the resources you indicate here are added to the issues instead of replacing the existing resources on the issues.
+
+1. (Optional) Select the radio button in the `Issue Owner` column to indicate which resource is the primary assignee or the Owner of the issue, when you assign more than one resource to the issue. This is not available for teams. 
+1. (Optional) Select a role that the user should fulfill on the issue from the `Pick a role` drop-down menu in the `Assignee's Role` column when you assign users to issues. If you do not select a role, Workfront automatically selects the user's Primary&nbsp;Role. 
+
+1. (Optional) If you want to remove existing assignees from all issues do one of the following:
+
+  1. Start typing the name of a user, role, or team you want to remove from the issue, then select it when it appears on the list and click `Remove Assignee` to add additional assignees to remove. 
+  1. Click  `Remove All Existing Assignees` to remove all assignees from all selected issues.
+
+1. Click  `Save Changes`.
+1. (Optional and conditional) When the Assigned to or the Assignments fields display in your list of issues, click inside one of these columns for an issue, then click the `X icon` next to the name of an assignee to remove it from the issue.
 

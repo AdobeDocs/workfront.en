@@ -20,7 +20,12 @@ Complete the following sections to learn about, test, and provide your valuable 
 The following resources are available for you to learn how to use the Resource Scheduling tools:
 
 * Help content:
-* `<li><a href="../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md" class="MCXref xref" xrefformat="{para}">Get started with Resource Scheduling</a> </li>` `<li><a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref" xrefformat="{para}">Filter information in the Scheduling area</a>&nbsp;(Generally Available)</li>` `<li><a href="../../resource-mgmt/resource-scheduling/filter-scheduling-area.md" class="MCXref xref" xrefformat="{para}">Filter information in the Scheduling area</a>&nbsp;(Generally Available)</li>` `<li><a href="../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md" class="MCXref xref" xrefformat="{para}">Manage user allocations in the Scheduling areas</a>&nbsp;(Available in Early Access)</li>` `<li>View Assigned Work on the My Work Calendar&nbsp;(Available in Early Access)</li>` 
+
+  * [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md) 
+  * [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)&nbsp;(Generally Available)
+  * [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)&nbsp;(Generally Available)
+  * [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)&nbsp;(Available in Early Access)
+  * View Assigned Work on the My Work Calendar&nbsp;(Available in Early Access)
 
 * Watch the following videos:
 

@@ -49,26 +49,38 @@ You must have the following access to perform the steps in this article:
 
 You can change which status is applied to the work item with the Done button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. Click the Switch team icon, then either select a new team from the drop-down menu or search for a team in the search bar. 
- <li value="3"> Click the More menu, then click Edit. </li> 
- <li value="4">Find the <span class="bold">Done Button</span> section at the bottom of the <span class="bold">Team Settings</span> page.</li> 
- <li value="5">Select one status or more than one status for each work item type.<br><br><br><note type="note">
-   <p>Consider the following when selecting statuses:<br></p>
-   <ul>
-    <li>When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.<br></li>
-    <li><p>You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.</p></li>
-    <li>Issue types are customizable and they might have different names than listed below in your environment.<br>Following&nbsp;are the default tasks and issue types:
-     <ul>
-      <li>Tasks</li>
-      <li>Issue</li>
-      <li>Request</li>
-      <li>Change Order</li>
-      <li>Bug Report</li>
-     </ul></li>
-   </ul>
-  </note>If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.<br></li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Click the More menu, then click Edit. 
+1. Find the `Done Button` section at the bottom of the `Team Settings` page.
+
+1. Select one status or more than one status for each work item type.
+
+   >[!NOTE]
+   >
+   >Consider the following when selecting statuses:  
+
+   >
+   >  
+   >  
+   >  * When you select one status for each type of work item, the task or issue status is set to that status when a user clicks Done on their&nbsp;item.&nbsp;If you set multiple statuses for each type of work item, a drop-down menu is added to the Done button and the user must pick a status to change the status on the work item.  
+   >  * You can associate only system-level statuses with the Done button. You cannot associate Group-specific statuses with work item statuses.
+   >  * Issue types are customizable and they might have different names than listed below in your environment.  
+   >    Following&nbsp;are the default tasks and issue types:   >  
+   >    
+   >    
+   >    * Tasks
+   >    * Issue
+   >    * Request
+   >    * Change Order
+   >    * Bug Report
+   >    
+   >    
+   >  
+   >  
+   >
+
+   If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
+
+1. Click `Save Changes`.
 
 ## Associate users with a Home Team
 
@@ -98,13 +110,16 @@ To find the group associated with the project:
 
 As a Workfront administrator, you can update the status for a specific group:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
- <li value="2">In the left panel, click <span class="bold">Project Preferences</span>, then <span class="bold">Statuses</span>.</li> 
- <li value="3">Click <span class="bold">Issues</span>, then type the name of the group in the <span class="bold">System Statuses</span> search box located on the right.</li> 
- <li value="4">Select the group.</li> 
- <li value="5"> <p>Click the <span class="bold">Set Default Statuses</span> drop-down menu, then choose a default status for Closed. Workfront uses this status for a closed issue when a user clicks the Done button.</p> <note type="important">
-   This status is used only when the user has no assigned Home Team and the RLV status has been deleted.
-  </note> </li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. In the left panel, click `Project Preferences`, then `Statuses`.
+
+1. Click `Issues`, then type the name of the group in the `System Statuses` search box located on the right.
+
+1. Select the group.
+1. Click the `Set Default Statuses` drop-down menu, then choose a default status for Closed. Workfront uses this status for a closed issue when a user clicks the Done button.
+
+   >[!IMPORTANT]
+   >
+   >This status is used only when the user has no assigned Home Team and the RLV status has been deleted.
+
+1. Click `Save`.
 

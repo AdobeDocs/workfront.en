@@ -56,18 +56,21 @@ The users accessing the report must have at least View permissions on the report
 
 To run a report with the access rights of another user:
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. </li> 
- <li value="2">Select the report you want to display with the access rights of another user.</li> 
- <li value="3">Click <span class="bold">Report Actions</span>, then click <span class="bold">Edit</span>.</li> 
- <li value="4">Click <span class="bold">Report Settings</span>.<br></li> 
- <li value="5">In the <span class="bold">Run this report with the Access Rights of:</span> field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.<br><br><note type="note">
-   Users with a lower access level that are allowed to build reports do not have the ability to select a user other than themselves for the 
-   <span class="bold">Run this Report with the Access Rights of:</span> field.
-  </note></li> 
- <li value="6">Click <span class="bold">Done</span>.</li> 
- <li value="7">Click <span class="bold">Save + Close</span>.<br>The report now displays for all users who the report is shared with as if it was viewed by the user specified in the <span class="bold">Run this report with the Access Rights of:</span> field.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
+1. Select the report you want to display with the access rights of another user.
+1. Click `Report Actions`, then click `Edit`.
+
+1. Click `Report Settings`.  
+
+1. In the `Run this report with the Access Rights of:` field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.
+
+   >[!NOTE]
+   >
+   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other than themselves for the `Run this Report with the Access Rights of:` field.
+
+1. Click `Done`.
+1. Click `Save + Close`.  
+   The report now displays for all users who the report is shared with as if it was viewed by the user specified in the `Run this report with the Access Rights of:` field.
 
 >[!IMPORTANT]
 >
@@ -80,26 +83,30 @@ You can set up reports to be delivered as attachment to an email. You can set up
 
 To deliver a report with the access rights of another user:
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. </li> 
- <li value="2">Select the report you want to deliver with the access rights of another user.</li> 
- <li value="3">Click the name of the report to select it.</li> 
- <li value="4">Click <span class="bold">Report Actions</span>.</li> 
- <li value="5">Click <span class="bold">Send Report</span>.<br></li> 
- <li value="6">In the <span class="bold">Deliver this report with the Access Rights of:</span> field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.<br><note type="note">
-   Users with a lower access level that are allowed to build reports do not have the ability to select a user other then themselves for the 
-   <span class="bold">Deliver&nbsp;this Report with the Access Rights of:</span> field.
-  </note></li> 
- <li value="7"> <p>Select the <span class="bold">Format</span> you want the report to display in the email:</p> 
-  <ul> 
-   <li>HTML</li> 
-   <li>PDF</li> 
-   <li>MS Excel</li> 
-   <li>MS Excel (.xlsx)</li> 
-   <li>TSV</li> 
-  </ul> </li> 
- <li value="8">Click <span class="bold">Send Now</span> to send it immediately.<br>Or<br>Click <span class="bold">Make Repeating Delivery</span> to schedule a recurring delivery for the report.<br>For more information about report deliveries, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md" class="MCXref xref">Report delivery overview</a>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
+1. Select the report you want to deliver with the access rights of another user.
+1. Click the name of the report to select it.
+1. Click `Report Actions`.
+1. Click `Send Report`.  
+
+1. In the `Deliver this report with the Access Rights of:` field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.
+
+   >[!NOTE]
+   >
+   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other then themselves for the `Deliver this Report with the Access Rights of:` field.
+
+1. Select the `Format` you want the report to display in the email:
+
+  * HTML
+  * PDF
+  * MS Excel
+  * MS Excel (.xlsx)
+  * TSV
+
+1. Click `Send Now` to send it immediately.  
+   Or  
+   Click `Make Repeating Delivery` to schedule a recurring delivery for the report.  
+   For more information about report deliveries, see the article [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 >[!IMPORTANT]
 >

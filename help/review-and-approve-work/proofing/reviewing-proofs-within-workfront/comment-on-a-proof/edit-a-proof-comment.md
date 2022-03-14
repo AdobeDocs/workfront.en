@@ -57,13 +57,14 @@ To edit proof comments:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="4">Hover over the comment you want to edit, click the <span class="bold">More</span> icon that appears, then click <span class="bold">Edit</span>.</li> 
- <p> <img src="assets/edit-a-comment-more-icon.png" alt="Edit_a_comment-More_icon.png"> </p> 
- <li value="5"> <p>Make any changes in the comment, then click <span class="bold">Post</span>.</p> <note type="note">
-   The label "Edited" appears on the comment. When a reviewer mouses over this, your name and the date and time of the changes appear. If you edit the comment more than once, this information appears only for the most recent change. This label also appears above the comment when you select the document in the Documents area and view the 
-   <span class="bold">Updates</span> tabin the Summary.
-  </note> </li> 
-</ol>
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. Hover over the comment you want to edit, click the `More` icon that appears, then click `Edit`.
+
+1. ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
+
+1. Make any changes in the comment, then click `Post`.
+
+   >[!NOTE]
+   >
+   >The label "Edited" appears on the comment. When a reviewer mouses over this, your name and the date and time of the changes appear. If you edit the comment more than once, this information appears only for the most recent change. This label also appears above the comment when you select the document in the Documents area and view the `Updates` tabin the Summary.
 

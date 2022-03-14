@@ -40,32 +40,31 @@ By default, the Resource Planner shows resource information for three or four mo
 
 To navigate the timeline:
 
-<ol> 
- <li value="1">Click the back and forward arrows to move backwards and forwards on the timeline.</li> 
- <li value="2"> <p>Select from the following date range options in the Resource Planner by clicking the appropriate buttons:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Week</td> 
-     <td>Displays information by week.<br>The number of the week displays next to the dates in the column header. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Month</td> 
-     <td> Displays information by month.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Quarter</td> 
-     <td>Displays information by quarter.<br>The number of the quarter displays next to the dates in the column header.<br>Custom quarters do not display in the Resource Planner. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Today</td> 
-     <td>Returns to today's month, week, or quarter.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the back and forward arrows to move backwards and forwards on the timeline.
+1. Select from the following date range options in the Resource Planner by clicking the appropriate buttons:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Week</td> 
+      <td>Displays information by week.<br>The number of the week displays next to the dates in the column header. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Month</td> 
+      <td> Displays information by month.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Quarter</td> 
+      <td>Displays information by quarter.<br>The number of the quarter displays next to the dates in the column header.<br>Custom quarters do not display in the Resource Planner. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Today</td> 
+      <td>Returns to today's month, week, or quarter.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Project/ Role/ User view selection
 
@@ -97,22 +96,32 @@ In order to display accurate information in the Resource Planner, you must meet 
 
 Consider the following when selecting the Project View in the Resource Planner:
 
-<ul> 
- <li>You can see projects that you have permissions to at least view.</li> 
- <li>When you access the Resource Planner for the first time, you can see projects filtered by the Default Filter. <br>For more information about filtering information in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</li> 
- <li> The number of items you display or can export from the Project View is limited, to improve performance.<br>For more information about limitations when viewing the Resource Planner in the Project View, see the <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits" class="MCXref xref">Limitations in the Project View</a> section in the <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md" class="MCXref xref">Resource Planner display limitations</a> article. </li> 
- <li> The projects are listed in the order of their priority in the Project View.<br>For more information about project priority in the Resource Planner, see the <a href="#project-planning-priority" class="MCXref xref">Project Planning Priority</a> section in this article.</li> 
- <li>As you expand each project, you can display the job roles associated with it.<br>As you expand each role, you can display users associated with it.<br>Scroll to load more roles and users under each project. </li> 
- <li> When this view is applied, the Role Hours, FTE or Cost add up to the Project Hours, FTE or Cost.<br><img style="font-size: small;width: 350;height: 228;" src="assets/resource-planner-view-by-project-350x228.png" alt="resource_planner_view_by_project.png"></li> 
- <li>You can view the following hour, FTE, or Cost information in the Project view:
-  <ul>
-   <li>Available</li>
-   <li>Planned</li>
-   <li>Budgeted</li>
-   <li>Variance </li>
-   <li><p>Net </p><p>For more information, see <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p></li>
-  </ul></li> 
-</ul>
+* You can see projects that you have permissions to at least view.
+* When you access the Resource Planner for the first time, you can see projects filtered by the Default Filter.   
+  For more information about filtering information in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+
+* The number of items you display or can export from the Project View is limited, to improve performance.  
+  For more information about limitations when viewing the Resource Planner in the Project View, see the [Limitations in the Project View](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#project-view-limits) section in the [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) article. 
+
+* The projects are listed in the order of their priority in the Project View.  
+  For more information about project priority in the Resource Planner, see the [Project Planning Priority](#project-planning-priority) section in this article.
+
+* As you expand each project, you can display the job roles associated with it.  
+  As you expand each role, you can display users associated with it.  
+  Scroll to load more roles and users under each project. 
+
+* When this view is applied, the Role Hours, FTE or Cost add up to the Project Hours, FTE or Cost.  
+  ![resource_planner_view_by_project.png](assets/resource-planner-view-by-project-350x228.png)
+
+* You can view the following hour, FTE, or Cost information in the Project view:
+
+  * Available
+  * Planned
+  * Budgeted
+  * Variance 
+  * Net
+
+    For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ###
 
@@ -120,21 +129,24 @@ Consider the following when selecting the Project View in the Resource Planner:
 
 Consider the following when selecting the Role View in the Resource Planner:
 
-<ul> 
- <li>You must have at least View access to Resource Management and view permissions on projects to view the roles associated with those projects.<br></li> 
- <li> <p>You can expand each role to display a list of projects, and every project to display a list of users that can fulfill those roles on the projects. </p> </li> 
- <li> The number of items you display or can export from the Role View is limited, to improve performance.<br>For more information about limitations when viewing the Resource Planner in the Role View, see the <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits" class="MCXref xref">Limitations in the Role View</a> section in <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md" class="MCXref xref">Resource Planner display limitations</a> . </li> 
- <li> The projects are listed under the job role in the same order of priority as they are listed in the Project View. </li> 
- <li> When this view is applied, the Project Hours, FTE or Cost add up to the Role Hours, FTE or Cost.<br><img style="font-size: small;width: 350;height: 222;" src="assets/resource-planner-view-by-role-350x222.png" alt="resource_planner_view_by_role.png"></li> 
- <li>You can view the following hour, FTE, or Cost information in the Role view:
-  <ul>
-   <li>Available</li>
-   <li>Planned</li>
-   <li>Budgeted</li>
-   <li>Variance </li>
-   <li><p>Net </p><p>For more information, see <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p></li>
-  </ul></li> 
-</ul>
+* You must have at least View access to Resource Management and view permissions on projects to view the roles associated with those projects.  
+* You can expand each role to display a list of projects, and every project to display a list of users that can fulfill those roles on the projects. 
+* The number of items you display or can export from the Role View is limited, to improve performance.  
+  For more information about limitations when viewing the Resource Planner in the Role View, see the [Limitations in the Role View](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#role-view-limits) section in [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) . 
+
+* The projects are listed under the job role in the same order of priority as they are listed in the Project View. 
+* When this view is applied, the Project Hours, FTE or Cost add up to the Role Hours, FTE or Cost.  
+  ![resource_planner_view_by_role.png](assets/resource-planner-view-by-role-350x222.png)
+
+* You can view the following hour, FTE, or Cost information in the Role view:
+
+  * Available
+  * Planned
+  * Budgeted
+  * Variance 
+  * Net
+
+    For more information, see [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ### View by User
 
@@ -148,31 +160,46 @@ The User View is the default view of the Resource Planner.
 
 Consider the following when selecting the User View in the Resource Planner:
 
-<ul> 
- <li> <p> You can see all the users you have permissions to View, up to 2000 users, that are active and have logged in to Adobe Workfront at least once.<br>Filter the user list by Team, Job Role, or Pools to see users associated only with those entities. </p> </li> 
- <li>If you have filtered the list of users by projects, only the users associated with the filtered projects can be expanded and also display hour information.<br>For more information about filtering information in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a> .</li> 
- <li> The number of items you display or can export from the User View is limited, to improve performance.<br>For more information about limitations when viewing the Resource Plannerin the User View, see the <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits" class="MCXref xref">Limitations in the User View</a> section in <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md" class="MCXref xref">Resource Planner display limitations</a> . </li> 
- <li> The projects are listed under the name of the user in the same order of priority as they are listed in the Project View.<br>For more information about project priority in the Resource Planner, see the <a href="#project-planning-priority" class="MCXref xref">Project Planning Priority</a> section in this article. </li> 
- <li> If users have no job role associated with them, the Hours or FTE values are listed under the <span class="bold">No Role</span> section. </li> 
- <li> <p> When this view is applied, the Project Hours or FTE add up to the User Hours or FTE.</p> <note type="tip">
-   You cannot display the allocation and availability of the users by Cost in the User View.
-   <br>
-  </note> </li> 
- <li>Your permissions to projects and tasks determine what is displayed under the names of the users you see in the User View. <br>The following scenarios exist: 
-  <ul>
-   <li>When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the <span class="bold">Inaccessible Items</span> sections. The <span class="bold">Inaccessible Items</span> sections replace the Project or Task sections in this case.</li>
-   <li>When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.</li>
-   <li><p>When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the <span class="bold">Inaccessible Items</span> section.<br>For more information about permissions in Workfront, see <a href="../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>.</p><p><img src="assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png" style="width: 350;height: 187;"></p></li>
-  </ul><p>&nbsp;</p></li> 
- <li>You can view the following hour and FTE information in the User view:
-  <ul>
-   <li>Available</li>
-   <li>Planned</li>
-   <li>Actual </li>
-   <li>Difference between Planned and Actual</li>
-   <li><p>Percentage of Planned allocation</p><p>For more information, see<a href="../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md" class="MCXref xref">View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view</a></p></li>
-  </ul></li> 
-</ul>
+* You can see all the users you have permissions to View, up to 2000 users, that are active and have logged in to Adobe Workfront at least once.  
+  Filter the user list by Team, Job Role, or Pools to see users associated only with those entities. 
+* If you have filtered the list of users by projects, only the users associated with the filtered projects can be expanded and also display hour information.  
+  For more information about filtering information in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
+
+* The number of items you display or can export from the User View is limited, to improve performance.  
+  For more information about limitations when viewing the Resource Plannerin the User View, see the [Limitations in the User View](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md#user-view-limits) section in [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) . 
+
+* The projects are listed under the name of the user in the same order of priority as they are listed in the Project View.  
+  For more information about project priority in the Resource Planner, see the [Project Planning Priority](#project-planning-priority) section in this article. 
+
+* If users have no job role associated with them, the Hours or FTE values are listed under the `No Role` section. 
+* When this view is applied, the Project Hours or FTE add up to the User Hours or FTE.
+
+  >[!TIP]
+  >
+  >You cannot display the allocation and availability of the users by Cost in the User View.
+
+* Your permissions to projects and tasks determine what is displayed under the names of the users you see in the User View.   
+  The following scenarios exist:
+
+  * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the `Inaccessible Items` sections. The `Inaccessible Items` sections replace the Project or Task sections in this case.
+  
+  * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
+  * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the `Inaccessible Items` section.  
+    For more information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+    ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+
+  &nbsp;
+
+* You can view the following hour and FTE information in the User view:
+
+  * Available
+  * Planned
+  * Actual 
+  * Difference between Planned and Actual
+  * Percentage of Planned allocation
+
+    For more information, see [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md)
 
 ##
 
@@ -182,12 +209,19 @@ Consider the following when selecting the User View in the Resource Planner:
 
 You can see the following projects in the Resource Planner:
 
-<ul> 
- <li> <p>Projects you have permissions to at least view. </p> <p>You must also have access to at least View Resource Management in your access level. </p> <p>For information about the access needed to use the Resource Planner see <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>. </p> </li> 
- <li> <p>Projects limited by the filter applied to the Resource Planner. </p> <p>For more information about filtering information in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</p> <note type="note">
-   We recommend using filters to reduce the number of projects you display in the Resource Planner.
-  </note> </li> 
-</ul>
+* Projects you have permissions to at least view.
+
+  You must also have access to at least View Resource Management in your access level.
+
+  For information about the access needed to use the Resource Planner see [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md). 
+
+* Projects limited by the filter applied to the Resource Planner.
+
+  For more information about filtering information in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+
+  >[!NOTE]
+  >
+  >We recommend using filters to reduce the number of projects you display in the Resource Planner.
 
 ## Project Planning Priority
 
@@ -268,18 +302,29 @@ From the Settings area, you can enable or disable options to display or hide inf
 
 To enable settings in the Resource Planner:
 
-<ol> 
- <li value="1">Open the Resource Planner.</li> 
- <li value="2"> <p>Click the <span class="bold">Settings</span> icon.</p> <p> <img src="assets/rp-settings-icon-(1).png"> </p> <p>The Resource Planner Settings box displays.</p> <p> <img src="assets/rp-settings-without-actual-hours-350x211.png" style="width: 350;height: 211;"> </p> </li> 
- <li value="3"> <p>Enable the <span class="bold">Include hours from Issues</span> setting to display Planned Hours from issues in the Resource Planner. This setting is disabled by default.</p> <p>Consider the following when you enable this setting:</p> 
-  <ul> 
-   <li>The name of the user assigned to the issues is displayed under the job role associated with them on the issue and you can specify Budgeted Hours for the user and the job role the in the Project and Role views. </li> 
-   <li> <p>The issues the users are assigned to are listed under the names of the job roles in the User view.</p> <note type="important">
-     <span class="style">When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.</span> 
-    </note> </li> 
-  </ul> </li> 
- <li value="4">(Conditional and optional) If you selected the Project view, enable the Display Portfolio Priorities setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.<p>For information about prioritizing projects in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md" class="MCXref xref">Prioritize projects in the Resource Planner</a>. </p></li> 
-</ol>
+1. Open the Resource Planner.
+1. Click the `Settings` icon.
+
+   ![](assets/rp-settings-icon-(1).png)
+
+   The Resource Planner Settings box displays.
+
+   ![](assets/rp-settings-without-actual-hours-350x211.png)
+
+1. Enable the `Include hours from Issues` setting to display Planned Hours from issues in the Resource Planner. This setting is disabled by default.
+
+   Consider the following when you enable this setting:
+
+  * The name of the user assigned to the issues is displayed under the job role associated with them on the issue and you can specify Budgeted Hours for the user and the job role the in the Project and Role views. 
+  * The issues the users are assigned to are listed under the names of the job roles in the User view.
+
+    >[!IMPORTANT]
+    >
+    >`When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.`
+
+1. (Conditional and optional) If you selected the Project view, enable the Display Portfolio Priorities setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
+
+   For information about prioritizing projects in the Resource Planner, see [Prioritize projects in the Resource Planner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Full-screen option
 
@@ -289,11 +334,12 @@ The option to view information in full screen is available for all views of the 
 
 To display the Resource Planner in full screen:
 
-<ol> 
- <li value="1"> Go to the <span class="bold">Resource Planner</span>. </li> 
- <li value="2"> Click the <span class="bold">Full Screen icon</span> to view the Resource Planner in full screen.<br><img src="assets/rp-full-screen-icon-highlighted-user-view--350x260.png" alt="RP_sull_sccreen_area_User_View__1_.png" style="width: 350;height: 260;"><br>The Resource Planner expands to occupy your entire browser window and the icon changes into a <span class="bold">Close the Full Screen</span> view option. </li> 
- <li value="3"> (Optional) Click the <span class="bold">Close Full Screen icon</span> to revert to the previous display. </li> 
-</ol>
+1. Go to the `Resource Planner`. 
+1. Click the `Full Screen icon` to view the Resource Planner in full screen.  
+   ![RP_sull_sccreen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)  
+   The Resource Planner expands to occupy your entire browser window and the icon changes into a `Close the Full Screen` view option. 
+
+1. (Optional) Click the `Close Full Screen icon` to revert to the previous display.
 
 ## Export option
 

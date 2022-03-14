@@ -30,12 +30,17 @@ You must have the following in order to manage companies in Workfront:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Companies</span> <img src="assets/companies-icon-left-panel.png">.</li> 
- <li value="3">Select one or more companies to deactivate.</li> 
- <li value="4">Click <span class="bold">Edit</span>.</li> 
- <li value="5"> <p>If editing a single company, disable the <span class="bold">Is Active</span> option.<br></p> <p>Or<br></p> <p>If editing multiple companies, select <span class="bold">No</span> from the <span class="bold">Is Active</span> drop-down menu.</p> </li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Companies` ![](assets/companies-icon-left-panel.png).
+
+1. Select one or more companies to deactivate.
+1. Click `Edit`.
+1. If editing a single company, disable the `Is Active` option.
+
+   Or
+
+   If editing multiple companies, select `No` from the `Is Active` drop-down menu.
+
+1. Click `Save Changes`.
 

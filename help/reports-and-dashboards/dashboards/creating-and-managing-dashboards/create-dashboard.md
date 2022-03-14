@@ -60,31 +60,44 @@ You must create any of the following objects before you can add them to a dashbo
 To see a video of this process, see [link to video below/in new tab/in Video gallery].
 -->
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon , then click Dashboards. </p> </li> 
- <li value="2">Click <span class="bold">New Dashboard</span>.<br>The New Dashboard dialog box displays.</li> 
- <li value="3">Specify the following: 
-  <table cellspacing="0">
-   <col>
-   <col>
-   <tbody>
-    <tr>
-     <td role="rowheader">Name</td>
-     <td><p>This is the name of your dashboard.</p><p>If you do not specify a name, the name of the first report on the dashboard becomes the name of the dashboard, by default.</p></td>
-    </tr>
-    <tr>
-     <td role="rowheader">Description (Optional)</td>
-     <td>This is a description of your dashboard.</td>
-    </tr>
-   </tbody>
-  </table></li> 
- <li value="4"> <p>Select a layout by clicking the radio button corresponding to it.</p> <p>The single-column layout is the default.</p> <p>For information about report layout on dashboards, see <a href="../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md" class="MCXref xref">Understand how reports display on a dashboard</a>.</p> </li> 
- <li value="5"> <p>Add existing reports, calendars, or external pages by searching for them in the <span class="bold">Search by name or type ...</span> field, then dragging them to the layout pane, when they appear in the list.</p> <note type="note">
-   When searching for an item, the search returns any of the 2,000 most recently created reports. Report names that include unicode characters are not returned in search results. As a best practice, avoid including unicode characters when naming objects in Workfront by typing names rather than copying and pasting names from another source. 
-  </note> <p>  </p> </li> 
- <li value="6">(Optional) Click <span class="bold">Add External Page</span> to add an External Page to the dashboard. <br>For more information about creating external pages and embedding them into dashboards, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</li> 
- <li value="7">Click <span class="bold">Save + Close</span>.<br>A timestamp is displayed in the upper-right corner of the dashboard. The timestamp includes the date, time, and time zone when the dashboard was last refreshed.</li> 
-</ol>
+1. Click the Main Menu icon , then click Dashboards. 
+1. Click `New Dashboard`.  
+   The New Dashboard dialog box displays.
+
+1. Specify the following: 
+
+   <table cellspacing="0">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader">Name</td>
+      <td><p>This is the name of your dashboard.</p><p>If you do not specify a name, the name of the first report on the dashboard becomes the name of the dashboard, by default.</p></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Description (Optional)</td>
+      <td>This is a description of your dashboard.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Select a layout by clicking the radio button corresponding to it.
+
+   The single-column layout is the default.
+
+   For information about report layout on dashboards, see [Understand how reports display on a dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md).
+
+1. Add existing reports, calendars, or external pages by searching for them in the `Search by name or type ...` field, then dragging them to the layout pane, when they appear in the list.
+
+   >[!NOTE]
+   >
+   >When searching for an item, the search returns any of the 2,000 most recently created reports. Report names that include unicode characters are not returned in search results. As a best practice, avoid including unicode characters when naming objects in Workfront by typing names rather than copying and pasting names from another source.
+
+1. (Optional) Click `Add External Page` to add an External Page to the dashboard.   
+   For more information about creating external pages and embedding them into dashboards, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
+
+1. Click `Save + Close`.  
+   A timestamp is displayed in the upper-right corner of the dashboard. The timestamp includes the date, time, and time zone when the dashboard was last refreshed.
 
 <!--
 Video walk-through

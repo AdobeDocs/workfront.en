@@ -43,10 +43,12 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a story or issue
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Teams</span>.</li> 
- <li value="2"> <p>(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Kanban team from the drop-down menu or search for a team in the search bar.</p> </li> 
- <li value="3"> <p>Click the <span class="bold">More</span> icon on the story or issue, and select <span class="bold">Delete</span>.</p> <p> <img src="assets/kanban-delete-story.png" alt="Kanban_delete_story"> </p> </li> 
- <li value="4"> <p>On the confirmation message, click <span class="bold">Yes, delete it</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Teams`.
+
+1. (Optional) Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
+1. Click the `More` icon on the story or issue, and select `Delete`.
+
+   ![Kanban_delete_story](assets/kanban-delete-story.png)
+
+1. On the confirmation message, click `Yes, delete it`.
 

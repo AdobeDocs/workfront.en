@@ -63,31 +63,36 @@ Consider the following when pasting modules into a different scenario.
 
 Copying a group of modules is similar to copying a single module.
 
-<ol> 
- <li value="1"> <p>Right-click on the module that you want to copy.</p> <note type="note">
-   You can select more than one module by holding shift and clicking on the modules that you want to copy. Copying a group of modules also copies any connecting lines, filters, or routing logic between them.
-  </note> </li> 
- <li value="2"> <p>Select <b>Copy module</b>.</p> </li> 
- <li value="3"> <p>Move the cursor to the area of the scenario where you want the copy of the scenario.</p> </li> 
- <li value="4"> <p>Right click, and select <b>Paste</b>.</p> </li> 
- <li value="5"> <p>Connect the pasted modules to the scenario by dragging them to the appropriate location in the scenario.</p> <p>You can also use keyboard shortcuts to copy and paste.</p> </li> 
-</ol>
+1. Right-click on the module that you want to copy.
+
+   >[!NOTE]
+   >
+   >You can select more than one module by holding shift and clicking on the modules that you want to copy. Copying a group of modules also copies any connecting lines, filters, or routing logic between them.
+
+1. Select **Copy module**.
+1. Move the cursor to the area of the scenario where you want the copy of the scenario.
+1. Right click, and select **Paste**.
+1. Connect the pasted modules to the scenario by dragging them to the appropriate location in the scenario.
+
+   You can also use keyboard shortcuts to copy and paste.
 
 ## Copy a scenario by cloning
 
 Cloning a scenario creates a copy of the scenario, which you can then edit.
 
-<ol> 
- <li value="1"> <p>Open the scenario detail page:</p> 
-  <ol> 
-   <li value="1"> <p>Click the <span class="bold">Scenario</span> tab in the left panel, then click a scenario you would like details on.</p> <p>Or</p> <p>If you are working on the scenario in the <a href="../../workfront-fusion/scenarios/scenario-editor.md" class="MCXref xref">Scenario editor</a>, click the left arrow <img src="assets/exit-editing-arrow.png"> near the upper-left corner of the window.</p> </li> 
-  </ol> </li> 
- <li value="2"> <p>Right click <b>Options</b> at the upper-right of the page.</p> </li> 
- <li value="3"> <p>Select <b>Clone</b>.</p> </li> 
- <li value="4"> <p>(Optional) Enter a name for the new scenario.</p> </li> 
- <li value="5"> <p>(Optional) Enable <b>Keep the states of any new modules the same as those being duplicated</b> to ensure that the copied scenario also includes information about the most recent records processed by the original scenario.</p> </li> 
- <li value="6"> <p>Click <b>Save</b> to create the scenario.</p> </li> 
-</ol>
+1. Open the scenario detail page:
+
+  1. Click the `Scenario` tab in the left panel, then click a scenario you would like details on.
+
+     Or
+
+     If you are working on the scenario in the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
+
+1. Right click **Options** at the upper-right of the page.
+1. Select **Clone**.
+1. (Optional) Enter a name for the new scenario.
+1. (Optional) Enable **Keep the states of any new modules the same as those being duplicated** to ensure that the copied scenario also includes information about the most recent records processed by the original scenario.
+1. Click **Save** to create the scenario.
 
 ## Copy a scenario by using blueprints
 

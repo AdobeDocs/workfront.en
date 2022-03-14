@@ -57,25 +57,25 @@ Before you can use the Anaplan connector, you must ensure that the following pre
 
 To create a connection for your Anaplan modules:
 
-<ol> 
- <li value="1"> <p>Click <span class="bold">Add</span> next to the Connection box.</p> </li> 
- <li value="2"> <p>Select the connection type.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Anaplan Basic</td> 
-     <td> <p>An Anaplan Basic connection requires only an email address and password to create the connection. </p> <p>Enter a name for the connection, then enter your email address and the password of your Anaplan account.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Anaplan CA Certificate</td> 
-     <td> <p>An Anaplan CA Certificate connection requires a Certificate Key, Encoded Data, and Encoded Signed Data. You can generate these in your Anaplan account. For instructions, see the Anaplan documentation.</p> <p>Enter a name for the connection, then enter the connection requires a Certificate Key, Encoded Data, and Encoded Signed Data that you generated in your Anaplan account.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Click <b>Continue</b> to save the connection and return to the module.</p> </li> 
-</ol>
+1. Click `Add` next to the Connection box.
+1. Select the connection type.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Anaplan Basic</td> 
+      <td> <p>An Anaplan Basic connection requires only an email address and password to create the connection. </p> <p>Enter a name for the connection, then enter your email address and the password of your Anaplan account.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Anaplan CA Certificate</td> 
+      <td> <p>An Anaplan CA Certificate connection requires a Certificate Key, Encoded Data, and Encoded Signed Data. You can generate these in your Anaplan account. For instructions, see the Anaplan documentation.</p> <p>Enter a name for the connection, then enter the connection requires a Certificate Key, Encoded Data, and Encoded Signed Data that you generated in your Anaplan account.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Continue** to save the connection and return to the module.
 
 ## Anaplan modules and their fields
 

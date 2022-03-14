@@ -67,43 +67,56 @@ In order for Workfront to authenticate with SharePoint, Workfront ca use a maste
 
 To create and configure a Sharepoint Site:
 
-<ol> 
- <li value="1"> <p>(Optional) If you do not want to use your organization's root site, you can create a master site in SharePoint.</p> <p>For instructions, visit <a href="https://docs.microsoft.com/en-us/sharepoint/create-site-collection">Create a site</a> in the Microsoft Documentation. </p> 
-  <ul> 
-   <li> <p>Select the <span class="bold">Team Site</span> option when creating the site.</p> </li> 
-  </ul> </li> 
- <li value="2"> <p>(Conditional) If you created a site in step 1, go to the site you just created.</p> <p>Or</p> <p>If you did not create a site in step 1, go to your organization's root site.</p> </li> 
- <li value="3"> <p>Add <code>/_layouts/15/appregnew.aspx</code> to the end of the URL in the search bar at the top of your browser window.</p> </li> 
- <li value="4"> <p>Configure the following fields:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Client ID</p> </td> 
-     <td> <p>Click <span class="bold">Generate</span> to generate a Client ID. Copy this ID to a secure location. You will use it later when you set up the SharePoint integration in Workfront.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Client Secret</p> </td> 
-     <td> <p>Click <span class="bold">Generate</span> to generate a Client Secret. Copy this Secret to a secure location. You will use it later when you set up the SharePoint integration in Workfront.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Title</p> </td> 
-     <td> <p>Enter a title, such as Workfront Site App. Users see this title when adding documents..</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>App Domain</p> </td> 
-     <td> <p><code>my.workfront.com</code> </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Redirect URI</p> </td> 
-     <td> <p><code>https://oauth.my.workfront.com/oauth2/redirect</code> </p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>Click <span class="bold">Create</span></p> </li> 
- <li value="6"> <p>Continue to <a href="#grant" class="MCXref xref">Grant write permissions to the site app </a>.</p> </li> 
-</ol>
+1. (Optional) If you do not want to use your organization's root site, you can create a master site in SharePoint.
+
+   For instructions, visit [Create a site](https://docs.microsoft.com/en-us/sharepoint/create-site-collection) in the Microsoft Documentation.
+
+  * Select the `Team Site` option when creating the site.
+
+1. (Conditional) If you created a site in step 1, go to the site you just created.
+
+   Or
+
+   If you did not create a site in step 1, go to your organization's root site.
+
+1. Add 
+
+   ```
+   /_layouts/15/appregnew.aspx
+   ```
+
+   to the end of the URL in the search bar at the top of your browser window.
+1. Configure the following fields:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Client ID</p> </td> 
+      <td> <p>Click <span class="bold">Generate</span> to generate a Client ID. Copy this ID to a secure location. You will use it later when you set up the SharePoint integration in Workfront.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Client Secret</p> </td> 
+      <td> <p>Click <span class="bold">Generate</span> to generate a Client Secret. Copy this Secret to a secure location. You will use it later when you set up the SharePoint integration in Workfront.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Title</p> </td> 
+      <td> <p>Enter a title, such as Workfront Site App. Users see this title when adding documents..</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>App Domain</p> </td> 
+      <td> <p><code>my.workfront.com</code> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Redirect URI</p> </td> 
+      <td> <p><code>https://oauth.my.workfront.com/oauth2/redirect</code> </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Create`
+1. Continue to [Grant write permissions to the site app](#grant).
 
 ### Grant write permissions to the site app
 
@@ -111,117 +124,120 @@ At this point, you have successfully created a Site App and registered it within
 
 This site app must have Write permission to any site collections that users need to access through Workfront.
 
-<ol> 
- <li value="1"> <p>Add '/_layouts/15/appinv.aspx' to the URL in Sharepoint.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx</code> </p> </li> 
- <li value="2"> <p>Configure the following fields</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">App ID</td> 
-     <td> <p>Add the Client ID that you created in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>and click <span class="bold">Lookup</span>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Client / App Domain / Redirect URL</p> </td> 
-     <td> <p>These automatically fill when you click Lookup.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Permission Request XML</td> 
-     <td> <p>Copy the following XML to the Permission Request XML field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
-      <div class="codeSnippet"> <a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a> 
-       <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
-        <pre><code><span style="color: #63a35c; "><AppPermissionRequests></span><br><span style="color: #63a35c; "><AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/></span><br><span style="color: #63a35c; "></AppPermissionRequests></span></code></pre> 
-       </div> 
-      </div> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Click <span class="bold">Create</span>. </p> </li> 
- <li value="4"> <p>In the dialog that appears, click <span class="bold">Trust it</span>.</p> </li> 
- <li value="5"> <p>Verify that the site app has access to the site collection by clicking the <b>Site collection app permissions</b> link in Site Settings.</p> </li> 
- <li value="6"> <p>Repeat the steps above for the remaining site collections, then continue with <a href="#create2" class="MCXref xref">Create a Workfront SharePoint integration instance</a>.</p> </li> 
-</ol>
+1. Add '/_layouts/15/appinv.aspx' to the URL in Sharepoint.
+
+   ` `**Example: **``
+
+   ```
+   https://mycompany.sharepoint.com/sites/mysite/_layouts/15/appinv.aspx
+   ```
+
+1. Configure the following fields
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">App ID</td> 
+      <td> <p>Add the Client ID that you created in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>and click <span class="bold">Lookup</span>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Client / App Domain / Redirect URL</p> </td> 
+      <td> <p>These automatically fill when you click Lookup.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Permission Request XML</td> 
+      <td> <p>Copy the following XML to the Permission Request XML field. Make sure that it is added exactly as shown without additional spaces etc. in order to avoid errors.</p> 
+       <div class="codeSnippet"> <a class="codeSnippetCopyButton" role="button" href="javascript:void(0);">Copy</a> 
+        <div style="mc-code-lang: XML;" class="codeSnippetBody" data-mc-continue="False" data-mc-line-number-start="1" data-mc-use-line-numbers="False"> 
+         <pre><code><span style="color: #63a35c; ">&lt;AppPermissionRequests&gt;</span><br><span style="color: #63a35c; ">&lt;AppPermissionRequest <span style="color: #795da3; ">Scope</span><span style="color: #df5000; ">="http://sharepoint/content/sitecollection/web"</span> <span style="color: #795da3; ">Right</span><span style="color: #df5000; ">="Write"</span>/&gt;</span><br><span style="color: #63a35c; ">&lt;/AppPermissionRequests&gt;</span></code></pre> 
+        </div> 
+       </div> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Create`. 
+1. In the dialog that appears, click `Trust it`.
+1. Verify that the site app has access to the site collection by clicking the **Site collection app permissions** link in Site Settings.
+1. Repeat the steps above for the remaining site collections, then continue with [Create a Workfront SharePoint integration instance](#create2).
 
 ### Create a Workfront SharePoint integration instance
 
 When you have created a site app in SharePoint, you can now copy information from the site app into Workfront. The site app is an app principal and acts as the conduit through which OAuth requests are made to access documents within site collections.
 
-<ol> 
- <li value="1">Log into Workfront as an administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Documents</span> > <span class="bold">SharePoint Integration</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Add SharePoint</span>.</p> </li> 
- <li value="5"> <p>Configure the following fields:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Name</p> </td> 
-     <td> <p>Enter a name for the SharePoint integration. Users see this name when they click Add > From ‘name of integration’. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Sharepoint Host Instance</p> </td> 
-     <td> <p><code><YourDomain>.sharepoint.com</code> </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Azure Access Domain</p> </td> 
-     <td> <p><code><YourDomain>.onmicrosoft.com</code> </p> <p>This refers to the Master Site that users will use to authenticate through. It is likely the same domain as the Sharepoint Host Instance.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Site Collections Authentication</p> </td> 
-     <td> 
-      <ul> 
-       <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
-       <li> <p><b>If you are using a master site and subsites:</b> </p> <note type="important">
-         Microsoft SharePoint no longer recommends the use of subsites.
-        </note> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">SharePoint Client ID</td> 
-     <td>Enter the Client ID&nbsp;that you generated in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">SharePoint Client Secret</td> 
-     <td>Enter the Client Secret that you generated in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Visible Site Collections</td> 
-     <td> 
-      <ul> 
-       <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
-       <li> <p><b>If you are using a master site and subsites:</b> </p> <note type="important">
-         Microsoft SharePoint no longer recommends the use of subsites.
-        </note> <p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <note type="note">  
-         <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> 
-         <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> 
-         <p>When you have tested your configuration as described in <a href="#complete" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
-         <ol> 
-          <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <span class="bold">Documents</span> > <span class="bold">SharePoint Integration</span>.</p></li><li><p>Click the SharePoint integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the Visible Site Collections field.</p></li><li><p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
-         </ol> 
-        </note> </li> 
-      </ul> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6"> <p>Click <span class="bold">Save</span></p> </li> 
- <li value="7"> <p>Continue to <a href="#complete" class="MCXref xref">Complete your integration</a>.</p> </li> 
-</ol>
+1. Log into Workfront as an administrator.
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Documents` > `SharePoint Integration`.
+1. Click `Add SharePoint`.
+1. Configure the following fields:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Name</p> </td> 
+      <td> <p>Enter a name for the SharePoint integration. Users see this name when they click Add &gt; From ‘name of integration’. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Sharepoint Host Instance</p> </td> 
+      <td> <p><code>&lt;YourDomain&gt;.sharepoint.com</code> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Azure Access Domain</p> </td> 
+      <td> <p><code>&lt;YourDomain&gt;.onmicrosoft.com</code> </p> <p>This refers to the Master Site that users will use to authenticate through. It is likely the same domain as the Sharepoint Host Instance.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Site Collections Authentication</p> </td> 
+      <td> 
+       <ul> 
+        <li> <p><b>If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p>Important: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>Enter the URL stem for the site collection that you created in the section above.</p> <p>This is the section of the URL after .com.</p> <p>Example: for the URL <code>https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">SharePoint Client ID</td> 
+      <td>Enter the Client ID&nbsp;that you generated in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">SharePoint Client Secret</td> 
+      <td>Enter the Client Secret that you generated in <a href="#create" class="MCXref xref">Create and configure a Sharepoint site </a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Visible Site Collections</td> 
+      <td> 
+       <ul> 
+        <li> <p><b> If you are using your organization's root site</b><b>:</b> </p> <p>Enter <code>/</code></p> </li> 
+        <li> <p><b>If you are using a master site and subsites:</b> </p> <p>Important: Microsoft SharePoint no longer recommends the use of subsites.</p> <p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p> <p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p> <p>Note:   <p>If you want to test your configuration only (no subsites), enter the stem of the master site. </p> <p>Example: for the URL <code> https://mycompany.sharepoint.com/sites/mysite</code>, the stem would be <code>/sites/mysite</code>.</p> <p>When you have tested your configuration as described in <a href="#complete" class="MCXref xref">Complete your integration</a>, you must remove the master site and enter the subsites.</p> 
+          <ol> 
+           <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<li><p>In the left panel, click <span class="bold">Documents</span> &gt; <span class="bold">SharePoint Integration</span>.</p></li><li><p>Click the SharePoint integration you are setting up, then click Edit.</p></li><li><p>Delete the stem for the master site from the Visible Site Collections field.</p></li><li><p>For each subsite you want to add to your SharePoint integration, enter the stem of the subsite.</p></li><p>Example: for the URL<code>https://mycompany.sharepoint.com/sites/mysite/mysubsite</code>, the stem would be <code>/sites/mysite/mysubsite</code>.</p></li> 
+          </ol> </p> </li> 
+       </ul> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Save`
+1. Continue to [Complete your integration](#complete).
 
 ### Complete your integration
 
 The basic configuration is almost complete.
 
-<ol> 
- <li value="1"> <p>In Workfront, Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Documents</span> <img src="assets/document-icon.png">.</p> </li> 
- <li value="2"> <p>Click<span class="bold"> Add new</span>.</p> </li> 
- <li value="3"> <p>Click<span class="bold"> From <title of your SharePoint site></span> in the dropdown. </p> <p>A dialog that invites you to Trust this site appears. </p> <note type="note">
-   If this dialog does not appear, your SharePoint integration is not configured correctly.
-  </note> </li> 
- <li value="4">Click <span class="bold">Trust it</span>.</li> 
-</ol>
+1. In Workfront, Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Documents` ![](assets/document-icon.png).
+1. Click `Add new`.
+1. Click `From <title of your SharePoint site>` in the dropdown.
+
+   A dialog that invites you to Trust this site appears.
+
+   >[!NOTE]
+   >
+   >If this dialog does not appear, your SharePoint integration is not configured correctly.
+
+1. Click `Trust it`.
 
 ### Add documents
 

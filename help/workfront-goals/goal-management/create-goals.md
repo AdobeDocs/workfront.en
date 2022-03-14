@@ -65,44 +65,82 @@ You can create a new goal in one of the following ways:
 
 ### Create a goal from scratch
 
-<ol> 
- <li value="1"> <p> Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner. </p> <p> <img src="assets/main-menu-align-icon-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The Goal List displays by default and you can view all the goals in the system. </p> </li> 
- <li value="2"> <p>(Conditional) Click Goal List, <span class="bold">Graphs</span>, Pulse,or Check-in in the left pane, then click&nbsp;<span class="bold">Add Goal</span> in the upper-right corner of the page. The Add Goal box displays. </p> <p> <img src="assets/add-goal-box-350x235.png" style="width: 350;height: 235;"> </p> <note type="tip">
-   You can add a goal from any section in Workfront Goals. The process for creating a goal is identical regardless of the section you choose to add the goal from. 
-  </note> </li> 
- <li value="3">Start typing what you want to achieve in the <span class="bold">Goal</span> field. This is the name of the goal and a required field. </li> 
- <li value="4"> <p>Select a time period when the goal should be executed in the <span class="bold">Period</span> drop-down menu. This is a pre-filled field. The default is the current quarter. </p> <p>Select from the following predefined options:</p> 
-  <ul> 
-   <li>The current year</li> 
-   <li>The quarters of the current year</li> 
-   <li>The next two years</li> 
-   <li>The quarters of the next two years</li> 
-  </ul> <p>Or</p> <p>Click <span class="bold">Define custom dates</span> to select a custom time frame. </p> </li> 
- <li value="5"> <p>(Conditional) Select a <span class="bold">Start date</span> and an <span class="bold">End date</span> for your goal, if you clicked <span class="bold">Define custom dates</span>. </p> 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <ul> 
-    <li> <p>You can create a goal with dates in any time period, including up to 2 years in the past. </p> </li> 
-    <li>When defining custom dates, they are constrained by the initial date you selected. So if you select quarter and then custom dates, you can't go beyond that quarter.</li> 
-   </ul> 
-  </div> </li> 
- <li value="6"> <p>(Optional) Click <span class="bold">Reset custom dates</span> to return to the predefined options. </p> <note type="tip">
-   We recommend that everyone in your organization selects the same timeframes for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your over-arching strategy. 
-  </note> </li> 
- <li value="7">(Optional) Click your name in the <span class="bold">Owner</span> field, if you want to indicate someone else as the owner of the goal. By default, you are the owner of goals you create. </li> 
- <li value="8"> <p>Start typing the name of a user, team, group, or the name of your organization in the <span class="bold">Owner</span> field, then select it when it displays in the list. You can have only one owner for a goal. </p> </li> 
- <li value="9">(Optional) Enter a <span class="bold">Description</span> for the goal. This field is optional. </li> 
- <li value="10"> <p>Click <span class="bold">Save</span>.</p> <p>The status of the new goal is Draft. </p> <note type="important"> 
-   <p>You must associate a goal with a progress indicator to activate it and start working on it. </p> 
-   <p>Do at least one of the following to be able to activate a goal: </p> 
-   <ul> 
-    <li> <p>Add a Result</p> <p>For information about adding results, see <a href="../../workfront-goals/results-and-activities/add-results-to-goals.md" class="MCXref xref">Add results to goals in Adobe Workfront Goals</a>.</p> </li> 
-    <li> <p>Add an Activity</p> <p>For information about adding activities, see <a href="../../workfront-goals/results-and-activities/add-activities-to-goals.md" class="MCXref xref">Add activities to goals in&nbsp;Adobe Workfront Goals</a>. </p> </li> 
-    <li> <p>Align another goal to it</p> <p>For information about aligning goals, see <a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a>.</p> </li> 
-   </ul> 
-  </note> </li> 
- <li value="11">Click the <span class="bold">X</span> icon in the upper-right of the Goal Details panel to close it. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner.
+
+   ![](assets/main-menu-align-icon-highlighted-350x463.png)
+
+   The Goal List displays by default and you can view all the goals in the system. 
+
+1. (Conditional) Click Goal List, `Graphs`, Pulse,or Check-in in the left pane, then click  `Add Goal` in the upper-right corner of the page. The Add Goal box displays.
+
+   ![](assets/add-goal-box-350x235.png)
+
+   >[!TIP]
+   >
+   >You can add a goal from any section in Workfront Goals. The process for creating a goal is identical regardless of the section you choose to add the goal from.
+
+1. Start typing what you want to achieve in the `Goal` field. This is the name of the goal and a required field. 
+1. Select a time period when the goal should be executed in the `Period` drop-down menu. This is a pre-filled field. The default is the current quarter.
+
+   Select from the following predefined options:
+
+  * The current year
+  * The quarters of the current year
+  * The next two years
+  * The quarters of the next two years
+
+   Or
+
+   Click `Define custom dates` to select a custom time frame. 
+
+1. (Conditional) Select a `Start date` and an `End date` for your goal, if you clicked `Define custom dates`. 
+
+   ` `**Tips: **``
+
+  * You can create a goal with dates in any time period, including up to 2 years in the past. 
+  * When defining custom dates, they are constrained by the initial date you selected. So if you select quarter and then custom dates, you can't go beyond that quarter.
+
+1. (Optional) Click `Reset custom dates` to return to the predefined options.
+
+   >[!TIP]
+   >
+   >We recommend that everyone in your organization selects the same timeframes for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your over-arching strategy.
+
+1. (Optional) Click your name in the `Owner` field, if you want to indicate someone else as the owner of the goal. By default, you are the owner of goals you create. 
+1. Start typing the name of a user, team, group, or the name of your organization in the `Owner` field, then select it when it displays in the list. You can have only one owner for a goal. 
+1. (Optional) Enter a `Description` for the goal. This field is optional. 
+1. Click `Save`.
+
+   The status of the new goal is Draft.
+
+   >[!IMPORTANT]
+   >
+   >You must associate a goal with a progress indicator to activate it and start working on it. 
+   >
+   >
+   >Do at least one of the following to be able to activate a goal: 
+   >
+   >  
+   >  
+   >  * Add a Result
+   >  
+   >  
+   >    For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+   >  
+   >  * Add an Activity
+   >  
+   >  
+   >    For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
+   >  
+   >  * Align another goal to it
+   >  
+   >  
+   >    For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+   >  
+   >  
+   >
+
+1. Click the `X` icon in the upper-right of the Goal Details panel to close it.
 
 ### Copy an existing goal
 

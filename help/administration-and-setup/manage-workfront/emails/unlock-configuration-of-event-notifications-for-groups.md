@@ -50,11 +50,16 @@ You must have the following access to perform the steps in this article:
 >
 >When you re-lock a notification, all groups in the system inherit the notification exactly as you set it. This overrides any changes that group administrators might have made for their groups, so it’s a good idea to consult with them first.
 
-<ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Email</span> > <span class="bold">Notifications</span>.</li> 
- <li value="3"> Make sure the <span class="bold">Event Notifications</span> tab is open.</li> 
- <li value="4"> <p>Click the icon to the right of the notification to switch it to the unlocked <img src="assets/lock-toggle-button.png"> or locked <img src="assets/unlock-toggle-button.png"> position.</p> <p>Or</p> <p>If you want to unlock or lock multiple notifications all at once, select them, then click the Unlock <img src="assets/unlock-icon-toolbar.png"> or Lock <img src="assets/lock-icon-locked-qs.png"> button that displays in the toolbar above the list.</p> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> (Optional) If you want to configure the event notification for a top-level group instead of leaving this task to the group’s administrator, you can do one of the following: Delete System Event Notifications in the search box above the list of notifications, search for and select the name of the top-level group to list its notifications, then activate or inactivate the unlocked notifications in the list that displays. Click Groups in the left menu, then click the name of the top-level group. Click Event Notifications in the left panel, then configure the unlocked event notification, as explained in View and configure event notifications for a group. 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Email` > `Notifications`.
+
+1. Make sure the `Event Notifications` tab is open.
+1. Click the icon to the right of the notification to switch it to the unlocked ![](assets/lock-toggle-button.png) or locked ![](assets/unlock-toggle-button.png) position.
+
+   Or
+
+   If you want to unlock or lock multiple notifications all at once, select them, then click the Unlock ![](assets/unlock-icon-toolbar.png) or Lock ![](assets/lock-icon-locked-qs.png) button that displays in the toolbar above the list.
+
+1. Click `Save`.
 

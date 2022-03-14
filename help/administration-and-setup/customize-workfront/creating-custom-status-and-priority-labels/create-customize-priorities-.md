@@ -71,47 +71,44 @@ The priorities provided by default for each object type (project, task, and issu
 
 In addition to the default priorities provided in&nbsp;Workfront, you can add your own priorities to reflect the needs of your organization.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="2">In the left panel, click <span class="bold">Project Preferences</span> > <span class="bold">Priorities</span>.</li> 
- <li value="3"> <p>Click the tab for the object type you want to create a priority for (<span class="bold">Project</span>, <span class="bold">Task</span>, or <span class="bold">Issue</span>).</p> </li> 
- <li value="4">Click <span class="bold">Add a New Priority</span>.</li> 
- <li value="5"> <p>Specify&nbsp;the following information for the new priority:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Priority Name</td> 
-     <td>Type a name for your priority.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Importance</td> 
-     <td> <p>When adding a new priority, a number is assigned to it&nbsp;by default. Edit this number, if it does not match your needs.</p> <p>The <span class="bold">Importance</span> number for each priority must be unique for the object you selected.<br>The number of the priority&nbsp;reflects the importance&nbsp;of the project, task or issue: the highest number corresponds to the highest priority.</p> <note type="note">
-       &nbsp;You cannot edit the Importance number, after you save the priority.&nbsp;
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Color</td> 
-     <td> <p>Choose a color for your priority.</p> <p>The color of the priority is used in chart reports and Agile Team Settings.&nbsp;For more information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> <p>For more information on Agile Team Settings, see in&nbsp;.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Default Priority</td> 
-     <td> <p>Decide whether this should be a default priority&nbsp;or not, by selecting the radio button.</p> <p>If a priority is designated as the <span class="bold">Default Priority</span>, it is automatically picked&nbsp;for all the projects, tasks, or issues in Workfront. <span class="bold">Normal</span> is the default priority for all objects in Workfront.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Add a description for your priority&nbsp;to explain its function.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Hide</td> 
-     <td> <p>Select this box if you want to hide&nbsp;the priority.<br>When you select&nbsp;the <span class="bold">Hide</span> option, the priority does not display anywhere in Workfront and users are not able to choose it for their projects, tasks, and issues.</p> <note type="important">
-       &nbsp;We recommend that you hide the priorities that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this priority, while preventing people from choosing this priority&nbsp;in the future.&nbsp;
-      </note>(Optional) You can change the listing order of your priorities by&nbsp;dragging and dropping them in your desired order. This changes the order in which they display&nbsp;for projects, tasks, and issues. This does not change the <span class="bold">Importance</span> number.&nbsp;</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. In the left panel, click `Project Preferences` > `Priorities`.
+
+1. Click the tab for the object type you want to create a priority for ( `Project`, `Task`, or `Issue`).
+1. Click `Add a New Priority`.
+1. Specify&nbsp;the following information for the new priority:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Priority Name</td> 
+      <td>Type a name for your priority.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Importance</td> 
+      <td> <p>When adding a new priority, a number is assigned to it&nbsp;by default. Edit this number, if it does not match your needs.</p> <p>The <span class="bold">Importance</span> number for each priority must be unique for the object you selected.<br>The number of the priority&nbsp;reflects the importance&nbsp;of the project, task or issue: the highest number corresponds to the highest priority.</p> <p>Note: &nbsp;You cannot edit the Importance number, after you save the priority.&nbsp;</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Color</td> 
+      <td> <p>Choose a color for your priority.</p> <p>The color of the priority is used in chart reports and Agile Team Settings.&nbsp;For more information on chart reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a>.</p> <p>For more information on Agile Team Settings, see in&nbsp;.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Default Priority</td> 
+      <td> <p>Decide whether this should be a default priority&nbsp;or not, by selecting the radio button.</p> <p>If a priority is designated as the <span class="bold">Default Priority</span>, it is automatically picked&nbsp;for all the projects, tasks, or issues in Workfront. <span class="bold">Normal</span> is the default priority for all objects in Workfront.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Add a description for your priority&nbsp;to explain its function.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Hide</td> 
+      <td> <p>Select this box if you want to hide&nbsp;the priority.<br>When you select&nbsp;the <span class="bold">Hide</span> option, the priority does not display anywhere in Workfront and users are not able to choose it for their projects, tasks, and issues.</p> <p>Important: &nbsp;We recommend that you hide the priorities that you no longer want to use, rather than deleting them.&nbsp;By hiding them, you still keep all your historic data, of objects that have been completed with this priority, while preventing people from choosing this priority&nbsp;in the future.&nbsp;</p>(Optional) You can change the listing order of your priorities by&nbsp;dragging and dropping them in your desired order. This changes the order in which they display&nbsp;for projects, tasks, and issues. This does not change the <span class="bold">Importance</span> number.&nbsp;</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 1. Click `Save`.
 

@@ -18,23 +18,29 @@ The project Condition is a visual representation of how the project is progressi
 
 Consider the following in understanding the Condition of a project:
 
-<ul> 
- <li>As the project owner, you can decide whether the Condition of a project is set manually or automatically. The Condition of a project can be set in the following ways: 
-  <ul> 
-   <li><p>Manually, by users who have access to Manage the project and when the Condition Type of the project is set to Manual.</p></li> 
-   <li><p>Automatically, by Adobe Workfront, when the Condition Type of the project is set to Progress Status. The Progress Status of the project is determined by the progress of the tasks on the project. For information about the Progress Status of the project, see <a href="../../../manage-work/projects/planning-a-project/project-progress-status.md" class="MCXref xref">Project Progress Status overview</a>.</p></li> 
-  </ul><p>For information about how to update the Condition Type of the project, see <a href="../../../manage-work/projects/manage-projects/set-condition-type-for-project.md" class="MCXref xref">Set the Condition Type of a project</a>.</p></li> 
- <li> <p>When allowing Workfront to estimate the Condition of the project automatically, we recommend that you use predecessors on your tasks so that the task progress reflects in the actual progress and the Progress Status of the project.</p> </li> 
- <li> <p>As a project owner, you can change the project to use a Manual Condition Type instead of using the Progress Status by changing the Condition Type from Progress Status to Manual.</p> <note type="note">  
-   <p>Projects that are in any of the following statuses are always marked as On Target, no matter what the dates of the tasks and their progress are:<br></p> 
-   <ul> 
-    <li>Idea</li> 
-    <li>Requested</li> 
-    <li>Approved</li> 
-    <li>Rejected </li> 
-   </ul> 
-  </note> </li> 
-</ul>
+* As the project owner, you can decide whether the Condition of a project is set manually or automatically. The Condition of a project can be set in the following ways:
+
+  * Manually, by users who have access to Manage the project and when the Condition Type of the project is set to Manual.
+  * Automatically, by Adobe Workfront, when the Condition Type of the project is set to Progress Status. The Progress Status of the project is determined by the progress of the tasks on the project. For information about the Progress Status of the project, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+
+  For information about how to update the Condition Type of the project, see [Set the Condition Type of a project](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
+
+* When allowing Workfront to estimate the Condition of the project automatically, we recommend that you use predecessors on your tasks so that the task progress reflects in the actual progress and the Progress Status of the project.
+* As a project owner, you can change the project to use a Manual Condition Type instead of using the Progress Status by changing the Condition Type from Progress Status to Manual.
+
+  >[!NOTE]
+  >
+  >Projects that are in any of the following statuses are always marked as On Target, no matter what the dates of the tasks and their progress are:  
+
+  >
+  >  
+  >  
+  >  * Idea
+  >  * Requested
+  >  * Approved
+  >  * Rejected 
+  >  
+  >
 
 <!--
 Set the Condition Type for a project Go to the project for which you want to update the Condition Type. Click the More menu to the right of the project name, then click Edit. In the Condition Type field, choose one of the following: Manual: The project owner sets the Condition on the project manually. In this case, the project owner can update the Condition of the project in the project header, or the Project Details section. Progress Status: Workfront sets the Condition based on the Progress Status of the project. Click Save Changes.

@@ -56,20 +56,27 @@ In order to have home page landing preferences honored when implementing a Feder
 
 ## Configure Workfront with SAML 1.1
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">System</span> > <span class="bold">Single Sign-On (SSO)</span>.</li> 
- <li value="3"> <p>In the <span class="bold">Type</span> drop-down list, select <span class="bold">SAML 1.1</span>.</p> </li> 
- <li value="4"> <p>Specify the following information:</p> 
-  <ul> 
-   <li><span class="bold">Issuer</span>: Specify the domain provider obtained from your SAML service provider. It is possible to provide the port instead, for example: <span class="bold">example.company.com:80</span><br></li> 
-   <li><span class="bold">Login Portal URL</span>: Specify the login URL used to log in to all your SSO-enabled applications, including Workfront.<br></li> 
-   <li><span class="bold">Sign-out URL</span>: Specify the URL displayed after users log out of Workfront.<br></li> 
-   <li><span class="bold">Change password URL</span>: Specify the URL where users will be directed if they need to change their password. <br>Since users maintain one password across multiple platforms when integrated with SAML 1.1, it is important that they are directed to a central location to change their password rather than being allowed to change their password in Workfront.<br></li> 
-   <li><span class="bold">Certificate</span>: Upload a valid certificate for authentication of a secure connection. OnDemand clients are required to do this. The certificate is obtained from your SAML 1.1 system administrator.<br></li> 
-   <li><span class="bold">Admin Exemption</span>: When this box is checked, Workfront will attempt to first login through SAML for users with System Administrator Access Level. If authentication fails, Workfront will use local authentication for administrators. We recommend that you always have this option selected, to provide your Workfront administrator a way for logging into Workfront in the event that your SAML 1.1 provider is temporarily unavailable.<br></li> 
-   <li><span class="bold">Enable</span>: Select this option to enable the integration with SAML 1.1. If it is not selected, SAML 1.1 will not be activated. </li> 
-  </ul> </li> 
- <li value="5">Click <span class="bold">Save</span>. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Single Sign-On (SSO)`.
+
+1. In the `Type` drop-down list, select `SAML 1.1`.
+1. Specify the following information:
+
+  * `Issuer`: Specify the domain provider obtained from your SAML service provider. It is possible to provide the port instead, for example: `example.company.com:80`  
+  
+  * `Login Portal URL`: Specify the login URL used to log in to all your SSO-enabled applications, including Workfront.  
+  
+  * `Sign-out URL`: Specify the URL displayed after users log out of Workfront.  
+  
+  * `Change password URL`: Specify the URL where users will be directed if they need to change their password.   
+    Since users maintain one password across multiple platforms when integrated with SAML 1.1, it is important that they are directed to a central location to change their password rather than being allowed to change their password in Workfront.  
+  
+  * `Certificate`: Upload a valid certificate for authentication of a secure connection. OnDemand clients are required to do this. The certificate is obtained from your SAML 1.1 system administrator.  
+  
+  * `Admin Exemption`: When this box is checked, Workfront will attempt to first login through SAML for users with System Administrator Access Level. If authentication fails, Workfront will use local authentication for administrators. We recommend that you always have this option selected, to provide your Workfront administrator a way for logging into Workfront in the event that your SAML 1.1 provider is temporarily unavailable.  
+  
+  * `Enable`: Select this option to enable the integration with SAML 1.1. If it is not selected, SAML 1.1 will not be activated.
+
+1. Click `Save`.
 

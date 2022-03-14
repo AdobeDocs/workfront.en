@@ -72,14 +72,15 @@ By default, an organization owner (or authorized user) can invite another person
 
 To invite a user to join an organization:
 
-<ol> 
- <li value="1">Click <span class="bold">Change details</span> in the upper-right corner of the screen.</li> 
- <li value="2"> <p>Select <span class="bold">Invite a new user</span>.</p> <p> <img src="assets/fusion-organization-invite-user-350x199.png" style="width: 350;height: 199;"> </p> </li> 
- <li value="3">Fill in the user's email address and name. </li> 
- <li value="4">Select a role for the user. For more information on roles, see <a href="#organiza" class="MCXref xref">Organization roles</a> in this document.</li> 
- <li value="5">(Optional) Add a note. This note appears in the invitation email that the user receives.</li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click `Change details` in the upper-right corner of the screen.
+1. Select `Invite a new user`.
+
+   ![](assets/fusion-organization-invite-user-350x199.png)
+
+1. Fill in the user's email address and name. 
+1. Select a role for the user. For more information on roles, see [Organization roles](#organiza) in this document.
+1. (Optional) Add a note. This note appears in the invitation email that the user receives.
+1. Click `Save`.
 
 Fusion sends an email with an invitation to the specific organization and an Accept The Role button.
 
@@ -146,29 +147,30 @@ To create a team:
 
 Email notification options are set on the team level.
 
-<ol> 
- <li value="1"> <p>In the left navigation panel, click Team </p> </li> 
- <li value="2"> <p>Select the Notification Options tab.</p> </li> 
- <li value="3"> <p>Enable the notifications that you want the team to receive.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Warning in scenario run</td> 
-     <td> <p>Receive an email when there is a warning in a scenario run</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Errors in scenario run</td> 
-     <td>Receive an email when there is an error in a scenario run.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Scenario deactivation</p> </td> 
-     <td>Receive an email when a scenario deactivates.</td> 
-    </tr> 
-   </tbody> 
-  </table> <p>Changes to notification options save automatically</p> </li> 
-</ol>
+1. In the left navigation panel, click Team 
+1. Select the Notification Options tab.
+1. Enable the notifications that you want the team to receive.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Warning in scenario run</td> 
+      <td> <p>Receive an email when there is a warning in a scenario run</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Errors in scenario run</td> 
+      <td>Receive an email when there is an error in a scenario run.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Scenario deactivation</p> </td> 
+      <td>Receive an email when a scenario deactivates.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   Changes to notification options save automatically
 
 <!--
 

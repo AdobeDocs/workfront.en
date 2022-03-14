@@ -41,16 +41,21 @@ You must have the following to perform the steps in this article:
 
 ## Customize the landing page
 
-<ol> 
- <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
- <li value="2"> <p>In the <span class="bold">Top Navigation area</span>, click <span class="bold">Select landing page</span>, then select the area you want users to see when they log in.</p> <note type="important"> 
-   <div> 
-    <p>To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en">Adobe Workfront Goals overview</a> or for information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>.</p> 
-   </div> 
-  </note> </li> 
- <li value="3"> <p>Continue customizing the layout template.</p> <p>Or</p> <p>If you are finished customizing, click <span class="bold">Save</span>.</p> <note type="tip">
-   You can 
-   <span class="bold">Save</span> your progress at any time, then continue to modify the template later.
-  </note> </li> 
-</ol>
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. In the `Top Navigation area`, click `Select landing page`, then select the area you want users to see when they log in.
+
+   >[!IMPORTANT]
+   >
+   >
+   >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+
+1. Continue customizing the layout template.
+
+   Or
+
+   If you are finished customizing, click `Save`.
+
+   >[!TIP]
+   >
+   >You can `Save` your progress at any time, then continue to modify the template later.
 

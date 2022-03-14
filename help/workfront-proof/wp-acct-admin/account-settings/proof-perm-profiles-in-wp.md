@@ -342,16 +342,23 @@ The Guest profile is used to give access to proofs for reviewers who do not have
 
 Administrators and Billing Administrators can edit the permission profiles of all users in the account.&nbsp;
 
-<ol> 
- <li value="1">To find the user to edit, do one of the following:&nbsp; 
-  <ul>
-   <li>Navigate to&nbsp;<span class="bold">Account Settings,&nbsp;</span>then click the&nbsp;<span class="bold">Users&nbsp;</span>tab.</li>
-   <li>Go to the&nbsp;<span class="bold">Contacts&nbsp;</span>page.</li>
-  </ul></li> 
- <li value="2">Click the user's name whose permissions you want to edit.<span class="bold"><br></span><img src="assets/screenshot-2018-03-30-14-16-05a-350x69.png" style="width: 350;height: 69;"></li> 
- <li value="3"> <p>Click the&nbsp;<span class="bold">Permissions profile&nbsp;</span>drop-down menu and select a new permission profile. :</p> <p> <img src="assets/screenshot-2018-03-30-14-18-03a.png" alt="Screenshot_2018-03-30_14-18-03.png"> </p> <p>Permission profiles are&nbsp;Administrator, Supervisor, Manager,&nbsp;and Observer.&nbsp;<span class="bold"><br></span></p> </li> 
- <li value="4">Click anywhere outside of the menu to save.&nbsp;</li> 
-</ol>
+1. To find the user to edit, do one of the following:&nbsp;
+
+  * Navigate to  `Account Settings,`then click the  `Users`tab.
+  
+  * Go to the  `Contacts`page.
+
+1. Click the user's name whose permissions you want to edit. `  
+   ` ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+
+1. Click the  `Permissions profile`drop-down menu and select a new permission profile. :
+
+   ![Screenshot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+
+   Permission profiles are&nbsp;Administrator, Supervisor, Manager,&nbsp;and Observer.&nbsp; `  
+   `
+
+1. Click anywhere outside of the menu to save.&nbsp;
 
 >[!NOTE]
 >

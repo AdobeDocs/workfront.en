@@ -38,25 +38,34 @@ You must have the following access to perform the steps in this article:
 
 ## Configure default proofing roles
 
-<ol> 
- <li value="1"><![CDATA[
-]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> In the left panel, click Proofs > Proof roles. 
- <li value="3">Click <span class="bold">Review and Approval</span> near the bottom of the list that appears on the left. </li> 
- <li value="4"> <p>In the <span class="bold">Roles for designated recipients of a document proof</span> section, select the default role for users and guest users who are added to a proof's workflow.</p> <p>See <a href="#rights" class="MCXref xref">Rights associated with proofing roles</a> below for a list of each proofing role and the rights associated with it.</p> <note type="note">  
-   <ul> 
-    <li>This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.</li> 
-    <li>The person adding users to the proof can adjust this role, as described in <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add" class="MCXref xref">Add users to a proof</a> in <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md" class="MCXref xref">Share a proof within Adobe Workfront</a>.</li> 
-   </ul> 
-  </note> </li> 
- <li value="5"> <p>In the <span class="bold">Roles for non-recipients that open a document proof</span> section, select the default role for users and guest users who can access a proof, but are not added to the proof's workflow.</p> <p>This situation occurs when users and guests have access to a document for which a proof has been created: even if they have not been added to the proof's workflow, they can open the proof.</p> 
-  <div class="examples" data-mc-autonum="<b>Examples: </b>"> <span class="autonumber"><span><b>Examples: </b></span></span>Here are examples of how you could use this setting: 
-   <ul> 
-    <li>You select <span class="bold">Read only</span> to limit all proof activity such as adding comments and making decisions to those who have been asked to do it.</li> 
-    <li>You select <span class="bold">Reviewer</span> because you want any member of the team to be able to add markups and comments on a proof.</li> 
-   </ul> 
-  </div> </li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. <![CDATA[]]>Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Review and Approval` near the bottom of the list that appears on the left. 
+1. In the `Roles for designated recipients of a document proof` section, select the default role for users and guest users who are added to a proof's workflow.
+
+   See [Rights associated with proofing roles](#rights) below for a list of each proofing role and the rights associated with it.
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.
+   >  * The person adding users to the proof can adjust this role, as described in [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   >  
+   >  
+   >
+
+1. In the `Roles for non-recipients that open a document proof` section, select the default role for users and guest users who can access a proof, but are not added to the proof's workflow.
+
+   This situation occurs when users and guests have access to a document for which a proof has been created: even if they have not been added to the proof's workflow, they can open the proof.
+
+   ` `**Examples: **``Here are examples of how you could use this setting:
+
+  * You select `Read only` to limit all proof activity such as adding comments and making decisions to those who have been asked to do it.
+  * You select `Reviewer` because you want any member of the team to be able to add markups and comments on a proof.
+
+1. Click `Save`.
 
 ## Rights associated with proofing roles
 

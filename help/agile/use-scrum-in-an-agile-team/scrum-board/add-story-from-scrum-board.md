@@ -45,45 +45,26 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new story or issue from the Scrum board
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Teams</span>.</p> </li> 
- <li value="2"> <p>(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</p> </li> 
- <li value="3"> <p>In the left panel, select <span class="bold">Iterations</span> to choose a specific iteration, or select <span class="bold">Current Iteration</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Add</span> on the right side of the Scrum board and select <span class="bold">New Story</span> or <span class="bold">New Issue</span>.</p> </li> 
- <li value="5"> <p>In the <span class="bold">New</span> dialog box, add the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Name</span> </td> 
-     <td>(Required) The name of the story or issue.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Description</span> </td> 
-     <td>A description of the item.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Estimate</span> </td> 
-     <td>The estimated number of hours or points for the item.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Parent Project</span> </td> 
-     <td>(Required) The project where the new story or issue is stored. Start typing the name of a project, then select it when it displays in the list.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6">Click <span class="bold">Add Story</span> or <span class="bold">Add Issue</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Teams`.
+1. (Optional) Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. In the left panel, select `Iterations` to choose a specific iteration, or select `Current Iteration`.
+1. Click `Add` on the right side of the Scrum board and select `New Story` or `New Issue`.
+1. In the `New` dialog box, add the following information:
+
+   | `Name`  |(Required) The name of the story or issue. |
+   |---|---|
+   | `Description`  |A description of the item. |
+   | `Estimate`  |The estimated number of hours or points for the item. |
+   | `Parent Project`  |(Required) The project where the new story or issue is stored. Start typing the name of a project, then select it when it displays in the list. |
+
+1. Click `Add Story` or `Add Issue`.
 
 ## Add an existing story or issue from the Scrum board
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Teams</span>.</p> </li> 
- <li value="2"> <p>(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Scrum team from the drop-down menu or search for a team in the search bar.</p> </li> 
- <li value="3"> <p>In the left panel, select <span class="bold">Iterations</span> to choose a specific iteration, or select <span class="bold">Current Iteration</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Add</span> on the right side of the Scrum board and select <span class="bold">Existing Story</span> or <span class="bold">Existing Issue</span>.</p> </li> 
- <li value="5"> <p>In the <span class="bold">Add Existing from Backlog</span> dialog box, start typing the name of a story or issue, then select it when it displays in the list.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Add Story</span> or <span class="bold">Add Issue</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Teams`.
+1. (Optional) Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. In the left panel, select `Iterations` to choose a specific iteration, or select `Current Iteration`.
+1. Click `Add` on the right side of the Scrum board and select `Existing Story` or `Existing Issue`.
+1. In the `Add Existing from Backlog` dialog box, start typing the name of a story or issue, then select it when it displays in the list.
+1. Click `Add Story` or `Add Issue`.
 

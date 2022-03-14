@@ -52,33 +52,36 @@ You must have the following access to perform the steps in this article::
 You can configure issues to be displayed in addition to tasks on the scheduling timeline.   
 When scheduling resources in the Scheduling section for a team, issues are displayed by default in addition to tasks. When scheduling resources for projects, only tasks are displayed by default.
 
-<ol> 
- <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
-  <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
-   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-  </ul></li> 
- <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
- <li value="3">On the Resource Scheduling Settings dialog box, enable the&nbsp;<span class="bold">Show&nbsp;Issues</span>&nbsp;option.<br><img src="assets/rs-scheduling-tab-all-settings--1--350x417.png" alt="RS_scheduling_tab_all_settings__1_.png" style="width: 350;height: 417;"></li> 
- <li value="4">Click <span class="bold">Return to Scheduling</span>.&nbsp;</li> 
-</ol>
+1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
+
+  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
+  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+
+1. Click the `Settings` icon on the scheduling timeline.  
+
+1. On the Resource Scheduling Settings dialog box, enable the  `Show Issues`&nbsp;option.  
+   ![RS_scheduling_tab_all_settings__1_.png](assets/rs-scheduling-tab-all-settings--1--350x417.png)
+
+1. Click `Return to Scheduling`.&nbsp;
 
 ## Configure completed work to display on the scheduling timeline
 
 You can configure the scheduling timeline to display work that has already been marked as Complete. By default, completed work is not displayed on the scheduling timeline.&nbsp;
 
-<ol> 
- <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
-  <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
-   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-  </ul></li> 
- <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
- <li value="3">On the Resource Scheduling Settings dialog box, enable the <span class="bold">Show Completed Work</span>&nbsp;option.<br><img src="assets/rss-show-completed-work-disabled--1--350x336.png" alt="RSS_show_completed_work_disabled__1_.png" style="width: 350;height: 336;"></li> 
- <li value="4">Click <span class="bold">Return to Scheduling</span>.<br>Completed work is displayed with a checkmark in the upper-right corner of the work item.<br></li> 
-</ol>
+1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
+
+  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
+  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+
+1. Click the `Settings` icon on the scheduling timeline.  
+
+1. On the Resource Scheduling Settings dialog box, enable the `Show Completed Work`&nbsp;option.  
+   ![RSS_show_completed_work_disabled__1_.png](assets/rss-show-completed-work-disabled--1--350x336.png)
+
+1. Click `Return to Scheduling`.  
+   Completed work is displayed with a checkmark in the upper-right corner of the work item.
 
 ## Configure Project Names to display on the scheduling timeline&nbsp;
 
@@ -90,16 +93,19 @@ By default, project names are not displayed on tasks and issues on the schedulin
 
 To display project names on tasks and issues on the scheduling timeline:
 
-<ol> 
- <li value="1"> <p>Go to the scheduling timeline for multiple projects or for a team: </p> 
-  <ul> 
-   <li> <p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p> </li> 
-   <li> <p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p> </li> 
-  </ul> <p> <br> </p> </li> 
- <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
- <li value="3">On the Resource Scheduling Settings dialog box, enable the option,&nbsp;<span class="bold">Show Project Names</span>.<br><img src="assets/rs-scheduling-tab-all-settings--2--350x348.png" alt="RS_scheduling_tab_all_settings__2_.png" style="width: 350;height: 348;"></li> 
- <li value="4">Click <span class="bold">Return to Scheduling</span>.<br>Each task and issue on the scheduling timeline displays the name of the project where the task or issue resides.<br><img src="assets/resourcescheduling-projectnames-350x200.png" alt="resourcescheduling_projectnames.png" style="width: 350;height: 200;"></li> 
-</ol>
+1. Go to the scheduling timeline for multiple projects or for a team:
+
+  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
+  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+
+1. Click the `Settings` icon on the scheduling timeline.  
+
+1. On the Resource Scheduling Settings dialog box, enable the option,  `Show Project Names`.  
+   ![RS_scheduling_tab_all_settings__2_.png](assets/rs-scheduling-tab-all-settings--2--350x348.png)
+
+1. Click `Return to Scheduling`.  
+   Each task and issue on the scheduling timeline displays the name of the project where the task or issue resides.  
+   ![resourcescheduling_projectnames.png](assets/resourcescheduling-projectnames-350x200.png)
 
 ## Configure Projected Dates to display on the scheduling timeline
 
@@ -138,12 +144,15 @@ To configure the scheduling timeline to display tasks and issues according to Pr
 
 When scheduling resources for a team, you can configure users to be displayed on the&nbsp;scheduling timeline either alphabetically or by role. By default, users are displayed alphabetically (roles are not displayed).
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Workfront, then click Teams. A team is selected by default.</li> 
- <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
- <li value="3">On the Settings dialog box,&nbsp;select&nbsp;whether to enable the <span class="bold">Group by Role</span> option. <br>When this option is disabled, users are displayed in alphabetical order, and roles are not shown on the scheduling timeline.<br>When this option is enabled, roles are displayed on the scheduling timeline, and users are grouped within their respective role. If a given user has multiple roles defined in the system, that user appears multiple times on the scheduling timeline, beneath each appropriate role.<br><img src="assets/rs-working-on-team-scheduling-full-settings--1--350x348.png" alt="RS_working_on_team_scheduling_full_settings__1_.png" style="width: 350;height: 348;"></li> 
- <li value="4">Click <span class="bold">Return to Scheduling</span>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, then click Teams. A team is selected by default.
+1. Click the `Settings` icon on the scheduling timeline.  
+
+1. On the Settings dialog box, select whether to enable the `Group by Role` option.   
+   When this option is disabled, users are displayed in alphabetical order, and roles are not shown on the scheduling timeline.  
+   When this option is enabled, roles are displayed on the scheduling timeline, and users are grouped within their respective role. If a given user has multiple roles defined in the system, that user appears multiple times on the scheduling timeline, beneath each appropriate role.  
+   ![RS_working_on_team_scheduling_full_settings__1_.png](assets/rs-working-on-team-scheduling-full-settings--1--350x348.png)
+
+1. Click `Return to Scheduling`.
 
 ## Configure whether parent tasks are displayed on the scheduling timeline
 
@@ -179,12 +188,14 @@ You can manually configure the Show Parent Tasks setting in the Scheduling secti
 
 To configure the Show Parent Tasks setting:&nbsp;
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. </p> </li> 
- <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
- <li value="3">In the Resource Scheduling Settings dialog box, select whether to enable the option,&nbsp;<span class="bold">Show Parent Tasks.&nbsp;</span><br>When this option is enabled, parent tasks from all projects are displayed according to the Summary Completion Mode and the Completion Mode settings of the projects, as outlined in the above table. This option is enabled by default.<br><img src="assets/rs-scheduling-tab-all-settings--3--350x348.png" alt="RS_scheduling_tab_all_settings__3_.png" style="width: 350;height: 348;"></li> 
- <li value="4">Click <span class="bold">Return to Scheduling</span> in the lower-left corner.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. 
+1. Click the `Settings` icon on the scheduling timeline.  
+
+1. In the Resource Scheduling Settings dialog box, select whether to enable the option,  `Show Parent Tasks.`  
+   When this option is enabled, parent tasks from all projects are displayed according to the Summary Completion Mode and the Completion Mode settings of the projects, as outlined in the above table. This option is enabled by default.  
+   ![RS_scheduling_tab_all_settings__3_.png](assets/rs-scheduling-tab-all-settings--3--350x348.png)
+
+1. Click `Return to Scheduling` in the lower-left corner.
 
 ### Display parent tasks for a project or a team
 
@@ -212,21 +223,25 @@ The following table outlines when the Parent Tasks display in the Staffing secti
 
 To configure the scheduling timeline to display the daily totals for the Planned Hours for every user:&nbsp;
 
-<ol> 
- <li value="1">Go to the scheduling timeline for multiple projects, for an individual project, or for a team: 
-  <ul> 
-   <li><p><b>For multiple projects</b>:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.</p></li> 
-   <li><p><b>For an individual project</b>: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-   <li><p><b>For a team</b>: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.</p></li> 
-  </ul></li> 
- <li value="2">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
- <li value="3">In the Settings dialog box, enable the following options: 
-  <ul> 
-   <li>&nbsp;<span class="bold">Show Totals for Daily Planned Hours</span>: Shows the total of the daily Planned Hours for each user.</li> 
-   <li><span class="bold">Show Resource Allocation Highlighting</span>: Highlights the allocation of the user for tasks and issues, as well as highlights the days when the users are overallocated.<br>These options are disabled by default.<br><img src="assets/rs-all-settings--1--350x358.png" alt="RS_all_settings__1_.png" style="width: 350;height: 358;"></li> 
-  </ul></li> 
- <li value="4">Click <span class="bold">Return to Scheduling</span>.<br>The total of Planned Hours allocated to the user display for each day.<br>The Planned Hours for the days when the user is overallocated are highlighted in red.<br>For more information about user allocations, see the article <a href="../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md" class="MCXref xref">Manually assign unassigned tasks and issues in the Scheduling areas</a>.<br></li> 
-</ol>
+1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
+
+  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
+  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+
+1. Click the `Settings` icon on the scheduling timeline.  
+
+1. In the Settings dialog box, enable the following options:
+
+  * `Show Totals for Daily Planned Hours`: Shows the total of the daily Planned Hours for each user.
+  * `Show Resource Allocation Highlighting`: Highlights the allocation of the user for tasks and issues, as well as highlights the days when the users are overallocated.  
+    These options are disabled by default.  
+    ![RS_all_settings__1_.png](assets/rs-all-settings--1--350x358.png)
+
+1. Click `Return to Scheduling`.  
+   The total of Planned Hours allocated to the user display for each day.  
+   The Planned Hours for the days when the user is overallocated are highlighted in red.  
+   For more information about user allocations, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
 ## Configure whether all&nbsp;user tasks are displayed on the scheduling timeline
 
@@ -236,14 +251,15 @@ To configure the scheduling timeline to display the daily totals for the Planned
 
 To configure whether all tasks assigned to each user (not just the tasks associated with the project you are viewing) are displayed on the scheduling timeline:
 
-<ol> 
- <li value="1">Go to the project where you want to configure the scheduling timeline to display all tasks assigned to each user.</li> 
- <li value="2"> 
-  <div> 
-   <p> Click the Workload Balancer section in the left panel (it might be located under Show More), then select Scheduling from the upper-left drop-down menu. </p> 
-  </div> </li> 
- <li value="3">Click the <span class="bold">Settings</span> icon on the scheduling timeline.<br></li> 
- <li value="4">In the Settings area, select whether to enable the option,&nbsp;<span class="bold">Show All User Tasks</span>.<br>When this option is enabled, all tasks assigned to each user are displayed on the scheduling timeline, regardless of the project where the tasks are located.<br>This option is disabled by default. <br><img src="assets/rs-project-scheduling-area--1--350x340.png" alt="RS_project_scheduling_area__1_.png" style="width: 350;height: 340;"></li> 
- <li value="5">Click <span class="bold">Return to Scheduling</span>.</li> 
-</ol>
+1. Go to the project where you want to configure the scheduling timeline to display all tasks assigned to each user.
+1. 
+   Click the Workload Balancer section in the left panel (it might be located under Show More), then select Scheduling from the upper-left drop-down menu. 
+1. Click the `Settings` icon on the scheduling timeline.  
+
+1. In the Settings area, select whether to enable the option,  `Show All User Tasks`.  
+   When this option is enabled, all tasks assigned to each user are displayed on the scheduling timeline, regardless of the project where the tasks are located.  
+   This option is disabled by default.   
+   ![RS_project_scheduling_area__1_.png](assets/rs-project-scheduling-area--1--350x340.png)
+
+1. Click `Return to Scheduling`.
 

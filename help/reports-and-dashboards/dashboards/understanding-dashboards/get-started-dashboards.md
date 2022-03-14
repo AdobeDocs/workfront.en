@@ -91,19 +91,22 @@ You can display a dashboard in the following ways:
 
 ## Access a dashboard
 
-<ol> 
- <li value="1"> Click the Main Menu , then click Dashboards. </li> 
- <li value="2"> <p> Hover over the left sidebar, then select any of the following:</p> 
-  <ul> 
-   <li> <p><span class="bold">My Dashboards</span>: Dashboards you have built are listed here.</p> <note type="tip">
-     If you don't have Edit access to&nbsp;Reports,&nbsp;Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
-    </note> </li> 
-   <li><span class="bold">Shared Dashboards</span>: Dashboards that are created by other users and shared with you are listed here.</li> 
-   <li><span class="bold">All Dashboards</span>: Both your and other users' dashboards that are shared with you are listed here.</li> 
-  </ul>  </li> 
- <li value="3">Click the name of a dashboard to display it.<br>The dashboard displays the information included in the reports, calendars, or external pages that populate it.</li> 
- <li value="4">(Optional and conditional) Click the <span class="bold">Reload</span> icon in the upper right of the dashboard to refresh the information on the dashboard.<br>The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.<br></li> 
-</ol>
+1. Click the Main Menu , then click Dashboards. 
+1. Hover over the left sidebar, then select any of the following:
+
+  * `My Dashboards`: Dashboards you have built are listed here.
+
+    >[!TIP]
+    >
+    >If you don't have Edit access to&nbsp;Reports,&nbsp;Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
+
+  * `Shared Dashboards`: Dashboards that are created by other users and shared with you are listed here.
+  * `All Dashboards`: Both your and other users' dashboards that are shared with you are listed here.
+
+1. Click the name of a dashboard to display it.  
+   The dashboard displays the information included in the reports, calendars, or external pages that populate it.
+1. (Optional and conditional) Click the `Reload` icon in the upper right of the dashboard to refresh the information on the dashboard.  
+   The information on the dashboard is synchronized in real time when you first access it. If you have displayed the dashboard for a while in your browser, the information inside the reports on the dashboard could become outdated. The date and time when the dashboard was last refreshed is listed to the left of this icon.
 
 ## Delete dashboards
 

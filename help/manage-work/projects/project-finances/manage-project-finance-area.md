@@ -48,75 +48,75 @@ Consider the following when viewing or editing information in the Finance area:
 
 ## View Finance information on a project
 
-<ol> 
- <li value="1">Go to a project.</li> 
- <li value="2"> Click Project Details in the left panel. </li> 
- <li value="3"> Click the Edit icon in the upper-right corner of the Details section, then click Finance. <p>  </p> Note: Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see Customize the Details view using a layout template. </li> 
- <li value="4"> <p>View the following fields in the Finance areaof the project:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Performance Index Method</td> 
-     <td> Controls the method Workfront uses to calculate Earned Value metrics. It can be hours-based, or cost-based. <br>For more information about the PIM, see the article <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">CPI/SPI/CSI</td> 
-     <td> <p>These are project performance metrics that show how your project is performing, at a given time. Their values are calculated based on the Performance Index Method.<br>For more information see the following articles: </p> 
-      <ul> 
-       <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a> </p> </li> 
-       <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calculate Schedule Performance Index (SPI) </a> </p> </li> 
-       <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calculate Cost Schedule Performance Index (CSI)</a> </p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Estimate at Completion</td> 
-     <td> Projected total cost of your project, represented in hours if the Performance Index Method (PIM) is hours-based, and it is represented in a currency value, if the Performance Index Method (PIM) is cost-based.<br>For more information about calculating the Estimate at Completion, see the article <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculate Estimate At Completion (EAC)</a></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Budget</td> 
-     <td>This is the budget set for the project. This is manually specified by the Project Owner.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Fixed Cost</td> 
-     <td>These are the fixed costs on the project, independent of other activities on the project. They are manually entered by the Project Owner.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Planned Cost</td> 
-     <td>The estimated cost of the project, based on Planned Hours and the rates associated with the task assignees (job roles or users).</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Actual Cost</td> 
-     <td>All of the costs accruing on the project. Actual Cost is the sum of all actual costs: labor cost (based on Actual Hours and the rates associated with the job roles or users logging them), expenses, and fixed costs, which can be associated with a project or task.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Fixed Revenue</td> 
-     <td>Set income expected based on the project schedule. Fixed Revenue is manually specified by the Project Owner.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Planned Revenue</td> 
-     <td>Projected income expected based on the Planned Hours and the rates associated with the task assignees (job roles or users).</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Actual Revenue</td> 
-     <td>Actual income from the project based on the Actual Hours and the rates associated with the task assignees (job roles or users).</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Billed Revenue</td> 
-     <td> <p>Revenue billed to clients or other parties which is captured in Billing Records. For more information about billing records, see the article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">&nbsp;</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">&nbsp;</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Go to a project.
+1. Click Project Details in the left panel. 
+1. Click the Edit icon in the upper-right corner of the Details section, then click Finance. 
+   Note: Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see Customize the Details view using a layout template. 
+1. View the following fields in the Finance areaof the project:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Performance Index Method</td> 
+      <td> Controls the method Workfront uses to calculate Earned Value metrics. It can be hours-based, or cost-based. <br>For more information about the PIM, see the article <a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">Set the Performance Index Method (PIM)</a></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">CPI/SPI/CSI</td> 
+      <td> <p>These are project performance metrics that show how your project is performing, at a given time. Their values are calculated based on the Performance Index Method.<br>For more information see the following articles: </p> 
+       <ul> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-spi.md" class="MCXref xref">Calculate Schedule Performance Index (SPI) </a> </p> </li> 
+        <li> <p><a href="../../../manage-work/projects/project-finances/calculate-csi.md" class="MCXref xref">Calculate Cost Schedule Performance Index (CSI)</a> </p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Estimate at Completion</td> 
+      <td> Projected total cost of your project, represented in hours if the Performance Index Method (PIM) is hours-based, and it is represented in a currency value, if the Performance Index Method (PIM) is cost-based.<br>For more information about calculating the Estimate at Completion, see the article <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref">Calculate Estimate At Completion (EAC)</a></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Budget</td> 
+      <td>This is the budget set for the project. This is manually specified by the Project Owner.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Fixed Cost</td> 
+      <td>These are the fixed costs on the project, independent of other activities on the project. They are manually entered by the Project Owner.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Planned Cost</td> 
+      <td>The estimated cost of the project, based on Planned Hours and the rates associated with the task assignees (job roles or users).</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Actual Cost</td> 
+      <td>All of the costs accruing on the project. Actual Cost is the sum of all actual costs: labor cost (based on Actual Hours and the rates associated with the job roles or users logging them), expenses, and fixed costs, which can be associated with a project or task.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Fixed Revenue</td> 
+      <td>Set income expected based on the project schedule. Fixed Revenue is manually specified by the Project Owner.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Planned Revenue</td> 
+      <td>Projected income expected based on the Planned Hours and the rates associated with the task assignees (job roles or users).</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Actual Revenue</td> 
+      <td>Actual income from the project based on the Actual Hours and the rates associated with the task assignees (job roles or users).</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Billed Revenue</td> 
+      <td> <p>Revenue billed to clients or other parties which is captured in Billing Records. For more information about billing records, see the article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">&nbsp;</td> 
+      <td>&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">&nbsp;</td> 
+      <td>&nbsp;</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Edit financial information on a project
 
@@ -124,58 +124,65 @@ As a Project Owner, you can edit the information on the Finance subtab of a proj
 
 To edit information on the Project Finance subtab:
 
-<ol> 
- <li value="1"> <p>Go to a project which you are the owner of.</p> <note type="note">
-   You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project. 
-  </note> </li> 
- <li value="2"> Click Project Details in the left panel. </li> 
- <li value="3"> Click the Edit icon in the upper-right corner of the Details section, then click Finance . This opens the Finance area for editing. </li> 
- <li value="4"> <p> Edit any field that is available for editing, by single-clicking the field or click <span class="bold">+Add</span> to add information to an empty field.</p> <note type="tip">
-   Fields are not available for editing if they are automatically calculated by Workfront or if you don't have editing permissions on them.
-  </note>  </li> 
- <li value="5"> <p>Update any of the fields below. </p> Note: Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project Details section might be different in your environment. For information, see Customize the Details view using a layout template. 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Performance Index Method</td> 
-     <td> <p>Controls the method Workfront uses to calculate project performance metrics. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
-      <ul> 
-       <li><span class="bold">Hour-Based:</span>Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
-       <li><span class="bold">Cost-Based:</span>Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Estimate at Completion</td> 
-     <td> <p>Represents the projected total cost of your project or task when it completes. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
-      <ul> 
-       <li><span class="bold">Calculate at Project Level</span>: EAC for the parent task and project are determined by entering the actual hours/ actual labor cost into the EAC Formulas. This calculation includes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
-       <li><span class="bold">Roll up from Tasks/ Subtasks</span>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Budget</td> 
-     <td>Specify the budget for this project.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Fixed Cost</span> </td> 
-     <td>Specify the fixed cost for this project. This should not include any labor or expense costs.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Fixed Revenue</span> </td> 
-     <td> <p>Specify the fixed revenue of this project. This should not include revenue coming from any billing records billed to partners or third parties.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Project Currency</td> 
-     <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your Workfront administrator. For more information about setting up exchange rates in Workfront, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">&nbsp;</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6">Click <span class="bold">Save</span>Changes.</li> 
-</ol>
+1. Go to a project which you are the owner of.
+
+   >[!NOTE]
+   >
+   >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
+
+1. Click Project Details in the left panel. 
+1. Click the Edit icon in the upper-right corner of the Details section, then click Finance . This opens the Finance area for editing. 
+1. Edit any field that is available for editing, by single-clicking the field or click `+Add` to add information to an empty field.
+
+   >[!TIP]
+   >
+   >Fields are not available for editing if they are automatically calculated by Workfront or if you don't have editing permissions on them.
+
+1. Update any of the fields below. 
+   Note: Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project Details section might be different in your environment. For information, see Customize the Details view using a layout template. 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Performance Index Method</td> 
+      <td> <p>Controls the method Workfront uses to calculate project performance metrics. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
+       <ul> 
+        <li><span class="bold">Hour-Based:</span>Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
+        <li><span class="bold">Cost-Based:</span>Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Estimate at Completion</td> 
+      <td> <p>Represents the projected total cost of your project or task when it completes. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
+       <ul> 
+        <li><span class="bold">Calculate at Project Level</span>: EAC for the parent task and project are determined by entering the actual hours/ actual labor cost into the EAC Formulas. This calculation includes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
+        <li><span class="bold">Roll up from Tasks/ Subtasks</span>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Budget</td> 
+      <td>Specify the budget for this project.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Fixed Cost</span> </td> 
+      <td>Specify the fixed cost for this project. This should not include any labor or expense costs.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Fixed Revenue</span> </td> 
+      <td> <p>Specify the fixed revenue of this project. This should not include revenue coming from any billing records billed to partners or third parties.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Project Currency</td> 
+      <td> <p>Specify a currency for this project, if it is different from the default currency in your system. The default currency in your system is defined by your Workfront administrator. For more information about setting up exchange rates in Workfront, see the article <a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">&nbsp;</td> 
+      <td>&nbsp;</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Save`Changes.
 

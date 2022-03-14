@@ -58,16 +58,18 @@ If you have a Plan license, you can configure the Start button for a team in the
 
 To configure the Start button:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. 
- <li value="2">In the <span class="bold">Teams</span> drop-down menu, select a team.<br>or<br>Click <span class="bold">Create Team</span>.</li> Click the More icon , then click Edit. 
- <li value="4">Find the <span class="bold">Work On It</span> button section near the bottom of the Edit Teams page.</li> 
- <li value="5"> <p>Select the <span class="bold">Change the Work On It button to a Start button to automatically update the status of an item</span> check box.</p> </li> 
- <li value="6"> <p>Select one or more statuses for each work item type. If you select more than one status, a drop-down menu appears when you click Start where you can choose the desired status.</p> </li> 
- <li value="7"> <p>Click <span class="bold">Save changes</span>. Users now see a Start Task or a Start Issue button instead of the Work On It button when they are assigned a work item.<br></p> <note type="note">
-   We recommend setting the team as a user's Home Team so the start button appears on all of their assigned work items. See 
-   <a href="#associat" class="MCXref xref">Associate users with a Home Team</a> below.
-  </note> </li> 
-</ol>
+1. In the `Teams` drop-down menu, select a team.  
+   or  
+   Click `Create Team`.
+
+1. Find the `Work On It` button section near the bottom of the Edit Teams page.
+1. Select the `Change the Work On It button to a Start button to automatically update the status of an item` check box.
+1. Select one or more statuses for each work item type. If you select more than one status, a drop-down menu appears when you click Start where you can choose the desired status.
+1. Click `Save changes`. Users now see a Start Task or a Start Issue button instead of the Work On It button when they are assigned a work item.
+
+   >[!NOTE]
+   >
+   >We recommend setting the team as a user's Home Team so the start button appears on all of their assigned work items. See [Associate users with a Home Team](#associat) below.
 
 ## Associate users with a Home Team
 

@@ -53,26 +53,28 @@ Consider the following when granting financial permissions to objects:
 
 To grant financial permissions to an object:
 
-<ol> 
- <li value="1">Go to a task, project, or issue that you want to share with others.</li> 
- <li value="2"> Near the name of the object, click the More menu , then click Sharing. </li> 
- <li value="3"> <p>In the <span class="bold">Give <Object name>&nbsp;access to</span> field start typing the name of a user, team, role, group or a company that you want to share the object with.</p> <note type="tip">
-   You can share an object only with active users, teams, 
-   <span>roles,</span> or companies.
-  </note> </li> 
- <li value="4">If a drop-down menu appears to the right of the name you selected, click one of the following options that is available: 
-  <ul>
-   <li><span class="bold">View it</span></li>
-   <li><span class="bold">Contribute to it</span></li>
-   <li><p><span class="bold">Manage it&nbsp;</span></p><p><img src="assets/12.png" alt="">&nbsp; &nbsp; &nbsp;<img src="assets/13.png" alt=""><img src="assets/14.png" alt=""></p></li>
-  </ul></li> 
- <li value="5">In the same drop-down menu, click <span class="bold">Advanced Settings</span>, then do one of the following: 
-  <ul>
-   <li>If you selected one of the three options in the previous step, make sure <span class="bold">View Finance</span> is selected.</li>
-   <li>If you selected <span class="bold">Manage Finance</span> in the previous step, make sure <span class="bold">Manage Finance</span> is selected.</li>
-  </ul></li> 
- <li value="6">Click <span class="bold">Save</span>.<br></li> 
-</ol>
+1. Go to a task, project, or issue that you want to share with others.
+1. Near the name of the object, click the More menu , then click Sharing. 
+1. In the `Give <Object name> access to` field start typing the name of a user, team, role, group or a company that you want to share the object with.
+
+   >[!TIP]
+   >
+   >You can share an object only with active users, teams, `roles,` or companies.
+
+1. If a drop-down menu appears to the right of the name you selected, click one of the following options that is available:
+
+  * `View it`
+  * `Contribute to it`
+  * `Manage it`
+
+    ![](assets/12.png)&nbsp; &nbsp; &nbsp; ![](assets/13.png) ![](assets/14.png)
+
+1. In the same drop-down menu, click `Advanced Settings`, then do one of the following:
+
+  * If you selected one of the three options in the previous step, make sure `View Finance` is selected.
+  * If you selected `Manage Finance` in the previous step, make sure `Manage Finance` is selected.
+
+1. Click `Save`.
 
 ## Financial permission for all sharing levels
 

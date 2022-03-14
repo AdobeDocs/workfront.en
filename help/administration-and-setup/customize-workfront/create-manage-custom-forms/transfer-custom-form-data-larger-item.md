@@ -40,14 +40,19 @@ You can retain custom form data on a task or issue you want to convert. Because 
 
 To copy a custom form for an issue and save it as a custom form for a task or project:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Custom Forms</span>.</li> 
- <li value="3">Select an Issue custom form, then click <span class="bold">Copy</span>.</li> 
- <li value="4">In the <span class="bold">Custom Form</span> dialog box, specify a name for the new form.<br></li> 
- <li value="5"> <p>From the <span class="bold">Form Type</span> drop-down menu, select the object for which you want to create the new custom form.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you want to transfer the custom form data to a project, select Project.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Copy Form</span>.<br></p> <p>This creates an identical copy of the Issue custom form. This new custom form can now be attached to a task or project as described in the following section.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Custom Forms`.
+1. Select an Issue custom form, then click `Copy`.
+1. In the `Custom Form` dialog box, specify a name for the new form.  
+
+1. From the `Form Type` drop-down menu, select the object for which you want to create the new custom form.
+
+   ` `**Example: **``If you want to transfer the custom form data to a project, select Project.
+
+1. Click `Copy Form`.
+
+   This creates an identical copy of the Issue custom form. This new custom form can now be attached to a task or project as described in the following section.
 
 ## Convert an issue or task and transfer custom form data
 

@@ -63,11 +63,13 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 ## Edit a Smart Folder&nbsp;
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span>&nbsp;area that contains the smart folder that you want to edit.</li> In the Folders column, click the More icon next to the smart folder that you want to edit. 
- <li value="3"> <p>Click <span class="bold">Edit</span>.</p> <p>The <span class="bold">Edit Smart Folder</span>&nbsp;dialog box is displayed.<br><img src="assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png" alt="" style="width: 350;height: 167;"></p> </li> 
- <li value="4">Make your changes, then click <span class="bold">Save Folder</span>.</li> 
-</ol>
+1. Go to the `Documents`&nbsp;area that contains the smart folder that you want to edit.
+1. Click `Edit`.
+
+   The `Edit Smart Folder`&nbsp;dialog box is displayed.  
+   ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
+
+1. Make your changes, then click `Save Folder`.
 
 ## Rename a Smart Folder&nbsp;
 

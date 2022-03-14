@@ -88,17 +88,36 @@ When you reset user preferences, some preferences are reverted to the system def
 
 ## Reset user preferences
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"><span class="bold">Log In As</span>.</li> 
- <li value="3">Begin typing the name of the user whose preferences you want to reset, then click the name when it appears in the drop-down list.</li> 
- <li value="4">Click <span class="bold">Log In</span>.</li> 
- <li value="5"> <p>In the URL field at the top of your web browser, add the following to the end of <code>workfront.com</code> in the current URL:</p> <p><code>/resetUser</code> <br> </p> <note type="note">
-   This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example: 
-   <code>https://company_domain.my.workfront.com/resetUser</code>
-   <br>
-  </note> </li> 
- <li value="6"> <p>Press <span class="bold">Enter</span>.</p> </li> 
- <li value="7"> <p>To reset all user preferences, click <span class="bold">Reset</span>.</p> <p>Or</p> <p>To reset only custom tabs, click <span class="bold">Reset Tabs</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. `Log In As`.
+1. Begin typing the name of the user whose preferences you want to reset, then click the name when it appears in the drop-down list.
+1. Click `Log In`.
+1. In the URL field at the top of your web browser, add the following to the end of 
+
+   ```
+   workfront.com
+   ```
+
+   in the current URL:
+
+   ```
+   /resetUser
+   ```
+
+   >[!NOTE]
+   >
+   >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:    >
+   >
+   >```   >
+   >https://company_domain.my.workfront.com/resetUser
+   >```   >
+   >
+
+1. Press `Enter`.
+1. To reset all user preferences, click `Reset`.
+
+   Or
+
+   To reset only custom tabs, click `Reset Tabs`.
 

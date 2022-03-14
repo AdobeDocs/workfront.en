@@ -69,13 +69,21 @@ You can make the filter, view, or grouping available to users in your system. Fo
 
 These steps explain how to make filters, views, and groupings available from the Interface area in Setup. You can also do this in the List Controls area in Setup. For more information, see [Edit list controls: filters, views, and groupings](../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
 
-<ol> 
- <li value="1"><![CDATA[	]]>Click the Main Menu, then click Setup.</li> 
- <li value="2">Click <span class="bold">Interface</span>, then click one of the following: <span class="bold">Filters</span>,<span class="bold"> Views</span>, or<span class="bold"> Groupings</span>.</li> 
- <li value="3">Select the filter, view, or grouping that you want to make available to users, then click <span class="bold">Share</span> to open the Filter Access, View Access, or Grouping Access form.</li> 
- <li value="4"> <p>(Conditional) To make the filter, view, or grouping available to all users in the system, click the <span class="bold">Gear</span> drop-down menu <img src="assets/gear-menu-for-sharing-items.png">, then click <span class="bold">Make this visible system-wide</span>. All users in the system can now see the filter, view, or grouping.</p> <p>Or</p> <p>Begin typing the name of specific users, teams, roles, groups, or companies to share the filter, view, or grouping with, then click the name when it appears in the drop-down list.</p> <p>For more information about sharing, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Save</span>.</p> <p>Users that you specified can now see the default filter, view, or grouping when viewing the object type that you associated it with.</p> </li> 
-</ol>
+1. <![CDATA[	]]>Click the Main Menu, then click Setup.
+1. Click `Interface`, then click one of the following: `Filters`, `Views`, or `Groupings`.
+
+1. Select the filter, view, or grouping that you want to make available to users, then click `Share` to open the Filter Access, View Access, or Grouping Access form.
+1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the `Gear` drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click `Make this visible system-wide`. All users in the system can now see the filter, view, or grouping.
+
+   Or
+
+   Begin typing the name of specific users, teams, roles, groups, or companies to share the filter, view, or grouping with, then click the name when it appears in the drop-down list.
+
+   For more information about sharing, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+
+1. Click `Save`.
+
+   Users that you specified can now see the default filter, view, or grouping when viewing the object type that you associated it with.
 
 ## Delete filters, views, and groupings
 

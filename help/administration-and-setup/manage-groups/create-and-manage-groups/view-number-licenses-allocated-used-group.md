@@ -33,14 +33,34 @@ You must have the following to perform the steps in this article:
 
 ## View the number of licenses used in a group
 
-<ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Click the name of the group.</li> 
- <li value="4"> <p>On the page that displays, in the header area near the upper-right corner, view the <span class="bold">Licenses in use</span> area to see the number of <span class="bold">Plan</span> and <span class="bold">Work</span> licenses currently being used.</p> <p>If you are viewing a top-level group and the Workfront administrator defined a maximum number of each license type for the group, these numbers are also displayed. For example, in the group below, a maximum of 10 users can have a Plan license and a 15 can have a Work license:</p> <p> <img src="assets/licenses-used-allocated-350x210.png" style="width: 350;height: 210;"> </p> <p>For information about how a Workfront administrator defines a maximum number of allocated licenses for a group, see the section <a href="../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set" class="MCXref xref">Set the maximum license count for a Home Group</a> in the article <a href="../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md" class="MCXref xref">Manage available licenses in your system</a>.</p> <note type="note"> 
-   <p>If the group you are looking at is a subgroup, you can view only the numbers of licenses being used, not the maximum number of licenses allocated for the group. This is because Workfront administrators do not define a maximum license count for a subgroup.</p> 
-   <p> <img src="assets/subgroup-used-licenses-only-350x210.png" style="width: 350;height: 210;"> </p> 
-  </note> </li> 
- <li value="5"> <p>For separate counts of each type of license currently used in the group (including Review and Request), click the text area directly below <span class="bold">Licenses in use:</span></p> <p> <img src="assets/click-text-to-see-more-350x208.png" style="width: 350;height: 208;"> </p> <p>The box that displays provides the same information for all 4 Workfront license types: Plan, Work, Review, and Request. At the bottom of the box, you can see the total number of licenses being used by members of this group or one of its subgroups:</p> <p> <img src="assets/more-license-info-350x269.png" style="width: 350;height: 269;"> </p> <p>For Review and Request licenses, the Max column always displays Unlimited.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group.
+1. On the page that displays, in the header area near the upper-right corner, view the `Licenses in use` area to see the number of `Plan` and `Work` licenses currently being used.
+
+   If you are viewing a top-level group and the Workfront administrator defined a maximum number of each license type for the group, these numbers are also displayed. For example, in the group below, a maximum of 10 users can have a Plan license and a 15 can have a Work license:
+
+   ![](assets/licenses-used-allocated-350x210.png)
+
+   For information about how a Workfront administrator defines a maximum number of allocated licenses for a group, see the section [Set the maximum license count for a Home Group](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) in the article [Manage available licenses in your system](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+
+   >[!NOTE]
+   >
+   >If the group you are looking at is a subgroup, you can view only the numbers of licenses being used, not the maximum number of licenses allocated for the group. This is because Workfront administrators do not define a maximum license count for a subgroup.
+   >
+   >
+   >![](assets/subgroup-used-licenses-only-350x210.png)   >
+   >
+
+1. For separate counts of each type of license currently used in the group (including Review and Request), click the text area directly below `Licenses in use:`
+
+   ![](assets/click-text-to-see-more-350x208.png)
+
+   The box that displays provides the same information for all 4 Workfront license types: Plan, Work, Review, and Request. At the bottom of the box, you can see the total number of licenses being used by members of this group or one of its subgroups:
+
+   ![](assets/more-license-info-350x269.png)
+
+   For Review and Request licenses, the Max column always displays Unlimited.
 

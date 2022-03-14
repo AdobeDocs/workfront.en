@@ -35,16 +35,15 @@ You must have the following access to perform the steps in this article:
 
 ## Advanced Settings for Versioning
 
-<ul> 
- <li> <p>Store assets with the same name as versions of the existing asset:</p> 
-  <ul> 
-   <li> <p>When checked, this option will enable storing assets uploaded with the same name and to the same location as the version of the existing asset. If left unchecked, a new asset will be created with a different name (e.g. asset-name.pdf and asset-name-1.pdf)</p> </li> 
-  </ul> </li> 
- <li> <p>Update asset metadata when creating a new version:</p> 
-  <ul> 
-   <li> <p>When checked, this option will update the asset metadata whenever a new version of the asset is created. If unchecked, the asset will keep the metadata it had prior to creating the new version.</p> <p> <img src="assets/auto-version-settings-350x290.png" style="width: 350;height: 290;"> </p> </li> 
-  </ul> </li> 
-</ul>
+* Store assets with the same name as versions of the existing asset:
+
+  * When checked, this option will enable storing assets uploaded with the same name and to the same location as the version of the existing asset. If left unchecked, a new asset will be created with a different name (e.g. asset-name.pdf and asset-name-1.pdf)
+
+* Update asset metadata when creating a new version:
+
+  * When checked, this option will update the asset metadata whenever a new version of the asset is created. If unchecked, the asset will keep the metadata it had prior to creating the new version.
+
+    ![](assets/auto-version-settings-350x290.png)
 
 When an asset has been sent from Workfront to AEM the version history of the asset will be managed in AEM. See [Managing AEM Assets](https://docs.adobe.com/content/help/en/experience-manager-65/assets/managing/managing-assets-touch-ui.html#timeline) for more information.
 

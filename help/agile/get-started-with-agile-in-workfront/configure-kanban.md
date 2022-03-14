@@ -60,13 +60,15 @@ To define the statuses that are available for the story board associated with&nb
 1. (Optional) Click `Add Column` to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
-<ol start="8" data-mc-continue="true"> 
- <li value="8"> <p>Select task statuses.</p> <note type="important">
-   Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to 
-   <span class="bold">New</span>.
-  </note> <p>You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> </li> 
- <li value="9">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Select task statuses.
+
+   >[!IMPORTANT]
+   >
+   >Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to `New`.
+
+   You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+
+1. Click `Save Changes`.
 
 ## Configure additional fields to display on story cards on the agile story board
 
@@ -86,13 +88,15 @@ You can display additional data (including custom data) on story cards.&nbsp;You
 
 To configure story cards that are assigned to the agile team to display additional fields:
 
-<ol> Click the Main Menu icon in the upper-right corner of Workfront, then click Teams. Click the Switch team icon , then either select a new team from the drop-down menu or search for a team in the search bar. 
- <li value="3">Select the agile&nbsp;team that you want to manage.</li> 
- <li value="4"> Click the More menu, then select Edit. Only team members with either a Plan or Work license see this option.  </li> 
- <li value="5">In the <span class="bold">Agile</span> section, click <span class="bold">Add Field</span>.</li> 
- <li value="6"> <p>Select the name of the field you'd like to add.</p> <p> <img src="assets/additional-fields-350x239.png" style="width: 350;height: 239;"> <br> </p> </li> 
- <li value="7">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Select the agile&nbsp;team that you want to manage.
+1. Click the More menu, then select Edit. Only team members with either a Plan or Work license see this option.  
+1. In the `Agile` section, click `Add Field`.
+
+1. Select the name of the field you'd like to add.
+
+   ![](assets/additional-fields-350x239.png)
+
+1. Click `Save Changes`.
 
 ## Configure the work in progress (WIP) limit
 
@@ -128,11 +132,9 @@ You can configure stories from the backlog to be automatically added to the firs
 
 You can choose how long completed cards stay on the Kanban board. Tasks that fall off the Kanban board can still be accessed in their original project.
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. 
- <li value="2"> <p>(Optional) Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new Kanban team from the drop-down menu or search for a team in the search bar.</p> </li> 
- <li value="3">Select the Kanban team.</li> 
- <li value="4"> Click the More menu, then select Edit. Only team members with either a Plan or Work license see this option.  </li> 
- <li value="5">In the <span class="bold">Number of days Completed cards stay on the Kanban board</span> drop-down menu, select a value.</li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. (Optional) Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
+1. Select the Kanban team.
+1. Click the More menu, then select Edit. Only team members with either a Plan or Work license see this option.  
+1. In the `Number of days Completed cards stay on the Kanban board` drop-down menu, select a value.
+1. Click `Save Changes`.
 

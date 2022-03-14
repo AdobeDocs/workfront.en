@@ -29,11 +29,18 @@ To learn how to complete these requirements, see:
 
 After completing the actions above, you can import the file.
 
-<ol> 
- <li value="1"> <p>In Workfront, click the Workfront Library <span class="bold">icon</span> in the top-right corner of the screen.</p> </li> 
- <li value="2"> <p>In Workfront Library, click the <span class="bold">Menu icon</span>, then go to Setup > Metadata > Import.</p> <p> <img src="assets/import-area.png"> </p> <note type="note">
-   Because you can only import one CSV file at a time, Workfront recommends importing only one CSV file if you have less than 100,000 rows of metadata.
-  </note> </li> 
- <li value="3"> <p>If your CSV file is properly formatted, click <span class="bold">Choose CSV</span>, then double-click the file in your computer to upload it. The import begins and you are unable to import additional files until it completes.</p> <p>If a row in the CSV file fails to map to an asset in Workfront Library, a link appears allowing you to download a report detailing the filenames and filepath of rows that did not import. You may need to manually update the metadata for these assets.</p> <p> <img src="assets/download-error-report-350x256.png" style="width: 350;height: 256;"> </p> </li> 
-</ol>
+1. In Workfront, click the Workfront Library `icon` in the top-right corner of the screen.
+1. In Workfront Library, click the `Menu icon`, then go to Setup > Metadata > Import.
+
+   ![](assets/import-area.png)
+
+   >[!NOTE]
+   >
+   >Because you can only import one CSV file at a time, Workfront recommends importing only one CSV file if you have less than 100,000 rows of metadata.
+
+1. If your CSV file is properly formatted, click `Choose CSV`, then double-click the file in your computer to upload it. The import begins and you are unable to import additional files until it completes.
+
+   If a row in the CSV file fails to map to an asset in Workfront Library, a link appears allowing you to download a report detailing the filenames and filepath of rows that did not import. You may need to manually update the metadata for these assets.
+
+   ![](assets/download-error-report-350x256.png)
 

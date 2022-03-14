@@ -55,25 +55,43 @@ Consider the following when generating the unique URL for the User View of the R
 
 To obtain a unique URL in the User View of the Resource Planner and share it with other users:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
- <li value="2"> Click Resourcing. </li> 
- <li value="3">In the , select <span class="bold">View by User</span>.</li> 
- <li value="4">(Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following: 
-  <ul>
-   <li>Week</li>
-   <li>Month</li>
-   <li>Quarter</li>
-  </ul></li> 
- <li value="5">(Optional) Select whether you want to view the information by <span class="bold">FTE</span> or <span class="bold">Hours</span>.<br><img src="assets/rp-hours-or-fte-in-user-view.png" alt="RP_hours_or_fte_in_user_view.png"></li> 
- <li value="6">(Optional) Apply filters to the Resource Planner.<br>For information about applying filters, see <a href="../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a> .</li> 
- <li value="7">Click the <span class="bold">hyperlink</span> icon.<br><img src="assets/rp-storm-generate-url-with-copy-url-link-350x182.png" alt="RP_Storm_generate_URL_with_copy_URL_link.png" style="width: 350;height: 182;"></li> 
- <li value="8">Click <span class="bold">Copy URL</span>.<br>This copies the unique URL of the Resource Planner in the User View to your clipboard. </li> 
- <li value="9">(Optional) Do the following: 
-  <ol>
-   <li value="1">Go to <span class="bold">Reporting</span>><span class="bold">Dashboards</span>><span class="bold">New Dashboard</span>><span class="bold">Add External Page.</span></li>
-   <li value="2">Paste the link you copied to your clipboard in the <span class="bold">URL</span> field.</li>
-   <li value="3">Click <span class="bold">Save</span>, then <span class="bold">Save + Close</span>.<br>This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.</li>
-  </ol><br>Or<br>Paste the URL into another application to send it to another user.<br>The user must be logged in to Workfront to view the Resource Planner in the User view.<br>Or<br>Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to open the Resource Planner in a new tab or window. </li> 
- <li value="10">(Optional) If you embedded the URL into a dashboard, consider adding it to a layout template or sharing it with other users who might not have access to the Resource Management area.<br>For information about adding dashboards to a layout template, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a> . <br>For information about sharing dashboards, see <a href="../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md" class="MCXref xref">Share a dashboard in Adobe Workfront</a> . <br>When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner. They must be logged in to Workfront to view the shared URL.<br><img src="assets/user-view-dashoard-from-unique-url-350x85.png" alt="user_view_dashoard_from_unique_url.png" style="width: 350;height: 85;"></li> 
-</ol>
+1. Click Resourcing. 
+1. In the , select `View by User`.
+1. (Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following:
+
+  * Week
+  * Month
+  * Quarter
+
+1. (Optional) Select whether you want to view the information by `FTE` or `Hours`.  
+   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+
+1. (Optional) Apply filters to the Resource Planner.  
+   For information about applying filters, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
+
+1. Click the `hyperlink` icon.  
+   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+
+1. Click `Copy URL`.  
+   This copies the unique URL of the Resource Planner in the User View to your clipboard. 
+
+1. (Optional) Do the following:
+
+  1. Go to `Reporting`> `Dashboards`> `New Dashboard`> `Add External Page.`
+  
+  1. Paste the link you copied to your clipboard in the `URL` field.
+  1. Click `Save`, then `Save + Close`.  
+     This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
+
+   Or  
+   Paste the URL into another application to send it to another user.  
+   The user must be logged in to Workfront to view the Resource Planner in the User view.  
+   Or  
+   Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to open the Resource Planner in a new tab or window. 
+
+1. (Optional) If you embedded the URL into a dashboard, consider adding it to a layout template or sharing it with other users who might not have access to the Resource Management area.  
+   For information about adding dashboards to a layout template, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) .   
+   For information about sharing dashboards, see [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) .   
+   When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner. They must be logged in to Workfront to view the shared URL.  
+   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
 

@@ -51,14 +51,17 @@ Viewing inherited permissions is identical for all objects.
 
 To view inherited permissions for a project:
 
-<ol> 
- <li value="1">Go to a project whose sharing permissions you want to view. </li> 
- <li value="2"> Click the More menu , then click Sharing. </li> 
- <li value="3"> <p>Expand the <span class="bold">Inherited Permissions</span> list. </p> <p>This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project. </p> <p>  </p> </li> 
- <li value="4"> <p>(Optional) To remove inherited permissions from an object, see <a href="../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md" class="MCXref xref">Remove permissions from objects in Adobe Workfront</a>. </p> <note type="note">
-   You must have Manage permissions on an object to remove the inherited permissions. 
-  </note> </li> 
-</ol>
+1. Go to a project whose sharing permissions you want to view. 
+1. Click the More menu , then click Sharing. 
+1. Expand the `Inherited Permissions` list.
+
+   This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project.
+
+1. (Optional) To remove inherited permissions from an object, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+
+   >[!NOTE]
+   >
+   >You must have Manage permissions on an object to remove the inherited permissions.
 
 &nbsp;
 

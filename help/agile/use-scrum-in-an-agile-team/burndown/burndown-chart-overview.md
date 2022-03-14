@@ -65,11 +65,11 @@ The burndown chart contains the following visual indicators:
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
    <td> <p>A green or red dot is displayed on the actual burndown rate any time work is burned down. (When the actual burndown rate on that day is red, the dot is red; when the actual burndown rate on that day is green, the dot is green.)</p> <p>Work is burned down when any of the following occur:</p> 
     <ul> 
-     <li> The Percent Complete is increased on the story.<br>Percent Complete is increased when: </li> 
-     <ul> 
-      <li> <p>Manually changed</p> </li> 
-      <li> <p>The number of points or hours are updated on the story</p> </li> 
-     </ul> 
+     <li> The Percent Complete is increased on the story.<br>Percent Complete is increased when: 
+      <ul> 
+       <li> <p>Manually changed</p> </li> 
+       <li> <p>The number of points or hours are updated on the story</p> </li> 
+      </ul></li>  
      <li>The status of the story is changed to&nbsp;Complete</li> 
     </ul> </td> 
   </tr> 

@@ -17,11 +17,13 @@ Workfront Proof sends email notifications to your reviewers from a Workfront Pro
 
 To set up an SPF record, you will need to include the SPF record used for our primary domain.
 
-<ol> 
- <li value="1"> <p>Add a&nbsp;<span class="bold">DNS TXT</span> entry for your domain with the following value:</p> <p>v=spf1 a:mx.proofhq.com -all</p> <p>Your email administrator or IT personnel can help you set this up.<br></p> <note type="tip">
-   You can use the free tool at 
-   <a href="https://mxtoolbox.com/spf.aspx">https://mxtoolbox.com/spf.aspx</a> to review Workfront SPF records.
-   <br>
-  </note> </li> 
-</ol>
+1. Add a  `DNS TXT` entry for your domain with the following value:
+
+   v=spf1 a:mx.proofhq.com -all
+
+   Your email administrator or IT personnel can help you set this up.
+
+   >[!TIP]
+   >
+   >You can use the free tool at [https://mxtoolbox.com/spf.aspx](https://mxtoolbox.com/spf.aspx) to review Workfront SPF records.
 

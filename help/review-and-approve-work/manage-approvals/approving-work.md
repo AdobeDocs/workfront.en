@@ -51,15 +51,21 @@ For more information about viewing items awaiting approvals or items that you ha
 
 ## Approve work from the Home area
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2"> <p>Click the <span class="bold">Show</span> drop-down menu.</p> <p> <img src="assets/filter-home-350x342.png" style="width: 350;height: 342;"> </p> </li> 
- <li value="3"> <p>Click <span class="bold">Approvals</span>.<br>All work items that require your approval are displayed.&nbsp;</p> <note type="note">
-   Approvals assigned to Job Roles or Groups don't display in Home. Approvals assigned to Teams display in the Team Request grouping in the Work List. 
-  </note> </li> 
- <li value="4">(Optional) Change the order in which approvals are displayed, as described in "Filtering by Date, Project, or Priority" in <a href="../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md" class="MCXref xref">Display items in the Work List in the Home area</a>.</li> 
- <li value="5">Select the item where you want to make an approval decision.<br><br><br></li> 
- <li value="6">Click one of the available options when making an approval decision (the available options differ depending on the type of item you are approving:</li> 
-</ol>
+1. Click the `Show` drop-down menu.
+
+   ![](assets/filter-home-350x342.png)
+
+1. Click `Approvals`.  
+   All work items that require your approval are displayed.&nbsp;
+
+   >[!NOTE]
+   >
+   >Approvals assigned to Job Roles or Groups don't display in Home. Approvals assigned to Teams display in the Team Request grouping in the Work List.
+
+1. (Optional) Change the order in which approvals are displayed, as described in "Filtering by Date, Project, or Priority" in [Display items in the Work List in the Home area](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+1. Select the item where you want to make an approval decision.
+
+1. Click one of the available options when making an approval decision (the available options differ depending on the type of item you are approving:
 
 * `Projects:` Click `Approve` or `Reject`&nbsp;next to the&nbsp;work item.
 
@@ -94,32 +100,37 @@ When a project, task, or issue is pending approval, you can approve or reject th
 
 To approve work directly from a project, task, or issue:
 
-<ol> 
- <li value="1"> <p>Go to the project, task, or issue that requires your approval.<br></p> Approval information regarding the current approval process of a project, task, or issue displays in the item's header.  <p>The following approval information is available:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Status</td> 
-     <td>The current status of the project, task, or issue. This is the current status of the item that is pending the approval. The status is approved after each stage in the approval process is approved.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Approval stages</td> 
-     <td>The stages of the approval process. <br>The current stage that is pending approval is displayed as Pending. Stages that have already been approved are displayed as Approved; stages that have not yet been approved are displayed as Not Started.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="2">Click <span class="bold">Approve</span> or <span class="bold">Reject</span>, depending on whether you want to approve or reject the approval process.<br>The approval stage that was pending approval is now approved, and the approval process moves to the next stage. The status is approved after all stages have been approved.</li> 
-</ol>
+1. Go to the project, task, or issue that requires your approval.  
+
+   Approval information regarding the current approval process of a project, task, or issue displays in the item's header.  
+
+   The following approval information is available:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Status</td> 
+      <td>The current status of the project, task, or issue. This is the current status of the item that is pending the approval. The status is approved after each stage in the approval process is approved.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Approval stages</td> 
+      <td>The stages of the approval process. <br>The current stage that is pending approval is displayed as Pending. Stages that have already been approved are displayed as Approved; stages that have not yet been approved are displayed as Not Started.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Approve` or `Reject`, depending on whether you want to approve or reject the approval process.  
+   The approval stage that was pending approval is now approved, and the approval process moves to the next stage. The status is approved after all stages have been approved.
 
 ## Approve a document directly from a document&nbsp;
 
-<ol> 
- <li value="1">Go to the documents area that contains the document that requires your approval.</li> 
- <li value="2">Select the document, then click <span class="bold">Approve</span>,&nbsp;<span class="bold">Changes</span>, or <span class="bold">Reject</span>.<br><img src="assets/approval-approve-document-350x215.png" alt="" style="width: 350;height: 215;"><br><br></li> 
- <li value="3">(Optional) If a proof has been generated for the document, you can approve the document within the proofing interface, as described in <a href="#approving-a-document-from-a-proof" class="MCXref xref">Approve a document from a proof</a>.</li> 
-</ol>
+1. Go to the documents area that contains the document that requires your approval.
+1. Select the document, then click `Approve`,  `Changes`, or `Reject`.  
+   ![](assets/approval-approve-document-350x215.png)
+
+1. (Optional) If a proof has been generated for the document, you can approve the document within the proofing interface, as described in [Approve a document from a proof](#approving-a-document-from-a-proof).
 
 ## Approve a document from an approval notification email
 

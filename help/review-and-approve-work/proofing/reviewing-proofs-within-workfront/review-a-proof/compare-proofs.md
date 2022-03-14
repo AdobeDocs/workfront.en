@@ -44,13 +44,28 @@ You must have the following access to perform the steps in this article:
 
 You can compare two proofs within any single document list, such as within the Documents tab in a project, task, issue, portfolio, or within the main Documents area .&nbsp;
 
-<ol> 
- <li value="1">Go to the document list that contains the two proofed documents you want to compare.</li> 
- <li value="2"> <p>Select the first document that you want to compare, then press and hold the Command key (on Mac) or the Ctrl key (on Windows) and select the second document that you want to compare.</p> <note type="note">
-   A proof must already be generated for each document that you select for comparison.
-  </note> </li> 
- <li value="3"> <p>Click <span class="bold">Compare Proofs</span>.</p> <!--
+1. Go to the document list that contains the two proofed documents you want to compare.
+1. Select the first document that you want to compare, then press and hold the Command key (on Mac) or the Ctrl key (on Windows) and select the second document that you want to compare.
+
+   >[!NOTE]
+   >
+   >A proof must already be generated for each document that you select for comparison.
+
+1. Click `Compare Proofs`.
+
+   <!--
    If this button is not visible, ensure that two proofed documents are selected.
-  -->  <p>Both proofs are displayed in the proofing viewer in a side-by-side view. You can review each document while comparing them.</p> <p>Separate breadcrumbs above each proof allow you to view and go to the work item associated with the proof:</p> <p> <img src="assets/compare-proofs-breadcrumbs-350x148.jpg" style="width: 350;height: 148;"> </p> <p>For information about the tools you can use to compare the two proofs, see&nbsp;<a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools" class="MCXref xref">Use the compare tools</a> in <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md" class="MCXref xref">Compare proofs in the proofing viewer</a>.</p> <h2><a name="Compare"></a>Compare two versions of the same proof</h2> <p>For information about comparing two versions of the same proof, see <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions" class="MCXref xref">Compare proof versions</a> in <a href="../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md" class="MCXref xref">Compare proofs in the proofing viewer</a>.</p> </li> 
-</ol>
+   -->
+
+   Both proofs are displayed in the proofing viewer in a side-by-side view. You can review each document while comparing them.
+
+   Separate breadcrumbs above each proof allow you to view and go to the work item associated with the proof:
+
+   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+
+   For information about the tools you can use to compare the two proofs, see&nbsp; [Use the compare tools](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [Compare proofs in the proofing viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+
+   ## Compare two versions of the same proof
+
+   For information about comparing two versions of the same proof, see [Compare proof versions](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Compare proofs in the proofing viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

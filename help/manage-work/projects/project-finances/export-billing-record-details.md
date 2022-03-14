@@ -44,10 +44,8 @@ You must have the following:
 
 # Export billing record details
 
-<ol> 
- <li value="1">Go to the project where you want to export the billing record details.</li> 
- <li value="2">In the left panel, click <span class="bold">Billing Records</span>.</li> 
- <li value="3">Click the name of the billing record.</li> 
- <li value="4">With Billing Record Details selected in the left menu, click the Export <img src="assets/export.png"> icon , select the billing details that you want to include in the exported file, then click <span class="bold">Export</span>.</li> 
-</ol>
+1. Go to the project where you want to export the billing record details.
+1. In the left panel, click `Billing Records`.
+1. Click the name of the billing record.
+1. With Billing Record Details selected in the left menu, click the Export ![](assets/export.png) icon , select the billing details that you want to include in the exported file, then click `Export`.
 

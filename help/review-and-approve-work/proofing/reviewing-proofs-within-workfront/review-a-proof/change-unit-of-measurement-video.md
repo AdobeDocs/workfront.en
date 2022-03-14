@@ -44,26 +44,28 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3"> <p>In the lower-left corner of the proofing viewer, click the current unit of measurement.</p> <p> <img src="assets/phq-viewer-video-timeline.png"> </p> </li> 
- <li value="4"> <p>Select from the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Time</td> 
-     <td>Displays the video timeline in minutes/seconds. This option is selected by default.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Frame</td> 
-     <td>Displays the video timeline in frames. The proofing viewer uses the information on&nbsp;the original file to determine the number of frames per second that is displayed.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Timecode</td> 
-     <td>Displays the video timeline in timecode. The numbers of the timecode represent hours, minutes, seconds, and frames. <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>A timecode of 1:48:36:18 represents 1 hour, 48 minutes, 36 seconds, and 18 frames into the video.</p></td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. In the lower-left corner of the proofing viewer, click the current unit of measurement.
+
+   ![](assets/phq-viewer-video-timeline.png)
+
+1. Select from the following options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Time</td> 
+      <td>Displays the video timeline in minutes/seconds. This option is selected by default.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Frame</td> 
+      <td>Displays the video timeline in frames. The proofing viewer uses the information on&nbsp;the original file to determine the number of frames per second that is displayed.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Timecode</td> 
+      <td>Displays the video timeline in timecode. The numbers of the timecode represent hours, minutes, seconds, and frames. <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>A timecode of 1:48:36:18 represents 1 hour, 48 minutes, 36 seconds, and 18 frames into the video.</p></td> 
+     </tr> 
+    </tbody> 
+   </table>
 

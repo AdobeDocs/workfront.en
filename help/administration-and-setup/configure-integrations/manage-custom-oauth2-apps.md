@@ -56,22 +56,22 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### View and edit custom OAuth2 applications
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
- <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
- <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 
- <li value="5"> <p>(Optional) Edit any details of the application. </p> <p>For fields related to OAuth2 and JWT apps, see <a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref">Create OAuth2 applications for Workfront integrations</a></p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. Hover over the application and click the **Edit** icon when it appears on the far right.
+1. (Optional) Edit any details of the application.
+
+   For fields related to OAuth2 and JWT apps, see [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
 ### Delete custom OAuth2 Applications
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
- <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
- <li value="4"> <p>Hover over the application and click the <b>Delete</b> icon when it appears on the far right.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. Hover over the application and click the **Delete** icon when it appears on the far right.
 
 ## Manage Client Secrets in OAuth2 applications
 
@@ -89,41 +89,44 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 >* To create a new Client Secret, see [Create an OAuth2 application](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
- <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
- <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 
- <li value="5"> <p>View details in the Client Secret area:</p> 
-  <ul> 
-   <li> <p>Created date</p> </li> 
-   <li> <p>Last used date</p> </li> 
-   <li> <p>Notes </p> <p>To add notes to a Client Secret, see <a href="#add" class="MCXref xref">Add or edit notes for Client Secret</a>.</p> </li> 
-  </ul> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. Hover over the application and click the **Edit** icon when it appears on the far right.
+1. View details in the Client Secret area:
+
+  * Created date
+  * Last used date
+  * Notes
+
+    To add notes to a Client Secret, see [Add or edit notes for Client Secret](#add).
 
 ### Add or edit notes for Client Secret
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
- <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
- <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 
- <li value="5"> <p>Locate the Client Secret that you want to add or edit a note for.</p> </li> 
- <li value="6"> <p>Click the box that contains details for the Client Secret.</p> <p>You can now add note text, or edit existing note text.</p> <note type="note">
-   Note text has a maximum of 64 characters.
-  </note> </li> 
- <li value="7"> <p>Click out of the box or press <b>Enter</b> to save the note text.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. Hover over the application and click the **Edit** icon when it appears on the far right.
+1. Locate the Client Secret that you want to add or edit a note for.
+1. Click the box that contains details for the Client Secret.
+
+   You can now add note text, or edit existing note text.
+
+   >[!NOTE]
+   >
+   >Note text has a maximum of 64 characters.
+
+1. Click out of the box or press **Enter** to save the note text.
 
 ### Delete Client Secret
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
- <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
- <li value="4"> <p>Hover over the application and click the <b>Edit</b> icon when it appears on the far right.</p> </li> 
- <li value="5"> <p>Locate the Client Secret that you want to delete.</p> </li> 
- <li value="6"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> next to the Client Secret.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. Hover over the application and click the **Edit** icon when it appears on the far right.
+1. Locate the Client Secret that you want to delete.
+1. Click the **Delete** icon ![](assets/delete.png) next to the Client Secret.
 

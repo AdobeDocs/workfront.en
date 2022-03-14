@@ -11,53 +11,43 @@ description: As a Workfront Library administrator, you can set up your organizat
 
 As a Workfront Library administrator, you can set up your organization's taxonomy to gather the information your users search for and to track content. For more information about the different types of taxonomy you can collect, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Setup</span> > <span class="bold">Taxonomy</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Add Field</span>, then select the type of field you want to add to your taxonomy.</p> <p>You can choose from the following field types:</p> 
-  <ul> 
-   <li>Custom</li> 
-   <li>Attribute</li> 
-   <li>EXIF</li> 
-   <li>XMP</li> 
-  </ul> </li> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In the left panel, click `Setup` > `Taxonomy`.
+1. Click `Add Field`, then select the type of field you want to add to your taxonomy.
+
+   You can choose from the following field types:
+
+  * Custom
+  * Attribute
+  * EXIF
+  * XMP
 
 ### Custom
 
 Use custom taxonomy to gather information tailored to your organization, such as campaign, department, or location.
 
-<ol> 
- <li value="1"> <p>In the <span class="bold">Field Type</span> drop-down list, select the type of field you want to configure.</p> <p>You can choose from the following field types:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Date</td> 
-     <td>Allows users to manually enter a date or select a date from a date picker</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Multi-select</td> 
-     <td>Lists multiple options in a picklist from which users can choose several options</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Single-select</td> 
-     <td>Lists multiple options in a picklist from which users can choose one option</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Text field</td> 
-     <td>Allows users to freely enter<!--
-       up to X characters of [FOLLOW UP WITH CLINT]
-      --> text</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="2"> <p>(Conditional) If you are configuring a multi- or single-select custom field, enter the <span class="bold">Value</span> and press <span class="bold">Enter</span>. You can list up to 100 different values in the picklist with names. These names can be up to 50 characters.</p> </li> 
- <li value="3"> <p>(Optional) To require users to complete this field when entering metadata, enable&nbsp;<span class="bold">Required Field</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Save</span>.</p> <p>The custom field is added to the taxonomy.</p> </li> 
-</ol>
+1. In the `Field Type` drop-down list, select the type of field you want to configure.
+
+   You can choose from the following field types:
+
+   | Date |Allows users to manually enter a date or select a date from a date picker |
+   |---|---|
+   | Multi-select |Lists multiple options in a picklist from which users can choose several options |
+   | Single-select |Lists multiple options in a picklist from which users can choose one option |
+   | Text field |Allows users to freely enter
+
+   <!--
+   up to X characters of [FOLLOW UP WITH CLINT]
+   -->
+
+   text |
+
+1. (Conditional) If you are configuring a multi- or single-select custom field, enter the `Value` and press `Enter`. You can list up to 100 different values in the picklist with names. These names can be up to 50 characters.
+1. (Optional) To require users to complete this field when entering metadata, enable  `Required Field`.
+1. Click `Save`.
+
+   The custom field is added to the taxonomy.
 
 ### Attribute
 

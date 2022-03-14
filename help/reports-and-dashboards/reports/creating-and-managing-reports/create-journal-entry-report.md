@@ -144,86 +144,105 @@ This information can be used to help with auditing and to illustrate how well yo
 >If you want to compare the difference in days between condition changes, you can use Enhanced analytics.  
 >To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
- <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">Journal Entry</span>.</p> <p>  </p> <p>The report builder loads.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Columns (View)</span> tab, add the following columns:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Column</th> 
-     <th>Explanation</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Field Name</p> </td> 
-     <td> <p>The name of the affected field. In this case, <span class="bold">status</span> should display in this column.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Change Type</p> </td> 
-     <td> <p>The type of change made to the affected field, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
-     <td> <p>The name of the user that updated the status.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Entry Date</p> </td> 
-     <td> <p>The date that the status was changed.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Old Text Value</p> </td> 
-     <td> <p>The key for the previous status. The following are the status keys for the default project statuses:</p> 
-      <ul> 
-       <li> <p> <span class="bold">CUR</span>: Current</p> </li> 
-       <li> <p><span class="bold">DED</span>: Dead</p> </li> 
-       <li> <p><span class="bold">ONH</span>: On Hold</p> </li> 
-       <li> <p><span class="bold">PLN</span>: Planning</p> </li> 
-       <li> <p><span class="bold">CPL</span>: Complete</p> </li> 
-       <li> <p><span class="bold">REQ</span>: Requested</p> </li> 
-       <li> <p><span class="bold">APR</span>: Approved</p> </li> 
-       <li> <p><span class="bold">REJ</span>: Rejected</p> </li> 
-       <li> <p><span class="bold">IDA</span>: Idea</p> </li> 
-      </ul> <p>If your organization has set up custom statuses, other status keys might appear in this column. To learn what custom status is related to a status key, contact your Workfront administrator or group administrator.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">New Text Value</p> </td> 
-     <td> <p>The key for the updated status.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
-     <td> <p>The highest parent object for the field that had the status change.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Scope</p> </td> 
-     <td> <p>The type of object that had the status change.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Issue Name<br>(Optional)</p> </td> 
-     <td> <p>The name of the issue that had a status change.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Task Name<br>(Optional)</p> </td> 
-     <td> <p>The name of the task that had a status change.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> <p>For more information on adding columns, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li value="4"> <p>In the <span class="bold">Filters</span> tab, click <span class="bold">Add filter rule</span>, then add the filter rule <span class="bold">Field Name</span> > <span class="bold">Equal</span> > <span class="bold">status</span>.</p> <p>  </p> <note type="tip">
-   To report on condition changes, you can instead add the filter rule 
-   <span class="bold">Field Name</span> > 
-   <span class="bold">Equal</span> > 
-   <span class="bold">Condition</span>.
-  </note> <p>For more information on adding filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
- <li value="5"> <p>(Optional) To narrow the focus of the report and reduce load times, add a prompt.</p> <p>Or</p> <p>Create additional filter rules to include specific projects, tasks, or issues.</p> <note type="important">
-   Creating a filter rule that uses the modifier 
-   <span class="bold">Contains</span> can actually increase load times. For this reason, we recommend using a different modifier like 
-   <span class="bold">Equal</span> when possible to filter for a specific project or higher-level object ID.
-  </note> <p> To learn how to add a prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p> </li> 
- <li value="6"> <p>In the <span class="bold">Groupings</span> tab, click <span class="bold">Apply an Existing Grouping</span>, then select <span class="bold">Project</span>.</p> <p>For more information on adding groupings, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>.</p> <p>Your new report loads.</p> </li> 
-</ol>
+1. Click `New Report`, then select `Journal Entry`.
+
+   The report builder loads.
+
+1. In the `Columns (View)` tab, add the following columns:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Column</th> 
+      <th>Explanation</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Field Name</p> </td> 
+      <td> <p>The name of the affected field. In this case, <span class="bold">status</span> should display in this column.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Change Type</p> </td> 
+      <td> <p>The type of change made to the affected field, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
+      <td> <p>The name of the user that updated the status.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Entry Date</p> </td> 
+      <td> <p>The date that the status was changed.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Old Text Value</p> </td> 
+      <td> <p>The key for the previous status. The following are the status keys for the default project statuses:</p> 
+       <ul> 
+        <li> <p> <span class="bold">CUR</span>: Current</p> </li> 
+        <li> <p><span class="bold">DED</span>: Dead</p> </li> 
+        <li> <p><span class="bold">ONH</span>: On Hold</p> </li> 
+        <li> <p><span class="bold">PLN</span>: Planning</p> </li> 
+        <li> <p><span class="bold">CPL</span>: Complete</p> </li> 
+        <li> <p><span class="bold">REQ</span>: Requested</p> </li> 
+        <li> <p><span class="bold">APR</span>: Approved</p> </li> 
+        <li> <p><span class="bold">REJ</span>: Rejected</p> </li> 
+        <li> <p><span class="bold">IDA</span>: Idea</p> </li> 
+       </ul> <p>If your organization has set up custom statuses, other status keys might appear in this column. To learn what custom status is related to a status key, contact your Workfront administrator or group administrator.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">New Text Value</p> </td> 
+      <td> <p>The key for the updated status.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
+      <td> <p>The highest parent object for the field that had the status change.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Scope</p> </td> 
+      <td> <p>The type of object that had the status change.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Issue Name<br>(Optional)</p> </td> 
+      <td> <p>The name of the issue that had a status change.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Task Name<br>(Optional)</p> </td> 
+      <td> <p>The name of the task that had a status change.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. In the `Filters` tab, click `Add filter rule`, then add the filter rule `Field Name` > `Equal` > `status`.
+
+   >[!TIP]
+   >
+   >To report on condition changes, you can instead add the filter rule `Field Name` > `Equal` > `Condition`.
+
+   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
+
+   Or
+
+   Create additional filter rules to include specific projects, tasks, or issues.
+
+   >[!IMPORTANT]
+   >
+   >Creating a filter rule that uses the modifier `Contains` can actually increase load times. For this reason, we recommend using a different modifier like `Equal` when possible to filter for a specific project or higher-level object ID.
+
+   To learn how to add a prompt, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+1. In the `Groupings` tab, click `Apply an Existing Grouping`, then select `Project`.
+
+   For more information on adding groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+
+1. Click `Save + Close`.
+
+   Your new report loads.
 
 ## See when a task or issue was deleted
 
@@ -234,54 +253,75 @@ You can set up the Journal Entry report to show:
 
 To see when a task or issue was deleted:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
- <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">Journal Entry</span>.</p> <p>  </p> <p>The report builder loads.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Columns (View)</span> tab, add the following columns:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Column</th> 
-     <th>Explanation</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Scope</p> </td> 
-     <td> <p>The type of object that was deleted.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Change Type</p> </td> 
-     <td> <p>The type of change that happened. The <span class="bold">Delete</span> change displays in this column.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Entry Date</p> </td> 
-     <td> <p>The date that the task or issue was deleted.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
-     <td> <p>The name of the user that deleted the task or issue.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Project Name</p> </td> 
-     <td> <p>The name of the project that had tasks or issues deleted.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> <p>For more information on adding columns, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li value="4"> <p>In the <span class="bold">Filters</span> tab, click <span class="bold">Add filter rule</span>, then add the following:</p> 
-  <ul> 
-   <li> <p><span class="bold">Change Type</span> > <span class="bold">Equal</span> > <span class="bold">Delete</span></p> </li> 
-   <li> <p><span class="bold">Project ID</span> > <span class="bold">Equal</span> > <span class="bold"><project></span></p> <p><a href="../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png"></a> </p> </li> 
-  </ul> <p>For more information on adding filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
- <li value="5"> <p>(Optional) To narrow the focus of the report and reduce load times, add a prompt.</p> <p>Or</p> <p>Create additional filter rules to include specific projects, tasks, or issues.</p> <note type="important">
-   Creating a filter rule that uses the modifier 
-   <span class="bold">Contains</span> can actually increase load times. For this reason, we recommend using a different modifier like 
-   <span class="bold">Equal</span> when possible to filter for a specific project or higher-level object ID.
-  </note> <p> To learn how to add a prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p> </li> 
- <li value="6"> <p>(Optional) In the <span class="bold">Groupings</span> tab, click <span class="bold">Apply an Existing Grouping</span>, then select <span class="bold">Project</span>.</p> <p>For more information on adding groupings, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>.</p> <p>Your new report loads.</p> </li> 
-</ol>
+1. Click `New Report`, then select `Journal Entry`.
+
+   The report builder loads.
+
+1. In the `Columns (View)` tab, add the following columns:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Column</th> 
+      <th>Explanation</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Scope</p> </td> 
+      <td> <p>The type of object that was deleted.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Change Type</p> </td> 
+      <td> <p>The type of change that happened. The <span class="bold">Delete</span> change displays in this column.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Entry Date</p> </td> 
+      <td> <p>The date that the task or issue was deleted.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
+      <td> <p>The name of the user that deleted the task or issue.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Project Name</p> </td> 
+      <td> <p>The name of the project that had tasks or issues deleted.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. In the `Filters` tab, click `Add filter rule`, then add the following:
+
+  * `Change Type` > `Equal` > `Delete`
+  * `Project ID` > `Equal` > `<project>`
+
+    [](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)
+
+   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
+
+   Or
+
+   Create additional filter rules to include specific projects, tasks, or issues.
+
+   >[!IMPORTANT]
+   >
+   >Creating a filter rule that uses the modifier `Contains` can actually increase load times. For this reason, we recommend using a different modifier like `Equal` when possible to filter for a specific project or higher-level object ID.
+
+   To learn how to add a prompt, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+1. (Optional) In the `Groupings` tab, click `Apply an Existing Grouping`, then select `Project`.
+
+   For more information on adding groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+
+1. Click `Save + Close`.
+
+   Your new report loads.
 
 ## See how custom fields changed over the course of a project's life cycle
 
@@ -293,219 +333,276 @@ You can track important field changes over the course of the project. To do this
 
 To see how custom fields changed over the course of a project's life cycle:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
- <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">Journal Entry</span>.</p> <p>  </p> <p>The report builder loads.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Columns (View)</span> tab, add the following columns:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Column</th> 
-     <th>Explanation</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Field Name</p> </td> 
-     <td> <p>The name of the custom field affected.</p> <p><span style="font-weight: normal;">When</span> <span class="bold">DE</span>:<span style="font-weight: normal;"> displays in this column, it indicates that the field listed is a custom field.</span></p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Change Type</p> </td> 
-     <td> <p>The type of change made to the affected field, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
-     <td> <p>The name of the user that updated the custom field.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Entry Date</p> </td> 
-     <td> <p>The date that the value in the custom field changed.</p> <p>You should sort by this field in descending order.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Old Number Value</p> </td> 
-     <td> <p>The previous number value in the custom field.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">New Number Value</p> </td> 
-     <td> <p>The current number value in the custom field.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Old Date Value</p> </td> 
-     <td> <p>The previous date value in the custom field.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">New Date Value</p> </td> 
-     <td> <p>The current date value in the custom field.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Old Text Value</p> </td> 
-     <td> <p>The previous text value in the custom field.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">New Text Value</p> </td> 
-     <td> <p>The current text value in the custom field.</p> <p>If the custom field is a typeahead field, the <span class="bold">New Text Value</span> column displays the object ID.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> <p>For more information on adding columns, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li value="4"> <p>In the <span class="bold">Filters</span> tab, click <span class="bold">Add filter rule</span>, then add the following:</p> 
-  <ul> 
-   <li> <p><span class="bold">Journal Entry Field Name</span> > <span class="bold">Contains</span> > <span class="bold">DE</span></p> <note type="tip">
-     To limit this report to specific custom fields, add the filter rule 
-     <span class="bold">Journal Entry Field Name</span> > 
-     <span class="bold">Equal</span> > 
-     <span class="bold"><custom field></span>.
-    </note> </li> 
-   <li> <p><span class="bold">Project ID</span> > <span class="bold">Equal</span> > <span class="bold"><project></span></p> <p>  </p> </li> 
-  </ul> <p>For more information on adding filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
- <li value="5"> <p>(Optional) To narrow the focus of the report and reduce load times, add a prompt.</p> <p>Or</p> <p>Create additional filter rules to include specific projects, tasks, or issues.</p> <note type="important">
-   Creating a filter rule that uses the modifier 
-   <span class="bold">Contains</span> can actually increase load times. For this reason, we recommend using a different modifier like 
-   <span class="bold">Equal</span> when possible to filter for a specific project or higher-level object ID.
-  </note> <p> To learn how to add a prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p> </li> 
- <li value="6"> <p>In the <span class="bold">Groupings</span> tab, click <span class="bold">Apply an Existing Grouping</span>, then select <span class="bold">Project</span>.</p> <p>For more information on adding groupings, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>.</p> <p>Your new report loads.</p> </li> 
-</ol>
+1. Click `New Report`, then select `Journal Entry`.
+
+   The report builder loads.
+
+1. In the `Columns (View)` tab, add the following columns:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Column</th> 
+      <th>Explanation</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Field Name</p> </td> 
+      <td> <p>The name of the custom field affected.</p> <p><span style="font-weight: normal;">When</span> <span class="bold">DE</span>:<span style="font-weight: normal;"> displays in this column, it indicates that the field listed is a custom field.</span></p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Change Type</p> </td> 
+      <td> <p>The type of change made to the affected field, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
+      <td> <p>The name of the user that updated the custom field.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Entry Date</p> </td> 
+      <td> <p>The date that the value in the custom field changed.</p> <p>You should sort by this field in descending order.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Old Number Value</p> </td> 
+      <td> <p>The previous number value in the custom field.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">New Number Value</p> </td> 
+      <td> <p>The current number value in the custom field.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Old Date Value</p> </td> 
+      <td> <p>The previous date value in the custom field.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">New Date Value</p> </td> 
+      <td> <p>The current date value in the custom field.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Old Text Value</p> </td> 
+      <td> <p>The previous text value in the custom field.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">New Text Value</p> </td> 
+      <td> <p>The current text value in the custom field.</p> <p>If the custom field is a typeahead field, the <span class="bold">New Text Value</span> column displays the object ID.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. In the `Filters` tab, click `Add filter rule`, then add the following:
+
+  * `Journal Entry Field Name` > `Contains` > `DE`
+
+    >[!TIP]
+    >
+    >To limit this report to specific custom fields, add the filter rule `Journal Entry Field Name` > `Equal` > `<custom field>`.
+
+  * `Project ID` > `Equal` > `<project>`
+
+   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
+
+   Or
+
+   Create additional filter rules to include specific projects, tasks, or issues.
+
+   >[!IMPORTANT]
+   >
+   >Creating a filter rule that uses the modifier `Contains` can actually increase load times. For this reason, we recommend using a different modifier like `Equal` when possible to filter for a specific project or higher-level object ID.
+
+   To learn how to add a prompt, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+1. In the `Groupings` tab, click `Apply an Existing Grouping`, then select `Project`.
+
+   For more information on adding groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+
+1. Click `Save + Close`.
+
+   Your new report loads.
 
 ## See how the Planned Completion Date changed over the course of a project's life cycle
 
 You can set up the Journal Entry report to show how often the Planned Completion Date changes over the course of a project’s life.
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
- <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">Journal Entry</span>.</p> <p>  </p> <p>The report builder loads.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Columns (View)</span> tab, add the following columns:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Column</th> 
-     <th>Explanation</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Field Name</p> </td> 
-     <td> <p>The name of the affected field.</p> <p><span style="font-weight: normal;">When</span> <span class="bold">DE</span>:<span style="font-weight: normal;"> displays in this column, it indicates that the field listed is a custom field.</span></p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Change Type</p> </td> 
-     <td>The type of change that happened, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
-     <td> <p>The name of the user that updated the project's Planned Completion Date.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Entry Date</p> </td> 
-     <td> <p>The date that the project's Planned Completion Date was changed.</p> <p>You should sort by this field in descending order.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
-     <td> <p>The highest parent object for the field that had the Planned Completion Date change.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Scope</p> </td> 
-     <td> <p>The object that had the Planned Completion Date change.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Old Date Value</p> </td> 
-     <td> <p>The previous value for the Planned Completion Date.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">New Date Value</p> </td> 
-     <td> <p>The current value for the Planned Completion Date.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Project Name</p> <p>(Optional)</p> </td> 
-     <td> <p>Thhe name of the project that had the Planned Completion Date change.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Task Name</p> <p>(Optional)</p> </td> 
-     <td> <p>The name of the tasks in the project that had the Planned Completion Date change.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Issue Name</p> <p>(Optional)</p> </td> 
-     <td>The name of the issues in the project that have the Planned Completion Date change.</td> 
-    </tr> 
-   </tbody> 
-  </table> <p>For more information on adding columns, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li value="4"> <p>In the <span class="bold">Filters</span> tab, click <span class="bold">Add filter rule</span>, then add the following:</p> 
-  <ul> 
-   <li> <p><span class="bold">Field Name</span> > <span class="bold">Equal</span> > <span class="bold">Date</span></p> </li> 
-   <li> <p><span class="bold">Project ID</span> > <span class="bold">Equal</span> > <span class="bold"><project></span></p> </li> 
-  </ul> <p>  </p> <p>For more information on adding filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.<br></p> </li> 
- <li value="5"> <p>(Optional) To narrow the focus of the report and reduce load times, add a prompt.</p> <p>Or</p> <p>Create additional filter rules to include specific projects, tasks, or issues.</p> <note type="important">
-   Creating a filter rule that uses the modifier 
-   <span class="bold">Contains</span> can actually increase load times. For this reason, we recommend using a different modifier like 
-   <span class="bold">Equal</span> when possible to filter for a specific project or higher-level object ID.
-  </note> <p> To learn how to add a prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p> </li> 
- <li value="6"> <p>In the <span class="bold">Groupings</span> tab, click <span class="bold">Apply an Existing Grouping</span>, then select <span class="bold">Project</span>.</p> <p>For more information on adding groupings, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>.</p> <p>Your new report loads.</p> </li> 
-</ol>
+1. Click `New Report`, then select `Journal Entry`.
+
+   The report builder loads.
+
+1. In the `Columns (View)` tab, add the following columns:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Column</th> 
+      <th>Explanation</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Field Name</p> </td> 
+      <td> <p>The name of the affected field.</p> <p><span style="font-weight: normal;">When</span> <span class="bold">DE</span>:<span style="font-weight: normal;"> displays in this column, it indicates that the field listed is a custom field.</span></p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Change Type</p> </td> 
+      <td>The type of change that happened, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
+      <td> <p>The name of the user that updated the project's Planned Completion Date.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Entry Date</p> </td> 
+      <td> <p>The date that the project's Planned Completion Date was changed.</p> <p>You should sort by this field in descending order.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
+      <td> <p>The highest parent object for the field that had the Planned Completion Date change.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Scope</p> </td> 
+      <td> <p>The object that had the Planned Completion Date change.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Old Date Value</p> </td> 
+      <td> <p>The previous value for the Planned Completion Date.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">New Date Value</p> </td> 
+      <td> <p>The current value for the Planned Completion Date.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Project Name</p> <p>(Optional)</p> </td> 
+      <td> <p>Thhe name of the project that had the Planned Completion Date change.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Task Name</p> <p>(Optional)</p> </td> 
+      <td> <p>The name of the tasks in the project that had the Planned Completion Date change.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Issue Name</p> <p>(Optional)</p> </td> 
+      <td>The name of the issues in the project that have the Planned Completion Date change.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. In the `Filters` tab, click `Add filter rule`, then add the following:
+
+  * `Field Name` > `Equal` > `Date`
+  * `Project ID` > `Equal` > `<project>`
+
+   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
+
+   Or
+
+   Create additional filter rules to include specific projects, tasks, or issues.
+
+   >[!IMPORTANT]
+   >
+   >Creating a filter rule that uses the modifier `Contains` can actually increase load times. For this reason, we recommend using a different modifier like `Equal` when possible to filter for a specific project or higher-level object ID.
+
+   To learn how to add a prompt, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+1. In the `Groupings` tab, click `Apply an Existing Grouping`, then select `Project`.
+
+   For more information on adding groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+
+1. Click `Save + Close`.
+
+   Your new report loads.
 
 ## See if the owner of a project changed
 
 You can set up the Journal Entry report to show how many times the project owner—or project manager—changes over the course of a project's life.
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Reports. 
- <li value="2"> <p>Click <span class="bold">New Report</span>, then select <span class="bold">Journal Entry</span>.</p> <p>  </p> <p>The report builder loads.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Columns (View)</span> tab, add the following columns:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Column</th> 
-     <th>Explanation</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Field Name</p> </td> 
-     <td>The name of the affected field. The <span class="bold">ownerID</span> displays in this column.</td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Change Type</p> </td> 
-     <td> <p>The type of change that happened, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
-     <td> <p>The highest parent object for the project that had the project owner updated.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Entry Date</p> </td> 
-     <td>The date that the project owner was changed.<br>You should sort by this field in descending order.</td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
-     <td> <p>The name of the user that updated the project owner.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Additional Info 1</p> </td> 
-     <td> <p>The current project owner on the project.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Additional Info 2</p> </td> 
-     <td> <p>The previous project owner on the project.</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p style="font-weight: bold;">Project Name</p> </td> 
-     <td> <p>The project that had the Project Owner field updated.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> <p>For more information on adding columns, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li value="4"> <p>In the <span class="bold">Filters</span> tab, click <span class="bold">Add filter rule</span>, then add the following:</p> 
-  <ul> 
-   <li> <p><span class="bold">Field Name</span> > <span class="bold">Equal</span> > <span class="bold">ownerID</span></p> </li> 
-   <li> <p><span class="bold">Project ID</span> > <span class="bold">Equal</span> > <span class="bold"><project name></span></p> <p>  </p> </li> 
-  </ul> <p>For more information on adding filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
- <li value="5"> <p>(Optional) To narrow the focus of the report and reduce load times, add a prompt.</p> <p>Or</p> <p>Create additional filter rules to include specific projects, tasks, or issues.</p> <note type="important">
-   Creating a filter rule that uses the modifier 
-   <span class="bold">Contains</span> can actually increase load times. For this reason, we recommend using a different modifier like 
-   <span class="bold">Equal</span> when possible to filter for a specific project or higher-level object ID.
-  </note> <p> To learn how to add a prompt, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</p> </li> 
- <li value="6"> <p>(Optional) In the <span class="bold">Groupings</span> tab, click <span class="bold">Apply an Existing Grouping</span>, then select <span class="bold">Project</span>.</p> <p>For more information on adding groupings, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>.</p> <p>Your new report loads.</p> </li> 
-</ol>
+1. Click `New Report`, then select `Journal Entry`.
+
+   The report builder loads.
+
+1. In the `Columns (View)` tab, add the following columns:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Column</th> 
+      <th>Explanation</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Field Name</p> </td> 
+      <td>The name of the affected field. The <span class="bold">ownerID</span> displays in this column.</td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Change Type</p> </td> 
+      <td> <p>The type of change that happened, such as <span class="bold">Add</span>, <span class="bold">Delete</span>, or <span class="bold">Edit</span>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Top ObjCode</p> </td> 
+      <td> <p>The highest parent object for the project that had the project owner updated.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Entry Date</p> </td> 
+      <td>The date that the project owner was changed.<br>You should sort by this field in descending order.</td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Edited by Name</p> </td> 
+      <td> <p>The name of the user that updated the project owner.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Additional Info 1</p> </td> 
+      <td> <p>The current project owner on the project.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Additional Info 2</p> </td> 
+      <td> <p>The previous project owner on the project.</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p style="font-weight: bold;">Project Name</p> </td> 
+      <td> <p>The project that had the Project Owner field updated.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. In the `Filters` tab, click `Add filter rule`, then add the following:
+
+  * `Field Name` > `Equal` > `ownerID`
+  * `Project ID` > `Equal` > `<project name>`
+
+   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
+
+   Or
+
+   Create additional filter rules to include specific projects, tasks, or issues.
+
+   >[!IMPORTANT]
+   >
+   >Creating a filter rule that uses the modifier `Contains` can actually increase load times. For this reason, we recommend using a different modifier like `Equal` when possible to filter for a specific project or higher-level object ID.
+
+   To learn how to add a prompt, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+1. (Optional) In the `Groupings` tab, click `Apply an Existing Grouping`, then select `Project`.
+
+   For more information on adding groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+
+1. Click `Save + Close`.
+
+   Your new report loads.
 

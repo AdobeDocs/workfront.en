@@ -41,21 +41,27 @@ You must have the following to perform the steps in this article:
 
 If you already added the IP addresses to your allowlist for your production environment as described in&nbsp; [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)&nbsp;and users are still not receiving emails:
 
-<ol> 
- <li value="1"> <p>Add the following SPF record to your firewall:</p> <p><em style="font-weight: bold; font-style: normal;">spf.workfront.com</em> </p> <p>This automatically adds all Workfront IP addresses to your allowlist on your firewall&nbsp;and allows all spam filters (that use SPF records) to validate Workfront servers as valid senders for&nbsp;your domain.</p> <note type="note">
-   &nbsp;An SPF record is a TXT record that is part of a DNS zone file. We do not support modifying your DNS zone file.
-  </note> </li> 
- <li value="2">You must specify what type of SPF record needs to be configured. These are the valid types of SPF records:&nbsp;<br>
-  <ul dir="auto">
-   <li>all (https://dmarcian.com/spf-syntax-table/#all)</li>
-   <li>ip4 (https://dmarcian.com/spf-syntax-table/#ip4)</li>
-   <li>ip6 (https://dmarcian.com/spf-syntax-table/#ip6)</li>
-   <li>a (https://dmarcian.com/spf-syntax-table/#a)</li>
-   <li>mx&nbsp;(https://dmarcian.com/spf-syntax-table/#mx)</li>
-   <li>ptr (https://dmarcian.com/spf-syntax-table/#ptr)</li>
-   <li>exists (https://dmarcian.com/spf-syntax-table/#exists)</li>
-   <li>include (https://dmarcian.com/spf-syntax-table/#include)</li>
-  </ul> For example, “v=spf1 a mx include:<a href="http://spf.workfront.com/">spf.workfront.com</a>&nbsp;-all”</li> 
-</ol>
+1. Add the following SPF record to your firewall:
+
+   *spf.workfront.com*
+
+   This automatically adds all Workfront IP addresses to your allowlist on your firewall&nbsp;and allows all spam filters (that use SPF records) to validate Workfront servers as valid senders for&nbsp;your domain.
+
+   >[!NOTE]
+   >
+   >&nbsp;An SPF record is a TXT record that is part of a DNS zone file. We do not support modifying your DNS zone file.
+
+1. You must specify what type of SPF record needs to be configured. These are the valid types of SPF records:&nbsp;
+
+  * all (https://dmarcian.com/spf-syntax-table/#all)
+  * ip4 (https://dmarcian.com/spf-syntax-table/#ip4)
+  * ip6 (https://dmarcian.com/spf-syntax-table/#ip6)
+  * a (https://dmarcian.com/spf-syntax-table/#a)
+  * mx&nbsp;(https://dmarcian.com/spf-syntax-table/#mx)
+  * ptr (https://dmarcian.com/spf-syntax-table/#ptr)
+  * exists (https://dmarcian.com/spf-syntax-table/#exists)
+  * include (https://dmarcian.com/spf-syntax-table/#include)
+
+   For example, “v=spf1 a mx include: [spf.workfront.com](http://spf.workfront.com/)&nbsp;-all”
 
 If you cannot add SPF records to your firewall due to company policy, please work with your Workfront Support Representative.

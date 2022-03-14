@@ -26,17 +26,26 @@ Each access level grants specific permissions that affect what a user can do wit
 
 To get individual access to Workfront Library, a user must be active in Workfront. You can also restore access for a user you have removed from Workfront Library previously.
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon.</p> </li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Setup</span> > <span class="bold">Users</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Add user</span>.</p> <p> <img src="assets/add-workfront-library-user-350x216.png" style="width: 350;height: 216;"> </p> </li> 
- <li value="5"> <p>In the <span class="bold">Search</span> box that appears, enter text to locate the user.</p> <p>Or</p> <p>Scroll down the drop-down list until you've located the user.</p> </li> 
- <li value="6"> <p>In the drop-down list, select each user that you want to give access to.</p> <p>After selecting a name, the user appears in the table below.</p> <note type="note">
-   When you add a new user, they automatically have Viewer access to Workfront Library. To learn how to change a user's access level to Admin or Manager, see 
-   <a href="../../../workfront-library/administration-and-setup/user-access/change-user-access.md" class="MCXref xref">Change a user's access to Workfront Library</a>.
-  </note> </li> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the `Menu` icon.
+1. In the left panel, click `Setup` > `Users`.
+1. Click `Add user`.
+
+   ![](assets/add-workfront-library-user-350x216.png)
+
+1. In the `Search` box that appears, enter text to locate the user.
+
+   Or
+
+   Scroll down the drop-down list until you've located the user.
+
+1. In the drop-down list, select each user that you want to give access to.
+
+   After selecting a name, the user appears in the table below.
+
+   >[!NOTE]
+   >
+   >When you add a new user, they automatically have Viewer access to Workfront Library. To learn how to change a user's access level to Admin or Manager, see [Change a user's access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/change-user-access.md).
 
 ## Give access to a user grouping
 
@@ -44,22 +53,23 @@ To add a user grouping in Workfront Library, it must already exist as a grouping
 
 To give access:
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon.</p> </li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Setup</span>, then select the type of user grouping that you want to add:</p> 
-  <ul> 
-   <li><span class="bold">Job role</span> </li> 
-   <li><span class="bold">Team</span> </li> 
-   <li><span class="bold">Group</span> </li> 
-   <li><span class="bold">Company</span> </li> 
-  </ul> </li> 
- <li value="4"> <p>Click <span class="bold">Add</span>.</p> </li> 
- <li value="5"> <p>In the <span class="bold">Search</span> box that appears, enter text to locate the user grouping.</p> <p>Or</p> <p>Scroll down the drop-down list until you've located the user grouping.</p> </li> 
- <li value="6"> <p>In the drop-down list, select each user grouping that you want to give access to.</p> </li> 
- <p>After selecting a user grouping, it appears in the table below. The new users receive an email with a link to Workfront Library.</p> <note type="note">
-  When you add a user grouping, each user in the group automatically has Viewer access to Workfront Library. To learn how to change the access level for the user grouping, see 
-  <a href="../../../workfront-library/administration-and-setup/user-access/change-user-access.md" class="MCXref xref">Change a user's access to Workfront Library</a>.
- </note> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the `Menu` icon.
+1. In the left panel, click `Setup`, then select the type of user grouping that you want to add:
+
+  * `Job role` 
+  * `Team` 
+  * `Group` 
+  * `Company`
+
+1. Click `Add`.
+1. In the `Search` box that appears, enter text to locate the user grouping.
+
+   Or
+
+   Scroll down the drop-down list until you've located the user grouping.
+
+1. In the drop-down list, select each user grouping that you want to give access to.
+1. After selecting a user grouping, it appears in the table below. The new users receive an email with a link to Workfront Library.
+1. When you add a user grouping, each user in the group automatically has Viewer access to Workfront Library. To learn how to change the access level for the user grouping, see [Change a user's access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/change-user-access.md).
 

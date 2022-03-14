@@ -31,14 +31,14 @@ Some information in this article also applies to assignments to issues. For more
 
 You might want to modify the user assignments for tasks for a variety of reasons, including the following:
 
-<ul> 
- <li>Users join or leave your team</li> 
- <li> <p>A user takes a vacation that extends beyond task due dates</p> <note type="note">
-   When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks. For information about schedules, see 
-   <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" xrefformat="{para}">Create a schedule</a>.
-  </note> </li> 
- <li>A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role</li> 
-</ul>
+* Users join or leave your team
+* A user takes a vacation that extends beyond task due dates
+
+  >[!NOTE]
+  >
+  >When assigning users to work, their availability according to their schedules affects the Planned and Projected Dates of tasks. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+* A specific role or user is set as the assignee for multiple tasks and you want to quickly modify all items to be assigned to a different user or role
 
 ## Considerations for multiple assignments to job roles, teams, and users
 
@@ -61,14 +61,15 @@ Removing users can affect task hours and allocation percentages. The effect that
 
 When you delete a user from a task with the following Duration&nbsp;Types:
 
-<ul> 
- <li> <p><span class="bold">Simple:</span> The planned hours assigned to that user are subtracted from the task’s total planned hours.</p> <note type="important">
-   <span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span> 
-  </note> </li> 
- <li><span class="s1"><span class="bold">Effort Driven:</span> The allocation percentage does not change for other users.</span> </li> 
- <li><span class="s1"><span class="bold">Calculated Assignment:</span> The allocation percentages of other users are adjusted so that the total equals 100%.</span> </li> 
- <li><span class="s1"><span class="bold">Calculated Work:</span> The allocation percentage does not change for other users.</span> </li> 
-</ul>
+* `Simple:` The planned hours assigned to that user are subtracted from the task’s total planned hours.
+
+  >[!IMPORTANT]
+  >
+  >`This could negatively affect your project plan because it changes the total planned hours for the task and the project.`
+
+* ` `Effort Driven:` The allocation percentage does not change for other users.` 
+* ` `Calculated Assignment:` The allocation percentages of other users are adjusted so that the total equals 100%.` 
+* ` `Calculated Work:` The allocation percentage does not change for other users.`
 
 ## Considerations about unassigning tasks
 

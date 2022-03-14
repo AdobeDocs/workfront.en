@@ -66,34 +66,43 @@ You can share reports in&nbsp;Workfront in the following way:
 
 Sharing one report or several reports from a list is identical.
 
-<ol> 
- <li value="1">Go to a list of reports and select one or multiple reports, then click <span class="bold">Share</span>. <p>Or </p><p>Click the name of one report, then click <span class="bold">Report Actions ></span><span class="bold"> Sharing</span>.</p></li> 
- <li value="2">In the box that displays, in the <span class="bold">Add people, teams, roles, groups, or companies ...</span> field start typing the name of the user, team, job role, group, or company whom you want to share the report with, then press <span class="bold">Enter</span> when the name displays.</li> 
- <li value="3"> <p>To adjust the level of access for a name you added, click the drop-down menu to the right of the name, then choose one of the options below.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">View it</td> 
-     <td> <p>Allows your recipient access to see the report in the <span class="bold">Reports</span> <img src="assets/reports-in-main-menu.png"> area and run it.</p> <p>You can click <span class="bold">Advanced Settings</span> to specify whether you want the user or users to be able to <span class="bold">Share</span> it with anyone in the system.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Manage it</td> 
-     <td> <p>Allows your recipient full edit access to the report.</p> <p>You can click <span class="bold">Advanced Settings</span> to specify whether you want the user or users to be able to <span class="bold">Delete</span> the report from the system and <span class="bold">Share</span> it with anyone in the system.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4">(Optional) Repeat the 2 previous steps to add other names to the list and configure their options.</li> 
- <li value="5"> <p>(Optional) Click the <span class="bold">Gear</span> icon <img src="assets/gear-icon-settings-with-dn-arrow.jpg"> in the upper-right corner of the sharing box, then select one of the following options:</p> 
-  <ul> 
-   <li> <p><span class="bold">Make this public to external users:</span> Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. </p> <note type="note">
-     If the report has a prompt and you share it publicly, the users running the report must be logged in to Workfront to be able to run the report using the prompt. If they cannot log in to Workfront, they will see the report without the prompt applied to it. For more information about limitations of sharing reports with prompts, see the section 
-     <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports" class="MCXref xref">Limitations of sharing prompted reports</a> in the article 
-     <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.
-    </note> </li> 
-   <li> <p><span class="bold">Make this visible system-wide:</span> Select this option so that everyone in Workfront with access to reports can see the report.</p>  </li> 
-  </ul> </li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to a list of reports and select one or multiple reports, then click `Share`.
+
+   Or
+
+   Click the name of one report, then click `Report Actions >` `Sharing`.
+
+1. In the box that displays, in the `Add people, teams, roles, groups, or companies ...` field start typing the name of the user, team, job role, group, or company whom you want to share the report with, then press `Enter` when the name displays.
+
+1. To adjust the level of access for a name you added, click the drop-down menu to the right of the name, then choose one of the options below.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">View it</td> 
+      <td> <p>Allows your recipient access to see the report in the <span class="bold">Reports</span> <img src="assets/reports-in-main-menu.png"> area and run it.</p> <p>You can click <span class="bold">Advanced Settings</span> to specify whether you want the user or users to be able to <span class="bold">Share</span> it with anyone in the system.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Manage it</td> 
+      <td> <p>Allows your recipient full edit access to the report.</p> <p>You can click <span class="bold">Advanced Settings</span> to specify whether you want the user or users to be able to <span class="bold">Delete</span> the report from the system and <span class="bold">Share</span> it with anyone in the system.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the 2 previous steps to add other names to the list and configure their options.
+1. (Optional) Click the `Gear` icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper-right corner of the sharing box, then select one of the following options:
+
+  * `Make this public to external users:` Select this option to generate a URL that can be shared with others. Anyone with the URL can access the report, without having an Adobe Workfront license.
+
+    ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+
+    >[!NOTE]
+    >
+    >If the report has a prompt and you share it publicly, the users running the report must be logged in to Workfront to be able to run the report using the prompt. If they cannot log in to Workfront, they will see the report without the prompt applied to it. For more information about limitations of sharing reports with prompts, see the section [Limitations of sharing prompted reports](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) in the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+  * `Make this visible system-wide:` Select this option so that everyone in Workfront with access to reports can see the report.
+
+1. Click `Save`.
 

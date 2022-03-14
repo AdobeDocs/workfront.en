@@ -76,11 +76,12 @@ You can configure actions for your organization in the following ways:
 
 ### Reorder actions
 
-<ol> 
- <li value="1"> From Workfront, click the Main Menu , then click Proofing to access Workfront Proof. </li> 
- <li value="2">Click <span class="bold">Settings</span> >&nbsp;<span class="bold">Account settings</span> in the upper-right corner of the Workfront Proof interface, then click the <span class="bold">Settings</span> tab.</li> 
- <li value="3"> <p>Click the blue up and down arrows next to&nbsp;<span class="bold">Setup</span>&nbsp;to reorder the actions.</p> <p> <img src="assets/re-order-actions-350x103.png" alt="Re-order_actions.png" style="width: 350;height: 103;"> </p> </li> 
-</ol>
+1. From Workfront, click the Main Menu , then click Proofing to access Workfront Proof. 
+1. Click `Settings` >  `Account settings` in the upper-right corner of the Workfront Proof interface, then click the `Settings` tab.
+
+1. Click the blue up and down arrows next to  `Setup`&nbsp;to reorder the actions.
+
+   ![Re-order_actions.png](assets/re-order-actions-350x103.png)
 
 ## Configure custom devices for proofs
 
@@ -90,43 +91,45 @@ For information about how users can select devices when reviewing interactive co
 
 To add a custom device:
 
-<ol> 
- <li value="1"> From Workfront, click the Main Menu , then click Proofing to access Workfront Proof. </li> 
- <li value="2">Click <span class="bold">Settings</span> >&nbsp;<span class="bold">Account settings</span> in the upper-right corner of the Workfront Proof interface, then click the <span class="bold">Settings</span> tab.</li> 
- <li value="3">In the <span class="bold">Custom Devices for proofs</span> section, click <span class="bold">Add new device</span>.</li> 
- <li value="4"> <p>In the <span class="bold">Add new device</span> box that appears, specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>The name users see when selecting the device in the Desktop Proofing Viewer, as described in&nbsp;<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Dimensions</td> 
-     <td>Specify the dimensions to use for this device. Users see the dimensions displayed below the device name.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Ratio</td> 
-     <td>Specify the ratio for the device.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Type</td> 
-     <td>Select whether the device is a Mobile, Tablet, or Desktop.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">User agent string</td> 
-     <td>Enter the user agent for the device to&nbsp;provide information that makes our software run and display as designed for the device.<p>You can obtain the user agent by going to&nbsp;<a href="https://www.whatismybrowser.com/detect/what-is-my-user-agent">https://www.whatismybrowser.com/detect/what-is-my-user-agent</a>&nbsp;from the device.</p></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Disabled</td> 
-     <td>If this option is selected, the device is not available for users to select when reviewing interactive proofs.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Create</span>.</li> 
-</ol>
+1. From Workfront, click the Main Menu , then click Proofing to access Workfront Proof. 
+1. Click `Settings` >  `Account settings` in the upper-right corner of the Workfront Proof interface, then click the `Settings` tab.
+
+1. In the `Custom Devices for proofs` section, click `Add new device`.
+
+1. In the `Add new device` box that appears, specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td>The name users see when selecting the device in the Desktop Proofing Viewer, as described in&nbsp;<a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">Change interactive proof resolution in the proofing viewer</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Dimensions</td> 
+      <td>Specify the dimensions to use for this device. Users see the dimensions displayed below the device name.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Ratio</td> 
+      <td>Specify the ratio for the device.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Type</td> 
+      <td>Select whether the device is a Mobile, Tablet, or Desktop.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">User agent string</td> 
+      <td>Enter the user agent for the device to&nbsp;provide information that makes our software run and display as designed for the device.<p>You can obtain the user agent by going to&nbsp;<a href="https://www.whatismybrowser.com/detect/what-is-my-user-agent">https://www.whatismybrowser.com/detect/what-is-my-user-agent</a>&nbsp;from the device.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Disabled</td> 
+      <td>If this option is selected, the device is not available for users to select when reviewing interactive proofs.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Create`.
 
 ## Configure pop-up messages for proofs
 
@@ -336,49 +339,48 @@ For detailed information about how to brand the Workfront Proof site, see&nbsp; 
 
 Under `Advanced password settings`, you can enhance password security for your users.
 
-<ol> 
- <li value="1"> <p>Click <span class="bold">Setup</span> to the right of the setting you want to configure:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Minimum password length</td> 
-     <td>The default Workfront Proof password length is six&nbsp;characters. You may want to increase the number, depending on your organization's policies.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Character mix</span> </td> 
-     <td>You can force the users to use a mix of lowercase, uppercase, numbers, and symbols in their passwords. You decide how many characters the password should contain.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Maximum characters repetition</span> </td> 
-     <td>You can specify how many characters can repeat in each user's password.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Automatic password aging</td> 
-     <td>Forces users to regularly change their password. You decide how often they will do so.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Number of password repetitions not allowed</span> </td> 
-     <td>Configure the number of password repetitions not allowed in your account.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Profile lockout</span> </td> 
-     <td>Locks your users out of the account after a number of unsuccessful login attempts that you specify. You also specify how long they should wait before they can access their account again.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Lock user if password not reset after 30 days</td> 
-     <td>If your user doesn't change their initial password within 30 days from their profile activation, they are locked out of the account.<br><p>Account Administrators can unlock (reactivate) users who get automatically locked by the system. This will give them additional seven&nbsp;days to change&nbsp;their password.</p></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Lock user account if inactive for 120 days</td> 
-     <td>If your user doesn't log into Workfront Proof or a Login-required proof for 120 days, they are locked out of the account.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Change password after first login</span> </td> 
-     <td>Requires users to change their temporary password after their first login.<p>Account Administrators can unlock (reactivate) users who are automatically locked out by the system.</p><p>or more password information, see <a href="../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md" class="MCXref xref">Logging in and changing your password and email for Workfront Proof</a>.</p></td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click `Setup` to the right of the setting you want to configure:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Minimum password length</td> 
+      <td>The default Workfront Proof password length is six&nbsp;characters. You may want to increase the number, depending on your organization's policies.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Character mix</span> </td> 
+      <td>You can force the users to use a mix of lowercase, uppercase, numbers, and symbols in their passwords. You decide how many characters the password should contain.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Maximum characters repetition</span> </td> 
+      <td>You can specify how many characters can repeat in each user's password.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Automatic password aging</td> 
+      <td>Forces users to regularly change their password. You decide how often they will do so.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Number of password repetitions not allowed</span> </td> 
+      <td>Configure the number of password repetitions not allowed in your account.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Profile lockout</span> </td> 
+      <td>Locks your users out of the account after a number of unsuccessful login attempts that you specify. You also specify how long they should wait before they can access their account again.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Lock user if password not reset after 30 days</td> 
+      <td>If your user doesn't change their initial password within 30 days from their profile activation, they are locked out of the account.<br><p>Account Administrators can unlock (reactivate) users who get automatically locked by the system. This will give them additional seven&nbsp;days to change&nbsp;their password.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Lock user account if inactive for 120 days</td> 
+      <td>If your user doesn't log into Workfront Proof or a Login-required proof for 120 days, they are locked out of the account.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Change password after first login</span> </td> 
+      <td>Requires users to change their temporary password after their first login.<p>Account Administrators can unlock (reactivate) users who are automatically locked out by the system.</p><p>or more password information, see <a href="../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md" class="MCXref xref">Logging in and changing your password and email for Workfront Proof</a>.</p></td> 
+     </tr> 
+    </tbody> 
+   </table>
 

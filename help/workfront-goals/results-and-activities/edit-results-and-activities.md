@@ -59,57 +59,44 @@ You must have the following before you can start:
 
 ## Considerations when editing results and activities
 
-<ul> 
- <li> <p>You can edit results and activities that belong to goals you created or to goals that you have permissions to Manage. </p> </li> 
- <li> <p>You cannot edit projects that are connected to goals as activities from Workfront Goals. You can remove them from the goal by disconnecting them. For more information, see the "Disconnect projects"&nbsp;section in the article <a href="../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md" class="MCXref xref">Remove results, activities, and projects from goals in Adobe Workfront Goals</a>. </p> <note type="note">  
-   <p>If the following project information updates at the project level, Workfront Goals automatically updates it at the goal level:</p> 
-   <ul> 
-    <li>Project owner</li> 
-    <li>Project name</li> 
-    <li> <p>Project percent complete</p> </li> 
-   </ul> 
-   <p>For information about connecting projects to goals, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Overview of connecting projects to goals in Adobe Workfront Goals</a>.</p> 
-  </note> </li> 
- <li>You can delete results and activities from goals when they are not longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see <a href="../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md" class="MCXref xref">Remove results, activities, and projects from goals in Adobe Workfront Goals</a>.</li> 
- <li>You can edit results and activities associated with goals from any time period, including in the past. </li> 
- <li>Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities by checking in on goals. For information about checking in on goals, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Check in on goals in Adobe Workfront Goals</a>. </li> 
-</ul>
+* You can edit results and activities that belong to goals you created or to goals that you have permissions to Manage. 
+* You cannot edit projects that are connected to goals as activities from Workfront Goals. You can remove them from the goal by disconnecting them. For more information, see the "Disconnect projects"&nbsp;section in the article [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+
+  >[!NOTE]
+  >
+  >If the following project information updates at the project level, Workfront Goals automatically updates it at the goal level:
+  >
+  >  
+  >  
+  >  * Project owner
+  >  * Project name
+  >  * Project percent complete
+  >  
+  >  
+  >For information about connecting projects to goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+
+* You can delete results and activities from goals when they are not longer relevant to the goal progress. Deleted results and activities cannot be recovered. For information about deleting results and activities, see [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* You can edit results and activities associated with goals from any time period, including in the past. 
+* Editing results and activities updates their settings and does not update their progress. You must update the progress of results and activities by checking in on goals. For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Edit results
 
-<ol> 
- <li value="1">Go to the goal for which you want to edit a result and click the goal name to open the <span class="bold">Goal&nbsp;Details</span> panel.</li> 
- <li value="2"> <p>Click <span class="bold">Results</span>.</p> </li> 
- <li value="3"> <p>Click the <span class="bold">gear icon</span> <img src="assets/settings-gear-icon.png"> to the right of the result you want to edit.</p> <p> <img src="assets/results-gear-icon-options-350x85.png" style="width: 350;height: 85;"> </p> </li> 
- <li value="4"> <p>Click <span class="bold">Edit</span> to edit the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>The name of the result.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Owner</td> 
-     <td>The owner of result. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Value</td> 
-     <td>How you measure the progress of the result.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Initial</td> 
-     <td>The original value of the result.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Target</td> 
-     <td>The desired value when the result is completed. &nbsp;</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Save</span>. </li> 
-</ol>
+1. Go to the goal for which you want to edit a result and click the goal name to open the `Goal Details` panel.
+1. Click `Results`.
+1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+
+   ![](assets/results-gear-icon-options-350x85.png)
+
+1. Click `Edit` to edit the following information:
+
+   | Name |The name of the result. |
+   |---|---|
+   | Owner |The owner of result.  |
+   | Value |How you measure the progress of the result. |
+   | Initial |The original value of the result. |
+   | Target |The desired value when the result is completed. &nbsp; |
+
+1. Click `Save`.
 
 ## Edit activities
 
@@ -117,25 +104,17 @@ You must have the following before you can start:
 >
 >You cannot edit the&nbsp;Activity Type after you saved an activity on a goal.
 
-<ol> 
- <li value="1">Go to the goal for which you want to edit an activity and click the goal name to open the <span class="bold">Goal&nbsp;Details</span> panel.</li> 
- <li value="2"> <p>Click <span class="bold">Activities</span>.</p> </li> 
- <li value="3"> <p>Click the <span class="bold">gear icon</span> <img src="assets/settings-gear-icon.png"> to the right of the activity you want to edit . </p> <p> <img src="assets/activities-gear-icon-options-350x84.png" style="width: 350;height: 84;"> </p> </li> 
- <li value="4"> <p>Click <span class="bold">Edit</span> to edit the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>The name of the activity.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Owner</td> 
-     <td>The owner of activity. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to the goal for which you want to edit an activity and click the goal name to open the `Goal Details` panel.
+1. Click `Activities`.
+1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+
+   ![](assets/activities-gear-icon-options-350x84.png)
+
+1. Click `Edit` to edit the following information:
+
+   | Name |The name of the activity. |
+   |---|---|
+   | Owner |The owner of activity.  |
+
+1. Click `Save`.
 

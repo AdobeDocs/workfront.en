@@ -20,12 +20,15 @@ Consider the following when working with billing rates:
 
 * Billing rates are amounts of revenue per work unit associated with job roles or users. Multiplying the rates by the hours spent on work generates revenue for your projects.
 
-<ul> 
- <li> <p>After establishing your billing rates, you can then track revenue by creating billing records to record what has and has not been billed. <br></p> <note type="tip">
-   When you mark a Billing Record as Billed, it can never be edited. This is important when your rates vary and you want to lock the revenue and expense information on your project. Adding it to a billing record and marking it as Billed prevents it from being updated when the rates update in your system. 
-  </note> <p>For more information about creating billing records, see the article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" class="MCXref xref">Create billing records</a>.</p> </li> 
- <li>You can create billing rates for users, job roles, or you can have a one-time billing rate for a project or task.</li> 
-</ul>
+* After establishing your billing rates, you can then track revenue by creating billing records to record what has and has not been billed.
+
+  >[!TIP]
+  >
+  >When you mark a Billing Record as Billed, it can never be edited. This is important when your rates vary and you want to lock the revenue and expense information on your project. Adding it to a billing record and marking it as Billed prevents it from being updated when the rates update in your system.
+
+  For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
+
+* You can create billing rates for users, job roles, or you can have a one-time billing rate for a project or task.
 
 >[!IMPORTANT]
 >

@@ -23,32 +23,30 @@ For more information about folders, see [Manage Folders and their Contents in Wo
 
 To synchronize a Box folder with a folder in Workfront Proof:
 
-<ol> 
- <ol> 
-  <li value="1">In your Box account, go to the All Files and Folders page.</li> 
-  <li value="2">Click the <span class="bold">More options</span> menu next to the folder you want to sync with Workfront Proof (1).</li> 
-  <li value="3">Select <span class="bold">More Actions</span> (2).</li> 
-  <li value="4">Click <span class="bold">Sync with Workfront Proof</span> (3).</li> 
-  <li value="5">In the Sync folder box that appears (if you are logged into Workfront Proof), do one of the following: 
-   <ul>
-    <li>Click a Workfront Proof folder name to sync it with the corresponding folder in Box (4).</li>
-    <li>Click <span class="bold">New folder</span> to create a new folder in Workfront Proof (5).<br><img src="assets/folder-sync-2-350x231.jpg" alt="folder_sync_2.jpg" style="width: 350;height: 231;">If you chose to create a new folder, you are prompted to provide details about the new folder.</li>
-   </ul></li> 
-  <li value="6">Click <span class="bold">Save</span>.<br>The Folder details page for the synced folder opens in Workfront Proof. This page contains information about the folder. <br>This page also lets you pause and disable the sync. If you pause the sync, the folder will no longer be updated with the changes from Box, but the sync can be resumed at any time. Disabling the sync means that the connection between the folders is broken and the sync would need to be re-established from the Box account.<br>The Folder details page contains the following information and functions in relation to your folder in Box: 
-   <ul>
-    <li><span class="bold">Pause syncing</span>: The Workfront Proof folder will no longer be updated with the changes from Box. Sync can be resumed at any time (1).</li>
-    <li><span class="bold">Disable folder sync</span>: Connection between folders is lost, and the sync will have to be setup again from the Box account (2).<br></li><note type="note">
-     &nbsp;Only the user who started the folder sync can disable or pause it. For more information, see&nbsp;
-     <a href="../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md" class="MCXref xref">Manage Folders and their Contents in Workfront Proof</a>.
-    </note>
-    <li><span class="bold">Go to Box folder</span>: If you shared the folder URL (in the Box folder options), this option will become available and will take you straight to the Box folder (3).</li>
-    <li><span class="bold">Folder sync details</span>: This section contains information about the Box folder (4).</li>
-    <li><span class="bold">Box folder link</span>: URL to the Box folder (5).</li>
-    <li><span class="bold">Activity:</span> Shows you the activity logs of the Workfront Proof folder, here you can check who started the folder sync (6).</li>
-    <p><img src="assets/folder-details--1--350x324.jpg" alt="folder_details__1_.jpg" style="width: 350;height: 324;"></p>
-   </ul></li> 
- </ol> 
-</ol>
+1. In your Box account, go to the All Files and Folders page.
+1. Click the `More options` menu next to the folder you want to sync with Workfront Proof (1).
+1. Select `More Actions` (2).
+1. Click `Sync with Workfront Proof` (3).
+1. In the Sync folder box that appears (if you are logged into Workfront Proof), do one of the following:
+
+  * Click a Workfront Proof folder name to sync it with the corresponding folder in Box (4).
+  * Click `New folder` to create a new folder in Workfront Proof (5).  
+    ![folder_sync_2.jpg](assets/folder-sync-2-350x231.jpg)If you chose to create a new folder, you are prompted to provide details about the new folder.
+
+1. Click `Save`.  
+   The Folder details page for the synced folder opens in Workfront Proof. This page contains information about the folder.   
+   This page also lets you pause and disable the sync. If you pause the sync, the folder will no longer be updated with the changes from Box, but the sync can be resumed at any time. Disabling the sync means that the connection between the folders is broken and the sync would need to be re-established from the Box account.  
+   The Folder details page contains the following information and functions in relation to your folder in Box:
+
+  * `Pause syncing`: The Workfront Proof folder will no longer be updated with the changes from Box. Sync can be resumed at any time (1).
+  * `Disable folder sync`: Connection between folders is lost, and the sync will have to be setup again from the Box account (2).  
+  
+  * &nbsp;Only the user who started the folder sync can disable or pause it. For more information, see&nbsp; [Manage Folders and their Contents in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+  * `Go to Box folder`: If you shared the folder URL (in the Box folder options), this option will become available and will take you straight to the Box folder (3).
+  * `Folder sync details`: This section contains information about the Box folder (4).
+  * `Box folder link`: URL to the Box folder (5).
+  * `Activity:` Shows you the activity logs of the Workfront Proof folder, here you can check who started the folder sync (6).
+  * ![folder_details__1_.jpg](assets/folder-details--1--350x324.jpg)
 
 >[!NOTE]
 >

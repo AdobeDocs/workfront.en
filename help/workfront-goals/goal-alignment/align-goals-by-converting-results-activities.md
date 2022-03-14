@@ -68,13 +68,15 @@ Consider the following when converting results and activities to goals:
 
 ## Convert a result or activity to a goal
 
-<ol> 
- <li value="1">Go to a goal that has a result or an activity that you want to convert to a goal.</li> 
- <li value="2">Click the name of the goal to open the <span class="bold">Goal&nbsp;Details</span> panel.</li> 
- <li value="3">Expand the <span class="bold">Results</span> or <span class="bold">Activities</span> right-pointing arrows to see a list of results or activities for the goal. </li> 
- <li value="4"> <p>Click the <span class="bold">gear icon </span><img src="assets/settings-gear-icon.png"> to the right of the result or activity name that you want to convert, then click <span class="bold">Convert into a Goal</span>. </p> <p> <img src="assets/convert-to-goal-link-highlighted-350x191.png" style="width: 350;height: 191;"> </p> </li> 
- <li value="5">(Optional) Remove the name of the original activity or result owner from the <span class="bold">Goal Owner</span> field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. </li> 
- <li value="6">Click&nbsp;<span class="bold">Convert</span>. The activity or result displays as an aligned goal in the Goal&nbsp;Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. </li> 
- <li value="7">(Optional) Click the name of the new goal to open the <span class="bold">Goal Details</span> panel and edit the name of the goal. For information about editing any information for an existing goal, see <a href="../../workfront-goals/goal-management/edit-goals.md" class="MCXref xref">Edit goals in Adobe Workfront Goals</a>. </li> 
-</ol>
+1. Go to a goal that has a result or an activity that you want to convert to a goal.
+1. Click the name of the goal to open the `Goal Details` panel.
+1. Expand the `Results` or `Activities` right-pointing arrows to see a list of results or activities for the goal. 
+
+1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click `Convert into a Goal`.
+
+   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+
+1. (Optional) Remove the name of the original activity or result owner from the `Goal Owner` field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
+1. Click  `Convert`. The activity or result displays as an aligned goal in the Goal&nbsp;Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
+1. (Optional) Click the name of the new goal to open the `Goal Details` panel and edit the name of the goal. For information about editing any information for an existing goal, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
 

@@ -51,44 +51,58 @@ You must have the following access to perform the steps in this article:
 
 ## Upload a static Proof
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2">Go to the work item where you want to upload a static proof.</li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png"> in the navigation bar. </li> 
- <li value="4">Click <span class="bold">New File</span> near the bottom of the plugin.</li> 
- <li value="5"> <p>Select the art boards you wish to upload.</p> <note type="tip">
-   To select more than one art board, click and drag the mouse over the art boards you want.
-  </note> </li> 
- <li value="6">Choose the <span class="bold">Asset Type</span> from the drop-down menu.<br>
-  <table cellspacing="0">
-   <col>
-   <col>
-   <tbody>
-    <tr>
-     <td colspan="2" role="rowheader">Export Format</td>
-    </tr>
-    <tr>
-     <td role="rowheader">.png</td>
-     <td>The art board upoads as a .png to the work item's Documents tab in WorkfrontWork. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">.jpg</td>
-     <td>The art board uploads as a .jpg to the work item's Documents tab in Workfront. <br></td>
-    </tr>
-    <tr>
-     <td role="rowheader">.svg</td>
-     <td>The art board uploads as a .svg to the work item's Documents tab in Workfront. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">.pdf</td>
-     <td>The art board uploads as a .pdf to the work item's Documents tab in Workfront.</td>
-    </tr>
-   </tbody>
-  </table></li> 
- <li value="7">In the <b>Proof Approvals</b> section, click <span class="bold">Add Approvers</span>, then type the names of the users you want to tag for approval from the <span class="bold">Approvers</span> drop-down menu that appears.<br>Or<br>Click <span class="bold">Select Proof workflow</span>, then select the workflow from the <span class="bold">Workflow Template</span> drop-down menu that appears.</li> 
- <li value="8"> <p>(Optional) Type a comment in the <span class="bold">Updates</span> area.</p> <p> <img src="assets/proof-approvals-xd-350x847.png" style="width: 350;height: 847;"> </p> </li> 
- <li value="9"> <p>Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</p> </li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Go to the work item where you want to upload a static proof.
+1. Click the `Document` icon ![](assets/documents.png) in the navigation bar. 
+
+1. Click `New File` near the bottom of the plugin.
+1. Select the art boards you wish to upload.
+
+   >[!TIP]
+   >
+   >To select more than one art board, click and drag the mouse over the art boards you want.
+
+1. Choose the `Asset Type` from the drop-down menu.  
+
+   <table cellspacing="0">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td colspan="2" role="rowheader">Export Format</td>
+     </tr>
+     <tr>
+      <td role="rowheader">.png</td>
+      <td>The art board upoads as a .png to the work item's Documents tab in WorkfrontWork. </td>
+     </tr>
+     <tr>
+      <td role="rowheader">.jpg</td>
+      <td>The art board uploads as a .jpg to the work item's Documents tab in Workfront. <br></td>
+     </tr>
+     <tr>
+      <td role="rowheader">.svg</td>
+      <td>The art board uploads as a .svg to the work item's Documents tab in Workfront. </td>
+     </tr>
+     <tr>
+      <td role="rowheader">.pdf</td>
+      <td>The art board uploads as a .pdf to the work item's Documents tab in Workfront.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. In the **Proof Approvals** section, click `Add Approvers`, then type the names of the users you want to tag for approval from the `Approvers` drop-down menu that appears.  
+   Or  
+   Click `Select Proof workflow`, then select the workflow from the `Workflow Template` drop-down menu that appears.
+
+1. (Optional) Type a comment in the `Updates` area.
+
+   ![](assets/proof-approvals-xd-350x847.png)
+
+1. Click `Upload`.  
+   The document appears in the Documents area in the plugin and the desktop app.
 
 ## Upload an interactive proof
 
@@ -96,80 +110,85 @@ You can create an interactive proof for your art boards with the Workfront for A
 
 ### Create an interactive link for your art board
 
-<ol> 
- <li value="1">Open your art board, then click <span class="bold">Share</span> in the top-left area of the screen.</li> 
- <li value="2"> <p>Specify the link settings:</p> 
-  <ol> 
-   <li value="1"> <p>Name the link.</p> </li> 
-   <li value="2"> <p>Choose a view setting.</p> </li> 
-   <li value="3"> <p>In the <span class="bold">Link Access</span> section, ensure <span class="bold">Anyone with this link</span> is selected.</p> <p>You must enable this type of access in order to generate an interactive proof. </p> </li> 
-   <li value="4"> <p>Click <span class="bold">Create Link</span>.</p> </li> 
-  </ol> </li> 
- <li value="3"> <p>Click back to <span class="bold">Design</span> in the top-left area of the screen. Continue to the <a href="#upload" class="MCXref xref">Upload an interactive proof</a> section below. </p> <note type="note">
-   You may need to reopen the plugin panel in the bottom-left corner of the screen.
-  </note> </li> 
-</ol>
+1. Open your art board, then click `Share` in the top-left area of the screen.
+1. Specify the link settings:
+
+  1. Name the link.
+  1. Choose a view setting.
+  1. In the `Link Access` section, ensure `Anyone with this link` is selected.
+
+     You must enable this type of access in order to generate an interactive proof. 
+  
+  1. Click `Create Link`.
+
+1. Click back to `Design` in the top-left area of the screen. Continue to the [Upload an interactive proof](#upload) section below.
+
+   >[!NOTE]
+   >
+   >You may need to reopen the plugin panel in the bottom-left corner of the screen.
 
 ### Upload an interactive proof
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2">Go to the work item where you want to upload an interactive proof.</li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png"> in the navigation bar. </li> 
- <li value="4">Click <span class="bold">New File</span> near the bottom of the plugin.</li> 
- <li value="5"> <p>In the <span class="uitext">Asset Type </span>drop-down menu, choose the link you just created under the <span class="bold">Shared links</span>.<br><img src="assets/shared-links-xd-350x870.png" style="width: 350;height: 870;"></p> </li> 
- <li value="6">In the <span class="bold">Proof Approvals</span> section, click <span class="bold">Add Approvers</span>, then select the users you want to tag for approval from the <span class="bold">Approvers</span> drop-down menu that appears.<br>Or<br>Click <span class="bold">Select Proof workflow</span>, then select the workflow from the <span class="bold">Workflow Template</span> drop-down menu that appears.</li> 
- <li value="7">(Optional) Type a comment in the <span class="bold">Updates</span> area.</li> 
- <li value="8"> <p>Click <span class="bold">Upload</span>.</p> <p>The document appears in the Documents area in the plugin and the desktop app.</p> <note type="important">
-   Users must have access to the Desktop Proofing Viewer to review and approve interactive proofs. For more information, see 
-   <a href="../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md" class="MCXref xref">Install the Desktop Proofing Viewer with Automatic Updates</a>.
-  </note> </li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Go to the work item where you want to upload an interactive proof.
+1. Click the `Document` icon ![](assets/documents.png) in the navigation bar. 
+
+1. Click `New File` near the bottom of the plugin.
+1. In the `Asset Type`drop-down menu, choose the link you just created under the `Shared links`.  
+   ![](assets/shared-links-xd-350x870.png)
+
+1. In the `Proof Approvals` section, click `Add Approvers`, then select the users you want to tag for approval from the `Approvers` drop-down menu that appears.  
+   Or  
+   Click `Select Proof workflow`, then select the workflow from the `Workflow Template` drop-down menu that appears.
+
+1. (Optional) Type a comment in the `Updates` area.
+1. Click `Upload`.
+
+   The document appears in the Documents area in the plugin and the desktop app.
+
+   >[!IMPORTANT]
+   >
+   >Users must have access to the Desktop Proofing Viewer to review and approve interactive proofs. For more information, see [Install the Desktop Proofing Viewer with Automatic Updates](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
 ## Upload a new proof version
 
 You can upload a new version of a proof. The plugin remembers the proofing workflow set on the previous version, but you can change this if you wish.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2">Go to the work item you need to upload a document to.</li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png">in the navigation bar. </li> 
- <li value="4">Click <span class="bold">New Version</span> near the bottom of the plugin.</li> 
- <li value="5"> <p>Select the art boards you wish to upload.</p> <note type="note">
-   If you want to upload a new version of an .svg, .png, or .jpg, you can upload only one art board.
-  </note> </li> 
- <li value="6">Choose the <span class="bold">Asset Type</span> from the drop-down menu.<br>
-  <table cellspacing="0">
-   <col>
-   <col>
-   <tbody>
-    <tr>
-     <td colspan="2" role="rowheader">Export Format</td>
-    </tr>
-    <tr>
-     <td role="rowheader">.png</td>
-     <td>The art board uploads as a .png to the work item's Documents tab in Workfront. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">.jpg</td>
-     <td>The art board uploads as a .jpg to the work item's Documents tab in Workfront. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">.svg</td>
-     <td>The art board uploads as a .svg to the work item's Documents tab in Workfront. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">.pdf</td>
-     <td>The art board uploads as a .pdf to the work item's Documents tab in Workfront. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">Shared links</td>
-     <td>Proofs with shared links uploaded to Workfront don't technically need to have a new version uploaded. Because they are interactive, the link is always up to date with the most recent changes. However, you can still upload a new version if you want to capture that it is a new iteration of the asset ready for another round of review and approval.</td>
-    </tr>
-   </tbody>
-  </table></li> 
- <li value="7">In the <span class="bold">Proof Approvals</span> section, click <span class="bold">Add Approvers</span>, then select the users you want to tag for approval from the <span class="bold">Approvers</span> drop-down menu that appears.<br>Or<br>Click <span class="bold">Select Proof workflow</span>, then select the workflow from the <span class="bold">Workflow Template</span> drop-down menu that appears.</li> 
- <li value="8"> <p>(Optional) Type a comment in the <span class="bold">Updates</span> area.</p> <p> <img src="assets/proof-approvals-xd-350x847.png" style="width: 350;height: 847;"> </p> </li> 
- <li value="9">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Go to the work item you need to upload a document to.
+1. Click the `Document` icon ![](assets/documents.png)in the navigation bar. 
+
+1. Click `New Version` near the bottom of the plugin.
+1. Select the art boards you wish to upload.
+
+   >[!NOTE]
+   >
+   >If you want to upload a new version of an .svg, .png, or .jpg, you can upload only one art board.
+
+1. Choose the `Asset Type` from the drop-down menu.  
+
+   | Export Format |
+   |---|
+   | .png |The art board uploads as a .png to the work item's Documents tab in Workfront.  |
+   | .jpg |The art board uploads as a .jpg to the work item's Documents tab in Workfront.  |
+   | .svg |The art board uploads as a .svg to the work item's Documents tab in Workfront.  |
+   | .pdf |The art board uploads as a .pdf to the work item's Documents tab in Workfront.  |
+   | Shared links |Proofs with shared links uploaded to Workfront don't technically need to have a new version uploaded. Because they are interactive, the link is always up to date with the most recent changes. However, you can still upload a new version if you want to capture that it is a new iteration of the asset ready for another round of review and approval. |
+
+1. In the `Proof Approvals` section, click `Add Approvers`, then select the users you want to tag for approval from the `Approvers` drop-down menu that appears.  
+   Or  
+   Click `Select Proof workflow`, then select the workflow from the `Workflow Template` drop-down menu that appears.
+
+1. (Optional) Type a comment in the `Updates` area.
+
+   ![](assets/proof-approvals-xd-350x847.png)
+
+1. Click `Upload`.  
+   The document appears in the Documents area in the plugin and the desktop app.
 

@@ -38,39 +38,40 @@ You must have the following access in Workfront to perform the steps in this art
 
 ## Filter the projects list in Workfront View
 
-<ol> 
- <li value="1">Go to the list of projects in the Workfront View mobile app.</li> 
- <li value="2">Tap the list icon in the upper left of the list.<br>The list of available filters is displayed.<br><img src="assets/wf-view-filters-050621-350x427.jpg" alt="WF_View_filters_050621.jpg" style="width: 350;height: 427;"></li> 
- <li value="3">Select from the following filters:
-  <ul>
-   <li>Portfolios: Select specific portfolios whose projects you want to display.</li>
-   <li>Condition: Select to display only projects with a specific Condition.</li>
-   <li>Progress: Select to display only projects in a specific Progress Status.</li>
-   <li>Status: Select to display only projects in specific Statuses.</li>
-   <li>Planned Start: Select to display only projects with the Planned Start Date in the following time frames:
-    <ul>
-     <li>Past 3 Months</li>
-     <li>Past 2 Months</li>
-     <li>Past Month</li>
-     <li>Past Two Weeks</li>
-    </ul></li>
-   <li>Planned Complete: Select to display only projects with the Planned Completion Date in the following upcoming time frames:
-    <ul>
-     <li>Two Weeks</li>
-     <li>One Month</li>
-     <li>Two Months</li>
-     <li>Three Months</li>
-    </ul></li>
-   <li>Projected Complete:&nbsp;Select to display only projects with the Projected Completion Date in the following upcoming time frames:
-    <ul>
-     <li>Two Weeks</li>
-     <li>One Month</li>
-     <li>Two Months</li>
-     <li>Three Months</li>
-    </ul></li>
-   <li>Owner: Select to display projects that are assigned to specific Owners.</li>
-   <li>Sponsor: Select to display projects that are assigned to a specific Sponsor.</li>
-  </ul></li> 
- <li value="4">Tap anywhere on the list of projects to close the list icon.</li> 
-</ol>
+1. Go to the list of projects in the Workfront View mobile app.
+1. Tap the list icon in the upper left of the list.  
+   The list of available filters is displayed.  
+   ![WF_View_filters_050621.jpg](assets/wf-view-filters-050621-350x427.jpg)
+
+1. Select from the following filters:
+
+  * Portfolios: Select specific portfolios whose projects you want to display.
+  * Condition: Select to display only projects with a specific Condition.
+  * Progress: Select to display only projects in a specific Progress Status.
+  * Status: Select to display only projects in specific Statuses.
+  * Planned Start: Select to display only projects with the Planned Start Date in the following time frames:
+
+    * Past 3 Months
+    * Past 2 Months
+    * Past Month
+    * Past Two Weeks
+
+  * Planned Complete: Select to display only projects with the Planned Completion Date in the following upcoming time frames:
+
+    * Two Weeks
+    * One Month
+    * Two Months
+    * Three Months
+
+  * Projected Complete:&nbsp;Select to display only projects with the Projected Completion Date in the following upcoming time frames:
+
+    * Two Weeks
+    * One Month
+    * Two Months
+    * Three Months
+
+  * Owner: Select to display projects that are assigned to specific Owners.
+  * Sponsor: Select to display projects that are assigned to a specific Sponsor.
+
+1. Tap anywhere on the list of projects to close the list icon.
 

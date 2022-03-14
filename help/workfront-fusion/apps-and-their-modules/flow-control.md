@@ -49,14 +49,30 @@ For example, you could use a Repeater module to send five emails with the subjec
 
 To use a Repeater module:
 
-<ol> 
- <li value="1"> <p>Click the Flow Control icon <img src="assets/flow-control-icon.gif"> at the bottom of the screen, then click <span class="bold">Repeater</span> in the menu that displays.</p> </li> 
- <li value="2"> <p> Click the Repeater bundle, then click <span class="bold">Connect automatically</span> in the box that displays.</p> </li> 
- <li value="3"> <p>In the Flow Control box that appears, type the number of repetitions (outputted bundles) you want in the <span class="bold">Repeats</span> box.</p> <p>In our email example, you would type 5.</p> <p> <img src="assets/repeater-2-350x207.png" style="width: 350;height: 207;"> </p> <p>The value of the item increases in each repetition by this value specified in the <span class="bold">Step</span> field, which you can view by selecting <span class="bold">Show advanced settings</span>. This number is 1 by default.</p> </li> 
- <li value="4">Click <span class="bold">OK</span> to close the <span class="bold">Flow Control</span> box.</li> 
- <li value="5">Click the app or service module connected to the Repeater module.</li> 
- <li value="6"> <p>In the box that appears, type the information that you want to repeat.</p> <p>In our email example, you would type Hello in the Subject box, then map <code>i</code> from the repeater module.</p> <p> <img src="assets/repeater-3-350x207.png" style="width: 350;height: 207;"> </p> </li> 
-</ol>
+1. Click the Flow Control icon ![](assets/flow-control-icon.gif) at the bottom of the screen, then click `Repeater` in the menu that displays.
+1. Click the Repeater bundle, then click `Connect automatically` in the box that displays.
+1. In the Flow Control box that appears, type the number of repetitions (outputted bundles) you want in the `Repeats` box.
+
+   In our email example, you would type 5.
+
+   ![](assets/repeater-2-350x207.png)
+
+   The value of the item increases in each repetition by this value specified in the `Step` field, which you can view by selecting `Show advanced settings`. This number is 1 by default.
+
+1. Click `OK` to close the `Flow Control` box.
+
+1. Click the app or service module connected to the Repeater module.
+1. In the box that appears, type the information that you want to repeat.
+
+   In our email example, you would type Hello in the Subject box, then map 
+
+   ```
+   i
+   ```
+
+   from the repeater module.
+
+   ![](assets/repeater-3-350x207.png)
 
 | Initial value |Enter or map the number that you want the module to set as 
 

@@ -29,13 +29,31 @@ Some of these integrations are available at no additional&nbsp;cost, while other
 
 To get started with built-in (native) integrations, follow the following workflow:
 
-<ol> 
- <li value="1"> <p><span class="bold">Determine which native integration(s) best fits your needs</span> </p> <p>When choosing an integration, it is important to pick an application that people already use regularly. Integrating Workfront with a regularly, or frequently, used application will increase adoption among your users.</p> <p>For a list of available integrations, see <a href="#included-integrations" class="MCXref xref">Integrations available at no additional cost</a> and <a href="#integrat" class="MCXref xref">Integrations requiring an additional purchase</a>.</p> </li> 
- <li value="2"> <p><span class="bold">Identify your technology admin</span> </p> <p>Identify your organization’s technology admin for the application you want to integrate with Workfront. For example, if you choose to integrate with Jira, you must connect with your company’s Jira admin and involve them in any configuration needs within their platform. You should also involve this admin in any conversation with Workfront Customer Support.</p> <p>To get your admin started, you’ll need to provide them with the specific instructions for that integration. For links to these instructions, see <a href="#included-integrations" class="MCXref xref">Integrations available at no additional cost</a>.</p> </li> 
- <li value="3"> <p><span class="bold">Engage with Workfront Customer Support</span> </p> <p>If your admin has any issues with the native integration setup, you can engage with Workfront Customer Support to help guide or troubleshoot. While Workfront will not set up the integration for you, we are committed to giving you all the necessary tools and resources you need to do it yourself. You can speak directly to Customer Support, or you can explore the extensive resource articles to help you easily set up your integration.</p> <p>To connect with customer support, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>.</p> <p>For links to help articles, see <a href="#included-integrations" class="MCXref xref">Integrations available at no additional cost</a>. and <a href="#integrat" class="MCXref xref">Integrations requiring an additional purchase</a>.</p> <p>For instruction on creating a support case, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref">Contact Customer Support</a>.</p> <note type="note">
-   You must be the Assigned Support Contact at your organization to submit a support case. After the case is submitted, you can add your technology admin for the other system to the conversation. They cannot contact support directly by themselves.
-  </note> </li> 
-</ol>
+1. `Determine which native integration(s) best fits your needs`
+
+   When choosing an integration, it is important to pick an application that people already use regularly. Integrating Workfront with a regularly, or frequently, used application will increase adoption among your users.
+
+   For a list of available integrations, see [Integrations available at no additional cost](#included-integrations) and [Integrations requiring an additional purchase](#integrat).
+
+1. `Identify your technology admin`
+
+   Identify your organization’s technology admin for the application you want to integrate with Workfront. For example, if you choose to integrate with Jira, you must connect with your company’s Jira admin and involve them in any configuration needs within their platform. You should also involve this admin in any conversation with Workfront Customer Support.
+
+   To get your admin started, you’ll need to provide them with the specific instructions for that integration. For links to these instructions, see [Integrations available at no additional cost](#included-integrations).
+
+1. `Engage with Workfront Customer Support`
+
+   If your admin has any issues with the native integration setup, you can engage with Workfront Customer Support to help guide or troubleshoot. While Workfront will not set up the integration for you, we are committed to giving you all the necessary tools and resources you need to do it yourself. You can speak directly to Customer Support, or you can explore the extensive resource articles to help you easily set up your integration.
+
+   To connect with customer support, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+
+   For links to help articles, see [Integrations available at no additional cost](#included-integrations). and [Integrations requiring an additional purchase](#integrat).
+
+   For instruction on creating a support case, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+
+   >[!NOTE]
+   >
+   >You must be the Assigned Support Contact at your organization to submit a support case. After the case is submitted, you can add your technology admin for the other system to the conversation. They cannot contact support directly by themselves.
 
 We understand that the available built-in (native) integrations might not meet all of your company needs. If this is the case, contact your Account Executive to discuss a custom integration.
 

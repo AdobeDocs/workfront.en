@@ -50,17 +50,18 @@ If your company utilizes SSO, the following steps are required after you have yo
 >
 >This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left sidebar, click <span class="bold">System</span> > <span class="bold">Customer Info</span> and make sure that your domain is updated on the Customer Info page.</li> 
- <li value="3">In the left sidebar, click <span class="bold">System</span> > <span class="bold">Single Sign-On (SSO)</span>.</li> 
- <li value="4">Click <span class="bold">Download SAML 2.0 Metadata</span>.</li> 
- <li value="5">After the file is downloaded, open it and make sure of the following:
-  <ol>
-   <li value="1"><span class="bold">entityID</span> is pointing to the new domain.</li>
-   <li value="2">All locations within <span class="bold"><md:AssertionConsumerService></span> point to the new domain.</li>
-  </ol></li> 
- <li value="6">Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.</li> 
- <li value="7">Make sure the domain is updated for all Workfront integrations used by your organization.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left sidebar, click `System` > `Customer Info` and make sure that your domain is updated on the Customer Info page.
+
+1. In the left sidebar, click `System` > `Single Sign-On (SSO)`.
+
+1. Click `Download SAML 2.0 Metadata`.
+1. After the file is downloaded, open it and make sure of the following:
+
+  1. `entityID` is pointing to the new domain.
+  1. All locations within `<md:AssertionConsumerService>` point to the new domain.
+
+1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
+1. Make sure the domain is updated for all Workfront integrations used by your organization.
 

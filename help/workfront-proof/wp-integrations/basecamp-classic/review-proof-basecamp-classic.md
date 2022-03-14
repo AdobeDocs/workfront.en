@@ -19,19 +19,15 @@ Basecamp is an online project management tool developed by 37signals. If you use
 
 When integrated with Workfront Proof, Basecamp allows users to do the following with proofs:
 
-<ul> 
- <li>Users can review and approve proofs within Basecamp Classic.</li> 
- <li>Users have review tools readily available.</li> 
- <li>Project review teams receive a message in Basecamp with a mini proof for review and approval.</li> 
- <li>Users can switch to a full-page proof for review and approval.</li> 
- <li>Users can add comments and markups to both mini- and full-sized proofs.<br></li> <note type="note">
-   Once a comment has been replied to, it cannot be edited/deleted. For information about comments, see 
-  <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md" class="MCXref xref">Comment on a proof</a>.
- </note> 
- <li>Reviewers can respond to the and markups made by other reviewers. For information about comments, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md" class="MCXref xref">Comment on a proof</a>.</li> 
- <li>Users are alerted when a new version of proof is available.</li> 
- <li>Users who are not Workfront Proof users can work on a proof in Basecamp.</li> 
-</ul>
+* Users can review and approve proofs within Basecamp Classic.
+* Users have review tools readily available.
+* Project review teams receive a message in Basecamp with a mini proof for review and approval.
+* Users can switch to a full-page proof for review and approval.
+* Users can add comments and markups to both mini- and full-sized proofs.  
+* Once a comment has been replied to, it cannot be edited/deleted. For information about comments, see [Comment on a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+* Reviewers can respond to the and markups made by other reviewers. For information about comments, see [Comment on a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
+* Users are alerted when a new version of proof is available.
+* Users who are not Workfront Proof users can work on a proof in Basecamp.
 
 ## Viewing a Proof via the Notification Email
 
@@ -57,19 +53,27 @@ To open the proof from the email notification:
 
 You can access a proof from a Basecamp Classic message.&nbsp;
 
-<ol> 
- <li value="1">In Basecamp, go to your project page (1).<br><img src="assets/basecamp-classic-messages-1-350x120.png" alt="Basecamp_Classic_messages_1.png" style="width: 350;height: 120;"></li> 
- <li value="2">Click the message for the proof you want to open. (2)<br>The message for the proof opens, displaying a mini proof. The name of the proof displays at the top of the message window (3).<br>You can either view the thumbnail proof in Basecamp Classic or in Workfront Proof.<br><img src="assets/basecamp-classic-messages-2-350x501.png" alt="Basecamp_Classic_messages_2.png" style="width: 350;height: 501;"></li> 
- <li value="3">To view the proof in full-screen mode in Workfront proof, click the URL listed above the proof (4).</li> 
- <li value="4">(Conditional) If you are not logged into your Workfront Proof account in one of your browser windows, log to review the proof:
-  <ol>
-   <li value="1">Click <span class="bold">Sign In</span>&nbsp;(5) above the proof.</li>
-   <li value="2">Type your email address (6).<br>You must use the same email address that was used when you were added to the proof.</li>
-   <li value="3">Click <span class="bold">Next</span>.</li>
-   <li value="4">Type your Workfront Proof password (7).<br>Or<br>If you do not have a Workfront Proof account, type a public name to display. <br>You can select "remember me" so you only have to input your details once.</li>
-  </ol></li> 
- <li value="5">To review the proof, continue with <a href="#reviewing-your-proof-in-basecamp" class="MCXref xref">Reviewing a Proof in Basecamp</a>.</li> 
-</ol>
+1. In Basecamp, go to your project page (1).  
+   ![Basecamp_Classic_messages_1.png](assets/basecamp-classic-messages-1-350x120.png)
+
+1. Click the message for the proof you want to open. (2)  
+   The message for the proof opens, displaying a mini proof. The name of the proof displays at the top of the message window (3).  
+   You can either view the thumbnail proof in Basecamp Classic or in Workfront Proof.  
+   ![Basecamp_Classic_messages_2.png](assets/basecamp-classic-messages-2-350x501.png)
+
+1. To view the proof in full-screen mode in Workfront proof, click the URL listed above the proof (4).
+1. (Conditional) If you are not logged into your Workfront Proof account in one of your browser windows, log to review the proof:
+
+  1. Click `Sign In`&nbsp;(5) above the proof.
+  1. Type your email address (6).  
+     You must use the same email address that was used when you were added to the proof.
+  1. Click `Next`.
+  1. Type your Workfront Proof password (7).  
+     Or  
+     If you do not have a Workfront Proof account, type a public name to display.   
+     You can select "remember me" so you only have to input your details once.
+
+1. To review the proof, continue with [Reviewing a Proof in Basecamp](#reviewing-your-proof-in-basecamp).
 
 >[!NOTE]
 >

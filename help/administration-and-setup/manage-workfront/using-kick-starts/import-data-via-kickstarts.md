@@ -65,203 +65,214 @@ When you export a Kick-Start template you receive a blank Excel spreadsheet work
 
 To export a Kick-Start template:
 
-<ol> 
- <li value="1"> <p>(Conditional) If you are using Workfront Fusion, turn off active FLOs or scenarios.</p> <p>For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion <a href="https://learn.fusion.workfront.com/quickstart-2019/">Getting Started</a> guide. For information on how to deactivate scenarios in Workfront Fusion, see <a href="../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md" class="MCXref xref">Activate or deactivate a scenario</a>.</p> </li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="3">Click <span class="bold">System</span> > <span class="bold">Export Data (Kick-Starts)</span>.</li> 
- <li value="4"> <p>Click <b>More Options</b>, then select the types of information that you want to include.</p> <p>Each option that you select represents a collection of multiple tabs in the exported spreadsheet. For example, if you select the Report option, all the necessary objects for creating a report will be included in the spreadsheet (views, filters, groupings, reports).</p> <p>You can use all of the object types listed below to import data into Workfront. (The only exception is the Access Levels option. The Access Levels data sheet in an export is provided for reference purposes—it allows you to assign an access level to a new user account by ID.)</p> <p>The template for each of the object types can be exported in the following file formats and contains the following sheets:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th> <p><span class="bold">Object</span> </p> </th> 
-     <th> <p><span class="bold">Exports as</span> </p> </th> 
-     <th> <p><span class="bold">Sheets in the exported spreadsheet</span> </p> </th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td scope="col"> <p>Dashboard</p> <p>All dashboards in the system are available to export. You can select up to 100 specific dashboards in a single export.</p> </td> 
-     <td scope="col">Exports as ZIP file</td> 
-     <td scope="col"> <p>Parameter</p> <p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Report</p> <p>Portal Tab Section</p> <p>Dashboard</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col"> <p>Report</p> <p>All reports in the system are available to export. You can select up to 100 specific reports in a single export.</p> </td> 
-     <td scope="col">Exports as ZIP file </td> 
-     <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Parameter Option</p> <p scope="col">Parameter Group</p> <p scope="col">Category Parameter</p> <p scope="col">Category</p> <p scope="col">Report</p> <p scope="col">Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col"> <p>Approval</p> </td> 
-     <td scope="col"> <p>Exports as Excel file</p> </td> 
-     <td scope="col"> <p>Step Approver</p> <p>Approval Step</p> <p>Approval</p> <p>Approval Process</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col"> <p>Custom Data</p> </td> 
-     <td scope="col"> <p>Exports as Excel file</p> </td> 
-     <td scope="col"> <p>Parameter</p> <p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col"> <p>Expense Type</p> </td> 
-     <td scope="col"> <p>Exports as Excel file</p> </td> 
-     <td> <p>Expense Type</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p>Hour Type</p> </td> 
-     <td scope="col"> <p>Exports as Excel file</p> </td> 
-     <td> <p>Hour Type</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p>Team</p> </td> 
-     <td scope="col"> <p>Exports as Excel file</p> </td> 
-     <td> <p> Team Member</p> <p>Team</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td> <p>User</p> </td> 
-     <td> <p>Exports as Excel file. To see the full list of options, click <span class="bold">More Options</span>.</p> </td> 
-     <td> <p>User</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Access Level</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p>Access Level</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Assignment</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p>Assignment</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Company</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Company</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Email Template</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p>Email Template</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Expense</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Expense'</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>External Page</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> External Page</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Filter</td> 
-     <td>Exports as a ZIP file</td> 
-     <td> <p> Filter</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Group</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Group</p> <p>Preferences&nbsp;</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Grouping</td> 
-     <td>Exports as a ZIP file</td> 
-     <td> <p> Grouping</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Hour</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Hour</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Issue</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Issue</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Job Role</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Job role</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Milestone Path</td> 
-     <td> Exports as Excel file</td> 
-     <td> <p> Milestone</p> <p>Milestone Path</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Note</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Note</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Portfolio</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Portfolio</p> <p>Preferences&nbsp;</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Project</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Queue</p> <p>Project</p> <p>Routing Rule</p> <p>Queue Topic</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Resource Estimate</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Resource Estimate</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Resource Pool</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Resource Pool</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Risk</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Risk</p> <p>Preferences&nbsp;</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Risk Type</td> 
-     <td> Exports as Excel file</td> 
-     <td> <p> Risk Type</p> <p>Preferences</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Scorecard</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p>Scorecard Questions</p> <p>Scorecard Option</p> <p>Scorecard</p> <p>Preferences&nbsp;</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Task</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Task</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Template</td> 
-     <td> Exports as Excel file</td> 
-     <td> <p> Queue</p> <p>Template</p> <p>Routing Rule</p> <p>Queue Topic</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Template Assignment</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Template Assignment</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Template Task</td> 
-     <td>Exports as Excel file</td> 
-     <td> <p> Template Task</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>Timesheet</td> 
-     <td> Exports as Excel file</td> 
-     <td> <p> Timesheet Profile</p> <p>Timesheet</p> <p>Preferences </p> </td> 
-    </tr> 
-    <tr> 
-     <td>View </td> 
-     <td> <p>Exports as ZIP file</p> </td> 
-     <td> <p> View</p> <p>Preferences&nbsp;</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Download</span>.</li> 
- <li value="6">Continue with <a href="#populating-the-excel-template-with-your-data-and-uploading-to-workfront" class="MCXref xref">Populate the spreadsheet template with your data</a> to populate the template with your information.</li> 
-</ol>
+1. (Conditional) If you are using Workfront Fusion, turn off active FLOs or scenarios.
+
+   For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide. For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. Click `System` > `Export Data (Kick-Starts)`.
+
+1. Click **More Options**, then select the types of information that you want to include.
+
+   Each option that you select represents a collection of multiple tabs in the exported spreadsheet. For example, if you select the Report option, all the necessary objects for creating a report will be included in the spreadsheet (views, filters, groupings, reports).
+
+   You can use all of the object types listed below to import data into Workfront. (The only exception is the Access Levels option. The Access Levels data sheet in an export is provided for reference purposes—it allows you to assign an access level to a new user account by ID.)
+
+   The template for each of the object types can be exported in the following file formats and contains the following sheets:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><span class="bold">Object</span> </p> </th> 
+      <th> <p><span class="bold">Exports as</span> </p> </th> 
+      <th> <p><span class="bold">Sheets in the exported spreadsheet</span> </p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col"> <p>Dashboard</p> <p>All dashboards in the system are available to export. You can select up to 100 specific dashboards in a single export.</p> </td> 
+      <td scope="col">Exports as ZIP file</td> 
+      <td scope="col"> <p>Parameter</p> <p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Report</p> <p>Portal Tab Section</p> <p>Dashboard</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col"> <p>Report</p> <p>All reports in the system are available to export. You can select up to 100 specific reports in a single export.</p> </td> 
+      <td scope="col">Exports as ZIP file </td> 
+      <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Parameter Option</p> <p scope="col">Parameter Group</p> <p scope="col">Category Parameter</p> <p scope="col">Category</p> <p scope="col">Report</p> <p scope="col">Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col"> <p>Approval</p> </td> 
+      <td scope="col"> <p>Exports as Excel file</p> </td> 
+      <td scope="col"> <p>Step Approver</p> <p>Approval Step</p> <p>Approval</p> <p>Approval Process</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col"> <p>Custom Data</p> </td> 
+      <td scope="col"> <p>Exports as Excel file</p> </td> 
+      <td scope="col"> <p>Parameter</p> <p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col"> <p>Expense Type</p> </td> 
+      <td scope="col"> <p>Exports as Excel file</p> </td> 
+      <td> <p>Expense Type</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p>Hour Type</p> </td> 
+      <td scope="col"> <p>Exports as Excel file</p> </td> 
+      <td> <p>Hour Type</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p>Team</p> </td> 
+      <td scope="col"> <p>Exports as Excel file</p> </td> 
+      <td> <p> Team Member</p> <p>Team</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td> <p>User</p> </td> 
+      <td> <p>Exports as Excel file. To see the full list of options, click <span class="bold">More Options</span>.</p> </td> 
+      <td> <p>User</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Access Level</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p>Access Level</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Assignment</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p>Assignment</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Company</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Company</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Email Template</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p>Email Template</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Expense</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Expense'</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>External Page</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> External Page</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Filter</td> 
+      <td>Exports as a ZIP file</td> 
+      <td> <p> Filter</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Group</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Group</p> <p>Preferences&nbsp;</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Grouping</td> 
+      <td>Exports as a ZIP file</td> 
+      <td> <p> Grouping</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Hour</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Hour</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Issue</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Issue</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Job Role</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Job role</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Milestone Path</td> 
+      <td> Exports as Excel file</td> 
+      <td> <p> Milestone</p> <p>Milestone Path</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Note</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Note</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Portfolio</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Portfolio</p> <p>Preferences&nbsp;</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Project</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Queue</p> <p>Project</p> <p>Routing Rule</p> <p>Queue Topic</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Resource Estimate</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Resource Estimate</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Resource Pool</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Resource Pool</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Risk</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Risk</p> <p>Preferences&nbsp;</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Risk Type</td> 
+      <td> Exports as Excel file</td> 
+      <td> <p> Risk Type</p> <p>Preferences</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Scorecard</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p>Scorecard Questions</p> <p>Scorecard Option</p> <p>Scorecard</p> <p>Preferences&nbsp;</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Task</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Task</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Template</td> 
+      <td> Exports as Excel file</td> 
+      <td> <p> Queue</p> <p>Template</p> <p>Routing Rule</p> <p>Queue Topic</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Template Assignment</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Template Assignment</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Template Task</td> 
+      <td>Exports as Excel file</td> 
+      <td> <p> Template Task</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>Timesheet</td> 
+      <td> Exports as Excel file</td> 
+      <td> <p> Timesheet Profile</p> <p>Timesheet</p> <p>Preferences </p> </td> 
+     </tr> 
+     <tr> 
+      <td>View </td> 
+      <td> <p>Exports as ZIP file</p> </td> 
+      <td> <p> View</p> <p>Preferences&nbsp;</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Download`.
+1. Continue with [Populate the spreadsheet template with your data](#populating-the-excel-template-with-your-data-and-uploading-to-workfront) to populate the template with your information.
 
 ## Populate the spreadsheet template with your data
 
@@ -299,34 +310,33 @@ When you open one of these tabs, row 2 displays the fields for each object that 
 
 Each row of the sheet corresponds to a unique object.
 
-<ol> 
- <li value="1"> <p>Complete the cell in the <span class="bold">isNew</span> column:</p> 
-  <ul> 
-   <li> <p>If the object you are importing is new, type <span class="bold">TRUE</span> to import the data in the row.</p> </li> 
-   <li> <p>If the object is already in Workfront, type <span class="bold">FALSE</span> to ignore the row.</p> </li> 
-  </ul> </li> 
- <li value="2"> <p>Complete the cell in the <span class="bold">ID</span> column in one of the following ways:</p> 
-  <ul> 
-   <li>If the object you are importing is new (and you typed<span class="bold">TRUE</span> in the <span class="bold">isNew</span> column), specify any number for the ID. This number must be unique in the spreadsheet.</li> 
-   <li> <p>If the object you are importing already exists in the Workfront system (and you typed<span class="bold"> FALSE</span> in the <span class="bold">isNew</span> column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.</p> 
-    <div class="example" data-mc-autonum="<b>Example: </b>">
-     <span class="autonumber"><span><b>Example: </b></span></span> 
-     <p>For a project, the value displayed in the <span class="bold">setGroupID</span> column must one of the following:</p> 
-     <ul> 
-      <li>The GUID for an existing Group in your Workfront instance</li> 
-      <li> <p>The value (number) in the ID column on the <span class="bold">GROUP Group</span> sheet if you are creating a new Group during the import</p> <p> <img src="assets/verysimplekickstartprojectimport-350x31.png" style="width: 350;height: 31;"> </p> </li> 
-     </ul> 
-    </div> </li> 
-  </ul> </li> 
- <li value="3"> <p>Input values for the required fields and any other fields you want to populate during the import.</p> </li> 
- <li value="4"> <p>(Optional) To add custom data:</p> 
-  <ul> 
-   <li> Create a new column for each custom field that you want to include in the import process. </li> 
-   <li> Name each new column for its corresponding custom field as follows: <span class="bold">DE:[Name of Custom Field as Appears in Workfront]</span>.</li> 
-   <li>In the column <span class="bold">setCategoryID</span>, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.</li> 
-   <li> <p>If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Type A|D under the DE: Departments column to populate department A and department D in your custom form.</p> </li> 
-  </ul> </li> 
-</ol>
+1. Complete the cell in the `isNew` column:
+
+  * If the object you are importing is new, type `TRUE` to import the data in the row.
+  * If the object is already in Workfront, type `FALSE` to ignore the row.
+
+1. Complete the cell in the `ID` column in one of the following ways:
+
+  * If the object you are importing is new (and you typed `TRUE` in the `isNew` column), specify any number for the ID. This number must be unique in the spreadsheet.
+  
+  * If the object you are importing already exists in the Workfront system (and you typed `FALSE` in the `isNew` column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+  
+    ` `**Example: **`` For a project, the value displayed in the `setGroupID` column must one of the following:
+
+    * The GUID for an existing Group in your Workfront instance
+    * The value (number) in the ID column on the `GROUP Group` sheet if you are creating a new Group during the import
+
+      ![](assets/verysimplekickstartprojectimport-350x31.png)
+
+1. Input values for the required fields and any other fields you want to populate during the import.
+1. (Optional) To add custom data:
+
+  * Create a new column for each custom field that you want to include in the import process. 
+  * Name each new column for its corresponding custom field as follows: `DE:[Name of Custom Field as Appears in Workfront]`.
+  * In the column `setCategoryID`, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
+  * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
+
+    ` `**Example: **``Type A|D under the DE: Departments column to populate department A and department D in your custom form.
 
 ### Include dates
 
@@ -340,10 +350,10 @@ Workfront also accepts time values as part of the date (for example: 07/10/2022 
 
 If you omit a time in the date, Workfront does one of the following:
 
-<ul> 
- <li> <p>Assumes 12:00 AM</p> </li> 
- <li> <p>If it is on an object that is associated with a schedule, the time defers to the earliest time that the schedule allows:</p> <p> <img src="assets/dateformats.png"> </p> </li> 
-</ul>
+* Assumes 12:00 AM
+* If it is on an object that is associated with a schedule, the time defers to the earliest time that the schedule allows:
+
+  ![](assets/dateformats.png)
 
 >[!NOTE]
 >
@@ -388,19 +398,37 @@ You can use the following wildcards when populating your Kick-Start template spr
 
 Though it is a best practice to use IDs whenever possible, sometimes it's inconvenient to cross-reference IDs from one sheet to another when setting a `setAttributeID` value. You can reference values by name simply by changing the column header.
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-<ul> 
- <li> <p><span class="bold">(project import)</span> </p> <p>When importing projects,&nbsp;set the <span class="bold">setGroupID</span>&nbsp;of the projects by going to the <span class="bold">GROUP Group</span> sheet, making note of the respective Group IDs, and pasting them in the correct cells (<span class="bold">setGroupID</span> column) on the <span class="bold">PROJ Project</span> sheet. </p> <p>This is feasible when working with only a few groups and projects, but if you are working with several of each, it's not practical.</p> <p>To do the Attribute Name Substitution for the example described above, you change the <span class="bold">setGroupID</span> column header to <span class="bold">#setGroupID GROUP</span><span class="bold">name</span>. You can then reference each project's group by name.</p> <note type="note">
-   The option to use Attribute Name Substitution is limited to references for existing records only. You cannot use name substitution for objects you are creating in the same import.
-  </note> </li> 
- <li> <p><span class="bold">(user import)</span> </p> <p>When importing users,&nbsp;fill in the <span class="bold">setRoleID</span> from a list of roles on the <span class="bold">ROLE Role</span> tab. <br></p> <p>Some of the Role IDs are for records that already exist in the account, and others are being created during the import.</p> <p>For the new user&nbsp;records assigned to existing roles, you can use name substitution. For the new user&nbsp;records assigned to newly imported roles, you cannot. </p> <p>Here is how you can use both methods on the same import file:</p> 
-  <ul> 
-   <li>Add a column in the spreadsheet to the left of the <span class="bold">setRoleID</span> column.</li> 
-   <li>Name the new column <span class="bold">#setRoleID ROLE name</span>.</li> 
-   <li> <p>For role assignments to existing records, input the role names in the <span class="bold">#setRoleID ROLE name</span> column.</p> <p>For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.<br></p> <p> <img src="assets/setroleid-350x66.png" style="width: 350;height: 66;"> </p> </li> 
-  </ul> </li> 
-</ul>
+* `(project import)`
+
+  When importing projects, set the `setGroupID` of the projects by going to the `GROUP Group` sheet, making note of the respective Group IDs, and pasting them in the correct cells ( `setGroupID` column) on the `PROJ Project` sheet.
+
+  This is feasible when working with only a few groups and projects, but if you are working with several of each, it's not practical.
+
+  To do the Attribute Name Substitution for the example described above, you change the `setGroupID` column header to `#setGroupID GROUP` `name`. You can then reference each project's group by name.
+
+  >[!NOTE]
+  >
+  >The option to use Attribute Name Substitution is limited to references for existing records only. You cannot use name substitution for objects you are creating in the same import.
+
+* `(user import)`
+
+  When importing users, fill in the `setRoleID` from a list of roles on the `ROLE Role` tab.
+
+  Some of the Role IDs are for records that already exist in the account, and others are being created during the import.
+
+  For the new user&nbsp;records assigned to existing roles, you can use name substitution. For the new user&nbsp;records assigned to newly imported roles, you cannot.
+
+  Here is how you can use both methods on the same import file:
+
+  * Add a column in the spreadsheet to the left of the `setRoleID` column.
+  * Name the new column `#setRoleID ROLE name`.
+  * For role assignments to existing records, input the role names in the `#setRoleID ROLE name` column.
+
+    For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
+
+    ![](assets/setroleid-350x66.png)
 
 ## Import the spreadsheet data into Workfront
 
@@ -418,12 +446,23 @@ The Kick-Start import supports the following file types:
 
 To import the template spreadsheet data into Workfront:
 
-<ol> 
- <li value="1"> <p>(Conditional) If you are using Workfront Fusion, ensure that your FLOs or scenarios are turned off.</p> <p>For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion <a href="https://learn.fusion.workfront.com/quickstart-2019/">Getting Started</a> guide.</p> <p>For information on how to deactivate scenarios in Workfront Fusion, see <a href="../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md" class="MCXref xref">Activate or deactivate a scenario</a>.</p> </li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="3">Click <span class="bold">System</span> ><span class="bold"> Import Data (Kick-Starts)</span>.</li> 
- <li value="4">In the <span class="bold">Upload data with Kick-Start spreadsheet</span> section, click <span class="bold">Choose File</span>, then browse to and select the populated spreadsheet.</li> 
- <li value="5"> <p>Click <span class="bold">Upload.</span></p> <p>If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and the file cannot be uploaded.</p> <p>Try importing your data in smaller batches of objects. &nbsp;</p> </li> 
- <li value="6"> <p>(Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.</p> </li> 
-</ol>
+1. (Conditional) If you are using Workfront Fusion, ensure that your FLOs or scenarios are turned off.
+
+   For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide.
+
+   For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. Click `System` > `Import Data (Kick-Starts)`.
+
+1. In the `Upload data with Kick-Start spreadsheet` section, click `Choose File`, then browse to and select the populated spreadsheet.
+
+1. Click `Upload.`
+
+   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and the file cannot be uploaded.
+
+   Try importing your data in smaller batches of objects. &nbsp;
+
+1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.
 

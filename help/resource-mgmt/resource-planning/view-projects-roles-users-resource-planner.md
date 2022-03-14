@@ -25,12 +25,19 @@ You can view the following levels of information in the Resource Planner:
 
 You can see the following projects in the Resource Planner:
 
-<ul> 
- <li> <p>Projects you have permissions to at least view. </p> <p>You must also have access to at least View Resource Management in your access level. </p> <p>For information about the access needed to use the Resource Planner see <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>. </p> </li> 
- <li> <p>Projects limited by the filter applied to the Resource Planner. </p> <p>For more information about filtering information in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</p> <note type="note">
-   We recommend using filters to reduce the number of projects you display in the Resource Planner.
-  </note> </li> 
-</ul>
+* Projects you have permissions to at least view.
+
+  You must also have access to at least View Resource Management in your access level.
+
+  For information about the access needed to use the Resource Planner see [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md). 
+
+* Projects limited by the filter applied to the Resource Planner.
+
+  For more information about filtering information in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+
+  >[!NOTE]
+  >
+  >We recommend using filters to reduce the number of projects you display in the Resource Planner.
 
 ## Project Planning Priority
 

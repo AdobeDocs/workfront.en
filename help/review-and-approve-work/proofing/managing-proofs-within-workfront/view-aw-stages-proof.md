@@ -43,33 +43,48 @@ You must have the following access to perform the steps in this article:
 
 ## View the Automated Workflow diagram
 
-<ol> 
- <li value="1"> <p>In a document list that contains the document, hover over the row containing the document, then click Proofing Workflow.</p> <p>The diagram for the Automated Workflow displays just below the Workflow title.</p> <p>The stages on the diagram are marked as follows:</p> <p> <img src="assets/dot.png" alt="dot.png"> Active stage</p> <p> <img src="assets/grey-dot.png" alt="grey_dot.png"> Inactive stage<br><img src="assets/sbw-key-icon.png" alt="sbw-key-icon.png">&nbsp; Private stage</p> <p> <img src="assets/sbw-padlock-icon.png" alt="sbw-padlock-icon.png">&nbsp; Locked stage</p> <p>The lines between the stages depict the dependencies between the stages. The lines leading to inactive stages are dotted until the stage is activated.</p> <p>You can hover over a stage in the diagram to display its progress. If the stage is not active and you have edit rights on the stage, you can click the Activate stage button <img src="assets/activate-stage-btn.png"> to start the stage. If the stage is active and you have edit rights on the stage, you can lock it. <img src="assets/lock-stage-btn.png"> For more information about the Progress bar (S, O, C, D) , see&nbsp;<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md" class="MCXref xref">View the Progress and Status of a Proof in Workfront Proof</a>.</p> </li> 
-</ol>
+1. In a document list that contains the document, hover over the row containing the document, then click Proofing Workflow.
+
+   The diagram for the Automated Workflow displays just below the Workflow title.
+
+   The stages on the diagram are marked as follows:
+
+   ![dot.png](assets/dot.png) Active stage
+
+   ![grey_dot.png](assets/grey-dot.png) Inactive stage  
+   ![sbw-key-icon.png](assets/sbw-key-icon.png)&nbsp; Private stage
+
+   ![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)&nbsp; Locked stage
+
+   The lines between the stages depict the dependencies between the stages. The lines leading to inactive stages are dotted until the stage is activated.
+
+   You can hover over a stage in the diagram to display its progress. If the stage is not active and you have edit rights on the stage, you can click the Activate stage button ![](assets/activate-stage-btn.png) to start the stage. If the stage is active and you have edit rights on the stage, you can lock it. ![](assets/lock-stage-btn.png) For more information about the Progress bar (S, O, C, D) , see&nbsp; [View the Progress and Status of a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## View a stage
 
-<ol> 
- <li value="1">In a document list that contains the document, hover over the row containing the document, then click Proofing Workflow.</li> 
- <li value="2"> <p>On the diagram, click the stage that you want to view.</p> <p> <img src="assets/view-stage-diagram-350x204.png" style="width: 350;height: 204;"> </p> </li> 
- <li value="3"> <p>To expand the details for a stage, click the sideways arrow below its name.</p> <p> <img src="assets/stage-details-caret-350x167.png" style="width: 350;height: 167;"> </p> </li> 
-</ol>
+1. In a document list that contains the document, hover over the row containing the document, then click Proofing Workflow.
+1. On the diagram, click the stage that you want to view.
+
+   ![](assets/view-stage-diagram-350x204.png)
+
+1. To expand the details for a stage, click the sideways arrow below its name.
+
+   ![](assets/stage-details-caret-350x167.png)
 
 ## View all stages
 
 To view all stages in an Automated Workflow:
 
-<ol> 
- <li value="1"> <p>Click the Change View button at t the top of the page <img src="assets/change-view-btn.png">, then click <span class="bold">View all stages</span>.</p> <p>All of the stages of the Automated Workflow are listed in the section, however the details are hidden.</p> </li> 
- <li value="2"> <p>To expand the details of a stage, click the sideways arrow below its name.</p> </li> 
-</ol>
+1. Click the Change View button at t the top of the page ![](assets/change-view-btn.png), then click `View all stages`.
+
+   All of the stages of the Automated Workflow are listed in the section, however the details are hidden.
+
+1. To expand the details of a stage, click the sideways arrow below its name.
 
 ## View all stages in detail
 
 To view all stages of your Automated Workflow with their details expanded:
 
-<ol> 
- <li value="1"> <p>Click the Change View button at t the top of the page <img src="assets/change-view-btn.png">, then click <span class="bold">View all stages in detail</span>.</p> </li> 
- <li value="2">To view the details of a stage, click the down arrow below its name.</li> 
-</ol>
+1. Click the Change View button at t the top of the page ![](assets/change-view-btn.png), then click `View all stages in detail`.
+1. To view the details of a stage, click the down arrow below its name.
 

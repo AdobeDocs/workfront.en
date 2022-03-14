@@ -100,25 +100,40 @@ Before you begin, you must do the following:
 >(is this still accurate for the Scenario Planner?)>
 >-->
 
-<ol> 
- <li value="1"> <p>Go to the project for which you want to budget resources. </p> <note type="tip">
-   This is a project linked to an initiative in the Scenario Planner whose linked initiative has been published at least once. 
-  </note> </li> 
- <li value="2"> <p>Click <span class="bold">Business Case</span> in the left panel.</p> </li> 
- <li value="3"> <p>(Conditional) In the <span class="bold">Resource Budgeting</span> section, do one of the following:</p> 
-  <ul style="list-style-type: circle;"> 
-   <li> <p>If you just published information from the Scenario Planner, select Scenario Planner in the <span class="bold">Choose which hours to use to calculate the Budgeted Labor Cost of the project</span> field in the Resource Budgeting area, then click <span class="bold">Choose</span>. </p> <p> <img src="assets/business-case-sp-selected-with-choose-button-350x121.png" style="width: 350;height: 121;"> </p> </li> 
-   <li> <p> If the Resource Planner was previously selected for budgeting resources for the project, click <b>Change</b> > <b>Scenario Planner</b> > <b>Choose</b>. </p> <p> <img src="assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png" style="width: 350;height: 37;"> </p> <p>Workfront uses the required job role hours from the linked initiative to calculate the project's Budgeted Labor Cost. This is the recommended option. Cost displays in the Business Case in the currency of the project.</p> <note type="important"> 
-     <p>When you use the Scenario Planner to budget resources for the project, the Budgeted Labor&nbsp;Cost displays in the following areas of Workfront:</p> 
-     <ul> 
-      <li> <p>Resource Budgeting area of the Business Case </p> </li> 
-      <li> <p>The system-level Scenario Planner as the People Cost of the initiative linked to the project. For more information, see <a href="../../../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Adobe Workfront Scenario Planner</a>. </p> </li> 
-     </ul> 
-    </note> </li> 
-  </ul> </li> 
- <li value="4"> <p>(Optional)&nbsp;Click&nbsp;<span class="bold">View in Scenario Planner</span> to open the plan that contains the initiative linked to the project. This opens the Scenario Planner in a new browser tab. </p> </li> 
- <li value="5"> <p>(Optional) Update information on the initiative. For more information, see <a href="../../../scenario-planner/create-and-edit-initiatives.md" class="MCXref xref">Create and edit initiatives in the Adobe Workfront Scenario Planner</a>. </p> <note type="note">
-   You must publish the initiative after every change for the Resource Budgeting area on the project to update. 
-  </note> </li> 
-</ol>
+1. Go to the project for which you want to budget resources.
+
+   >[!TIP]
+   >
+   >This is a project linked to an initiative in the Scenario Planner whose linked initiative has been published at least once.
+
+1. Click `Business Case` in the left panel.
+1. (Conditional) In the `Resource Budgeting` section, do one of the following:
+
+  * If you just published information from the Scenario Planner, select Scenario Planner in the `Choose which hours to use to calculate the Budgeted Labor Cost of the project` field in the Resource Budgeting area, then click `Choose`.
+
+    ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+
+  * If the Resource Planner was previously selected for budgeting resources for the project, click **Change** > **Scenario Planner** > **Choose**.
+
+    ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+
+    Workfront uses the required job role hours from the linked initiative to calculate the project's Budgeted Labor Cost. This is the recommended option. Cost displays in the Business Case in the currency of the project.
+
+    >[!IMPORTANT]
+    >
+    >When you use the Scenario Planner to budget resources for the project, the Budgeted Labor&nbsp;Cost displays in the following areas of Workfront:
+    >
+    >  
+    >  
+    >  * Resource Budgeting area of the Business Case 
+    >  * The system-level Scenario Planner as the People Cost of the initiative linked to the project. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md). 
+    >  
+    >
+
+1. (Optional) Click  `View in Scenario Planner` to open the plan that contains the initiative linked to the project. This opens the Scenario Planner in a new browser tab. 
+1. (Optional) Update information on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
+
+   >[!NOTE]
+   >
+   >You must publish the initiative after every change for the Resource Budgeting area on the project to update.
 

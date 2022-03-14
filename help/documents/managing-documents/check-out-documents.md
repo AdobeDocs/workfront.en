@@ -43,28 +43,33 @@ You must have the following access to perform the steps in this article:
 
 Users with manage access to the document&nbsp;can do the following:
 
-<ul> 
- <li>Edit&nbsp;the document (document name, description, custom data)</li> 
- <li>Move the document</li> 
- <li>Share the document</li> 
- <li>Preview the document</li> 
- <li>Download the document<br><note type="tip">
-   &nbsp;Although a user can download a document when it is checked out by another user, we&nbsp;recommend that users wait until the document has been checked back in before downloading it. When a document is checked out, it often indicates that work is still being done on the document. Waiting until a document is checked back in to download it ensures the user has the most recent version.
-  </note></li> 
- <li>Approve a document or apply an approval to the document.</li> 
- <li> <p>Review the document in the proofing viewer</p> <p>For more information about proofing, see <a href="../../review-and-approve-work/proofing/proofing.md" class="MCXref xref">Proofing</a></p> </li> 
-</ul>
+* Edit&nbsp;the document (document name, description, custom data)
+* Move the document
+* Share the document
+* Preview the document
+* Download the document
+
+  >[!TIP]
+  >
+  >&nbsp;Although a user can download a document when it is checked out by another user, we&nbsp;recommend that users wait until the document has been checked back in before downloading it. When a document is checked out, it often indicates that work is still being done on the document. Waiting until a document is checked back in to download it ensures the user has the most recent version.
+
+* Approve a document or apply an approval to the document.
+* Review the document in the proofing viewer
+
+  For more information about proofing, see [Proofing](../../review-and-approve-work/proofing/proofing.md)
 
 ## Check a document out
 
 If you have manage permissions to a document, you can check it out to forbid&nbsp;certain actions on the document.&nbsp;
 
-<ol> 
- <li value="1"> <p>Go to the area where your document is stored, then select the document.&nbsp;</p> <p>For information about adding documents, see <a href="../../documents/adding-documents-to-workfront/add-documents-from-file-system.md" class="MCXref xref">Add documents to Adobe Workfront from your file system</a>.</p> </li> 
- <li value="2"> <p> Click the Check Out icon. <br><![CDATA[               ]]></p> </li> 
- <li value="3"> <p>A lock icon <img src="assets/lock-icon-locked-qs.png"> displays to the right of the document name. The document stays checked out after you log out of Workfront.</p> </li> 
- <p>Only the user who checked out&nbsp;the document or the Workfront administrator can check&nbsp;the document in.</p> 
-</ol>
+1. Go to the area where your document is stored, then select the document.&nbsp;
+
+   For information about adding documents, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
+1. Click the Check Out icon.   
+   <![CDATA[ ]]>
+1. A lock icon ![](assets/lock-icon-locked-qs.png) displays to the right of the document name. The document stays checked out after you log out of Workfront.
+1. Only the user who checked out&nbsp;the document or the Workfront administrator can check&nbsp;the document in.
 
 ## Manage checked out documents
 
@@ -85,8 +90,9 @@ You must check a document back in before you can upload a new version or delete 
 
 To check in a document:
 
-<ol> 
- <li value="1"> <p>Go to the area where your document is stored and select the document.&nbsp;</p> <p>A lock icon <img src="assets/lock-icon-locked-qs.png"> displays to the right of the document name.</p> </li> 
- <li value="2"> <p> Click the Check In icon . <br> </p> </li> 
-</ol>
+1. Go to the area where your document is stored and select the document.&nbsp;
+
+   A lock icon ![](assets/lock-icon-locked-qs.png) displays to the right of the document name.
+
+1. Click the Check In icon .
 

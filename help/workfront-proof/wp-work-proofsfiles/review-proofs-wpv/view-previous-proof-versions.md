@@ -21,10 +21,11 @@ You can view a previous version of a proof if one exists. Previous versions are 
 
 To view a previous version:
 
-<ol> 
- <li value="1">Open the proof.</li> 
- <li value="2"> <p>In the upper-left corner of the proofing viewer, click the name of the proof.</p> <p> <img src="assets/phq-viewer-version-350x184.png" alt="phq_viewer_version.png" style="width: 350;height: 184;"> </p> </li> 
- <li value="3"> <p>In the list that appears, click the version you want to view.</p> </li> 
- <li value="4">(Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the <span class="bold">Unlock</span> icon in the left panel, then click <span class="bold">Yes, unlock</span>. </li> 
-</ol>
+1. Open the proof.
+1. In the upper-left corner of the proofing viewer, click the name of the proof.
+
+   ![phq_viewer_version.png](assets/phq-viewer-version-350x184.png)
+
+1. In the list that appears, click the version you want to view.
+1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the `Unlock` icon in the left panel, then click `Yes, unlock`.
 

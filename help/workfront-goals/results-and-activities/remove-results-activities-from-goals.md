@@ -75,19 +75,40 @@ You must have the following before you can start:
 
 Removing results and activities from goals is identical.
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span><img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the Workfront Goals area. </p> <p>The Goal List displays by default. </p> </p> </li> 
- <li value="2"> <p>Click the name of a goal you want to remove results and activities from. </p> <p>This opens the Goal Details panel on the right.</p> </li> 
- <li value="3">Click <span class="bold">Results</span> to remove results or <span class="bold">Activities</span> to remove activities. </li> 
- <li value="4"> <p>Click the <span class="bold">gear icon</span> <img src="assets/settings-gear-icon.png"> to the right of the result or activity name, then click <span class="bold">Delete</span> > <span class="bold">Yes, delete</span>. </p> <p> <img src="assets/delete-result-goal-details-350x108.png" style="width: 350;height: 108;"> </p> <p>The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result. </p> </li> 
-</ol>
+1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+
+   This opens the Workfront Goals area.
+
+   The Goal List displays by default. 
+
+1. Click the name of a goal you want to remove results and activities from.
+
+   This opens the Goal Details panel on the right.
+
+1. Click `Results` to remove results or `Activities` to remove activities. 
+
+1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the result or activity name, then click `Delete` > `Yes, delete`.
+
+   ![](assets/delete-result-goal-details-350x108.png)
+
+   The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
 ## Disconnect projects from goals
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner of your screen.</p> <p>This opens the Workfront Goals area. </p> <p>The Goal List displays by default. </p> </p> </li> 
- <li value="2"> <p>Click the name of a goal you want to remove results and activities from. </p> <p>This opens the Goal Details panel on the right.</p> </li> 
- <li value="3">Click the <span class="bold">right-pointing arrow</span> to the left of the Activities sections to expand it. </li> 
- <li value="4"> <p>Click the <span class="bold">gear icon</span> <img src="assets/settings-gear-icon.png"> to the right of the project name, then click <span class="bold">Disconnect</span>.</p> <p> <img src="assets/disconnect-project-goal-details-350x94.png" style="width: 350;height: 94;"> </p> <p>The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of your screen.
+
+   This opens the Workfront Goals area.
+
+   The Goal List displays by default. 
+
+1. Click the name of a goal you want to remove results and activities from.
+
+   This opens the Goal Details panel on the right.
+
+1. Click the `right-pointing arrow` to the left of the Activities sections to expand it. 
+1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the project name, then click `Disconnect`.
+
+   ![](assets/disconnect-project-goal-details-350x94.png)
+
+   The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
 

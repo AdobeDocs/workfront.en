@@ -82,58 +82,68 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 ## Review goal progress in graphs
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the Workfront Goals area. </p> </p> </li> 
- <li value="2"> <p>Click <span class="bold">Graphs</span> in the left panel. </p> <p> <img src="assets/graphs-in-left-panel.png"> </p> <p>The Graphs section displays. </p> <p>By default, the goals displayed in the Graphs section are limited by the following criteria:&nbsp;</p> 
-  <ul> 
-   <li>The filters applied to the Graphs area. </li> 
-   <li> <p>Goals that are in a status of Active and Draft. </p> </li> 
-  </ul> </li> 
- <li value="3"> <p>(Optional) Select the type of information you want to display by updating the filters in the upper-right corner of the Graphs section. </p> <p>For more information about filtering goals, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>.</p> <note type="tip">
-   If you selected to display more than one time period, a health chart (gauge) as well as a progress chart (line) displays for each time period. 
-  </note> </li> 
- <li value="4"> <p>Review the information in the table below when you review the Goal Health Chart.</p> <p> <img src="assets/gauge-graph-wf-align-350x230.png" style="width: 350;height: 230;"> </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Total number of goals</td> 
-     <td>The number at the bottom of the chart indicates the number of all goals in the selected period, in all statuses you selected.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Average percent complete</td> 
-     <td>At the top of the chart, this number indicates the average percent complete of active and closed goals in the selected time period.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Goals and their progress</td> 
-     <td>The number of goals for each progress status segment, when you hover over the segments of the chart. Only goals in a status of Active or Closed are counted in the segments. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>Review the information in the table below when you review the Goal&nbsp;Progress Chart. </p> <p> <img src="assets/line-graph-wf-align-350x161.png" style="width: 350;height: 161;"> </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Baseline progress</td> 
-     <td>The green slope line indicates the expected overall percent complete average of active and closed goals for the selected time period. All goals within a period are expected to complete, so the baseline progress is always 100% at the end of the period. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Actual progress</td> 
-     <td> <p>The blue line indicates the actual overall percent complete average of active and closed goals for the selected time period in weekly increments. Each week during the duration of the goal is marked by a node in the line. </p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6"> <p>Hover a week node in the goal progress chart and review the following:</p> 
-  <ul> 
-   <li><span class="bold">Week date</span>: The month, day, and year of the selected week.</li> 
-   <li><span class="bold">Progress</span>:&nbsp;An average of the actual percent complete of all goals for the selected week.</li> 
-   <li><span class="bold">Baseline</span>: An average of the expected percent complete of all goals for the selected week.</li> 
-  </ul> </li> 
- <li value="7"> <p>(Optional)&nbsp;Click <span class="bold">Progress</span> at the bottom of the progress chart to remove the actual overall progress line</p> <p>Or</p> <p>Click <span class="bold">Baseline</span> at the bottom of the progress chart to remove the expected progress from the chart. </p> </li> 
-</ol>
+1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+
+   This opens the Workfront Goals area. 
+
+1. Click `Graphs` in the left panel.
+
+   ![](assets/graphs-in-left-panel.png)
+
+   The Graphs section displays.
+
+   By default, the goals displayed in the Graphs section are limited by the following criteria:&nbsp;
+
+  * The filters applied to the Graphs area. 
+  * Goals that are in a status of Active and Draft.
+
+1. (Optional) Select the type of information you want to display by updating the filters in the upper-right corner of the Graphs section.
+
+   For more information about filtering goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+
+   >[!TIP]
+   >
+   >If you selected to display more than one time period, a health chart (gauge) as well as a progress chart (line) displays for each time period.
+
+1. Review the information in the table below when you review the Goal Health Chart.
+
+   ![](assets/gauge-graph-wf-align-350x230.png)
+
+   | Total number of goals |The number at the bottom of the chart indicates the number of all goals in the selected period, in all statuses you selected. |
+   |---|---|
+   | Average percent complete |At the top of the chart, this number indicates the average percent complete of active and closed goals in the selected time period. |
+   | Goals and their progress |The number of goals for each progress status segment, when you hover over the segments of the chart. Only goals in a status of Active or Closed are counted in the segments.  |
+
+1. Review the information in the table below when you review the Goal&nbsp;Progress Chart.
+
+   ![](assets/line-graph-wf-align-350x161.png)
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Baseline progress</td> 
+      <td>The green slope line indicates the expected overall percent complete average of active and closed goals for the selected time period. All goals within a period are expected to complete, so the baseline progress is always 100% at the end of the period. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Actual progress</td> 
+      <td> <p>The blue line indicates the actual overall percent complete average of active and closed goals for the selected time period in weekly increments. Each week during the duration of the goal is marked by a node in the line. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Hover a week node in the goal progress chart and review the following:
+
+  * `Week date`: The month, day, and year of the selected week.
+  * `Progress`:&nbsp;An average of the actual percent complete of all goals for the selected week.
+  * `Baseline`: An average of the expected percent complete of all goals for the selected week.
+
+1. (Optional) Click `Progress` at the bottom of the progress chart to remove the actual overall progress line
+
+   Or
+
+   Click `Baseline` at the bottom of the progress chart to remove the expected progress from the chart.
 
 <!--
 (Optional) Click one of the following tabs to view goals filtered by their owners: Personal Goals where you are designated as the owner or that have a result or activity that you own. My Teams Goals where any of your teams is designated as the Owner. Tip: If you are not assigned to any teams, no results display when you select the My Teams filter. My Groups Goals where any of your groups is designated as the Owner. Company Goals where your organization is the owner. This is the organization associated with your Workfront instance, as described in Configure basic information for your system. Tip: In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. All Goals owned by you, your teams, your groups, your company, or anyone in your organization.

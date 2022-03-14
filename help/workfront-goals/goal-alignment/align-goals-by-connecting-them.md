@@ -65,23 +65,35 @@ You must have the following before you can start:
 
 ## Align two goals to one another
 
-<ol> 
- <li value="1"> <p>Create two goals that you want to align. For information about creating goals, see <a href="../../workfront-goals/goal-management/create-goals.md" class="MCXref xref">Create goals in Adobe Workfront Goals</a>.</p> </li> 
- <li value="2"> <p>(Optional)&nbsp;Activate the goals that you want to align.&nbsp;You can align goals that have a Draft, Active, or Inactive status. For information about activating goals, see <a href="../../workfront-goals/goal-management/activate-goals.md" class="MCXref xref">Activate goals in Adobe Workfront Goals</a>.</p> </li> 
- <li value="3"> <p>Go to the goal that you want to align (child goal) to another goal (parent goal) and click its name to open the <span class="bold">Goal&nbsp;Details</span> panel.&nbsp;</p> <p>For example, if you want Goal 2 to influence the progress of Goal 1, you must go to Goal 2. </p> </li> 
- <li value="4"> <p>Click <span class="bold">Align to another goal</span> in the upper-right corner of the right panel. </p> <p> <img src="assets/align-to-another-goal-link-highlighted-350x128.png" style="width: 350;height: 128;"> </p> </li> 
- <li value="5"> <p>Start typing the name of an existing goal or the name of an owner in the <span class="bold">Align to <span>another goal</span></span> field, then select it when it appears in the list. Only goals that are from the same or future periods display in the list. </p> </li> 
- <li value="6"> <p>Click&nbsp;<span class="bold">Save</span>. </p> <p>The goal you started with (Goal 2) is now the child goal of the goal you aligned it with (Goal 1). <br>The aligned goals display connected in the Goal Alignment section with Goal 2 as secondary to&nbsp;Goal 1. </p> <p> <img src="assets/goal-1-and-2-aligned-cards-350x427.png" style="width: 350;height: 427;"> </p> </li> 
- <li value="7"> <p>(Optional) To view the goals in the Goal Alignment section, do one of the following:&nbsp;</p> 
-  <ul> 
-   <li>Click the Goal Alignment section in the left panel and find the goals by applying the correct filter. For information about filtering information in&nbsp;Workfront Goals, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>.</li> 
-   <li> <p>Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the <span class="bold">Alignment icon</span> <img src="assets/align-icon.png"> next to the goal name to go directly to the goal in the Goal Alignment section. </p> </li> 
-  </ul> <p>For information about the Goal Alignment section, see <a href="../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md" class="MCXref xref">Navigate the Goal&nbsp;Alignment section in Adobe Workfront Goals</a>. </p> </li> 
- <li value="8"> <p>(Optional)&nbsp;Add activities and results to either goal to indicate their progress. For information about adding activities and results, see the following articles:</p> 
-  <ul> 
-   <li><a href="../../workfront-goals/results-and-activities/add-activities-to-goals.md" class="MCXref xref">Add activities to goals in&nbsp;Adobe Workfront Goals</a> </li> 
-   <li><a href="../../workfront-goals/results-and-activities/add-results-to-goals.md" class="MCXref xref">Add results to goals in Adobe Workfront Goals</a> </li> 
-  </ul> </li> 
- <li value="9">(Optional)&nbsp;Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see <a href="../../workfront-goals/goal-alignment/remove-goal-alignment.md" class="MCXref xref">Remove goal alignment in&nbsp;Adobe Workfront Goals</a>.</li> 
-</ol>
+1. Create two goals that you want to align. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+1. (Optional)&nbsp;Activate the goals that you want to align.&nbsp;You can align goals that have a Draft, Active, or Inactive status. For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+1. Go to the goal that you want to align (child goal) to another goal (parent goal) and click its name to open the `Goal Details` panel.&nbsp;
+
+   For example, if you want Goal 2 to influence the progress of Goal 1, you must go to Goal 2. 
+
+1. Click `Align to another goal` in the upper-right corner of the right panel.
+
+   ![](assets/align-to-another-goal-link-highlighted-350x128.png)
+
+1. Start typing the name of an existing goal or the name of an owner in the `Align to `another goal`` field, then select it when it appears in the list. Only goals that are from the same or future periods display in the list. 
+1. Click  `Save`.
+
+   The goal you started with (Goal 2) is now the child goal of the goal you aligned it with (Goal 1).   
+   The aligned goals display connected in the Goal Alignment section with Goal 2 as secondary to&nbsp;Goal 1.
+
+   ![](assets/goal-1-and-2-aligned-cards-350x427.png)
+
+1. (Optional) To view the goals in the Goal Alignment section, do one of the following:&nbsp;
+
+  * Click the Goal Alignment section in the left panel and find the goals by applying the correct filter. For information about filtering information in&nbsp;Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+  * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the `Alignment icon` ![](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
+
+   For information about the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md). 
+
+1. (Optional)&nbsp;Add activities and results to either goal to indicate their progress. For information about adding activities and results, see the following articles:
+
+  * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 
+  * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+
+1. (Optional)&nbsp;Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 

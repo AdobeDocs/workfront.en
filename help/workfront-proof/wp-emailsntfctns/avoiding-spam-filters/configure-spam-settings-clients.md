@@ -28,15 +28,13 @@ In this section:
 
 Either add the two Workfront Proof "from" addresses to your Contacts list in Gmail or create email filters to keep Workfront Proof emails from being routed to your Spam folder by Gmail. To add the two Workfront Proof "from" addresses to your Contacts list:
 
-<ol> 
- <li value="1">Click <span class="bold">Contacts</span> below <span class="bold">Mail</span> in the top-left corner of any Gmail page.<br></li> <note type="note">
-  &nbsp;You might need to click a plus (+) sign after Mail to display Contacts and Tasks. If the plus sign doesn't appear, move your cursor to Mail, and the plus sign will appear.
- </note> 
- <li value="2">Click the <span class="bold">Add to "My Contacts"</span> button above your list of contacts and their email addresses.</li> 
- <li value="3">Copy and paste the first "from" address into the unlabeled email address dialog box.</li> 
- <li value="4">Click <span class="bold">Add</span> below the dialog box. The address is added to your list of contacts.</li> 
- <li value="5">For the second "from" address, repeat steps 2-4.</li> 
-</ol>
+1. Click `Contacts` below `Mail` in the top-left corner of any Gmail page.  
+
+1. &nbsp;You might need to click a plus (+) sign after Mail to display Contacts and Tasks. If the plus sign doesn't appear, move your cursor to Mail, and the plus sign will appear.
+1. Click the `Add to "My Contacts"` button above your list of contacts and their email addresses.
+1. Copy and paste the first "from" address into the unlabeled email address dialog box.
+1. Click `Add` below the dialog box. The address is added to your list of contacts.
+1. For the second "from" address, repeat steps 2-4.
 
 Alternatively, to create an email filter for each of the two Workfront Proof "from" addresses:
 
@@ -215,11 +213,10 @@ To remove any Workfront Proof emails that Aol has routed to your Spam folder sin
 
 To check whether any Workfront Proof "from" addresses are blocked in the Aol Spam filter:
 
-<ol> 
- <li value="1">Go to <span class="bold">Aol Keyword: Mail controls</span> to display the Spam Settings page.<br></li> <note type="note">
-  &nbsp;The Aol Keyword is a feature only of Aol software. If you need instructions for accessing the Spam Settings page from Aol Webmail or Aol Desktop, see the Aol help.
- </note> 
- <li value="2">If <span class="bold">Block mail from addresses I specify</span> is selected in the <span class="bold">Sender Filter</span> field and any Workfront Proof addresses or domain names are included in the list of blocked addresses, delete each of those addresses from the list.</li> 
- <li value="3">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to `Aol Keyword: Mail controls` to display the Spam Settings page.  
+
+1. &nbsp;The Aol Keyword is a feature only of Aol software. If you need instructions for accessing the Spam Settings page from Aol Webmail or Aol Desktop, see the Aol help.
+1. If `Block mail from addresses I specify` is selected in the `Sender Filter` field and any Workfront Proof addresses or domain names are included in the list of blocked addresses, delete each of those addresses from the list.
+
+1. Click `Save`.
 

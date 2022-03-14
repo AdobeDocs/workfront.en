@@ -57,33 +57,29 @@ Deleting filters is possible only when the following conditions are met:
 
 ## Delete a filter
 
-<ol> 
- <li value="1"> <p>Go to a list of projects, tasks, or issues.</p> </li> 
- <li value="2"> <p> Click the <span class="bold">Filter</span> icon <img src="assets/filter-nwepng.png">, then enable the <span class="bold">Beta setting</span><img src="assets/beta-toggle-white-on-existing-filters.png"> to access the beta builder. It is disabled by default. </p> <p>This opens the beta filter builder interface. </p> <note type="tip">
-   The header of the filter builder interface changes to blue when you enable the beta builder. After you enabled the beta builder interface, Workfront keeps it enabled for all areas where it is available. 
-  </note> <p> <img src="assets/new-filters-my-filters-suggested-shared-filter-lists-nwe-350x234.png" style="width: 350;height: 234;"> </p> </li> 
- <li value="3"> <p>Review the following lists of filters:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">My filters</td> 
-     <td>Filters that you build and saved yourself.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Suggested</td> 
-     <td>Filters that the Workfront administrator adds to your list of filters, either at the system level, or in your Layout Template. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Shared with me</td> 
-     <td>Filters that others create and share with you or that are shared system-wide.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4"> <p>Hover over a filter that you have permissions to manage, then click the <span class="bold">More</span> menu <img src="assets/more-menu.png">, then click&nbsp;<span class="bold">Delete</span>. </p> <p> <img src="assets/new-filters-delete-option-highlighted-wb-350x116.png" style="width: 350;height: 116;"> </p> </li> 
- <li value="5"> <p>(Optional)&nbsp;Click&nbsp;<span class="bold">Cancel</span> to avoid the deletion and return to the list of filters. </p> </li> 
- <li value="6"> <p><span>Click <span class="bold">Delete</span> to confirm the deletion.</span> </p> </li> 
- <li value="7"> <p>The filter is deleted for you and all users who had permissions to it. </p> </li> 
-</ol>
+1. Go to a list of projects, tasks, or issues.
+1. Click the `Filter` icon ![](assets/filter-nwepng.png), then enable the `Beta setting` ![](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
+
+   This opens the beta filter builder interface.
+
+   >[!TIP]
+   >
+   >The header of the filter builder interface changes to blue when you enable the beta builder. After you enabled the beta builder interface, Workfront keeps it enabled for all areas where it is available.
+
+   ![](assets/new-filters-my-filters-suggested-shared-filter-lists-nwe-350x234.png)
+
+1. Review the following lists of filters:
+
+   | My filters |Filters that you build and saved yourself. |
+   |---|---|
+   | Suggested |Filters that the Workfront administrator adds to your list of filters, either at the system level, or in your Layout Template.  |
+   | Shared with me |Filters that others create and share with you or that are shared system-wide. |
+
+1. Hover over a filter that you have permissions to manage, then click the `More` menu ![](assets/more-menu.png), then click  `Delete`.
+
+   ![](assets/new-filters-delete-option-highlighted-wb-350x116.png)
+
+1. (Optional) Click  `Cancel` to avoid the deletion and return to the list of filters. 
+1. `Click `Delete` to confirm the deletion.` 
+1. The filter is deleted for you and all users who had permissions to it.
 

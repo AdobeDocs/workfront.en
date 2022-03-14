@@ -50,43 +50,56 @@ As the Workfront administrator, you must update existing users who have matching
 
 To fix duplicate email addresses within a Workfront instance:
 
-<ol> 
- <li value="1">&nbsp;Examine any duplicate users and decide which user is no longer needed.
-  <ol>
-   Click the Main Menu icon in the upper-right corner of Workfront, then click Users.
-   <li value="2">In the <span class="bold">Filter</span> menu, select <span class="bold">All</span>.</li>
-   <li value="3">In the <span class="bold">View</span> menu, select <span class="bold">User Login</span>.</li>
-   <li value="4">In the <span class="bold">Grouping</span> menu, select <span class="bold">Nothing</span>.</li>
-   <li value="5">Customize the User Login view.
-    <ol>
-     <li value="1">Click <span class="bold">View</span> >&nbsp;<span class="bold">Customize View</span>.</li>
-     <li value="2">Replace the <span class="bold">ID</span>&nbsp;column with the <span class="bold">Email Address</span> column.</li>
-     <li value="3">Rename the View and save it.</li>
-    </ol></li>
-   <li value="6">Create a new Grouping.
-    <ol>
-     <li value="1">Click <span class="bold">Grouping</span> >&nbsp;<span class="bold">New Grouping</span>.</li>
-     <li value="2">Click <span class="bold">Switch to Text Mode</span> in the upper-right corner of the page.</li>
-     <li value="3">Paste the following Text Mode code:</li>
-    </ol><pre>group.0.linkedname=direct</pre><pre>group.0.namekey=emailAddr</pre><pre>group.0.valueexpression=LOWER({emailAddr})</pre><pre>group.0.valueformat=string</pre><pre>textmode=true</pre></li>
-   <li value="7">Rename the Grouping and save it.</li>
-  </ol></li> 
- <li value="2">&nbsp;Do any of the following:<br>
-  <ul>
-   <li><p>(Preferred method) Add a + address to the user's email address for each additional account. </p><p>Choose this option if a single user in your organization needs access to more than 1 user account. If plus addressing is not supported by your email provider you must provide a separate email account for each Workfront account.</p><p>For example, John Doe can have one user account for his daily-use account and one to use for testing purposes:&nbsp;</p>
-    <ul>
-     <li>johndoe@workfront.com</li>
-     <li>johndoe+reviewer@workfront.com</li>
-    </ul></li>
-   <li><p>Change the domain to use a fake domain by appending the following text to the email address:</p><pre>.inactive</pre><p>For example,John Doe could have the following domains: (These must be unique.)</p>
-    <ul>
-     <li>johndoe@workfront.inactive</li>
-     <li>johndoe@workfront.inactive2</li>
-    </ul><p>You can no longer log in to these accounts because password resets require a valid email address. These accounts can be accessed only by using the Login As feature.</p></li>
-   <li><p>Delete unneeded users</p><note type="important">
-     Choose this option only for accounts that were created by mistake or for test accounts. This option is usually performed only for accounts with zero or 1 mistaken login. Accounts that have been regularly used should never be deleted.
-    </note></li>
-  </ul></li> 
-</ol>
+1. &nbsp;Examine any duplicate users and decide which user is no longer needed.
+
+  1. In the `Filter` menu, select `All`.
+  
+  1. In the `View` menu, select `User Login`.
+  
+  1. In the `Grouping` menu, select `Nothing`.
+  
+  1. Customize the User Login view.
+
+    1. Click `View` >  `Customize View`.
+    
+    1. Replace the `ID` column with the `Email Address` column.
+    
+    1. Rename the View and save it.
+
+  1. Create a new Grouping.
+
+    1. Click `Grouping` >  `New Grouping`.
+    
+    1. Click `Switch to Text Mode` in the upper-right corner of the page.
+    1. Paste the following Text Mode code:
+
+     <pre>group.0.linkedname=direct</pre><pre>group.0.namekey=emailAddr</pre><pre>group.0.valueexpression=LOWER({emailAddr})</pre><pre>group.0.valueformat=string</pre><pre>textmode=true</pre>
+  
+  1. Rename the Grouping and save it.
+
+1. &nbsp;Do any of the following:
+
+  * (Preferred method) Add a + address to the user's email address for each additional account.
+
+    Choose this option if a single user in your organization needs access to more than 1 user account. If plus addressing is not supported by your email provider you must provide a separate email account for each Workfront account.
+
+    For example, John Doe can have one user account for his daily-use account and one to use for testing purposes:&nbsp;
+
+    * johndoe@workfront.com
+    * johndoe+reviewer@workfront.com
+
+  * Change the domain to use a fake domain by appending the following text to the email address:
+    <pre>.inactive</pre>For example,John Doe could have the following domains: (These must be unique.)
+
+    * johndoe@workfront.inactive
+    * johndoe@workfront.inactive2
+
+    You can no longer log in to these accounts because password resets require a valid email address. These accounts can be accessed only by using the Login As feature.
+  
+  * Delete unneeded users
+
+    >[!IMPORTANT]
+    >
+    >Choose this option only for accounts that were created by mistake or for test accounts. This option is usually performed only for accounts with zero or 1 mistaken login. Accounts that have been regularly used should never be deleted.
 
 If you have users in a Workfront instance with matching email addresses that differ only by case, Workfront will contact you with additional information and a timeline when these need to be updated.

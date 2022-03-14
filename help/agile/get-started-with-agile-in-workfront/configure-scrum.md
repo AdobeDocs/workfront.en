@@ -71,14 +71,17 @@ To define the statuses that are available for the story board associated with&nb
 1. (Optional) Click `Add Column` to add an additional status column to the story board.
 1. (Optional) Drag any status column using the drag-and-drop indicator to reorder the status columns on the story board. The first column can't be moved, and you cannot drag another column in front of the first column.
 
-<ol start="8" data-mc-continue="true"> 
- <li value="8"> <p>Select both task and issue statuses.&nbsp;Task statuses are displayed as the column title for each column on the story board. The issue statuses you select map to the task statuses. This means that when you move an issue to another column of the story board, the issue status changes to the issue statuses shown here, and not to the name of the column on the story board (which reflects the task status).</p> <note type="important">
-   Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to 
-   <span class="bold">New</span>.
-  </note> <p>You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md" class="MCXref xref">Create or edit a status</a>.</p> <note type="note">
-   When selecting issue statuses, the third column always defaults to Closed. If you have more than three columns, ensure that you manually update the columns to reflect the proper statuses.
-  </note> </li> 
-</ol>
+1. Select both task and issue statuses.&nbsp;Task statuses are displayed as the column title for each column on the story board. The issue statuses you select map to the task statuses. This means that when you move an issue to another column of the story board, the issue status changes to the issue statuses shown here, and not to the name of the column on the story board (which reflects the task status).
+
+   >[!IMPORTANT]
+   >
+   >Only locked system-wide statuses are available to select; you cannot select group-specific statuses. Also, the status of the first column always corresponds to `New`.
+
+   You can add custom statuses if your Workfront administrator has configured them; custom statuses can be configured as described in [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+
+   >[!NOTE]
+   >
+   >When selecting issue statuses, the third column always defaults to Closed. If you have more than three columns, ensure that you manually update the columns to reflect the proper statuses.
 
 1. Click `Save Changes`.
 
@@ -104,13 +107,15 @@ You can display additional data (including custom data) on story cards.&nbsp;You
 
 To configure story cards that are assigned to the agile team to display additional fields:
 
-<ol> Click the Main Menu icon in the upper-right corner of Workfront, then click Teams. Click the Switch team icon , then either select a new team from the drop-down menu or search for a team in the search bar. 
- <li value="3">Select the agile&nbsp;team that you want to manage.</li> 
- <li value="4"> Click the More menu, then select Edit. Only team members with either a Plan or Work license see this option.  </li> 
- <li value="5">In the <span class="bold">Agile</span> section, click <span class="bold">Add Field</span>.</li> 
- <li value="6"> <p>Select the name of the field you'd like to add.</p> <p> <img src="assets/additional-fields-350x239.png" style="width: 350;height: 239;"> <br> </p> </li> 
- <li value="7">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Select the agile&nbsp;team that you want to manage.
+1. Click the More menu, then select Edit. Only team members with either a Plan or Work license see this option.  
+1. In the `Agile` section, click `Add Field`.
+
+1. Select the name of the field you'd like to add.
+
+   ![](assets/additional-fields-350x239.png)
+
+1. Click `Save Changes`.
 
 ## Configure how color indicators are used for stories on the agile story board
 

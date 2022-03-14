@@ -51,31 +51,53 @@ You must have the following access to perform the steps in this article:
 
 You can assign work items that have not yet been assigned to a user or reassign items that have been assigned to users in the Workload Balancer.
 
-<ol> 
- <li value="1"> <p>Go to the Workload Balancer where you want to assign work.</p> <p>You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in&nbsp;Workfront, see <a href="../../resource-mgmt/workload-balancer/locate-workload-balancer.md" class="MCXref xref">Locate the&nbsp;Workload Balancer</a>.</p> </li> 
- <li value="2"> <p>(Optional) Go to the <span class="bold">Unassigned Work</span> area and apply a filter to view work items</p> <p>Or</p> <p>Go to the <span class="bold">Assigned Work</span> area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.</p> <note type="important">
-   <span>You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,</span> you can assign issues from a list or at the issue level. For information, see 
-   <a href="../../manage-work/issues/manage-issues/assign-issues.md" class="MCXref xref">Assign issues</a>.
-  </note> </li> 
- <li value="3"> <p>Click the <span class="bold">More menu</span> <img src="assets/qs-more-menu.png"> on the bar of a work item, then click <span class="bold">Assign this to</span>. </p> <p> <img src="assets/workload-balancer-assign-this-to-link-from-task-350x117.png" style="width: 350;height: 117;"> </p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p><span>You can also use the following shortcuts to assign tasks or issues:</span> </p> 
-   <ul> 
-    <li><span>In Windows: CTRL+click the task or issue bar.</span> </li> 
-    <li><span>In&nbsp;Mac: CMD+click the task or issue bar.</span> </li> 
-   </ul> 
-  </div> </li> 
- <li value="4"> <p>Start typing the name of a user, job role, or team that you want to assign to the item in the <span class="bold">Search people, role or teams</span> field, select it when it displays in the list, then click&nbsp;<span class="bold">Save</span>. </p> <p> <img src="assets/assignments-box-wb.png"> </p> <p>This assigns or reassigns the work item to the specified assignees.</p> <p>If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer.</p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>You can assign multiple users or job roles, and you can assign only one team. <span>You can assign only active users, <span>job roles</span>, and teams.</span></p> 
-   <p><span>If a user, <span>job role</span>, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:</span> </p> 
-   <ul> 
-    <li> <p><span>Reassign the work item to active resources.</span> </p> </li> 
-    <li> <p><span>Associate the users in a deactivated team with an active team and reassign the work item to the active team.</span> </p> </li> 
-   </ul> 
-  </div> </li> 
- <li value="5"> <p>(Optional) Click the <span class="bold">Show allocations icon</span> <img src="assets/show-allocations-icon-small.png">, then click the <span class="bold">More menu</span> <img src="assets/qs-more-menu.png"> > <span class="bold">Edit allocations</span>.</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> <p>For information about removing assignments from a work item using the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md" class="MCXref xref">Unassign work in the Adobe Workfront Workload Balancer</a>. </p> <p>&nbsp;</p> </li> 
-</ol>
+1. Go to the Workload Balancer where you want to assign work.
+
+   You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in&nbsp;Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+
+1. (Optional) Go to the `Unassigned Work` area and apply a filter to view work items
+
+   Or
+
+   Go to the `Assigned Work` area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
+
+   >[!IMPORTANT]
+   >
+   >`You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,` you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
+
+1. Click the `More menu` ![](assets/qs-more-menu.png) on the bar of a work item, then click `Assign this to`.
+
+   ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
+
+   ` `**Tip: **`` `You can also use the following shortcuts to assign tasks or issues:`
+
+  * `In Windows: CTRL+click the task or issue bar.` 
+  * `In Mac: CMD+click the task or issue bar.`
+
+1. Start typing the name of a user, job role, or team that you want to assign to the item in the `Search people, role or teams` field, select it when it displays in the list, then click  `Save`.
+
+   ![](assets/assignments-box-wb.png)
+
+   This assigns or reassigns the work item to the specified assignees.
+
+   If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer.
+
+   ` `**Tip: **`` You can assign multiple users or job roles, and you can assign only one team. `You can assign only active users, `job roles`, and teams.`
+
+   `If a user, `job role`, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:`
+
+  * `Reassign the work item to active resources.` 
+  * `Associate the users in a deactivated team with an active team and reassign the work item to the active team.`
+
+1. (Optional) Click the `Show allocations icon` ![](assets/show-allocations-icon-small.png), then click the `More menu` ![](assets/qs-more-menu.png) > `Edit allocations`.
+
+   Or
+
+   Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.
+
+   For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+
+   For information about removing assignments from a work item using the Workload Balancer, see [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+
+   &nbsp;
 

@@ -20,13 +20,12 @@ Our&nbsp;folder syncing functionality lets you&nbsp;synchronize a Box folder wit
 
 ## Key Benefits
 
-<ul> 
- <li><span class="bold">Improve collaborative review and approval:</span> Provide your team with rich markup, commenting, and discussion tools to improve collaboration on creative assets.</li> 
- <li><span class="bold">Accelerate project delivery:</span> Accelerate delivery of your design projects by 56% by shortening the review cycle and reducing the number of revisions. Faster consensus and decisions result in quicker project turnaround and speed to market. Design revisions are reduced by 29%.</li> 
- <li><span class="bold">Save management time:</span> When your team spends less time manually printing copies, e-mailing comments, and routing revisions, your effort to manage proofs can be reduced by an average of 59%.</li> 
- <li><span class="bold">Reduce costs:</span> Time is money. Standardized workflow makes it possible to streamline your approval processes. Since efficiency, accuracy, and speed are improved, you also save money.</li> 
- <li><span class="bold">Gain greater visibility and accountability:</span> You are able to log file versions, comments, and decisions with timestamps in a traceable audit trail. This gives you full accountability for every stage of the review process and helps you meet compliance requirements.<br><img src="assets/box-and-proofhq-integration-350x157.jpg" alt="Box_and_ProofHQ_integration.jpg" style="width: 350;height: 157;"></li> 
-</ul>
+* `Improve collaborative review and approval:` Provide your team with rich markup, commenting, and discussion tools to improve collaboration on creative assets.
+* `Accelerate project delivery:` Accelerate delivery of your design projects by 56% by shortening the review cycle and reducing the number of revisions. Faster consensus and decisions result in quicker project turnaround and speed to market. Design revisions are reduced by 29%.
+* `Save management time:` When your team spends less time manually printing copies, e-mailing comments, and routing revisions, your effort to manage proofs can be reduced by an average of 59%.
+* `Reduce costs:` Time is money. Standardized workflow makes it possible to streamline your approval processes. Since efficiency, accuracy, and speed are improved, you also save money.
+* `Gain greater visibility and accountability:` You are able to log file versions, comments, and decisions with timestamps in a traceable audit trail. This gives you full accountability for every stage of the review process and helps you meet compliance requirements.  
+  ![Box_and_ProofHQ_integration.jpg](assets/box-and-proofhq-integration-350x157.jpg)
 
 ## Key Features
 

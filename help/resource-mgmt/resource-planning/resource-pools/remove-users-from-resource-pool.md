@@ -47,13 +47,22 @@ You can remove users from a Resource Pool when those users are no longer needed 
 
 To remove a user from a Resource Pool:
 
-<ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
- <li value="2"> Click Resourcing. </li> 
- <li value="3"> Click Resource Pools in the left panel. </li> 
- <li value="4">Select a Resource Pool and click <span class="bold">Edit.<br></span>Or<br>Click the name of a Resource Pool. </li> 
- <li value="5">Start typing the name of a user that you want to remove in the <span class="bold">Search in this Resource Pool</span> field.<br>Or<br>Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.<br><img src="assets/search-inside-new-resource-pool-350x321.png" alt="search_inside_NEW_resource_pool.png" style="width: 350;height: 321;"></li> 
- <li value="6">Click the 'x' icon at the user level to remove a user from the Resource Pool. They are removed from all the lists they appear in.<br>Or<br>To remove all users associated with a job role, group, team, or company, click <span class="bold">Remove</span> at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool. </li> 
- <li value="7">Click <span class="bold">Save</span>. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click Resourcing. 
+1. Click Resource Pools in the left panel. 
+1. Select a Resource Pool and click `Edit.  
+   `Or  
+   Click the name of a Resource Pool. 
+
+1. Start typing the name of a user that you want to remove in the `Search in this Resource Pool` field.  
+   Or  
+   Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.  
+   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x321.png)
+
+1. Click the 'x' icon at the user level to remove a user from the Resource Pool. They are removed from all the lists they appear in.  
+   Or  
+   To remove all users associated with a job role, group, team, or company, click `Remove` at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool. 
+
+1. Click `Save`.
 

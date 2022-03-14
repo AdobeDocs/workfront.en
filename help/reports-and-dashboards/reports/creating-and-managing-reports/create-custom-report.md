@@ -47,93 +47,131 @@ You must have the following access to perform the steps in this article:
 
 To watch a video of how to create a report, see this [Video walk-through](#walk-thr) below.
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner, then click Reports. </li> 
- <li value="2"> <p>Click <span class="bold">New Report</span>, then select the object type that you want for the report.</p> <p>The report builder loads.</p> <p>For specific information about available object reports, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects" class="MCXref xref">Report on objects</a> in the article <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> <p>  </p> <note type="tip">
-   You can also create a report by making a copy of an existing report. For more information, see 
-   <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md" class="MCXref xref">Create a copy of a report</a>.
-  </note> </li> 
- <li value="3"> <p>In the report builder, add the following to your report:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Feature</th> 
-     <th>Description</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td>Columns (View)</td> 
-     <td> <p>Adding columns to your report determines what information your report contains.</p> <p>To learn how to add a column, see <a href="#add-columns" class="MCXref xref">Add columns (view) to a report</a>.<br></p> </td> 
-    </tr> 
-    <tr> 
-     <td>Groupings</td> 
-     <td> <p>Adding groupings to your report determines how your report is organized.</p> <p>To learn how to add a grouping, see <a href="#add-groupings" class="MCXref xref">Add groupings to a report</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Filters</td> 
-     <td> <p>Adding filter rules to your report determines information you see in your report.</p> <p>To learn how to add a filter, see <a href="#add-filters" class="MCXref xref">Add filters to a report</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Chart</td> 
-     <td> <p>Adding a chart to your report determines how the information in your report is presented visually.</p> <p>To learn how to add a chart, see <a href="#add-a-chart" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4"> <p>At any point during the report creation process, click <span class="bold">Apply</span> to save your changes.</p> </li> 
- <li value="5"> <p>After you are finished, click <span class="bold">Save + Close</span>.</p> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner, then click Reports. 
+1. Click `New Report`, then select the object type that you want for the report.
+
+   The report builder loads.
+
+   For specific information about available object reports, see the section [Report on objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) in the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+
+   >[!TIP]
+   >
+   >You can also create a report by making a copy of an existing report. For more information, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+1. In the report builder, add the following to your report:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Feature</th> 
+      <th>Description</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td>Columns (View)</td> 
+      <td> <p>Adding columns to your report determines what information your report contains.</p> <p>To learn how to add a column, see <a href="#add-columns" class="MCXref xref">Add columns (view) to a report</a>.<br></p> </td> 
+     </tr> 
+     <tr> 
+      <td>Groupings</td> 
+      <td> <p>Adding groupings to your report determines how your report is organized.</p> <p>To learn how to add a grouping, see <a href="#add-groupings" class="MCXref xref">Add groupings to a report</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Filters</td> 
+      <td> <p>Adding filter rules to your report determines information you see in your report.</p> <p>To learn how to add a filter, see <a href="#add-filters" class="MCXref xref">Add filters to a report</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Chart</td> 
+      <td> <p>Adding a chart to your report determines how the information in your report is presented visually.</p> <p>To learn how to add a chart, see <a href="#add-a-chart" class="MCXref xref">Add a chart to a report</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. At any point during the report creation process, click `Apply` to save your changes.
+1. After you are finished, click `Save + Close`.
 
 ### Add columns (view) to a report
 
-<ol> 
- <li value="1"> <p>Start creating a report as described in the <a href="#how-to" class="MCXref xref">Create a report</a> section in this article.</p> </li> 
- <li value="2"> <p>In the report builder, select the <span class="bold">Columns (View)</span> tab to identify the columns to appear in the report.</p> </li> 
- <li value="3"> <p>(Optional) Click <span class="bold">Apply an Existing View</span> to use an existing view.</p> <p>For more information about creating a new view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </li> 
- <li value="4"> <p>To add a new column, click <span class="bold">Add Column</span>.</p> <p>Or</p> <p>To change an existing column, select the column that you want to change, then click the (x) next to the current name.</p> </li> 
- <li value="5"> <p>Begin typing the field that you want to add. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to the column.</p> <p>For more information about the fields you see in the columns, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossary of Adobe Workfront terminology</a>.</p> <p>  </p> </li> 
- <li value="6"> <p>(Optional) In the <span class="bold">Column Settings</span> area, select <span class="bold">Sort by this column</span> to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.</p> <p>You can have multiple levels of sorts in a report view if you want to sort by the value in one column first, the value in a second column secondly, etc.</p> <p>If multiple results are identical according to the first sorting criteria, they sort in the order of the second sorting criteria. If multiple results are identical according to the first and second sorting criteria, they sort according to the third sorting, etc.</p> <note type="note">
-   If you add a field that references an object that is too far removed from the object that you're reporting on, you may not be able to sort by this field.
-   <br>For example, an issue report cannot sort by the Project Owner field because it references 3 additional objects: Project, Owner, and Name. However, you can still add this field to an issue report and see the information for it.
-   <br>To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the 
-   <a href="https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2" target="_blank">Reports and Dashboards Learning Path</a>.
-   <br>
-  </note> </li> 
- <li value="7"> <p>(Optional) If you are using groupings and you want to summarize (aggregate) the information in a column, click the <span class="bold">Summarize this column by</span> drop-down list in the <span class="bold">Column Settings</span> area, then select the option you want to use to aggregate the information in the column. </p> <p>The aggregated information displays in the column in the grouping rows:</p> <p> <img src="assets/aggregate-summary-displays-on-groupings-350x227.png" style="width: 350;height: 227;"> </p>  <p>For more information about summarizing data in a column, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>. </p> <note type="note">  
-   <p>The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:</p> 
-   <ul> 
-    <li>All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. </li> 
-    <li>Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. </li> 
-    <li>Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. </li> 
-   </ul> 
-  </note> <p>For more information about using groupings in a report, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> </li> 
- <li value="8"> <p>(Optional) Click <span class="bold">Advanced Options</span> to specify the following information for the column:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Custom Column Label</td> 
-     <td> <p>Specify a custom label for the column. This label replaces the default label.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Field Format</td> 
-     <td> <p>Select the format in which you want the values to be displayed for fields in the column.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Show this column when on a Dashboard</td> 
-     <td> <p>Select this option to show this column on a dashboard, when the report is displayed side by side with another report. When this option is unselected, this column is not displayed when viewing the report on a dashboard where reports are displayed side by side.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Column Rules</td> 
-     <td> <p>Click <span class="bold">Add a Rule for this Column</span> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <span class="bold">Add Rule</span> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="9"> <p>Click <span class="bold">Apply</span> to apply your changes so far and continue editing the report with the following options.</p> <p>Click <span class="bold">Save + Close</span> if you are finished editing the columns in the report and you want to save the report.</p> </li> 
-</ol>
+1. Start creating a report as described in the [Create a report](#how-to) section in this article.
+1. In the report builder, select the `Columns (View)` tab to identify the columns to appear in the report.
+1. (Optional) Click `Apply an Existing View` to use an existing view.
+
+   For more information about creating a new view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. To add a new column, click `Add Column`.
+
+   Or
+
+   To change an existing column, select the column that you want to change, then click the (x) next to the current name.
+
+1. Begin typing the field that you want to add. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to the column.
+
+   For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+
+1. (Optional) In the `Column Settings` area, select `Sort by this column` to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.
+
+   You can have multiple levels of sorts in a report view if you want to sort by the value in one column first, the value in a second column secondly, etc.
+
+   If multiple results are identical according to the first sorting criteria, they sort in the order of the second sorting criteria. If multiple results are identical according to the first and second sorting criteria, they sort according to the third sorting, etc.
+
+   >[!NOTE]
+   >
+   >If you add a field that references an object that is too far removed from the object that you're reporting on, you may not be able to sort by this field.  
+   >For example, an issue report cannot sort by the Project Owner field because it references 3 additional objects: Project, Owner, and Name. However, you can still add this field to an issue report and see the information for it.  
+   >To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
+
+1. (Optional) If you are using groupings and you want to summarize (aggregate) the information in a column, click the `Summarize this column by` drop-down list in the `Column Settings` area, then select the option you want to use to aggregate the information in the column.
+
+   The aggregated information displays in the column in the grouping rows:
+
+   ![](assets/aggregate-summary-displays-on-groupings-350x227.png)
+
+   For more information about summarizing data in a column, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+   >[!NOTE]
+   >
+   >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+   >
+   >  
+   >  
+   >  * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
+   >  * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
+   >  * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
+   >  
+   >
+
+   For more information about using groupings in a report, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+
+1. (Optional) Click `Advanced Options` to specify the following information for the column:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Custom Column Label</td> 
+      <td> <p>Specify a custom label for the column. This label replaces the default label.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Field Format</td> 
+      <td> <p>Select the format in which you want the values to be displayed for fields in the column.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Show this column when on a Dashboard</td> 
+      <td> <p>Select this option to show this column on a dashboard, when the report is displayed side by side with another report. When this option is unselected, this column is not displayed when viewing the report on a dashboard where reports are displayed side by side.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Column Rules</td> 
+      <td> <p>Click <span class="bold">Add a Rule for this Column</span> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <span class="bold">Add Rule</span> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Apply` to apply your changes so far and continue editing the report with the following options.
+
+   Click `Save + Close` if you are finished editing the columns in the report and you want to save the report.
 
 ### Add groupings to a report
 

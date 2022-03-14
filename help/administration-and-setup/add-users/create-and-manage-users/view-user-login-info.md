@@ -48,15 +48,15 @@ Workfront records the following information about users logging in to the system
 
 Logging in to Workfront in any of the following ways counts as a login to Workfront:
 
-<ul> 
- <li>The Workfront Web Application</li> 
- <li>The Workfront Mobile Apps (iOS or Android devices)</li> 
- <li>Any supported Workfront integration with another third party application (Slack, Jira)</li> 
- <li>Any custom integration between Workfront and another third party application.&nbsp;</li> 
- <li> <p>The Workfront API</p> <note type="note">
-   Logging in to Workfront through the Workfront API is only available to organizations that are not yet onboarded to the Adobe Business Platform.
-  </note> </li> 
-</ul>
+* The Workfront Web Application
+* The Workfront Mobile Apps (iOS or Android devices)
+* Any supported Workfront integration with another third party application (Slack, Jira)
+* Any custom integration between Workfront and another third party application.&nbsp;
+* The Workfront API
+
+  >[!NOTE]
+  >
+  >Logging in to Workfront through the Workfront API is only available to organizations that are not yet onboarded to the Adobe Business Platform.
 
 ## Display usage information in a user list or report
 

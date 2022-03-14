@@ -46,34 +46,26 @@ You must have the following access to use the functionality in this article:
 
 ## Choose where a trigger module starts
 
-<ol> 
- <li value="1"> <p>Save a trigger module.</p> <p>Or</p> <p>Change the trigger module's settings as described in <a href="../../workfront-fusion/modules/configure-a-modules-settings.md" class="MCXref xref">Configure a module's settings</a>.</p> <p>Or</p> <p>Right-click the icon for the trigger module in the Scenario editor, as described in <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </li> 
- <li value="2"> <p>Select an option in the <span class="bold">Choose where to start</span> box that appears.</p> <p> <img src="assets/choose-where-to-start-350x346.jpg" style="width: 350;height: 346;"> </p> <p>The options displayed depend on the possibilities of a given service. They may include the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">From now on (default)</td> 
-     <td>Retrieves all bundles added or updated (depending on settings) from now on</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">From after a specific date</td> 
-     <td>Retrieves all bundles added or updated (depending on settings) after a specified date/time</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">With ID greater than or equal to a specific value</td> 
-     <td>Retrieves all bundles with an ID greater than or equal to a specified ID</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">All bundles</td> 
-     <td>Retrieves all available bundles</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Select the first bundle</td> 
-     <td>Allows you to select the first bundle from which the retrieval of bundles is to start</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Save a trigger module.
+
+   Or
+
+   Change the trigger module's settings as described in [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md).
+
+   Or
+
+   Right-click the icon for the trigger module in the Scenario editor, as described in [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+
+1. Select an option in the `Choose where to start` box that appears.
+
+   ![](assets/choose-where-to-start-350x346.jpg)
+
+   The options displayed depend on the possibilities of a given service. They may include the following:
+
+   | From now on (default) |Retrieves all bundles added or updated (depending on settings) from now on |
+   |---|---|
+   | From after a specific date |Retrieves all bundles added or updated (depending on settings) after a specified date/time |
+   | With ID greater than or equal to a specific value |Retrieves all bundles with an ID greater than or equal to a specified ID |
+   | All bundles |Retrieves all available bundles |
+   | Select the first bundle |Allows you to select the first bundle from which the retrieval of bundles is to start |
 

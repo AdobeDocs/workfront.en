@@ -42,38 +42,29 @@ You must have the following access to perform the steps in this article:
 
 ## View user personal time off
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner, then click Reports > New Report. </li> 
- <li value="2"> <p>From the drop-down menu, select <span class="bold">Time Off</span>.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Save +&nbsp;Close</span>.</p> <p>The report displays the following fields in the view by default:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">User</td> 
-     <td>The name of the user who indicated the time off in their profile.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Start Date</td> 
-     <td>The Start&nbsp;Date of the period of time off that the user indicated.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">End Date</td> 
-     <td>The End Date of the period of time off that the user indicated.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4">(Optional) Finish creating the report by editing any of the following tabs:
-  <ul>
-   <li>Columns (View)</li>
-   <li>Groupings</li>
-   <li>Filters</li>
-   <li>Chart</li>
-  </ul><p>For information about creating reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p><note type="tip">
-   We recommend adding a grouping for the User object, to make the report easier to read.
-  </note></li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner, then click Reports > New Report. 
+1. From the drop-down menu, select `Time Off`.
+1. Click `Save + Close`.
+
+   The report displays the following fields in the view by default:
+
+   | User |The name of the user who indicated the time off in their profile. |
+   |---|---|
+   | Start Date |The Start&nbsp;Date of the period of time off that the user indicated. |
+   | End Date |The End Date of the period of time off that the user indicated. |
+
+1. (Optional) Finish creating the report by editing any of the following tabs:
+
+  * Columns (View)
+  * Groupings
+  * Filters
+  * Chart
+
+   For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+   >[!TIP]
+   >
+   >We recommend adding a grouping for the User object, to make the report easier to read.
 
 <!--
 Add Time Off information to a user report

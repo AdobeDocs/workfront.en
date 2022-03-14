@@ -57,13 +57,23 @@ You must have the following access to perform the steps in this article:
 
 ## Enable the delivery of emails from the Preview Sandbox environment
 
-<ol> 
- <li value="1">Log in to your Preview Sandbox environment.</li> 
- <li value="2"> <p>Click your profile picture in the upper-right corner of Adobe Workfront. Then, click the More menu and select Edit.</p> <p>Or</p> <p>Search for a user in Workfront and click their name. Then, click the More menu and select Edit.</p> <p>Or</p> <p>For multiple users: Click the Main Menu icon in the upper-right corner of Workfront, then click Users . Then, select multiple users and click <span class="bold">Edit</span>.</p> </li> 
- <li value="3">Click <span class="bold">Preferences</span>.</li> 
- <li value="4"> <p>Select <span class="bold">Receive emails from this test environment</span>.</p> <note type="note">
-   This option is not available if you are in a production environment.
-  </note> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Log in to your Preview Sandbox environment.
+1. Click your profile picture in the upper-right corner of Adobe Workfront. Then, click the More menu and select Edit.
+
+   Or
+
+   Search for a user in Workfront and click their name. Then, click the More menu and select Edit.
+
+   Or
+
+   For multiple users: Click the Main Menu icon in the upper-right corner of Workfront, then click Users . Then, select multiple users and click `Edit`.
+
+1. Click `Preferences`.
+1. Select `Receive emails from this test environment`.
+
+   >[!NOTE]
+   >
+   >This option is not available if you are in a production environment.
+
+1. Click `Save Changes`.
 

@@ -41,34 +41,39 @@ You must have the following access to perform the steps in this article:
 
 ## Create a program
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Do one of the following. Create a program from the Programs area: Click Programs in the Main Menu. Click New Program. In the box that displays, type the name of an existing Portfolio in the Select Portfolio field. Type the name of the new program in the Name field. Click Save. Create a program from the Portfolios area: Click Portfolios in the Main Menu, then click a portfolio. In the left panel, click Programs. Click the New Program drop-down menu, then New Program. 
- <li value="3"> <p>Specify the name for the Program in the <span class="bold">Untitled Program</span> field.</p> <p>The name can contain up to 255 characters.</p> </li> (Optional) Click Program Manager in the header of the program to update it. Tip: As the creator of the program, you are set as the Program Manager by default. 
- <li value="5"> Click Program Details in the left panel. </li> 
- <li value="6"> Double-click any field to update the information in the Overview area. </li> 
- <li value="7"> <p>Specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th>Field</th> 
-     <th>Description</th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td> <p>Specify a description for the program.</p> <p>The description is displayed on the landing page of the program.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Program Manager</td> 
-     <td> <p>Begin typing the name of the user who you want to act as the Program Manager, then click the user's name when it appears in the drop-down list. This is the same as the Program Owner. </p> Tip: You can also update the Program Manager in the program header. </td> 
-    </tr> Group Add the name of a single group if the group owns the program or has responsibility for completing it. You can make sure you are selecting the right group by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. 
-   </tbody> 
-  </table> </li> (Optional and conditional) Click inside the Add custom form box to select a custom form for the portfolio and update the custom fields. Tip: You must have program custom forms already created before you can attach them to programs. 
- <li value="9">(Optional) Double-click any field to update information on the custom form. </li> 
- <li value="10"> <p> Click Projects in the left panel, then Add Projects to add projects to the program. </p> <p>For information about adding projects to programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md" class="MCXref xref">Add a project to a program </a>.</p> </li> Click Save Changes. (Optional) Click the More menu next to the program name and click Deactivate Program. When you deactivate a program, the program no longer displays in a list of program when users try to add it to a project. You can still access the program from the Programs area. 
-</ol>
+1. Specify the name for the Program in the `Untitled Program` field.
+
+   The name can contain up to 255 characters.
+
+1. Click Program Details in the left panel. 
+1. Double-click any field to update the information in the Overview area. 
+1. Specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th>Field</th> 
+      <th>Description</th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td> <p>Specify a description for the program.</p> <p>The description is displayed on the landing page of the program.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Program Manager</td> 
+      <td> <p>Begin typing the name of the user who you want to act as the Program Manager, then click the user's name when it appears in the drop-down list. This is the same as the Program Owner. </p> Tip: You can also update the Program Manager in the program header. </td> 
+     </tr> Group Add the name of a single group if the group owns the program or has responsibility for completing it. You can make sure you are selecting the right group by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. 
+    </tbody> 
+   </table>
+
+1. (Optional) Double-click any field to update information on the custom form. 
+1. Click Projects in the left panel, then Add Projects to add projects to the program.
+
+   For information about adding projects to programs, see [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 ## Program header overview
 

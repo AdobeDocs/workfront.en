@@ -72,7 +72,11 @@ The&nbsp;look and feel of the following pages in the System menu of the Setup ar
 
 * Diagnostics
 * Single Sign-On (SSO) which includes:
-* `<li>Active Directory</li>` `<li>LDAP</li>` `<li>SAML 1.1</li>` `<li>SAML 2.0</li>` 
+
+  * Active Directory
+  * LDAP
+  * SAML 1.1
+  * SAML 2.0
 
 * Update Users for SSO
 
@@ -179,17 +183,24 @@ For more information about configuring email notifications, see [Activate or dea
 
 The following changes were added to support the future Resource Planning functionality:
 
-<ul> 
- <li>The current “Resource Planning” tab has been renamed to “Legacy Resource Planning” in the People area.&nbsp;</li> 
- <li>A new “Resource Planning” tab has been introduced in the People area where the new functionality will be developed.<br>For more information about the new Resource Planning tab, see <a href="../../../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning </a>&nbsp;</li> 
- <li>The current “Resource Pool” object has been renamed to “Legacy Resource Pool.”<br>For more information about creating the new user-based Resource Pools, see <a href="../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a></li> 
- <li> <p>A new “Resource Pool” object has been created to support the new (user-based) Resource Pools. </p> <note type="note"> 
-   <ul> 
-    <li>If you are currently running reports on the existing Legacy Resource Pools, the existing reports will not change. </li> 
-    <li>If you want to create a new report for the existing (job role-based) Legacy Resource Pools, you will need to select “Legacy Resource Pools” as your object for the report. </li> 
-    <li>If you want to create a new report for the new (user-based) Resource Pools, you will need to select “Resource Pools” as your object for the report.</li> 
-   </ul> 
-  </note> </li> 
-</ul>
+* The current “Resource Planning” tab has been renamed to “Legacy Resource Planning” in the People area.&nbsp;
+* A new “Resource Planning” tab has been introduced in the People area where the new functionality will be developed.  
+  For more information about the new Resource Planning tab, see [Get started with Resource Planning](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md)&nbsp;
+
+* The current “Resource Pool” object has been renamed to “Legacy Resource Pool.”  
+  For more information about creating the new user-based Resource Pools, see [Resource pools overview in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+
+* A new “Resource Pool” object has been created to support the new (user-based) Resource Pools.
+
+  >[!NOTE]
+  >
+  >
+  >  
+  >  
+  >  * If you are currently running reports on the existing Legacy Resource Pools, the existing reports will not change. 
+  >  * If you want to create a new report for the existing (job role-based) Legacy Resource Pools, you will need to select “Legacy Resource Pools” as your object for the report. 
+  >  * If you want to create a new report for the new (user-based) Resource Pools, you will need to select “Resource Pools” as your object for the report.
+  >  
+  >
 
 `<iframe class="mt-media" src="assets/206628847?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>` 

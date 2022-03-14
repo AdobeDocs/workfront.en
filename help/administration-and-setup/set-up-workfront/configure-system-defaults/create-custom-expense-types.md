@@ -51,44 +51,47 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 
 ## Create custom expense types
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront. </li> 
- <li value="2"> <p>Click <span class="bold">Expense Types</span>.</p> </li> 
- <li value="3">Click <span class="bold">New Expense Type</span>.<br>The <span class="bold">New Expense Type</span> dialog box is displayed.</li> 
- <li value="4"> <p> Specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>Specify a name for the expense.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Specify a description for the expense.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Calculated Unit</td> 
-     <td> <p>Select the unit of measurement for your expense type from the drop-down list.</p> <p>The following unit of measurements are available:</p> 
-      <ul> 
-       <li>Mile</li> 
-       <li>Kilometer</li> 
-       <li>Kilogram</li> 
-       <li>Dollar</li> 
-       <li>Dollar</li> 
-       <li>Day</li> 
-       <li>Other - Selecting this option prompts you to name your unit of measurement and define the unit of measurement as something familiar to your organization.</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Rate</td> 
-     <td> <p>Specify the price per unit. This is a currency formatted field and it represents the cost of each unit established in the <span class="bold">Calculated Unit</span> field. </p> <p>The rate can contain a numerical value with up to 4 numbers after the decimal. For example, 1.0375</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Create Expense Type</span>.<br>The expense type is now available for users to associate it with their expenses on projects and tasks.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
+1. Click `Expense Types`.
+1. Click `New Expense Type`.  
+   The `New Expense Type` dialog box is displayed.
+
+1. Specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td>Specify a name for the expense.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Specify a description for the expense.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Calculated Unit</td> 
+      <td> <p>Select the unit of measurement for your expense type from the drop-down list.</p> <p>The following unit of measurements are available:</p> 
+       <ul> 
+        <li>Mile</li> 
+        <li>Kilometer</li> 
+        <li>Kilogram</li> 
+        <li>Dollar</li> 
+        <li>Dollar</li> 
+        <li>Day</li> 
+        <li>Other - Selecting this option prompts you to name your unit of measurement and define the unit of measurement as something familiar to your organization.</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Rate</td> 
+      <td> <p>Specify the price per unit. This is a currency formatted field and it represents the cost of each unit established in the <span class="bold">Calculated Unit</span> field. </p> <p>The rate can contain a numerical value with up to 4 numbers after the decimal. For example, 1.0375</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Create Expense Type`.  
+   The expense type is now available for users to associate it with their expenses on projects and tasks.
 
 ## Modify custom Expense Types
 

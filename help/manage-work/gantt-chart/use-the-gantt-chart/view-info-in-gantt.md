@@ -64,15 +64,24 @@ You can view the task information for a project directly from a list of projects
 
 To view tasks in a project from a list of projects:
 
-<ol> 
- <li value="1"> <p>Go to one of the areas mentioned above.</p> For example, from the main menu, click Projects.  <p>A list of projects displays. </p> </li> 
- <li value="2">Click the <span class="bold">Gantt chart</span> icon  in the upper-right corner of the screen.<br></li> 
- <li value="3">Click the <span class="bold">Show Task List</span> icon.<br></li> 
- <li value="4">In the project list to the left, click the drop-down arrow next to the name of the project to display any tasks under that project.<br>This displays task information on the Gantt chart.<br><img src="assets/show-task-list-enabled-project-expanded-350x78.png" alt="Show_task_list_enabled_project_expanded.png" style="width: 350;height: 78;"></li> 
- <li value="5">(Optional) Click the <span class="bold">Print</span> icon in the upper-right corner to export the Gantt chart.<br><note type="note">
-    The Project List Gantt Chart exports only projects. Task information is not included.
-  </note></li> 
-</ol>
+1. Go to one of the areas mentioned above.
+   For example, from the main menu, click Projects.  
+
+   A list of projects displays. 
+
+1. Click the `Gantt chart` icon  in the upper-right corner of the screen.  
+
+1. Click the `Show Task List` icon.  
+
+1. In the project list to the left, click the drop-down arrow next to the name of the project to display any tasks under that project.  
+   This displays task information on the Gantt chart.  
+   ![Show_task_list_enabled_project_expanded.png](assets/show-task-list-enabled-project-expanded-350x78.png)
+
+1. (Optional) Click the `Print` icon in the upper-right corner to export the Gantt chart.
+
+   >[!NOTE]
+   >
+   >The Project List Gantt Chart exports only projects. Task information is not included.
 
 ## Change the time period for which information displays in the Gantt chart
 
@@ -83,29 +92,37 @@ You can adjust the time period shown on the Gantt chart to display information o
 
 ### Change the time period on a granular level
 
-<ol> 
- <li value="1">Hover over the timeline of the Gantt chart, then drag the zoom indicator from left to right to expand or contract the timeline.<br><img src="assets/zoom-tool-in-gantt-350x180.png" alt="zoom_tool_in_gantt.png" style="width: 350;height: 180;"></li> 
-</ol>
+1. Hover over the timeline of the Gantt chart, then drag the zoom indicator from left to right to expand or contract the timeline.  
+   ![zoom_tool_in_gantt.png](assets/zoom-tool-in-gantt-350x180.png)
 
 ### View&nbsp;information by Day, Week, Month, Quarter, or Year
 
-<ol> 
- <li value="1"> <p>In the Gantt chart, click the time frame drop-down menu.</p> <p> <img src="assets/timeline-options.png"> <br> </p> </li> 
- <li value="2">Select a time frame from the following available options: 
-  <ul>
-   <li><span class="bold">Fit All</span>: This option displays the time line of the entire project.</li>
-   <li><span class="bold">All Projects</span>: This option is available only in the Project List Gantt chart.</li>
-   <li><span class="bold">Year</span></li>
-   <li><span class="bold">Quarter</span></li>
-   <li><span class="bold">Month</span></li>
-   <li><span class="bold">Week</span></li>
-   <li><span class="bold">Day</span></li>
-  </ul></li> 
- <li value="3"> <p>(Optional) Select a more granular time frame, such as Week or Day, and click and drag the horizontal scroll bar at the bottom of the Gantt chart to move left to right on the time line of the project.<br>A timeline snapshot of the Gantt displays to show the entire project.</p> <note type="tip">
-   The timeline snapshot displays only after you click the horizontal scroll bar.
-  </note> <p> <img src="assets/stretchy-gantt-minimap-with-outline--1--350x140.png" alt="stretchy_gantt_minimap_with_outline__1_.png" style="width: 350;height: 140;"> </p> </li> 
- <li value="4">(Optional) Click anywhere inside the time line snapshot to navigate to a specific point in the life of the project.<br>Or<br>Drag the handles of the snapshot viewer to select a specific time line range to display it in the main Gantt.&nbsp;</li> 
-</ol>
+1. In the Gantt chart, click the time frame drop-down menu.
+
+   ![](assets/timeline-options.png)
+
+1. Select a time frame from the following available options:
+
+  * `Fit All`: This option displays the time line of the entire project.
+  * `All Projects`: This option is available only in the Project List Gantt chart.
+  * `Year`
+  * `Quarter`
+  * `Month`
+  * `Week`
+  * `Day`
+
+1. (Optional) Select a more granular time frame, such as Week or Day, and click and drag the horizontal scroll bar at the bottom of the Gantt chart to move left to right on the time line of the project.  
+   A timeline snapshot of the Gantt displays to show the entire project.
+
+   >[!TIP]
+   >
+   >The timeline snapshot displays only after you click the horizontal scroll bar.
+
+   ![stretchy_gantt_minimap_with_outline__1_.png](assets/stretchy-gantt-minimap-with-outline--1--350x140.png)
+
+1. (Optional) Click anywhere inside the time line snapshot to navigate to a specific point in the life of the project.  
+   Or  
+   Drag the handles of the snapshot viewer to select a specific time line range to display it in the main Gantt.&nbsp;
 
 ## Use filters, views, and groupings
 

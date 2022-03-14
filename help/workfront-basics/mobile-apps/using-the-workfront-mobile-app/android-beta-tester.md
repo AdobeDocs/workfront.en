@@ -16,14 +16,18 @@ There are a couple of ways to become a beta tester for the Adobe Workfront app:
 
 You can use the Google Play Store to find and download the app:
 
-<ol> 
- <li value="1">Access the Play Store app on your device.</li> 
- <li value="2"> <p>Search for Workfront, then tap it when it appears in the list.</p>You need to install the Workfront app before you join the beta.</li> 
- <li value="3">Install and open the Workfront app if you haven't done so already.</li> 
- <li value="4">Scroll towards the middle of the page, then tap <span class="bold">Join now</span> in the <span class="bold">Become a beta tester</span> section.</li> 
- <li value="5">Tap <span class="bold">Join</span> to confirm that you want to be a beta tester.<br>It takes a few minutes to be acknowledged as a beta user. You may have to reopen the Play Store to see the changes.</li> 
- <li value="6">After the progress completes, you receive a confirmation that you are now a beta user.<br>The word "Beta" appears after the name of your app in the Play Store indicating that you are using the beta version of the app.<br><img src="assets/android-beta-tester-adobe-350x468.png" style="width: 350;height: 468;"></li> 
-</ol>
+1. Access the Play Store app on your device.
+1. Search for Workfront, then tap it when it appears in the list.
+   You need to install the Workfront app before you join the beta.
+1. Install and open the Workfront app if you haven't done so already.
+1. Scroll towards the middle of the page, then tap `Join now` in the `Become a beta tester` section.
+
+1. Tap `Join` to confirm that you want to be a beta tester.  
+   It takes a few minutes to be acknowledged as a beta user. You may have to reopen the Play Store to see the changes.
+
+1. After the progress completes, you receive a confirmation that you are now a beta user.  
+   The word "Beta" appears after the name of your app in the Play Store indicating that you are using the beta version of the app.  
+   ![](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR code
 

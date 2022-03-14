@@ -48,9 +48,10 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3"> <p>In the upper-left corner of the proofing viewer, click the name of the proof.</p> <p> <img src="assets/phq-viewer-version-350x184.png" alt="phq_viewer_version.png" style="width: 350;height: 184;"> </p> </li> 
- <li value="4"> <p>In the list that appears, click the version you want to view.</p> </li> 
- <li value="5">(Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the <span class="bold">Unlock</span> icon in the left panel, then click <span class="bold">Yes, unlock</span>. For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md" class="MCXref xref">Lock or unlock a proof</a>.</li> 
-</ol>
+1. In the upper-left corner of the proofing viewer, click the name of the proof.
+
+   ![phq_viewer_version.png](assets/phq-viewer-version-350x184.png)
+
+1. In the list that appears, click the version you want to view.
+1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the `Unlock` icon in the left panel, then click `Yes, unlock`. For more information, see [Lock or unlock a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).
 

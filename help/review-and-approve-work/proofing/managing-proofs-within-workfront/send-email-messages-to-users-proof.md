@@ -47,35 +47,35 @@ You must have the following access to perform the steps in this article:
 
 ## Send email messages to users on a proof
 
-<ol style="font-size: 10pt;"> 
- <li value="1"> Findthe document for the proof that contains the users you want to message.</li> Hover over the document, then click Proofing Workflow. To send a message to all users on the stage, click the More menu on the stage and choose Message All. To send a message to an individual user, click the More menu next to the user and choose Message. 
- <li value="5"> <p>In the <span class="bold">Message details</span> section, specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Notify people by email</td> 
-     <td>This option cannot be deselected. All users receive the message via email.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Discard custom message</td> 
-     <td> <p>Click <span class="bold">Discard custom message</span> if you want to include only the default email content.</p> <p>The default reminder email includes the following information:</p> 
-      <ul> 
-       <li>Personal link to the proof<br>Thumbnail of the proof image<br></li> 
-       <li>The following proof details: Proof name, version number, folder name (if applicable), and a list of the reviewers and their progress on the proof.</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Subject</td> 
-     <td>Type a message subject.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Message</td> 
-     <td>Type your message content.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6">Click <span class="bold">Send.</span></li> 
-</ol>
+1. Findthe document for the proof that contains the users you want to message.
+1. In the `Message details` section, specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Notify people by email</td> 
+      <td>This option cannot be deselected. All users receive the message via email.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Discard custom message</td> 
+      <td> <p>Click <span class="bold">Discard custom message</span> if you want to include only the default email content.</p> <p>The default reminder email includes the following information:</p> 
+       <ul> 
+        <li>Personal link to the proof<br>Thumbnail of the proof image<br></li> 
+        <li>The following proof details: Proof name, version number, folder name (if applicable), and a list of the reviewers and their progress on the proof.</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Subject</td> 
+      <td>Type a message subject.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Message</td> 
+      <td>Type your message content.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Send.`
 

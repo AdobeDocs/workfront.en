@@ -43,40 +43,33 @@ You must have the following access to perform the steps in this article:
 
 To set up access and subscription settings for a proof while you are creating it:
 
-<ol> 
- <li value="1">Begin the process for generating a proof on a document or website, as described in the <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md" class="MCXref xref">Generate a proof</a> articles.</li> 
- <li value="2">Scroll to the <span class="bold">Proof settings</span> section in the lower-right corner of the <span class="bold">New proof</span> page.</li> 
- <li value="3"> <p>Configure the following settings:<br></p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Allow sharing proof via public URL or embed code</span> </td> 
-     <td>When this option is selected, the proof can be shared via a public URL or embed code.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Allow subscribing to proof via public URL or embed code</span> </td> 
-     <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:
-      <ul>
-       <li><p><span class="bold">Subscriber role:</span>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</p><note type="important">
-         If 
-         <span class="bold">Allow Sharing With</span> is set to anything other than 
-         <span class="bold">Everyone</span> in the Workfront Proof settings, the subscription works only for people within the organization. For more information, see 
-         <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configure Proof Settings in Workfront Proof</a>.
-        </note></li>
-       <li><span class="bold">Email alert settings for subscribers:</span>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
-      </ul><p>
+1. Begin the process for generating a proof on a document or website, as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles.
+1. Scroll to the `Proof settings` section in the lower-right corner of the `New proof` page.
+
+1. Configure the following settings:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Allow sharing proof via public URL or embed code</span> </td> 
+      <td>When this option is selected, the proof can be shared via a public URL or embed code.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Allow subscribing to proof via public URL or embed code</span> </td> 
+      <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:
        <ul>
-        <li><span class="bold">Proof access via email link required for:</span>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <span class="bold">No email</span> (email link is not required to access the proof), <span class="bold">Proof notification email only</span> (subscriber receives a link to the proof via email without any verification), or <span class="bold">Validation and proof notification emails</span> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
-       </ul><note type="note">
-        &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.
-        <br>
-       </note></p></td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4">Continue creating your proof.</li> 
-</ol>
+        <li><p><span class="bold">Subscriber role:</span>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</p><p>Important: If <span class="bold">Allow Sharing With</span> is set to anything other than <span class="bold">Everyone</span> in the Workfront Proof settings, the subscription works only for people within the organization. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configure Proof Settings in Workfront Proof</a>.</p></li>
+        <li><span class="bold">Email alert settings for subscribers:</span>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
+       </ul><p>
+        <ul>
+         <li><span class="bold">Proof access via email link required for:</span>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <span class="bold">No email</span> (email link is not required to access the proof), <span class="bold">Proof notification email only</span> (subscriber receives a link to the proof via email without any verification), or <span class="bold">Validation and proof notification emails</span> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
+        </ul><p>Note: &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.<br></p></p></td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Continue creating your proof.
 
 Configure access and subscription settings for an existing proof To set up access and subscription settings for a proof that already exists in Workfront: Generate the proof (if you have not already done so) as described in the Generate a proof articles. In the Documents area, select the document that contains the proof you want to configure settings for, then click Document Details. In the left panel, click Proofing Viewer Settings. Configure the following settings: Allow sharing proof via public URL or embed codee When this option is selected, the proof can be shared via a public URL or embed code. Allow subscribing to proof via public URL or embed code When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings: Subscriber role: The default proof role that is assigned to all reviewers that subscribe to the proof. Important: If Allow Sharing With is set to anything other than Everyone in the Workfront Proof settings, the subscription works only for people within the organization. For more information, see Configure Proof Settings in Workfront Proof. Email alert settings for subscribers: The default email alert that is assigned to all reviewers that subscribe to the proof. Proof access via email link required for: Configure whether the subscriber receives an email with a link to the proof. You can select No email (email link is not required to access the proof), Proof notification email only (subscriber receives a link to the proof via email without any verification), or Validation and proof notification emails (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access). Note: If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to. Click Save.  

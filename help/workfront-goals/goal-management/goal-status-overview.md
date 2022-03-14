@@ -23,62 +23,23 @@ Goal statuses indicate whether a goal is active and currently recording progress
 
 ## Consideration when updating goal statuses in Workfront Goals
 
-<ul> 
- <li> <p>You can update the status of goals you created or that were shared with you. </p> </li> 
- <li> <p>Some restrictions exist and sometimes you cannot change the status of a goal to another status, according to the following rules: </p> 
-  <table> 
-   <col> 
-   <col> 
-   <col> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td>From/ To</td> 
-     <td>Draft</td> 
-     <td>Active</td> 
-     <td>Inactive</td> 
-     <td>Closed</td> 
-    </tr> 
-    <tr> 
-     <td>Draft</td> 
-     <td>- </td> 
-     <td>Yes</td> 
-     <td>No</td> 
-     <td>No</td> 
-    </tr> 
-    <tr> 
-     <td>Active</td> 
-     <td>No</td> 
-     <td>-</td> 
-     <td>Yes</td> 
-     <td>Yes</td> 
-    </tr> 
-    <tr> 
-     <td>Inactive</td> 
-     <td>No</td> 
-     <td>Yes</td> 
-     <td>-</td> 
-     <td>No</td> 
-    </tr> 
-    <tr> 
-     <td>Closed </td> 
-     <td>No</td> 
-     <td>Yes</td> 
-     <td>No</td> 
-     <td>- </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li> <p>Opening a closed goal also updates the goal's progress. </p> </li> 
- <li> <p>Certain actions you perform on a goal also update its status.&nbsp;For information about how you can update goal statuses, see the following articles:</p> </li> 
- <ul style="list-style-type: circle;"> 
-  <li><a href="../../workfront-goals/goal-management/create-goals.md" class="MCXref xref" xrefformat="{para}">Create goals in Adobe Workfront Goals</a> </li> 
-  <li><a href="../../workfront-goals/goal-management/activate-goals.md" class="MCXref xref" xrefformat="{para}">Activate goals in Adobe Workfront Goals</a> </li> 
-  <li><a href="../../workfront-goals/goal-management/delete-and-deactivate-goals.md" class="MCXref xref" xrefformat="{para}">Delete and deactivate goals in Adobe Workfront Goals</a> </li> 
-  <li><a href="../../workfront-goals/goal-management/close-and-reopen-goals.md" class="MCXref xref" xrefformat="{para}">Close and reopen goals in Adobe Workfront Goals</a> </li> 
- </ul> 
-</ul>
+* You can update the status of goals you created or that were shared with you. 
+* Some restrictions exist and sometimes you cannot change the status of a goal to another status, according to the following rules: 
+
+  | From/ To |Draft |Active |Inactive |Closed |
+  |---|---|---|---|---|
+  | Draft |-  |Yes |No |No |
+  | Active |No |- |Yes |Yes |
+  | Inactive |No |Yes |- |No |
+  | Closed  |No |Yes |No |-  |
+
+* Opening a closed goal also updates the goal's progress. 
+* Certain actions you perform on a goal also update its status.&nbsp;For information about how you can update goal statuses, see the following articles:
+
+  * [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md) 
+  * [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md) 
+  * [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md) 
+  * [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md)
 
 ## Overview of goal statuses in&nbsp;Workfront Goals
 
@@ -146,21 +107,21 @@ Goals can have one of the following statuses in Workfront Goals:
 
 ### Closed
 
-<ul> 
- <li> <p>You can close a goal when you want to indicate that you have achieved it or that you are no longer working on it nor will you do so in the future. For information about closing goals, see <a href="../../workfront-goals/goal-management/close-and-reopen-goals.md" class="MCXref xref" xrefformat="{para}">Close and reopen goals in Adobe Workfront Goals</a>.</p> <note type="tip">
-   If you plan on later working on a goal that is not yet achieved, we recommend you change the status to Inactive instead of Closed. 
-  </note> </li> 
- <li>You cannot close goals that have never been activated, like drafted goals. </li> 
- <li>You can reopen a closed goal and continue working on it. </li> 
- <li>Workfront Goals stops recording progress on closed goals.</li> 
- <li>You cannot check in on closed goals. </li> 
- <li>Closed goals display in the following area of Workfront Goals:
-  <ul>
-   <li>Goal List</li>
-   <li>Check-in section (only as aligned goals)</li>
-   <li>Goal Alignment section (only as aligned goals)</li>
-   <li>Pulse</li>
-   <li>Information from closed goals is also taken into account in the Graphs section. </li>
-  </ul></li> 
-</ul>
+* You can close a goal when you want to indicate that you have achieved it or that you are no longer working on it nor will you do so in the future. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md).
+
+  >[!TIP]
+  >
+  >If you plan on later working on a goal that is not yet achieved, we recommend you change the status to Inactive instead of Closed.
+
+* You cannot close goals that have never been activated, like drafted goals. 
+* You can reopen a closed goal and continue working on it. 
+* Workfront Goals stops recording progress on closed goals.
+* You cannot check in on closed goals. 
+* Closed goals display in the following area of Workfront Goals:
+
+  * Goal List
+  * Check-in section (only as aligned goals)
+  * Goal Alignment section (only as aligned goals)
+  * Pulse
+  * Information from closed goals is also taken into account in the Graphs section.
 

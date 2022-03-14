@@ -62,14 +62,16 @@ Consider the following about customizing issue types:
 
 To customize an issue type:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
- <li value="3">Click the <span class="bold">Issues</span> tab.</li> 
- <li value="4">Do any of the following:
-  <ul>
-   <li><p>Hover over the issue type you want to customize, click the Edit icon <img src="assets/edit-icon.png"> that appears to the far right, then type a new name for the issue type.</p><p><img src="assets/customize-issue-type-350x187.png" style="width: 350;height: 187;"></p></li>
-   <li>Click an issue type to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue <span class="bold">Status</span> drop-down menu.</li>
-  </ul></li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Project Preferences` > `Statuses`.
+
+1. Click the `Issues` tab.
+1. Do any of the following:
+
+  * Hover over the issue type you want to customize, click the Edit icon ![](assets/edit-icon.png) that appears to the far right, then type a new name for the issue type.
+
+    ![](assets/customize-issue-type-350x187.png)
+
+  * Click an issue type to list its associated statuses, then drag the handles that appear when you hover over them and and drop them in the order you want them to appear in your users' issue `Status` drop-down menu.
 

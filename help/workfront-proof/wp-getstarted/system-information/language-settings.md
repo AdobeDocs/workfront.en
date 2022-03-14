@@ -35,22 +35,25 @@ Workfront Proof is available in the following languages:
 
 To change your account's default language, follow the steps below.
 
-<ol> 
- <li value="1">Go to the <span class="bold">Details</span> tab in&nbsp;<span class="bold">Account settings</span> in&nbsp;Workfront Proof.</li> 
- <li value="2">In <span class="bold">Account details</span> section, click&nbsp;<span class="bold">Edit&nbsp;</span>for the&nbsp;<span class="bold">Default language&nbsp;</span>settings.</li> 
- <li value="3">In the drop-down menu select your default language.<br><img src="assets/account-language-setting-350x230.png" alt="account_language_setting.png" style="width: 350;height: 230;"></li> 
- <li value="4">Click&nbsp;<span class="bold">Save.</span></li> 
-</ol>
+1. Go to the `Details` tab in  `Account settings` in&nbsp;Workfront Proof.
+
+1. In `Account details` section, click  `Edit`for the  `Default language`settings.
+
+1. In the drop-down menu select your default language.  
+   ![account_language_setting.png](assets/account-language-setting-350x230.png)
+
+1. Click  `Save.`
 
 ## Changing the Default Language in Personal Settings
 
 Individual Workfront Proof&nbsp;users can specify a language different to the one used by default in their&nbsp;account. To change your personal default language, follow the steps below.
 
-<ol> 
- <li value="1">Go to the&nbsp;<span class="bold">Personal details</span> tab in your&nbsp;<span class="bold">Personal settings</span> in&nbsp;Workfront Proof.<br>For more information, see <a href="../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md" class="MCXref xref">Manage Workfront Proof users</a>.</li> 
- <li value="2">Click on the language visible in the<span class="bold">&nbsp;Language&nbsp;</span>setting.</li> 
- <li value="3">In the drop-down menu select your preferred language.&nbsp;Your selection will be saved automatically.<br><img src="assets/personal-language-setting-350x197.png" alt="personal_language_setting.png" style="width: 350;height: 197;"></li> 
-</ol>
+1. Go to the  `Personal details` tab in your  `Personal settings` in&nbsp;Workfront Proof.  
+   For more information, see [Manage Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
+
+1. Click on the language visible in the `Language`setting.
+1. In the drop-down menu select your preferred language.&nbsp;Your selection will be saved automatically.  
+   ![personal_language_setting.png](assets/personal-language-setting-350x197.png)
 
 ## Add Proof Comments Using Non-Latin Alphabet
 

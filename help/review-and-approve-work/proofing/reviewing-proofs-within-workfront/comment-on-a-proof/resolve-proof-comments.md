@@ -48,20 +48,20 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="4">Select the comment. </li> 
- <li value="5"> <p>Click the check mark icon in the lower-right corner of the comment. A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives a notification that the comment was resolved.</p> <p> <img src="assets/resolve-comment-350x247.png" style="width: 350;height: 247;"> </p> </li> 
-</ol>
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. Select the comment. 
+1. Click the check mark icon in the lower-right corner of the comment. A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives a notification that the comment was resolved.
+
+   ![](assets/resolve-comment-350x247.png)
 
 ## Reopen a resolved comment
 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="4">Select the comment.</li> 
- <li value="5"> <p>Click the green check mark icon in the lower-right corner of the comment (to the right of the <span class="bold">Reply</span> button). The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.</p> <p> <img src="assets/reopen-resolved-comment-350x334.png" style="width: 350;height: 334;"> </p> </li> 
-</ol>
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. Select the comment.
+1. Click the green check mark icon in the lower-right corner of the comment (to the right of the `Reply` button). The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.
+
+   ![](assets/reopen-resolved-comment-350x334.png)
 

@@ -14,15 +14,21 @@ You can choose to view the new Adobe Workfront experience documentation by doing
 
 ## Change an article to the new Adobe Workfront experience version while viewing it
 
-<ol> 
- <li value="1"> <p>When viewing any documentation article on Workfront One, click the <span class="bold">Currently viewing</span> drop-down menu, then click The new Adobe Workfront experience if it is not already selected.</p> <p> <img src="assets/article-nwe-drop-down-350x114.png" style="width: 350;height: 114;"> </p> <p>The new Adobe Workfront experience version of the article displays.</p> <p>This drop-down menu appears only if there are article versions for both Adobe Workfront Classic and the new Adobe Workfront experience.</p> </li> 
-</ol>
+1. When viewing any documentation article on Workfront One, click the `Currently viewing` drop-down menu, then click The new Adobe Workfront experience if it is not already selected.
+
+   ![](assets/article-nwe-drop-down-350x114.png)
+
+   The new Adobe Workfront experience version of the article displays.
+
+   This drop-down menu appears only if there are article versions for both Adobe Workfront Classic and the new Adobe Workfront experience.
 
 ## Choose the new Adobe Workfront experience version of an article in the search results
 
-<ol> 
- <li value="1"> <p>After performing a search on Workfront One, click the link that says, <span class="bold">Also available in: The new Workfront experience</span> to see the new Workfront experience version of the article.</p> <p> <img src="assets/combined2-350x153.png" style="width: 350;height: 153;"> </p> <p>This link appears only if there are article versions for both Adobe Workfront Classic and the new Adobe Workfront experience.</p> </li> 
-</ol>
+1. After performing a search on Workfront One, click the link that says, `Also available in: The new Workfront experience` to see the new Workfront experience version of the article.
+
+   ![](assets/combined2-350x153.png)
+
+   This link appears only if there are article versions for both Adobe Workfront Classic and the new Adobe Workfront experience.
 
 ## Make the new Adobe Workfront experience the default documentation version for all articles
 
@@ -32,11 +38,16 @@ Adjust your Workfront&nbsp;One profile to make the new Adobe Workfront experienc
 >
 >You must be logged in to Workfront One to access this feature.
 
-<ol> 
- <li value="1"> <p>Enter a search string in the search field on Workfront One, then press Enter.</p> </li> 
- <li value="2"> <p>On the search results page, make sure that the <span class="bold">Personalized Search Results</span> toggle is enabled, then click <span class="bold">Edit Preferences</span>.</p> <p> <img src="assets/editpref-350x152.png" style="width: 350;height: 152;"> </p> </li> 
- <li value="3"> <p>On the <span class="bold">Search Preferences</span> tab, enable the option for The new Adobe Workfront experience.</p> <p>Your changes are saved automatically. </p> <p>Now when you perform a search, the new Adobe Workfront experience version of articles are displayed by default.</p> </li> 
-</ol>
+1. Enter a search string in the search field on Workfront One, then press Enter.
+1. On the search results page, make sure that the `Personalized Search Results` toggle is enabled, then click `Edit Preferences`.
+
+   ![](assets/editpref-350x152.png)
+
+1. On the `Search Preferences` tab, enable the option for The new Adobe Workfront experience.
+
+   Your changes are saved automatically.
+
+   Now when you perform a search, the new Adobe Workfront experience version of articles are displayed by default.
 
 ## View the documentation home page for the new Adobe Workfront experience
 

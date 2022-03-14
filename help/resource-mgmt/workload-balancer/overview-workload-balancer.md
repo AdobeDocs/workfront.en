@@ -98,19 +98,22 @@ For information about creating and using filters in the Workload Balancer, see [
 
 ### Best practices for setting up users
 
-<ul> 
- <li> <p>As the user who schedules work for others, you must have the correct access and permissions to schedule resources for work. </p> <p>For information about the access needed to manage the workload of your resources in the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md" class="MCXref xref">Access needed to manage resources in the Workload Balancer</a>. </p> </li> 
- <li> <p>The users whose workload you want to manage need to meet the following criteria so that the information about their availability and skills is accurate:</p> 
-  <ul> 
-   <li>Have Schedules and Job Roles associated with their profile.</li> 
-   <p>For more information about associating Schedules and Job Roles with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a></p> <note type="note">
-    If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of resource management. 
-   </note> 
-   <li>Have Schedule Exceptions updated in their schedules.<br>For more information about creating schedules, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a></li> 
-   <li>Have their Time Off calendar updated in their profile. <br>For information about updating a user's Time Off calendar, see <a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md" class="MCXref xref">Personal time overview</a>. </li> 
-  </ul> </li> 
- <li> <p>The Workfront administrator must determine how Workfront calculates user availability.&nbsp;They can decide whether Workfront uses either the System Default Schedule, or the user's schedule to calculate the time that the user is available to work. For more information, see <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md" class="MCXref xref">Configure Resource Management preferences</a>.</p> </li> 
-</ul>
+* As the user who schedules work for others, you must have the correct access and permissions to schedule resources for work.
+
+  For information about the access needed to manage the workload of your resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md). 
+
+* The users whose workload you want to manage need to meet the following criteria so that the information about their availability and skills is accurate:
+
+  * Have Schedules and Job Roles associated with their profile.
+  * For more information about associating Schedules and Job Roles with users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+  * If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of resource management. 
+  * Have Schedule Exceptions updated in their schedules.  
+    For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+  
+  * Have their Time Off calendar updated in their profile.   
+    For information about updating a user's Time Off calendar, see [Personal time overview](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+
+* The Workfront administrator must determine how Workfront calculates user availability.&nbsp;They can decide whether Workfront uses either the System Default Schedule, or the user's schedule to calculate the time that the user is available to work. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Best practices for setting up tasks `and` `issues`
 

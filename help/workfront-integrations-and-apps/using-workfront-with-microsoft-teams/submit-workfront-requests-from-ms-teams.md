@@ -45,73 +45,66 @@ Your Microsoft Teams team owner must install Workfront for Microsoft Teams befor
 
 ## Submit Workfront requests from Microsoft Teams
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">More added apps</span> icon on the left navigation bar in Microsoft Teams.</p> <p> <img src="assets/ms-teams-more-added-apps-icon.png"> </p> </li> 
- <li value="2">Click <span class="bold">Workfront</span> in the list that appears.</li> 
- <li value="3">Click the <span class="bold">Requests</span> tab.</li> 
- <li value="4">Click <span class="bold">New Request</span>.</li> 
- <li value="5">In the <span class="bold">Select a Request Type</span> box, select the request queue where you want to submit the request.</li> 
- <li value="6">(Optional) Select a Topic Group or a Queue Topic, if they are available on the request queue.</li> 
- <li value="7"> <p>Specify the following information:</p> <p>(Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>.)</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Subject</td> 
-     <td>Type a subject name for the request.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Type a description for the request.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">&nbsp;</td> 
-     <td> <p>Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking Select file and browsing to and selecting the document in your file system.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="8">(Optional) If the Workfront administrator attached custom forms to the request queue, provide the information in the fields available on the custom forms.</li> 
- <li value="9">The custom forms display at the bottom of the new request.</li> 
- <li value="10"> <p>Click <span class="bold">Submit</span>.</p> <p>The Request appears in Workfront, in the specified request queue. You receive a confirmation that the request was submitted successfully.</p> </li> 
-</ol>
+1. Click the `More added apps` icon on the left navigation bar in Microsoft Teams.
+
+   ![](assets/ms-teams-more-added-apps-icon.png)
+
+1. Click `Workfront` in the list that appears.
+1. Click the `Requests` tab.
+1. Click `New Request`.
+1. In the `Select a Request Type` box, select the request queue where you want to submit the request.
+1. (Optional) Select a Topic Group or a Queue Topic, if they are available on the request queue.
+1. Specify the following information:
+
+   (Depending on how the request queue was set up, the options and boxes you see might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md).)
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Subject</td> 
+      <td>Type a subject name for the request.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Type a description for the request.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">&nbsp;</td> 
+      <td> <p>Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking Select file and browsing to and selecting the document in your file system.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) If the Workfront administrator attached custom forms to the request queue, provide the information in the fields available on the custom forms.
+1. The custom forms display at the bottom of the new request.
+1. Click `Submit`.
+
+   The Request appears in Workfront, in the specified request queue. You receive a confirmation that the request was submitted successfully.
 
 ## View Workfront requests you submitted in Microsoft Teams
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">More added apps</span> icon on the left navigation bar in Microsoft Teams.</p> <p> <img src="assets/ms-teams-more-added-apps-icon.png"> </p> </li> 
- <li value="2">Click <span class="bold">Workfront</span> in the list that appears.</li> 
- <li value="3"> <p>Click the <span class="bold">Requests</span> tab.</p> <p> <img src="assets/ms-teams-requests-page-with-count-350x198.png" style="width: 350;height: 198;"> </p> <p>Requests you submitted are listed in the My submitted requests area of the Requests tab. You cannot configure the information displayed in this tab about the requests you submitted.</p> <p>You can view the following information about your submitted requests in the My submitted requests area of the Requests tab:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Subject</td> 
-     <td>The name of the request</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Reference number</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Request type</td> 
-     <td>The name of the request queue where you submitted the request</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Status</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Submitted on</td> 
-     <td>The date when you submitted the request</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Assigned to</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4">(Optional) Click the header of any of the columns in the list to sort the list by that column. By default, Workfront sorts the list by the Submitted on date, starting with the most recently submitted request.</li> 
-</ol>
+1. Click the `More added apps` icon on the left navigation bar in Microsoft Teams.
+
+   ![](assets/ms-teams-more-added-apps-icon.png)
+
+1. Click `Workfront` in the list that appears.
+1. Click the `Requests` tab.
+
+   ![](assets/ms-teams-requests-page-with-count-350x198.png)
+
+   Requests you submitted are listed in the My submitted requests area of the Requests tab. You cannot configure the information displayed in this tab about the requests you submitted.
+
+   You can view the following information about your submitted requests in the My submitted requests area of the Requests tab:
+
+   | Subject |The name of the request |
+   |---|---|
+   | Reference number |&nbsp; |
+   | Request type |The name of the request queue where you submitted the request |
+   | Status |&nbsp; |
+   | Submitted on |The date when you submitted the request |
+   | Assigned to |&nbsp; |
+
+1. (Optional) Click the header of any of the columns in the list to sort the list by that column. By default, Workfront sorts the list by the Submitted on date, starting with the most recently submitted request.
 

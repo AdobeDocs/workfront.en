@@ -66,29 +66,40 @@ After you have defined the fields of a new issue form on your project, you can s
 
 To create an issue on a task or a project:
 
-<ol> 
- <li value="1">Go to a project where you want to create the issue. </li> 
- <li value="2">(Optional) If you want to log the issue for a task, go to the <span class="bold">Tasks</span> area, then click the name of a task. </li> 
- <li value="3"> <p> Click the Issues section.</p> <p>  </p> </li> 
- <li value="4">Click <span class="bold">New Issue</span>. <p></p></li> 
- <li value="5"> <p>(Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the <span class="bold">Topic Group</span> or the <span class="bold">Queue Topic</span> of your new issue. They should have names customized to your environment.<br>For more information about creating Topic Groups, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Create Topic Groups</a>. For more information about creating Queue Topics, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>.<br><img src="assets/new-issue-form--topic--queue--default-fields-only-350x533.png" alt="" style="width: 350;height: 533;"></p> 
-  <ul> 
-   <li>If there is only one Queue Topic set on the project, it is displayed automatically.</li> 
-   <li>If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.</li> 
-  </ul> </li> 
- <li value="6"> <p>(Conditional) If the project creator allowed for the <span class="bold">Issue Type</span> field to display on the New Issue form, select the type of your issue from the following options:</p> 
-  <ul> 
-   <li>Bug Report</li> 
-   <li>Change Order</li> 
-   <li>Issue</li> 
-   <li>Request<br>Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you.</li> 
-  </ul> </li> 
- <li value="7"> <p>Specify any of the fields available in the <span class="bold">New Issue</span> form. For more information about defining fields as you enter a new issue, see <a href="../../../manage-work/issues/manage-issues/edit-issues.md" class="MCXref xref">Edit issues</a>.</p> <p> <img src="assets/new-issue-form--no-topic--queue--no-form--default-fields-350x557.png" alt="" style="width: 350;height: 557;"> </p> </li> 
- <li value="8">(Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the <span class="bold">New Issue</span> form.<br>Or<br>If the project is associated with an issue custom form through the Queue Details area, the form displays in the <span class="bold">New Issue</span> form, under the default Workfront fields.<br><!--
+1. Go to a project where you want to create the issue. 
+1. (Optional) If you want to log the issue for a task, go to the `Tasks` area, then click the name of a task. 
+1. Click the Issues section.
+
+1. Click `New Issue`.
+
+1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the `Topic Group` or the `Queue Topic` of your new issue. They should have names customized to your environment.  
+   For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).  
+   ![](assets/new-issue-form--topic--queue--default-fields-only-350x533.png)
+
+  * If there is only one Queue Topic set on the project, it is displayed automatically.
+  * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
+
+1. (Conditional) If the project creator allowed for the `Issue Type` field to display on the New Issue form, select the type of your issue from the following options:
+
+  * Bug Report
+  * Change Order
+  * Issue
+  * Request  
+    Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you.
+
+1. Specify any of the fields available in the `New Issue` form. For more information about defining fields as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
+
+   ![](assets/new-issue-form--no-topic--queue--no-form--default-fields-350x557.png)
+
+1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the `New Issue` form.  
+   Or  
+   If the project is associated with an issue custom form through the Queue Details area, the form displays in the `New Issue` form, under the default Workfront fields.
+
+   <!--
    For more information about defining the Queue Details tab of a project, see Overview of the Queue Details tab in a project.
-  --></li> 
- <li value="9"> <p>Click <span class="bold">Save New Issue.</span></p> </li> 
-</ol>
+   -->
+
+1. Click `Save New Issue.`
 
 Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 

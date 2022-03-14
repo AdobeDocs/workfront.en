@@ -60,15 +60,26 @@ For more information about `Revenue Type` and billing rates, see [Overview of Bi
 
 A job role can have a billing rate associated with it in the following ways:
 
-<ul> 
- <li>As a Workfront administrator, you can define the system-level billing rate associated with a job role when you are creating that job role.<br>For more information about creating job roles, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</li> 
- <li>As a Workfront administrator, you can define the company-level billing rate for the same job role when you create a company.<br>When Workfront calculates revenue for the projects associated with this company, the company billing rate is used when the role is assigned to tasks, instead of the system-level billing rate for this job role.<br>Job role rates changed at the company level will impact all projects associated with that company.<br><note type="note">
-    If you need to update the Company billing rate, the rate on the project will not update automatically. You must remove the Company from the project, update the rate for the Company, then re-attach the Company to the project, before the new Company rate takes effect on the project. For instructions on attaching a Company to a project, see 
-   <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.
-  </note>For more information about creating job role billing rates specific to a company, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>. </li> 
- <li>As a Workfront administrator, you can enable an option when editing a project to apply changes to company-level billing rates to the project when users manually recalculate project finances.<br>For more information, see <a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">Override Project-Level Billing Rates with Company-Level Billing Rates</a>.</li> 
- <li> <p>As a project manager, you can define the billing rate for the same job role at the project level.<br>Job role rates changed on the project will only impact that project. </p> <p>For information about overriding role rates for the project, see <a href="../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md" class="MCXref xref">Override Job Role Billing Rates at the project level</a>. </p> </li> 
-</ul>
+* As a Workfront administrator, you can define the system-level billing rate associated with a job role when you are creating that job role.  
+  For more information about creating job roles, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+* As a Workfront administrator, you can define the company-level billing rate for the same job role when you create a company.  
+  When Workfront calculates revenue for the projects associated with this company, the company billing rate is used when the role is assigned to tasks, instead of the system-level billing rate for this job role.  
+  Job role rates changed at the company level will impact all projects associated with that company.
+
+  >[!NOTE]
+  >
+  >If you need to update the Company billing rate, the rate on the project will not update automatically. You must remove the Company from the project, update the rate for the Company, then re-attach the Company to the project, before the new Company rate takes effect on the project. For instructions on attaching a Company to a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+  For more information about creating job role billing rates specific to a company, see [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md). 
+
+* As a Workfront administrator, you can enable an option when editing a project to apply changes to company-level billing rates to the project when users manually recalculate project finances.  
+  For more information, see [Override Project-Level Billing Rates with Company-Level Billing Rates](../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md).
+
+* As a project manager, you can define the billing rate for the same job role at the project level.  
+  Job role rates changed on the project will only impact that project.
+
+  For information about overriding role rates for the project, see [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 >[!IMPORTANT]
 >
@@ -94,25 +105,33 @@ You can override the billing rate of a job role on a project in the following wa
 
 To override a billing rate for a project:
 
-<ol> 
- <li value="1">Go to the project you want to override billing rates for.</li> 
- <li value="2"> Click Billing Rates in the left panel. You might have to first click Show More. </li> 
- <li value="3">Click <span class="bold">Add Billing Rate</span>.</li> 
- <li value="4">Click <span class="bold">New Billing Rate</span>.</li> 
- <li value="5">In the <span class="bold">Job Role</span> field, select the job role you want to change the billing rate for.<br><img src="assets/new-billing-rate-350x267.png" alt="new_billing_rate.png" style="width: 350;height: 267;"><br>The <span class="bold">Default Billing Rate</span> field displays the system-level rate for this job role.</li> 
- <li value="6">In the <span class="bold">Billing Rates 1</span> field, enter the one time billing rate override, then click <span class="bold">Save</span> to override the billing rate one time, <br>Or Click <span class="bold">Add Rate</span> to add more billing rate overrides.</li> 
- <li value="7">(Conditional) If you are adding more than one billing rate override, specify the following information:<br>- <span class="bold">Billing Rates 1</span>: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the <span class="bold">Default Rate</span>.<br>- <span class="bold">Start Date</span>: this is the date when the Default Rate ends.<br>- <span class="bold">End Date</span>: the date when the new billing rate override ends. <br><img src="assets/new-billing-rate-with-adjustment-dates-350x266.png" alt="new_billing_rate_with_adjustment_dates.png" style="width: 350;height: 266;"><br>Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.<br>There should be no gaps between the time frames of two override rates. The <span class="bold">Start Date</span> of an override rate should be the day immediately following the <span class="bold">End Date</span> of the previous override date.<br><note type="note">
-    You cannot specify a 
-   <span class="bold">Start Date</span> for the first override rate, nor an 
-   <span class="bold">End Date</span> for the last override rate. We recommend that you use the Default Rate for the first override rate.
-   <br>Workfront assumes that the first override rate is applied for all hours with a date older than the
-   <span class="bold"> End Date</span> of the first override, and that the last override rate is applied for all hours with a date newer than the 
-   <span class="bold">Start Date</span> of the last override.
-   <br>If an hour is logged before the Planned Start Date of the project the very first billing rate is used.
-   <br>If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
-  </note><br></li> 
- <li value="8">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Go to the project you want to override billing rates for.
+1. Click Billing Rates in the left panel. You might have to first click Show More. 
+1. Click `Add Billing Rate`.
+1. Click `New Billing Rate`.
+1. In the `Job Role` field, select the job role you want to change the billing rate for.  
+   ![new_billing_rate.png](assets/new-billing-rate-350x267.png)  
+   The `Default Billing Rate` field displays the system-level rate for this job role.
+
+1. In the `Billing Rates 1` field, enter the one time billing rate override, then click `Save` to override the billing rate one time,   
+   Or Click `Add Rate` to add more billing rate overrides.
+
+1. (Conditional) If you are adding more than one billing rate override, specify the following information:  
+   - `Billing Rates 1`: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the `Default Rate`.  
+   - `Start Date`: this is the date when the Default Rate ends.  
+   - `End Date`: the date when the new billing rate override ends.   
+   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)  
+   Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.  
+   There should be no gaps between the time frames of two override rates. The `Start Date` of an override rate should be the day immediately following the `End Date` of the previous override date.
+
+   >[!NOTE]
+   >
+   >You cannot specify a `Start Date` for the first override rate, nor an `End Date` for the last override rate. We recommend that you use the Default Rate for the first override rate.  
+   >Workfront assumes that the first override rate is applied for all hours with a date older than the `End Date` of the first override, and that the last override rate is applied for all hours with a date newer than the `Start Date` of the last override.  
+   >If an hour is logged before the Planned Start Date of the project the very first billing rate is used.  
+   >If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
+
+1. Click `Save`.
 
 Overview of the Billing Rates section of a project After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the `Billing Rates` tab of the project.
 
@@ -207,12 +226,16 @@ For more information about finding the Planned Hours per Day amount in Workfront
 
 Consider the following when understanding the distribution of Planned Hours across the Duration of a task:
 
-<ul> 
- <li> <p>By default, Workfront distributes the Planned Hours evenly across the Duration of a task, allocating an equal number of Planned Hours for each day of the task, based on the availability of the project schedule. </p> <p>For more information about understanding the distribution of Planned Hours across the Duration of a task, see the "Understanding the Distribution of Planned Hours Across the Duration of a Task" section in the article <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <note type="note"> 
-   <p> The Planned Hours per Day is the allocation of Planned Hours for each day during the Duration of the task. If the task has one assignment, then this number represents the Planned Hours per Day per assignment, as well. If the task has multiple assignments, the Planned Hours per Day per assignment is different than the Planned Hours per Day for the task. There is no visual representation in Workfront for the Planned Hours per Day per assignment, for tasks with multiple assignments.</p> 
-   <p>The Planned Hours per Day are multiplied by the billing rate for the job role assigned to the task for that day to calculate the Planned Revenue per Day for that task. A sum of all daily Planned Revenues calculated this way equals to the Planned Revenue for that task.</p> 
-  </note> </li> 
-</ul>
+* By default, Workfront distributes the Planned Hours evenly across the Duration of a task, allocating an equal number of Planned Hours for each day of the task, based on the availability of the project schedule.
+
+  For more information about understanding the distribution of Planned Hours across the Duration of a task, see the "Understanding the Distribution of Planned Hours Across the Duration of a Task" section in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
+
+  >[!NOTE]
+  >
+  >The Planned Hours per Day is the allocation of Planned Hours for each day during the Duration of the task. If the task has one assignment, then this number represents the Planned Hours per Day per assignment, as well. If the task has multiple assignments, the Planned Hours per Day per assignment is different than the Planned Hours per Day for the task. There is no visual representation in Workfront for the Planned Hours per Day per assignment, for tasks with multiple assignments.
+  >
+  >
+  >The Planned Hours per Day are multiplied by the billing rate for the job role assigned to the task for that day to calculate the Planned Revenue per Day for that task. A sum of all daily Planned Revenues calculated this way equals to the Planned Revenue for that task.
 
 ## Calculate Actual Revenue
 

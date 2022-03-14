@@ -48,34 +48,17 @@ In addition to updating the Duration&nbsp;Type of a task as described in this ar
 
 To update the Duration&nbsp;Type of a task:
 
-<ol> 
- <li value="1"> Click Main Menu > Projects, then click a project to access it. </li> 
- <li value="2"> <p>Click the <span class="bold">Tasks</span> section in the left panel. </p> </li> 
- <li value="3"> Click Task Details in the left panel, then in the Overview area click Duration Type.  </li> 
- <li value="4"> <p>Select from the following options</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Calculated Work</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Duration Type overview: Calculated Work</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Effort Driven</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Duration Type overview: Effort Driven</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Calculated Assignment</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Duration Type overview: Calculated Assignment</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Simple</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Duration Type overview: Simple</a>. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Save</span>&nbsp;Changes.</li> 
-</ol>
+1. Click Main Menu > Projects, then click a project to access it. 
+1. Click the `Tasks` section in the left panel. 
+1. Click Task Details in the left panel, then in the Overview area click Duration Type.  
+1. Select from the following options
+
+   | Calculated Work |For information, see [Duration Type overview: Calculated Work](../../../manage-work/tasks/taskdurtn/calculated-work.md).  |
+   |---|---|
+   | Effort Driven |For information, see [Duration Type overview: Effort Driven](../../../manage-work/tasks/taskdurtn/effort-driven.md).  |
+   | Calculated Assignment |For information, see [Duration Type overview: Calculated Assignment](../../../manage-work/tasks/taskdurtn/calculated-assignment.md).  |
+   | Simple |For information, see [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).  |
+
+1. Click `Save`&nbsp;Changes.
 
 &nbsp;

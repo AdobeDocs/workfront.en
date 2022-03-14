@@ -59,18 +59,21 @@ You can request additional access for the following objects:
 
 To remind another user to approve your access request for an object:
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, Go to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3">Select an <span class="bold">Access&nbsp;Request</span> approval.<br><img src="assets/access-request-350x335.png" style="width: 350;height: 335;"></li> 
- <li value="4">Click <span class="bold">Remind</span> in the upper-right corner of the right panel to send a notification to the approver.</li> 
-</ol>
+1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+
+1. Select an `Access Request` approval.  
+   ![](assets/access-request-350x335.png)
+
+1. Click `Remind` in the upper-right corner of the right panel to send a notification to the approver.
 
 ## Documents
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, Go to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3">Select a <span class="bold">Document</span> approval.<br><img src="assets/document-350x335.png" style="width: 350;height: 335;"></li> 
- <li value="4">Click <span class="bold">Manage Approvals</span> in the upper-right corner of the right panel.</li> 
- <li value="5">Click the <span class="bold">Remind</span> icon to send a notification to the approver.<br><img src="assets/remind-350x41.png" alt="remind.png" style="width: 350;height: 41;"></li> 
-</ol>
+1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+
+1. Select a `Document` approval.  
+   ![](assets/document-350x335.png)
+
+1. Click `Manage Approvals` in the upper-right corner of the right panel.
+1. Click the `Remind` icon to send a notification to the approver.  
+   ![remind.png](assets/remind-350x41.png)
 

@@ -65,12 +65,19 @@ Also, if your firewall or mail server is configured to allow access to only cert
 
 ## Configure your email allowlist
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">System</span> > <span class="bold">Customer info</span>.</li> 
- <li value="3"> <p>In the <span class="bold">Email Allowlist</span> section, select <span class="bold">Enable Domain Allowlist</span>, then click <span class="bold">Add Domain</span>.</p> </li> 
- <li value="4">In the box that displays, type a domain that you want to allow, such as <code>ourcompany.com</code>, then click <span class="bold">Add Domain</span>.</li> 
- <li value="5">Repeat the previous step to add any other domains you want to allow.</li> 
- <li value="6">When you are finished, click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Customer info`.
+
+1. In the `Email Allowlist` section, select `Enable Domain Allowlist`, then click `Add Domain`.
+1. In the box that displays, type a domain that you want to allow, such as 
+
+   ```
+   ourcompany.com
+   ```
+
+   , then click `Add Domain`.
+
+1. Repeat the previous step to add any other domains you want to allow.
+1. When you are finished, click `Save`.
 

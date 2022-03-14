@@ -47,19 +47,34 @@ You must have the following access to perform the steps in this article:
 
 When you log in to Workfront from one of the supported Adobe applications, you are logged in to all supported Adobe applications.
 
-<ol> 
- <li value="1"> <p>Go to the Adobe application where you want to use the Workfront extension.<br></p> <p>For information about installing the extension, see <a href="../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md" class="MCXref xref">Install Adobe Workfront for Adobe Creative Cloud</a>.<br></p> <p>For a list of supported formats for each supported application, see <a href="#supported-exported-file-formats" target="_blank" rel="noopener" class="MCXref xref">Supported exported file formats</a> in this article.</p> </li> 
- <li value="2">Click <span class="bold">Window</span> > <span class="bold">Extensions</span> > Workfront.</li> 
- <li value="3">(Optional) Drag the Workfront panel to the position where&nbsp;you want it displayed in the Adobe application.</li> 
- <li value="4"> <p>Follow the prompts to log in to Workfront using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.</p> <note type="note"> 
-   <ul> 
-    <li>When you are prompted to enter the domain of your Workfront account, type it using this format: <em>yourCompany'sDomain.my.workfront.com</em>. Your company's domain is usually the name of your company.</li> 
-    <li>Enhanced Authentication is not available until a Workfront administrator enables it for this integration. </li> 
-   </ul> 
-  </note> <!--
+1. Go to the Adobe application where you want to use the Workfront extension.
+
+   For information about installing the extension, see [Install Adobe Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md).
+
+   For a list of supported formats for each supported application, see [Supported exported file formats](#supported-exported-file-formats) in this article.
+
+1. Click `Window` > `Extensions` > Workfront.
+
+1. (Optional) Drag the Workfront panel to the position where&nbsp;you want it displayed in the Adobe application.
+1. Follow the prompts to log in to Workfront using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >  * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
+   >  
+   >
+
+   <!--
    Follow the prompts to log in to Workfront. Note: Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users. When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: yourCompany'sDomain.my.workfront.com. Your company's domain is usually the name of your company.
-  --> <p>A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.<br></p> <p>Your personal tasks are listed under <span class="bold">No Project</span>.</p> </li> 
-</ol>
+   -->
+
+   A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.
+
+   Your personal tasks are listed under `No Project`.
 
 ## Upload a file to a Workfront project, task, or issue
 
@@ -81,47 +96,108 @@ This section explains the following:
 
 You can upload your files to a project, task, or issue without leaving your Adobe Creative Cloud application.
 
-<ol> 
- <li value="1"> <p>If you do not see the Workfront extension when you open your Adobe Creative Cloud application, click&nbsp;<span class="bold">Window</span> > <span class="bold">Extensions</span> > Workfront.<br></p> <p>A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.<br></p> <p>Your personal tasks are listed under <span class="bold">No Project</span>.</p> </li> 
- <li value="2"> <p>Click the name of the project, task, or issue to which you want to upload the file.</p> <p>You can search for this by typing the name in the <span class="bold">Search</span> box and selecting <span class="bold">Project</span>, <span class="bold">Task</span>, or <span class="bold">Issue</span> from the drop-down menu to the right of the <span class="bold">Search</span> box. If the name of the work item doesn't appear in the list, press <span class="bold">Enter</span> to search all Workfront items that you have access to view.<br></p> </li> 
- <li value="3">Click <span class="bold">Select</span> in the lower-right corner of the Workfront extension.</li> 
- <li value="4"> <p>In the <span class="bold">Click to select format</span> drop-down menu, click the format in which you want to save the file in Workfront. </p> <p>For a list of supported formats for each supported application, see <a href="#supported-exported-file-formats" target="_blank" rel="noopener" class="MCXref xref">Supported exported file formats</a> in this article.</p> </li> 
- <li value="5">(Conditional) If the work item where you want to upload the file has document folders, select a document folder in the<span class="bold"> Click to select a document folder</span> field, then click <span class="bold">Select</span>.</li> 
- <li value="6">Click <span class="bold">Upload a local file</span>.</li> 
- <li value="7">In the <span class="bold">Open File</span> box that appears, find the file in your file system, then click <span class="bold">Open</span>.&nbsp;</li> 
- <li value="8"> <p>(Optional) Type a new name for the file.&nbsp;</p> <p> <img src="assets/rename-file-uploading.png"> </p> </li> 
- <li value="9"> <p>Click <span class="bold">Upload</span>.<br></p> <p>In Workfront, the document is now listed in the Documents area for the project, task, or issue you specified. &nbsp;</p> </li> 
- <li value="10"> <p>(Optional) Click the name of the document to open its Document Details page in Workfront.<br></p> <p>Workfront opens in a new browser tab.</p> </li> 
-</ol>
+1. If you do not see the Workfront extension when you open your Adobe Creative Cloud application, click  `Window` > `Extensions` > Workfront.
+
+   A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.
+
+   Your personal tasks are listed under `No Project`.
+
+1. Click the name of the project, task, or issue to which you want to upload the file.
+
+   You can search for this by typing the name in the `Search` box and selecting `Project`, `Task`, or `Issue` from the drop-down menu to the right of the `Search` box. If the name of the work item doesn't appear in the list, press `Enter` to search all Workfront items that you have access to view.
+
+1. Click `Select` in the lower-right corner of the Workfront extension.
+1. In the `Click to select format` drop-down menu, click the format in which you want to save the file in Workfront.
+
+   For a list of supported formats for each supported application, see [Supported exported file formats](#supported-exported-file-formats) in this article.
+
+1. (Conditional) If the work item where you want to upload the file has document folders, select a document folder in the `Click to select a document folder` field, then click `Select`.
+
+1. Click `Upload a local file`.
+1. In the `Open File` box that appears, find the file in your file system, then click `Open`.&nbsp;
+
+1. (Optional) Type a new name for the file.&nbsp;
+
+   ![](assets/rename-file-uploading.png)
+
+1. Click `Upload`.
+
+   In Workfront, the document is now listed in the Documents area for the project, task, or issue you specified. &nbsp;
+
+1. (Optional) Click the name of the document to open its Document Details page in Workfront.
+
+   Workfront opens in a new browser tab.
 
 ### Export a file currently open in an Adobe application
 
-<ol> 
- <li value="1">In a supported Adobe Creative Cloud application, open a file that you would like to export to Workfront.&nbsp;</li> 
- <li value="2"> <p>If the Workfront extension is not displayed, click <span class="bold">Window</span> > <span class="bold">Extensions</span> > Workfront.<br></p> <p>A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.<br></p> <p>Your personal tasks are listed under <span class="bold">No Project</span>.</p> </li> 
- <li value="3"> <p>Click the name of the project, task, or issue to which you want to export the file.</p> <p>You can search for this by typing the name in the <span class="bold">Search</span> box and selecting <span class="bold">Project</span>, <span class="bold">Task</span>, or <span class="bold">Issue</span> from the drop-down menu to the right of the <span class="bold">Search</span> box. If the name of the work item doesn't appear in the list, press <span class="bold">Enter</span> to search all Workfront items that you have access to view.<br></p> </li> 
- <li value="4"> <p>Click <span class="bold">Select</span> in the lower-right corner of the Workfront extension.<br></p> </li> 
- <li value="5"> <p>In the <span class="bold">Click to select format</span> drop-down menu, click the format in which you want to save the file in Workfront. </p> <p>For a list of supported formats for each supported application, see <a href="#supported-exported-file-formats" target="_blank" rel="noopener" class="MCXref xref">Supported exported file formats</a> in this article.</p> </li> 
- <li value="6"> <p>(Conditional) If the work item where you want to upload the file has document folders, select a document folder in the<span class="bold"> Click to select a document folder</span> field, then click <span class="bold">Select</span>.</p> </li> 
- <li value="7"> <p>(Optional) To rename the document, click the document name and type a new name.</p> <p> <img src="assets/rename-doc-exporting.png"> </p> </li> 
- <li value="8"> <p>Click <span class="bold">Export</span>.&nbsp;</p> <p>A message displays to confirm that the document successfully exported to Workfront.<br></p> <p>In Workfront, the document is listed in the Documents area of the object you specified in Workfront.</p> </li> 
- <li value="9"> <p>(Optional) Click the name of the document to access it in Workfront.<br></p> <p> <img src="assets/adobe-document-with-name-highlight-350x251.png" alt="adobe_document_with_name_highlight.PNG" style="width: 350;height: 251;"> </p> <p>Workfront opens in a new browser tab.<br></p> </li> 
-</ol>
+1. In a supported Adobe Creative Cloud application, open a file that you would like to export to Workfront.&nbsp;
+1. If the Workfront extension is not displayed, click `Window` > `Extensions` > Workfront.
+
+   A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.
+
+   Your personal tasks are listed under `No Project`.
+
+1. Click the name of the project, task, or issue to which you want to export the file.
+
+   You can search for this by typing the name in the `Search` box and selecting `Project`, `Task`, or `Issue` from the drop-down menu to the right of the `Search` box. If the name of the work item doesn't appear in the list, press `Enter` to search all Workfront items that you have access to view.
+
+1. Click `Select` in the lower-right corner of the Workfront extension.  
+
+1. In the `Click to select format` drop-down menu, click the format in which you want to save the file in Workfront.
+
+   For a list of supported formats for each supported application, see [Supported exported file formats](#supported-exported-file-formats) in this article.
+
+1. (Conditional) If the work item where you want to upload the file has document folders, select a document folder in the `Click to select a document folder` field, then click `Select`.
+1. (Optional) To rename the document, click the document name and type a new name.
+
+   ![](assets/rename-doc-exporting.png)
+
+1. Click `Export`.&nbsp;
+
+   A message displays to confirm that the document successfully exported to Workfront.
+
+   In Workfront, the document is listed in the Documents area of the object you specified in Workfront.
+
+1. (Optional) Click the name of the document to access it in Workfront.
+
+   ![adobe_document_with_name_highlight.PNG](assets/adobe-document-with-name-highlight-350x251.png)
+
+   Workfront opens in a new browser tab.
 
 ### Upload a new version of a file from an Adobe application
 
-<ol> 
- <li value="1">If you want to export a file you are working on in a supported Adobe application as a new version of a file in Workfront, open the file in the Adobe application.&nbsp;</li> 
- <li value="2"> <p>If the Workfront extension is not displayed, click <span class="bold">Window</span> > <span class="bold">Extensions</span> > Workfront.<br></p> <p>A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.<br></p> <p>Your personal tasks are listed under <span class="bold">No Project</span>.</p> </li> 
- <li value="3"> <p>Click the name of the project, task, or issue where the existing document is listed.</p> <p>You can search for this by typing the name in the <span class="bold">Search</span> box and selecting <span class="bold">Project</span>, <span class="bold">Task</span>, or <span class="bold">Issue</span> from the drop-down menu to the right of the <span class="bold">Search</span> box. If the name of the work item doesn't appear in the list, press <span class="bold">Enter</span> to search all Workfront items that you have access to view.<br></p> <p>All documents uploaded to projects, tasks, or issues display in a list, regardless of whether they were uploaded from the Adobe application.</p> </li> 
- <li value="4">Click the name of the existing document, then click <span class="bold">Select</span> in the lower-right corner of the Workfront extension.</li> 
- <li value="5"> <p>In the <span class="bold">Click to select format</span> drop-down menu, click the format in which you want to save the file in Workfront. </p> <p>This is required if you are exporting a file you have open in the Adobe application. For a list of supported formats for each supported application, see <a href="#supported-exported-file-formats" target="_blank" rel="noopener" class="MCXref xref">Supported exported file formats</a> in this article.</p> </li> 
- <li value="6"> <p>If you are exporting a file you have open in the Adobe application as a new version of the Workfront document you selected, click <span class="bold">Export</span>.</p> <p>Or</p> <p>If you want to upload a file from your computer file system as a new version of the Workfront document you selected, click <span class="bold">Upload a local file</span>, find the file in the box that appears, click <span class="bold">Open</span>, then click <span class="bold">Upload</span>.<br></p> </li> 
- <li value="7"> <p>(Optional) Click the name of the document to see its new version in Workfront.&nbsp;</p> <note type="note"> 
-   <p>The name of the document in Workfront is populated by default and cannot be edited. Nor does it change to the name of the file you upload or export as a new version.</p> 
-   <p> <img src="assets/doc-name-cant-be-changed.png"> <br> </p> 
-  </note> </li> 
-</ol>
+1. If you want to export a file you are working on in a supported Adobe application as a new version of a file in Workfront, open the file in the Adobe application.&nbsp;
+1. If the Workfront extension is not displayed, click `Window` > `Extensions` > Workfront.
+
+   A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.
+
+   Your personal tasks are listed under `No Project`.
+
+1. Click the name of the project, task, or issue where the existing document is listed.
+
+   You can search for this by typing the name in the `Search` box and selecting `Project`, `Task`, or `Issue` from the drop-down menu to the right of the `Search` box. If the name of the work item doesn't appear in the list, press `Enter` to search all Workfront items that you have access to view.
+
+   All documents uploaded to projects, tasks, or issues display in a list, regardless of whether they were uploaded from the Adobe application.
+
+1. Click the name of the existing document, then click `Select` in the lower-right corner of the Workfront extension.
+1. In the `Click to select format` drop-down menu, click the format in which you want to save the file in Workfront.
+
+   This is required if you are exporting a file you have open in the Adobe application. For a list of supported formats for each supported application, see [Supported exported file formats](#supported-exported-file-formats) in this article.
+
+1. If you are exporting a file you have open in the Adobe application as a new version of the Workfront document you selected, click `Export`.
+
+   Or
+
+   If you want to upload a file from your computer file system as a new version of the Workfront document you selected, click `Upload a local file`, find the file in the box that appears, click `Open`, then click `Upload`.
+
+1. (Optional) Click the name of the document to see its new version in Workfront.&nbsp;
+
+   >[!NOTE]
+   >
+   >The name of the document in Workfront is populated by default and cannot be edited. Nor does it change to the name of the file you upload or export as a new version.
+   >
+   >
+   >![](assets/doc-name-cant-be-changed.png)
 
 ## Comment&nbsp;on a Workfront document from an Adobe application
 
@@ -169,19 +245,33 @@ You can request an approval on a document from an Adobe application in the follo
 
 To request an approval on a document from an Adobe application:
 
-<ol> 
- <li value="1">Open one of the supported Adobe applications.</li> 
- <li value="2"> <p>If the Workfront extension is not displayed, click <span class="bold">Window</span> > <span class="bold">Extensions</span> > Workfront.<br></p> <p>A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.<br></p> <p>Your personal tasks are listed under <span class="bold">No Project</span>.</p> </li> 
- <li value="3"> <p>Click the project, task, or issue where the existing document is listed, then click the name of the existing document.</p> <p>You can search for this by typing the name in the <span class="bold">Search</span> box and selecting <span class="bold">Project</span>, <span class="bold">Task</span>, or <span class="bold">Issue</span> from the drop-down menu to the right of the <span class="bold">Search</span> box. If the name of the work item doesn't appear in the list, press <span class="bold">Enter</span> to search all Workfront items that you have access to view.<br></p> </li> 
- <li value="4">Click the name of the existing document, then click <span class="bold">Select</span> in the lower-right corner of the Workfront extension.</li> 
- <li value="5">Click the <span class="bold">Approval</span> tab.</li> 
- <li value="6">To add an approver, in the <span class="bold">Start typing a name box</span> do one of the following: 
-  <ul>
-   <li><p>Type the name of an approver, then select it when it displays in the list.<br></p><p><img src="assets/adobe-cc-adding-a-doc-approver-350x189.png" style="width: 350;height: 189;"></p></li>
-   <li>Type the email address of an external user. </li>
-  </ul></li> 
- <li value="7"> <p>Click <span class="bold">Request Approval</span>.<br></p> <p>Workfront users who you include in the comment&nbsp;or add as an approver receive an in-app notification, and, depending on how Workfront is configured, might also receive an email notification. <br>External Users receive an email notification from where they can make a decision on the approval.<br></p> <p>For information about notifications in Workfront, see <a href="../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md" class="MCXref xref">View and manage in-app notifications</a>. For information about receiving email notifications, see <a href="../../workfront-basics/using-notifications/wf-notifications.md" class="MCXref xref">Adobe Workfront notifications</a>.</p> </li> 
-</ol>
+1. Open one of the supported Adobe applications.
+1. If the Workfront extension is not displayed, click `Window` > `Extensions` > Workfront.
+
+   A&nbsp;list of work items assigned to you displays, grouped by project. If a list does not display, log in to Workfront.
+
+   Your personal tasks are listed under `No Project`.
+
+1. Click the project, task, or issue where the existing document is listed, then click the name of the existing document.
+
+   You can search for this by typing the name in the `Search` box and selecting `Project`, `Task`, or `Issue` from the drop-down menu to the right of the `Search` box. If the name of the work item doesn't appear in the list, press `Enter` to search all Workfront items that you have access to view.
+
+1. Click the name of the existing document, then click `Select` in the lower-right corner of the Workfront extension.
+1. Click the `Approval` tab.
+1. To add an approver, in the `Start typing a name box` do one of the following:
+
+  * Type the name of an approver, then select it when it displays in the list.
+
+    ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+
+  * Type the email address of an external user.
+
+1. Click `Request Approval`.
+
+   Workfront users who you include in the comment&nbsp;or add as an approver receive an in-app notification, and, depending on how Workfront is configured, might also receive an email notification.   
+   External Users receive an email notification from where they can make a decision on the approval.
+
+   For information about notifications in Workfront, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md). For information about receiving email notifications, see [Adobe Workfront notifications](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Generate a proof from an Adobe application
 
@@ -244,12 +334,13 @@ If your organization uses Automated Workflow templates, you can generate a proof
 
 ## Log out of Workfront for Adobe Creative Cloud
 
-<ol> 
- <li value="1">From the Adobe application, click&nbsp;<span class="bold">Window</span> > <span class="bold">Extensions</span> > Workfront.</li> 
- <li value="2"> <p>Click the <span class="bold">More</span> menu <img src="assets/more-menu.png"> in the upper-right corner of the panel.<br></p> </li> 
- <li value="3">(Optional) Click <span class="bold">Feedback</span> to open a brief survey and send Workfront your feedback about Workfront for Adobe Creative Cloud.&nbsp;</li> 
- <li value="4">Click <span class="bold">Logout</span>.<br>The Login screen displays. For information about logging in, see <a href="#logging-in" class="MCXref xref">Log in to Workfront from an Adobe Creative Cloud application&nbsp;</a> in this article.</li> 
-</ol>
+1. From the Adobe application, click  `Window` > `Extensions` > Workfront.
+
+1. Click the `More` menu ![](assets/more-menu.png) in the upper-right corner of the panel.  
+
+1. (Optional) Click `Feedback` to open a brief survey and send Workfront your feedback about Workfront for Adobe Creative Cloud.&nbsp;
+1. Click `Logout`.  
+   The Login screen displays. For information about logging in, see [Log in to Workfront from an Adobe Creative Cloud application](#logging-in) in this article.
 
 ## Supported exported file formats
 

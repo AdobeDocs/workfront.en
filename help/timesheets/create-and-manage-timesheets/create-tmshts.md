@@ -52,37 +52,37 @@ You must have the following to perform the steps in this article:
 
 To create a single-use timesheet:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Timesheets. Click All Timesheets in the left panel. 
- <li value="4"> Click <span class="bold">New Timesheet</span>.</li> 
- <li value="5"> <p>Specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Create timesheet for</span> </td> 
-     <td>Start entering the name of the user for whom you are creating the timesheet, and click it when it appears&nbsp;in the list.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Start Date</span> </td> 
-     <td>This is the start date of the timesheet.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">End Date</span> </td> 
-     <td> This is the end date of the timesheet.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Approvers</span> </td> 
-     <td>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.<br>Start entering the names of the timesheet approvers and click them when they appear&nbsp;in the list.<br>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <span class="bold">Closed</span> and it disappears from the timesheet approvals list of all the remaining approvers.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Can edit time</span> </td> 
-     <td> <li> Select this option if you want to allow approvers to edit hours on the timesheet.&nbsp;</li> </td> 
-    </tr> Overtime You can choose to hide the Overtime box on the timesheet. This option is disabled by default. 
-   </tbody> 
-  </table> </li> 
- <li value="6">Click <span class="bold">Create Timesheet</span>.</li> 
-</ol>
+1. Click `New Timesheet`.
+1. Specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Create timesheet for</span> </td> 
+      <td>Start entering the name of the user for whom you are creating the timesheet, and click it when it appears&nbsp;in the list.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Start Date</span> </td> 
+      <td>This is the start date of the timesheet.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">End Date</span> </td> 
+      <td> This is the end date of the timesheet.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Approvers</span> </td> 
+      <td>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.<br>Start entering the names of the timesheet approvers and click them when they appear&nbsp;in the list.<br>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <span class="bold">Closed</span> and it disappears from the timesheet approvals list of all the remaining approvers.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Can edit time</span> </td> 
+      <td> <li> Select this option if you want to allow approvers to edit hours on the timesheet.&nbsp;</li> </td> 
+     </tr> Overtime You can choose to hide the Overtime box on the timesheet. This option is disabled by default. 
+    </tbody> 
+   </table>
+
+1. Click `Create Timesheet`.
 
 ## When tasks and issues appear on users' timesheets
 

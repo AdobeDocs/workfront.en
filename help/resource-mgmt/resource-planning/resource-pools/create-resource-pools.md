@@ -39,13 +39,18 @@ You must have the following:
 
 ## Create a Resource Pool
 
-<ol> 
- <li value="1">Log in as a user who has access to edit Resource Pools.<br>For more information, see <a href="#access-to-edit-resource-pools" class="MCXref xref">Create a Resource Pool</a>.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
- <li value="3"> Click Resourcing.</li> 
- <li value="4"> Click Resource Pools in the left panel.<br><img src="assets/resource-pools-tab-350x198.png" alt="resource_pools_tab.png" style="width: 350;height: 198;"></li> 
- <li value="5">Click <span class="bold">New Resource Pool</span>.</li> 
- <li value="6">Specify the following: <p>
+1. Log in as a user who has access to edit Resource Pools.  
+   For more information, see [Create a Resource Pool](#access-to-edit-resource-pools).
+
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click Resourcing.
+1. Click Resource Pools in the left panel.  
+   ![resource_pools_tab.png](assets/resource-pools-tab-350x198.png)
+
+1. Click `New Resource Pool`.
+1. Specify the following:
+
    <table cellspacing="0">
     <col>
     <col>
@@ -66,22 +71,20 @@ You must have the following:
          <li><span class="bold">Groups</span>: all members of the group are added to the Resource Pool.</li>
          <li><span class="bold">Roles</span>: all users associated with that role are added to the Resource Pool.</li>
          <li><span class="bold">Companies</span>: all users in the company are added to the Resource Pool.</li>
-        </ul><note type="tip">
-         You can only add active users, teams, 
-         <span>roles,</span> or companies.
-        </note><note type="note">
-          If a user becomes a member of a group, team, company or is associated with a job role after the group, team, company or job role have been added to the Resource Pool, the new member is not automatically added to the Resource Pool. 
-         <br>If a user belongs to the team, group, company, and job role you are adding, at the same time, the user is added only once to the Resource Pool.
-         <br>Users who are deactivated after having been added to the Resource Pool appear dimmed in the list of users and are marked as being deactivated.
-        </note></p></td>
+        </ul><p>Tip: You can only add active users, teams, <span>roles,</span> or companies.</p><p>Note:  If a user becomes a member of a group, team, company or is associated with a job role after the group, team, company or job role have been added to the Resource Pool, the new member is not automatically added to the Resource Pool. <br>If a user belongs to the team, group, company, and job role you are adding, at the same time, the user is added only once to the Resource Pool.<br>Users who are deactivated after having been added to the Resource Pool appear dimmed in the list of users and are marked as being deactivated.</p></p></td>
      </tr>
     </tbody>
-   </table></p></li> 
- <li value="7"> <p>(Optional) Use the <span class="bold">Undo</span> link to remove the users added through a group, team, company or job role.</p> <note type="note">
-    There is no limit to how many users you can have in a Resource Pool. However, we recommend not adding too many users to a Resource Pool, as Resource Management could become a challenge otherwise. The list of users only shows the first 2,000 users in the Resource Pool, and they are listed alphabetically. 
-  </note> <p> <img src="assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png" alt="Resource_pools_NEW___UNDO_button_for_teams_groups_etc.png" style="width: 350;height: 113;"> </p> </li> 
- <li value="8">(Optional)&nbsp;Click the X icon to the right of a user's name to remove a user.&nbsp;For more information about removing users from a resource pool, see <a href="../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md" class="MCXref xref">Remove users from resource pools in&nbsp;Adobe Workfront</a>.</li> 
- <li value="9">(Optional) Use the <span class="bold">Search</span> option to find a user in the Resource Pool.</li> 
- <li value="10">Click <span class="bold">Create</span>.</li> 
-</ol>
+   </table>
+
+1. (Optional) Use the `Undo` link to remove the users added through a group, team, company or job role.
+
+   >[!NOTE]
+   >
+   >There is no limit to how many users you can have in a Resource Pool. However, we recommend not adding too many users to a Resource Pool, as Resource Management could become a challenge otherwise. The list of users only shows the first 2,000 users in the Resource Pool, and they are listed alphabetically.
+
+   ![Resource_pools_NEW___UNDO_button_for_teams_groups_etc.png](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+
+1. (Optional)&nbsp;Click the X icon to the right of a user's name to remove a user.&nbsp;For more information about removing users from a resource pool, see [Remove users from resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
+1. (Optional) Use the `Search` option to find a user in the Resource Pool.
+1. Click `Create`.
 

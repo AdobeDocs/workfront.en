@@ -75,18 +75,32 @@ Do at least one of the following to be able to activate a goal:
 
 You can activate goals you created or a goal that you have Manage permissions to.
 
-<ol> 
- <li value="1"> <p>Go to a goal that you want to activate. </p> <p>For example, go to the Goal List and click a goal. The Goal Details panel opens on the right.</p> </li> 
- <li value="2"> <p>Do one or several of the following:</p> 
-  <ul style="list-style-type: circle;"> 
-   <li> <p>Click <span class="bold">Add Result</span>.</p> <p>For information about adding results to goals, see <a href="../../workfront-goals/results-and-activities/add-results-to-goals.md" class="MCXref xref">Add results to goals in Adobe Workfront Goals</a></p> </li> 
-   <li> <p>Click <span class="bold">Add Activity</span>.</p> <p>For information about adding activities to goals, see <a href="../../workfront-goals/results-and-activities/add-activities-to-goals.md" class="MCXref xref">Add activities to goals in&nbsp;Adobe Workfront Goals</a>.</p> </li> 
-   <li> <p>Go to another goal and align it to the current goal.</p> <p>For information about aligning goals, see the following articles:</p> 
-    <ul> 
-     <li><a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a> </li> 
-     <li><a href="../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md" class="MCXref xref">Align goals by converting results and activities to goals</a>.</li> 
-    </ul> </li> 
-  </ul> </li> 
- <li value="3"> <p>Click <span class="bold">Activate</span>.</p> <p>Or</p> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png">, </span>then click <span class="bold">Activate</span>.</p> <p>The goal status changes to Active. You can now track progress on the goal and the goal displays in the Check-in section as well as is taken into account in the Graphs sections of Workfront Goals</p> </li> 
-</ol>
+1. Go to a goal that you want to activate.
+
+   For example, go to the Goal List and click a goal. The Goal Details panel opens on the right.
+
+1. Do one or several of the following:
+
+  * Click `Add Result`.
+
+    For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+  
+  * Click `Add Activity`.
+
+    For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+  
+  * Go to another goal and align it to the current goal.
+
+    For information about aligning goals, see the following articles:
+
+    * [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) 
+    * [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+
+1. Click `Activate`.
+
+   Or
+
+   Click the ` `More icon` ![](assets/more-icon.png),`then click `Activate`.
+
+   The goal status changes to Active. You can now track progress on the goal and the goal displays in the Check-in section as well as is taken into account in the Graphs sections of Workfront Goals
 

@@ -58,16 +58,17 @@ If your Adobe Workfront administrator or Workfront Proof administrator has downl
 
 If this is not the case, you can follow the steps below.
 
-<ol> 
- <li value="1"> Do one of the following to download the app: <br>
-  <ul>
-   <li>If you are using the Production environment, click&nbsp;<a href="https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.pkg">Mac Production Download for the Desktop Proofing Viewer.</a></li>
-   <li> If you are using the Preview environment, click&nbsp;<a href="https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg">Mac Preview Download for the Desktop Proofing Viewer.</a></li>
-  </ul></li> 
- <li value="2">Open the file you have just downloaded to start the installation.</li> 
- <li value="3"> <p>On the installation box that appears, click <span class="bold">Continue</span>, then click <span class="bold">Install</span>.<br></p> <p> <img src="assets/00000776-350x244.png" alt="00000776.png" style="width: 350;height: 244;"> </p> </li> 
- <li value="4"> Open an interactive proof from the Documents area. </li> 
-</ol>
+1. Do one of the following to download the app:
+
+  * If you are using the Production environment, click&nbsp; [Mac Production Download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.pkg)
+  * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg)
+
+1. Open the file you have just downloaded to start the installation.
+1. On the installation box that appears, click `Continue`, then click `Install`.
+
+   ![00000776.png](assets/00000776-350x244.png)
+
+1. Open an interactive proof from the Documents area.
 
 >[!NOTE]
 >
@@ -83,17 +84,19 @@ on Windows
 
 If your Workfront or Workfront Proof administrator has downloaded the app on your workstation and configured the Desktop Proofing Viewer as the default viewer for interactive proofs, you can finish the installation simply by opening an interactive proof from the Documents area.
 
-<ol> 
- <li value="1"> Do one of the following to download the app: 
-  <ul>
-   <li>In the Production environment, click&nbsp;<a href="https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe">Windows Production download for the Desktop Proofing Viewer.</a></li>
-   <li>In the Preview environment, click&nbsp;<a href="https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.exe">Windows Preview download for the Desktop Proofing Viewer</a>.</li>
-  </ul></li> 
- <li value="2">Open the file you have just downloaded to start the installation.</li> 
- <li value="3"> <p>In the installation box that appears, open the file you have just downloaded to start the installation.<br></p> <p> <img src="assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png" alt="Screen_Shot_2018-05-02_at_10.56.55_AM.png" style="width: 350;height: 271;"> </p> </li> 
- <li value="4"> <p>In the security warning box that appears, click&nbsp;<span class="bold">Run.<br></span>The Desktop Proofing Viewer automatically installs and runs.&nbsp;</p> </li> 
- <li value="5">(Conditional) If you install the application using Internet Explorer, refresh the launching page in the browser after the application installs.</li> 
- <li value="6"> Open an interactive proof from the Documents area.</li> 
-</ol>
+1. Do one of the following to download the app:
+
+  * In the Production environment, click&nbsp; [Windows Production download for the Desktop Proofing Viewer.](https://cdn.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof.exe)
+  * In the Preview environment, click&nbsp; [Windows Preview download for the Desktop Proofing Viewer](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.exe).
+
+1. Open the file you have just downloaded to start the installation.
+1. In the installation box that appears, open the file you have just downloaded to start the installation.
+
+   ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
+
+1. In the security warning box that appears, click&nbsp; `Run.  
+   `The Desktop Proofing Viewer automatically installs and runs.&nbsp;
+1. (Conditional) If you install the application using Internet Explorer, refresh the launching page in the browser after the application installs.
+1. Open an interactive proof from the Documents area.
 
 After the Desktop Proofing Viewer is installed, all interactive proofs open in the Desktop Proofing Viewer. If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in&nbsp; [Install the Desktop Proofing Viewer for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/install-desktop-proofing-viewer-org.md).

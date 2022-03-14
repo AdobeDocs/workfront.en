@@ -48,25 +48,34 @@ For information about installing Workfront for Microsoft Teams and logging in to
 
 ## Create personal tasks from Microsoft Teams
 
-<ol> 
- <li value="1"> <p>Log in to Workfront from Microsoft Teams.<br></p> <p>For information about logging in to Workfront, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md" class="MCXref xref">Install Adobe Workfront for Microsoft Teams</a>.</p> </li> 
- <li value="2">To open a <span class="bold">New task</span> card: 
-  <ul>
-   <li>If you are in the Workfront bot chat channel, type <span class="bold">New task </span>in the conversation field to create a new task.&nbsp;</li>
-   <li>If you are in a chat channel other than the Workfront bot chat channel: 
-    <ol>
-     <li value="1">Start typing <span class="bold">@workfront </span>in the conversation field, then select the Workfront bot channel you want.</li>
-     <li value="2"><p>Continue typing&nbsp;<span class="bold">New task </span>in the conversation field to create a new task.</p><p>The New task card displays in the Workfront bot channel.</p><p><img src="assets/ms-teams-new-task-card-350x181.png" alt="ms_teams_new_task_card.png" style="width: 350;height: 181;"></p></li>
-    </ol></li>
-  </ul></li> 
- <li value="3"> In the Workfront bot channel, specify the following information on the New task card: 
-  <ul>
-   <li>Task name in the <span class="bold">Write the task's title</span> field.</li>
-   <li>Task description in the <span class="bold">Write the tasks's description</span> field.</li>
-   <li>The take the task must be completed by, in the <span class="bold">Due Date</span> field.</li>
-  </ul></li> 
- <li value="4"> <p> Click <span class="bold">Save.</span>&nbsp;<br></p> <p>The new personal task is created in Workfront. A Reference Number is assigned to it and visible on the new task card.<br></p> <p>For information about reference numbers, see the <a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects" class="MCXref xref">Reference Numbers of objects</a> section in the <a href="../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a> article.</p> </li> 
- <li value="5">(Optional) Click <span class="bold">Edit</span> to edit the task information further.</li> 
- <li value="6">(Optional) Click <span class="bold">View in Workfront</span> to open the task in a new tab in Workfront and edit the task further, move it to a project, or assign it to someone else.&nbsp;</li> 
-</ol>
+1. Log in to Workfront from Microsoft Teams.
+
+   For information about logging in to Workfront, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+
+1. To open a `New task` card:
+
+  * If you are in the Workfront bot chat channel, type `New task`in the conversation field to create a new task.&nbsp;
+  * If you are in a chat channel other than the Workfront bot chat channel:
+
+    1. Start typing `@workfront`in the conversation field, then select the Workfront bot channel you want.
+    1. Continue typing  `New task`in the conversation field to create a new task.
+
+       The New task card displays in the Workfront bot channel.
+
+       ![ms_teams_new_task_card.png](assets/ms-teams-new-task-card-350x181.png)
+
+1. In the Workfront bot channel, specify the following information on the New task card:
+
+  * Task name in the `Write the task's title` field.
+  * Task description in the `Write the tasks's description` field.
+  * The take the task must be completed by, in the `Due Date` field.
+
+1. Click `Save.`&nbsp;
+
+   The new personal task is created in Workfront. A Reference Number is assigned to it and visible on the new task card.
+
+   For information about reference numbers, see the [Reference Numbers of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) section in the [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) article.
+
+1. (Optional) Click `Edit` to edit the task information further.
+1. (Optional) Click `View in Workfront` to open the task in a new tab in Workfront and edit the task further, move it to a project, or assign it to someone else.&nbsp;
 

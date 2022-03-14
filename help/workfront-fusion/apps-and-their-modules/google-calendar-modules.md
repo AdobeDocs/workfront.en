@@ -802,29 +802,65 @@ When you are configuring this module, the following fields display.
 
 You can trigger a scenario a specified time before an event with the help of standard Google Calendar email reminders and the Webhooks > Custom mailhook module.
 
-<ol> 
- <li value="1"> <p>Use the Google Calendar > Update an event module to add an email reminder to your event:</p> <p> <img src="assets/trigger-scen-before-event-350x209.png" style="width: 350;height: 209;"> </p> </li> 
- <li value="2">Create a new scenario starting with the Webhooks > Custom mailhook module. 
-  <ol> 
-   <li value="1">Copy the mailhook's email address.</li> 
-   <li value="2">Save the scenario and execute it.</li> 
-  </ol></li> 
- <li value="3">In Gmail, redirect the Google Calendar email reminders to the mailhook's email address: 
-  <ol> 
-   <li value="1">Open your <span class="bold">Gmail settings</span>.</li> 
-   <li value="2">Open the <span class="bold">Forwarding and POP/IMAP</span> tab.</li> 
-   <li value="3">Click <span class="bold">Add a forwarding address.</span></li> 
-   <li value="4">Paste the copied mailhooks's email address, click<span class="bold">Next</span>, confirm by pressing <span class="bold">Proceed</span> in the popup window, then click <span class="bold">OK</span>.</li> 
-   <li value="5">In Workfront Fusion, switch to the new scenario that should finish its execution by receiving the confirmation email.</li> 
-   <li value="6">Click the bubble above the module to inspect the module's output.</li> 
-   <li value="7"><p>Expand the <code>Text </code>item and copy the Confirmation code:</p><p><img src="assets/confirmation-code-350x252.png" style="width: 350;height: 252;"></p></li> 
-   <li value="8"><p>In Gmail, paste the Confirmation code in the edit box and click<span class="bold">Verify</span>:</p><p><img src="assets/paste-code-350x46.png" style="width: 350;height: 46;"></p></li> 
-   <li value="9">Open the <span class="bold">Filters and Blocked Addresses</span> tab.</li> 
-   <li value="10"><p>Click <span class="bold">Create a new filter</span>.</p></li> 
-   <li value="11"><p>Setup a filter for all emails coming from <code>calendar-notification@google.com</code> and click<span class="bold">Create a filter</span>:</p></li> 
-   <li value="12">Select <span class="bold">Forward it to</span> and choose the mailhooks's email address from the list.</li> 
-   <li value="13">Click <span class="bold">Create filter</span> to create the filter.</li> 
-  </ol></li> 
- <li value="4"> <p>(Optional) In Workfront Fusion, add the Text parser > Match pattern module after the Webhooks > Custom mailhook module to parse the email's HTML code to obtain any information you need.</p> <p>For example, you could configure the module as follows to obtain the event's ID:</p> <p><i>Pattern</i>:<code><meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/></code></p> <p><i>Text</i>: The <code>HTML content</code> item outputted from the Webhooks > Custom mailhook module:</p> </li> 
-</ol>
+1. Use the Google Calendar > Update an event module to add an email reminder to your event:
+
+   ![](assets/trigger-scen-before-event-350x209.png)
+
+1. Create a new scenario starting with the Webhooks > Custom mailhook module.
+
+  1. Copy the mailhook's email address.
+  1. Save the scenario and execute it.
+
+1. In Gmail, redirect the Google Calendar email reminders to the mailhook's email address:
+
+  1. Open your `Gmail settings`.
+  1. Open the `Forwarding and POP/IMAP` tab.
+  1. Click `Add a forwarding address.`
+  1. Paste the copied mailhooks's email address, click `Next`, confirm by pressing `Proceed` in the popup window, then click `OK`.
+  
+  1. In Workfront Fusion, switch to the new scenario that should finish its execution by receiving the confirmation email.
+  1. Click the bubble above the module to inspect the module's output.
+  1. Expand the   
+  
+     ```  
+     Text
+     ```  
+  
+     item and copy the Confirmation code:
+
+     ![](assets/confirmation-code-350x252.png)
+
+  1. In Gmail, paste the Confirmation code in the edit box and click `Verify`:
+
+     ![](assets/paste-code-350x46.png)
+
+  1. Open the `Filters and Blocked Addresses` tab.
+  1. Click `Create a new filter`.
+  1. Setup a filter for all emails coming from   
+  
+     ```  
+     calendar-notification@google.com
+     ```  
+  
+     and click `Create a filter`:
+  1. Select `Forward it to` and choose the mailhooks's email address from the list.
+  1. Click `Create filter` to create the filter.
+
+1. (Optional) In Workfront Fusion, add the Text parser > Match pattern module after the Webhooks > Custom mailhook module to parse the email's HTML code to obtain any information you need.
+
+   For example, you could configure the module as follows to obtain the event's ID:
+
+   *Pattern*:
+
+   ```
+   <meta itemprop="eventId/googleCalendar" content="(?<evenitID>.*?)"/>
+   ```
+
+   *Text*: The 
+
+   ```
+   HTML content
+   ```
+
+   item outputted from the Webhooks > Custom mailhook module:
 

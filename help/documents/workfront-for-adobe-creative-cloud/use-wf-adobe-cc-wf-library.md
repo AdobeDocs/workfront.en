@@ -34,114 +34,133 @@ Consider the following when accessing Workfront Library content from the Workfro
 
 To accessWorkfront Library folders and single items from the Workfront extension for Adobe Creative Cloud:
 
-<ol> 
- <li value="1">Open a supported Adobe Creative Cloud application.</li> 
- <li value="2"> <p>On the <span class="bold">Window</span> menu, click <span class="bold">Extensions</span>, then select Workfront.</p> </li> 
- <li value="3"> <p>The Workfront panel that opens. <br>Log in to Workfront.</p> <p>For information about logging in to Workfront, see the <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#logging-in">Logging in to Workfront from Adobe Creative Cloud Applications</a> section in the <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md">Using Workfront for Adobe Creative Cloud</a> article.</p> </li> 
- <li value="4"> <p>Select the <span class="bold">Library</span> tab.</p> <p> <img src="assets/adobe-cc-library-tab-350x517.png" style="width: 350;height: 517;"> </p> </li> 
- <li value="5"> <p>Do one of the following:</p> 
-  <ol> 
-   <li value="1"> <p>Using the <span class="bold">Search here</span> box:</p> 
-    <ol> 
-     <li value="1"> <p>Type in the name of an item or folder that you want to navigate to, then press enter.</p> <p>The item displays in the <span class="bold">Search results</span> area.</p> </li> 
-    </ol> </li> 
-   <li value="2"> <p>Click the <span class="bold">More</span> icon.</p> <p> <img src="assets/adobe-cc-library-more-menu-350x117.png" style="width: 350;height: 117;"> </p> 
-    <ol style="list-style-type: lower-alpha;"> 
-     <li value="1">Select from the following options:</li> 
-    </ol> 
-    <ul> 
-     <li>Click <span class="bold">Library</span> to access the content you have access to view in the Workfront Library.</li> 
-     <li>Click <span class="bold">My Content</span> to access the content that you have uploaded in the Workfront Library.</li> 
-     <li>Click <span class="bold">Collections</span> to access a Workfront Library Collection.</li> 
-    </ul> </li> 
-  </ol> </li> 
- <li value="6"> <p>(Optional) To decrease the amount of items that you display in the Workfront extension, click the <span class="bold">Options</span> icon.</p> <p> <img src="assets/aobe-cc-library-options-icon-with-blue-dot.png"> </p> <p>When at least one criteria is selected, the Options icon displays a blue dot in the top right.</p> </li> 
- <li value="7"> <p>Select from the following types of information about the content stored in Workfront Library to display only items meeting that criteria:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span style="font-weight: bold;">Branding</span> </td> 
-     <td> Select from one of the custom Branding categories displayed. Branding information must be configured in Workfront Library and associated with items before it is available in Workfront for Adobe Creative Cloud.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Created Date</td> 
-     <td> <p>Select the specific date when the content is created. </p> <p>Select from the following options:</p> 
-      <ul> 
-       <li>Any</li> 
-       <li>Today</li> 
-       <li>Last Seven Days</li> 
-       <li>Last Thirty Days</li> 
-       <li>Custom: Select a specific date range</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Product</td> 
-     <td> <p>Select from one of the custom Product categories displayed. Products must be configured in Workfront Library and associated with content before they are available in Workfront for Adobe Creative Cloud.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Modified Date</td> 
-     <td> <p>Select the specific date when the content was modified. Select from the following options:</p> 
-      <ul> 
-       <li>Any</li> 
-       <li>Today</li> 
-       <li>Last Seven Days</li> 
-       <li>Last Thirty Days</li> 
-       <li>Custom: Select a specific date range</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Size</td> 
-     <td> <p>Select a size range for items you want to display. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">File Extension</td> 
-     <td> <p>Select a specific type of file that you want to display. Select from the following:</p> 
-      <ul> 
-       <li>Image</li> 
-       <li>Audio</li> 
-       <li>Video</li> 
-       <li>Document</li> 
-       <li>Other</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Region</td> 
-     <td>Select from one of the custom Regions displayed. Regions must be configured in Workfront Library and associated with content before they are available in the Workfront extension.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Date Time</td> 
-     <td> <p>Select the specific date when the content was uploaded. </p> <p>Select from the following options: </p> 
-      <ul> 
-       <li>Any</li> 
-       <li>Today</li> 
-       <li>Last Seven Days</li> 
-       <li>Last Thirty Days</li> 
-       <li>Custom: Select a specific date range</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Date Time Original</td> 
-     <td> <p>Select the specific date when the content was originally uploaded. </p> <p>Select from the following options: </p> 
-      <ul> 
-       <li>Any</li> 
-       <li>Today</li> 
-       <li>Last Seven Days</li> 
-       <li>Last Thirty Days</li> 
-       <li>Custom: Select a specific date range</li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Keywords</span> </td> 
-     <td>Start typing a keyword of an item in the <span class="bold">Select</span> box, then press Enter, to only display items that contain that word in their name.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="8">(Optional) Click <span class="bold">Show More</span> to continue to display more items or folders.</li> 
- <li value="9"> <p>Double-click a folder to open its contents. </p> <p>Folders may contain subfolders.</p> <p>Up to three folders and subfolders that you open during your search are saved in the breadcrumb at the top of the list of items.</p> </li> 
- <li value="10"> <p>Double-click the item when it appears in the <span class="bold">Search results</span> area to open it in the Adobe application.</p> </li> 
-</ol>
+1. Open a supported Adobe Creative Cloud application.
+1. On the `Window` menu, click `Extensions`, then select Workfront.
+1. The Workfront panel that opens.   
+   Log in to Workfront.
+
+   For information about logging in to Workfront, see the [Logging in to Workfront from Adobe Creative Cloud Applications](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#logging-in) section in the [Using Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) article.
+
+1. Select the `Library` tab.
+
+   ![](assets/adobe-cc-library-tab-350x517.png)
+
+1. Do one of the following:
+
+  1. Using the `Search here` box:
+
+    1. Type in the name of an item or folder that you want to navigate to, then press enter.
+
+       The item displays in the `Search results` area.
+
+  1. Click the `More` icon.
+
+     ![](assets/adobe-cc-library-more-menu-350x117.png)
+
+    1. Select from the following options:
+
+    * Click `Library` to access the content you have access to view in the Workfront Library.
+    * Click `My Content` to access the content that you have uploaded in the Workfront Library.
+    * Click `Collections` to access a Workfront Library Collection.
+
+1. (Optional) To decrease the amount of items that you display in the Workfront extension, click the `Options` icon.
+
+   ![](assets/aobe-cc-library-options-icon-with-blue-dot.png)
+
+   When at least one criteria is selected, the Options icon displays a blue dot in the top right.
+
+1. Select from the following types of information about the content stored in Workfront Library to display only items meeting that criteria:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span style="font-weight: bold;">Branding</span> </td> 
+      <td> Select from one of the custom Branding categories displayed. Branding information must be configured in Workfront Library and associated with items before it is available in Workfront for Adobe Creative Cloud.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Created Date</td> 
+      <td> <p>Select the specific date when the content is created. </p> <p>Select from the following options:</p> 
+       <ul> 
+        <li>Any</li> 
+        <li>Today</li> 
+        <li>Last Seven Days</li> 
+        <li>Last Thirty Days</li> 
+        <li>Custom: Select a specific date range</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Product</td> 
+      <td> <p>Select from one of the custom Product categories displayed. Products must be configured in Workfront Library and associated with content before they are available in Workfront for Adobe Creative Cloud.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Modified Date</td> 
+      <td> <p>Select the specific date when the content was modified. Select from the following options:</p> 
+       <ul> 
+        <li>Any</li> 
+        <li>Today</li> 
+        <li>Last Seven Days</li> 
+        <li>Last Thirty Days</li> 
+        <li>Custom: Select a specific date range</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Size</td> 
+      <td> <p>Select a size range for items you want to display. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">File Extension</td> 
+      <td> <p>Select a specific type of file that you want to display. Select from the following:</p> 
+       <ul> 
+        <li>Image</li> 
+        <li>Audio</li> 
+        <li>Video</li> 
+        <li>Document</li> 
+        <li>Other</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Region</td> 
+      <td>Select from one of the custom Regions displayed. Regions must be configured in Workfront Library and associated with content before they are available in the Workfront extension.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Date Time</td> 
+      <td> <p>Select the specific date when the content was uploaded. </p> <p>Select from the following options: </p> 
+       <ul> 
+        <li>Any</li> 
+        <li>Today</li> 
+        <li>Last Seven Days</li> 
+        <li>Last Thirty Days</li> 
+        <li>Custom: Select a specific date range</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Date Time Original</td> 
+      <td> <p>Select the specific date when the content was originally uploaded. </p> <p>Select from the following options: </p> 
+       <ul> 
+        <li>Any</li> 
+        <li>Today</li> 
+        <li>Last Seven Days</li> 
+        <li>Last Thirty Days</li> 
+        <li>Custom: Select a specific date range</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Keywords</span> </td> 
+      <td>Start typing a keyword of an item in the <span class="bold">Select</span> box, then press Enter, to only display items that contain that word in their name.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Click `Show More` to continue to display more items or folders.
+1. Double-click a folder to open its contents.
+
+   Folders may contain subfolders.
+
+   Up to three folders and subfolders that you open during your search are saved in the breadcrumb at the top of the list of items.
+
+1. Double-click the item when it appears in the `Search results` area to open it in the Adobe application.
 
 <!--
 Upload content to Workfront Library using the Workfront for Adobe Creative Cloud extension

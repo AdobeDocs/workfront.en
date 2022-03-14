@@ -117,13 +117,14 @@ When changing the Workfront Locale, you modify the language, date, and number fo
 
 To change the Workfront Locale:
 
-<ol> 
- <li value="1">Log in to Workfront as the Workfront administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="3">Click <span class="bold">System</span> > <span class="bold">Customer Info.</span></li> 
- <li value="4">In the <span class="bold">Basic Info</span> section, click the <span class="bold">Locale</span> drop-down list to select the language that you want Workfront emails to display in.</li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Log in to Workfront as the Workfront administrator.
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Customer Info.`
+
+1. In the `Basic Info` section, click the `Locale` drop-down list to select the language that you want Workfront emails to display in.
+
+1. Click `Save`.
 
 ### Change the User Locale
 

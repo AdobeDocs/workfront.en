@@ -48,18 +48,24 @@ The Projected Completion Date is a calculated field, and cannot be manually chan
 
 The criteria used to determine&nbsp;the Projected Completion Date differs, depending on the object you are viewing:
 
-<ul> 
- <li><span class="bold">Projects:</span> The Projected Completion Date for projects equates with the Projected Completion Date of the latest task on the project.</li> 
- <li><span class="bold">Tasks:</span>&nbsp;The Projected Completion Date for tasks is determined based on the following criteria: 
-  <ul>
-   <li><span class="bold">Progress updates made on the task by the task assignee:</span>&nbsp;Progress updates include changes to percent complete and changes of task status.</li>
-   <li><p><span class="bold">Commit Date:</span> If the task assignee specifies a Commit Date, the Projected Completion Date changes to match the Commit Date.</p><p>For more information about Commit Dates, see&nbsp;the article <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</p></li>
-   <li><p><span class="bold">Predecessors:</span> If there are no delays on the predecessor tasks, the Projected Completion Date should match the&nbsp;Planned Completion Date. As delays occur, dependent tasks show a Projected Completion Date greater than the Planned Completion Date.</p><p>For more information about the Planned Completion Date of tasks, see <a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a>.</p></li>
-  </ul><note type="important">
-   <p>When the predecessor of a task has an Actual Completion Date, the dependent tasks receive a Projected Completion Date as described in the following scenario: </p>
-   <p>If the project has Task A, Task B, and Task C, and Task B is the successor of Task A, Task C is the successor of Task B and an Actual Completion Date is added to Task A, the Projected Completion Date is automatically recalculated for Task B (provided the <span class="bold">Update Type</span> of the project is set to Automatic and On Change), but it will not be recalculated for Task C. Currently, Workfront calculates the Projected Completion Date for tasks that are one level up or down from the updated Task, for performance reasons.&nbsp;</p>
-  </note></li> 
-</ul>
+* `Projects:` The Projected Completion Date for projects equates with the Projected Completion Date of the latest task on the project.
+* `Tasks:`&nbsp;The Projected Completion Date for tasks is determined based on the following criteria:
+
+  * `Progress updates made on the task by the task assignee:`&nbsp;Progress updates include changes to percent complete and changes of task status.
+  * `Commit Date:` If the task assignee specifies a Commit Date, the Projected Completion Date changes to match the Commit Date.
+
+    For more information about Commit Dates, see&nbsp;the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+  
+  * `Predecessors:` If there are no delays on the predecessor tasks, the Projected Completion Date should match the&nbsp;Planned Completion Date. As delays occur, dependent tasks show a Projected Completion Date greater than the Planned Completion Date.
+
+    For more information about the Planned Completion Date of tasks, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+
+  >[!IMPORTANT]
+  >
+  >When the predecessor of a task has an Actual Completion Date, the dependent tasks receive a Projected Completion Date as described in the following scenario: 
+  >
+  >
+  >If the project has Task A, Task B, and Task C, and Task B is the successor of Task A, Task C is the successor of Task B and an Actual Completion Date is added to Task A, the Projected Completion Date is automatically recalculated for Task B (provided the `Update Type` of the project is set to Automatic and On Change), but it will not be recalculated for Task C. Currently, Workfront calculates the Projected Completion Date for tasks that are one level up or down from the updated Task, for performance reasons.&nbsp;
 
 * `Issues:`The issue Projected Completion Date is initially set to match the issue Planned Completion Date.
 
@@ -93,11 +99,14 @@ You can view the Projected Completion Date for issues only in an issue report or
 
 To create an issue report that includes the Projected Completion Date:
 
-<ol> 
- <li value="1">Create an issue report, as described in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</li> 
- <li value="2">Select the <span class="bold">Columns (View)</span> tab.</li> 
- <li value="3">Click <span class="bold">Add Column</span>, and start typing <span class="bold">Projected Completion Date</span> in the <span class="bold">Show in this column:</span> field.</li> 
- <li value="4"> <p>Select it when it appears in the list, under the <span class="bold">Issue</span> object.&nbsp;</p> </li> 
- <li value="5"> <p>Click <span class="bold">Save + Close</span>.</p> <p>The <span class="bold">Projected Completion Date</span>&nbsp;column in the report is populated.&nbsp;</p> <p> <img src="assets/issue-projected-completion-date-in-view-350x40.png" alt="issue_projected_completion_date_in_view.png" style="width: 350;height: 40;"> </p> </li> 
-</ol>
+1. Create an issue report, as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Select the `Columns (View)` tab.
+1. Click `Add Column`, and start typing `Projected Completion Date` in the `Show in this column:` field.
+
+1. Select it when it appears in the list, under the `Issue` object.&nbsp;
+1. Click `Save + Close`.
+
+   The `Projected Completion Date`&nbsp;column in the report is populated.&nbsp;
+
+   ![issue_projected_completion_date_in_view.png](assets/issue-projected-completion-date-in-view-350x40.png)
 

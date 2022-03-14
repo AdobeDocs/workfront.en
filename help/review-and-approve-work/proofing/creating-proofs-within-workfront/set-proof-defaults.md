@@ -37,78 +37,76 @@ You must have the following access to perform the steps in this article:
 
 ## Configure personal proofing defaults
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Proofing</span>.</li> 
- <li value="2">In the upper-right corner, click your avatar, and select <span class="bold">Personal Settings</span>. </li> 
- <li value="3"> <p>Choose the <span class="bold">Proofing defaults</span> tab, then specify the following information:</p> 
-  <table cellspacing="3"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td colspan="2"><span class="bold">Default email notification settings</span> </td> 
-    </tr> 
-    <tr> 
-     <td>Default email alert</td> 
-     <td>Select how frequently the user receives email updates. Select All Activity, Replies to my comments, Decisions, Final decision, Hourly summary, Daily summary, or Disabled.</td> 
-    </tr> 
-    <tr> 
-     <td>Default email alert for new guest reviewers</td> 
-     <td>Select how frequently guest reviewers receive email updates. Options are the same as those for Default email alert.</td> 
-    </tr> 
-    <tr> 
-     <td>New proof notification</td> 
-     <td>Choose to receive a notification when you are added to a proof.</td> 
-    </tr> 
-    <tr> 
-     <td colspan="2"><span class="bold">Message settings</span> </td> 
-    </tr> 
-    <tr> 
-     <td>Proof subject template</td> 
-     <td>Type what you want users to see in the subject of an email when you share a proof with them.</td> 
-    </tr> 
-    <tr> 
-     <td>Proof message template</td> 
-     <td>Type what you want users to see in the bodyof an email when you share a proof with them.</td> 
-    </tr> 
-    <tr> 
-     <td colspan="2"><span class="bold">Default proof settings</span> </td> 
-    </tr> 
-    <tr> 
-     <td>Lock proof when all decisions are made</td> 
-     <td>Choose to automatically lock the proof from further changes after all decisions are made.</td> 
-    </tr> 
-    <tr> 
-     <td>Only require one decision</td> 
-     <td>Choose to require only one decision on a proof.</td> 
-    </tr> 
-    <tr> 
-     <td>Login required</td> 
-     <td> <p>Choose to make the proof available only to users with Workfront Proof login credentials.</p> <note type="note">
-       Workfront Proof credentials can be different than your Workfront credentials, unless your company users SSO. We recommend using this feature only if your company users SSO.
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td>Subscription enabled</td> 
-     <td>Allow reviewers external to the organization to sign up for the proof via the public URL or embed code. When this option is selected, the subscriber must click a link in an email to access a proof is also available. Select this option to require the external reviewer to click a link within the email to access the proof. This option is enabled by default if the Public sharing option is selected and is applied to all proofs created by this user. </td> 
-    </tr> 
-    <tr> 
-     <td>Default role for new guest reviewers</td> 
-     <td>Select a default proof role for guest reviewers. Options are the same as those in Default proof role.</td> 
-    </tr> 
-    <tr> 
-     <td>Block download of the original file</td> 
-     <td>Choose to block users from downloading the original file. </td> 
-    </tr> 
-    <tr> 
-     <td>My default proof role</td> 
-     <td>Choose your default proof role. </td> 
-    </tr> 
-    <tr> 
-     <td>My default markup color</td> 
-     <td>Choose your default markup color. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Proofing`.
+
+1. In the upper-right corner, click your avatar, and select `Personal Settings`. 
+1. Choose the `Proofing defaults` tab, then specify the following information:
+
+   <table cellspacing="3"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td colspan="2"><span class="bold">Default email notification settings</span> </td> 
+     </tr> 
+     <tr> 
+      <td>Default email alert</td> 
+      <td>Select how frequently the user receives email updates. Select All Activity, Replies to my comments, Decisions, Final decision, Hourly summary, Daily summary, or Disabled.</td> 
+     </tr> 
+     <tr> 
+      <td>Default email alert for new guest reviewers</td> 
+      <td>Select how frequently guest reviewers receive email updates. Options are the same as those for Default email alert.</td> 
+     </tr> 
+     <tr> 
+      <td>New proof notification</td> 
+      <td>Choose to receive a notification when you are added to a proof.</td> 
+     </tr> 
+     <tr> 
+      <td colspan="2"><span class="bold">Message settings</span> </td> 
+     </tr> 
+     <tr> 
+      <td>Proof subject template</td> 
+      <td>Type what you want users to see in the subject of an email when you share a proof with them.</td> 
+     </tr> 
+     <tr> 
+      <td>Proof message template</td> 
+      <td>Type what you want users to see in the bodyof an email when you share a proof with them.</td> 
+     </tr> 
+     <tr> 
+      <td colspan="2"><span class="bold">Default proof settings</span> </td> 
+     </tr> 
+     <tr> 
+      <td>Lock proof when all decisions are made</td> 
+      <td>Choose to automatically lock the proof from further changes after all decisions are made.</td> 
+     </tr> 
+     <tr> 
+      <td>Only require one decision</td> 
+      <td>Choose to require only one decision on a proof.</td> 
+     </tr> 
+     <tr> 
+      <td>Login required</td> 
+      <td> <p>Choose to make the proof available only to users with Workfront Proof login credentials.</p> <p>Note: Workfront Proof credentials can be different than your Workfront credentials, unless your company users SSO. We recommend using this feature only if your company users SSO.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Subscription enabled</td> 
+      <td>Allow reviewers external to the organization to sign up for the proof via the public URL or embed code. When this option is selected, the subscriber must click a link in an email to access a proof is also available. Select this option to require the external reviewer to click a link within the email to access the proof. This option is enabled by default if the Public sharing option is selected and is applied to all proofs created by this user. </td> 
+     </tr> 
+     <tr> 
+      <td>Default role for new guest reviewers</td> 
+      <td>Select a default proof role for guest reviewers. Options are the same as those in Default proof role.</td> 
+     </tr> 
+     <tr> 
+      <td>Block download of the original file</td> 
+      <td>Choose to block users from downloading the original file. </td> 
+     </tr> 
+     <tr> 
+      <td>My default proof role</td> 
+      <td>Choose your default proof role. </td> 
+     </tr> 
+     <tr> 
+      <td>My default markup color</td> 
+      <td>Choose your default markup color. </td> 
+     </tr> 
+    </tbody> 
+   </table>
 

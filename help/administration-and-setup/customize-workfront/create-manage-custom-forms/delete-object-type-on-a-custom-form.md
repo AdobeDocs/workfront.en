@@ -38,13 +38,15 @@ You can delete object types from an existing custom form.
 
 In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Custom Forms</span> in the left panel.</li> 
- <li value="3"> <p>Select the custom form you want to edit, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="4"> <p>Click the X on any of the <b>Object types</b> that you want to delete from the form, then click <b>Delete</b> on the warning message that displays.</p> <!--
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Custom Forms` in the left panel.
+1. Select the custom form you want to edit, then click `Edit`.
+1. Click the X on any of the **Object types** that you want to delete from the form, then click **Delete** on the warning message that displays.
+
+   <!--
    SCREENSHOT showing several at the top of the form canvas
-  --> </li> 
- <li value="5"> <p>Click <span class="bold">Done</span>, then click <b>Close and Save</b>.</p> </li> 
-</ol>
+   -->
+
+1. Click `Done`, then click **Close and Save**.
 

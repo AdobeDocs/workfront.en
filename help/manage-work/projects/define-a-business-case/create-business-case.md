@@ -53,27 +53,57 @@ Consider the following when requesting a project through a Business Case:
 
 ## Create a Business Case<![CDATA[   ]]>
 
-<ol> 
- <li value="1"><![CDATA[
-        ]]><![CDATA[
-]]>Click the Main Menu icon , then click Projects.</li> 
- <li value="2"> <p> Click&nbsp;<span class="bold">New Project</span> and select&nbsp;<span class="bold">Request Project</span>.<br>By default, the project is placed in the <span class="bold">Idea</span> status.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
- <li value="3"> Specify a name for your project, then press Enter. </li> 
- <li value="4"> <p> (Optional) <![CDATA[
- ]]>Click the More icon , then Attach Template, to create the Work Breakdown Structure of your project. </p> <p>Or</p> <p>Start adding tasks to the project manually. </p> </li> 
- <li value="5"> <p>(Conditional) If you selected to attach a template, continue attaching the template to the project</p> </li> 
- <li value="6"><![CDATA[
-]]>Click Business Case in the left panel.</li> 
- <li value="7"> <p> (Optional) Click <span class="bold">Edit Project Info</span>.&nbsp;</p> <p>For more information about editing the fields in the Project Info section of the Business Case, see the section <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info" class="MCXref xref">Project Info</a> in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</p> </li> 
- <li value="8"> <p> (Optional) Click <span class="bold">Edit Goals</span>.</p> <p>For more information about editing the Goals section of the Business Case, see the section <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals" class="MCXref xref">Goals</a> in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</p> </li> 
- <li value="9"> <p>(Optional) Click<span class="bold"> Edit Expenses</span>.</p> <p>For more information about editing the Expenses section of the Business Case, see the section <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses" class="MCXref xref">Expenses</a> in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</p> </li> 
- <li value="10"> <p>(Optional) Use the Resource Budgeting area to budget your resources and obtain the Budgeted Labor Cost associated with the job roles on the project. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>. </p> <note type="tip">
-    The information displayed here is the same as the information displayed in the system-level resource budgeting tools. 
-  </note> </li> 
- <li value="11"> <p>(Optional)&nbsp;Click <span class="bold">Edit Risks</span> to add potential risks to this project. For information about adding risks to the Business Case, see the <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks" class="MCXref xref">Risks</a> section in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>. </p> </li> 
- <li value="12"> <p>(Optional) Select a<span class="bold">&nbsp;Scorecard</span>&nbsp;in the <span class="bold">Add a Scorecard</span><span class="bold"> to this Project</span> drop-down menu.</p> <p>Scorecards must be created before they can be attached to projects.</p> <p>For more information about scorecards, see the article <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Apply a scorecard to a project and generate an Alignment Score</a>.</p> </li> 
- <li value="13"> <p>(Optional) Select a <span class="bold">Custom Form</span> in the <span class="bold">Custom Forms</span> drop-down menu.</p> <p>Custom Forms must be created before they can be attached to projects.</p> <p>For more information about Custom Forms, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
- <li value="14"> <p>Click&nbsp;<span class="bold">Submit</span>. </p> <p>The project status is changed to <span class="bold">Requested</span> and it is submitted to have the Business Case approved.<br></p> <p>For more information about approving a Business Case, see the article <a href="../../../manage-work/projects/define-a-business-case/approve-business-case.md" class="MCXref xref">Approve a Business Case</a>.</p> </li> 
- <li value="15"> <p>(Optional) After completing the Business Case, you can export a copy of it to a .pdf file.&nbsp;For more information about exporting the Business Case to a .pdf file, see the section "Export the Business Case" in the article <a href="../../../manage-work/projects/define-a-business-case/areas-of-business-case.md" class="MCXref xref">Overview of the Areas of the Business Case</a>.</p> </li> 
-</ol>
+1. <![CDATA[        ]]><![CDATA[]]>Click the Main Menu icon , then click Projects.
+1. Click  `New Project` and select  `Request Project`.  
+   By default, the project is placed in the `Idea` status.
+
+   ` `**Warning: **``If the Idea status has been deleted in your Workfront instance, the project is placed in the default status for new projects as defined in the Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+1. Specify a name for your project, then press Enter. 
+1. (Optional) <![CDATA[ ]]>Click the More icon , then Attach Template, to create the Work Breakdown Structure of your project.
+
+   Or
+
+   Start adding tasks to the project manually. 
+
+1. (Conditional) If you selected to attach a template, continue attaching the template to the project
+1. <![CDATA[]]>Click Business Case in the left panel.
+1. (Optional) Click `Edit Project Info`.&nbsp;
+
+   For more information about editing the fields in the Project Info section of the Business Case, see the section [Project Info](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+
+1. (Optional) Click `Edit Goals`.
+
+   For more information about editing the Goals section of the Business Case, see the section [Goals](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+
+1. (Optional) Click `Edit Expenses`.
+
+   For more information about editing the Expenses section of the Business Case, see the section [Expenses](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
+
+1. (Optional) Use the Resource Budgeting area to budget your resources and obtain the Budgeted Labor Cost associated with the job roles on the project. For more information, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+
+   >[!TIP]
+   >
+   >The information displayed here is the same as the information displayed in the system-level resource budgeting tools.
+
+1. (Optional) Click `Edit Risks` to add potential risks to this project. For information about adding risks to the Business Case, see the [Risks](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks) section in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md). 
+1. (Optional) Select a `Scorecard` in the `Add a Scorecard` `to this Project` drop-down menu.
+
+   Scorecards must be created before they can be attached to projects.
+
+   For more information about scorecards, see the article [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+
+1. (Optional) Select a `Custom Form` in the `Custom Forms` drop-down menu.
+
+   Custom Forms must be created before they can be attached to projects.
+
+   For more information about Custom Forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click  `Submit`.
+
+   The project status is changed to `Requested` and it is submitted to have the Business Case approved.
+
+   For more information about approving a Business Case, see the article [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
+
+1. (Optional) After completing the Business Case, you can export a copy of it to a .pdf file.&nbsp;For more information about exporting the Business Case to a .pdf file, see the section "Export the Business Case" in the article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 

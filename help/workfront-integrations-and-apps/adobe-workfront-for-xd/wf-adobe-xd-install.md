@@ -39,31 +39,41 @@ You must have the following access to perform the steps in this article:
 
 To install the Workfront for Adobe XD plugin:
 
-<ol> 
- <li value="1"> <p>Open the Adobe Creative Cloud app.</p> </li> 
- <li value="2"> <p>Click the <span class="bold">Marketplace </span>tab near the top of the window.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Search All Plugins</span> box, type <i>Workfront</i>, then press <span class="bold">Enter</span>.</p> <p> <img src="assets/adobe-marketplace-350x218.png" style="width: 350;height: 218;"> </p> </li> 
- <li value="4"> <p>When Workfront for Adobe XD plugin appears in the search results, click <span class="bold">Get</span>.</p> </li> 
- <li value="5"> <p>Read the information in the dialog box, then click <span class="bold">OK</span>.</p> </li> 
- <li value="6"> <p>Once the plugin in installed, open Adobe XD and locate the Workfront plugin in the plugin window.</p> <p> <img src="assets/xd-plugin-window-350x620.png" style="width: 350;height: 620;"> </p> </li> 
- <li value="7"> <p>Continue to the following section for information on how to log in to the plugin.</p> </li> 
-</ol>
+1. Open the Adobe Creative Cloud app.
+1. Click the `Marketplace`tab near the top of the window.
+1. In the `Search All Plugins` box, type *Workfront*, then press `Enter`.
+
+   ![](assets/adobe-marketplace-350x218.png)
+
+1. When Workfront for Adobe XD plugin appears in the search results, click `Get`.
+1. Read the information in the dialog box, then click `OK`.
+1. Once the plugin in installed, open Adobe XD and locate the Workfront plugin in the plugin window.
+
+   ![](assets/xd-plugin-window-350x620.png)
+
+1. Continue to the following section for information on how to log in to the plugin.
 
 ## Log In to Workfront for Adobe XD
 
-<ol> 
- <li value="1">Ensure the Plugin panel is open, then click <span class="uitext">Workfront for Adobe XD</span>.</li> 
- <li value="2"> <p>Enter your domain, then click <span class="bold">Log in</span>. A browser page opens.</p> <note type="tip">
-   To find your domain, open a browser, navigate to your Workfront instance, and copy the first part of the URL:
-   <br> 
-   <img src="assets/domain-350x50.png" style="width: 350;height: 50;">
-  </note> </li> 
- <li value="3"> <p>In the browser, enter your Workfront credentials, then click <span class="bold">Log in</span>. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in. </p> <note type="note">
-   You may not be prompted to enter your Workfront credentials if you logged in recently.
-  </note> <!--
+1. Ensure the Plugin panel is open, then click `Workfront for Adobe XD`.
+1. Enter your domain, then click `Log in`. A browser page opens.
+
+   >[!TIP]
+   >
+   >To find your domain, open a browser, navigate to your Workfront instance, and copy the first part of the URL:  
+   >![](assets/domain-350x50.png)   >
+   >
+
+1. In the browser, enter your Workfront credentials, then click `Log in`. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
+
+   >[!NOTE]
+   >
+   >You may not be prompted to enter your Workfront credentials if you logged in recently.
+
+   <!--
    Follow the prompts to log in to Workfront. Note: Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users. When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: yourCompany'sDomain.my.workfront.com. Your company's domain is usually the name of your company.
-  --> </li> 
- <li value="4">Click <span class="bold">Allow Access</span> to finish logging in, and go back to Adobe XD to see your work.</li> 
-</ol>
+   -->
+
+1. Click `Allow Access` to finish logging in, and go back to Adobe XD to see your work.
 
 &nbsp; 

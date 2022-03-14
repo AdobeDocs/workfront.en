@@ -32,12 +32,9 @@ When viewing comments
 
 In the sidebar inside you'll find many useful options and settings, including the proof details, grouped into a few sections:
 
-<ul> 
- <li>Dashboard (1) - The Dashboard icon takes you directly to the Dashboard on your account. This icon is visible for Workfront Proof users only.</li> 
- <li>Folder browser (2 )The folder icon&nbsp;is visible to all reviewers one the proof, but only if the proof is placed in a&nbsp;folder.</li> <note type="note">
-  If you don't have permissions to access the latest version of a particular proof from this folder, you won't see this proof listed in this view even though one of the previous versions has been shared with you. 
- </note> 
-</ul>
+* Dashboard (1) - The Dashboard icon takes you directly to the Dashboard on your account. This icon is visible for Workfront Proof users only.
+* Folder browser (2 )The folder icon&nbsp;is visible to all reviewers one the proof, but only if the proof is placed in a&nbsp;folder.
+* If you don't have permissions to access the latest version of a particular proof from this folder, you won't see this proof listed in this view even though one of the previous versions has been shared with you.
 
 * Create new items (3)&nbsp;
 * Workflow (4)

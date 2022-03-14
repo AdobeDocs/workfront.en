@@ -59,19 +59,26 @@ You must have the following access to perform the steps in this article:
 
 ##  Add a goal to the Business Case of a project
 
-<ol> 
- <li value="1"> Go to a project for which you want to define Business Case goals. </li> 
- <li value="2"> <p> Click Business Case in the left panel.</p> <p>The Business Case is displayed.<br></p> </li> 
- <li value="3">In the <span class="bold">Goals</span> section, click&nbsp;<span class="bold">Edit Goals</span>.</li> 
- <li value="4"> <p>Specify your goals.</p>&nbsp;In the&nbsp;<span class="bold">Importance</span> drop-down menu, select the level of importance:
-  <ul>
-   <li>Highest</li>
-   <li>High</li>
-   <li>Medium</li>
-   <li>Low</li>
-   <li><p>Lowest</p><p><img src="assets/g1-350x76.png" alt="" style="width: 350;height: 76;"></p><p>You cannot customize the Importance levels of goals.</p></li>
-  </ul></li> 
- <li value="5">(Optional) To add another goal, click&nbsp;<span class="bold">Add Another Goal&nbsp;</span>and repeat Step 5 and Step 6.</li> 
- <li value="6">Click&nbsp;<span class="bold">Save</span>.</li> 
-</ol>
+1. Go to a project for which you want to define Business Case goals. 
+1. Click Business Case in the left panel.
+
+   The Business Case is displayed.
+
+1. In the `Goals` section, click  `Edit Goals`.
+
+1. Specify your goals.
+   In the  `Importance` drop-down menu, select the level of importance:
+
+  * Highest
+  * High
+  * Medium
+  * Low
+  * Lowest
+
+    ![](assets/g1-350x76.png)
+
+    You cannot customize the Importance levels of goals.
+
+1. (Optional) To add another goal, click  `Add Another Goal`and repeat Step 5 and Step 6.
+1. Click  `Save`.
 

@@ -79,21 +79,36 @@ Before you begin, you must have the following:
 
 ## Share a goal
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Workfront, then click <span class="bold">Goals</span>.</p> <p>The Goal List displays. </p> </li> 
- <li value="2"> <p>Click the name of a goal in the list. The Goal&nbsp;Details panel opens. </p> <note type="tip">
-   You can click the name of a list from any section in the Goals area to open the Goal&nbsp;Details panel. 
-  </note> </li> 
- <li value="3"> <p>Click the <span class="bold">More icon</span> next to the goal name, then click&nbsp;<span class="bold">Share</span>. </p> <p> <img src="assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png" style="width: 350;height: 156;"> </p> <p>The Goal&nbsp;Access box displays.</p> <p> <img src="assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png" style="width: 350;height: 400;"> </p> </li> 
- <li value="4"> <p>Do one of the following:</p> 
-  <ul> 
-   <li> <p>Select the <span class="bold">Manage system-wide</span> setting to give Manage permissions to everyone in the system who has Edit access to Goals in their access level. This is deselected by default for all new goals. </p> </li> 
-   <li> <p>Start typing the name of a user that you want to give Manage permissions to in the <span class="bold">Give Manage access to</span> box. Select the name when it appears in the list. </p> <note type="tip">
-     You can only share a goal with other users. You cannot share goals with groups, teams, or companies. 
-    </note> </li> 
-  </ul> </li> 
- <li value="5"> <p>Click <span class="bold">Share</span>. </p> <p>The goal is shared with the users you specified. A "System-wide" label or the name of the users who have Manage permissions to the goal display in the Access to Manage field in the Goal Details panel. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click `Goals`.
+
+   The Goal List displays. 
+
+1. Click the name of a goal in the list. The Goal&nbsp;Details panel opens.
+
+   >[!TIP]
+   >
+   >You can click the name of a list from any section in the Goals area to open the Goal&nbsp;Details panel.
+
+1. Click the `More icon` next to the goal name, then click  `Share`.
+
+   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+
+   The Goal&nbsp;Access box displays.
+
+   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+
+1. Do one of the following:
+
+  * Select the `Manage system-wide` setting to give Manage permissions to everyone in the system who has Edit access to Goals in their access level. This is deselected by default for all new goals. 
+  * Start typing the name of a user that you want to give Manage permissions to in the `Give Manage access to` box. Select the name when it appears in the list.
+
+    >[!TIP]
+    >
+    >You can only share a goal with other users. You cannot share goals with groups, teams, or companies.
+
+1. Click `Share`.
+
+   The goal is shared with the users you specified. A "System-wide" label or the name of the users who have Manage permissions to the goal display in the Access to Manage field in the Goal Details panel.
 
 ## Goal permission options
 

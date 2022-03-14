@@ -52,19 +52,29 @@ You must have the following access to perform the steps in this article:
 
 ## Create a cross-project predecessor
 
-<ol> 
- <li value="1">Go to the task that will be your successor. </li> 
- <li value="2"> Click Predecessors in the left panel. </li> 
- <li value="3"> <p>Click <span class="bold">Add Predecessor.</span></p> </li> 
- <li value="4">In the <span class="bold">Parent Project</span> field, begin typing the name of the project that contains the task that you want to be dependent to your current task.</li> 
- <li value="5">Click the name when it appears in the drop-down list.</li> 
- <li value="6">In the <span class="bold">Tasks</span> field, begin typing the name of the task that you want to be dependent on your current task.</li> 
- <li value="7"> <p>Specify the following information for defining the relationship between the predecessor and dependent task:</p> 
-  <ul> 
-   <li><span class="bold">Dependency Type:</span> Select the relationship that you want the task to have with the dependent task. The default relationship is 'Finish-Start,' meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a></li> 
-   <li><span class="bold">Lag:</span> Specify the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin. For more information about the various types of lag, see <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Overview of Lag Types</a>. </li> 
-   <li> <p><span class="bold">Enforced:</span> When this option is selected, dependency relationship between the two tasks cannot be circumvented by users beginning tasks early. For example, if you enforce a relationship between Task A and Task B, Task B cannot be started until Task A is complete. For more information about enforcing predecessors, see <a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Enforce predecessors</a>.</p> <p>When this option is not selected, the dependency is treated like a suggestion to users. For example, users are able to start Task B before Task A is complete.</p> </li> 
-  </ul> </li> 
- <li value="8"> <p>Click <span class="bold">Save.</span></p> <p> <br>Tasks that have a cross-project predecessor display the reference number of the project the predecessor belongs to and the number of the task, separated by a colon in the Predecessors column on a task list.</p> <p> <img src="assets/cross-project-predecessors-in-inline-edit.png"> </p> <p>The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.</p> <p>Mouse over this value, to get more information on the predecessor, the project, and the dates.</p> </li> 
-</ol>
+1. Go to the task that will be your successor. 
+1. Click Predecessors in the left panel. 
+1. Click `Add Predecessor.`
+1. In the `Parent Project` field, begin typing the name of the project that contains the task that you want to be dependent to your current task.
+1. Click the name when it appears in the drop-down list.
+1. In the `Tasks` field, begin typing the name of the task that you want to be dependent on your current task.
+1. Specify the following information for defining the relationship between the predecessor and dependent task:
+
+  * `Dependency Type:` Select the relationship that you want the task to have with the dependent task. The default relationship is 'Finish-Start,' meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+  
+  * `Lag:` Specify the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin. For more information about the various types of lag, see [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md). 
+  
+  * `Enforced:` When this option is selected, dependency relationship between the two tasks cannot be circumvented by users beginning tasks early. For example, if you enforce a relationship between Task A and Task B, Task B cannot be started until Task A is complete. For more information about enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+
+    When this option is not selected, the dependency is treated like a suggestion to users. For example, users are able to start Task B before Task A is complete.
+
+1. Click `Save.`
+
+   Tasks that have a cross-project predecessor display the reference number of the project the predecessor belongs to and the number of the task, separated by a colon in the Predecessors column on a task list.
+
+   ![](assets/cross-project-predecessors-in-inline-edit.png)
+
+   The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
+
+   Mouse over this value, to get more information on the predecessor, the project, and the dates.
 

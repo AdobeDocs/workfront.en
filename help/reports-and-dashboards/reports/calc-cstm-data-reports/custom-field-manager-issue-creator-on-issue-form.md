@@ -40,15 +40,24 @@ You must have the following access to perform the steps in this article:
 
 The following steps show how you can create a calculated field for an issue custom form where you can capture the name of the manager of the user who created the issue.&nbsp;The process is identical when you want to capture the name of the manager of a user who created a task, a project, a portfolio, for example.
 
-<ol> 
- <li value="1"> <p>Create an issue custom form and add a calculated field to it.</p> <p>For information about creating a custom form and adding calculated fields to it, see the following articles: </p> 
-  <ul> 
-   <li><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a> </li> 
-   <li> <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Add calculated data to a custom form</a></li> 
-  </ul> </li> 
- <li value="2"> <p>Copy the following text mode code and paste it in the <span class="bold">Calculation</span> field of the custom form: </p> <p><code>Owner.Manager.Name </code> </p> <note type="tip">
-   Custom field calculations are case sensitive. 
-  </note> </li> 
- <li value="3"> <p>Click <span class="bold">Done</span>, then <span class="bold">Save +&nbsp;Close</span>.</p> <p>The manager of the user who created the issue displays in the calculated field when the form that contains the field is attached to an issue. </p> </li> 
-</ol>
+1. Create an issue custom form and add a calculated field to it.
+
+   For information about creating a custom form and adding calculated fields to it, see the following articles:
+
+  * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
+  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+
+1. Copy the following text mode code and paste it in the `Calculation` field of the custom form:
+
+   ```
+   Owner.Manager.Name
+   ```
+
+   >[!TIP]
+   >
+   >Custom field calculations are case sensitive.
+
+1. Click `Done`, then `Save + Close`.
+
+   The manager of the user who created the issue displays in the calculated field when the form that contains the field is attached to an issue.
 

@@ -44,10 +44,11 @@ Guests are users who do not have a licensed Workfront Proof account. If a Guest 
 
 For more information on Guests and users, see [Understand Users, Members, and Guests in Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md).&nbsp;
 
-<ol> 
- <li value="1">Click <span class="bold">Contacts</span> in the left navigation menu.</li> 
- <li value="2">Click the&nbsp;<span class="bold">More</span>&nbsp;icon to the right of the Guest who you want to convert to a user, then click&nbsp;<span class="bold">Convert to user</span>.<br><img src="assets/screenshot-2018-03-30-14-08-35-350x143.png" alt="Screenshot_2018-03-30_14-08-35.png" style="width: 350;height: 143;"><br></li> 
- <li value="3">In the <span class="bold">New User</span> dialog box that displays, set configuration options for the user, as described in&nbsp;<a href="../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md" class="MCXref xref">Configure User Information using Workfront Proof</a>.</li> 
- <li value="4">Click&nbsp;<span class="bold">Convert to User.</span>&nbsp;</li> 
-</ol>
+1. Click `Contacts` in the left navigation menu.
+1. Click the  `More` icon to the right of the Guest who you want to convert to a user, then click  `Convert to user`.  
+   ![Screenshot_2018-03-30_14-08-35.png](assets/screenshot-2018-03-30-14-08-35-350x143.png)  
+
+1. In the `New User` dialog box that displays, set configuration options for the user, as described in&nbsp; [Configure User Information using Workfront Proof](../../../workfront-proof/wp-mnguserscontacts/users/configure-user-info.md).
+
+1. Click  `Convert to User.`&nbsp;
 

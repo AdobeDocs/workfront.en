@@ -1509,43 +1509,55 @@ The trigger for watching all automations associated with a contact returns dates
 
 These steps seem really wonky in Alloy article. Test!
 
-<ol> 
- <li value="1">Add a Watch events module to your scenario.</li> 
- <li value="2"> <p>Set up the webhook.</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td>Connection </td> 
-     <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Custom Webhook Name</td> 
-     <td> <p> Enter the name for your webhook. E.g. Contacts Webhook.</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Events </td> 
-     <td> <p>Select events that will trigger the webhook.</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Sources </td> 
-     <td> <p>Select who initates the webhook, whether it is contact, admin, API, or system processes.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3">Save your setting by clicking the <span class="bold">Save</span> button, then close and save the Watch events webhook module by clicking <span class="bold">OK</span>.</li> 
- <li value="4">Log in to your ActiveCampaign account.</li> 
- <li value="5"> <p>In the <span class="bold">Settings</span> dropdown menu, click <span class="bold">Developer</span>, then click <span class="bold">Manage Webhooks</span>.</p> <!--
+1. Add a Watch events module to your scenario.
+1. Set up the webhook.
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td>Connection </td> 
+      <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Custom Webhook Name</td> 
+      <td> <p> Enter the name for your webhook. E.g. Contacts Webhook.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Events </td> 
+      <td> <p>Select events that will trigger the webhook.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Sources </td> 
+      <td> <p>Select who initates the webhook, whether it is contact, admin, API, or system processes.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Save your setting by clicking the `Save` button, then close and save the Watch events webhook module by clicking `OK`.
+
+1. Log in to your ActiveCampaign account.
+1. In the `Settings` dropdown menu, click `Developer`, then click `Manage Webhooks`.
+
+   <!--
    screenshot
-  --> </li> 
- <li value="6"> <p>In the Webhook settings fields, click <span class="bold">Edit</span> to open the webhook settings in the ActiveCampaign.</p> <!--
+   -->
+
+1. In the Webhook settings fields, click `Edit` to open the webhook settings in the ActiveCampaign.
+
+   <!--
    screenshot
-  --> </li> 
- <li value="7"> <p>In the Webhook settings section, in the <span class="bold">List</span> dropdown menu, select the list that you want to work with the Workfront Fusion webhook.</p> <!--
+   -->
+
+1. In the Webhook settings section, in the `List` dropdown menu, select the list that you want to work with the Workfront Fusion webhook.
+
+   <!--
    screenshot
-  --> </li> 
- <li value="8">Run your scenario in Workfront Fusion and then <span class="bold">send sample Data</span> so that you can confirm if the webhook catches the correct data.</li> 
- <li value="9"> <p> <span class="bold">Update</span> to save your work.</p> <p class="PinkDraftNote">Screenshot</p> </li> 
-</ol>
+   -->
+
+1. Run your scenario in Workfront Fusion and then `send sample Data` so that you can confirm if the webhook catches the correct data.
+1. `Update` to save your work.
+
+   Screenshot
 

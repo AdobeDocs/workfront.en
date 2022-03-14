@@ -47,39 +47,51 @@ You must have the following access to perform the steps in this article:
 
 You can share a proof via a URL if the owner has configured the proof for sharing. Proof owners can update sharing settings any time. For more information, see [Edit proof settings](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-<ol> 
- <li value="1"> <p>If the left icon menu is not displayed, click the <span class="bold">Menu</span> icon on the upper-left corner of the proofing viewer.</p> <p> <img src="assets/menu-icon-in-proofing-viewer-350x188.png" style="width: 350;height: 188;"> </p> </li> 
- <li value="2"> <p>In the left icon menu of the proofing viewer, click the <span class="bold">Share</span>&nbsp;icon.</p> <p> <img src="assets/share-btn-in-viewer.png" alt="Share_btn_in_viewer.png"> </p> </li> 
- <li value="3">In the <span class="bold">Share proof</span> options that appear, make sure <span class="bold">Get shareable link</span> is selected.</li> 
- <li value="4"> <p>&nbsp;Do either of the following:</p> 
-  <ul> 
-   <li> <p>To copy the link to your clipboard, click <span class="bold">Copy link</span>.</p> <p>You can now distribute the link via a third-party tool, such as a chat or an email application.</p> </li> 
-   <li>To email the link directly from Adobe Workfront, do the following:
-    <ol>
-     <li value="1"><p>In the <span class="bold">Or email link to</span> field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.</p></li>
-     <li value="2"><p>Select from the following options:</p>
-      <table cellspacing="0">
-       <col>
-       <col>
-       <tbody>
-        <tr>
-         <td role="rowheader">Send public link</td>
-         <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
-        </tr>
-        <tr>
-         <td role="rowheader">Send download link</td>
-         <td>Includes a button in the email notification that directs users to a download page, which provides file details, file name, and file size, with the file displayed inline. Users can click the Download link from the download page to download the file.</td>
-        </tr>
-        <tr>
-         <td role="rowheader">Add custom message</td>
-         <td>Allows you to specify a custom subject and body for the email notification.</td>
-        </tr>
-       </tbody>
-      </table></li>
-     <li value="3"><p>Click <span class="bold">Send</span>.</p><p>Your recipients receive an email notification containing information about the proof and the buttons you chose to include.</p><p><img src="assets/proof-share-email-350x87.png" style="width: 350;height: 87;"></p></li>
-    </ol></li> 
-  </ul> </li> 
-</ol>
+1. If the left icon menu is not displayed, click the `Menu` icon on the upper-left corner of the proofing viewer.
+
+   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+
+1. In the left icon menu of the proofing viewer, click the `Share`&nbsp;icon.
+
+   ![Share_btn_in_viewer.png](assets/share-btn-in-viewer.png)
+
+1. In the `Share proof` options that appear, make sure `Get shareable link` is selected.
+
+1. &nbsp;Do either of the following:
+
+  * To copy the link to your clipboard, click `Copy link`.
+
+    You can now distribute the link via a third-party tool, such as a chat or an email application.
+  
+  * To email the link directly from Adobe Workfront, do the following:
+
+    1. In the `Or email link to` field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.
+    1. Select from the following options:
+
+       <table cellspacing="0">
+        <col>
+        <col>
+        <tbody>
+         <tr>
+          <td role="rowheader">Send public link</td>
+          <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
+         </tr>
+         <tr>
+          <td role="rowheader">Send download link</td>
+          <td>Includes a button in the email notification that directs users to a download page, which provides file details, file name, and file size, with the file displayed inline. Users can click the Download link from the download page to download the file.</td>
+         </tr>
+         <tr>
+          <td role="rowheader">Add custom message</td>
+          <td>Allows you to specify a custom subject and body for the email notification.</td>
+         </tr>
+        </tbody>
+       </table>
+
+    1. Click `Send`.
+
+       Your recipients receive an email notification containing information about the proof and the buttons you chose to include.
+
+       ![](assets/proof-share-email-350x87.png)
 
 ## Share the embed code
 
@@ -89,10 +101,11 @@ For information about configuring a prof with an embedded code, see [Configure a
 
 To share a proof via the embed code:
 
-<ol> 
- <li value="1"> <p>In the toolbar on the left of the proofing viewer, click the <span class="bold">Share</span>&nbsp;icon.<br></p> <p> <img src="assets/share-btn-in-viewer--1-.png" alt="Share_btn_in_viewer__1_.png"> </p> </li> 
- <li value="2">In the <span class="bold">Share proof</span> options that appear, click <span class="bold">Get embed code</span>, then click <span class="bold">Copy</span>.</li> 
-</ol>
+1. In the toolbar on the left of the proofing viewer, click the `Share`&nbsp;icon.
+
+   ![Share_btn_in_viewer__1_.png](assets/share-btn-in-viewer--1-.png)
+
+1. In the `Share proof` options that appear, click `Get embed code`, then click `Copy`.
 
 ## Share a proof by adding users to it
 
@@ -114,15 +127,20 @@ When Automated Workflow is enabled and you add a user to the proof who does not 
 
 To share a proof with individual users:
 
-<ol> 
- <li value="1"> <p>In the toolbar on the left of the proofing viewer, click the <span class="bold">Share</span>&nbsp;icon.<br></p> <p> <img src="assets/share-btn-in-viewer--2-.png" alt="Share_btn_in_viewer__2_.png"> </p> </li> 
- <li value="2">Click <span class="bold">Add recipients</span> in the list on the left.</li> 
- <li value="3">Under&nbsp;<span class="bold">New proof recipients</span>, begin typing the name of a user who you want to share the proof with, then click the name when it appears in the drop-down list.</li> 
- <li value="4"> <p>(Optional) Change any reviewer options to the right of the person's name:</p> 
-  <ul> 
-   <li><span class="bold">Proof role</span>: For more information, see <a href="../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</li> 
-   <li><span class="bold">Stage</span>: (Available only if the proof has an Automated Workflow). For more information, see&nbsp;<a href="../../../../review-and-approve-work/proofing/proofing-overview/stages.md" class="MCXref xref">Automated Workflow Stages overview</a>.</li> 
-   <li> <p><span class="bold">Email alerts</span>:&nbsp;Select one of the following options to specify how the person will be notified about activity on the proof.</p> 
+1. In the toolbar on the left of the proofing viewer, click the `Share`&nbsp;icon.
+
+   ![Share_btn_in_viewer__2_.png](assets/share-btn-in-viewer--2-.png)
+
+1. Click `Add recipients` in the list on the left.
+1. Under  `New proof recipients`, begin typing the name of a user who you want to share the proof with, then click the name when it appears in the drop-down list.
+1. (Optional) Change any reviewer options to the right of the person's name:
+
+  * `Proof role`: For more information, see [Manage Proof Roles in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+  
+  * `Stage`: (Available only if the proof has an Automated Workflow). For more information, see&nbsp; [Automated Workflow Stages overview](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+  
+  * `Email alerts`:&nbsp;Select one of the following options to specify how the person will be notified about activity on the proof.
+
     <table cellspacing="0"> 
      <col> 
      <col> 
@@ -156,11 +174,10 @@ To share a proof with individual users:
        Notify people by email Select this option to send an email to the users, notifying them of the proof. Click Add a custom message to specify a message to include in the email notification.
       --> 
      </tbody> 
-    </table> </li> 
-  </ul> </li> 
- <li value="5">(Optional) Repeat the two previous steps to add multiple users to the proof.&nbsp;</li> 
- <li value="6"> <p>(Optional) Set a <span class="bold">Deadline</span> for the reviewers (available only if the proof does not have automated workflow). </p> </li> 
- <li value="7">(Optional) Select <span class="bold">Send email notification to new recipients</span> to let them know you have added them to the proof.</li> 
- <li value="8">When you are finished adding users to the proof, click <span class="bold">Done.</span></li> 
-</ol>
+    </table>
+
+1. (Optional) Repeat the two previous steps to add multiple users to the proof.&nbsp;
+1. (Optional) Set a `Deadline` for the reviewers (available only if the proof does not have automated workflow). 
+1. (Optional) Select `Send email notification to new recipients` to let them know you have added them to the proof.
+1. When you are finished adding users to the proof, click `Done.`
 

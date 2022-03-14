@@ -49,10 +49,16 @@ You must have the following access to perform the steps in this article:
 
 ## Search content within a proof
 
-<ol> 
- <li value="1">Open&nbsp;the proof that you want to search.</li> 
- <li value="2"> <p>In the toolbar above the proof, click the&nbsp;<span class="bold">Search document</span>&nbsp;icon.</p> <p> <img src="assets/search-document-icon-search-in-proof-350x129.png" style="width: 350;height: 129;"> </p> </li> 
- <li value="3"> <p>Begin typing the text you want to search for.</p> <p>The search tool highlights the text in the document as you type.</p> <p> <img src="assets/search-text-highlighted-as-you-type-350x214.png" alt="Search_text_highlighted_as_you_type.png" style="width: 350;height: 214;"> </p> </li> 
- <li value="4">Finish typing the text you want to search for, then click the&nbsp;<span class="bold">Up</span>&nbsp;and&nbsp;<span class="bold">Down</span>&nbsp;arrows to scan through the search results within the proof.</li> 
-</ol>
+1. Open&nbsp;the proof that you want to search.
+1. In the toolbar above the proof, click the  `Search document`&nbsp;icon.
+
+   ![](assets/search-document-icon-search-in-proof-350x129.png)
+
+1. Begin typing the text you want to search for.
+
+   The search tool highlights the text in the document as you type.
+
+   ![Search_text_highlighted_as_you_type.png](assets/search-text-highlighted-as-you-type-350x214.png)
+
+1. Finish typing the text you want to search for, then click the  `Up` and  `Down`&nbsp;arrows to scan through the search results within the proof.
 

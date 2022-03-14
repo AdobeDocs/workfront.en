@@ -36,36 +36,21 @@ You must have the following access to perform the steps in this article:
 
 ## Configure a project template blueprint
 
-<ol> 
- <li value="1"> <p>Find the blueprint you want to use.</p> </li> 
- <li value="2"> <p>Click <span class="uitext">Install</span>, then choose an environment:<br></p> 
-  <table> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td><span class="uitext">Production</span> </td> 
-     <td>Production is your live environment. </td> 
-    </tr> 
-    <tr> 
-     <td><span class="uitext">Sandbox Preview</span> </td> 
-     <td>The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront. </td> 
-    </tr> 
-    <tr> 
-     <td><span class="uitext">Sandbox 1 & 2</span> </td> 
-     <td>The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain a Custom Refresh Sandbox.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3">Continue with the following sections:</li> 
- <ul> 
-  <li><a href="#template2" class="MCXref xref">Template preferences</a> </li> 
-  <li><a href="#role" class="MCXref xref">Role mapping</a> </li> 
-  <li><a href="#team" class="MCXref xref">Team mapping</a> </li> 
-  <li><a href="#company" class="MCXref xref">Company mapping</a> </li> 
-  <li><a href="#group" class="MCXref xref">Group mapping</a> </li> 
- </ul> 
-</ol>
+1. Find the blueprint you want to use.
+1. Click `Install`, then choose an environment:
+
+   | `Production`  |Production is your live environment.  |
+   |---|---|
+   | `Sandbox Preview`  |The Sandbox Preview is a testing environment that serves as a replica of your live environment and is refreshed each weekend by Workfront.  |
+   | `Sandbox 1 & 2`  |The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain a Custom Refresh Sandbox. |
+
+1. Continue with the following sections:
+
+  * [Template preferences](#template2) 
+  * [Role mapping](#role) 
+  * [Team mapping](#team) 
+  * [Company mapping](#company) 
+  * [Group mapping](#group)
 
 ## Template preferences
 
@@ -75,67 +60,52 @@ You can also designate template ownership before you install the blueprint. You 
 
 ![Template Preferences section](assets/blueprints-templatepreferences-350x147.png)
 
-<ol> 
- <li value="1"> <p>In the <span class="uitext">Install Preferences section</span>, specify a new template name.</p> </li> 
- <li value="2"> <p>Specify the following:<br></p> 
-  <table> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td><span class="uitext">Template owner</span> </td> 
-     <td>This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project.</td> 
-    </tr> 
-    <tr> 
-     <td><span class="uitext">Template sponsor</span> </td> 
-     <td>This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project.</td> 
-    </tr> 
-    <tr> 
-     <td><span class="uitext">Portfolio</span> </td> 
-     <td>This is the portfolio the project will belong to when it's created.</td> 
-    </tr> 
-    <tr> 
-     <td><span class="uitext">Program</span> </td> 
-     <td>This is the program the project will belong to when it's created.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Select whether the template is installed as active or inactive.</p> </li> 
- <li value="4"> <p>Select whether you want to use defined new issue preferences, if preferences are available.</p> <p> Click <span class="bold">See issue preferences</span> to review the specific preferences that will install with the blueprint. Projects created from the imported template use these preferences for new issues added in the Issues section.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Queue topic groups</td> 
-     <td> <p>Queue topic groups define the highest level of categories for the issues or requests. Users view topic groups as menu options when selecting where to submit requests. A topic group can contain multiple queue topics. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Create Topic Groups</a>. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Queue topics </td> 
-     <td> <p>Queue topics work in conjunction with routing rules to assign issues or requests. They are the menu options that users select when entering an issue or request, after selecting a topic group. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Routing rules </td> 
-     <td>Routing rules send issues or requests to specific job roles , users, or teams. They can also send the requests to specific projects, other than the one associated with the request queue. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a>. </td> 
-    </tr> 
-   </tbody> 
-  </table> 
-  <div class="example" data-mc-autonum="<b>Example: </b>">
-   <span class="autonumber"><span><b>Example: </b></span></span> 
-   <p>The new issue preferences in this blueprint provide four queue topics. The user selects one of these topics when creating an issue. (Because only one topic group exists, it is automatically applied and the user does not have to select it.) When the user completes and submits the issue, routing rules determine which job role or team it is assigned to.</p> 
-   <p> <img src="assets/blueprints-issueprefsdetails-350x202.png" alt="Sample new issue preferences" style="width: 350;height: 202;"> </p> 
-   <p> <img src="assets/blueprints-newissueqtopicsexample-350x204.png" style="width: 350;height: 204;" alt="Queue topics for new issue"> </p> 
-   <p> <img src="assets/blueprints-projectshowsissueassignment-350x71.png" alt="Issue routed to job role" style="width: 350;height: 71;"> </p> 
-  </div> 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <ul> 
-    <li>Using the issue preferences helps create consistency in the way that new issues or requests are captured on your projects.</li> 
-    <li>Setting these preferences does not automatically make the projects created from the template into request queues. For information about setting up a request queue, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</li> 
-    <li>Not all blueprints contain new issue preferences.</li> 
-   </ul> 
-  </div> </li> 
-</ol>
+1. In the `Install Preferences section`, specify a new template name.
+1. Specify the following:
+
+   | `Template owner`  |This person receives Manage permissions on the template and will become the Project owner when the template is used to create a project. |
+   |---|---|
+   | `Template sponsor`  |This person is usually a manager, executive, or stakeholder who needs to know what is happening with the project. The Project Sponsor does not gain any additional access to the project but is added to the email notifications for the project. |
+   | `Portfolio`  |This is the portfolio the project will belong to when it's created. |
+   | `Program`  |This is the program the project will belong to when it's created. |
+
+1. Select whether the template is installed as active or inactive.
+1. Select whether you want to use defined new issue preferences, if preferences are available.
+
+   Click `See issue preferences` to review the specific preferences that will install with the blueprint. Projects created from the imported template use these preferences for new issues added in the Issues section.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Queue topic groups</td> 
+      <td> <p>Queue topic groups define the highest level of categories for the issues or requests. Users view topic groups as menu options when selecting where to submit requests. A topic group can contain multiple queue topics. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Create Topic Groups</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Queue topics </td> 
+      <td> <p>Queue topics work in conjunction with routing rules to assign issues or requests. They are the menu options that users select when entering an issue or request, after selecting a topic group. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Routing rules </td> 
+      <td>Routing rules send issues or requests to specific job roles , users, or teams. They can also send the requests to specific projects, other than the one associated with the request queue. For more information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a>. </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   ` `**Example: **`` The new issue preferences in this blueprint provide four queue topics. The user selects one of these topics when creating an issue. (Because only one topic group exists, it is automatically applied and the user does not have to select it.) When the user completes and submits the issue, routing rules determine which job role or team it is assigned to.
+
+   ![Sample new issue preferences](assets/blueprints-issueprefsdetails-350x202.png)
+
+   ![Queue topics for new issue](assets/blueprints-newissueqtopicsexample-350x204.png)
+
+   ![Issue routed to job role](assets/blueprints-projectshowsissueassignment-350x71.png)
+
+   ` `**Tips: **``
+
+  * Using the issue preferences helps create consistency in the way that new issues or requests are captured on your projects.
+  * Setting these preferences does not automatically make the projects created from the template into request queues. For information about setting up a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+  * Not all blueprints contain new issue preferences.
 
 ## Role mapping
 
@@ -245,21 +215,20 @@ The blueprint searches by the group name to see if any existing groups match. Th
 
 ![Group Mapping section](assets/blueprints-groupmapping-350x225.png)
 
-<ol> 
- <li value="1"> <p>If a group exists, you can select <span class="bold">Remap Group</span> and choose one of the following options:</p> 
-  <ol> 
-   <li value="1"> <p><span class="bold">Create a new group with a different name</span>, then type the name to assign to this group. References to the group in the blueprint definition will be associated to this new group instead.</p> </li> 
-   <li value="2"> <p><span class="bold">Replace with an existing group</span>, then search for and select a group in the selection box.</p> <note type="note">
-     You cannot rename an existing group.
-    </note> </li> 
-  </ol> </li> 
- <li value="2"> <p>If a group does not exist, you can:</p> 
-  <ol> 
-   <li value="1"> <p>Change the suggested group name by typing it in the text box.</p> </li> 
-   <li value="2"> <p>Select <span class="bold">Remap Group</span> and choose <span class="uitext">Replace with an existing group</span>, then search for and select a group in the selection box.</p> </li> 
-   <li value="3"> <p>Select <span class="bold">Remap Group</span> and choose <span class="bold">Insert under an existing group</span>, then search for and select a group in the selection box. This option creates a new subgroup under the existing group.</p> </li> 
-  </ol> </li> 
-</ol>
+1. If a group exists, you can select `Remap Group` and choose one of the following options:
+
+  1. `Create a new group with a different name`, then type the name to assign to this group. References to the group in the blueprint definition will be associated to this new group instead.
+  1. `Replace with an existing group`, then search for and select a group in the selection box.
+
+     >[!NOTE]
+     >
+     >You cannot rename an existing group.
+
+1. If a group does not exist, you can:
+
+  1. Change the suggested group name by typing it in the text box.
+  1. Select `Remap Group` and choose `Replace with an existing group`, then search for and select a group in the selection box.
+  1. Select `Remap Group` and choose `Insert under an existing group`, then search for and select a group in the selection box. This option creates a new subgroup under the existing group.
 
 >[!NOTE]
 >

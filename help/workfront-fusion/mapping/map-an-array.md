@@ -49,16 +49,20 @@ You must have the following access to use the functionality in this article:
 
 ## Map an array
 
-<ol> 
- <li value="1"> <p>Click the button located in the target field. <!--
-    These steps from the source article are too vague
-   --></p> 
-  <div class="example" data-mc-autonum="<b>Example: </b>">
-   <span class="autonumber"><span><b>Example: </b></span></span> 
-   <p>For the example above, you would click the Add an attachment button for an email. </p> 
-   <p> <img src="assets/add-an-attachment-button-350x152.jpg" style="width: 350;height: 152;"> </p> 
-  </div> </li> 
- <li value="2"> <p>In the box that displays, enter the item. </p> <p>The panel allows you to map fields in the same way as with any other type of item. If you do not want to fill in each item separately, but want to map another array into the target field, use the Map button. In this case, make sure that both arrays (the source array and the target array) have the same structure.</p> <p>You can add any number of items to an array.</p> </li> 
-</ol>
+1. Click the button located in the target field. 
+
+   <!--
+   These steps from the source article are too vague
+   -->
+
+   ` `**Example: **`` For the example above, you would click the Add an attachment button for an email.
+
+   ![](assets/add-an-attachment-button-350x152.jpg)
+
+1. In the box that displays, enter the item.
+
+   The panel allows you to map fields in the same way as with any other type of item. If you do not want to fill in each item separately, but want to map another array into the target field, use the Map button. In this case, make sure that both arrays (the source array and the target array) have the same structure.
+
+   You can add any number of items to an array.
 
 You can divide an array into individual bundles using an iterator. Fore more information, see [Iterator module](../../workfront-fusion/modules/iterator-module.md).

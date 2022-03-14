@@ -41,54 +41,54 @@ You must have the following access to perform the steps in this article:
 
 ## Convert a basic workflow to an Automated Workflow
 
-<ol> 
- <li value="1"> <p> In the documents list, hover over the document, then click <span class="bold">Proofing Workflow</span> when it displays.</p> </li> 
- <li value="2"> <p> Near the upper-right corner of Adobe Workfront, click <span class="bold">Convert to Automated Workflow</span>. </p> </li> 
- <li value="3"> <p>Click <span class="bold">New Stage</span> in the top-right corner of the screen.</p> </li> 
- <li value="4"> <p>Specify the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Name</span> </td> 
-     <td>Add a name for your stage.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Deadline</span> </td> 
-     <td>Choose a date for the deadline.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p><span class="bold">Activate stage</span> </p> </td> 
-     <td>Choose when the stage should activate.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Deadline options</span> </td> 
-     <td>Select how the deadline triggers.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Lock stage</span> </td> 
-     <td>Choose if the stage should be locked.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Primary decision maker</span> </td> 
-     <td>Specify the primary decision maker.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Decision</span> </td> 
-     <td>Choose if only one decision is required. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Privacy</span> </td> 
-     <td>Choose if the stage is private.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Add users</span> </td> 
-     <td>Enter a contact name or email address, choose the proof role, then configure email alerts.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Add stage</span>.</li> 
- <li value="6">(Optional) Repeat steps 3 and 4 until your satisfied with your workflow.</li> 
-</ol>
+1. In the documents list, hover over the document, then click `Proofing Workflow` when it displays.
+1. Near the upper-right corner of Adobe Workfront, click `Convert to Automated Workflow`. 
+1. Click `New Stage` in the top-right corner of the screen.
+1. Specify the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Name</span> </td> 
+      <td>Add a name for your stage.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Deadline</span> </td> 
+      <td>Choose a date for the deadline.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p><span class="bold">Activate stage</span> </p> </td> 
+      <td>Choose when the stage should activate.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Deadline options</span> </td> 
+      <td>Select how the deadline triggers.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Lock stage</span> </td> 
+      <td>Choose if the stage should be locked.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Primary decision maker</span> </td> 
+      <td>Specify the primary decision maker.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Decision</span> </td> 
+      <td>Choose if only one decision is required. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Privacy</span> </td> 
+      <td>Choose if the stage is private.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Add users</span> </td> 
+      <td>Enter a contact name or email address, choose the proof role, then configure email alerts.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Add stage`.
+1. (Optional) Repeat steps 3 and 4 until your satisfied with your workflow.
 

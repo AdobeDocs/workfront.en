@@ -73,12 +73,18 @@ You can manually add users to a project team by using the Team Scheduling tab.
 >
 >You can add to the Project Team only users that belong to the Group associated with the project.
 
-<ol> 
- <li value="1"> Go to the project where you want to add users to the project team, then click Scheduling in the left panel. The Scheduling section might be located under Show More. </li> 
- <li value="2"> Click Add Users. <p>The Add Users to Project Team dialog box displays.</p> <p> <img src="assets/add-users-dialog-350x217.png" alt="add_users_dialog.png" style="width: 350;height: 217;"> <br> </p> </li> 
- <li value="3"> <p>In the <span class="bold">Add Users</span> box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.</p> <p>Repeat this step to add multiple users to the project team.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Add</span>.</p> <p>The users are now available in the project scheduling area.</p> </li> 
-</ol>
+1. Go to the project where you want to add users to the project team, then click Scheduling in the left panel. The Scheduling section might be located under Show More. 
+1. Click Add Users. The Add Users to Project Team dialog box displays.
+
+   ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
+
+1. In the `Add Users` box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.
+
+   Repeat this step to add multiple users to the project team.
+
+1. Click `Add`.
+
+   The users are now available in the project scheduling area.
 
 For more information about using the project scheduling area, see the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 

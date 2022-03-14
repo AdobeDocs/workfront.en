@@ -43,22 +43,37 @@ Before you begin, you must
 
 Editing information on a custom form attached to an object is identical for all objects. For information about what objects can have a custom form, see [Custom forms overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
-<ol> 
- <li value="1">Go to an object for which you want to edit information on the custom form.</li> 
- <li value="2"> <p> Click <Object type> Details in the left panel. </p> <p> For example, when editing information on a project custom form, click Project Details. </p> </li> Scroll to the custom form. When there is a custom form attached to the object, the name of the form displays as an area in the Details section. If necessary, click the arrow to the left of the name of the custom form to expand it. 
- <li value="5"> <p> Near the upper-right corner of the page, click the Edit icon.</p> </li> 
- <li value="6"> <p>Start entering information in any field that you have access to edit.</p>  <p>Or</p> <p>If no information has been entered yet on the form, click <span class="bold">Add+</span> for any field you have access to edit and start entering information.</p>  <p>If multiple custom forms are attached to the object, you can do this for every form.</p> <p>Depending on the type of field you are editing consider the following: </p> 
-  <ul> 
-   <li>You can select only one option for radio-button fields.</li> 
-   <li>You can select one or multiple options in a checkbox field, depending on how the form creator configured the field.</li> 
-   <li>You can select one or multiple options in a multi-select drop-down field, depending on how the form creator configured the field.</li> 
-   <li>You can format text fields (bold, italicize, or underline) only if the user who created the form set them up as a Text Field with Formatting field type. Single Line Text Fields and Paragraph Text Fields cannot be formatted.</li> 
-   <li>You can update the time of the day in a Date field type only if the user who created the form has included it when creating the field.</li> 
-  </ul> <p>For information about all of the field types, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
- <li value="7"> <p>Click <span class="bold">Save </span>Changes.</p> <note type="important"> 
-   <p>You must complete all required fields on the form before you can save the form.&nbsp;The name of a required field is followed by an asterisk. </p>  
-  </note> When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see Recalculate all calculated custom fields for an object in this article. <p>You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see <a href="#recalcul3" class="MCXref xref">Recalculate all calculated custom fields for multiple objects in a list</a> in this article.</p> </li> 
-</ol>
+1. Go to an object for which you want to edit information on the custom form.
+1. Click <Object type> Details in the left panel.
+
+   For example, when editing information on a project custom form, click Project Details. 
+
+1. Near the upper-right corner of the page, click the Edit icon.
+1. Start entering information in any field that you have access to edit.
+
+   Or
+
+   If no information has been entered yet on the form, click `Add+` for any field you have access to edit and start entering information.
+
+   If multiple custom forms are attached to the object, you can do this for every form.
+
+   Depending on the type of field you are editing consider the following:
+
+  * You can select only one option for radio-button fields.
+  * You can select one or multiple options in a checkbox field, depending on how the form creator configured the field.
+  * You can select one or multiple options in a multi-select drop-down field, depending on how the form creator configured the field.
+  * You can format text fields (bold, italicize, or underline) only if the user who created the form set them up as a Text Field with Formatting field type. Single Line Text Fields and Paragraph Text Fields cannot be formatted.
+  * You can update the time of the day in a Date field type only if the user who created the form has included it when creating the field.
+
+   For information about all of the field types, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click `Save`Changes.
+
+   >[!IMPORTANT]
+   >
+   >You must complete all required fields on the form before you can save the form.&nbsp;The name of a required field is followed by an asterisk.
+
+   When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see Recalculate all calculated custom fields for an object in this article. You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list](#recalcul3) in this article.
 
 Recalculate all calculated custom fields for an object Go to the main page of the object whose custom fields you want to recalculate. Click the More menu to the right of the object's name, then click Recalculate Expressions. This recalculates all custom fields on the object's form.
 

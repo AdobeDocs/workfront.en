@@ -43,9 +43,9 @@ You must have the following access to perform the steps in this article:
 
 ## Configure event subscriptions
 
-<ol> 
- <li value="1"> <p>Edit <span class="uitext">Workfront Tools</span> Cloud Services configuration you created in step 5 and click on <span class="uitext">Event Subscriptions</span> tab.</p> </li> 
- <li value="2"> <p>Select the <span class="uitext">Workfront Custom Integration </span>you created in section 6.</p> </li> 
- <li value="3"> <p>Click on <span class="uitext">Enable Workfront Event Subscriptions</span>.</p> <p> <img src="assets/enable-event-subs-350x252.png" style="width: 350;height: 252;"> </p> </li> 
-</ol>
+1. Edit `Workfront Tools` Cloud Services configuration you created in step 5 and click on `Event Subscriptions` tab.
+1. Select the `Workfront Custom Integration`you created in section 6.
+1. Click on `Enable Workfront Event Subscriptions`.
+
+   ![](assets/enable-event-subs-350x252.png)
 

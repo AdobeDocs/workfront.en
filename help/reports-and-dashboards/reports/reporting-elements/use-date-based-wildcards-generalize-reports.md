@@ -66,21 +66,65 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 
 To insert a date-based wildcard in a report:
 
-<ol> 
- <li value="1">Go to a report for which you want to insert a date-based wildcard.</li> 
- <li value="2">Click <span class="bold">Report Actions</span>, then <span class="bold">Edit</span>.</li> 
- <li value="3">Click the <span class="bold">Filters</span> tab.</li> 
- <li value="4">Click <span class="bold">Add a Filter Rule</span>.</li> 
- <li value="5"> <p>Start typing the name of the field that you want to filter by.<br>You must type fields that reference a date.</p> </li> 
- <li value="6"> <p>Select <span class="bold">Equal</span> in the drop-down menu for the filter variable.</p> <note type="tip">
-   You must always select the 
-   <span class="bold">Equal</span> filter variable when working with wildcards in Adobe Workfront.
-  </note> </li> 
- <li value="7"> <p>In the <span class="bold">Start typing name ...</span> box, type: <code>$$TODAY</code> if you want to display information about something that occurs the same day that the report is run.</p> <p>Or</p> <p>Type <code>$$NOW</code> if you want to display information about something that occurs at the same date and time that the report is run.</p> <p>This date is always different, as it changes with the date the report is actually viewed by a user. so the information in the report is different from day to day.</p> </li> 
- <li value="8"> <p>(Optional) If you want to display information that occurs within a timeframe after the date when the report is run, type<code> $$TODAY+1w</code> to display information in the following week, or <code>$$TODAY+2m</code> to display information in the next two months. You can also indicate timeframes for quarters, hours, days, or years.</p> </li> 
- <li value="9"> <p>(Optional) If you want to display information about something that occurred within a timeframe before the date when the report is run, type $$TODAY-1w to display information from the previous week, or <code>$$TODAY-2m</code> to display information from the previous two months. You can also indicate timeframes for quarters, hours, days, or years.</p> <p>For a complete list of attributes, qualifiers, and operators that you can use in date-based wildcards, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> <p> <img src="assets/video-date-based-wildcard-in-task-filter-350x81.png" style="width: 350;height: 81;"> </p> </li> 
- <li value="10">Click <span class="bold">Save + Close</span>.</li> 
-</ol>
+1. Go to a report for which you want to insert a date-based wildcard.
+1. Click `Report Actions`, then `Edit`.
+
+1. Click the `Filters` tab.
+1. Click `Add a Filter Rule`.
+1. Start typing the name of the field that you want to filter by.  
+   You must type fields that reference a date.
+1. Select `Equal` in the drop-down menu for the filter variable.
+
+   >[!TIP]
+   >
+   >You must always select the `Equal` filter variable when working with wildcards in Adobe Workfront.
+
+1. In the `Start typing name ...` box, type: 
+
+   ```
+   $$TODAY
+   ```
+
+   if you want to display information about something that occurs the same day that the report is run.
+
+   Or
+
+   Type 
+
+   ```
+   $$NOW
+   ```
+
+   if you want to display information about something that occurs at the same date and time that the report is run.
+
+   This date is always different, as it changes with the date the report is actually viewed by a user. so the information in the report is different from day to day.
+
+1. (Optional) If you want to display information that occurs within a timeframe after the date when the report is run, type
+
+   ```
+   $$TODAY+1w
+   ```
+
+   to display information in the following week, or 
+
+   ```
+   $$TODAY+2m
+   ```
+
+   to display information in the next two months. You can also indicate timeframes for quarters, hours, days, or years.
+1. (Optional) If you want to display information about something that occurred within a timeframe before the date when the report is run, type $$TODAY-1w to display information from the previous week, or 
+
+   ```
+   $$TODAY-2m
+   ```
+
+   to display information from the previous two months. You can also indicate timeframes for quarters, hours, days, or years.
+
+   For a complete list of attributes, qualifiers, and operators that you can use in date-based wildcards, see the article [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+
+   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
+
+1. Click `Save + Close`.
 
 ## Additional information
 

@@ -37,21 +37,33 @@ You can view information in the Resource Planner using three separate views. You
 
 ## Resource Planner considerations
 
-<ul> 
- <li> <p>You can prioritize the projects you are working on, and budget your resource allocation according to their priority, to ensure that you have resources allocated to the most important projects first. </p> <p>For information about prioritizing projects in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md" class="MCXref xref">Prioritize projects in the Resource Planner</a>. </p> </li> 
- <li> <p>You can display hours, FTE, and cost information from the tasks and issues of projects. </p> <note type="note">
-   Tasks and issues do not display in the Resource Planner. However, the hours, FTE, and cost information from the resource allocations on the tasks displays in the Resource Planner as a total number for the project. 
-  </note> </li> 
- <li> <p>The hour, FTE, and cost information from parent tasks is excluded from the projects that display in the Resource Planner. We recommend assigning resources only to children tasks if you want to manage those resources' time or cost in the Resource Planner.</p> <p>For information about parent tasks, see the following articles: </p> 
-  <ul> 
-   <li> <p><a href="../../manage-work/tasks/task-information/tasks-overview.md" class="MCXref xref">Tasks overview</a> </p> </li> 
-   <li> <p><a href="../../manage-work/tasks/create-tasks/create-subtasks.md" class="MCXref xref">Create subtasks</a> </p> </li> 
-  </ul> <note type="tip">
-   Parent tasks display a total of the hours and costs of the children tasks. Because of this, counting hours, FTE, and cost from the children tasks and the parent tasks would count these amounts twice. This is why the parent task information is excluded from the Resource Planner. 
-  </note> </li> 
- <li> <p>You cannot manage the allocation of teams on the projects on which they have tasks or issues in the Resource Planner. </p> </li> 
- <li> <p>You can budget resources for multiple projects at a time using the Resource Planner, or for a single project using the Resource Budgeting area of the Business Case. The information you budget for one project also displays in the Resource Planner. </p> <p>For information about how you can budget resources for a single project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> <p>For information about how you can budget resources in the Resource Planner for multiple projects at a time, see the section "Budget resources in the Resource Planner" in the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md"><a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a></a>.</p> </li> 
-</ul>
+* You can prioritize the projects you are working on, and budget your resource allocation according to their priority, to ensure that you have resources allocated to the most important projects first.
+
+  For information about prioritizing projects in the Resource Planner, see [Prioritize projects in the Resource Planner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md). 
+
+* You can display hours, FTE, and cost information from the tasks and issues of projects.
+
+  >[!NOTE]
+  >
+  >Tasks and issues do not display in the Resource Planner. However, the hours, FTE, and cost information from the resource allocations on the tasks displays in the Resource Planner as a total number for the project.
+
+* The hour, FTE, and cost information from parent tasks is excluded from the projects that display in the Resource Planner. We recommend assigning resources only to children tasks if you want to manage those resources' time or cost in the Resource Planner.
+
+  For information about parent tasks, see the following articles:
+
+  * [Tasks overview](../../manage-work/tasks/task-information/tasks-overview.md) 
+  * [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md)
+
+  >[!TIP]
+  >
+  >Parent tasks display a total of the hours and costs of the children tasks. Because of this, counting hours, FTE, and cost from the children tasks and the parent tasks would count these amounts twice. This is why the parent task information is excluded from the Resource Planner.
+
+* You cannot manage the allocation of teams on the projects on which they have tasks or issues in the Resource Planner. 
+* You can budget resources for multiple projects at a time using the Resource Planner, or for a single project using the Resource Budgeting area of the Business Case. The information you budget for one project also displays in the Resource Planner.
+
+  For information about how you can budget resources for a single project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+
+  For information about how you can budget resources in the Resource Planner for multiple projects at a time, see the section "Budget resources in the Resource Planner" in the article [ [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 ## Prerequisites for working in the Resource Planner
 
@@ -84,22 +96,37 @@ Ensure the following user setup exists before starting using the Resource Planne
 
   For information about the access needed to budget resources, see the article [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-<ul> 
- <li> <p>Users who are assigned to tasks are added to the resource pools associated with the project.</p> <p>For information about adding users to resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associate resource pools with users in Adobe Workfront</a>.</p> <p> <note type="note"> 
-    <p>When users are not added to resource pools, the following scenarios may exist: </p> 
-    <ul> 
-     <li style="font-style: normal;">The users do not appear in the Resource Planner although they might be assigned to tasks on the projects. </li> 
-     <li style="font-style: normal;">If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks. </li> 
-     <li style="font-style: normal;">If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted. </li> 
-    </ul> 
-   </note> </p> </li> 
- <li> <p>Users who are assigned to work and resource pools must have Schedules and Job Roles associated with their profile.</p> <p>For information about associating Schedules and Job Roles with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> <note type="note">
-    Users who are not associated with a Schedule but are in the resource pool of the project cannot be budgeted in the Resource Planner.
-  </note> </li> 
- <li> <p>For accurate Available Hours information, ensure that the schedules associated with your users have the schedule exceptions and time off updated.</p> <note type="note">
-    If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of the Resource Planner. 
-  </note> <p>For information about creating schedules, see the article <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.<br></p> </li> 
-</ul>
+* Users who are assigned to tasks are added to the resource pools associated with the project.
+
+  For information about adding users to resource pools, see [Associate resource pools with users in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
+
+  >[!NOTE]
+  >
+  >When users are not added to resource pools, the following scenarios may exist: 
+  >
+  >  
+  >  
+  >  * The users do not appear in the Resource Planner although they might be assigned to tasks on the projects. 
+  >  * If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks. 
+  >  * If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted. 
+  >  
+  >
+
+* Users who are assigned to work and resource pools must have Schedules and Job Roles associated with their profile.
+
+  For information about associating Schedules and Job Roles with users, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+  >[!NOTE]
+  >
+  >Users who are not associated with a Schedule but are in the resource pool of the project cannot be budgeted in the Resource Planner.
+
+* For accurate Available Hours information, ensure that the schedules associated with your users have the schedule exceptions and time off updated.
+
+  >[!NOTE]
+  >
+  >If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of the Resource Planner.
+
+  For information about creating schedules, see the article [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 * If you want to budget your resources by Cost, you must associate Job Roles with Cost/Hr. rates. The cost associated with Job Roles assigned to users in your resource pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.  
   For information about associating job roles with rates, see the article [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).  
@@ -110,11 +137,12 @@ Ensure the following user setup exists before starting using the Resource Planne
 
 Ensure the following project setup exists before starting using the Resource Planner:
 
-<ul> 
- <li> Your projects are associated with resource pools.<br>For more information about adding resource pools to projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref">Associate resource pools with projects and templates in Adobe Workfront</a>.<br><note type="important">
-    Projects without resource pools do not display Planned Hour or assignments information in the Resource Planner. 
-  </note></li> 
-</ul>
+* Your projects are associated with resource pools.  
+  For more information about adding resource pools to projects, see [Associate resource pools with projects and templates in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md).
+
+  >[!IMPORTANT]
+  >
+  >Projects without resource pools do not display Planned Hour or assignments information in the Resource Planner.
 
 ### Tasks and issues prerequisites
 
@@ -122,22 +150,22 @@ Although you cannot display tasks and issues in the Resource Planner, their info
 
 Ensure the following task and issue setup exists before starting budgeting resources in the Resource Planner:
 
-<ul> 
- <li> The tasks or issues on the projects for which you are budgeting resources are assigned to one of these entities:<br>
-  <ul>
-   <ul>
-    <li>Users in the resource pools of the project who are also associated with Job Roles</li>
-    <li><p>Job Roles</p></li>
-   </ul>
-  </ul><note type="note">
-   Teams assigned to tasks or issues do not display in the Resource Planner
-   <em>. </em>The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a resource pool associated with the project.
-  </note></li> 
- <li> <p>You should not assign parent tasks to users or roles.</p> <p>To display hour information in the Resource Planner for users or roles associated with parent tasks you must also assign them to the children tasks. The Resource Planner does not display information from parent tasks. </p> </li> 
- <li>Tasks and issues have a value for Planned Hours which is greater than zero. </li> 
- <li>Tasks and issues have a value for their Duration which is greater than zero. </li> 
- <li>The Planned Dates of the issues are within the timeline of the project. </li> 
-</ul>
+* The tasks or issues on the projects for which you are budgeting resources are assigned to one of these entities:
+
+  * Users in the resource pools of the project who are also associated with Job Roles
+  * Job Roles
+
+  >[!NOTE]
+  >
+  >Teams assigned to tasks or issues do not display in the Resource Planner*. *The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a resource pool associated with the project.
+
+* You should not assign parent tasks to users or roles.
+
+  To display hour information in the Resource Planner for users or roles associated with parent tasks you must also assign them to the children tasks. The Resource Planner does not display information from parent tasks. 
+
+* Tasks and issues have a value for Planned Hours which is greater than zero. 
+* Tasks and issues have a value for their Duration which is greater than zero. 
+* The Planned Dates of the issues are within the timeline of the project.
 
 ### System-level prerequisites
 

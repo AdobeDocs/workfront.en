@@ -27,12 +27,31 @@ Although the data expressions used are the same, the syntax for building a calcu
 
 For example:
 
-<ul> 
- <li> <p>To add a calculated data expression to a custom field on a task form for the Project Name, you use the following text: </p> <p><code>Project.Name</code> </p> </li> 
- <li> <p>To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:</p> <p><em><code>valuefield=project:name</code></em> </p> <p>Or<br></p> <p><code>valueexpression={project}.{name}</code> </p> <note type="tip">
-   The same syntax applies to all text-mode reporting elements where calculated expressions are used: views, filters, groupings, prompts. 
-  </note> </li> 
-</ul>
+* To add a calculated data expression to a custom field on a task form for the Project Name, you use the following text:
+
+  ```
+  Project.Name
+  ```
+
+* To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:
+
+  *
+
+  ```
+  valuefield=project:name
+  ```
+
+*
+
+  Or
+
+  ```
+  valueexpression={project}.{name}
+  ```
+
+  >[!TIP]
+  >
+  >The same syntax applies to all text-mode reporting elements where calculated expressions are used: views, filters, groupings, prompts.
 
 The differences between the two syntaxes are: 
 
@@ -74,14 +93,17 @@ For more information about the syntax you must use in a calculated custom column
 
 ## When to use Calculated Columns in a View
 
-<ul> 
- <li> <p>When you want real-time data to be available on a report.</p> <p>Calculated views are always fresh because the calculation is made when the report is run or the view is applied.</p> </li> 
- <li>When you have no plans to group by aggregated results nor use this information in a chart.</li> 
- <li>When you do not plan to aggregate the data beyond the aggregation that is calculated in the column (data can be aggregated only once).</li> 
- <li> <p>When you want the calculation to include a reference to the current date using the $$TODAY or $$NOW wildcards.</p> <note type="tip">
-   Do not use this reference in calculated custom fields because they only recalculate when the attached object is edited. These types of calculations become outdated.
-  </note> </li> 
-</ul>
+* When you want real-time data to be available on a report.
+
+  Calculated views are always fresh because the calculation is made when the report is run or the view is applied.
+
+* When you have no plans to group by aggregated results nor use this information in a chart.
+* When you do not plan to aggregate the data beyond the aggregation that is calculated in the column (data can be aggregated only once).
+* When you want the calculation to include a reference to the current date using the $$TODAY or $$NOW wildcards.
+
+  >[!TIP]
+  >
+  >Do not use this reference in calculated custom fields because they only recalculate when the attached object is edited. These types of calculations become outdated.
 
 ## Examples of calculated custom fields and columns
 

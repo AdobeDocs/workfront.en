@@ -29,10 +29,10 @@ You must have the following:
 
 ## Check document storage
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
- <li value="2"> <p>In the left panel, click <span class="bold">System</span> > <span class="bold">Customer Info</span>.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Basic Info</span> section, find <span class="bold">Storage Quota</span>. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes.</p> <note type="note">
-   This limit does not apply to documents you link to&nbsp;Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, any other Document Asset Management provider).
-  </note> </li> 
-</ol>
+1. In the left panel, click `System` > `Customer Info`.
+1. In the `Basic Info` section, find `Storage Quota`. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes.
+
+   >[!NOTE]
+   >
+   >This limit does not apply to documents you link to&nbsp;Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, any other Document Asset Management provider).
 

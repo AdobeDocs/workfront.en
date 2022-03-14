@@ -33,21 +33,29 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new board
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Create New</span>.</p> </li> 
- <li value="3"> <p>Type a name for the board in the <span class="bold">Board</span> field and press Enter.</p> </li> 
- <li value="4"> <p>Configure the board as needed.</p> <p>For information, see <a href="../../agile/get-started-with-boards/add-members-to-board.md" class="MCXref xref">Add or remove members from a board</a>, <a href="../../agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Manage board columns</a>, and <a href="../../agile/get-started-with-boards/add-card-to-board.md" class="MCXref xref">Add a card to a board</a>.</p> </li> 
- <li value="5"> <p>Click <span class="bold">All Boards</span> to return to the boards dashboard.</p> <p>You can also locate the drop-down menu labeled with <span class="bold">Select an option</span>, and click it to switch to another board.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Click `Create New`.
+1. Type a name for the board in the `Board` field and press Enter.
+1. Configure the board as needed.
+
+   For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), and [Add a card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+
+1. Click `All Boards` to return to the boards dashboard.
+
+   You can also locate the drop-down menu labeled with `Select an option`, and click it to switch to another board.
 
 ## Edit an existing board
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <p>On the dashboard, select the board to open.</p> </li> 
- <li value="3"> <p>Edit the board as needed. You can click on the board name to rename it.</p> <p>For information, see <a href="../../agile/get-started-with-boards/add-members-to-board.md" class="MCXref xref">Add or remove members from a board</a>, <a href="../../agile/get-started-with-boards/manage-board-columns.md" class="MCXref xref">Manage board columns</a>, and <a href="../../agile/get-started-with-boards/add-card-to-board.md" class="MCXref xref">Add a card to a board</a>.</p> </li> 
- <li value="4"> <p>To delete the board, click the <span class="bold">More</span> menu <img src="assets/more-icon-spectrum.png" alt="More menu icon"> next to the board name and select <span class="bold">Delete</span>. Then, click <span class="bold">Delete board</span> on the confirmation message.</p> </li> 
- <li value="5"> <p>Click <span class="bold">All Boards</span> to return to the boards dashboard.</p> <p>You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.</p> <p> <img src="assets/boards-button-list-of-boards-350x188.png" alt="List of boards" style="width: 350;height: 188;"> </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. On the dashboard, select the board to open.
+1. Edit the board as needed. You can click on the board name to rename it.
+
+   For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), and [Add a card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
+
+1. To delete the board, click the `More` menu ![More menu icon](assets/more-icon-spectrum.png) next to the board name and select `Delete`. Then, click `Delete board` on the confirmation message.
+1. Click `All Boards` to return to the boards dashboard.
+
+   You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.
+
+   ![List of boards](assets/boards-button-list-of-boards-350x188.png)
 

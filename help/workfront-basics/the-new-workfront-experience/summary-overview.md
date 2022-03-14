@@ -81,20 +81,35 @@ You must have the following access to perform the steps in this article:
 
 ## View the Summary panel in a list of tasks or issues
 
-<ol> 
- <li value="1"> <p>Go to a task or issue and select an item in the list. </p> </li> 
- <li value="2"> <p>Click the <span class="bold">Summary </span>icon <img src="assets/qs-summary-in-new-toolbar-small.png"></p> <p><span>or</span> </p> <p><span>Click the <span class="bold">Open Summary</span> icon<img src="assets/open-summary-with-text-nwe.png"> in the Submitted section of the Requests area.</span> </p> <p>After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.</p> <note type="tip">
-   You can only select one task or one issue at a time to view their details in the Summary panel. 
-  </note> <p> <img src="assets/summary-overview--open-task-from-summary-icon-350x112.png" style="width: 350;height: 112;"> </p> </li> 
- <li value="3"> 
-  <div> 
-   <p>(Optional)&nbsp;To close the Summary panel, do one of the following:</p> 
-   <ul> 
-    <li> <p>In a task or issue list, click the <span class="bold">Open Summary</span> icon <img src="assets/summary-panel-icon.png"> </p> <p>Or</p> <p>Click the <span class="bold">X</span> icon in the upper-right corner of the Summary panel. </p> </li> 
-    <li> <p>In the Submitted section of the Requests area, click the <span class="bold">Close Summary</span> icon <img src="assets/close-summary-with-text-nwe.png"> </p> <p>Or</p> <p>Click the <span class="bold">X</span> icon in the upper-right corner of the Summary panel. </p> </li> 
-   </ul> 
-  </div> </li> 
-</ol>
+1. Go to a task or issue and select an item in the list. 
+1. Click the `Summary`icon ![](assets/qs-summary-in-new-toolbar-small.png)
+
+   `or`
+
+   `Click the `Open Summary` icon ![](assets/open-summary-with-text-nwe.png) in the Submitted section of the Requests area.`
+
+   After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.
+
+   >[!TIP]
+   >
+   >You can only select one task or one issue at a time to view their details in the Summary panel.
+
+   ![](assets/summary-overview--open-task-from-summary-icon-350x112.png)
+
+1. 
+   (Optional)&nbsp;To close the Summary panel, do one of the following:
+
+  * In a task or issue list, click the `Open Summary` icon ![](assets/summary-panel-icon.png)
+
+    Or
+
+    Click the `X` icon in the upper-right corner of the Summary panel. 
+  
+  * In the Submitted section of the Requests area, click the `Close Summary` icon ![](assets/close-summary-with-text-nwe.png)
+
+    Or
+
+    Click the `X` icon in the upper-right corner of the Summary panel.
 
 ## Percent Complete
 

@@ -71,12 +71,19 @@ As a Workfront administrator, you can access your Custom Refresh Sandbox from yo
 
 To access your Custom Refresh Sandbox:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">System</span> ><span class="bold">Preferences</span>.<br></li> 
- <li value="3"> <p>In the <span class="bold">Test Environment</span> section, click <span class="bold">Sandbox 1</span> or <span class="bold">Sandbox 2</span>.</p> <p>Your support package specifies whether you have access to one or two Custom Refresh Sandboxes.</p> </li> 
- <li value="4"> <p>Log in using your Custom Refresh Sandbox credentials.</p> <p>Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since you last refreshed your Custom Refresh Sandbox. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.<br></p> <p>The Custom Refresh Sandbox&nbsp;shows the version as well as the last refresh date in the banner at the top of the screen. All information from production is available and ready to work with after a&nbsp;refresh completes.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Preferences`.  
+
+1. In the `Test Environment` section, click `Sandbox 1` or `Sandbox 2`.
+
+   Your support package specifies whether you have access to one or two Custom Refresh Sandboxes.
+
+1. Log in using your Custom Refresh Sandbox credentials.
+
+   Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since you last refreshed your Custom Refresh Sandbox. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
+
+   The Custom Refresh Sandbox&nbsp;shows the version as well as the last refresh date in the banner at the top of the screen. All information from production is available and ready to work with after a&nbsp;refresh completes.
 
 ## Access the Custom Refresh Sandbox using a URL
 

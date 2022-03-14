@@ -45,10 +45,15 @@ You must have the following access to perform the steps in this article:
 
 You can display folders in thumbnail, standard, or list view. To change the view, use the view options in the upper-right corner.
 
-<ol> 
- <li value="1"> <p> Click Documents in the Main Menu. </p> <p>Or</p> <p> With a Workfront object open, click Documents in the left panel. </p> </li> 
- <li value="2"> <p>Click the view options above the right panel to change how the documents are displayed.</p> <p> <img src="assets/screenshot-2016-07-07-12.46.54.png" alt=""> </p> </li> 
-</ol>
+1. Click Documents in the Main Menu.
+
+   Or
+
+   With a Workfront object open, click Documents in the left panel. 
+
+1. Click the view options above the right panel to change how the documents are displayed.
+
+   ![](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Create folders and subfolders
 

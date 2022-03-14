@@ -58,14 +58,25 @@ You must have the following access to perform the steps in this article:
 
 ## Tag others on updates
 
-<ol> 
- <li value="1">Begin updating a work item, as described in <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</li> 
- <li value="2"> <p>In the <span class="bold">Notify</span> field, begin typing the name of the user or team you want to include,&nbsp;then click the name when it appears in the drop-down list.</p> <p>Or</p> <p>Type the @ symbol in the <span class="bold">Start a new update</span> area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list.</p>  </li> 
- <li value="3"> <p>(Optional) To add multiple users and teams, repeat step 2.</p> <note type="note">
-   All users and team members listed in the Notify field receive an in-app notification for the update and might receive an&nbsp;email, depending on the configuration of their email notification settings. Users who tag themselves in a comment or reply receive a notification for that comment or reply and can see their name in the Notify field for the remainder of the thread, but they do not receive another notification unless they tag themselves again. For more information, see 
-   <a href="../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md" class="MCXref xref">Activate or deactivate your own event notifications</a> and 
-   <a href="../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configure event notifications for everyone in the system</a>.&nbsp;
-  </note> </li> 
- <li value="4">Click <span class="bold">Update</span>.<br><p>Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.</p><p>You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.</p><p><img src="assets/tagging-transparency-350x192.png" style="width: 350;height: 192;"></p><p>For information about the additional functionality that is available when updating a work item, see&nbsp;<a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</p></li> 
-</ol>
+1. Begin updating a work item, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. In the `Notify` field, begin typing the name of the user or team you want to include,&nbsp;then click the name when it appears in the drop-down list.
+
+   Or
+
+   Type the @ symbol in the `Start a new update` area, begin typing the name of the user or team you want to include on the update, then click the name when it appears in the drop-down list.
+
+1. (Optional) To add multiple users and teams, repeat step 2.
+
+   >[!NOTE]
+   >
+   >All users and team members listed in the Notify field receive an in-app notification for the update and might receive an&nbsp;email, depending on the configuration of their email notification settings. Users who tag themselves in a comment or reply receive a notification for that comment or reply and can see their name in the Notify field for the remainder of the thread, but they do not receive another notification unless they tag themselves again. For more information, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) and [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).&nbsp;
+
+1. Click `Update`.  
+   Users included in the update are automatically granted View permission to the object and can view and respond to updates made to the object.
+
+   You can see who has been tagged in each reply at the top of the update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object.
+
+   ![](assets/tagging-transparency-350x192.png)
+
+   For information about the additional functionality that is available when updating a work item, see&nbsp; [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

@@ -45,41 +45,41 @@ To use MariaDB modules, you must have a MariaDB account.
 
 You can create a connection to your MariaDB account directly from inside a MariaDB module.
 
-<ol> 
- <li value="1"> <p>In any MariaDB module, click <span class="bold">Add </span>next to the Connection field.</p> </li> 
- <li value="2"> <p>Configure the following fields:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Connection name</p> </td> 
-     <td> <p>Enter a name for the new connection.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Host</td> 
-     <td> <p>Enter the IP address or host name of your database instance. This host must be accessible from outside your network.</p> <p>Example: <code>mariadb.hwoh2j5h.us-east-1.rds.amazon.com</code></p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Port</td> 
-     <td>The default port is 3306. If you are using a non-standard port, set this number to your port. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Database Name</td> 
-     <td>Enter the name of the database you want to interact with.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Username</td> 
-     <td>Enter your username.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Password</td> 
-     <td>Enter your password.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Click <span class="bold">Continue </span>to create the connection and go back to the module.</p> </li> 
-</ol>
+1. In any MariaDB module, click `Add`next to the Connection field.
+1. Configure the following fields:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Connection name</p> </td> 
+      <td> <p>Enter a name for the new connection.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Host</td> 
+      <td> <p>Enter the IP address or host name of your database instance. This host must be accessible from outside your network.</p> <p>Example: <code>mariadb.hwoh2j5h.us-east-1.rds.amazon.com</code></p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Port</td> 
+      <td>The default port is 3306. If you are using a non-standard port, set this number to your port. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Database Name</td> 
+      <td>Enter the name of the database you want to interact with.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Username</td> 
+      <td>Enter your username.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Password</td> 
+      <td>Enter your password.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Continue`to create the connection and go back to the module.
 
 ## MariaDB Modules and their fields
 

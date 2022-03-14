@@ -48,36 +48,43 @@ You must have the following to perform the steps in this article:
 
 ## View and manage a group's recently deleted items
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Click the name of the group.</li> 
- <li value="4">In the left panel, click <span class="bold">Recently Deleted</span>.</li> 
- <li value="5"> <p>Open one of the following tabs where you want to view and manage the group's recently deleted items:</p> 
-  <ul> 
-   <li> <p>Projects</p> </li> 
-   <li> <p>Tasks</p> </li> 
-   <li> <p>Issues</p> </li> 
-   <li> <p>Documents</p> </li> 
-   <li> <p>Templates</p> </li> 
-  </ul> <p>Each tab lists items of the corresponding object type that belong to the current group or its subgroups and that were deleted within the past 30 days.</p> <note type="note"> 
-   <p>If someone deleted a project, all of its individual tasks, issues, and documents were deleted with it. These do not display individually on the Tasks, Issues, Documents, or Templates tabs. However, restoring the project also restores all of these child objects to the project.</p> 
-   <p>If someone deleted a task, issue, document, or template individually, you can view and manage it on the appropriate tab.</p> 
-  </note> </li> 
- <li value="6"> <p>Do any of the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Restore objects</p> </td> 
-     <td> <p>Select up to 10 objects, then click <span class="bold">Restore</span>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Export the entire list of objects on the tab</p> </td> 
-     <td> <p>Click <span class="bold">Export</span>.</p> </td> 
-    </tr> Change the display of information in the list In the upper-right corner above the list, use Filter to define what is displayed based on criteria you provide. Use View to define which fields are displayed as columns. Use Grouping to group the items into categories. 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group.
+1. In the left panel, click `Recently Deleted`.
+1. Open one of the following tabs where you want to view and manage the group's recently deleted items:
+
+  * Projects
+  * Tasks
+  * Issues
+  * Documents
+  * Templates
+
+   Each tab lists items of the corresponding object type that belong to the current group or its subgroups and that were deleted within the past 30 days.
+
+   >[!NOTE]
+   >
+   >If someone deleted a project, all of its individual tasks, issues, and documents were deleted with it. These do not display individually on the Tasks, Issues, Documents, or Templates tabs. However, restoring the project also restores all of these child objects to the project.
+   >
+   >
+   >If someone deleted a task, issue, document, or template individually, you can view and manage it on the appropriate tab.
+
+1. Do any of the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Restore objects</p> </td> 
+      <td> <p>Select up to 10 objects, then click <span class="bold">Restore</span>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Export the entire list of objects on the tab</p> </td> 
+      <td> <p>Click <span class="bold">Export</span>.</p> </td> 
+     </tr> Change the display of information in the list In the upper-right corner above the list, use Filter to define what is displayed based on criteria you provide. Use View to define which fields are displayed as columns. Use Grouping to group the items into categories. 
+    </tbody> 
+   </table>
 

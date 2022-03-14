@@ -37,12 +37,15 @@ You must have the following access to perform the steps in this article:
 
 ## Resize the burndown chart
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. (Optional) Click the Switch team icon , then either select a new Scrum team from the drop-down menu or search for a team in the search bar. 
- <li value="3">Go to the iteration <!--
+1. Go to the iteration 
+
+   <!--
    or project
-  --> that contains the burndown chart you want to resize.</li> 
- <li value="4">Hover over the bottom line of the burndown chart, then drag the chart to the desired size.<br><img src="assets/burndown-resize.png" alt=""></li> 
-</ol>
+   -->
+
+   that contains the burndown chart you want to resize.
+1. Hover over the bottom line of the burndown chart, then drag the chart to the desired size.  
+   ![](assets/burndown-resize.png)
 
 ## Collapse the burndown chart
 

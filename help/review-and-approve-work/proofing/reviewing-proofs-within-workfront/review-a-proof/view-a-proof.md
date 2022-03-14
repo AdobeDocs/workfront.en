@@ -44,28 +44,29 @@ You can view a static proof that contains multiple pages in a single view, in a 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">In the upper-left area of the proofing viewer, locate the viewing options. <br><img src="assets/changing-the-view-350x213.png" alt="changing_the_view.png" style="width: 350;height: 213;"></li> 
- <li value="4"> <p>Click any of the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Single view</td> 
-     <td>Displays only a single page at a time. Click the thumbnail of the page you want to view, or press the Left and Right arrow keys to navigate between pages.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Continuous view</td> 
-     <td>Displays all pages in a single, stacked view.&nbsp;Click the thumbnail of the page you want to view, or press the Left and Right arrow keys to scroll up or down all pages in a continuous view.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_continuous.png"></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Magazine view</td> 
-     <td>Displays all pages in a single, magazine view (side-by-side and stacked).&nbsp;Click the thumbnail of the page you want to view, or press the Left and Right arrow keys to scroll among all pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. In the upper-left area of the proofing viewer, locate the viewing options.   
+   ![changing_the_view.png](assets/changing-the-view-350x213.png)
+
+1. Click any of the following options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Single view</td> 
+      <td>Displays only a single page at a time. Click the thumbnail of the page you want to view, or press the Left and Right arrow keys to navigate between pages.<br><img src="assets/proof-static-view-single.png" alt="proof_static_view_single.png"></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Continuous view</td> 
+      <td>Displays all pages in a single, stacked view.&nbsp;Click the thumbnail of the page you want to view, or press the Left and Right arrow keys to scroll up or down all pages in a continuous view.<br><img src="assets/proof-static-view-continuous.png" alt="proof_static_view_continuous.png"></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Magazine view</td> 
+      <td>Displays all pages in a single, magazine view (side-by-side and stacked).&nbsp;Click the thumbnail of the page you want to view, or press the Left and Right arrow keys to scroll among all pages.<br><img src="assets/proof-static-view-magazine.png" alt="proof_static_view_magazine.png"></td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Use thumbnails
 
@@ -81,12 +82,14 @@ The thumbnails panel displays by default. You can hide or adjust the size of the
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">Click the <span class="bold">Thumbnail</span> icon in the upper-left corner of the proofing viewer.<br><img src="assets/hide-thumbnails-panel-350x213.png" alt="hide_thumbnails_panel.png" style="width: 350;height: 213;"></li> 
- <li value="4"> <p>(Optional) Click the Thumbnail icon again to display the thumbnails panel.</p> <note type="tip">
-   You can mouse over the right edge of the thumbnails panel to resize the panel. 
-  </note> </li> 
-</ol>
+1. Click the `Thumbnail` icon in the upper-left corner of the proofing viewer.  
+   ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
+
+1. (Optional) Click the Thumbnail icon again to display the thumbnails panel.
+
+   >[!TIP]
+   >
+   >You can mouse over the right edge of the thumbnails panel to resize the panel.
 
 ### Zoom and pan in the thumbnail view
 
@@ -97,11 +100,13 @@ To zoom and pan in the thumbnail view:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3"> <p>Locate the current zoom area in the thumbnails panel.<br>The zoom area displays as a blue frame around the edges of the thumbnail.</p> <p> <img src="assets/zoom-thumbnail---frame-350x215.png" alt="zoom_thumbnail_-_frame.png" style="width: 350;height: 215;"> </p> </li> 
- <li value="4">To adjust the size of the zoom area, drag the lower-right corner of the zoom area until it is the desired size.</li> 
- <li value="5">To move the zoom area to another part of the proof, drag the zoom area until it covers the part of the proof you want to view.</li> 
-</ol>
+1. Locate the current zoom area in the thumbnails panel.  
+   The zoom area displays as a blue frame around the edges of the thumbnail.
+
+   ![zoom_thumbnail_-_frame.png](assets/zoom-thumbnail---frame-350x215.png)
+
+1. To adjust the size of the zoom area, drag the lower-right corner of the zoom area until it is the desired size.
+1. To move the zoom area to another part of the proof, drag the zoom area until it covers the part of the proof you want to view.
 
 ## Rotate a proof
 
@@ -110,9 +115,11 @@ You can rotate the proof within the proofing viewer. When you rotate a proof tha
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3"> <p>Click the <span class="bold">Rotate</span> icon at the bottom of the proofing viewer.</p> <p> <img src="assets/proof-viewer-static-rotate-350x36.png" alt="proof_viewer_static_rotate.png" style="width: 350;height: 36;"> </p> <p>The proof is rotated 90 degrees each time you click the <span class="bold">Rotate</span> icon.<br></p> </li> 
-</ol>
+1. Click the `Rotate` icon at the bottom of the proofing viewer.
+
+   ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
+
+   The proof is rotated 90 degrees each time you click the `Rotate` icon.
 
 ## Zoom and pan a proof
 
@@ -121,15 +128,25 @@ You can adjust the zoom percentage when viewing the proof. When viewing a proof 
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">Do any of the following to adjust the zoom percentage of the proof: 
-  <ul>
-   <li><p>Click the <span class="bold">Zoom</span> icon, then either click on the proof to view the proof at a higher zoom level, or drag across an area of the proof to view only that area.</p><p><img src="assets/change-zoom-percentage-350x36.png" alt="change_zoom_percentage.png" style="width: 350;height: 36;"></p></li>
-   <li><p>Click the current zoom percentage, the click a new zoom percentage or click&nbsp;<span class="bold">Fit to width</span>, <span class="bold">Fit to height</span>, or <span class="bold">Fit to page</span>.</p><p><img src="assets/zoom-percentage-menu-350x245.png" alt="zoom_percentage_menu.png" style="width: 350;height: 245;"></p></li>
-   <li><p>Click the <span class="bold">Plus</span> or <span class="bold">Minus</span> icons to increase or decrease the zoom percentage.</p><p><img src="assets/change-zoom-percentage---plus-minus-350x36.png" alt="change_zoom_percentage_-_plus_minus.png" style="width: 350;height: 36;"></p></li>
-  </ul></li> 
- <li value="4"> <p>If you need to pan to a certain area on the video proof, click the <span class="bold">Pan</span> icon, then drag the proof as needed.</p> <p> <img src="assets/change-zoom---pan-350x36.png" alt="change_zoom_-_pan.png" style="width: 350;height: 36;"> </p> <note type="tip">
-   To easily switch between the Zoom and Pan tools, hold down the spacebar when using the Zoom icon to pan.
-  </note> </li> 
-</ol>
+1. Do any of the following to adjust the zoom percentage of the proof:
+
+  * Click the `Zoom` icon, then either click on the proof to view the proof at a higher zoom level, or drag across an area of the proof to view only that area.
+
+    ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+
+  * Click the current zoom percentage, the click a new zoom percentage or click  `Fit to width`, `Fit to height`, or `Fit to page`.
+
+    ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+
+  * Click the `Plus` or `Minus` icons to increase or decrease the zoom percentage.
+
+    ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+
+1. If you need to pan to a certain area on the video proof, click the `Pan` icon, then drag the proof as needed.
+
+   ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
+
+   >[!TIP]
+   >
+   >To easily switch between the Zoom and Pan tools, hold down the spacebar when using the Zoom icon to pan.
 

@@ -11,22 +11,36 @@ description: Your Adobe Workfront administrator or your Group administrator must
 
 Your Adobe Workfront administrator or your Group administrator must ensure all of the following conditions are met before you can access Adobe Workfront Goals:
 
-<ul> 
- <li> <p>Your organization must purchase a Workfront Goals license, in addition to a Adobe Workfront license. Contact your Workfront Account Representative to learn about Workfront Goals licenses. </p> <p>For information, see the section <a href="#organiz" class="MCXref xref">Obtain Workfront Goals organization access</a>in this article</p> </li> 
- <li>Assign you any of the following types of Workfront licenses:
-  <ul>
-   <li>Plan</li>
-   <li>Work</li>
-   <li>Review</li>
-   <li>Request</li>
-  </ul><note type="note">
-   Users with an External license type cannot access Workfront Goals.
-  </note></li> 
- <li> <p>Give you access to Goals in your access level. </p> <p>For information about assigning license types and access levels, see the section <a href="#access" class="MCXref xref">Update license types and access level settings </a>in this article. </p> </li> 
- <li> <p>Enroll you in the new Adobe Workfront experience. </p> <p>For information, see the section <a href="#enroll" class="MCXref xref">Enroll users in the new Adobe Workfront experience</a> in this article. </p> </li> 
- <li> <p>Assign you Layout Template that includes the Goals area in the Main&nbsp;Menu.</p> <p>For information see the section <a href="#layout" class="MCXref xref"> Add Workfront Goals to a layout template</a> in this article. </p> </li> 
- <li> <p>If you must modify goals that you did not create yourself, the goal creator must share the goals with you and give you Manage permissions to them. </p> <p>For information, see the section <a href="#share" class="MCXref xref">Share individual goals with other users</a> in this article. </p> </li> 
-</ul>
+* Your organization must purchase a Workfront Goals license, in addition to a Adobe Workfront license. Contact your Workfront Account Representative to learn about Workfront Goals licenses.
+
+  For information, see the section [Obtain Workfront Goals organization access](#organiz)in this article
+
+* Assign you any of the following types of Workfront licenses:
+
+  * Plan
+  * Work
+  * Review
+  * Request
+
+  >[!NOTE]
+  >
+  >Users with an External license type cannot access Workfront Goals.
+
+* Give you access to Goals in your access level.
+
+  For information about assigning license types and access levels, see the section [Update license types and access level settings](#access)in this article. 
+
+* Enroll you in the new Adobe Workfront experience.
+
+  For information, see the section [Enroll users in the new Adobe Workfront experience](#enroll) in this article. 
+
+* Assign you Layout Template that includes the Goals area in the Main&nbsp;Menu.
+
+  For information see the section [Add Workfront Goals to a layout template](#layout) in this article. 
+
+* If you must modify goals that you did not create yourself, the goal creator must share the goals with you and give you Manage permissions to them.
+
+  For information, see the section [Share individual goals with other users](#share) in this article.
 
 ## Obtain Workfront Goals organization access
 

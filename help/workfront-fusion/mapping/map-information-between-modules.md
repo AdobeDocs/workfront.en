@@ -115,17 +115,18 @@ The first tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) 
 
 The other tabs contain the following types of functions:
 
-<ul> 
- <li><span class="bold">General functions</span> <img src="assets/toolbar-icon-general-function.png"> - See <a href="../../workfront-fusion/functions/general-functions.md" class="MCXref xref">General functions</a> for more information.</li> 
- <li><span class="bold">Math functions</span> <img src="assets/toolbar-icon-math-functions.png"> - See <a href="../../workfront-fusion/functions/math-functions.md" class="MCXref xref">Math functions</a> for more information.</li> 
- <li><span class="bold">Text and binary functions</span> <img src="assets/toolbar-icon-text&binary-functions.png"> - See <a href="../../workfront-fusion/functions/string-functions.md" class="MCXref xref">String functions</a> for more information.</li> 
- <li><span class="bold">Date and time</span> <img src="assets/toolbar-icon-date&time-functions.png"> - See <a href="../../workfront-fusion/functions/date-and-time-functions.md" class="MCXref xref">Date and time functions</a> and the articles below for more information.
-  <ul>
-   <li><a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting</a></li>
-   <li><a href="../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md" class="MCXref xref">Tokens for date and time parsing</a></li>
-  </ul></li> 
- <li><span class="bold">Functions for working with arrays</span> <img src="assets/toolbar-icon-functions-for-arrays.png"> - See <a href="../../workfront-fusion/functions/array-functions.md" class="MCXref xref">Array functions</a> for more information.</li> 
-</ul>
+* `General functions` ![](assets/toolbar-icon-general-function.png) - See [General functions](../../workfront-fusion/functions/general-functions.md) for more information.
+
+* `Math functions` ![](assets/toolbar-icon-math-functions.png) - See [Math functions](../../workfront-fusion/functions/math-functions.md) for more information.
+
+* `Text and binary functions` ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions](../../workfront-fusion/functions/string-functions.md) for more information.
+
+* `Date and time` ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
+
+  * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+  * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+
+* `Functions for working with arrays` ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
 
 >[!TIP]
 >
@@ -211,14 +212,26 @@ functions.
 
 The following is a detailed breakdown of the formula:
 
-<ol> 
- <li value="1">The first parameter of the <code>map()</code> function is the whole array item. </li> 
- <li value="2"> <p>The second parameter is the raw name of the value item. To obtain the raw name, hover over the item in the mapping panel:</p> <p> <img src="assets/obtain-raw-name-350x124.png" style="width: 350;height: 124;"> </p> <note type="note">
-   All parameters are case sensitive. Even though in this particular example the item's label differs from its raw name only in capitalization, it is necessary to use the raw name, which is all lowercase value in contrast to the label Value.
-  </note> </li> 
- <li value="3"> <p>The 3rd parameter is the raw name of the key item:</p> <p> <img src="assets/3rd-parameter-350x166.png" style="width: 350;height: 166;"></p> </li> 
- <li value="4"> <p>The 4th parameter is the given key value.</p> </li> 
-</ol>
+1. The first parameter of the 
+
+   ```
+   map()
+   ```
+
+   function is the whole array item. 
+1. The second parameter is the raw name of the value item. To obtain the raw name, hover over the item in the mapping panel:
+
+   ![](assets/obtain-raw-name-350x124.png)
+
+   >[!NOTE]
+   >
+   >All parameters are case sensitive. Even though in this particular example the item's label differs from its raw name only in capitalization, it is necessary to use the raw name, which is all lowercase value in contrast to the label Value.
+
+1. The 3rd parameter is the raw name of the key item:
+
+   ![](assets/3rd-parameter-350x166.png)
+
+1. The 4th parameter is the given key value.
 
 Because the 
 

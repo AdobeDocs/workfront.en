@@ -116,10 +116,8 @@ You can also move the reviewers between stages by simply dragging an dropping th
 
 The Actions menu (1) for each stage has the following options:
 
-<ul> 
- <li>Message all (2) - you can send a reminder email to all reviewers on the stage</li> 
- <li>Share (3) - you can add new reviewers to the stage</li> 
- <li>Delete stage (4) - if the proof owner is on that stage, you will be asked to pick a new stage for them<br></li> 
- <img src="assets/stage-options-350x118.png" alt="Stage_options.png" style="width: 350;height: 118;"> 
-</ul>
+* Message all (2) - you can send a reminder email to all reviewers on the stage
+* Share (3) - you can add new reviewers to the stage
+* Delete stage (4) - if the proof owner is on that stage, you will be asked to pick a new stage for them  
+*
 

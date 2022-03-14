@@ -658,13 +658,13 @@ https://dl.dropbox.com/s/ia8qtvs20f3a5ux/Screen%20Shot%202018-10-15%20at%204.21.
 
 To automatically modify the URL, you can use the replace() function twice:
 
-<ul> 
- <li> <p>Replace www with dl</p> <p> <img src="assets/www-to-dl-350x32.png" style="width: 350;height: 32;"> </p> </li> 
-</ul>
+* Replace www with dl
 
-<ul> 
- <li> <p>And to remove ?dl=0</p> <p> <img src="assets/remove-dl0-350x33.png" style="width: 350;height: 33;"> </p> </li> 
-</ul>
+  ![](assets/www-to-dl-350x32.png)
+
+* And to remove ?dl=0
+
+  ![](assets/remove-dl0-350x33.png)
 
 To do it in one step, combine these functions:
 

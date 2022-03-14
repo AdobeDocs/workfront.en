@@ -22,11 +22,12 @@ All guest reviewers (users without their own Workfront Proof account) will see a
 
 ## Setting Your Personal Time Zone
 
-<ol> 
- <li value="1">Click <span class="bold">Settings</span> > <span class="bold">Personal settings</span>, then open the <span class="bold">Settings</span> tab.</li> 
- <li value="2">(Optional) To change the format of the dates and times displayed in your account, edit the <span class="bold">Dates format</span>. <br>If you'd like to see the times displayed in the AM/PM format, make sure to pick the following option from the menu:</li> 
- <p> <img src="assets/dates-format-350x152.png" alt="Dates_format.png" style="width: 350;height: 152;"> </p> 
-</ol>
+1. Click `Settings` > `Personal settings`, then open the `Settings` tab.
+
+1. (Optional) To change the format of the dates and times displayed in your account, edit the `Dates format`.   
+   If you'd like to see the times displayed in the AM/PM format, make sure to pick the following option from the menu:
+
+1. ![Dates_format.png](assets/dates-format-350x152.png)
 
 ## Setting Your Default Organization Time Zone
 

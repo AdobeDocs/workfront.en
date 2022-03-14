@@ -178,16 +178,29 @@ You can do a basic search in either of the following ways:
 
 To perform a basic search:
 
-<ol> 
- <li value="1"> Click the magnifying glass in the upper-right corner of the page. You can also type ALT + / or Option + / to open the Search menu.  </li> 
- <li value="2"> <p>(Optional) To search for a specific object, click the All drop-down menu and select the object you want to search for.</p> <p>  </p> </li> 
- <li value="3">In the <span class="bold">Search</span> box, start typing the information you are searching for.<br>For information about what fields are searched in Workfront, see <a href="#understanding-search" class="MCXref xref">Understand Search</a>.<br><br>As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.</li> 
- <li value="4"> <p>If the item you are looking for displays in the typeahead menu, click it.</p> <p>Or</p> <p>Press <span class="bold">Enter</span> to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.</p> The Search Results page slides open from the left and covers most of the previous page. <p>If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in <a href="#understanding-search" class="MCXref xref">Understand Search</a>. The objects that match your search display in a list.</p> <note type="note">
-   Sometimes, variations of a word display in the list of found items.
-   <br>For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
-  </note> </li> 
- <li value="5">(Optional) If your search generated too many results, refine your search as described in <a href="#refining-a-search" class="MCXref xref">Refine a basic search</a>.</li> (Optional) To return to the page you were on prior to the search, click Close in the top-right corner. 
-</ol>
+1. Click the magnifying glass in the upper-right corner of the page. You can also type ALT + / or Option + / to open the Search menu.  
+1. (Optional) To search for a specific object, click the All drop-down menu and select the object you want to search for.
+
+1. In the `Search` box, start typing the information you are searching for.  
+   For information about what fields are searched in Workfront, see [Understand Search](#understanding-search).  
+  
+   As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
+
+1. If the item you are looking for displays in the typeahead menu, click it.
+
+   Or
+
+   Press `Enter` to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
+   The Search Results page slides open from the left and covers most of the previous page. 
+
+   If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understanding-search). The objects that match your search display in a list.
+
+   >[!NOTE]
+   >
+   >Sometimes, variations of a word display in the list of found items.  
+   >For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
+
+1. (Optional) If your search generated too many results, refine your search as described in [Refine a basic search](#refining-a-search).
 
 Note: The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page. 
 

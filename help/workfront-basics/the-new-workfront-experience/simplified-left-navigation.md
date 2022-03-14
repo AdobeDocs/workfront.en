@@ -184,30 +184,48 @@ Finding and editing information in the left panel is similar for these objects. 
 
 To learn what sections are available for specific areas, see [Default sections in the left navigation panel](#default).
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main menu</span> icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then click the name of an object to access it.</p> <p>The object page displays.</p> </li> 
- <li value="2"> <p>(Conditional) If you selected an area that contains a list of objects—such as <span class="bold">Projects</span> or <span class="bold">Portfolios</span>—you must do the following to access the left panel navigation:</p> 
-  <ol> 
-   <li value="1">Click an object in the list.</li> 
-   <li value="2">(Optional) In the left panel navigation, you can select another object—such as <span class="bold">Tasks</span> or <span class="bold">Issues</span> within a project—in the left panel to access a list of objects, then click the name of the specific object.<br>The object page displays.</li> 
-  </ol> </li> 
- <li value="3"> <p>From the object page, click any of the sections in the left panel to view or edit the information in that section.</p> <p>You must have permissions to edit the object before you can edit the information.</p> <p> <img src="assets/left-panel-sections.png"> </p> </li> 
- <li value="4"> <p>(Optional) Click <span class="bold">Show More</span> at the bottom of the left panel to display more sections.</p> <note type="note">
-   This option is not available if all sections display in the left panel by default.
-  </note> </li> 
- <li value="5"> <p>(Optional) At the bottom of the left panel, click <span class="bold">Add Custom Section</span> to add a custom section, then do the following:</p> 
-  <ol> 
-   <li value="1">Type a name for the custom section in the <span class="bold">Custom Section Title</span> field.</li> 
-   <li value="2"> <p>Start typing the name of an existing dashboard in the <span class="bold">Add a Dashboard</span> field, then click the dashboard when it displays in the list.</p> <note type="tip">
-     You must build the dashboard before it appears in the list.
-    </note> </li> 
-   <li value="3"> <p>Click <span class="bold">Add new section</span>.</p> <p>The custom section appears at the bottom of the left panel.</p> </li> 
-  </ol> </li> 
- <li value="6"> <p>(Optional) To change the order of a section in the left panel, click the <span class="bold">Drag</span> icon <img src="assets/drag-icon.png"> to the left of a section and drag it up or down.</p> <p> <img src="assets/drag-section-350x301.png" style="width: 350;height: 301;"> </p> </li> 
- <li value="7"> <p>(Optional) To close the left panel, click the <span class="bold">Collapse</span> icon <img src="assets/left-panel-collapse-icon.png">.</p> <note type="note">
-   When you collapse the left panel, Workfront retains your preference even when you navigate to another Workfront object. To expand the left panel again, click the 
-   <span class="bold">Expand</span> icon 
-   <img src="assets/left-panel-expand-icon.png">.
-  </note> </li> 
-</ol>
+1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click the name of an object to access it.
+
+   The object page displays.
+
+1. (Conditional) If you selected an area that contains a list of objects—such as `Projects` or `Portfolios`—you must do the following to access the left panel navigation:
+
+  1. Click an object in the list.
+  1. (Optional) In the left panel navigation, you can select another object—such as `Tasks` or `Issues` within a project—in the left panel to access a list of objects, then click the name of the specific object.  
+     The object page displays.
+
+1. From the object page, click any of the sections in the left panel to view or edit the information in that section.
+
+   You must have permissions to edit the object before you can edit the information.
+
+   ![](assets/left-panel-sections.png)
+
+1. (Optional) Click `Show More` at the bottom of the left panel to display more sections.
+
+   >[!NOTE]
+   >
+   >This option is not available if all sections display in the left panel by default.
+
+1. (Optional) At the bottom of the left panel, click `Add Custom Section` to add a custom section, then do the following:
+
+  1. Type a name for the custom section in the `Custom Section Title` field.
+  1. Start typing the name of an existing dashboard in the `Add a Dashboard` field, then click the dashboard when it displays in the list.
+
+     >[!TIP]
+     >
+     >You must build the dashboard before it appears in the list.
+
+  1. Click `Add new section`.
+
+     The custom section appears at the bottom of the left panel.
+
+1. (Optional) To change the order of a section in the left panel, click the `Drag` icon ![](assets/drag-icon.png) to the left of a section and drag it up or down.
+
+   ![](assets/drag-section-350x301.png)
+
+1. (Optional) To close the left panel, click the `Collapse` icon ![](assets/left-panel-collapse-icon.png).
+
+   >[!NOTE]
+   >
+   >When you collapse the left panel, Workfront retains your preference even when you navigate to another Workfront object. To expand the left panel again, click the `Expand` icon ![](assets/left-panel-expand-icon.png).
 

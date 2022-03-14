@@ -57,38 +57,46 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
 >
 >The Allow sharing proof via public URL or embed code setting must be enabled.
 
-<ol> 
- <li value="1"> <p>Select the document that contains the proof you want to share with users.</p> <p>You can select only one document. You cannot share the link for multiple documents at the same time.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Share</span> > <span class="bold">Proof Link</span>.</p> </li> 
- <li value="3">In the <span class="bold">Proof link</span> box that appears, do either of the following:</li> 
- <ul> 
-  <li> <p>To copy the link to your clipboard, click <span class="bold">Copy link</span>.</p> <p>You can now distribute the link via a third-party tool, such as a chat or an email application.</p> </li> 
-  <li>To email the link directly from Adobe Workfront, do the following:
-   <ol>
-    <li value="1"><p>In the <span class="bold">Or email link to</span> field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.</p></li>
-    <li value="2"><p>Select from the following options:</p>
-     <table cellspacing="0">
-      <col>
-      <col>
-      <tbody>
-       <tr>
-        <td role="rowheader">Send public link</td>
-        <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Send download link</td>
-        <td>Includes a button in the email notification that directs users to a download page, which provides file details, file name, and file size, with the file displayed inline. Users can click the Download link from the download page to download the file.</td>
-       </tr>
-       <tr>
-        <td role="rowheader">Add custom message</td>
-        <td>Allows you to specify a custom subject and body for the email notification.</td>
-       </tr>
-      </tbody>
-     </table></li>
-    <li value="3"><p>Click <span class="bold">Send</span>.</p><p>Your recipients receive an email notification containing information about the proof and the buttons you chose to include.</p><p><img src="assets/proof-share-email-350x87.png" style="width: 350;height: 87;"></p></li>
-   </ol></li> 
- </ul> 
-</ol>
+1. Select the document that contains the proof you want to share with users.
+
+   You can select only one document. You cannot share the link for multiple documents at the same time.
+
+1. Click `Share` > `Proof Link`.
+1. In the `Proof link` box that appears, do either of the following:
+
+  * To copy the link to your clipboard, click `Copy link`.
+
+    You can now distribute the link via a third-party tool, such as a chat or an email application.
+  
+  * To email the link directly from Adobe Workfront, do the following:
+
+    1. In the `Or email link to` field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.
+    1. Select from the following options:
+
+       <table cellspacing="0">
+        <col>
+        <col>
+        <tbody>
+         <tr>
+          <td role="rowheader">Send public link</td>
+          <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
+         </tr>
+         <tr>
+          <td role="rowheader">Send download link</td>
+          <td>Includes a button in the email notification that directs users to a download page, which provides file details, file name, and file size, with the file displayed inline. Users can click the Download link from the download page to download the file.</td>
+         </tr>
+         <tr>
+          <td role="rowheader">Add custom message</td>
+          <td>Allows you to specify a custom subject and body for the email notification.</td>
+         </tr>
+        </tbody>
+       </table>
+
+    1. Click `Send`.
+
+       Your recipients receive an email notification containing information about the proof and the buttons you chose to include.
+
+       ![](assets/proof-share-email-350x87.png)
 
 ## Add users to a proof
 

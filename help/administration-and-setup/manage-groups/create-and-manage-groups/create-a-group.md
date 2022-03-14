@@ -45,62 +45,63 @@ These steps explain how to create a new group from scratch. For information abou
 
 You must be a Workfront administrator to create a top-level group.
 
-<ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3"> <p>Above the list of groups, click <span class="bold">New Group</span>.</p> <note type="tip">
-   At the bottom of the list of groups, you can also click 
-   <span class="bold">Add More Groups</span> to add a group in-line, then click 
-   <span class="bold">Enter</span> when you are finished adding the group information.
-  </note> </li> 
- <li value="4"> <p>In the <span class="bold">New Group</span> box that displays, type a name for the group.</p> </li> 
- <li value="5"> <p>Specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Group Name</td> 
-     <td>Change the name of the group.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Type a description for the group. You can type up to 512 characters.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Make this group and its subgroups public</td> 
-     <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <note type="note"> 
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Above the list of groups, click `New Group`.
+
+   >[!TIP]
+   >
+   >At the bottom of the list of groups, you can also click `Add More Groups` to add a group in-line, then click `Enter` when you are finished adding the group information.
+
+1. In the `New Group` box that displays, type a name for the group.
+1. Specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Group Name</td> 
+      <td>Change the name of the group.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Type a description for the group. You can type up to 512 characters.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Make this group and its subgroups public</td> 
+      <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <p>Note:  
+        <ul> 
+         <li>You can’t make a subgroup public by itself, but you can make it’s top-level parent group public, which also makes all of the parent’s subgroups public.</li> 
+         <li>A subgroup that belongs to a public group is public by default, so any user with edit-user access can add the subgroup to other users, as well.</li> 
+        </ul> </p> <p>If you need information about the access needed to edit users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>. For information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Business Leader </td> 
+      <td> <p>You can assign one user as a Business Leader for a group that you manage. A Business Leader is someone who makes business decisions for the group. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a><span>.</span></p> <p>If the person is not already a member of the group, adding their name to this field also adds them to the group.</p> <p>Note:  
+        <ul> 
+         <li>Before you can remove the Business Leader from a group, you must remove their name from the Business Leader field.</li> 
+         <li>If you remove the name from the Business Leader field, that user remains a member of the group unless you remove them from it. For instructions on removing someone from a group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Manage a group’s memberships</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Manage a group</a>.</li> 
+        </ul> </p> <p>For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Group Members and Group Administrators</td> 
+      <td> 
        <ul> 
-        <li>You can’t make a subgroup public by itself, but you can make it’s top-level parent group public, which also makes all of the parent’s subgroups public.</li> 
-        <li>A subgroup that belongs to a public group is public by default, so any user with edit-user access can add the subgroup to other users, as well.</li> 
-       </ul> 
-      </note> <p>If you need information about the access needed to edit users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>. For information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Business Leader </td> 
-     <td> <p>You can assign one user as a Business Leader for a group that you manage. A Business Leader is someone who makes business decisions for the group. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a><span>.</span></p> <p>If the person is not already a member of the group, adding their name to this field also adds them to the group.</p> <note type="note"> 
-       <ul> 
-        <li>Before you can remove the Business Leader from a group, you must remove their name from the Business Leader field.</li> 
-        <li>If you remove the name from the Business Leader field, that user remains a member of the group unless you remove them from it. For instructions on removing someone from a group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref">Manage a group’s memberships</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref">Manage a group</a>.</li> 
-       </ul> 
-      </note> <p>For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader overview</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Group Members and Group Administrators</td> 
-     <td> 
-      <ul> 
-       <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-       <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Search people and groups in the list</td> 
-     <td> If you need to find a user or group already assigned to this group, you can type their name here and select it when it appears.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6"> <p>Click <span class="bold">Create Group</span>.</p> </li> 
-</ol>
+        <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
+        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Search people and groups in the list</td> 
+      <td> If you need to find a user or group already assigned to this group, you can type their name here and select it when it appears.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Create Group`.
 
 ## Create a top-level group by copying an existing group or subgroup
 
@@ -113,63 +114,71 @@ Keep the following in mind when you want to do this:
 
 To create a new top-level group by copying a group or subgroup:
 
-<ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</p> <p>In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.<br></p> </li> 
- <li value="3">Select the group you want to copy, then click the Copy icon.</li> 
- <li value="4">In the <span class="bold">Copy Group</span> box that appears, type a <span class="bold">Group Name</span> for the copied group.<br></li> 
- <li value="5"> <p>Specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Group Name</td> 
-     <td>Change the name of the group.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Type a description for the group. You can type up to 512 characters.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Make this group and its subgroups public</td> 
-     <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <note type="note"> 
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+
+1. Select the group you want to copy, then click the Copy icon.
+1. In the `Copy Group` box that appears, type a `Group Name` for the copied group.  
+
+1. Specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Group Name</td> 
+      <td>Change the name of the group.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Type a description for the group. You can type up to 512 characters.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Make this group and its subgroups public</td> 
+      <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <p>Note:  
+        <ul> 
+         <li>You can’t make a subgroup public by itself, but you can make it’s top-level parent group public, which also makes all of the parent’s subgroups public.</li> 
+         <li>A subgroup that belongs to a public group is public by default, so any user with edit-user access can add the subgroup to other users, as well.</li> 
+        </ul> </p> <p>If you need information about the access needed to edit users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Grant access to users</a>. For information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Edit a user's profile</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Business Leader </td> 
+      <td> <p>You can assign one user as a Business Leader for a group that you manage. A Business Leader is someone who makes business decisions for the group. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Business Leader overview</a><span>.</span></p> <p>If the person is not already a member of the group, adding their name to this field also adds them to the group.</p> <p>Note:  
+        <ul> 
+         <li>Before you can remove the Business Leader from a group, you must remove their name from the Business Leader field.</li> 
+         <li>If you remove the name from the Business Leader field, that user remains a member of the group unless you remove them from it. For instructions on removing someone from a group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Manage a group’s memberships</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Manage a group</a>.</li> 
+        </ul> </p> <p>For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Business Leader overview</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Group Members and Group Administrators</td> 
+      <td> 
        <ul> 
-        <li>You can’t make a subgroup public by itself, but you can make it’s top-level parent group public, which also makes all of the parent’s subgroups public.</li> 
-        <li>A subgroup that belongs to a public group is public by default, so any user with edit-user access can add the subgroup to other users, as well.</li> 
-       </ul> 
-      </note> <p>If you need information about the access needed to edit users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">Grant access to users</a>. For information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">Edit a user's profile</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Business Leader </td> 
-     <td> <p>You can assign one user as a Business Leader for a group that you manage. A Business Leader is someone who makes business decisions for the group. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Business Leader overview</a><span>.</span></p> <p>If the person is not already a member of the group, adding their name to this field also adds them to the group.</p> <note type="note"> 
-       <ul> 
-        <li>Before you can remove the Business Leader from a group, you must remove their name from the Business Leader field.</li> 
-        <li>If you remove the name from the Business Leader field, that user remains a member of the group unless you remove them from it. For instructions on removing someone from a group, see the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">Manage a group’s memberships</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">Manage a group</a>.</li> 
-       </ul> 
-      </note> <p>For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">Business Leader overview</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Group Members and Group Administrators</td> 
-     <td> 
-      <ul> 
-       <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-       <li> <p>Group administrators:Any group administrators of the original group are also designated as the group administrators in the copied group. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Search people and groups in the list</td> 
-     <td> If you need to find a user or group already assigned to this group, you can type their name here and select it when it appears.</td> 
-    </tr> 
-   </tbody> 
-  </table> <note type="note"> 
-   <ul> 
-    <li>If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".</li> 
-    <li>You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.</li> 
-   </ul> 
-  </note> </li> 
- <li value="6"> <p>Click <span class="bold">Create Group</span>.</p> </li> 
-</ol>
+        <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
+        <li> <p>Group administrators:Any group administrators of the original group are also designated as the group administrators in the copied group. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Search people and groups in the list</td> 
+      <td> If you need to find a user or group already assigned to this group, you can type their name here and select it when it appears.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
+   >  * You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.
+   >  
+   >
+
+1. Click `Create Group`.
 
 ##  
 

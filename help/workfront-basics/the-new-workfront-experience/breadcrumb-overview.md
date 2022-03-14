@@ -70,10 +70,13 @@ You must have the following access to perform the steps in this article:
 
 For information about parent objects in&nbsp;Adobe Workfront administrator, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-<ol> 
- <li value="1"> <p>(Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click <span class="bold">more</span>, then locate the object.</p> <note type="note">
-   If you don't have permission to an object, it's not visible in the breadcrumbs.
-  </note> </li> 
- <li value="2"> <p>Click any object in the breadcrumb path to access that object.</p> <p>The object page opens.</p> </li> 
-</ol>
+1. (Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click `more`, then locate the object.
+
+   >[!NOTE]
+   >
+   >If you don't have permission to an object, it's not visible in the breadcrumbs.
+
+1. Click any object in the breadcrumb path to access that object.
+
+   The object page opens.
 

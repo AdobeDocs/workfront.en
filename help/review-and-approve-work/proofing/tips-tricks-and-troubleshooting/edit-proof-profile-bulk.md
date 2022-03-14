@@ -40,16 +40,18 @@ You must have the following access to perform the steps in this article:
 
 ## Edit the Proof Permission Profile field in Bulk
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . </li> 
- <li value="2">Sort your users by <span class="bold">Access Level</span>. We recommend batch editing by Access Level to ensure the <span class="bold">Proof Permission Profile</span> field appears. </li> 
- <li value="3">Click the checkbox next to the users you want to select within the same access level. The Proof Permission Profile field is available only for Worker access levels and above.</li> 
- <li value="4">Click <span class="bold">Edit</span> at the top of the list.</li> 
- <li value="5"> <p>In the <span class="bold">Access</span> section, find the <span class="bold">Proof Permission Profile</span> drop-down menu and make your selection. </p> <note type="note">
-   Depending on your Workfront plan, you may have to enable the 
-   <span class="bold">User can generate proofs</span> checkbox in order for the 
-   <span class="bold">Proof Permission Profile</span> menu to appear. 
-  </note> <p> <img src="assets/proof-permission-profile-350x203.png" style="width: 350;height: 203;"> </p> </li> 
- <li value="6"> <p>Click <span class="bold">Save Changes</span>.</p> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . 
+1. Sort your users by `Access Level`. We recommend batch editing by Access Level to ensure the `Proof Permission Profile` field appears. 
+
+1. Click the checkbox next to the users you want to select within the same access level. The Proof Permission Profile field is available only for Worker access levels and above.
+1. Click `Edit` at the top of the list.
+1. In the `Access` section, find the `Proof Permission Profile` drop-down menu and make your selection.
+
+   >[!NOTE]
+   >
+   >Depending on your Workfront plan, you may have to enable the `User can generate proofs` checkbox in order for the `Proof Permission Profile` menu to appear.
+
+   ![](assets/proof-permission-profile-350x203.png)
+
+1. Click `Save Changes`.
 

@@ -25,13 +25,14 @@ Each user must have a unique user name, which is the user's Workfront email.
 
 If your organization uses Single Sign-On (SSO) functionality, you must meet the following requirements in order for your users to access Workfront Library using the enhanced authentication experience:
 
-<ul> 
- <li> <p>Your SSO solution must be compliant with SAML 2.0.</p> <note type="note">
-   Active Directory, LDAP, and SAML 1.0 protocols are not supported.
-  </note> </li> 
- <li>Auto-provisioning must be disabled. </li> 
- <li>User accounts must be manually created. </li> 
-</ul>
+* Your SSO solution must be compliant with SAML 2.0.
+
+  >[!NOTE]
+  >
+  >Active Directory, LDAP, and SAML 1.0 protocols are not supported.
+
+* Auto-provisioning must be disabled. 
+* User accounts must be manually created.
 
 You can map only the following attributes for users:
 

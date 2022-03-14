@@ -45,12 +45,13 @@ You must have the following to perform the steps in this article:
 
 ## Solution
 
-<ol> 
- <li value="1">When editing the&nbsp;<span class="bold"><span class="bold">ADFS INFO</span></span>, in the <span class="bold">Relying Party Trusts</span>> Select object ><span class="bold"> Edit Claim Rules.</span></li> 
- <li value="2">The <span class="bold">LDAP Attribute</span> (left column) should have <span class="bold">E-Mail Addresses</span> (or any unique identifier).</li> 
- <li value="3">The <span class="bold">Outgoing Claim Type</span> (right column) should be <span class="bold">Name ID</span>.<br><note type="note">
-    It does not have to have the LDAP Attribute E-Mail Addresses. Any unique identifier that will identify the user can be used but it must be passed into Adobe Workfront as the 
-   <span class="bold">NAME ID</span>.
-  </note></li> 
-</ol>
+1. When editing the  ` `ADFS INFO``, in the `Relying Party Trusts`> Select object > `Edit Claim Rules.`
+
+1. The `LDAP Attribute` (left column) should have `E-Mail Addresses` (or any unique identifier).
+
+1. The `Outgoing Claim Type` (right column) should be `Name ID`.
+
+   >[!NOTE]
+   >
+   >It does not have to have the LDAP Attribute E-Mail Addresses. Any unique identifier that will identify the user can be used but it must be passed into Adobe Workfront as the `NAME ID`.
 

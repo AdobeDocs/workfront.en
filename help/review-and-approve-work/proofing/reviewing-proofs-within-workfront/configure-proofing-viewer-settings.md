@@ -66,20 +66,35 @@ You must have the following access to perform the steps in this article:
 
 To configure proofing viewer settings:
 
-<ol> 
- <li value="1">Open the Web Proofing Viewer or the Desktop Proofing Viewer in one of the following ways: 
-  <ul>
-   <li>If you proof within Adobe Workfront, go to a document list containing a proof you want to view, hover over the document, then click&nbsp;<span class="bold">Open proof</span>.</li>
-   <li>If you use Workfront Proof, click the <span class="bold">Go to Proof</span> icon for the proof in the Dashboard or a Views list. <img src="assets/go-to-proof-blue-icon.png"><br></li>
-  </ul></li> 
- <li value="2"> <p>If the left toolbar is not showing, click the&nbsp;<span class="bold">Menu</span>&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.</p> <p> <img src="assets/menu-icon-in-proofing-viewer-350x228.png" style="width: 350;height: 228;"> </p> </li> 
- <li value="3"> In the left toolbar, click the <span class="bold">Settings</span> icon <img src="assets/settings-icon-in-pv.png">. <br></li> 
- <li value="4"> <p> Configure any of the following <span class="bold">Settings</span> that display.</p> <p>The settings available might vary depending on the type of proof you have open.</p> 
-  <ul> 
-   <li> <p><span class="bold">Show markups</span>&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the comment marks that reviewers add to proofs when they use the markup tools. If you disable them, you can still see them when you click a comment in the comment list.</p> <p>This setting affects all proofs you open.</p> </li> 
-   <li> <p><span class="bold">Show pins</span>&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the numbered pins that reviewers add to proofs when they use the markup tools. They indicate where and in what order the reviewer added comments. If you disable them, you can still see them when you click a comment in the comment list.</p> <p>This setting affects all proofs you open.</p> </li> 
-   <li> <p><span class="bold">Use expanded markup tools</span>&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): By default, the markup tool options display across the top of the proofing viewer.&nbsp;You can configure them to display in a vertical menu that opens only when you click it.</p> <p>This setting is in effect for all proofs you open.</p> </li> 
-   <li> <p><span class="bold">Send me email notifications about</span> (always available in the Web Proofing Viewer and the Desktop Proofing Viewer): Click one of the options below. This setting affects only the proof you have open. For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Notifications for proof comments and decisions overview</a>.</p> 
+1. Open the Web Proofing Viewer or the Desktop Proofing Viewer in one of the following ways:
+
+  * If you proof within Adobe Workfront, go to a document list containing a proof you want to view, hover over the document, then click  `Open proof`.
+  * If you use Workfront Proof, click the `Go to Proof` icon for the proof in the Dashboard or a Views list. ![](assets/go-to-proof-blue-icon.png)
+
+1. If the left toolbar is not showing, click the  `Menu`&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.
+
+   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+
+1. In the left toolbar, click the `Settings` icon ![](assets/settings-icon-in-pv.png).   
+
+1. Configure any of the following `Settings` that display.
+
+   The settings available might vary depending on the type of proof you have open.
+
+  * `Show markups`&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the comment marks that reviewers add to proofs when they use the markup tools. If you disable them, you can still see them when you click a comment in the comment list.
+
+    This setting affects all proofs you open.
+  
+  * `Show pins`&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the numbered pins that reviewers add to proofs when they use the markup tools. They indicate where and in what order the reviewer added comments. If you disable them, you can still see them when you click a comment in the comment list.
+
+    This setting affects all proofs you open.
+  
+  * `Use expanded markup tools`&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): By default, the markup tool options display across the top of the proofing viewer.&nbsp;You can configure them to display in a vertical menu that opens only when you click it.
+
+    This setting is in effect for all proofs you open.
+  
+  * `Send me email notifications about` (always available in the Web Proofing Viewer and the Desktop Proofing Viewer): Click one of the options below. This setting affects only the proof you have open. For more information, see [Notifications for proof comments and decisions overview](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+
     <table cellspacing="0"> 
      <col> 
      <col> 
@@ -113,10 +128,16 @@ To configure proofing viewer settings:
        Notify people by email Select this option to send an email to the users, notifying them of the proof. Click Add a custom message to specify a message to include in the email notification.
       --> 
      </tbody> 
-    </table> </li> <!--
-    Use desktop app as default: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see Desktop Proofing Viewer in the article Configure proof settings for your organization. For comparative information about the two viewers, see Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview.
-   --> 
-   <li> <p><span class="bold">When clicking hyperlinks in a proof</span> (available only in the Desktop Proofing Viewer): Select an option to specify what happens in the Desktop Proofing Viewer when you click a link that is set to open in a new browser tab or window.</p> <p>This setting is in effect for all interactive proofs you open.</p> 
+    </table>
+
+    <!--  
+    Use desktop app as default: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see Desktop Proofing Viewer in the article Configure proof settings for your organization. For comparative information about the two viewers, see Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview.  
+    -->  
+  
+  * `When clicking hyperlinks in a proof` (available only in the Desktop Proofing Viewer): Select an option to specify what happens in the Desktop Proofing Viewer when you click a link that is set to open in a new browser tab or window.
+
+    This setting is in effect for all interactive proofs you open.
+
     <table cellspacing="0"> 
      <col> 
      <col> 
@@ -134,10 +155,15 @@ To configure proofing viewer settings:
        <td> <p>You are prompted each time whether you want to open the link within the Desktop Proofing Viewer or in the browser. If you open the link within the Desktop Proofing Viewer, you can proof the linked content. If you open the link in the browser, you are not able to proof the linked content.</p> <p> <img src="assets/proof-desktop-alwaysask-350x243.png" alt="proof_desktop_alwaysask.png" style="width: 350;height: 243;"> </p> <p>This setting affects only the proof you have open.</p> </td> 
       </tr> 
      </tbody> 
-    </table> </li> <!--
-    Background color (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.
-   --> 
-   <li> <p><span class="bold">Clear cache</span>: Clears the browser cache data that might be saved with an interactive proof you are viewing. This enables content such as pop-ups (that can be blocked by browser cache data) to display in the Desktop Proofing Viewer.</p> <p>The data that is cleared includes the HTTP cache (such as images to be reused after the next page refresh) and the web storage data cache (such as cookies and data that identifies users).</p> <p>This setting affects only the proof you have open.</p> </li> 
-  </ul> </li> 
-</ol>
+    </table>
+
+    <!--  
+    Background color (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.  
+    -->  
+  
+  * `Clear cache`: Clears the browser cache data that might be saved with an interactive proof you are viewing. This enables content such as pop-ups (that can be blocked by browser cache data) to display in the Desktop Proofing Viewer.
+
+    The data that is cleared includes the HTTP cache (such as images to be reused after the next page refresh) and the web storage data cache (such as cookies and data that identifies users).
+
+    This setting affects only the proof you have open.
 

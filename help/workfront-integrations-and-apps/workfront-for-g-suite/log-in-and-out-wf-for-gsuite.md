@@ -43,18 +43,26 @@ Before you can log in or out of Workfront for G Suite, you must
 
 ## Log into Adobe Workfront for G Suite
 
-<ol> 
- <li value="1"> <p>Click the&nbsp;Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of Gmail, Google Calendar, or Google Drive.</p> <p>If you have just installed the Workfront for G Suite add-on and you cannot see this icon, try refreshing the browser page.</p> </li> 
- <li value="2">Click <span class="bold">Log In </span> in the Workfront for G Suite add-on.</li> 
- <li value="3"> <p>Type your Workfront domain address, such as <i>companyname.my.workfront.com</i>.</p> </li> 
- <li value="4"> <p>Type your Workfront username and password, then click <span class="bold">Log in</span>.</p> <p>Or</p> <p>If your organization uses Security Assertion Markup Language (SAML) login, click <span class="bold">SAML Log In</span>.</p> </li> 
-</ol>
+1. Click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of Gmail, Google Calendar, or Google Drive.
+
+   If you have just installed the Workfront for G Suite add-on and you cannot see this icon, try refreshing the browser page.
+
+1. Click `Log In` in the Workfront for G Suite add-on.
+1. Type your Workfront domain address, such as *companyname.my.workfront.com*.
+1. Type your Workfront username and password, then click `Log in`.
+
+   Or
+
+   If your organization uses Security Assertion Markup Language (SAML) login, click `SAML Log In`.
 
 ## Log out of Workfront for G Suite
 
-<ol> 
- <li value="1">If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
- <li value="2"> <p>Click the <span class="bold">More actions</span> icon at the top of the Workfront for G Suite panel.</p> <p> <img src="assets/more-actions-icon.png"> <br> </p> </li> 
- <li value="3"> <p>Click <span class="bold">Logout</span> in the menu that appears.</p> <p>This does not log you out of&nbsp;G Suite.</p> </li> 
-</ol>
+1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
+1. Click the `More actions` icon at the top of the Workfront for G Suite panel.
+
+   ![](assets/more-actions-icon.png)
+
+1. Click `Logout` in the menu that appears.
+
+   This does not log you out of&nbsp;G Suite.
 

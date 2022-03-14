@@ -106,38 +106,49 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
 
 ### Workfront for Outlook 365
 
-<ol> 
- <li value="1"> <p>In Outlook 365, click the <span class="bold">Browse Add-ins</span> icon <img src="assets/outlook-add-in-26x26.png" style="width: 26;height: 26;">at the top of the Office 365 interface, then click <span class="bold">Manage add-ins</span>.<br></p> </li> 
- <li value="2">In the <span class="bold">Search add-ins</span> box, search for <span class="bold">Workfront </span>then press Enter.&nbsp;</li> 
- <li value="3">Click <span class="bold">Add</span>.<br></li> 
-</ol>
+1. In Outlook 365, click the `Browse Add-ins` icon ![](assets/outlook-add-in-26x26.png)at the top of the Office 365 interface, then click `Manage add-ins`.  
+
+1. In the `Search add-ins` box, search for `Workfront`then press Enter.&nbsp;
+
+1. Click `Add`.
 
 ### Workfront for Outlook on the Web
 
-<ol> 
- <li value="1">Open Microsoft Outlook in a web browser.</li> 
- <li value="2"> <p>Click the <b>Browse add-ins</b> icon <img src="assets/outlook-add-in-web-version-20x20.png" style="width: 20;height: 20;">. </p> <p>To locate the icon, see <a href="https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon">Using add-ins in Outlook on the web</a> in the Microsoft documentation.</p> </li> 
- <li value="3"> <p>Search for <span class="bold">Workfront</span> in the <span class="bold">Search add-ins</span> field, then press <span class="bold">Enter</span>.<br></p> <p> <img src="assets/workfront-for-outlook-on-the-web-350x116.png" alt="workfront_for_outlook_on_the_web.png" style="width: 350;height: 116;"> <br> </p> </li> 
- <li value="4"> When it appears on the list, click <span class="bold">Add</span>.<br></li> 
-</ol>
+1. Open Microsoft Outlook in a web browser.
+1. Click the **Browse add-ins** icon ![](assets/outlook-add-in-web-version-20x20.png).
+
+   To locate the icon, see [Using add-ins in Outlook on the web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in the Microsoft documentation.
+
+1. Search for `Workfront` in the `Search add-ins` field, then press `Enter`.
+
+   ![workfront_for_outlook_on_the_web.png](assets/workfront-for-outlook-on-the-web-350x116.png)
+
+1. When it appears on the list, click `Add`.
 
 ### Workfront for Outlook on Windows or Mac
 
-<ol> 
- <li value="1">Click <span class="bold">Home ></span><span class="bold"> Store</span> on the ribbon.</li> 
- <li value="2"> <p>Search for <span class="bold">Workfront</span> in the <span class="bold">Search</span> field, then press <span class="bold">Enter</span>.<br></p> <p> <img src="assets/o365-addin-search-350x158.png" alt="o365_addin_search.png" style="width: 350;height: 158;"> </p> </li> 
- <li value="3">Click the toggle to enable the <span class="bold">Workfront add-in</span>.<br></li> 
-</ol>
+1. Click `Home >` `Store` on the ribbon.
+
+1. Search for `Workfront` in the `Search` field, then press `Enter`.
+
+   ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
+
+1. Click the toggle to enable the `Workfront add-in`.
 
 ## Log in to Workfront from Outlook
 
-<ol> 
- <li value="1">In Outlook, select an email message, then click the <span class="bold">Workfront</span> icon in the email header.</li> 
- <li value="2"> <p>Follow the prompts to log in to Workfront using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.</p> <p>Before users can log in to the Workfront add-in using SAML, a Workfront administrator must first enable Office 365 add-ins to authenticate using a SAML 2.0 solution. For more information, see the section <a href="../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365" class="MCXref xref">Configure Adobe Workfront with SAML 2.0</a> in the article <a href="../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md" class="MCXref xref">Configure Adobe Workfront with SAML 2.0</a>.</p> <note type="note"> 
-   <ul> 
-    <li>When you are prompted to enter the domain of your Workfront account, type it using this format: <em>yourCompany'sDomain.my.workfront.com</em>. Your company's domain is usually the name of your company.</li> 
-    <li>Enhanced Authentication is not available until a Workfront administrator enables it for this integration. </li> 
-   </ul> 
-  </note> </li> 
-</ol>
+1. In Outlook, select an email message, then click the `Workfront` icon in the email header.
+1. Follow the prompts to log in to Workfront using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.
+
+   Before users can log in to the Workfront add-in using SAML, a Workfront administrator must first enable Office 365 add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >  * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
+   >  
+   >
 

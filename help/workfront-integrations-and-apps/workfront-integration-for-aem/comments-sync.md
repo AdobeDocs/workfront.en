@@ -41,13 +41,23 @@ You must have the following access to perform the steps in this article:
 
 ## Create Event Subscriptions for Note Objects
 
-<ol> 
- <li value="1"> <p>Navigate to <span class="uitext">Tools → Cloud Services → Workfront Tools Configuration</span>. Select the configuration and click <span class="uitext">Properties</span>.<br><img src="assets/properties-config-350x280.png" style="width: 350;height: 280;"></p> <p> <img src="assets/wf-tools-350x286.png" style="width: 350;height: 286;"> </p> </li> 
- <li value="2"> <p>Select the <span class="uitext">Event Subscriptions</span> tab. Under the <span class="uitext">Create a new event subscription</span> menu, select <span class="uitext">create </span>from the Event dropdown and under the Object dropdown select <span class="uitext">note</span>. This we create a workflow step that listens for comments added to Workfront linked documents and add the comment in AEM. </p> <p> <img src="assets/event-subs-350x238.png" style="width: 350;height: 238;"> </p> <p> <img src="assets/create-note-event-350x225.png" style="width: 350;height: 225;"> <br> </p> </li> 
- <li value="3"> <p>Test the Create Note Event</p> 
-  <ol> 
-   <li value="1"> <p>Navigate to a linked document in Workfront and leave a comment in the Updates tab.</p> </li> 
-   <li value="2"> <p>Navigate to the same linked document in AEM. Once the document is selected, navigate to the Timeline menu in the left navigation and select <span class="uitext">Comments</span>. Here you should see you synced comments from Workfront.</p> <p> <img src="assets/update-stream-comment-350x225.png" style="width: 350;height: 225;"> </p> <p> <img src="assets/699826215-350x225.png" style="width: 350;height: 225;"> </p> </li> 
-  </ol> </li> 
-</ol>
+1. Navigate to `Tools → Cloud Services → Workfront Tools Configuration`. Select the configuration and click `Properties`.  
+   ![](assets/properties-config-350x280.png)
+
+   ![](assets/wf-tools-350x286.png)
+
+1. Select the `Event Subscriptions` tab. Under the `Create a new event subscription` menu, select `create`from the Event dropdown and under the Object dropdown select `note`. This we create a workflow step that listens for comments added to Workfront linked documents and add the comment in AEM.
+
+   ![](assets/event-subs-350x238.png)
+
+   ![](assets/create-note-event-350x225.png)
+
+1. Test the Create Note Event
+
+  1. Navigate to a linked document in Workfront and leave a comment in the Updates tab.
+  1. Navigate to the same linked document in AEM. Once the document is selected, navigate to the Timeline menu in the left navigation and select `Comments`. Here you should see you synced comments from Workfront.
+
+     ![](assets/update-stream-comment-350x225.png)
+
+     ![](assets/699826215-350x225.png)
 

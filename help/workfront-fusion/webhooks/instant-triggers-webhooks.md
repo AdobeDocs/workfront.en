@@ -48,14 +48,15 @@ You must have the following access to use the functionality in this article:
 
 All messages from incoming webhooks are stored in the webhook's queue.
 
-<ol> 
- <li value="1">Click <span class="bold">Webhooks</span> in the menu on left.</li> 
- <li value="2">Find the Webhook for which you want to view the queue.</li> 
- <li value="3"> <p>Click the button with a truck icon and the number of received webhooks.</p> <p> <img src="assets/webhooks-truck-icon.png"> </p> <note type="note">
-   Incoming webhook data is always stored in the queue regardless of how you have set the option Data is confidential (described in 
-   <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Scenario settings panel</a>). As soon as the data is processed in a scenario, it is permanently deleted from the system.
-  </note> </li> 
-</ol>
+1. Click `Webhooks` in the menu on left.
+1. Find the Webhook for which you want to view the queue.
+1. Click the button with a truck icon and the number of received webhooks.
+
+   ![](assets/webhooks-truck-icon.png)
+
+   >[!NOTE]
+   >
+   >Incoming webhook data is always stored in the queue regardless of how you have set the option Data is confidential (described in [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md)). As soon as the data is processed in a scenario, it is permanently deleted from the system.
 
 ## Schedule instant triggers
 
@@ -78,10 +79,8 @@ In this case your scenario will run immediately whenWorkfront Fusion receives ne
 
 If you use any other schedule setting than Immediately, the scenario executes at the intervals you specify. As several webhooks can be gathered in the queue during the interval, it is recommended to set the [Maximum number of cycles](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) to a higher value than the default 1 to process more webhooks in one scenario run:
 
-<ol> 
- <li value="1">Click the Scenario settings icon <img src="assets/gear-icon-settings.png"> at the bottom of your scenario.</li> 
- <li value="2"> <p>In the <span class="bold">Scenario settings</span> box that appears, type a number in the <span class="bold">Max number of cycles</span> box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario. </p> </li> 
-</ol>
+1. Click the Scenario settings icon ![](assets/gear-icon-settings.png) at the bottom of your scenario.
+1. In the `Scenario settings` box that appears, type a number in the `Max number of cycles` box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario.
 
 ## Rate limits
 

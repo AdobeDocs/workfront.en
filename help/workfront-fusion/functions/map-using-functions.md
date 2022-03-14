@@ -52,17 +52,18 @@ The first tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) 
 
 The other tabs contain the following types of functions:
 
-<ul> 
- <li><span class="bold">General functions</span> <img src="assets/toolbar-icon-general-function.png"> - See <a href="../../workfront-fusion/functions/general-functions.md" class="MCXref xref">General functions</a> for more information.</li> 
- <li><span class="bold">Math functions</span> <img src="assets/toolbar-icon-math-functions.png"> - See <a href="../../workfront-fusion/functions/math-functions.md" class="MCXref xref">Math functions</a> for more information.</li> 
- <li><span class="bold">Text and binary functions</span> <img src="assets/toolbar-icon-text&binary-functions.png"> - See <a href="../../workfront-fusion/functions/string-functions.md" class="MCXref xref">String functions</a> for more information.</li> 
- <li><span class="bold">Date and time</span> <img src="assets/toolbar-icon-date&time-functions.png"> - See <a href="../../workfront-fusion/functions/date-and-time-functions.md" class="MCXref xref">Date and time functions</a> and the articles below for more information.
-  <ul>
-   <li><a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting</a></li>
-   <li><a href="../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md" class="MCXref xref">Tokens for date and time parsing</a></li>
-  </ul></li> 
- <li><span class="bold">Functions for working with arrays</span> <img src="assets/toolbar-icon-functions-for-arrays.png"> - See <a href="../../workfront-fusion/functions/array-functions.md" class="MCXref xref">Array functions</a> for more information.</li> 
-</ul>
+* `General functions` ![](assets/toolbar-icon-general-function.png) - See [General functions](../../workfront-fusion/functions/general-functions.md) for more information.
+
+* `Math functions` ![](assets/toolbar-icon-math-functions.png) - See [Math functions](../../workfront-fusion/functions/math-functions.md) for more information.
+
+* `Text and binary functions` ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions](../../workfront-fusion/functions/string-functions.md) for more information.
+
+* `Date and time` ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
+
+  * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+  * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+
+* `Functions for working with arrays` ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
 
 To insert a function into a field:
 
@@ -86,16 +87,23 @@ You can nest functions within each other to create limitless possibilities.
 
 If Workfront Fusion does not feature a function you want to use, but it is featured by Google Sheets, you can use it by following these steps:
 
-<ol> 
- <li value="1">In Google Sheets, create a new empty spreadsheet.</li> 
- <li value="2">In Workfront Fusion, open your scenario.</li> 
- <li value="3"> <p>Add the <span class="bold">Google Sheets </span>><span class="bold"> Update a cell</span> module to the scenario.</p> <p>For instructions on adding a module, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#add" class="MCXref xref">Add a module in a scenario</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </li> 
- <li value="4"> <p>Configure the module:<br></p> 
-  <ol> 
-   <li value="1">Choose the newly created spreadsheet in the <span class="bold">Spreadsheet</span> field.</li> 
-   <li value="2"> <p>Insert your formula containing the Google Sheets function(s) into the <span class="bold">Value</span> field. </p> <p>You can use the output of preceding modules as usual.</p> <p> <img src="assets/exploit-google-sheet-functions-350x218.png" style="width: 350;height: 218;"> </p> </li> 
-  </ol> </li> 
- <li value="5">Insert the <span class="bold">Google Sheets > Get a cell</span> module to obtain the calculated result.</li> 
- <li value="6"> <p>Configure the module, using the same Cell ID that you used in step 4.</p> <p> <img src="assets/exploit-google-sheet-functions-2-350x187.png" style="width: 350;height: 187;"> </p> </li> 
-</ol>
+1. In Google Sheets, create a new empty spreadsheet.
+1. In Workfront Fusion, open your scenario.
+1. Add the `Google Sheets`> `Update a cell` module to the scenario.
+
+   For instructions on adding a module, see [Add a module in a scenario](../../workfront-fusion/scenarios/create-a-scenario.md#add) in the article [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+
+1. Configure the module:
+
+  1. Choose the newly created spreadsheet in the `Spreadsheet` field.
+  1. Insert your formula containing the Google Sheets function(s) into the `Value` field.
+
+     You can use the output of preceding modules as usual.
+
+     ![](assets/exploit-google-sheet-functions-350x218.png)
+
+1. Insert the `Google Sheets > Get a cell` module to obtain the calculated result.
+1. Configure the module, using the same Cell ID that you used in step 4.
+
+   ![](assets/exploit-google-sheet-functions-2-350x187.png)
 

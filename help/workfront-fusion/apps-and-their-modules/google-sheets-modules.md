@@ -697,29 +697,42 @@ Use the Search Rows (Advanced) module & use this formula to get the columns whic
 
 ### Add a button in a sheet to run a scenario
 
-<ol> 
- <li value="1">In Workfront Fusion, insert the <span class="bold">Webhook </span>> <span class="bold">Custom webhooks</span> module/trigger in the scenario and configure it (see <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a>).</li> 
- <li value="2">Copy the webhook's URL.</li> 
- <li value="3">Execute the scenario.</li> 
- <li value="4">In Google Sheets, choose <span class="bold">Insert</span> > <span class="bold">Drawing</span>... from the main menu bar.</li> 
- <li value="5"> <p>In the Drawing window, Click the <span class="bold">Text box</span> icon <img src="assets/text-box.png"> near the top of the window.</p> </li> 
- <li value="6"> <p>Design a button and click the <span class="bold">Save and Close</span> button in the top-right corner:</p> </li> 
- <li value="7"> <p>The button will be placed in your worksheet. Click the three vertical dots in the button's top-right corner:</p> </li> 
- <li value="8">Choose <span class="bold">Assign script...</span> from the menu.</li> 
- <li value="9"> <p>Enter the name of your script (function), e.g. <code>runScenario</code> and click <span class="bold">OK</span>:</p> </li> 
- <li value="10">Choose <span class="bold">Tools</span> > <span class="bold">Script editor</span> from the main menu bar.</li> 
- <li value="11"> <p>Insert the following code:</p> 
-  <ul> 
-   <li>The name of the function must correspond to the name you specified in step 9.</li> 
-   <li> <p>Replace the URL <!--
-      https://hook.workfrontfusion.com/xxx...xxx URL
-     --> with the webhook's URL you copied in step 2.</p><pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre> </li> 
-  </ul> </li> 
- <li value="12">Press <span class="bold">Ctrl+S</span> to save the script file, enter a project name and click <span class="bold">OK</span>.</li> 
- <li value="13">Switch back to Google Sheets and click your new button.</li> 
- <li value="14"> Grant the required authorization to the script: </li> 
- <li value="15">In Workfront Fusion, verify that the scenario has successfully executed.</li> 
-</ol>
+1. In Workfront Fusion, insert the `Webhook`> `Custom webhooks` module/trigger in the scenario and configure it (see [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
+
+1. Copy the webhook's URL.
+1. Execute the scenario.
+1. In Google Sheets, choose `Insert` > `Drawing`... from the main menu bar.
+
+1. In the Drawing window, Click the `Text box` icon ![](assets/text-box.png) near the top of the window.
+1. Design a button and click the `Save and Close` button in the top-right corner:
+1. The button will be placed in your worksheet. Click the three vertical dots in the button's top-right corner:
+1. Choose `Assign script...` from the menu.
+1. Enter the name of your script (function), e.g. 
+
+   ```
+   runScenario
+   ```
+
+   and click `OK`:
+1. Choose `Tools` > `Script editor` from the main menu bar.
+
+1. Insert the following code:
+
+  * The name of the function must correspond to the name you specified in step 9.
+  * Replace the URL   
+  
+    <!--  
+    https://hook.workfrontfusion.com/xxx...xxx URL  
+    -->  
+  
+    with the webhook's URL you copied in step 2.
+    <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+
+1. Press `Ctrl+S` to save the script file, enter a project name and click `OK`.
+
+1. Switch back to Google Sheets and click your new button.
+1. Grant the required authorization to the script: 
+1. In Workfront Fusion, verify that the scenario has successfully executed.
 
 ## Storing dates in a spreadsheet
 

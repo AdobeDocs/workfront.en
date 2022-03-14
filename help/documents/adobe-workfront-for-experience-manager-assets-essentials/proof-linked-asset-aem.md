@@ -49,33 +49,34 @@ You can create static, video, or interactive proofs.
 
 To create a proof:
 
-<ol> 
- <li value="1"> <p>Go to the project, task, or issue where you want the proof, then click the <span class="bold">Documents</span> section.</p> </li> 
- <li value="2"> <p>Hover over the document, then click the <span class="bold">Create Proof</span> link that appears below the document name. </p> <note type="note">
-   If you have 
-   <span class="bold">Automatically generate proofs when uploading documents</span> enabled in your user profile, the system automatically creates a simple proof.
-  </note> </li> 
- <li value="3">Choose one of the following:<br></li> 
- <li value="4"> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Simple Proof</td> 
-     <td>This option creates a proof with no workflow attached and applies the default proof settings. You can update the default proofsettings or add a workflow after you've created the proof. For more information on proof settings, see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Edit proof settings</a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Advanced Proof</td> 
-     <td> <p>This option allows you to configure a Basic or Advanced workflow and modify proof settings for the proof you create. For more information, see </p> 
-      <ul> 
-       <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a> </p> </li> 
-       <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Create an advanced proof with an Automated workflow</a> </p> </li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Go to the project, task, or issue where you want the proof, then click the `Documents` section.
+1. Hover over the document, then click the `Create Proof` link that appears below the document name.
+
+   >[!NOTE]
+   >
+   >If you have `Automatically generate proofs when uploading documents` enabled in your user profile, the system automatically creates a simple proof.
+
+1. Choose one of the following:  
+1. 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Simple Proof</td> 
+      <td>This option creates a proof with no workflow attached and applies the default proof settings. You can update the default proofsettings or add a workflow after you've created the proof. For more information on proof settings, see <a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">Edit proof settings</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Advanced Proof</td> 
+      <td> <p>This option allows you to configure a Basic or Advanced workflow and modify proof settings for the proof you create. For more information, see </p> 
+       <ul> 
+        <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a> </p> </li> 
+        <li> <p><a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Create an advanced proof with an Automated workflow</a> </p> </li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## Manage an existing proof
 

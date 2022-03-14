@@ -30,12 +30,14 @@ You must have the following to perform the steps in this article:
 
 ## Edit an existing field
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Custom Forms.</span></li> 
- <li value="3">Click the <span class="bold">Fields</span> tab.</li> 
- <li value="4">Select the field, then click <span class="bold">Edit</span>.</li> 
- <li value="5"> <p>In the <span class="bold">Edit Custom Field</span> box that displays, change any of the options available for the type of field you are adding.</p> <p>For information about these options, see the section <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref">Create or edit a custom form</a> in the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
- <li value="6"> <p>When you are finished, click <span class="bold">Save + Close</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Custom Forms.`
+1. Click the `Fields` tab.
+1. Select the field, then click `Edit`.
+1. In the `Edit Custom Field` box that displays, change any of the options available for the type of field you are adding.
+
+   For information about these options, see the section [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. When you are finished, click `Save + Close`.
 

@@ -43,14 +43,17 @@ As a system administrator, you can access the Workfront Proof&nbsp;Preview Sandb
 
 To access the Workfront Proof&nbsp;Preview Sandbox:
 
-<ol> 
- <li value="1"> Log in to your Workfront environment. </li> 
- <li value="2"> Click <span class="bold">Setup</span> in the Global Navigation bar. </li> 
- <li value="3">Click<span class="bold">&nbsp;System </span>><span style="line-height: 1.5;" class="bold">&nbsp;Preferences</span>.<br></li> 
- <li value="4"> In the <span class="bold">Test Environments</span> section, click <span class="bold">Sandbox Preview</span>.<br></li> 
- <li value="5"> Log in with your Preview credentials.<br>Your Preview credentials should be the same as your Production credential unless you changed them in Production after the Preview refresh happened.&nbsp;The logins are synchronized only when a refresh occurs. They do not synchronize automatically. </li> 
- <li value="6"> Click the Workfront Proof&nbsp;icon in the Global Navigation Bar.<br><img src="assets/proof-access-proofhq-350x39.png" alt="proof_access_proofhq.png" style="width: 350;height: 39;"><br>The Workfront Proof&nbsp;Preview environment displays. </li> 
-</ol>
+1. Log in to your Workfront environment. 
+1. Click `Setup` in the Global Navigation bar. 
+1. Click `System`> `Preferences`.  
+
+1. In the `Test Environments` section, click `Sandbox Preview`.  
+
+1. Log in with your Preview credentials.  
+   Your Preview credentials should be the same as your Production credential unless you changed them in Production after the Preview refresh happened.&nbsp;The logins are synchronized only when a refresh occurs. They do not synchronize automatically. 
+1. Click the Workfront Proof&nbsp;icon in the Global Navigation Bar.  
+   ![proof_access_proofhq.png](assets/proof-access-proofhq-350x39.png)  
+   The Workfront Proof&nbsp;Preview environment displays.
 
 ## Receiving Emails from the Preview Sandbox
 

@@ -11,47 +11,55 @@ description: If your organization changes from the standalone version of Workfro
 
 If your organization changes from the standalone version of Workfront Proof to the Workfront Pro plan, in which Workfront Proof Premium is integrated with Workfront, the following functionality is not available:
 
-<ul> 
- <li> <p>Ability to access Workfront Proof (limited to Workfront administrators). For more information, see <a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref" xrefformat="{para}">Access Workfront Proof from Adobe Workfront</a>.</p> <note type="note">
-   In Workfront Proof, the New proof button is disabled; proofs can be created only Workfront.
-  </note> </li> 
- <li> <p>Ability to copy a version of a proof. For more information, see&nbsp;<a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref" xrefformat="{para}">Copying Proofs in Workfront Proof</a>.<br></p> </li> 
- <li> <p>Ability to copy the settings of an existing proof. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file" class="MCXref xref" xrefformat="{para}">Copying Existing Proof Settings for a New Proof</a>&nbsp;in <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md" class="MCXref xref" xrefformat="{para}">Copying Proofs in Workfront Proof</a>.<br></p> </li> 
- <li> <p>Ability to change the previous version of a proof. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#linking-and-unlinking-proof-versions" class="MCXref xref" xrefformat="{para}">Linking Proof Versions</a> in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md" class="MCXref xref" xrefformat="{para}">Managing Proof Versions in Workfront Proof</a>.<br></p> </li> 
- <li> <p>Ability to remove link to previous version of a proof. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#unlinkingproofversions" class="MCXref xref" xrefformat="{para}">Unlinking Proof Versions</a> in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md" class="MCXref xref" xrefformat="{para}">Managing Proof Versions in Workfront Proof</a>.<br></p> </li> 
- <li> <p>Ability to add tags to proofs. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md" class="MCXref xref" xrefformat="{para}">Create and Manage Tags in Workfront Proof</a>.<br></p> </li> 
- <li> <p>Ability of administrator to assign custom proof permission profiles. For more information, see&nbsp;<a href="../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md" class="MCXref xref" xrefformat="{para}">Configure custom profiles in Workfront Proof</a>.<br></p> </li> 
- <li> <p>Ability of administrator to enable and disable proofing functionality for a single user.<br></p> <p>For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user" class="MCXref xref" xrefformat="{para}">Enable and disable proofing for&nbsp;a user (legacy plans only)</a> in the article <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref" xrefformat="{para}">Configure a user's proofing access</a>.</p> </li> <note type="note">
-  This ability is no longer necessary because proofing functionality is now available for all users with a worker license or higher. Reviewers and guests can access and work on proofs, but cannot generate proofs.
- </note> 
- <li>Ability of users to access the standalone version of Workfront Proof (this is limited to Workfront administrators).</li> 
- <li>Ability to connect between the new integrated account and the Workfront Proof account.&nbsp;</li> 
- <li>Ability to run Workfront Proof reports: 
-  <ul> 
-   <li>Recently Accessed Items</li> 
-   <li>Proofs I Manage with On Time, At Risk & Late Status</li> 
-   <li>Proofs Awaiting My Decision with On Time, At Risk & Late Status</li> 
-   <li>Proofs I Need to Review</li> 
-   <li>Active Proofs</li> 
-   <li>Archived Proofs</li> 
-   <li>Locked Proofs</li> 
-   <li>Go to Proof Directly from Report</li> 
-   <li>Go to Proof Details Directly from Report</li> 
-   <li>Share Proof Directly from Report</li> 
-   <li>Message Proof Directly from Report</li> 
-   <li>Copy Proof from Report</li> 
-   <li>Download Original from Report</li> 
-   <li>Delegate Ownership from Report</li> 
-   <li>Share Proof Links from Report</li> 
-   <li>Print Comments from Report</li> 
-   <li>Export Excel From Report</li> 
-   <li>Lock Proofs in Bulk</li> 
-   <li>Detailed Summary Along with Workflow Progress Matrix</li> 
-   <li>Activate Proofs in Bulk</li> 
-   <li>Archive Proofs in Bulk</li> 
-   <li>Unarchive Proofs in Bulk</li> 
-   <li>Change Owner in Bulk</li> 
-   <li>Delegate Ownership in Bulk</li> 
-  </ul></li> 
-</ul>
+* Ability to access Workfront Proof (limited to Workfront administrators). For more information, see [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+
+  >[!NOTE]
+  >
+  >In Workfront Proof, the New proof button is disabled; proofs can be created only Workfront.
+
+* Ability to copy a version of a proof. For more information, see&nbsp; [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).  
+
+* Ability to copy the settings of an existing proof. For more information, see [Copying Existing Proof Settings for a New Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md#copy-with-new-file)&nbsp;in [Copying Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).  
+
+* Ability to change the previous version of a proof. For more information, see [Linking Proof Versions](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#linking-and-unlinking-proof-versions) in [Managing Proof Versions in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).  
+
+* Ability to remove link to previous version of a proof. For more information, see [Unlinking Proof Versions](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md#unlinkingproofversions) in [Managing Proof Versions in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).  
+
+* Ability to add tags to proofs. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).  
+
+* Ability of administrator to assign custom proof permission profiles. For more information, see&nbsp; [Configure custom profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).  
+
+* Ability of administrator to enable and disable proofing functionality for a single user.
+
+  For more information, see [Enable and disable proofing for a user (legacy plans only)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in the article [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
+
+* This ability is no longer necessary because proofing functionality is now available for all users with a worker license or higher. Reviewers and guests can access and work on proofs, but cannot generate proofs.
+* Ability of users to access the standalone version of Workfront Proof (this is limited to Workfront administrators).
+* Ability to connect between the new integrated account and the Workfront Proof account.&nbsp;
+* Ability to run Workfront Proof reports:
+
+  * Recently Accessed Items
+  * Proofs I Manage with On Time, At Risk & Late Status
+  * Proofs Awaiting My Decision with On Time, At Risk & Late Status
+  * Proofs I Need to Review
+  * Active Proofs
+  * Archived Proofs
+  * Locked Proofs
+  * Go to Proof Directly from Report
+  * Go to Proof Details Directly from Report
+  * Share Proof Directly from Report
+  * Message Proof Directly from Report
+  * Copy Proof from Report
+  * Download Original from Report
+  * Delegate Ownership from Report
+  * Share Proof Links from Report
+  * Print Comments from Report
+  * Export Excel From Report
+  * Lock Proofs in Bulk
+  * Detailed Summary Along with Workflow Progress Matrix
+  * Activate Proofs in Bulk
+  * Archive Proofs in Bulk
+  * Unarchive Proofs in Bulk
+  * Change Owner in Bulk
+  * Delegate Ownership in Bulk
 

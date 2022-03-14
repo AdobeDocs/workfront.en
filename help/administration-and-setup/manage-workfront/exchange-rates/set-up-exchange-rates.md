@@ -54,15 +54,19 @@ You must have the following to perform the steps in this article:
 
 ## Set up exchange rates
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="2">Click <span class="bold">Project Preferences</span>&nbsp;> <span class="bold">Exchange Rates.</span><br></li> 
- <li value="3">Click<span class="bold">&nbsp;Add Currency.</span></li> 
- <li value="4"> <p>Begin typing the name of the currency, then click it when it appears in the drop-down list.<br></p> </li> 
- <li value="5">In the provided field, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.</li> 
- <li value="6"> <p>(Optional) Set the currency&nbsp;as the base (default) currency for Workfront. </p> <p>This is the currency that is used as the default for all projects and reports throughout the system.</p> </li> 
- <li value="7">Click<span class="bold">&nbsp;Save</span>&nbsp;to save your changes.&nbsp;</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. Click `Project Preferences` > `Exchange Rates.`  
+
+1. Click `Add Currency.`
+1. Begin typing the name of the currency, then click it when it appears in the drop-down list.  
+
+1. In the provided field, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
+1. (Optional) Set the currency&nbsp;as the base (default) currency for Workfront.
+
+   This is the currency that is used as the default for all projects and reports throughout the system.
+
+1. Click `Save`&nbsp;to save your changes.&nbsp;
 
 ## Enable users to modify the default currency for a project
 

@@ -24,17 +24,25 @@ The following code snippets are near deployment-ready and can be used as a start
 
 The following example in Java shows how to filter project payloads based on the Group ID of the project, as done in&nbsp; [ProjectGroupFiltering.java:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/java/src/main/java/com/workfront/lambda/ProjectGroupFiltering.java)
 
-<ol> 
- <li value="1">Establish the group ID that you are looking for and create it as a static constant. <br><pre><span class="wysiwyg-font-size-small">private static final String DESIRED_GROUP_ID = "VaqTTVaB0UcbPu4n6824WIYYIV953Mg3";</span></pre> In this example, the handleRequest method, which is an AWS Lambda standard method name, takes a Map type as its first parameter, which is the event subscription message content.<br><span style="font-weight: 400;">The second parameter it takes is the context of the current Lambda Proxy request.<br></span>The Context object is used to obtain a Lambda Logger, which is used to write a message to the CloudWatch&nbsp;Logs.<br><pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
+1. Establish the group ID that you are looking for and create it as a static constant.   
+   <pre><span class="wysiwyg-font-size-small">private static final String DESIRED_GROUP_ID = "VaqTTVaB0UcbPu4n6824WIYYIV953Mg3";</span></pre> In this example, the handleRequest method, which is an AWS Lambda standard method name, takes a Map type as its first parameter, which is the event subscription message content.  
+   `The second parameter it takes is the context of the current Lambda Proxy request.  
+   `The Context object is used to obtain a Lambda Logger, which is used to write a message to the CloudWatch&nbsp;Logs.  
+   <pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
 ...
-}</span></pre></li> 
- <li value="2">Upon invocation of the handleRequest method, obtain the “newState” attribute of the event subscription message, which represents the updated state of the resource.<br><pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
+}</span></pre>
+
+1. Upon invocation of the handleRequest method, obtain the “newState” attribute of the event subscription message, which represents the updated state of the resource.  
+   <pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
         ...
         Map<String, Object> newState = (Map<String, Object>) webHookPayload.get("newState");
         ...
-}</span></pre> To learn about the newState format, see <a href="../../wf-api/api/message-format-event-subs.md" class="MCXref xref" xrefformat="{para}">Outbound message format for event subscriptions</a>.</li> 
- <li value="3"><span style="font-weight: 400;">After parsing the “newState” Map from the message, ensure the object's group ID matches the group ID you identified in Step 1. <br></span> </li> 
- <li value="4"><span style="font-weight: 400;">(Conditional) If the IDs <span class="bold">do not</span> match, drop the message so that an empty response is returned. <br></span><pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
+}</span></pre> To learn about the newState format, see [Outbound message format for event subscriptions](../../wf-api/api/message-format-event-subs.md).
+
+1. `After parsing the “newState” Map from the message, ensure the object's group ID matches the group ID you identified in Step 1. 
+   ` 
+1. `(Conditional) If the IDs `do not` match, drop the message so that an empty response is returned.   
+   `<pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
         ...
     String projectGroupId = (String) newState.get("groupID");
     logger.log("String projectGroupID is - " + projectGroupId);<br>    if (DESIRED_GROUP_ID.equals(projectGroupId)) {
@@ -42,10 +50,14 @@ The following example in Java shows how to filter project payloads based on the 
         ...
     }
     return "";
-}</span></pre> <note type="note">
-    Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery.
-  </note> </li> 
- <li value="5">Process the message. <br><pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
+}</span></pre>
+
+   >[!NOTE]
+   >
+   >Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery.
+
+1. Process the message.   
+   <pre><span class="wysiwyg-font-size-small">public String handleRequest(Map<String, Object> webHookPayload, Context context) {
         ...
         if (DESIRED_GROUP_ID.equals(projectGroupId)) {
         //process the message
@@ -60,8 +72,9 @@ The following example in Java shows how to filter project payloads based on the 
         InvokeResult response = client.invoke(request);
     }
     ... 
-}</span></pre>The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.<br>The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the allowable timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period. <br>To learn more about managing message delivery, see <a href="#improving-message-deliver-while-accommodating-timeouts" class="MCXref xref" xrefformat="{para}">Improving Message Delivery While Accommodating Timeouts</a>.&nbsp; &nbsp;</li> 
-</ol>
+}</span></pre>The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.  
+   The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the allowable timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period.   
+   To learn more about managing message delivery, see [Improving Message Delivery While Accommodating Timeouts](#improving-message-deliver-while-accommodating-timeouts).&nbsp; &nbsp;
 
 ### Python
 
@@ -69,28 +82,44 @@ The following example in Java shows how to filter project payloads based on the 
 
 `The following example in Python shows how to filter project payloads based on the Group ID of the project, as done in  [projectGroupFiltering.py:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/py/projectGroupFiltering.py)`
 
-<ol> 
- <li value="1"><span style="font-weight: 400;"><span style="font-weight: 400;">Establish the group ID that you are looking for and create it as a static constant. <br></span></span><pre><span class="wysiwyg-font-size-small">DESIRED_GROUP_ID = 'VaqTTVaB0UcbPu4n6824WIYYIV953Mg3'</span></pre><span style="font-weight: 400;">The first parameter is the Lambda proxy "event," which contains the event subscription message and some additional information that needs to be parsed out. <br></span><span style="font-weight: 400;">The second parameter is the context of the current Lambda Proxy request. <br></span>In this example, the Context object is used to obtain a Lambda Logger, which is used to write a message to the CloudWatch&nbsp;Logs.<br><pre><span class="wysiwyg-font-size-small">def project_group_filter_handler(event, context):
-       ...</span></pre></li> 
- <li value="2"><span style="font-weight: 400;">Parse out the message from the event.<br></span><pre><span class="wysiwyg-font-size-small">event_subscription_message = json.loads(event['body'])</span></pre> </li> 
- <li value="3">Obtain the “newState” attribute of the event subscription message.<br>The newState attribute represents the updated state of the resource.<br><pre><span class="wysiwyg-font-size-small">new_state = json.loads(event_subscription_message['newState'])</span></pre> To learn about the newState format, see <a href="../../wf-api/api/message-format-event-subs.md" class="MCXref xref" xrefformat="{para}">Outbound message format for event subscriptions</a>.</li> 
- <li value="4"><span style="font-weight: 400;">After parsing the “newState” Map from the message, ensure the object's group ID matches the group ID you identified in Step 1. </span> </li> 
- <li value="5"><span style="font-weight: 400;"><span style="font-weight: 400;">(Conditional) If the IDs do not match, drop the message so that an empty response is returned. <br></span></span><pre><span class="wysiwyg-font-size-small">if new_state['groupID'] == DESIRED_GROUP_ID:
+1. ` `Establish the group ID that you are looking for and create it as a static constant.   
+   ``<pre><span class="wysiwyg-font-size-small">DESIRED_GROUP_ID = 'VaqTTVaB0UcbPu4n6824WIYYIV953Mg3'</span></pre>`The first parameter is the Lambda proxy "event," which contains the event subscription message and some additional information that needs to be parsed out.   
+   ` `The second parameter is the context of the current Lambda Proxy request.   
+   `In this example, the Context object is used to obtain a Lambda Logger, which is used to write a message to the CloudWatch&nbsp;Logs.  
+   <pre><span class="wysiwyg-font-size-small">def project_group_filter_handler(event, context):
+       ...</span></pre>
+
+1. `Parse out the message from the event.  
+   `<pre><span class="wysiwyg-font-size-small">event_subscription_message = json.loads(event['body'])</span></pre>
+
+1. Obtain the “newState” attribute of the event subscription message.  
+   The newState attribute represents the updated state of the resource.  
+   <pre><span class="wysiwyg-font-size-small">new_state = json.loads(event_subscription_message['newState'])</span></pre> To learn about the newState format, see [Outbound message format for event subscriptions](../../wf-api/api/message-format-event-subs.md).
+
+1. `After parsing the “newState” Map from the message, ensure the object's group ID matches the group ID you identified in Step 1.` 
+1. ` `(Conditional) If the IDs do not match, drop the message so that an empty response is returned.   
+   ``<pre><span class="wysiwyg-font-size-small">if new_state['groupID'] == DESIRED_GROUP_ID:
     # Process the message
     print('matched group ID')
     process_message(event_subscription_message)
 
 return {
-'statusCode': 200<br></span>}</pre> <note type="note">  Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery. 
-  </note> </li> 
- <li value="6">Process the message. <br><pre><span class="wysiwyg-font-size-small">def process_message(event_subscription_message):
+'statusCode': 200<br></span>}</pre>
+
+   >[!NOTE]
+   >
+   >Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery.
+
+1. Process the message.   
+   <pre><span class="wysiwyg-font-size-small">def process_message(event_subscription_message):
     aws_lambda.invoke(
         FunctionName='forwardMessageOntoMyEndpoint',
         InvocationType='Event',
         LogType='None',
         Payload=event_subscription_message
-    )</span></pre> The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.<br>The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period. <br>To learn more about managing message delivery, see <a href="#improving-message-deliver-while-accommodating-timeouts" class="MCXref xref" xrefformat="{para}">Improving Message Delivery While Accommodating Timeouts</a>.</li> 
-</ol>
+    )</span></pre> The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.  
+   The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period.   
+   To learn more about managing message delivery, see [Improving Message Delivery While Accommodating Timeouts](#improving-message-deliver-while-accommodating-timeouts).
 
 ### Node.js
 
@@ -98,21 +127,36 @@ return {
 
 `The following example in Node.js shows how to filter project payloads based on the Group ID of the project, as done in  [projectGroupFiltering.js:](https://github.com/Workfront/workfront-event-subscription-filter-examples/blob/master/lambda/js/projectGroupFiltering.js)`
 
-<ol> 
- <li value="1"><span style="font-weight: 400;"><span style="font-weight: 400;">Establish the group ID that you are looking for and create it as a static constant. <br></span></span><pre><span class="wysiwyg-font-size-small">const DESIRED_GROUP_ID = 'VaqTTVaB0UcbPu4n6824WIYYIV953Mg3';</span></pre><span style="font-weight: 400;">The first parameter is the Lambda proxy "event," which contains the event subscription message and some additional information that needs to be parsed out. <br></span><span style="font-weight: 400;">The second parameter is the context of the current Lambda Proxy request. <br></span>In this example, the Context object is used to obtain a Lambda Logger, which is used to write a message to the CloudWatch&nbsp;Logs.<br><pre><span class="wysiwyg-font-size-small">exports.myProjectGroupFilterHandler = function (event, context) {
+1. ` `Establish the group ID that you are looking for and create it as a static constant.   
+   ``<pre><span class="wysiwyg-font-size-small">const DESIRED_GROUP_ID = 'VaqTTVaB0UcbPu4n6824WIYYIV953Mg3';</span></pre>`The first parameter is the Lambda proxy "event," which contains the event subscription message and some additional information that needs to be parsed out.   
+   ` `The second parameter is the context of the current Lambda Proxy request.   
+   `In this example, the Context object is used to obtain a Lambda Logger, which is used to write a message to the CloudWatch&nbsp;Logs.  
+   <pre><span class="wysiwyg-font-size-small">exports.myProjectGroupFilterHandler = function (event, context) {
 	...
-}</span></pre></li> 
- <li value="2"><span style="font-weight: 400;">Parse out the message from the event.<br></span><pre><span class="wysiwyg-font-size-small">let eventSubscriptionMessage = JSON.parse(event.body);</span></pre> </li> 
- <li value="3">Obtain the projectGroupID&nbsp;from the “newState” attribute of the event subscription message, then match it against the group ID of&nbsp;the group you identified in Step 1.<br><pre><span class="wysiwyg-font-size-small">let projectGroupId = eventSubscriptionMessage.newState.groupID;</span></pre> To learn about the newState format, see <a href="../../wf-api/api/message-format-event-subs.md" class="MCXref xref" xrefformat="{para}">Outbound message format for event subscriptions</a>.</li> 
- <li value="4">(Conditional) If the IDs do not match, drop the message so that an empty response is returned.<br>The following example shows&nbsp;matching group IDs:&nbsp;<br><pre><span class="wysiwyg-font-size-small">if (projectGroupId === DESIRED_GROUP_ID) {
+}</span></pre>
+
+1. `Parse out the message from the event.  
+   `<pre><span class="wysiwyg-font-size-small">let eventSubscriptionMessage = JSON.parse(event.body);</span></pre>
+
+1. Obtain the projectGroupID&nbsp;from the “newState” attribute of the event subscription message, then match it against the group ID of&nbsp;the group you identified in Step 1. 
+   <pre><span class="wysiwyg-font-size-small">let projectGroupId = eventSubscriptionMessage.newState.groupID;</span></pre> To learn about the newState format, see [Outbound message format for event subscriptions](../../wf-api/api/message-format-event-subs.md).
+
+1. (Conditional) If the IDs do not match, drop the message so that an empty response is returned.  
+   The following example shows&nbsp;matching group IDs:&nbsp;  
+   <pre><span class="wysiwyg-font-size-small">if (projectGroupId === DESIRED_GROUP_ID) {
     // Process the message
     console.log('Processing Event Subscription message matching groupId ' + DESIRED_GROUP_ID + '...');
     forwardMessageOntoMyEndpoint(eventSubscriptionMessage, context);
 } else {
     endLambdaRequest(context);
-}</span></pre> <note type="note">  Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery. 
-  </note></li> 
- <li value="5">Process the message. <br><pre><span class="wysiwyg-font-size-small">function forwardMessageOntoMyEndpoint(eventSubscriptionMessage, context) {
+}</span></pre>
+
+   >[!NOTE]
+   >
+   >Returning an empty, successful response is crucial. Anything besides a 200-level response is considered a failed delivery.
+
+1. Process the message.   
+   <pre><span class="wysiwyg-font-size-small">function forwardMessageOntoMyEndpoint(eventSubscriptionMessage, context) {
     let lambdaParams = {
         FunctionName: 'forwardMessageOntoMyEndpoint',
         InvocationType: 'Event',
@@ -128,8 +172,9 @@ return {
         }
         endLambdaRequest(context);
     });
-}</span></pre> The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.<br>The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period. <br>To learn about managing message delivery, see&nbsp;<a href="#improving-message-deliver-while-accommodating-timeouts" class="MCXref xref" xrefformat="{para}">Improving Message Delivery While Accommodating Timeouts</a>.&nbsp; &nbsp;&nbsp;&nbsp;</li> 
-</ol>
+}</span></pre> The AWS SDK is used to invoke another Lambda, which is responsible for delivering the filtered message to our desired endpoint.  
+   The purpose of passing off the responsibility of delivering the message to another Lambda is to avoid a timeout of the delivery request coming from the Event Subscription service. Currently, the timeout for delivery is set to five seconds. If the filter takes longer than allowed by&nbsp;the setting, you can process the request, but the Event Subscription service will time out and fall into a retry loop until it receives a 200-level response within the timeout period.   
+   To learn about managing message delivery, see&nbsp; [Improving Message Delivery While Accommodating Timeouts](#improving-message-deliver-while-accommodating-timeouts).&nbsp; &nbsp;&nbsp;&nbsp;
 
 ## Improving Message Delivery While Accommodating Timeouts
 

@@ -50,10 +50,10 @@ You must have the following to perform the steps in this article:
 
 ## Deactivate SSO
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">System</span> > <span class="bold">Single Sign-On (SSO)</span>.</li> 
- <li value="3">Scroll to the bottom of the page and disable the <span class="bold">Enable</span> option.</li> 
- <li value="4">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Single Sign-On (SSO)`.
+
+1. Scroll to the bottom of the page and disable the `Enable` option.
+1. Click `Save`.
 

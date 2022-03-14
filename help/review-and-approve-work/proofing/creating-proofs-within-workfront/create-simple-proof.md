@@ -31,15 +31,15 @@ You must have the following:
 
 ## Create a simple proof
 
-<ol> 
- <li value="1">Go to the project, task, or issue where you want to create a new proof.</li> 
- <li value="2">Click the <span class="bold">Documents</span>&nbsp;tab.</li> 
- <li value="3">Click <span class="bold">Documents </span><img src="assets/document-icon.png"> in the left panel.</li> 
- <li value="4"> <p>Click&nbsp;<span class="bold">Add New</span>, then click <span class="bold">Proof</span> in the menu that appears.</p> <note type="tip">
-   You can enable the 
-   <span class="bold">Automatically generate proofs when uploading documents</span> setting in your user profile to automate this process. For more information, see 
-   <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a> .
-  </note> </li> 
- <li value="5">In the <span class="bold">New proof</span> page that appears, continue with <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#add-files" class="MCXref xref">Add files</a> in <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md" class="MCXref xref">Configure a proof</a>.</li> 
-</ol>
+1. Go to the project, task, or issue where you want to create a new proof.
+1. Click the `Documents`&nbsp;tab.
+1. Click `Documents` ![](assets/document-icon.png) in the left panel.
+
+1. Click  `Add New`, then click `Proof` in the menu that appears.
+
+   >[!TIP]
+   >
+   >You can enable the `Automatically generate proofs when uploading documents` setting in your user profile to automate this process. For more information, see [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+
+1. In the `New proof` page that appears, continue with [Add files](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#add-files) in [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md).
 

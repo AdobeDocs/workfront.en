@@ -46,11 +46,12 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
 ### Use the Break directive
 
-<ol> 
- <li value="1">In the <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md" class="MCXref xref">Scenario settings panel</a>, enable the <span class="bold">Allow storing of Incomplete Executions</span> option.</li> 
- <li value="2">Attach an error handler route to the module, as described in <a href="../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling</a>.</li> 
- <li value="3"> <p>Link the Break directive to the error handler route (see <a href="../../workfront-fusion/errors/directives-for-error-handling.md" class="MCXref xref">Directives for error handling</a>) and configure it.</p> <p> <img src="assets/break-directive-350x241.png" style="width: 350;height: 241;"> </p> </li> 
-</ol>
+1. In the [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md), enable the `Allow storing of Incomplete Executions` option.
+
+1. Attach an error handler route to the module, as described in [Error handling](../../workfront-fusion/errors/error-handling.md).
+1. Link the Break directive to the error handler route (see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md)) and configure it.
+
+   ![](assets/break-directive-350x241.png)
 
 #### Drawbacks
 

@@ -52,29 +52,21 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
 
 ## Connect Azure DevOps to Workfront Fusion
 
-<ol> 
- <li value="1"> <p>Add an Azure DevOps module to your scenario.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Add </span>next to the Connection field.</p> </li> 
- <li value="3"> <p>In the Connection Type field, select <b>Azure DevOps</b>.</p> <note type="important">
-   The Azure DevOps (Request All Scopes) connection type will be deprecated in the near future. Therefore, we do not recommend using it.
-  </note> </li> 
- <li value="4"> <p>Fill out the following fields:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Connection name</td> 
-     <td>Enter a name for the connection that you are creating.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Organization</td> 
-     <td>Enter the name of the organization under which you created your Azure DevOps application.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>Click <span class="bold">Continue </span>to finish setting up the connection and continue creating your scenario.</p> </li> 
-</ol>
+1. Add an Azure DevOps module to your scenario.
+1. Click `Add`next to the Connection field.
+1. In the Connection Type field, select **Azure DevOps**.
+
+   >[!IMPORTANT]
+   >
+   >The Azure DevOps (Request All Scopes) connection type will be deprecated in the near future. Therefore, we do not recommend using it.
+
+1. Fill out the following fields:
+
+   | Connection name |Enter a name for the connection that you are creating. |
+   |---|---|
+   | Organization |Enter the name of the organization under which you created your Azure DevOps application. |
+
+1. Click `Continue`to finish setting up the connection and continue creating your scenario.
 
 ## Azure DevOps modules and their fields
 

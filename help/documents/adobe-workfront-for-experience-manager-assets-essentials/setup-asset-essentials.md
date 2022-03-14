@@ -45,37 +45,41 @@ You must have the following:
 
 ## Set up the integration
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
- <li value="2"> <p>Select <img src="assets/document-icon.png"> <span class="bold">Documents</span> in the left panel, then select <span class="bold">Experience Manager Integration</span>.</p> </li> 
- <li value="3"> <p>Select <span class="bold">Add Experience Manager Integration</span>.</p> </li> 
- <li value="4"> <p>Specify the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>Enter the name you want users to see in the Add new button in the Documents area.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Navigation&nbsp;URL</td> 
-     <td>The system automatically populates the Navigation URL. This URL is used to link to your organization's Assets Essentials instance from the Main Menu for quick access.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">IMS&nbsp;Org</td> 
-     <td> <p>The system automatically populates your IMS Org. You can modify this field if desired.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>(Optional) Set up metadata mapping:</p> <p>Documents with the native or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets Essentials:</p> 
-  <ol> 
-   <li value="1"> <p>In the <span class="bold">Workfront Source Field</span> column, choose a native or custom Workfront field.</p> </li> 
-   <li value="2"> <p>In the <span class="bold">Experience Manager Target Field</span>, choose an Experience Manager Assets Essentials field. </p> </li> 
-   <li value="3"> <p>Repeat steps a. and b. as needed.</p> <note type="note">
-     You can map metadata only in one direction: from Workfront to Assets Essentials. Metadata for documents linked to Workfront from Assets Essentials cannot be transferred to Workfront.
-    </note> </li> 
-  </ol> </li> 
- <li value="6"> <p>Select <span class="bold">Save</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Select ![](assets/document-icon.png) `Documents` in the left panel, then select `Experience Manager Integration`.
+1. Select `Add Experience Manager Integration`.
+1. Specify the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td>Enter the name you want users to see in the Add new button in the Documents area.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Navigation&nbsp;URL</td> 
+      <td>The system automatically populates the Navigation URL. This URL is used to link to your organization's Assets Essentials instance from the Main Menu for quick access.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">IMS&nbsp;Org</td> 
+      <td> <p>The system automatically populates your IMS Org. You can modify this field if desired.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Set up metadata mapping:
+
+   Documents with the native or custom fields automatically map to the specified fields the first time an asset is sent to Experience Manager Assets Essentials:
+
+  1. In the `Workfront Source Field` column, choose a native or custom Workfront field.
+  1. In the `Experience Manager Target Field`, choose an Experience Manager Assets Essentials field. 
+  1. Repeat steps a. and b. as needed.
+
+     >[!NOTE]
+     >
+     >You can map metadata only in one direction: from Workfront to Assets Essentials. Metadata for documents linked to Workfront from Assets Essentials cannot be transferred to Workfront.
+
+1. Select `Save`.
 

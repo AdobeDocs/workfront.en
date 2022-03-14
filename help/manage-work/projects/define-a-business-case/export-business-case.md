@@ -41,10 +41,14 @@ You must have the following:
 
 ## Export the Business Case
 
-<ol> 
- <li value="1"> <p>Go to the project that you want to export the Business Case from.</p> </li> 
- <li value="2"> Click Business Case in the left panel. </li> 
- <li value="3"> <p>In the upper-right<span class="bold"> Business Case Summary</span> area, click <span class="bold">Export</span>.</p> <p> <img src="assets/bc-summary--350x587.png" style="width: 350;height: 587;"> <br>A PDF&nbsp; file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li> 
- <li value="4">(Optional) You can attach the PDF file to an email, or print it to share it with others.&nbsp;</li> 
-</ol>
+1. Go to the project that you want to export the Business Case from.
+1. Click Business Case in the left panel. 
+1. In the upper-right `Business Case Summary` area, click `Export`.
+
+   ![](assets/bc-summary--350x587.png)   
+   A PDF&nbsp; file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.
+
+   ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
+
+1. (Optional) You can attach the PDF file to an email, or print it to share it with others.&nbsp;
 

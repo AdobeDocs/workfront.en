@@ -45,11 +45,12 @@ Before you can create a Workfront task in G Suite, you must
 
 ## Reply to an update notification from G Suite
 
-<ol> 
- <li value="1">If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
- <li value="2">Open the Workfront email notification that contains the update.&nbsp;</li> 
- <li value="3"> <p>Near the bottom of the Workfront for G Suite panel, click <span class="bold">Post a comment</span>, then type your reply.</p> </li> 
- <li value="4"> <p> (Optional) To notify particular users about your reply, click&nbsp;<span class="bold">Notify people and teams</span>, begin typing a name, then click the name when it appears in the drop-down list. </p> <p>You can repeat this step for any other names you want to add.</p> </li> 
- <li value="5">Click <span class="bold">Post</span>.</li> 
-</ol>
+1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
+1. Open the Workfront email notification that contains the update.&nbsp;
+1. Near the bottom of the Workfront for G Suite panel, click `Post a comment`, then type your reply.
+1. (Optional) To notify particular users about your reply, click  `Notify people and teams`, begin typing a name, then click the name when it appears in the drop-down list.
+
+   You can repeat this step for any other names you want to add.
+
+1. Click `Post`.
 

@@ -147,13 +147,25 @@ For information about how to customize an agile view, see&nbsp; [Create or custo
 
 ## View a project in the Agile view
 
-<ol> 
- <li value="1">Go to the project you want to view in an agile view.</li> 
- <li value="2">Click the <span class="bold">Agile</span> icon.<br><br>The project is displayed in the default agile view. <br>If you previously viewed the project in a custom agile view, the project is displayed in that&nbsp;view rather than in the default agile view.<br></li> 
- <li value="3">(Optional) If you have&nbsp;created a custom&nbsp;agile view, or if another user has created a custom&nbsp;agile view and shared it with you, you can view&nbsp;it instead of the default agile view. <br>Click the <span class="bold">View</span> drop-down menu, then click&nbsp;the custom agile view you want to view.<br><br>The custom agile view is used the next time you click the <span class="bold">Agile</span> icon.<br>For information about how to create a new agile view, see <a href="#creating-a-new-agile-view" class="MCXref xref">Create and customize Agile views</a>.<br>The project is displayed in the custom&nbsp;agile view.</li> 
- <li value="4">(Conditional) If tasks in your project are using statuses other than "New," "In Progress," or "Complete" (the default statuses for the Agile view), you must add the additional statuses to the agile view for any tasks in those statuses to be displayed.<br>If tasks are in a status that is not displayed on the agile story board, the task itself is not displayed on the agile story board&nbsp;(however,&nbsp;the Percent Complete of these tasks still&nbsp;contribute to the Percent Complete of any parent tasks and the Percent Complete of the overall project).<br>To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in&nbsp;the "Create or customize an Agile view" section in&nbsp;the article <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</li> 
- <li value="5">(Optional) To return to the list view, click the <span class="bold">List</span> icon.<br><img src="assets/list-icon.png" alt=""></li> 
-</ol>
+1. Go to the project you want to view in an agile view.
+1. Click the `Agile` icon.  
+  
+   The project is displayed in the default agile view.   
+   If you previously viewed the project in a custom agile view, the project is displayed in that&nbsp;view rather than in the default agile view.  
+
+1. (Optional) If you have&nbsp;created a custom&nbsp;agile view, or if another user has created a custom&nbsp;agile view and shared it with you, you can view&nbsp;it instead of the default agile view.   
+   Click the `View` drop-down menu, then click&nbsp;the custom agile view you want to view.  
+  
+   The custom agile view is used the next time you click the `Agile` icon.  
+   For information about how to create a new agile view, see [Create and customize Agile views](#creating-a-new-agile-view).  
+   The project is displayed in the custom&nbsp;agile view.
+
+1. (Conditional) If tasks in your project are using statuses other than "New," "In Progress," or "Complete" (the default statuses for the Agile view), you must add the additional statuses to the agile view for any tasks in those statuses to be displayed.  
+   If tasks are in a status that is not displayed on the agile story board, the task itself is not displayed on the agile story board&nbsp;(however,&nbsp;the Percent Complete of these tasks still&nbsp;contribute to the Percent Complete of any parent tasks and the Percent Complete of the overall project).  
+   To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in&nbsp;the "Create or customize an Agile view" section in&nbsp;the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Optional) To return to the list view, click the `List` icon.  
+   ![](assets/list-icon.png)
 
 ## Create and customize Agile views
 

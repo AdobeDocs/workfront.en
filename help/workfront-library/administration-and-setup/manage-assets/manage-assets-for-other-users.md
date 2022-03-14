@@ -20,25 +20,24 @@ The All Content area contains content belonging to all users. You can filter by 
 
 ### Enable the Owner facet
 
-<ol> 
- <li value="1">Click the Menu icon.In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</li> 
- <li value="2">To the left of the screen, select <span class="bold">All Content</span>.</li> 
- <li value="3">Select <span class="bold">Setup</span>, then <span class="bold">Taxonomy</span>.</li> 
- <li value="4">Click <span class="bold">Add Field</span>.</li> 
- <li value="5">Select the <span class="bold">Attribute</span> radio button. </li> 
- <li value="6">Click into the drop-down menu, then select <span class="bold">Owner</span>.</li> 
- <li value="7">Click <span class="bold">Save</span>.</li> 
- <li value="8">Now that you have the Owner facet enabled, the owner field will now appears under the asset details and in the filter menu. Continue to the following section to Filter by Owner.</li> 
-</ol>
+1. Click the Menu icon.In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+
+1. To the left of the screen, select `All Content`.
+1. Select `Setup`, then `Taxonomy`.
+
+1. Click `Add Field`.
+1. Select the `Attribute` radio button. 
+1. Click into the drop-down menu, then select `Owner`.
+1. Click `Save`.
+1. Now that you have the Owner facet enabled, the owner field will now appears under the asset details and in the filter menu. Continue to the following section to Filter by Owner.
 
 ### Filter by owner
 
-<ol> 
- <li value="1">Click the <span class="bold">Filter</span> icon <img src="assets/library-filter-icon.png"> in the upper-right corner of the screen.</li> 
- <li value="2">In the filter list, click <span class="bold">Owner</span>. </li> 
- <li value="3">Type the name of the Owner whose assets you want to access in the box. When the full name appears, select it.</li> 
- <li value="4">(Optional) Select other filters you want to apply.</li> 
-</ol>
+1. Click the `Filter` icon ![](assets/library-filter-icon.png) in the upper-right corner of the screen.
+
+1. In the filter list, click `Owner`. 
+1. Type the name of the Owner whose assets you want to access in the box. When the full name appears, select it.
+1. (Optional) Select other filters you want to apply.
 
 ## Manage user assets
 

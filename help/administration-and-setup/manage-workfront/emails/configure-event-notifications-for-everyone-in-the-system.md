@@ -47,14 +47,24 @@ You must enable notifications in the Setup area of Workfront before users can en
 >
 >`You cannot activate notifications for Workfront Goals from the Setup area.` Users `can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see` [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-<ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Email</span> > <span class="bold">Notifications</span>.</li> 
- <li value="3"> Make sure the <span class="bold">Event Notifications</span> tab is open.</li> 
- <li value="4"> <p>.Click the switch to the left of the event name to turn it on or off.</p> <p>To see the default notification status for an event, see <a href="../../../workfront-basics/using-notifications/event-notifications.md" class="MCXref xref">Event notifications</a>.</p> </li> 
- <li value="5"> <p>(Optional) Click the name of an event notification to customize the subject line of the email notification.<br></p> <p>For more information about customizing the subject lines of email notifications, see <a href="../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md" class="MCXref xref">Customize email subjects for event notifications</a>.</p> </li> 
- <li value="6"> <p>(Optional) If you want to unlock configuration for an email notification so that group administrators can configure it separately for their groups, click the button <img src="assets/lock-toggle-button.png"> to the right of the notification to switch it to the unlocked position <img src="assets/unlock-toggle-button.png">.</p> <note type="note">
-   This functionality is available initially only to customers on Cluster 4 as part of a phased roll-out. It will become available for other clusters shortly thereafter. This article will be updated as this occurs.
-  </note> <p>For more information, see <a href="../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md" class="MCXref xref">Unlock or lock configuration of event notifications for all groups</a>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Email` > `Notifications`.
+
+1. Make sure the `Event Notifications` tab is open.
+1. .Click the switch to the left of the event name to turn it on or off.
+
+   To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
+
+1. (Optional) Click the name of an event notification to customize the subject line of the email notification.
+
+   For more information about customizing the subject lines of email notifications, see [Customize email subjects for event notifications](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
+
+1. (Optional) If you want to unlock configuration for an email notification so that group administrators can configure it separately for their groups, click the button ![](assets/lock-toggle-button.png) to the right of the notification to switch it to the unlocked position ![](assets/unlock-toggle-button.png).
+
+   >[!NOTE]
+   >
+   >This functionality is available initially only to customers on Cluster 4 as part of a phased roll-out. It will become available for other clusters shortly thereafter. This article will be updated as this occurs.
+
+   For more information, see [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 

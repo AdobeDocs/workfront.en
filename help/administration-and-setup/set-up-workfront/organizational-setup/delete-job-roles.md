@@ -38,16 +38,23 @@ You must have the following:
 
 ## Delete a job role
 
-<ol data-mc-continue="false"> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
- <li value="2">Click<span class="bold"> Job Roles.</span></li> 
- <li value="3">Select the job role that you want to delete, then click <span class="bold">Delete.</span></li> 
- <li value="4">If there are any objects (users, tasks, issues) that&nbsp;are assigned to the job role, do one of the following:<br> 
-  <ul> 
-   <li><p><span class="bold">Replace&nbsp;the job role with a different job role:</span> Select the new job role from the drop-down list.</p><p>Any current and past resource allocations that are&nbsp;associated with the deleted job role are transferred to the job role that you select.</p><p>Users who have only one job role assigned to&nbsp;them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.</p></li> 
-   <li><p><span class="bold">Delete&nbsp;the job role and its resource allocation:</span> Select<span class="bold"> None</span>&nbsp;from the drop-down list.</p><note type="important">
-      Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
-    </note><p>​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.</p></li> 
-  </ul></li> 
- <li value="5">Click Yes, Delete It.</li> 
-</ol>
+1. Click `Job Roles.`
+1. Select the job role that you want to delete, then click `Delete.`
+1. If there are any objects (users, tasks, issues) that&nbsp;are assigned to the job role, do one of the following:
+
+  * `Replace the job role with a different job role:` Select the new job role from the drop-down list.
+
+    Any current and past resource allocations that are&nbsp;associated with the deleted job role are transferred to the job role that you select.
+
+    Users who have only one job role assigned to&nbsp;them are reassigned to the job role that you select; users who have a secondary job role assigned to them are not reassigned to the job role that you select.
+  
+  * `Delete the job role and its resource allocation:` Select `None`&nbsp;from the drop-down list.
+
+    >[!IMPORTANT]
+    >
+    >Deleting a job role deletes all current and past resource allocation related to that job role for all projects.
+
+    ​For example, if a task or issue is assigned to only that job role, the task or issue is unassigned after the job role is deleted.
+
+1. Click Yes, Delete It.
 

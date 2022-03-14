@@ -47,14 +47,16 @@ You must have the following:
 
 ## Associate resource pools with one user
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
- <li value="2"> Click Users. </li> 
- <li value="3">Check the box next to the name of a user from the list, then click <span class="bold">Edit</span>.</li> 
- <li value="4">Click <span class="bold">Resource Planning</span>.</li> 
- <li value="5">Start typing the name of a resource pool that you want to associate with the user in the <span class="bold">Resource Pools</span> field, then select it from the list, when it appears.<br>You can associate multiple resource pools with one user.<br><img src="assets/add-resource-pool-to-user-350x307.png" alt="add_resource_pool_to_user.png" style="width: 350;height: 307;"><br></li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click Users. 
+1. Check the box next to the name of a user from the list, then click `Edit`.
+1. Click `Resource Planning`.
+1. Start typing the name of a resource pool that you want to associate with the user in the `Resource Pools` field, then select it from the list, when it appears.  
+   You can associate multiple resource pools with one user.  
+   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)  
+
+1. Click `Save Changes`.
 
 For more information about editing users, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -66,15 +68,18 @@ You can edit multiple users in bulk and associate the same resource pools with a
 
 To associate resource pools with several users in bulk:
 
-<ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
- <li value="2"> Click Users.</li> 
- <li value="3">Select several users on the list, and click <span class="bold">Edit</span>.</li> 
- <li value="4">Click <span class="bold">Resource Planning</span>.</li> 
- <li value="5">Start typing the name of a resource pool that you want to associate with the users in the <span class="bold">Resource Pools</span> field, then select it from the list, when it appears.<br>You can associate multiple resource pools with multiple users.<br><note type="note">
-    Only the resource pools that are common to all the users selected appear in this field. If the users selected have no shared resource pools, this field is empty. If this field is empty, the resource pools you specify here will overwrite their individual resource pools.
-  </note> <br><br></li> 
- <li value="6">Click <span class="bold">Save Changes</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click Users.
+1. Select several users on the list, and click `Edit`.
+1. Click `Resource Planning`.
+1. Start typing the name of a resource pool that you want to associate with the users in the `Resource Pools` field, then select it from the list, when it appears.  
+   You can associate multiple resource pools with multiple users.
+
+   >[!NOTE]
+   >
+   >Only the resource pools that are common to all the users selected appear in this field. If the users selected have no shared resource pools, this field is empty. If this field is empty, the resource pools you specify here will overwrite their individual resource pools.
+
+1. Click `Save Changes`.
 
 For more information about how to edit users in bulk, see [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md). 

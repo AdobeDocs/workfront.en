@@ -50,10 +50,12 @@ If you decide you would like to continue using Workfront Proof, you can upgrade 
 
 ## Opening a Trial Account
 
-<ol> 
- <li value="1">Click the&nbsp;button below.<br><a href="https://www.proofhq.com/html/free-trial.html"><img src="assets/take-a-14-day-free-trial-now-button.png"></a></li> 
- <li value="2">Click&nbsp;<span class="bold">Request Free Trial.</span></li> 
- <li value="3">Specify required information, including personal and company information.</li> 
- <li value="4"> <p>Click&nbsp;<span class="bold">Submit.</span></p> <p>For information about how to use Workfront Proof, see articles in the section&nbsp;<a href="https://support.workfront.com/hc/en-us/categories/115000591168-PHQ-Getting-Started">Getting Started.</a></p> </li> 
-</ol>
+1. Click the&nbsp;button below.  
+   [ ![](assets/take-a-14-day-free-trial-now-button.png)](https://www.proofhq.com/html/free-trial.html)
+
+1. Click  `Request Free Trial.`
+1. Specify required information, including personal and company information.
+1. Click  `Submit.`
+
+   For information about how to use Workfront Proof, see articles in the section&nbsp; [Getting Started.](https://support.workfront.com/hc/en-us/categories/115000591168-PHQ-Getting-Started)
 

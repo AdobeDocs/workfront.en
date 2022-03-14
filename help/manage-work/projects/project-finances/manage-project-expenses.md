@@ -43,25 +43,32 @@ You must have the following access to perform the steps in this article:
 
 ## Add Expenses
 
-<ol> 
- <li value="1">Go to the project where you want to enter expenses.<br>If you want to add expenses to a task, navigate to a task instead.&nbsp;</li> 
- <li value="2"> <p>Click <b>Show</b>More, then click <span class="bold">Expenses.</span></p> </li> 
- <li value="3"> <p>Click <span class="bold">Add an Expense.</span><br>The <span class="bold">Add an Expense</span>&nbsp;dialog box is displayed.</p> </li> 
- <li value="4"> <p>Specify the following information:</p> 
-  <ul> 
-   <li> <p><span class="bold">Description:</span> Description of the expense.<br></p> </li> 
-   <li><span class="bold">Expense Type:</span> (Required) Select the category that best describes the expense.</li> 
-   <li><span class="bold">Task:</span> Begin typing the name of the task that this expense is associated with, then click it when it appears in the drop-down list.</li> 
-   <li><span class="bold">Planned Amount:</span> The planned budgeted amount for the expense.<br>This affects the Budgeted Cost of the project.</li> 
-   <li><span class="bold">Actual Amount:</span> The amount that the expense actual cost.<br>This affects the Actual Cost of the project.</li> 
-   <li><span class="bold">Planned Date:</span> The expected date for the expense to occur. You&nbsp;can type the&nbsp;date in the field using the <em>mm/dd/yy</em> format, or you can click&nbsp;the calendar icon&nbsp;<img src="assets/calendar-icon.png" alt="">&nbsp;and select the date dynamically.</li> 
-   <li><span class="bold">Date Paid:</span> The date the expense was paid.</li> 
-   <li><span class="bold">Billable:</span> Select this option&nbsp;if you want to&nbsp;bill this expense. Categorizing an expense as billable is important when creating billing records.</li> 
-   <li><span class="bold">Reimbursable:</span> Select this option&nbsp;if the expense needs to be reimbursed. You can then mark the expense as reimbursed after the expense has been reimbursed.</li> 
-  </ul> </li> 
- <li value="5">Select a <span class="bold">Custom&nbsp;Form</span> and specify any additional information required. You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li> 
- <li value="6">Click <span class="bold">Save Changes.</span></li> 
-</ol>
+1. Go to the project where you want to enter expenses.  
+   If you want to add expenses to a task, navigate to a task instead.&nbsp;
+1. Click **Show**More, then click `Expenses.`
+1. Click `Add an Expense.`  
+   The `Add an Expense`&nbsp;dialog box is displayed.
+1. Specify the following information:
+
+  * `Description:` Description of the expense.  
+
+  * `Expense Type:` (Required) Select the category that best describes the expense.
+  * `Task:` Begin typing the name of the task that this expense is associated with, then click it when it appears in the drop-down list.
+  * `Planned Amount:` The planned budgeted amount for the expense.  
+    This affects the Budgeted Cost of the project.
+  
+  * `Actual Amount:` The amount that the expense actual cost.  
+    This affects the Actual Cost of the project.
+  
+  * `Planned Date:` The expected date for the expense to occur. You&nbsp;can type the&nbsp;date in the field using the *mm/dd/yy* format, or you can click&nbsp;the calendar icon&nbsp; ![](assets/calendar-icon.png)&nbsp;and select the date dynamically.
+  
+  * `Date Paid:` The date the expense was paid.
+  * `Billable:` Select this option&nbsp;if you want to&nbsp;bill this expense. Categorizing an expense as billable is important when creating billing records.
+  * `Reimbursable:` Select this option&nbsp;if the expense needs to be reimbursed. You can then mark the expense as reimbursed after the expense has been reimbursed.
+
+1. Select a `Custom Form` and specify any additional information required. You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+
+1. Click `Save Changes.`
 
 ## Delete Expenses
 

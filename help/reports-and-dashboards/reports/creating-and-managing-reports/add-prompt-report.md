@@ -65,28 +65,52 @@ For instructions on creating a report, see [Create a report](../../../reports-an
 
 ## Create a prompt
 
-<ol> 
- <li value="1">Go to the report where you want to add a prompt.</li> 
- <li value="2">Expand <span class="bold">Report Actions</span>, and then click <span class="bold">Edit</span>.</li> 
- <li value="3">Click <span class="bold">Report Settings</span>.</li> 
- <li value="4">In the <span class="bold">Report Prompts</span> area, click <span class="bold">Add a Prompt</span>.<br></li> 
- <li value="5">(Conditional) Select the field that you want the prompt to be based on. Start typing the name of the field, and click to select it when it appears in the list.<br>The options available to users running the report will differ depending on the field you select.<br>For example, if you select a date field such as Actual Completion Date on a task report, "Actual Completion Date" is the name of the prompt. When editing this prompt as you are running this report, you can choose from a set of modifiers to build your filtering statement. This process is identical to building a filter. For more information about modifiers, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</li> 
- <li value="6"> <p>(Conditional) Click <span class="bold">Custom Prompt</span> to create a custom prompt.</p> <p>A custom prompt is a predefined prompt where you hard code the filtering criteria before you run the report. In this sense, a custom prompt is closer to a filter than a prompt.</p> <p>However, the prompt remains as flexible as a regular prompt because you can choose from several predefined statements, as opposed to having just one hard coded filter in the report.</p> <p>Specify the following information for the custom prompt: The condition of a custom prompt can only be edited using text mode. This allows for multiple conditions to be applied in a single field.</p> 
-  <ul> 
-   <li><span class="bold">Field name:</span> This is the name of the prompt, as you see it before you run the report.</li> 
-   <li><span class="bold">Label:</span> This is the name of one of the options inside the prompt as you see it before you run the report.</li> 
-   <li><span class="bold">Condition:</span> Enter a condition that defines the prompt.</li> 
-  </ul> <p>Use the same syntax that you would use when entering a text mode filter, and join your statements by "&". For more information about editing a filter in text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p> <p>For example, the <span class="bold">Condition</span> field of the custom prompt for the following scenarios could look like this:</p> 
-  <ul> 
-   <li> <p>all tasks on future projects where the project status is Idea, Requested, Planned and Current:</p> <p><code>project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in</code> </p> </li> 
-   <li> <p>all tasks in completed (past) projects where the project status is Completed or Dead:</p> <p><code>project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in</code> </p> </li> 
-  </ul> <p>For more information about text mode modifiers, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p> <note type="note">
-   You cannot change the conditions of a custom prompt when you run the report, like you would a standard prompt. You can have as many predefined conditions for a custom prompt as you need.
-   <br>
-  </note> </li> 
- <li value="7"> <p>(Optional) Repeat Step 4 or Step 5 to create as many prompts as needed.</p> </li> 
- <li value="8">Click <span class="bold">Done</span>, then click <span class="bold">Save+Close</span> to save the report.</li> 
-</ol>
+1. Go to the report where you want to add a prompt.
+1. Expand `Report Actions`, and then click `Edit`.
+
+1. Click `Report Settings`.
+1. In the `Report Prompts` area, click `Add a Prompt`.  
+
+1. (Conditional) Select the field that you want the prompt to be based on. Start typing the name of the field, and click to select it when it appears in the list.  
+   The options available to users running the report will differ depending on the field you select.  
+   For example, if you select a date field such as Actual Completion Date on a task report, "Actual Completion Date" is the name of the prompt. When editing this prompt as you are running this report, you can choose from a set of modifiers to build your filtering statement. This process is identical to building a filter. For more information about modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+1. (Conditional) Click `Custom Prompt` to create a custom prompt.
+
+   A custom prompt is a predefined prompt where you hard code the filtering criteria before you run the report. In this sense, a custom prompt is closer to a filter than a prompt.
+
+   However, the prompt remains as flexible as a regular prompt because you can choose from several predefined statements, as opposed to having just one hard coded filter in the report.
+
+   Specify the following information for the custom prompt: The condition of a custom prompt can only be edited using text mode. This allows for multiple conditions to be applied in a single field.
+
+  * `Field name:` This is the name of the prompt, as you see it before you run the report.
+  * `Label:` This is the name of one of the options inside the prompt as you see it before you run the report.
+  * `Condition:` Enter a condition that defines the prompt.
+
+   Use the same syntax that you would use when entering a text mode filter, and join your statements by "&". For more information about editing a filter in text mode, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+
+   For example, the `Condition` field of the custom prompt for the following scenarios could look like this:
+
+  * all tasks on future projects where the project status is Idea, Requested, Planned and Current:
+
+    ```  
+    project:plannedStartDate=$$TODAY&project:plannedStartDate_Mod=gte&project:status=IDA,REQ,PLN,CUR&project:status_Mod=in
+    ```
+
+  * all tasks in completed (past) projects where the project status is Completed or Dead:
+
+    ```  
+    project:actualCompletionDate=$$TODAY&project:actualCompletionDate_Mod=lte&project:status=CPL,DED&project:status_Mod=in
+    ```
+
+   For more information about text mode modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+   >[!NOTE]
+   >
+   >You cannot change the conditions of a custom prompt when you run the report, like you would a standard prompt. You can have as many predefined conditions for a custom prompt as you need.
+
+1. (Optional) Repeat Step 4 or Step 5 to create as many prompts as needed.
+1. Click `Done`, then click `Save+Close` to save the report.
 
 ## Apply a prompt to a report
 
@@ -94,13 +118,18 @@ When you have a prompt added to a report, the default tab of the report is alway
 
 To run a report with a prompt:
 
-<ol> 
- <li value="1"> <p>Go to the report with the prompt.</p> <p>  </p> </li> 
- <li value="2">Choose a condition for one or all the prompts displayed on the <span class="bold">Prompts</span> tab.<br>(Optional) You can leave the prompts blank and not filter the report by the prompt conditions.</li> 
- <li value="3">Click <span class="bold">Run Report</span>.<br>(Conditional) If you populated the prompts, the report is filtered by the conditions you have chosen for your prompts.<br>(Conditional) If you left the prompts blank, the report is not filtered by the prompt conditions. The report displays as if it were not filtered.<br><note type="note">
-    A report that contains a filter in addition to a prompt filters the results according to both the criteria defined in the filter and the prompt combined.
-  </note></li> 
-</ol>
+1. Go to the report with the prompt.
+
+1. Choose a condition for one or all the prompts displayed on the `Prompts` tab.  
+   (Optional) You can leave the prompts blank and not filter the report by the prompt conditions.
+
+1. Click `Run Report`.  
+   (Conditional) If you populated the prompts, the report is filtered by the conditions you have chosen for your prompts.  
+   (Conditional) If you left the prompts blank, the report is not filtered by the prompt conditions. The report displays as if it were not filtered.
+
+   >[!NOTE]
+   >
+   >A report that contains a filter in addition to a prompt filters the results according to both the criteria defined in the filter and the prompt combined.
 
 ## Limitations of sharing prompted reports
 

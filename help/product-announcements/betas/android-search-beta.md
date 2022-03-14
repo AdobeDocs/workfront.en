@@ -55,7 +55,10 @@ As you are testing the new functionality, we would like you to give us feedback 
 After testing Search as described above, you can submit your feedback using the following options:
 
 1. Using your Workfront mobile app:
-1. `<li value="1"> In the homepage of Workfront app, swipe right to open the side menu, then tap the <span class="bold">Submit Feedback</span> link and select <span class="bold">Start Survey</span>. </li>` `<li value="2"> Fill out the <span class="bold">Search Beta Testing Results</span> survey. </li>` 
+
+  1. In the homepage of Workfront app, swipe right to open the side menu, then tap the `Submit Feedback` link and select `Start Survey`. 
+  
+  1. Fill out the `Search Beta Testing Results` survey.
 
 1. Go directly to and fill out&nbsp;the [Search Beta Testing Results](http://survey.qualtrics.com/jfe/form/SV_cUNPXt6pKdv0gZL) survey.&nbsp;
 1. Send an email directly to our Mobile Product Manager at haykfalakyan@workfront.com.

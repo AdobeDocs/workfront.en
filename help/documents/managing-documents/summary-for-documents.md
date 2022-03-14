@@ -36,10 +36,12 @@ You must have the following:
 
 ## Open the Summary view
 
-<ol> 
- <li value="1"> <p>Go to the <span class="bold">Documents</span> area and select an item in the list. </p> </li> 
- <li value="2"> <p>Click the <span class="bold">Open Summary icon</span><img src="assets/qs-summary-in-new-toolbar-small.png">. </p> <p>After you open the Summary, it stays open as you click on other documents and remains open until you manually close it.</p> <p> <img src="assets/summary-details-350x585.png" style="width: 350;height: 585;"> </p> </li> 
-</ol>
+1. Go to the `Documents` area and select an item in the list. 
+1. Click the `Open Summary icon` ![](assets/qs-summary-in-new-toolbar-small.png).
+
+   After you open the Summary, it stays open as you click on other documents and remains open until you manually close it.
+
+   ![](assets/summary-details-350x585.png)
 
 ## Details
 

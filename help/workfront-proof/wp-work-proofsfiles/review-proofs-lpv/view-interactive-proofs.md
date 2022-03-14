@@ -21,31 +21,36 @@ You can adjust the resolution of a proof through any of the following ways:
 
 ## Specifying&nbsp;a Custom Resolution
 
-<ol> 
- <li value="1">Go to the Interactive proof for which you want to adjust the screen resolution.</li> 
- <li value="2">In the proofing viewer, next to&nbsp;the <span class="bold">Resolution</span> icon in the lower-right corner of the viewer, specify a custom resolution.<br><img src="assets/phq-resolution-custom.png" alt="phq_resolution_custom.png"><br>The Interactive proof is rendered in the selected resolution.<br>The updated resolution is displayed on each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with).<br><img src="assets/phq-resolution-comment.png" alt="phq_resolution_comment.png"></li> 
-</ol>
+1. Go to the Interactive proof for which you want to adjust the screen resolution.
+1. In the proofing viewer, next to the `Resolution` icon in the lower-right corner of the viewer, specify a custom resolution.  
+   ![phq_resolution_custom.png](assets/phq-resolution-custom.png)  
+   The Interactive proof is rendered in the selected resolution.  
+   The updated resolution is displayed on each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with).  
+   ![phq_resolution_comment.png](assets/phq-resolution-comment.png)
 
 ## Dragging the Content&nbsp;to the Desired Resolution
 
 &nbsp;You can use any of the three slider icons to adjust the resolution of the image.
 
-<ol> 
- <li value="1">Go to the Interactive proof for which you want to adjust the screen resolution.</li> 
- <li value="2">In the Proof Viewer, drag one of the three slider icons with your curser to the desired resolution.<br><img src="assets/phq-resolution-drag-350x434.png" alt="phq_resolution_drag.png" style="width: 350;height: 434;"><br>The updated resolution is displayed in the following locations: 
-  <ul>
-   <li>In the lower-right corner of the viewer<br><img src="assets/phq-resolution-custom.png" alt="phq_resolution_custom.png"></li>
-   <li>On each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with)<br><img src="assets/phq-resolution-comment.png" alt="phq_resolution_comment.png"></li>
-  </ul></li> 
-</ol>
+1. Go to the Interactive proof for which you want to adjust the screen resolution.
+1. In the Proof Viewer, drag one of the three slider icons with your curser to the desired resolution.  
+   ![phq_resolution_drag.png](assets/phq-resolution-drag-350x434.png)  
+   The updated resolution is displayed in the following locations:
+
+  * In the lower-right corner of the viewer  
+    ![phq_resolution_custom.png](assets/phq-resolution-custom.png)
+
+  * On each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with)  
+    ![phq_resolution_comment.png](assets/phq-resolution-comment.png)
 
 ## Viewing a Preset Resolution
 
 You can choose from a list of predefined, standard resolutions for various phones, tablets, notebooks, and desktops.
 
-<ol> 
- <li value="1">Go to the Interactive proof for which you want to adjust the screen resolution.</li> 
- <li value="2">In the Proof Viewer, click the <span class="bold">Resolution</span> icon in the lower-right corner of the viewer.<br><img src="assets/phq-viewer-resolution-icon-321x474.png" alt="phq_viewer_resolution_icon.png" style="width: 321;height: 474;"></li> 
- <li value="3">Select from the available resolution options of various phones, tablets, notebooks, and desktops.<br>The Interactive proof is rendered in the selected resolution.</li> 
-</ol>
+1. Go to the Interactive proof for which you want to adjust the screen resolution.
+1. In the Proof Viewer, click the `Resolution` icon in the lower-right corner of the viewer.  
+   ![phq_viewer_resolution_icon.png](assets/phq-viewer-resolution-icon-321x474.png)
+
+1. Select from the available resolution options of various phones, tablets, notebooks, and desktops.  
+   The Interactive proof is rendered in the selected resolution.
 

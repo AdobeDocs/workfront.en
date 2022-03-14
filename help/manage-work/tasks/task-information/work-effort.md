@@ -83,17 +83,22 @@ You must have the following access to perform the steps in this article:
 
 ## Enable using Work Effort instead of Planned Hours
 
-<ol> 
- <li value="1"> <p> Go to a project and click the More menu , then click Edit. </p> </li> 
- <li value="2"> <p>Click Task Settings, then select the option<span class="bold"> Use Work Effort to automatically calculate task Planned hours</span>. This is deselected by default. </p>  <p>For more information about enabling the use of Work Effort on a project, see the "Tasks Settings" section in the <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a> article. </p> </li> 
- <li value="3"> Click Tasks on the left panel , then click the name of a task to access it. </li> 
- <li value="4"> <p> Click the More menu , then click Edit.Ensure the task has a Simple Duration Type. </p> Tip: You can update the Work Effort for a task in the Task Details section as well. </li> 
- <li value="5"> <p>In the <span class="bold">Overview</span> area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task. </p> <p> <img src="assets/work-effort-on-edit-task-page-350x239.png" style="width: 350;height: 239;"> </p> <p>For more information about updating the Work Effort field on a task, see the following articles:</p> 
-  <ul> 
-   <li> The "Overview" section in the <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a> article</li> 
-   <li><a href="../../../manage-work/tasks/manage-tasks/task-information-in-overview.md" class="MCXref xref">Manage task information in the Task Details Overview area</a> </li> 
-  </ul> </li> 
-</ol>
+1. Go to a project and click the More menu , then click Edit. 
+1. Click Task Settings, then select the option `Use Work Effort to automatically calculate task Planned hours`. This is deselected by default.
+
+   For more information about enabling the use of Work Effort on a project, see the "Tasks Settings" section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article. 
+
+1. Click Tasks on the left panel , then click the name of a task to access it. 
+1. Click the More menu , then click Edit.Ensure the task has a Simple Duration Type. 
+   Tip: You can update the Work Effort for a task in the Task Details section as well. 
+1. In the `Overview` area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
+
+   ![](assets/work-effort-on-edit-task-page-350x239.png)
+
+   For more information about updating the Work Effort field on a task, see the following articles:
+
+  * The "Overview" section in the [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
+  * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Levels of Work Effort
 

@@ -68,41 +68,54 @@ In order to recognize the data structure of the incoming payload, Workfront Fusi
 
 Or you can follow the steps below to send the sample data via the HTTP > Make a request module.
 
-<ol> 
- <li value="1">Create a new scenario with the <span class="bold">HTTP</span> > <span class="bold">Make a request</span> module</li> 
- <li value="2">Configure the module with the following values: 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><p>URL </p></td> 
-     <td>Enter the URL of the webhook. You can find this URL in the Webhooks module that you have used to set up the webhook.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Method </td> 
-     <td><p>POST</p></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Body type</td> 
-     <td><p> Raw</p></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Content type</td> 
-     <td><p> JSON (application/json)</p></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Request content</td> 
-     <td><p>Raw JSON expected in the webhook</p></td> 
-    </tr> 
-   </tbody> 
-  </table><p><img src="assets/new-scenario-set-up-like-this-350x446.png" style="width: 350;height: 446;"></p></li> 
- <li value="3">Open the scenario with the Webhooks module in a separate browser tab or window.</li> 
- <li value="4"> <p>In the webhooks module, click <span class="bold">Redetermine data structure</span>. </p> <p>You do not need to unlink other modules from the webhooks module.</p> </li> 
- <li value="5">Switch to the scenario with the HTTP module and run it.</li> 
- <li value="6"> <p>Switch back to the scenario with the Webhooks module. </p> <p>A "Successfully determined" message means that the module has successfully determined the data structure.</p> <p> <img src="assets/successfully-determined-350x175.png" style="width: 350;height: 175;"> </p> </li> 
- <li value="7"> <p>Click <span class="bold">OK</span> to save the data structure.</p> <p>The webhook's items are now available in the mapping panel for use with subsequent modules in the scenario.</p> </li> 
-</ol>
+1. Create a new scenario with the `HTTP` > `Make a request` module
+
+1. Configure the module with the following values: 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><p>URL </p></td> 
+      <td>Enter the URL of the webhook. You can find this URL in the Webhooks module that you have used to set up the webhook.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Method </td> 
+      <td><p>POST</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Body type</td> 
+      <td><p> Raw</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Content type</td> 
+      <td><p> JSON (application/json)</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Request content</td> 
+      <td><p>Raw JSON expected in the webhook</p></td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   ![](assets/new-scenario-set-up-like-this-350x446.png)
+
+1. Open the scenario with the Webhooks module in a separate browser tab or window.
+1. In the webhooks module, click `Redetermine data structure`.
+
+   You do not need to unlink other modules from the webhooks module.
+
+1. Switch to the scenario with the HTTP module and run it.
+1. Switch back to the scenario with the Webhooks module.
+
+   A "Successfully determined" message means that the module has successfully determined the data structure.
+
+   ![](assets/successfully-determined-350x175.png)
+
+1. Click `OK` to save the data structure.
+
+   The webhook's items are now available in the mapping panel for use with subsequent modules in the scenario.
 
 ## Queue
 
@@ -278,18 +291,61 @@ If you want to customize the webhook's response, employ the module Webhook Respo
 
 The configuration of the module contains two fields: Status and Body.
 
-<ul> 
- <li>The Status field contains HTTP response status codes such as 2xx for Success (for example, <code>200</code> for OK), 3xx for Redirection (for example, <code>307</code> for Temporary Redirect), 4xx for Client errors (for example, <code>400</code> for Bad Request), and so on. </li> 
- <li> <p>The Body field contains anything that will be accepted by the webhook's call. It can be simple text, HTML, XML, JSON, and so on. </p> <note type="tip">
-   We recommend setting the 
-   <code>Content-Type</code> header to the corresponding MIME type: 
-   <code>text/plain</code> for plain text, 
-   <code>text/html</code> for HTML, 
-   <code>application/json</code> for JSON, 
-   <code>application/xml</code> for XML, and so on. For more information on MIME&nbsp;types, see 
-   <a href="../../workfront-fusion/apps-and-their-modules/mime.md" class="MCXref xref">MIME modules</a>.
-  </note> </li> 
-</ul>
+* The Status field contains HTTP response status codes such as 2xx for Success (for example, 
+
+  ```
+  200
+  ```
+
+  for OK), 3xx for Redirection (for example, 
+
+  ```
+  307
+  ```
+
+  for Temporary Redirect), 4xx for Client errors (for example, 
+
+  ```
+  400
+  ```
+
+  for Bad Request), and so on. 
+
+* The Body field contains anything that will be accepted by the webhook's call. It can be simple text, HTML, XML, JSON, and so on.
+
+  >[!TIP]
+  >
+  >We recommend setting the   >
+  >
+  >```  >
+  >Content-Type
+  >```  >
+  >
+  >header to the corresponding MIME type:   >
+  >
+  >```  >
+  >text/plain
+  >```  >
+  >
+  >for plain text,   >
+  >
+  >```  >
+  >text/html
+  >```  >
+  >
+  >for HTML,   >
+  >
+  >```  >
+  >application/json
+  >```  >
+  >
+  >for JSON,   >
+  >
+  >```  >
+  >application/xml
+  >```  >
+  >
+  >for XML, and so on. For more information on MIME&nbsp;types, see [MIME modules](../../workfront-fusion/apps-and-their-modules/mime.md).
 
 Timeout for sending a response is 40 seconds. If the response is not available within that period, Workfront Fusion returns a '200 Accepted' status.
 

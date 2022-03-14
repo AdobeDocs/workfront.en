@@ -192,30 +192,41 @@ You can log time from a Jira issue linked to a Workfront item, and the time is r
 
 To log time for an item in Jira and have it recorded both in Jira and Workfront:
 
-<ol> 
- <li value="1">Log into Jira.</li> 
- <li value="2">Go to the Jira issue which is linked to the Workfront item.</li> 
- <li value="3">Expand the <span class="bold">More</span> menu and click <span class="bold">Log work</span>.<br><img src="assets/log-time-from-more-menu-in-jira-239x232.png" alt="log_time_from_More_menu_in_Jira.png" style="width: 239;height: 232;"><br></li> 
- <li value="4"> In the <span class="bold">Time Spent</span> field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:<br>
-  <ul>
-   <li>Weeks (w)</li>
-   <li>Days (d)</li>
-   <li>Hours (h)</li>
-  </ul></li> 
- <li value="5">Continue adding information to your time entry, including a <span class="bold">Work Description</span>, then click <span class="bold">Log</span>.<br>The time is added to the <span class="bold">Work log</span> tab of the Jira item, as well as to the Workfront item linked to it.<br>The work description of the time entry is recorded as a note on the hour entry in Workfront.&nbsp;</li> 
-</ol>
+1. Log into Jira.
+1. Go to the Jira issue which is linked to the Workfront item.
+1. Expand the `More` menu and click `Log work`.  
+   ![log_time_from_More_menu_in_Jira.png](assets/log-time-from-more-menu-in-jira-239x232.png)  
+
+1. In the `Time Spent` field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:
+
+  * Weeks (w)
+  * Days (d)
+  * Hours (h)
+
+1. Continue adding information to your time entry, including a `Work Description`, then click `Log`.  
+   The time is added to the `Work log` tab of the Jira item, as well as to the Workfront item linked to it.  
+   The work description of the time entry is recorded as a note on the hour entry in Workfront.&nbsp;
 
 ### Log time from Jira to a Workfront item
 
 You can log time just to the linked Workfront item from the Jira issue without recording this time to the Jira issue.&nbsp;
 
-<ol> 
- <li value="1">Log into Jira.</li> 
- <li value="2"> <p>Navigate to a Jira issue which is linked to a Workfront item.<br></p> <p>The details of the Workfront item should display in the Workfront right panel of the issue.</p> </li> 
- <li value="3"> <p>Click the <span class="bold">Log Time</span> icon.<br></p> <p> <img src="assets/log-time-in-jira.png" alt="Log_time_in_Jira.png"> </p> </li> 
- <li value="4">Specify the amount of <span class="bold">Hours</span> and <span class="bold">Minutes</span> you want to log for the issue.</li> 
- <li value="5"> <p>Click <span class="bold">Log Time</span>.<br></p> <p>The time is added to the Workfront item.</p> <p>This time is not added to the Work Log tab of the Jira issue.&nbsp;</p> </li> 
-</ol>
+1. Log into Jira.
+1. Navigate to a Jira issue which is linked to a Workfront item.
+
+   The details of the Workfront item should display in the Workfront right panel of the issue.
+
+1. Click the `Log Time` icon.
+
+   ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
+
+1. Specify the amount of `Hours` and `Minutes` you want to log for the issue.
+
+1. Click `Log Time`.
+
+   The time is added to the Workfront item.
+
+   This time is not added to the Work Log tab of the Jira issue.&nbsp;
 
 ## Comment from a linked Jira issue
 
@@ -223,15 +234,18 @@ When you comment on a Jira item from the Workfront right panel in Jira, the comm
 
 To comment from Jira to a Workfront item:
 
-<ol> 
- <li value="1">Log into Jira.</li> 
- <li value="2"> <p>Navigate to a Jira issue which is linked to a Workfront item.<br></p> <p>The details of the Workfront item should display in the Workfront right panel of the issue.</p> </li> 
- <li value="3"> Click the <span class="bold">Comments</span> icon in the Workfront panel or n the <span class="bold">Comments</span> tab. <img src="assets/jira-comments-icon.png" alt="Jira_comments_icon.png"><br></li> 
- <li value="4"> <p>Start typing a comment, then click <span class="bold">Send</span>.</p> <p>The comment is added to the following:</p> 
-  <ul> 
-   <li>The <span class="bold">Workfront</span> tab of the Jira issue.</li> 
-   <li>The <span class="bold">Comments</span> tab of the Jira issue.</li> 
-   <li>The <span class="bold">Updates</span> tab of the linked item in Workfront.</li> 
-  </ul> </li> 
-</ol>
+1. Log into Jira.
+1. Navigate to a Jira issue which is linked to a Workfront item.
+
+   The details of the Workfront item should display in the Workfront right panel of the issue.
+
+1. Click the `Comments` icon in the Workfront panel or n the `Comments` tab. ![Jira_comments_icon.png](assets/jira-comments-icon.png)  
+
+1. Start typing a comment, then click `Send`.
+
+   The comment is added to the following:
+
+  * The `Workfront` tab of the Jira issue.
+  * The `Comments` tab of the Jira issue.
+  * The `Updates` tab of the linked item in Workfront.
 

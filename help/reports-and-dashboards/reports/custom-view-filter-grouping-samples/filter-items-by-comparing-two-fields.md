@@ -42,14 +42,21 @@ You must have the following access to perform the steps in this article:
 
 ## Filter items by comparing two fields
 
-<ol> 
- <li value="1">Go to a list of tasks. </li> 
- <li value="2">From the <span class="bold">Filter</span> drop-down menu, select <span class="bold">New Filter</span>.</li> 
- <li value="3"> <p>Click <span class="bold">Add Filter Rule</span> and add <span class="bold">Actual Completion Date</span> ><span class="bold">Greater Than</span>&nbsp;> <span class="bold">Select a date</span>. </p> <note type="tip">
-   Choose the filter modifier you want to use for the selected field, if available.
-  </note> </li> 
- <li value="4">Click <span class="bold"> Switch to Text Mode</span>.</li> 
- <li value="5"> <p>In the <span class="bold">Set Filter Rules for your Report</span> area, add the following code: </p> <p><code>actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt</code> </p> </li> 
- <li value="6">Click <span class="bold">Done</span>, then <span class="bold">Save Filter</span>.</li> 
-</ol>
+1. Go to a list of tasks. 
+1. From the `Filter` drop-down menu, select `New Filter`.
+
+1. Click `Add Filter Rule` and add `Actual Completion Date` > `Greater Than` > `Select a date`.
+
+   >[!TIP]
+   >
+   >Choose the filter modifier you want to use for the selected field, if available.
+
+1. Click `Switch to Text Mode`.
+1. In the `Set Filter Rules for your Report` area, add the following code:
+
+   ```
+   actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
+   ```
+
+1. Click `Done`, then `Save Filter`.
 

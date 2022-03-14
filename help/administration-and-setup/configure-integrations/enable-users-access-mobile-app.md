@@ -38,13 +38,16 @@ You must have the following to perform the steps in this article:
 
 ## Enable users to access the mobile application
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Setup,</span> located in the upper-right corner of the page.<br></li> 
- <li value="3">Expand <span class="bold">System,</span> then click <span class="bold">Preferences.</span></li> 
- <li value="4">Select the <span class="bold">Let people use Workfront's mobile applications and the Workfront Outlook Add-In</span> setting to allow users to use Workfront with the Workfront mobile app or to install and use Workfront for Outlook.<br>This option is enabled by default.</li> 
- <li value="5">Click <span class="bold">Save.</span></li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Setup,` located in the upper-right corner of the page.  
+
+1. Expand `System,` then click `Preferences.`
+
+1. Select the `Let people use Workfront's mobile applications and the Workfront Outlook Add-In` setting to allow users to use Workfront with the Workfront mobile app or to install and use Workfront for Outlook.  
+   This option is enabled by default.
+
+1. Click `Save.`
 
 For information about how to use the Workfront mobile app after it is enabled for the site, see [Use the Adobe Workfront mobile app](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md).
 

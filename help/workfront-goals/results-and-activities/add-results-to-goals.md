@@ -59,36 +59,38 @@ You must have the following before you can start:
 
 ## Add a result to a goal
 
-<ol> 
- <li value="1">Go to the goal for which you want to add a result and click the name to open the <span class="bold">Goal&nbsp;Details</span> panel.</li> 
- <li value="2"> <p>Click <span class="bold">Add results</span>.</p> <p> <img src="assets/add-result-inside-goal-details-highlighted-350x145.png" style="width: 350;height: 145;"> </p> </li> 
- <li value="3">Start typing the result you want to achieve in the <span class="bold">Result</span> field. This is the name of the result and it displays wherever the goal displays. </li> 
- <li value="4"> <p>(Optional) If you want to set the Result Owner as someone other than yourself, click your name in the <span class="bold">Owner</span> field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.</p> <note type="note">
-   You cannot assign a team or group as a result owner.
-  </note> </li> 
- <li value="5"> <p>In the <span style="font-weight: bold;">Value</span> drop-down menu, select the type of value that you want to measure your success by. </p> <p> <img src="assets/results-value-initial-target-boxes-350x49.png" style="width: 350;height: 49;"> </p> <p>Select from the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">#</td> 
-     <td>Number value</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">%</td> 
-     <td>Percentage value</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">$, CN¥, DKK, KR, Mex$, R, R$, zł, £ , ¥ , € , ₹, ฿, MYR, ₪ </td> 
-     <td>Currency values</td> 
-    </tr> 
-   </tbody> 
-  </table> <p> <p>For example, if you want to increase profit to 8%, and profit is currently at 4%, you can select % as the Measured Value. </p> <note type="tip">
-    The result Type is always Metric and cannot be edited. 
-   </note> </p> </li> 
- <li value="6"> <p>In the <span style="font-weight: bold;">Initial</span> field, indicate the value that the result has in the beginning, before any progress on it has been recorded. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 4 as the Starting At value. </p> </li> 
- <li value="7">In the <span style="font-weight: bold;">Target</span> field, indicate the value that the result aims to achieve. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 8 as the Ending At value.</li> 
- <li value="8"> <p>Click <span class="bold">Save</span>.</p> <p>The result is saved for the selected goal. The progress of the goal automatically updates when you update the progress of a result. </p> </li> 
-</ol>
+1. Go to the goal for which you want to add a result and click the name to open the `Goal Details` panel.
+1. Click `Add results`.
+
+   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+
+1. Start typing the result you want to achieve in the `Result` field. This is the name of the result and it displays wherever the goal displays. 
+1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the `Owner` field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
+
+   >[!NOTE]
+   >
+   >You cannot assign a team or group as a result owner.
+
+1. In the `Value` drop-down menu, select the type of value that you want to measure your success by.
+
+   ![](assets/results-value-initial-target-boxes-350x49.png)
+
+   Select from the following options:
+
+   | # |Number value |
+   |---|---|
+   | % |Percentage value |
+   | $, CN¥, DKK, KR, Mex$, R, R$, zł, £ , ¥ , € , ₹, ฿, MYR, ₪  |Currency values |
+
+   For example, if you want to increase profit to 8%, and profit is currently at 4%, you can select % as the Measured Value.
+
+   >[!TIP]
+   >
+   >The result Type is always Metric and cannot be edited.
+
+1. In the `Initial` field, indicate the value that the result has in the beginning, before any progress on it has been recorded. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 4 as the Starting At value. 
+1. In the `Target` field, indicate the value that the result aims to achieve. For example, if you want to increase profit to 8%, and profit is currently at 4%, you can enter 8 as the Ending At value.
+1. Click `Save`.
+
+   The result is saved for the selected goal. The progress of the goal automatically updates when you update the progress of a result.
 

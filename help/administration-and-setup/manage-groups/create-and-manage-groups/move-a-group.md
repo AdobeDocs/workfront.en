@@ -44,11 +44,11 @@ To move a group, you edit the destination parent group.
 >
 >For more information about group statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) and [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Select the destination group where you want to move the group, then click the Edit icon. </li> 
- <li value="4"> <p>In the <span class="bold">Edit Group</span> box that appears, under <span class="bold">Group Members and Group Administrators</span>, start typing the name of the group you want to move, then click it when it appears.</p> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Select the destination group where you want to move the group, then click the Edit icon. 
+1. In the `Edit Group` box that appears, under `Group Members and Group Administrators`, start typing the name of the group you want to move, then click it when it appears.
+1. Click `Save`.
 

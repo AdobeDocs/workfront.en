@@ -65,28 +65,27 @@ You can specify when proofs with an automated workflow are visible to users who 
 
 To configure when proofs with an automated workflow are visible to users:
 
-<ol> 
- <li value="1"> From Workfront, click the Main Menu , then click Proofing to access Workfront Proof. <br> </li> 
- <li value="2">Click <span class="bold">Settings</span> > <span class="bold">Account settings</span>, then click the <span class="bold">Settings</span> tab.</li> 
- <li value="3"> <p>In the&nbsp;<span class="bold">Sharing</span>&nbsp;section, enable or disable&nbsp;<span class="bold">Proof visibility based on stage activation</span>.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Disabled</span> (default)</td> 
-     <td>Proofs are visible to users at the time&nbsp;the proof is created.<br><p>Any user associated with a stage in the workflow for the proof can see the proof in search results immediately after the proof is created.</p></td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Enabled</span> </td> 
-     <td> <p>Proofs are visible to users only&nbsp;after the stage they are associated with becomes <span class="bold">active.</span></p> <note type="note">  
-       <ul> 
-        <li><em style="font-style: normal;">After you enable this option, existing proofs are still visible to users who could view it when it was created.</em> </li> 
-        <li><em style="font-style: normal;">After a user gains access to a version of a proof (because the stage the user is associated with becomes active), the user can see only the version where the stage is activated. If a previous version never reached the stage the user is associated with, the user cannot see that version of the proof.&nbsp;</em> </li> 
-       </ul> 
-      </note> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. From Workfront, click the Main Menu , then click Proofing to access Workfront Proof.   
+1. Click `Settings` > `Account settings`, then click the `Settings` tab.
+
+1. In the  `Sharing` section, enable or disable  `Proof visibility based on stage activation`.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Disabled</span> (default)</td> 
+      <td>Proofs are visible to users at the time&nbsp;the proof is created.<br><p>Any user associated with a stage in the workflow for the proof can see the proof in search results immediately after the proof is created.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Enabled</span> </td> 
+      <td> <p>Proofs are visible to users only&nbsp;after the stage they are associated with becomes <span class="bold">active.</span></p> <p>Note:   
+        <ul> 
+         <li><em style="font-style: normal;">After you enable this option, existing proofs are still visible to users who could view it when it was created.</em> </li> 
+         <li><em style="font-style: normal;">After a user gains access to a version of a proof (because the stage the user is associated with becomes active), the user can see only the version where the stage is activated. If a previous version never reached the stage the user is associated with, the user cannot see that version of the proof.&nbsp;</em> </li> 
+        </ul> </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 

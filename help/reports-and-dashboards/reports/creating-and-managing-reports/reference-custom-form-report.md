@@ -97,25 +97,27 @@ To display only the primary custom form associated with the object:
 
 To filter on all custom forms associated with the object type:
 
-<ol> 
- <li value="1"> <p>Begin creating a report as described in the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2"> <p>On the <span class="bold">Filters</span> tab, expand <span class="bold">Categories</span>, then click <span class="bold">Name</span>.<br></p> </li> 
- <li value="3"> <p>Select the condition qualifier that you want to use:</p> 
-  <ul> 
-   <li>Is Blank</li> 
-   <li>Is Not Blank</li> 
-   <li>Contains</li> 
-   <li>Does Not Contain</li> 
-   <li>Equal</li> 
-   <li>Not Equal<br></li> 
-  </ul> <p>For more information about each qualifier, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>. <br> <note type="note">  If the field you are filtering for has multiple options and you use the 
-    <span class="bold">Not Equal</span> or 
-    <span class="bold">Does Not Contain</span> qualifiers, this filters out the results that contain only the choice you specify. If the field contains additional options including the one specified, those results are not filtered from the report. This includes filtering for multiple Custom Forms if they are attached to the same object. 
-   </note></p> </li> 
- <li value="4"> <p>Begin typing the name of the custom form that you want to filter on, then click the name when it appears in the drop-down list.</p> </li> 
- <li value="5"> <p>(Optional) Click <span class="bold">Add another Filter Rule</span>, then repeat steps 2-4 to create additional filter rules.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Save+Close</span>.</p> </li> 
-</ol>
+1. Begin creating a report as described in the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. On the `Filters` tab, expand `Categories`, then click `Name`.  
+
+1. Select the condition qualifier that you want to use:
+
+  * Is Blank
+  * Is Not Blank
+  * Contains
+  * Does Not Contain
+  * Equal
+  * Not Equal
+
+   For more information about each qualifier, see the article [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+   >[!NOTE]
+   >
+   >If the field you are filtering for has multiple options and you use the `Not Equal` or `Does Not Contain` qualifiers, this filters out the results that contain only the choice you specify. If the field contains additional options including the one specified, those results are not filtered from the report. This includes filtering for multiple Custom Forms if they are attached to the same object.
+
+1. Begin typing the name of the custom form that you want to filter on, then click the name when it appears in the drop-down list.
+1. (Optional) Click `Add another Filter Rule`, then repeat steps 2-4 to create additional filter rules.
+1. Click `Save+Close`.
 
 To filter only on the primary custom form associated with the object type:
 

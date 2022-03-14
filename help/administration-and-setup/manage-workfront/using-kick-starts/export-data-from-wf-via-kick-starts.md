@@ -83,269 +83,298 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
 
 ## Export data via kick-starts
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">System</span> > <span class="bold">Kick-Starts,</span> then click <span class="bold">Export Data.</span></li> 
- <li value="3">Select the object&nbsp;you want to export.</li> 
- <li value="4"> <p>Click <span class="bold">More Options</span>&nbsp;to see the full list of objects.</p> <p>All&nbsp;of the objects listed here&nbsp;can be&nbsp;used to also import data into Workfront. </p> <p>The only exception is the <span class="bold">Access Levels</span> object. The Access Levels data sheet that is included in an export is provided for reference purposes only. It allows you to assign an access level to a new user account by ID. </p> <p>For more information about importing data into Workfront via kick-starts, see <a href="../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md" class="MCXref xref">Import data into Adobe Workfront via a Kick-Start template</a>The following is a list of all objects that can be exported through kick-starts:</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th> <p>Object</p> </th> 
-     <th> <p>Exported Sheets of the Excel File</p> </th> 
-     <th> <p>Export Format</p> </th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td scope="col" valign="top">Access Level</td> 
-     <td scope="col" valign="top">Access Level<br>Preferences</td> 
-     <td scope="col" valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top">Assignment</td> 
-     <td scope="col" valign="top">Assignment<br>Preferences</td> 
-     <td scope="col" valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top">Company</td> 
-     <td scope="col" valign="top"> Company<br>Preferences </td> 
-     <td scope="col" valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top">Email Template</td> 
-     <td scope="col" valign="top"> Email Template<br>Preferences </td> 
-     <td scope="col" valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top">Expense</td> 
-     <td valign="top"> Expense<br>Preferences </td> 
-     <td scope="col" valign="top">&nbsp;Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">External Page</td> 
-     <td valign="top"> External Page<br>Preferences </td> 
-     <td scope="col" valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Filter</td> 
-     <td valign="top"> Filter<br>Preferences </td> 
-     <td valign="top">Exports as a .zip file.&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Group</td> 
-     <td valign="top"> Group<br>Preferences&nbsp; </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Grouping</td> 
-     <td valign="top"> Grouping<br>Preferences </td> 
-     <td valign="top">Exports as a .zip file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Hour</td> 
-     <td valign="top"> Hour<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Issue</td> 
-     <td valign="top"> Issue<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Job Role</td> 
-     <td valign="top"> Job role<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Milestone Path</td> 
-     <td valign="top"> Milestone<br>Milestone Path<br>Preferences </td> 
-     <td valign="top"> Exports as Excel file.&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Note</td> 
-     <td valign="top"> Note<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Portfolio</td> 
-     <td valign="top"> Portfolio<br>Preferences&nbsp; </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Project</td> 
-     <td valign="top"> Queue<br>Project<br>Routing Rule<br>Queue Topic<br>Preferences </td> 
-     <td valign="top">&nbsp;Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Resource Estimate</td> 
-     <td valign="top"> Resource Estimate<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Resource Pool</td> 
-     <td valign="top"> Resource Pool<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Risk</td> 
-     <td valign="top"> Risk<br>Preferences&nbsp; </td> 
-     <td valign="top">Exports as Excel file.</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Risk Type</td> 
-     <td valign="top"> Risk Type<br>Preferences&nbsp; </td> 
-     <td valign="top"> Exports as Excel file.&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Scorecard</td> 
-     <td valign="top">Scorecard Questions<br>Scorecard Option<br>Scorecard<br>Preferences&nbsp;</td> 
-     <td valign="top">Exports as Excel file.&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Task</td> 
-     <td valign="top"> Task<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Template</td> 
-     <td valign="top"> Queue<br>Template<br>Routing Rule<br>Queue Topic<br>Preferences </td> 
-     <td valign="top"> Exports as Excel file.&nbsp;&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Template Assignment</td> 
-     <td valign="top"> Template Assignment<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Template Task</td> 
-     <td valign="top"> Template Task<br>Preferences </td> 
-     <td valign="top">Exports as Excel file.&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">Timesheet</td> 
-     <td valign="top"> Timesheet Profile<br>Timesheet<br>Preferences </td> 
-     <td valign="top"> Exports as Excel file.&nbsp;&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td valign="top">&nbsp;View </td> 
-     <td valign="top"> View<br>Preferences&nbsp; </td> 
-     <td valign="top">Exports as .zip file.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>Click <span class="bold">Download.&nbsp;</span></p> <p>The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a <span class="bold">Properties</span> sheet associated with every export.</p> <p>The <span class="bold">Dashboard</span>&nbsp;and <span class="bold">Report</span>&nbsp;options allow you to select specific dashboards and reports to include in the download. You can export only&nbsp;Dashboards which are shared system-wide.</p> <p>You cannot export matrix reports. For more information about matrix reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md" class="MCXref xref">Create a matrix report</a>.</p> <p>You can select up to 100 Dashboards and 100 Reports in a single export.</p> <p> <img src="assets/kickstart-export-350x381.png" style="width: 350;height: 381;"> </p> <p>You can export multiple objects at one time.</p> <p>By default, the following objects&nbsp;are displayed under the <span class="bold">What to include</span>&nbsp;label (prior to clicking <span class="bold">More Options</span>):</p> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th> <p><span class="bold">Object</span> </p> </th> 
-     <th> <p><span class="bold">Exported Sheets of the Excel File</span> </p> </th> 
-     <th> <p>&nbsp;<span class="bold">Export Format</span></p> </th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-     <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences<br></p> </td> 
-     <td scope="col" valign="top">&nbsp;Exports as .zip file.</td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-     <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
-     <td scope="col" valign="top">&nbsp;Exports as .zip file. </td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Approval</p> </td> 
-     <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Custom Data</p> </td> 
-     <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Expense Type</p> </td> 
-     <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td valign="top"> <p>Hour Type</p> </td> 
-     <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td valign="top"> <p>Team</p> </td> 
-     <td valign="top"> Team Member<br>Team<br>Preferences </td> 
-     <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td valign="top"> <p>User</p> </td> 
-     <td valign="top"> <p>User<br>Preferences</p> </td> 
-     <td valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th> <p><span class="bold">&nbsp;</span> </p> </th> 
-     <th> <p><span class="bold">Exported Sheets of the Excel File</span> </p> </th> 
-     <th> <p>&nbsp;<span class="bold">Export Format</span></p> </th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-     <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences<br></p> </td> 
-     <td scope="col" valign="top">&nbsp;Exports as .zip file.</td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-     <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
-     <td scope="col" valign="top">&nbsp;Exports as .zip file. </td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Approval</p> </td> 
-     <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Custom Data</p> </td> 
-     <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td scope="col" valign="top"> <p>Expense Type</p> </td> 
-     <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td valign="top"> <p>Hour Type</p> </td> 
-     <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
-     <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td valign="top"> <p>Team</p> </td> 
-     <td valign="top"> Team Member<br>Team<br>Preferences </td> 
-     <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td valign="top"> <p>User</p> </td> 
-     <td valign="top"> <p>User<br>Preferences</p> </td> 
-     <td valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6"> <p>(Recommended) Analyze the exported data to ensure that all the information you expect to see was exported.&nbsp;</p> <p>For large exports, Workfront works in the background to produce the Excel file and gives you a warning message about the delay. The kick-start file is emailed to you, when the download finishes.</p> <p> <img src="assets/large-kick-start-file-warning-350x65.png" style="width: 350;height: 65;"> </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Kick-Starts,` then click `Export Data.`
+
+1. Select the object&nbsp;you want to export.
+1. Click `More Options`&nbsp;to see the full list of objects.
+
+   All&nbsp;of the objects listed here&nbsp;can be&nbsp;used to also import data into Workfront.
+
+   The only exception is the `Access Levels` object. The Access Levels data sheet that is included in an export is provided for reference purposes only. It allows you to assign an access level to a new user account by ID.
+
+   For more information about importing data into Workfront via kick-starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)The following is a list of all objects that can be exported through kick-starts:
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p>Object</p> </th> 
+      <th> <p>Exported Sheets of the Excel File</p> </th> 
+      <th> <p>Export Format</p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top">Access Level</td> 
+      <td scope="col" valign="top">Access Level<br>Preferences</td> 
+      <td scope="col" valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top">Assignment</td> 
+      <td scope="col" valign="top">Assignment<br>Preferences</td> 
+      <td scope="col" valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top">Company</td> 
+      <td scope="col" valign="top"> Company<br>Preferences </td> 
+      <td scope="col" valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top">Email Template</td> 
+      <td scope="col" valign="top"> Email Template<br>Preferences </td> 
+      <td scope="col" valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top">Expense</td> 
+      <td valign="top"> Expense<br>Preferences </td> 
+      <td scope="col" valign="top">&nbsp;Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">External Page</td> 
+      <td valign="top"> External Page<br>Preferences </td> 
+      <td scope="col" valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Filter</td> 
+      <td valign="top"> Filter<br>Preferences </td> 
+      <td valign="top">Exports as a .zip file.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Group</td> 
+      <td valign="top"> Group<br>Preferences&nbsp; </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Grouping</td> 
+      <td valign="top"> Grouping<br>Preferences </td> 
+      <td valign="top">Exports as a .zip file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Hour</td> 
+      <td valign="top"> Hour<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Issue</td> 
+      <td valign="top"> Issue<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Job Role</td> 
+      <td valign="top"> Job role<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Milestone Path</td> 
+      <td valign="top"> Milestone<br>Milestone Path<br>Preferences </td> 
+      <td valign="top"> Exports as Excel file.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Note</td> 
+      <td valign="top"> Note<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Portfolio</td> 
+      <td valign="top"> Portfolio<br>Preferences&nbsp; </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Project</td> 
+      <td valign="top"> Queue<br>Project<br>Routing Rule<br>Queue Topic<br>Preferences </td> 
+      <td valign="top">&nbsp;Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Resource Estimate</td> 
+      <td valign="top"> Resource Estimate<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Resource Pool</td> 
+      <td valign="top"> Resource Pool<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Risk</td> 
+      <td valign="top"> Risk<br>Preferences&nbsp; </td> 
+      <td valign="top">Exports as Excel file.</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Risk Type</td> 
+      <td valign="top"> Risk Type<br>Preferences&nbsp; </td> 
+      <td valign="top"> Exports as Excel file.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Scorecard</td> 
+      <td valign="top">Scorecard Questions<br>Scorecard Option<br>Scorecard<br>Preferences&nbsp;</td> 
+      <td valign="top">Exports as Excel file.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Task</td> 
+      <td valign="top"> Task<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Template</td> 
+      <td valign="top"> Queue<br>Template<br>Routing Rule<br>Queue Topic<br>Preferences </td> 
+      <td valign="top"> Exports as Excel file.&nbsp;&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Template Assignment</td> 
+      <td valign="top"> Template Assignment<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Template Task</td> 
+      <td valign="top"> Template Task<br>Preferences </td> 
+      <td valign="top">Exports as Excel file.&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">Timesheet</td> 
+      <td valign="top"> Timesheet Profile<br>Timesheet<br>Preferences </td> 
+      <td valign="top"> Exports as Excel file.&nbsp;&nbsp;</td> 
+     </tr> 
+     <tr> 
+      <td valign="top">&nbsp;View </td> 
+      <td valign="top"> View<br>Preferences&nbsp; </td> 
+      <td valign="top">Exports as .zip file.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Download.`
+
+   The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a `Properties` sheet associated with every export.
+
+   The `Dashboard` and `Report`&nbsp;options allow you to select specific dashboards and reports to include in the download. You can export only&nbsp;Dashboards which are shared system-wide.
+
+   You cannot export matrix reports. For more information about matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   You can select up to 100 Dashboards and 100 Reports in a single export.
+
+   ![](assets/kickstart-export-350x381.png)
+
+   You can export multiple objects at one time.
+
+   By default, the following objects are displayed under the `What to include` label (prior to clicking `More Options`):
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><span class="bold">Object</span> </p> </th> 
+      <th> <p><span class="bold">Exported Sheets of the Excel File</span> </p> </th> 
+      <th> <p>&nbsp;<span class="bold">Export Format</span></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences<br></p> </td> 
+      <td scope="col" valign="top">&nbsp;Exports as .zip file.</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
+      <td scope="col" valign="top">&nbsp;Exports as .zip file. </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Approval</p> </td> 
+      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
+      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Hour Type</p> </td> 
+      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Team</p> </td> 
+      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>User</p> </td> 
+      <td valign="top"> <p>User<br>Preferences</p> </td> 
+      <td valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <table cellspacing="15"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><span class="bold">&nbsp;</span> </p> </th> 
+      <th> <p><span class="bold">Exported Sheets of the Excel File</span> </p> </th> 
+      <th> <p>&nbsp;<span class="bold">Export Format</span></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences<br></p> </td> 
+      <td scope="col" valign="top">&nbsp;Exports as .zip file.</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
+      <td scope="col" valign="top">&nbsp;Exports as .zip file. </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Approval</p> </td> 
+      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
+      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Hour Type</p> </td> 
+      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Team</p> </td> 
+      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>User</p> </td> 
+      <td valign="top"> <p>User<br>Preferences</p> </td> 
+      <td valign="top"> <p>&nbsp;Exports as Excel file.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Recommended) Analyze the exported data to ensure that all the information you expect to see was exported.&nbsp;
+
+   For large exports, Workfront works in the background to produce the Excel file and gives you a warning message about the delay. The kick-start file is emailed to you, when the download finishes.
+
+   ![](assets/large-kick-start-file-warning-350x65.png)
 

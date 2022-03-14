@@ -54,32 +54,31 @@ To use ServiceNow modules, you must have a ServiceNow account.
 
 To create a connection for your ServiceNow modules:
 
-<ol> 
- <li value="1">Click <span class="bold">Add</span> next to the Connection box when you begin configuring the first ServiceNow module.</li> 
- <li value="2"> <p>Enter the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Connection name</p> </td> 
-     <td>Enter a name for the new ServiceNow connection</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Username</p> </td> 
-     <td>Enter your ServiceNow username.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Password</p> </td> 
-     <td>Enter your ServiceNow password.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Instance</p> </td> 
-     <td> <p>Enter the address of your ServiceNow account without <code>https://</code> (usually <code><company>.service-now.com</code>).</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click `Add` next to the Connection box when you begin configuring the first ServiceNow module.
+1. Enter the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Connection name</p> </td> 
+      <td>Enter a name for the new ServiceNow connection</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Username</p> </td> 
+      <td>Enter your ServiceNow username.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Password</p> </td> 
+      <td>Enter your ServiceNow password.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Instance</p> </td> 
+      <td> <p>Enter the address of your ServiceNow account without <code>https://</code> (usually <code>&lt;company&gt;.service-now.com</code>).</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## ServiceNow modules and their fields
 

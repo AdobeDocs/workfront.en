@@ -56,36 +56,45 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 
 ## How-to steps
 
-<ol> 
- <li value="1">Go to a list or a report that contains the filter that you want to customize.</li> 
- <li value="2"> Click the Filter icon . </li> 
- <li value="3"> Click New Filter at the top of the list of filters Or Hover over the filter you want to modify and click the Edit icon . <p>The interface builder for customizing the Filter launches.</p> </li> 
- <li value="4">Do any of the following:<br> 
-  <ul> 
-   <li><p>Modify existing filter rules by clicking the existing rule and selecting a new option.</p></li> 
-   <li><p>Add a filter rule by clicking <span class="bold">Add another Filter Rule</span>, begin typing the name of the option for which you want to add a rule in the <span class="bold">Start typing field name</span> box, then click it when it appears in the drop-down list. </p><p>Fields associated with the object of your filter are listed in the <span class="bold">Start typing field name</span> box. </p></li> 
-   <li><p>Click <span class="bold">AND</span> or <span class="bold">OR</span> when adding a new filter rule.<br>When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p> <note type="note">  
-     <p>When you connect a group of AND&nbsp;statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. </p> 
-     <p><img src="assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-350x163.png" style="width: 350;height: 163;"></p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>">  
-      <p>When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:</p> 
-      <pre>Task: Name Contains Marketing</pre> 
-      <pre>AND</pre> 
-      <pre>Project: Status Equals Current</pre> 
-      <pre>OR</pre> 
-      <pre>Task: Name Contains Marketing</pre> 
-      <pre>AND</pre> 
-      <pre>Project:&nbsp;Status Equal Planning</pre> 
-      <p>Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group. </p> 
-     </div> 
-    </note></li> 
-   <li>Delete an existing filter rule by clicking the 'X' icon.</li> 
-  </ul></li> 
- <li value="5"> <p>(Optional) Click <span class="bold">Switch to Text Mode</span> to add a filter using the Text Mode interface.</p> <p>For more information about creating a filter using the text mode interface, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>. </p> </li> 
- <li value="6">Click <span class="bold">Save Filter</span> to replace the current Filter with your changes.</li> 
- <li value="7"> <p>(Optional) If you no longer want to display a filter in the <span class="bold">Filter</span> drop-down menu, click <span class="bold">Remove Filter</span>.</p> <p>The My Filters dialog box is displayed.</p> <p>All filters that you have rights to remove are available to remove. Other filters are displayed as dimmed.</p> </li> 
- <li value="8">Click the (<span class="bold">x</span>) next to any filters you want to remove, then click <span class="bold">Done</span>.</li> 
-</ol>
+1. Go to a list or a report that contains the filter that you want to customize.
+1. Click the Filter icon . 
+1. Click New Filter at the top of the list of filters Or Hover over the filter you want to modify and click the Edit icon . The interface builder for customizing the Filter launches.
+1. Do any of the following:
+
+  * Modify existing filter rules by clicking the existing rule and selecting a new option.
+  * Add a filter rule by clicking `Add another Filter Rule`, begin typing the name of the option for which you want to add a rule in the `Start typing field name` box, then click it when it appears in the drop-down list.
+
+    Fields associated with the object of your filter are listed in the `Start typing field name` box. 
+  
+  * Click `AND` or `OR` when adding a new filter rule.  
+    When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+    >[!NOTE]
+    >
+    >When you connect a group of AND&nbsp;statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
+    >
+    >
+    >![](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-350x163.png)    >
+    >
+
+    >
+    >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
+    ><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project: Status Equals Current</pre><pre>OR</pre><pre>Task: Name Contains Marketing</pre><pre>AND</pre><pre>Project:&nbsp;Status Equal Planning</pre>Although Task: Name Contains "marketing" does not change between the two AND filter groups, it must be repeated in the second group.
+
+  * Delete an existing filter rule by clicking the 'X' icon.
+
+1. (Optional) Click `Switch to Text Mode` to add a filter using the Text Mode interface.
+
+   For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md). 
+
+1. Click `Save Filter` to replace the current Filter with your changes.
+1. (Optional) If you no longer want to display a filter in the `Filter` drop-down menu, click `Remove Filter`.
+
+   The My Filters dialog box is displayed.
+
+   All filters that you have rights to remove are available to remove. Other filters are displayed as dimmed.
+
+1. Click the ( `x`) next to any filters you want to remove, then click `Done`.
 
 ## Additional information
 

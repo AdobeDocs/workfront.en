@@ -37,11 +37,25 @@ You must have the following access to perform the steps in this article:
 
 ## Create the event subscription
 
-<ol> 
- <li value="1"> <p>Navigate to <span class="uitext">Tools → Cloud Services → Workfront Tools Configuration</span>. Select the configuration and click <span class="uitext">Properties</span>.<br></p> <p> <img src="assets/tools-config-350x280.png" style="width: 350;height: 280;"> </p> <p> <img src="assets/wf-tools-350x286.png" style="width: 350;height: 286;"> </p> </li> 
- <li value="2"> <p>Select the <span class="uitext">Event Subscriptions</span> tab. Under the <span class="uitext">Create a new event subscription</span> menu, select <span class="uitext">update </span>from the Event dropdown and under the Object dropdown select <span class="uitext">task </span>if you want to create content fragments from a task custom form or select <span class="uitext">issue </span>if you want to create content fragments from an issue custom form.</p> <p> <img src="assets/event-sub--objects-350x254.png" style="width: 350;height: 254;"> </p> </li> 
- <li value="3"> <p>Next, navigate back to <span class="uitext">Tools → Assets → Content Fragment Models</span>. Select an existing Content Fragment Model or create a new model.</p> <p> <img src="assets/contelt-frag-models-350x297.png" style="width: 350;height: 297;"> </p> </li> 
- <li value="4"> <p>Select an existing data field or add a new field. With the field selected, navigate to the Workfront Custom Form Field drop-down menu and select the custom form field you’d like to map.</p> <p> <img src="assets/form-example-350x286.png" style="width: 350;height: 286;"> </p> </li> 
- <li value="5"> <p>After you’ve mapped your desired fields, return to the <span class="uitext">Tools → Cloud Services → Workfront Tools Configuration</span>.</p> <p> <img src="assets/tools-config-350x280.png" style="width: 350;height: 280;"> </p> </li> 
-</ol>
+1. Navigate to `Tools → Cloud Services → Workfront Tools Configuration`. Select the configuration and click `Properties`.
+
+   ![](assets/tools-config-350x280.png)
+
+   ![](assets/wf-tools-350x286.png)
+
+1. Select the `Event Subscriptions` tab. Under the `Create a new event subscription` menu, select `update`from the Event dropdown and under the Object dropdown select `task`if you want to create content fragments from a task custom form or select `issue`if you want to create content fragments from an issue custom form.
+
+   ![](assets/event-sub--objects-350x254.png)
+
+1. Next, navigate back to `Tools → Assets → Content Fragment Models`. Select an existing Content Fragment Model or create a new model.
+
+   ![](assets/contelt-frag-models-350x297.png)
+
+1. Select an existing data field or add a new field. With the field selected, navigate to the Workfront Custom Form Field drop-down menu and select the custom form field you’d like to map.
+
+   ![](assets/form-example-350x286.png)
+
+1. After you’ve mapped your desired fields, return to the `Tools → Cloud Services → Workfront Tools Configuration`.
+
+   ![](assets/tools-config-350x280.png)
 

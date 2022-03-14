@@ -44,22 +44,23 @@ You can add reviewers to a proof when you are creating a new proof or uploading 
 
 ## Adding Reviewers to an Existing Proof
 
-<ol> 
- <li value="1">On the Dashboard or any list view, click the <span class="bold">More</span> button dropdown to the right of the proof.<br><img src="assets/more-button-small.png"></li> 
- <li value="2">Click <span class="bold">Share</span> in the drop-down menu.</li> 
- <li value="3">In the <span class="bold">Share this version</span> page that appears, add reviewers by adding their email addresses.<br>You can also do any of the following:
-  <ul>
-   <li>Remove all reviewers with one click (4).</li>
-   <li>Remove each reviewer individually (5).</li>
-   <li>Set the email alert for every reviewer (6).</li>
-   <li>Set the proof role for every reviewer (7).</li>
-   <li>Set a deadline for the reviewers (8).</li>
-   <li>Decide if you would like your reviewers to receive the New proof email (9).</li>
-   <li>Include or discard a custom message (10).</li>
-   <li>Add text to the body and the subject line of the custom message (11).</li>
-  </ul></li> 
- <li value="4">Click <span class="bold">Share.</span></li> 
- <p> <img src="assets/share-this-version-page-350x330.png" alt="Share_this_version_page.png" style="width: 350;height: 330;"> </p> 
-</ol>
+1. On the Dashboard or any list view, click the `More` button dropdown to the right of the proof.  
+   ![](assets/more-button-small.png)
+
+1. Click `Share` in the drop-down menu.
+1. In the `Share this version` page that appears, add reviewers by adding their email addresses.  
+   You can also do any of the following:
+
+  * Remove all reviewers with one click (4).
+  * Remove each reviewer individually (5).
+  * Set the email alert for every reviewer (6).
+  * Set the proof role for every reviewer (7).
+  * Set a deadline for the reviewers (8).
+  * Decide if you would like your reviewers to receive the New proof email (9).
+  * Include or discard a custom message (10).
+  * Add text to the body and the subject line of the custom message (11).
+
+1. Click `Share.`
+1. ![Share_this_version_page.png](assets/share-this-version-page-350x330.png)
 
 &nbsp;

@@ -45,20 +45,27 @@ You must have the following access to perform the steps in this article:
 
 ## Chain tasks to create predecessor relationships
 
-<ol> 
- <li value="1">Go to the project that contains the tasks that you want to chain. </li> 
- <li value="2"> <p> Click Tasks in the left panel.</p> </li> 
- <li value="3"> <p>(Conditional) Select <span class="bold">Autosave</span> in the upper-right corner of the task list, then select the tasks that you want to chain. </p>  <note type="important">
-   Chaining tasks in a task list is not possible when you manually save changes to tasks or use the Timeline Planning mode for saving tasks. 
-  </note> </li> 
- <li value="4"> <p>Right-click the selected tasks, then click <span class="bold">Chain</span>. </p> </li> 
- <li value="5">Select from the following dependency types: 
-  <ul>
-   <li><span class="bold">Finish-Start</span></li>
-   <li><span class="bold">Finish-Finish</span></li>
-   <li><span class="bold">Start-Start</span></li>
-   <li><span class="bold">Start-Finish</span></li>
-  </ul> For more information about predecessor dependency types, see <a href="../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md" class="MCXref xref">Overview of task dependency types</a>.</li> 
- <li value="6"> <p>(Optional) Click <span class="bold">Unchain</span> if some of the tasks have been previously chained. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span> Only sequential predecessors are removed by using the unchain option when bulk editing tasks. </p> <p>Your selected tasks are now linked by predecessor relationships. </p> </li> 
-</ol>
+1. Go to the project that contains the tasks that you want to chain. 
+1. Click Tasks in the left panel.
+1. (Conditional) Select `Autosave` in the upper-right corner of the task list, then select the tasks that you want to chain.
+
+   >[!IMPORTANT]
+   >
+   >Chaining tasks in a task list is not possible when you manually save changes to tasks or use the Timeline Planning mode for saving tasks.
+
+1. Right-click the selected tasks, then click `Chain`. 
+1. Select from the following dependency types:
+
+  * `Finish-Start`
+  * `Finish-Finish`
+  * `Start-Start`
+  * `Start-Finish`
+
+   For more information about predecessor dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+1. (Optional) Click `Unchain` if some of the tasks have been previously chained.
+
+   ` `**Warning: **`` Only sequential predecessors are removed by using the unchain option when bulk editing tasks.
+
+   Your selected tasks are now linked by predecessor relationships.
 

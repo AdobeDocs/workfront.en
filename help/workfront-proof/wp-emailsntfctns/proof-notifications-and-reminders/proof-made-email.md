@@ -44,11 +44,10 @@ If you don't want this link to appear on your recipient's email, you should disa
 
 ## Disabling the Proof Made Email
 
-<ol> 
- <li value="1">Click <span class="bold">Settings</span> > <span class="bold">Personal settings</span>, open the <span class="bold">Proofing defaults</span> tab, then click <span class="bold">Disable</span> next to <span class="bold">Email confirmation when proofs are ready</span>.</li> 
- <p> <img src="assets/proof-made---proofing-defaults-350x103.png" alt="Proof_Made_-_proofing_defaults.png" style="width: 350;height: 103;"> </p> 
- <p>See <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>&nbsp;for more detailed instructions.</p> <note type="note">
-  If the email notifications are disabled as a default in the&nbsp;Account settings,&nbsp;the Creator or Owner of the proof won't receive any&nbsp;Proof Made&nbsp;or&nbsp;New Proof&nbsp;emails, even if this is enabled in their&nbsp;Personal settings&nbsp;and the Notify people by email box is checked on the&nbsp;New proof page.&nbsp;
- </note> 
-</ol>
+1. Click `Settings` > `Personal settings`, open the `Proofing defaults` tab, then click `Disable` next to `Email confirmation when proofs are ready`.
+
+1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
+
+1. See [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)&nbsp;for more detailed instructions.
+1. If the email notifications are disabled as a default in the&nbsp;Account settings,&nbsp;the Creator or Owner of the proof won't receive any&nbsp;Proof Made&nbsp;or&nbsp;New Proof&nbsp;emails, even if this is enabled in their&nbsp;Personal settings&nbsp;and the Notify people by email box is checked on the&nbsp;New proof page.&nbsp;
 

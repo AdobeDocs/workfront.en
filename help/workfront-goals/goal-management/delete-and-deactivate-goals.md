@@ -60,30 +60,41 @@ You can deactivate a goal that is no longer relevant and that you might want to 
 
 Remember the following when deactivating goals:
 
-<ul> 
- <li> <p>You can only deactivate goals in an Active status. For information about activating a goal, see <a href="../../workfront-goals/goal-management/activate-goals.md" class="MCXref xref">Activate goals in Adobe Workfront Goals</a>.</p> <note type="tip">
-   You cannot deactivate goals in a Draft status. 
-  </note> </li> 
- <li>Workfront stops calculating the progress of deactivated goals. </li> 
- <li>Inactive goals no longer display on or are taken into account in the following areas of Workfront Goals:
-  <ul>
-   <li>The Check-in section. For information about the Check-in page, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Check in on goals in Adobe Workfront Goals</a>. </li>
-   <li>The Graphs section. For information about Workfront Goals graphs, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md" class="MCXref xref">Review graphs to understand goal progress trends in Adobe Workfront Goals</a>.</li>
-  </ul></li> 
- <li>You can no longer make updates on deactivated goals. </li> 
- <li>You can edit information about the goal and its alignment. </li> 
- <li>You can reactivate a previously deactivated goal. </li> 
-</ul>
+* You can only deactivate goals in an Active status. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
+
+  >[!TIP]
+  >
+  >You cannot deactivate goals in a Draft status.
+
+* Workfront stops calculating the progress of deactivated goals. 
+* Inactive goals no longer display on or are taken into account in the following areas of Workfront Goals:
+
+  * The Check-in section. For information about the Check-in page, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). 
+  * The Graphs section. For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+
+* You can no longer make updates on deactivated goals. 
+* You can edit information about the goal and its alignment. 
+* You can reactivate a previously deactivated goal.
 
 ### Deactivate goals
 
-<ol> 
- <li value="1"> <p>Go to the goal that you want to deactivate. </p> <p>For example, go to the Goal List and click the name of a goal. </p> <p>The Goal Details panel opens on the right. </p> <note type="tip">
-   You can open goals from any sections of Workfront Goals.
-  </note> </li> 
- <li value="2"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png"> , </span>then click <span class="bold">Deactivate</span>. </p> <p> <img src="assets/deactivate-goal-highlighted.png"> </p> <p>The goal status changes to Inactive. </p> </li> 
- <li value="3">Click the <span class="bold">X</span> icon in the upper-right to close Goal Details. </li> 
-</ol>
+1. Go to the goal that you want to deactivate.
+
+   For example, go to the Goal List and click the name of a goal.
+
+   The Goal Details panel opens on the right.
+
+   >[!TIP]
+   >
+   >You can open goals from any sections of Workfront Goals.
+
+1. Click the ` `More icon` ![](assets/more-icon.png) ,`then click `Deactivate`.
+
+   ![](assets/deactivate-goal-highlighted.png)
+
+   The goal status changes to Inactive. 
+
+1. Click the `X` icon in the upper-right to close Goal Details.
 
 ## Delete goals
 
@@ -101,9 +112,17 @@ You can delete goals that are no longer or might never be relevant.
 
 ### Delete goals
 
-<ol> 
- <li value="1"> <p>Go to the goal that you want to delete. </p> <p>For example, go to the Goal List and click a goal. </p> <p>The Goal Details panel opens on the right. </p> </li> 
- <li value="2"> <p>Click the <span><span class="bold">More icon</span> <img src="assets/more-icon.png">, </span>then click <span class="bold">Delete</span>. </p> <p> <img src="assets/delete-goal-highlighted.png" class="preview"> </p> </li> 
- <li value="3"> <p>Click <span class="bold">Yes, delete</span>.</p> <p>The goal is removed from the Goal List and cannot be recovered. </p> </li> 
-</ol>
+1. Go to the goal that you want to delete.
+
+   For example, go to the Goal List and click a goal.
+
+   The Goal Details panel opens on the right. 
+
+1. Click the ` `More icon` ![](assets/more-icon.png),`then click `Delete`.
+
+   ![](assets/delete-goal-highlighted.png)
+
+1. Click `Yes, delete`.
+
+   The goal is removed from the Goal List and cannot be recovered.
 

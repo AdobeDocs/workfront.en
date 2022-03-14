@@ -98,17 +98,20 @@ For more information, see [Run and deliver a report with the access rights of an
 
 To see all tasks or issues assigned to you, whether you are the Owner (or Primary Assignee) or not, use the following filter in a task or issue report:
 
-<ol> 
- <li value="1">Access a task or issue report.</li> 
- <li value="2">On the <span class="bold">Filters</span> tab, click <span class="bold">Add a Filter Rule</span>.</li> 
- <li value="3">In the <span class="bold">Start typing field name ...</span> field, start typing <span class="bold">Assignment Users Name</span>, then select it when it appears in the list.<br><note type="note">
-    Do not use the 
-   <span class="bold">Assigned To Name</span> field, as this filters only for the tasks and issues for which you are the Primary Assignee, or Owner.
-  </note></li> 
- <li value="4">Select the <span class="bold">Equal</span> modifier.</li> 
- <li value="5">Start typing <em>$$USER.ID</em> in the textbox and select it from the drop-down list that appears.<br>This ensures that you see all tasks and issues that are assigned to the logged in user. You can replace the wildcard with a specific user name.<br></li> 
- <li value="6">Click <span class="bold">Save + Close</span>.</li> 
-</ol>
+1. Access a task or issue report.
+1. On the `Filters` tab, click `Add a Filter Rule`.
+
+1. In the `Start typing field name ...` field, start typing `Assignment Users Name`, then select it when it appears in the list.
+
+   >[!NOTE]
+   >
+   >Do not use the `Assigned To Name` field, as this filters only for the tasks and issues for which you are the Primary Assignee, or Owner.
+
+1. Select the `Equal` modifier.
+1. Start typing *$$USER.ID* in the textbox and select it from the drop-down list that appears.  
+   This ensures that you see all tasks and issues that are assigned to the logged in user. You can replace the wildcard with a specific user name.  
+
+1. Click `Save + Close`.
 
 ## Why are the Add Issues/Add Tasks links not appearing at the bottom of my Issues and Tasks lists on a project?
 

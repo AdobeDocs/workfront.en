@@ -53,39 +53,33 @@ You must have the following:
 
 You must have the following:
 
-<ul> 
- <li> <p>Tasks or issues assigned to job roles or to users associated with a job role. </p> <note type="tip">
-   If the tasks or issues are unassigned, assigned to teams, or are assigned to users with no job role, the Planned Hours of the project is zero in the Role Allocation panel. 
-  </note> </li> 
- <li> <p>Tasks and issues with a Duration higher than zero. </p> </li> 
-</ul>
+* Tasks or issues assigned to job roles or to users associated with a job role.
+
+  >[!TIP]
+  >
+  >If the tasks or issues are unassigned, assigned to teams, or are assigned to users with no job role, the Planned Hours of the project is zero in the Role Allocation panel.
+
+* Tasks and issues with a Duration higher than zero.
 
 ## View project Planned Hours in the Role Allocation panel
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Projects. </li> 
- <li value="2"> <p>Click the name of a project to access it.&nbsp;This opens the Project page. </p> </li> 
- <li value="3"> Click one of the following in the left panel: 
-  <ul> 
-   <li> Tasks </li> 
-   <li> Workload Balancer You might need to click Scheduling > Switch to Workload Balancer. </li> 
-  </ul> </li> 
- <li value="4"> <p>Click the <span class="bold">Show role allocation</span> icon <img src="assets/show-role-allocation-icon.png">. </p> <p>The Role Allocation panel displays.</p> <p> <img src="assets/role-allocation-panel-planned-hours-only-350x316.png" style="width: 350;height: 316;"> </p> </li> 
- <li value="5"> <p>Review the following information in the <span class="bold">Role Allocation</span> panel:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Job Role</td> 
-     <td>Job roles assigned to tasks and issues on the project. These can be job roles assigned directly to tasks and issues or job roles associated with users assigned to tasks and issues on the project. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Planned Hours</td> 
-     <td>The total number of Planned Hours from tasks and issues assigned to job roles or users associated with a job role on the project. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Projects. 
+1. Click the name of a project to access it.&nbsp;This opens the Project page. 
+1. Click one of the following in the left panel:
+
+  * Tasks 
+  * Workload Balancer You might need to click Scheduling > Switch to Workload Balancer.
+
+1. Click the `Show role allocation` icon ![](assets/show-role-allocation-icon.png).
+
+   The Role Allocation panel displays.
+
+   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+
+1. Review the following information in the `Role Allocation` panel:
+
+   | Job Role |Job roles assigned to tasks and issues on the project. These can be job roles assigned directly to tasks and issues or job roles associated with users assigned to tasks and issues on the project.  |
+   |---|---|
+   | Planned Hours |The total number of Planned Hours from tasks and issues assigned to job roles or users associated with a job role on the project.  |
 
 &nbsp;

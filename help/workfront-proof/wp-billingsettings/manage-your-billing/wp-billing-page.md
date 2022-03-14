@@ -20,19 +20,19 @@ To access the Billing page, open the `Settings` menu it the top right of the scr
 
 The Billing page contains the following:
 
-<ul> 
- <li>Account name (1)</li> 
- <li>Accounts list (e.g. if you have Satellite accounts)(2)</li> 
- <li>Change plan (3)</li> 
- <li>Change payment details (4)</li> 
- <li>New satellite account (5)</li> 
- <li>Close account (6)</li> 
- <li>Current plan information (7)</li> 
- <li>Billing contact and address (8)</li> 
- <li>Usage statistics (9)</li> 
- <li>Billing history (10)</li> 
- <li> <p>Billing activity (11)</p> <p> <img src="assets/billing-page-350x315.jpg" alt="Billing_page.jpg" style="width: 350;height: 315;"> </p> </li> 
-</ul>
+* Account name (1)
+* Accounts list (e.g. if you have Satellite accounts)(2)
+* Change plan (3)
+* Change payment details (4)
+* New satellite account (5)
+* Close account (6)
+* Current plan information (7)
+* Billing contact and address (8)
+* Usage statistics (9)
+* Billing history (10)
+* Billing activity (11)
+
+  ![Billing_page.jpg](assets/billing-page-350x315.jpg)
 
 ## Current Plan
 
@@ -60,13 +60,13 @@ The Billing contact can be selected only from the users set up as the Billing Ad
 
 This includes the following notification emails:
 
-<ul> 
- <li>Proof usage</li> 
- <li>Invoices</li> 
- <li>Downgrade</li> 
- <li>Late payment/Account suspension alert</li> 
- <li> <p>Credit card failure</p> <p> <img src="assets/billin-cc-350x103.png" alt="Billin_CC.png" style="width: 350;height: 103;"> </p> </li> 
-</ul>
+* Proof usage
+* Invoices
+* Downgrade
+* Late payment/Account suspension alert
+* Credit card failure
+
+  ![Billin_CC.png](assets/billin-cc-350x103.png)
 
 The Billing CC field also allows you to add an email address to be copied on all billing-related emails. Click on the filed to activate incline editing and enter an email address of your choice (this can be an existing user's email address too).
 

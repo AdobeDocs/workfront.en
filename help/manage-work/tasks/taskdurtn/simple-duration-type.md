@@ -17,13 +17,16 @@ Your Workfront `or a group administrator` can set the default Duration&nbsp;Type
 
 The following things occur when a task has a Duration Type of Simple:
 
-<ul> 
- <li> <p>Project managers can modify the both the Duration and the Planned Hours of a task when modifying how those hours should be distributed among assignees. </p> <p>For information, see <a href="../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md" class="MCXref xref" xrefformat="{para}">Update the Planned Hours and Duration of a task with a Simple Duration Type</a>.</p> <note type="important">
-   When you first create a task and assign the Simple Duration&nbsp;Type to it and do not specify a Duration, Workfront calculates the Duration of the task based on the amount of Planned Hours you specify for the task. If you manually modify the Duration of a Simple Duration task, Workfront stops matching the Planned Hours to the Duration because it assumes you want to define them manually yourself. 
-  </note> </li> 
- <li>Allocation percent is hidden and allocation hours are available to be edited, instead.</li> 
- <li>All new customers have the system-level Duration Type set to Simple. <a name="editing-planned-hours-for-simple-duration-tasks"></a></li> 
-</ul>
+* Project managers can modify the both the Duration and the Planned Hours of a task when modifying how those hours should be distributed among assignees.
+
+  For information, see [Update the Planned Hours and Duration of a task with a Simple Duration Type](../../../manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md).
+
+  >[!IMPORTANT]
+  >
+  >When you first create a task and assign the Simple Duration&nbsp;Type to it and do not specify a Duration, Workfront calculates the Duration of the task based on the amount of Planned Hours you specify for the task. If you manually modify the Duration of a Simple Duration task, Workfront stops matching the Planned Hours to the Duration because it assumes you want to define them manually yourself.
+
+* Allocation percent is hidden and allocation hours are available to be edited, instead.
+* All new customers have the system-level Duration Type set to Simple.
 
 ## Change the Duration Type of a task to Simple
 

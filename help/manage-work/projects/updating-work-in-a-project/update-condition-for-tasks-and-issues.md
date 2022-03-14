@@ -68,16 +68,25 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 To manually set the Condition of a task or an issue:
 
-<ol> 
- <li value="1"> <p>Go to a task or issue assigned to you for which you want to set the Condition.</p> <p>Or</p> <p>Go to a list of tasks or issues that you have Manage permissions to, but are not assigned to you. </p> </li> 
- <li value="2">Change the Condition of the issue or task as follows:
-  <ul>
-   <li><p> If you are assigned to the task or issue and have Manage permissions to it, on the <span class="bold">Updates</span> tab, click <span class="bold">Start a new update</span>, select the <span class="bold">Condition</span> that best reflects how the task is going, type your reason for changing the Condition in the <span class="bold">Start a new update</span> area (optional) , then click <span class="bold">Update</span>.</p><p></p></li>
-   <li><p> If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <span class="bold">Condition</span> column to any view you use in a task or issue list, then set the <span class="bold">Condition</span> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p><note type="note">
-     <span>Conditions can be customized for your environment, so you</span>
-     <span data-mc-edit-date="2019-06-18T10:07:04.7449325-04:00" data-mc-editor="alinawilson" data-mc-comment="Remove draft with 19.3 and add link to COurtney's article??" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-06-18T10:06:50.3739957-04:00">may</span>
-     <span> find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md" class="MCXref xref">Create or edit a custom condition</a>.</span>
-    </note><p>For information about the additional functionality that is available when updating a work item, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</p></li>
-  </ul></li> 
-</ol>
+1. Go to a task or issue assigned to you for which you want to set the Condition.
+
+   Or
+
+   Go to a list of tasks or issues that you have Manage permissions to, but are not assigned to you. 
+
+1. Change the Condition of the issue or task as follows:
+
+  * If you are assigned to the task or issue and have Manage permissions to it, on the `Updates` tab, click `Start a new update`, select the `Condition` that best reflects how the task is going, type your reason for changing the Condition in the `Start a new update` area (optional) , then click `Update`.
+
+  * If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the `Condition` column to any view you use in a task or issue list, then set the `Condition` in inline edit and press Enter.
+
+    ![](assets/change-condition-in-list-view-350x142.png)
+
+    For information about adding a column to a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+    >[!NOTE]
+    >
+    >`Conditions can be customized for your environment, so you` `may` ` find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).`
+
+    For information about the additional functionality that is available when updating a work item, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 

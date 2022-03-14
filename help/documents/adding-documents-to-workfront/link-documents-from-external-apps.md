@@ -105,39 +105,82 @@ You can link documents to Workfront from an external application such as Google 
 >
 >Dropbox stores documents based on the&nbsp;file path. Because of this, if a&nbsp;file linked from Dropbox is moved, renamed, or deleted, it becomes inaccessible in Workfront.
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span> area in Workfront where you want the document.</li> 
- <li value="2"> <p>Click <span class="bold">Add New</span>, then click the external document provider&nbsp;where you want to link&nbsp;documents to Workfront.</p> <p>For example, to link&nbsp;documents from Dropbox, click <span class="bold">From Dropbox</span>.</p> <p>External providers that you have already authorized appear at the top of the list.</p> </li> 
- <li value="3"> <p>(Conditional) If you are prompted to log into the external&nbsp;service, type your login credentials for the service in the box that appears, then click <span class="bold">Sign in</span>.</p> </li> 
- <li value="4"> <p>(Conditional) If you are prompted to authorize the external application, click the <span class="bold">Authorize</span> button.</p> <p>You need to do this only once.</p> </li> 
- <li value="5"> <p>In the search box of the <span class="bold">Link&nbsp;External Files and Folders</span> box that appears, type the name of the item you want to search for, then press <span class="bold">Enter</span> to see all results&nbsp;from the external application, regardless of which folder they are storied in. </p> <p>Or</p> <p>Browse to and select the documents you want to link. <br></p> <p>Though you can select multiple documents, only documents that are selected in&nbsp;the current view are linked. For example, if you select a document, then go into a folder, the document&nbsp;you originally selected is not linked.</p> </li> 
- <li value="6"> <p>(Conditional) If you are a Workfront DAM customer, click the <span class="bold">Thumbnail</span>&nbsp;icon to display files as thumbnail images.</p> <note type="note">
-   Workfront DAM customers can view thumbnails when linking&nbsp;documents from Workfront DAM. Thumbnails might also be displayed for Workfront DAM customers for other services such as Dropbox and Box. However, viewing thumbnails for&nbsp;services other than Workfront DAM within Workfront is not supported, and thumbnails are never displayed when linking&nbsp;documents from SharePoint or Google Drive.
-  </note> </li> 
- <li value="7"> <p>Click <span class="bold">Link</span>.</p> <p>In Workfront, the cloud provider's icon appears next to the documents.</p> <note type="note">
-    For documents that are linked&nbsp;to Box, the link&nbsp;to the document in Box does not display until you refresh the page.
-  </note> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront where you want the document.
+1. Click `Add New`, then click the external document provider&nbsp;where you want to link&nbsp;documents to Workfront.
+
+   For example, to link documents from Dropbox, click `From Dropbox`.
+
+   External providers that you have already authorized appear at the top of the list.
+
+1. (Conditional) If you are prompted to log into the external service, type your login credentials for the service in the box that appears, then click `Sign in`.
+1. (Conditional) If you are prompted to authorize the external application, click the `Authorize` button.
+
+   You need to do this only once.
+
+1. In the search box of the `Link External Files and Folders` box that appears, type the name of the item you want to search for, then press `Enter` to see all results&nbsp;from the external application, regardless of which folder they are storied in.
+
+   Or
+
+   Browse to and select the documents you want to link.
+
+   Though you can select multiple documents, only documents that are selected in&nbsp;the current view are linked. For example, if you select a document, then go into a folder, the document&nbsp;you originally selected is not linked.
+
+1. (Conditional) If you are a Workfront DAM customer, click the `Thumbnail`&nbsp;icon to display files as thumbnail images.
+
+   >[!NOTE]
+   >
+   >Workfront DAM customers can view thumbnails when linking&nbsp;documents from Workfront DAM. Thumbnails might also be displayed for Workfront DAM customers for other services such as Dropbox and Box. However, viewing thumbnails for&nbsp;services other than Workfront DAM within Workfront is not supported, and thumbnails are never displayed when linking&nbsp;documents from SharePoint or Google Drive.
+
+1. Click `Link`.
+
+   In Workfront, the cloud provider's icon appears next to the documents.
+
+   >[!NOTE]
+   >
+   >For documents that are linked&nbsp;to Box, the link&nbsp;to the document in Box does not display until you refresh the page.
 
 ### Add a new version of a linked document
 
 You can add a new version of a document linked to Workfront from an external application.
 
-<ol> 
- <li value="1"> <p>Go to the <span class="bold">Documents</span> area where the document is linked, then select the linked document.</p> <note type="important">
-   The document must be outside of a linked folder to create a new version.
-  </note> </li> 
- <li value="2"> <p>Click <span class="bold">Add New</span> > <span class="bold">Version</span>, then click the external document provider.<br></p> <p>For example, to link a new version of a document from Dropbox, click <span class="bold">From Dropbox</span>.</p> <p>External providers that you have already authorized appear at the top of the list.</p> </li> 
- <li value="3"> <p>(Conditional) If you are prompted to log into the external&nbsp;service, type your login credentials for the service in the box that appears, then click <span class="bold">Sign in</span>.</p> </li> 
- <li value="4"> <p>(Conditional) If you are prompted to authorize the external application, click <span class="bold">Authorize</span>.</p> <p>You need to do this only once.</p> </li> 
- <li value="5"> <p>In the search box of the <span class="bold">Link&nbsp;External Files and Folders</span> box that appears, type the name of the item you want to search for, then press <span class="bold">Enter</span> to see all results&nbsp;from the external application, regardless of which folder they are storied in.</p> <p>Or</p> <p>Browse to and select the documents you want to link.</p> <p>You can select multiple documents; however, only documents that are selected in&nbsp;the current&nbsp;view are linked.&nbsp;For example, if you select a document, then go into a folder, the document&nbsp;you originally selected is not linked.</p> </li> 
- <li value="6"> <p>(Conditional) If you are a Workfront DAM customer, click the <span class="bold">Thumbnail</span>&nbsp;icon to display files as thumbnail images.</p> <note type="note">
-   Workfront DAM customers can view thumbnails when linking&nbsp;documents from Workfront DAM. Thumbnails might also be displayed for Workfront DAM customers for other services such as Dropbox and Box. However, viewing thumbnails for&nbsp;services other than Workfront DAM within Workfront is not supported, and thumbnails are never displayed when linking&nbsp;documents from SharePoint or Google Drive.
-  </note> </li> 
- <li value="7"> <p>Click <span class="bold">Link</span>.</p> <p>In Workfront, the cloud provider's icon appears next to the documents, indicating that&nbsp;they are linked&nbsp;to the external&nbsp;cloud&nbsp;provider.</p> <note type="note">
-    For documents that are linked&nbsp;to Box, the link&nbsp;to the document in Box does not display until you refresh the page.
-  </note> </li> 
-</ol>
+1. Go to the `Documents` area where the document is linked, then select the linked document.
+
+   >[!IMPORTANT]
+   >
+   >The document must be outside of a linked folder to create a new version.
+
+1. Click `Add New` > `Version`, then click the external document provider.
+
+   For example, to link a new version of a document from Dropbox, click `From Dropbox`.
+
+   External providers that you have already authorized appear at the top of the list.
+
+1. (Conditional) If you are prompted to log into the external service, type your login credentials for the service in the box that appears, then click `Sign in`.
+1. (Conditional) If you are prompted to authorize the external application, click `Authorize`.
+
+   You need to do this only once.
+
+1. In the search box of the `Link External Files and Folders` box that appears, type the name of the item you want to search for, then press `Enter` to see all results&nbsp;from the external application, regardless of which folder they are storied in.
+
+   Or
+
+   Browse to and select the documents you want to link.
+
+   You can select multiple documents; however, only documents that are selected in&nbsp;the current&nbsp;view are linked.&nbsp;For example, if you select a document, then go into a folder, the document&nbsp;you originally selected is not linked.
+
+1. (Conditional) If you are a Workfront DAM customer, click the `Thumbnail`&nbsp;icon to display files as thumbnail images.
+
+   >[!NOTE]
+   >
+   >Workfront DAM customers can view thumbnails when linking&nbsp;documents from Workfront DAM. Thumbnails might also be displayed for Workfront DAM customers for other services such as Dropbox and Box. However, viewing thumbnails for&nbsp;services other than Workfront DAM within Workfront is not supported, and thumbnails are never displayed when linking&nbsp;documents from SharePoint or Google Drive.
+
+1. Click `Link`.
+
+   In Workfront, the cloud provider's icon appears next to the documents, indicating that&nbsp;they are linked&nbsp;to the external&nbsp;cloud&nbsp;provider.
+
+   >[!NOTE]
+   >
+   >For documents that are linked&nbsp;to Box, the link&nbsp;to the document in Box does not display until you refresh the page.
 
 For information about adding new version of a document you have uploaded to Workfront from your file system, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -147,28 +190,40 @@ You can link proofs to Workfront that originally existed in Workfront Proof. Whe
 
 You can link only those proofs for which you have View access in Workfront Proof. (For more information about rights within Workfront Proof, see [Configure a user's proofing access](../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md)).
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span> area in Workfront where you want the document.</li> 
- <li value="2"> <p>Click <span class="bold">Add New</span>, then click <span class="bold">From Workfront Proof</span>.</p> <note type="note">
-    The options in this menu may vary depending on what third party providers are configured in your environment.
-  </note> </li> 
- <li value="3"> <p>In the <span class="bold">Link</span> proofs<span class="bold"> from</span> Workfront Proof box that appears, begin typing the name of the proof you want to make available in Workfront.</p> <p>The list is filtered as you type.</p> </li> 
- <li value="4"> <p>Select up to 10 proofs to link.<br></p> <p>Any proof name that is dimmed is not available to link, because the proof is already associated with a document in Workfront.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Link</span>.<br></p> <p>The most current version of the proof is linked to Workfront. When you open the proof, all versions are available in the proofing viewer.</p> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront where you want the document.
+1. Click `Add New`, then click `From Workfront Proof`.
+
+   >[!NOTE]
+   >
+   >The options in this menu may vary depending on what third party providers are configured in your environment.
+
+1. In the `Link` proofs `from` Workfront Proof box that appears, begin typing the name of the proof you want to make available in Workfront.
+
+   The list is filtered as you type.
+
+1. Select up to 10 proofs to link.
+
+   Any proof name that is dimmed is not available to link, because the proof is already associated with a document in Workfront.
+
+1. Click `Link`.
+
+   The most current version of the proof is linked to Workfront. When you open the proof, all versions are available in the proofing viewer.
 
 ### Create a Google document from within Workfront
 
 You can create a new Google document from within Workfront. You cannot create new documents from within Workfront for other cloud providers.
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span> area in Workfront where you want the document.</li> 
- <li value="2">Click <span class="bold">Add New</span> > <span class="bold">Google File</span>, then select the type of Google document you want to create.<br></li> 
- <li value="3">Select the type of Google Doc that you want to create.</li> 
- <li value="4"> <p>If the <span class="bold">Add Google Drive Account</span> box appears, click <span class="bold">Authorize Googe Drive</span>.</p> <p>A Google Document is added&nbsp;to the <span class="bold">Documents</span> tab.</p> <note type="note"> &nbsp;My Drive and Shared with Me&nbsp;display two different results. If you are unable to locate a file in My Drive, check in the Shared with Me&nbsp;folder. 
-   <br> 
-  </note> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront where you want the document.
+1. Click `Add New` > `Google File`, then select the type of Google document you want to create.  
+
+1. Select the type of Google Doc that you want to create.
+1. If the `Add Google Drive Account` box appears, click `Authorize Googe Drive`.
+
+   A Google Document is added to the `Documents` tab.
+
+   >[!NOTE]
+   >
+   >&nbsp;My Drive and Shared with Me&nbsp;display two different results. If you are unable to locate a file in My Drive, check in the Shared with Me&nbsp;folder.
 
 ## Update and link a document from Workfront to an external cloud provider
 
@@ -176,12 +231,20 @@ You can upload and link a document from Workfront to an external cloud provider.
 
 Users without Workfront access can see the document in the external application if they have access to the application.
 
-<ol> 
- <li value="1">Select a document that is uploaded in Workfront.</li> 
- <li value="2"> <p>Click <span class="bold">More</span> ><span class="bold"> Send to</span>, then select the cloud provider that you want to store the linked document.</p> You can also use the More menu on the Document Details page to do this. </li> 
- <li value="3"> <p>Select the folder in the provider's application where you want to store the document.</p> <p>This can be any folder in the provider's application, including a shared folder. </p> </li> 
- <li value="4"> <p>Click <span class="bold">Save</span>.<br></p> <p>The external provider's logo appears next to the document name to indicate that the document is now linked to Workfront and stored by the external cloud provider.<br></p> <p> <img src="assets/doc-with-google-drive-link-highlight--1--350x66.png" alt="doc_with_google_drive_link_highlight__1_.png" style="width: 350;height: 66;"> </p> <p>You can also send documents from Workfront to Workfront Library. For information, see in <a href="../../workfront-library/content-management/send-documents-from-wf-to-library.md" class="MCXref xref">Send documents from Workfront to Workfront Library</a>.</p> </li> 
-</ol>
+1. Select a document that is uploaded in Workfront.
+1. Click `More` > `Send to`, then select the cloud provider that you want to store the linked document.
+   You can also use the More menu on the Document Details page to do this. 
+1. Select the folder in the provider's application where you want to store the document.
+
+   This can be any folder in the provider's application, including a shared folder. 
+
+1. Click `Save`.
+
+   The external provider's logo appears next to the document name to indicate that the document is now linked to Workfront and stored by the external cloud provider.
+
+   ![doc_with_google_drive_link_highlight__1_.png](assets/doc-with-google-drive-link-highlight--1--350x66.png)
+
+   You can also send documents from Workfront to Workfront Library. For information, see in [Send documents from Workfront to Workfront Library](../../workfront-library/content-management/send-documents-from-wf-to-library.md).
 
 ## Link folders
 
@@ -207,15 +270,29 @@ When synchronizing folder content from an external document application, Workfro
 
 ### Link one or more external folders
 
-<ol> 
- <li value="1">Go to the area in Workfront where you want the folder, then click Documents in the left panel.</li> 
- <li value="2"> <p>Click <span class="bold">Add New</span>, then click the external document provider from which you want to link&nbsp;a folder to Workfront.</p> </li> 
- <li value="3"> <p>(Conditional) If you have not yet authorized the external&nbsp;service, specify your login credentials for the external provider, then click <span class="bold">Sign in</span>.</p> <p>External providers that you have already authorized appear at the top of the list.<br></p> </li> 
- <li value="4"> <p>In the <span class="bold">Link&nbsp;External Files and Folders</span> box that appears, browse to and select the folders you want to link.</p> <p>Or</p> <p>Type the name of the folder you want to search for, then press <span class="bold">Enter</span>.<br></p> <p>You can select multiple folders; however, only folders that are selected in&nbsp;the current&nbsp;view are linked. For example, if you select a folder, then go into a folder, the folder you originally selected is not linked.</p> <p> <note type="note">  When linking folders from Google Drive, you can only link folders that are within your personal drive (My Drive) and Team Drive. You cannot link folders from the Shared with Me area. 
-   </note> </p> </li> 
- <li value="5"> <p>Click <span class="bold">Link</span>.<br></p> <p>In Workfront, the cloud provider's logo displays next to the folder, indicating that&nbsp;it is linked&nbsp;to the external&nbsp;cloud&nbsp;provider.</p> </li> 
- <li value="6"> <p>(Optional) To rename the folder&nbsp;so that the folder name in Workfront is different from the folder name in the external&nbsp;document application, select the folder in the <span class="bold">Folders</span> section, click the More menu that displays next to the folder name, then click <span class="bold">Rename</span>.</p>  </li> 
-</ol>
+1. Go to the area in Workfront where you want the folder, then click Documents in the left panel.
+1. Click `Add New`, then click the external document provider from which you want to link&nbsp;a folder to Workfront.
+1. (Conditional) If you have not yet authorized the external service, specify your login credentials for the external provider, then click `Sign in`.
+
+   External providers that you have already authorized appear at the top of the list.
+
+1. In the `Link External Files and Folders` box that appears, browse to and select the folders you want to link.
+
+   Or
+
+   Type the name of the folder you want to search for, then press `Enter`.
+
+   You can select multiple folders; however, only folders that are selected in&nbsp;the current&nbsp;view are linked. For example, if you select a folder, then go into a folder, the folder you originally selected is not linked.
+
+   >[!NOTE]
+   >
+   >When linking folders from Google Drive, you can only link folders that are within your personal drive (My Drive) and Team Drive. You cannot link folders from the Shared with Me area.
+
+1. Click `Link`.
+
+   In Workfront, the cloud provider's logo displays next to the folder, indicating that&nbsp;it is linked&nbsp;to the external&nbsp;cloud&nbsp;provider.
+
+1. (Optional) To rename the folder so that the folder name in Workfront is different from the folder name in the external document application, select the folder in the `Folders` section, click the More menu that displays next to the folder name, then click `Rename`.
 
 This does not rename the folder in the external&nbsp;application.
 
@@ -223,15 +300,22 @@ This does not rename the folder in the external&nbsp;application.
 
 You can create a new folder inside an existing linked folder. You can also drag another folder into an existing linked folder.
 
-<ol> 
- <li value="1"> <p>To create a new folder within an existing linked folder, go to the existing folder, then create the new folder as described in <a href="../../documents/organizing-documents/create-documents-folder.md" class="MCXref xref">Create document folders</a>.</p> <p>Or</p> <p>To drag an existing folder into an existing linked folder, go to the&nbsp;Documents&nbsp;area where you want the subfolder, then drag it into the linked folder.</p>  <note type="note">  
-   <p>The following limitations apply when dragging an existing Workfront&nbsp;folder into a linked&nbsp;folder:</p> 
-   <ul> 
-    <li>The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.</li> 
-    <li>The folder (including its contents)&nbsp;that you are dragging can't exceed 50 MB.</li> 
-   </ul> 
-  </note> </li> 
-</ol>
+1. To create a new folder within an existing linked folder, go to the existing folder, then create the new folder as described in [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
+
+   Or
+
+   To drag an existing folder into an existing linked folder, go to the&nbsp;Documents&nbsp;area where you want the subfolder, then drag it into the linked folder.
+
+   >[!NOTE]
+   >
+   >The following limitations apply when dragging an existing Workfront&nbsp;folder into a linked&nbsp;folder:
+   >
+   >  
+   >  
+   >  * The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
+   >  * The folder (including its contents)&nbsp;that you are dragging can't exceed 50 MB.
+   >  
+   >
 
 ## Add a document to a linked folder
 

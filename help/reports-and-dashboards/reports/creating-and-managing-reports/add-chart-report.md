@@ -199,23 +199,26 @@ You can display up to three fields of one object in a `Bubble` chart. This means
 
 To add a `Bubble` chart to your report:
 
-<ol> 
- <li value="1">Start adding a chart to your report, as described in <a href="#adding-a-chart-to-a-report" class="MCXref xref">Add a chart to a report</a>.</li> 
- <li value="2">In the <span class="bold">Left (Y) Axis</span> field, select the values that you want to include on the Y axis of the chart. The values come from the view of the report. Specify how you want the information to be summarized.</li> 
- <li value="3">In the <span class="bold">Bottom (X) Axis field</span>, select the values that you want to include on the X axis of the chart. The values come from the view of the report. Specify how you want the information to be summarized.<br><note type="note">
-   Ensure that you have at least one column that is summarized for this field to be active.
-   <br>For more information about summarizing the information in a report column, see 
-   <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.
-  </note></li> 
- <li value="4">In the <span class="bold">Bubble Size</span> field, select the values that you want to represent by the size of the bubbles in the chart. The values come from the view of the report. Specify how you want the information to be summarized.<br><note type="note">
-    Ensure that you have at least one column that is summarized for this field to be active.
-   <br>For more information about summarizing the information in a report column, see 
-   <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.
-  </note></li> 
- <li value="5">In the <span class="bold">Bubbles</span> field, select the Grouping that you want to include in the chart. The Grouping is represented by the placement of the bubbles on the chart.</li> 
- <li value="6">In the <span class="bold">Bubble Color</span> field, select the field that you want to be represented by the colors of the bubbles. The <span class="bold">Bubble Color</span> can be a Grouping you define in the report, but it can only be fields from the object you selected as <span class="bold">Bubbles</span>. For example, if you selected Task Name, you can add Task Status, but not Project Status as a <span class="bold">Bubble Color</span>.<br></li> 
- <li value="7">Click <span class="bold">Save + Close</span> to save the changes to the interface builder.</li> 
-</ol>
+1. Start adding a chart to your report, as described in [Add a chart to a report](#adding-a-chart-to-a-report).
+1. In the `Left (Y) Axis` field, select the values that you want to include on the Y axis of the chart. The values come from the view of the report. Specify how you want the information to be summarized.
+1. In the `Bottom (X) Axis field`, select the values that you want to include on the X axis of the chart. The values come from the view of the report. Specify how you want the information to be summarized.
+
+   >[!NOTE]
+   >
+   >Ensure that you have at least one column that is summarized for this field to be active.  
+   >For more information about summarizing the information in a report column, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+1. In the `Bubble Size` field, select the values that you want to represent by the size of the bubbles in the chart. The values come from the view of the report. Specify how you want the information to be summarized.
+
+   >[!NOTE]
+   >
+   >Ensure that you have at least one column that is summarized for this field to be active.  
+   >For more information about summarizing the information in a report column, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+1. In the `Bubbles` field, select the Grouping that you want to include in the chart. The Grouping is represented by the placement of the bubbles on the chart.
+1. In the `Bubble Color` field, select the field that you want to be represented by the colors of the bubbles. The `Bubble Color` can be a Grouping you define in the report, but it can only be fields from the object you selected as `Bubbles`. For example, if you selected Task Name, you can add Task Status, but not Project Status as a `Bubble Color`.  
+
+1. Click `Save + Close` to save the changes to the interface builder.
 
 ## Export a chart
 
@@ -246,34 +249,40 @@ You can only choose one color for fields displayed in the View of the report. Yo
 
 To customize chart colors:
 
-<ol> 
- <li value="1">While building a report, go to the <span class="bold">Chart</span> tab in the report builder.</li> 
- <li value="2">Select a chart type to add to your report.<br>For more information about adding a chart to your report, see <a href="#adding-a-chart-to-a-report" class="MCXref xref">Add a chart to a report</a>.</li> 
- <li value="3">Click <span class="bold">Custom Colors</span> when this field is available.<br>The Custom Colors dialog box displays.<br><img src="assets/custom-colors-in-charts-350x286.png" style="width: 350;height: 286;"><br><note type="note">
-    You can associate custom colors with any field that you can group by and with some fields that can be displayed in a view, including custom fields. The custom fields or custom options of the fields you choose in the Custom Color dialog box are case sensitive.
-   <br>
-  </note></li> 
- <li value="4">Consider selecting any of the following options: 
-  <ul>
-   <li><span class="bold">Use one color</span>: All the elements of the chart will display in the selected color. 
-    <ol>
-     <li value="1">Start typing the name of a option of the field selected, then select a color. This option displays in the selected color on the chart.</li>
-     <li value="2">(Optional) Specify a hexadecimal color value for your color, instead of selecting one from the color samples available<br>Or<br>Click the color picker that displays after clicking the hexadecimal code, and select another color.</li>
-    </ol></li>
-   <li><span class="bold">Add Color</span>: Continue to add custom colors for all other possible options of the field selected.</li>
-   <li><span class="bold">Remove All</span>: Select this option to remove all colors and options of the field selected above.</li>
-   <li><span class="bold">Advanced Options</span>: Select from the following choices:
-    <ul>
-     <li><span class="bold">No Value</span>: Select this field and a custom color to display the column of the chart that groups "no value" items. These are items that cannot be grouped by any of the options of the field selected in your grouping.</li>
-     <li><span class="bold">All Other Values</span>: Select this field and a custom color to display all other chart elements whose options are not selected above.<br><note type="note">
-        The colors you have used most recently display at the top of the Custom Colors dialog box. When you mouse over a color that has been used recently, the name of the field associated with it displays.
-       <br>
-      </note></li>
-    </ul></li>
-  </ul></li> 
- <li value="5">Click the "x" in the upper-right corner of the Custom Colors to close the Custom Colors dialog box. The colors you have selected are automatically saved.</li> 
- <li value="6">Click <span class="bold">Save + Close</span> to save the chart and run the report.</li> 
-</ol>
+1. While building a report, go to the `Chart` tab in the report builder.
+1. Select a chart type to add to your report.  
+   For more information about adding a chart to your report, see [Add a chart to a report](#adding-a-chart-to-a-report).
+
+1. Click `Custom Colors` when this field is available.  
+   The Custom Colors dialog box displays.  
+   ![](assets/custom-colors-in-charts-350x286.png)
+
+   >[!NOTE]
+   >
+   >You can associate custom colors with any field that you can group by and with some fields that can be displayed in a view, including custom fields. The custom fields or custom options of the fields you choose in the Custom Color dialog box are case sensitive.
+
+1. Consider selecting any of the following options:
+
+  * `Use one color`: All the elements of the chart will display in the selected color.
+
+    1. Start typing the name of a option of the field selected, then select a color. This option displays in the selected color on the chart.
+    1. (Optional) Specify a hexadecimal color value for your color, instead of selecting one from the color samples available  
+       Or  
+       Click the color picker that displays after clicking the hexadecimal code, and select another color.
+
+  * `Add Color`: Continue to add custom colors for all other possible options of the field selected.
+  * `Remove All`: Select this option to remove all colors and options of the field selected above.
+  * `Advanced Options`: Select from the following choices:
+
+    * `No Value`: Select this field and a custom color to display the column of the chart that groups "no value" items. These are items that cannot be grouped by any of the options of the field selected in your grouping.
+    * `All Other Values`: Select this field and a custom color to display all other chart elements whose options are not selected above.
+
+      >[!NOTE]
+      >
+      >The colors you have used most recently display at the top of the Custom Colors dialog box. When you mouse over a color that has been used recently, the name of the field associated with it displays.
+
+1. Click the "x" in the upper-right corner of the Custom Colors to close the Custom Colors dialog box. The colors you have selected are automatically saved.
+1. Click `Save + Close` to save the chart and run the report.
 
 ## Remove a chart from a report
 
@@ -291,7 +300,9 @@ Be aware of the following limitations as you are working with charts:
 * The `Chart Preview` section to the right of the report builder does not contain actual data from your report. You must save the chart and view it from the `Chart` tab in order to see the chart with your data.
 
 * Some chart elements are not editable:
-* `<li>You cannot change the font type, nor size on the values of each element.</li>` `<li>You cannot change the names of your axes in the chart.</li>` 
+
+  * You cannot change the font type, nor size on the values of each element.
+  * You cannot change the names of your axes in the chart.
 
 * You cannot edit the legend of the chart.
 * When using calculated fields for your groupings, you cannot click the chart elements.

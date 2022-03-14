@@ -344,18 +344,24 @@ For information about creating filters in text mode, see [Edit a filter using te
 
 You can use the following elements to build filters and custom prompts in text mode:
 
-<ul> 
- <li> <p>A line of code referencing the object of the filter statement. Use camel case for the filter object.</p> </li> 
- <li> <p>A line of code referencing the filter object and the modifier for the value of the filter object. Use camel case for the filter object in this line.</p> <note type="tip">
-   When referencing ranges, this requires 2 modifier lines.
-  </note> </li> 
- <li> <p>A statement connector that connects multiple filter statements:</p> 
-  <ul> 
-   <li> <p>AND</p> <p>This is the default connector between filter statements.</p> </li> 
-   <li> <p>OR</p> <note type="tip">
-     Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
-    </note> </li> 
-  </ul> </li> 
- <li> <p>Wildcards to make filters more dynamic and customize them for the current time or the user who is logged in. For information about wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref" xrefformat="{para}">Wildcard filter variables</a>.</p> </li> 
-</ul>
+* A line of code referencing the object of the filter statement. Use camel case for the filter object.
+* A line of code referencing the filter object and the modifier for the value of the filter object. Use camel case for the filter object in this line.
+
+  >[!TIP]
+  >
+  >When referencing ranges, this requires 2 modifier lines.
+
+* A statement connector that connects multiple filter statements:
+
+  * AND
+
+    This is the default connector between filter statements.
+  
+  * OR
+
+    >[!TIP]
+    >
+    >Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
+
+* Wildcards to make filters more dynamic and customize them for the current time or the user who is logged in. For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

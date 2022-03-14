@@ -110,48 +110,65 @@ You can grant the following permissions:
 
 ## Creating a New Custom Profile
 
-<ol> 
- <li value="1">Navigate to <span class="bold">Account Settings,</span>&nbsp;then click the <span class="bold">Profiles</span> tab.&nbsp;</li> 
- <li value="2">Click <span class="bold">Create&nbsp;</span><span class="bold">New profile.</span></li> 
- <li value="3">In the <span class="bold">Profile Details&nbsp;</span>section: 
-  <ol style="list-style-type: lower-alpha;">
-   <li value="1">In the <span class="bold">Name </span>field, specify a name for the custom profile.&nbsp;</li>
-   <li value="2">Select&nbsp;<span class="bold">Enable profile.<br></span><img src="assets/screenshot-2018-04-06-12-25-09.png" alt="Screenshot_2018-04-06_12-25-09.png"></li>
-  </ol></li> 
- <li value="4">In the&nbsp;<span class="bold">Module permissions </span>section: 
-  <ol style="list-style-type: lower-alpha;">
-   <li value="1">Select permissions for&nbsp;<span class="bold">Basic access.</span></li>
-   <li value="2">&nbsp;<span class="bold">Data administration.<br></span>For more information, see&nbsp;<a href="#module-permissions" class="MCXref xref">Module Permissions</a></li>
-  </ol></li> 
- <li value="5"> <p>In the&nbsp;<span class="bold">Administrative permissions&nbsp;</span>section, select permissions for administrative functions.</p> <p>For more information, see&nbsp;<a href="#administrative-permissions" class="MCXref xref">Administrative Permissions</a>.</p> </li> 
- <li value="6">Click <span class="bold">Create</span>.<br>The new profile is now available on the <span class="bold">Users</span> tab.</li> 
- <li value="7">(Optional)&nbsp;Assign the new profile to new and existing user accounts.<br>For more information, see "<a href="../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md" class="MCXref xref">Proof Permissions Profiles in Workfront Proof</a>.</li> 
-</ol>
+1. Navigate to `Account Settings,` then click the `Profiles` tab.&nbsp;
+
+1. Click `Create` `New profile.`
+
+1. In the `Profile Details`section:
+
+  1. In the `Name`field, specify a name for the custom profile.&nbsp;
+  1. Select&nbsp; `Enable profile.  
+     ` ![Screenshot_2018-04-06_12-25-09.png](assets/screenshot-2018-04-06-12-25-09.png)
+
+1. In the  `Module permissions`section:
+
+  1. Select permissions for  `Basic access.`
+  1. &nbsp; `Data administration.  
+     `For more information, see&nbsp; [Module Permissions](#module-permissions)
+
+1. In the  `Administrative permissions`section, select permissions for administrative functions.
+
+   For more information, see&nbsp; [Administrative Permissions](#administrative-permissions).
+
+1. Click `Create`.  
+   The new profile is now available on the `Users` tab.
+
+1. (Optional)&nbsp;Assign the new profile to new and existing user accounts.  
+   For more information, see " [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Enabling and Disabling a Profile
 
-<ol> 
- <li value="1">Navigate to <span class="bold">Account Settings, then</span>&nbsp;click on the <span class="bold">Profiles</span> tab.&nbsp;</li> 
- <li value="2">Select the profile you want to enable or disable. <br>Or<br>To enable or disable multiple profiles simultaneously, select the profiles manually, or select&nbsp;<span class="bold">Name&nbsp;</span>to select all custom profiles.<br><img src="assets/screenshot-2018-04-06-12-31-53.png" alt="Screenshot_2018-04-06_12-31-53.png"></li> 
- <li value="3">Click the <span class="bold">More&nbsp;</span>drop-down menu, then click either of the following options, depending on whether you want to enable or disable the profile:&nbsp;&nbsp; 
-  <ul>
-   <li><span class="bold">Enable profiles: </span>The profile becomes active and visible in the Workfront Proof menus.</li>
-   <li><p><span class="bold">Disable profiles:</span> A&nbsp;confirmation box appears. Select&nbsp;<span class="bold">Yes&nbsp;</span>to confirm. The profile becomes inactive and is removed from the Workfront Proof menus.</p><note type="note">
-     A disabled profile can no longer be assigned to users in the account. If users with that profile exist in the account, select a different profile for them before the profile is disabled.
-    </note><p><img src="assets/screenshot-2018-04-06-12-30-07.png" alt="Screenshot_2018-04-06_12-30-07.png"></p></li>
-  </ul></li> 
-</ol>
+1. Navigate to `Account Settings, then` click on the `Profiles` tab.&nbsp;
+
+1. Select the profile you want to enable or disable.   
+   Or  
+   To enable or disable multiple profiles simultaneously, select the profiles manually, or select  `Name`to select all custom profiles.  
+   ![Screenshot_2018-04-06_12-31-53.png](assets/screenshot-2018-04-06-12-31-53.png)
+
+1. Click the `More`drop-down menu, then click either of the following options, depending on whether you want to enable or disable the profile:&nbsp;&nbsp;
+
+  * `Enable profiles:`The profile becomes active and visible in the Workfront Proof menus.
+  * `Disable profiles:` A confirmation box appears. Select  `Yes`to confirm. The profile becomes inactive and is removed from the Workfront Proof menus.
+
+    >[!NOTE]
+    >
+    >A disabled profile can no longer be assigned to users in the account. If users with that profile exist in the account, select a different profile for them before the profile is disabled.
+
+    ![Screenshot_2018-04-06_12-30-07.png](assets/screenshot-2018-04-06-12-30-07.png)
 
 ## Copying a Profile
 
 Create copies of an existing profile to set up multiple profiles with similar permissions.&nbsp;
 
-<ol> 
- <li value="1">Navigate to <span class="bold">Account Settings</span>, then&nbsp;click the <span class="bold">Profiles</span> tab.</li> 
- <li value="2"><span class="wysiwyg-color-red"> Click the name of the profile and click the&nbsp;<span class="bold">Copy profile&nbsp;</span>button.<br><img src="assets/screenshot-2018-04-06-12-33-40.png" alt="Screenshot_2018-04-06_12-33-40.png"><br>The copied profile now appears on the profiles list. It has the original profiles name with the word "Copy" before it.<br><img src="assets/screenshot-2018-04-06-12-34-41.png" alt="Screenshot_2018-04-06_12-34-41.png"><br></span> </li> 
- <li value="3">(Optional) To enable the copied profile, see <a href="#enabling-and-disabling-profiles" class="MCXref xref">Enabling and Disabling a Profile</a>.</li> 
- <li value="4">(Optional) To make edits to the copied profile, see <a href="#editing-profiles" class="MCXref xref">Editing a Profile</a>.</li> 
-</ol>
+1. Navigate to `Account Settings`, then click the `Profiles` tab.
+
+1. ` Click the name of the profile and click the  `Copy profile`button.  
+   ![Screenshot_2018-04-06_12-33-40.png](assets/screenshot-2018-04-06-12-33-40.png)  
+   The copied profile now appears on the profiles list. It has the original profiles name with the word "Copy" before it.  
+   ![Screenshot_2018-04-06_12-34-41.png](assets/screenshot-2018-04-06-12-34-41.png)  
+   ` 
+1. (Optional) To enable the copied profile, see [Enabling and Disabling a Profile](#enabling-and-disabling-profiles).
+1. (Optional) To make edits to the copied profile, see [Editing a Profile](#editing-profiles).
 
 ## Editing a Profile
 
@@ -169,13 +186,16 @@ If you edit a profile, updates are applied to all users who this profile is curr
 
 ## Deleting a Profile
 
-<ol> 
- <li value="1">Navigate to <span class="bold">Account settings</span>, then&nbsp;click the <span class="bold">Profiles</span> tab.&nbsp;</li> 
- <li value="2">Select the profile or profiles you want to delete.</li> 
- <li value="3">Click the&nbsp;<span class="bold">Trash&nbsp;</span>icon at the top of the page.<br><img src="assets/screenshot-2018-04-06-12-36-21-163x288.png" alt="Screenshot_2018-04-06_12-36-21.png" style="width: 163;height: 288;"></li> 
- <li value="4">Click&nbsp;<span class="bold">Yes&nbsp;</span>in the&nbsp;<span class="bold">Confirm dialog&nbsp;</span>box that appears.</li> 
- <li value="5">If the profile is assigned to a user, use the drop-down menu in the dialog box to select a different profile to assign to this user. Click&nbsp;<span class="bold">Yes&nbsp;</span>to confirm.<br><img src="assets/screenshot-2018-04-02-12-02-47.png" alt="Screenshot_2018-04-02_12-02-47.png"></li> 
-</ol>
+1. Navigate to `Account settings`, then click the `Profiles` tab.&nbsp;
+
+1. Select the profile or profiles you want to delete.
+1. Click the  `Trash`icon at the top of the page.  
+   ![Screenshot_2018-04-06_12-36-21.png](assets/screenshot-2018-04-06-12-36-21-163x288.png)
+
+1. Click  `Yes`in the  `Confirm dialog`box that appears.
+
+1. If the profile is assigned to a user, use the drop-down menu in the dialog box to select a different profile to assign to this user. Click  `Yes`to confirm.  
+   ![Screenshot_2018-04-02_12-02-47.png](assets/screenshot-2018-04-02-12-02-47.png)
 
 >[!NOTE]
 >

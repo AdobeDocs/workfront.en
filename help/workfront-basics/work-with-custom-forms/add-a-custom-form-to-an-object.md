@@ -91,14 +91,17 @@ For example, if an existing project has a custom form already, and more custom f
 
 You can add custom forms to multiple objects by selecting them in a list.
 
-<ol> 
- <li value="1">Navigate to a list of objects.</li> 
- <li value="2"> <p>Select multiple objects in the list.<br></p> </li> 
- <li value="3"> Click the More menu , then click the Edit icon , or just click the Edit icon . </li> 
- <li value="4">Click <span class="bold">Custom Forms</span> in the left panel.</li> 
- <li value="5"> <p>In the <span class="bold">Make a selection</span> drop-down menu, select the form you want to associate with all the selected objects.</p> <note type="note">
-    If you cannot find the form in the drop-down menu, this means that at least one of the objects has the form already associated with it. Determine which object that is, and eliminate it from your selection, before you can add the form to the remaining objects.
-  </note> </li> 
- <li value="6"> <p>Click <span class="bold">Save Changes</span>.</p> If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time. </li> 
-</ol>
+1. Navigate to a list of objects.
+1. Select multiple objects in the list.  
+
+1. Click the More menu , then click the Edit icon , or just click the Edit icon . 
+1. Click `Custom Forms` in the left panel.
+1. In the `Make a selection` drop-down menu, select the form you want to associate with all the selected objects.
+
+   >[!NOTE]
+   >
+   >If you cannot find the form in the drop-down menu, this means that at least one of the objects has the form already associated with it. Determine which object that is, and eliminate it from your selection, before you can add the form to the remaining objects.
+
+1. Click `Save Changes`.
+   If the form contains any required fields (marked with a red asterisk), you don't have to complete them at this time.
 

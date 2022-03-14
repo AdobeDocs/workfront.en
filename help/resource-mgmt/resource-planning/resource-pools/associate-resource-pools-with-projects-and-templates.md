@@ -66,15 +66,21 @@ You can associate resource pools with templates in the same manner you associate
 
 To associate resource pools with several projects in bulk:
 
-<ol> 
- <li value="1">Go to a list of projects.</li> 
- <li value="2">Select multiple projects, then click the Edit icon at the top of the list. </li> 
- <li value="3">Click <span class="bold">Settings</span>.</li> 
- <li value="4"> <p>Start typing the name of a resource pool in the <span class="bold">Resource Pools</span> field, then select it from the list when it appears.<br>You can associate multiple resource pools with the projects or templates. </p> <note type="note">
-   When you edit projects or templates in bulk, only the resource pools that are common to all the projects or templates selected appear in this field. If the projects selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the individual resource pools of the projects or templates. 
-  </note> <p> <img src="assets/add-resource-pools-to-multiple-projects-350x485.png" alt="add_resource_pools_to_multiple_projects.png" style="width: 350;height: 485;"> </p> </li> 
- <li value="5">Click <span class="bold">Save Changes</span>. <br>When your resource pools are associated with your projects or your templates, you can budget user allocations for your projects inside the Resource Planner. <br>For more information about the Resource Planner, see <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</li> 
-</ol>
+1. Go to a list of projects.
+1. Select multiple projects, then click the Edit icon at the top of the list. 
+1. Click `Settings`.
+1. Start typing the name of a resource pool in the `Resource Pools` field, then select it from the list when it appears.  
+   You can associate multiple resource pools with the projects or templates.
+
+   >[!NOTE]
+   >
+   >When you edit projects or templates in bulk, only the resource pools that are common to all the projects or templates selected appear in this field. If the projects selected have no shared resource pools, this field will be empty. The resource pools you specify here will overwrite the individual resource pools of the projects or templates.
+
+   ![add_resource_pools_to_multiple_projects.png](assets/add-resource-pools-to-multiple-projects-350x485.png)
+
+1. Click `Save Changes`.   
+   When your resource pools are associated with your projects or your templates, you can budget user allocations for your projects inside the Resource Planner.   
+   For more information about the Resource Planner, see [Resource Planner overview](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 For more information about how to edit projects in bulk, see the "Edit projects in bulk" section in [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 

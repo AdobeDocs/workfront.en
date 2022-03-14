@@ -19,11 +19,10 @@ Custom profiles allow you to assign granular permissions to users in your accoun
 
 You can adjust the layout of the page to view only the information relevant to you:
 
-<ul> 
- <li>You can adjust the number of items displayed (1)</li> 
- <li>You can filter the list of profiles to locate the ones you want to work with (2)</li> 
- <li>You can easily check the number of profiles you have in the account (3)<br><img src="assets/layout-350x130.png" alt="Layout.png" style="width: 350;height: 130;"></li> 
-</ul>
+* You can adjust the number of items displayed (1)
+* You can filter the list of profiles to locate the ones you want to work with (2)
+* You can easily check the number of profiles you have in the account (3)  
+  ![Layout.png](assets/layout-350x130.png)
 
 ## Profiles Tab
 
@@ -55,20 +54,17 @@ For more information on the actions you can perform on this page, see " [Create 
 
 To access the profile details:
 
-<ol> 
- <li value="1">Click on the name of the profile.</li> 
- <p> <img src="assets/screen-shot-2018-10-02-at-10.24.29-am-350x112.png" alt="Screen_Shot_2018-10-02_at_10.24.29_AM.png" style="width: 350;height: 112;"> </p> 
-</ol>
+1. Click on the name of the profile.
+1. ![Screen_Shot_2018-10-02_at_10.24.29_AM.png](assets/screen-shot-2018-10-02-at-10.24.29-am-350x112.png)
 
 ### Viewing the List of Users with a Profile Assigned
 
 To view the list of users who have been assigned a particular profile:
 
-<ol> 
- <li value="1">Click on the link showing the number of active and deactivated users with this profile (1).</li> 
- <p>Alternatively, this list is displayed on the Profile details page.</p> 
- <p> <img src="assets/users-list-1-350x188.png" alt="Users_list_1.png" style="width: 350;height: 188;"> </p> 
- <p>The list shows you both active and deactivated users in your account that have been assigned the profile in question. If your list is too long, you can conveniently adjust the layout of the page to view only the information you are looking for. </p> 
- <p> <img src="assets/users-list-2-350x178.png" alt="Users_list_2.png" style="width: 350;height: 178;"> </p> 
-</ol>
+1. Click on the link showing the number of active and deactivated users with this profile (1).
+1. Alternatively, this list is displayed on the Profile details page.
+1. ![Users_list_1.png](assets/users-list-1-350x188.png)
+
+1. The list shows you both active and deactivated users in your account that have been assigned the profile in question. If your list is too long, you can conveniently adjust the layout of the page to view only the information you are looking for. 
+1. ![Users_list_2.png](assets/users-list-2-350x178.png)
 

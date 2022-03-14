@@ -63,16 +63,32 @@ Consider the following when copying initiatives:
 
 ## Copy initiatives
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then click&nbsp;Scenarios.<p>A list of plans displays. </p></li> 
- <li value="2">Click the name of a plan to open it, then locate the initiatives you want to copy.</li> 
- <li value="3"> <p>Select the box to the left of the initiative or initiatives that you want to copy, then click <span class="bold">Copy</span> from the menu that appears at the bottom of the plan.</p> <p> <img src="assets/bottom-manage-initiative-menu-350x45.png" style="width: 350;height: 45;"> </p> <p>Workfront copies the initiatives immediately and places them underneath the last selected initiative. </p> <p>The name of the copied initiative is <i>Copy of <Name of original initiative></i>.</p> <note type="note"> 
-   <span>Depending on where you insert the new initiatives, the numbers of existing initiatives may change. </span>
-  </note> </li> 
- <li value="4"> <p>Update the name of the copied initiative. </p> <note type="tip">
-   We recommend that you always update the name of the initiative to avoid confusion in case you want to copy them again. 
-  </note> </li> 
- <li value="5"> <p>(Optional) Update the priority of your newly created initiatives. </p> <p>For information about prioritizing initiatives, see <a href="../scenario-planner/prioritize-initiatives.md" class="MCXref xref">Update initiative priorities in the Adobe Workfront Scenario Planner</a>. </p> </li> 
- <li value="6">Click <span class="bold">Save Plan</span> to save your changes. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+
+   A list of plans displays. 
+
+1. Click the name of a plan to open it, then locate the initiatives you want to copy.
+1. Select the box to the left of the initiative or initiatives that you want to copy, then click `Copy` from the menu that appears at the bottom of the plan.
+
+   ![](assets/bottom-manage-initiative-menu-350x45.png)
+
+   Workfront copies the initiatives immediately and places them underneath the last selected initiative.
+
+   The name of the copied initiative is *Copy of <Name of original initiative>*.
+
+   >[!NOTE]
+   >
+   >`Depending on where you insert the new initiatives, the numbers of existing initiatives may change.`
+
+1. Update the name of the copied initiative.
+
+   >[!TIP]
+   >
+   >We recommend that you always update the name of the initiative to avoid confusion in case you want to copy them again.
+
+1. (Optional) Update the priority of your newly created initiatives.
+
+   For information about prioritizing initiatives, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md). 
+
+1. Click `Save Plan` to save your changes.
 

@@ -55,54 +55,53 @@ You must have the following to perform the steps in this article:
 
 Deactivating a user causes the following things to happen:
 
-<ul> 
- <li>Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see <a href="../../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.</li> 
- <li>The user can no longer be assigned work.</li> 
- <li>The user can no longer be added to updates.</li> 
- <li>The user can no longer be added to teams or groups.</li> 
- <li>Objects can no longer be shared with the user.</li> 
- <li>Their association with the following objects remains intact:</li> 
- <ul> 
-  <li>Tasks, issues, projects, portfolios</li> 
-  <li> <p>Dashboards</p> <note type="note">
-    If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the 
-    <span class="bold">Run this report with the Access Rights of:</span> field.
-    <br>To learn more, see the 
-    <a href="../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why" class="MCXref xref">Why can't I access a report owned by a deactivated user?</a> section of the 
-    <a href="../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md" class="MCXref xref">Reports FAQs</a> article.
-   </note> </li> 
-  <li>Documents</li> 
-  <li>Updates</li> 
-  <li>Hours</li> 
- </ul> 
- <li>If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a Workfront administrator can check them back in.For more information about checking out documents, see <a href="../../../documents/managing-documents/check-out-documents.md" class="MCXref xref">Check out documents</a>.</li> 
-</ul>
+* Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof](../../../workfront-proof/workfront-proof.md).
+* The user can no longer be assigned work.
+* The user can no longer be added to updates.
+* The user can no longer be added to teams or groups.
+* Objects can no longer be shared with the user.
+* Their association with the following objects remains intact:
+
+  * Tasks, issues, projects, portfolios
+  * Dashboards
+
+    >[!NOTE]
+    >
+    >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the `Run this report with the Access Rights of:` field.  
+    >To learn more, see the [Why can't I access a report owned by a deactivated user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+
+  * Documents
+  * Updates
+  * Hours
+
+* If the user has checked-out documents, the documents remain checked out when you deactivate them. Only a Workfront administrator can check them back in.For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
 Deleting a user causes the following things to happen:
 
-<ul> 
- <li>Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see <a href="../../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.</li> 
- <li>The user can no longer be assigned work.</li> 
- <li>The user can no longer be added to updates.</li> 
- <li>The user can no longer be added to teams or groups.</li> 
- <li>Objects can no longer be shared with the user.</li> 
- <li>Deletes the association of that user with the following objects:</li> 
- <ul> 
-  <li>Tasks, issues, projects, portfolio</li> 
-  <li> <p>Dashboards</p> <note type="note">
-    You also lose access to custom sections that contained dashboards associated to the deleted user.
-    <br>To learn more, see the 
-    <a href="../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how" class="MCXref xref">How do I access a dashboard that contains a report owned by a deleted user?</a> section of the 
-    <a href="../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md" class="MCXref xref">Reports FAQs</a> article.
-   </note> </li> 
-  <li>Updates</li> 
-  <li> <p>Hours</p> <note type="note">
-     These objects remain in Workfront but the owner of the object is now blank.
-   </note> </li> 
- </ul> 
- <li>If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.</li> 
- <li>If the user has checked out documents that they own and the documents are uploaded in the main Documents area (accessed from the Main Menu), the documents are deleted with the user. For more information about checking out documents, see <a href="../../../documents/managing-documents/check-out-documents.md" class="MCXref xref">Check out documents</a>.</li> 
-</ul>
+* Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof](../../../workfront-proof/workfront-proof.md).
+* The user can no longer be assigned work.
+* The user can no longer be added to updates.
+* The user can no longer be added to teams or groups.
+* Objects can no longer be shared with the user.
+* Deletes the association of that user with the following objects:
+
+  * Tasks, issues, projects, portfolio
+  * Dashboards
+
+    >[!NOTE]
+    >
+    >You also lose access to custom sections that contained dashboards associated to the deleted user.  
+    >To learn more, see the [How do I access a dashboard that contains a report owned by a deleted user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#how) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
+
+  * Updates
+  * Hours
+
+    >[!NOTE]
+    >
+    >These objects remain in Workfront but the owner of the object is now blank.
+
+* If the user uploaded any documents under the Documents area in the Global Navigation Bar, the documents are also deleted.
+* If the user has checked out documents that they own and the documents are uploaded in the main Documents area (accessed from the Main Menu), the documents are deleted with the user. For more information about checking out documents, see [Check out documents](../../../documents/managing-documents/check-out-documents.md).
 
 For more information about deactivating users, see [Deactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 

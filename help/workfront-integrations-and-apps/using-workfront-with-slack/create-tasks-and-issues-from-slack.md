@@ -46,33 +46,60 @@ Before you can create tasks and issues from Slack, you must
 
 ## Create tasks from Slack
 
-<ol> 
- <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
- <li value="2"> <p>From any channel, start typing the following command in the message field:&nbsp;<br><em><code>/workfront add task <Task Name></code>.</em></p> <note type="note">
-   Commands are case sensitive. You can start your command with 
-   <code>/wf</code> instead of /
-   <code>workfront</code>.
-   <br>The Task Name must be entered as it will appear in the Workfront interface, without brackets or quotation marks.
-   <br>
-   <img src="assets/add-task-to-project-350x63.png" alt="add_task_to_project.png" style="width: 350;height: 63;">
-   <br>
-  </note> </li> 
- <li value="3">(Optional) Start typing the name of a project with which you want to associate the new task and select it when it appears in the list.<br>You receive a confirmation indicating that the task was added to the selected project.</li> 
- <li value="4">(Optional) Click the name of the task in the confirmation message to open it in Workfront, in a new browser tab.</li> 
-</ol>
+1. Log in to your Slack instance and log in to Workfront from Slack.  
+   For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+
+1. From any channel, start typing the following command in the message field:&nbsp;  
+   *
+
+   ```
+   /workfront add task <Task Name>
+   ```
+
+   .*
+
+   >[!NOTE]
+   >
+   >Commands are case sensitive. You can start your command with    >
+   >
+   >```   >
+   >/wf
+   >```   >
+   >
+   >instead of /   >
+   >
+   >```   >
+   >workfront
+   >```   >
+   >
+   >.  
+   >The Task Name must be entered as it will appear in the Workfront interface, without brackets or quotation marks.  
+   >![add_task_to_project.png](assets/add-task-to-project-350x63.png)
+
+1. (Optional) Start typing the name of a project with which you want to associate the new task and select it when it appears in the list.  
+   You receive a confirmation indicating that the task was added to the selected project.
+1. (Optional) Click the name of the task in the confirmation message to open it in Workfront, in a new browser tab.
 
 ## Create issues from Slack
 
-<ol> 
- <li value="1"> Log in to your Slack instance and log in to Workfront from Slack.<br>For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md" class="MCXref xref">Access Adobe Workfront from Slack</a>.</li> 
- <li value="2"> <p>From any channel, start typing the following command in the message field:&nbsp;<br><code>/workfront add issue <Issue Name></code><em>.</em></p> <note type="note">
-   Commands are case sensitive. You can start your command with '/wf' instead of '/workfront.'&nbsp;
-   <br>The Issue Name must be entered as it will appear in the Workfront interface, without brackets or quotation marks.
-   <br>
-   <img src="assets/slack-add-issue-to-project-350x88.png" alt="slack_add_issue_to_project.png" style="width: 350;height: 88;">
-   <br>
-  </note> </li> 
- <li value="3">(Optional) Start typing the name of a project with which you want to associate the new issue and select it when it appears in the list.<br>You receive a confirmation indicating that the issue was added to the selected project.&nbsp;</li> 
- <li value="4">(Optional) Click the name of the issue in the confirmation message to open it in Workfront, in a new browser tab.</li> 
-</ol>
+1. Log in to your Slack instance and log in to Workfront from Slack.  
+   For more information about logging in to Workfront from Slack, see the "Logging In to Workfront from Slack" section in [Access Adobe Workfront from Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+
+1. From any channel, start typing the following command in the message field:&nbsp;
+
+   ```
+   /workfront add issue <Issue Name>
+   ```
+
+   *.*
+
+   >[!NOTE]
+   >
+   >Commands are case sensitive. You can start your command with '/wf' instead of '/workfront.'&nbsp;  
+   >The Issue Name must be entered as it will appear in the Workfront interface, without brackets or quotation marks.  
+   >![slack_add_issue_to_project.png](assets/slack-add-issue-to-project-350x88.png)
+
+1. (Optional) Start typing the name of a project with which you want to associate the new issue and select it when it appears in the list.  
+   You receive a confirmation indicating that the issue was added to the selected project.&nbsp;
+1. (Optional) Click the name of the issue in the confirmation message to open it in Workfront, in a new browser tab.
 

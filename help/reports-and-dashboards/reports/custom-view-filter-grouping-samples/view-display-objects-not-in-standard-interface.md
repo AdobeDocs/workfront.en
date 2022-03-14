@@ -63,20 +63,69 @@ You must have the following access to perform the steps in this article:
 
 ## Example: add the Portfolio Owner Name column to a project view
 
-<ol> 
- <li value="1">Go to a list of projects.</li> 
- <li value="2">From the <span class="bold">View</span> drop-down menu, click <span class="bold">New View</span>.</li> 
- <li value="3">Click <span class="bold">Add Column</span> then start typing "Portfolio Owner ID" in the <span class="bold">Show in this column</span> field, then select it when it displays in the list.</li> 
- <li value="4">Click <span class="bold">Switch to Text Mode</span>.</li> 
- <li value="5">Hover over the text mode area, and click <span class="bold">Click to edit text</span>.</li> 
- <li value="6"> <p>Replace the <code>valuefield </code>line (<code>valuefield=portfolio:ownerID</code>) with the following line: <code>valuefield=portfolio:owner:name</code></p> <p>Or</p> <p>Remove the text you find in the <span class="bold">Text Mode</span> box, and replace it with the following code:</p><pre>valuefield=portfolio:owner:name</pre><pre>querysort=portfolio:owner:name</pre><pre>valueformat=HTML</pre><pre>displayname=Portfolio Owner Name</pre><pre>linkedname=portfolio</pre> <note type="tip">
-   To replace any field 
-   <code>ID</code> with the field 
-   <code>name</code> using text mode, always replace 
-   <code>ID</code> with 
-   <code>:name</code> in the 
-   <code>valuefield </code>line.
-  </note> </li> 
- <li value="7">Click <span class="bold">Save</span>, then <span class="bold">Save View</span>.</li> 
-</ol>
+1. Go to a list of projects.
+1. From the `View` drop-down menu, click `New View`.
+
+1. Click `Add Column` then start typing "Portfolio Owner ID" in the `Show in this column` field, then select it when it displays in the list.
+
+1. Click `Switch to Text Mode`.
+1. Hover over the text mode area, and click `Click to edit text`.
+1. Replace the 
+
+   ```
+   valuefield
+   ```
+
+   line (
+
+   ```
+   valuefield=portfolio:ownerID
+   ```
+
+   ) with the following line: 
+
+   ```
+   valuefield=portfolio:owner:name
+   ```
+
+   Or
+
+   Remove the text you find in the `Text Mode` box, and replace it with the following code:
+   <pre>valuefield=portfolio:owner:name</pre><pre>querysort=portfolio:owner:name</pre><pre>valueformat=HTML</pre><pre>displayname=Portfolio Owner Name</pre><pre>linkedname=portfolio</pre>
+
+   >[!TIP]
+   >
+   >To replace any field    >
+   >
+   >```   >
+   >ID
+   >```   >
+   >
+   >with the field    >
+   >
+   >```   >
+   >name
+   >```   >
+   >
+   >using text mode, always replace    >
+   >
+   >```   >
+   >ID
+   >```   >
+   >
+   >with    >
+   >
+   >```   >
+   >:name
+   >```   >
+   >
+   >in the    >
+   >
+   >```   >
+   >valuefield
+   >```   >
+   >
+   >line.
+
+1. Click `Save`, then `Save View`.
 

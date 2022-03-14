@@ -29,51 +29,56 @@ This article explains how to do the following:
 
 First, you need to set up the Custom Field section to which you will add custom fields.&nbsp;
 
-<ol> 
- <li value="1">Click <span class="bold">Settings </span>><span class="bold"> Account Settings</span>, then open the <span class="bold">Custom fields</span> tab.</li> 
- <li value="2">Click <span class="bold">Add custom field section</span>&nbsp;in the relevant module (Proof, Users, or Contacts).</li> 
- <li value="3"> <p>Type a <span class="bold">Name</span> for custom field section, then click <span class="bold">Save</span>.<br></p> <p>Now you can set up custom fields within the section:</p> </li> 
- <li value="4">Click the <span class="bold">Custom fields settings</span> tab to refresh the page.&nbsp;</li> 
- <li value="5">Click the name of your new custom field section top open the <span class="bold">Custom field section</span> page for the new section.</li> 
- <li value="6">Click the <span class="bold">New custom field</span> near the upper-right corner.</li> 
- <li value="7"> <p>In the <span class="bold">New custom field</span> page that appears, specify the details for the custom field:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Mandatory</span> </td> 
-     <td>Workfront requires users to complete the field.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Searchable</span> </td> 
-     <td>Allows users to be able to find items by searching on the Custom field data.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Hidden</span> </td> 
-     <td>Hides the custom field on the New proof, New guest, and New user pages</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="8">Click <span class="bold">Save</span>.</li> 
- <li value="9">In the <span class="bold">Custom field</span> page that appears, click the <span class="bold">Custom fields settings</span> tab to refresh the page.&nbsp;</li> 
- <li value="10">Make any further changes to the settings for the field: 
-  <ul>
-   <li>Hide or unhide the custom field section by clicking the <span class="bold">More</span>&nbsp;(three dot) menu to the right of the custom field section name, then clicking <span class="bold">Hide section</span> or <span class="bold">Unhide section</span>.</li>
-   <li>Hide or unhide the custom field by clicking the <span class="bold">More</span>&nbsp;(three dot) menu to the right of the custom field section name, then clicking <span class="bold">Hide custom field</span> or <span class="bold">Unhide custom field</span>.</li>
-   <li>Change the order of the fields using the up/down arrows that display to the right of their names (if you have added multiple fields in a section).</li>
-  </ul></li> 
- <li value="11"> <p>Open the <span class="bold">Visibility rules</span> tab.<br>Visibility rules allow you to dictate which additional fields are shown, based on the completion of the initial Custom field. For example, if the dependent field is A and the Controlling field is X, this means that Field A will only be visible if field X is completed.</p> <p>You can use controlling values&nbsp;to determine the values in the controlling field which, if picked, will result in the dependent field being visible. For example, imagine that the dependent field is A and the controlling field is X and you set the controlling values in X to be options 1 and 2 only. This means that field A will be visible only if field X option 1 or 2 is selected. This means that if field X options 3 or 4 are selected, then field A does not display. Open the <span class="bold">Visibility rules</span> tab.<br></p> <p>To add a visibility rule:</p> 
-  <ol> 
-   <li value="1">Click <span class="bold">New visibility rule</span>&nbsp;for the module where you want to add the rule.</li> 
-   <li value="2">Select the settings you want for the rule, then click <span class="bold">Save</span>.</li> 
-  </ol> </li> 
- <li value="12"> <p>Open the <span class="bold">Dependency rules</span> tab.</p> <p>Dependency rules let you determine the options available in the dependent field when certain options are selected in the controlling field. For example, if the dependent field is "B" and the controlling field is "Y," you could set it up as follows:</p> <p>If option 1 in field Y is chosen, only options 1 and 2 in field B are shown. <br></p> <p>If option 2 in field Y is chosen, only options 3 and 4 in field B are shown.<br></p> <p>To add a dependency rule:</p> 
-  <ol style="list-style-type: lower-alpha;"> 
-   <li value="1">Click <span class="bold">New dependency rule</span> for the module you want to add the rule.</li> 
-   <li value="2">Select the settings you want for the dependency, then click <span class="bold">Save</span>.</li> 
-  </ol> </li> 
-</ol>
+1. Click `Settings`> `Account Settings`, then open the `Custom fields` tab.
+
+1. Click `Add custom field section`&nbsp;in the relevant module (Proof, Users, or Contacts).
+1. Type a `Name` for custom field section, then click `Save`.
+
+   Now you can set up custom fields within the section:
+
+1. Click the `Custom fields settings` tab to refresh the page.&nbsp;
+1. Click the name of your new custom field section top open the `Custom field section` page for the new section.
+1. Click the `New custom field` near the upper-right corner.
+1. In the `New custom field` page that appears, specify the details for the custom field:
+
+   | `Mandatory`  |Workfront requires users to complete the field. |
+   |---|---|
+   | `Searchable`  |Allows users to be able to find items by searching on the Custom field data. |
+   | `Hidden`  |Hides the custom field on the New proof, New guest, and New user pages |
+
+1. Click `Save`.
+1. In the `Custom field` page that appears, click the `Custom fields settings` tab to refresh the page.&nbsp;
+
+1. Make any further changes to the settings for the field:
+
+  * Hide or unhide the custom field section by clicking the `More` (three dot) menu to the right of the custom field section name, then clicking `Hide section` or `Unhide section`.
+  
+  * Hide or unhide the custom field by clicking the `More` (three dot) menu to the right of the custom field section name, then clicking `Hide custom field` or `Unhide custom field`.
+  
+  * Change the order of the fields using the up/down arrows that display to the right of their names (if you have added multiple fields in a section).
+
+1. Open the `Visibility rules` tab.  
+   Visibility rules allow you to dictate which additional fields are shown, based on the completion of the initial Custom field. For example, if the dependent field is A and the Controlling field is X, this means that Field A will only be visible if field X is completed.
+
+   You can use controlling values to determine the values in the controlling field which, if picked, will result in the dependent field being visible. For example, imagine that the dependent field is A and the controlling field is X and you set the controlling values in X to be options 1 and 2 only. This means that field A will be visible only if field X option 1 or 2 is selected. This means that if field X options 3 or 4 are selected, then field A does not display. Open the `Visibility rules` tab.
+
+   To add a visibility rule:
+
+  1. Click `New visibility rule`&nbsp;for the module where you want to add the rule.
+  1. Select the settings you want for the rule, then click `Save`.
+
+1. Open the `Dependency rules` tab.
+
+   Dependency rules let you determine the options available in the dependent field when certain options are selected in the controlling field. For example, if the dependent field is "B" and the controlling field is "Y," you could set it up as follows:
+
+   If option 1 in field Y is chosen, only options 1 and 2 in field B are shown.
+
+   If option 2 in field Y is chosen, only options 3 and 4 in field B are shown.
+
+   To add a dependency rule:
+
+  1. Click `New dependency rule` for the module you want to add the rule.
+  1. Select the settings you want for the dependency, then click `Save`.
 
 ## Manage your custom fields
 

@@ -17,8 +17,13 @@ Multiple reviewers can review a proof at the same time.&nbsp;When you are review
 
 You can see presence indicators when other reviewers have the same proof open, whether or not they add comments to the proof. If they do add comments, the comments appear while you are reviewing the proof; you don't have to refresh the proofing viewer to see them.
 
-<ol> 
- <li value="1"> <p>View the presence indicators in the upper-right corner of the proofing viewer.</p> <p>If you are using Workfront Proof (not the proofing functionality integrated with Workfront_, presence indicators contain the user's Workfront Proof profile picture or, if there is no profile picture, the first and last initial if the user. </p> <p>Profile pictures in Workfront do not appear in the proofing viewer.<br></p> </li> 
- <li value="2"> <p>(Optional) Mouse over a presence indicator to view the name of the user.</p> <p> <img src="assets/proof-presence.png"> <br> </p> </li> 
-</ol>
+1. View the presence indicators in the upper-right corner of the proofing viewer.
+
+   If you are using Workfront Proof (not the proofing functionality integrated with Workfront_, presence indicators contain the user's Workfront Proof profile picture or, if there is no profile picture, the first and last initial if the user.
+
+   Profile pictures in Workfront do not appear in the proofing viewer.
+
+1. (Optional) Mouse over a presence indicator to view the name of the user.
+
+   ![](assets/proof-presence.png)
 

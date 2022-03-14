@@ -37,17 +37,31 @@ You must have the following to perform the steps in this article:
 
 ## Create or modify layout templates for a group you manage
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>Click <span class="bold">Groups</span>.</p> <p>In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.</p> </li> 
- <li value="3"> <p>Click the name of the group that you want to create or modify layout templates for.</p> </li> 
- <li value="4">In the left panel, click <span class="bold">Layout Templates</span> <img src="assets/layout-templates-icon.png">.</li> 
- <li value="5"> <p>Do any of the following:</p> 
-  <ul> 
-   <li> <p>To create a new template for the group, click <span class="bold">New Layout Template</span>.</p> <p>Or</p> <p>To create a new template for the group that is based on an existing one, select the existing template, then click <span class="bold">Copy</span>.</p> <p>For information on creating a Layout Template, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <p>For information about copying a layout template to create a new one, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md" class="MCXref xref">Copy a layout template</a>.</p> </li> 
-   <li> <p>To edit an existing group layout template, select it, then click <span class="bold">Edit</span>.</p> <p>For information on editing a layout template, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> </li> 
-   <li> <p>To delete one or more layout templates, select them, then click <span class="bold">Delete</span>. </p> </li> 
-   <li> <p><span class="bold">Export</span> the list of layout templates.</p> </li> 
-  </ul> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Groups`.
+
+   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+
+1. Click the name of the group that you want to create or modify layout templates for.
+1. In the left panel, click `Layout Templates` ![](assets/layout-templates-icon.png).
+
+1. Do any of the following:
+
+  * To create a new template for the group, click `New Layout Template`.
+
+    Or
+
+    To create a new template for the group that is based on an existing one, select the existing template, then click `Copy`.
+
+    For information on creating a Layout Template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+    For information about copying a layout template to create a new one, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+  
+  * To edit an existing group layout template, select it, then click `Edit`.
+
+    For information on editing a layout template, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+  
+  * To delete one or more layout templates, select them, then click `Delete`. 
+  * `Export` the list of layout templates.
 

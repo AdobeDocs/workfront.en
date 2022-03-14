@@ -49,9 +49,10 @@ Accessing the header for an object in Workfront is identical for all the objects
 
 For example, to access the header of a project:
 
-<ol> 
- <li value="1"> <p>Go to a project.<br>The header displays at the top of the page and contains the name of the project.</p> <p> <img src="assets/project-header-350x18.png" style="width: 350;height: 18;"> </p> </li> 
-</ol>
+1. Go to a project.  
+   The header displays at the top of the page and contains the name of the project.
+
+   ![](assets/project-header-350x18.png)
 
 ## Home header overview
 

@@ -38,70 +38,89 @@ You must have the following access to perform the steps in this article:
 
 ## Approve work
 
-<ol> 
- <li value="1"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of Adobe Workfront.</p> <note type="note"> 
-    <p>Your Workfront administrator might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> <p> <img src="assets/home-for-reviewers-adobe-350x159.png" style="width: 350;height: 159;"> </p> </li> 
- <li value="2">Select an approval from the work list on the left side of the screen.</li> 
- <li value="3"> <p>Click <span class="bold">Approve</span>, <span class="bold">Changes</span>, or <span class="bold">Reject</span>. </p> <note type="important">
-   Once you've made an approval decision, you can't change it. 
-  </note> </li> 
- <li value="4">(Optional) Add a comment to your approval decision.<br></li> 
-</ol>
+1. 
+   Click the `Home` icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click `Home`.
+   >  
+   >
+
+   ![](assets/home-for-reviewers-adobe-350x159.png)
+
+1. Select an approval from the work list on the left side of the screen.
+1. Click `Approve`, `Changes`, or `Reject`.
+
+   >[!IMPORTANT]
+   >
+   >Once you've made an approval decision, you can't change it.
+
+1. (Optional) Add a comment to your approval decision.
 
 ## Delegate approvals
 
-<ol> 
- <li value="1">Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of Adobe Workfront.Your Workfront administrator might make the following changes to the Home icon in your environment:Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.<br></li> 
- <li value="2">Click <span class="bold">Delegate My Approvals</span> above the work list.<br><img src="assets/home-for-reviewers-adobe-350x159.png" style="width: 350;height: 159;"></li> 
- <li value="3">Type the name of a user you'd like to delegate your approvals to. You can delegate only Project, Task, and Issue approvals.</li> 
- <li value="4">Choose a <span class="bold">Start Date</span>.</li> 
- <li value="5"> Choose an <span class="bold">End Date</span>.<br>or<br>Choose <span class="bold">No end date</span>.</li> 
- <li value="6">Click Save.<br></li> 
-</ol>
+1. Click the `Home` icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.Your Workfront administrator might make the following changes to the Home icon in your environment:Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click `Home`.  
+
+1. Click `Delegate My Approvals` above the work list.  
+   ![](assets/home-for-reviewers-adobe-350x159.png)
+
+1. Type the name of a user you'd like to delegate your approvals to. You can delegate only Project, Task, and Issue approvals.
+1. Choose a `Start Date`.
+1. Choose an `End Date`.  
+   or  
+   Choose `No end date`.
+
+1. Click Save.
 
 ## Remind or recall approvals you've submitted
 
-<ol> 
- <li value="1"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of Adobe Workfront.</p> <note type="note"> 
-    <p>Your Workfront administrator might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> <p> <br> <img src="assets/home-for-reviewers-adobe-350x159.png" style="width: 350;height: 159;"> </p> </li> 
- <li value="2">Expand the Approvals I've Submitted grouping in the work list.</li> 
- <li value="3">Select an approval.</li> 
- <li value="4">In the top-right corner, click <span class="bold">Recall</span> or <span class="bold">Remind</span>.<br></li> 
-</ol>
+1. 
+   Click the `Home` icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click `Home`.
+   >  
+   >
+
+   ![](assets/home-for-reviewers-adobe-350x159.png)
+
+1. Expand the Approvals I've Submitted grouping in the work list.
+1. Select an approval.
+1. In the top-right corner, click `Recall` or `Remind`.
 
 ## Make comments
 
-<ol> 
- <li value="1"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of Adobe Workfront.</p> <note type="note"> 
-    <p>Your Workfront administrator might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> <p> <br> <img src="assets/home-for-reviewers-adobe-350x159.png" style="width: 350;height: 159;"> </p> </li> 
- <li value="2">Select an approval from the work list on the left side of the screen.</li> 
- <li value="3">In the right panel, click in the <span class="bold">Start a new update</span> box.</li> 
- <li value="4">Make your update.</li> 
- <li value="5">Click <span class="bold">Update</span>.</li> 
-</ol>
+1. 
+   Click the `Home` icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click `Home`.
+   >  
+   >
+
+   ![](assets/home-for-reviewers-adobe-350x159.png)
+
+1. Select an approval from the work list on the left side of the screen.
+1. In the right panel, click in the `Start a new update` box.
+1. Make your update.
+1. Click `Update`.
 
 &nbsp;

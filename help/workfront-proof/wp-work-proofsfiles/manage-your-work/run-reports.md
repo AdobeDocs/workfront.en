@@ -46,13 +46,24 @@ In this panel you can
 
 ## Viewing Reports
 
-<ol> 
- <li value="1">Go to the <span class="bold">Dashboards</span> page.</li> 
- <li value="2">Click the <span class="bold">Reports</span> tab.<br><img src="assets/proof-reports-350x193.png" alt="proof_reports.png" style="width: 350;height: 193;"></li> 
- <li value="3">In the <span class="bold">Time frame</span> drop-down menu, select&nbsp;whether you want to display information about proofs created within the past 24 hours, 7 days, 30 days, 90 days, or a custom time period.<br>If you select a custom time period, select the start and end dates, then click <span class="bold">Apply</span>.<br>The following information is displayed for the time period you selected:<br><span class="bold">Proof Created:</span>&nbsp;Number of proofs created within the selected time period.<br><span class="bold">Versions Per Proof:</span>&nbsp;Average number of versions per proof for all completed proofs (Approved or Approved with Changes) within the selected time period.<br><span class="bold">Turn Around Time:</span>&nbsp;Average time from when the first version was created to the time the decision was made on the final version.<br><span class="bold">First Activity Time:</span>&nbsp;Average time from when the proof was created to the time of the first activity on the proof.<br><span class="bold">Proofs Late:</span>&nbsp;Average percentage of completed proofs (Approved or Approved with Changes) that had at least one version that was late within the selected time period.<br><span class="bold">Comments and Replies:</span>&nbsp;Average number of comments and replies that were made on all proofs within the selected time period.</li> 
- <li value="4">(Optional) Select or deselect the <span class="bold">Show min-max range</span> option to determine whether minimum and maximum values are displayed in the graph. <br>When this option is selected, blue shading is displayed between the minimum and maximum recorded values.</li> 
- <li value="5">(Optional) You can filter the data that is displayed, as described in <a href="#filtering-reports" class="MCXref xref">Filtering Reports</a>.</li> 
-</ol>
+1. Go to the `Dashboards` page.
+1. Click the `Reports` tab.  
+   ![proof_reports.png](assets/proof-reports-350x193.png)
+
+1. In the `Time frame` drop-down menu, select&nbsp;whether you want to display information about proofs created within the past 24 hours, 7 days, 30 days, 90 days, or a custom time period.  
+   If you select a custom time period, select the start and end dates, then click `Apply`.  
+   The following information is displayed for the time period you selected:  
+   `Proof Created:`&nbsp;Number of proofs created within the selected time period.  
+   `Versions Per Proof:`&nbsp;Average number of versions per proof for all completed proofs (Approved or Approved with Changes) within the selected time period.  
+   `Turn Around Time:`&nbsp;Average time from when the first version was created to the time the decision was made on the final version.  
+   `First Activity Time:`&nbsp;Average time from when the proof was created to the time of the first activity on the proof.  
+   `Proofs Late:`&nbsp;Average percentage of completed proofs (Approved or Approved with Changes) that had at least one version that was late within the selected time period.  
+   `Comments and Replies:`&nbsp;Average number of comments and replies that were made on all proofs within the selected time period.
+
+1. (Optional) Select or deselect the `Show min-max range` option to determine whether minimum and maximum values are displayed in the graph.   
+   When this option is selected, blue shading is displayed between the minimum and maximum recorded values.
+
+1. (Optional) You can filter the data that is displayed, as described in [Filtering Reports](#filtering-reports).
 
 ## Filtering Reports
 
@@ -60,21 +71,31 @@ By default, data displayed in reports&nbsp;includes all information from your Wo
 
 To filter reporting information:&nbsp;
 
-<ol> 
- <li value="1">Go to the <span class="bold">Dashboards</span> page.</li> 
- <li value="2">Click the <span class="bold">Reports</span> tab.<br><img src="assets/proof-reports-350x193.png" alt="proof_reports.png" style="width: 350;height: 193;"></li> 
- <li value="3">Run a report, as described in <a href="#viewing-reports" class="MCXref xref">Viewing Reports</a>.</li> 
- <li value="4">Click <span class="bold">Filter</span>.<br></li> 
- <li value="5">On the left side of the page, select from the following filter options:<br><span class="bold">Proof Type:</span> Select the type of proofs you want to be included in the report.<br><span class="bold">Decisions:</span> Select options to determine whether only proofs that contain&nbsp;certain decisions have been made. <br><span class="bold">Recipients:</span>&nbsp;Select individual users to view information relating to proofs shared with the&nbsp;selected users. <br><span class="bold">Proof Owners:</span> Select individual users to view information relating to proofs owned&nbsp;by the&nbsp;selected users.<br><span class="bold">Proof Creators:</span>&nbsp;Select individual users to view information relating to proofs created by the&nbsp;selected users.<br><span class="bold">Accounts:</span> Select which accounts&nbsp;you want to include in the report.</li> 
- <li value="6">Click <span class="bold">Apply</span>.</li> 
- <li value="7">(Optional) Select or deselect the <span class="bold">Show min-max range</span> option to determine whether minimum and maximum values are displayed in the graph. <br>When this option is selected, blue shading is displayed between the minimum and maximum recorded values.</li> 
-</ol>
+1. Go to the `Dashboards` page.
+1. Click the `Reports` tab.  
+   ![proof_reports.png](assets/proof-reports-350x193.png)
+
+1. Run a report, as described in [Viewing Reports](#viewing-reports).
+1. Click `Filter`.  
+
+1. On the left side of the page, select from the following filter options:  
+   `Proof Type:` Select the type of proofs you want to be included in the report.  
+   `Decisions:` Select options to determine whether only proofs that contain&nbsp;certain decisions have been made.   
+   `Recipients:`&nbsp;Select individual users to view information relating to proofs shared with the&nbsp;selected users.   
+   `Proof Owners:` Select individual users to view information relating to proofs owned&nbsp;by the&nbsp;selected users.  
+   `Proof Creators:`&nbsp;Select individual users to view information relating to proofs created by the&nbsp;selected users.  
+   `Accounts:` Select which accounts&nbsp;you want to include in the report.
+
+1. Click `Apply`.
+1. (Optional) Select or deselect the `Show min-max range` option to determine whether minimum and maximum values are displayed in the graph.   
+   When this option is selected, blue shading is displayed between the minimum and maximum recorded values.
 
 ## Printing Reports
 
-<ol> 
- <li value="1">Go to the <span class="bold">Dashboards</span> page.</li> 
- <li value="2">Click the <span class="bold">Reports</span> tab, then click <span class="bold">Print</span>.<br><img src="assets/proof-reports-print-350x191.png" alt="proof_reports_print.png" style="width: 350;height: 191;"></li> 
- <li value="3">Select from the various printing options available.<br>The printing options vary depending on&nbsp;the&nbsp;browser&nbsp;and browser version you use.</li> 
-</ol>
+1. Go to the `Dashboards` page.
+1. Click the `Reports` tab, then click `Print`.  
+   ![proof_reports_print.png](assets/proof-reports-print-350x191.png)
+
+1. Select from the various printing options available.  
+   The printing options vary depending on&nbsp;the&nbsp;browser&nbsp;and browser version you use.
 

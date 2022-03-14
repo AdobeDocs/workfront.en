@@ -67,10 +67,9 @@ To learn more about an option in the Main Menu, see [Top navigation bar overview
 
 To access the new areas in the new Adobe Workfront experience:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;"> in the upper-right corner of the new Adobe Workfront experience.</li> 
- <li value="2"> <p>Click an area to access a list of objects.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon-16x12.png) in the upper-right corner of the new Adobe Workfront experience.
+
+1. Click an area to access a list of objects.
 
 ## Tabs and subtabs replaced by filters
 
@@ -88,28 +87,30 @@ The information in the following subtabs is now available through filters:
 
 When accessing the Projects area, you can use the filter to display only projects that you own or projects you are part of.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main menu</span> icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then click <span class="bold">Projects</span>.</p> <p>A list of projects displays.</p> </li> 
- <li value="2"> <p>From the <span class="bold">Filter</span> drop-down menu, select from the following built-in filters to display certain types of projects:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">All</td> 
-     <td>Displays all projects you have access to view.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Projects I'm On</td> 
-     <td> <p>Displays projects for which you are part of the Project Team.</p> <p>For information about the Project Team, see the <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a> article.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Projects I Own</td> 
-     <td>Displays projects for which you are designated as the Project Owner.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click `Projects`.
+
+   A list of projects displays.
+
+1. From the `Filter` drop-down menu, select from the following built-in filters to display certain types of projects:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">All</td> 
+      <td>Displays all projects you have access to view.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Projects I'm On</td> 
+      <td> <p>Displays projects for which you are part of the Project Team.</p> <p>For information about the Project Team, see the <a href="../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a> article.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Projects I Own</td> 
+      <td>Displays projects for which you are designated as the Project Owner.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 >[!NOTE]
 >
@@ -120,51 +121,33 @@ When accessing the Projects area, you can use the filter to display only project
 
 When accessing the Portfolio area, you can use the filter to display only portfolios that you own or all portfolios.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main menu</span> icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then click <span class="bold">Portfolios</span>.</p> <p>A list of portfolios displays.</p> </li> 
- <li value="2"> <p>From the <span class="bold">Filter</span> drop-down menu, select from the following built-in filters to display certain types of portfolios:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">All</td> 
-     <td>Displays all portfolios you have access to view.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Portfolios I Own</td> 
-     <td>Displays all portfolios where you are designated as the Portfolio Manager. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click `Portfolios`.
+
+   A list of portfolios displays.
+
+1. From the `Filter` drop-down menu, select from the following built-in filters to display certain types of portfolios:
+
+   | All |Displays all portfolios you have access to view. |
+   |---|---|
+   | Portfolios I Own |Displays all portfolios where you are designated as the Portfolio Manager.  |
 
 ### Issue lists under a project or task
 
 When accessing the Issues area at the project level, you can use the filter to display only issues that are open, or issues that are closed.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main menu</span> icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then click <span class="bold">Projects</span>.</p> <p>A list of projects displays.</p> </li> 
- <li value="2">Click the name of a project to access it.</li> 
- <li value="3"> <p>Click the <span class="bold">Issues</span> area in the left panel.</p> <p>A list of issues displays.</p> </li> 
- <li value="4"> <p>From the <span class="bold">Filter</span> drop-down menu, select from the following built-in filters to displays certain types of issues:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">All</td> 
-     <td>Displays all issues on the project, regardless of their status.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Complete</td> 
-     <td>Displays only completed issues on the project.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Open</td> 
-     <td>Displays only open issues on the project.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click `Projects`.
+
+   A list of projects displays.
+
+1. Click the name of a project to access it.
+1. Click the `Issues` area in the left panel.
+
+   A list of issues displays.
+
+1. From the `Filter` drop-down menu, select from the following built-in filters to displays certain types of issues:
+
+   | All |Displays all issues on the project, regardless of their status. |
+   |---|---|
+   | Complete |Displays only completed issues on the project. |
+   | Open |Displays only open issues on the project. |
 

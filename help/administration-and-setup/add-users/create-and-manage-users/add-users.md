@@ -61,18 +61,16 @@ You must have the following to perform the steps in this article:
 
 Before you add a user, gather the information about the user listed below and determine which information you want to associate with that user:
 
-<ul> 
- <li>What is the user's personal information? At a minimum you need the following:<br>
-  <ul>
-   <li>Full name</li>
-   <li>A user name</li>
-   <li>Default password</li>
-   <li>Email address</li>
-  </ul><note type="note">
-    You can determine whether users can view other users' contact information by fine-tuning the Users View setting when specifying access levels for Workfront objects. For more information, see 
-   <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
-  </note></li> 
-</ul>
+* What is the user's personal information? At a minimum you need the following:
+
+  * Full name
+  * A user name
+  * Default password
+  * Email address
+
+  >[!NOTE]
+  >
+  >You can determine whether users can view other users' contact information by fine-tuning the Users View setting when specifying access levels for Workfront objects. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 * What is the position of the new user within the company? Does this person have any direct reports? Who does this person report to?
 * What job role does the person fill? Does this job role exist in Workfront? Is there a limit to the number of people who can fill this job role? For information about creating job roles, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).

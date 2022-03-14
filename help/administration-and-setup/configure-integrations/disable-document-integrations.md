@@ -43,31 +43,34 @@ You must have the following to perform the steps in this article:
 
 To disable document integrations for Workfront DAM, Workfront Library, Box, Dropbox, Google Drive, Microsoft&nbsp;OneDrive, WebDAM:
 
-<ol> 
- <li value="1">Log in to Workfront as a Workfront administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="3">Click <span class="bold">Documents</span> > <span class="bold">Cloud Providers</span>.</li> 
- <li value="4">Deselect any of the cloud providers you want to disconnect from Workfront.</li> 
- <li value="5"> <p>Click <span class="bold">Save</span>.</p> <p>Users are not able to connect to the specific cloud provider you disabled, and they can no longer link documents from that cloud provider to Workfront.</p> </li> 
-</ol>
+1. Log in to Workfront as a Workfront administrator.
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Documents` > `Cloud Providers`.
+
+1. Deselect any of the cloud providers you want to disconnect from Workfront.
+1. Click `Save`.
+
+   Users are not able to connect to the specific cloud provider you disabled, and they can no longer link documents from that cloud provider to Workfront.
 
 ## Disable the SharePoint integration
 
-<ol> 
- <li value="1">Log in to Workfront as a Workfront administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="3"> <p>Expand <span class="bold">Documents</span>, then click <span class="bold">SharePoint Integration</span>.</p> </li> 
- <li value="4"> <p>Select the SharePoint integration you want to disable.</p> </li> 
- <li value="5">Click <span class="bold">Disable</span>.<br>Users are not able to connect to the SharePoint site you disabled, and they can no longer link documents from SharePoint&nbsp;to Workfront.&nbsp;</li> 
-</ol>
+1. Log in to Workfront as a Workfront administrator.
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Expand `Documents`, then click `SharePoint Integration`.
+1. Select the SharePoint integration you want to disable.
+1. Click `Disable`.  
+   Users are not able to connect to the SharePoint site you disabled, and they can no longer link documents from SharePoint&nbsp;to Workfront.&nbsp;
 
 ## Disable custom integrations
 
-<ol> 
- <li value="1">Log in to Workfront as the administrator.</li> 
- <li value="2">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="3"> <p>Click <span class="bold">Documents</span> > <span class="bold">Custom Integration</span>.</p> </li> 
- <li value="4">Select the custom&nbsp;integration you want to disable.</li> 
- <li value="5"> <p>Click <span class="bold">Disable</span>.</p> <p>Users are not able to connect to the third-party document provider you disabled, and they can no longer link documents from that cloud provider to Workfront.</p> </li> 
-</ol>
+1. Log in to Workfront as the administrator.
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Documents` > `Custom Integration`.
+1. Select the custom&nbsp;integration you want to disable.
+1. Click `Disable`.
+
+   Users are not able to connect to the third-party document provider you disabled, and they can no longer link documents from that cloud provider to Workfront.
 

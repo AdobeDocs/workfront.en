@@ -27,12 +27,31 @@ Although the data expressions used are the same, the syntax for building a calcu
 
 For example:
 
-<ul> 
- <li> <p>To add a calculated data expression to a custom field on a task form for the Project Name, you use the following text: </p> <p><code>Project.Name</code> </p> </li> 
- <li> <p>To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:</p> <p><em><code>valuefield=project:name</code></em> </p> <p>Or<br></p> <p><code>valueexpression={project}.{name}</code> </p> <note type="tip">
-   The same syntax applies to all text-mode reporting elements where calculated expressions are used: views, filters, groupings, prompts. 
-  </note> </li> 
-</ul>
+* To add a calculated data expression to a custom field on a task form for the Project Name, you use the following text:
+
+  ```
+  Project.Name
+  ```
+
+* To add a calculated data expression to a custom column on a task report for the Project Name, you use the following text:
+
+  *
+
+  ```
+  valuefield=project:name
+  ```
+
+*
+
+  Or
+
+  ```
+  valueexpression={project}.{name}
+  ```
+
+  >[!TIP]
+  >
+  >The same syntax applies to all text-mode reporting elements where calculated expressions are used: views, filters, groupings, prompts.
 
 The differences between the two syntaxes are: 
 

@@ -89,19 +89,36 @@ To log in to Workfront using your SSO&nbsp;username and password:
 
 ## Log in to the Workfront mobile app
 
-<ol> 
- <li style="font-style: normal;" value="1"> <p>Launch the Workfront mobile app, then type your organization's domain.</p> <p>This is the SAML domain if your organization is using SSO.</p> <note type="tip">
-   This is typically your company name. If you are unsure, contact your Workfront administrator.
-  </note> </li> 
- <li style="font-style: normal;" value="2"> <p>Specify the Workfront URL for your company or the link to your SAML authentication portal.</p> <p>The Workfront URL should display in the following format<i>:</i><![CDATA[
-               
-                ]]><br style="font-style: normal;"><span class="bold">yourDomain.my.workfront.com</span></p> <p>For example:</p> <p><span class="bold">swains.my.workfront.com</span> </p> </li> 
- <li style="font-style: normal;" value="3"> <p>If you are logging in with you SAML credentials, follow the login steps from your SAML authentication portal.</p> <p> Your Workfront administrator must enable SAML 2.0 authentication with the Workfront web application in order to log in with your SAML credentials. For information about how to enable SAML 2.0, see the section <a href="../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#saml-with-workfront-web-app" class="MCXref xref">Configure Adobe Workfront with SAML 2.0</a> in the article <a href="../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md" class="MCXref xref">Configure Adobe Workfront with SAML 2.0</a>. If you cannot log in as described in this section, contact your Workfront administrator.</p> </li> 
- <li value="4">Tap <span class="bold">Continue in browser</span>.</li> 
- <li value="5">Specify the <span class="bold">Username </span>of your Workfront account or SAML user.</li> 
- <li value="6">Specify the <span class="bold">Password</span> for your Workfront account or SAML user.</li> 
- <li value="7">(Optional) Tap the eye icon to display or hide your password.</li> 
- <li value="8"> <p>Tap <span class="bold">SIGN IN</span>.</p> <p>You are signed in.</p> </li> 
- <li value="9"> <p>Tap <span class="bold">Okay, got it</span> or <span class="bold">GETTING STARTED</span> to navigate through the tutorials displayed.</p> <p>These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the Workfront mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show </p> </li> 
-</ol>
+1. Launch the Workfront mobile app, then type your organization's domain.
+
+   This is the SAML domain if your organization is using SSO.
+
+   >[!TIP]
+   >
+   >This is typically your company name. If you are unsure, contact your Workfront administrator.
+
+1. Specify the Workfront URL for your company or the link to your SAML authentication portal.
+
+   The Workfront URL should display in the following format*:*<![CDATA[                               ]]>  
+   `yourDomain.my.workfront.com`
+
+   For example:
+
+   `swains.my.workfront.com` 
+
+1. If you are logging in with you SAML credentials, follow the login steps from your SAML authentication portal.
+
+   Your Workfront administrator must enable SAML 2.0 authentication with the Workfront web application in order to log in with your SAML credentials. For information about how to enable SAML 2.0, see the section [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#saml-with-workfront-web-app) in the article [Configure Adobe Workfront with SAML 2.0](../../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md). If you cannot log in as described in this section, contact your Workfront administrator.
+
+1. Tap `Continue in browser`.
+1. Specify the `Username`of your Workfront account or SAML user.
+1. Specify the `Password` for your Workfront account or SAML user.
+1. (Optional) Tap the eye icon to display or hide your password.
+1. Tap `SIGN IN`.
+
+   You are signed in.
+
+1. Tap `Okay, got it` or `GETTING STARTED` to navigate through the tutorials displayed.
+
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the Workfront mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
 

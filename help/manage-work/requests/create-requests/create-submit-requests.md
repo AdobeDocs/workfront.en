@@ -87,23 +87,26 @@ For information about creating requests from existing drafts, see [Create reques
 
 To create a request in the Workfront web app:&nbsp;
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront. </li> 
- <li value="2"> Click Requests, then click New Request in the upper-right corner of the page. 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <ul> 
-    <li> You can access the New Request option from any section in the Requests area. </li> 
-    <li> The New Request option is dimmed when you do not have access to create issues. </li> 
-   </ul> 
-  </div> </li> 
- <li value="3"> (Conditional) Click inside the Request Type field and do one of the following: From the Recent Paths section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default. Note: Workfront saves a path only when you have actually submitted a request to it. It does not create paths for drafted requests. From the Request Queues section, select a request queue. Enter a keyword that belongs to a previously accessed path to search for a request queue. For example, if you have a request queue named "Help Desk" with a Topic Group named "Location" and a Queue Topic named "Remote", you can type "remote" and all the request queues that contain "remote" in any element of their path display. Tip: When you type a name that contains a special character, the request queue, queue topic, or topic group display even when you omit typing the character. The list of available request queues and recent paths dynamically updates to include only paths that contain the keyword which is highlighted in the results. The results of the search display under the following areas: Request Queues Request queues that contain the keyword in their name Request Paths Paths (which include request queues, topic groups, queue topics) that contain the keyword in any of the names of their elements Tips: The first 200 requests queues display by default, in alphabetical order. The name of the request queue is the name of the project which has been published as a Help Request Queue. The description of the project configured as the selected request queue displays to the right of the request queue name. For more information about how to publish a project as a Help Request Queue, see the article Create a Request Queue. </li> In the New request form, do one of the following: (Conditional) Select an available draft from the notification message displayed under the Request Type field. This area displays only if you have saved drafts before without submitting them. The three most recent drafts from three different queue topics display by default. Start entering a new request in the selected queue. A new draft automatically saves for you in the Drafts section after you start entering information for the new request and you give the request a name in the Subject field. 
- <li value="5"> <p>(Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic. </p> Tip: When you hover over a Topic Group or a Queue Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. <p>You can have up to 10 tiers of Topic Groups built into&nbsp;your Request Queue. <br>For more information about how to create Topic Groups, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Create Topic Groups</a>. For more information about creating Queue Topics, see the article <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>.</p> <note type="tip">
-   If you selected a draft 
-   <span>or a previous path</span>, the topic groups and queue topics are already selected. You can select a different one, if needed.
-  </note> </li> 
- <li value="6"> <p>Depending on what fields the Workfront administrator enabled in the <span class="bold">New Issue Fields</span> section of the <span class="bold">Queue Details</span>&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:</p> 
-  <div> 
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
+1. Click Requests, then click New Request in the upper-right corner of the page. 
+   ` `**Tips: **``
+
+  * You can access the New Request option from any section in the Requests area. 
+  * The New Request option is dimmed when you do not have access to create issues.
+
+1. (Conditional) Click inside the Request Type field and do one of the following: From the Recent Paths section, select a path you used recently to open a request queue. A path includes the request queue, the topic groups, and the queue topic that you submitted to recently. The last three paths display by default. Note: Workfront saves a path only when you have actually submitted a request to it. It does not create paths for drafted requests. From the Request Queues section, select a request queue. Enter a keyword that belongs to a previously accessed path to search for a request queue. For example, if you have a request queue named "Help Desk" with a Topic Group named "Location" and a Queue Topic named "Remote", you can type "remote" and all the request queues that contain "remote" in any element of their path display. Tip: When you type a name that contains a special character, the request queue, queue topic, or topic group display even when you omit typing the character. The list of available request queues and recent paths dynamically updates to include only paths that contain the keyword which is highlighted in the results. The results of the search display under the following areas: Request Queues Request queues that contain the keyword in their name Request Paths Paths (which include request queues, topic groups, queue topics) that contain the keyword in any of the names of their elements Tips: The first 200 requests queues display by default, in alphabetical order. The name of the request queue is the name of the project which has been published as a Help Request Queue. The description of the project configured as the selected request queue displays to the right of the request queue name. For more information about how to publish a project as a Help Request Queue, see the article Create a Request Queue. 
+1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic. 
+   Tip: When you hover over a Topic Group or a Queue Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. 
+
+   You can have up to 10 tiers of Topic Groups built into&nbsp;your Request Queue.   
+   For more information about how to create Topic Groups, see the article [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see the article [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+
+   >[!TIP]
+   >
+   >If you selected a draft `or a previous path`, the topic groups and queue topics are already selected. You can select a different one, if needed.
+
+1. Depending on what fields the Workfront administrator enabled in the `New Issue Fields` section of the `Queue Details`&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:
+
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -147,14 +150,11 @@ To create a request in the Workfront web app:&nbsp;
       <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other Workfront user.</td> 
      </tr> Assignments* Specify the name of an active user, job role, or a team that the request should be assigned to. Tip: You can specify only one team. Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. 
      <tr> 
-      <td role="rowheader" colspan="2"> <note type="note"> 
-        <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> 
-        <p style="font-weight: normal;">For more information, see the following articles:</p> 
+      <td role="rowheader" colspan="2"> <p>Note:  <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
         <ul> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a> </p> </li> 
          <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> <br> </p> </li> 
-        </ul> 
-       </note> </td> 
+        </ul> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Planned Hours</span> </td> 
@@ -174,21 +174,29 @@ To create a request in the Workfront web app:&nbsp;
      </tr> 
      <tr> 
       <td role="rowheader"><span class="bold">Documents</span> </td> 
-      <td> <p>Add documents to your request. </p> <note type="tip">
-        Depending on how the request queue was set up, the Documents section might display before or after the custom fields. 
-       </note> <p>Documents that you upload to Workfront are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> </td> 
+      <td> <p>Add documents to your request. </p> <p>Tip: Depending on how the request queue was set up, the Documents section might display before or after the custom fields. </p> <p>Documents that you upload to Workfront are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> </td> 
      </tr> 
     </tbody> 
-   </table> 
-  </div> </li> 
- <li value="7">(Optional) If your Workfront administrator associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form. <br>Custom forms are different for every Workfront instance.&nbsp;</li> 
- <li value="8">(Optional and conditional)&nbsp;At any point during entering the request, click <span class="bold">Discard</span>Discard draft if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. </li> 
- <li value="9">(Optional)&nbsp;Click <span class="bold">Cancel</span> on the confirmation message if you want to revert your action and keep the <span data-mc-edit-date="2020-09-24T17:05:04.5612145-04:00" data-mc-editor="alinawilson" data-mc-comment="preview and only QS" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2020-09-24T17:05:00.6761160-04:00">draft.</span></li> 
- <li value="10"> <p>Do one of the following:</p> 
-  <ul> 
-   <li> <p>Click Submit if you are ready to submit the request. The request is saved in the Submitted section . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a>. </p> <p>Or</p> <p> Click Close if you are not quite ready to submit it and you might come back and finish it later.Your request is saved in the Drafts sectionand it will be available to you next time you submit a request for this request queue. </p>  </li> 
-  </ul> <p>When you submit the request, the draft automatically deletes and cannot be restored. </p> <p>For information about addressing incoming requests, see the article <a href="../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md" class="MCXref xref">Manage work and team requests</a>.</p> <p>For information about locating submitted or drafted requests, also see <a href="../../../manage-work/requests/create-requests/locate-submitted-requests.md" class="MCXref xref">Locate submitted requests</a>.</p> </li> 
-</ol>
+   </table>
+
+1. (Optional) If your Workfront administrator associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form.   
+   Custom forms are different for every Workfront instance.&nbsp;
+1. (Optional and conditional) At any point during entering the request, click `Discard`Discard draft if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
+1. (Optional) Click `Cancel` on the confirmation message if you want to revert your action and keep the `draft.`
+
+1. Do one of the following:
+
+  * Click Submit if you are ready to submit the request. The request is saved in the Submitted section . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+
+    Or
+
+    Click Close if you are not quite ready to submit it and you might come back and finish it later.Your request is saved in the Drafts sectionand it will be available to you next time you submit a request for this request queue.
+
+   When you submit the request, the draft automatically deletes and cannot be restored.
+
+   For information about addressing incoming requests, see the article [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
+
+   For information about locating submitted or drafted requests, also see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
 
 ## Create requests from outside of Workfront
 

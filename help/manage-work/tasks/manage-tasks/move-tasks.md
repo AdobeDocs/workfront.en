@@ -52,22 +52,23 @@ You must have the following access to perform the actions in this article:
 
 To move a task displayed in a task list:
 
-<ol> 
- <li value="1">Go to the project that contains the task or tasks that you want to move.</li> 
- <li value="2"> Click Tasks in the left panel to display the task list. </li> 
- <li value="3"> 
-  <div> 
-   <p>Ensure that the <span class="bold">Autosave</span> toggle is enabled, then select the task or tasks that you want to move. </p> 
-   <p> <img src="assets/autosave-icon-on-highlighted-350x202.png" style="width: 350;height: 202;"> </p> <note type="important">
-    You cannot move tasks when the 
-    <span class="bold">Autosave</span> toggle is disabled. 
-    <br>
-   </note> 
-  </div> </li> 
- <li value="4"> <p>(Optional and conditional) If you want to move the selected tasks within the same project, click the tasks you selected, drag them and drop them where you want them moved on the project.</p> <p>After you dropped the tasks in the correct place on the project, the changes you made to the task hierarchy are saved immediately. All the information associated with each task is moved with the tasks.</p> </li> 
- <li value="5"> (Conditional) Select the task or tasks that you want to move and do one of the following: Click the More menu at the top of the task list, then click Move to. Right click the selected tasks, then click Move to. When selecting one task, click the More menu next to the task name in the list, then click Move to.  <p>The Move Task box displays</p> </li> 
- <li value="6"> Continue with moving the task, as described in the section Move a task at the task level in this article, starting with Step 4. </li> 
-</ol>
+1. Go to the project that contains the task or tasks that you want to move.
+1. Click Tasks in the left panel to display the task list. 
+1. 
+   Ensure that the `Autosave` toggle is enabled, then select the task or tasks that you want to move.
+
+   ![](assets/autosave-icon-on-highlighted-350x202.png)
+
+   >[!IMPORTANT]
+   >
+   >You cannot move tasks when the `Autosave` toggle is disabled.
+
+1. (Optional and conditional) If you want to move the selected tasks within the same project, click the tasks you selected, drag them and drop them where you want them moved on the project.
+
+   After you dropped the tasks in the correct place on the project, the changes you made to the task hierarchy are saved immediately. All the information associated with each task is moved with the tasks.
+
+1. (Conditional) Select the task or tasks that you want to move and do one of the following: Click the More menu at the top of the task list, then click Move to. Right click the selected tasks, then click Move to. When selecting one task, click the More menu next to the task name in the list, then click Move to.  The Move Task box displays
+1. Continue with moving the task, as described in the section Move a task at the task level in this article, starting with Step 4.
 
 ## Move a task&nbsp;at the task level
 

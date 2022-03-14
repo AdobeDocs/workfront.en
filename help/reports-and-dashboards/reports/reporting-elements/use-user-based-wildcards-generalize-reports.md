@@ -62,19 +62,38 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 
 To insert a user-based wildcard in a report:
 
-<ol> 
- <li value="1">Go to a report for which you want to insert a user-based wildcard.</li> 
- <li value="2">Click <span class="bold">Report Actions</span>, then <span class="bold">Edit</span>.</li> 
- <li value="3">Click the <span class="bold">Filters</span> tab.</li> 
- <li value="4">Click <span class="bold">Add a Filter Rule</span>.</li> 
- <li value="5"> <p>Start typing the name of the field that you want to filter by.<br>You must type fields that reference the user object or information about users.</p> </li> 
- <li value="6"> <p>Select <span class="bold">Equal</span> in the drop-down menu for the filter variable.</p> <note type="tip">
-   You must always select the 
-   <span class="bold">Equal</span> filter variable when working with wildcards in Adobe Workfront.
-  </note> </li> 
- <li value="7"> <p>In the <span class="bold">Start typing name ...</span> box, type: <code>$$USER.ID</code> or <code>$$USER.name</code> if you want the report to display information about the user who logs in, based on their name. You can insert other wildcards that refer to the logged-in user's Group, Team, Company, or other information.</p> <p>For a complete list of user-based wildcards, see <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a>.</p> <p> <img src="assets/user-based-wildcard-in-project-filter-350x74.png" style="width: 350;height: 74;"> </p> </li> 
- <li value="8">Click <span class="bold">Save + Close</span>.</li> 
-</ol>
+1. Go to a report for which you want to insert a user-based wildcard.
+1. Click `Report Actions`, then `Edit`.
+
+1. Click the `Filters` tab.
+1. Click `Add a Filter Rule`.
+1. Start typing the name of the field that you want to filter by.  
+   You must type fields that reference the user object or information about users.
+1. Select `Equal` in the drop-down menu for the filter variable.
+
+   >[!TIP]
+   >
+   >You must always select the `Equal` filter variable when working with wildcards in Adobe Workfront.
+
+1. In the `Start typing name ...` box, type: 
+
+   ```
+   $$USER.ID
+   ```
+
+   or 
+
+   ```
+   $$USER.name
+   ```
+
+   if you want the report to display information about the user who logs in, based on their name. You can insert other wildcards that refer to the logged-in user's Group, Team, Company, or other information.
+
+   For a complete list of user-based wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+
+   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
+
+1. Click `Save + Close`.
 
 ## Additional information
 

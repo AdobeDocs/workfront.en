@@ -41,16 +41,24 @@ For more information, see [link to Beta enrollment info].
 
 ## Create a formula field for a report
 
-<ol> 
- <li value="1"> <p>Start creating or editing a report table, as described in <a href="../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md" class="MCXref xref">Add or edit a report table in Reporting Canvas</a>.</p> </li> 
- <li value="2"> <p>If you haven't done so yet, click <span class="bold">Edit</span> to configure the table.</p> <note type="note"> 
-   <p>If the table was already added when you opened the report, the Edit button does not display. To edit the table, click the Edit icon <img src="assets/edit-icon.png"> in the table header.</p> 
-   <p> <img src="assets/edit-icon-table-header-350x71.png" style="width: 350;height: 71;"> </p> 
-  </note> </li> 
- <li value="3"> <p>Click <b>New</b> at the top of the <b>Fields</b> list.</p> <!--
+1. Start creating or editing a report table, as described in [Add or edit a report table in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md).
+1. If you haven't done so yet, click `Edit` to configure the table.
+
+   >[!NOTE]
+   >
+   >If the table was already added when you opened the report, the Edit button does not display. To edit the table, click the Edit icon ![](assets/edit-icon.png) in the table header.
+   >
+   >
+   >![](assets/edit-icon-table-header-350x71.png)   >
+   >
+
+1. Click **New** at the top of the **Fields** list.
+
+   <!--
    Show this in a screenshot when the UI is more stable
-  --> </li> <!--
-  In the new window that opens, drag or double-click [not sure if double-click will work] any Function or Field available in the system to add it to your formula field. Describe how to use the field definition area and field preview area as these become more developed in the UI A good example here would be helpful.
- --> 
-</ol>
+   -->
+
+   <!--
+   In the new window that opens, drag or double-click [not sure if double-click will work] any Function or Field available in the system to add it to your formula field. Describe how to use the field definition area and field preview area as these become more developed in the UI A good example here would be helpful.
+   -->
 

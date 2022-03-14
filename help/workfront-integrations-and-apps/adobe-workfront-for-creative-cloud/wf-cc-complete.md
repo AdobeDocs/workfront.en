@@ -43,9 +43,12 @@ You must have the following access to perform the steps in this article:
 
 ## Complete a work item
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
- <li value="2">From the <span class="bold">Work List</span>, select the task or issue you wish to mark complete. </li> 
- <li value="3">Click <span class="bold">Done</span>.<br>This marks the item complete in Workfront.<br><img src="assets/complete-work-350x529.png" style="width: 350;height: 529;"></li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. From the `Work List`, select the task or issue you wish to mark complete. 
+1. Click `Done`.  
+   This marks the item complete in Workfront.  
+   ![](assets/complete-work-350x529.png)
 

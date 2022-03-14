@@ -175,19 +175,29 @@ For more information about setting up an email account to allow users to send is
 
 To set up the email account associated with a Request Queue, specify the following information in the `Email Settings` area:
 
-<ul> 
- <li><span class="bold">Allow Issues to be added via email:</span> Select this option to allow issues to be added via email.</li> 
- <li> <p><span class="bold">POP username:</span> The full email address (including the domain name) where the POP account is created.&nbsp;For example,&nbsp; <i>workfront.market.research@gmail.com</i>.</p> <note type="important"> 
-   <ul> 
-    <li>Do not use your personal email address as the POP username. Instead, create a new email address dedicated for only this purpose - to allow users to email issues to this account.&nbsp; </li> 
-    <li>It is very important that you are using a POP email account. No other email protocol is supported&nbsp;for this setup.</li> 
-   </ul> 
-  </note> </li> 
- <li><span class="bold">POP password:</span> The password that corresponds with the user name that&nbsp;you created.</li> 
- <li><span class="bold">POP server:</span> The server of the third-party email service where the POP account lives. <br>For example, pop.gmail.com.</li> 
- <li><span class="bold">Enforce SSL/TLS:</span> Select this option if you want the connection to always be secure. Depending on the third-party email service that you are using, this might be a requirement.</li> 
- <li> <p><span class="bold">Port Number:</span> If <span class="bold">Enforce SSL/TLS</span>&nbsp;is selected, specify 995 as the port number.</p> <p>If <span class="bold">Enforce SSL/TLS</span>&nbsp;is unselected, leave this field blank.</p> </li> 
- <li>Click <span class="bold">Test Configuration</span>&nbsp;and ensure that you get a message stating that the configuration was successful.<br><img src="assets/screen-shot-2013-08-22-at-9.56.10-am-350x408.png" alt="" style="width: 350;height: 408;"></li> 
-</ul>
+* `Allow Issues to be added via email:` Select this option to allow issues to be added via email.
+* `POP username:` The full email address (including the domain name) where the POP account is created.&nbsp;For example,&nbsp; *workfront.market.research@gmail.com*.
+
+  >[!IMPORTANT]
+  >
+  >
+  >  
+  >  
+  >  * Do not use your personal email address as the POP username. Instead, create a new email address dedicated for only this purpose - to allow users to email issues to this account.&nbsp; 
+  >  * It is very important that you are using a POP email account. No other email protocol is supported&nbsp;for this setup.
+  >  
+  >
+
+* `POP password:` The password that corresponds with the user name that&nbsp;you created.
+* `POP server:` The server of the third-party email service where the POP account lives.   
+  For example, pop.gmail.com.
+
+* `Enforce SSL/TLS:` Select this option if you want the connection to always be secure. Depending on the third-party email service that you are using, this might be a requirement.
+* `Port Number:` If `Enforce SSL/TLS`&nbsp;is selected, specify 995 as the port number.
+
+  If `Enforce SSL/TLS`&nbsp;is unselected, leave this field blank.
+
+* Click `Test Configuration`&nbsp;and ensure that you get a message stating that the configuration was successful.  
+  ![](assets/screen-shot-2013-08-22-at-9.56.10-am-350x408.png)
 
 For more information about setting up the POP account, including specific information to the POP configuration settings, see [Enable users to email an issue into a Request Queue project](enable-email-issues-into-projects.md).

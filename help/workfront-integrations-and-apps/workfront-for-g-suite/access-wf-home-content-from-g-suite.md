@@ -45,18 +45,32 @@ Before you can access Home content from G Suite, you must
 
 ## Access Workfront Home from G Suite
 
-<ol> 
- <li value="1">Make sure you are logged in to Workfront.</li> 
- <li value="2">If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
- <li value="3"> <p>If you see a left arrow at the top of Workfront for G&nbsp;Suite, click the arrow to go to the Home area. </p> <p> <img src="assets/left-arrow-to-home.png" class="NotAThumbnail"> </p> </li> 
- <li value="4"> <p>In the <span class="bold">Sort by</span> area, click the expand arrow <img src="assets/dropdown-arrow.png">, then click an option to specify how you want to group your work items so you can find the one you want.</p> <p> <img src="assets/sort-by-area.png"> </p> <p>When you sort by <span class="bold">Commit date</span> or <span class="bold">Planned completion</span> date, the oldest work items are at the top.</p> <p>When you sort by <span class="bold">Project</span>, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under <span class="bold">No Project</span>.</p> </li> 
- <li value="5"> <p>Click the expand arrow <img src="assets/dropdown-arrow.png"> for the grouping you want to view.</p> <p>The number of items contained within each group displays in parenthesis. When you click the expand arrow, all the work items in the group display.</p> <p>Work items appear as follows:</p> 
-  <ul> 
-   <li> <img src="assets/task-icon.png"> <span class="bold"> Tasks</span> display the parent project name, task name, and planned completion date.</li> 
-   <li> <img src="assets/issue-icon.png"> <span class="bold"> Issues</span> display the parent project name, issue name, and planned completion date.</li> 
-   <li><span class="bold"><img src="assets/document-icon.png"> Approvals</span> display the requester's name, document name, and submission date.</li> 
-   <li><span class="bold">Access requests</span> display the requester's name, object name, and submission date. The icon for the object type displays on the left.</li> 
-  </ul> </li> 
- <li value="6"> <p>Click anywhere on a work item to see its details, updates, and documents.</p> </li> 
-</ol>
+1. Make sure you are logged in to Workfront.
+1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
+1. If you see a left arrow at the top of Workfront for G&nbsp;Suite, click the arrow to go to the Home area.
+
+   ![](assets/left-arrow-to-home.png)
+
+1. In the `Sort by` area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
+
+   ![](assets/sort-by-area.png)
+
+   When you sort by `Commit date` or `Planned completion` date, the oldest work items are at the top.
+
+   When you sort by `Project`, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under `No Project`.
+
+1. Click the expand arrow ![](assets/dropdown-arrow.png) for the grouping you want to view.
+
+   The number of items contained within each group displays in parenthesis. When you click the expand arrow, all the work items in the group display.
+
+   Work items appear as follows:
+
+  * ![](assets/task-icon.png) `Tasks` display the parent project name, task name, and planned completion date.
+  
+  * ![](assets/issue-icon.png) `Issues` display the parent project name, issue name, and planned completion date.
+  
+  * ` ![](assets/document-icon.png) Approvals` display the requester's name, document name, and submission date.
+  * `Access requests` display the requester's name, object name, and submission date. The icon for the object type displays on the left.
+
+1. Click anywhere on a work item to see its details, updates, and documents.
 

@@ -42,24 +42,29 @@ You must have the following to perform the steps in this article:
 
 ## Set up Azure Active Directory with Enhanced Authentication
 
-<ol> 
- <li value="1">Open the Azure portal and sign in as a global administrator or co-administrator.</li> 
- <li value="2">Select <span class="bold">All services</span> at the top-left side of the <span class="bold">navigation pane</span> to open the <span class="bold">Azure AD extension</span>.</li> 
- <li value="3">Type <code>Azure Active Directory</code> in the filter search box, and then select <span class="bold">Azure Active Directory</span>.</li> 
- <li value="4"> In the <span class="bold">Azure AD navigation pane</span> select <span class="bold">Enterprise Applications</span>.</li> 
- <li value="5">Click <span class="bold">All Applications</span> to view a list of your apps.</li> <note type="note">
-  If you don't see Workfront, use the 
-  <span class="bold">Filter control</span> at the top of the 
-  <span class="bold">All Applications List</span>, set the 
-  <span class="bold">Show option</span> to 
-  <span class="bold">All Applications</span>.
- </note> 
- <li value="6">Select <span class="bold">Workfront</span> to configure Workfront for single sign-on.</li> 
- <li value="7">After Workfront loads, select <span class="bold">Single sign-on</span> in the <span class="bold">Azure AD navigation pane</span>.</li> 
- <li value="8">Under <span class="bold">SAML Signing Certificate</span>, click <span class="bold">Show advanced certificate signing settings</span>.</li> 
- <li value="9">In the <span class="bold">Signing Option list</span> select <span class="bold">Sign SAML response</span>.</li> <note type="note">
-  Workfront requires Sign SAML response.
- </note> 
-</ol>
+1. Open the Azure portal and sign in as a global administrator or co-administrator.
+1. Select `All services` at the top-left side of the `navigation pane` to open the `Azure AD extension`.
+
+1. Type 
+
+   ```
+   Azure Active Directory
+   ```
+
+   in the filter search box, and then select `Azure Active Directory`.
+
+1. In the `Azure AD navigation pane` select `Enterprise Applications`.
+
+1. Click `All Applications` to view a list of your apps.
+1. If you don't see Workfront, use the `Filter control` at the top of the `All Applications List`, set the `Show option` to `All Applications`.
+
+1. Select `Workfront` to configure Workfront for single sign-on.
+1. After Workfront loads, select `Single sign-on` in the `Azure AD navigation pane`.
+
+1. Under `SAML Signing Certificate`, click `Show advanced certificate signing settings`.
+
+1. In the `Signing Option list` select `Sign SAML response`.
+
+1. Workfront requires Sign SAML response.
 
 The next time that you sign in to Workfront, Azure AD will sign the part of the SAML response that you selected.

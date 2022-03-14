@@ -86,120 +86,85 @@ For more information about the data displayed in each column, see the following 
 
 ## View information by Hour, FTE, or Cost
 
-<ol> 
- <li value="1"> <p> Go to the <span class="bold">Planner</span>.</p> <p>By default, information displays by Hours in the Resource Planner.<br></p> </li> 
- <li value="2"> Expand the drop-down menu. <br><img src="assets/hours-fte-or-cost-dropdown.png" alt="Hours_fte_or_cost_dropdown.png"></li> 
- <li value="3"> <p> Select from the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Hours</td> 
-     <td>Displays availability and allocation information in Hours.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">FTE</td> 
-     <td> <p>Displays availability and allocation information in FTE.</p> <p>For more information about how the FTE is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md">Calculating Hours and FTE in the Resource Planner</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Cost</td> 
-     <td> <p>Displays availability and allocation information by cost, if you are viewing the Resource Planner in the Project or Role views. The information displays values in the currency of your system. Your Workfront administrator defines the system currency. For more information about setting up the system currency in Workfront, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <note type="note">
-       You must associate users and job roles with Cost per Hour rates in order to display Cost information in the Resource Planner.
-       <br style="font-style: italic;">For more information about associating Cost per Hour rates with job roles, see 
-       <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.
-       <br style="font-style: italic;">For more information about associating Cost per Hour rates with users, see 
-       <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.
-       <br style="font-style: italic;">For more information about how Cost is calculated in the Resource Planner, see 
-       <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Customize</td> 
-     <td>Creates a custom view of the columns that display in the Resource Planner. Select the options that you want to display in the Resource Planner, as described in the steps below. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4"> <p>(Conditional) If you selected <b>Customize</b>, indicate options in the <span class="bold">Customize displayed metrics</span> box to set up your custom view. </p> <p> <img src="assets/planner-customize-view-box-350x114.png" style="width: 350;height: 114;"> </p> </li> 
- <li value="5"> <p>In the <span class="bold">View type</span> column on the left, select one of the following views:</p> 
-  <ul> 
-   <li>Project </li> 
-   <li>Role</li> 
-   <li>User</li> 
-  </ul> </li> 
- <li value="6"> <p>In the <span class="bold">Display selected items</span> section, select the type of information you want to display in the columns of the selected view.&nbsp;The following table shows what options are available in each view:</p> 
-  <table cellspacing="3"> 
-   <col> 
-   <col> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td rowspan="2"><b>Option</b> </td> 
-     <td colspan="3"><b>View</b> </td> 
-    </tr> 
-    <tr> 
-     <td>User</td> 
-     <td>Project </td> 
-     <td>Role </td> 
-    </tr> 
-    <tr> 
-     <td>Available</td> 
-     <td>✔</td> 
-     <td>✔</td> 
-     <td>✔</td> 
-    </tr> 
-    <tr> 
-     <td>Planned </td> 
-     <td>✔</td> 
-     <td>✔</td> 
-     <td>✔</td> 
-    </tr> 
-    <tr> 
-     <td>Budgeted</td> 
-     <td>&nbsp;</td> 
-     <td>✔</td> 
-     <td>✔</td> 
-    </tr> 
-    <tr> 
-     <td>Variance</td> 
-     <td>&nbsp;</td> 
-     <td>✔</td> 
-     <td>✔</td> 
-    </tr> 
-    <tr> 
-     <td>Net</td> 
-     <td>&nbsp;</td> 
-     <td>✔</td> 
-     <td>✔</td> 
-    </tr> 
-    <tr> 
-     <td>Actual</td> 
-     <td>✔</td> 
-     <td>&nbsp;</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td>Difference</td> 
-     <td>✔</td> 
-     <td>&nbsp;</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-    <tr> 
-     <td>Percent</td> 
-     <td>✔</td> 
-     <td>&nbsp;</td> 
-     <td>&nbsp;</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="7"> <p>Select <span class="bold">Use Planned (PLN)&nbsp;values in NET calculations</span> to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views. </p> <p>When selecting this option Workfront calculates the Net values using the following formula: </p> <p><code>Net = Available - Planned</code> </p> <note type="tip">
-   <span>This option is applied only when you select at least one option to customize the view in the Display selected items section.</span> 
-  </note> </li> 
- <li value="8"> <p>Click <span class="bold">Save</span>. </p> <p>The customized view that includes your selected columns displays. </p> <p>The Resource Planner lists the customized view as Custom in the Hours drop-down menu. </p> <note type="note">
-   You can have only one customized view. 
-  </note> <p> <img src="assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png" style="width: 183;height: 281;"> </p> </li> 
-</ol>
+1. Go to the `Planner`.
+
+   By default, information displays by Hours in the Resource Planner.
+
+1. Expand the drop-down menu.   
+   ![Hours_fte_or_cost_dropdown.png](assets/hours-fte-or-cost-dropdown.png)
+
+1. Select from the following options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Hours</td> 
+      <td>Displays availability and allocation information in Hours.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">FTE</td> 
+      <td> <p>Displays availability and allocation information in FTE.</p> <p>For more information about how the FTE is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md">Calculating Hours and FTE in the Resource Planner</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Cost</td> 
+      <td> <p>Displays availability and allocation information by cost, if you are viewing the Resource Planner in the Project or Role views. The information displays values in the currency of your system. Your Workfront administrator defines the system currency. For more information about setting up the system currency in Workfront, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.</p> <p>Note: You must associate users and job roles with Cost per Hour rates in order to display Cost information in the Resource Planner.<br style="font-style: italic;">For more information about associating Cost per Hour rates with job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br style="font-style: italic;">For more information about associating Cost per Hour rates with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br style="font-style: italic;">For more information about how Cost is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Customize</td> 
+      <td>Creates a custom view of the columns that display in the Resource Planner. Select the options that you want to display in the Resource Planner, as described in the steps below. </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Conditional) If you selected **Customize**, indicate options in the `Customize displayed metrics` box to set up your custom view.
+
+   ![](assets/planner-customize-view-box-350x114.png)
+
+1. In the `View type` column on the left, select one of the following views:
+
+  * Project 
+  * Role
+  * User
+
+1. In the `Display selected items` section, select the type of information you want to display in the columns of the selected view.&nbsp;The following table shows what options are available in each view:
+
+   | **Option** |**View** |
+   |---|---|
+   | User |Project  |Role  |
+   | Available |✔ |✔ |✔ |
+   | Planned  |✔ |✔ |✔ |
+   | Budgeted |&nbsp; |✔ |✔ |
+   | Variance |&nbsp; |✔ |✔ |
+   | Net |&nbsp; |✔ |✔ |
+   | Actual |✔ |&nbsp; |&nbsp; |
+   | Difference |✔ |&nbsp; |&nbsp; |
+   | Percent |✔ |&nbsp; |&nbsp; |
+
+1. Select `Use Planned (PLN) values in NET calculations` to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views.
+
+   When selecting this option Workfront calculates the Net values using the following formula:
+
+   ```
+   Net = Available - Planned
+   ```
+
+   >[!TIP]
+   >
+   >`This option is applied only when you select at least one option to customize the view in the Display selected items section.`
+
+1. Click `Save`.
+
+   The customized view that includes your selected columns displays.
+
+   The Resource Planner lists the customized view as Custom in the Hours drop-down menu.
+
+   >[!NOTE]
+   >
+   >You can have only one customized view.
+
+   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## View the User Allocation chart
 
@@ -207,41 +172,50 @@ You can display the Planned Allocation of users against their availability in a 
 
 To display the allocation of users in a chart:
 
-<ol> 
- <li value="1"> <p>Go to the <span class="bold">Planner</span>.</p> <p>For more information about accessing the Resource Planner, see the <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner" class="MCXref xref">Locate the Resource Planner</a> section in the article <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p> </li> 
- <li value="2"> <p>Select <span class="bold">View by User</span>.</p> <note type="tip">
-   You can view the User Allocation Chart only in the User View. 
-  </note> </li> 
- <li value="3"> <p>Click the <span class="bold">User allocation chart</span> icon <img src="assets/rp-user-allocation-chart.png" alt="RP_user_allocation_chart.png"> to display the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Availability % with no overallocation for all users</td> 
-     <td>This is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Overallocation % for all users</span> </td> 
-     <td> <p>This is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.</p> <note type="note">
-        An overallocation happens when the Planned Hours are higher than the Available Hours. 
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Underutilization % for all users</td> 
-     <td> <p>This is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.</p> <note type="note">
-       Underutilization happens when the Planned Hours are lower than the Available Hours. 
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">There is an overallocation for at least one user during this time period</td> 
-     <td>This indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.<br>You must scroll through the list of users and the hours for the user who is overallocated are highlighted in red.</td> 
-    </tr> 
-   </tbody> 
-  </table> <p> <img src="assets/rp--user-allocation-chart-dec.-7--2017-350x148.png" alt="RP__user_allocation_chart_Dec._7__2017.png" style="width: 350;height: 148;"> </p> </li> 
- <li value="4"> <p>(Optional) Click the <span class="bold">Overallocation % for all users</span> area in the chart.<br>All users that are overallocated are highlighted in red.</p> </li> 
- <li value="5">(Optional) Click the <span class="bold">Underutilization % for all users</span> area in the chart.<br>All users that are underutilized are highlighted in blue.</li> 
- <li value="6">(Optional) Click the indicator icon <img src="assets/one-user-overallocation-marker.png" alt="one_user_overallocation_marker.png"> that shows where you have at least one user overallocated.<br>The users that are overallocated are highlighted in red. </li> 
- <li value="7">(Optional) Refresh the page to collapse the chart. </li> 
-</ol>
+1. Go to the `Planner`.
+
+   For more information about accessing the Resource Planner, see the [Locate the Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) section in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
+1. Select `View by User`.
+
+   >[!TIP]
+   >
+   >You can view the User Allocation Chart only in the User View.
+
+1. Click the `User allocation chart` icon ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png) to display the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Availability % with no overallocation for all users</td> 
+      <td>This is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Overallocation % for all users</span> </td> 
+      <td> <p>This is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.</p> <p>Note:  An overallocation happens when the Planned Hours are higher than the Available Hours. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Underutilization % for all users</td> 
+      <td> <p>This is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.</p> <p>Note: Underutilization happens when the Planned Hours are lower than the Available Hours. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">There is an overallocation for at least one user during this time period</td> 
+      <td>This indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.<br>You must scroll through the list of users and the hours for the user who is overallocated are highlighted in red.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   ![RP__user_allocation_chart_Dec._7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
+
+1. (Optional) Click the `Overallocation % for all users` area in the chart.  
+   All users that are overallocated are highlighted in red.
+1. (Optional) Click the `Underutilization % for all users` area in the chart.  
+   All users that are underutilized are highlighted in blue.
+
+1. (Optional) Click the indicator icon ![one_user_overallocation_marker.png](assets/one-user-overallocation-marker.png) that shows where you have at least one user overallocated.  
+   The users that are overallocated are highlighted in red. 
+
+1. (Optional) Refresh the page to collapse the chart.
 

@@ -49,41 +49,42 @@ For more information, see [link to Beta enrollment info].
 
 Your changes save automatically as you go.
 
-<ol> 
- <li value="1">Begin adding a visualization to your report, as explained in <a href="../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-visualization.md" class="MCXref xref">Add or edit a visualization in a report in Reporting Canvas</a>, choosing <b>Bubble</b> as the visualization type.</li> 
- <li value="2">Click the Edit visualization icon <img src="assets/edit-icon.png"> in the upper-right corner of the visualization, then do any of the following.
-  <ol>
-   <li value="1"><p>On the <b>Settings</b> tab:</p>
-    <table cellspacing="0">
-     <col>
-     <col>
-     <tbody>
-      <tr>
-       <td role="rowheader">Visualization type</td>
-       <td><p>Switch to a different type of visualization. If you do this, the subsequent options on the menu might change.</p></td>
-      </tr>
-      <tr>
-       <td role="rowheader">Vertical axis</td>
-       <td>Select the values that you want to include on the left edge (Y axis). <!--
-         The values come from the view of the report Also, specify how you want the information to be aggregated/summarized.
-        --></td>
-      </tr>
-      <tr>
-       <td role="rowheader">Horizontal axis</td>
-       <td><p>Select the values that you want to include along the bottom (X axis). <!--
-          The values come from the view of the report. Also, specify how you want the information to be aggregated/summarized.
-         --> </p><note type="important">
-         Ensure that you have at least one column that is aggregated for this field to be active. For more information about summarizing the information in a report column, see 
-         <a href="../../reports-and-dashboards/new-reporting-experience/modify-columns-table.md" class="MCXref xref">Modify table columns in Reporting Canvas</a>.
-        </note></td>
-      </tr>
-     </tbody>
-    </table></li><!--
-    On the Data source tab: Data source (drop-down menu) Change the data source for the visualization to another table on the report canvas Show Data Source On the report canvas, show (enable) or hide (disable) the table that powers the visualization
-   --><!--
-    On the Style tab:
-   -->
-  </ol></li> 
- <li value="3"> <p>Click anywhere outside the menu of visualizations settings to close it.</p> </li> 
-</ol>
+1. Begin adding a visualization to your report, as explained in [Add or edit a visualization in a report in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-visualization.md), choosing **Bubble** as the visualization type.
+
+1. Click the Edit visualization icon ![](assets/edit-icon.png) in the upper-right corner of the visualization, then do any of the following.
+
+  1. On the **Settings** tab:
+
+     <table cellspacing="0">
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader">Visualization type</td>
+        <td><p>Switch to a different type of visualization. If you do this, the subsequent options on the menu might change.</p></td>
+       </tr>
+       <tr>
+        <td role="rowheader">Vertical axis</td>
+        <td>Select the values that you want to include on the left edge (Y axis). <!--
+          The values come from the view of the report Also, specify how you want the information to be aggregated/summarized.
+         --></td>
+       </tr>
+       <tr>
+        <td role="rowheader">Horizontal axis</td>
+        <td><p>Select the values that you want to include along the bottom (X axis). <!--
+           The values come from the view of the report. Also, specify how you want the information to be aggregated/summarized.
+          --> </p><p>Important: Ensure that you have at least one column that is aggregated for this field to be active. For more information about summarizing the information in a report column, see <a href="../../reports-and-dashboards/new-reporting-experience/modify-columns-table.md" class="MCXref xref">Modify table columns in Reporting Canvas</a>.</p></td>
+       </tr>
+      </tbody>
+     </table>
+
+     <!--  
+     On the Data source tab: Data source (drop-down menu) Change the data source for the visualization to another table on the report canvas Show Data Source On the report canvas, show (enable) or hide (disable) the table that powers the visualization  
+     -->
+
+     <!--  
+     On the Style tab:  
+     -->
+
+1. Click anywhere outside the menu of visualizations settings to close it.
 

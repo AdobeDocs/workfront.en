@@ -65,31 +65,37 @@ To find the predecessors of a task do one of the following:
 
   &nbsp;
 
-<ul> 
- <li>Go to the project you are working on and do the following: 
-  <ol> 
-   <li value="1">Click the <span class="bold">Tasks</span> tab.</li> 
-   <li value="2">Choose the <span class="bold">Standard View</span> at the top of the task list.</li> 
-   <li value="3"><p>The <span class="bold">Predecessors</span> column shows the predecessor task numbers. </p><p>For a cross-project predecessor, the Predecessors column shows the reference number of the project the predecessor belongs to and the number of the task, separated by a colon. </p><p>The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.</p><p>Hover over this value to get more information on the predecessor, the project and the dates.</p><p><img src="assets/cross-project-predecessor-in-task-view-350x165.png" style="width: 350;height: 165;"><br></p></li> 
-  </ol></li> 
-</ul>
+* Go to the project you are working on and do the following:
+
+  1. Click the `Tasks` tab.
+  1. Choose the `Standard View` at the top of the task list.
+  1. The `Predecessors` column shows the predecessor task numbers.
+
+     For a cross-project predecessor, the Predecessors column shows the reference number of the project the predecessor belongs to and the number of the task, separated by a colon.
+
+     The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
+
+     Hover over this value to get more information on the predecessor, the project and the dates.
+
+     ![](assets/cross-project-predecessor-in-task-view-350x165.png)
 
 ## Examples of predecessor values in a task list
 
 When you view predecessors in a list of tasks, you might see any of the following types of predecessors with their respective Dependency Types and Lag amounts:
 
-<ul> 
- <li><span class="bold">1fs -</span> The predecessor task number is 1. The dependency type is Finish-Start. In the project timeline, this task is scheduled to start immediately after task 1 is finished. In spite of this, it can still be marked as In Progress or Complete.</li> 
- <li><span class="bold">1 -</span> The predecessor task number is 1. This is the same as <span class="bold">1fs</span>, because <span class="bold">fs</span> is the default predecessor relationship in Workfront.</li> 
- <li><span class="bold">1fse -</span> The predecessor task number is 1. The dependency type is Finish-Start-Enforced. In the project timeline, this task shows as starting immediately after task 1 is finished. Workfront does not allow it to be marked as In Progress or Complete until task 1 is complete. Workfront does, however, allow hours to be reported on the task. </li> 
- <li><span class="bold">1fs+3d -</span> The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. </li> 
- <li><span class="bold">1fs-3d -</span> The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays before the predecessor task is finished.</li> 
- <li> <p><span class="bold">1fs+3de</span> -The predecessor task number is 1. The dependency type is Finish-Start-Enforced with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. Workfront does not allow it to be marked as In Progress or Complete until Task 1 is complete. Workfront does, however, allow hours to be reported on the task. </p> <note type="note">
-   The enforced value (
-   <span class="bold">e</span>) must be added to the Lag, not to the predecessor.
-  </note> </li> 
- <li><span class="bold">4515:2</span> The predecessor task number is 2. - This is a Finish to Start, non-enforced dependency with the predecessor in the project with reference number <span class="bold">4515</span>; the predecessor task number is <span class="bold">2</span>. </li> 
-</ul>
+* `1fs -` The predecessor task number is 1. The dependency type is Finish-Start. In the project timeline, this task is scheduled to start immediately after task 1 is finished. In spite of this, it can still be marked as In Progress or Complete.
+* `1 -` The predecessor task number is 1. This is the same as `1fs`, because `fs` is the default predecessor relationship in Workfront.
+
+* `1fse -` The predecessor task number is 1. The dependency type is Finish-Start-Enforced. In the project timeline, this task shows as starting immediately after task 1 is finished. Workfront does not allow it to be marked as In Progress or Complete until task 1 is complete. Workfront does, however, allow hours to be reported on the task. 
+* `1fs+3d -` The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. 
+* `1fs-3d -` The predecessor task number is 1. The dependency type is Finish-Start with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays before the predecessor task is finished.
+* `1fs+3de` -The predecessor task number is 1. The dependency type is Finish-Start-Enforced with a lag time of 3 days. In the project timeline, this task shows as starting 3 workdays after task 1 is finished. Workfront does not allow it to be marked as In Progress or Complete until Task 1 is complete. Workfront does, however, allow hours to be reported on the task.
+
+  >[!NOTE]
+  >
+  >The enforced value ( `e`) must be added to the Lag, not to the predecessor.
+
+* `4515:2` The predecessor task number is 2. - This is a Finish to Start, non-enforced dependency with the predecessor in the project with reference number `4515`; the predecessor task number is `2`.
 
 ## View predecessor information
 

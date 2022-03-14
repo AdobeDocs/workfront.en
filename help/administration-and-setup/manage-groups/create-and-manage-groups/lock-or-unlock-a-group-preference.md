@@ -54,18 +54,20 @@ You must have the following to perform the steps in this article:
 
 ## Lock or unlock a group project, task, or issue preference
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span>.</li> 
- <li value="3">Click the name of the group where you want to lock or unlock a project preference.</li> 
- <li value="4">In the left panel, click <span class="bold">Project Preferences</span> or <span class="bold">Tasks & Issues Preferences</span>.</li> 
- <li value="5"> <p>On the page that appears, do any of the following for a preference that is unlocked at the system level or for a group above your group:</p> 
-  <ul> 
-   <li> <p>If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it <img src="assets/unlock-toggle-button.png">.</p> </li> 
-   <li> <p>If you want all groups below yours to use your configuration for a preference, make sure that it is locked <img src="assets/lock-toggle-button.png">.</p> <note type="important">
-     It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators in lower subgroups might have made.
-    </note> </li> 
-  </ul> </li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups`.
+1. Click the name of the group where you want to lock or unlock a project preference.
+1. In the left panel, click `Project Preferences` or `Tasks & Issues Preferences`.
+
+1. On the page that appears, do any of the following for a preference that is unlocked at the system level or for a group above your group:
+
+  * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+  * If you want all groups below yours to use your configuration for a preference, make sure that it is locked ![](assets/lock-toggle-button.png).
+
+    >[!IMPORTANT]
+    >
+    >It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators in lower subgroups might have made.
+
+1. Click `Save`.
 

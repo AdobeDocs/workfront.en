@@ -48,9 +48,10 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">(Conditional) If the comments area is not open, click&nbsp;<span class="bold">View comments</span>&nbsp;in the upper-right corner.</li> 
- <li value="4"> <p>Select the comment or reply, then click the <span class="bold">More</span> icon.<br></p> <p> <img src="assets/phq-viewer-comment-edit.png" alt="phq_viewer_comment_edit.png"> </p> </li> 
- <li value="5">Click <span class="bold">Delete</span> ><span class="bold"> Yes, delete it</span>. After a comment is deleted, the system logs an&nbsp;entry in the proof activity section, showing that the comment was deleted.</li> 
-</ol>
+1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. Select the comment or reply, then click the `More` icon.
+
+   ![phq_viewer_comment_edit.png](assets/phq-viewer-comment-edit.png)
+
+1. Click `Delete` > `Yes, delete it`. After a comment is deleted, the system logs an&nbsp;entry in the proof activity section, showing that the comment was deleted.
 

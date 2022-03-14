@@ -60,45 +60,44 @@ Though you can enable a user as a proofing user, he or she must have Administrat
 
 The permission profile you select is granted to the users for each proof that exists within your organization.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Users</span> <img src="assets/users-icon-in-main-menu.png">. </p> </li> 
- <li value="2"> Select one or more users, then click Edit. </li> 
- <li value="3"> <p>In the <span class="bold">Access</span> section, click one of the following Workfront Proof permission options in the <span class="bold">Proof Permission Profile</span>&nbsp;drop-down menu:</p> <note type="note">
-   If you are on a legacy Workfront plan, make sure the 
-   <span class="bold">User can generate proofs</span> option is enabled, as explained above in the section 
-   <a href="#enabling-and-disabling-proofing-for-a-user" class="MCXref xref">Enable and disable proofing for&nbsp;a user (legacy plans only)</a>.&nbsp;
-  </note> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Supervisor</span> </td> 
-     <td>Users can manage and view all proofs created on your organization's account. They can also edit reviewers added to these proofs. Users with this permission profile can't manage users or edit Workfront Proof settings.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Manager</span> </td> 
-     <td> <p> Users can manage and view proofs created or owned on your organization's account. They can view other users' proofs only when added as a reviewer. This is a default setting. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Administrator</span> </td> 
-     <td> Users are given Administrator permissions in Workfront Proof and can edit account settings. Users can manage and view all proofs created on your organization's account. This includes adding and removing reviewers, proofs, and comments.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Custom</span> </td> 
-     <td> <p>Available only if you have configured a custom permission profile within Workfront Proof.</p> <note type="note"> 
-       <p>Ensure that the permission profile you grant here does not provide higher access than the user's&nbsp;Access Level&nbsp;setting in Workfront (see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher&nbsp;access, the user can access proofs within Workfront Proof that he or she cannot access within Workfront.</p> 
-       <p>This is especially important if you plan to allow all Workfront users to access Workfront Proof directly from the Workfront as described in&nbsp;<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> 
-       <p>By default, only Workfront administrators have access to a direct link to the Workfront Proof site from the Workfront Global Navigation Bar.</p> 
-      </note> </td> 
-    </tr> 
-   </tbody> 
-  </table> <p>The permission profile you select is granted to the users for each proof that exists within your organization.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Save Changes</span>&nbsp;to complete the update to the user settings.</p> <note type="note">
-   When you create or update a user in Workfront and the user's Workfront email address matches that of a licensed Workfront Proof user, the system enables proofing for the user within Workfront.&nbsp;For more information, see 
-   <a href="../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md" class="MCXref xref">User synchronization between Adobe Workfront and Workfront Proof</a>.
-  </note> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Users` ![](assets/users-icon-in-main-menu.png). 
+1. Select one or more users, then click Edit. 
+1. In the `Access` section, click one of the following Workfront Proof permission options in the `Proof Permission Profile`&nbsp;drop-down menu:
+
+   >[!NOTE]
+   >
+   >If you are on a legacy Workfront plan, make sure the `User can generate proofs` option is enabled, as explained above in the section [Enable and disable proofing for a user (legacy plans only)](#enabling-and-disabling-proofing-for-a-user).&nbsp;
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Supervisor</span> </td> 
+      <td>Users can manage and view all proofs created on your organization's account. They can also edit reviewers added to these proofs. Users with this permission profile can't manage users or edit Workfront Proof settings.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Manager</span> </td> 
+      <td> <p> Users can manage and view proofs created or owned on your organization's account. They can view other users' proofs only when added as a reviewer. This is a default setting. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Administrator</span> </td> 
+      <td> Users are given Administrator permissions in Workfront Proof and can edit account settings. Users can manage and view all proofs created on your organization's account. This includes adding and removing reviewers, proofs, and comments.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Custom</span> </td> 
+      <td> <p>Available only if you have configured a custom permission profile within Workfront Proof.</p> <p>Note:  <p>Ensure that the permission profile you grant here does not provide higher access than the user's&nbsp;Access Level&nbsp;setting in Workfront (see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>). If it does provide higher&nbsp;access, the user can access proofs within Workfront Proof that he or she cannot access within Workfront.</p> <p>This is especially important if you plan to allow all Workfront users to access Workfront Proof directly from the Workfront as described in&nbsp;<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> <p>By default, only Workfront administrators have access to a direct link to the Workfront Proof site from the Workfront Global Navigation Bar.</p> </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   The permission profile you select is granted to the users for each proof that exists within your organization.
+
+1. Click `Save Changes`&nbsp;to complete the update to the user settings.
+
+   >[!NOTE]
+   >
+   >When you create or update a user in Workfront and the user's Workfront email address matches that of a licensed Workfront Proof user, the system enables proofing for the user within Workfront.&nbsp;For more information, see [User synchronization between Adobe Workfront and Workfront Proof](../../../administration-and-setup/manage-workfront/configure-proofing/user-sync-proofing.md).
 
 ### Considerations
 
@@ -145,9 +144,9 @@ From Workfront, click the Workfront Proof icon in the Global Navigation Bar to a
 
 If the users in your organization would prefer to use the Desktop Proofing Viewer instead of the Web Proofing Viewer to review interactive content, you can configure the Desktop Proofing Viewer to launch automatically when users open interactive content proofs.&nbsp;For information about this the Desktop Proofing Viewer and how it differs from the Web Proofing Viewer, see [Understand the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md) and [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
-<ol> 
- <li value="1"> <p>From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof.</p> <p> <img src="assets/proof-access-proofhq-350x39.png" alt="" style="width: 350;height: 39;"> </p> </li> 
-</ol>
+1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof.
+
+   ![](assets/proof-access-proofhq-350x39.png)
 
 1. Click `Account settings` near the upper-right corner of Workfront Proof, then click the `Settings` tab.
 

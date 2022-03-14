@@ -23,10 +23,16 @@ When you are first given access to a portal, Workfront sends you an email invita
 
 ## Open a portal from within Workfront Library
 
-<ol> 
- <li value="1"> <li> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> <p>If the Workfront Library icon does not display on your Global Navigation Bar, then you don't have access to Workfront Library. Talk with your Workfront Library administrator for access.</p> </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> <p>The left panel opens. </p> </li> 
- <li value="3"> <p>Click <span class="bold">Portals</span> in the lower-left corner of the panel, then select the desired portal in the drop-down list.</p> <p>The portal opens.</p> <p> <img src="assets/swains-portal-350x128.png" style="width: 350;height: 128;"> </p> </li> 
-</ol>
+1. `<li> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li>` If the Workfront Library icon does not display on your Global Navigation Bar, then you don't have access to Workfront Library. Talk with your Workfront Library administrator for access.
+
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+
+   The left panel opens. 
+
+1. Click `Portals` in the lower-left corner of the panel, then select the desired portal in the drop-down list.
+
+   The portal opens.
+
+   ![](assets/swains-portal-350x128.png)
 
 `<body> &nbsp;</body>`  

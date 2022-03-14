@@ -27,25 +27,34 @@ As the Workfront administrator, you can test the new Workfront experience in you
 
 To identify possible configuration changes needed for your transition:
 
-<ol> 
- <li value="1"> <p>Switch your account to the new Adobe Workfront experience.</p> <p>For instructions, see <a href="../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md#switch2" class="MCXref xref">Switch your admin account to the new Adobe Workfront experience</a> in <a href="../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref">Enroll users in the new Adobe Workfront experience</a>.</p> </li> 
- <li value="2"> <p>Explore your organization's Workfront instance.</p> <p>Think about what areas of Workfront your company uses most frequently. Explore each area thoroughly, including performing actions that your users are likely to perform.</p> <p>For example, if your organization frequently uses projects with large numbers of tasks, you should explore some of those projects. You might try opening multiple projects at once, update user assignments, or create a project from a template. Anything your users do, do with your own account.</p> <p>Consider the following areas when exploring Workfront :</p> 
-  <ul> 
-   <li> <p>Home</p> </li> 
-   <li> <p>The Workload Balancer</p> </li> 
-   <li> <p>The Resource Planner</p> </li> 
-   <li> <p>The Portfolio Optimizer</p> </li> 
-   <li> <p>Documents</p> </li> 
-   <li> <p>Projects with large numbers of tasks or issues</p> </li> 
-   <li> <p>Large update streams</p> </li> 
-   <li> <p>Reports with large amounts of data</p> </li> 
-   <li> <p>Reports that use complex calculations </p> </li> 
-   <li> <p>Any other areas that your organization uses </p> </li> 
-  </ul> </li> 
- <li value="3"> <p>Compare the performance of the new Adobe Workfront experience with Workfront Classic. </p> <note type="tip">
-   Log in to Workfront Classic as a different user in another window for easy comparison.
-  </note> </li> 
-</ol>
+1. Switch your account to the new Adobe Workfront experience.
+
+   For instructions, see [Switch your admin account to the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md#switch2) in [Enroll users in the new Adobe Workfront experience](../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
+
+1. Explore your organization's Workfront instance.
+
+   Think about what areas of Workfront your company uses most frequently. Explore each area thoroughly, including performing actions that your users are likely to perform.
+
+   For example, if your organization frequently uses projects with large numbers of tasks, you should explore some of those projects. You might try opening multiple projects at once, update user assignments, or create a project from a template. Anything your users do, do with your own account.
+
+   Consider the following areas when exploring Workfront :
+
+  * Home
+  * The Workload Balancer
+  * The Resource Planner
+  * The Portfolio Optimizer
+  * Documents
+  * Projects with large numbers of tasks or issues
+  * Large update streams
+  * Reports with large amounts of data
+  * Reports that use complex calculations 
+  * Any other areas that your organization uses
+
+1. Compare the performance of the new Adobe Workfront experience with Workfront Classic.
+
+   >[!TIP]
+   >
+   >Log in to Workfront Classic as a different user in another window for easy comparison.
 
 If you notice that some areas load significantly more slowly than in Workfront Classic, continue to [Troubleshoot common connection and performance issues](#troubles).
 

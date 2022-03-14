@@ -42,11 +42,13 @@ You must have the following access to perform the steps in this article:
 
 ## View a list of all versions of a proof
 
-View and manage details for a previous proof version 
+View and manage details for a previous proof version
 
-<ol> In a document list, hover over the row containing the proof, then click Document Details. 
- <li value="2"> <p>Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.</p> <p> <img src="assets/version-drop-dn-doc-dtls-nwe-350x93.png" style="width: 350;height: 93;"> </p> <p>Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof). </p> </li> 
-</ol>
+1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
+
+   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+
+   Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 
 Download a single proof version In the document list, click on the proof. In the Summary, under Versions, click the click the More menu to the right of the version, then click Download in the drop-down list that appears. 
 

@@ -40,10 +40,12 @@ You must have the following access to use the functionality in this article:
 
 ## Open the scenario settings
 
-<ol> 
- <li value="1">Open the scenario editor, as explained in <a href="../../workfront-fusion/scenarios/scenario-editor.md" class="MCXref xref">Scenario editor</a>.</li> 
- <li value="2"> <p>Click the gear icon near the lower-left corner of the page.</p> <p> <img src="assets/scenario-settings-350x221.png" style="width: 350;height: 221;"> </p> <p>In the Scenario settings panel that displays, you can configure various advanced settings for the scenario.</p> </li> 
-</ol>
+1. Open the scenario editor, as explained in [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md).
+1. Click the gear icon near the lower-left corner of the page.
+
+   ![](assets/scenario-settings-350x221.png)
+
+   In the Scenario settings panel that displays, you can configure various advanced settings for the scenario.
 
 ## Allow storing incomplete executions
 

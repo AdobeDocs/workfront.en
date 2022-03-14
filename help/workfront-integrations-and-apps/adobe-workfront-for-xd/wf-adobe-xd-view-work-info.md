@@ -51,60 +51,68 @@ You must have the following access to perform the steps in this article:
 
 ## View details and custom form data
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2"> <p>Select the work item you want to view.</p> <note type="tip">
-   Use the 
-   <span class="bold">Menu</span> icon to go to the parent objects of the work item.
-   <br>
-  </note> </li> 
- <li value="3">Click the <span class="bold">Details</span> icon <img src="assets/details.png"> in the navigation bar to view:<br>
-  <ul>
-   <li>Description</li>
-   <li>Planned Completion Date</li>
-   <li>Status </li>
-   <li>Assigned to</li>
-   <li>Project Owner (Projects only)</li>
-   <li>Custom form data</li>
-  </ul><p><img src="assets/custom-form-data-350x472.png" style="width: 350;height: 472;"></p></li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Select the work item you want to view.
+
+   >[!TIP]
+   >
+   >Use the `Menu` icon to go to the parent objects of the work item.
+
+1. Click the `Details` icon ![](assets/details.png) in the navigation bar to view:
+
+  * Description
+  * Planned Completion Date
+  * Status 
+  * Assigned to
+  * Project Owner (Projects only)
+  * Custom form data
+
+   ![](assets/custom-form-data-350x472.png)
 
 ## View Document Details
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2"> <p>Select the work item you want to view.</p> <note type="tip">
-   Use the 
-   <span class="bold">Menu</span> icon to go to the parent objects of the work item.
-   <br>
-  </note> </li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png"> in the navigation bar, then double-click on a document to view:<br>
-  <ul>
-   <li>Description</li>
-   <li>File Type</li>
-   <li>Proof Status (only available for proofs)</li>
-   <li>Version</li>
-   <li>Size</li>
-   <li>Custom Form data</li>
-  </ul></li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Select the work item you want to view.
+
+   >[!TIP]
+   >
+   >Use the `Menu` icon to go to the parent objects of the work item.
+
+1. Click the `Document` icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
+
+  * Description
+  * File Type
+  * Proof Status (only available for proofs)
+  * Version
+  * Size
+  * Custom Form data
 
 ## View subtasks and issues
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2"> <p> <p>Select the work item you want to view.</p> <note type="tip">
-    Use the 
-    <span class="bold">Menu</span> icon to go to the parent objects of the work item.
-    <br>
-   </note> </p> </li> 
- <li value="3">Click the <span class="bold">Issue</span> icon <img src="assets/issues.png"> or <span class="bold">Subtask</span> icon <img src="assets/subtasks.png">. </li> 
- <li value="4">Select the task or issue, then click the <span class="bold">Details</span> icon <img src="assets/details.png"> in the navigation bar to view:
-  <ul>
-   <li>Planned Completion Date</li>
-   <li>Status </li>
-   <li>Assigned to</li>
-   <li>Custom Form data</li>
-  </ul><p><img src="assets/custom-form-data-350x472.png" style="width: 350;height: 472;"></p></li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Select the work item you want to view.
+
+   >[!TIP]
+   >
+   >Use the `Menu` icon to go to the parent objects of the work item.
+
+1. Click the `Issue` icon ![](assets/issues.png) or `Subtask` icon ![](assets/subtasks.png). 
+
+1. Select the task or issue, then click the `Details` icon ![](assets/details.png) in the navigation bar to view:
+
+  * Planned Completion Date
+  * Status 
+  * Assigned to
+  * Custom Form data
+
+   ![](assets/custom-form-data-350x472.png)
 

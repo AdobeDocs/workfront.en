@@ -81,21 +81,42 @@ You can create a project in Workfront by using one of the following methods:
 
 ## Create a project from scratch
 
-<ol> 
- <li value="1"> <p>Do one of the following:</p> 
-  <ul> 
-   <li> <p> Click the Main Menu , click Projects, then expand New Project.</p> </li> 
-   <li> <p> Go to a portfolio, then expand New Project.</p> <note type="tip">
-     When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified. 
-    </note> </li> 
-   <li> <p> Go to a program, then expand New Project.</p> <note type="tip">
-     When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified. 
-    </note> </li> If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see View and create projects from the Groups area in the new Adobe Workfront experience. Tip: When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template. 
-  </ul> <p>  </p> </li> 
- <li value="2">Click <span class="bold">New Project</span> if you want to create a project from scratch.</li> 
- <li value="3"> <p>Enter a name for your project. Press Enter to save the name.</p> <p>  </p> <p>The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Start Adding</span> <span class="bold">Tasks</span>.</p> <p>Or</p> <p>Click <span class="bold">New Task</span> to add tasks to the project and assign resources to them. <br>For more information about adding tasks to a project, see <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p> </li> 
- <li value="5"> <p> Edit the project details, by clicking the More menu and then Edit next to the name of the project.</p> <p>The <span class="bold">Edit Project</span> dialog box opens.<br></p> <p>For more information about editing a project, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li> 
- <li value="6"> <p>(Optional) After configuring the project settings and add the tasks, you can change the status of the project to <span class="bold">Current</span>. </p> <p>This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.<br></p> <p>For more information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a>.</p> </li> 
-</ol>
+1. Do one of the following:
+
+  * Click the Main Menu , click Projects, then expand New Project.
+  * Go to a portfolio, then expand New Project.
+
+    >[!TIP]
+    >
+    >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
+
+  * Go to a program, then expand New Project.
+
+    >[!TIP]
+    >
+    >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
+
+1. Click `New Project` if you want to create a project from scratch.
+1. Enter a name for your project. Press Enter to save the name.
+
+   The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
+
+1. Click `Start Adding` `Tasks`.
+
+   Or
+
+   Click `New Task` to add tasks to the project and assign resources to them.   
+   For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+1. Edit the project details, by clicking the More menu and then Edit next to the name of the project.
+
+   The `Edit Project` dialog box opens.
+
+   For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+1. (Optional) After configuring the project settings and add the tasks, you can change the status of the project to `Current`.
+
+   This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
+
+   For more information about project statuses, see [Access the list of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
 

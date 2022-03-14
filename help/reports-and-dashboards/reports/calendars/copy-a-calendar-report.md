@@ -45,9 +45,12 @@ You must have the following access to perform the steps in this article:
 
 ## Copy a calendar report
 
-<ol> 
- <li value="1">Go to the calendar you want to copy.</li> 
- <li value="2">On the <span class="bold">Calendar</span> toolbar, click <span class="bold">Calendar Actions</span>, then select <span class="bold">Copy</span> from the drop-down list.<br>A copy of the calendar opens.<br><img src="assets/copying-calendar-report-350x102.png" alt="copying_calendar_report.png" style="width: 350;height: 102;"><br>All the projects and calendar groupings in the original calendar display in the copy of the calendar. Only objects placed by&nbsp;calendar filters export to the newly copied calendar. Any events manually added to the original calendar must be manually added to the copied calendar.<br>Only you have access to the copied calendar. Users with access to the original calendar do not have access to the copied calendar. You can grant access to the newly-created calendar by sharing it with other users. To learn about sharing calendars, see <a href="../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md" class="MCXref xref">Share a calendar report</a>.</li> 
- <li value="3">(Optional) Rename the calendar.</li> 
-</ol>
+1. Go to the calendar you want to copy.
+1. On the `Calendar` toolbar, click `Calendar Actions`, then select `Copy` from the drop-down list.  
+   A copy of the calendar opens.  
+   ![copying_calendar_report.png](assets/copying-calendar-report-350x102.png)  
+   All the projects and calendar groupings in the original calendar display in the copy of the calendar. Only objects placed by&nbsp;calendar filters export to the newly copied calendar. Any events manually added to the original calendar must be manually added to the copied calendar.  
+   Only you have access to the copied calendar. Users with access to the original calendar do not have access to the copied calendar. You can grant access to the newly-created calendar by sharing it with other users. To learn about sharing calendars, see [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+
+1. (Optional) Rename the calendar.
 

@@ -19,13 +19,16 @@ You can open the following items:
 
 * `Collections:` You can open collections that you created or that have been shared with you. For information on creating a collection, see [Edit a Workfront Library collection](../../../workfront-library/content-management/collections/edit-a-collection.md).
 
-`<li>For information on sharing items, see <a href="../../../workfront-library/content-management/share-an-asset-with-users.md" class="MCXref xref">Share a Workfront Library item with other users</a>.</li>` 
+`<li>For information on sharing items, see <a href="../../../workfront-library/content-management/share-an-asset-with-users.md" class="MCXref xref">Share a Workfront Library item with other users</a>.</li>`
 
-<ol> 
- <li value="1"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="2"> <p>(Optional) Select the area where the item you want to open is located.</p> <p>Depending on your access level, you might be able to choose Library, My Content , or Collections. </p> <p> <img src="assets/library-left-panel---new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
- <li value="3"> <p>(Conditional) If you are in the list view, click the <span class="bold">Show grid view</span> icon <img src="assets/grid-view-icon.png"> to switch to the grid view.</p> </li> 
- <li value="4">Navigate to the item.</li> 
- <li value="5"> <p>Hover over the item, click the <span class="bold">More</span> icon in the upper-right corner, then select <span class="bold">Open</span> in the drop-down menu.</p> </li> 
-</ol>
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. (Optional) Select the area where the item you want to open is located.
+
+   Depending on your access level, you might be able to choose Library, My Content , or Collections.
+
+   ![](assets/library-left-panel---new-350x217.png)
+
+1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Navigate to the item.
+1. Hover over the item, click the `More` icon in the upper-right corner, then select `Open` in the drop-down menu.
 

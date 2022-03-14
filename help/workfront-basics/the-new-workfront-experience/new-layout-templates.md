@@ -25,24 +25,37 @@ Your older Layout Templates created in Adobe Workfront Classic have been automat
 
 ## Benefits of the new Layout Templates design and features
 
-<ul> 
- <li> <p>Everything you need is in one simple view. Customization options are not divided by tabs.</p> <p> <img src="assets/layout-templates-nwe-adobe-branding-350x222.png" style="width: 350;height: 222;"> </p> </li> 
- <li>All of the Workfront areas you can customize are available in a single drop-down list.<p><img src="assets/customize-what-users-see.png"></p></li> 
- <li> <p>You can pin work items that your users need often, such as a project or report they view daily.</p> <p> <img src="assets/add-new-pin-adobe-branding-350x257.png" style="width: 350;height: 257;"> </p> </li> 
- <li> <p>You can drag to rearrange items throughout Workfront:</p> 
-  <ul> 
-   <li>Left panel items</li> 
-   <li>Areas in the Details view</li> 
-   <li>Fields in Home and Summary</li> 
-   <li> <p>Main Menu items</p> <p> <img src="assets/rearrange-main-menu-items-350x246.png" style="width: 350;height: 246;"> </p> </li> 
-  </ul> </li> 
- <li> <p>With a click, you can hide or show items throughout Workfront:</p> 
-  <ul> 
-   <li>Left panel items.</li> 
-   <li>Fields in Home and Summary.</li> 
-   <li>Controls in list filters, views, and groupings.</li> 
-   <li> <p>Fields in the Details view, including native fields that your users don't need.</p> <p> <img src="assets/hide-and-show-350x224.png" style="width: 350;height: 224;"> </p> </li> 
-  </ul> </li> 
- <li> <p>You can easily access the general customization controls for Layout Templates, always available in the upper-right corner of the screen.</p> <p> <img src="assets/global-options-nwe-350x199.png" style="width: 350;height: 199;"> </p> </li> 
-</ul>
+* Everything you need is in one simple view. Customization options are not divided by tabs.
+
+  ![](assets/layout-templates-nwe-adobe-branding-350x222.png)
+
+* All of the Workfront areas you can customize are available in a single drop-down list.
+
+  ![](assets/customize-what-users-see.png)
+
+* You can pin work items that your users need often, such as a project or report they view daily.
+
+  ![](assets/add-new-pin-adobe-branding-350x257.png)
+
+* You can drag to rearrange items throughout Workfront:
+
+  * Left panel items
+  * Areas in the Details view
+  * Fields in Home and Summary
+  * Main Menu items
+
+    ![](assets/rearrange-main-menu-items-350x246.png)
+
+* With a click, you can hide or show items throughout Workfront:
+
+  * Left panel items.
+  * Fields in Home and Summary.
+  * Controls in list filters, views, and groupings.
+  * Fields in the Details view, including native fields that your users don't need.
+
+    ![](assets/hide-and-show-350x224.png)
+
+* You can easily access the general customization controls for Layout Templates, always available in the upper-right corner of the screen.
+
+  ![](assets/global-options-nwe-350x199.png)
 

@@ -56,10 +56,12 @@ You must have the following before you can start:
 
 ## Navigate the Goal Alignment section
 
-<ol> 
- <li value="1"> <p><span>Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see </span><a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> <p>The goals that match your filters display in the alignment chart on cards.</p> 
-  <div> 
-   <p>The following information displays on a goal card:</p> 
+1. `Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see` [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+
+   The goals that match your filters display in the alignment chart on cards.
+
+   The following information displays on a goal card:
+
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -99,40 +101,69 @@ You must have the following before you can start:
       <td><span>Goals in all statuses display in the Goal Alignment section. </span> </td> 
      </tr> 
     </tbody> 
-   </table> 
-  </div> <p>Goals that are aligned to other goals display the number of aligned goals under the goal card. </p> <p> <img src="assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png" style="width: 350;height: 241;"> </p> </li> 
- <li value="2"> <p>Click the <span class="bold">downward-pointing arrow</span> icon under a goal to further expand and view the children goals.</p> <p> <img src="assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png" style="width: 350;height: 241;"> </p> <note type="tip">
-   Goals that have children goals aligned to them display the number of aligned goals under their respective cards. 
-  </note> </li> 
- <li value="3"> <p>(Conditional) If the current filter excludes some of the goals that participate in an alignment, a warning message displays to indicate that not all goals display.</p> <p> <img src="assets/parent-goal-excluded-by-filter-alignment-section-350x230.png" style="width: 350;height: 230;"> </p> </li> 
- <li value="4"> <p>Click&nbsp;<span class="bold">Show them</span> to display the goals currently eliminated by the filter.</p> <p>Notice the following changes in the alignment chart: </p> 
-  <ul> 
-   <li> <p>Connected goals previously eliminated by the filter now display in the alignment chart. </p> </li> 
-   <li> <p>The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied. </p> <p> <img src="assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png" style="width: 350;height: 120;"> </p> <p>A Reapply filter link displays to the left of the filter name.</p> </li> 
-  </ul> </li> 
- <li value="5"> <p>(Optional)&nbsp;Click <span class="bold">Reapply filter</span> to return to the original results and display the goal hierarchy.</p> </li> 
- <li value="6"> <p>(Optional) Hover over the progress indicator to understand where the goal progress should be for the current day. </p> <p> <img src="assets/progress-mouse-over-alignment-chart-350x163.png" style="width: 350;height: 163;"> </p> <p>The following information displays:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">As of today</td> 
-     <td>The progress status is always current. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span>Actual</span> </td> 
-     <td>The actual progress (a percentage) of the goal by the current date as calculated by taking into account all the progress indicators on the goal. Goal progress indicators are aligned goals, activities, and results. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Expected</td> 
-     <td> <p>The expected progress (a percentage) of the goal by the current date assuming that you will achieve the goal on time.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="7"> <p>Click a goal card to open the Goal&nbsp;Details panel and edit information about or check in on the goal. For information about editing existing goals, see <a href="../../workfront-goals/goal-management/edit-goals.md" class="MCXref xref">Edit goals in Adobe Workfront Goals</a>. For information about checking in on goals, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Check in on goals in Adobe Workfront Goals</a>.</p> </li> 
- <li value="8"> <p>Click the <span>the upward-pointing arrow</span> of the current-level goal to return to the previous level in the hierarchy of the chart.</p> <p>Or</p> <p>(Optional)&nbsp;Click <span class="bold">Exit goal hierarchy</span> to display the cards of all the goals that match the current filter, without displaying their connection to each other. </p> <p>&nbsp;</p> </li> 
-</ol>
+   </table>
+
+   Goals that are aligned to other goals display the number of aligned goals under the goal card.
+
+   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+
+1. Click the `downward-pointing arrow` icon under a goal to further expand and view the children goals.
+
+   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+
+   >[!TIP]
+   >
+   >Goals that have children goals aligned to them display the number of aligned goals under their respective cards.
+
+1. (Conditional) If the current filter excludes some of the goals that participate in an alignment, a warning message displays to indicate that not all goals display.
+
+   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+
+1. Click  `Show them` to display the goals currently eliminated by the filter.
+
+   Notice the following changes in the alignment chart:
+
+  * Connected goals previously eliminated by the filter now display in the alignment chart. 
+  * The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied.
+
+    ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+
+    A Reapply filter link displays to the left of the filter name.
+
+1. (Optional) Click `Reapply filter` to return to the original results and display the goal hierarchy.
+1. (Optional) Hover over the progress indicator to understand where the goal progress should be for the current day.
+
+   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+
+   The following information displays:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">As of today</td> 
+      <td>The progress status is always current. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span>Actual</span> </td> 
+      <td>The actual progress (a percentage) of the goal by the current date as calculated by taking into account all the progress indicators on the goal. Goal progress indicators are aligned goals, activities, and results. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Expected</td> 
+      <td> <p>The expected progress (a percentage) of the goal by the current date assuming that you will achieve the goal on time.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click a goal card to open the Goal&nbsp;Details panel and edit information about or check in on the goal. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. Click the `the upward-pointing arrow` of the current-level goal to return to the previous level in the hierarchy of the chart.
+
+   Or
+
+   (Optional) Click `Exit goal hierarchy` to display the cards of all the goals that match the current filter, without displaying their connection to each other.
+
+   &nbsp;
 
 <!--
 In the Preview environment, do the following: Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see Filter information in Adobe Workfront Goals (Conditional) If the current filter excludes some of the goals that participate in an alignment, a warning message displays to indicate that not all goals are displayed: < new screen shot> Click Show them to display the goals currently eliminated by the filter. Notice the following changes in the alignment chart: Connected goals previously eliminated by the filter now display in the alignment chart. The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied. A Reapply filter link displays to the left of the filter name (Optional) Click Reapply filter to return to the original results and display the goal hierarchy . (Optional) Click Exit goal hierarchy to display the cards of all the goals that match the current filter, without displaying their connection to each other. In the Production environment, do the following: (Optional) Click the Company tab to view goals that are assigned to your organization and their aligned goals. Goals that are aligned to other goals display with additional stacked cards behind the top goal card. (Optional) Select a different period from the upper-right drop-down menu. The default is the current quarter. You can only select one time period at a time to view goals that are due during that period. Select from quarters or yearly periods for the current year and up to two more years. (Optional) Start typing the name of an owner who is designated as a goal owner in the Search for owner's name field, the select it when it appears in the list. Goals assigned to the owner you indicate and their aligned goals display in the Goal Alignment section. The goals that match your filter and tab selection display in the alignment chart.

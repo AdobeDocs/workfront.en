@@ -51,16 +51,35 @@ You must have the following access to perform the steps in this article:
 
 To add a calculated Overtime column to a timesheet view:
 
-<ol> 
- <li value="1"> <p>Go to a list of timesheets, or create a Timesheet Report.</p> <p>For information about creating reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Customize View</span> in a list of timesheets.</p> <p>Or</p> <p>Select the <span class="bold">Columns (View)</span> tab in a Timesheet report.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Add Column</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Switch to Text Mode</span>.</p> </li> 
- <li value="5"> <p>In the <span class="bold">Show in this column</span> area, click <span class="bold">Click to edit text</span>.</p> </li> 
- <li value="6"> <p>Copy and paste the following text mode code in the <span class="bold">Text mode</span> dialog box.</p><pre>displayname=Calculated Overtime Cost<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}>40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre> <note type="note">
-    This calculation assumes that the user usually works a 40-hour week.
-  </note> </li> 
- <li value="7"> <p>Click <span class="bold">Save</span>, then name the new view and click <span class="bold">Save View</span> in a list of timesheets.</p> <p>Or</p> <p>Click <span class="bold">Save + Close</span> in a Timesheet report.</p> </li> 
- <li value="8"> <p>(Optional and conditional) if you are building a Timesheet report, specify a name for the report, then click <span class="bold">Save Report</span>.</p> <p>The cost of the overtime of each user is displayed in the <span class="bold">Calculated Overtime Cost</span> column.</p> <img src="assets/calculated-overtime-cost-in-timesheet-report-350x92.png" alt="calculated_overtime_cost_in_timesheet_report.png" style="width: 350;height: 92;"> </li> 
-</ol>
+1. Go to a list of timesheets, or create a Timesheet Report.
+
+   For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+1. Click `Customize View` in a list of timesheets.
+
+   Or
+
+   Select the `Columns (View)` tab in a Timesheet report.
+
+1. Click `Add Column`.
+1. Click `Switch to Text Mode`.
+1. In the `Show in this column` area, click `Click to edit text`.
+1. Copy and paste the following text mode code in the `Text mode` dialog box.
+   <pre>displayname=Calculated Overtime Cost<br>linkedname=direct<br>namekey=totalHours<br>querysort=totalHours <br>textmode=true<br>valueexpression=IF({totalHours}>40,({totalHours}-40)*{user}.{costPerHour},{totalHours}*{user}.{costPerHour})<br>valueformat=currencyStringCurrencyRounded</pre>
+
+   >[!NOTE]
+   >
+   >This calculation assumes that the user usually works a 40-hour week.
+
+1. Click `Save`, then name the new view and click `Save View` in a list of timesheets.
+
+   Or
+
+   Click `Save + Close` in a Timesheet report.
+
+1. (Optional and conditional) if you are building a Timesheet report, specify a name for the report, then click `Save Report`.
+
+   The cost of the overtime of each user is displayed in the `Calculated Overtime Cost` column.
+
+   ![calculated_overtime_cost_in_timesheet_report.png](assets/calculated-overtime-cost-in-timesheet-report-350x92.png)
 

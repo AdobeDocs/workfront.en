@@ -14,11 +14,13 @@ description: Because JSONP (Javascript with Padding) is an old standard with kno
 
 `If you are using JSONP as part of any of your Workfront integrations, you must update your integration to use the CORS (Cross-Origin Resource Sharing) standard. This update requires you to do the following:`
 
-<ol> 
- <li value="1"><span style="font-weight: 400;">Submit a request with the Workfront support team to have any domains that are being used to make cross-origin requests to our allowlist.<br>To have your domains added to the allowlist for CORS, please contact Workfront Customer Support at 844-306-HELP(4357) or by submitting a support ticket online.<br>
-   <note type="note">
-     Adding domains to the allowlist for CORS is supported only for customers who were using JSONP prior to August 1, 2018.
-   </note>&nbsp;</span> </li> 
- <li value="2"><span style="font-weight: 400;">Make changes to your integration code to use CORS. </span> </li> 
-</ol>
+1. `Submit a request with the Workfront support team to have any domains that are being used to make cross-origin requests to our allowlist.  
+   To have your domains added to the allowlist for CORS, please contact Workfront Customer Support at 844-306-HELP(4357) or by submitting a support ticket online.
+
+   >[!NOTE]
+   >
+   >Adding domains to the allowlist for CORS is supported only for customers who were using JSONP prior to August 1, 2018.
+
+   ` 
+1. `Make changes to your integration code to use CORS.`
 

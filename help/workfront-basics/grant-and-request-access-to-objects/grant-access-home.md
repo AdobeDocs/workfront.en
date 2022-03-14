@@ -43,11 +43,18 @@ You must have the following access to perform the steps in this article:
 
 ## Grant access to objects in the Home area
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span>, select the access request you want to manage.<br><img src="assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png" alt="Screen_Shot_2018-07-02_at_11.35.29_AM.png" style="width: 350;height: 242;"></li> 
- <li value="3">In the upper-right corner, click the grant access button.<br>Depending on the type of access requested, the button name changes.&nbsp;For example, if the requestor asks for View access, the button says&nbsp;<span class="bold">Grant View Access</span>.<br><img src="assets/grant-access-2-350x98.png" alt="Grant_Access_2.png" style="width: 350;height: 98;"></li> 
- <li value="4">(Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access.<br>A message appears confirming access was granted.<br>OR<br>Click <span class="bold">Ignore</span> to deny access.<br>A message appears confirming access was ignored.</li> 
-</ol>
+1. In the `Work List`, select the access request you want to manage.  
+   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
+
+1. In the upper-right corner, click the grant access button.  
+   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says  `Grant View Access`.  
+   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
+
+1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access.  
+   A message appears confirming access was granted.  
+   OR  
+   Click `Ignore` to deny access.  
+   A message appears confirming access was ignored.
 
 ## Configure Email Notifications for Requests
 

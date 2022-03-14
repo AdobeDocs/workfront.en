@@ -86,24 +86,37 @@ Information can be exported in the following formats:
 
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
-<ul> 
- <li><span class="bold">50,000 rows:</span> The number of rows of data allowed in a report export for .pdf and Tab Delimited files.<br>For Excel .xls files, this limit is <span class="bold">65,000 rows</span>.<br>For Excel .xlsx files, this limit is <span class="bold">100,000 rows</span>.<br>These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.<br><note type="note">
-    If your report has more items than these limits, you receive an error that the export is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to export the results.
-  </note>If your report has more than 50,000/ 65,000/ 100,000 rows and you want to export all the data, we suggest that you use filters or prompts to obtain smaller loads&nbsp;of data, and perform multiple exports.<br>For information on using filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.<br>For information about using prompts, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</li> 
- <li>These limits apply to:</li> 
- <ul> 
-  <li>A manual export of a report.</li> 
-  <li>A scheduled report.</li> 
-  <li>An export through an API integration.</li> 
-  <li>Data exported through a kick-start.<br>For more information about exporting data via kick-starts, see <a href="../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md" class="MCXref xref">Export data from Adobe Workfront via Kick-Starts</a><note type="note">
-     You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
-   </note></li> 
-  <li>Exporting utilization information for a project.<br>For more information about exporting utilization information for a project, see <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project" class="MCXref xref">Overview of the Resource Utilization report</a> in <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Overview of the Resource Utilization report</a>.</li> 
- </ul> 
- <li><span class="bold">10MB file size:</span> File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.</li> 
- <li><span class="bold">65,530 hyperlinks:</span> This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;</li> 
- <li><span class="bold">256 columns</span>: This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.</li> 
-</ul>
+* `50,000 rows:` The number of rows of data allowed in a report export for .pdf and Tab Delimited files.  
+  For Excel .xls files, this limit is `65,000 rows`.  
+  For Excel .xlsx files, this limit is `100,000 rows`.  
+  These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.
+
+  >[!NOTE]
+  >
+  >If your report has more items than these limits, you receive an error that the export is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to export the results.
+
+  If your report has more than 50,000/ 65,000/ 100,000 rows and you want to export all the data, we suggest that you use filters or prompts to obtain smaller loads&nbsp;of data, and perform multiple exports.  
+  For information on using filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).  
+  For information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+* These limits apply to:
+
+  * A manual export of a report.
+  * A scheduled report.
+  * An export through an API integration.
+  * Data exported through a kick-start.  
+    For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)  
+  
+    >[!NOTE]
+    >
+    >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
+
+  * Exporting utilization information for a project.  
+    For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project) in [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+
+* `10MB file size:` File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
+* `65,530 hyperlinks:` This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
+* `256 columns`: This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.
 
 If you attempt to export data beyond the limit, you might not receive all of the expected data in the export. Rather, a modified report is produced within the limit.
 
@@ -118,22 +131,37 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
 ### Export data from a report or list
 
-<ol> 
- <li value="1"> <p>Go to the report or list you want to export.</p> </li> 
- <li value="2"> <p>Select the items you want to export. (Selecting individual items exports only the items you select.)</p> <p>For example, in a project, select the tasks you want to export.</p> <p>Or</p> <p>Leave all items deselected to export the entire list.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Export</span>, then select a format.</p> <note type="note">
-   To export a Dashboard report, you must have a Plan license.
-   <br>
-  </note> Or Click the Export icon , then select a format. <p>The options available to you for PDF export depend on the locale settings in your Workfront user settings:</p> 
-  <ul> 
-   <li>North America - letter (default), legal, ledger, A4<br><!--
-    --></li> 
-   <li>All locations outside of North America - A3, A4 (default), letter, legal, ledger<br><!--
-    --></li> 
-  </ul> </li> 
- <li value="4"> <p>(Conditional) Depending on the operating system you use, you might have the option of opening or saving the file. Either open the file with the associated application or save it to your hard drive.</p> </li> 
- <li value="5"> <p>Continue with <a href="#using-the-exported-document" class="MCXref xref">Use the exported document</a>.</p> </li> 
-</ol>
+1. Go to the report or list you want to export.
+1. Select the items you want to export. (Selecting individual items exports only the items you select.)
+
+   For example, in a project, select the tasks you want to export.
+
+   Or
+
+   Leave all items deselected to export the entire list.
+
+1. Click `Export`, then select a format.
+
+   >[!NOTE]
+   >
+   >To export a Dashboard report, you must have a Plan license.
+
+   Or Click the Export icon , then select a format. The options available to you for PDF export depend on the locale settings in your Workfront user settings:
+
+  * North America - letter (default), legal, ledger, A4
+
+    <!--  
+  
+    -->
+
+  * All locations outside of North America - A3, A4 (default), letter, legal, ledger
+
+    <!--  
+  
+    -->
+
+1. (Conditional) Depending on the operating system you use, you might have the option of opening or saving the file. Either open the file with the associated application or save it to your hard drive.
+1. Continue with [Use the exported document](#using-the-exported-document).
 
 ### Export data from a dashboard
 
@@ -163,8 +191,11 @@ When you export a list of objects, the type of the object is displayed on the ex
 
 When you export a list of task or issues, the `File Name` can be one of the following:
 
-* When you export Task and Issue Lists in a Project: 
-* `<li><em style="line-height: 1.5;">The_project_name_Exported_Tasks</em>(<em style="line-height: 1.5;">in PDF, Excel, Excel (.xlsx), or Tab delimited formats)</em></li>` `<li><em style="line-height: 1.5;">The_project_name_Exported_Issues</em>(<em style="line-height: 1.5;">in PDF, Excel, Excel (.xlsx), or Tab delimited formats)</em></li>` 
+* When you export Task and Issue Lists in a Project:
+
+  * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+  
+  * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
 * When you export Task and Issue Lists in a Task (subtasks):
 

@@ -20,12 +20,14 @@ The My Work section of the Home area displays your tasks, issues, projects, appr
 
 You can choose which menu items to display in My Work and change the item order.
 
-<ol> 
- <li value="1"> <p>In the floating menu, tap your photo or initials to access your profile.</p> </li> 
- <li value="2"> <p>Scroll to the <span class="bold">Configuration</span> section and tap <span class="bold">Settings</span>.</p> </li> 
- <li value="3"> <p>On the <span class="bold">Settings</span> page, select and drag the menu items to be in the correct order for the Home area.</p> </li> 
- <li value="4"> <p>Tap the blue toggle icon to hide any menu items you do not want to display. Tap the gray toggle icon to display the item again.</p> <note type="note">
-   The Tasks and Issues menu item is always displayed and you can't hide it.
-  </note> <p> <img src="assets/mobile-settings-338x366.png" style="width: 338;height: 366;"> </p> </li> 
-</ol>
+1. In the floating menu, tap your photo or initials to access your profile.
+1. Scroll to the `Configuration` section and tap `Settings`.
+1. On the `Settings` page, select and drag the menu items to be in the correct order for the Home area.
+1. Tap the blue toggle icon to hide any menu items you do not want to display. Tap the gray toggle icon to display the item again.
+
+   >[!NOTE]
+   >
+   >The Tasks and Issues menu item is always displayed and you can't hide it.
+
+   ![](assets/mobile-settings-338x366.png)
 

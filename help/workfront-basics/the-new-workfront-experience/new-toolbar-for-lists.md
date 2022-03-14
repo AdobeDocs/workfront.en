@@ -194,17 +194,42 @@ This experience is identical between managing a filter, a view, or a grouping.
 
 For example, to manage a filter:
 
-<ol> 
- <li value="1">Go to a list of projects, tasks, issues, portfolios, or programs.</li> 
- <li value="2"> <p>Find the <span class="bold">Filters</span> drop-down menu or the Filter icon <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> at the top of the list.</p> <p>If it has a blue dot in the upper-right corner, it indicates that a filter other than "All" is selected for the list.</p> <p>When viewing a list on a smaller screen, mouse over the Filter icon <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> to view the name of the filter currently applied to the list in the tooltip.</p> <p> <img src="assets/qs-filter-in-new-toolbar-with-mouse-over-tooltip.png"> </p> </li> 
- <li value="3"> <p>Click the name of the filter or click the Filter icon <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png">.</p> <p>The <span class="bold">Filters</span> box displays.</p> <p> <img src="assets/qs-manage-filters-in-the-new-toolbar-350x306.png" style="width: 350;height: 306;"> </p> <p>A check mark appears to the left of a filter that is currently applied to the list.</p> </li> 
- <li value="4">In the filter box, do one of the following:
-  <ul>
-   <li><p>Click <span class="bold">New Filter</span> to add a new filter.</p><p>The New Filter builder opens. For information about creating filters, see <a href="../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p></li>
-   <li><p>Mouse over any of the filters listed and click the <span class="bold">Edit icon</span> <img src="assets/edit-icon.png">.</p><p>The <span class="bold">Customize Filter</span> builder opens. Customizing filters is identical to creating them.</p></li>
-   <li><p> Mouse over any of the filters listed and click the <span class="bold">More menu</span> <img src="assets/more-icon.png">, then click&nbsp;<span class="bold">Remove</span>.</p><p>The filter is removed from the list.</p><p>or </p><p>Click <span class="bold">Share</span> and specify the names of the entities that you want to share the filter with, then click <span class="bold">Save</span>.</p><note type="tip">
-     You cannot share or remove native Adobe Workfront filters or filters that you did not create yourself.
-    </note></li>
-  </ul></li> 
-</ol>
+1. Go to a list of projects, tasks, issues, portfolios, or programs.
+1. Find the `Filters` drop-down menu or the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) at the top of the list.
+
+   If it has a blue dot in the upper-right corner, it indicates that a filter other than "All" is selected for the list.
+
+   When viewing a list on a smaller screen, mouse over the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) to view the name of the filter currently applied to the list in the tooltip.
+
+   ![](assets/qs-filter-in-new-toolbar-with-mouse-over-tooltip.png)
+
+1. Click the name of the filter or click the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png).
+
+   The `Filters` box displays.
+
+   ![](assets/qs-manage-filters-in-the-new-toolbar-350x306.png)
+
+   A check mark appears to the left of a filter that is currently applied to the list.
+
+1. In the filter box, do one of the following:
+
+  * Click `New Filter` to add a new filter.
+
+    The New Filter builder opens. For information about creating filters, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  
+  * Mouse over any of the filters listed and click the `Edit icon` ![](assets/edit-icon.png).
+
+    The `Customize Filter` builder opens. Customizing filters is identical to creating them.
+  
+  * Mouse over any of the filters listed and click the `More menu` ![](assets/more-icon.png), then click  `Remove`.
+
+    The filter is removed from the list.
+
+    or
+
+    Click `Share` and specify the names of the entities that you want to share the filter with, then click `Save`.
+
+    >[!TIP]
+    >
+    >You cannot share or remove native Adobe Workfront filters or filters that you did not create yourself.
 

@@ -36,13 +36,12 @@ You must have the following to perform the steps in this article:
 
 ## Delete a custom field
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Custom Forms.</span></li> 
- <li value="3">Click the <span class="bold">Fields</span> tab.</li> 
- <li value="4">Select the custom field, then click <span class="bold">Delete</span>.</li> 
- <li value="5"> <p>If you are sure you want to permanently delete the custom field and all associated data on objects where it was attached, click <span class="bold">Yes, Delete It</span>. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Custom Forms.`
+1. Click the `Fields` tab.
+1. Select the custom field, then click `Delete`.
+1. If you are sure you want to permanently delete the custom field and all associated data on objects where it was attached, click `Yes, Delete It`.
 
 ## Remove fields without losing data
 

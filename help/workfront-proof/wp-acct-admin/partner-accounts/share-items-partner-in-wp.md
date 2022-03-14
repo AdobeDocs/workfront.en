@@ -28,10 +28,11 @@ Consider the following when sharing items with a partner:
 
 After you have an accepted relationship with a partner, you can easily share items, such as folders, files, and proofs with them.
 
-<ol> 
- <li value="1">Begin sharing a proof or file.<br>For more information about sharing, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md" class="MCXref xref">Share a Proof in Workfront Proof</a>&nbsp;<a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md" class="MCXref xref">Share Files in Workfront Proof</a> and <a href="../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md" class="MCXref xref">Share Folders in Workfront Proof</a>.</li> 
- <li value="2">In the <span class="bold">Share</span> section of the New&nbsp;Proof or New File page, the name of your partner appears as you begin typing the name in the auto-complete field, just as if you are sharing with another user in the system.<br><img src="assets/proof-share-partner-350x258.png" alt="proof_share_partner.png" style="width: 350;height: 258;"></li> 
-</ol>
+1. Begin sharing a proof or file.  
+   For more information about sharing, see [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)&nbsp; [Share Files in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md) and [Share Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
+
+1. In the `Share` section of the New&nbsp;Proof or New File page, the name of your partner appears as you begin typing the name in the auto-complete field, just as if you are sharing with another user in the system.  
+   ![proof_share_partner.png](assets/proof-share-partner-350x258.png)
 
 ## Making a User in a Partner Account the Proof Owner
 
@@ -48,8 +49,9 @@ If you have set up Partner relationships with other Workfront Proof accounts, yo
 
 To make a user in a partner account the owner of a proof:
 
-<ol> 
- <li value="1">On the New Proof page, click the <span class="bold">Change</span>&nbsp;link. (1)<br><img src="assets/make-a-user-in-a-partner-account-the-owner-of-a-proof-350x74.png" alt="Make_a_user_in_a_partner_account_the_owner_of_a_proof.png" style="width: 350;height: 74;"></li> 
- <li value="2">Choose a user from a Partner account to be the owner of the proof. (2)<br><img src="assets/make-a-user-in-a-partner-account-the-owner-of-a-proof--1--350x209.png" alt="Make_a_user_in_a_partner_account_the_owner_of_a_proof__1_.png" style="width: 350;height: 209;"></li> 
-</ol>
+1. On the New Proof page, click the `Change`&nbsp;link. (1)  
+   ![Make_a_user_in_a_partner_account_the_owner_of_a_proof.png](assets/make-a-user-in-a-partner-account-the-owner-of-a-proof-350x74.png)
+
+1. Choose a user from a Partner account to be the owner of the proof. (2)  
+   ![Make_a_user_in_a_partner_account_the_owner_of_a_proof__1_.png](assets/make-a-user-in-a-partner-account-the-owner-of-a-proof--1--350x209.png)
 

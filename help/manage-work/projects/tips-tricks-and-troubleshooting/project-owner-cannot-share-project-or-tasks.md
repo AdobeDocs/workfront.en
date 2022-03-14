@@ -21,17 +21,20 @@ The Adobe Workfront administrator restricted the user to viewing only Companies,
 
 As a Workfront administrator, do the following:
 
-<ol> 
- <li value="1">Find the user and click to access it.</li> 
- <li value="2"> Click the More menu next to the name of the user, then click Edit. </li> 
- <li value="3">Click <span class="bold">Access</span> and make note of the name of the <span class="bold">Access Level</span> assigned to this user.</li> 
- <li value="4"> Click the Main Menu icon in the upper-right corner of Adobe Workfront. </li> 
- <li value="5">Go to <span class="bold">Setup > Access Levels.</span></li> 
- <li value="6">Click the name of the <span class="bold">Access Level</span> to edit it.&nbsp;</li> 
- <li value="7"> <p>Deselect the following field: <span class="bold">View only companies, groups & teams they belong to.</span></p> <p> <img src="assets/view-only-team-groups-companies-they-belong-to-350x141.png" style="width: 350;height: 141;"> </p> </li> 
- <li value="8">Click <span class="bold">Save</span> <span class="bold">.</span></li> 
- <li value="9">Ask the user to share the project or the tasks with the team, again.&nbsp;</li> 
-</ol>
+1. Find the user and click to access it.
+1. Click the More menu next to the name of the user, then click Edit. 
+1. Click `Access` and make note of the name of the `Access Level` assigned to this user.
+
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
+1. Go to `Setup > Access Levels.`
+1. Click the name of the `Access Level` to edit it.&nbsp;
+1. Deselect the following field: `View only companies, groups & teams they belong to.`
+
+   ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+
+1. Click `Save` `.`
+
+1. Ask the user to share the project or the tasks with the team, again.&nbsp;
 
 >[!NOTE]
 >

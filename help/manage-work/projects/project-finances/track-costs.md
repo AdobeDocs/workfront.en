@@ -56,8 +56,8 @@ You can track several types of Costs for tasks and projects in Workfront. Overal
 Costs = Labor Costs + Expense Costs
 ```
 
-<ul> 
- <li> <p><span class="bold">Labor Costs</span> are associated with the hours on tasks and projects and the Cost per Hour rates of the resources associated with tasks. Generally, Workfront calculates the following labor costs:</p> 
+* `Labor Costs` are associated with the hours on tasks and projects and the Cost per Hour rates of the resources associated with tasks. Generally, Workfront calculates the following labor costs:
+
   <table cellspacing="3"> 
    <col> 
    <col> 
@@ -75,13 +75,18 @@ Costs = Labor Costs + Expense Costs
      <td> <p>They are calculated using the following formula:</p><pre>Actual Labor&nbsp;Costs = Actual Hours * Cost per Hour rate</pre> </td> 
     </tr> 
    </tbody> 
-  </table> <p>For more information, see the <a href="#understanding-how-planned-and-actual-costs-are-calculated" class="MCXref xref">How Workfront calculates Planned, Budgeted, and Actual Costs</a> section in this article. </p> </li> 
- <li><span class="bold">Expense Costs</span> are associated with Expenses on projects and tasks.<br>When you create a project, you can set planned expenses for the entire project. Additionally, you can associate expenses with new or existing tasks. For information, see <a href="../../../manage-work/projects/project-finances/manage-project-expenses.md" class="MCXref xref">Manage project expenses </a>. </li> 
- <li> <p><b>Fixed Costs</b> are defined as a fixed amount of cost for a project. This is part of the Planned Cost of the project which represents the amount of money that you need to complete the project.</p> <note type="tip">
-   When attaching a template to a project, the Fixed Cost of a template is added to the Fixed Cost of the project. For information, see 
-   <a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">Overview of attaching a template to a project</a>. 
-  </note> </li> 
-</ul>
+  </table>
+
+  For more information, see the [How Workfront calculates Planned, Budgeted, and Actual Costs](#understanding-how-planned-and-actual-costs-are-calculated) section in this article. 
+
+* `Expense Costs` are associated with Expenses on projects and tasks.  
+  When you create a project, you can set planned expenses for the entire project. Additionally, you can associate expenses with new or existing tasks. For information, see [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md). 
+
+* **Fixed Costs** are defined as a fixed amount of cost for a project. This is part of the Planned Cost of the project which represents the amount of money that you need to complete the project.
+
+  >[!TIP]
+  >
+  >When attaching a template to a project, the Fixed Cost of a template is added to the Fixed Cost of the project. For information, see [Overview of attaching a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md).
 
 ### How Workfront calculates Planned, Budgeted, and Actual Costs
 

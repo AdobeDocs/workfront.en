@@ -39,15 +39,16 @@ You must have the following access to perform the steps in this article:
 
 ## Set a deadline for an existing basic proof
 
-<ol> 
- <li value="1"> 
-  <ol> 
-   <li value="1"> <p>Go to the project, task, or issue that contains the document, then select <span class="bold">Documents</span>.</p> </li> 
-   <li value="2"> <p>Find the proof you need. </p> </li> 
-  </ol> </li> 
- <li value="2"> <p>Click <span class="bold">Proofing Workflow</span>.</p> </li> 
- <li value="3"> <p>In the <span class="bold">Workflow </span>area, select <span class="bold">No Deadline</span>.</p> <p> <img src="assets/no-deadline-basic-proof-350x70.png" style="width: 350;height: 70;"> </p> </li> 
- <li value="4"> <p>Choose a date, and specify a time, then click anywhere on the screen. </p> </li> 
- <li value="5"> <p>Choose if you want to notify reviewers of the new deadline.</p> </li> 
-</ol>
+1.
+
+  1. Go to the project, task, or issue that contains the document, then select `Documents`.
+  1. Find the proof you need.
+
+1. Click `Proofing Workflow`.
+1. In the `Workflow`area, select `No Deadline`.
+
+   ![](assets/no-deadline-basic-proof-350x70.png)
+
+1. Choose a date, and specify a time, then click anywhere on the screen. 
+1. Choose if you want to notify reviewers of the new deadline.
 

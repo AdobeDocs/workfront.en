@@ -93,8 +93,8 @@ Line Items
 
 ##### Create views
 
-<ul> 
- <li> <p>Load Campaigns to Adobe Workfront</p> 
+* Load Campaigns to Adobe Workfront
+
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -119,10 +119,14 @@ Line Items
      <td><b>Send to Adobe?</b> Boolean line item is true</td> 
     </tr> 
    </tbody> 
-  </table> <!--
-   (Screenshot)
-  --> </li> 
- <li> <p>Update Campaigns to Adobe Workfront</p> 
+  </table>
+
+  <!--
+  (Screenshot)
+  -->
+
+* Update Campaigns to Adobe Workfront
+
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -147,10 +151,11 @@ Line Items
      <td><b>Already sent to Adobe?</b> Boolean line item is true</td> 
     </tr> 
    </tbody> 
-  </table> <!--
-   (Screenshot)
-  --> </li> 
-</ul>
+  </table>
+
+  <!--
+  (Screenshot)
+  -->
 
 #### Workfront Integration: Campaign Data by Role by Month
 

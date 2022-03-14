@@ -56,10 +56,19 @@ The following criteria determine the Progress Status of a task:
 
 The different date types in our projects tell us how tasks are progressing over time:
 
-<ul> 
- <li> <p>On Time</p> <p> <img src="assets/on-time-progress-status-350x233.png" style="width: 350;height: 233;"> </p> </li> 
- <li> <p>At Risk</p> <p> <img src="assets/at-risk-progress-status-350x233.png" style="width: 350;height: 233;"> </p> </li> 
- <li> <p>Behind</p> <p> <img src="assets/behind-progress-status-350x233.png" style="width: 350;height: 233;"> </p> </li> 
- <li> <p>Late</p> <p> <img src="assets/late-progress-status-350x233.png" style="width: 350;height: 233;"> </p> </li> 
-</ul>
+* On Time
+
+  ![](assets/on-time-progress-status-350x233.png)
+
+* At Risk
+
+  ![](assets/at-risk-progress-status-350x233.png)
+
+* Behind
+
+  ![](assets/behind-progress-status-350x233.png)
+
+* Late
+
+  ![](assets/late-progress-status-350x233.png)
 

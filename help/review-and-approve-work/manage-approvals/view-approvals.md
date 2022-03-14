@@ -51,36 +51,46 @@ You can view or manage approvals from several areas of Workfront. For informatio
 
 You can view or manage approvals from the following areas:
 
-<ul> 
- <li> <p>In the Home area</p> 
-  <ul> 
-   <li> <p>All projects, tasks,&nbsp;issues, timesheets,&nbsp;documents, and access awaiting your approval are displayed in the Home area when you select to view All or Approvals.</p> </li> 
-   <li> <p>Approvals that you submitted yourself also display in the Home area, in the Approvals I've Submitted section of the Work List. For more information, see the <a href="#review" class="MCXref xref">Review work you submit for approval in the Home area</a> section in this article.</p> </li> 
-   <li> <p>Approvals&nbsp;are removed from the Home area when the associated&nbsp;project, task, or issue&nbsp;is marked&nbsp;Resolved, On Hold, Closed, or Canceled. </p> </li> 
-  </ul> <p>For information about using Home, see <a href="../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Get started with Home</a>. </p> </li> 
- <li> <p>In the header of a project, task, issue, document, or proof </p> </li> 
- <li> <p>In the Approvals sectionof a project, task, or issue</p> </li> 
- <li> <p>In a report</p> <note type="note">
-   You cannot make a decision on an approval from a report.
-  </note> <p>You can create a project, task, issue, or document approval report that contains approval information.</p> <p>For information about creating reports, see <a href="../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
-</ul>
+* In the Home area
+
+  * All projects, tasks,&nbsp;issues, timesheets,&nbsp;documents, and access awaiting your approval are displayed in the Home area when you select to view All or Approvals.
+  * Approvals that you submitted yourself also display in the Home area, in the Approvals I've Submitted section of the Work List. For more information, see the [Review work you submit for approval in the Home area](#review) section in this article.
+  * Approvals&nbsp;are removed from the Home area when the associated&nbsp;project, task, or issue&nbsp;is marked&nbsp;Resolved, On Hold, Closed, or Canceled.
+
+  For information about using Home, see [Get started with Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md). 
+
+* In the header of a project, task, issue, document, or proof 
+* In the Approvals sectionof a project, task, or issue
+* In a report
+
+  >[!NOTE]
+  >
+  >You cannot make a decision on an approval from a report.
+
+  You can create a project, task, issue, or document approval report that contains approval information.
+
+  For information about creating reports, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Review work you submit for approval in the Home area
 
-<ol> 
- <li value="1"> 
-  <div> 
-   <p>Click the <span class="bold">Home</span> icon <img src="assets/home-icon-30x29.png" style="width: 30;height: 29;"> in the upper-left corner of Adobe Workfront.</p> <note type="note"> 
-    <p>Your Workfront administrator might make the following changes to the Home icon in your environment:</p> 
-    <ul> 
-     <li> <p>Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. </p> </li> 
-     <li> <p>Replace the page linked to it with a different page. In this case, click the <span class="bold">Main Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of the page, then click <span class="bold">Home</span>.</p> </li> 
-    </ul> 
-   </note> 
-  </div> </li> 
- <li value="2"> <p>Select <span class="bold">Work List</span>, then click the <span class="bold">Filter</span> drop-down menu  and select <span class="bold">Approvals</span>.</p> </li> 
- <li value="3"> <p>Expand the <span class="bold">Approvals I've Submitted</span> section and find the approvals you submitted. </p> <p> <img src="assets/approvals-i've-submitted-section-in-home-350x532.png" style="width: 350;height: 532;"> </p>  </li> 
-</ol>
+1. 
+   Click the `Home` icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click `Home`.
+   >  
+   >
+
+1. Select `Work List`, then click the `Filter` drop-down menu  and select `Approvals`.
+1. Expand the `Approvals I've Submitted` section and find the approvals you submitted.
+
+   ![](assets/approvals-i've-submitted-section-in-home-350x532.png)
 
 ##
 

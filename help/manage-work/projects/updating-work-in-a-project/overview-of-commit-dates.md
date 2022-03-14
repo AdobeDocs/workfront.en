@@ -45,18 +45,26 @@ When a task or issue assignee selects a Commit Date that is different than the P
 >Changes made to the Commit Date do not automatically change the planned dates, and changes made to the planned dates do not automatically change the Commit Date.&nbsp;
 
 Setting the Commit Date for a task or issue triggers the following changes:
-`<li>  <ul>   <li> <p>The Commit Date populates in the Update Stream of the task or issue.</p> <p>  </p> <note type="tip">    The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see     <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.   </note> </li>  </ul> </li>` 
+`<li>  <ul>   <li> <p>The Commit Date populates in the Update Stream of the task or issue.</p> <p>  </p> <note type="tip">    The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see     <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.   </note> </li>  </ul> </li>`
 
-<ul> 
- <li> <p>The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.<br>For more information about the Projected Completion Date, see <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Overview of the Projected Completion Date for projects, tasks, and issues</a>.</p> <p>  <br> </p> </li> 
- <li> <p>The Project Owner is notified in the notifications area and in the Updates tab of the task whether this change will impact the project timeline. </p> <p>  </p> <note type="tip">
-   The notification that the Commit Date has changed is sent to the Project&nbsp;Owner only when the Workfront administrator enables displaying the Commit Date in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see 
-   <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.
-  </note> <p>If a Project Owner does not want to accept the change, we recommend that they comment back to the user proposing a new date to ask them to change the Commit Date back to the original Planned Date, or select a new date. If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item.</p> <p>The Project Owner can use the Commit Date to reset the Planned Completion Date. You do this by selecting the Set planned date to option in the Updates tab of the task. You must have access to manage the task and the project to accept this change.</p> <note type="note"> 
-   <p>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click <span class="bold">Project Timeline</span>. This opens the Gantt Chart where you can evaluate the date changes.</p> 
-   <p>  </p> 
-  </note> </li> 
-</ul>
+* The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.  
+  For more information about the Projected Completion Date, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
+
+* The Project Owner is notified in the notifications area and in the Updates tab of the task whether this change will impact the project timeline.
+
+  >[!TIP]
+  >
+  >The notification that the Commit Date has changed is sent to the Project&nbsp;Owner only when the Workfront administrator enables displaying the Commit Date in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  If a Project Owner does not want to accept the change, we recommend that they comment back to the user proposing a new date to ask them to change the Commit Date back to the original Planned Date, or select a new date. If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item.
+
+  The Project Owner can use the Commit Date to reset the Planned Completion Date. You do this by selecting the Set planned date to option in the Updates tab of the task. You must have access to manage the task and the project to accept this change.
+
+  >[!NOTE]
+  >
+  >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click `Project Timeline`. This opens the Gantt Chart where you can evaluate the date changes.
+  >
+  >
 
 For information about the additional functionality that is available when updating a work item, see&nbsp; [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).&nbsp;
 

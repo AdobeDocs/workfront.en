@@ -44,13 +44,24 @@ You must have the following to perform the steps in this article:
 
 ## Enable Outlook for use with Workfront and SAML 2.0
 
-<ol> 
- <li value="1">Click <span class="bold">Setup</span> near the upper-right corner of Adobe Workfront on the Global Navigation Bar.</li> 
- <li value="2">Click <span class="bold">System</span> > <span class="bold">Preferences</span>.</li> 
- <li value="3"> <p>In the <span class="bold">Security</span> section, make sure that <span class="bold">Allow SAML 2.0 authentication in Office 365 add-ins&nbsp;</span>is enabled.</p> <p>This option enables embedding of Workfront in an Iframe only for Office 365 add-ins. This does not open a click-jacking breach as there is no clickable content involved.</p> <p>This option is enabled by default.</p> <note type="note"> 
-   <p>If you enable <span class="bold">Allow embedding of Workfront in an iframe</span>, the <span class="bold">Allow SAML 2.0 authentication in Office 365 add-ins</span> is dimmed and enabled.</p> 
-   <p> <img src="assets/o365-iframe-grayed-out-and-general-iframe-checked-350x43.png" alt="" style="width: 350;height: 43;"> </img> </p> 
-  </note> </li> 
- <li value="4"> <p>Click <span class="bold">Save</span>.<br></p> <p>The changes that you saved here affect the experience of all the users in Workfront.&nbsp;</p> </li> 
-</ol>
+1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click `System` > `Preferences`.
+
+1. In the `Security` section, make sure that `Allow SAML 2.0 authentication in Office 365 add-ins`is enabled.
+
+   This option enables embedding of Workfront in an Iframe only for Office 365 add-ins. This does not open a click-jacking breach as there is no clickable content involved.
+
+   This option is enabled by default.
+
+   >[!NOTE]
+   >
+   >If you enable `Allow embedding of Workfront in an iframe`, the `Allow SAML 2.0 authentication in Office 365 add-ins` is dimmed and enabled.
+   >
+   >
+   >![](assets/o365-iframe-grayed-out-and-general-iframe-checked-350x43.png)   >
+   >
+
+1. Click `Save`.
+
+   The changes that you saved here affect the experience of all the users in Workfront.&nbsp;
 

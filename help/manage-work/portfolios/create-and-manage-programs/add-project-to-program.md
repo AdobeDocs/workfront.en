@@ -47,41 +47,46 @@ You must have the following access to perform the steps in this article:
 
 ## Add a project to an existing program
 
-<ol> 
- <li value="1"> <p>Go to a Program. </p> Click Projects in the left panel. </li> 
- <li value="2"> <p>Click New Project and select a method for adding the project.</p> <note type="tip">
-   You cannot add project when you view the list of projects in the Milestone view.
-  </note> <p>Select from the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Existing Project</td> 
-     <td> <p>Add a project that has already been created.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">New Project</td> 
-     <td> <p>Add a new project from scratch. </p> <p>For more information about creating a project from scratch, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.&nbsp;</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Import a Project from&nbsp;MS&nbsp;Project </td> 
-     <td> <p>Add a project that you previously exported from MS&nbsp;Project and have saved on your computer. </p> <p>For more information about creating a new project by importing it from Microsoft Project, see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from Microsoft Project</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Request Project</td> 
-     <td> <p>Request that the new project is approved before you can start working on it.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">New from&nbsp;Template</td> 
-     <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3">(Conditional) If you selected <span class="bold">Existing Project</span>, do the following: <br>
-  <ol>
-   <li value="1"><p>In the <span class="bold">Add Projects</span> dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time. </p></li>
-   <li value="2"><p>Click <span class="bold">Add Projects</span>.<span class="bold"><br></span>The project appears in the <span class="bold">Projects</span> tab of the program and is now associated with the program and portfolio.&nbsp;</p></li>
-  </ol></li> 
-</ol>
+1. Go to a Program. 
+   Click Projects in the left panel. 
+1. Click New Project and select a method for adding the project.
+
+   >[!TIP]
+   >
+   >You cannot add project when you view the list of projects in the Milestone view.
+
+   Select from the following options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Existing Project</td> 
+      <td> <p>Add a project that has already been created.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">New Project</td> 
+      <td> <p>Add a new project from scratch. </p> <p>For more information about creating a project from scratch, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.&nbsp;</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Import a Project from&nbsp;MS&nbsp;Project </td> 
+      <td> <p>Add a project that you previously exported from MS&nbsp;Project and have saved on your computer. </p> <p>For more information about creating a new project by importing it from Microsoft Project, see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from Microsoft Project</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Request Project</td> 
+      <td> <p>Request that the new project is approved before you can start working on it.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">New from&nbsp;Template</td> 
+      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Conditional) If you selected `Existing Project`, do the following:
+
+  1. In the `Add Projects` dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time. 
+  1. Click `Add Projects`. `  
+     `The project appears in the `Projects` tab of the program and is now associated with the program and portfolio.&nbsp;
 

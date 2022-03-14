@@ -37,21 +37,32 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
 ## Access the user and admin area for your Production instance of Workfront
 
-<ol> 
- <li value="1"> <p>From the <a href="https://adminconsole.adobe.com/">Adobe Admin Console page</a>, select the <b>Products</b> tab in the top navigation bar, and then select the <b>Workfront</b> product tile.</p> <p> <img src="assets/admin-product-350x184.png" style="width: 350;height: 184;"> </p> </li> 
- <li value="2"> <p>In the list that displays, select the link at the top.</p> <p>This is your Production instance where your users work. </p> <p> <img src="assets/instances-350x232.png" style="width: 350;height: 232;"> </p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md" class="MCXref xref">The Adobe Workfront Preview Sandbox Environment</a>.</p> 
-   <p>You might also see links to sandbox environments in the list. For more information, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md" class="MCXref xref">The Adobe Workfront Preview Sandbox Environment</a>.</p> 
-  </div> </li> 
- <li value="3"> <p>In the list that displays, with the <span class="bold">Product Profiles</span> tab selected, click the name of the Workfront Product Profile link. </p> <p> <img src="assets/prod-profile-350x127.png" style="width: 350;height: 127;"> </p> <p>This lis includes all users that are already assigned to your Production instance of Workfront. </p> <p>If you need information about product profiles, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md#manage-product-profiles.html">Manage product profiles for enterprise users</a>.</p> </li> 
- <li value="4"> <p>Continue on to one of the following sections in this article:</p> 
-  <ul> 
-   <li><a href="#create" class="MCXref xref">Create users in Workfront</a> </li> 
-   <li><a href="#create2" class="MCXref xref">Create system administrators in Workfront</a> </li> 
-  </ul> </li> 
-</ol>
+1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select the **Workfront** product tile.
+
+   ![](assets/admin-product-350x184.png)
+
+1. In the list that displays, select the link at the top.
+
+   This is your Production instance where your users work.
+
+   ![](assets/instances-350x232.png)
+
+   ` `**Tip: **`` Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+
+   You might also see links to sandbox environments in the list. For more information, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+
+1. In the list that displays, with the `Product Profiles` tab selected, click the name of the Workfront Product Profile link.
+
+   ![](assets/prod-profile-350x127.png)
+
+   This lis includes all users that are already assigned to your Production instance of Workfront.
+
+   If you need information about product profiles, see [Manage product profiles for enterprise users](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md#manage-product-profiles.html).
+
+1. Continue on to one of the following sections in this article:
+
+  * [Create users in Workfront](#create) 
+  * [Create system administrators in Workfront](#create2)
 
 ## Create users in Workfront
 
@@ -69,12 +80,14 @@ The System Administrator access level is granted only on the Adobe Admin Console
 
 You must add a user to your Production instance of Workfront before you can make the user a Workfront system administrator. For instructions, see [Create users in Workfront](#create) in this article.
 
-<ol> 
- <li value="1">Go to the user and admin area in the Admin Console, as described in <a href="#access" class="MCXref xref">Access the user and admin area for your Production instance of Workfront</a> in this article.</li> 
- <li value="2"> <p>Select the <b>Admins</b> tab above the list of users. </p> </li> 
- <li value="3"> <p>Select <b>Add Admin</b>.</p> </li> 
- <li value="4"> <p>In the <b>Add product profile administrators</b> box, enter the email addresses or names of the administrators you want to add, then select <b>Save</b>. </p> <p> <img src="assets/add-admin-350x124.png" style="width: 350;height: 124;"> </p> <p>The system administrators are created in Workfront.</p> </li> 
-</ol>
+1. Go to the user and admin area in the Admin Console, as described in [Access the user and admin area for your Production instance of Workfront](#access) in this article.
+1. Select the **Admins** tab above the list of users. 
+1. Select **Add Admin**.
+1. In the **Add product profile administrators** box, enter the email addresses or names of the administrators you want to add, then select **Save**.
+
+   ![](assets/add-admin-350x124.png)
+
+   The system administrators are created in Workfront.
 
 ## Additional details about the Admin Console:
 

@@ -38,10 +38,15 @@ You must have the following access to perform the steps in this article:
 
 ## Install Workfront for G Suite
 
-<ol> 
- <li value="1"> <p>Click the following link:</p> <p> https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461</p> <p>Or</p> <p>Click the plus sign icon in the G Suite add-ons sidebar at the far-right of a G Suite app (Gmail, Google Calendar, or Google Drive). Search for <i>Workfront for G Suite</i>, then click the Workfront for G Suite app item that appears.</p> </li> 
- <li value="2">Click <span class="bold">Install</span>, then follow the prompts that appear.</li> 
- <li value="3">(Conditional) In your G&nbsp;Suite app, if you don't see the Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page, refresh the page.</li> 
-</ol>
+1. Click the following link:
+
+   https://gsuite.google.com/marketplace/app/workfront_for_g_suite/1076371296461
+
+   Or
+
+   Click the plus sign icon in the G Suite add-ons sidebar at the far-right of a G Suite app (Gmail, Google Calendar, or Google Drive). Search for *Workfront for G Suite*, then click the Workfront for G Suite app item that appears.
+
+1. Click `Install`, then follow the prompts that appear.
+1. (Conditional) In your G&nbsp;Suite app, if you don't see the Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page, refresh the page.
 
 For information about logging in, see [Log in and out of Adobe Workfront for G Suite](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md).

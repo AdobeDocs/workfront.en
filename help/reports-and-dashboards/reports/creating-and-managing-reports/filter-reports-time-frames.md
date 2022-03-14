@@ -47,57 +47,60 @@ For more information on creating reports, see [Create a report](../../../reports
 
 ## Filter a report by the time frame of a date
 
-<ol> 
- <li value="1"> Click the Main Menu icon , then click Reporting. </li> 
- <li value="2">Click <span class="bold">New Report</span>, then select the type of report you want.<br>For example, select <span class="bold">Hour Report</span>.</li> 
- <li value="3">Select the <span class="bold">Filters</span> tab.</li> 
- <li value="4">Click <span class="bold">Add a Filter Rule</span>, then select <span class="bold">Hour Entry Date</span>.<br></li> 
- <li value="5"> <p>In the following drop-down menu, select any of the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Equal (Case Sensitive)</td> 
-     <td>After selecting this modifier, specify the date when the hours were entered.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Not Equal (Case Sensitive)</td> 
-     <td>After selecting this modifier, specify the date when the hours were entered, to exclude this date from your report. The report shows hours logged in all dates, expect for the date you specified.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Null</td> 
-     <td>Select this modifier&nbsp;to display only hours where the Entry Date is missing.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Not Null</td> 
-     <td>Select this modifier&nbsp;to display only hours where the Entry Date has a value.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Between</td> 
-     <td>After selecting this modifier, specify a date range when the hours were entered. The report shows hours entered between the specified dates.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Less Than</td> 
-     <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, and not including the specified date.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Less Than Equal</td> 
-     <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, including the specified date.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Greater Than</td> 
-     <td>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, and not including the specified date.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Greater Than Equal</td> 
-     <td> <p>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, including the specified date.</p> <p>Select any of the built-in time frame modifiers, as described in <a href="#built-in-time-frame-modifiers" class="MCXref xref">Built-in time frame modifiers</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="6"> These modifiers are available for any date field in a filter or a prompt in any report.<br></li> 
- <li value="7">Click <span class="bold">Save + Close</span>.</li> 
-</ol>
+1. Click the Main Menu icon , then click Reporting. 
+1. Click `New Report`, then select the type of report you want.  
+   For example, select `Hour Report`.
+
+1. Select the `Filters` tab.
+1. Click `Add a Filter Rule`, then select `Hour Entry Date`.  
+
+1. In the following drop-down menu, select any of the following options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Equal (Case Sensitive)</td> 
+      <td>After selecting this modifier, specify the date when the hours were entered.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Not Equal (Case Sensitive)</td> 
+      <td>After selecting this modifier, specify the date when the hours were entered, to exclude this date from your report. The report shows hours logged in all dates, expect for the date you specified.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Null</td> 
+      <td>Select this modifier&nbsp;to display only hours where the Entry Date is missing.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Not Null</td> 
+      <td>Select this modifier&nbsp;to display only hours where the Entry Date has a value.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Between</td> 
+      <td>After selecting this modifier, specify a date range when the hours were entered. The report shows hours entered between the specified dates.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Less Than</td> 
+      <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, and not including the specified date.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Less Than Equal</td> 
+      <td>After selecting this modifier, specify a&nbsp;date before which the hours were entered. The report shows hours entered before the specified date, including the specified date.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Greater Than</td> 
+      <td>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, and not including the specified date.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Greater Than Equal</td> 
+      <td> <p>After selecting this modifier, specify a&nbsp;date after&nbsp;which the hours were entered. The report shows hours entered after&nbsp;the specified date, including the specified date.</p> <p>Select any of the built-in time frame modifiers, as described in <a href="#built-in-time-frame-modifiers" class="MCXref xref">Built-in time frame modifiers</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. These modifiers are available for any date field in a filter or a prompt in any report.  
+1. Click `Save + Close`.
 
 ## Built-in time frame modifiers
 

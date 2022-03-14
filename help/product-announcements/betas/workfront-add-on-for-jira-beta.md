@@ -26,60 +26,74 @@ If you would like to be part of this beta program and have this functionality en
 
 To join our beta testing and experience the new features:&nbsp;
 
-<ol> 
- <li value="1">Log into Jira as a system administrator.</li> 
- <li value="2">Click <span class="bold">Settings</span> in the main Jira menu.</li> 
- <li value="3">Click <span class="bold">Add-ons</span>, then <span class="bold">Manage add-ons</span>.</li> 
- <li value="4">Click <span class="bold">Settings</span>.<br><img src="assets/second-settings-for-jira-wf-beta-add-on-350x137.png" alt="Second_settings_for_Jira_WF_beta_add-on.png" style="width: 350;height: 137;"></li> 
- <li value="5">Ensure that the&nbsp;<span class="bold">Enable private listings</span> field is enabled.<br><img src="assets/jira-wf--ensure-private-listings-field-enabled-350x147.png" alt="Jira_WF__ensure_private_listings_field_enabled.png" style="width: 350;height: 147;"></li> 
- <li value="6">Click <span class="bold">Apply</span>, then click <span class="bold">Upload add-on</span>.<br><img src="assets/jira-wf--upload-addon-for-beta-button.png" alt="Jira_WF__Upload_addon_for_beta_button.png"></li> 
- <li value="7">Copy the following URL and paste it in the field displayed:<br><a href="https://jira.workfront.com/atlassian-connect.json" data-saferedirecturl="https://www.google.com/url?hl=en&q=https://jira.workfront.com/atlassian-connect.json&source=gmail&ust=1517061032882000&usg=AFQjCNEFSllaLEOzoRTvc_QLSJ5jf_YuSg">https://jira.workfront.<wbr>com/atlassian-connect.json</a></li> 
- <li value="8">Click <span class="bold">Upload</span>.<br>The Workfront beta add-on is now available in the list of add-ons in Jira.<br>You can now start configuring your Workfront to Jira integration.&nbsp;</li> 
-</ol>
+1. Log into Jira as a system administrator.
+1. Click `Settings` in the main Jira menu.
+1. Click `Add-ons`, then `Manage add-ons`.
+
+1. Click `Settings`.  
+   ![Second_settings_for_Jira_WF_beta_add-on.png](assets/second-settings-for-jira-wf-beta-add-on-350x137.png)
+
+1. Ensure that the  `Enable private listings` field is enabled.  
+   ![Jira_WF__ensure_private_listings_field_enabled.png](assets/jira-wf--ensure-private-listings-field-enabled-350x147.png)
+
+1. Click `Apply`, then click `Upload add-on`.  
+   ![Jira_WF__Upload_addon_for_beta_button.png](assets/jira-wf--upload-addon-for-beta-button.png)
+
+1. Copy the following URL and paste it in the field displayed:  
+   [https://jira.workfront.`<wbr>`com/atlassian-connect.json](https://jira.workfront.com/atlassian-connect.json)
+
+1. Click `Upload`.  
+   The Workfront beta add-on is now available in the list of add-ons in Jira.  
+   You can now start configuring your Workfront to Jira integration.&nbsp;
 
 ## Configuring the Workfront Beta Add-On for Jira
 
-<ol> 
- <li value="1">Log into Jira as a system administrator.</li> 
- <li value="2">Click <span class="bold">Settings</span> in the main Jira menu.</li> 
- <li value="3">Click <span class="bold">Add-ons</span>, then <span class="bold">Manage add-ons</span>.</li> 
- <li value="4">Expand the <span class="bold">Workfront</span> add-on.</li> 
- <li value="5">Click <span class="bold">Configure</span>.</li> 
- <li value="6">Specify your Workfront credentials and domain information.<br><note type="note">
-    You must log in to Workfront as a system administrator to continue configuring the integration. We recommend that you create a system administrator account designated for the Workfront to Jira integration and not use an existing account which might be connected to another user.&nbsp;
-  </note><br><img src="assets/jira-wf-login-from-jira-focused-350x291.png" alt="Jira_WF_Login_from_Jira_focused.png" style="width: 350;height: 291;"></li> 
- <li value="7">Select the <span class="bold">Triggers</span> tab to configure the automatic creation of Jira items as new Workfront items are created.&nbsp;Creating an item in Workfront and assigning it to a specific entity can automatically create an item in Jira. The two items become linked.<br>Specify the following: 
-  <ul>
-   <li><span class="bold">Workfront team/user/role</span>: Specify which team, user, or role the item in Workfront must be assigned to in order to trigger the automatic creation of a Jira item.</li>
-   <li>The <span class="bold">Jira project</span> on which you want to add the new item in Jira.</li>
-   <li>The <span class="bold">Issue type</span> of the newly created item in Jira.&nbsp;</li>
-  </ul></li> 
- <li value="8">Click <span class="bold">Save</span>.</li> 
- <li value="9">Select the <span class="bold">Setup</span> tab to configure which fields to synchronize between the linked Jira and Workfront items.<br>Consider specifying the following: 
-  <ul>
-   <li><span class="bold">Synchronize from Workfront to Jira</span>:<br>
-    <ul>
-     <li><span class="bold">Name</span></li>
-     <li><span class="bold">Description</span></li>
-     <li><span class="bold">Documents</span></li>
-     <li><span class="bold">Planned Completion Date</span></li>
-    </ul></li>
-   <li><span class="bold">Synchronize from Jira to Workfront</span>: 
-    <ul>
-     <li><span class="bold">Status</span></li>
-     <li><span class="bold">Assignee</span>: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new user in Workfront. This user does not occupy a Workfront license.</li>
-     <li><span class="bold">Attachments</span></li>
-    </ul></li>
-   <li><span class="bold">Other</span>: Specify how you want the updates of the following fields to be recorded in the two applications: 
-    <ul>
-     <li>Custom Data</li>
-     <li>Priority</li>
-     <li>Due Date changes</li>
-    </ul></li>
-  </ul></li> 
- <li value="10">Click <span class="bold">Save</span>.&nbsp;</li> 
- <li value="11">(Optional) View the <span class="bold">Activity Log</span> tab for any errors that might occur as you are working with the integrated features.&nbsp;</li> 
-</ol>
+1. Log into Jira as a system administrator.
+1. Click `Settings` in the main Jira menu.
+1. Click `Add-ons`, then `Manage add-ons`.
+
+1. Expand the `Workfront` add-on.
+1. Click `Configure`.
+1. Specify your Workfront credentials and domain information.
+
+   >[!NOTE]
+   >
+   >You must log in to Workfront as a system administrator to continue configuring the integration. We recommend that you create a system administrator account designated for the Workfront to Jira integration and not use an existing account which might be connected to another user.&nbsp;
+
+   ![Jira_WF_Login_from_Jira_focused.png](assets/jira-wf-login-from-jira-focused-350x291.png)
+
+1. Select the `Triggers` tab to configure the automatic creation of Jira items as new Workfront items are created.&nbsp;Creating an item in Workfront and assigning it to a specific entity can automatically create an item in Jira. The two items become linked.  
+   Specify the following:
+
+  * `Workfront team/user/role`: Specify which team, user, or role the item in Workfront must be assigned to in order to trigger the automatic creation of a Jira item.
+  * The `Jira project` on which you want to add the new item in Jira.
+  * The `Issue type` of the newly created item in Jira.&nbsp;
+
+1. Click `Save`.
+1. Select the `Setup` tab to configure which fields to synchronize between the linked Jira and Workfront items.  
+   Consider specifying the following:
+
+  * `Synchronize from Workfront to Jira`:
+
+    * `Name`
+    * `Description`
+    * `Documents`
+    * `Planned Completion Date`
+
+  * `Synchronize from Jira to Workfront`:
+
+    * `Status`
+    * `Assignee`: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new user in Workfront. This user does not occupy a Workfront license.
+    * `Attachments`
+
+  * `Other`: Specify how you want the updates of the following fields to be recorded in the two applications:
+
+    * Custom Data
+    * Priority
+    * Due Date changes
+
+1. Click `Save`.&nbsp;
+1. (Optional) View the `Activity Log` tab for any errors that might occur as you are working with the integrated features.&nbsp;
 
 >[!NOTE]
 >

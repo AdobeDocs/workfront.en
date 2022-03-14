@@ -66,19 +66,21 @@ Consider the following when exporting information from the Role view of the Reso
 
 Consider the following when applying the User view to the Resource Planner:
 
-<ul> 
- <li>You can display all users that meet the following criteria:
-  <ul>
-   <li>You have access to view</li>
-   <li>Are active</li>
-   <li>Have logged in at least once. </li>
-  </ul></li> 
- <li> <p>You can expand each user to display the projects associated with it, and each project to display roles associated with it.<br>The first 50 projects and roles display by default, and you can use the Load More option to display additional projects or roles. </p> <note type="note">
-   If you have filtered the list of users by projects, only the users associated with the filtered projects can be expanded and also display hour information
-  </note> </li> 
- <li>You can see up to 2,000 users in the web interface. Workfront displays a warning message when you reach this limit.</li> 
- <li>You can view three or four time periods, depending on the size of your screen. </li> 
-</ul>
+* You can display all users that meet the following criteria:
+
+  * You have access to view
+  * Are active
+  * Have logged in at least once.
+
+* You can expand each user to display the projects associated with it, and each project to display roles associated with it.  
+  The first 50 projects and roles display by default, and you can use the Load More option to display additional projects or roles.
+
+  >[!NOTE]
+  >
+  >If you have filtered the list of users by projects, only the users associated with the filtered projects can be expanded and also display hour information
+
+* You can see up to 2,000 users in the web interface. Workfront displays a warning message when you reach this limit.
+* You can view three or four time periods, depending on the size of your screen.
 
 Consider the following when exporting information from the User view of the Resource Planner, after you have applied all the appropriate filters and export options:
 

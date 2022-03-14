@@ -47,12 +47,14 @@ You must have the following to perform the steps in this article:
 
 ### Solution
 
-<ol> 
- <li value="1">In Windows, click <span class="bold">Start</span> > <span class="bold">Administration</span> > <span class="bold">ADFS&nbsp;2.0 Management</span>.<br>The ADFS 2.0 Management dialog box is displayed.</li> 
- <li value="2">Select <span class="bold">Trust Relationship</span> > <span class="bold">Relying Party Trusts</span> in the left-hand pane.</li> 
- <li value="3">Right-click on the relying party trust related to Adobe Workfront, then select <span class="bold">Properties</span>.</li> 
- <li value="4">Click on the <span class="bold">Advanced</span>&nbsp;tab, then select <span class="bold">SHA-1</span> from&nbsp;the <span class="bold">Secure hash algorithm</span> drop-down menu.<br><img src="assets/1-350x287.png" style="width: 350;height: 287;"></li> 
-</ol>
+1. In Windows, click `Start` > `Administration` > `ADFS 2.0 Management`.  
+   The ADFS 2.0 Management dialog box is displayed.
+
+1. Select `Trust Relationship` > `Relying Party Trusts` in the left-hand pane.
+
+1. Right-click on the relying party trust related to Adobe Workfront, then select `Properties`.
+1. Click on the `Advanced` tab, then select `SHA-1` from the `Secure hash algorithm` drop-down menu.  
+   ![](assets/1-350x287.png)
 
 ## Cause 2: ADFS Signing Certificate is about to expire and has been replaced by a new Certificate with overlapping dates
 
@@ -87,7 +89,8 @@ Run the following PowerShell Commands replacing domain with their Domain:
 1. In the Powershell window, type:   
    *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -SigningCertificateRevocationCheck None&nbsp;*
 
-1. `<li value="1">The "DOMAIN.my.workfront.com/SAML2" will be the identifier name of your relying party trust as displayed int he ADFS Management console.</li>` 
+  1. The "DOMAIN.my.workfront.com/SAML2" will be the identifier name of your relying party trust as displayed int he ADFS Management console.
+
 1. Then run  
    *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -EncryptionCertificateRevocationCheck None&nbsp;*
 

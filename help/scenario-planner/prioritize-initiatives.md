@@ -51,22 +51,29 @@ We recommend that you place more urgent initiatives at the top of a plan and the
 
 To update initiative priority:
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then click&nbsp;Scenarios.</p> <p>A list of plans displays.</p> </li> 
- <li value="2">Click the name of a plan to open it, then locate the initiatives you want to prioritize.</li> 
- <li value="3"> 
-  <div> 
-   <p>Click the box to the left of one or more of the initiatives' name and do one of the following:</p> 
-   <ul> 
-    <li> <p>Click the handle to the left of one of the selected initiatives' names, then drag it up or down in the list to change the initiative's priority.</p> <p>Workfront displays the number of selected initiatives.</p> <p> <img src="assets/multi-select-initiative-number.png"> </p> </li> 
-    <li> <p>Click the <span class="bold">Prioritize</span> box at the bottom of the plan, then choose from the following options:</p> 
-     <ul> 
-      <li> <p><span class="bold">Top</span>: Moves the selected initiatives to the top of the initiative list.&nbsp;The selected initiatives are listed first on the plan.</p> </li> 
-      <li> <p><span class="bold">Bottom</span>:&nbsp;Moves the selected initiatives to the bottom of the initiative list.&nbsp;The selected initiatives are listed last on the plan.</p> </li> 
-      <li> <p><span class="bold">Select a number</span>: Moves the selected initiatives after the initiative you indicate here. </p> <p> <img src="assets/prioritize-initiatives-expanded-highlighted-350x171.png" style="width: 350;height: 171;"> </p> </li> 
-     </ul> <p>Workfront immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly. </p> </li> 
-   </ul> 
-  </div> </li> 
- <li value="4"> <p>Click <span class="bold">Save Plan</span> to save your changes. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+
+   A list of plans displays.
+
+1. Click the name of a plan to open it, then locate the initiatives you want to prioritize.
+1. 
+   Click the box to the left of one or more of the initiatives' name and do one of the following:
+
+  * Click the handle to the left of one of the selected initiatives' names, then drag it up or down in the list to change the initiative's priority.
+
+    Workfront displays the number of selected initiatives.
+
+    ![](assets/multi-select-initiative-number.png)
+
+  * Click the `Prioritize` box at the bottom of the plan, then choose from the following options:
+
+    * `Top`: Moves the selected initiatives to the top of the initiative list.&nbsp;The selected initiatives are listed first on the plan.
+    * `Bottom`:&nbsp;Moves the selected initiatives to the bottom of the initiative list.&nbsp;The selected initiatives are listed last on the plan.
+    * `Select a number`: Moves the selected initiatives after the initiative you indicate here.
+
+      ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+
+    Workfront immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
+
+1. Click `Save Plan` to save your changes.
 

@@ -54,17 +54,22 @@ You must have the following to perform the steps in this article:
 >
 >If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Project Preferences > Projects, then searching for the group’s name in the box at the top of the page.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3"> Click the name of the group whose project preferences you want to configure.</li> 
- <li value="4"> In the left panel, click Project Preferences. </li> 
- <li value="5"> <p>On the page that appears, continue with one of the 4 sections listed below to configure preferences for Project Status, Timelines, Business Cases, and Life after Death.</p> <note type="tip">
-   If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
-  </note> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
 
-* `<li><a href="#project" class="MCXref xref" data-mc-variable-override="">Project Status</a> </li>` `<li><a href="#timelines" class="MCXref xref" data-mc-variable-override="">Timelines</a> </li>` `<li><a href="#business-cases" class="MCXref xref" data-mc-variable-override="">Business Cases</a> </li>` `<li><a href="#life-after-death" class="MCXref xref" data-mc-variable-override="">Life After Death </a> </li>`
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group whose project preferences you want to configure.
+1. In the left panel, click Project Preferences. 
+1. On the page that appears, continue with one of the 4 sections listed below to configure preferences for Project Status, Timelines, Business Cases, and Life after Death.
+
+   >[!TIP]
+   >
+   >If you hover over a preference and a tool tip displays to tell you that it is locked, you can ask your Workfront administrator to unlock it for all groups in the organization.
+
+* [Project Status](#project) 
+* [Timelines](#timelines) 
+* [Business Cases](#business-cases) 
+* [Life After Death](#life-after-death)
 
 ### Project Status
 

@@ -38,12 +38,17 @@ You must have the following access in Workfront to perform the steps in this art
 
 ## Add updates to a project in Workfront View
 
-<ol> 
- <li value="1">From the home page of Workfront View, tap a project to access it.</li> 
- <li value="2">(Optional) Add the <span class="bold">Updates</span> widget to your view.<br>For more information about adding widgets to your project view, see <a href="../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md" class="MCXref xref">Update widgets in the Project Details view</a>.</li> 
- <li value="3">Tap the <span class="bold">Updates</span> icon (bottom right) or (conditional) the <span class="bold">[+]</span> icon on an update in the <span class="bold">Updates</span> widget.<br><img src="assets/workfront-view-updates-icon-315x196.png" alt="workfront_view_updates_icon.png" style="width: 315;height: 196;"></li> 
- <li value="4">Type in an update.</li> 
- <li value="5">(Optional) Include others in the update by tapping the people icon and specifying the name of another user.<br><img src="assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png" alt="" style="width: 350;height: 222;"></li> 
- <li value="6">Tap <span class="bold">Post</span>.<br>The update appears on the project, in the <span class="bold">Updates</span> widget.</li> 
-</ol>
+1. From the home page of Workfront View, tap a project to access it.
+1. (Optional) Add the `Updates` widget to your view.  
+   For more information about adding widgets to your project view, see [Update widgets in the Project Details view](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
+
+1. Tap the `Updates` icon (bottom right) or (conditional) the `[+]` icon on an update in the `Updates` widget.  
+   ![workfront_view_updates_icon.png](assets/workfront-view-updates-icon-315x196.png)
+
+1. Type in an update.
+1. (Optional) Include others in the update by tapping the people icon and specifying the name of another user.  
+   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+
+1. Tap `Post`.  
+   The update appears on the project, in the `Updates` widget.
 

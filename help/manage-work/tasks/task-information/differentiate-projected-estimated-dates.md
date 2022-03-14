@@ -80,13 +80,13 @@ In comparison with the scenarios described above for the Projected Dates, the Es
 
 The following are some examples of what can influence the real timeline of a task:&nbsp;
 
-<ul> 
- <li>task progress in relation to the Planned Dates and to the current day</li> 
- <li>percent complete of the task so far</li> 
- <li>predecessor relationship</li> 
- <li>predecessor progress</li> 
- <li> <p>user allocation </p> <note type="note">
-   User allocation can influence the Estimated Completion&nbsp;Date of a task if they affect the speed with which the task can be completed. For example, if the task Duration Type is Effort Driven, you can make the task complete sooner by adding assignees. As a result, the Estimated Completion Date changes. 
-  </note> </li> 
-</ul>
+* task progress in relation to the Planned Dates and to the current day
+* percent complete of the task so far
+* predecessor relationship
+* predecessor progress
+* user allocation
+
+  >[!NOTE]
+  >
+  >User allocation can influence the Estimated Completion&nbsp;Date of a task if they affect the speed with which the task can be completed. For example, if the task Duration Type is Effort Driven, you can make the task complete sooner by adding assignees. As a result, the Estimated Completion Date changes.
 

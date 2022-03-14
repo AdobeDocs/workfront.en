@@ -49,18 +49,23 @@ You can view and edit the Group Details page for a group or subgroup that you ma
 
 ## Edit, copy, or delete a group
 
-Without leaving the main page of a group you are viewing, you can quickly edit, copy, or delete the group. 
+Without leaving the main page of a group you are viewing, you can quickly edit, copy, or delete the group.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>Click <span class="bold">Groups</span>.</p> <p>In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.</p> </li> 
- <li value="3"> <p>Select the group, then click the Edit , Copy , or Delete icon.</p> <p>If you need information about using the box that displays, see one of the following:</p> 
-  <ul> 
-   <li><span class="bold">Edit</span>: <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md" class="MCXref xref">View and manage a group’s details</a></li> 
-   <li><span class="bold">Copy</span>: <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a></li> 
-   <li><span class="bold">Delete</span>: <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md" class="MCXref xref">Delete a group</a></li> 
-  </ul> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Groups`.
+
+   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+
+1. Select the group, then click the Edit , Copy , or Delete icon.
+
+   If you need information about using the box that displays, see one of the following:
+
+  * `Edit`: [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+  
+  * `Copy`: [Create a top-level group by copying an existing group or subgroup](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+  
+  * `Delete`: [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
 ## Configure project, task, and issue preferences for a group
 

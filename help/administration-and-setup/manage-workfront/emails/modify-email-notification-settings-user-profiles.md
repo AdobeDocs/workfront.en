@@ -39,11 +39,23 @@ You must have the following access to perform the steps in this article:
 
 ## Modify the email notification settings of multiple users in bulk
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . Select the users, then click Edit. </p> </li> 
- <li value="2">In theEdit Person box that appears, click <span class="bold">Notifications</span>.</li> 
- <li value="3"> <p>Expand a category to view notification settings related to that category.<br></p> <p>If there is at least one user selected where the notifications do not match the notifications of the other selected users, the category check box for that notification contains a horizontal line <img src="assets/straight-line-instead-of-checkmark.jpg"> instead of a check mark.<br></p> </li> 
- <li value="4"> <p>Click any notifications that you want the users to receive either daily or instantly, or clear any that you want them to stop receiving. <br></p> <p>For the <span class="bold">Communication</span> category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.</p> <p>When you modify a notification setting, the label <span class="bold">Edited</span> appears for that notification setting, to let you know that that notification setting has been modified.</p> </li> 
- <li value="5"> <p> If you selected notifications to be sent as a daily digest, select the time of the day you want the digest delivered at the top of the <span class="bold">Notifications</span> section in the <span class="bold">Email Daily Digest after</span> menu.</p> <p>After you select a delivery time, the <span class="bold">Email Daily Digest after</span> box displays with an orange frame to indicate that the time of the delivery has been edited.</p> <p>The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. Users receive one daily digest email for each notification type.</p> <p>The daily digest may arrive after the time you select, depending on how many emails are queued for delivery in the system. The time listed is your local time as specified in your browser settings.</p> </li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . Select the users, then click Edit. 
+1. In theEdit Person box that appears, click `Notifications`.
+1. Expand a category to view notification settings related to that category.
+
+   If there is at least one user selected where the notifications do not match the notifications of the other selected users, the category check box for that notification contains a horizontal line ![](assets/straight-line-instead-of-checkmark.jpg) instead of a check mark.
+
+1. Click any notifications that you want the users to receive either daily or instantly, or clear any that you want them to stop receiving.
+
+   For the `Communication` category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.
+
+   When you modify a notification setting, the label `Edited` appears for that notification setting, to let you know that that notification setting has been modified.
+
+1. If you selected notifications to be sent as a daily digest, select the time of the day you want the digest delivered at the top of the `Notifications` section in the `Email Daily Digest after` menu.
+
+   After you select a delivery time, the `Email Daily Digest after` box displays with an orange frame to indicate that the time of the delivery has been edited.
+
+   The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. Users receive one daily digest email for each notification type.
+
+   The daily digest may arrive after the time you select, depending on how many emails are queued for delivery in the system. The time listed is your local time as specified in your browser settings.
 

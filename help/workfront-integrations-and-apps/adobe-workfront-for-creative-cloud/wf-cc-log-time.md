@@ -47,12 +47,19 @@ You must have the following access to perform the steps in this article:
 
 ## Log time in Adobe Photoshop
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
- <li value="2"> <p>From the <span class="bold">Work List</span>, select the work item you need to log time to.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Time</span> in the navigation bar.</p> <p> <img src="assets/log-time-350x337.png" style="width: 350;height: 337;"> </p> </li> 
- <li value="4"> <p>(Optional) Choose the <span class="bold">Hour Type</span> from the drop-down menu.</p> </li> 
- <li value="5"> <p>Enter the time in hours for the day you need.</p> <p> <img src="assets/copy-of-log-hours-350x236.png" style="width: 350;height: 236;"> </p> </li> 
- <li value="6"> <p>Click <span class="bold">Submit</span>. </p> </li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. From the `Work List`, select the work item you need to log time to.
+1. Click `Time` in the navigation bar.
+
+   ![](assets/log-time-350x337.png)
+
+1. (Optional) Choose the `Hour Type` from the drop-down menu.
+1. Enter the time in hours for the day you need.
+
+   ![](assets/copy-of-log-hours-350x236.png)
+
+1. Click `Submit`.
 

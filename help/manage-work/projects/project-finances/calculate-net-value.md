@@ -38,17 +38,25 @@ The following fields can affect the Net Value of a project:
 
 You can find the Net Value for a project in the following areas in Workfront:
 
-<ul> 
- <li> <p>In Business Case Summary area of the Business Case&nbsp;<br>For more information about the Business Case Summary area, see the "Understanding the Business Case Summary" section in&nbsp;the article <a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a><a href="../../../manage-work/projects/define-a-business-case/create-business-case.md" class="MCXref xref">Create a Business Case for a project in Adobe Workfront</a>.</p> <p> <img src="assets/net-value-on-business-case-summary-highlighted-350x444.png" style="width: 350;height: 444;"> </p> </li> 
- <li>In the Portfolio Optimizer&nbsp;if the project is associated with a portfolio<br><note type="tip">
-    The total of all project Net Values is the Net Value of the portfolio.
-  </note><p>For more information about the Portfolio Optimizer, see <a href="../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md" class="MCXref xref">Portfolio Optimizer overview</a>.<br></p></li> 
- <li> <p>In the Project Net&nbsp;Value field of the following lists and reports:</p> 
-  <ul> 
-   <li> <p>Project</p> </li> 
-   <li> <p>Task</p> </li> 
-   <li> <p>Issue</p> </li> 
-   <li> <p>Project (Financial Data) </p> </li> 
-  </ul> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
-</ul>
+* In Business Case Summary area of the Business Case&nbsp;  
+  For more information about the Business Case Summary area, see the "Understanding the Business Case Summary" section in&nbsp;the article [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md) [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+
+  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+
+* In the Portfolio Optimizer&nbsp;if the project is associated with a portfolio
+
+  >[!TIP]
+  >
+  >The total of all project Net Values is the Net Value of the portfolio.
+
+  For more information about the Portfolio Optimizer, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+
+* In the Project Net&nbsp;Value field of the following lists and reports:
+
+  * Project
+  * Task
+  * Issue
+  * Project (Financial Data)
+
+  For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

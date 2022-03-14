@@ -58,16 +58,13 @@ You might not have access to this functionality because it is supported by Flash
 
 The Legacy proofing viewer is based on Flash Player&nbsp;and sometimes, when the text is missing in the proofing viewer, it is possible&nbsp;there is&nbsp;a font conflict between OS X and Flash Player. Try the following:
 
-<ol> 
- <li value="1">Open Finder and open the&nbsp;<span class="bold">Go</span> tab.</li> 
- <li value="2">Press the Option&nbsp;key (⌥ Alt) to open the Library folder in the dropdown list.</li> 
- <li value="3">While holding the Option key, click the&nbsp;Library folder.</li> 
- <li value="4">After the Library folder opens, go to Fonts folder located within.</li> 
- <li value="5">Move all the fonts located in&nbsp;the Fonts folder&nbsp;into another folder, perhaps on your Desktop (please do not&nbsp;create&nbsp;another folder inside the Fonts folder). <br></li> <note type="note">
-  &nbsp;This action hides all your custom fonts; you should still have the standard system fonts saved in their separate location.
- </note> 
- <li value="6">Quit and restart Safari.</li> 
- <li value="7">Reopen the&nbsp;proof.</li> 
-</ol>
+1. Open Finder and open the  `Go` tab.
+1. Press the Option&nbsp;key (⌥ Alt) to open the Library folder in the dropdown list.
+1. While holding the Option key, click the&nbsp;Library folder.
+1. After the Library folder opens, go to Fonts folder located within.
+1. Move all the fonts located in&nbsp;the Fonts folder&nbsp;into another folder, perhaps on your Desktop (please do not&nbsp;create&nbsp;another folder inside the Fonts folder).   
+1. &nbsp;This action hides all your custom fonts; you should still have the standard system fonts saved in their separate location.
+1. Quit and restart Safari.
+1. Reopen the&nbsp;proof.
 
 You should see your fonts now. If you don't need any of the fonts that you removed from your home directory, you can safely delete them. Otherwise, go through them in batches, copy them back to your Library/Fonts folder, and see which one is causing the problem.

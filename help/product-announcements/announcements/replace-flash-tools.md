@@ -66,20 +66,20 @@ For information about replacement tools, see [Legacy Flash-based tools and their
 
 The following reporting features and reports have been removed:
 
-<ul> 
- <li> <p>Removed reporting features:</p> 
-  <ul> 
-   <li>The Resource Grid option in a user report</li> 
-   <li>The Legacy Gantt option in a project or task report<br>For more information, see <a href="../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">View information in the Gantt Chart </a>.</li> 
-  </ul> </li> 
- <li> <p>Removed reports: </p> 
-  <ul> 
-   <li> <p>The Legacy Resource Pool report</p> </li> 
-   <li> <p>The Resource Estimates report</p> </li> 
-  </ul> <note type="note">
-   All legacy fields accessed through reports or through the API (Legacy Resource Pool, Legacy Budgeted Cost, Legacy Cost, Legacy Budgeted Hours, Legacy Budgeted Labor Cost, etc) display in various reports, but do not populate with new information. 
-  </note> </li> 
-</ul>
+* Removed reporting features:
+
+  * The Resource Grid option in a user report
+  * The Legacy Gantt option in a project or task report  
+    For more information, see [View information in the Gantt Chart](../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+
+* Removed reports:
+
+  * The Legacy Resource Pool report
+  * The Resource Estimates report
+
+  >[!NOTE]
+  >
+  >All legacy fields accessed through reports or through the API (Legacy Resource Pool, Legacy Budgeted Cost, Legacy Cost, Legacy Budgeted Hours, Legacy Budgeted Labor Cost, etc) display in various reports, but do not populate with new information.
 
 ### Legacy Gantt
 

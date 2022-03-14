@@ -45,14 +45,17 @@ For additional information about access to Workfront Goals, see Requirements to 
 
 ## Grant user access to Workfront Goals using a custom access level
 
-<ol> 
- <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
- <li value="2"> <p>Click the option to the right of <span class="bold">Goals</span> that you want to use for this access level.</p> <p> <img src="assets/edit-access-level-goals-350x139.png" style="width: 350;height: 139;"> </p> <note type="note">
-   The External license type does not allow View or Edit access to Workfront Goals.
-  </note> </li> 
- <li value="3"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
- <li value="4"> <p>When you are finished, click Save.</p> </li> 
-</ol>
+1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Click the option to the right of `Goals` that you want to use for this access level.
+
+   ![](assets/edit-access-level-goals-350x139.png)
+
+   >[!NOTE]
+   >
+   >The External license type does not allow View or Edit access to Workfront Goals.
+
+1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. When you are finished, click Save.
 
 ## Access to Workfront Goals by license type
 

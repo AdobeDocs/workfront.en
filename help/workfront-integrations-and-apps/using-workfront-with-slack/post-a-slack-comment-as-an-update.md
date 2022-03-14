@@ -40,15 +40,31 @@ Before you can post a Slack comment as an update, you must
 
 ## Post a Slack comment as an update in Workfront
 
-<ol> 
- <li value="1"> <p>Hover over a comment you added in a Slack channel, then click the <span class="bold">More actions</span> icon.</p> <p> <img src="assets/slack-more-icon.png"> <br> </p> </li> 
- <li value="2"> <p>Click <span class="bold">Post an update ... <the name of your Workfront app></span>.&nbsp;</p> <note type="note"> 
-   <p>You may need to click <b>More message shortcuts</b> and scroll down to locate the <b>Post an update</b> option.</p> 
-   <p> <img src="assets/slack-more-message-shortcuts.png"> </p> 
-  </note> <p>&nbsp;</p> <p> <img src="assets/slack-post-an-update-ui-350x309.png" style="width: 350;height: 309;"> <br> </p> </li> 
- <li value="3">In the <span class="bold">Project, task or issue</span> box, start typing the name of a project, task, or issue where you want to add the update then click the name of the project, task, or issue when it appears on the list. You must have access to view an object before it appears in the list.&nbsp;</li> 
- <li value="4">(Optional) In the <span class="bold">Include another user</span> box, start typing the name of a user you can view that you want to include in your update, then click it when it appears on the list.&nbsp;</li> 
- <li value="5">Click <span class="bold">Submit</span>.<br>A confirmation displays in Slack to notify you that your update was posted.</li> 
- <li value="6"> <p>(Optional) Click the name of the project, task, or issue where you posted the update to access it in Workfront.<br>There is an indication in Workfront that the update originated in Slack.&nbsp;</p> <p> <img src="assets/slack-update-posted-from-slack-350x112.png" style="width: 350;height: 112;"> <br> </p> </li> 
-</ol>
+1. Hover over a comment you added in a Slack channel, then click the `More actions` icon.
+
+   ![](assets/slack-more-icon.png)
+
+1. Click `Post an update ... <the name of your Workfront app>`.&nbsp;
+
+   >[!NOTE]
+   >
+   >You may need to click **More message shortcuts** and scroll down to locate the **Post an update** option.
+   >
+   >
+   >![](assets/slack-more-message-shortcuts.png)   >
+   >
+
+   &nbsp;
+
+   ![](assets/slack-post-an-update-ui-350x309.png)
+
+1. In the `Project, task or issue` box, start typing the name of a project, task, or issue where you want to add the update then click the name of the project, task, or issue when it appears on the list. You must have access to view an object before it appears in the list.&nbsp;
+1. (Optional) In the `Include another user` box, start typing the name of a user you can view that you want to include in your update, then click it when it appears on the list.&nbsp;
+1. Click `Submit`.  
+   A confirmation displays in Slack to notify you that your update was posted.
+
+1. (Optional) Click the name of the project, task, or issue where you posted the update to access it in Workfront.  
+   There is an indication in Workfront that the update originated in Slack.&nbsp;
+
+   ![](assets/slack-update-posted-from-slack-350x112.png)
 

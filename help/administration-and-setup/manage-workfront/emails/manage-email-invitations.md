@@ -54,52 +54,52 @@ You must have the following access to perform the steps in this article:
 
 Email invitations are generated in the following scenarios:
 
-<ul> 
- <li> <p> When you create a new user and you select the <span class="bold">Send an invite email to this person</span> on the <span class="bold">New User</span> form. For more information about creating new users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p> </li> 
- <li> <p>When you import multiple new users and you select the <span class="bold">Send invite emails to these people</span> option. For more information about importing several new users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Import users</a>.</p> </li> 
- <li> <p>After the users are created, you can manually generate the invitations to users who have not yet registered their account with Workfront, and they have not established a Workfront password.<br>Users who have an account created but have not yet registered their account are marked as <span class="bold">Unregistered</span> in Workfront.</p> <note type="note">
-    If you deselect the 
-   <span class="bold">Send an email invite to this person</span>&nbsp;box when you create the user, the email invitation cannot be generated manually. Resending the email invitations manually is only possible for users who have been sent the original email invitation when their account was created. For more information about creating new users, see 
-   <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.
-  </note> </li> 
-</ul>
+* When you create a new user and you select the `Send an invite email to this person` on the `New User` form. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* When you import multiple new users and you select the `Send invite emails to these people` option. For more information about importing several new users, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+* After the users are created, you can manually generate the invitations to users who have not yet registered their account with Workfront, and they have not established a Workfront password.  
+  Users who have an account created but have not yet registered their account are marked as `Unregistered` in Workfront.
+
+  >[!NOTE]
+  >
+  >If you deselect the `Send an email invite to this person`&nbsp;box when you create the user, the email invitation cannot be generated manually. Resending the email invitations manually is only possible for users who have been sent the original email invitation when their account was created. For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 To manually generate email invitations to existing unregistered users:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . 
- <li value="2"> <p>Select the user who shows the <span class="bold">Unregistered</span> label after their name.</p>  </li> 
- <li value="3"> <p>Click the More icon <img src="assets/more-icon.png">, then click <b>Remind user to register</b>.</p> <p>An email invitation is sent to the new user with a new link they can use to create their Workfront password.</p> </li> 
-</ol>
+1. Select the user who shows the `Unregistered` label after their name.
+1. Click the More icon ![](assets/more-icon.png), then click **Remind user to register**.
+
+   An email invitation is sent to the new user with a new link they can use to create their Workfront password.
 
 ## Configure email invitations
 
 As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 
-<ol data-mc-continue="false"> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . 
- <li value="2">In the list on the left, click <span class="bold">Email</span> > <span class="bold">Invitations</span>.</li> 
- <li value="3"> <p>In the <span class="bold">General Options</span> section, make any of the following modifications:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Deactivate invitation links after ... days</span> </td> 
-     <td> <p>Choose the amount of time after which the email invitations no longer contain a valid link to Workfront. The default amount of days is 45.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Include a message and/ or term of service</span> </td> 
-     <td> <p>Select this option if you want to modify the email invitation for all new users added to Workfront. This does not include users with a Requestor license.</p> 
-      <ul> 
-       <li><span class="bold">Message</span>: If you select to modify the email invitation for all new users, specify&nbsp;the text that you want to include in your email invitations as the email body.</li> 
-       <li><span class="bold">Terms and Conditions</span>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
-       <li><span class="bold">Include a message and/or term of service for helpdesk users</span>:&nbsp;Select this option if you want to modify the email invitation for all new users added to Workfront&nbsp;that have a Requestor license.</li> 
-       <li><span class="bold">Message</span>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the email body.</li> 
-       <li><span class="bold">Terms and Conditions</span>: If you select to modify the email invitation for all new users with a Requestor license, specify&nbsp;the text that you want to include in your email invitations as the terms and conditions.<br></li> 
-       <li> <p>In the <span class="bold">Invitation Preview</span> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p>  </li> 
-      </ul> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. In the list on the left, click `Email` > `Invitations`.
+
+1. In the `General Options` section, make any of the following modifications:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Deactivate invitation links after ... days</span> </td> 
+      <td> <p>Choose the amount of time after which the email invitations no longer contain a valid link to Workfront. The default amount of days is 45.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Include a message and/ or term of service</span> </td> 
+      <td> <p>Select this option if you want to modify the email invitation for all new users added to Workfront. This does not include users with a Requestor license.</p> 
+       <ul> 
+        <li><span class="bold">Message</span>: If you select to modify the email invitation for all new users, specify&nbsp;the text that you want to include in your email invitations as the email body.</li> 
+        <li><span class="bold">Terms and Conditions</span>: If you select to modify the email invitation for all new users, specify the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li><span class="bold">Include a message and/or term of service for helpdesk users</span>:&nbsp;Select this option if you want to modify the email invitation for all new users added to Workfront&nbsp;that have a Requestor license.</li> 
+        <li><span class="bold">Message</span>: If you select to modify the email invitation for all new users with a Requestor license, specify the text that you want to include in your email invitations as the email body.</li> 
+        <li><span class="bold">Terms and Conditions</span>: If you select to modify the email invitation for all new users with a Requestor license, specify&nbsp;the text that you want to include in your email invitations as the terms and conditions.<br></li> 
+        <li> <p>In the <span class="bold">Invitation Preview</span> section, you can see a preview of your email invitation. If you selected to include a customized message in your email invitation, the customized message shows in this area.</p>  </li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Save`.
 

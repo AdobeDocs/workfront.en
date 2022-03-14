@@ -39,14 +39,17 @@ You must have the following access to perform the steps in this article:
 
 To filter a Kanban board:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. (Optional) Click the Switch team icon , then either select a new Kanban team from the drop-down menu or search for a team in the search bar. 
- <li value="3"> <p>Go to a Kanban board.</p> </li> 
- <li value="4"> <p>Click the Filter drop-down menu on the right side of the Kanban board.</p> </li> 
- <li value="5"> <p>Select one or more users or <span class="bold">Unassigned</span>.</p> <note type="note"> 
-   <ul> 
-    <li>The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board. A maximum of fifty cards is displayed by default, but you can click <span class="bold">Show More</span> to display additional cards.</li> 
-    <li>Filters are not applied to the Backlog column.</li> 
-   </ul> 
-  </note> <p>  </p> </li> 
-</ol>
+1. Go to a Kanban board.
+1. Click the Filter drop-down menu on the right side of the Kanban board.
+1. Select one or more users or `Unassigned`.
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board. A maximum of fifty cards is displayed by default, but you can click `Show More` to display additional cards.
+   >  * Filters are not applied to the Backlog column.
+   >  
+   >
 

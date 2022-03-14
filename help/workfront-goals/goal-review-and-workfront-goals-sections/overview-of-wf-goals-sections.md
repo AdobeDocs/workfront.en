@@ -46,17 +46,25 @@ For information about navigating the Goal List and managing goals, see [Manage g
 
 Use the Goal List to do the following:
 
-<ul> 
- <li> <p>View goals that belong to you, your teams, groups, or organization. </p> </li> 
- <li> <p>Review goals including aligned goals, their results, and activities. </p> </li> 
- <li> <p>Add new goals. </p> <p>For more information, see <a href="../../workfront-goals/goal-management/create-goals.md" class="MCXref xref">Create goals in Adobe Workfront Goals</a>.</p> </li> 
- <li> <p>Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.</p> <p>For more information, see <a href="../../workfront-goals/goal-management/edit-goals.md" class="MCXref xref">Edit goals in Adobe Workfront Goals</a>.</p> </li> 
- <li> <p>Check in on goals </p> <note type="tip">
-   Clicking 
-   <span class="bold">Check in</span> opens the Check-in section in the left panel. 
-  </note> </li> 
- <li> <p>Print or export a list of goals. </p> <p>For more information, see <a href="../../workfront-goals/goal-management/print-the-goal-list.md" class="MCXref xref">Print the Goal List in Adobe Workfront Goals</a>.</p> </li> 
-</ul>
+* View goals that belong to you, your teams, groups, or organization. 
+* Review goals including aligned goals, their results, and activities. 
+* Add new goals.
+
+  For more information, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
+
+* Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.
+
+  For more information, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
+
+* Check in on goals
+
+  >[!TIP]
+  >
+  >Clicking `Check in` opens the Check-in section in the left panel.
+
+* Print or export a list of goals.
+
+  For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md).
 
 ## Graphs
 
@@ -68,16 +76,15 @@ For information about using the Graphs section, see [Review graphs to understand
 
 Use the Graphs section to do the following:
 
-<ul> 
- <li>View goals that belong to you, your teams, groups, or organization. </li> 
- <li>View the number of goals with a given progress status.</li> 
- <li> <p>Understand how your goals perform on a weekly basis. </p> </li> 
- <li>Add new goals. </li> 
- <li> <p>Check in on goals.</p> <note type="tip">
-   Clicking 
-   <span class="bold">Check in</span> opens the Check-in section in the left panel. 
-  </note> </li> 
-</ul>
+* View goals that belong to you, your teams, groups, or organization. 
+* View the number of goals with a given progress status.
+* Understand how your goals perform on a weekly basis. 
+* Add new goals. 
+* Check in on goals.
+
+  >[!TIP]
+  >
+  >Clicking `Check in` opens the Check-in section in the left panel.
 
 ## Goal Alignment
 
@@ -112,16 +119,16 @@ For information about reviewing goals using the Pulse section, see [Review goals
 
 Use the Pulse section to do the following:
 
-<ul> 
- <li> <p>View goals that belong to your teams, groups, or organization. </p> </li> 
- <li>Review goal progress and updates, including aligned goals, their results, and activities. </li> 
- <li>Make or ask for updates to a goal by adding a comment. </li> 
- <li>Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.</li> 
- <li> <p>Add new goals. </p> </li> 
- <li> <p>Check in on goals.</p> <note type="tip">
-   Clicking Check in opens the Check-in section in the left panel. 
-  </note> </li> 
-</ul>
+* View goals that belong to your teams, groups, or organization. 
+* Review goal progress and updates, including aligned goals, their results, and activities. 
+* Make or ask for updates to a goal by adding a comment. 
+* Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.
+* Add new goals. 
+* Check in on goals.
+
+  >[!TIP]
+  >
+  >Clicking Check in opens the Check-in section in the left panel.
 
 ## Check-in
 
@@ -141,15 +148,16 @@ For information about managing goals in the Goal List, see [Manage goals in the 
 
 Use the Check-in section to do the following:
 
-<ul> 
- <li> <p>Review goal progress and updates, including aligned goals, their results, and activities. </p> </li> 
- <li> <p>Update the progress on the results and activities that are assigned to you. For information about updating goals by checking in on them, see <a href="../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md" class="MCXref xref">Check in on goals in Adobe Workfront Goals</a>. </p> <note type="important">
-   You can check in only on the results and activities assigned to you in the Check-in section, and not those that are assigned to other entities.
-  </note> </li> 
- <li>Add a comment to a goal, then click&nbsp;Post to make or ask for updates to a goal. </li> 
- <li>Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.</li> 
- <li>Add new goals. </li> 
-</ul>
+* Review goal progress and updates, including aligned goals, their results, and activities. 
+* Update the progress on the results and activities that are assigned to you. For information about updating goals by checking in on them, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+
+  >[!IMPORTANT]
+  >
+  >You can check in only on the results and activities assigned to you in the Check-in section, and not those that are assigned to other entities.
+
+* Add a comment to a goal, then click&nbsp;Post to make or ask for updates to a goal. 
+* Access the Goal&nbsp;Details panel and edit and update the goal, its results, or activities.
+* Add new goals.
 
 <!--
 Settings Note: This section has been removed from the Preview environment. For information about setting up notifications for goals, see Notifications: Goals. You can select what kind of email notifications you should receive from Workfront Goals in the Settings section. You can receive email notifications about goal, result, or activity assignments, as well as when someone comments on or likes one of your actions. For information about email notifications from Workfront Goals, see Enable Adobe Workfront Goals notifications.

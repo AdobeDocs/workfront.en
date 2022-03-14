@@ -25,44 +25,43 @@ PIM = Hour-Based
 
 EAC Method = Calculate at project level ``
 
-<ol> 
- <li value="1"> Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. </li> 
- <li value="2"> Add Planned and Actual hours to each task and % Complete according to the table below: 
-  <table cellspacing="15">
-   <col>
-   <col>
-   <col>
-   <col>
-   <thead>
-    <tr>
-     <th><br><p><span class="bold">Task</span></p></th>
-     <th><br><p><span class="bold">Pln Hrs</span></p></th>
-     <th><br><p><span class="bold">Act Hrs</span></p></th>
-     <th><p><span class="bold">% Complete</span></p></th>
-    </tr>
-   </thead>
-   <tbody>
-    <tr>
-     <td><p>Task 1</p></td>
-     <td><p>5 hrs</p></td>
-     <td><p>25 hrs</p></td>
-     <td><p>20%</p></td>
-    </tr>
-    <tr>
-     <td><p>Task 2</p></td>
-     <td><p>10 hrs</p></td>
-     <td><p>25 hrs</p></td>
-     <td><p>30%</p></td>
-    </tr>
-    <tr>
-     <td><p>Task 3</p></td>
-     <td><p>15 hrs</p></td>
-     <td><p>25 hrs</p></td>
-     <td><p>40%</p></td>
-    </tr>
-   </tbody>
-  </table></li> 
-</ol>
+1. Create Project A with three tasks (no child tasks) all assigned to User 1 whose cost/hr is $100.00. 
+1. Add Planned and Actual hours to each task and % Complete according to the table below: 
+
+   <table cellspacing="15">
+    <col>
+    <col>
+    <col>
+    <col>
+    <thead>
+     <tr>
+      <th><br><p><span class="bold">Task</span></p></th>
+      <th><br><p><span class="bold">Pln Hrs</span></p></th>
+      <th><br><p><span class="bold">Act Hrs</span></p></th>
+      <th><p><span class="bold">% Complete</span></p></th>
+     </tr>
+    </thead>
+    <tbody>
+     <tr>
+      <td><p>Task 1</p></td>
+      <td><p>5 hrs</p></td>
+      <td><p>25 hrs</p></td>
+      <td><p>20%</p></td>
+     </tr>
+     <tr>
+      <td><p>Task 2</p></td>
+      <td><p>10 hrs</p></td>
+      <td><p>25 hrs</p></td>
+      <td><p>30%</p></td>
+     </tr>
+     <tr>
+      <td><p>Task 3</p></td>
+      <td><p>15 hrs</p></td>
+      <td><p>25 hrs</p></td>
+      <td><p>40%</p></td>
+     </tr>
+    </tbody>
+   </table>
 
 1. Recalculate Finance on the project. 
 1. `CPI for Task 1` = .04 calculated as follows:  
@@ -99,13 +98,20 @@ PIM = Hour-Based
 
 EAC Method = Calculate at project level
 
-<ol> 
- <li value="1"> Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:<br>Task 1<br>&nbsp; &nbsp;Task 2<br>&nbsp; &nbsp;Task 3<br>&nbsp; &nbsp; &nbsp; Task 4<br>&nbsp; &nbsp; &nbsp; Task 5<br>Task 6</li> 
- <li value="2"> Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. </li> 
- <li value="3"> <p> Add planned/ actual hours each task and % Complete according to the table below.</p> <note type="note">
-   For Tasks 1 and 3, you are only adding actual hours. 
-  </note> </li> 
-</ol>
+1. Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:  
+   Task 1  
+   &nbsp; &nbsp;Task 2  
+   &nbsp; &nbsp;Task 3  
+   &nbsp; &nbsp; &nbsp; Task 4  
+   &nbsp; &nbsp; &nbsp; Task 5  
+   Task 6
+
+1. Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. 
+1. Add planned/ actual hours each task and % Complete according to the table below.
+
+   >[!NOTE]
+   >
+   >For Tasks 1 and 3, you are only adding actual hours.
 
 <table cellspacing="15"> 
  <col> 
@@ -479,13 +485,20 @@ PIM = Cost-Based
 
 EAC Method = Calculate at project level
 
-<ol> 
- <li value="1"> Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:<br>Task 1<br>&nbsp; &nbsp;Task 2<br>&nbsp; &nbsp;Task 3<br>&nbsp; &nbsp; &nbsp; Task 4<br>&nbsp; &nbsp; &nbsp; Task 5<br>Task 6</li> 
- <li value="2"> Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. </li> 
- <li value="3"> <p> Add planned/actual hours each task and % Complete according to the table below.</p> <note type="note">
-    For Tasks 1 and 3, you are only adding actual hours. 
-  </note> </li> 
-</ol>
+1. Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:  
+   Task 1  
+   &nbsp; &nbsp;Task 2  
+   &nbsp; &nbsp;Task 3  
+   &nbsp; &nbsp; &nbsp; Task 4  
+   &nbsp; &nbsp; &nbsp; Task 5  
+   Task 6
+
+1. Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. 
+1. Add planned/actual hours each task and % Complete according to the table below.
+
+   >[!NOTE]
+   >
+   >For Tasks 1 and 3, you are only adding actual hours.
 
 <table cellspacing="15"> 
  <col> 

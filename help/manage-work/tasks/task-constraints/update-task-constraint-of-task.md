@@ -41,62 +41,24 @@ You must have the following to change the Task Constraint of a task:
 
 ## Update the Task&nbsp;Constraint of a task
 
-<ol> 
- <li value="1"> Click Main Menu > Projects, then click a project to access it. </li> 
- <li value="2"> <p>Click the <span class="bold">Tasks</span> section in the left panel. </p> </li> 
- <li value="3"> Click Task Details in the left panel, then in the Overview area click Task Constraint.  </li> 
- <li value="4"> <p>Select from the following options</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Fixed Dates</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Must Start On</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Task Constraint overview: Must Start On</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Must Finish On</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Task Constraint overview: Must Finish On</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">As Soon As Possible</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Task Constraint overview: As Soon As Possible</a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">As Late As Possible</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Task&nbsp;Constraint overview: As Late As Possible </a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Earliest Available Time</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Task Constraint overview: Earliest Available Time</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Latest&nbsp;Available Time</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Task Constraint overview: Latest Available Time</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Start No Later Than</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Task Constraint overview: Start No Later Than</a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Start No Earlier Than</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Task Constraint overview: Start No Earlier Than</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Finish No Later Than</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Task Constraint overview: Finish No Later Than</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Finish No&nbsp;Earlier Than</td> 
-     <td>For information, see <a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Task Constraint overview: Finish No Earlier Than</a>. </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Save</span>&nbsp;Changes.</li> 
-</ol>
+1. Click Main Menu > Projects, then click a project to access it. 
+1. Click the `Tasks` section in the left panel. 
+1. Click Task Details in the left panel, then in the Overview area click Task Constraint.  
+1. Select from the following options
+
+   | Fixed Dates |For information, see [Task Constraint overview: Fixed Dates](../../../manage-work/tasks/task-constraints/fixed-dates.md).  |
+   |---|---|
+   | Must Start On |For information, see [Task Constraint overview: Must Start On](../../../manage-work/tasks/task-constraints/must-start-on.md).  |
+   | Must Finish On |For information, see [Task Constraint overview: Must Finish On](../../../manage-work/tasks/task-constraints/must-finish-on.md).  |
+   | As Soon As Possible |For information, see [Task Constraint overview: As Soon As Possible](../../../manage-work/tasks/task-constraints/as-soon-as-possible.md). |
+   | As Late As Possible |For information, see [Task Constraint overview: As Late As Possible](../../../manage-work/tasks/task-constraints/as-late-as-possible.md).  |
+   | Earliest Available Time |For information, see [Task Constraint overview: Earliest Available Time](../../../manage-work/tasks/task-constraints/earliest-available-time.md).  |
+   | Latest&nbsp;Available Time |For information, see [Task Constraint overview: Latest Available Time](../../../manage-work/tasks/task-constraints/latest-available-time.md).  |
+   | Start No Later Than |For information, see [Task Constraint overview: Start No Later Than](../../../manage-work/tasks/task-constraints/start-no-later-than.md). |
+   | Start No Earlier Than |For information, see [Task Constraint overview: Start No Earlier Than](../../../manage-work/tasks/task-constraints/start-no-earlier-than.md).  |
+   | Finish No Later Than |For information, see [Task Constraint overview: Finish No Later Than](../../../manage-work/tasks/task-constraints/finish-no-later-than.md).  |
+   | Finish No&nbsp;Earlier Than |For information, see [Task Constraint overview: Finish No Earlier Than](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md).  |
+
+1. Click `Save`&nbsp;Changes.
 
 &nbsp;

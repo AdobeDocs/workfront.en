@@ -53,13 +53,17 @@ You can manually assign a request to a team from the team page,&nbsp;as describe
 
 To manually assign a request to a team from the team page:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Teams</span>.</li> 
- <li value="2">Click the <span class="bold">Switch team</span> icon <img src="assets/switch-team-icon.png" alt="Switch team icon">, then either select a new team from the drop-down menu or search for a team in the search bar.</li> 
- <li value="3"> <p>Click the <span class="bold">More</span> icon <img src="assets/more-icon.png">, then select <span class="bold">Send work request</span>.</p> <p> <img src="assets/edit-team-settings-350x205.png" style="width: 350;height: 205;"> </p> </li> 
- <li value="4">Fill in the information in the box that opens.</li> 
- <li value="5">Click <span class="bold">Send Request</span>.<br>The team is now assigned a new task which is displayed on the Team Requests tab. This task is not currently associated with a project, but it can be moved, as described in <a href="../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Move tasks</a>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Teams`.
+
+1. Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
+
+1. Click the `More` icon ![](assets/more-icon.png), then select `Send work request`.
+
+   ![](assets/edit-team-settings-350x205.png)
+
+1. Fill in the information in the box that opens.
+1. Click `Send Request`.  
+   The team is now assigned a new task which is displayed on the Team Requests tab. This task is not currently associated with a project, but it can be moved, as described in [Move tasks](../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Reassign requests
 

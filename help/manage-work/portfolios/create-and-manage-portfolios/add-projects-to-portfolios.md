@@ -46,39 +46,45 @@ You must have the following access to perform the steps in this article:
 
 ## Add a project to a portfolio
 
-<ol> 
- <li value="1"><![CDATA[
- ]]>Go to a portfolio, then click Projects in the left panel.<p></p></li> 
- <li value="2"> Click New Project and select a method for adding a project. <note type="tip">
-   You cannot add project when you view the list of projects in the Milestone view.
-  </note> <p>Select from the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Existing Project</td> 
-     <td> <p>Add a project that has already been created.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">New Project</td> 
-     <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.&nbsp;</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Import a Project from&nbsp;MS&nbsp;Project </td> 
-     <td> <p>Add a project that you previously exported from MS&nbsp;Project and have saved on your computer. </p> <p>For more information about creating a new project by importing it from Microsoft Project, see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from Microsoft Project</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Request Project</td> 
-     <td> <p>Request that a project is approved.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">New from&nbsp;Template</td> 
-     <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>(Conditional) If you selected to add an existing project, start typing the name of a project in the <span class="bold">Add Projects</span> box, then click them when they appear in the list. You may add several projects at a time. </p> </li> 
- <li value="4"> <p>Click <span class="bold">Add Projects</span>.</p> <p>The project or projects you selected are now associated with the portfolio.&nbsp;</p> </li> 
-</ol>
+1. <![CDATA[ ]]>Go to a portfolio, then click Projects in the left panel.
+
+1. Click New Project and select a method for adding a project. 
+
+   >[!TIP]
+   >
+   >You cannot add project when you view the list of projects in the Milestone view.
+
+   Select from the following options:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Existing Project</td> 
+      <td> <p>Add a project that has already been created.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">New Project</td> 
+      <td> <p>Add a new project. </p> <p>For more information about creating a new project, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.&nbsp;</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Import a Project from&nbsp;MS&nbsp;Project </td> 
+      <td> <p>Add a project that you previously exported from MS&nbsp;Project and have saved on your computer. </p> <p>For more information about creating a new project by importing it from Microsoft Project, see <a href="../../../manage-work/projects/create-projects/import-project-from-ms-project.md" class="MCXref xref">Import a project from Microsoft Project</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Request Project</td> 
+      <td> <p>Request that a project is approved.</p> <p>For information about requesting projects, see <a href="../../../manage-work/projects/create-projects/request-project.md">Requesting a Project</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">New from&nbsp;Template</td> 
+      <td> <p>Add a new project using an existing template. </p> <p>For more information about creating a project from a template, see <a href="../../../manage-work/projects/create-projects/create-project-from-template.md" class="MCXref xref">Create a project using a template</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Conditional) If you selected to add an existing project, start typing the name of a project in the `Add Projects` box, then click them when they appear in the list. You may add several projects at a time. 
+1. Click `Add Projects`.
+
+   The project or projects you selected are now associated with the portfolio.&nbsp;
 

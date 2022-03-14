@@ -11,12 +11,15 @@ description: If you have manage access to an asset, you can remove it from a fol
 
 If you have manage access to an asset, you can remove it from a folder.
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2">In either the <span class="bold">Library</span> or <span class="bold">My Content</span> area, find the folder and double click to open it.</li> 
- <li value="3">Find the asset you want to remove, then right click and select <span class="bold">Remove from folder</span>.<br><img src="assets/remove-from-folder-library-350x222.png" style="width: 350;height: 222;"></li> 
- <li value="4"> <p>In the dialog box, click <span class="bold">Remove</span>.</p> <note type="note">
-   If the asset exists in one place, removing from the folder also removes it from the Library. 
-  </note> </li> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In either the `Library` or `My Content` area, find the folder and double click to open it.
+
+1. Find the asset you want to remove, then right click and select `Remove from folder`.  
+   ![](assets/remove-from-folder-library-350x222.png)
+
+1. In the dialog box, click `Remove`.
+
+   >[!NOTE]
+   >
+   >If the asset exists in one place, removing from the folder also removes it from the Library.
 

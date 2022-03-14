@@ -71,71 +71,92 @@ Consider the following when reviewing the Goal List:
 
 To review goals in the Goal List:
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main&nbsp;Menu</span> icon <img src="assets/main-menu-icon.png"> > <span class="bold">Goals</span> in the upper-right corner. </p> <p> <img src="assets/main-menu-align-icon-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The Goal List section displays by default. You can view goals regardless of their status, period, or owner, by default. </p> <p>The list of goals contains the following columns with information about each goal: </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> 
-      <div> 
-       <p role="rowheader">Name </p> 
-      </div> </td> 
-     <td>The name of the goal, result, or activity.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Owner</td> 
-     <td>The name of goal, result, or activity owner. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Period</td> 
-     <td>The time period for which the goal is scheduled.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Progress </td> 
-     <td> <p>The progress indicator for the goal includes the following:</p> 
-      <ul> 
-       <li> <p>The progress label. </p> <p>For information, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>. </p> </li> 
-       <li> <p>The percent complete of the goal, activity, or result. </p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Status (includes alignment icon)</p> <p> <img src="assets/alignment-icon-large.png"> </p> </td> 
-     <td> <p>The status of the goal which can be one of the following:</p> 
-      <ul> 
-       <li>Active</li> 
-       <li>Draft</li> 
-       <li>Inactive</li> 
-       <li>Closed</li> 
-      </ul> <p>For information about goal status, see <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Goal status overview in Adobe Workfront Goals</a>. </p> <p>The alignment icon appears on goals that are aligned to other goals. For information about aligning goals, see <a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="2"> <p><span>Use the filters in the upper-right corner of the goal list to select only goals that are important to you. For information about using filters in Workfront Goals, see </span><a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a> </p> </li> 
- <li value="3"> <p>Click any of the fields in the column headers to sort it by that field. </p> <p>A<span>n arrow</span> displays to the right of the field by which the list is sorted. </p> <p> <img src="assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png" style="width: 350;height: 117;"> </p> </li> 
- <li value="4">(Optional) Click the field in the column again to sort the same column in a descending order. </li> 
- <li value="5"> <p>Click&nbsp;the right-pointing arrow to the left of the goal name to expand a goal</p> <p>Or</p> <p>Click <span>the right-pointing arrow <img src="assets/right-pointing-arrow.png"> in the header of the list </span>to expand all the goals in the list and view additional information about each goal, including any of the following:</p> 
-  <ul> 
-   <li> <p>Results names, owners, and progress</p> <p>For information about results, see <a href="../../workfront-goals/results-and-activities/add-results-to-goals.md" class="MCXref xref">Add results to goals in Adobe Workfront Goals</a>.</p> </li> 
-   <li> <p>Activity names, owners, and progress</p> <p>For information about activities, see <a href="../../workfront-goals/results-and-activities/add-activities-to-goals.md" class="MCXref xref">Add activities to goals in&nbsp;Adobe Workfront Goals</a>.</p> </li> 
-  </ul> </li> 
- <li value="6"> <p>Click the name of a goal to open the <span class="bold">Goal Details</span> panel on the right and review more information about the goal as well as manage it. For information about reviewing individual goals, see <a href="../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md" class="MCXref xref">Update goals in the Goal Details panel in&nbsp;Adobe Workfront Goals</a>.</p> </li> 
- <li value="7"> <p>(Optional) Expand the <span class="bold">Goals per page</span> drop-down menu and select from the following options to display additional goals:</p> 
-  <ul> 
-   <li> <p>20. This is the default selection. </p> </li> 
-   <li>50</li> 
-   <li> <p>100</p> </li> 
-  </ul> </li> 
- <li value="8"> <p>Click <span class="bold">Print</span> to export a list of goals, results, and activities to a .pdf file. </p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <ul> 
-    <li> <p>When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.</p> </li> 
-    <li> <p>When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.</p> </li> 
-   </ul> 
-  </div> <p>For more information, see <a href="../../workfront-goals/goal-management/print-the-goal-list.md" class="MCXref xref">Print the Goal List in Adobe Workfront Goals</a>. </p> </li> 
- <li value="9"> <p>Click the <span class="bold">Alignment icon</span> <img src="assets/align-icon.png"> next to an aligned to open the goal's card in the Goal Alignment section. For more information, see <a href="../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md" class="MCXref xref">Navigate the Goal&nbsp;Alignment section in Adobe Workfront Goals</a>. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner.
+
+   ![](assets/main-menu-align-icon-highlighted-350x463.png)
+
+   The Goal List section displays by default. You can view goals regardless of their status, period, or owner, by default.
+
+   The list of goals contains the following columns with information about each goal: 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> 
+       <div> 
+        <p role="rowheader">Name </p> 
+       </div> </td> 
+      <td>The name of the goal, result, or activity.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Owner</td> 
+      <td>The name of goal, result, or activity owner. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Period</td> 
+      <td>The time period for which the goal is scheduled.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Progress </td> 
+      <td> <p>The progress indicator for the goal includes the following:</p> 
+       <ul> 
+        <li> <p>The progress label. </p> <p>For information, see <a href="../../workfront-goals/goal-management/calculate-goal-progress.md" class="MCXref xref">Calculate goal progress in Adobe Workfront Goals</a>. </p> </li> 
+        <li> <p>The percent complete of the goal, activity, or result. </p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Status (includes alignment icon)</p> <p> <img src="assets/alignment-icon-large.png"> </p> </td> 
+      <td> <p>The status of the goal which can be one of the following:</p> 
+       <ul> 
+        <li>Active</li> 
+        <li>Draft</li> 
+        <li>Inactive</li> 
+        <li>Closed</li> 
+       </ul> <p>For information about goal status, see <a href="../../workfront-goals/goal-management/goal-status-overview.md" class="MCXref xref">Goal status overview in Adobe Workfront Goals</a>. </p> <p>The alignment icon appears on goals that are aligned to other goals. For information about aligning goals, see <a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref">Align goals by connecting them in Adobe Workfront Goals</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. `Use the filters in the upper-right corner of the goal list to select only goals that are important to you. For information about using filters in Workfront Goals, see` [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md) 
+1. Click any of the fields in the column headers to sort it by that field.
+
+   A `n arrow` displays to the right of the field by which the list is sorted.
+
+   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+
+1. (Optional) Click the field in the column again to sort the same column in a descending order. 
+1. Click&nbsp;the right-pointing arrow to the left of the goal name to expand a goal
+
+   Or
+
+   Click `the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list`to expand all the goals in the list and view additional information about each goal, including any of the following:
+
+  * Results names, owners, and progress
+
+    For information about results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+  
+  * Activity names, owners, and progress
+
+    For information about activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+
+1. Click the name of a goal to open the `Goal Details` panel on the right and review more information about the goal as well as manage it. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
+1. (Optional) Expand the `Goals per page` drop-down menu and select from the following options to display additional goals:
+
+  * 20. This is the default selection. 
+  * 50
+  * 100
+
+1. Click `Print` to export a list of goals, results, and activities to a .pdf file. 
+
+   ` `**Tip: **``
+
+  * When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
+  * When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
+
+   For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
+
+1. Click the `Alignment icon` ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 &nbsp;

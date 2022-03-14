@@ -56,18 +56,35 @@ If you do not already have permissions to a plan&nbsp;and you navigate to it fro
 
 To request permissions:
 
-<ol> 
- <li value="1"> <p>Click a link to a plan. </p> <p> <img src="assets/request-access-to-plan-350x277.png" style="width: 350;height: 277;"> </p> </li> 
- <li value="2"> <p>In the <span class="bold">Request access to</span> drop-down menu, indicate what level of permissions you wish to be granted.&nbsp;Select from the following:</p> 
-  <ul> 
-   <li>View</li> 
-   <li> <p>Manage</p> </li> 
-  </ul> <p>You cannot request a permission that is higher than your access level to the Scenario Planner. For example, you cannot request Manage permissions if you have View access to the Scenario Planner. </p> <p>For information about the different levels of permissions, see <a href="../scenario-planner/share-a-plan.md" class="MCXref xref">Share a plan in the Adobe Workfront Scenario Planner</a>. </p> <p>For information on a Workfront administrator can manage access to the Scenario Planner, see <a href="../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md" class="MCXref xref">Grant access to Scenario Planner</a>. </p> </li> 
- <li value="3"> <p>(Optional) Enter a comment or request in the <span class="bold">Leave comment box</span>, then click <span class="bold">Request access</span>. </p> <p>The following happens:&nbsp;</p> 
-  <ul> 
-   <li>Workfront sends an email notification to the plan owner where they can grant the permissions requested.<br> <img src="assets/request-access-to-plan-email-350x156.png" style="width: 350;height: 156;"></li> 
-   <li> <p>After the plan owner grants the permissions requested, you receive an email that the permissions have been granted if your Workfront administrator has the Object share to user notification enabled in your system and you enable the Someone shares an object with me email notification in your profile. </p> <p> <img src="assets/access-granted-to-plan-email-350x172.png" style="width: 350;height: 172;"> </p> </li> 
-   <li>You can also grant permissions to plans from the Home area and from the Workfront mobile app. </li> 
-  </ul> <p>For information about enabling system notifications, see <a href="../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md" class="MCXref xref">Configure event notifications for everyone in the system</a>.</p> <p>For information about enabling notifications in your profile, see <a href="../workfront-basics/using-notifications/notifications-misc-information.md" class="MCXref xref">Notifications: Miscellaneous information</a>. </p> </li> 
-</ol>
+1. Click a link to a plan.
+
+   ![](assets/request-access-to-plan-350x277.png)
+
+1. In the `Request access to` drop-down menu, indicate what level of permissions you wish to be granted.&nbsp;Select from the following:
+
+  * View
+  * Manage
+
+   You cannot request a permission that is higher than your access level to the Scenario Planner. For example, you cannot request Manage permissions if you have View access to the Scenario Planner.
+
+   For information about the different levels of permissions, see [Share a plan in the Adobe Workfront Scenario Planner](../scenario-planner/share-a-plan.md).
+
+   For information on a Workfront administrator can manage access to the Scenario Planner, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md). 
+
+1. (Optional) Enter a comment or request in the `Leave comment box`, then click `Request access`.
+
+   The following happens:&nbsp;
+
+  * Workfront sends an email notification to the plan owner where they can grant the permissions requested.  
+    ![](assets/request-access-to-plan-email-350x156.png)
+
+  * After the plan owner grants the permissions requested, you receive an email that the permissions have been granted if your Workfront administrator has the Object share to user notification enabled in your system and you enable the Someone shares an object with me email notification in your profile.
+
+    ![](assets/access-granted-to-plan-email-350x172.png)
+
+  * You can also grant permissions to plans from the Home area and from the Workfront mobile app.
+
+   For information about enabling system notifications, see [Configure event notifications for everyone in the system](../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+
+   For information about enabling notifications in your profile, see [Notifications: Miscellaneous information](../workfront-basics/using-notifications/notifications-misc-information.md).
 

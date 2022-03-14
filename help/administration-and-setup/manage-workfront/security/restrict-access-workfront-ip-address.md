@@ -46,13 +46,26 @@ Also, if your organization uses the Enterprise plan, you can configure the Workf
 
 After you add IP addresses to the Workfront allowlist, only those IP addresses can be used to access Workfront. Users who try to access Workfront from another IP address receive an error message indicating that their IP address is blocked.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">System</span> > <span class="bold">Customer Info.</span></li> 
- <li value="3"> <p>In the <span class="bold">IP allowlist</span> section, select <span class="bold">Enable IP allowlist.</span></p> <p>This option is disabled by default.</p> </li> 
- <li value="4"> <p>Specify the IP address that you are currently using to access the Workfront system.</p> <p>Or</p> <p>Specify a range of IP addresses that includes the one you are currently using to access the Workfront system.</p> <p>The IP address you are using to access Workfront must be added to the allowlist before the allowlist is enabled.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Add IP Range,</span> then specify the IP address or range of IP addresses that you want to be able to access Workfront.</p> </li> 
- <li value="6"> <p>(Optional) Repeat the previous step to add additional IP addresses or IP address ranges.</p> <p>You can add up to 30 addresses or ranges.</p> </li> 
- <li value="7">Click <span class="bold">Save.</span></li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Customer Info.`
+
+1. In the `IP allowlist` section, select `Enable IP allowlist.`
+
+   This option is disabled by default.
+
+1. Specify the IP address that you are currently using to access the Workfront system.
+
+   Or
+
+   Specify a range of IP addresses that includes the one you are currently using to access the Workfront system.
+
+   The IP address you are using to access Workfront must be added to the allowlist before the allowlist is enabled.
+
+1. Click `Add IP Range,` then specify the IP address or range of IP addresses that you want to be able to access Workfront.
+1. (Optional) Repeat the previous step to add additional IP addresses or IP address ranges.
+
+   You can add up to 30 addresses or ranges.
+
+1. Click `Save.`
 

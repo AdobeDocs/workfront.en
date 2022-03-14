@@ -73,77 +73,114 @@ By default, the Dashboard will open the Total proofs view. This view shows all t
 
 When you open a proof in the mobile&nbsp;app, you can do the following:
 
-<ul> 
- <li>Read and reply to comments left by other reviewers (1 - the digit visible in the icon indicates numbers of comments left on the proof, if no comments were left on the proof, this button will show 0 and will be grayed out).</li> 
- <li>Add comments and markups (2).<br></li> <note type="note">
-   The visibility of the Comment and Decision button depends on your proof role.
- </note> 
- <li>Make a decision (3).</li> 
- <li>Go to the menu&nbsp;(4).</li> 
- <li>Scale the proof by pinching the screen.<br><img src="assets/img-0223-350x541.png" alt="IMG_0223.png" style="width: 350;height: 541;"></li> 
-</ul>
+* Read and reply to comments left by other reviewers (1 - the digit visible in the icon indicates numbers of comments left on the proof, if no comments were left on the proof, this button will show 0 and will be grayed out).
+* Add comments and markups (2).  
+* The visibility of the Comment and Decision button depends on your proof role.
+* Make a decision (3).
+* Go to the menu&nbsp;(4).
+* Scale the proof by pinching the screen.  
+  ![IMG_0223.png](assets/img-0223-350x541.png)
 
 ## Add comments and replies
 
-<ol> 
- <li value="1"> <p>When you have opened a proof, tap the <span class="bold">Add comment</span> button (1).<br></p> <p> <img src="assets/tap-the-comment-button-350x541.png" alt="tap_the_comment_button.png" style="width: 350;height: 541;"> </p> </li> 
- <li value="2"> <p>Type your comment (2).<br></p> <p> <img src="assets/add-a-comment-350x543.png" alt="add_a_comment.png" style="width: 350;height: 543;"> </p> </li> 
- <li value="3">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. When you have opened a proof, tap the `Add comment` button (1).
+
+   ![tap_the_comment_button.png](assets/tap-the-comment-button-350x541.png)
+
+1. Type your comment (2).
+
+   ![add_a_comment.png](assets/add-a-comment-350x543.png)
+
+1. Click `Save`.
 
 ## Read and reply to comments
 
-<ol> 
- <li value="1">Open the proof, then tap the callout icon in the right upper corner to view the comments list&nbsp;(1) and choose the comment that you want to review.</li> 
- <li value="2"> <p>Tap the pin to open the comment associated with it (2).</p> <p> <img src="assets/read-comment-350x543.png" alt="read_comment.png" style="width: 350;height: 543;"> </p> </li> 
- <li value="3">Do any of the following: 
-  <ul>
-   <li>To reply to a comment, tap the <span class="bold">Reply</span> button (3).</li>
-   <li>To go back to the proof image, tap the callout icon.</li>
-   <li><p>To view the full comment and its replies, tap on the comment itself.<br></p><p><img src="assets/reply-to-a-comment-350x543.png" alt="reply_to_a_comment.png" style="width: 350;height: 543;"></p></li>
-   <li>To apply an action on a comment: 
-    <ol style="list-style-type: lower-alpha;">
-     <li value="1">Open a comment.</li>
-     <li value="2">Tap <span class="bold">Reply</span>.</li>
-     <li value="3">Open the actions menu on the right side of the text field (1).</li>
-     <li value="4"><p>Tap <span class="bold">Add action</span> (2).<br></p><p><img src="assets/actions-on-comments-350x543.png" alt="actions_on_comments.png" style="width: 350;height: 543;"></p><p>For more information about actions, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md" class="MCXref xref">Use actions on proof comments</a>.&nbsp;</p></li>
-    </ol></li>
-  </ul></li> 
-</ol>
+1. Open the proof, then tap the callout icon in the right upper corner to view the comments list&nbsp;(1) and choose the comment that you want to review.
+1. Tap the pin to open the comment associated with it (2).
+
+   ![read_comment.png](assets/read-comment-350x543.png)
+
+1. Do any of the following:
+
+  * To reply to a comment, tap the `Reply` button (3).
+  * To go back to the proof image, tap the callout icon.
+  * To view the full comment and its replies, tap on the comment itself.
+
+    ![reply_to_a_comment.png](assets/reply-to-a-comment-350x543.png)
+
+  * To apply an action on a comment:
+
+    1. Open a comment.
+    1. Tap `Reply`.
+    1. Open the actions menu on the right side of the text field (1).
+    1. Tap `Add action` (2).
+
+       ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
+
+       For more information about actions, see [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).&nbsp;
 
 ## Add markups
 
 You can&nbsp;add a markup (such as a box highlighting an area on the proof) and type a comment that is attached to the markup. You can also make a comment without adding a mark-up.&nbsp;And you can add multiple mark-ups to a single comment.&nbsp;
 
-<ol> 
- <li value="1"> <p>On a proof you have opened, tap <span class="bold">Add comment</span>&nbsp;(1).<br></p> <p> <img src="assets/tap-the-add-comment-button-350x541.png" alt="tap_the_add_comment_button.png" style="width: 350;height: 541;"> </p> </li> 
- <li value="2"> <p>Choose between the pan mode (2), rectangle tool (3), freehand drawing (4), or the arrow tool (5). <br></p> <p>You can also change the line color of the markup (6).</p> </li> 
- <li value="3"> <p>To draw a markup on the proof, touch the screen and then move your finger across the proof.<br></p> <p>You don't have to add text to save your markup (7).</p> </li> 
- <li value="4"> <p>Tap <span class="bold">Cancel</span> (8) if you want to discard your markup .<br></p> <p> <img src="assets/adding-a-markup-350x543.png" alt="adding_a_markup.png" style="width: 350;height: 543;"> <br> </p> <p>Marking up an area on the proof automatically opens the comment field. You can remove created markup by tapping the cross next to the markup shape (9).<br></p> <p> <img src="assets/removing-a-markup-350x543.png" alt="removing_a_markup.png" style="width: 350;height: 543;"> </p> </li> 
-</ol>
+1. On a proof you have opened, tap `Add comment`&nbsp;(1).
+
+   ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
+
+1. Choose between the pan mode (2), rectangle tool (3), freehand drawing (4), or the arrow tool (5).
+
+   You can also change the line color of the markup (6).
+
+1. To draw a markup on the proof, touch the screen and then move your finger across the proof.
+
+   You don't have to add text to save your markup (7).
+
+1. Tap `Cancel` (8) if you want to discard your markup .
+
+   ![adding_a_markup.png](assets/adding-a-markup-350x543.png)
+
+   Marking up an area on the proof automatically opens the comment field. You can remove created markup by tapping the cross next to the markup shape (9).
+
+   ![removing_a_markup.png](assets/removing-a-markup-350x543.png)
 
 ## Make decisions on a proof
 
-<ol> 
- <li value="1"> <p>Open the proof in the Proof Viewer and tap the Decision button (1).</p> <p> <img src="assets/decision-button-350x542.png" alt="decision_button.png" style="width: 350;height: 542;"> </p> </li> 
- <li value="2">Tap the decision you would like to submit (2).</li> 
- <li value="3"> <p>Tap <span class="bold">Save</span> to submit your decision.<br></p> <p> <img src="assets/submit-decision-350x543.png" alt="submit_decision.png" style="width: 350;height: 543;"> </p> <note type="note"> 
-   <ul> 
-    <li>If an on decision pop-up message is set on the account in which the proof was created, it will also appear in the iOS app when a decision is made on a proof.<em>&nbsp;</em></li> 
-    <li>If you set up decision reasons, they will display on the Submit your decision screen for you to choose.<em><br></em></li> 
-   </ul> 
-  </note> <p>If you have already submitted a decision and you want to change it or remove it, you can easily do so. After sumitting a decision, a new option,&nbsp;<span class="bold">Remove my decision</span> (6), appears on the Submit your decision screen.</p> <p> <img src="assets/remove-decision-350x543.png" alt="remove_decision.png" style="width: 350;height: 543;"> </p> </li> 
-</ol>
+1. Open the proof in the Proof Viewer and tap the Decision button (1).
+
+   ![decision_button.png](assets/decision-button-350x542.png)
+
+1. Tap the decision you would like to submit (2).
+1. Tap `Save` to submit your decision.
+
+   ![submit_decision.png](assets/submit-decision-350x543.png)
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * If an on decision pop-up message is set on the account in which the proof was created, it will also appear in the iOS app when a decision is made on a proof.*&nbsp;*
+   >  * If you set up decision reasons, they will display on the Submit your decision screen for you to choose.* 
+   >    *
+   >  
+   >
+
+   If you have already submitted a decision and you want to change it or remove it, you can easily do so. After sumitting a decision, a new option,  `Remove my decision` (6), appears on the Submit your decision screen.
+
+   ![remove_decision.png](assets/remove-decision-350x543.png)
 
 ## Review an audio or video proof in the app
 
 Reviewing an audio-video proof in the iOS app is just as simple as reviewing a static file:
 
-<ol> 
- <li value="1">Tap on the play/pause button to play or pause the video (1).</li> 
- <li value="2">To navigate the video, tap the navigation bar (2).</li> 
- <li value="3"> <p>To leave a comment, tap the <span class="bold">Comment</span> button (3), then follow the instructions described&nbsp;above.<br></p> <p>Any comments or markups left on the proof will be marked by pins along the navigation bar (4).</p> </li> 
- <li value="4">If you would like to review the comments left on the proof, tap the <span class="bold">Comments</span> button (5), then follow the instructions described above.</li> 
- <li value="5"> <p>To make a decision, tap the <span class="bold">Decision</span> button (6), then follow the instructions above.<br></p> <p> <img src="assets/av-proof-350x545.png" alt="AV_proof.png" style="width: 350;height: 545;"> </p> </li> 
-</ol>
+1. Tap on the play/pause button to play or pause the video (1).
+1. To navigate the video, tap the navigation bar (2).
+1. To leave a comment, tap the `Comment` button (3), then follow the instructions described&nbsp;above.
+
+   Any comments or markups left on the proof will be marked by pins along the navigation bar (4).
+
+1. If you would like to review the comments left on the proof, tap the `Comments` button (5), then follow the instructions described above.
+1. To make a decision, tap the `Decision` button (6), then follow the instructions above.
+
+   ![AV_proof.png](assets/av-proof-350x545.png)
 

@@ -39,27 +39,40 @@ When proofing interactive URLs:
 
 ## Proofing Static Content
 
-<ol> 
- <li value="1"> <p>Go to the document that contains the proof you want to review, then click <span class="bold">Proof</span>.</p> <p>Removing or Archiving a Proof<br></p> </li> 
- <li value="2">Click the <span class="bold">Add Comment</span>&nbsp;button located at the top of the proofing area.&nbsp;</li> 
- <li value="3">A comment box and tool bar appears. Select the tool needed to highlight or mark the document&nbsp;within the proofing&nbsp;tool.<br><img src="assets/screen-shot-2016-09-08-at-3.26.37-pm-350x136.png" alt="" style="width: 350;height: 136;"></li> 
- <li value="4">(Optional) Upload files to a comment by clicking the <span class="bold">Attach File</span> icon within the <span class="bold">Add Comment</span> box. <br>&nbsp;<img src="assets/attach-a-file-inside-comment-proof-option.png" alt=""></li> 
- <li value="5"> <p>Mouse&nbsp;over the comment area where the user's name appears. </p> <p>The&nbsp;<span class="bold">Edit </span>and<span class="bold"> Delete</span>&nbsp;options appear.</p> <p> <img style="line-height: 1.5;width: 350;height: 102;" src="assets/edit-and-delete-buttons-on-proof-comment-ui-350x102.png" alt=""> <br> </p> </li> 
- <li value="6">Click a comment in the sidebar to display&nbsp;that comment on the document.&nbsp;</li> 
- <li value="7"> <p>Use the lower-right toolbar to make various changes to the proof. </p> <p> <img src="assets/screen-shot-2016-09-08-at-3.42.21-pm-350x48.png" alt="" style="width: 350;height: 48;"> </p> <p>Options include (in order, from the left):</p> 
-  <ul> 
-   <li>Panning or moving the image</li> 
-   <li>Zooming in</li> 
-   <li>Scaling the document to fit the screen</li> 
-   <li>Select percentage of zoom</li> 
-   <li>Fit to page</li> 
-   <li>Fit to width</li> 
-   <li>Zoom to 100%&nbsp;</li> 
-   <li>Zoom to 100%</li> 
-   <li>Rotate the document&nbsp;</li> 
-   <li>Measure a specific area</li> 
-  </ul> </li> 
-</ol>
+1. Go to the document that contains the proof you want to review, then click `Proof`.
+
+   Removing or Archiving a Proof
+
+1. Click the `Add Comment`&nbsp;button located at the top of the proofing area.&nbsp;
+1. A comment box and tool bar appears. Select the tool needed to highlight or mark the document&nbsp;within the proofing&nbsp;tool.  
+   ![](assets/screen-shot-2016-09-08-at-3.26.37-pm-350x136.png)
+
+1. (Optional) Upload files to a comment by clicking the `Attach File` icon within the `Add Comment` box.   
+   &nbsp; ![](assets/attach-a-file-inside-comment-proof-option.png)
+
+1. Mouse&nbsp;over the comment area where the user's name appears.
+
+   The  `Edit`and `Delete`&nbsp;options appear.
+
+   ![](assets/edit-and-delete-buttons-on-proof-comment-ui-350x102.png)
+
+1. Click a comment in the sidebar to display&nbsp;that comment on the document.&nbsp;
+1. Use the lower-right toolbar to make various changes to the proof.
+
+   ![](assets/screen-shot-2016-09-08-at-3.42.21-pm-350x48.png)
+
+   Options include (in order, from the left):
+
+  * Panning or moving the image
+  * Zooming in
+  * Scaling the document to fit the screen
+  * Select percentage of zoom
+  * Fit to page
+  * Fit to width
+  * Zoom to 100%&nbsp;
+  * Zoom to 100%
+  * Rotate the document&nbsp;
+  * Measure a specific area
 
 Any comments made on the document appear in the stream of your Workfront instance, on the Details tab of the document. Proof Comments&nbsp;are&nbsp;marked to distinguish them from document updates.
 

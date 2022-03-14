@@ -58,11 +58,13 @@ If you recall an approval that is associated with the beginning status of the pr
 
 To recall a project approval you submitted:
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3"> <p>Select a <span class="bold">Project</span> approval.</p> <p> <img src="assets/project-350x331.png" alt="Project.png" style="width: 350;height: 331;"> </p> </li> 
- <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 
-</ol>
+1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+
+1. Select a `Project` approval.
+
+   ![Project.png](assets/project-350x331.png)
+
+1. Click `Recall` in the upper-right corner of the right panel.
 
 ## Tasks
 
@@ -76,11 +78,13 @@ If you recall an approval that is associated with the beginning status of the ta
 
 To recall a task approval you submitted:
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3"> <p>Select a <span class="bold">Task</span> approval.</p> <p> <img src="assets/task-350x400.png" alt="Task.png" style="width: 350;height: 400;"> </p> </li> 
- <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 
-</ol>
+1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+
+1. Select a `Task` approval.
+
+   ![Task.png](assets/task-350x400.png)
+
+1. Click `Recall` in the upper-right corner of the right panel.
 
 ## Issues
 
@@ -92,38 +96,45 @@ If you recall an approval that is associated with the beginning status of the is
 >
 >You can associate the first status of an issue with an approval process by using a template. For more information about creating a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3">Select an <span class="bold">Issue</span> approval.<br><img src="assets/issue-350x330.png" alt="Issue.png" style="width: 350;height: 330;"></li> 
- <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.<br></li> 
-</ol>
+1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+
+1. Select an `Issue` approval.  
+   ![Issue.png](assets/issue-350x330.png)
+
+1. Click `Recall` in the upper-right corner of the right panel.
 
 ## Timesheets
 
 When you recall a timesheet approval, the timesheet returns to the status it was in before it was submitted for approval.
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3">Select a <span class="bold">Timesheet</span> approval.<br><img src="assets/timesheet-350x329.png" alt="Timesheet.png" style="width: 350;height: 329;"></li> 
- <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 
-</ol>
+1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+
+1. Select a `Timesheet` approval.  
+   ![Timesheet.png](assets/timesheet-350x329.png)
+
+1. Click `Recall` in the upper-right corner of the right panel.
 
 ## Documents
 
 To recall a document approval, you must manually remove one or all users from the approval.
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3"> <p>Select a <span class="bold">Document</span> approval.</p> <p> <img src="assets/document-350x335.png" alt="Document.png" style="width: 350;height: 335;"> </p> </li> 
- <li value="4">Click <span class="bold">Manage Approvals</span> in the upper-right corner of the right panel.</li> 
- <li value="5"> <p>Click the <span class="bold">Remove</span> icon inline with the name of a user. Remove all users to completely recall the document&nbsp;approval.</p> <p> <img src="assets/remove-user-350x41.png" alt="Remove_User.png" style="width: 350;height: 41;"> </p> </li> 
-</ol>
+1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+
+1. Select a `Document` approval.
+
+   ![Document.png](assets/document-350x335.png)
+
+1. Click `Manage Approvals` in the upper-right corner of the right panel.
+1. Click the `Remove` icon inline with the name of a user. Remove all users to completely recall the document&nbsp;approval.
+
+   ![Remove_User.png](assets/remove-user-350x41.png)
 
 ## Access Requests
 
-<ol> Click the Home icon in the upper-left corner of Adobe Workfront. Note: Your Workfront administrator might make the following changes to the Home icon in your environment: Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. Replace the page linked to it with a different page. In this case, click the Main Menu in the upper-right corner of the page, then click Home. 
- <li value="2">In the <span class="bold">Work List</span> area, navigate to the <span class="bold">Approvals I've Submitted</span> grouping.</li> 
- <li value="3">Select an <span class="bold">Access&nbsp;Request</span> approval.<br><img src="assets/access-request-350x335.png" alt="Access_Request.png" style="width: 350;height: 335;"></li> 
- <li value="4">Click <span class="bold">Recall</span> in the upper-right corner of the right panel.</li> 
-</ol>
+1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+
+1. Select an `Access Request` approval.  
+   ![Access_Request.png](assets/access-request-350x335.png)
+
+1. Click `Recall` in the upper-right corner of the right panel.
 

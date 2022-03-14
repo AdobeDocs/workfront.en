@@ -48,11 +48,12 @@ You must have the following access to perform the actions described in this arti
 
 ## Reorder multiple custom forms attached to an object
 
-<ol> 
- <li value="1"> <p>Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>For example, to manage the custom forms of a project, go to the project, click the More menu , then click Edit.</p> </li> 
- <li value="2"> In the Custom Forms section for projects, tasks, and issues, click the icon next to the name of a custom form. For all other objects, click Manage Forms. This option displays only if at least one custom form is attached to the object. </li> 
- <li value="3"> <p>Drag a form <img src="assets/move-icon---dots.png"> to a new location in the list.</p> </li> For projects, tasks, and issues custom forms, click Save. For all other objects, click I'm done managing > Save Changes. 
-</ol>
+1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
+
+   ` `**Example: **``For example, to manage the custom forms of a project, go to the project, click the More menu , then click Edit.
+
+1. In the Custom Forms section for projects, tasks, and issues, click the icon next to the name of a custom form. For all other objects, click Manage Forms. This option displays only if at least one custom form is attached to the object. 
+1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.
 
 ## Remove a custom form from an object
 

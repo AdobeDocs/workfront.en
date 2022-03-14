@@ -40,14 +40,17 @@ The number of used licenses in use updates automatically as you assign access le
 
 To view license information in your system:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>At the bottom of the left panel, click <span class="bold">System</span> > <span class="bold">Licenses</span>.</p> <p>For more information about the licenses listed on this page, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> <note type="note">
-    Proof licenses are available only to customers who have purchased the paid Workfront Proof add-on in addition to their Workfront license. For information about this add-on, see 
-   <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">Workfront Proof</a>.
-  </note> </li> 
- <li value="3">(Conditional) If you see the message <span class="bold">To set a maximum, you must add a Home Group</span>, add a Home Groups in your system as explained in the section <a href="#managing-the-group-list" class="MCXref xref">Add or remove a Home Group to the Licenses page</a> in this article.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. At the bottom of the left panel, click `System` > `Licenses`.
+
+   For more information about the licenses listed on this page, see [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+
+   >[!NOTE]
+   >
+   >Proof licenses are available only to customers who have purchased the paid Workfront Proof add-on in addition to their Workfront license. For information about this add-on, see [Workfront Proof](../../workfront-proof/workfront-proof.md).
+
+1. (Conditional) If you see the message `To set a maximum, you must add a Home Group`, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#managing-the-group-list) in this article.
 
 ## Viewing information about licenses for Workfront addons
 
@@ -84,14 +87,19 @@ If you see the message `To set a maximum, you must add a Home Group` on the Lice
 
 To add or remove a Home Group to the Licenses page:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">At the bottom of the left panel, click <span class="bold">System</span> > <span class="bold">Licenses</span>.</li> 
- <li value="3">Click <span class="bold">Manage Group List</span>.</li> 
- <li value="4"> Start typing the top-level group’s name in the <span class="bold">Home Groups</span> box.</li> 
- <li value="5"> <p>To add the group, click its name when it appears.</p> <p>Or</p> <p>To remove the group, click the X icon to the right of its name.</p> </li> 
- <li value="6">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. At the bottom of the left panel, click `System` > `Licenses`.
+
+1. Click `Manage Group List`.
+1. Start typing the top-level group’s name in the `Home Groups` box.
+1. To add the group, click its name when it appears.
+
+   Or
+
+   To remove the group, click the X icon to the right of its name.
+
+1. Click `Save`.
 
 As a Workfront administrator, you can set maximum license counts for the Home Groups to prevent a business unit from using Workfront licenses purchased for other business units. For instructions, see [Set the maximum license count for a Home Group](#set) in this article.
 
@@ -104,13 +112,17 @@ group administrators can view the number of licenses allocated and used in a Hom
 
 To set the maximum license count for a Home group:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">At the bottom of the left panel, click <span class="bold">System</span> > <span class="bold">Licenses</span>.</li> 
- <li value="3">Locate the Home Group in the list.</li> 
- <li value="4">In the <span class="bold">Max</span> column of the group, click the value that you want to set a maximum for.</li> 
- <li value="5"> <p>Type the maximum number, then press Enter.</p> <p> <img src="assets/screen4-350x152.png" alt="Screen4.png" style="width: 350;height: 152;"> </p> <note type="note">
-    To set a group's maximum license value back to the default, do not type 0. Instead, delete the number in the box. Setting the maximum license value to 0 indicates that there are no licenses allocated to that group.
-  </note> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. At the bottom of the left panel, click `System` > `Licenses`.
+
+1. Locate the Home Group in the list.
+1. In the `Max` column of the group, click the value that you want to set a maximum for.
+1. Type the maximum number, then press Enter.
+
+   ![Screen4.png](assets/screen4-350x152.png)
+
+   >[!NOTE]
+   >
+   >To set a group's maximum license value back to the default, do not type 0. Instead, delete the number in the box. Setting the maximum license value to 0 indicates that there are no licenses allocated to that group.
 

@@ -58,10 +58,21 @@ After a draft is activated by the admin, your proof shows as Submitted ``in the 
 
 For information about viewing a list of all proofs in a specific state, such as viewing all Active ``or&nbsp;Locked proofs, see [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) in the article [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-<ol> 
- <li value="1"> <p> Access your Workfront Proof Dashboard.<br></p> <p>For more information, see&nbsp;<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md" class="MCXref xref">Access Workfront Proof from Adobe Workfront</a>.</p> </li> 
- <li value="2"> <p>On the <span class="bold">Dashboard,</span>&nbsp;click the&nbsp;<span class="bold">Expand&nbsp;</span>arrow next to the proof you want to view or change the state of.<br></p> <p> <img src="assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png" style="width: 350;height: 85;"> <br> </p> <p>The&nbsp;<span class="bold">Workflow process&nbsp;</span>section appears.<br></p> <p> <img src="assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png" style="width: 350;height: 226;"> <br> </p> </li> 
- <li value="3">View the&nbsp;<span class="bold">State&nbsp;</span>in the&nbsp;<span class="bold">Workflow process.</span></li> 
- <li value="4"> <p>(Optional) To change the state, mouse over the current&nbsp;<span class="bold">State&nbsp;</span>and click the drop-down menu, then select a new state.<br></p> <p> <img src="assets/screen-shot-2018-05-02-at-11.35.30-am.png"> </p> </li> 
-</ol>
+1. Access your Workfront Proof Dashboard.
+
+   For more information, see&nbsp; [Access Workfront Proof from Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+
+1. On the `Dashboard,` click the  `Expand`arrow next to the proof you want to view or change the state of.
+
+   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+
+   The  `Workflow process`section appears.
+
+   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+
+1. View the  `State`in the  `Workflow process.`
+
+1. (Optional) To change the state, mouse over the current  `State`and click the drop-down menu, then select a new state.
+
+   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
 

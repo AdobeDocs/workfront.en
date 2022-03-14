@@ -69,14 +69,18 @@ If you do not already have access to an object&nbsp;and you navigate to that obj
 
 To request initial access to an object:
 
-<ol> 
- <li value="1">Click <span class="bold">Request Access</span>.<br>The <span class="bold">Request Access</span> dialog box is displayed.<br></li> 
- <li value="2">(Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.&nbsp;</li> 
- <li value="3">Select the user from the drop-down list who you want to receive your access request.<br>Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.<br>For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp;<a href="#hierarchy-of-the-request-more-access-drop-down-menu" class="MCXref xref">Hierarchy of the "Request Access" and "Request More Access" drop-down menus</a>.</li> 
- <li value="4">From the drop-down list, select the type of access that you are requesting.</li> 
- <li value="5">(Optional) In the <span class="bold">P.S.</span> field, specify a note to the user regarding why you need additional access.</li> 
- <li value="6">Click <span class="bold">Request Access</span>.<br><img src="assets/request-access-dialog-350x340.png" style="width: 350;height: 340;"><br></li> 
-</ol>
+1. Click `Request Access`.  
+   The `Request Access` dialog box is displayed.  
+
+1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.&nbsp;
+1. Select the user from the drop-down list who you want to receive your access request.  
+   Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
+   For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-more-access-drop-down-menu).
+
+1. From the drop-down list, select the type of access that you are requesting.
+1. (Optional) In the `P.S.` field, specify a note to the user regarding why you need additional access.
+1. Click `Request Access`.  
+   ![](assets/request-access-dialog-350x340.png)
 
 If you do not have access level rights to an object&nbsp;and you try to access that object from a link,&nbsp;a screen is displayed informing you&nbsp;to contact the Workfront administrator.&nbsp;
 

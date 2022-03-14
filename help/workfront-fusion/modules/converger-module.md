@@ -42,11 +42,19 @@ Until the converger module is released, you may use one of the following workaro
 
 ### Data store
 
-<ol> 
- <li value="1"> <p>Add an extra filter-free route to the router module to connect the common sequence (the one you would put after the converger module).</p> <p> <img src="assets/converger-data-store-add-filter-free-route-350x549.png" style="width: 350;height: 549;"> </p> </li> 
- <li value="2"> <p>Add <span class="bold">Data store</span> > <span class="bold">Add/replace a record</span> modules at the end of each router module's route (except the new extra route) to store the data outputted by the modules on the route that should be passed to the common sequence. </p> <p> <img src="assets/converger-data-store-addreplacearecord-350x110.png" style="width: 350;height: 110;"> </p> <p>The Data store would contain just one record. The record's key could be, for example, "MyKey".</p> </li> 
- <li value="3"> <p>Add <span class="bold">Data store</span> > <span style="font-weight: bold; color: #000000;">Get a record module</span> at the beginning of the common sequence to obtain the previously stored data.</p> <p> <img src="assets/converger-data-store-getarecordmodule-350x116.png" style="width: 350;height: 116;"> </p> </li> 
-</ol>
+1. Add an extra filter-free route to the router module to connect the common sequence (the one you would put after the converger module).
+
+   ![](assets/converger-data-store-add-filter-free-route-350x549.png)
+
+1. Add `Data store` > `Add/replace a record` modules at the end of each router module's route (except the new extra route) to store the data outputted by the modules on the route that should be passed to the common sequence.
+
+   ![](assets/converger-data-store-addreplacearecord-350x110.png)
+
+   The Data store would contain just one record. The record's key could be, for example, "MyKey".
+
+1. Add `Data store` > `Get a record module` at the beginning of the common sequence to obtain the previously stored data.
+
+   ![](assets/converger-data-store-getarecordmodule-350x116.png)
 
 ### JSON
 

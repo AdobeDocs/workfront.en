@@ -42,41 +42,44 @@ You must have the following access to use the functionality in this article:
 
 ## Schedule a scenario
 
-<ol> 
- <li value="1"> <p>In the upper-right corner of the Scenario detail page, click <span class="bold">Options</span> > <span class="bold">Scheduling</span></p> <p>Or</p> <p>Click the <span class="bold">Scheduling </span>icon (clock) on the scenario's trigger module.</p> </li> 
- <li value="2"> <p>Enter information into the following fields:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Run scenario</td> 
-     <td> <p>Select the frequency at which you want to run the scenario, then select the interval.</p> 
-      <ul> 
-       <li> <p><span class="bold">At regular intervals</span> </p> <p>Enter the number of minutes between executions. The default value is 15 minutes.</p> </li> 
-       <li> <p><span class="bold">Once</span> </p> <p>Enter the date and time that you want the scenario to run. Use the format <code>MM/DD/YYYY h:mm A</code>. Example: <code>06/25/2019 11:00 PM</code>.</p> </li> 
-       <li> <p><span class="bold">Every day</span> </p> <p>Enter the time at which you want the scenario to run. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code>.</p> </li> 
-       <li> <p><span class="bold">Days of the week</span> </p> <p>Days: Select the days of the week that you want the scenario to run. You can select one or more days.</p> <p>Time: Enter the time that you want the scenario to run on the selected days. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code></p> </li> 
-       <li> <p><span class="bold">Days of the month</span> </p> <p>Days: Select the days of the month that you want the scenario to run. You can select one or more days.</p> <p>Time: Enter the time that you want the scenario to run on the selected days. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code></p> </li> 
-       <li> <p><span class="bold">Specified dates</span> </p> <p>Months: Select the months that you want to run the scenario. You can select one or more months.</p> <p>Days: Select the days of the month that you want the scenario to run. You can select one or more days.</p> <p>Time: Enter the time that you want the scenario to run on the selected days. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code></p> </li> 
-      </ul> <note type="note">
-       A date must exist for a scenario to run on that date. For example, a scenario scheduled for only the 31st of the month will not run in February, April, June, September, or November, because those months do not have a 31st day.
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Advanced scheduling</td> 
-     <td>You can define specific time intervals during which your scenario is to run. You can specify time-of-day intervals, weekdays or months. For each interval, click <span class="bold">Add </span>and fill in the fields as described in the Run scenario field.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Start</td> 
-     <td>Enter the date and time after which you want the scenario to run. Use the format <code>MM/DD/YYYY h:mm A</code>. Example: <code>06/25/2019 11:00 PM</code>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">End</td> 
-     <td>Enter the date and time before which you want the scenario to run. Use the format <code>MM/DD/YYYY h:mm A</code>. Example: <code>06/25/2019 11:00 PM</code>.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3">Click <span class="bold">OK</span> to save the schedule settings and return to the scenario.</li> 
-</ol>
+1. In the upper-right corner of the Scenario detail page, click `Options` > `Scheduling`
+
+   Or
+
+   Click the `Scheduling`icon (clock) on the scenario's trigger module.
+
+1. Enter information into the following fields:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Run scenario</td> 
+      <td> <p>Select the frequency at which you want to run the scenario, then select the interval.</p> 
+       <ul> 
+        <li> <p><span class="bold">At regular intervals</span> </p> <p>Enter the number of minutes between executions. The default value is 15 minutes.</p> </li> 
+        <li> <p><span class="bold">Once</span> </p> <p>Enter the date and time that you want the scenario to run. Use the format <code>MM/DD/YYYY h:mm A</code>. Example: <code>06/25/2019 11:00 PM</code>.</p> </li> 
+        <li> <p><span class="bold">Every day</span> </p> <p>Enter the time at which you want the scenario to run. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code>.</p> </li> 
+        <li> <p><span class="bold">Days of the week</span> </p> <p>Days: Select the days of the week that you want the scenario to run. You can select one or more days.</p> <p>Time: Enter the time that you want the scenario to run on the selected days. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code></p> </li> 
+        <li> <p><span class="bold">Days of the month</span> </p> <p>Days: Select the days of the month that you want the scenario to run. You can select one or more days.</p> <p>Time: Enter the time that you want the scenario to run on the selected days. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code></p> </li> 
+        <li> <p><span class="bold">Specified dates</span> </p> <p>Months: Select the months that you want to run the scenario. You can select one or more months.</p> <p>Days: Select the days of the month that you want the scenario to run. You can select one or more days.</p> <p>Time: Enter the time that you want the scenario to run on the selected days. Use the format <code>h:mm A</code>. Example: <code>11:00 PM</code></p> </li> 
+       </ul> <p>Note: A date must exist for a scenario to run on that date. For example, a scenario scheduled for only the 31st of the month will not run in February, April, June, September, or November, because those months do not have a 31st day.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Advanced scheduling</td> 
+      <td>You can define specific time intervals during which your scenario is to run. You can specify time-of-day intervals, weekdays or months. For each interval, click <span class="bold">Add </span>and fill in the fields as described in the Run scenario field.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Start</td> 
+      <td>Enter the date and time after which you want the scenario to run. Use the format <code>MM/DD/YYYY h:mm A</code>. Example: <code>06/25/2019 11:00 PM</code>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">End</td> 
+      <td>Enter the date and time before which you want the scenario to run. Use the format <code>MM/DD/YYYY h:mm A</code>. Example: <code>06/25/2019 11:00 PM</code>.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `OK` to save the schedule settings and return to the scenario.
 

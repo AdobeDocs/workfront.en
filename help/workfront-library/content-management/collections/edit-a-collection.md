@@ -19,12 +19,16 @@ You can make the following changes to a collection that you have Manage access t
 
 When you edit a collection that is shared with other users in Workfront Library, the collection's name is automatically updated in all the shared instances. Users are not notified of edits made to a collection.
 
-<ol> 
- <li value="1"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Collections</span> in the left panel.</p> <p> <img src="assets/library-left-panel-collections--new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
- <li value="3"> <p>Click <span class="bold">New Collection</span> in the upper-left corner.</p> <p> <img src="assets/collection-create-350x322.png" style="width: 350;height: 322;"> </p> </li> 
- <li value="4">In the <span class="bold">Name</span> box, type a name for the collection.</li> 
- <li value="5"> <p>(Optional) In the <span class="bold">Description</span> box, type a description of the collection.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Save</span>.</p> </li> 
-</ol>
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. Click `Collections` in the left panel.
+
+   ![](assets/library-left-panel-collections--new-350x217.png)
+
+1. Click `New Collection` in the upper-left corner.
+
+   ![](assets/collection-create-350x322.png)
+
+1. In the `Name` box, type a name for the collection.
+1. (Optional) In the `Description` box, type a description of the collection.
+1. Click `Save`.
 

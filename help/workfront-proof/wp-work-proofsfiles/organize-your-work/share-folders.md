@@ -29,36 +29,37 @@ You can also share items within a folder (rather than the folder itself). For mo
 
 ## Sharing an Individual Folder
 
-<ol> 
- <li value="1">Click the&nbsp;<span class="bold">Folders</span>&nbsp;tab in the left navigation sidebar.</li> 
- <li value="2">Hover over an individual folder you want to share, then click the <span class="bold">More</span> button that appears to the right of the folder.</li> 
- <li value="3">Click <span class="bold">Share folder</span>.</li> 
- <li value="4">On the page that appears, do any of the following: 
-  <ul>
-   <li>Add users to the folder by typing in their email address (1).</li>
-   <li>If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under <span class="bold">Allow on folder</span>.</li>
-   <li>If you change your mind, you can remove a user by hovering over the person's email address and clicking <span class="bold">Remove person</span> (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking <span class="bold">Remove all people</span> (the top trash icon).</li>
-  </ul></li> 
- <li value="5">When you are ready, click <span class="bold">Share folder</span>.<br></li> <note type="note">
-  &nbsp;If you share the folder with a group or partner, all contacts in that group or partner organization appear in the share section of the page.
- </note> 
-</ol>
+1. Click the  `Folders`&nbsp;tab in the left navigation sidebar.
+1. Hover over an individual folder you want to share, then click the `More` button that appears to the right of the folder.
+1. Click `Share folder`.
+1. On the page that appears, do any of the following:
+
+  * Add users to the folder by typing in their email address (1).
+  * If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under `Allow on folder`.
+  * If you change your mind, you can remove a user by hovering over the person's email address and clicking `Remove person` (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking `Remove all people` (the top trash icon).
+
+1. When you are ready, click `Share folder`.  
+
+1. &nbsp;If you share the folder with a group or partner, all contacts in that group or partner organization appear in the share section of the page.
 
 ## Sharing Multiple Folders
 
-<ol> 
- <li value="1">Click the&nbsp;<span class="bold">Folders</span>&nbsp;tab in the left navigation sidebar.</li> 
- <li value="2">Click the name of the the folder containing the folders you want to share.</li> 
- <li value="3">In the list of folders that appears to the right, click the checkbox to the left of each folder you want to share.<br>Or<br>Click the checkbox above the list of folders to select all folders in the list.</li> 
- <li value="4">Click&nbsp;<span class="bold">Share selected items</span>.<br><img src="assets/share-button-small.png" alt="Share_button-small.png"></li> 
- <li value="5">On the page that appears, do any of the following: 
-  <ul>
-   <li>Add users to the folder by typing in their email address.</li>
-   <li>If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under <span class="bold">Allow on folder</span>.</li>
-   <li>If you change your mind, you can remove a user by hovering over the person's email address and clicking <span class="bold">Remove person</span> (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking <span class="bold">Remove all people</span> (the top trash icon).</li>
-  </ul></li> 
- <li value="6">When you are ready, click <span class="bold">Share folder</span>.</li> 
-</ol>
+1. Click the  `Folders`&nbsp;tab in the left navigation sidebar.
+1. Click the name of the the folder containing the folders you want to share.
+1. In the list of folders that appears to the right, click the checkbox to the left of each folder you want to share.  
+   Or  
+   Click the checkbox above the list of folders to select all folders in the list.
+
+1. Click  `Share selected items`.  
+   ![Share_button-small.png](assets/share-button-small.png)
+
+1. On the page that appears, do any of the following:
+
+  * Add users to the folder by typing in their email address.
+  * If you are sharing a private folder with a Manager, you can decide if you want them to be able to create, edit, and delete folder items by clicking an option under `Allow on folder`.
+  * If you change your mind, you can remove a user by hovering over the person's email address and clicking `Remove person` (the trash can icon that appears to the far right). You can remove all of the people you just added by hovering over their names, then clicking `Remove all people` (the top trash icon).
+
+1. When you are ready, click `Share folder`.
 
 ## Accessing a Folder That's Been Shared With You
 

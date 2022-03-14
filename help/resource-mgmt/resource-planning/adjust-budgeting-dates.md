@@ -43,20 +43,28 @@ You must have the following:
 
 ## `Adjust Budgeting Dates`
 
-<ol> 
- <li value="1"> <p> Go to the Resource Planner and select <span class="bold">View by Project</span>.</p> <note type="note">
-   You can use the Adjust Budgeted Dates option only when you view the Resource Planner by project. 
-  </note> </li> 
- <li value="2"> Hover over the name of a project, then click the <span class="bold">More</span> menu. </li> 
- <li value="3"> <p>Click <span class="bold">Adjust Budgeting Dates</span>.<br>The project allocation timeline is displayed.<br>The time frame where the hours are currently budgeted is highlighted in orange if there is a budgeting conflict and in blue if there are no conflicts. </p> <p> <img src="assets/rp-adjust-budgeting-dates-with-no-done-button-350x106.png" style="width: 350;height: 106;"> </p> </li> 
- <li value="4"> Drag and drop the highlighted time frame to another time to understand where there are no budgeting conflicts for the selected project. When you find a time frame where the Net value is positive, the highlighted time frame changes to blue. </li> 
- <li value="5">Click the "x" in the upper right corner of the project allocation timeline to close it. </li> 
- <li value="6"> Remove the budgeted hours from the existing timeline of the project and add them to the timeline that shows the most availability. </li> 
- <li value="7"> Click <span class="bold">Save</span>. </li> 
- <li value="8"> (Conditional and optional) If the time frames without budgeting conflicts are outside the timeline of the project, click the name of the project to access the project. </li> 
- <li value="9"> (Conditional and optional) Click <span class="bold">Edit Project</span>, then edit the <span class="bold">Planned Start Date</span> or the <span class="bold">Planned Completion Date</span> to modify the timeline of the project for the time frame with no budgeting conflicts. <br>For more information about editing projects, see the article <a href="../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</li> 
- <li value="10"> (Conditional and optional) Click <span class="bold">Save Changes</span>. </li> 
- <li value="11"> Return to the Resource Planner and re-enter the Budgeted Hours, FTEs, or Costs in the time frame without budgeting conflicts. </li> 
- <li value="12"> Click <span class="bold">Save</span>. </li> 
-</ol>
+1. Go to the Resource Planner and select `View by Project`.
+
+   >[!NOTE]
+   >
+   >You can use the Adjust Budgeted Dates option only when you view the Resource Planner by project.
+
+1. Hover over the name of a project, then click the `More` menu. 
+1. Click `Adjust Budgeting Dates`.  
+   The project allocation timeline is displayed.  
+   The time frame where the hours are currently budgeted is highlighted in orange if there is a budgeting conflict and in blue if there are no conflicts.
+
+   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x106.png)
+
+1. Drag and drop the highlighted time frame to another time to understand where there are no budgeting conflicts for the selected project. When you find a time frame where the Net value is positive, the highlighted time frame changes to blue. 
+1. Click the "x" in the upper right corner of the project allocation timeline to close it. 
+1. Remove the budgeted hours from the existing timeline of the project and add them to the timeline that shows the most availability. 
+1. Click `Save`. 
+1. (Conditional and optional) If the time frames without budgeting conflicts are outside the timeline of the project, click the name of the project to access the project. 
+1. (Conditional and optional) Click `Edit Project`, then edit the `Planned Start Date` or the `Planned Completion Date` to modify the timeline of the project for the time frame with no budgeting conflicts.   
+   For more information about editing projects, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+
+1. (Conditional and optional) Click `Save Changes`. 
+1. Return to the Resource Planner and re-enter the Budgeted Hours, FTEs, or Costs in the time frame without budgeting conflicts. 
+1. Click `Save`.
 

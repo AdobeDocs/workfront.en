@@ -29,39 +29,53 @@ There are two ways to supply the sample data:
 
 To use the second option:
 
-<ol> 
- <li value="1"> <p>Create a new scenario with the HTTP > Make a request module and set it up like this:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>URL </p> </td> 
-     <td>url of the webhook</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Method </td> 
-     <td> <p>POST</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Body type</td> 
-     <td> <p> Raw</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Content type</td> 
-     <td> <p> JSON (application/json)</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Request content</td> 
-     <td> <p> raw JSON expected in the webhook</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> <p> <img src="assets/new-scenario-set-up-like-this-350x446.png" style="width: 350;height: 446;"> </p> </li> 
- <li value="2"> <p>Have both scenarios (the one with the HTTP module and the one with the Webhooks module) open in separate browser tabs/windows. Open the scenario with the Webhooks module and click <span class="bold">Redetermine data structure</span> button to make Workfront Fusion listen for the data (you don't have to unlink other modules, the data won't be used anywhere).</p> <p> <img src="assets/redetermine-data-structure-350x264.png" style="width: 350;height: 264;"> </p> </li> 
- <li value="3">Switch to the scenario with the HTTP module and run it.</li> 
- <li value="4"> <p>Switch back to the scenario with the Webhooks module. </p> <p>The data structure of the webhook should be determined and you should see a "Successfully determined" message .</p> <p> <img src="assets/successfully-determined-350x175.png" style="width: 350;height: 175;"> </p> </li> 
- <li value="5"> <p>Click <span class="bold">OK</span> to save the data structure.</p> <p>The webhook's items should be now available in the mapping panel for mapping to fields in the configuration of modules connected after the Webhooks module.</p> <p> <img src="assets/mapping-panel-350x244.png" style="width: 350;height: 244;"> </p> </li> 
-</ol>
+1. Create a new scenario with the HTTP > Make a request module and set it up like this:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>URL </p> </td> 
+      <td>url of the webhook</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Method </td> 
+      <td> <p>POST</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Body type</td> 
+      <td> <p> Raw</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Content type</td> 
+      <td> <p> JSON (application/json)</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Request content</td> 
+      <td> <p> raw JSON expected in the webhook</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   ![](assets/new-scenario-set-up-like-this-350x446.png)
+
+1. Have both scenarios (the one with the HTTP module and the one with the Webhooks module) open in separate browser tabs/windows. Open the scenario with the Webhooks module and click `Redetermine data structure` button to make Workfront Fusion listen for the data (you don't have to unlink other modules, the data won't be used anywhere).
+
+   ![](assets/redetermine-data-structure-350x264.png)
+
+1. Switch to the scenario with the HTTP module and run it.
+1. Switch back to the scenario with the Webhooks module.
+
+   The data structure of the webhook should be determined and you should see a "Successfully determined" message .
+
+   ![](assets/successfully-determined-350x175.png)
+
+1. Click `OK` to save the data structure.
+
+   The webhook's items should be now available in the mapping panel for mapping to fields in the configuration of modules connected after the Webhooks module.
+
+   ![](assets/mapping-panel-350x244.png)
 
 ## Queue
 

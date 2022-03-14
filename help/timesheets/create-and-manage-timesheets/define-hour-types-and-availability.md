@@ -84,14 +84,16 @@ If you make an hour type available at the user level as described in this sectio
 
 To define the hour types that are available to a user:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click your user avatar in the upper-left corner. Click the More menu next to the user name, then click Edit. <note type="note">
-  Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
- </note> 
- <li value="4"> <p>In the <span class="bold">Resource Planning</span> section, in the <span class="bold">Available Hour Types</span> drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:</p> 
-  <ul> 
-   <li> <p><span class="bold">To make all hour types available for the user:</span>&nbsp;Select all the hour types.<br>If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour type are available for the user only on projects, tasks, and&nbsp;issues where&nbsp;<span class="bold">No</span> is selected in the <span class="bold">Filter Hour Types</span> option when editing the project, as described in <a href="#defining-availability-at-the-project-level" class="MCXref xref">Define availability&nbsp;at the project level</a>.</p> </li> 
-   <li> <p><span class="bold">To make only a subset of the hour types available for the user:</span> Select only the hour types you want to make available.</p> <p>In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected&nbsp;in the <span class="bold">Filter Hour Types</span> option when editing the project, as described in <a href="#defining-availability-at-the-project-level" class="MCXref xref">Define availability&nbsp;at the project level</a>.</p> </li> 
-  </ul> </li> 
- <li value="5"> <p>Click <span class="bold">Save Changes</span>.</p> <p>Now when you log hours on a project, task, or issue, the hour types you select are available if those same hour types have been made available at the project level.</p> </li> 
-</ol>
+1. Only a system administrator can edit other users. If you have a Plan license, you can edit the hour types on your own profile.
+1. In the `Resource Planning` section, in the `Available Hour Types` drop-down menu, do either of the following, depending on which hour types you want to make available when logging time on a project, task, or issue:
+
+  * `To make all hour types available for the user:`&nbsp;Select all the hour types.  
+    If you leave all hour types unselected, this is technically the same as selecting all hour types. However, in this case, all hour type are available for the user only on projects, tasks, and issues where  `No` is selected in the `Filter Hour Types` option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
+  * `To make only a subset of the hour types available for the user:` Select only the hour types you want to make available.
+
+    In order for the hour types you select at the user level to be available on projects, tasks, and issues, these same hour types must also be selected in the `Filter Hour Types` option when editing the project, as described in [Define availability at the project level](#defining-availability-at-the-project-level).
+
+1. Click `Save Changes`.
+
+   Now when you log hours on a project, task, or issue, the hour types you select are available if those same hour types have been made available at the project level.
 

@@ -118,14 +118,23 @@ When you restore a project, task, or issue, the following associated information
 
 ## Restore items
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>Click <span class="bold">Recycle Bin</span> > <span class="bold">Recently Deleted</span>.</p> </li> 
- <li value="3"> <p>Click the <span class="bold">Projects</span>, <span class="bold">Tasks</span>, <span class="bold">Issues</span>, or <span class="bold">Documents</span> tab, depending on the type of item you want to restore.</p> <p>Items are sorted by the <span class="bold">Deletion Date</span> column by default.</p> </li> 
- <li value="4"> <p>Select up to 10 items that you want to restore.</p> <p> If you delete a child task, it displays in the list. </p> <p>If you delete a parent task, only the parent task shows in the list. But all child tasks are restored when you restore a parent task.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Restore</span> to restore the selected items to their original location.</p> </li> 
- <li value="6"> <p>(Optional) To quickly view the restored item, follow the steps in <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md" class="MCXref xref">View restored items</a>.</p> <p>For more information about what happens after you restore an item, see <a href="#what-happens-after-restoring-items" class="MCXref xref">What happens after you restore items</a> in this article.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Recycle Bin` > `Recently Deleted`.
+1. Click the `Projects`, `Tasks`, `Issues`, or `Documents` tab, depending on the type of item you want to restore.
+
+   Items are sorted by the `Deletion Date` column by default.
+
+1. Select up to 10 items that you want to restore.
+
+   If you delete a child task, it displays in the list.
+
+   If you delete a parent task, only the parent task shows in the list. But all child tasks are restored when you restore a parent task.
+
+1. Click `Restore` to restore the selected items to their original location.
+1. (Optional) To quickly view the restored item, follow the steps in [View restored items](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+   For more information about what happens after you restore an item, see [What happens after you restore items](#what-happens-after-restoring-items) in this article.
 
 ## What happens after you restore items
 

@@ -116,12 +116,11 @@ To expand or collapse the summary:
 
 The summary includes the following:
 
-<ul> 
- <li>Workflow (2)</li> 
- <li>Version (3)</li> 
- <li>Folder (4)</li> 
- <li>State (5)<br><img src="assets/summary-2-350x160.png" alt="summary_2.png" style="width: 350;height: 160;"></li> 
-</ul>
+* Workflow (2)
+* Version (3)
+* Folder (4)
+* State (5)  
+  ![summary_2.png](assets/summary-2-350x160.png)
 
 In the summary, you can view and edit&nbsp;the following details of your proof:
 
@@ -129,7 +128,12 @@ In the summary, you can view and edit&nbsp;the following details of your proof:
 * Progress of each stage (2)
 * Deadline set for the stage (3)
 * Reviewer details:
-* `<li>Number of comments and replies made by each reviewer (4)</li>` `<li>Each reviewer's progress (5)</li>` `<li>Decision (if a decision has included an electronic-signatures, an icon will be shown next to the decision indicating this.) (6)</li>` `<li>Role on the proof (7)</li>` `<li>Email alert settings (8)</li>`
+
+  * Number of comments and replies made by each reviewer (4)
+  * Each reviewer's progress (5)
+  * Decision (if a decision has included an electronic-signatures, an icon will be shown next to the decision indicating this.) (6)
+  * Role on the proof (7)
+  * Email alert settings (8)
 
 >[!NOTE]
 >

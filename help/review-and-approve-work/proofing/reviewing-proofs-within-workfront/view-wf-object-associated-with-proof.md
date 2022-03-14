@@ -45,11 +45,31 @@ You must have the following access to perform the steps in this article:
 
 ## View the Adobe Workfront object associated with a proof
 
-<ol> 
- <li value="1"> <p>In an email inviting you to review a proof, click <span class="bold">View details</span> to open the Document details page for the proof in Workfront.</p> <p> <img src="assets/view-details-link-in-proof-email-350x154.png" style="width: 350;height: 154;"> </p> <p>Or</p> <p>With the proof open in the proofing viewer, click the <span class="bold">Go to Document details</span> icon in the upper-left corner.</p> <p> <img src="assets/go-to-document-details-icon-btn-350x200.png" style="width: 350;height: 200;"> </p> <p>The Document details page opens in a new browser tab. On this page, you can:</p> 
-  <ul> 
-   <li> <p> Access the proof's associated Workfront object. </p> <p>For example, in this screenshot of the upper-left corner of the Document details page, the breadcrumb link <span class="bold">Back to August 18 issue</span> indicates that the proof is associated with the "August 18" Workfront object, which is an issue:</p> <p> <img src="assets/document-details-page---breadcrumb-to-associated-object-350x157.png" style="width: 350;height: 157;"> </p> <p>You can click the breadcrumb to view the updates, documents, and other information on the issue.</p> <p>The same is true if the proof is associated with other types of objects. For example, if the object is a task, the task name displays in the breadcrumb and you can click the breadcrumb to view information about the task.</p> </li> 
-   <li> <p>Go to the Proof details page for the proof by clicking <span class="bold">Details</span> in the panel on the right:</p> <p> <img src="assets/proof-details-link-on-doc-details-page-350x438.png" style="width: 350;height: 438;"> </p> <p>For more information about the Proof details page, see <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref">Manage Proof Details in Workfront Proof</a>.</p> </li> 
-  </ul> </li> 
-</ol>
+1. In an email inviting you to review a proof, click `View details` to open the Document details page for the proof in Workfront.
+
+   ![](assets/view-details-link-in-proof-email-350x154.png)
+
+   Or
+
+   With the proof open in the proofing viewer, click the `Go to Document details` icon in the upper-left corner.
+
+   ![](assets/go-to-document-details-icon-btn-350x200.png)
+
+   The Document details page opens in a new browser tab. On this page, you can:
+
+  * Access the proof's associated Workfront object.
+
+    For example, in this screenshot of the upper-left corner of the Document details page, the breadcrumb link `Back to August 18 issue` indicates that the proof is associated with the "August 18" Workfront object, which is an issue:
+
+    ![](assets/document-details-page---breadcrumb-to-associated-object-350x157.png)
+
+    You can click the breadcrumb to view the updates, documents, and other information on the issue.
+
+    The same is true if the proof is associated with other types of objects. For example, if the object is a task, the task name displays in the breadcrumb and you can click the breadcrumb to view information about the task.
+  
+  * Go to the Proof details page for the proof by clicking `Details` in the panel on the right:
+
+    ![](assets/proof-details-link-on-doc-details-page-350x438.png)
+
+    For more information about the Proof details page, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 

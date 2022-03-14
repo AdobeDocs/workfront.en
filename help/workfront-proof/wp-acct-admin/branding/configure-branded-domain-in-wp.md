@@ -49,29 +49,31 @@ You can have a fully customized domain. For example, http://proofing.<yourbrand>
 
 To set up your custom domain or branding, you must complete the following steps:
 
-<ol> 
- <li value="1">As a first step, it is important to determine what type of SSL certificate is required for your white label URL:
-  <ul>
-   <li>If you plan to have only one Workfront Proof account, a standard SSL certificate with Single domain should be purchased.</li>
-   <li>If you plan on having multiple Workfront Proof account (e.g., Satellite accounts), a Wildcard SSL certificate should be purchased.<br>For general information about SSL certificates, see <a href="#understanding-certificate-signing-requests-and-ssl-certificates" class="MCXref xref">Understanding Certificate Signing Requests (CSR) and SSL Certificates</a>.</li>
-  </ul></li> 
- <li value="2">A Certificate Signing Request (CSR) must be created by Workfront Proof. For general information about CSRs, see <a href="#understanding-certificate-signing-requests-and-ssl-certificates" class="MCXref xref">Understanding Certificate Signing Requests (CSR) and SSL Certificates</a>.<br>In order for us to create the CSR, we need the following information:<br><note type="important">
-    The CSR cannot be modified after it is generated. Ensure that the following information is correct.&nbsp;
-  </note>
-  <ul>
-   <li><span class="bold">Common Name/Fully Qualified Domain Name</span> (Everything after http://. This must match exactly what you type in your browser, e.g. www.yourdomain.com or proofing.yourdomain.com.</li>
-   <li><span class="bold">Will you be using this domain for multiple Workfront Proof accounts</span>? If you require multiple Workfront Proof accounts to use this domain, please specify this using the wildcard e.g., *.yourdomain.com.)</li>
-   <li><span class="bold">Organization Name</span> (Legal name of your Organization. This must not be abbreviated or include any suffixes e.g. Corp., Inc., Ltd.)</li>
-   <li><span class="bold">Organizational Unit</span> (The department in your organisation handling the Certificate. This could be "IT" or even "General".)</li>
-   <li><span class="bold">City</span> (City where your organization is located)</li>
-   <li><span class="bold">State</span> (State where your organization is located)</li>
-   <li><span class="bold">Country code</span> (2-letter ISO code for the country where your organization is located, e.g., US, GB.)</li>
-  </ul></li> 
- <li value="3">After the information in step 2 is received, we create the CSR and send it to you along with the CNAME URL&nbsp;to point the domain to.</li> 
- <li value="4"> <p>Give the CSR to a SSL Certificate Provider (Certificate Authority) who will create the SSL Certificate and Key chain for you.</p> </li> 
- <li value="5"> <p>Point the domain to the CNAME URL we provided (see step 3 above).</p> </li> 
- <li value="6"> <p>Send the SSL Certificate and Key chain to Workfront Proof.</p> </li> 
-</ol>
+1. As a first step, it is important to determine what type of SSL certificate is required for your white label URL:
+
+  * If you plan to have only one Workfront Proof account, a standard SSL certificate with Single domain should be purchased.
+  * If you plan on having multiple Workfront Proof account (e.g., Satellite accounts), a Wildcard SSL certificate should be purchased.  
+    For general information about SSL certificates, see [Understanding Certificate Signing Requests (CSR) and SSL Certificates](#understanding-certificate-signing-requests-and-ssl-certificates).
+
+1. A Certificate Signing Request (CSR) must be created by Workfront Proof. For general information about CSRs, see [Understanding Certificate Signing Requests (CSR) and SSL Certificates](#understanding-certificate-signing-requests-and-ssl-certificates).  
+   In order for us to create the CSR, we need the following information:
+
+   >[!IMPORTANT]
+   >
+   >The CSR cannot be modified after it is generated. Ensure that the following information is correct.&nbsp;
+
+  * `Common Name/Fully Qualified Domain Name` (Everything after http://. This must match exactly what you type in your browser, e.g. www.yourdomain.com or proofing.yourdomain.com.
+  * `Will you be using this domain for multiple Workfront Proof accounts`? If you require multiple Workfront Proof accounts to use this domain, please specify this using the wildcard e.g., &#42;.yourdomain.com.)
+  * `Organization Name` (Legal name of your Organization. This must not be abbreviated or include any suffixes e.g. Corp., Inc., Ltd.)
+  * `Organizational Unit` (The department in your organisation handling the Certificate. This could be "IT" or even "General".)
+  * `City` (City where your organization is located)
+  * `State` (State where your organization is located)
+  * `Country code` (2-letter ISO code for the country where your organization is located, e.g., US, GB.)
+
+1. After the information in step 2 is received, we create the CSR and send it to you along with the CNAME URL&nbsp;to point the domain to.
+1. Give the CSR to a SSL Certificate Provider (Certificate Authority) who will create the SSL Certificate and Key chain for you.
+1. Point the domain to the CNAME URL we provided (see step 3 above).
+1. Send the SSL Certificate and Key chain to Workfront Proof.
 
 ## Understanding Certificate Signing Requests (CSR) and SSL Certificates
 

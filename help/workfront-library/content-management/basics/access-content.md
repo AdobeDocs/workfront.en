@@ -36,10 +36,11 @@ Depending on your access level, you can access content in the following areas of
 
 For more information on the areas in Workfront Library, see [Get started with Workfront Library](../../../workfront-library/content-management/basics/get-started-with-library.md).
 
-<ol> 
- <li value="1"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> <p> <img src="assets/library-left-panel---new-350x217.png" style="width: 350;height: 217;"> </p> </li> 
- <li value="2">In the left panel, select the area you want to access.</li> 
-</ol>
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+
+   ![](assets/library-left-panel---new-350x217.png)
+
+1. In the left panel, select the area you want to access.
 
 Each Workfront Library area displays only the content that you have access to. Your Workfront Library access level and the permissions that you have to each item determine what you can do with the content available to you. For more information on access, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 

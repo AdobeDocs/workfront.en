@@ -37,14 +37,15 @@ You must have the following:
 
 ## Configure user access to Scenario Planner using a custom access level
 
-<ol> 
- <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
- <li value="2"> <p>Click the option to the right of <span class="bold">Scenario Planner</span> that you want to use for this access level.</p> <note type="note">
-   The Request or External license type do not allow View or Edit access to Scenario Planner.
-  </note> </li> 
- <li value="3"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
- <li value="4"> <p>When you are finished, click Save.</p> </li> 
-</ol>
+1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Click the option to the right of `Scenario Planner` that you want to use for this access level.
+
+   >[!NOTE]
+   >
+   >The Request or External license type do not allow View or Edit access to Scenario Planner.
+
+1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. When you are finished, click Save.
 
 ## Access to Scenario Planner by license type
 
@@ -66,19 +67,23 @@ A user with no access to Scenario Planner can neither see the Scenarios icon in 
 
 Users with View access to Scenario Planner can do the following:
 
-<ul> 
- <li>See the Scenarios icon in the Main Menu <img src="assets/esp-icon-in-main-menu.png">, though the Plans area is empty unless the user clicks a plan link shared by another user. </li> 
- <li> <p>View a plan when another user shares the link to it.</p> <p>This includes any job role information in the plan.</p> <p>It also includes job role rates and cost information on the plan if the recipient user also has access to financial data. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 
-</ul>
+* See the Scenarios icon in the Main Menu ![](assets/esp-icon-in-main-menu.png), though the Plans area is empty unless the user clicks a plan link shared by another user. 
+* View a plan when another user shares the link to it.
+
+  This includes any job role information in the plan.
+
+  It also includes job role rates and cost information on the plan if the recipient user also has access to financial data. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ### Edit access
 
 Users with Edit access to Scenario Planner can do the following:
 
-<ul> 
- <li>See the Scenarios icon in the Main Menu <img src="assets/esp-icon-in-main-menu.png"> and use it to access plan data.</li> 
- <li>Create plans.</li> 
- <li>View, edit, and delete plans that they create.</li> 
- <li> <p>View, edit, and delete other users' plans that they access using a shared link.</p> <p>This includes any job role information in a plan.</p> <p>It also includes job role rates and cost information on the plan if the recipient user has access to financial data. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p> </li> 
-</ul>
+* See the Scenarios icon in the Main Menu ![](assets/esp-icon-in-main-menu.png) and use it to access plan data.
+* Create plans.
+* View, edit, and delete plans that they create.
+* View, edit, and delete other users' plans that they access using a shared link.
+
+  This includes any job role information in a plan.
+
+  It also includes job role rates and cost information on the plan if the recipient user has access to financial data. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 

@@ -55,18 +55,28 @@ Unlike trigger modules, action modules can be placed at the beginning, middle or
 
 The Action type has four subtypes: Create, Read, Update, and Delete. The Update subtype enables the following three operations:
 
-<ul> 
- <li> <p><span class="bold">Erase the content of a field</span>. This operation takes place when the content of the field is evaluated to erase keyword (not to be confused with <i>empty</i>).</p> <p> <img src="assets/erase-content-of-field.png"> </p> </li> 
- <li> <p><span class="bold">Leave the content of a field unchanged</span>. This operation takes place when the field is left empty or the content of the field is evaluated to empty (represented via null in JSON).</p> <p> <img src="assets/leave-content-field-unchanged-350x231.png" style="width: 350;height: 231;"> </p> </li> 
- <li><span class="bold">Replace the content of a field</span>. This operation takes place in all other cases than those two described above.</li> 
-</ul>
+* `Erase the content of a field`. This operation takes place when the content of the field is evaluated to erase keyword (not to be confused with *empty*).
+
+  ![](assets/erase-content-of-field.png)
+
+* `Leave the content of a field unchanged`. This operation takes place when the field is left empty or the content of the field is evaluated to empty (represented via null in JSON).
+
+  ![](assets/leave-content-field-unchanged-350x231.png)
+
+* `Replace the content of a field`. This operation takes place in all other cases than those two described above.
 
 >[!NOTE]
 >
-><ul> 
- <li>If you do not see the <code>erase</code> keyword in the mapping panel, the module is not an update module or it has not been updated to the latest specifications for the app.</li> 
- <li> <p>"Empty" doesn't change the field content. If it is necessary to erase the field, you can use the following formula:</p> <p> <img src="assets/formula-ifempty-name-erase.png"> </p> <p>Leaving a field unchanged when its content is evaluated as empty is currently not possible.</p> </li> 
-</ul>
+>* If you do not see the >
+>  ```>
+>  erase
+>  ```>
+>  keyword in the mapping panel, the module is not an update module or it has not been updated to the latest specifications for the app.
+>* "Empty" doesn't change the field content. If it is necessary to erase the field, you can use the following formula:
+>
+>  ![](assets/formula-ifempty-name-erase.png)>
+>  Leaving a field unchanged when its content is evaluated as empty is currently not possible.
+>
 
 ## Search modules
 
@@ -100,12 +110,13 @@ Polling triggers allow you to select the first bundle that they should output vi
 >
 >Settings made in the epoch panel affect only the first execution of the module. Once the module is executed, it remembers the last outputted bundle and voids the settings made via the epoch panel.
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-<ul> 
- <li> <p><span class="bold">Dropbox > Watch files</span> returns files that were newly added since the last time the scenario was run</p> <p> <img src="assets/dropbox-watch-files-350x380.png" style="width: 350;height: 380;"> </p> </li> 
- <li><span class="bold">Google Sheets > Watch Rows</span> returns new rows added by the user since the last time the scenario was run</li> 
-</ul>
+* `Dropbox > Watch files` returns files that were newly added since the last time the scenario was run
+
+  ![](assets/dropbox-watch-files-350x380.png)
+
+* `Google Sheets > Watch Rows` returns new rows added by the user since the last time the scenario was run
 
 ### Instant triggers
 

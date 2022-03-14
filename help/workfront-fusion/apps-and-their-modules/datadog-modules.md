@@ -69,37 +69,37 @@ To connect your Datadog account to Workfront Fusion you need to retrieve an API 
 
 You can create a connection to your Datadog account directly from inside a Datadog module.
 
-<ol> 
- <li value="1"> <p>In any Datadog module, click <span class="bold">Add </span>next to the Connection field.</p> </li> 
- <li value="2"> <p>Fill the module's fields as follows:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Connection Type</td> 
-     <td> <p> Select the Datadog Application option to get full access to Datadog API.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Connection Name</td> 
-     <td> <p> Enter a name for the connection.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Domain </td> 
-     <td> <p>Select the domain you want to connect to (US or EU).</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">API Key</td> 
-     <td> <p> Enter your Datadog API key. </p> <p>For instructions on retrieving the API key, see <a href="#retrieve" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Application Key</td> 
-     <td> <p> Enter your Datadog application key. </p> <p>For instructions on retrieving the application key, see <a href="#retrieve" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="3"> <p>Click <span class="bold">Continue</span> to create the connection and go back to the module.</p> </li> 
-</ol>
+1. In any Datadog module, click `Add`next to the Connection field.
+1. Fill the module's fields as follows:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Connection Type</td> 
+      <td> <p> Select the Datadog Application option to get full access to Datadog API.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Connection Name</td> 
+      <td> <p> Enter a name for the connection.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Domain </td> 
+      <td> <p>Select the domain you want to connect to (US or EU).</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">API Key</td> 
+      <td> <p> Enter your Datadog API key. </p> <p>For instructions on retrieving the API key, see <a href="#retrieve" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Application Key</td> 
+      <td> <p> Enter your Datadog application key. </p> <p>For instructions on retrieving the application key, see <a href="#retrieve" class="MCXref xref">Retrieve your API key and application key</a> in this article.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Continue` to create the connection and go back to the module.
 
 ## Datadog modules and their fields
 

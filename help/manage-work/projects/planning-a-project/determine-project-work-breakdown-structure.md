@@ -133,13 +133,17 @@ Once you complete your WBS, you can view it in a task list at the project level 
 
 You can view the task list at the project level.
 
-<ol> 
- <li value="1">Go to the project for which you want to see the Work Breakdown Structure.</li> 
- <li value="2">Select the <span class="bold">Tasks</span> tab.</li> 
- <li value="3"> <p>(Optional) Select <span class="bold">Nothing</span> in the <span class="bold">Grouping</span> drop-down menu.</p> <p> The Work Breakdown Structure does not display the indentation of the tasks in the WBS.</p> </li> 
- <li value="4">From the <span class="bold">View</span> drop-down menu, and select the <span class="bold">Work Breakdown</span> view.</li> 
- <li value="5"> <p>The Work Breakdown structure displays in the second column of the selected view.</p> <p> <img src="assets/wbs-highlighted-(1)-350x79.png" style="width: 350;height: 79;"> </p> </li> 
-</ol>
+1. Go to the project for which you want to see the Work Breakdown Structure.
+1. Select the `Tasks` tab.
+1. (Optional) Select `Nothing` in the `Grouping` drop-down menu.
+
+   The Work Breakdown Structure does not display the indentation of the tasks in the WBS.
+
+1. From the `View` drop-down menu, and select the `Work Breakdown` view.
+
+1. The Work Breakdown structure displays in the second column of the selected view.
+
+   ![](assets/wbs-highlighted-(1)-350x79.png)
 
 ### View the WBS in a task report
 

@@ -48,34 +48,33 @@ Before you begin, you must
 
 ## Connect to Snowflake
 
-<ol> 
- <li value="1"> <p>Go to the business intelligence tool you want to connect to Snowflake.</p> </li> 
- <li value="2"> <p>Add the data source with the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>Type the name you want to use for the Snowflake Connection.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Type</td> 
-     <td>Select <span class="bold">Snowflake</span> for the type.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Connection string</td> 
-     <td> <p>Workfront provides the domain and schema that you will need for your Connection URL. Add these items in the appropriate place, then enter the connection string:</p> <p><code>jdbc:snowflake://<domain provided>.snowflakecomputing.com/?warehouse=analytics_wh&db=workfront_analytics&schema=<schema provided></code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If your BI&nbsp;tool has a built-in Snowflake connector, you can connect with JDBC.<br>If you connect using JDBC, the connection string may look like this:<br><code>jdbc:snowflake://<domain provided>.snowflakecomputing.com/?warehouse=analytics_wh&db=workfront_analytics&schema=<schema provided></code><br></p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Username</td> 
-     <td>Enter the Username provided.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Password</td> 
-     <td>Enter the Password provided.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Go to the business intelligence tool you want to connect to Snowflake.
+1. Add the data source with the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td>Type the name you want to use for the Snowflake Connection.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Type</td> 
+      <td>Select <span class="bold">Snowflake</span> for the type.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Connection string</td> 
+      <td> <p>Workfront provides the domain and schema that you will need for your Connection URL. Add these items in the appropriate place, then enter the connection string:</p> <p><code>jdbc:snowflake://&lt;domain provided&gt;.snowflakecomputing.com/?warehouse=analytics_wh&amp;db=workfront_analytics&amp;schema=&lt;schema provided&gt;</code> </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If your BI&nbsp;tool has a built-in Snowflake connector, you can connect with JDBC.<br>If you connect using JDBC, the connection string may look like this:<br><code>jdbc:snowflake://&lt;domain provided&gt;.snowflakecomputing.com/?warehouse=analytics_wh&amp;db=workfront_analytics&amp;schema=&lt;schema provided&gt;</code><br></p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Username</td> 
+      <td>Enter the Username provided.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Password</td> 
+      <td>Enter the Password provided.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 

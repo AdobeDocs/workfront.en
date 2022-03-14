@@ -25,38 +25,46 @@ There is no limit on the number of Workfront Library portals your organization c
 
 ## Set up a portal
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Portals</span>.</p> <p> <img src="assets/portals-red-square-350x224.png" style="width: 350;height: 224;"> </p> </li> 
- <li value="4">Select the portal you want to configure.</li> 
- <li value="5"> <p>Click the <span class="bold">Menu</span> icon in the upper-left corner of the portal, then click <span class="bold">Setup</span>.</p> <p>You can continue with the portal set up in the following ways:</p> 
-  <ul> 
-   <li><a href="#add" class="MCXref xref">Add your organization's branding to the portal</a> </li> 
-   <li><a href="#select" class="MCXref xref">Select taxonomy for content in the portal</a> </li> 
-   <li><a href="#enable" class="MCXref xref">Enable searching for keywords in the portal</a> </li> 
-  </ul> </li> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In the left panel, click `Portals`.
+
+   ![](assets/portals-red-square-350x224.png)
+
+1. Select the portal you want to configure.
+1. Click the `Menu` icon in the upper-left corner of the portal, then click `Setup`.
+
+   You can continue with the portal set up in the following ways:
+
+  * [Add your organization's branding to the portal](#add) 
+  * [Select taxonomy for content in the portal](#select) 
+  * [Enable searching for keywords in the portal](#enable)
 
 ### Add your organization's branding to the portal
 
 You can brand a portal with your company logo or another image.
 
-<ol> 
- <li value="1">Complete the steps 1-5 in <a href="#set" class="MCXref xref">Set up a portal</a></li> 
- <li value="2">In the <span class="bold">Setup</span> panel, click <span class="bold">Branding</span>.</li> 
- <li value="3"> <p>Hover over the <span class="bold">NO LOGO</span> box, then click <span class="bold">Select new image</span>.</p> </li> 
- <li value="4"> <p>Browse to the image you want to use for the branding, then click <span class="bold">Open</span>.</p> <p> <img src="assets/brandingimageupld-350x150.png" style="width: 350;height: 150;"> </p> <p>The image can be up to a 1,000 x 1,000 pixel image in one of following file formats:</p> 
-  <ul> 
-   <li>JPG</li> 
-   <li>GIF</li> 
-   <li>PNG</li> 
-  </ul> <note type="tip">
-   If the image you want to use for your branding is in Workfront Library, but it doesn't meet the formatting requirements, you can download the image with a different file size and format. You can then upload the image and use it for branding the portal. For more information on downloading a file, see the "Download a single content file" section in the article 
-   <a href="../../../workfront-library/content-management/basics/download-content-from-library.md" class="MCXref xref">Download items from Workfront Library</a>
-  </note> </li> 
- <li value="5"> <p>Click <span class="bold">Save New Logo</span>.</p> <p>Refresh the browser page where you have Workfront Library to see the new logo.</p> </li> 
-</ol>
+1. Complete the steps 1-5 in [Set up a portal](#set)
+1. In the `Setup` panel, click `Branding`.
+
+1. Hover over the `NO LOGO` box, then click `Select new image`.
+1. Browse to the image you want to use for the branding, then click `Open`.
+
+   ![](assets/brandingimageupld-350x150.png)
+
+   The image can be up to a 1,000 x 1,000 pixel image in one of following file formats:
+
+  * JPG
+  * GIF
+  * PNG
+
+   >[!TIP]
+   >
+   >If the image you want to use for your branding is in Workfront Library, but it doesn't meet the formatting requirements, you can download the image with a different file size and format. You can then upload the image and use it for branding the portal. For more information on downloading a file, see the "Download a single content file" section in the article [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md)
+
+1. Click `Save New Logo`.
+
+   Refresh the browser page where you have Workfront Library to see the new logo.
 
 ### Select taxonomy for content in the portal
 
@@ -77,10 +85,10 @@ Your portal users might not need to view all the taxonomy you collect on your or
 
 You can allow keyword metadata to display for content in the portal. This enables users to search for and filter portal content. While in the portal, you cannot add or remove keywords from the keyword picklist. For more information on keyword metadata, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
-<ol> 
- <li value="1">Complete the steps 1-5 in <a href="#set" class="MCXref xref">Set up a portal</a></li> 
- <li value="2">In the <span class="bold">Setup</span> panel, click <span class="bold">Keywords</span>.</li> 
- <li value="3"> <p>Enable <span class="bold">Display all keywords in the portal</span>.<br><img src="assets/portals-keywords-350x194.png" style="width: 350;height: 194;"></p> </li> 
-</ol>
+1. Complete the steps 1-5 in [Set up a portal](#set)
+1. In the `Setup` panel, click `Keywords`.
+
+1. Enable `Display all keywords in the portal`.  
+   ![](assets/portals-keywords-350x194.png)
 
 <![CDATA[]]> 

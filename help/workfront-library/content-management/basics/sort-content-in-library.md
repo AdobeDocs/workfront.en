@@ -13,38 +13,29 @@ You can sort the items that display in an area in Workfront Library. You can sor
 
 When you sort items in Workfront Library, you sort only your instance of Workfront Library.
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="3"> <p>Select the area you want to sort.</p> 
-  <ul> 
-   <li>Users with Manager or higher access to Workfront Library can sort the items in My Content, Library, or Collections areas. </li> 
-   <li>Users with Viewer access can sort their Library and Collections areas.</li> 
-  </ul> </li> 
- <li value="4"> <p>Click the <span class="bold">Sort</span> drop-down arrow icon <img src="assets/sort-icon.png">.</p> </li> 
- <li value="5"> <p>Select the sort criterion.</p> <p>You can choose from the following criteria:</p> 
-  <ul> 
-   <li><span class="bold">Name:</span> Sorts each type of item alphabetically by name. For example, content files are sorted by file name.</li> 
-   <li><span class="bold">Last Modified:</span> Sorts each type of item by the following date: <p>
-     <table cellspacing="0">
-      <col>
-      <col>
-      <tbody>
-       <tr>
-        <td role="rowheader">Content</td>
-        <td>All content files are sorted base on the dates they were last changed, such as when a new version was upload or when a file's metadata was edited.</td>
-       </tr>
-       <tr>
-        <td role="rowheader">Folders</td>
-        <td>All folders are sorted by their creation dates. Changes made to a folder, such as items added or the folder renamed, are not considered when sorting by Last Modified.</td>
-       </tr>
-       <tr>
-        <td role="rowheader">Collections</td>
-        <td>All collections are sorted by their creation dates. Changes made to a collection, such as items added or the collection renamed, are not considered when sorting by Last Modified.</td>
-       </tr>
-      </tbody>
-     </table></p></li> 
-  </ul> </li> 
- <li value="6"> <p>Click the sort arrows to select the desired sort order.</p> <p> <img src="assets/ascendingarrow.png"> </p> <p>The Up arrow sorts in ascending order, while the down arrow sorts in descending order.</p> </li> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. Select the area you want to sort.
+
+  * Users with Manager or higher access to Workfront Library can sort the items in My Content, Library, or Collections areas. 
+  * Users with Viewer access can sort their Library and Collections areas.
+
+1. Click the `Sort` drop-down arrow icon ![](assets/sort-icon.png).
+1. Select the sort criterion.
+
+   You can choose from the following criteria:
+
+  * `Name:` Sorts each type of item alphabetically by name. For example, content files are sorted by file name.
+  * `Last Modified:` Sorts each type of item by the following date:
+
+    | Content |All content files are sorted base on the dates they were last changed, such as when a new version was upload or when a file's metadata was edited. |
+    |---|---|
+    | Folders |All folders are sorted by their creation dates. Changes made to a folder, such as items added or the folder renamed, are not considered when sorting by Last Modified. |
+    | Collections |All collections are sorted by their creation dates. Changes made to a collection, such as items added or the collection renamed, are not considered when sorting by Last Modified. |
+
+1. Click the sort arrows to select the desired sort order.
+
+   ![](assets/ascendingarrow.png)
+
+   The Up arrow sorts in ascending order, while the down arrow sorts in descending order.
 

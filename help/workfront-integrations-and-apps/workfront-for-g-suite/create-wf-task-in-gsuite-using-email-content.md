@@ -49,33 +49,41 @@ Before you can create a Workfront task in G Suite, you must
 
 ## Create a Adobe Workfront task in G Suite using email content
 
-<ol> 
- <li value="1">If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
- <li value="2"> <p>With the email message open in G Suite, click an option in Workfront for G Suite to convert the email to a new Workfront task.</p> <p> <img src="assets/convert-email-task-issue-update.png"> </p> </li> 
- <li value="3">Select a <span class="bold">Create new</span> option to indicate whether the task is going to be part of a project or a personal task that is independent of a project.</li> 
- <li value="4"> <p>If you want to attach the task to a parent project, click <span class="bold">Project name</span>, start typing the name of the project where you want the task, then click the project name when it appears in the list below.</p> </li> 
- <li value="5"> <p>Make any of these changes:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Task name</td> 
-     <td>Edit any part of this text, which is taken from the email's subject line.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Edit any part of this text, which is taken from the body of the email.</td> 
-    </tr> Assign To Click Assign To, click the Assign this to option that appears, then start typing the person's name and click it when it appears in the list below. Repeat this for each person you want to add, then click Save. Planned duration Click Planned duration, then type the number of days you want the task to take. Note: This option can be configured for your organization in different ways. For example, for your organization, you may need to type a number of hours instead of days. If you need more information, see your Workfront administrator. If you want to specify a time period other than the configured default, type m, h, d, w, or mo after the number to signify minutes, hours, days, weeks, or months. Priority Click the drop-down arrow, then click the priority you want for the task. Include email attachments (Available only if the email contains at least one attachment.) Click this option to save attachments in the email to the Documents area of the task. If you do not want to save an attachment, click the X to the right of its name. If the email contains links to documents in Google Drive, they are saved to the Overview tab of the task you are creating. Important: In order for this to work, your Workfront administrator must authorize Google Drive to work with documents in Workfront, as described in the section Configure integrations to manage documents in the article Configure document integrations. If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates. Include email file Click this option to save the original email as an email (EML) file to the Documents area of the task. From there, you can double-click the file to open the email in your email application. If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates. 
-   </tbody> 
-  </table> </li> 
- <li value="6"> <p>Click <span class="bold">Create Task</span>.</p> <p>The <span class="bold">Details</span> tab for the new task displays in the Workfront for G Suite panel. You can click <span class="bold">Updates</span> and start communicating with collaborators right away without leaving your in box. </p> <p> At the bottom of the <span class="bold">Details</span> tab, you can also click <span class="bold">View in Workfront</span> to go to the new task in Workfront.</p> <p>When you refresh your browser, a message with a link at the bottom of the Workfront for G Suite panel confirms that you have converted the email to an task:</p> <p> <img src="assets/email-was-converted.png"> </p> <p>You can click the link to go to the Details view, within the Workfront for G Suite panel, for the task you've created.</p> <p>You can repeat these steps to convert the same email to multiple tasks. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.</p> </li> 
- <li value="7">(Optional) Continue to work with the task in the Workfront for G Suite panel by doing any of the following:
-  <ul>
-   <li>To add an update on the <span class="bold">Updates</span> tab, click <span class="bold">Start a new update</span> and type the update. </li>
-   <li><p>To reply to an update on the <span class="bold">Updates</span> tab, click <span class="bold">Reply</span> and type your reply. </p><p>For both of the above actions, you can notify particular users about your comment. Click&nbsp;<span class="bold">Notify</span>, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click <span class="bold">Post</span>.</p></li>
-   <li>Click the <span class="bold">Documents</span> tab to see any documents saved with the task.</li>
-  </ul></li> 
-</ol>
+1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
+1. With the email message open in G Suite, click an option in Workfront for G Suite to convert the email to a new Workfront task.
+
+   ![](assets/convert-email-task-issue-update.png)
+
+1. Select a `Create new` option to indicate whether the task is going to be part of a project or a personal task that is independent of a project.
+1. If you want to attach the task to a parent project, click `Project name`, start typing the name of the project where you want the task, then click the project name when it appears in the list below.
+1. Make any of these changes:
+
+   | Task name |Edit any part of this text, which is taken from the email's subject line. |
+   |---|---|
+   | Description |Edit any part of this text, which is taken from the body of the email. |
+
+1. Click `Create Task`.
+
+   The `Details` tab for the new task displays in the Workfront for G Suite panel. You can click `Updates` and start communicating with collaborators right away without leaving your in box.
+
+   At the bottom of the `Details` tab, you can also click `View in Workfront` to go to the new task in Workfront.
+
+   When you refresh your browser, a message with a link at the bottom of the Workfront for G Suite panel confirms that you have converted the email to an task:
+
+   ![](assets/email-was-converted.png)
+
+   You can click the link to go to the Details view, within the Workfront for G Suite panel, for the task you've created.
+
+   You can repeat these steps to convert the same email to multiple tasks. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.
+
+1. (Optional) Continue to work with the task in the Workfront for G Suite panel by doing any of the following:
+
+  * To add an update on the `Updates` tab, click `Start a new update` and type the update. 
+  
+  * To reply to an update on the `Updates` tab, click `Reply` and type your reply.
+
+    For both of the above actions, you can notify particular users about your comment. Click  `Notify`, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click `Post`.
+  
+  * Click the `Documents` tab to see any documents saved with the task.
 
 You can repeat these steps to convert the same email to multiple tasks. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.

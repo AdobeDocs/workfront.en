@@ -46,14 +46,20 @@ You must have the following access to perform the steps in this article:
 
 To change a flag on a story:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. (Optional) Click the Switch team icon , then either select a new Kanban team from the drop-down menu or search for a team in the search bar. 
- <li value="3">Go to the Kanban board where you want to change a flag on a story.</li> 
- <li value="4">Expand the story tile to view the&nbsp;flag.<br>The flag is set to <span class="bold">On Track</span> for each story by default.<br><img src="assets/agile-storycard-kanban-2021-350x308.png" alt="Kanban card" style="width: 350;height: 308;"></li> 
- <li value="5">Click the current flag, then select from the&nbsp;following flag options: 
-  <ul>
-   <li><span class="bold">On Track:</span>&nbsp;The story is in the appropriate status and no action needs to be taken at this time.<br>This is the default flag for each story on the Kanban board.<br><img src="assets/kanban-flag-ontrack.png" alt="kanban_flag_ontrack.png"></li>
-   <li><span class="bold">Is Blocked:</span>&nbsp;The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see&nbsp;the article <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.<br><img src="assets/kanban-flag-blocked.png" alt="kanban_flag_blocked.png"></li>
-   <li><span class="bold">Ready to Pull:</span>&nbsp;The story is ready to be moved to the next status by another member of the team.<br><img src="assets/kanban-flag-ready.png" alt="kanban_flag_ready.png"></li>
-  </ul></li> 
-</ol>
+1. Go to the Kanban board where you want to change a flag on a story.
+1. Expand the story tile to view the&nbsp;flag.  
+   The flag is set to `On Track` for each story by default.  
+   ![Kanban card](assets/agile-storycard-kanban-2021-350x308.png)
+
+1. Click the current flag, then select from the&nbsp;following flag options:
+
+  * `On Track:`&nbsp;The story is in the appropriate status and no action needs to be taken at this time.  
+    This is the default flag for each story on the Kanban board.  
+    ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+
+  * `Is Blocked:`&nbsp;The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see&nbsp;the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).  
+    ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
+
+  * `Ready to Pull:`&nbsp;The story is ready to be moved to the next status by another member of the team.  
+    ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
 

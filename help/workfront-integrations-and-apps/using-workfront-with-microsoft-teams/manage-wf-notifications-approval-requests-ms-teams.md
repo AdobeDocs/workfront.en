@@ -67,14 +67,24 @@ Consider the following when working with Workfront notifications from Microsoft 
 
 To manage the Workfront notifications that you can receive in Microsoft Teams:
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">More added</span> apps icon on the left navigation bar in Microsoft Teams.</p> <p> <img src="assets/ms-teams-more-added-apps-icon.png"> </p> </li> 
- <li value="2">Click Workfront in the list that appears.</li> 
- <li value="3"> <p>Select the <span class="bold">Settings</span>tab.</p> <p> <img src="assets/ms-teams-settings-tab-350x552.png" style="width: 350;height: 552;"> </p> </li> 
- <li value="4">Disable any of the notifications that you do not want to receive. You can enable or disable groups of notifications, such as information or approval notifications, or you can manage notifications individually.<p>All notifications are enabled by default.</p><p>The notifications settings for Workfront for Microsoft Teams are saved automatically.</p><note type="note">
-   You cannot add more notifications to the ones that are available by default.
-  </note></li> 
-</ol>
+1. Click the `More added` apps icon on the left navigation bar in Microsoft Teams.
+
+   ![](assets/ms-teams-more-added-apps-icon.png)
+
+1. Click Workfront in the list that appears.
+1. Select the `Settings`tab.
+
+   ![](assets/ms-teams-settings-tab-350x552.png)
+
+1. Disable any of the notifications that you do not want to receive. You can enable or disable groups of notifications, such as information or approval notifications, or you can manage notifications individually.
+
+   All notifications are enabled by default.
+
+   The notifications settings for Workfront for Microsoft Teams are saved automatically.
+
+   >[!NOTE]
+   >
+   >You cannot add more notifications to the ones that are available by default.
 
 ## Responding to Workfront Notifications and Approval Requests in Microsoft Teams
 

@@ -55,25 +55,33 @@ You must have the following access to perform the steps in this article:
 
 ## Edit objects inline
 
-<ol> 
- <li value="1"> <p>Go to a list of objects you want to inline edit.</p> <p>The list should display fields that belong to the objects or fields that belong to objects associated with the objects in the list.</p> </li> 
- <li value="2"> <p>Locate the object you want to edit, then click inside any field in the list.</p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>"> <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>If you have multiple pages, you can locate an object by using:</p> 
-   <ul> 
-    <li> <p><span class="bold">Pagination</span>: Click the backward and forward arrows to navigate between pages.<br>Located at the bottom-right corner of the list, the pagination area remains sticky as you scroll through the list.</p> </li> 
-    <li> <p><span class="bold">Quick filter</span>: Click the filter icon or type Alt+F to open the quick filter, then enter text to display only items that contain the entered text.<br>The quick filter is located in the list toolbar. For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </li> 
-   </ul> 
-  </div> <p>If the field can be edited, this turns the field and all other fields displayed in the list into editable cells.</p> <p>  </p> </li> 
- <li value="3"> <p>Edit the information inside this cell, then press Enter.</p> <note type="note">
-   If a custom field has been configured to allow formatting, you can bold, italicize, or underline text when inline editing the field in an updated list.
-   <br>For information on configuring formatting for a custom field, see 
-   <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.
-   <br>For information on updated lists, see the section "The difference between the updated and the legacy lists" in the article 
-   <a href="../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref">Get started with lists in&nbsp;Adobe Workfront</a>.
-  </note> </li> 
- <li value="4"> <p>Press Tab to move to the next editable cell.</p> </li> 
- <li value="5"> <p>(Conditional) If you are unable to save your edits and the cell is outlined in red, click inside the field to review the validation message that displays next to the cell and make the appropriate updates.</p> <p>Most commonly, this happens when the wrong format is used or a required field has been left blank.</p> </li> 
- <li value="6"> <p>After you finish modifying all the cells, press Enter to save your changes.</p> </li> 
-</ol>
+1. Go to a list of objects you want to inline edit.
+
+   The list should display fields that belong to the objects or fields that belong to objects associated with the objects in the list.
+
+1. Locate the object you want to edit, then click inside any field in the list.
+
+   ` `**Tip: **`` If you have multiple pages, you can locate an object by using:
+
+  * `Pagination`: Click the backward and forward arrows to navigate between pages.  
+    Located at the bottom-right corner of the list, the pagination area remains sticky as you scroll through the list.
+  * `Quick filter`: Click the filter icon or type Alt+F to open the quick filter, then enter text to display only items that contain the entered text.  
+    The quick filter is located in the list toolbar. For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+
+   If the field can be edited, this turns the field and all other fields displayed in the list into editable cells.
+
+1. Edit the information inside this cell, then press Enter.
+
+   >[!NOTE]
+   >
+   >If a custom field has been configured to allow formatting, you can bold, italicize, or underline text when inline editing the field in an updated list.  
+   >For information on configuring formatting for a custom field, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).  
+   >For information on updated lists, see the section "The difference between the updated and the legacy lists" in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+1. Press Tab to move to the next editable cell.
+1. (Conditional) If you are unable to save your edits and the cell is outlined in red, click inside the field to review the validation message that displays next to the cell and make the appropriate updates.
+
+   Most commonly, this happens when the wrong format is used or a required field has been left blank.
+
+1. After you finish modifying all the cells, press Enter to save your changes.
 

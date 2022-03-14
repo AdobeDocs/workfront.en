@@ -48,22 +48,21 @@ After adding a proof to a Basecamp project, your reviewers will receive an email
 
 ## Adding an Existing Proof to a Basecamp Project
 
-<ol> 
- <li value="1">In Workfront Proof, go to the Proof details page, as described in&nbsp;<a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref" xrefformat="{para}">Manage Proof Details in Workfront Proof</a>.</li> 
- <li value="2">In the <span class="bold">Workflow</span> section, open the <span class="bold">More sharing options</span> section.</li> 
- <li value="3">Make sure <span class="bold">Proof URL</span> and <span class="bold">Embed code</span> are set to <span class="bold">Enable</span>.</li> 
- <li value="4">Click&nbsp;<span class="bold">Add proof to a Basecamp project</span>.</li> 
- <li value="5">In the Add to Basecamp box that appears, do the following: 
-  <ol style="list-style-type: lower-alpha;">
-   <li value="1">Click <span class="bold">Refresh the data</span> to synchronize with Basecamp Classic before proceeding.</li>
-   <li value="2">Select your Basecamp project.&nbsp;</li>
-   <li value="3">Under <span class="bold">People on the project</span>, select the check boxes for the reviewers in your Basecamp Classic account that you want to add to the proof. </li>
-   <p>Reviewers appear in their default role/email alert. The selected reviewers receive a message in Basecamp for this proof and also an email notification from Workfront Proof.</p><note type="note">
-    If reviewer defaults have been changed, you must refresh the Basecamp data before the new defaults will be used. To refresh the Basecamp data click the "refresh" link on the Basecamp pop-up in Workfront Proof. Include your own name if you also want to receive the message in Basecamp&nbsp;
-   </note>
-  </ol></li> 
- <li value="6">Click <span class="bold">OK</span>.&nbsp;</li> 
-</ol>
+1. In Workfront Proof, go to the Proof details page, as described in&nbsp; [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. In the `Workflow` section, open the `More sharing options` section.
+
+1. Make sure `Proof URL` and `Embed code` are set to `Enable`.
+
+1. Click  `Add proof to a Basecamp project`.
+1. In the Add to Basecamp box that appears, do the following:
+
+  1. Click `Refresh the data` to synchronize with Basecamp Classic before proceeding.
+  1. Select your Basecamp project.&nbsp;
+  1. Under `People on the project`, select the check boxes for the reviewers in your Basecamp Classic account that you want to add to the proof. 
+  1. Reviewers appear in their default role/email alert. The selected reviewers receive a message in Basecamp for this proof and also an email notification from Workfront Proof.
+  1. If reviewer defaults have been changed, you must refresh the Basecamp data before the new defaults will be used. To refresh the Basecamp data click the "refresh" link on the Basecamp pop-up in Workfront Proof. Include your own name if you also want to receive the message in Basecamp&nbsp;
+
+1. Click `OK`.&nbsp;
 
 After you have added the proof to your Basecamp Classic project, you will see additional options showing in the More sharing options section of the Proof details page (for information about this page, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).&nbsp;You will be able to:
 

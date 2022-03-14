@@ -49,22 +49,30 @@ You must have the following access to perform the steps in this article:
 
 You can create a project from the Projects area in theMain Menu, or from the Projects area of a portfolio or a program.
 
-<ol> 
- <li value="1">Go to Microsoft Project and open a project that you want to import from in Workfront. </li> 
- <li value="2">Click <span class="bold">File</span>, then <span class="bold">Save As</span> to save the project as an .xml file. </li> 
- <li value="3">Log in to Workfront. </li> 
- <li value="4"> <p>Do one of the following:</p> 
-  <ul> 
-   <li> <p> Click the Main Menu, click Projects, then expand New Project. </p> </li> 
-   <li> <p> Go to a portfolio, then expand New Project. </p> </li> 
-   <li> <p> Go to a program, then expand New Project. </p> </li> If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see View and create projects from the Groups area in the new Adobe Workfront experience. 
-  </ul> </li> 
- <li value="5"> <p>Choose the <span class="bold">Import MS Project</span> option. </p> <p>  </p> </li> 
- <li value="6">Click <span class="bold">Select File</span>, then browse for the .xml file on your computer which you exported from Microsoft Project. </li> 
- <li value="7"> <p>Import the selected file.</p> <p>Workfront begins the import process and creates a new project based on the file exported from Microsoft Project.<br></p> <p>After the import process is complete, you are directed to the new project page that displays a confirmation that the import has completed successfully.</p> <note type="note">
-   Workfront has a 15-minute time limitation on file uploads. If the file upload takes longer than that, we recommend that you break out your project into smaller projects and import them separately. Once they have been imported into Workfront, move the tasks from one project to the other project to combine them into one project. For information on moving tasks, see 
-   <a href="../../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Move tasks</a>.
-  </note> </li> 
- <li value="8"> <p>(Optional) Continue editing the project in Workfront. For information about editing projects, see <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> <p>The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the Project Preferences area or by a group administrator <span>in the Group Project Preferences area.</span> For information about configuring project preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p> </li> 
-</ol>
+1. Go to Microsoft Project and open a project that you want to import from in Workfront. 
+1. Click `File`, then `Save As` to save the project as an .xml file. 
+
+1. Log in to Workfront. 
+1. Do one of the following:
+
+  * Click the Main Menu, click Projects, then expand New Project. 
+  * Go to a portfolio, then expand New Project. 
+  * Go to a program, then expand New Project.
+
+1. Choose the `Import MS Project` option.
+
+1. Click `Select File`, then browse for the .xml file on your computer which you exported from Microsoft Project. 
+1. Import the selected file.
+
+   Workfront begins the import process and creates a new project based on the file exported from Microsoft Project.
+
+   After the import process is complete, you are directed to the new project page that displays a confirmation that the import has completed successfully.
+
+   >[!NOTE]
+   >
+   >Workfront has a 15-minute time limitation on file uploads. If the file upload takes longer than that, we recommend that you break out your project into smaller projects and import them separately. Once they have been imported into Workfront, move the tasks from one project to the other project to combine them into one project. For information on moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+
+1. (Optional) Continue editing the project in Workfront. For information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+   The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the Project Preferences area or by a group administrator `in the Group Project Preferences area.` For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

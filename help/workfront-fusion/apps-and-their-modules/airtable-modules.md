@@ -20,13 +20,14 @@ For more information, see the tutorial Sync Airtable and Google contacts.
 
 ## Connect Airtable to Workfront Fusion
 
-<ol> 
- <li value="1">Log in to your Airtable account.</li> 
- <li value="2"> <p>Open your account overview and generate the API key.</p> </li> 
- <li value="3">Open Workfront Fusion and the <span class="bold">Create a connection</span> dialog of the desired module.</li> 
- <li value="4"> <p>Enter the generated API key in the <span class="bold">API</span> token field.</p> <p> <img src="assets/airtable-create-a-connection-350x263.png" style="width: 350;height: 263;"> </p> </li> 
- <li value="5">Click the <span class="bold">Continue</span> button. The connection is now established.</li> 
-</ol>
+1. Log in to your Airtable account.
+1. Open your account overview and generate the API key.
+1. Open Workfront Fusion and the `Create a connection` dialog of the desired module.
+1. Enter the generated API key in the `API` token field.
+
+   ![](assets/airtable-create-a-connection-350x263.png)
+
+1. Click the `Continue` button. The connection is now established.
 
 ## Airtable modules and their fields
 

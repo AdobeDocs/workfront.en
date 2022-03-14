@@ -11,15 +11,26 @@ description: Adobe Workfront supports filter variables or wildcards when buildin
 
 Adobe Workfront supports filter variables or wildcards when building the following elements:
 
-<ul> 
- <li> <p>Filters in lists, reports, and the Resource Planner</p> <p>For information about Workfront filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </li> 
- <li> <p>Advanced searches</p> <p>For information about advanced searches, see the section <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search" class="MCXref xref">Use Advanced Search</a> in the article <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md" class="MCXref xref">Search Adobe Workfront</a>.</p> </li> 
- <li> <p>Calculated columns in views</p> </li> 
- <li> <p>Conditional formatting in views</p> <p>For information about conditional formatting, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </li> 
- <li> <p>Calculated custom fields</p> <note type="note">
-   Wildcard filter variables are not supported when referencing nested collections in a calculated column.
-  </note> <p>For information about calculated custom fields and columns, see the article <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md" class="MCXref xref">Calculated custom fields vs. calculated columns</a>.</p> </li> 
-</ul>
+* Filters in lists, reports, and the Resource Planner
+
+  For information about Workfront filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+* Advanced searches
+
+  For information about advanced searches, see the section [Use Advanced Search](../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search) in the article [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+
+* Calculated columns in views
+* Conditional formatting in views
+
+  For information about conditional formatting, see the article [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+
+* Calculated custom fields
+
+  >[!NOTE]
+  >
+  >Wildcard filter variables are not supported when referencing nested collections in a calculated column.
+
+  For information about calculated custom fields and columns, see the article [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 By using wildcards, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic and the results change depending on the context in which they are used.  
 For example, filtering for $$USER.homeGroupID in a project report retrieves only projects associated with the Home Group of the user who is logged in.

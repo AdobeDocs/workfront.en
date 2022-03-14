@@ -50,10 +50,18 @@ As a new user, after you&nbsp;receive the invitation email, you&nbsp;can follow 
 
 To create a password for Workfront using the invitation email:
 
-<ol> 
- <li value="1">Click <span class="bold">Get Started</span> in the invitation email from Workfront. <br>For more information about receiving an invitation email, see <a href="#receiving-email-invitations" class="MCXref xref">Receive email invitations</a>.<br><img src="assets/new-user-screen-after-clicking-get-started-on-the-invitation-350x290.png" alt="" style="width: 350;height: 290;"></li> 
- <li value="2">Specify the following information:<br><span class="bold">First Name</span>: Your first name (it should be prefilled).<br><span class="bold">Last Name</span>: Your last name (it should be prefilled).<br><span class="bold">Title</span>: Your title in your organization.<br><span class="bold">Password</span>: Choose a password to log in to Workfront.<br><span class="bold">Confirm Password</span>: Confirm your Workfront password.&nbsp;</li> 
- <li value="3">Select <span class="bold">I accept the Terms and Conditions</span>.</li> 
- <li value="4">Click <span class="bold">Log Me In</span>.<br>This completes the creation of your user account in Workfront.&nbsp;</li> 
-</ol>
+1. Click `Get Started` in the invitation email from Workfront.   
+   For more information about receiving an invitation email, see [Receive email invitations](#receiving-email-invitations).  
+   ![](assets/new-user-screen-after-clicking-get-started-on-the-invitation-350x290.png)
+
+1. Specify the following information:  
+   `First Name`: Your first name (it should be prefilled).  
+   `Last Name`: Your last name (it should be prefilled).  
+   `Title`: Your title in your organization.  
+   `Password`: Choose a password to log in to Workfront.  
+   `Confirm Password`: Confirm your Workfront password.&nbsp;
+
+1. Select `I accept the Terms and Conditions`.
+1. Click `Log Me In`.  
+   This completes the creation of your user account in Workfront.&nbsp;
 

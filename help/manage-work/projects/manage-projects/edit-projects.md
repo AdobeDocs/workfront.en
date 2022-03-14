@@ -66,40 +66,68 @@ You can edit projects in bulk and update all their information at the same time.
 
 To edit projects in bulk:
 
-<ol> 
- <li value="1"> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
- <li value="2"> Click Projects. </li> 
- <li value="3">Select several projects in the list.</li> 
- <li value="4"> <p>Click <span class="bold">Edit</span>.<br></p> <p>The <span class="bold">Edit Projects</span> dialog box opens.</p>  </li> 
- <li value="5"> <p> Specify the information on all selected projects in the following sections: </p> 
-  <ul> 
-   <li> <p>Overview</p> For information, see the Overview section in this article. </li> 
-   <li> <p>Finance </p> For information, see the Finance section in this article. </li> 
-   <li> <p>Portfolio</p> For information, see the "Project association" section in the Overview section in this article. </li> 
-   <li> <p>Settings</p> For information, see the Project Settings section in this article. </li> 
-   <li> <p>Access</p> For information, see the Access section in this article. </li> 
-   <li> <p>Custom Forms</p> <p>For information, continue with step 7 below. </p> </li> 
-   <li> <p>Tasks</p> For information, see the Task Settings section in this article. </li> Issues For information, see the Issue Settings section in this article. 
-   <li> <p>Comment</p> <p>For information, continue with step 9 below. </p> </li> 
-  </ul> <note type="note">
-   The information you are changing on all the projects selected will override the existing information on individual projects, except for the 
-   <span class="bold">Resource Manager</span> field. Adding a new resource manager in bulk edit will add that manager to all the selected projects. If other resource managers are associated with the selected projects, they will remain on the projects in addition to the one added through bulk edit. 
-  </note> </li> 
- <li value="6"> <p>(Optional) In the Settings area, select any of the following options:<br></p> 
-  <ul> 
-   <li><span class="bold">Recalculate Costs and Revenues</span>: Select this option to recalculate Costs and Revenues on all projects selected.</li> 
-   <li><span class="bold">Recalculate Timelines</span>: Select this option to recalculate the Timelines of all projects selected.</li> 
-   <li><span class="bold">Recalculate Scorecards</span>: Select this option to recalculate the Scorecard values for all projects selected. </li> 
-  </ul> <p> <img src="assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png" alt="recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG" style="width: 350;height: 225;"> </p> </li> 
- <li value="7"> <p>Click <span class="bold">Custom Forms</span> to edit the custom forms attached to all the projects selected.<br></p> <p>If the projects selected do not have any common custom forms, no forms are listed in this section.<br></p> <p>You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. </p> </li> 
- <li value="8"> <p>(Optional) In the Custom Forms section, select the <span class="bold">Recalculate Custom Expressions</span> option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date. </p> <note type="important">
-   We recommend not to select more than 500 projects at a time when you recalculate custom expressions. 
-  </note> </li> 
- <li value="9"> <p>(Optional) Click <span class="bold">Comment</span>, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:</p> 
-  <ul> 
-   <li> <p>Click the <span class="bold">People</span> icon <img src="assets/people-icon-updates-classic.png"> to tag a user who will be notified about your comment.</p> </li> 
-   <li> <p>Click the <span class="bold">Lock</span> icon <img src="assets/lock-icon-open-updates-classic.png"> to restrict your comment only to people within your company. </p> </li> 
-  </ul> <p>This comment is visible for everyone with View access to the project and with access to view Notes.</p> </li> 
- <li value="10"> <p>Click <span class="bold">Save Changes</span>.<br></p> <p>All changes you made are now visible on all the selected projects. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click Projects. 
+1. Select several projects in the list.
+1. Click `Edit`.
+
+   The `Edit Projects` dialog box opens.
+
+1. Specify the information on all selected projects in the following sections:
+
+  * Overview
+    For information, see the Overview section in this article. 
+  * Finance 
+    For information, see the Finance section in this article. 
+  * Portfolio
+    For information, see the "Project association" section in the Overview section in this article. 
+  * Settings
+    For information, see the Project Settings section in this article. 
+  * Access
+    For information, see the Access section in this article. 
+  * Custom Forms
+
+    For information, continue with step 7 below. 
+  
+  * Tasks
+    For information, see the Task Settings section in this article. 
+  * Comment
+
+    For information, continue with step 9 below.
+
+   >[!NOTE]
+   >
+   >The information you are changing on all the projects selected will override the existing information on individual projects, except for the `Resource Manager` field. Adding a new resource manager in bulk edit will add that manager to all the selected projects. If other resource managers are associated with the selected projects, they will remain on the projects in addition to the one added through bulk edit.
+
+1. (Optional) In the Settings area, select any of the following options:
+
+  * `Recalculate Costs and Revenues`: Select this option to recalculate Costs and Revenues on all projects selected.
+  * `Recalculate Timelines`: Select this option to recalculate the Timelines of all projects selected.
+  * `Recalculate Scorecards`: Select this option to recalculate the Scorecard values for all projects selected.
+
+   ![recalculate_costs__scorecards__etc_in_bulk_edit_for_projects.PNG](assets/recalculate-costs--scorecards--etc-in-bulk-edit-for-projects-350x225.png)
+
+1. Click `Custom Forms` to edit the custom forms attached to all the projects selected.
+
+   If the projects selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all projects selected and which you have permissions to edit. 
+
+1. (Optional) In the Custom Forms section, select the `Recalculate Custom Expressions` option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the projects selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 projects at a time when you recalculate custom expressions.
+
+1. (Optional) Click `Comment`, then select the Post an update to each project box and specify a comment that you want to display in the updates stream of the project in the available field and do one of the following:
+
+  * Click the `People` icon ![](assets/people-icon-updates-classic.png) to tag a user who will be notified about your comment.
+  * Click the `Lock` icon ![](assets/lock-icon-open-updates-classic.png) to restrict your comment only to people within your company.
+
+   This comment is visible for everyone with View access to the project and with access to view Notes.
+
+1. Click `Save Changes`.
+
+   All changes you made are now visible on all the selected projects.
 

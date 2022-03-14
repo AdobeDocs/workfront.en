@@ -53,17 +53,23 @@ You must add both modules to a scenario before you can add a filter between them
 
 ## Add a filter between two modules:
 
-<ol> 
- <li value="1"> <p>Click Scenarios <img src="assets/scenarios-icon.png"> in the left panel, then click the scenario to open it.</p> </li> 
- <li value="2">In the upper-right corner of the window, click <span class="bold">Edit</span>.</li> 
- <li value="3">Click the connecting line between the modules. </li> 
- <li value="4">In the box that displays, type a <span class="bold">Label</span> for the filter.</li> 
- <li value="5"> <p>Define a filter <span class="bold">Condition</span>. </p> <p>You can enter one or two operands in the two boxes. If you enter operands in both boxes, you can select an operator in the drop-down menu between them to specify the relation between them. </p> <note type="tip">
-   In the operand fields, you can enter values in the same way as you would map them, as described in 
-   <a href="../../workfront-fusion/mapping/map-information-between-modules.md" class="MCXref xref">Map information from one module to another</a>.
-  </note> <p>For example, if you wanted the filter to find files in Adobe Workfrontending with XML and pass them on to Dropbox, you would type <span class="bold">File name</span> in the first box and .<span class="bold">xml</span> in the second box. In the drop-down menu between them, you would select <span class="bold">Ends with (case insensitive)</span>. This filter would apply to incoming bundles from the first module (Workfront). Only bundles containing XML files would pass on to the next module (Dropbox).</p> <p> <img src="assets/set-up-filter-box-350x368.jpg" style="width: 350;height: 368;"> </p> </li> 
- <li value="6">Click <span class="bold">OK</span>.</li> 
-</ol>
+1. Click Scenarios ![](assets/scenarios-icon.png) in the left panel, then click the scenario to open it.
+1. In the upper-right corner of the window, click `Edit`.
+1. Click the connecting line between the modules. 
+1. In the box that displays, type a `Label` for the filter.
+1. Define a filter `Condition`.
+
+   You can enter one or two operands in the two boxes. If you enter operands in both boxes, you can select an operator in the drop-down menu between them to specify the relation between them.
+
+   >[!TIP]
+   >
+   >In the operand fields, you can enter values in the same way as you would map them, as described in [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+   For example, if you wanted the filter to find files in Adobe Workfrontending with XML and pass them on to Dropbox, you would type `File name` in the first box and . `xml` in the second box. In the drop-down menu between them, you would select `Ends with (case insensitive)`. This filter would apply to incoming bundles from the first module (Workfront). Only bundles containing XML files would pass on to the next module (Dropbox).
+
+   ![](assets/set-up-filter-box-350x368.jpg)
+
+1. Click `OK`.
 
 ## Copy a filter
 
@@ -77,17 +83,20 @@ Currently, the scenario editor doesn't include a feature for copying a filter.
 
 To copy a filter without copying modules, you can use Google Chrome for the following workaround:
 
-<ol> 
- <li value="1">Install the Adobe Workfront Fusion DevTool Chrome extension.</li> 
- <li value="2">In Workfront Fusion, open the scenario.</li> 
- <li value="3">Click the Chrome three-dot menu, then click <span class="bold">More tools</span> > <span class="bold">Developer tools</span>. </li> 
- <li value="4"> <p>In the Developer tools panel that displays, on the menu bar across the top, click the Workfront Fusion tab.</p> <p> <img src="assets/copy-a-filter-350x174.png" style="width: 350;height: 174;"> </p> </li> 
- <li value="5">Click the <span class="bold">Tools</span> icon <img src="assets/devtools-tools-icon.png"> in the left side bar.</li> 
- <li value="6">Click <span class="bold">Copy Filter</span>, then configure the <span class="bold">Copy Filter</span> tool in the right side panel:
-  <ol>
-   <li value="1">Set the <span class="bold">Source Module</span> as the module right after the filter you want to copy.</li>
-   <li value="2">Set the <span class="bold">Target Module</span> as the module right before the filter you want to copy.</li>
-  </ol></li> 
- <li value="7"> <p>Click <span class="bold">Run</span>.</p> </li> 
-</ol>
+1. Install the Adobe Workfront Fusion DevTool Chrome extension.
+1. In Workfront Fusion, open the scenario.
+1. Click the Chrome three-dot menu, then click `More tools` > `Developer tools`. 
+
+1. In the Developer tools panel that displays, on the menu bar across the top, click the Workfront Fusion tab.
+
+   ![](assets/copy-a-filter-350x174.png)
+
+1. Click the `Tools` icon ![](assets/devtools-tools-icon.png) in the left side bar.
+
+1. Click `Copy Filter`, then configure the `Copy Filter` tool in the right side panel:
+
+  1. Set the `Source Module` as the module right after the filter you want to copy.
+  1. Set the `Target Module` as the module right before the filter you want to copy.
+
+1. Click `Run`.
 

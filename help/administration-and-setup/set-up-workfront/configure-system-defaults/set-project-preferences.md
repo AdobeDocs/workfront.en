@@ -40,17 +40,25 @@ You must have the following to perform the steps in this article:
 
 ## Configure project preferences for the entire organization
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Project Preferences</span> > <span class="bold">Projects</span>.</li> 
- <li value="3">On the page that appears, continue with one of the 4 sections listed below to configure preferences for Project Status, Timelines, Business Cases, and Life after Death.</li> 
- <li value="4"> <p>If you want all groups throughout the organization to use the same project preferences, make sure each preference is locked <img src="assets/lock-toggle-button.png"> (this is the default).</p> <note type="important">
-   When a project preferences is locked, any changes you make to that preference are inherited by all groups in the system. It's important to communicate with the users and groups throughout your organization to ensure that all needs are accounted for in the way you configure project preferences.
-  </note> <p>For information about unlocking a preference so that all groups can configure and manage it on their own, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md" class="MCXref xref">Lock or unlock project preferences for all groups in the system</a>.</p> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
 
-* `<li><a href="#project" class="MCXref xref" data-mc-variable-override="">Project Status</a> </li>` `<li><a href="#timelines" class="MCXref xref" data-mc-variable-override="">Timelines</a> </li>` `<li><a href="#business-cases" class="MCXref xref" data-mc-variable-override="">Business Cases</a> </li>` `<li><a href="#life-after-death" class="MCXref xref" data-mc-variable-override="">Life After Death </a> </li>`
+1. In the left panel, click `Project Preferences` > `Projects`.
+
+1. On the page that appears, continue with one of the 4 sections listed below to configure preferences for Project Status, Timelines, Business Cases, and Life after Death.
+1. If you want all groups throughout the organization to use the same project preferences, make sure each preference is locked ![](assets/lock-toggle-button.png) (this is the default).
+
+   >[!IMPORTANT]
+   >
+   >When a project preferences is locked, any changes you make to that preference are inherited by all groups in the system. It's important to communicate with the users and groups throughout your organization to ensure that all needs are accounted for in the way you configure project preferences.
+
+   For information about unlocking a preference so that all groups can configure and manage it on their own, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+
+1. Click `Save`.
+
+* [Project Status](#project) 
+* [Timelines](#timelines) 
+* [Business Cases](#business-cases) 
+* [Life After Death](#life-after-death)
 
 ### Project Status
 

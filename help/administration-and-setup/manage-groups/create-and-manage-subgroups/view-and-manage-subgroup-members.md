@@ -40,17 +40,30 @@ You must have the following to perform the steps in this article:
 
 ## View and manage members of the subgroups under a group
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>Click <span class="bold">Groups</span>. </p> <p>In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.</p> </li> 
- <li value="3"> <p>Click the name of the group for which you want to view or manage subgroup members.</p> </li> 
- <li value="4"> <p>In the left panel, click <span class="bold">Subgroup Members</span>.</p> <p>This left panel item is available only if the group has subgroups.</p> </li> 
- <li value="5"> <p>Do any of the following:</p> 
-  <ul> 
-   <li> <p>Select a member in the list, then click Edit <img src="assets/edit-icon.png"> to modify that person’s user profile.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a> or <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md" class="MCXref xref">Edit user profiles in bulk</a>.</p> </li> 
-   <li> <p>Select any number of members in the list, then click Update <img src="assets/comment-icon.png"> t o add a comment to their user profiles.</p> <p>The user or users receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates area in the user's profile.</p> </li> 
-   <li> <p>Select any number of members in the list, then click Deactivate <img src="assets/deactivate-user.png"> or Activate <img src="assets/activate-user.png">. </p> <p>For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
-   <li> <p>Export <img src="assets/export.png" style="width: 39px;height: 16px;"> the list of members.</p> </li> 
-  </ul> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Groups`.
+
+   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+
+1. Click the name of the group for which you want to view or manage subgroup members.
+1. In the left panel, click `Subgroup Members`.
+
+   This left panel item is available only if the group has subgroups.
+
+1. Do any of the following:
+
+  * Select a member in the list, then click Edit ![](assets/edit-icon.png) to modify that person’s user profile.
+
+    For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) or [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
+  
+  * Select any number of members in the list, then click Update ![](assets/comment-icon.png) t o add a comment to their user profiles.
+
+    The user or users receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates area in the user's profile.
+  
+  * Select any number of members in the list, then click Deactivate ![](assets/deactivate-user.png) or Activate ![](assets/activate-user.png).
+
+    For more information, see [Deactivate a user](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
+  
+  * Export ![](assets/export.png) the list of members.
 

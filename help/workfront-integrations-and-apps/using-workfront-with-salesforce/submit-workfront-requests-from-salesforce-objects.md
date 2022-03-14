@@ -70,26 +70,41 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
 
 ## View Workfront requests
 
-<ol> 
- <li value="1">Go to an Opportunity or Account in Salesforce.</li> 
- <li value="2"> <p>Go to the <span class="bold">Workfront</span> section.</p> <note type="note">
-   Depending on how your Workfront administrator configured this section, it might have a different name.
-  </note> </li> 
- <li value="3"> <p>Select the <span class="bold">Submitted Requests</span> tab.<br></p> <p>You can view all the requests that you or others have submitted from this Opportunity or Account in this tab.Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.</p> <note type="note">
-   Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.
-  </note> <p> <img src="assets/salesforce-submitted-requests-350x58.png" alt="salesforce_submitted_requests.png" style="width: 350;height: 58;"> </p> <p>You can view the following information about the submitted requests:</p> 
-  <ul> 
-   <li>Requests Name (in the Subject&nbsp;column)</li> 
-   <li>Reference Number</li> 
-   <li>Request&nbsp;Type</li> 
-   <li>Status</li> 
-   <li>Submitted on&nbsp;Date</li> 
-   <li>Requested by Name</li> 
-   <li>Assigned to Name<br>When this information is updated in Workfront, it is also updated in this list.&nbsp;</li> 
-  </ul> </li> 
- <li value="4"> <p>(Optional) Click the name of the request to open it in Workfront.&nbsp;</p> <p>On the Summary panel <img src="assets/summary-panel-icon.png">, notice the <span class="bold">Integrations</span> indicator that signifies that this issue originated in Salesforce and is currently linked to an item there.&nbsp;</p> </li> 
- <li value="5"> <p>(Optional) Click <span class="bold">Go to Salesforce</span> to access the Opportunity or Account where the issue originated.</p> <note type="note">
-   The Go to Salesforce link is visible to all Workfront users who can view the issue. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account where the issue was logged.&nbsp;
-  </note> </li> 
-</ol>
+1. Go to an Opportunity or Account in Salesforce.
+1. Go to the `Workfront` section.
+
+   >[!NOTE]
+   >
+   >Depending on how your Workfront administrator configured this section, it might have a different name.
+
+1. Select the `Submitted Requests` tab.
+
+   You can view all the requests that you or others have submitted from this Opportunity or Account in this tab.Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.
+
+   >[!NOTE]
+   >
+   >Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.
+
+   ![salesforce_submitted_requests.png](assets/salesforce-submitted-requests-350x58.png)
+
+   You can view the following information about the submitted requests:
+
+  * Requests Name (in the Subject&nbsp;column)
+  * Reference Number
+  * Request&nbsp;Type
+  * Status
+  * Submitted on&nbsp;Date
+  * Requested by Name
+  * Assigned to Name  
+    When this information is updated in Workfront, it is also updated in this list.&nbsp;
+
+1. (Optional) Click the name of the request to open it in Workfront.&nbsp;
+
+   On the Summary panel ![](assets/summary-panel-icon.png), notice the `Integrations` indicator that signifies that this issue originated in Salesforce and is currently linked to an item there.&nbsp;
+
+1. (Optional) Click `Go to Salesforce` to access the Opportunity or Account where the issue originated.
+
+   >[!NOTE]
+   >
+   >The Go to Salesforce link is visible to all Workfront users who can view the issue. You must have a Salesforce account to be able to go to the Salesforce Opportunity or Account where the issue was logged.&nbsp;
 

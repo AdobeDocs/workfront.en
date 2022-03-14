@@ -34,54 +34,51 @@ You must have the following in order to manage companies in Workfront:
 
 ## Manage company memberships
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> Click <span class="bold">Companies</span>.</li> 
- <li value="3"> <p>Click the name of the company.</p> </li> 
- <li value="4"> <p>With the <b>Company Members</b> section selected in the left panel, do any of the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> Add a member Click Add member, then select one of these options in the drop-down menu that displays: New user: Add a user who has not yet been added to Workfront. For information about adding users to Workfront, see Add users and Edit a user's profile. Existing user: Add a user already, existing in the system, that you have access to edit. Important: If the user is already a member of another company, the new assignment overrides the old one. The user loses access to items shared with the previous company and gains access to items shared with this company. Import Users: Import a users by uploading a spreadsheet import file. For more information, see Import users. 
-    <tr> 
-     <td role="rowheader">Edit members</td> 
-     <td> 
-      <ol> 
-       <li value="1"> <p>Select at least one user, then click the Edit icon <img src="assets/edit-icon.png"> in the toolbar.</p> </li> 
-       <li value="2"> <p>Configure the options in the <b>Edit User</b> box that displays.</p> <p>For information about these options, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
-      </ol> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Remove users</td> 
-     <td> 
-      <div> 
-       <p>Select at least one user, click <b>Remove users</b>, then select one of the following options in the drop-down menu that displays:</p> 
-       <ul> 
-        <li> <p><b>Remove from company</b>: Removes the user or users from the company.</p> </li> 
-        <li> <p><b>Delete</b>: Deletes the user or users from the Workfront system.</p> <note type="important">
-          Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see 
-          <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.
-         </note> </li> 
-       </ul> 
-      </div> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Send a comment to users and to their Updates areas</td> 
-     <td> 
-      <ol> 
-       <li value="1"> <p>Select at least one user, then click the Comment icon <img src="assets/comment-icon.png"> in the toolbar.</p> </li> 
-       <li value="2"> <p>Type the comment you want to send to the users and to the Updates area of their user profiles.</p> </li> 
-      </ol> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Export the list of company members</td> 
-     <td> <p>Click the Export icon <img src="assets/export.png"> in the toolbar, then select the format you want for the exported file.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Deactivate members in the system</td> 
-     <td> <p>Select at least one user, click the More icon <img src="assets/more-icon.png"> in the toolbar, then select <b>Deactivate</b>.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </td> 
-    </tr> Remind a user to register in the system In the Name column, Unregistered displays next to the name of each unregistered user. To remind these users to register in the system, select the users, click the More icon in the toolbar, then select Remind user to register. 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Companies`.
+1. Click the name of the company.
+1. With the **Company Members** section selected in the left panel, do any of the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> Add a member Click Add member, then select one of these options in the drop-down menu that displays: New user: Add a user who has not yet been added to Workfront. For information about adding users to Workfront, see Add users and Edit a user's profile. Existing user: Add a user already, existing in the system, that you have access to edit. Important: If the user is already a member of another company, the new assignment overrides the old one. The user loses access to items shared with the previous company and gains access to items shared with this company. Import Users: Import a users by uploading a spreadsheet import file. For more information, see Import users. 
+     <tr> 
+      <td role="rowheader">Edit members</td> 
+      <td> 
+       <ol> 
+        <li value="1"> <p>Select at least one user, then click the Edit icon <img src="assets/edit-icon.png"> in the toolbar.</p> </li> 
+        <li value="2"> <p>Configure the options in the <b>Edit User</b> box that displays.</p> <p>For information about these options, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
+       </ol> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Remove users</td> 
+      <td> 
+       <div> 
+        <p>Select at least one user, click <b>Remove users</b>, then select one of the following options in the drop-down menu that displays:</p> 
+        <ul> 
+         <li> <p><b>Remove from company</b>: Removes the user or users from the company.</p> </li> 
+         <li> <p><b>Delete</b>: Deletes the user or users from the Workfront system.</p> <p>Important: Deleting a user from the system also deletes information associated with the user that you might want to retain. We recommend deactivating users instead of deleting them. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
+        </ul> 
+       </div> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Send a comment to users and to their Updates areas</td> 
+      <td> 
+       <ol> 
+        <li value="1"> <p>Select at least one user, then click the Comment icon <img src="assets/comment-icon.png"> in the toolbar.</p> </li> 
+        <li value="2"> <p>Type the comment you want to send to the users and to the Updates area of their user profiles.</p> </li> 
+       </ol> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Export the list of company members</td> 
+      <td> <p>Click the Export icon <img src="assets/export.png"> in the toolbar, then select the format you want for the exported file.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Deactivate members in the system</td> 
+      <td> <p>Select at least one user, click the More icon <img src="assets/more-icon.png"> in the toolbar, then select <b>Deactivate</b>.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </td> 
+     </tr> Remind a user to register in the system In the Name column, Unregistered displays next to the name of each unregistered user. To remind these users to register in the system, select the users, click the More icon in the toolbar, then select Remind user to register. 
+    </tbody> 
+   </table>
 

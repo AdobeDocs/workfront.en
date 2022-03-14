@@ -74,46 +74,47 @@ The procedure of connecting the service via an API token is similar for most web
 
 To connect a web service to your Workfront Fusion scenario, you need to use the HTTP > Make a request module in the scenario and set up the module according to the web service's API&nbsp;documentation.
 
-<ol> 
- <li value="1"> <p>Add the HTTP > Make a Request module to your scenario.</p> </li> 
- <li value="2"> <p>To push a message using Workfront Fusion, set up the HTTP module as follows.</p> <note type="note">
-   These module settings correspond to the Pushover web service API documentation. Settings may be different for other web services. For example, the API token may be inserted to the Header and not to the Body field.
-  </note> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">URL</td> 
-     <td> <p><code>https://api.pushover.net/1/messages.json</code> </p> <p>The URL field contains the endpoint that you can find in the web service's API documentation.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Method</td> 
-     <td> <p><code>POST</code> </p> <p>The used method depends on the corresponding endpoint. The Pushover endpoint for pushing messages uses the POST method.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Headers</p> </td> 
-     <td> <p>Some web services may use Headers to specify the API token authentication or other parameters. This is not the case in our example as the Pushover's endpoint for pushing messages uses Body (see below) for all request types.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Query String</p> </td> 
-     <td> <p>Some web services may use a Query String to specify other parameters. This is not the case in our example as the Pushover web service uses Body (see below) for all request types.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Body Type</p> </td> 
-     <td> <p><code>Raw</code> </p> <p>This setting allows you to select the JSON content type in the Content Type field below.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Content Type</p> </td> 
-     <td> <p><code>JSON (application/json)</code> </p> <p>JSON is the required content type by the Pushover app. This may differ from other web services.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Request Content</p> </td> 
-     <td> <p>Enter the Body request content in the JSON format. You can use the JSON > Create JSON module as explained in <a href="#json" class="MCXref xref">JSON Body Mapped Using the JSON > Create JSON module</a> in this article. Or you can enter the JSON content manually, as explained in <a href="#json2" class="MCXref xref">JSON Body Entered Manually</a> in this article.</p> <p>See the web service's API documentation for the required parameters for that web service.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Add the HTTP > Make a Request module to your scenario.
+1. To push a message using Workfront Fusion, set up the HTTP module as follows.
+
+   >[!NOTE]
+   >
+   >These module settings correspond to the Pushover web service API documentation. Settings may be different for other web services. For example, the API token may be inserted to the Header and not to the Body field.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">URL</td> 
+      <td> <p><code>https://api.pushover.net/1/messages.json</code> </p> <p>The URL field contains the endpoint that you can find in the web service's API documentation.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Method</td> 
+      <td> <p><code>POST</code> </p> <p>The used method depends on the corresponding endpoint. The Pushover endpoint for pushing messages uses the POST method.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Headers</p> </td> 
+      <td> <p>Some web services may use Headers to specify the API token authentication or other parameters. This is not the case in our example as the Pushover's endpoint for pushing messages uses Body (see below) for all request types.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Query String</p> </td> 
+      <td> <p>Some web services may use a Query String to specify other parameters. This is not the case in our example as the Pushover web service uses Body (see below) for all request types.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Body Type</p> </td> 
+      <td> <p><code>Raw</code> </p> <p>This setting allows you to select the JSON content type in the Content Type field below.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Content Type</p> </td> 
+      <td> <p><code>JSON (application/json)</code> </p> <p>JSON is the required content type by the Pushover app. This may differ from other web services.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Request Content</p> </td> 
+      <td> <p>Enter the Body request content in the JSON format. You can use the JSON &gt; Create JSON module as explained in <a href="#json" class="MCXref xref">JSON Body Mapped Using the JSON &gt; Create JSON module</a> in this article. Or you can enter the JSON content manually, as explained in <a href="#json2" class="MCXref xref">JSON Body Entered Manually</a> in this article.</p> <p>See the web service's API documentation for the required parameters for that web service.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## JSON Body Entered Manually
 
@@ -156,10 +157,16 @@ The Create JSON module makes the specifying JSON easier. It also gives you the p
 
 For more information about the JSON modules, see [JSON modules](../../workfront-fusion/apps-and-their-modules/json-modules.md).
 
-<ol> 
- <li value="1"> <p>Enter or map the values you want to create JSON from.</p> <p> <img src="assets/json-values-350x288.png" style="width: 350;height: 288;"> </p> </li> 
- <li value="2"> <p>Connect the JSON > Create JSON module to the HTTP > Make a Request module.</p> </li> 
- <li value="3"> <p>Map the JSON string from the Create JSON module to the Request content field in the HTTP > Make a Request module.</p> <!--
-  --> <p>Now when you run the scenario, the push notification is sent to the device that has been registered in your Pushover account.</p> </li> 
-</ol>
+1. Enter or map the values you want to create JSON from.
+
+   ![](assets/json-values-350x288.png)
+
+1. Connect the JSON > Create JSON module to the HTTP > Make a Request module.
+1. Map the JSON string from the Create JSON module to the Request content field in the HTTP > Make a Request module.
+
+   <!--
+
+   -->
+
+   Now when you run the scenario, the push notification is sent to the device that has been registered in your Pushover account.
 

@@ -92,15 +92,45 @@ Create a filter in the Scheduling section (for projects) Tasks and issues from t
 
 To create a filter for the scheduling timeline on the Scheduling&nbsp;tab for multiple projects:
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. </p> </li> 
- <li value="2">Click <span class="bold">Filter</span>.<br><img src="assets/scheduling-filter-350x351.png" alt="" style="width: 350;height: 351;"></li> 
- <li value="3">Leave the <span class="bold">Saved Filters</span> field blank.</li> 
- <li id="project-filters" value="4">Determine which projects are represented in the Unassigned area by specifying the following information:<br><span class="bold">Portfolios:</span>&nbsp;Select any portfolios that include programs and projects that you want to be represented on the scheduling timeline. <br>Only programs within the portfolios you select are available to select&nbsp;in the <span class="bold">Program</span> field.<br><span class="bold">Programs:</span>&nbsp;Select any programs that&nbsp;include projects that you want to be represented on the scheduling timeline. <br>Your selections in the <span class="bold">Portfolio</span> field determine the programs that are available to select. <br>Only projects within the programs you select are available to select&nbsp;in the <span class="bold">Projects</span> field.<br><span class="bold">Project Priorities:</span> Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline. <br>Only projects with the priorities you select are represented.<br><span class="bold">Project Statuses:</span>&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline. <br>Only projects with the statuses&nbsp;you select are represented.<br><span class="bold">Project Companies:</span>&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a company you select.<br><span class="bold">Project&nbsp;Groups:</span>&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a group you select.<br><span class="bold">Projects:</span> Select any projects that you want to be represented on the scheduling timeline.&nbsp;Tasks and issues from the projects you select are displayed on the scheduling timeline.<br>Your selections in the previous fields determine the projects that are available to select. <br>Tasks and issues from the projects you select are displayed on the scheduling timeline. Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.</li> 
- <li id="user-filters" value="5">Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;<br><span class="bold">User Companies:</span> This field enables you to restrict users from other companies from being displayed on the scheduling timeline.<br>Leave this field blank if you want users from any company to be added. If you specify individual companies, only users from those companies can be added to the scheduling timeline. Specifying a company does not automatically add users from that company to the scheduling timeline. Instead, use the fields below to add specific users.<br>This option does not affect which tasks and issues are displayed in the Unassigned area.<span class="bold"><br>User&nbsp;Groups:</span> All users from any user group you specify are displayed on the scheduling timeline.<br><span class="bold">Teams:</span> All users from any team you specify are displayed on the scheduling timeline.<br>This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.<br><span class="bold">Roles:</span> Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.<br>Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.<br>Users are displayed on the scheduling timeline, organized by job role.<br><span class="bold">Users:</span> Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.<br>Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.<br>This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.<br></li> 
- <li value="6">Click <span class="bold">Save New Filter</span>.<br>Your data is displayed on the scheduling timeline.</li> 
- <li value="7">(Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article <a href="../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md" class="MCXref xref">Manually assign unassigned tasks and issues in the Scheduling areas</a>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu. 
+1. Click `Filter`.  
+   ![](assets/scheduling-filter-350x351.png)
+
+1. Leave the `Saved Filters` field blank.
+1. Determine which projects are represented in the Unassigned area by specifying the following information:  
+   `Portfolios:`&nbsp;Select any portfolios that include programs and projects that you want to be represented on the scheduling timeline.   
+   Only programs within the portfolios you select are available to select in the `Program` field.  
+   `Programs:`&nbsp;Select any programs that&nbsp;include projects that you want to be represented on the scheduling timeline.   
+   Your selections in the `Portfolio` field determine the programs that are available to select.   
+   Only projects within the programs you select are available to select in the `Projects` field.  
+   `Project Priorities:` Select the priority of the projects that you want to&nbsp;be represented on the scheduling timeline.   
+   Only projects with the priorities you select are represented.  
+   `Project Statuses:`&nbsp;Select the status of the projects that you want to be represented on the scheduling timeline.   
+   Only projects with the statuses&nbsp;you select are represented.  
+   `Project Companies:`&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a company you select.  
+   `Project Groups:`&nbsp;Tasks and issues are displayed on the scheduling timeline only when they belong to a project that matches a group you select.  
+   `Projects:` Select any projects that you want to be represented on the scheduling timeline.&nbsp;Tasks and issues from the projects you select are displayed on the scheduling timeline.  
+   Your selections in the previous fields determine the projects that are available to select.   
+   Tasks and issues from the projects you select are displayed on the scheduling timeline. Only projects that include tasks or issues that are assigned to the team are available to choose from this menu.
+
+1. Determine which users are displayed on the scheduling timeline by specifying the following information: (By default, only users who are eligible to be assigned a task or issue from the Unassigned area are displayed. When you select individual users, the users are displayed on the scheduling timeline regardless of whether they are eligible to be assigned a task or issue from the Unassigned area.)&nbsp;  
+   `User Companies:` This field enables you to restrict users from other companies from being displayed on the scheduling timeline.  
+   Leave this field blank if you want users from any company to be added. If you specify individual companies, only users from those companies can be added to the scheduling timeline. Specifying a company does not automatically add users from that company to the scheduling timeline. Instead, use the fields below to add specific users.  
+   This option does not affect which tasks and issues are displayed in the Unassigned area. `  
+   User Groups:` All users from any user group you specify are displayed on the scheduling timeline.  
+   `Teams:` All users from any team you specify are displayed on the scheduling timeline.  
+   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.  
+   `Roles:` Select the roles&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+   Only tasks that are assigned to that role are displayed in the Unassigned area. Only users with the roles&nbsp;you select who are able to be assigned those tasks are displayed.  
+   Users are displayed on the scheduling timeline, organized by job role.  
+   `Users:` Select the individual users&nbsp;you want to be represented&nbsp;on the scheduling timeline.  
+   Only the users you select are displayed, regardless of whether they have a role assignment that matches the role assignment of tasks in the Unassigned area.  
+   This option does not affect which&nbsp;tasks and issues are displayed in the Unassigned area.  
+
+1. Click `Save New Filter`.  
+   Your data is displayed on the scheduling timeline.
+
+1. (Optional) To make further modifications to the scheduling timeline (such as changing the date range), and to make modifications to user assignments, see the article [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
 ### Apply a saved filter
 

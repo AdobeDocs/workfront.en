@@ -21,12 +21,19 @@ For more information about scheduling resources in Workfront, see [Resource Sche
 
 To budget time for your resources for the projects you plan to assign them to, you can use the following tools:
 
-<ul> 
- <li> <p>For budgeting allocations for and prioritize multiple projects at the system-level: use the system-level Resource Planner. </p> <p>You can access the Resource Planner by going to the Planner section in the Resourcingarea.</p> <p>For information about the Resource Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p> </li> 
- <li> <p>For budgeting allocations for a single project: use the&nbsp;project-level Resource Planner in the Resource Budgeting area of the Business Case of a the project. For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> <p>To manage users and organize them in pools based on common skills or departmental structure and then manage their allocations for the projects they are assigned to, you must create resource pools.&nbsp;For more information about creating resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</p> <note type="tip">
-   The Resource Budgeting area of a project is the Resource Planner at the project level. When you budget resources in the Business Case of a project, the information is also reflected in the system-level Resource Planner. 
-  </note> </li> For managing resources at a high-level, across multiple initiatives, and align your work with your organization's strategy, use the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview. You can use the Scenario Planner both at the system-level, across multiple initiatives, as well as to budget resources for a single project in the Resource Budgeting area of the business case. For more information about budgeting resources for a project in the business case, see Budget resources in the Business Case. 
-</ul>
+* For budgeting allocations for and prioritize multiple projects at the system-level: use the system-level Resource Planner.
+
+  You can access the Resource Planner by going to the Planner section in the Resourcingarea.
+
+  For information about the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+
+* For budgeting allocations for a single project: use the&nbsp;project-level Resource Planner in the Resource Budgeting area of the Business Case of a the project. For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+
+  To manage users and organize them in pools based on common skills or departmental structure and then manage their allocations for the projects they are assigned to, you must create resource pools.&nbsp;For more information about creating resource pools, see [Create resource pools in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
+  >[!TIP]
+  >
+  >The Resource Budgeting area of a project is the Resource Planner at the project level. When you budget resources in the Business Case of a project, the information is also reflected in the system-level Resource Planner.
 
 ## The purpose of the resource planning tools
 
@@ -82,41 +89,77 @@ User prerequisites
 Ensure the following user setup exists before starting using the Resource Planner:
 -->
 
-`<li>  <ul>   <li> <!--    You have the correct access to budget resources.   --> <!--    For information about the access needed to budget resources, see the article Access needed to budget resources.   --> </li>  </ul> </li>` 
+`<li>  <ul>   <li> <!--    You have the correct access to budget resources.   --> <!--    For information about the access needed to budget resources, see the article Access needed to budget resources.   --> </li>  </ul> </li>`
 
-<ul> 
- <li> <!--
-   Users who are assigned to tasks are added to the Resource Pools associated with the project.
-  --> <!--
-   For information about adding users to Resource Pools, see Associate resource pools with users in Adobe Workfront and Create resource pools in Adobe Workfront.
-  --> <p> <note type="note"> 
-    <!--
-     When users are not added to Resource Pools, the following scenarios may exist:
-    --> 
-    <ul> <!--
-      The users do not appear in the Resource Planner although they might be assigned to tasks on the projects.
-     --> <!--
-      If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks.
-     --> <!--
-      If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted.
-     --> 
-    </ul> 
-   </note> </p> </li> 
- <li> <!--
-   Users who are assigned to work and Resource Pools must have Schedules and Job Roles associated with their profile.
-  --> <!--
-   For information about associating Schedules and Job Roles with users, see the article Add users
-  --> <!--
-   Note: Users who are not associated with a Schedule but are in the Resource Pool of the project cannot be budgeted in the Resource Planner.
-  --> </li> 
- <li> <!--
-   For accurate Available Hours information, ensure that the schedules associated with your users have the schedule exceptions and time off updated.
-  --> <!--
-   Note: If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of the Resource Planner.
-  --> <!--
-   For information about creating schedules, see the article Create a schedule.
-  --> </li> 
-</ul>
+* 
+
+  <!--
+  Users who are assigned to tasks are added to the Resource Pools associated with the project.
+  -->
+
+  <!--
+  For information about adding users to Resource Pools, see Associate resource pools with users in Adobe Workfront and Create resource pools in Adobe Workfront.
+  -->
+
+  >[!NOTE]
+  >
+  >
+  >
+  ><!--  >
+  >When users are not added to Resource Pools, the following scenarios may exist:  >
+  >-->  >
+  >
+  >
+  >  
+  >  
+  >  
+  >  
+  >    <!--  >  
+  >    The users do not appear in the Resource Planner although they might be assigned to tasks on the projects.  >  
+  >    -->  >  
+  >  
+  >  
+  >  
+  >    <!--  >  
+  >    If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks.  >  
+  >    -->  >  
+  >  
+  >  
+  >  
+  >    <!--  >  
+  >    If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted.  >  
+  >    -->  >  
+  >  
+  >  
+  >
+
+* 
+
+  <!--
+  Users who are assigned to work and Resource Pools must have Schedules and Job Roles associated with their profile.
+  -->
+
+  <!--
+  For information about associating Schedules and Job Roles with users, see the article Add users
+  -->
+
+  <!--
+  Note: Users who are not associated with a Schedule but are in the Resource Pool of the project cannot be budgeted in the Resource Planner.
+  -->
+
+* 
+
+  <!--
+  For accurate Available Hours information, ensure that the schedules associated with your users have the schedule exceptions and time off updated.
+  -->
+
+  <!--
+  Note: If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of the Resource Planner.
+  -->
+
+  <!--
+  For information about creating schedules, see the article Create a schedule.
+  -->
 
   <!--
   If you want to budget your resources by Cost, you must associate Job Roles with Cost/Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project. For information about associating job roles with rates, see the article Create and manage job roles. For information about calculating Budgeted Labor Cost, see the article Understand Budgeted Labor Cost and Budgeted Hours for projects. For information about calculating Budgeted Cost, see the article Calculate Budgeted Cost.

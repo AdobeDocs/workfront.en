@@ -107,13 +107,20 @@ PIM = Hour-Based
 
 EAC Method = Roll up from tasks/ subtasks
 
-<ol start="3"> 
- <li value="3"> Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:<br>Task 1<br>&nbsp; &nbsp;Task 2<br>&nbsp; &nbsp;Task 3<br>&nbsp; &nbsp; &nbsp; Task 4<br>&nbsp; &nbsp; &nbsp; Task 5<br>Task 6</li> 
- <li value="4"> Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. </li> 
- <li value="5"> <p> Add planned/actual hours each task and % Complete according to the table below.</p> <note type="note">
-    For Tasks 1 and 3, you are only adding actual hours. 
-  </note> </li> 
-</ol>
+1. Create Project A with six tasks where Task 3 is the parent of Tasks 4 and 5 and Task 1 is the parent of Tasks 2 and 3 as shown below:  
+   Task 1  
+   &nbsp; &nbsp;Task 2  
+   &nbsp; &nbsp;Task 3  
+   &nbsp; &nbsp; &nbsp; Task 4  
+   &nbsp; &nbsp; &nbsp; Task 5  
+   Task 6
+
+1. Assign Tasks 2, 4, 5, and 6 to User 1 whose cost/hr rate is $100.00. 
+1. Add planned/actual hours each task and % Complete according to the table below.
+
+   >[!NOTE]
+   >
+   >For Tasks 1 and 3, you are only adding actual hours.
 
 <table cellspacing="15"> 
  <col> 

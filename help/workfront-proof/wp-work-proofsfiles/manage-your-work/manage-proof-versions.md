@@ -27,12 +27,12 @@ Please see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-w
 
 The full name of the version you are viewing displays at the top left of the proofing viewer. Any other versions of the proof will show as version numbers only.
 
-<ol> 
- <li value="1">Open a proof in the proofing viewer, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md" class="MCXref xref">Opening a Proof in Workfront Proof</a>.</li> 
- <li value="2">In the proofing viewer, click the version number to the right of the proof name.</li> 
- <li value="3">To view the other version, click its name in the menu that appears when you click the version number.</li> 
- <li value="4">To compare two versions, click the <span class="bold">Compare proofs</span> icon.<br><img src="assets/compare-proofs-button.png" alt="Compare_Proofs_button.png"><br>If there are multiple versions of the proof, you can select which two version you want to compare by clicking the relevant version number in each side of the compare mode split screen.</li> 
-</ol>
+1. Open a proof in the proofing viewer, as described in [Opening a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md).
+1. In the proofing viewer, click the version number to the right of the proof name.
+1. To view the other version, click its name in the menu that appears when you click the version number.
+1. To compare two versions, click the `Compare proofs` icon.  
+   ![Compare_Proofs_button.png](assets/compare-proofs-button.png)  
+   If there are multiple versions of the proof, you can select which two version you want to compare by clicking the relevant version number in each side of the compare mode split screen.
 
 For information about reviewing proofs in a proofing viewer, see [Review a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).
 
@@ -40,10 +40,9 @@ For information about reviewing proofs in a proofing viewer, see [Review a proof
 
 You can access all versions of a proof via the Proof details page.&nbsp;
 
-<ol> 
- <li value="1">Open the Proof details page for a proof, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref">Manage Proof Details in Workfront Proof</a>.</li> 
- <li value="2">Click the tab for the version tabs at the top of the page and click <span class="bold">Go to proof</span> to open the version you want in the proofing viewer.<br><img src="assets/version-tabs-on-proof-details-page-350x205.png" alt="Version_tabs_on_Proof_Details_page.png" style="width: 350;height: 205;"></li> 
-</ol>
+1. Open the Proof details page for a proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Click the tab for the version tabs at the top of the page and click `Go to proof` to open the version you want in the proofing viewer.  
+   ![Version_tabs_on_Proof_Details_page.png](assets/version-tabs-on-proof-details-page-350x205.png)
 
 ## Linking Proof Versions
 
@@ -67,15 +66,13 @@ If you would like to change the parent proof (previous version) to another proof
 
 You can unlink the proof you're currently viewing from its parent proof (previous version) without linking it to another proof in your account:
 
-<ol> 
- <li value="1">Open the Proof details page for a proof, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md" class="MCXref xref">Manage Proof Details in Workfront Proof</a>.</li> 
- <li value="2">Click <span class="bold">More</span> > <span class="bold">Remove link to previous version</span>.</li> <note type="note"> 
-  <ul> 
-   <li>Only the last version can be unlinked (disconnected) from the whole set of versions. It will then become a single proof. </li> 
-   <li>If you need to insert a version in between two existing versions, you can unlink all versions of the same proof and re-link them in the correct order. </li> 
-  </ul> 
- </note> 
-</ol>
+1. Open the Proof details page for a proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+1. Click `More` > `Remove link to previous version`.
+
+1.
+
+  * Only the last version can be unlinked (disconnected) from the whole set of versions. It will then become a single proof. 
+  * If you need to insert a version in between two existing versions, you can unlink all versions of the same proof and re-link them in the correct order.
 
 ## About Version Sets and Proof Limits
 

@@ -43,21 +43,33 @@ To schedule resources to actual work (tasks and issues), use the following area:
 
 `Resource Management is done in two steps:`
 
-<ul> 
- <li><span class="wysiwyg-color-pink"><span class="bold">Configuration</span>: As a Resource Manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources.&nbsp;</span> <br><span class="wysiwyg-color-pink">You must configure&nbsp;the following items in Workfront:</span> <br> 
-  <ul> 
-   <li><span class="wysiwyg-color-pink">Users</span> <br><span class="wysiwyg-color-pink">For more information about creating users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref" xrefformat="{para}">Add users</a>.</span> </li> 
-   <li><span class="wysiwyg-color-pink">Job Roles</span> <br><span class="wysiwyg-color-pink">For more information about creating job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" xrefformat="{para}">Create and manage job roles</a>.</span> </li> 
-   <li><span class="wysiwyg-color-pink">Schedules</span> <br><span class="wysiwyg-color-pink">For more information about creating schedules, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" xrefformat="{para}">Create a schedule</a>.</span> </li> 
-   <li><span class="wysiwyg-color-pink">Project Preferences</span> <br><span class="wysiwyg-color-pink">
-     <note type="tip">
-       Only a system administrator can modify Project Preferences.
-      <br>
-     </note>For more information about defining Project Preferences, see <a href="../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref" xrefformat="{para}">Configure system-wide project preferences</a>.</span> </li> 
-   <li><span class="wysiwyg-color-pink">Resource Pools</span> <br><span class="wysiwyg-color-pink">For more information about creating Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref" xrefformat="{para}"> Resource pools overview in Adobe Workfront</a>.</span> </li> 
-  </ul> </li> 
- <li><span class="wysiwyg-color-pink"><span class="bold">Resource Allocation</span>: As a Resource Manager, or a Project Owner, you can assign work and define allocation of resources to work tasks and issues. For this step, a Resource Manager manages the allocation of their resources at the project level using the Resource Planner. Then, they assign work items (tasks and issues) to users based on their job roles using the Resource Scheduling tools.&nbsp;</span> <br><span class="wysiwyg-color-pink">For more information about Resource Planning, see the <a href="../../resource-mgmt/resource-planning/resource-planning-overview.md">Resource Planning</a> section.</span> <br><span class="wysiwyg-color-pink">For more information about Resource Scheduling, see the <a href="../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md">Scheduling Resources</a> section.&nbsp;</span> </li> 
-</ul>
+* ` `Configuration`: As a Resource Manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources. `   
+  `You must configure the following items in Workfront:`
+
+  * `Users`   
+    `For more information about creating users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).` 
+  
+  * `Job Roles`   
+    `For more information about creating job roles, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).` 
+  
+  * `Schedules`   
+    `For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).` 
+  
+  * `Project Preferences`   
+    `  
+  
+    >[!TIP]
+    >
+    >Only a system administrator can modify Project Preferences.
+
+    For more information about defining Project Preferences, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).` 
+  
+  * `Resource Pools`   
+    `For more information about creating Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).`
+
+* ` `Resource Allocation`: As a Resource Manager, or a Project Owner, you can assign work and define allocation of resources to work tasks and issues. For this step, a Resource Manager manages the allocation of their resources at the project level using the Resource Planner. Then, they assign work items (tasks and issues) to users based on their job roles using the Resource Scheduling tools. `   
+  `For more information about Resource Planning, see the [Resource Planning](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.`   
+  `For more information about Resource Scheduling, see the [Scheduling Resources](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) section. `
 
 `
 
@@ -83,23 +95,38 @@ The following users have access to the Resource Management Tools in Workfront:
 
 All of the following conditions must be met before you can start managing your resources in Workfront:
 
-<ul> 
- <li> You must have users in the system who have active accounts.<br>For more information about creating users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref" xrefformat="{para}">Add users</a>.</li> 
- <li> You must assign a Plan or a Worker license to the users whose work allocation you want to manage.<br><note type="tip">
-    Although you can assign work to a Reviewer or a Requestor, they cannot complete it. 
-   <br>We recommend against assigning work to Reviewers or Requestors.
-  </note></li> 
- <li> You must have job roles configured in the system.<br>For more information about adding job roles to Workfront, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref" xrefformat="{para}">Create and manage job roles</a>.</li> 
- <li> (Optional) If you want to budget cost for your work, your job roles and your users must also have rates associated with them.<br></li> 
- <li> You must associate at least one job role with your users.<br></li> 
- <li> You must specify a valid value for the FTE field of all users.<br>For more information about editing users to ensure they have a job role, FTE, or cost associated with them,&nbsp;see<a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" xrefformat="{para}">Edit a user's profile</a>.</li> 
- <li>You must associate accurate Schedules with your users.<br>For more information about creating and editing schedules, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Creating Schedules.</a></li> 
- <li>You must associate projects with Resource Managers and Resource Pools.<br>For more information about associating projects with Resource Managers, see <a href="../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref" xrefformat="{para}">Designate Resource Managers for a project or template </a>.For more information about associating projects with Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref" xrefformat="{para}"> Resource pools overview in Adobe Workfront</a>.</li> 
- <li>You must assign the tasks and issues in your system to job roles (recommended) or users.</li> 
- <li>You must specify a valid value for Planned Hours and Duration for all tasks in your system.<br>For more information about Planned Hours, see <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.<br>For more information about Duration, see <a href="../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref" xrefformat="{para}">Overview of Task Duration and Duration Type</a>.</li> 
- <li>You must be designated as a Resource Manager on projects to use the Resource Planner, and all Resource Scheduling tools.&nbsp;</li> 
- <li>When using the Legacy Resource Planning tools, your projects must include Resource Estimates in the Business Case.<br>For more information about using Resource Estimates in the Business Case, see <a href="apply-legacy-pools-to-business-case.md">Applying Resource Pools to the Business Case</a>.</li> 
-</ul>
+* You must have users in the system who have active accounts.  
+  For more information about creating users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+* You must assign a Plan or a Worker license to the users whose work allocation you want to manage.
+
+  >[!TIP]
+  >
+  >Although you can assign work to a Reviewer or a Requestor, they cannot complete it.   
+  >We recommend against assigning work to Reviewers or Requestors.
+
+* You must have job roles configured in the system.  
+  For more information about adding job roles to Workfront, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+* (Optional) If you want to budget cost for your work, your job roles and your users must also have rates associated with them.  
+* You must associate at least one job role with your users.  
+* You must specify a valid value for the FTE field of all users.  
+  For more information about editing users to ensure they have a job role, FTE, or cost associated with them,&nbsp;see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+* You must associate accurate Schedules with your users.  
+  For more information about creating and editing schedules, see [Creating Schedules.](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+
+* You must associate projects with Resource Managers and Resource Pools.  
+  For more information about associating projects with Resource Managers, see [Designate Resource Managers for a project or template](../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md).For more information about associating projects with Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+
+* You must assign the tasks and issues in your system to job roles (recommended) or users.
+* You must specify a valid value for Planned Hours and Duration for all tasks in your system.  
+  For more information about Planned Hours, see [Overview of Task Duration and Duration Type](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).  
+  For more information about Duration, see [Overview of Task Duration and Duration Type](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+
+* You must be designated as a Resource Manager on projects to use the Resource Planner, and all Resource Scheduling tools.&nbsp;
+* When using the Legacy Resource Planning tools, your projects must include Resource Estimates in the Business Case.  
+  For more information about using Resource Estimates in the Business Case, see [Applying Resource Pools to the Business Case](apply-legacy-pools-to-business-case.md).
 
 ## Manage resources in Workfront
 

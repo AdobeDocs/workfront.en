@@ -115,7 +115,10 @@ The following enhancements are releasing to the ProofHQ application with R1:
 
 * [Search in PDF Documents (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents) 
 * [Updated Global Navigation Bar (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar):
-* `<li>New user profile picture</li>` `<li>New link to the Workfront application (when the ProofHQ account is integrated with a Workfront account)</li>` `<li>Updated look and feel</li>` 
+
+  * New user profile picture
+  * New link to the Workfront application (when the ProofHQ account is integrated with a Workfront account)
+  * Updated look and feel
 
 * [Include Additional Information in Custom Views (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views) 
 * [Improvements to Proofing Reports (Formerly Analytics) (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports) 

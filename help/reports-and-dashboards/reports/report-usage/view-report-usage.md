@@ -10,14 +10,17 @@ description: In order to understand how extensively reports are used in your sys
 
 In order to understand how extensively reports are used in your system you can view the following information in a list of reports:
 
-<ul> 
- <li>Last 10 users who viewed the report</li> 
- <li>View count within a specified time frame<br><note type="note"> Adobe Workfront counts one view per user per day. If you access the same report several times a day Workfront counts this as one view for that report for you. If the same report is accessed by another user in the same day, Workfront counts this as a new view for the second user.
-  </note></li> 
- <li>Last Viewed Date</li> 
- <li>Last Viewed By User</li> 
- <li>A list of dashboards which contain the report<br>For more information about displaying the name of the dashboards that reports might be added on in a list of reports, see the article <a href="../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md" class="MCXref xref">Understand how&nbsp;to organize reports on a dashboard</a>.</li> 
-</ul>
+* Last 10 users who viewed the report
+* View count within a specified time frame
+
+  >[!NOTE]
+  >
+  >Adobe Workfront counts one view per user per day. If you access the same report several times a day Workfront counts this as one view for that report for you. If the same report is accessed by another user in the same day, Workfront counts this as a new view for the second user.
+
+* Last Viewed Date
+* Last Viewed By User
+* A list of dashboards which contain the report  
+  For more information about displaying the name of the dashboards that reports might be added on in a list of reports, see the article [Understand how to organize reports on a dashboard](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md).
 
 You can build a view for a list of reports where you can display this information.  
 You can filter a list of reports by some of these fields.  

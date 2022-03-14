@@ -49,31 +49,39 @@ Before you can create an issue from G Suite, you must
 
 ## Create a Adobe Workfront issue in G Suite using email content
 
-<ol> 
- <li value="1">If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon <img src="assets/wf-lion-icon.png"> in the G Suite add-ons sidebar at the far-right of the page. </li> 
- <li value="2"> <p>With the email message open in G Suite, click an option in Workfront for G Suite to convert the email to a new Workfront issue.</p> <p> <img src="assets/convert-email-task-issue-update.png"> </p> </li> 
- <li value="3"> <p>If you want to attach the issue to a parent project, click <span class="bold">Project name</span>, start typing the name of the project where you want the issue, then click the project name when it appears in the list below.</p> </li> 
- <li value="4"> <p>Make any of these changes:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Issue Name</td> 
-     <td>Edit any part of this text, which is taken from the email's subject line.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Edit any part of this text, which is taken from the body of the email.</td> 
-    </tr> Assign To Click Assign To, click the Assign this to option that appears, then start typing the person's name and click it when it appears in the list below. Repeat this for each person you want to add, then click Save. Priority Click the drop-down arrow, then click the priority you want for the issue. Include email attachments (Available only if the email contains at least one attachment.) Click this option to save attachments in the email to the Documents area of the issue. If you do not want to save an attachment, click the X to the right of its name. If the email contains links to documents in Google Drive, they are saved to the Overview tab of the issue you are creating. Important: In order for this to work, your Workfront administrator must authorize Google Drive to work with documents in Workfront. , as described in the section Configure integrations to manage documents in the article Configure document integrations. If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates. Include email file Click this option to save the original email as an Email (EML) (Email) file to the Documents area of the issue. From there, you can double-click the file to open the email in your email application. If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates. 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>Click <span class="bold">Create Issue</span>.</p> <p>The <span class="bold">Details</span> tab for the new issue displays in the Workfront for G Suite panel. You can click <span class="bold">Updates</span> and start communicating with collaborators right away without leaving your in box. </p> <p> At the bottom of the <span class="bold">Details</span> tab, you can also click <span class="bold">View in Workfront</span> to go to the new issue in Workfront.</p> <p>When you refresh your browser, a message with a link at the bottom of the Workfront for G Suite panel confirms that you have converted the email to an issue:</p> <p> <img src="assets/email-was-converted.png"> </p> <p>You can click the link to go to the Details view, within the Workfront for G Suite panel, for the issue you've created.</p> <p>You can repeat these steps to convert the same email to multiple issues. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.</p> </li> 
- <li value="6">(Optional) Continue to work with the issue in the Workfront for G Suite panel by doing any of the following:
-  <ul>
-   <li>To add an update on the <span class="bold">Updates</span> tab, click <span class="bold">Start a new update</span> and type the update. </li>
-   <li><p>To reply to an update on the <span class="bold">Updates</span> tab, click <span class="bold">Reply</span> and type your reply.</p><p>For both of the above actions, you can notify particular users about your comment. Click&nbsp;<span class="bold">Notify</span>, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click <span class="bold">Post</span>.</p></li>
-   <li>Click the <span class="bold">Documents</span> tab to see any documents saved with the issue.</li>
-  </ul></li> 
-</ol>
+1. If the Workfront for G Suite panel is not displayed, click the&nbsp;Workfront icon ![](assets/wf-lion-icon.png) in the G Suite add-ons sidebar at the far-right of the page. 
+1. With the email message open in G Suite, click an option in Workfront for G Suite to convert the email to a new Workfront issue.
+
+   ![](assets/convert-email-task-issue-update.png)
+
+1. If you want to attach the issue to a parent project, click `Project name`, start typing the name of the project where you want the issue, then click the project name when it appears in the list below.
+1. Make any of these changes:
+
+   | Issue Name |Edit any part of this text, which is taken from the email's subject line. |
+   |---|---|
+   | Description |Edit any part of this text, which is taken from the body of the email. |
+
+1. Click `Create Issue`.
+
+   The `Details` tab for the new issue displays in the Workfront for G Suite panel. You can click `Updates` and start communicating with collaborators right away without leaving your in box.
+
+   At the bottom of the `Details` tab, you can also click `View in Workfront` to go to the new issue in Workfront.
+
+   When you refresh your browser, a message with a link at the bottom of the Workfront for G Suite panel confirms that you have converted the email to an issue:
+
+   ![](assets/email-was-converted.png)
+
+   You can click the link to go to the Details view, within the Workfront for G Suite panel, for the issue you've created.
+
+   You can repeat these steps to convert the same email to multiple issues. When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the Workfront for G Suite panel.
+
+1. (Optional) Continue to work with the issue in the Workfront for G Suite panel by doing any of the following:
+
+  * To add an update on the `Updates` tab, click `Start a new update` and type the update. 
+  
+  * To reply to an update on the `Updates` tab, click `Reply` and type your reply.
+
+    For both of the above actions, you can notify particular users about your comment. Click  `Notify`, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click `Post`.
+  
+  * Click the `Documents` tab to see any documents saved with the issue.
 

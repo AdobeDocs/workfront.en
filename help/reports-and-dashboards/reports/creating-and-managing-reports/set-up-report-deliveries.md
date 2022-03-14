@@ -28,20 +28,35 @@ There are several size limits that affect how reports display in Workfront and h
 
 * `5MB file size:`&nbsp;File size limit for any exported report scheduled for delivery.&nbsp;If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.&nbsp;
 
-<ul> 
- <li> <p><span class="bold">50,000&nbsp;rows:</span>&nbsp;The number of rows of data allowed in a report export for .pdf and Tab Delimited files. <br></p> <p>For Excel .xls files, this limit is <span class="bold">65,000 rows</span>.<br></p> <p>For Excel .xlsx files, this limit is <span class="bold">100,000 rows</span>.<br></p> <p>These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows. </p> <p> If your report has more items than these limits, you receive an error that the export and delivery of the report is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to deliver the results.&nbsp;If want to export all the data, we suggest that you use filters to obtain smaller loads&nbsp;of data, then perform multiple exports. For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> <p>These limits apply to:</p> </li> 
- <ul> 
-  <li>A manual export of a report.</li> 
-  <li>A scheduled report.</li> 
-  <li>An export through an API integration.&nbsp;</li> 
-  <li> <p>Data exported through a kick-start.</p> <p>For more information about exporting data via kick-starts, see the article <a href="../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md" class="MCXref xref">Export data from Adobe Workfront via Kick-Starts</a>.</p> <note type="note">
-    You can export 50,000 rows in a kick-start file, but only to an Excel format file.&nbsp;
-   </note> </li> 
-  <li> <p>Exporting utilization information for a project.</p> <p>For more information about exporting utilization information for a project, see <a href="../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md" class="MCXref xref">Overview of the Resource Utilization report</a>.</p> </li> 
- </ul> 
- <li><span class="bold">65,530 hyperlinks:</span>&nbsp;This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;</li> 
- <li><span class="bold">256 columns</span>:&nbsp;This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.&nbsp;</li> 
-</ul>
+* `50,000 rows:`&nbsp;The number of rows of data allowed in a report export for .pdf and Tab Delimited files.
+
+  For Excel .xls files, this limit is `65,000 rows`.
+
+  For Excel .xlsx files, this limit is `100,000 rows`.
+
+  These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.
+
+  If your report has more items than these limits, you receive an error that the export and delivery of the report is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to deliver the results.&nbsp;If want to export all the data, we suggest that you use filters to obtain smaller loads&nbsp;of data, then perform multiple exports. For more information, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+
+  These limits apply to:
+
+  * A manual export of a report.
+  * A scheduled report.
+  * An export through an API integration.&nbsp;
+  * Data exported through a kick-start.
+
+    For more information about exporting data via kick-starts, see the article [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+
+    >[!NOTE]
+    >
+    >You can export 50,000 rows in a kick-start file, but only to an Excel format file.&nbsp;
+
+  * Exporting utilization information for a project.
+
+    For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+
+* `65,530 hyperlinks:`&nbsp;This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
+* `256 columns`:&nbsp;This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.&nbsp;
 
 If you&nbsp;attempt to export data beyond the limit, you might&nbsp;not receive all of the expected data in the export. Rather, a modified report is produced within the limit.&nbsp;
 
@@ -142,10 +157,15 @@ The name of the report in the email message is also a link.
 
 You can see whether a report has been configured to be delivered by creating the following:
 
-<ul> 
- <li><span class="bold">A View</span> for the Report object in a list or a report for reports: Create a view on a list of reports or in a report for reports, and add the following column to the view:<br><em>Scheduled Report Name.<br></em>The names of all the deliveries scheduled for that report are listed in the column in a bulleted list.<br><img src="assets/scheduled-reports-info-in-view-350x294.png" alt="scheduled_reports_info_in_view.png" style="width: 350;height: 294;"><br></li> 
- <li><span class="bold">A Filter</span> for the Report object:&nbsp;Create a filter on a list of reports or in a report on reports with the following statement: <em>Scheduled Report ID Is Not Blank</em>.<br>This will display only reports that have been scheduled in your list or report.<br><br>For more information about creating reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>. For information on creating a report on reports, see <a href="../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md" class="MCXref xref">Create a report on reporting activities</a>.</li> 
-</ul>
+* `A View` for the Report object in a list or a report for reports: Create a view on a list of reports or in a report for reports, and add the following column to the view:  
+  *Scheduled Report Name.  
+  *The names of all the deliveries scheduled for that report are listed in the column in a bulleted list.  
+  ![scheduled_reports_info_in_view.png](assets/scheduled-reports-info-in-view-350x294.png)  
+
+* `A Filter` for the Report object:&nbsp;Create a filter on a list of reports or in a report on reports with the following statement: *Scheduled Report ID Is Not Blank*.  
+  This will display only reports that have been scheduled in your list or report.  
+  
+  For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information on creating a report on reports, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--
 Scheduling a Repeating Report Delivery

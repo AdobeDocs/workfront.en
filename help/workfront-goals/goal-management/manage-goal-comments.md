@@ -69,32 +69,35 @@ You can add comments to goals in the Goal&nbsp;Details panel, as part of updatin
 
 You can edit or delete a comment that you entered in this area, or you can like comments.
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the Workfront Goals area. </p> </p> </li> 
- <li value="2">Locate the goal you want to add comments to, then click its name to open the Goal&nbsp;Details panel to the right. </li> 
- <li value="3">Click the <span class="bold">Updates</span> tab.</li> 
- <li value="4"> <p>Type your comment in the <span class="bold">Comment here</span> field, then click <span class="bold">Post</span>. </p> </li> 
- <li value="5"> <p>(Optional and conditional) Select the <span class="bold">Comments</span> option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. </p> </li> 
- <li value="6"> <p>(Optional) Click&nbsp;<span class="bold">Edit</span> to edit your comment, then click&nbsp;<span class="bold">Save</span> to save your changes, or <span class="bold">Cancel</span> to revert to the original update. </p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <ul> 
-    <li>You can only edit comments you entered. </li> 
-    <li>There is no time limit for how long after you enter a comment you are allowed to edit it.</li> 
-   </ul> 
-  </div> </li> 
- <li value="7"> <p>(Optional)&nbsp;Click&nbsp;<span class="bold">Delete</span> to delete your comment, then click&nbsp;<span class="bold">Yes, Delete</span> to confirm. </p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-   <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <ul> 
-    <li>You can only delete comments you entered. </li> 
-    <li>There is no time limit for how long after you enter a comment you are allowed to delete it.</li> 
-   </ul> 
-  </div> </li> 
- <li value="8">(Optional) Click the <span class="bold">Like icon</span> <img src="assets/like-icon.png"> to like a comment that someone else added. The icon updates with the number of likes. </li> 
- <li value="9"> <p>(Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel. </p> <p> <img src="assets/list-of-likes-users-350x121.png" style="width: 350;height: 121;"> </p> </li> 
- <li value="10">(Conditional)&nbsp;Click <span class="bold">Back to Updates</span> to return to the Updates tab of the Goal Details panel, or click the <span class="bold">X icon</span> in the upper-right corner to close the right panel. </li> 
-</ol>
+1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+
+   This opens the Workfront Goals area. 
+
+1. Locate the goal you want to add comments to, then click its name to open the Goal&nbsp;Details panel to the right. 
+1. Click the `Updates` tab.
+1. Type your comment in the `Comment here` field, then click `Post`. 
+1. (Optional and conditional) Select the `Comments` option at the top of the list to view your comment at the top of the list. It is enabled by default and comments display here with the most recent comment first. 
+1. (Optional) Click  `Edit` to edit your comment, then click  `Save` to save your changes, or `Cancel` to revert to the original update. 
+
+   ` `**Tip: **``
+
+  * You can only edit comments you entered. 
+  * There is no time limit for how long after you enter a comment you are allowed to edit it.
+
+1. (Optional) Click  `Delete` to delete your comment, then click  `Yes, Delete` to confirm. 
+
+   ` `**Tip: **``
+
+  * You can only delete comments you entered. 
+  * There is no time limit for how long after you enter a comment you are allowed to delete it.
+
+1. (Optional) Click the `Like icon` ![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes. 
+
+1. (Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   ![](assets/list-of-likes-users-350x121.png)
+
+1. (Conditional) Click `Back to Updates` to return to the Updates tab of the Goal Details panel, or click the `X icon` in the upper-right corner to close the right panel.
 
 ## Add comments to goals in the Check-in section
 
@@ -106,16 +109,29 @@ You can add comments to goals in the Check-in section of Workfront Goals, as par
 
 You can also like goal comments that other users have added to mark your approval of them in the Check-in section.
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the Workfront Goals area. </p> </p> </li> 
- <li value="2"> <p>Click the Check-in section in the left panel. </p> <p> <img src="assets/check-in-icon-left.png"> </p> <p>Goals assigned to you or that have results and activities that are assigned to you display in this area. </p> </li> 
- <li value="3">(Optional) Click the right-pointing arrow to the left of the goal name to expand the goal, if the goal is not already expanded. </li> 
- <li value="4"> <p>Type your comment in the <span class="bold">Add a comment to this goal (optional)</span> field, then click&nbsp;<span class="bold">Post</span>. </p> <p>Two most recent comments display by default under each goal.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Show all comments</span> to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. </p> </li> 
- <li value="6">(Optional) Click the <span class="bold">Like icon</span> <img src="assets/like-icon.png"> to like a comment. The icon updates with the number of likes. </li> 
- <li value="7"> <p>(Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel. </p> <p> <img src="assets/list-of-likes-users-350x121.png" style="width: 350;height: 121;"> </p> </li> 
- <li value="8">(Conditional)&nbsp;Click <span class="bold">Back to Updates</span> to return to the Updates tab of the Goal Details panel, or click the <span class="bold">X icon</span> in the upper-right corner to close the right panel. </li> 
-</ol>
+1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+
+   This opens the Workfront Goals area. 
+
+1. Click the Check-in section in the left panel.
+
+   ![](assets/check-in-icon-left.png)
+
+   Goals assigned to you or that have results and activities that are assigned to you display in this area. 
+
+1. (Optional) Click the right-pointing arrow to the left of the goal name to expand the goal, if the goal is not already expanded. 
+1. Type your comment in the `Add a comment to this goal (optional)` field, then click  `Post`.
+
+   Two most recent comments display by default under each goal.
+
+1. Click `Show all comments` to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. 
+1. (Optional) Click the `Like icon` ![](assets/like-icon.png) to like a comment. The icon updates with the number of likes. 
+
+1. (Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   ![](assets/list-of-likes-users-350x121.png)
+
+1. (Conditional) Click `Back to Updates` to return to the Updates tab of the Goal Details panel, or click the `X icon` in the upper-right corner to close the right panel.
 
 ## Add comments to goals in the Pulse section
 
@@ -123,14 +139,27 @@ You can add comments to goals in the Pulse section of Workfront Goals, as part o
 
 You can also like goal comments that other users have added to mark your approval of them in the Pulse section.
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the Workfront Goals area. </p> </p> </li> 
- <li value="2"> <p>Click the Pulse section in the left panel. </p> <p> <img src="assets/pulse-icon-left.png"> </p> <p>All current goals display in this section., regardless of their status.</p> </li> 
- <li value="3"> <p>Click&nbsp;<span class="bold">Add a comment</span>, then type your comment in the <span class="bold">Add a comment to this goal (optional)</span> field.</p> </li> 
- <li value="4"> <p>Click&nbsp;<span class="bold">Post</span>. </p> <p>Three comments display by default under each goal.</p> </li> 
- <li value="5">Click <span class="bold">Show all updates</span> to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. </li> 
- <li value="6">(Optional) Click the <span class="bold">Like icon</span> <img src="assets/like-icon.png"> to like a comment. The icon updates with the number of likes. </li> 
- <li value="7"> <p>(Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel. </p> <p> <img src="assets/list-of-likes-users-350x121.png" style="width: 350;height: 121;"> </p> </li> 
- <li value="8">(Conditional)&nbsp;Click <span class="bold">Back to Updates</span> to return to the Updates tab of the Goal Details panel, or click the <span class="bold">X icon</span> in the upper-right corner to close the right panel. </li> 
-</ol>
+1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+
+   This opens the Workfront Goals area. 
+
+1. Click the Pulse section in the left panel.
+
+   ![](assets/pulse-icon-left.png)
+
+   All current goals display in this section., regardless of their status.
+
+1. Click  `Add a comment`, then type your comment in the `Add a comment to this goal (optional)` field.
+1. Click  `Post`.
+
+   Three comments display by default under each goal.
+
+1. Click `Show all updates` to display all comments on a goal. A number of total comments for the goal also displays. Comments display in the order they were entered, with the most recent first. 
+1. (Optional) Click the `Like icon` ![](assets/like-icon.png) to like a comment. The icon updates with the number of likes. 
+
+1. (Optional)&nbsp;Click the number of likes next to a comment and a list with the names of the users who liked the comment displays in the right panel.
+
+   ![](assets/list-of-likes-users-350x121.png)
+
+1. (Conditional) Click `Back to Updates` to return to the Updates tab of the Goal Details panel, or click the `X icon` in the upper-right corner to close the right panel.
 

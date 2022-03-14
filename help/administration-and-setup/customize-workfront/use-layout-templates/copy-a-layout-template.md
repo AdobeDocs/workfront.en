@@ -41,23 +41,26 @@ You must have the following to perform the steps in this article:
 
 ## Copy a layout template
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Interface</span> > <span class="bold">Layout Templates</span>.</li> 
- <li value="3">Click the name of the layout template you want to modify.</li> 
- <li value="4"> <p>Click <span class="bold">Copy</span>.</p> <p>All settings except for the name, description, and user assignments in the existing layout template are copied to the new template.</p> </li> 
- <li value="5">In the screen that appears, type a new <span class="bold">Layout template name</span> and (optional) a <span class="bold">Description</span> for it.</li> 
- <li value="6">Assign the template to the users who need it, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref">Assign users to a layout template</a>.</li> 
- <li value="7"> <p>(Optional) Customize the template, as described in the following articles:</p> 
-  <ul> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Customize the Main Menu using a layout template</a> </li> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md" class="MCXref xref">Customize the left panel using a layout template</a> </li> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md" class="MCXref xref">Customize pinned pages using a layout template</a> </li> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md" class="MCXref xref">Customize the Details view using a layout template</a> </li> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md" class="MCXref xref">Customize Home and Summary using a layout template</a> </li> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md" class="MCXref xref">Customize the landing page using a layout template</a> </li> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md" class="MCXref xref">Customize Filters, Views, and Groupings using a layout template</a> </li> 
-   <li><a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md" class="MCXref xref">Customize user interface terminology using a layout template</a> </li> 
-  </ul> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Interface` > `Layout Templates`.
+
+1. Click the name of the layout template you want to modify.
+1. Click `Copy`.
+
+   All settings except for the name, description, and user assignments in the existing layout template are copied to the new template.
+
+1. In the screen that appears, type a new `Layout template name` and (optional) a `Description` for it.
+
+1. Assign the template to the users who need it, as described in [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+1. (Optional) Customize the template, as described in the following articles:
+
+  * [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) 
+  * [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) 
+  * [Customize pinned pages using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) 
+  * [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) 
+  * [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+  * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
+  * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+  * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 

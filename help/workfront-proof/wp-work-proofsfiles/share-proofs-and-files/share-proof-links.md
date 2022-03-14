@@ -30,17 +30,19 @@ If the Subscription setting&nbsp;is enabled on the proof, any recipient&nbsp;who
 
 To share proof links:
 
-<ol> 
- <li value="1">On the Dashboard or any Views list, click the <span class="bold">More</span> (three dot) menu to the far-right of the proof, then click <span class="bold">Share proof links</span> on the dropdown arrow.</li> 
- <li value="2">In the <span class="bold">Share proof links</span> box that appears, do any of the following: 
-  <ul>
-   <li>Specify whether you want to share the Proof URL&nbsp;or the Download URL.</li>
-   <li>Add people that you would like to share the links with by typing their email address.</li>
-   <li>(Optional) Add a custom message to the email.</li>
-  </ul></li> 
- <li value="3"> <p>Click <span class="bold">Submit</span>.<br></p> <p>Workfront Proof sends an email with the proof links to the people on the share list. </p> <note type="note">
-    If one of the links is disabled on the proof, it is not visible in the email.
-   <br>
-  </note> </li> 
-</ol>
+1. On the Dashboard or any Views list, click the `More` (three dot) menu to the far-right of the proof, then click `Share proof links` on the dropdown arrow.
+
+1. In the `Share proof links` box that appears, do any of the following:
+
+  * Specify whether you want to share the Proof URL&nbsp;or the Download URL.
+  * Add people that you would like to share the links with by typing their email address.
+  * (Optional) Add a custom message to the email.
+
+1. Click `Submit`.
+
+   Workfront Proof sends an email with the proof links to the people on the share list.
+
+   >[!NOTE]
+   >
+   >If one of the links is disabled on the proof, it is not visible in the email.
 

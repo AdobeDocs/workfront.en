@@ -41,20 +41,31 @@ You must have the following access to perform the steps in this article:
 
 ## Optimize projects in the Portfolio Optimizer
 
-<ol> Open a Portfolio, then click Portfolio Optimization in the left panel. The Portfolio Optimizer displays. 
- <li value="2"> <p>Click the <span class="bold">Optimize</span> icon .</p> <p> <img src="assets/optimize-icon-portfolio-optimizer.png"> <br>The categories by which a project can be scored display to the left of the Optimize icon.<br></p> </li> 
- <li value="3">Using the sliding circle, modify the optimization of any of the following categories: 
-  <ul>
-   <li><span class="bold">Low Cost</span>: Move the slider to the right to view projects with the lowest Planned Cost.</li>
-   <li><span class="bold">High Alignment</span>: Move the slider to the right to view projects with the highest alignment based on the Scorecard.</li>
-   <li><span class="bold">High Value</span>: Move the slider to the right to view projects with a higher Net Value score.</li>
-   <li><span class="bold">Low Risk to Benefit</span>: Move the slider to the right to view projects with the lowest risk to benefit ratio.</li>
-   <li><span class="bold">High ROI</span>: Move the slider to the right to view projects with a higher return on investment (ROI).</li>
-  </ul></li> 
- <li value="4"> <p>Click the <span class="bold">x icon</span> to close the optimization categories. </p> <p>This updates the Score values for each project in the <span class="bold">Score</span> column. </p> <p>For information about the Portfolio Optimizer Score, see <a href="../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md" class="MCXref xref">Overview of the Portfolio Optimizer Score</a>.</p> </li> 
- <li value="5">After the correct weights have been set for the <span class="bold">Score</span> column, click the header of the <span class="bold">Score</span> column to sort by this column. The project with the highest score is displayed at the top of the list.</li> 
- <li value="6">(Optional) Drag and drop projects in the order of your priority. <br>This will change the order of the projects in the Portfolio Optimizer.</li> 
- <li value="7">(Optional) Click <span class="bold">Set Priority</span> to save the new priority of the projects.<br>For more information about prioritizing projects in the Portfolio Optimizer, see the article <a href="../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md" class="MCXref xref">Prioritize projects in the Portfolio Optimizer </a>.</li> 
- <li value="8">Click <span class="bold">Save</span> to save your Portfolio Optimizer. </li> 
-</ol>
+1. Click the `Optimize` icon .
+
+   ![](assets/optimize-icon-portfolio-optimizer.png)   
+   The categories by which a project can be scored display to the left of the Optimize icon.
+
+1. Using the sliding circle, modify the optimization of any of the following categories:
+
+  * `Low Cost`: Move the slider to the right to view projects with the lowest Planned Cost.
+  * `High Alignment`: Move the slider to the right to view projects with the highest alignment based on the Scorecard.
+  * `High Value`: Move the slider to the right to view projects with a higher Net Value score.
+  * `Low Risk to Benefit`: Move the slider to the right to view projects with the lowest risk to benefit ratio.
+  * `High ROI`: Move the slider to the right to view projects with a higher return on investment (ROI).
+
+1. Click the `x icon` to close the optimization categories.
+
+   This updates the Score values for each project in the `Score` column.
+
+   For information about the Portfolio Optimizer Score, see [Overview of the Portfolio Optimizer Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+
+1. After the correct weights have been set for the `Score` column, click the header of the `Score` column to sort by this column. The project with the highest score is displayed at the top of the list.
+
+1. (Optional) Drag and drop projects in the order of your priority.   
+   This will change the order of the projects in the Portfolio Optimizer.
+1. (Optional) Click `Set Priority` to save the new priority of the projects.  
+   For more information about prioritizing projects in the Portfolio Optimizer, see the article [Prioritize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+
+1. Click `Save` to save your Portfolio Optimizer.
 

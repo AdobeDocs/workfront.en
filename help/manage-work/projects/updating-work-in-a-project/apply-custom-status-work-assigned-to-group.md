@@ -47,13 +47,18 @@ You must have the following access to perform the steps in this article:
 
 When you update the Group for a project, the options available for the Status change, to match the group.
 
-<ol> 
- <li value="1"> <p>Go to a project, or create a new project, as described in <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li> Click the More icon , then click Edit. 
- <li value="3">In the <span class="bold">Edit Project</span> box that displays, near the bottom of the <span class="bold">Overview</span> section, select the group in the <span class="bold">Group</span> drop-down menu.</li> 
- <li value="4"> <p>In the <span class="bold">Status</span> drop-down menu, select the custom status.</p> <note type="note"> 
-   <p>If you select a different group in the <span class="bold">Group</span> drop-down menu, the custom statuses in the <span class="bold">Status</span> menu change automatically to correlate with the new group.</p> 
-   <p> <img src="assets/screenshot-2016-05-12-12.05.43.png" alt=""> </img> </p> 
-  </note> </li> 
- <li value="5">Select the status of the project. The custom statuses you created and applied to that group appear.</li> 
-</ol>
+1. Go to a project, or create a new project, as described in [Create a project](../../../manage-work/projects/create-projects/create-project.md).
+1. In the `Edit Project` box that displays, near the bottom of the `Overview` section, select the group in the `Group` drop-down menu.
+
+1. In the `Status` drop-down menu, select the custom status.
+
+   >[!NOTE]
+   >
+   >If you select a different group in the `Group` drop-down menu, the custom statuses in the `Status` menu change automatically to correlate with the new group.
+   >
+   >
+   >![](assets/screenshot-2016-05-12-12.05.43.png)   >
+   >
+
+1. Select the status of the project. The custom statuses you created and applied to that group appear.
 

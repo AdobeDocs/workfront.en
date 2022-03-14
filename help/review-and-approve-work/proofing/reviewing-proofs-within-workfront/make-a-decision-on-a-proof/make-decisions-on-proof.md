@@ -48,39 +48,40 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3"> <p>Click <span class="bold">Make Decision</span> at the top-center of the proofing viewer.</p> <p> <br> </p> </li> 
- <li value="4"> <p>In the <span class="bold">Proof decision</span> box that appears, click one of the following decisions:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Approved</td> 
-     <td>The proof is ready to move to the next stage of the Automated Workflow.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Approved with changes</td> 
-     <td>The proof requires some changes, but you do not need to see the revision before it moves to the next stage of the Automated Workflow.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Changes required</td> 
-     <td>The proof requires changes and you need to see another revision before it moves to the next stage of the Automated Workflow.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Not relevant</td> 
-     <td>The proof is not relevant to you and you do not need to make a decision.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Custom decision</td> 
-     <td> <p>On Select and Premium plans, the Workfront administrator or Workfront Proof administrator can rename, reorder, and hide decisions.&nbsp;For more information,&nbsp;see&nbsp;<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>(Conditional) If the Adobe Workfront administrator or Workfront Proof administrator has added a Reasons section, select any applicable reasons for your decision. For more information about how administrators can configure decision reasons, see&nbsp;<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p> </li> 
- <li value="6">(Optional) Select <span class="bold">Send me an email confirmation</span>&nbsp;to receive an email confirmation of your decision.</li> 
- <li value="7">Click <span class="bold">Make Decision</span>.</li> 
-</ol>
+1. Click `Make Decision` at the top-center of the proofing viewer.
+
+1. In the `Proof decision` box that appears, click one of the following decisions:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Approved</td> 
+      <td>The proof is ready to move to the next stage of the Automated Workflow.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Approved with changes</td> 
+      <td>The proof requires some changes, but you do not need to see the revision before it moves to the next stage of the Automated Workflow.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Changes required</td> 
+      <td>The proof requires changes and you need to see another revision before it moves to the next stage of the Automated Workflow.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Not relevant</td> 
+      <td>The proof is not relevant to you and you do not need to make a decision.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Custom decision</td> 
+      <td> <p>On Select and Premium plans, the Workfront administrator or Workfront Proof administrator can rename, reorder, and hide decisions.&nbsp;For more information,&nbsp;see&nbsp;<a href="../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Conditional) If the Adobe Workfront administrator or Workfront Proof administrator has added a Reasons section, select any applicable reasons for your decision. For more information about how administrators can configure decision reasons, see&nbsp; [Configure approval decision options in Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+1. (Optional) Select `Send me an email confirmation`&nbsp;to receive an email confirmation of your decision.
+1. Click `Make Decision`.
 
 <!--
 Make a decision when the proof is configured with an approval process

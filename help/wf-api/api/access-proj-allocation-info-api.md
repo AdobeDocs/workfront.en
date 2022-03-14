@@ -55,11 +55,11 @@ Only those tasks that are assigned only to a role are returned in the request. T
 In the following example URL, the role&nbsp;information is bolded&nbsp;and the URL is segmented for easier&nbsp;readability:
 <pre>https://<em>domain</em>.my.workfront.com/contourData?<br>projectID=594befbd00003bb93e21c2556cc538d1&<br>rangeStartDate=2017-06-21T00:00:00-06:00&<br>rangeEndDate=2017-07-06T23:59:59-06:00&<br><span class="bold">roleID=555d05780007b29a77c08f2fad28f0c4</span></pre>To access the Role ID:
 
-<ol> 
- <li value="1">Go to the Job Roles page in the Setup area.</li> 
- <li value="2">Create a custom view that includes the Role ID field.</li> 
- <li value="3">On the Job Roles page, select the new custom view from the <span class="bold">Views</span> drop-down menu.<br>The Role ID of each job role is displayed in the Role ID column.<br><img src="assets/jobrole-id-350x213.png" alt="jobrole_id.png" style="width: 350;height: 213;"></li> 
-</ol>
+1. Go to the Job Roles page in the Setup area.
+1. Create a custom view that includes the Role ID field.
+1. On the Job Roles page, select the new custom view from the `Views` drop-down menu.  
+   The Role ID of each job role is displayed in the Role ID column.  
+   ![jobrole_id.png](assets/jobrole-id-350x213.png)
 
 `Team (Optional):`&nbsp;Specify the specific team&nbsp;for which you want allocation information to be returned. Allocation information is returned only for the team&nbsp;you specify.&nbsp;&nbsp;
 

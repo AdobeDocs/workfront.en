@@ -76,16 +76,13 @@ To print the full page view, click the `Printer` icon at the top-right corner of
 
 To download the excel summary:
 
-<ol> 
- <li value="1">Open the proof's actions menu to the right of the proof, then click <span class="bold">Excel summary</span>.&nbsp;(1)<br><img src="assets/excel-summary-350x450.png" alt="Excel_summary.png" style="width: 350;height: 450;"></li> 
-</ol>
+1. Open the proof's actions menu to the right of the proof, then click `Excel summary`.&nbsp;(1)  
+   ![Excel_summary.png](assets/excel-summary-350x450.png)
 
-To download the excel summary from the Proof details page: 
+To download the excel summary from the Proof details page:
 
-<ol>
- <li value="1">Click the Export to <span class="bold">Excel</span> icon. (2)</li>
- <p><img src="assets/export-to-excel-350x185.png" alt="Export_to_excel.png" style="width: 350;height: 185;"></p>
-</ol>
+1. Click the Export to `Excel` icon. (2)
+1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exporting to PDF
 

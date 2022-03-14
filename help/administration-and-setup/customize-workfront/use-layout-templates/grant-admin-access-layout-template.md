@@ -43,17 +43,22 @@ You must have the following to perform the steps in this article:
 
 ## Grant administrative access for a layout template
 
-<ol> 
- <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
- <li value="2">Click <span class="bold">Grant access to</span> in the top section of the page.</li> 
- <li value="3"> <p>In the box that appears, click <span class="bold">Add a group</span>, start typing the name of the group, click the name when it appears, then click <span class="bold">Done</span>. </p> <p>Any users designated as the group administrators for the group you specify can administer the layout template. However, the template is not assigned to the member of the group for their use. For information about assigning a layout template to a group, see <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign" class="MCXref xref">Assign a layout template to users</a> in this article.</p> <note type="note"> 
-   <ul> 
-    <li>When a group administrator creates a layout template, assigning administrative access is mandatory. The layout template is designated for and visible to only the specified group. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>. For information about group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</li> 
-    <li>If you don't grant administrative access to the group administrators in a particular group, all users who can edit user accounts have administrative access to the layout template. Some Workfront administrators purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. </li> 
-   </ul> 
-  </note> </li> <note type="tip">
-  You can 
-  <span class="bold">Save</span> your progress at any time, then continue to modify the template later.
- </note> 
-</ol>
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click `Grant access to` in the top section of the page.
+1. In the box that appears, click `Add a group`, start typing the name of the group, click the name when it appears, then click `Done`.
+
+   Any users designated as the group administrators for the group you specify can administer the layout template. However, the template is not assigned to the member of the group for their use. For information about assigning a layout template to a group, see [Assign a layout template to users](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in this article.
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * When a group administrator creates a layout template, assigning administrative access is mandatory. The layout template is designated for and visible to only the specified group. For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). For information about group administrators, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+   >  
+   >  * If you don't grant administrative access to the group administrators in a particular group, all users who can edit user accounts have administrative access to the layout template. Some Workfront administrators purposefully choose not to grant administrative access for a layout template in order to make it a system-level layout template. 
+   >  
+   >
+
+1. You can `Save` your progress at any time, then continue to modify the template later.
 

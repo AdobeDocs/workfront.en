@@ -53,48 +53,88 @@ You must have the following before you begin:
 
 ## Access the My Updates area
 
-<ol> 
- <li value="1"> <p>Click <span class="bold">My Updates</span> in the <span class="bold">Main&nbsp;Menu</span>.</p> <p> <img src="assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x298.png" style="width: 350;height: 298;"> </p> <p>The My Updates area opens. </p> <p>The approvals and requests for access that are assigned to you are listed in the first half of the page, under My Updates. </p> <p>&nbsp;</p> <p> <img src="assets/my-updates-mentions-for-reviwers-nwe-350x418.png" style="width: 350;height: 418;"> </p> </li> 
- <li value="2"> <p>(Optional)&nbsp;Scroll to the bottom of the My&nbsp;Updates area and click right to display more approvals that display on additional pages. </p> <note type="tip">
-   The first five approvals or requests for access display by default. The remaining approvals display on additional pages. 
-  </note> <p> <img src="assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png" style="width: 350;height: 78;"> </p> </li> 
- <li value="3"> <p>(Optional) Expand the <span class="bold">Filter</span> drop-down menu <img src="assets/filter-nwepng.png"> in the upper-right corner of the <span class="bold">My Updates</span> section and select from the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   </col> 
-   <col> 
-   </col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">All</td> 
-     <td>Approvals that are submitted to you or delegated to you by another user. For information about delegating approvals, see <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a>. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Delegated Approvals</td> 
-     <td>Approvals delegated to you by another user. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">My Approvals</td> 
-     <td> <p>Approvals submitted to you. </p> <p>For more information about approving items, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work in Adobe Workfront</a>.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4"> <p>To approve or reject an item or suggest changes to a document before approving do the following: </p> 
-  <ol> 
-   <li value="1"> <p>(Optional) Click the <span class="bold">drop-down</span> icon <img src="assets/down-arrow-blue.png"> next to your approval decision (<span class="bold">Approve</span>, <span class="bold">Changes</span>,<span class="bold"> Reject</span>) and add a comment, then click&nbsp;<span class="bold">Add</span>. </p> <p>Or</p> <p>Click&nbsp;<span class="bold">Skip</span> if you do not want to enter a comment. </p> <p> <img src="assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png" style="width: 350;height: 183;"> </p> <note type="note">
-     The Changes option displays only for document approvals. 
-    </note> <p>Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes. </p> 
-    <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
-     <span class="autonumber"><span><b>Tip: </b></span></span> 
-     <p>If you do not want to add a comment to your decision, you can click the <span class="bold">Approve</span>, <span class="bold">Reject</span>, or <span class="bold">Changes</span> button and the approval decision is granted immediately. </p> 
-     <p> <img src="assets/approval-decision-buttons-in-my-updates-nwe-350x169.png" style="width: 350;height: 169;"> </p> 
-    </div> <p>For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work in Adobe Workfront</a>. </p> </li> 
-  </ol> </li> 
- <li value="5"> <p>Click <span class="bold">Grant access</span> to grant the access request submitted to you</p> <p>Or</p> <p>Expand the <span class="bold">Change access</span> drop-down menu to modify the access requested before you grant it. </p> <p> <img src="assets/grant-access-button-in-my-updates-nwe-350x224.png" style="width: 350;height: 224;"> </p> </li> 
- <li value="6"> <p>(Optional)&nbsp;Click&nbsp;<span class="bold">Ignore</span> to clear the access request from your approval list without granting it. </p> </li> 
- <li value="7"> <p>Click&nbsp;<span class="bold">Delegate my approvals</span> to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a>. </p> </li> 
- <li value="8"> <p>Scroll to the <span class="bold">Mentions</span> area underneath your approvals. Here, you can view all items where you have been included in a conversation.</p> <p> <img src="assets/mentions-area-for-reviewers-nwe-350x191.png" style="width: 350;height: 191;"> </p> </li> 
- <li value="9"> <p>(Optional)&nbsp;Click&nbsp;<span class="bold">Reply</span> to respond to a comment, enter your response, then click&nbsp;<span class="bold">Reply</span> again. </p> <p> For more information about updating items, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</p> </li> 
- <li value="10"> <p>(Optional) Click <span class="bold">Pin current page</span> to pin the My&nbsp;Updates area to your top navigation. </p> </li> 
-</ol>
+1. Click `My Updates` in the `Main Menu`.
+
+   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x298.png)
+
+   The My Updates area opens.
+
+   The approvals and requests for access that are assigned to you are listed in the first half of the page, under My Updates.
+
+   &nbsp;
+
+   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+
+1. (Optional)&nbsp;Scroll to the bottom of the My&nbsp;Updates area and click right to display more approvals that display on additional pages.
+
+   >[!TIP]
+   >
+   >The first five approvals or requests for access display by default. The remaining approvals display on additional pages.
+
+   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+
+1. (Optional) Expand the `Filter` drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the `My Updates` section and select from the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    </col> 
+    <col> 
+    </col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">All</td> 
+      <td>Approvals that are submitted to you or delegated to you by another user. For information about delegating approvals, see <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegate approval request</a>. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Delegated Approvals</td> 
+      <td>Approvals delegated to you by another user. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">My Approvals</td> 
+      <td> <p>Approvals submitted to you. </p> <p>For more information about approving items, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work in Adobe Workfront</a>.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. To approve or reject an item or suggest changes to a document before approving do the following:
+
+  1. (Optional) Click the `drop-down` icon ![](assets/down-arrow-blue.png) next to your approval decision ( `Approve`, `Changes`, `Reject`) and add a comment, then click  `Add`.
+
+     Or
+
+     Click  `Skip` if you do not want to enter a comment.
+
+     ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+
+     >[!NOTE]
+     >
+     >The Changes option displays only for document approvals.
+
+     Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes. 
+  
+     ` `**Tip: **`` If you do not want to add a comment to your decision, you can click the `Approve`, `Reject`, or `Changes` button and the approval decision is granted immediately.
+
+     ![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+
+     For more information about approving work, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
+
+1. Click `Grant access` to grant the access request submitted to you
+
+   Or
+
+   Expand the `Change access` drop-down menu to modify the access requested before you grant it.
+
+   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+
+1. (Optional) Click  `Ignore` to clear the access request from your approval list without granting it. 
+1. Click  `Delegate my approvals` to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md). 
+1. Scroll to the `Mentions` area underneath your approvals. Here, you can view all items where you have been included in a conversation.
+
+   ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
+
+1. (Optional) Click  `Reply` to respond to a comment, enter your response, then click  `Reply` again.
+
+   For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Optional) Click `Pin current page` to pin the My&nbsp;Updates area to your top navigation.
 

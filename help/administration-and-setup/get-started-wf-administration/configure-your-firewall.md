@@ -11,14 +11,17 @@ description: If your firewall or mail server is configured to allow access to on
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
-<ul> 
- <li>Sending messages from the Workfront application</li> 
- <li> <p>Using single sign-on (SSO) with Active Directory or Lightweight Directory Access Protocol (LDAP)</p> <note type="note">
-   This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
-  </note> </li> 
- <li>Using document webhooks when configuring custom document integrations</li> 
- <li> <p>Using Workfront Event Subscriptions</p> <p>For more information, see Event Subscription API.<br></p> </li> 
-</ul>
+* Sending messages from the Workfront application
+* Using single sign-on (SSO) with Active Directory or Lightweight Directory Access Protocol (LDAP)
+
+  >[!NOTE]
+  >
+  >This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+
+* Using document webhooks when configuring custom document integrations
+* Using Workfront Event Subscriptions
+
+  For more information, see Event Subscription API.
 
 You also need to open certain ports in order for email messages to be encrypted when they are delivered.
 

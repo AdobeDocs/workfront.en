@@ -11,13 +11,10 @@ description: Adobe Workfront provides two different proofing viewers:
 
 Adobe Workfront provides two different proofing viewers:
 
-<ul> 
- <li><span class="bold">Web Proofing Viewer:</span>&nbsp;Designed primarily for proofing static and video files. Runs in Google Chrome, Firefox, or Safari. </li> 
- <li><span class="bold">Desktop Proofing Viewer:</span> Designed for proofing interactive files as well as video and static files.&nbsp;Runs as&nbsp;a standalone application on your workstation. For more information, see <a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md" class="MCXref xref">Understand the Desktop Proofing Viewer</a></li> <note type="note">
-  If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer. For more information, see&nbsp;
-  <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md" class="MCXref xref">Set up interactive content proofing in Web Proofing Viewer</a>.
- </note> 
-</ul>
+* `Web Proofing Viewer:`&nbsp;Designed primarily for proofing static and video files. Runs in Google Chrome, Firefox, or Safari. 
+* `Desktop Proofing Viewer:` Designed for proofing interactive files as well as video and static files.&nbsp;Runs as&nbsp;a standalone application on your workstation. For more information, see [Understand the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+
+* If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer. For more information, see&nbsp; [Set up interactive content proofing in Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 The following list can help you understand what Proofing Viewer you can use to proof certain types of content:
 

@@ -95,16 +95,21 @@ You must have the following access to use the functionality in this article:
 
 When a new incomplete execution is stored, you can resolve it as follows:
 
-<ol> 
- <li value="1">Click the <span class="bold">Incomplete Executions</span> tab.</li> 
- <li value="2"> <p>Locate the incomplete execution you would like to resolve and click <span class="bold">Detail</span>.</p> <!--
+1. Click the `Incomplete Executions` tab.
+1. Locate the incomplete execution you would like to resolve and click `Detail`.
+
+   <!--
    add screenshot when this works
-  --> <p>If you want to see the log of all module's operations before you attempt to resolve the incomplete execution, you can resolve the incomplete execution from the History folder:</p> </li> 
- <li value="3">Click the <span class="bold">History</span> tab.</li> 
- <li value="4"> <p>Locate the scenario's failed execution log and click <span class="bold">Details</span>.</p> </li> 
- <li value="5"> <p>Open the module's log where all the module's operations are shown.</p> </li> 
- <li value="6"> <p>Locate the failed operation and click <span class="bold">Resolve</span>:</p> <p> <img src="assets/resolve-btn-350x188.png" style="width: 350;height: 188;"> </p> </li> 
-</ol>
+   -->
+
+   If you want to see the log of all module's operations before you attempt to resolve the incomplete execution, you can resolve the incomplete execution from the History folder:
+
+1. Click the `History` tab.
+1. Locate the scenario's failed execution log and click `Details`.
+1. Open the module's log where all the module's operations are shown.
+1. Locate the failed operation and click `Resolve`:
+
+   ![](assets/resolve-btn-350x188.png)
 
 ## Options related to incomplete executions
 

@@ -58,14 +58,15 @@ You must have the following access to perform the steps in this article:
 
 You can reorder stories in the backlog list by using the drag-and-drop method.
 
-<ol> 
- <li value="1">Go to the agile backlog where you want to reorder stories.</li> 
- <li value="2"> <p>In the <span class="bold">View</span> drop-down menu, select the <span class="bold">Backlog</span> view or a custom view that contains the <span class="bold">Order</span> column.</p> <note type="note">
-   If a task or issue has an agile team assigned and the project is not in a status that equates with Current, they do not display on the backlog. However, they do still affect the backlog count in the Order column. 
-   <br>
-  </note> </li> 
- <li value="3">Select one or more stories, then drag the stories to the order where you want them to appear in the backlog.<br><img src="assets/agile-backlog-drag-and-drop-adobe-350x160.png" alt="Agile_backlog_drag-and-drop.png_Adobe" style="width: 350;height: 160;"></li> 
-</ol>
+1. Go to the agile backlog where you want to reorder stories.
+1. In the `View` drop-down menu, select the `Backlog` view or a custom view that contains the `Order` column.
+
+   >[!NOTE]
+   >
+   >If a task or issue has an agile team assigned and the project is not in a status that equates with Current, they do not display on the backlog. However, they do still affect the backlog count in the Order column.
+
+1. Select one or more stories, then drag the stories to the order where you want them to appear in the backlog.  
+   ![Agile_backlog_drag-and-drop.png_Adobe](assets/agile-backlog-drag-and-drop-adobe-350x160.png)
 
 ### Break down stories
 
@@ -80,13 +81,14 @@ Because stories in a backlog vary in size, users can break them down into workab
 
 To break down a story:
 
-<ol> 
- <li value="1">Go to the backlog that contains the story you want to break down.</li> 
- <li value="2">Select the story you want to break down, then click <span class="bold">Breakdown Story</span>.<br>The Breakdown Story dialog box is displayed.<br><img src="assets/backlog-breakdown-dialog-350x171.png" alt="backlog_breakdown_dialog.png" style="width: 350;height: 171;"></li> 
- <li value="3">Specify a name and estimate for the story, and select whether the story is ready.</li> 
- <li value="4">Click <span class="bold">Add Story</span> to create another story from the original story.</li> 
- <li value="5">Click <span class="bold">Save</span>.&nbsp;</li> 
-</ol>
+1. Go to the backlog that contains the story you want to break down.
+1. Select the story you want to break down, then click `Breakdown Story`.  
+   The Breakdown Story dialog box is displayed.  
+   ![backlog_breakdown_dialog.png](assets/backlog-breakdown-dialog-350x171.png)
+
+1. Specify a name and estimate for the story, and select whether the story is ready.
+1. Click `Add Story` to create another story from the original story.
+1. Click `Save`.&nbsp;
 
 ### Edit stories
 
@@ -105,50 +107,52 @@ When you create a story from the backlog, the story is created as a task or issu
 
 To create a story from the backlog:
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. (Optional) Click the Switch team icon , then either select a new Scrum team from the drop-down menu or search for a team in the search bar. Select Backlog from the left panel. 
- <li value="4">Do either of the following, depending on whether you want to create a task or an issue: 
-  <ul>
-   <li><span class="bold">To create a task:</span> Click the <span class="bold">Stories</span> tab.</li>
-   <li><span class="bold">To Create an issue:</span> Click the <span class="bold">Issues</span> tab.</li>
-  </ul></li> 
- <li value="5">Click <span class="bold">New Story</span> or <span class="bold">New Issue</span>.</li> 
- <li value="6">Specify the following information:<br>
-  <table cellspacing="0">
-   <col>
-   <col>
-   <tbody>
-    <tr>
-     <td role="rowheader"><span class="bold">Story Name:</span></td>
-     <td> Type a name for the story.</td>
-    </tr>
-    <tr>
-     <td role="rowheader"><span class="bold">Description:</span></td>
-     <td>(Optional) Type a description for the story.</td>
-    </tr>
-    <tr>
-     <td role="rowheader"><span class="bold">Ready:</span></td>
-     <td> Select whether the story is ready to be added to an iteration. This setting is informational only. Stories can be added to an iteration regardless of the status of this setting.</td>
-    </tr>
-    <tr>
-     <td role="rowheader"><span class="bold">Estimate:</span></td>
-     <td>Specify a point or hourly estimate for the story. Estimates affect the burndown chart. The burndown&nbsp;chart for an iteration is accurate only if each story contains an accurate estimate.&nbsp;(If you provide a point estimate, you must have already designated in the team settings how many hours each point represents.)</td>
-    </tr>
-    <tr>
-     <td role="rowheader"><span class="bold">Parent Project:</span></td>
-     <td>Begin typing the name of the project where this story will be created, then click the name when it appears in the drop-down list.<br>The status of the project must be set to Current. If the status of the project is anything but Current, it is not displayed in the drop-down menu.</td>
-    </tr>
-    <tr>
-     <td role="rowheader"><span class="bold">Parent Task:</span></td>
-     <td>(Optional) Begin typing the name of the parent task that this story is subordinate to, then click the name when it appears in the drop-down list.</td>
-    </tr>
-    <tr>
-     <td role="rowheader"><span class="bold">Custom Forms:</span></td>
-     <td> (Optional) Select any custom forms that you want to add to this story.</td>
-    </tr>
-   </tbody>
-  </table></li> 
- <li value="7">Click <span class="bold">Save Story</span>.</li> 
-</ol>
+1. Do either of the following, depending on whether you want to create a task or an issue:
+
+  * `To create a task:` Click the `Stories` tab.
+  
+  * `To Create an issue:` Click the `Issues` tab.
+
+1. Click `New Story` or `New Issue`.
+
+1. Specify the following information:  
+
+   <table cellspacing="0">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td role="rowheader"><span class="bold">Story Name:</span></td>
+      <td> Type a name for the story.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="bold">Description:</span></td>
+      <td>(Optional) Type a description for the story.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="bold">Ready:</span></td>
+      <td> Select whether the story is ready to be added to an iteration. This setting is informational only. Stories can be added to an iteration regardless of the status of this setting.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="bold">Estimate:</span></td>
+      <td>Specify a point or hourly estimate for the story. Estimates affect the burndown chart. The burndown&nbsp;chart for an iteration is accurate only if each story contains an accurate estimate.&nbsp;(If you provide a point estimate, you must have already designated in the team settings how many hours each point represents.)</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="bold">Parent Project:</span></td>
+      <td>Begin typing the name of the project where this story will be created, then click the name when it appears in the drop-down list.<br>The status of the project must be set to Current. If the status of the project is anything but Current, it is not displayed in the drop-down menu.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="bold">Parent Task:</span></td>
+      <td>(Optional) Begin typing the name of the parent task that this story is subordinate to, then click the name when it appears in the drop-down list.</td>
+     </tr>
+     <tr>
+      <td role="rowheader"><span class="bold">Custom Forms:</span></td>
+      <td> (Optional) Select any custom forms that you want to add to this story.</td>
+     </tr>
+    </tbody>
+   </table>
+
+1. Click `Save Story`.
 
 ### `Assign a task or issue to an agile team`
 
@@ -171,16 +175,19 @@ To assign a task or issue to an agile team:
 * [Move existing stories to the backlog](#moving-existing-stories) 
 * [Export stories from the backlog](#exporting-stories-from-the-backlog)
 
-<ol> 
- <li value="1">Go to the backlog of the agile team.</li> 
- <li value="2">Select the stories you want to move to an iteration or Kanban board, then click <span class="bold">More</span> > <span class="bold">Move to</span>.<br>If moving the story to a Kanban board, the Move Story to the Kanban Board is displayed.<br>If moving the story to an iteration, the Move Story to an Iteration dialog box is displayed.<br><img src="assets/agile-backlog-addtoiteration-350x136.png" alt="agile_backlog_addtoiteration.png" style="width: 350;height: 136;"></li> 
- <li value="3">Do either of the following: 
-  <ul>
-   <li><span class="bold">For Scrum teams:</span> In the <span class="bold">Select Iteration</span> field, select the iteration where you want to move the stories.</li>
-   <li><span class="bold">For Kanban teams:</span> In the <span class="bold">Select Kanban Board</span> field, select your team Kanban board. (Kanban teams can have only one Kanban board.)</li>
-  </ul></li> 
- <li value="4">Click <span class="bold">Move Story</span>.</li> 
-</ol>
+1. Go to the backlog of the agile team.
+1. Select the stories you want to move to an iteration or Kanban board, then click `More` > `Move to`.  
+   If moving the story to a Kanban board, the Move Story to the Kanban Board is displayed.  
+   If moving the story to an iteration, the Move Story to an Iteration dialog box is displayed.  
+   ![agile_backlog_addtoiteration.png](assets/agile-backlog-addtoiteration-350x136.png)
+
+1. Do either of the following:
+
+  * `For Scrum teams:` In the `Select Iteration` field, select the iteration where you want to move the stories.
+  
+  * `For Kanban teams:` In the `Select Kanban Board` field, select your team Kanban board. (Kanban teams can have only one Kanban board.)
+
+1. Click `Move Story`.
 
 ### Move existing stories&nbsp;to the backlog
 

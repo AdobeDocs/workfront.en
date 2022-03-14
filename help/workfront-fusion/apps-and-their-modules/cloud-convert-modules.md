@@ -465,10 +465,10 @@ Triggers when a job in your account or task is created, finishes, or fails.
 
 >[!NOTE]
 >
-><ul> 
- <li>If working with the Array Aggregator (e.g. you have many files in different formats to convert), use the <span class="bold">I don't know the input format</span> option in the Add a task dialog. Otherwise the error is returned.</li> 
- <li> <p>Linking tasks within the job (name > input, name > input,...):</p> <p> <img src="assets/linking-name-across-jobs-350x808.png" style="width: 350;height: 808;"> </p> </li> 
-</ul>
+>* If working with the Array Aggregator (e.g. you have many files in different formats to convert), use the `I don't know the input format` option in the Add a task dialog. Otherwise the error is returned.
+>* Linking tasks within the job (name > input, name > input,...):
+>
+>  ![](assets/linking-name-across-jobs-350x808.png)>
 
 ### Tasks
 
@@ -706,23 +706,28 @@ If the CloudConvert > Convert a File throws one of the following errors:
 
 ` `**Example: **`` Converting a video from MOV to MP4 format
 
-<ol> 
- <li value="1">Visit <a href="https://cloudconvert.com/video-converter">https://cloudconvert.com/video-converter</a></li> 
- <li value="2">Click <span class="bold">Select File</span> and choose your sample MOV file.</li> 
- <li value="3">Click the dropdown, next to <span class="bold">Convert to</span> and choose <span class="bold">MP4</span>.</li> 
- <li value="4">Click the <span class="bold">wrench </span>icon.</li> 
- <li value="5">Configure the MP4 compression settings as you see fit.</li> 
- <li value="6">Click <span class="bold">Convert</span>.</li> 
- <li value="7">Once the conversion is complete, click <span class="bold">Download</span>.</li> 
- <li value="8">Review the converted video.</li> 
- <li value="9">Repeat steps 1 to 8 until you have found the optimal conversion settings for step 5.</li> 
- <li value="10">Visit <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">https://cloudconvert.com/api/v2/convert#convert-tasks</a></li> 
- <li value="11">Choose <span class="bold">mov</span> for the <span class="bold"> input_format</span> field.</li> 
- <li value="12">Choose <span class="bold">mp4 </span>for the <span class="bold">output_format</span> field.</li> 
- <li value="13">A list of all possible parameters like video_codec, crf, etc. will appear.</li> 
- <li value="14">In Workfront Fusion 2.0, insert the <span class="bold">CloudConvert </span>> <span class="bold">Convert a File</span> module in your scenario.</li> 
- <li value="15">Open the module's settings.</li> 
- <li value="16"> <p>Configure the module as shown below:</p> <p> <img src="assets/cloudconvert-mp4-example.png"> </p> </li> 
- <li value="17">Make sure to include all the settings in the Conversion and engine specific options field: for each setting from step 5, locate the corresponding parameter from step 13 and its corresponding value.</li> 
-</ol>
+1. Visit [https://cloudconvert.com/video-converter](https://cloudconvert.com/video-converter)
+1. Click `Select File` and choose your sample MOV file.
+1. Click the dropdown, next to `Convert to` and choose `MP4`.
+
+1. Click the `wrench`icon.
+1. Configure the MP4 compression settings as you see fit.
+1. Click `Convert`.
+1. Once the conversion is complete, click `Download`.
+1. Review the converted video.
+1. Repeat steps 1 to 8 until you have found the optimal conversion settings for step 5.
+1. Visit [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
+1. Choose `mov` for the `input_format` field.
+
+1. Choose `mp4`for the `output_format` field.
+
+1. A list of all possible parameters like video_codec, crf, etc. will appear.
+1. In Workfront Fusion 2.0, insert the `CloudConvert`> `Convert a File` module in your scenario.
+
+1. Open the module's settings.
+1. Configure the module as shown below:
+
+   ![](assets/cloudconvert-mp4-example.png)
+
+1. Make sure to include all the settings in the Conversion and engine specific options field: for each setting from step 5, locate the corresponding parameter from step 13 and its corresponding value.
 

@@ -68,12 +68,16 @@ To access the Planner section in the Resourcingarea:
 
 When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project.
 
-<ol> 
- <li value="1"> <p>Go to a project you want to budget resources for.</p> </li> 
- <li value="2"> Click Business Case in the left panel. </li> 
- <li value="3"> <p>Scroll to the <span class="bold">Resource Budgeting</span> section of the Business Case.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Edit Resource Budgeting</span> to add resource pools to your project and start budgeting your resources. </p> <note type="tip">
-   You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default. 
-  </note> <p> <img src="assets/resource-budgeting-area-on-project-350x70.png" style="width: 350;height: 70;"> </p> <p>For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> </li> 
-</ol>
+1. Go to a project you want to budget resources for.
+1. Click Business Case in the left panel. 
+1. Scroll to the `Resource Budgeting` section of the Business Case.
+1. Click `Edit Resource Budgeting` to add resource pools to your project and start budgeting your resources.
+
+   >[!TIP]
+   >
+   >You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a Resource Pool, the users in the pool and their job roles display in the Resource Budgeting area by default.
+
+   ![](assets/resource-budgeting-area-on-project-350x70.png)
+
+   For information about budgeting resources for one project, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 

@@ -47,16 +47,26 @@ You must have the following to perform the steps in this article:
 
 ## Assign a layout template to users
 
-<ol> 
- <li value="1"> <p>Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p> <note type="tip">
-   When you are satisfied with your layout template, we recommend that you test it, as described in 
-   <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md" class="MCXref xref">Testing a new layout template</a>.
-  </note> </li> 
- <li style="color: #000000;" value="2">Click <span class="bold">Assign this to</span> in the top section of the page.</li> 
- <li style="color: #000000;" value="3"> <p>In the box that appears, click <span class="bold">Add a User, Job Role, Team, or Group</span>, start typing the name of a user, job role, team, or group, then click the name when it appears in the drop-down.</p> <p>Recently added names display with a blue background. This is helpful when you are editing an existing layout template because you can distinguish the names you have just added from those that were already in the list.</p> <p>An Info icon <img src="assets/info-icon.png"> displays to the right of the name of any user, job role, team, or group that is already assigned to another layout template. You can hover over the icon to see the name of that layout template and decide whether you want to override the existing assignment.</p> </li> 
- <li value="4"> <p>Repeat the two previous steps to assign the layout template to other users, job roles, teams, or groups as needed.</p> <p>You can assign up to 100 users at a time. </p> </li> 
- <li style="color: #000000;" value="5"> <p>Click <span class="bold">Done</span>, then click <span class="bold">Save</span> in the lower-left corner.</p> <p>This step completes the process of creating and assigning a layout template.</p> </li> 
-</ol>
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+
+   >[!TIP]
+   >
+   >When you are satisfied with your layout template, we recommend that you test it, as described in [Testing a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
+
+1. Click `Assign this to` in the top section of the page.
+1. In the box that appears, click `Add a User, Job Role, Team, or Group`, start typing the name of a user, job role, team, or group, then click the name when it appears in the drop-down.
+
+   Recently added names display with a blue background. This is helpful when you are editing an existing layout template because you can distinguish the names you have just added from those that were already in the list.
+
+   An Info icon ![](assets/info-icon.png) displays to the right of the name of any user, job role, team, or group that is already assigned to another layout template. You can hover over the icon to see the name of that layout template and decide whether you want to override the existing assignment.
+
+1. Repeat the two previous steps to assign the layout template to other users, job roles, teams, or groups as needed.
+
+   You can assign up to 100 users at a time. 
+
+1. Click `Done`, then click `Save` in the lower-left corner.
+
+   This step completes the process of creating and assigning a layout template.
 
 ## Layout template assignment priority
 

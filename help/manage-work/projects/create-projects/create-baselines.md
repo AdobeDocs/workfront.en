@@ -64,26 +64,28 @@ You can create a baseline in the following ways:
 
 * Manually: You can create new baselines for the project as needed as the project progresses. You can then compare baselines to see how the project progressed over time.
 
-<ol> 
- <li value="1">Navigate to a project. </li> 
- <li value="2"> In the left panel, click Baselines. Or Click Show More, then click Baselines. <p>  </p> </li> 
- <li value="3">Click <span class="bold">New Baseline.</span></li> 
- <li value="4">Specify the name for the baseline.</li> 
- <li value="5"> <p>(Optional) If this is the first baseline, you may want to choose it as the default. </p> </li> 
- <li value="6"> <p>Click <span class="bold">Save</span>.</p> <p>By default, the following information displays about the baseline you created:</p> 
-  <ul> 
-   <li>Baseline name</li> 
-   <li>Baseline Entry Date</li> 
-   <li>Planned Start Date of the project when the baseline was created</li> 
-   <li>Projected Start Date of the project when the baseline was created</li> 
-   <li>Actual Duration of the project when the baseline was created</li> 
-   <li>% Complete of the project when the baseline was created</li> 
-   <li> <p>Default Baseline indicator that shows whether a baseline is the Default baseline of the project </p> <note type="tip">
-     You cannot view information from any two baselines at the same time in the same view or report. You can only view information from a given baseline and the Default baseline in the same report. You can modify which baseline you consider to be the Default baseline any time during the life of the project. 
-    </note> </li> 
-  </ul> </li> 
- <li value="7">(Optional) Click the drop-down arrow next to the View, then <span class="bold">Customize View</span> to add fields to your view and compare additional information between baselines. </li> 
-</ol>
+1. Navigate to a project. 
+1. In the left panel, click Baselines. Or Click Show More, then click Baselines. 
+1. Click `New Baseline.`
+1. Specify the name for the baseline.
+1. (Optional) If this is the first baseline, you may want to choose it as the default. 
+1. Click `Save`.
+
+   By default, the following information displays about the baseline you created:
+
+  * Baseline name
+  * Baseline Entry Date
+  * Planned Start Date of the project when the baseline was created
+  * Projected Start Date of the project when the baseline was created
+  * Actual Duration of the project when the baseline was created
+  * % Complete of the project when the baseline was created
+  * Default Baseline indicator that shows whether a baseline is the Default baseline of the project
+
+    >[!TIP]
+    >
+    >You cannot view information from any two baselines at the same time in the same view or report. You can only view information from a given baseline and the Default baseline in the same report. You can modify which baseline you consider to be the Default baseline any time during the life of the project.
+
+1. (Optional) Click the drop-down arrow next to the View, then `Customize View` to add fields to your view and compare additional information between baselines.
 
 ## Create a Baseline or a Baseline Task report
 

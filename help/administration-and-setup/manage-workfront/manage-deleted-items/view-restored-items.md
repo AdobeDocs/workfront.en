@@ -36,10 +36,15 @@ You must have the following to perform the steps in this article:
 
 ## View items that have been recently deleted
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="2"> <p>Expand <span class="bold">Recycle Bin</span>, then click <span class="bold">Recently Restored</span>.</p> <p>Items are sorted by the Restore Date by default.</p> </li> 
- <li value="3">Click the <span class="bold">Projects</span>, <span class="bold">Tasks</span>, <span class="bold">Issues</span>, or <span class="bold">Documents</span> tab, depending on the type of item that was restored.</li> 
- <li value="4"> <p>Click the linked name of the item&nbsp;that you want to view.</p> <p>The project, task, issue, or document is displayed.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. Expand `Recycle Bin`, then click `Recently Restored`.
+
+   Items are sorted by the Restore Date by default.
+
+1. Click the `Projects`, `Tasks`, `Issues`, or `Documents` tab, depending on the type of item that was restored.
+
+1. Click the linked name of the item&nbsp;that you want to view.
+
+   The project, task, issue, or document is displayed.
 

@@ -54,17 +54,34 @@ The Workfront connector uses OAuth 2.0 to connect to Workfront.
 
 You can create a connection to your Workfront account directly from inside a Workfront Fusion module.
 
-<ol> 
- <li value="1"> <p>In any Workfront app module, click <span class="bold">Add </span>next to the Connection box.</p> </li> 
- <li value="2"> <p>Enter the name of your instance into the URL. Example: <code>https://<your instance>.my.workfront.com</code>.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Next</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">SAML log in</span> to create the connection and go back to the module.</p> <p>Or</p> <p>Enter your Username and Password, then click <span class="bold">Log in</span> to create the connection and go back to the module.</p> <note type="note"> 
-   <ul> 
-    <li> <p>If you do not see a SAML log in button, your organization has not enabled Single Sign-On (SSO). You can log in with your Username and Password.</p> <p>For more information on SSO, see <a href="../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Overview of single sign-on in Adobe Workfront</a></p> </li> 
-    <li> <p>OAuth 2.0 connections to the Workfront API no longer rely on API keys. </p> </li> 
-   </ul> 
-  </note> </li> 
-</ol>
+1. In any Workfront app module, click `Add`next to the Connection box.
+1. Enter the name of your instance into the URL. Example: 
+
+   ```
+   https://<your instance>.my.workfront.com
+   ```
+
+   .
+1. Click `Next`.
+1. Click `SAML log in` to create the connection and go back to the module.
+
+   Or
+
+   Enter your Username and Password, then click `Log in` to create the connection and go back to the module.
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * If you do not see a SAML log in button, your organization has not enabled Single Sign-On (SSO). You can log in with your Username and Password.
+   >  
+   >  
+   >    For more information on SSO, see [Overview of single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   >  
+   >  * OAuth 2.0 connections to the Workfront API no longer rely on API keys. 
+   >  
+   >
 
 ## Workfront modules and their fields
 
@@ -90,35 +107,34 @@ This trigger module executes a scenario in real time when objects of a specific 
 
 The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-<ol> 
- <li value="1">Click <span class="bold">Add</span> to the right of the <span class="bold">Webhook</span> box.</li> 
- <li value="2"> <p>Configure the webhook in the <span class="bold">Add a hook</span> box that displays.</p> <p>When you are configuring this module, the following fields display.</p> 
-  <table> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td>Webhook name</td> 
-     <td>(Optional) Type a new name for the webhook</td> 
-    </tr> 
-    <tr> 
-     <td>Connection</td> 
-     <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
-    </tr> 
-    <tr> 
-     <td>Record Type</td> 
-     <td>Select the type of Workfront record that you want the module to watch.</td> 
-    </tr> Events filters You can set filters to watch for only records that meet criteria you select. For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND rules. Note: You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one. For more information on event filters, see Event subscription filters in the Workfront > Watch Events modules in this article. Exclude events made by this connection Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop. 
-    <tr> 
-     <td>Record Origin</td> 
-     <td> <p>Choose whether you want the scenario to watch <span class="bold">New Records Only</span>, <span class="bold">Updated Records Only</span>, <span class="bold">New and Updated Records</span>, or <span class="bold">Deleted Records Only</span>.</p> <note type="note">
-       If you choose 
-       <span class="bold">New and Updated Records</span>, the webhook creation creates 2 event subscriptions (for the same webhook address).
-      </note> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click `Add` to the right of the `Webhook` box.
+
+1. Configure the webhook in the `Add a hook` box that displays.
+
+   When you are configuring this module, the following fields display.
+
+   <table> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td>Webhook name</td> 
+      <td>(Optional) Type a new name for the webhook</td> 
+     </tr> 
+     <tr> 
+      <td>Connection</td> 
+      <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>Record Type</td> 
+      <td>Select the type of Workfront record that you want the module to watch.</td> 
+     </tr> Events filters You can set filters to watch for only records that meet criteria you select. For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND rules. Note: You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one. For more information on event filters, see Event subscription filters in the Workfront &gt; Watch Events modules in this article. Exclude events made by this connection Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop. 
+     <tr> 
+      <td>Record Origin</td> 
+      <td> <p>Choose whether you want the scenario to watch <span class="bold">New Records Only</span>, <span class="bold">Updated Records Only</span>, <span class="bold">New and Updated Records</span>, or <span class="bold">Deleted Records Only</span>.</p> <p>Note: If you choose <span class="bold">New and Updated Records</span>, the webhook creation creates 2 event subscriptions (for the same webhook address).</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 Once the webhook is created, you should be able to view the address of the endpoint that events are sent to.
 

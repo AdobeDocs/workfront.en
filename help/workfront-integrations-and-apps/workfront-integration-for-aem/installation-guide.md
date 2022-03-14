@@ -31,27 +31,26 @@ You must have the following access to perform the steps in this article:
 
 Prior to installing/configuring the tools you’ll need to complete a few steps:
 
-<ol> 
- <li value="1"> <p>AEM Assets installed and configured, version 6.4 or later.</p> 
-  <ol> 
-   <li value="1"> <p>For more information about installing AEM Assets, see the <a href="https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/deploy.html" class="external-link" rel="nofollow">Adobe Experience Manager documentation.</a></p> </li> 
-  </ol> </li> 
- <li value="2"> <p>AEM Touch-Optimized User Interface activated.</p> </li> 
- <li value="3"> <p>Ensure your firewall is properly configured:</p> 
-  <ol> 
-   <li value="1"> <p><a href="https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FSet_up_Workfront%2FGet_started-WF_administration%2Fconfigure-your-firewall.html" class="external-link" rel="nofollow">Configure your firewall</a> </p> </li> 
-   <li value="2"> <p>You can find your IP cluster in Workfront by going to <span class="uitext">Setup → System → Customer Info</span>.</p> <p> <img src="assets/wf---customer-info-350x224.png" style="width: 350;height: 224;"> </p> </li> 
-  </ol> </li> 
- <li value="4"> <p>&nbsp;If there is an AEM dispatcher&nbsp;in front of the AEM Author instance that will be communicating with Workfront, it will need to be configured to allow HTTP headers named <span class="uitext">authorization</span>, <span class="uitext">username </span>and <span class="uitext">apikey</span>. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.</p> </li> 
- <li value="5"> <p>Lastly, before installing Workfront Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won’t get updated properly.</p> 
-  <ul> 
-   <li> <p>/apps/dam/gui/coral/components/admin/schemaforms/formbuilder</p> </li> 
-   <li> <p>/apps/dam/gui/coral/components/admin/folderschemaforms/formbuilder</p> </li> 
-   <li> <p>/apps/dam/gui/content/foldermetadataschemaeditor</p> </li> 
-   <li> <p>/apps/dam/cfm/models/editor/components/datatypeproperties</p> </li> 
-   <li> <p>/apps/settings/dam/cfm/models/formbuilderconfig<br></p> </li> 
-  </ul> </li> 
-</ol>
+1. AEM Assets installed and configured, version 6.4 or later.
+
+  1. For more information about installing AEM Assets, see the [Adobe Experience Manager documentation.](https://docs.adobe.com/content/help/en/experience-manager-65/deploying/deploying/deploy.html)
+
+1. AEM Touch-Optimized User Interface activated.
+1. Ensure your firewall is properly configured:
+
+  1. [Configure your firewall](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FSet_up_Workfront%2FGet_started-WF_administration%2Fconfigure-your-firewall.html) 
+  1. You can find your IP cluster in Workfront by going to `Setup → System → Customer Info`.
+
+     ![](assets/wf---customer-info-350x224.png)
+
+1. If there is an AEM dispatcher in front of the AEM Author instance that will be communicating with Workfront, it will need to be configured to allow HTTP headers named `authorization`, `username`and `apikey`. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.
+1. Lastly, before installing Workfront Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won’t get updated properly.
+
+  * /apps/dam/gui/coral/components/admin/schemaforms/formbuilder
+  * /apps/dam/gui/coral/components/admin/folderschemaforms/formbuilder
+  * /apps/dam/gui/content/foldermetadataschemaeditor
+  * /apps/dam/cfm/models/editor/components/datatypeproperties
+  * /apps/settings/dam/cfm/models/formbuilderconfig
 
 # 2 - Installation
 
@@ -77,16 +76,16 @@ The Workfront Tools packages will need to be referenced as a dependency in the p
 [Copy](javascript:void(0);) 
 <pre><code><!-- Workfront Tools --><br><embedded><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.core.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<target>/apps/<path-to-project-install-folder>/install</target><br></embedded></code></pre>
 
-<ol> 
- <li value="1"> <p>The connector will be available for download from the creator, Hoodoo Digital. The format will be two zip files, workfront-tools.tools.ui.apps-1.1.0.zip and workfront-tools.core.ui.apps-1.1.0.zip.</p> </li> 
- <li value="2"> <p>Once the files are downloaded, log in to your AEM environment and navigate to <span class="uitext">Tools → Deployment → Packages</span>.</p> <p> <img src="assets/deployment-packages-350x154.png" style="width: 350;height: 154;"> </p> </li> 
-</ol>
+1. The connector will be available for download from the creator, Hoodoo Digital. The format will be two zip files, workfront-tools.tools.ui.apps-1.1.0.zip and workfront-tools.core.ui.apps-1.1.0.zip.
+1. Once the files are downloaded, log in to your AEM environment and navigate to `Tools → Deployment → Packages`.
 
-<ol> 
- <li value="1"> <p>Upon clicking <span class="uitext">Packages </span>you will be taken to the CRX Package Manager.&nbsp;&nbsp;</p> </li> 
- <li value="2"> <p>Click the <span class="uitext">Upload Package</span> button at the top of the screen. This will bring up an operating system prompt for your computer that will allow you to browse to the location where the ZIP files are located.&nbsp;</p> </li> 
- <li value="3"> <p>Select one of the packages and then repeat for the other one. Both packages will appear in the main list of other packages.&nbsp;&nbsp;</p> <p> <img src="assets/package-manager-350x166.png" style="width: 350;height: 166;"> </p> </li> 
-</ol>
+   ![](assets/deployment-packages-350x154.png)
+
+1. Upon clicking `Packages`you will be taken to the CRX Package Manager.&nbsp;&nbsp;
+1. Click the `Upload Package` button at the top of the screen. This will bring up an operating system prompt for your computer that will allow you to browse to the location where the ZIP files are located.&nbsp;
+1. Select one of the packages and then repeat for the other one. Both packages will appear in the main list of other packages.&nbsp;&nbsp;
+
+   ![](assets/package-manager-350x166.png)
 
 1. Click the Install button to begin the installation process for each of the packages.&nbsp;
 1. Once the installation has been completed then you can close out the CRX Package Manager window.&nbsp;&nbsp;
@@ -105,23 +104,24 @@ Check that `Day CQ Link Externalizer` has been set properly. Day CQ Link Externa
 
 # 4 - System User Configuration
 
-<ol> 
- <li value="1"> <p>Workfront service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users’ permissions. </p> <p> <img src="assets/wf-tools-permissions-350x192.png" style="width: 350;height: 192;"> </p> </li> 
- <li value="2"> <p><span class="uitext">workfront-tools</span> user should have:</p> 
-  <ul> 
-   <li> <p>jcr:read privilege to /conf/workfront-tools</p> </li> 
-   <li> <p>jcr:all privilege to /content/dam</p> </li> 
-   <li> <p>jcr:all privilege to /var/workflow</p> </li> 
-   <li> <p>jcr:all privilege to /var/workfront-tools</p> </li> 
-   <li> <p>jcr:read privilege to /conf/global/settings/dam/adminui-extension (Take into account that this path might not exist in your AEM instance if there are no custom Asset Metadata Schemas. If that is the case, you’ll need to create the path manually.)</p> </li> 
-   <li> <p>jcr:read privilege to /libs/dam/content/schemaeditors/forms</p> </li> 
-  </ul> </li> 
- <li value="3"> <p>Create <span class="uitext">workfront-tools</span> user manually <span class="uitext">(if applicable)</span></p> 
-  <ol> 
-   <li value="1">If you need to create <span class="uitext">workfront-tools</span> system user manually. Click on <span class="uitext">User Administration</span> on <span class="uitext">CRX Explorer</span> menu (<aem-server>/crx/explorer/index.jsp). Click on <span class="uitext">Create System User</span>, enter <span class="uitext">workfront-tools</span> as the system user’s ID and click on the green tick on the right hand side, then click on <span class="uitext">Close</span>.</li> 
-   <li value="2"> <p>Search for <span class="uitext">workfront-tools</span> user on <span class="uitext">AEM Security | Permissions</span> menu (<aem-server>/security/permissions.html/principal/workfront-tools) and add the permissions described above.</p> </li> 
-  </ol> </li> 
-</ol>
+1. Workfront service user creation is added by the connector package using ACS AEM Commons or Apache Sling Repository Initialization (AEMaaCS), you should check that “workfront-tools” service user has been correctly created. Search for “workfront-tools” user on “AEM Security | Permissions” menu (<aem-server>/security/permissions.html/principal/workfront-tools) and check the users’ permissions.
+
+   ![](assets/wf-tools-permissions-350x192.png)
+
+1. `workfront-tools` user should have:
+
+  * jcr:read privilege to /conf/workfront-tools
+  * jcr:all privilege to /content/dam
+  * jcr:all privilege to /var/workflow
+  * jcr:all privilege to /var/workfront-tools
+  * jcr:read privilege to /conf/global/settings/dam/adminui-extension (Take into account that this path might not exist in your AEM instance if there are no custom Asset Metadata Schemas. If that is the case, you’ll need to create the path manually.)
+  * jcr:read privilege to /libs/dam/content/schemaeditors/forms
+
+1. Create `workfront-tools` user manually `(if applicable)`
+
+  1. If you need to create `workfront-tools` system user manually. Click on `User Administration` on `CRX Explorer` menu (<aem-server>/crx/explorer/index.jsp). Click on `Create System User`, enter `workfront-tools` as the system user’s ID and click on the green tick on the right hand side, then click on `Close`.
+  
+  1. Search for `workfront-tools` user on `AEM Security | Permissions` menu (<aem-server>/security/permissions.html/principal/workfront-tools) and add the permissions described above.
 
 # 5 - Cloud Services - Connection configuration
 

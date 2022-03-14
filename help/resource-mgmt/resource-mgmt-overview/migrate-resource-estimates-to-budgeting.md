@@ -64,20 +64,32 @@ You must complete the following steps to manually duplicate the resource budgeti
 
 When you complete this workflow, you should be ready to use the new Resource Management tools in Workfront going forward:
 
-<ol> 
- <li value="1"><span class="bold">Align Roles.</span> Ensure that the roles associated with the Legacy Resource Pools are also associated with the users in the new Resource Pools. &nbsp;For information about comparing the roles between the Legacy Resource Pools and the ones associated with the users in the new Resource Pools see the&nbsp;<a href="#matching-job-roles" class="MCXref xref">Match job roles between Legacy Resource Pools and Resource Pools</a>&nbsp; section in this article. </li> 
- <li value="2"><span class="bold">Verify Users' Role Association.</span> Ensure that your users are associated with at least one Job Role. If a user is associated with more than one role, ensure that you have a valid percentage for the users’ FTE for each role.<br> For information about associating users with job roles and updating the percentage of FTE for each role, see " <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a></li> 
- <li value="3"> <p><span class="bold">Create New Resource Pools</span> . Ensure that your users are organized in Resource Pools. Ideally, after running the reports referenced in step #1, populate your new Resource Pools with the users who can fulfill the job roles that your Legacy Resource Pools contained. For more information about populating Resource Pools with Users, see&nbsp; " <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a></p> <note type="note">
-   You do not need to create one new pool for every old pool that existed. You only need to ensure that the new Resource Pools that you are creating and associating with your projects contain users who can fulfill the same roles that belonged to the Legacy Resource Pools. You can attach several Resource Pools to the same project when you use the new Resource Management tools.
-  </note> </li> 
- <li value="4"><span class="bold">Associate New Pools to Projects.</span> Ensure that your projects have Resource Pools assigned to them. Ideally, after learning the information you need from following step #1, you would associate each project with a new Resource Pool (or several) that have users who can fulfill the job roles associated with the Legacy Resource Pools of the project.<br> For information about how to associate Resource Pools with projects, see&nbsp; " <a href="../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a> ." </li> <!--
-  Assign a Resource Manager. Ensure that you are the Resource Manager of the projects you want to budget your resources for. For information about designating Resource Managers, see " Designate Resource Managers for a project or template
- --> 
- <li value="6"> <p><span class="bold">Verify Cost per Hour for Roles.</span> If you are calculating Budgeted Cost, or Budgeted Labor Cost for your projects, ensure that the job roles associated with the users in your Resource Pools have Cost per Hour rates defined<br>For information about creating Job Roles, see&nbsp; <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <note type="note">
-   If you are currently observing Budgeted Cost and Budgeted Labor Cost in the Legacy Resource Estimates section, these should already be in place.
-  </note> </li> 
- <li value="7"><span class="bold">Review Prerequisites.</span> For a full list of prerequisites that must be met before starting planning your resources in the Resource Budgeting section of the project, or in the Resource Planner, see " <a href="../../resource-mgmt/resource-planning/get-started-resource-planning.md" class="MCXref xref">Get started with Resource Planning </a></li> 
-</ol>
+1. `Align Roles.` Ensure that the roles associated with the Legacy Resource Pools are also associated with the users in the new Resource Pools. &nbsp;For information about comparing the roles between the Legacy Resource Pools and the ones associated with the users in the new Resource Pools see the&nbsp; [Match job roles between Legacy Resource Pools and Resource Pools](#matching-job-roles)&nbsp; section in this article. 
+
+1. `Verify Users' Role Association.` Ensure that your users are associated with at least one Job Role. If a user is associated with more than one role, ensure that you have a valid percentage for the users’ FTE for each role.  
+   For information about associating users with job roles and updating the percentage of FTE for each role, see " [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+
+1. `Create New Resource Pools` . Ensure that your users are organized in Resource Pools. Ideally, after running the reports referenced in step #1, populate your new Resource Pools with the users who can fulfill the job roles that your Legacy Resource Pools contained. For more information about populating Resource Pools with Users, see&nbsp; " [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+
+   >[!NOTE]
+   >
+   >You do not need to create one new pool for every old pool that existed. You only need to ensure that the new Resource Pools that you are creating and associating with your projects contain users who can fulfill the same roles that belonged to the Legacy Resource Pools. You can attach several Resource Pools to the same project when you use the new Resource Management tools.
+
+1. `Associate New Pools to Projects.` Ensure that your projects have Resource Pools assigned to them. Ideally, after learning the information you need from following step #1, you would associate each project with a new Resource Pool (or several) that have users who can fulfill the job roles associated with the Legacy Resource Pools of the project.  
+   For information about how to associate Resource Pools with projects, see&nbsp; " [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md) ."
+
+   <!--
+   Assign a Resource Manager. Ensure that you are the Resource Manager of the projects you want to budget your resources for. For information about designating Resource Managers, see " Designate Resource Managers for a project or template
+   -->
+
+1. `Verify Cost per Hour for Roles.` If you are calculating Budgeted Cost, or Budgeted Labor Cost for your projects, ensure that the job roles associated with the users in your Resource Pools have Cost per Hour rates defined  
+   For information about creating Job Roles, see&nbsp; [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+
+   >[!NOTE]
+   >
+   >If you are currently observing Budgeted Cost and Budgeted Labor Cost in the Legacy Resource Estimates section, these should already be in place.
+
+1. `Review Prerequisites.` For a full list of prerequisites that must be met before starting planning your resources in the Resource Budgeting section of the project, or in the Resource Planner, see " [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md)
 
 ###  Budget resources in the new resource management tools
 
@@ -96,36 +108,58 @@ To budget your resources in the new Resource Management tools, do either of the 
 
 #### `Budget resources at the Project Level`
 
-<ol> 
- <li value="1"> Go to one project on which you want to match the Legacy Resource Estimates section and the Resource Budgeting section in the Business Case. </li> 
- <li value="2"> <p> Click <span class="bold">Edit Resource Budgeting</span>, then <span class="bold">Apply</span> to select the appropriate Resource Pools.</p> <p>This displays your <span class="bold">Resource Budgeting</span> section for the project.</p> <p>You can expand each project to see all the Job Roles associated with the project, and each Job Role to see the users associated with each role. </p> </li> 
- <li value="3"> <p> Using the <span class="bold">BDG</span> column, manually estimate the budget for each of your resources (for each <span class="bold">User</span>, or for each <span class="bold">Job Role</span>).</p> <note type="important">
-   Ensure that the Budgeted Hours match the Estimated Hours from the Legacy Resource Estimates section for the same project and for the same role.
-  </note> <p> Or </p> <p> For a fast way to assign Budgeted Hours, use the <span class="bold">Options</span> drop-down menu from the project line, then select <span class="bold">Set Roles’ Planned Hours as Budgeted</span> to match the Planned Hours to the Budgeted Hours for each Job Role. This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the project. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the <span class="bold">Set Roles’ Planned Hours as Budgeted</span> option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the project.</p> <note type="important">
-   We recommend this only when your Planned Hours will match your Budgeted Hours for the Job Roles.
-  </note> </li> 
- <li value="4"> Click <span class="bold">Save</span> . </li> 
-</ol>
+1. Go to one project on which you want to match the Legacy Resource Estimates section and the Resource Budgeting section in the Business Case. 
+1. Click `Edit Resource Budgeting`, then `Apply` to select the appropriate Resource Pools.
+
+   This displays your `Resource Budgeting` section for the project.
+
+   You can expand each project to see all the Job Roles associated with the project, and each Job Role to see the users associated with each role. 
+
+1. Using the `BDG` column, manually estimate the budget for each of your resources (for each `User`, or for each `Job Role`).
+
+   >[!IMPORTANT]
+   >
+   >Ensure that the Budgeted Hours match the Estimated Hours from the Legacy Resource Estimates section for the same project and for the same role.
+
+   Or
+
+   For a fast way to assign Budgeted Hours, use the `Options` drop-down menu from the project line, then select `Set Roles’ Planned Hours as Budgeted` to match the Planned Hours to the Budgeted Hours for each Job Role. This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the project. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the `Set Roles’ Planned Hours as Budgeted` option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the project.
+
+   >[!IMPORTANT]
+   >
+   >We recommend this only when your Planned Hours will match your Budgeted Hours for the Job Roles.
+
+1. Click `Save` .
 
 #### `Budget resources across multiple projects`
 
-<ol> 
- <li value="1"> Go to the <span class="bold">Resource Planner</span> . </li> 
- <li value="2"> Select the <span class="bold">Project View</span> . </li> 
- <li value="3"> (Optional) Use the filters to display only the projects you want to budget resources for. </li> 
- <li value="4"> <p> Using the <span class="bold">BDG</span> column, manually estimate the budget for each of your resources (for each <span class="bold">User</span> , or for each <span class="bold">Job Role</span> ) under each project.</p> <note type="important">
-   Ensure that the Budgeted Hours match the Estimated Hours from the Capacity Planner for the same projects and for the same roles.
-  </note> <p> Or<br> For a fast way to assign Budgeted Hours, use the <span class="bold">Options</span> drop-down menu from the project line, then select <span class="bold">Set Roles’ Planned Hours as Budgeted</span> to match the Planned Hours to the Budgeted Hours for each Job Role. &nbsp;This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the projects. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the <span class="bold">Set Roles’ Planned Hours as Budgeted</span> option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the projects</p> <note type="important">
-   We recommend this only when your Planned Hours will match your Budgeted Hours for the Job Roles
-   <em>. </em>
-  </note> </li> 
- <li value="5"> Click <span class="bold">Save</span> . </li> 
-</ol>
+1. Go to the `Resource Planner` . 
+1. Select the `Project View` . 
+1. (Optional) Use the filters to display only the projects you want to budget resources for. 
+1. Using the `BDG` column, manually estimate the budget for each of your resources (for each `User` , or for each `Job Role` ) under each project.
+
+   >[!IMPORTANT]
+   >
+   >Ensure that the Budgeted Hours match the Estimated Hours from the Capacity Planner for the same projects and for the same roles.
+
+   Or  
+   For a fast way to assign Budgeted Hours, use the `Options` drop-down menu from the project line, then select `Set Roles’ Planned Hours as Budgeted` to match the Planned Hours to the Budgeted Hours for each Job Role.  This applies the Planned Hours from the time periods you see on the screen to the Budgeted Hours columns for each role and for the projects. If there are time periods with Planned Hours that are not displayed on the screen, you must scroll from left to right and use the `Set Roles’ Planned Hours as Budgeted` option to match Planned Hours to the Budgeted Hours for all the time periods for the life of the projects
+
+   >[!IMPORTANT]
+   >
+   >We recommend this only when your Planned Hours will match your Budgeted Hours for the Job Roles*. *
+
+1. Click `Save` .
 
 ### Match information between the legacy and the new resource management tools
 
-1. Go to the `Business Case` of each project, and compare all of the following fields between the Legacy Resource Estimates and the Resource Budgeting sections and ensure they match: 
-1. `<li value="1"> The <span class="bold">Hours</span> column (for each Job Role) in the Legacy Resource Estimates section must match the <span class="bold">Hours</span> column in the Resource Budgeting section. </li>` `<li value="2"> The <span class="bold">Legacy Resource Estimates</span> (currency field) column must match the <span class="bold">Budgeted Labor Cost</span> column for each Job Role. </li>` `<li value="3"> The overall cost for the <span class="bold">Legacy Budgeted Cost</span> (next to the <span class="bold">Legacy Resource Estimates</span> section) and the overall cost for the <span class="bold">Budgeted Labor Cost</span> (next to the <span class="bold">Resource Budgeting</span> section) must match. </li>` 
+1. Go to the `Business Case` of each project, and compare all of the following fields between the Legacy Resource Estimates and the Resource Budgeting sections and ensure they match:
+
+  1. The `Hours` column (for each Job Role) in the Legacy Resource Estimates section must match the `Hours` column in the Resource Budgeting section. 
+  
+  1. The `Legacy Resource Estimates` (currency field) column must match the `Budgeted Labor Cost` column for each Job Role. 
+  
+  1. The overall cost for the `Legacy Budgeted Cost` (next to the `Legacy Resource Estimates` section) and the overall cost for the `Budgeted Labor Cost` (next to the `Resource Budgeting` section) must match.
 
 1. If all the fields in step #1 match, your `Legacy Resource Estimates` information is now duplicated in the `Resource Budgeting` section of the Business Case. 
 
@@ -152,19 +186,26 @@ Do the following, in the following order:&nbsp;
 
 You can build the following Resource Estimates report to identify the Job Roles associated with your projects and what job roles have been budgeted for work in the Legacy Resource Estimates area of the project, or the Capacity Planner. The report also displays the new Resource Pools associated with the projects, if there are any:
 
-<ol> 
- <li value="1"> Navigate to <span class="bold">Reporting</span> . </li> 
- <li value="2"> Select the <span class="bold">Reports</span> tab. </li> 
- <li value="3"> Click <span class="bold">New Report</span> . </li> 
- <li value="4"> Select <span class="bold">Resource Estimates</span> . </li> 
- <li value="5"> On the <span class="bold">Columns (View)</span> tab, click inside the <span class="bold">ObjID</span> column header, then click the<span class="bold"> x</span> to remove it </li> 
- <li value="6"> Click <span class="bold">Add Column</span>, then start typing <span class="bold">Resource Pools</span> and select it when it appears in the list.<br><img src="assets/resource-pools-on-a-res-estimates-report-350x225.png" alt="resource_pools_on_a_res_estimates_report.png" style="width: 350;height: 225;"></li> 
- <li value="7"> Select the <span class="bold">Groupings</span> tab and click Add Grouping. </li> 
- <li value="8"> Start typing <span class="bold">Project Name</span> and select it when it appears in the list. </li> 
- <li value="9">Click <span class="bold">Add Grouping</span> and start typing <span class="bold">Job Role Name</span> and select it when it appears in the list.&nbsp;</li> 
- <li value="10"> (Optional) Select the <span class="bold">Filters</span> tab and filter for only the projects that you want to manage resources for. </li> 
- <li value="11"> Click <span class="bold">Save + Close</span> . <br><img src="assets/res-estimates-report-350x233.png" alt="res_estimates_report_with_new_res_pools_info_and_report_name.png" style="width: 350;height: 233;"><br>This report also includes information about the new Resource Pools associated with the projects, if any.<br>The Bud. Hours (or Budgeted Hours)column displays the amount of hours budgeted for the respective job role.<br>The Sch. Hours (or Scheduled Hours) column displays the amount of Planned Hours associated with the tasks where the job role is assigned.<br>The Project: Resource Pools column displays the name of the Resource Pools associated with each project, if any.&nbsp; Consider adding Resource Pools to the projects that are not associated with them.&nbsp; </li> 
-</ol>
+1. Navigate to `Reporting` . 
+1. Select the `Reports` tab. 
+1. Click `New Report` . 
+1. Select `Resource Estimates` . 
+1. On the `Columns (View)` tab, click inside the `ObjID` column header, then click the `x` to remove it 
+
+1. Click `Add Column`, then start typing `Resource Pools` and select it when it appears in the list.  
+   ![resource_pools_on_a_res_estimates_report.png](assets/resource-pools-on-a-res-estimates-report-350x225.png)
+
+1. Select the `Groupings` tab and click Add Grouping. 
+1. Start typing `Project Name` and select it when it appears in the list. 
+1. Click `Add Grouping` and start typing `Job Role Name` and select it when it appears in the list.&nbsp;
+
+1. (Optional) Select the `Filters` tab and filter for only the projects that you want to manage resources for. 
+1. Click `Save + Close` .   
+   ![res_estimates_report_with_new_res_pools_info_and_report_name.png](assets/res-estimates-report-350x233.png)  
+   This report also includes information about the new Resource Pools associated with the projects, if any.  
+   The Bud. Hours (or Budgeted Hours)column displays the amount of hours budgeted for the respective job role.  
+   The Sch. Hours (or Scheduled Hours) column displays the amount of Planned Hours associated with the tasks where the job role is assigned.  
+   The Project: Resource Pools column displays the name of the Resource Pools associated with each project, if any.&nbsp; Consider adding Resource Pools to the projects that are not associated with them.&nbsp;
 
 #### `Build a Resource Pool report with users’ job roles information`
 
@@ -176,20 +217,31 @@ You can build a Resource Pool report to identify which users are associated with
 
 To build the report:
 
-<ol> 
- <li value="1"> Navigate to <span class="bold">Reporting</span> . </li> 
- <li value="2"> Select the <span class="bold">Reports</span> tab. </li> 
- <li value="3"> Click <span class="bold">New Report</span> . </li> 
- <li value="4"> Select <span class="bold">Resource Pool</span> . </li> 
- <li value="5"> On the <span class="bold">Columns (View)</span> tab, click the header of each column to select it, then remove all columns except for one. </li> 
- <li value="6"> Click the header of the column that is left, then click <span class="bold">Switch to Text Mode</span> . </li> 
- <li value="7"> Click to edit text. </li> 
- <li value="8"> Remove the text in the text mode builder, and replace it with the following:<br><code>column.0.descriptionkey=name</code><br><code>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=val<br>column.0.link.lookup=link.view<br>column.0.link.value=val(objCode)<br>column.0.listsort=string(name)<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.stretch=20<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=100<br>column.1.valueexpression=CONCAT({name},'-',{role}.{name})<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(users).lists<br>column.1.valueformat=HTML<br>column.1.displayname=Users in the Resource Pool and their Primary Roles<br>column.1.textmode=true<br>column.1.type=iterate</code><p><img src="assets/new-resource-pools-with-users-and-primary-roles-350x249.png" style="width: 350;height: 249;"></p><note type="note">
-    Take this opportunity to assign Job Roles to users who are missing them, if you want to include them in Resource Pools.&nbsp;
-  </note></li> 
- <li value="9"> (Optional) Select the <span class="bold">Filters</span> tab and filter for only the Resource Pools that you plan associating with the projects whose resources you want to manage. </li> 
- <li value="10"> Click <span class="bold">Save + Close</span> . </li> 
-</ol>
+1. Navigate to `Reporting` . 
+1. Select the `Reports` tab. 
+1. Click `New Report` . 
+1. Select `Resource Pool` . 
+1. On the `Columns (View)` tab, click the header of each column to select it, then remove all columns except for one. 
+1. Click the header of the column that is left, then click `Switch to Text Mode` . 
+1. Click to edit text. 
+1. Remove the text in the text mode builder, and replace it with the following:
+
+   ```
+   column.0.descriptionkey=name
+   ```
+
+   ```
+   column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=val<br>column.0.link.lookup=link.view<br>column.0.link.value=val(objCode)<br>column.0.listsort=string(name)<br>column.0.namekey=name<br>column.0.querysort=name<br>column.0.stretch=20<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=100<br>column.1.valueexpression=CONCAT({name},'-',{role}.{name})<br>column.1.listdelimiter=<br><br>column.1.listmethod=nested(users).lists<br>column.1.valueformat=HTML<br>column.1.displayname=Users in the Resource Pool and their Primary Roles<br>column.1.textmode=true<br>column.1.type=iterate
+   ```
+
+   ![](assets/new-resource-pools-with-users-and-primary-roles-350x249.png)
+
+   >[!NOTE]
+   >
+   >Take this opportunity to assign Job Roles to users who are missing them, if you want to include them in Resource Pools.&nbsp;
+
+1. (Optional) Select the `Filters` tab and filter for only the Resource Pools that you plan associating with the projects whose resources you want to manage. 
+1. Click `Save + Close` .
 
 #### `Compare the two reports and update the projects with the new Resource Pools`
 

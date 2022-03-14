@@ -48,11 +48,17 @@ As a Workfront administrator, you can access the list of system-level project st
 
 For information about editing a system status and creating custom statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
- <li value="3"> <p>Click the <span class="bold">Project</span> tab.</p> <p>The project statuses available in Workfront are listed on this tab.</p> <p> <img src="assets/project-status-350x200.png" style="width: 350;height: 200;"> </p> <p>For details about each of the built-in system project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md" class="MCXref xref">System project statuses</a>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Project Preferences` > `Statuses`.
+
+1. Click the `Project` tab.
+
+   The project statuses available in Workfront are listed on this tab.
+
+   ![](assets/project-status-350x200.png)
+
+   For details about each of the built-in system project statuses, see [System project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
 ## Creating custom project statuses and customize system statuses
 

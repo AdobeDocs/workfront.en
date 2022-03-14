@@ -107,54 +107,78 @@ When you import a project into a plan some project information is also imported 
 >  `For information about how publishing initiatives affects the linked projects, see` ` [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)`. 
 >
 
-<ol> 
- <li value="1">Click the <span class="bold">Main&nbsp;Menu</span> <img src="assets/main-menu-icon.png"> in the upper-right corner of Workfront, then click&nbsp;Scenarios to access the Scenario Planner. </li> 
- <li value="2">Click the name of a plan where you want to import projects. </li> 
- <li value="3"> <p>Click <span class="bold">New Initiative</span>, then click <span class="bold">Import Projects</span>. </p> <p>The Import Projects box displays. Projects that have dates included in the time frame of your plan display in a list.</p> <p> <img src="assets/project-import-ui-projects-selected-350x72.png" style="width: 350;height: 72;"> </p> <note type="tip">
-   Projects in any status display in the list.
-  </note> </li> 
- <li value="4">(Optional)&nbsp;Click the <span class="bold">Filter icon</span> <img src="assets/filter-nwepng.png">and select an available filter from the list to reduce the amount of projects on your list. By default, the list of projects is filtered by the user's currently selected project filter in a list of projects. </li> 
- <li value="5">(Optional) Click the <span class="bold">Search icon</span> <img src="assets/search-icon.png"> and add a keyword displayed on any field on the screen. The items containing the search word display in the list automatically and all items are hidden. </li> 
- <li value="6">(Conditional)&nbsp;Click the <span class="bold">X icon</span> to remove the search and display all projects. </li> 
- <li value="7"> <p>Select up to 100 projects and click <span class="bold">Import</span>. </p> <p>The projects are imported as new initiatives. </p> <p>Notice the following:</p> 
-  <ul> 
-   <li>A project icon <img src="assets/project-icon-sp.png"> displays to the right of the initiative name.</li> 
-   <li> <p>If the project timeline exceeds the duration of the plan, the bar of the initiative ends with a pointed margin to the left (when the Start Date is earlier than the plan's date) or to the right (when the End Date is later than the plan's date).</p> <p> <img src="assets/project-bar-earlier-than-the-plan-start-date-350x39.png" style="width: 350;height: 39;"> </p> </li> 
-   <li> <p>The number of months and job roles have been updated to match those of the project. </p> </li> 
-  </ul> <note type="tip">
-   The costs associated with the job roles update at the initiative level and are not imported from the project. 
-  </note> </li> 
- <li value="8"> <p>Click the bar representing the new initiative to open the initiative details panel to the right. </p> <p> <img src="assets/initiative-duration-with-project-duration-details-panel-350x292.png" style="width: 350;height: 292;"> </p> <p>In the <span class="bold">Initiative Duration</span> area review the following information: </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Initiative Duration</td> 
-     <td>This is the duration of the initiative in months. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Initiative</td> 
-     <td>The Start and End dates of the initiative. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Project</td> 
-     <td> <p>The Planned Start and Completion dates of the linked project.</p> <note type="tip">
-       If the Project information is missing, the project was deleted.
-      </note> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="9">Edit the name of the initiative. By default, it matches the name of the project. </li> 
- <li value="10">(Optional) Do one of the following:
-  <ul>
-   <li>Update job roles in the <span class="bold">Required Job Roles</span> section</li>
-   <li>Update the <span class="bold">Fixed Costs</span> in the <span class="bold">Costs</span> section</li>
-   <li>Click <span class="bold">Update available job roles</span> or <span class="bold">Update available budget</span> to resolve conflicts between the new initiative and other initiatives on the plan.</li>
-  </ul></li> 
- <li value="11">(Conditional) Click <span class="bold">Apply</span> to save changes to your initiative. </li> 
- <li value="12">Click&nbsp;<span class="bold">Save Plan</span> to save the changes to your plan. </li> 
- <li value="13">(Optional) To update the changes you make to the initiative back to the project it was imported from, publish the project from the plan.&nbsp;For information about publishing plans, see <a href="../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a>. </li> 
- <li value="14"> <p>(Optional) Click the project icon to access the linked project. </p> <p> <img src="assets/project-icon-on-initiative-highlighted-350x49.png" style="width: 350;height: 49;"> </p> </li> 
-</ol>
+1. Click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click&nbsp;Scenarios to access the Scenario Planner. 
+
+1. Click the name of a plan where you want to import projects. 
+1. Click `New Initiative`, then click `Import Projects`.
+
+   The Import Projects box displays. Projects that have dates included in the time frame of your plan display in a list.
+
+   ![](assets/project-import-ui-projects-selected-350x72.png)
+
+   >[!TIP]
+   >
+   >Projects in any status display in the list.
+
+1. (Optional) Click the `Filter icon` ![](assets/filter-nwepng.png)and select an available filter from the list to reduce the amount of projects on your list. By default, the list of projects is filtered by the user's currently selected project filter in a list of projects. 
+
+1. (Optional) Click the `Search icon` ![](assets/search-icon.png) and add a keyword displayed on any field on the screen. The items containing the search word display in the list automatically and all items are hidden. 
+
+1. (Conditional) Click the `X icon` to remove the search and display all projects. 
+1. Select up to 100 projects and click `Import`.
+
+   The projects are imported as new initiatives.
+
+   Notice the following:
+
+  * A project icon ![](assets/project-icon-sp.png) displays to the right of the initiative name.
+  * If the project timeline exceeds the duration of the plan, the bar of the initiative ends with a pointed margin to the left (when the Start Date is earlier than the plan's date) or to the right (when the End Date is later than the plan's date).
+
+    ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+
+  * The number of months and job roles have been updated to match those of the project.
+
+   >[!TIP]
+   >
+   >The costs associated with the job roles update at the initiative level and are not imported from the project.
+
+1. Click the bar representing the new initiative to open the initiative details panel to the right.
+
+   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+
+   In the `Initiative Duration` area review the following information: 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Initiative Duration</td> 
+      <td>This is the duration of the initiative in months. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Initiative</td> 
+      <td>The Start and End dates of the initiative. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Project</td> 
+      <td> <p>The Planned Start and Completion dates of the linked project.</p> <p>Tip: If the Project information is missing, the project was deleted.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Edit the name of the initiative. By default, it matches the name of the project. 
+1. (Optional) Do one of the following:
+
+  * Update job roles in the `Required Job Roles` section
+  * Update the `Fixed Costs` in the `Costs` section
+  
+  * Click `Update available job roles` or `Update available budget` to resolve conflicts between the new initiative and other initiatives on the plan.
+
+1. (Conditional) Click `Apply` to save changes to your initiative. 
+1. Click  `Save Plan` to save the changes to your plan. 
+1. (Optional) To update the changes you make to the initiative back to the project it was imported from, publish the project from the plan.&nbsp;For information about publishing plans, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md). 
+1. (Optional) Click the project icon to access the linked project.
+
+   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
 

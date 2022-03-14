@@ -27,17 +27,23 @@ For information about Proof Permission Profiles, see [Proof Permissions Profiles
 
 To edit a user's Proof Permission Profile:
 
-<ol> 
- <li value="1">Go to Account Settings, then click the Users tab. </li> 
- <li value="2">Click the user's name whose permissions you want to edit. </li> 
- <li value="3"> <p>Click the Permissions profile drop-down menu and select a new permission profile. </p> <p>Permission profiles are Administrator, Supervisor, Manager, and Observer.</p> </li> 
- <li value="4"> <p>Click anywhere outside of the menu to save. </p> <note type="note"> 
-   <p>Administrators cannot assign the Billing Administrator profile. You can find a list of Profile changes in the following logs:</p> 
-   <ul> 
-    <li>The Account activity logs</li> 
-    <li>The User's profile log (accessible only to that User) </li> 
-   </ul> 
-  </note> </li> 
-</ol>
+1. Go to Account Settings, then click the Users tab. 
+1. Click the user's name whose permissions you want to edit. 
+1. Click the Permissions profile drop-down menu and select a new permission profile.
+
+   Permission profiles are Administrator, Supervisor, Manager, and Observer.
+
+1. Click anywhere outside of the menu to save.
+
+   >[!NOTE]
+   >
+   >Administrators cannot assign the Billing Administrator profile. You can find a list of Profile changes in the following logs:
+   >
+   >  
+   >  
+   >  * The Account activity logs
+   >  * The User's profile log (accessible only to that User) 
+   >  
+   >
 
 For more information on activity logs, see [Understanding the Workfront Proof Activity Audit Trail](../../../workfront-proof/wp-work-proofsfiles/basic-features/activity-audit-trail.md)

@@ -54,14 +54,18 @@ You can either unassign items from users and move them to the Unassigned Work ar
 
 To unassign work items from users:
 
-<ol> 
- <li value="1">In the Workload Balancer, go to the <span class="bold">Assigned Work</span> area and expand a user.</li> 
- <li value="2">Do one of the following:
-  <ul>
-   Find the item you want to unassign in a user's area, click it, and drag and drop it in the Unassigned area or in another user's area.
-   <li><p>Click the <span class="bold">More</span> icon <img src="assets/more-icon-task-list.png"> to the right of the name of a work item, click&nbsp;<span class="bold">Assign this to</span>, then remove the name of the entities assigned to the work item or enter another name, and click&nbsp;<span class="bold">Save</span>.</p><p><img src="assets/workload-balancer-assign-this-to-link-from-task-350x117.png" style="width: 350;height: 117;"></p></li>
-  </ul><p>The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any other users, or it displays in the user area if it is assigned to another user.</p><note type="tip">
-   Unassigned issues do not display in the Unassigned area.
-  </note><p>For information about filtering information in the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>.</p></li> 
-</ol>
+1. In the Workload Balancer, go to the `Assigned Work` area and expand a user.
+1. Do one of the following:
+
+  * Click the `More` icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click  `Assign this to`, then remove the name of the entities assigned to the work item or enter another name, and click  `Save`.
+
+    ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
+
+   The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any other users, or it displays in the user area if it is assigned to another user.
+
+   >[!TIP]
+   >
+   >Unassigned issues do not display in the Unassigned area.
+
+   For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 

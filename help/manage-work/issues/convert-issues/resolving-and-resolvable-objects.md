@@ -36,13 +36,11 @@ To establish the system default for what happens to the issue as it is being con
 Depending on the way the Workfront or group administrator configured the system or group level issue preferences, you might be able to handle the resolvable object during the conversion of an issue to a project or a task.   
 The following scenarios exist:
 
-<ul> 
- <li> <p>If the Workfront <span>or group administrator</span> has the <span class="bold">Keep the original issue and tie its resolution to the task</span> and the <span class="bold">Keep the original issue and tie its resolution to the project</span> selected and the <span class="bold">Allow these settings to be changed during conversion</span> unselected, you will not be able to change these settings as you are converting issues to tasks or projects.<br><img src="assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png" style="width: 350;height: 217;"><br></p> </li> 
-</ul>
+* If the Workfront `or group administrator` has the `Keep the original issue and tie its resolution to the task` and the `Keep the original issue and tie its resolution to the project` selected and the `Allow these settings to be changed during conversion` unselected, you will not be able to change these settings as you are converting issues to tasks or projects.  
+  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
-<ul> 
- <li> <p>If the Workfront or group administrator has the <span class="bold">Keep the original issue and tie its resolution to the task</span> and the <span class="bold">Keep the original issue and tie its resolution to the project</span> either selected or unselected and the <span class="bold">Allow these settings to be changed during conversion</span> selected, you will be able to change these settings as you are converting issues to tasks or projects.<br><img src="assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png" style="width: 350;height: 113;"><br></p> </li> 
-</ul>
+* If the Workfront or group administrator has the `Keep the original issue and tie its resolution to the task` and the `Keep the original issue and tie its resolution to the project` either selected or unselected and the `Allow these settings to be changed during conversion` selected, you will be able to change these settings as you are converting issues to tasks or projects.  
+  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 For more information about converting issues to tasks and projects, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -122,14 +120,15 @@ If and issue is resolved by another issue, the percent complete updates when eit
 
 Locating the resolving object is identical for tasks and projects.
 
-<ol> 
- <li value="1">Navigate to a project or a task which you created by converting an issue to the project or the task.</li> 
- <li value="2"> <p> Click the Project Details or the Task Details icon and click to expand it.</p> <p>  </p> </li> 
- <li value="3"> Click Overview. </li> 
- <li value="4">At the bottom of the tab, locate to <span class="bold">This Resolves</span> field: the issue which is the Resolvable Object of the project or the task is listed in this field.<br><note type="note">
-    Issues cannot be converted to other issues, but they can manually be associated with a Resolving Issue. A project, task, or issue can have multiple issues as Resolvable Objects. When the project, task, or issue resolves, the Resolvable Object (issue) also resolves. The Resolvable Issue remains closed even if the project, task, or issue that resolved it re-opens. 
-  </note></li> 
-</ol>
+1. Navigate to a project or a task which you created by converting an issue to the project or the task.
+1. Click the Project Details or the Task Details icon and click to expand it.
+
+1. Click Overview. 
+1. At the bottom of the tab, locate to `This Resolves` field: the issue which is the Resolvable Object of the project or the task is listed in this field.
+
+   >[!NOTE]
+   >
+   >Issues cannot be converted to other issues, but they can manually be associated with a Resolving Issue. A project, task, or issue can have multiple issues as Resolvable Objects. When the project, task, or issue resolves, the Resolvable Object (issue) also resolves. The Resolvable Issue remains closed even if the project, task, or issue that resolved it re-opens.
 
 ## Identify an issue with a Resolving Object in a list
 

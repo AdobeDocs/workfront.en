@@ -58,11 +58,12 @@ For information about on deleting group timesheets, see [Delete generated timesh
 
 ## Export group-level timesheet profiles
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
- <li value="2"> <p>Click <b>Groups</b>.</p> <p>In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.</p> </li> 
- <li value="3"> <p>Click the name of the group with the timesheet profiles you want to export.</p> </li> 
- <li value="4"> <p>Click <b>Timesheet Profiles</b>.</p> </li> 
- <li value="5"> <p>Click <b>Export</b> to export the list of timesheet profiles for the group.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click **Groups**.
+
+   In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+
+1. Click the name of the group with the timesheet profiles you want to export.
+1. Click **Timesheet Profiles**.
+1. Click **Export** to export the list of timesheet profiles for the group.
 

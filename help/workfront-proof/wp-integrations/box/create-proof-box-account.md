@@ -17,18 +17,21 @@ It's easy to create proofs and new proof versions via your Box account.
 
 ## Creating a New Proof from a File in Box
 
-<ol> 
- <li value="1">Log into your Box account and click on the <span class="bold">More Options</span> button next to the file you would you want to proof in Workfront Proof.</li> 
- <li value="2">Go to <span class="bold">More Actions</span>.</li> 
- <li value="3">Select <span class="bold">Review with Workfront Proof</span>.<br>If you are already logged in to Workfront Proof, a pop-up window will appear with the file uploaded on the&nbsp;New proof page.<br>Here you can add more files (if you wish to create multiple proofs in one go or to combine multiple files into one proof), add people to the proof, set a deadline for them, add tags and pick the folder for the proof<br>You can also choose to make this proof a new version of an existing proof</li> 
- <li value="4">Click <span class="bold">Save</span>&nbsp;to create the proof and send it to your reviewers.<br>A comment is added to the file in Box with a personal link to the proof in Workfront Proof.</li> <note type="note"> 
-  <ul> 
-   <li>If you have your own branded Workfront Proof login page you will be taken to that page instead of the standard Workfront Proof login page. See <a href="https://support.workfront.com/hc/en-us/sections/115000921208-Branding">Branding</a> for more information. </li> 
-   <li>If you have enabled the Single Sign-On functionality in your Workfront Proof account you will be taken to the SSO login page and asked to enter your Single Sign-On login credentials, but only if you're are using the same email address for your Box account and Workfront Proof. See <a href="../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md" class="MCXref xref" xrefformat="{para}">Single Sign-On in Workfront Proof</a> for more information. </li> 
-   <li>If you are not using the same email address for both your Box account and your Workfront Proof account, you will always be taken to the standard Workfront Proof login page. </li> 
-  </ul> 
- </note> 
-</ol>
+1. Log into your Box account and click on the `More Options` button next to the file you would you want to proof in Workfront Proof.
+1. Go to `More Actions`.
+1. Select `Review with Workfront Proof`.  
+   If you are already logged in to Workfront Proof, a pop-up window will appear with the file uploaded on the&nbsp;New proof page.  
+   Here you can add more files (if you wish to create multiple proofs in one go or to combine multiple files into one proof), add people to the proof, set a deadline for them, add tags and pick the folder for the proof  
+   You can also choose to make this proof a new version of an existing proof
+
+1. Click `Save`&nbsp;to create the proof and send it to your reviewers.  
+   A comment is added to the file in Box with a personal link to the proof in Workfront Proof.
+
+1.
+
+  * If you have your own branded Workfront Proof login page you will be taken to that page instead of the standard Workfront Proof login page. See [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) for more information. 
+  * If you have enabled the Single Sign-On functionality in your Workfront Proof account you will be taken to the SSO login page and asked to enter your Single Sign-On login credentials, but only if you're are using the same email address for your Box account and Workfront Proof. See [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) for more information. 
+  * If you are not using the same email address for both your Box account and your Workfront Proof account, you will always be taken to the standard Workfront Proof login page.
 
 ## Creating a New Version of a Proof Via a File in Box
 

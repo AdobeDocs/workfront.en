@@ -47,14 +47,34 @@ You must have the following to perform the steps in this article:
 
 ## Change the password for an auto-provisioned user
 
-<ol> 
- <li value="1"> <p>Determine a user's GUID user name by passing an API request, as shown in the following example:</p><pre><a href="https://domain.my.workfront.com/attask/api/v10/USER/search?fields=Username&ID=">https://<domain>.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=<ID of User></a></pre> <p>Where <i><domain></i> is your company's domain and <i><ID of User></i> is the user's Workfront ID. </p> <p>You receive a response similar to the following:</p> <p> <img src="assets/getguid-350x105.png" style="width: 350;height: 105;"> </p> <p>The return for "username" is the user's GUID.</p> </li> 
- <li value="2"> <p>Using their GUID as their user name, change the user's password.</p> <p>For more information on changing your password, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</p> <p>If your organization uses a SSO system, only a Workfront system administrator can change a user's password. For more information, see <a href="../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md" class="MCXref xref">Overview of single sign-on in Adobe Workfront</a></p> </li> 
- <li value="3"> <p>With the user logged in to Workfront, navigate to:</p> <p>https://<your domain>.my.workfront.com/login/convertUsername</p> </li> 
- <li value="4"> <p>In the <span class="bold">Your login email address</span> box, verify that user's email address is correct, then click <span class="bold">Update Account</span>.</p> <p> <img src="assets/guidusername-350x272.png" style="width: 350;height: 272;"> </p> <p>The user's user name is changed to their Workfront email address.</p> </li> 
-</ol>
+1. Determine a user's GUID user name by passing an API request, as shown in the following example:
+   <pre><a href="https://domain.my.workfront.com/attask/api/v10/USER/search?fields=Username&ID=">https://<domain>.my.workfront.com/attask/api/v14.0/USER/search?fields=username&ID=<ID of User></a></pre>Where *<domain>* is your company's domain and *<ID of User>* is the user's Workfront ID.
+
+   You receive a response similar to the following:
+
+   ![](assets/getguid-350x105.png)
+
+   The return for "username" is the user's GUID.
+
+1. Using their GUID as their user name, change the user's password.
+
+   For more information on changing your password, see [Reset your password](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md).
+
+   If your organization uses a SSO system, only a Workfront system administrator can change a user's password. For more information, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+
+1. With the user logged in to Workfront, navigate to:
+
+   https://<your domain>.my.workfront.com/login/convertUsername
+
+1. In the `Your login email address` box, verify that user's email address is correct, then click `Update Account`.
+
+   ![](assets/guidusername-350x272.png)
+
+   The user's user name is changed to their Workfront email address.
 
 ` `**Tip: **`` To find a user's ID:
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Users . `<li value="2"> <p>Select the user.</p> <p>The user's profile page opens and their user ID displays in the URL.</p> </li>`
+1. Select the user.
+
+   The user's profile page opens and their user ID displays in the URL.
 

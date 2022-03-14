@@ -51,15 +51,23 @@ You set up an iterator module the same you set up any other module. The Array fi
 
 For more information, see [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
-` `**Examples: **`` 
+` `**Examples: **``
 
-<ul> 
- <li> <p>The below scenario shows how to retrieve emails with attachments and save the attachments as single files in a selected Dropbox folder.</p> <p>Emails can contain an array of attachments. The iterator module inserted after the first module will enable you to handle each attachment separately. The iterator module splits the array of attachments into single bundles. Each bundle, with one attachment, is then saved one at a time in a selected Dropbox folder. The iterator module set-up is shown above: the Array field should contain the <code>Attachments[]</code> array.</p> <p> <img src="assets/attachments-array-350x154.jpg" style="width: 350;height: 154;"> </p> </li> 
-</ul>
+* The below scenario shows how to retrieve emails with attachments and save the attachments as single files in a selected Dropbox folder.
 
-<ul> 
- <li> <p>For your convenience, many Workfront Fusion apps offer specialized iterator modules with a simplified setup. For example, the Email app contains the special iterator module Email > Iterate attachments that will produce the same results as the general It</p> <p> <img src="assets/specialized-iterators-350x135.jpg" style="width: 350;height: 135;"> </p> </li> 
-</ul>
+  Emails can contain an array of attachments. The iterator module inserted after the first module will enable you to handle each attachment separately. The iterator module splits the array of attachments into single bundles. Each bundle, with one attachment, is then saved one at a time in a selected Dropbox folder. The iterator module set-up is shown above: the Array field should contain the 
+
+  ```
+  Attachments[]
+  ```
+
+  array.
+
+  ![](assets/attachments-array-350x154.jpg)
+
+* For your convenience, many Workfront Fusion apps offer specialized iterator modules with a simplified setup. For example, the Email app contains the special iterator module Email > Iterate attachments that will produce the same results as the general It
+
+  ![](assets/specialized-iterators-350x135.jpg)
 
 <!--
 Learn when to use an Iterator in your scenarios

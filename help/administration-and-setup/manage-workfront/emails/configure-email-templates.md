@@ -41,39 +41,42 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new email template
 
-<ol data-mc-continue="false"> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the panel on the left, click <span class="bold">Email</span>&nbsp;> <span class="bold">Notifications</span>.</li> 
- <li value="3"> <p>Click the <span class="bold">Email Templates</span> tab, then click <span class="bold">New Email Template</span>.<br></p> </li> 
- <li value="4"> <p>In the <span class="bold">New Email Template</span> box that appears, specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Email template</td> 
-     <td>Title of the email template (required).</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Description of the template.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Object type</td> 
-     <td>Specify the&nbsp;object type that you want to associate the template with (required, by default it will be set to 'Issue').</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Subject </td> 
-     <td>Subject that is displayed when the email message is sent (required).</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> </td> 
-     <td> <p>Content that is displayed when the email message is sent.</p> <p>You can use HTML formatting for the email content, as described in <a href="#add" class="MCXref xref">Add HTML formatting to an email template</a> in this article.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the panel on the left, click `Email` > `Notifications`.
+
+1. Click the `Email Templates` tab, then click `New Email Template`.  
+
+1. In the `New Email Template` box that appears, specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Email template</td> 
+      <td>Title of the email template (required).</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Description of the template.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Object type</td> 
+      <td>Specify the&nbsp;object type that you want to associate the template with (required, by default it will be set to 'Issue').</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Subject </td> 
+      <td>Subject that is displayed when the email message is sent (required).</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> </td> 
+      <td> <p>Content that is displayed when the email message is sent.</p> <p>You can use HTML formatting for the email content, as described in <a href="#add" class="MCXref xref">Add HTML formatting to an email template</a> in this article.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Save`.
 
 ## Add HTML formatting to an email template
 

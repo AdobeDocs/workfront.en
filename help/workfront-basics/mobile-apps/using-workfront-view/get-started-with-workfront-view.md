@@ -52,12 +52,17 @@ You must have an Apple Cloud account to be able to install applications on an iP
 
 ## Log in to Workfront View
 
-<ol> 
- <li value="1">Go to the <span class="bold">Workfront View</span> app on your iPad.<br><img src="assets/workfront-view-app-adobe-350x261.png" alt="workfront_view_app_Adobe.png" style="width: 350;height: 261;"></li> 
- <li value="2">(Optional) Tap <span class="bold">Try the demo</span> to take a brief demo of the app.<br>The demo shows sample projects, not the projects in your Workfront system.<br><img src="assets/workfront-view-demo-350x256.jpg" alt="workfront_view_demo.jpg" style="width: 350;height: 256;"></li> 
- <li value="3">Specify your <span class="bold">Workfront Username</span>.</li> 
- <li value="4">Specify your <span class="bold">Workfront Password</span>.</li> 
- <li value="5">Specify the <span class="bold">Workfront URL</span> of your company.<br>The URL should be in this format: <span class="wysiwyg-underline wysiwyg-color-blue" style="font-style: italic;">yourCompanyDomain.my.workfront.com</span></li> 
- <li value="6">Tap <span class="bold">LOG IN</span>.</li> 
-</ol>
+1. Go to the `Workfront View` app on your iPad.  
+   ![workfront_view_app_Adobe.png](assets/workfront-view-app-adobe-350x261.png)
+
+1. (Optional) Tap `Try the demo` to take a brief demo of the app.  
+   The demo shows sample projects, not the projects in your Workfront system.  
+   ![workfront_view_demo.jpg](assets/workfront-view-demo-350x256.jpg)
+
+1. Specify your `Workfront Username`.
+1. Specify your `Workfront Password`.
+1. Specify the `Workfront URL` of your company.  
+   The URL should be in this format: `yourCompanyDomain.my.workfront.com`
+
+1. Tap `LOG IN`.
 

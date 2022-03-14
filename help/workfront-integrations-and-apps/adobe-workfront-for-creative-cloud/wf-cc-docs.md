@@ -47,15 +47,21 @@ You must have the following access to perform the steps in this article:
 
 ## Upload documents to Adobe Photoshop
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
- <li value="2">Go to the work item where you want to upload a document. </li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png"> in the navigation bar. </li> 
- <li value="4">Click <span class="bold">New File</span> near the bottom of the plugin.</li> 
- <li value="5">Choose the <span class="bold">Asset Type</span> from the drop-down menu.<br><note type="note">
-   If you add an approver, the image uploads to Workfront as a simple Proof.
-  </note></li> 
- <li value="6">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
- <li value="7">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. Go to the work item where you want to upload a document. 
+1. Click the `Document` icon ![](assets/documents.png) in the navigation bar. 
+
+1. Click `New File` near the bottom of the plugin.
+1. Choose the `Asset Type` from the drop-down menu.
+
+   >[!NOTE]
+   >
+   >If you add an approver, the image uploads to Workfront as a simple Proof.
+
+1. (Optional) Type a comment in the `Updates` area. 
+1. Click `Upload`.  
+   The document appears in the Documents area in the plugin and the desktop app.
 

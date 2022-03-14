@@ -10,11 +10,11 @@ description: You can locate the following types of requests that you or someone 
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
-<ul> Submitted section: All requests that you or someone else submitted and you have access to at least View. 
- <li> <p>Draft section: All requests that you started but you never finished and you never submitted. For more information about draft requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>.</p> <note type="tip">
-   You can only view your own draft requests. 
-  </note> </li> 
-</ul>
+* Draft section: All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+
+  >[!TIP]
+  >
+  >You can only view your own draft requests.
 
 ## Access requirements
 

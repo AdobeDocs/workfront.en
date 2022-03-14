@@ -45,22 +45,28 @@ You must have the following to perform the steps in this article:
 
 ## Pin pages using a layout template
 
-<ol> 
- <li value="1">Begin working on a layout template, as described in <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</li> 
- <li value="2">Under <span class="bold">Top navigation area</span>, click <span class="bold">Add new pin</span>. </li> 
- <li value="3"> <p>In the drop-down menu that appears, do either of the following:</p> 
-  <ul> 
-   <li> <p>Click a Main Menu item.</p> <note type="important"> 
-     <div> 
-      <p>To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en">Adobe Workfront Goals overview</a> or for information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>.</p> 
-     </div> 
-    </note> </li> 
-   <li> <p>Click <span class="bold">Add a Dashboard</span>, then type a descriptive <span class="bold">Custom section title</span> and add the dashboard.</p> </li> 
-  </ul> </li> 
- <li value="4">Repeat the previous step to pin any other pages.</li> 
- <li value="5"> <p>Continue customizing the layout template.</p> <p>Or</p> <p>If you are finished customizing, click <span class="bold">Save</span>.</p> <note type="tip">
-   You can 
-   <span class="bold">Save</span> your progress at any time, then continue to modify the template later.
-  </note> </li> 
-</ol>
+1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Under `Top navigation area`, click `Add new pin`. 
+
+1. In the drop-down menu that appears, do either of the following:
+
+  * Click a Main Menu item.
+
+    >[!IMPORTANT]
+    >
+    >
+    >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWorkfront_Goals%2FGoal_management%2Fwf-goals-overview.htm&_LANG=en) or for information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+
+  * Click `Add a Dashboard`, then type a descriptive `Custom section title` and add the dashboard.
+
+1. Repeat the previous step to pin any other pages.
+1. Continue customizing the layout template.
+
+   Or
+
+   If you are finished customizing, click `Save`.
+
+   >[!TIP]
+   >
+   >You can `Save` your progress at any time, then continue to modify the template later.
 

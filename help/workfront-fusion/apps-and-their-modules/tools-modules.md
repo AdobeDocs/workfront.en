@@ -132,14 +132,29 @@ The following scenario sends an email to the first recipient after every odd-num
 
 ![](assets/example-email-350x246.gif)
 
-<ol> 
- <li value="1">To create this scenario: </li> 
- <li value="2">Set the module's <span class="bold">Reset a value</span> field to Never.</li> 
- <li value="3"> <p>Set the route for odd values. Set the filter for this route using the modulus math function that equals <code>1</code>:</p> <p> <img src="assets/odd-350x459.png" style="width: 350;height: 459;"> </p> <note type="note">
-   Do not forget to change the Equal to operator from the default Text operator to the Numeric operator.
-  </note> </li> 
- <li value="4">Set the route for even values using the modulus math function that equals <code>0</code>:</li> 
-</ol>
+1. To create this scenario: 
+1. Set the module's `Reset a value` field to Never.
+1. Set the route for odd values. Set the filter for this route using the modulus math function that equals 
+
+   ```
+   1
+   ```
+
+   :
+
+   ![](assets/odd-350x459.png)
+
+   >[!NOTE]
+   >
+   >Do not forget to change the Equal to operator from the default Text operator to the Numeric operator.
+
+1. Set the route for even values using the modulus math function that equals 
+
+   ```
+   0
+   ```
+
+   :
 
 The increment function adds one every time the scenario runs. The filters check the increment and act on its value, ensuring that the emails are evenly distributed.
 

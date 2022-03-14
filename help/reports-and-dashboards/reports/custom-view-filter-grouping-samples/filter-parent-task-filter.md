@@ -51,36 +51,53 @@ You must have the following access to perform the steps in this article:
 
 You can apply the following filter to a task report to display tasks with no children.&nbsp;They could have parents of their own and be children of other tasks.
 
-<ol> 
- <li value="1"> From the Main Menu , click Reports. </li> 
- <li value="2">Click <span class="bold">New Report</span>.</li> 
- <li value="3">Select a <span class="bold">Task Report</span>.</li> 
- <li value="4">Click <span class="bold">Filters</span>.</li> 
- <li value="5">Click <span class="bold">Add a Filter Rule</span>.</li> 
- <li value="6">In the <span class="bold">Start typing field name ...</span> line, start typing <span class="bold">Number of Children</span>.</li> 
- <li value="7"> <p>Select <span class="bold">Equal (Case Sensitive)</span> for your modifier, then enter <span class="bold">0</span> for the number of children.<br><img src="assets/parent-task-filter-from-the-ui-350x76.png" alt="" style="width: 350;height: 76;"></p> <p>Or</p> <p>Click&nbsp;<span class="bold">Switch to Text Mode</span>, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;</p> <p><code>numberOfChildren=0<br>numberOfChildren_Mod=eq</code> </p> </li> 
- <li value="8"> <p>Click <span class="bold">Save + Close</span>.</p> <p>This pulls a report for all tasks which are working tasks in your system. Some of these tasks could have a parent, but they are not parent tasks themselves. </p> </li> 
-</ol>
+1. From the Main Menu , click Reports. 
+1. Click `New Report`.
+1. Select a `Task Report`.
+1. Click `Filters`.
+1. Click `Add a Filter Rule`.
+1. In the `Start typing field name ...` line, start typing `Number of Children`.
+
+1. Select `Equal (Case Sensitive)` for your modifier, then enter `0` for the number of children.  
+   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+
+   Or
+
+   Click  `Switch to Text Mode`, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;
+
+   ```
+   numberOfChildren=0<br>numberOfChildren_Mod=eq
+   ```
+
+1. Click `Save + Close`.
+
+   This pulls a report for all tasks which are working tasks in your system. Some of these tasks could have a parent, but they are not parent tasks themselves.
 
 ## Display tasks with parents (they could have children)
 
 You can apply the following filter to a task report to display tasks with parents, meaning they are children tasks. However, these tasks could also have children of their own because the filter does not exclude their children. Children tasks that are also parents for other tasks are not considered working tasks.
 
-<ol> 
- <li value="1"> From the Main Menu , click Reports. <li>Click <span class="bold">New Report</span>.</li> <li>Select a <span class="bold">Task Report</span>.</li> <li>Click <span class="bold">Filters</span>.</li> <li>Click <span class="bold">Add a Filter Rule</span>.</li> <li>In the <span class="bold">Start typing field name ...</span> line, start typing <span class="bold">Parent ID</span>.</li> <li> <p>Select <span class="bold">Is Not Blank</span> for your modifier.</p> <p> <img src="assets/filter-parent-id-not-blank-350x100.png" style="width: 350;height: 100;"> <br> </p> <p>Or</p> <p>Click&nbsp;<span class="bold">Switch to Text Mode</span>, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;</p> <p><code>parentID_Mod=notblank</code> </p> </li> <li> <p>Click <span class="bold">Save + Close</span>.</p> <p>This pulls a report for all tasks in your system that have parents and are children tasks of those parents. Some of these tasks could be a parent themselves. </p> </li> </li> 
-</ol>
+1. From the Main Menu , click Reports. `<li>Click <span class="bold">New Report</span>.</li>` `<li>Select a <span class="bold">Task Report</span>.</li>` `<li>Click <span class="bold">Filters</span>.</li>` `<li>Click <span class="bold">Add a Filter Rule</span>.</li>` `<li>In the <span class="bold">Start typing field name ...</span> line, start typing <span class="bold">Parent ID</span>.</li>` `<li> <p>Select <span class="bold">Is Not Blank</span> for your modifier.</p> <p> <img src="assets/filter-parent-id-not-blank-350x100.png" style="width: 350;height: 100;"> <br> </p> <p>Or</p> <p>Click&nbsp;<span class="bold">Switch to Text Mode</span>, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;</p> <p><code>parentID_Mod=notblank</code> </p> </li>` `<li> <p>Click <span class="bold">Save + Close</span>.</p> <p>This pulls a report for all tasks in your system that have parents and are children tasks of those parents. Some of these tasks could be a parent themselves. </p> </li>`
 
 ## Display tasks with no children and no parents (standalone tasks)
 
 You can apply the following filter to a task report to display standalone working tasks.&nbsp;These tasks don't have a parent and they have no children of their own.
 
-<ol> 
- <li value="1"> <p> From the Main Menu , click Reports. </p> </li> 
- <li value="2"> <p>Click <span class="bold">New Report</span>.</p> </li> 
- <li value="3"> <p>Select a <span class="bold">Task Report</span>.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Filters</span>.</p> </li> 
- <li value="5"> <p>Click <span class="bold">Add a Filter Rule</span> and in the <span class="bold">Start typing field name ...</span> line start typing <span class="bold">Number of Children</span> select <span class="bold">Equal (Case Sensitive)</span> for your modifier, then enter <span class="bold">0</span> for the number of children.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Add another Filter Rule</span> and in the <span class="bold">Start typing field name ...</span> line start typing <span class="bold">Parent ID</span>, then select <span class="bold">Is Blank</span>. </p> <p> <img src="assets/filter-parent-id-blank-and-zero-children-350x121.png" style="width: 350;height: 121;"> </p> <p>Or </p> <p>Instead of steps 6-7, click&nbsp;<span class="bold">Switch to Text Mode</span> and in the&nbsp;text editing window, copy and paste the following text:&nbsp;</p><pre>numberOfChildren=0</pre><pre>numberOfChildren_Mod=eq</pre><pre>parentID_Mod=isblank</pre> </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>.</p> <p>This pulls a report for all tasks in your system that have no parents nor children. These are standalone working tasks. </p> </li> 
-</ol>
+1. From the Main Menu , click Reports. 
+1. Click `New Report`.
+1. Select a `Task Report`.
+1. Click `Filters`.
+1. Click `Add a Filter Rule` and in the `Start typing field name ...` line start typing `Number of Children` select `Equal (Case Sensitive)` for your modifier, then enter `0` for the number of children.
+1. Click `Add another Filter Rule` and in the `Start typing field name ...` line start typing `Parent ID`, then select `Is Blank`.
+
+   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+
+   Or
+
+   Instead of steps 6-7, click  `Switch to Text Mode` and in the&nbsp;text editing window, copy and paste the following text:&nbsp;
+   <pre>numberOfChildren=0</pre><pre>numberOfChildren_Mod=eq</pre><pre>parentID_Mod=isblank</pre>
+
+1. Click `Save + Close`.
+
+   This pulls a report for all tasks in your system that have no parents nor children. These are standalone working tasks.
 

@@ -44,8 +44,9 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3"> <p>In the lower-right corner of the proofing viewer, click the <span class="bold">Settings</span> icon.</p> <p> <img src="assets/phq-viewer-video-playbackspeed--3-.png" alt="phq_viewer_video_playbackspeed__3_.png"> </p> </li> 
- <li value="4">Enable the <span class="bold">Loop</span> option.</li> 
-</ol>
+1. In the lower-right corner of the proofing viewer, click the `Settings` icon.
+
+   ![phq_viewer_video_playbackspeed__3_.png](assets/phq-viewer-video-playbackspeed--3-.png)
+
+1. Enable the `Loop` option.
 

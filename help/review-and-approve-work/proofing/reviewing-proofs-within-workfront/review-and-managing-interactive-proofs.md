@@ -41,20 +41,24 @@ You must have the following access to perform the steps in this article:
 
 ## Open and work with an interactive proof
 
-<ol> 
- <li value="1"> <p>Go to the document list that contains the interactive proof you want to open.</p> </li> 
- <li value="2"> <p>Hover over the document, then click&nbsp;<span class="bold">Open proof</span>.</p> <p>Depending on which proofing viewer your Adobe Workfront administrator has configured for proofing interactive content, the Desktop Proofing Viewer or Web Proofing Viewer launches automatically. For information about these two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> <note type="note">
-   The Desktop Proofing Viewer does not support websites that require you to log in.
-  </note> </li> 
- <li value="3">Do any of the following:
-  <ul>
-   <li><p>Comment on the proof.</p><note type="note">
-      The Desktop Proofing Viewer, takes a static screenshot of your content every time you click 
-     <span class="bold">Add comment</span> so users can see what part of the content you are commenting on. This screenshot is where you can add comments with markups.
-    </note></li>
-   <li>Use proofing viewer functionality described in the remaining sections below.</li>
-  </ul></li> 
-</ol>
+1. Go to the document list that contains the interactive proof you want to open.
+1. Hover over the document, then click  `Open proof`.
+
+   Depending on which proofing viewer your Adobe Workfront administrator has configured for proofing interactive content, the Desktop Proofing Viewer or Web Proofing Viewer launches automatically. For information about these two viewers, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+
+   >[!NOTE]
+   >
+   >The Desktop Proofing Viewer does not support websites that require you to log in.
+
+1. Do any of the following:
+
+  * Comment on the proof.
+
+    >[!NOTE]
+    >
+    >The Desktop Proofing Viewer, takes a static screenshot of your content every time you click `Add comment` so users can see what part of the content you are commenting on. This screenshot is where you can add comments with markups.
+
+  * Use proofing viewer functionality described in the remaining sections below.
 
 For information about creating a proof, see [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md#generating-a-proof-on-a-document).
 
@@ -102,9 +106,9 @@ You can interact with the interactive proof like you would normally interact wit
 
 While you are reviewing a proof containing interactive or static web content, you can easily open the associated website in a new browser tab from the proofing viewer.
 
-<ol> 
- <li value="1"> <p>Click the icon to the left of the URL in the upper left corner of the proofing viewer.&nbsp;</p> <p> <img src="assets/url-button-for-opening-website-in-another-tab-350x206.png" alt="URL_button_for_opening_website_in_another_tab.png" style="width: 350;height: 206;"> <br> </p> </li> 
-</ol>
+1. Click the icon to the left of the URL in the upper left corner of the proofing viewer.&nbsp;
+
+   ![URL_button_for_opening_website_in_another_tab.png](assets/url-button-for-opening-website-in-another-tab-350x206.png)
 
 ## Change proof resolution
 

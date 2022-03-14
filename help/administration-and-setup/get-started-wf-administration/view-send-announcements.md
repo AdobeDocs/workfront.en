@@ -49,43 +49,46 @@ You can use the `Announcements` page to communicate with users in your Workfront
 
 You can easily forward messages that you receive from Workfront to users in your system.
 
-<ol> 
- <li value="1"> <p>Go to the Announcements page by clicking the <b>Notification</b> icon in the upper-right corner of the Workfront interface, then click <b>All Announcements</b>.</p> <p> <img src="assets/announcement-access-350x212.png" style="width: 350;height: 212;"> </p> </li> 
- <li value="2">On the <span class="bold">Announcements</span> page, select the message that you want to forward.</li> 
- <li value="3">Click <span class="bold">Forward</span>.</li> 
- <li value="4"> <p>In the <span class="bold">Send to</span> box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.<br></p> <p>Or</p> <p>To forward the announcement to all users in your system, begin typing <span class="bold">Everyone</span>, then click it when it appears in the drop-down list. </p> </li> 
- <li value="5">Continue with Step 3 in <a href="#composing-new-announcements" class="MCXref xref">Compose new announcements</a>.</li> 
-</ol>
+1. Go to the Announcements page by clicking the **Notification** icon in the upper-right corner of the Workfront interface, then click **All Announcements**.
+
+   ![](assets/announcement-access-350x212.png)
+
+1. On the `Announcements` page, select the message that you want to forward.
+1. Click `Forward`.
+1. In the `Send to` box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.
+
+   Or
+
+   To forward the announcement to all users in your system, begin typing `Everyone`, then click it when it appears in the drop-down list. 
+
+1. Continue with Step 3 in [Compose new announcements](#composing-new-announcements).
 
 ### Compose new announcements
 
-<ol> 
- <li value="1"> <p>Go to the Announcements page by clicking the <b>Notification</b> icon in the upper-right corner of the Workfront interface, then click <b>All Announcements</b>.</p> <p> <img src="assets/announcement-access-350x212.png" style="width: 350;height: 212;"> </p> </li> 
- <li value="2">On the <span class="bold">Announcements</span> page, click <span class="bold">New Announcement.</span></li> 
- <li value="3"> <p>In the <span class="bold">Send to</span> box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.<br></p> <p>By default, when sending a new announcement message, <span class="bold">Everyone</span> is pre-populated in this field. If you do not want all users in your system to receive the announcement message, remove <span class="bold">Everyone</span> from the list.</p> </li> 
- <li value="4"> <p>Specify the following additional information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Subject</td> 
-     <td>Specify a subject for the announcement.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Type message here</td> 
-     <td>Specify the content of your message. The message editor enables you to include common markup, including bold, italics, underline, bulleted and numbered lists, and hyperlinks.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Attachments</td> 
-     <td>Click<span class="bold"> Add Attachment,</span> then browse to and select the file you want to attach to the message.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">(Optional) Click <span class="bold">Save As Draft</span> to save the message (including the recipient list, subject, and attachments) as a draft.<br></li> 
- <li value="6">(Optional) To view a draft, in the <span class="bold">Announcements</span> area, click <span class="bold">Drafts</span>.</li> 
- <li value="7"> <p>Click <span class="bold">Send.</span><br></p> <p>Users can now view the announcement message, as described in <a href="../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md" class="MCXref xref">View and manage in-app notifications</a>.</p> </li> 
-</ol>
+1. Go to the Announcements page by clicking the **Notification** icon in the upper-right corner of the Workfront interface, then click **All Announcements**.
+
+   ![](assets/announcement-access-350x212.png)
+
+1. On the `Announcements` page, click `New Announcement.`
+
+1. In the `Send to` box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.
+
+   By default, when sending a new announcement message, `Everyone` is pre-populated in this field. If you do not want all users in your system to receive the announcement message, remove `Everyone` from the list.
+
+1. Specify the following additional information:
+
+   | Subject |Specify a subject for the announcement. |
+   |---|---|
+   | Type message here |Specify the content of your message. The message editor enables you to include common markup, including bold, italics, underline, bulleted and numbered lists, and hyperlinks. |
+   | Attachments |Click `Add Attachment,` then browse to and select the file you want to attach to the message. |
+
+1. (Optional) Click `Save As Draft` to save the message (including the recipient list, subject, and attachments) as a draft.  
+
+1. (Optional) To view a draft, in the `Announcements` area, click `Drafts`.
+
+1. Click `Send.`
+
+   Users can now view the announcement message, as described in [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Limit the types of Workfront announcements you receive
 

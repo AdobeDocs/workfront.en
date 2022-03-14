@@ -57,32 +57,56 @@ You can create personal tasks in Adobe Workfront from Microsoft Teams if the fol
 
 ## Access Workfront from the Workfront bot chat channel
 
-<ol> 
- <li value="1">Open the <span class="bold">Workfront </span>bot chat channel.</li> 
- <li value="2"> <p>Click the <span class="bold">Workfront</span> icon underneath the text field to display the search box.</p> <p> <img src="assets/teams-search-box-in-the-bot-channel-350x456.png" alt="teams_search_box_in_the_bot_channel.PNG" style="width: 350;height: 456;"> <br> </p> </li> 
- <li value="3"> <p> Start typing the name of a project, task, or issue.</p> <p>For information about searching for items, see the section <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md" class="MCXref xref">Search for and share Adobe Workfront items in Microsoft Teams</a> in the article <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md" class="MCXref xref">Search for and share Adobe Workfront items in Microsoft Teams</a>.</p> </li> 
- <li value="4"> <p>Click the <span class="bold">Type your questions here</span> field.</p> <p> <img src="assets/ms-teams-type-your-questions-here-and-what-can-i-do-fields-350x71.png" alt="ms_teams_type_your_questions_here_and_what_can_I_do_fields.png" style="width: 350;height: 71;"> <br> </p> </li> 
- <li value="5"> Do one of the following: <!--
+1. Open the `Workfront`bot chat channel.
+1. Click the `Workfront` icon underneath the text field to display the search box.
+
+   ![teams_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png)
+
+1. Start typing the name of a project, task, or issue.
+
+   For information about searching for items, see the section [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) in the article [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+
+1. Click the `Type your questions here` field.
+
+   ![ms_teams_type_your_questions_here_and_what_can_I_do_fields.png](assets/ms-teams-type-your-questions-here-and-what-can-i-do-fields-350x71.png)
+
+1. Do one of the following: 
+
+   <!--
    Check steps 4 and 5, make sure my re-write works
-  -->
-  <ul>
-   <li>Click <span class="bold">What can I do?</span>, then <span class="bold">Log in</span> or <span class="bold">Lot out</span> of Workfront, create a <span class="bold">New task</span> (personal task) in Workfront, or get <span class="bold">Help</span> by listing available commands.</li>
-   <li><p>Access Workfront directly by typing a command in the <span class="bold">Type your questions here</span> field.</p><p>Commands are not case sensitive.</p><p> The Workfront bot responds with your request in the Workfront bot chat channel.</p></li>
-  </ul></li> 
-</ol>
+   -->
+
+  * Click `What can I do?`, then `Log in` or `Lot out` of Workfront, create a `New task` (personal task) in Workfront, or get `Help` by listing available commands.
+  
+  * Access Workfront directly by typing a command in the `Type your questions here` field.
+
+    Commands are not case sensitive.
+
+    The Workfront bot responds with your request in the Workfront bot chat channel.
 
 ## Access Workfront from a team channel
 
-<ol> 
- <li value="1"> <p>Open a team channel and type <i style="font-weight: bold; font-style: normal;">@Workfront</i><em>, </em>then select <span class="bold">Workfront.</span></p> <p><span class="bold"><img src="assets/teams-workfront-channel-highlighted-in-message-350x160.png" alt="teams_workfront_channel_highlighted_in_message.png" style="width: 350;height: 160;"><br></span> </p> </li> 
- <li value="2"> <p> Click <span class="bold">Search</span> to search for a project, task, or issue.</p> <p>For information about searching for items, see the <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md" class="MCXref xref">Search for and share Adobe Workfront items in Microsoft Teams</a> section in the <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md" class="MCXref xref">Search for and share Adobe Workfront items in Microsoft Teams</a> article.</p> </li> 
- <li value="3">Type any of the following commands to perform these actions in Workfront. <br>Commands are not case sensitive:
-  <ul>
-   <li><span class="bold">Log in</span> to log in to Workfront</li>
-   <li><span class="bold">Log out</span> to log out of Workfront</li>
-   <li><p><span class="bold">New task</span> to create a new personal task</p><p>For information about creating new tasks from Microsoft Teams, see <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md" class="MCXref xref">Create Adobe Workfront tasks from Microsoft Teams</a>.</p></li>
-   <li><p><span class="bold">Help</span> to view a list of all available commands.</p><p>The Workfront bot responds with your request in the Workfront bot chat channel.</p></li>
-  </ul></li> 
- <li value="4">Go to the Workfront bot chat channel to access Workfront and complete your request.</li> 
-</ol>
+1. Open a team channel and type *@Workfront**, *then select `Workfront.`
+
+   ` ![teams_workfront_channel_highlighted_in_message.png](assets/teams-workfront-channel-highlighted-in-message-350x160.png)  
+   ` 
+
+1. Click `Search` to search for a project, task, or issue.
+
+   For information about searching for items, see the [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) section in the [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) article.
+
+1. Type any of the following commands to perform these actions in Workfront.   
+   Commands are not case sensitive:
+
+  * `Log in` to log in to Workfront
+  * `Log out` to log out of Workfront
+  * `New task` to create a new personal task
+
+    For information about creating new tasks from Microsoft Teams, see [Create Adobe Workfront tasks from Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+  
+  * `Help` to view a list of all available commands.
+
+    The Workfront bot responds with your request in the Workfront bot chat channel.
+
+1. Go to the Workfront bot chat channel to access Workfront and complete your request.
 

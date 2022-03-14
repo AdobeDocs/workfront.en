@@ -57,18 +57,22 @@ For more information, see [link to Beta enrollment info].
 
 ## List your reports
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Reports</span>.</p> </li> 
- <li value="2"> <p>To tag a report, </p> <!--
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Reports`.
+1. To tag a report,
+
+   <!--
    Add info and steps here about how to use the 2 levels of tags:
-  --> 
-  <ul> 
-   <li> <!--
-     Personal tags that are visible only to an individual users
-    --> </li> 
-   <li> <!--
-     Admin tags that everyone can see and use
-    --> </li> 
-  </ul> </li> 
-</ol>
+   -->
+
+  * 
+  
+    <!--  
+    Personal tags that are visible only to an individual users  
+    -->  
+  
+  * 
+  
+    <!--  
+    Admin tags that everyone can see and use  
+    -->
 

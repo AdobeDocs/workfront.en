@@ -77,12 +77,15 @@ As a Workfront administrator, you can access the Preview Sandbox via the Workfro
 
 To access the Preview Sandbox:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">System</span> > <span class="bold">Preferences</span>.</li> 
- <li value="3"> In the <span class="bold">Test Environments</span> section, click <span class="bold">Sandbox Preview</span>.</li> 
- <li value="4"> <p> Log in with your Preview credentials.</p> <p>These should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `System` > `Preferences`.
+
+1. In the `Test Environments` section, click `Sandbox Preview`.
+
+1. Log in with your Preview credentials.
+
+   These should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
 ### Accessing the Preview Sandbox Using a URL
 

@@ -40,13 +40,23 @@ You must have the following to perform the steps in this article:
 
 ## Delete a custom system status
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Project Preferences</span> > <span class="bold">Statuses</span>.</li> 
- <li value="3"> <p>To delete the status across the entire system (including for individual groups), mouse over the status, click <span class="bold">Edit</span>, then ensure that <span class="bold">Lock for all groups</span> is selected. Click <span class="bold">Save</span>.</p> <p>Or</p> <p>To delete the system status but retain it for individual groups, mouse over the status, click <span class="bold">Edit</span>, then ensure that <span class="bold">Lock for all groups</span> is unselected. Click <span class="bold">Save</span>.</p> </li> 
- <li value="4">Hover over the status you want to delete, then click <span class="bold">Delete</span>.</li> 
- <li value="5">In the message that appears, click <span class="bold">Delete Status</span>.</li> 
- <li value="6"> <p>In the <span class="bold">Delete Status</span> box that displays, select a status in the field labeled <span class="bold">Set all projects currently with this status to</span>.</p> <p>Projects that were using the status that you are deleting are set to the status you select.<br>Statuses are available in the drop-down list only if they equate with the same status as the status you are deleting.<br>For example, if you are deleting a status that equates with Current, only statuses that also equate with Current are available to select.</p> </li> 
- <li value="7">Click <span class="bold">Delete Status</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Project Preferences` > `Statuses`.
+
+1. To delete the status across the entire system (including for individual groups), mouse over the status, click `Edit`, then ensure that `Lock for all groups` is selected. Click `Save`.
+
+   Or
+
+   To delete the system status but retain it for individual groups, mouse over the status, click `Edit`, then ensure that `Lock for all groups` is unselected. Click `Save`.
+
+1. Hover over the status you want to delete, then click `Delete`.
+1. In the message that appears, click `Delete Status`.
+1. In the `Delete Status` box that displays, select a status in the field labeled `Set all projects currently with this status to`.
+
+   Projects that were using the status that you are deleting are set to the status you select.  
+   Statuses are available in the drop-down list only if they equate with the same status as the status you are deleting.  
+   For example, if you are deleting a status that equates with Current, only statuses that also equate with Current are available to select.
+
+1. Click `Delete Status`.
 

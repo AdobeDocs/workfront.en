@@ -49,14 +49,15 @@ You must have the following:
 
 When you share a link to the Workload Balancer with other users, the following information is included with the shared link:
 
-<ul> 
- <li>The Assigned Work area of the Workload Balancer. </li> 
- <li>Project, task, user information. This includes the user allocation information. </li> 
- <li> <p>The information displays according to the selected filter.</p> <note type="important">
-   If you delete the filters after you shared the link, the users viewing the Workload Balancer from the link receive a warning that the filters were deleted. They view all users in the Assigned Work area. This is the default view for the Workload Balancer. 
-  </note> </li> 
- <li>The number of weeks previously selected. </li> 
-</ul>
+* The Assigned Work area of the Workload Balancer. 
+* Project, task, user information. This includes the user allocation information. 
+* The information displays according to the selected filter.
+
+  >[!IMPORTANT]
+  >
+  >If you delete the filters after you shared the link, the users viewing the Workload Balancer from the link receive a warning that the filters were deleted. They view all users in the Assigned Work area. This is the default view for the Workload Balancer.
+
+* The number of weeks previously selected.
 
 The following options are available to the user viewing the Workload Balancer from a shared link to update themselves:
 
@@ -92,21 +93,33 @@ You need the following access to view information in the Workload Balancer from 
 
 ## Share the Workload Balancer with other users from a link
 
-<ol> 
- <li value="1"> <p>Go to the Workload Balancer</p> <p>For information about accessing the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>. </p> </li> 
- <li value="2"> <p>(Optional) Do one or more of the following:</p> 
-  <ul> 
-   <li>Update the time period selection.</li> 
-   <li> <p>Click <span class="bold">Day, Week</span>, or <span class="bold">Month</span> to view daily, weekly, <span>or monthly</span> information.</p> <p> <img src="assets/month-icon-on-toolbar-selected-wb-350x226.png" style="width: 350;height: 226;"> </p> </li> 
-   <li> <p>Apply filters to the Unassigned and Assigned Work areas.</p> <p>For information about filtering information in the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>. </p> </li> 
-  </ul> </li> 
- <li value="3"> <p>Click the <span class="bold">link icon</span> <img src="assets/wb-shearable-link-icon-small.png">. </p> <p>This adds the link to your clipboard. </p> </li> 
- <li value="4">Do one of the following to share the link with others:
-  <ul style="list-style-type: circle;">
-   <li>Paste it into an e-mail, chat message, or any other application and share that with other users. </li>
-   <li><p>Add it to a custom section as an external page, add the custom section to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups. </p><p>For information about creating an&nbsp;External Page, see <a href="../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>. For information about adding custom sections to a Layout Template, see Customize the left panel using a layout template. </p><note type="important">
-     When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object.&nbsp;The Workload Balancer displays the information filtered by the originally applied filters. 
-    </note></li>
-  </ul></li> 
-</ol>
+1. Go to the Workload Balancer
+
+   For information about accessing the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md). 
+
+1. (Optional) Do one or more of the following:
+
+  * Update the time period selection.
+  * Click `Day, Week`, or `Month` to view daily, weekly, `or monthly` information.
+
+    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+
+  * Apply filters to the Unassigned and Assigned Work areas.
+
+    For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+
+1. Click the `link icon` ![](assets/wb-shearable-link-icon-small.png).
+
+   This adds the link to your clipboard. 
+
+1. Do one of the following to share the link with others:
+
+  * Paste it into an e-mail, chat message, or any other application and share that with other users. 
+  * Add it to a custom section as an external page, add the custom section to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups.
+
+    For information about creating an&nbsp;External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding custom sections to a Layout Template, see Customize the left panel using a layout template.
+
+    >[!IMPORTANT]
+    >
+    >When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object.&nbsp;The Workload Balancer displays the information filtered by the originally applied filters.
 

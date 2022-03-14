@@ -57,22 +57,27 @@ Before you begin, you must
 
 ## Define the issue or request types for a project
 
-<ol> 
- <li value="1"> <p> Click Projects in the Main Menu. </p> </li> 
- <li value="2">Click the name of the project to open it.</li> 
- <li value="3"> In the left panel, click Queue Details. </li> 
- <li value="4"> <p>In the <span class="bold">Queue Properties</span> section, select the <span class="bold">Request Types</span> you want for the project.</p> <note type="note">
-    You must have at least one request type selected. You can select multiple request types.
-  </note> <p>Select from the following types:</p> 
-  <ul> 
-   <li>Bug Report</li> 
-   <li>Change Order</li> 
-   <li>Issue</li> 
-   <li>Request</li> 
-  </ul> <note type="tip">
-   Your Workfront administrator might have renamed some of these options. For information, see 
-   <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md" class="MCXref xref">Configure request types</a>. 
-  </note> </li> 
- <li value="5"> <p>Click <span class="bold">Save</span>.</p> <p>The request types you specified&nbsp;will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project, if the project is enabled as a request queue.</p> </li> 
-</ol>
+1. Click Projects in the Main Menu. 
+1. Click the name of the project to open it.
+1. In the left panel, click Queue Details. 
+1. In the `Queue Properties` section, select the `Request Types` you want for the project.
+
+   >[!NOTE]
+   >
+   >You must have at least one request type selected. You can select multiple request types.
+
+   Select from the following types:
+
+  * Bug Report
+  * Change Order
+  * Issue
+  * Request
+
+   >[!TIP]
+   >
+   >Your Workfront administrator might have renamed some of these options. For information, see [Configure request types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+
+1. Click `Save`.
+
+   The request types you specified&nbsp;will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project, if the project is enabled as a request queue.
 

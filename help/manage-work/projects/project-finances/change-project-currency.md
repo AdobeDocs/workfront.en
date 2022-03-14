@@ -52,13 +52,14 @@ You must have the following access to perform the steps in this article:
 
 ## Configure the currency for a project
 
-<ol> 
- <li value="1"> <p>Go to the project where you want to change the default currency.</p> <note type="tip">
-   Ensure that the project does not already have any financial information. For example, ensure there are no Planned or Actual Costs associated with the project. 
-  </note> </li> 
- <li value="2"> Click Project Details in the left panel, then go to the Finance area. </li> 
- <li value="3"> Click Add in the Currency field and select the currency that you want to use as the default currency for the project. </li> 
- <li value="4">(Conditional) If you select a currency other than the default currency that is set for your Workfront system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.</li> 
- <li value="5"> Click Save Changes. </li> 
-</ol>
+1. Go to the project where you want to change the default currency.
+
+   >[!TIP]
+   >
+   >Ensure that the project does not already have any financial information. For example, ensure there are no Planned or Actual Costs associated with the project.
+
+1. Click Project Details in the left panel, then go to the Finance area. 
+1. Click Add in the Currency field and select the currency that you want to use as the default currency for the project. 
+1. (Conditional) If you select a currency other than the default currency that is set for your Workfront system, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
+1. Click Save Changes.
 

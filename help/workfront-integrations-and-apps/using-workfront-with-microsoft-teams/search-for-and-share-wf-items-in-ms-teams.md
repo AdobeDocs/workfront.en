@@ -55,27 +55,39 @@ For information about installing Workfront for Microsoft Teams and logging in to
 
 You can search for the following Workfront items from a Microsoft Teams channel:
 
-<ul> 
- <li>Projects</li> 
- <li>Tasks<br><note type="note">
-    You cannot search for personal tasks.&nbsp;
-  </note></li> 
- <li>Issues</li> 
-</ul>
+* Projects
+* Tasks
+
+  >[!NOTE]
+  >
+  >You cannot search for personal tasks.&nbsp;
+
+* Issues
 
 After you have found the items you searched for you can share them with other users in Microsoft Teams.&nbsp;
 
 To search for a Workfront item from Microsoft Teams and share it with others:
 
-<ol> 
- <li value="1">In Microsoft Teams, go to any chat channel and click&nbsp;the <span class="bold">Workfront</span> icon.</li> 
- <li value="2"> Search for the Workfront item by doing one of the following: 
-  <ul>
-   <li>Click the Workfront icon under the conversation field.<br><img src="assets/ms-teams-workfront-pinned-icon-highlight-350x69.png" alt="ms_teams_workfront_pinned_icon_highlight.png" style="width: 350;height: 69;"><br>Depending on your settings, this icon might display under the <span class="bold">More</span> icon instead.<br><img src="assets/more-icon-52x34.png" alt="more_icon.png" style="width: 52;height: 34;"><br>The <span class="bold">Search</span> box appears by default.</li>
-   <li>Type <em>@Workfront</em>&nbsp;from any channel, select Workfront and then select <span class="bold">Search.</span><br><img src="assets/ms-teams-search-from-command-350x74.png" alt="ms_teams_search_from_command.png" style="width: 350;height: 74;"><br></li>
-  </ul></li> 
- <li value="3">In the search box provided, start typing the name or reference number of a project, task, or issue and click it when it appears in the list.<br><img src="assets/ms-teams-searching-for-items-350x359.png" alt="ms_teams_searching_for_items.png" style="width: 350;height: 359;"><br>This adds a card with the Workfront item in the chat field. Some information about the item is included on the card, including the name of the item, the parent object, status, priority, percent complete.<br></li> 
- <li value="4">(Optional) Add a comment underneath the Workfront card, then click&nbsp;<span class="bold">Send</span>&nbsp;or press Enter.<br>This sends the message including the Workfront item to your channel.<br>All members of the channel can see this message, including the information on the Workfront card.</li> 
- <li value="5">Click <span class="bold">View in Workfront</span> to view the item in Workfront. <br>Only users who have a Workfront license can view an item in Workfront.&nbsp;</li> 
-</ol>
+1. In Microsoft Teams, go to any chat channel and click the `Workfront` icon.
+1. Search for the Workfront item by doing one of the following:
+
+  * Click the Workfront icon under the conversation field.  
+    ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)  
+    Depending on your settings, this icon might display under the `More` icon instead.  
+    ![more_icon.png](assets/more-icon-52x34.png)  
+    The `Search` box appears by default.
+  
+  * Type *@Workfront* from any channel, select Workfront and then select `Search.`  
+    ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
+
+1. In the search box provided, start typing the name or reference number of a project, task, or issue and click it when it appears in the list.  
+   ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)  
+   This adds a card with the Workfront item in the chat field. Some information about the item is included on the card, including the name of the item, the parent object, status, priority, percent complete.  
+
+1. (Optional) Add a comment underneath the Workfront card, then click  `Send`&nbsp;or press Enter.  
+   This sends the message including the Workfront item to your channel.  
+   All members of the channel can see this message, including the information on the Workfront card.
+
+1. Click `View in Workfront` to view the item in Workfront.   
+   Only users who have a Workfront license can view an item in Workfront.&nbsp;
 

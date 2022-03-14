@@ -55,21 +55,23 @@ Before you begin, you must:
 
 ## Tie the resolution of an issue to the resolution of a another issue, task, or project
 
-<ol> 
- <li value="1">Navigate to an issue whose resolution you want to tie to the resolution of another issue or a task or project.</li> 
- <li value="2"> <p> Click the Issue Details > Overview area.</p> <p>  </p> </li> 
- <li value="3"> Go to the Overview area in the Issue Details section. </li> 
- <li value="4"> Click the Resolved By field, and select from the following types of resolving objects: &nbsp; 
-  <ul>
-   <li><span class="bold">Project</span></li>
-   <li><span class="bold">Task</span></li>
-   <li><span class="bold">Issue</span></li>
-  </ul></li> 
- <li value="5">The field for the resolving object displays. </li> 
- <li value="6">After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. </li> 
- <li value="7">Click <span class="bold">Save</span>&nbsp;Changes.<br>The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5. This means that the original issue completes when the resolving object (the project, task, or issue you linked it to) is completed. <br><note type="note">
-    One project, task, or issue may have multiple issues as Resolvable Objects.
-  </note></li> 
-</ol>
+1. Navigate to an issue whose resolution you want to tie to the resolution of another issue or a task or project.
+1. Click the Issue Details > Overview area.
+
+1. Go to the Overview area in the Issue Details section. 
+1. Click the Resolved By field, and select from the following types of resolving objects: &nbsp;
+
+  * `Project`
+  * `Task`
+  * `Issue`
+
+1. The field for the resolving object displays. 
+1. After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. 
+1. Click `Save`&nbsp;Changes.  
+   The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5. This means that the original issue completes when the resolving object (the project, task, or issue you linked it to) is completed.
+
+   >[!NOTE]
+   >
+   >One project, task, or issue may have multiple issues as Resolvable Objects.
 
 &nbsp;

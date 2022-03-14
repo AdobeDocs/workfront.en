@@ -46,20 +46,28 @@ You must have the following access to use the functionality in this article:
 
 ## Create a new template
 
-<ol> 
- <li value="1"> <p>Click <span class="bold">Templates </span><img src="assets/fusion-template-icon.png"> in the left navigation panel.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Create a new template</span> in the top-right corner.</p> </li> 
- <li value="3"> <p>(Optional) Rename the template by replacing the default <span class="bold">New template name</span> in the top-left corner.</p> </li> 
- <li value="4"> <p>(Optional) To change the language of your template, click Set up a template <img src="assets/fusion-scenario-settings-icon.png"> and select the language from the Language drop-down. </p> <note type="important">
-   The Languages selection corresponds to the languages available in the system settings and concerns only the name of the public template and its description. You can't change a template language once the template has been saved.
-  </note> </li> 
- <li value="5"> <p>(Optional) To enter a description of the template, click Set up a template <img src="assets/fusion-scenario-settings-icon.png"> and enter the description.</p> </li> 
- <li value="6"> <p>Add apps, modules, and tools in the same way as you would do when creating a standard scenario. </p> <p>To add contextual help to the modules, see <a href="#wizard" class="MCXref xref">Set up Wizard functionality</a> in this article.</p> <p>For more information on building a scenario, see <a href="../../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> <note type="note">
-   If your template includes modules that require adding the connection, credentials, or other privacy-sensitive information, this information is not shared with the template users.
-  </note> </li> 
- <li value="7"> <p>(Optional) Click <span class="bold">Run once</span> to test your template.</p> </li> 
- <li value="8"> <p>Click the <span class="bold">Save</span> icon <img src="assets/save-icon.png">.</p> </li> 
-</ol>
+1. Click `Templates` ![](assets/fusion-template-icon.png) in the left navigation panel.
+1. Click `Create a new template` in the top-right corner.
+1. (Optional) Rename the template by replacing the default `New template name` in the top-left corner.
+1. (Optional) To change the language of your template, click Set up a template ![](assets/fusion-scenario-settings-icon.png) and select the language from the Language drop-down.
+
+   >[!IMPORTANT]
+   >
+   >The Languages selection corresponds to the languages available in the system settings and concerns only the name of the public template and its description. You can't change a template language once the template has been saved.
+
+1. (Optional) To enter a description of the template, click Set up a template ![](assets/fusion-scenario-settings-icon.png) and enter the description.
+1. Add apps, modules, and tools in the same way as you would do when creating a standard scenario.
+
+   To add contextual help to the modules, see [Set up Wizard functionality](#wizard) in this article.
+
+   For more information on building a scenario, see [Create a scenario](../../../workfront-fusion/scenarios/create-a-scenario.md).
+
+   >[!NOTE]
+   >
+   >If your template includes modules that require adding the connection, credentials, or other privacy-sensitive information, this information is not shared with the template users.
+
+1. (Optional) Click `Run once` to test your template.
+1. Click the `Save` icon ![](assets/save-icon.png).
 
 >[!NOTE]
 >

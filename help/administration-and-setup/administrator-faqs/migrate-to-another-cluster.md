@@ -27,9 +27,13 @@ Workfront established very specific business reasons for which you can request y
 
 * We recommend that your company's firewall is configured in a way that allows for Workfront to access your environment.
 
-  If your company needs to allow specific IP addresses on your firewall configuration, ensure that the IP addresses we recommend to be accessible through your firewall are added to the allowlist in order to continue successfully using the following features after the migration: 
+  If your company needs to allow specific IP addresses on your firewall configuration, ensure that the IP addresses we recommend to be accessible through your firewall are added to the allowlist in order to continue successfully using the following features after the migration:
 
-* `<li> emails, including POP emails </li>` `<li> SSO </li>` `<li> <p> Document Webhooks </p> <p> For a complete list of IP addresses that need to be added to the allowlist, see <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref" xrefformat="{para}">Configure your firewall's allowlist</a>.</p> </li>`
+  * emails, including POP emails 
+  * SSO 
+  * Document Webhooks
+
+    For a complete list of IP addresses that need to be added to the allowlist, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
@@ -48,8 +52,11 @@ Workfront established very specific business reasons for which you can request y
 * Your Production environment should be accessible after the migration. If you cannot access your Production environment, contact our Support Team. 
 * Ensure that your branding customizations are in place. 
 * Ensure that your users are able to log in. 
-* Test all important workflows. We recommend that you should test the following: 
-* `<li> All day-to-day workflows for your company, including reports and dashboards </li>` `<li> Email communication from Workfront (which includes event notifications, reminder notifications, automatic reminders, if they are enabled). </li>` `<li> Any API integrations, if you have any. </li>` 
+* Test all important workflows. We recommend that you should test the following:
+
+  * All day-to-day workflows for your company, including reports and dashboards 
+  * Email communication from Workfront (which includes event notifications, reminder notifications, automatic reminders, if they are enabled). 
+  * Any API integrations, if you have any.
 
 * Search functionality will take some time to work properly. You should expect full search capabilities within a few hours of the migration. 
 * If you find any abnormalities in your data after 24 hours from when the maintenance window closed, contact our Support Team. Documents not stored in S3 typically take the longest to sync. 

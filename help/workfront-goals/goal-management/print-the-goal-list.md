@@ -56,18 +56,26 @@ You must have the following before you can start:
 * When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
 * When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu icon </span> <img src="assets/main-menu-icon.png"> in the upper-right corner of your screen, then click <span class="bold">Goals</span>.</p> <p>This opens the Workfront Goals area. </p> </p> <p>The Goal List displays by default. </p> </li> 
- <li value="2"> <p>(Optional) Apply filters to the Goal List to view the goals that are relevant to you. </p> <p>For information about filtering information in the Goal List, see <a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a>. </p> </li> 
- <li value="3"> <p>Click&nbsp;<span class="bold"><span>Print</span></span>. The Print box displays. </p> </li> 
- <li value="4"> <p>(Conditional) Depending on the browser you are using and other applications you have installed on your computer, you can select from the following destinations: </p> 
-  <ul> 
-   <li>Print to a printer</li> 
-   <li>Print to PDF</li> 
-   <li>Save the list of goals to a local or online drive (for example, Google Drive)</li> 
-   <li>Send the list of goals to another application (for example, One Note)</li> 
-  </ul> </li> 
- <li value="5"> <p>(Optional) Adjust your printing options. </p> </li> 
- <li value="6"> <p>Click&nbsp;<span class="bold">Print</span>. </p> <p>The list of goals is delivered to your selected destination.</p> </li> 
-</ol>
+1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+
+   This opens the Workfront Goals area.
+
+   The Goal List displays by default. 
+
+1. (Optional) Apply filters to the Goal List to view the goals that are relevant to you.
+
+   For information about filtering information in the Goal List, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md). 
+
+1. Click  ` `Print``. The Print box displays. 
+1. (Conditional) Depending on the browser you are using and other applications you have installed on your computer, you can select from the following destinations:
+
+  * Print to a printer
+  * Print to PDF
+  * Save the list of goals to a local or online drive (for example, Google Drive)
+  * Send the list of goals to another application (for example, One Note)
+
+1. (Optional) Adjust your printing options. 
+1. Click  `Print`.
+
+   The list of goals is delivered to your selected destination.
 

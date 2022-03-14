@@ -13,12 +13,24 @@ You can view all the work requests you've submitted. For information on submitti
 
 Users with Manager or higher access to Workfront Library can view requests other users have submitted.
 
-<ol> 
- <li value="1"> In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. </li> 
- <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon <img src="assets/library-menu-icon.png">.</p> </li> 
- <li value="3"> <p>In the left panel, click <span class="bold">Requests </span>><span class="bold"> Requests I've Submitted</span>.</p> <p>The Requests area in Workfront opens in a separate browser window.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Requests I've Submitted</span> to view all the requests that you have submitted.</p> <p>Requests that are pending approval do not display in this tab.</p> <p>Or</p> <p>Click <span class="bold">All Requests</span>&nbsp;to view all the requests submitted to Workfront.</p> </li> 
- <li value="5"> <p>Click the <span class="bold">Open</span> subtab to view requests that are open.</p> <p>Or</p> <p>Click the <span class="bold">Complete</span> subtab to view requests that have been completed.</p> </li> 
-</ol>
+1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In the left panel, click `Requests`> `Requests I've Submitted`.
+
+   The Requests area in Workfront opens in a separate browser window.
+
+1. Click `Requests I've Submitted` to view all the requests that you have submitted.
+
+   Requests that are pending approval do not display in this tab.
+
+   Or
+
+   Click `All Requests`&nbsp;to view all the requests submitted to Workfront.
+
+1. Click the `Open` subtab to view requests that are open.
+
+   Or
+
+   Click the `Complete` subtab to view requests that have been completed.
 
 For more information on work requests, see [Create and submit Workfront requests](create-submit-requests.md).

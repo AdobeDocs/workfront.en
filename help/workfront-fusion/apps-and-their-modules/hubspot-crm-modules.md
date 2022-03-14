@@ -756,12 +756,16 @@ In our example, 3 contacts were returned:
 
 ## Create a new application
 
-<ol> 
- <li value="1">Log in to your HubSpot developer account.</li> 
- <li value="2"> <p>Select the Create an App option.</p> </li> 
- <li value="3"> <p>Enter the App Name and Save the dialog.</p> </li> 
- <li value="4"> <p>Select the scopes you will need for your webhook. </p> <p>For example, add contacts scopes for triggering the module when a new contact is created or deleted.</p> <p>The contacts scope is all you need to receive contacts, deals, and company event webhooks.</p> <note type="important">
-   Do not fill in the Redirect URL field.
-  </note> </li> 
-</ol>
+1. Log in to your HubSpot developer account.
+1. Select the Create an App option.
+1. Enter the App Name and Save the dialog.
+1. Select the scopes you will need for your webhook.
+
+   For example, add contacts scopes for triggering the module when a new contact is created or deleted.
+
+   The contacts scope is all you need to receive contacts, deals, and company event webhooks.
+
+   >[!IMPORTANT]
+   >
+   >Do not fill in the Redirect URL field.
 

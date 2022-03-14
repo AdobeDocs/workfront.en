@@ -60,26 +60,19 @@ You must have the following access to perform the steps in this article:
 
 You can configure whether the BCWP is calculated in hours or costs by configuring how the Performance Index Method (PIM) of the project is calculated.
 
-<ol> 
- <li value="1"> <p> </p> <p> Go to a project and expand Project Details in the left panel. </p> </li> 
- <li value="2"> In the Finance area, locate the Performance Index Method field and double click to edit it. <p> <img src="assets/pim-options-hour-cost-based-350x144.png" style="width: 350;height: 144;"> </p> </li> 
- <li value="3"> <p>Select from the following options:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Hour-Based</td> 
-     <td>Workfront calculates the BCWP using the Planned Hours of the tasks.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Cost-Based</td> 
-     <td>Workfront calculates the BCWP using the Planned Cost of the tasks.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4"> Click Save Changes. <p>The BCWP of the tasks on the project is calculated using hours or costs.</p> </li> 
-</ol>
+1.
+
+   Go to a project and expand Project Details in the left panel. 
+
+1. In the Finance area, locate the Performance Index Method field and double click to edit it.  ![](assets/pim-options-hour-cost-based-350x144.png)
+
+1. Select from the following options:
+
+   | Hour-Based |Workfront calculates the BCWP using the Planned Hours of the tasks. |
+   |---|---|
+   | Cost-Based |Workfront calculates the BCWP using the Planned Cost of the tasks. |
+
+1. Click Save Changes. The BCWP of the tasks on the project is calculated using hours or costs.
 
 ## Calculate BCWP
 
@@ -113,12 +106,14 @@ BCWP = 25% x $10,000 = $2,500
 
 You can view the value of the Budgeted Cost of Work Performed in a report or list, by adding the BCWP column to your view.
 
-<ol> 
- <li value="1">Go to a list of tasks or projects.</li> 
- <li value="2">Expand the <span class="bold">View</span> menu and select <span class="bold">New View</span> or <span class="bold">Customize View</span>.</li> 
- <li value="3">Click <span class="bold">Add Column</span>.</li> 
- <li value="4"> <p>In the <span class="bold">Show in this column:</span> field start typing <span class="bold">BCWP</span> and click to select it when it displays in the list.</p> <p> <img src="assets/bcwp-project-view.png"> </p> </li> 
- <li value="5">Click <span class="bold">Save View</span>.</li> 
- <li value="6">The BCWP field displays in the view.</li> 
-</ol>
+1. Go to a list of tasks or projects.
+1. Expand the `View` menu and select `New View` or `Customize View`.
+
+1. Click `Add Column`.
+1. In the `Show in this column:` field start typing `BCWP` and click to select it when it displays in the list.
+
+   ![](assets/bcwp-project-view.png)
+
+1. Click `Save View`.
+1. The BCWP field displays in the view.
 

@@ -57,17 +57,18 @@ You can install your package in any of the following environments:
 
 ## Install the blueprint
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="uitext">Blueprints</span>.</p> </li> 
- <li value="2"> <p>Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type on the right-hand side.</p> </li> 
- <li value="3"> <p>(Optional) Click <span class="bold">Details</span> to learn how the blueprint works.</p> </li> 
- <li value="4"> <p>Click <span class="bold">Install</span>.</p> </li> 
- <li value="5"> <p>Choose to install on your production environment or a sandbox environment.<br>For more information, see the <a href="#where" class="MCXref xref">Where should I install a blueprint?</a> section in this article.</p> </li> 
- <li value="6"> <p>On the Configure page, you can choose to do one of the following: 
-   <ul>
-    <li>Install the blueprint as is and configure later. Click <span class="bold">Install as is</span>.</li>
-    <li>Configure the blueprint before installation. Make your configuration selections, and click <span class="bold">Install blueprint</span>.<br>For more information, see <a href="../../administration-and-setup/blueprints/configure-template-package.md" class="MCXref xref">Configure a blueprint</a>.</li>
-   </ul></p> <p><span class="preview">When the installation is complete, a message displays a list of the specific objects (such as roles, teams, or groups) that were successfully installed with the blueprint and any objects that failed to install.</span> </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Blueprints`.
+1. Find the blueprint you want to install. You can filter by use case, maturity level, installation status, and type on the right-hand side.
+1. (Optional) Click `Details` to learn how the blueprint works.
+1. Click `Install`.
+1. Choose to install on your production environment or a sandbox environment.  
+   For more information, see the [Where should I install a blueprint?](#where) section in this article.
+1. On the Configure page, you can choose to do one of the following:
+
+  * Install the blueprint as is and configure later. Click `Install as is`.
+  * Configure the blueprint before installation. Make your configuration selections, and click `Install blueprint`.  
+    For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+
+   `When the installation is complete, a message displays a list of the specific objects (such as roles, teams, or groups) that were successfully installed with the blueprint and any objects that failed to install.`
 
 After installing the blueprint, some additional actions are needed to fully deploy it. For information, see [Actions to take after installing a blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).

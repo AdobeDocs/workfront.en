@@ -21,18 +21,19 @@ Integrating with Basecamp allows users to view, review, and approve proofs all w
 
 When integrated with Workfront Proof, Basecamp allows users to do the following with proofs:
 
-<ul> 
- <li>Users can review and approve proofs within Basecamp Classic.</li> 
- <li>Users have review tools readily available.</li> 
- <li>Project review teams receive a message in Basecamp with a mini proof for review and approval.</li> 
- <li>Users can switch to a full-page proof for review and approval.</li> 
- <li> <p>Users can add comments and markups to both mini- and full-sized proofs.</p> <note type="note">
-   Once a comment has been replied to, it cannot be edited or deleted.
-  </note> </li> 
- <li>Reviewers can respond to the and markups made by other reviewers.</li> 
- <li>Users are alerted when a new version of proof is available.</li> 
- <li>Users who are not Workfront Proof users can work on a proof in Basecamp.</li> 
-</ul>
+* Users can review and approve proofs within Basecamp Classic.
+* Users have review tools readily available.
+* Project review teams receive a message in Basecamp with a mini proof for review and approval.
+* Users can switch to a full-page proof for review and approval.
+* Users can add comments and markups to both mini- and full-sized proofs.
+
+  >[!NOTE]
+  >
+  >Once a comment has been replied to, it cannot be edited or deleted.
+
+* Reviewers can respond to the and markups made by other reviewers.
+* Users are alerted when a new version of proof is available.
+* Users who are not Workfront Proof users can work on a proof in Basecamp.
 
 The integration of Workfront Proof with Basecamp must be set up on two levels:
 
@@ -50,15 +51,21 @@ For information on configuring Basecamp, see [Integrate Workfront Proof with Bas
 
 As a [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) or [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md), you can set up Basecamp integration for the whole account in your [Account settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings).
 
-<ol> 
- <li value="1">Go to <a href="https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings">Account settings.</a></li> 
- <li value="2">Open the <span class="bold">Integrations</span> tab (1).</li> 
- <li value="3">To enable the Basecamp integration, click <span class="bold">Enable</span> (2).</li> 
- <li value="4">Verify that Basecamp Classic is the version you are integrating with (3).</li> 
- <li value="5">(Conditional) If no Basecamp URL displays (4), click <span class="bold">Edit</span> and enter the URL for your Basecamp account (without the http://).</li> 
- <li value="6">Click <span class="bold">Save</span> (5).<br><img src="assets/basecamp-account-settings---integration-350x192.png" alt="Basecamp_account_settings_-_integration.png" style="width: 350;height: 192;"></li> 
- <li value="7"> <p>(Optional) Check your Basecamp URL in your browser after logging into your Basecamp Classic account (6).</p> <p> <img src="assets/basecamp-url-350x75.png" alt="Basecamp_URL.png" style="width: 350;height: 75;"> </p> <p>Once you integrate Workfront Proof with Basecamp, your users can configure their personal settings. For information on setting up personal settings, see <a href="#configuring-personal-settings" class="MCXref xref">Configuring Personal Settings</a>.</p> <p>&nbsp;If you cannot enable Basecamp integration, your Workfront Proof account ID might not be the same as the account ID you use in Basecamp.</p> </li> 
-</ol>
+1. Go to [Account settings.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-settings)
+1. Open the `Integrations` tab (1).
+1. To enable the Basecamp integration, click `Enable` (2).
+1. Verify that Basecamp Classic is the version you are integrating with (3).
+1. (Conditional) If no Basecamp URL displays (4), click `Edit` and enter the URL for your Basecamp account (without the http://).
+1. Click `Save` (5).  
+   ![Basecamp_account_settings_-_integration.png](assets/basecamp-account-settings---integration-350x192.png)
+
+1. (Optional) Check your Basecamp URL in your browser after logging into your Basecamp Classic account (6).
+
+   ![Basecamp_URL.png](assets/basecamp-url-350x75.png)
+
+   Once you integrate Workfront Proof with Basecamp, your users can configure their personal settings. For information on setting up personal settings, see [Configuring Personal Settings](#configuring-personal-settings).
+
+   &nbsp;If you cannot enable Basecamp integration, your Workfront Proof account ID might not be the same as the account ID you use in Basecamp.
 
 ## Configuring Personal Settings
 
@@ -77,13 +84,16 @@ To complete integration at the individual level in Workfront Proof, users need t
 
 To retrieve your Basecamp API token:
 
-<ol> 
- <li value="1">Sign in to your Basecamp account.</li> 
- <li value="2">Click <span class="bold">My Info</span> (1) in the upper-right corner of the screen.<br>The My Info page displays.<br><img src="assets/basecamp-integration---token1-350x334.png" alt="Basecamp_Integration_-_Token1.png" style="width: 350;height: 334;"></li> 
- <li value="3">In the Authentication tokens section, click <span class="bold">Show your tokens</span> (2) to display your personal authentication tokens.</li> 
- <li value="4">Select the <span class="bold">Token for feed readers</span> or the <span class="bold">Basecamp API</span> (3), then copy the token to your clipboard.</li> 
- <li value="5">Paste your Basecamp API token into the Token for feed readers or the Basecamp API box.<br><img src="assets/basecamp-integration---token2-350x178.png" alt="Basecamp_Integration_-_Token2.png" style="width: 350;height: 178;"></li> 
-</ol>
+1. Sign in to your Basecamp account.
+1. Click `My Info` (1) in the upper-right corner of the screen.  
+   The My Info page displays.  
+   ![Basecamp_Integration_-_Token1.png](assets/basecamp-integration---token1-350x334.png)
+
+1. In the Authentication tokens section, click `Show your tokens` (2) to display your personal authentication tokens.
+1. Select the `Token for feed readers` or the `Basecamp API` (3), then copy the token to your clipboard.
+
+1. Paste your Basecamp API token into the Token for feed readers or the Basecamp API box.  
+   ![Basecamp_Integration_-_Token2.png](assets/basecamp-integration---token2-350x178.png)
 
 ### Adding Your Basecamp API token to Your Personal Settings&nbsp;
 

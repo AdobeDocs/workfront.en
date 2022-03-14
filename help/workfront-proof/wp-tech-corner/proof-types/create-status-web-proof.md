@@ -17,16 +17,17 @@ You can create static proofs from your web pages. In addition, you can simulate 
 
 ## Creating a Static Website Proof
 
-<ol> 
- <li value="1">Open the New proof page, as described in <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref" xrefformat="{para}">Generate Proofs in Workfront Proof</a>.</li> 
- <li value="2">Paste or type your URL in the <span class="bold">www.shareyourlink.com</span>&nbsp;box.</li> 
- <p>You can repeat this step to add multiple URLs.</p> 
- <li value="3">Just below this box, click the&nbsp;resolution (the default is 1366x768), then select any resolutions you want in the <span class="bold">Screensot resolution</span> box.<br>Select a smaller resolution if you want to proof designs for mobile devices. Generally, designs load as per screen/browser window resolution.</li> 
- <li value="4">Click <span class="bold">Look for subpages</span> if you&nbsp;want to&nbsp;include connected pages that are in the same domain/subdomain&nbsp;as the&nbsp;entered&nbsp;URL.<br>Workfront Proof scans the connected pages and lists them below the <span class="bold">Look for subpages</span> option. You can select the pages you want to include.<br></li> <note type="tip">
-   With the Combine proofs feature you can submit all the web pages as a single multi-page proof.
- </note> 
- <li value="5">Click <span class="bold">Done</span>, then finish configuring your proof as explained in <a href="../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md" class="MCXref xref" xrefformat="{para}">Generate Proofs in Workfront Proof</a>.</li> 
-</ol>
+1. Open the New proof page, as described in [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+1. Paste or type your URL in the `www.shareyourlink.com`&nbsp;box.
+1. You can repeat this step to add multiple URLs.
+1. Just below this box, click the resolution (the default is 1366x768), then select any resolutions you want in the `Screensot resolution` box.  
+   Select a smaller resolution if you want to proof designs for mobile devices. Generally, designs load as per screen/browser window resolution.
+
+1. Click `Look for subpages` if you&nbsp;want to&nbsp;include connected pages that are in the same domain/subdomain&nbsp;as the&nbsp;entered&nbsp;URL.  
+   Workfront Proof scans the connected pages and lists them below the `Look for subpages` option. You can select the pages you want to include.  
+
+1. With the Combine proofs feature you can submit all the web pages as a single multi-page proof.
+1. Click `Done`, then finish configuring your proof as explained in [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## About Password-Protected Pages and Pages Requiring Authorization
 

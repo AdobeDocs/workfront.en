@@ -53,27 +53,19 @@ You must have the following access to perform the steps in this article:
 
 ## Set the Performance Index Method (PIM) for a project
 
-<ol> 
- <li value="1"> <p>Go to a project which you are the owner of.</p> <note type="important">
-   You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance areaof the project. 
-  </note> </li> 
- <li value="2"> Click Project Details in the left panel, then go to the Finance area. </li> 
- <li value="3"> Double-click the value in the Performance Index Method field to edit it. </li> 
- <li value="4"> <p>Select from the following options in the <span class="bold">Performance Index Method</span> field:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Hour-Based</td> 
-     <td>Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Cost-Based</td> 
-     <td>Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5">Click <span class="bold">Save</span>Changes.</li> 
-</ol>
+1. Go to a project which you are the owner of.
+
+   >[!IMPORTANT]
+   >
+   >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance areaof the project.
+
+1. Click Project Details in the left panel, then go to the Finance area. 
+1. Double-click the value in the Performance Index Method field to edit it. 
+1. Select from the following options in the `Performance Index Method` field:
+
+   | Hour-Based |Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours.  |
+   |---|---|
+   | Cost-Based |Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates. |
+
+1. Click `Save`Changes.
 

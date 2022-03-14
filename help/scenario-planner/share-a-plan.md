@@ -74,41 +74,56 @@ For more information about access to the Scenario Planner for various license ty
 >
 >You can share the plan by clicking the avatars of users with whom the plan is shared from the plan header.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Workfront, then click <span class="bold">Scenarios</span>.</p> </li> 
- <li value="2"> <p>Click the name of a plan to open it</p> <p>Or</p> <p>Select several plans to share them in bulk. </p> </li> 
- <li value="3"> <p>(Conditional) If you opened a plan, click the <span class="bold">More</span> icon <img src="assets/more-icon.png"> to the right of the Plan name, then click Share</p> <p>Or</p> <p>If you selected several plans to share them in bulk, click the <span class="bold">Share</span> icon <img src="assets/share-icon-26x26.png" style="width: 26;height: 26;"> at the top of the list of plans to open the Plan access box. </p> 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <ul> 
-    <li>Users that have permissions to all the plans you select display in the Plan access box. </li> 
-    <li>Any additional users are added to and do not replace the existing users on all the plans selected. </li> 
-   </ul> 
-  </div> </li> 
- <li value="4">In the <span class="bold">Give plan access to</span> field, start typing the name of the users that you want to share the plan with, then select them when they appear in the list. </li> 
- <li value="5">From the permissions drop-down menu to the right of the user name, select the level of permission you want to grant them to the plan. </li> 
- <li value="6"> <p>Select from the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">View</td> 
-     <td>Users you share the plan with will have permissions to view the plan.&nbsp;They cannot edit information on the plan, add initiatives, scenarios, or publish scenarios. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Manage</td> 
-     <td> <p>Users you share the plan with have permissions to manage the plan, which includes edit information, add initiatives, scenarios, and publish the plan. </p> </td> 
-    </tr> 
-   </tbody> 
-  </table> <note type="tip">
-   You can delete a plan only when you created it. You cannot delete plans that are shared with you. 
-  </note> </li> 
- <li value="7"> <p>Click&nbsp;<span class="bold">Save</span>. </p> <p>The plan is now shared with the users you specified. </p> <p>You can view users that have permissions to the plan in the Shared with me column in a list of plans or in the upper-right corner of the plan header. </p> <note type="tip">
-   You can view plans that are shared with you by applying the Shared with me filter in a list of plans. 
-   <br>
-  </note> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click `Scenarios`.
+1. Click the name of a plan to open it
+
+   Or
+
+   Select several plans to share them in bulk. 
+
+1. (Conditional) If you opened a plan, click the `More` icon ![](assets/more-icon.png) to the right of the Plan name, then click Share
+
+   Or
+
+   If you selected several plans to share them in bulk, click the `Share` icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the Plan access box. 
+
+   ` `**Tips: **``
+
+  * Users that have permissions to all the plans you select display in the Plan access box. 
+  * Any additional users are added to and do not replace the existing users on all the plans selected.
+
+1. In the `Give plan access to` field, start typing the name of the users that you want to share the plan with, then select them when they appear in the list. 
+1. From the permissions drop-down menu to the right of the user name, select the level of permission you want to grant them to the plan. 
+1. Select from the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">View</td> 
+      <td>Users you share the plan with will have permissions to view the plan.&nbsp;They cannot edit information on the plan, add initiatives, scenarios, or publish scenarios. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Manage</td> 
+      <td> <p>Users you share the plan with have permissions to manage the plan, which includes edit information, add initiatives, scenarios, and publish the plan. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   >[!TIP]
+   >
+   >You can delete a plan only when you created it. You cannot delete plans that are shared with you.
+
+1. Click  `Save`.
+
+   The plan is now shared with the users you specified.
+
+   You can view users that have permissions to the plan in the Shared with me column in a list of plans or in the upper-right corner of the plan header.
+
+   >[!TIP]
+   >
+   >You can view plans that are shared with you by applying the Shared with me filter in a list of plans.
 
 ## Plan permission options
 

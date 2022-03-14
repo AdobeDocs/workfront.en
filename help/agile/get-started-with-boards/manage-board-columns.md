@@ -35,36 +35,34 @@ You must have the following access to perform the steps in this article:
 
 ## Add a column to a board
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <p>Access a board. For information, see <a href="../../agile/get-started-with-boards/create-edit-board.md" class="MCXref xref">Create or edit a board</a>.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Add Column</span> to the right of the existing columns.</p> </li> 
- <li value="4"> <p>In the new column, type a name and click <span class="bold">Add Column</span>.</p> <p> <img src="assets/boards-add-column.png" alt="Add new column"><![CDATA[                ]]></p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+1. Click `Add Column` to the right of the existing columns.
+1. In the new column, type a name and click `Add Column`.
+
+   ![Add new column](assets/boards-add-column.png)<![CDATA[                ]]>
 
 ## Reorder columns on a board
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <p>Access a board. For information, see <a href="../../agile/get-started-with-boards/create-edit-board.md" class="MCXref xref">Create or edit a board</a>.</p> </li> 
- <li value="3"> <p>Drag and drop the columns into the correct order. Be sure to select the top of the column before dragging it to another location.<span class="PinkDraftNote">Is there a way to do this with the keyboard?</span></p> <p> <img src="assets/boards-dragdropcolumn.png" alt="Drag and drop column"> </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+1. Drag and drop the columns into the correct order. Be sure to select the top of the column before dragging it to another location. `Is there a way to do this with the keyboard?`
+
+   ![Drag and drop column](assets/boards-dragdropcolumn.png)
 
 ## Rename a board column
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <p>Access a board. For information, see <a href="../../agile/get-started-with-boards/create-edit-board.md" class="MCXref xref">Create or edit a board</a>.</p> </li> 
- <li value="3"> <p>Click on the column name, type the new name, and press Enter.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+1. Click on the column name, type the new name, and press Enter.
 
 ## Delete a board column
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Boards</span>.</p> </li> 
- <li value="2"> <p>Access a board. For information, see <a href="../../agile/get-started-with-boards/create-edit-board.md" class="MCXref xref">Create or edit a board</a>.</p> </li> 
- <li value="3"> <p>Click the <span class="bold">More</span> menu <img src="assets/more-icon-spectrum.png" alt="More menu"> on the column, and select <span class="bold">Delete</span>.</p> <note type="note">
-   Columns that contain cards can't be deleted.
-  </note> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
+1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the column, and select `Delete`.
+
+   >[!NOTE]
+   >
+   >Columns that contain cards can't be deleted.
 

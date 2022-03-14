@@ -15,30 +15,33 @@ In addition to budgeting resources in the Project and Role views, you can use th
 
 Consider the following when viewing the Hours or FTE information in the Resource Planner:
 
-<ul> 
- <li>You can view the Available and Planned Hours or the FTE information for users, job roles, and projects in all views of the Resource Planner.</li> 
- <li> You can view the following information only in the User View: 
-  <ul>
-   <li> The difference between the amount of Planned Hours or FTE and the amount of Available Hours or FTE. You can then budget the allocation of your users according to this difference in the Project and Role views. </li>
-   <li> The Actual Hours or FTE. </li>
-  </ul></li> 
- <li> You can display the difference between the User Available and the amount of Planned Hours or FTE either as a number or as a percentage value in the User view. </li> 
- <li> You cannot display the information in the User view by Cost. </li> 
- <li><![CDATA[
-			]]>Adobe Workfront populates Available Hours or FTE according to the working time associated with the users in their schedules.<br>Users not associated with a schedule show availability according to the Default Schedule.<br>For information about the Default Schedule, see <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li> 
- <li><![CDATA[
-				]]>Workfront populates Planned Hours or FTE from the Planned Hours information on the tasks and issues on the projects. </li> 
- <li><![CDATA[
-				]]>Workfront populates Actual Hours with the actual time logged to tasks and issues by the users who are assigned to them. This includes time logged on a project. </li> 
- <li> When in the User view, you can do the following: 
-  <ul>
-   <li><p> Expand each user to display a list of projects where that user is assigned. </p><note type="note">
-     Only users who are associated with the projects included in the filters can be expanded. 
-    </note></li>
-   <li> Expand every project to display a list of job roles that user can fulfill on those projects. </li>
-   <li> Expand each role to display a list of tasks the user in that role is assigned to.<br></li>
-  </ul> If users have no job roles associated with them, their Available, Planned, and Actual Hours or FTE are listed in the <span class="bold">No Role</span> section.<br>For information about what fields and items display when applying the User view to the Resource Planner, see the "Project/ Role/ User View Selection" section in <a href="../../resource-mgmt/resource-planning/resource-planner-navigation.md" class="MCXref xref">Resource Planner navigation overview </a>.</li> 
-</ul>
+* You can view the Available and Planned Hours or the FTE information for users, job roles, and projects in all views of the Resource Planner.
+* You can view the following information only in the User View:
+
+  * The difference between the amount of Planned Hours or FTE and the amount of Available Hours or FTE. You can then budget the allocation of your users according to this difference in the Project and Role views. 
+  * The Actual Hours or FTE.
+
+* You can display the difference between the User Available and the amount of Planned Hours or FTE either as a number or as a percentage value in the User view. 
+* You cannot display the information in the User view by Cost. 
+* <![CDATA[			]]>Adobe Workfront populates Available Hours or FTE according to the working time associated with the users in their schedules.  
+  Users not associated with a schedule show availability according to the Default Schedule.  
+  For information about the Default Schedule, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+* <![CDATA[				]]>Workfront populates Planned Hours or FTE from the Planned Hours information on the tasks and issues on the projects. 
+* <![CDATA[				]]>Workfront populates Actual Hours with the actual time logged to tasks and issues by the users who are assigned to them. This includes time logged on a project. 
+* When in the User view, you can do the following:
+
+  * Expand each user to display a list of projects where that user is assigned.
+
+    >[!NOTE]
+    >
+    >Only users who are associated with the projects included in the filters can be expanded.
+
+  * Expand every project to display a list of job roles that user can fulfill on those projects. 
+  * Expand each role to display a list of tasks the user in that role is assigned to.
+
+  If users have no job roles associated with them, their Available, Planned, and Actual Hours or FTE are listed in the `No Role` section.  
+  For information about what fields and items display when applying the User view to the Resource Planner, see the "Project/ Role/ User View Selection" section in [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Overview of fields visible in the User View of the Resource Planner
 

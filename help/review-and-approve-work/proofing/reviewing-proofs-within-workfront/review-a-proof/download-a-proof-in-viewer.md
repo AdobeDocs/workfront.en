@@ -44,8 +44,8 @@ You must have the following access to perform the steps in this article:
 1. Go to the project, task, or issue that contains the document, then select `Documents`.
 1. Find the proof you need, then click `Open proof`.
 
-<ol start="3"> 
- <li value="3">In the toolbar on the left of the proofing viewer, click the&nbsp;<span class="bold">Download&nbsp;</span>button.<br><img src="assets/proofing-viewer-toolbar-button---download.png" alt="Proofing_Viewer_toolbar_button_-_Download.png"></li> 
- <li value="4">Browse to the location on your file system where you want to download the proof, then click&nbsp;<span class="bold">Save.</span></li> 
-</ol>
+1. In the toolbar on the left of the proofing viewer, click the  `Download`button.  
+   ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
+
+1. Browse to the location on your file system where you want to download the proof, then click  `Save.`
 

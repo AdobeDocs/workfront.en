@@ -57,17 +57,23 @@ A template must be created before it can be shared.
 
 After you have published a template, you can share it.
 
-<ol> 
- <li value="1"> <p>(Conditional) If you want a shareable link, click <span class="bold">Share public link</span>. </p> <note type="note">
-   You can share this link with anyone you want. The template itself stays in the Team templates tab and is not public.
-  </note> </li> 
- <li value="2"> <p>(Conditional) If you want the template to become public, send it to your administrator for approval by clicking Request Approval.</p> <note type="note"> 
-   <ul> 
-    <li> <p>Once the template is approved, it becomes public. Public templates are visible for all Workfront Fusionusers, regardless of the organization or the team, in the Public templates tab. </p> </li> 
-    <li> <p>Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.</p> </li> 
-   </ul> 
-  </note> </li> 
-</ol>
+1. (Conditional) If you want a shareable link, click `Share public link`.
+
+   >[!NOTE]
+   >
+   >You can share this link with anyone you want. The template itself stays in the Team templates tab and is not public.
+
+1. (Conditional) If you want the template to become public, send it to your administrator for approval by clicking Request Approval.
+
+   >[!NOTE]
+   >
+   >
+   >  
+   >  
+   >  * Once the template is approved, it becomes public. Public templates are visible for all Workfront Fusionusers, regardless of the organization or the team, in the Public templates tab. 
+   >  * Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.
+   >  
+   >
 
 ## Template statuses
 

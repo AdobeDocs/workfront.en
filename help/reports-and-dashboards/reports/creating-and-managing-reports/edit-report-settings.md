@@ -49,68 +49,70 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
 
 ## How-to steps
 
-<ol> 
- <li value="1"> Start creating a report by going to the Main menu > Reports, then select the object of your report. <p>Or</p> <p>Open an existing report, then click <span class="bold">Report Actions</span> > <span class="bold">Edit</span>.</p> </li> 
- <li value="2"> <p>Click <span class="bold">Report Settings</span> in the upper-right corner of the report builder.</p> </li> 
- <li value="3"> <p>Configure the following report settings:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Report Title</td> 
-     <td>Specify a title for the report.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Specify a statement describing the purpose and uses of the report.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Run this report with the Access Rights of</td> 
-     <td>Select the user whose access rights you want this report to use when displaying for other users. For more information about running a report with the access rights of another user, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">When the Report loads, show the</td> 
-     <td>Select the default tab that is displayed for all users when the report loads.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">When the report loads on a dashboard, show ... items</td> 
-     <td>Specify the number of items that are displayed for all users when the report loads on a dashboard. The default is 15 items and the maximum number of items is 200.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
-     <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <note type="note">
-        When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. 
-       <!--
-        For more information about using the Resource Grid, see the article Overview of the Resource Grid .
-       -->
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Show a special view on the Details tab</td> 
-     <td>(Project Report Only) Specify the type of view users will see when they access this information on the Details tab. For example, you can select a Milestone or Gantt view.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Show this report in a Gantt view by default</td> 
-     <td>(Project Report and Task Report Only) Select this option to have the Gantt view automatically enabled when users view the Details tab in this report.<br>For more information about viewing the Gantt chart in project reports and task reports, see the section "View task information in the project list Gantt Chart" in the article <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">View information in the Gantt Chart </a>.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Allow View to be changed on the report</td> 
-     <td>Select this option to allow users to change the View when running the report.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Allow Group to be changed on the report</td> 
-     <td>Select this option to allow users to change the Group when running the report.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Allow Filter to be changed on the report</td> 
-     <td>Select this option to allow users to change the Filter when running the report.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4">Click <span class="bold">Report Prompts</span> to set up any prompts for the report.<br>For more information about adding prompts to a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">Add a prompt to a report</a>.</li> 
- <li value="5">Click<span class="bold"> Done,</span> then click <span class="bold">Save + Close</span>.</li> 
-</ol>
+1. Start creating a report by going to the Main menu > Reports, then select the object of your report. Or
+
+   Open an existing report, then click `Report Actions` > `Edit`.
+
+1. Click `Report Settings` in the upper-right corner of the report builder.
+1. Configure the following report settings:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Report Title</td> 
+      <td>Specify a title for the report.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Specify a statement describing the purpose and uses of the report.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Run this report with the Access Rights of</td> 
+      <td>Select the user whose access rights you want this report to use when displaying for other users. For more information about running a report with the access rights of another user, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">Run and deliver a report with the access rights of another user</a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">When the Report loads, show the</td> 
+      <td>Select the default tab that is displayed for all users when the report loads.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">When the report loads on a dashboard, show ... items</td> 
+      <td>Specify the number of items that are displayed for all users when the report loads on a dashboard. The default is 15 items and the maximum number of items is 200.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
+      <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <p>Note:  When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. <!--
+         For more information about using the Resource Grid, see the article Overview of the Resource Grid .
+        --></p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Show a special view on the Details tab</td> 
+      <td>(Project Report Only) Specify the type of view users will see when they access this information on the Details tab. For example, you can select a Milestone or Gantt view.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Show this report in a Gantt view by default</td> 
+      <td>(Project Report and Task Report Only) Select this option to have the Gantt view automatically enabled when users view the Details tab in this report.<br>For more information about viewing the Gantt chart in project reports and task reports, see the section "View task information in the project list Gantt Chart" in the article <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">View information in the Gantt Chart </a>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Allow View to be changed on the report</td> 
+      <td>Select this option to allow users to change the View when running the report.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Allow Group to be changed on the report</td> 
+      <td>Select this option to allow users to change the Group when running the report.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Allow Filter to be changed on the report</td> 
+      <td>Select this option to allow users to change the Filter when running the report.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Report Prompts` to set up any prompts for the report.  
+   For more information about adding prompts to a report, see the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+
+1. Click `Done,` then click `Save + Close`.
 
 ## Additional information
 

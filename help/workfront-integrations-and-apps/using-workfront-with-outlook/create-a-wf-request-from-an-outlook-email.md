@@ -49,19 +49,31 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 
 To create a Workfront Request from Outlook:
 
-<ol> 
- <li value="1">Select the email that contains the information you want to include in&nbsp;a Workfront request.&nbsp;</li> 
- <li value="2">Click the&nbsp;<span class="bold">Workfront</span>&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.<br>You might need to click the down-pointing arrow in the upper right of your email to access the Workfront icon.</li> 
- <li value="3"> <p>Click the <span class="bold">Menu</span> icon to display the list of available Workfront options.<br></p> <p> <img src="assets/o365-addin-menu2-icon.png" alt="o365_addin_menu2_icon.png"> <br> </p> </li> 
- <li value="4">Click <span class="bold">Submit Request</span>.</li> 
- <li value="5"> <p>In the <span class="bold">Select a Request Type</span> field, select the request queue where you want to submit the request.<br></p> <p> <img src="assets/o365-addin-submitrequest.png" alt="o365_addin_submitrequest.png"> </p> </li> 
- <li value="6">Specify the following information:<br>Depending on how the request queue was set up, available fields might vary. For a complete list and description of possible fields, see <a href="../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a> article.
-  <ul>
-   <li><span class="bold">Subject:</span> Specify a subject for the request. By default, the email subject is used.</li>
-   <li><span class="bold">Description:</span> Specify a description for the request. By default, the email body is used.</li>
-   <li><span class="bold">Documents:</span> Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking <span class="bold">Select File</span> and browsing to and selecting the document.<br>By default, any documents attached to the email are included in the request.</li>
-  </ul></li> 
- <li value="7">Click <span class="bold">Submit Request</span>.<br>The Request is submitted to Workfront, in the specified request queue.&nbsp;</li> 
- <li value="8">(Optional) Navigate back to Outlook, and select the original email.<br>At the top of the Workfront add-in panel, notice the confirmation with a link that the email was added to Workfront as a request. The link includes the date on which it was converted.<br><img src="assets/outlook-submitted-as-a-request-350x130.png" alt="outlook_submitted_as_a_request.png" style="width: 350;height: 130;"></li> 
-</ol>
+1. Select the email that contains the information you want to include in&nbsp;a Workfront request.&nbsp;
+1. Click the  `Workfront`&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.  
+   You might need to click the down-pointing arrow in the upper right of your email to access the Workfront icon.
+
+1. Click the `Menu` icon to display the list of available Workfront options.
+
+   ![o365_addin_menu2_icon.png](assets/o365-addin-menu2-icon.png)
+
+1. Click `Submit Request`.
+1. In the `Select a Request Type` field, select the request queue where you want to submit the request.
+
+   ![o365_addin_submitrequest.png](assets/o365-addin-submitrequest.png)
+
+1. Specify the following information:  
+   Depending on how the request queue was set up, available fields might vary. For a complete list and description of possible fields, see [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md) article.
+
+  * `Subject:` Specify a subject for the request. By default, the email subject is used.
+  * `Description:` Specify a description for the request. By default, the email body is used.
+  * `Documents:` Attach any documents that you want to include in the request. You can attach documents via drag and drop, or by clicking `Select File` and browsing to and selecting the document.  
+    By default, any documents attached to the email are included in the request.
+
+1. Click `Submit Request`.  
+   The Request is submitted to Workfront, in the specified request queue.&nbsp;
+
+1. (Optional) Navigate back to Outlook, and select the original email.  
+   At the top of the Workfront add-in panel, notice the confirmation with a link that the email was added to Workfront as a request. The link includes the date on which it was converted.  
+   ![outlook_submitted_as_a_request.png](assets/outlook-submitted-as-a-request-350x130.png)
 

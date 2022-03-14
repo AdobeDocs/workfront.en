@@ -111,13 +111,14 @@ The following information is available in the Utilization report when tracking H
     <ul> 
      <li> Planned Hours are summarized by job role and by individual user in the utilization report, as follows:<br><span class="bold">Individual User:</span> Planned Hours are summarized for each user in the utilization report. These Planned Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><span class="bold">Job Role:</span> Planned Hours are summarized by job role in the utilization report.<br>Planned Hours appear in a particular job role as a result of any of the following scenarios: </li> 
     </ul> 
-    <ul> 
-     <ul> 
-      <li>The job role is defined as the primary job role of the user who is assigned to the task or issue where the Planned Hours are associated. </li> 
-      <li> <p>When you view utilization information for a single project, the job role of the user assigned the hours is used whether there is no assignment on the task or issue, another user is assigned with no job role assignment, another user is assigned with a different job role, or another team is assigned.</p> </li> 
-      <li> <p>When you view utilization information for several projects, programs, or portfolios, the job role of the user assigned the hours is used only when the role is assigned on a task or issue in a project.</p> </li> 
-      <li>The job role is assigned to the task or issue that has Planned Hours associated, and the user assigned to the task or issue does not have a job role defined in the system.</li> 
-     </ul> 
+    <ul>
+     <li>
+      <ul> 
+       <li>The job role is defined as the primary job role of the user who is assigned to the task or issue where the Planned Hours are associated. </li> 
+       <li> <p>When you view utilization information for a single project, the job role of the user assigned the hours is used whether there is no assignment on the task or issue, another user is assigned with no job role assignment, another user is assigned with a different job role, or another team is assigned.</p> </li> 
+       <li> <p>When you view utilization information for several projects, programs, or portfolios, the job role of the user assigned the hours is used only when the role is assigned on a task or issue in a project.</p> </li> 
+       <li>The job role is assigned to the task or issue that has Planned Hours associated, and the user assigned to the task or issue does not have a job role defined in the system.</li> 
+      </ul></li>  
      <li><span class="bold">Unallocated Hours</span>: Planned Hours are displayed in the utilization report in the Unallocated Hours section when Planned Hours are associated with a task or issue and there is no user or role assigned to the task or issue.<br>This section appears only when there are hours on the project that match this description and when viewing the Utilization report by or from a project. <br></li> 
     </ul> <p>For more information about planned hours, see <a href="../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> </td> 
   </tr> 
@@ -125,12 +126,12 @@ The following information is available in the Utilization report when tracking H
    <td><span class="bold">Actual Hours</span> </td> 
    <td> <p> The total hours logged on the tasks, issues, <span>and on the project</span> for the included projects. You can view the total actual hours for the overall life of the included projects, or you can view the total actual hours only for the specified date range (you can specify an individual week or month). </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>The utilization report includes hours logged to the project, children tasks, issues, and parent tasks that have at least one assignment. It does not include hours logged to parent tasks without assignments. We recommend that you do not use parent tasks as working tasks and assign only children tasks to your resources. </p> <p>Actual Hours appear on the utilization report in any of the following rows:</p> 
     <ul> 
-     <li> Actual Hours are summarized by job role and by individual user in the utilization report, as follows:<br><span class="bold">Individual User:</span> Actual Hours are displayed in the utilization report in the row of the user who logged the hours. (You can expand the row of the corresponding job role to view a list of users with that job role who have logged hours.)<br><span class="bold">Job Role:</span> Actual Hours logged by users are summarized in the utilization report in the row of the corresponding job role.<br>Actual Hours appear in a particular job role as a result of any of the following scenarios: </li> 
-     <ul> 
-      <li>The job role is defined as the primary job role of the user who logged the hours.</li> 
-      <li>The job role of the user logging the hours is used whether there is no assignment on the task or issue, another user is assigned with no job role assignment, another user is assigned with a different job role, or another team is assigned.</li> 
-      <li>The job role is assigned to the task or issue where hours are logged, and the user logging hours does not have a job role defined in the system.</li> 
-     </ul> 
+     <li> Actual Hours are summarized by job role and by individual user in the utilization report, as follows:<br><span class="bold">Individual User:</span> Actual Hours are displayed in the utilization report in the row of the user who logged the hours. (You can expand the row of the corresponding job role to view a list of users with that job role who have logged hours.)<br><span class="bold">Job Role:</span> Actual Hours logged by users are summarized in the utilization report in the row of the corresponding job role.<br>Actual Hours appear in a particular job role as a result of any of the following scenarios: 
+      <ul> 
+       <li>The job role is defined as the primary job role of the user who logged the hours.</li> 
+       <li>The job role of the user logging the hours is used whether there is no assignment on the task or issue, another user is assigned with no job role assignment, another user is assigned with a different job role, or another team is assigned.</li> 
+       <li>The job role is assigned to the task or issue where hours are logged, and the user logging hours does not have a job role defined in the system.</li> 
+      </ul></li>  
      <li><span class="bold">Other Hours:</span> Actual Hours are displayed in the utilization report in the Other Hours section, in the row of the user who logged in the hours.<br>Hours appear in this section when the user who logged the hours does not have a job role defined in the system.<br>This section appears only when there are hours on the project that match this description. </li> 
     </ul> </td> 
   </tr> 
@@ -300,42 +301,53 @@ You can display information on the Utilization report for a given week or month,
 
 To track the progress or cost of one or more projects with a Utilization report:
 
-<ol> 
- <li value="1">Do any of the following, depending on whether you are viewing utilization information for an individual project, multiple projects, a program, or a portfolio: 
-  <ul>
-   <li>To view utilization information for a single project: 
-    <ol>
-     <li value="1">Go to a project for which you want to view utilization information, then click Show More> Utilization.</li>
-     <li value="2"><p>Utilization information is displayed automatically when viewing an individual project, and applying a filter is not required. <br>If you want to filter the Utilization report, you can apply a filter, then click <span class="bold">Run</span>.<br>For information about how to filter the Utilization report, see the section <a href="#filtering-utilization-information" class="MCXref xref">Filter utilization information</a> in this article. <br>Utilization information is displayed for individual users and roles (users are grouped within their associated role).</p></li>
-    </ol></li>
-   <li>To view utilization information for multiple projects: 
-    <ol>
-     <li value="1">Click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel.</li>
-     <li value="2"><p>Apply a filter to the Utilization report, then click <span class="bold">Run</span>. <br>You must specify one or more projects in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section <a href="#filtering-utilization-information" class="MCXref xref">Filter utilization information</a> in this article.<br>Utilization information is displayed for individual roles and projects (roles are grouped within their associated project).<br></p></li>
-    </ol></li>
-   <li>To view utilization information for a program: 
-    <ol>
-     <li value="1">Click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel and click the Show>Programs.</li>
-     <li value="2"><p>Apply a filter to the Utilization report, then click <span class="bold">Run</span>. <br>You must specify one or more programs in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section <a href="#filtering-utilization-information" class="MCXref xref">Filter utilization information</a> in this article. <br>Utilization information is displayed for individual projects and programs (projects are grouped within their associated program).<br></p></li>
-    </ol></li>
-   <li>To view utilization information for a portfolio: 
-    <ol>
-     <li value="1">Click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel and click Show>Portfolios.</li>
-     <li value="2"><p>Apply a filter to the Utilization report, then click <span class="bold">Run</span>. <br>You must specify one or more portfolios in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section <a href="#filtering-utilization-information" class="MCXref xref">Filter utilization information</a> in this article. <br>Utilization information is displayed for individual projects, programs, and portfolios (projects are grouped within their associated program, and programs are grouped within their associated portfolio).<br></p></li>
-    </ol></li>
-  </ul></li> 
- <li value="2">In the upper-right corner of the Utilization report, click the <span class="bold">View</span> drop-down menu, then select from the following: 
-  <ul>
-   <li><span class="bold">Cost</span></li>
-   <li><span class="bold">Hours</span></li>
-   <li><span class="bold">Revenue</span></li>
-   <li><span class="bold">Revenue vs. Cost (Planned)</span></li>
-   <li><span class="bold">Revenue vs Cost (Actual)</span>.</li>
-  </ul> The option you select determines which columns and information are available in the report. For more details about the information available in each column, see the table in Step 5.<br><p><img src="assets/utilization-view-dropdown.png"></p></li> 
- <li value="3">(Optional) Select the date range for which utilization information is displayed. You can display information for a given week or month to the left of the <span class="bold">Overall</span> column. Information for the overall project, program, or portfolio is always displayed in the <span class="bold">Overall</span> column.<br>For more information, see the section <a href="#adjusting-the-date-range-for-which-information-is-displayed" class="MCXref xref">Adjust the date range for which information is displayed</a> in this article. </li> 
- <li value="4">(Optional) Click any column title to sort the utilization report by the information in that column. Sorting works only when you include multiple items in your report. For example, you can sort the results of your report when you are looking at more than one project (or portfolio or program). You cannot sort the results when you are looking at only one project (or one portfolio or one program) at a time.<br></li> 
- <li value="5">Use the information in the section <a href="#understanding-the-utilization-report" class="MCXref xref">Overview of the Utilization report</a> in this article to learn about each column in the Utilization report.</li> 
-</ol>
+1. Do any of the following, depending on whether you are viewing utilization information for an individual project, multiple projects, a program, or a portfolio:
+
+  * To view utilization information for a single project:
+
+    1. Go to a project for which you want to view utilization information, then click Show More> Utilization.
+    1. Utilization information is displayed automatically when viewing an individual project, and applying a filter is not required.   
+       If you want to filter the Utilization report, you can apply a filter, then click `Run`.  
+       For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
+       Utilization information is displayed for individual users and roles (users are grouped within their associated role).
+
+  * To view utilization information for multiple projects:
+
+    1. Click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel.
+    1. Apply a filter to the Utilization report, then click `Run`.   
+       You must specify one or more projects in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.  
+       Utilization information is displayed for individual roles and projects (roles are grouped within their associated project).
+
+  * To view utilization information for a program:
+
+    1. Click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel and click the Show>Programs.
+    1. Apply a filter to the Utilization report, then click `Run`.   
+       You must specify one or more programs in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
+       Utilization information is displayed for individual projects and programs (projects are grouped within their associated program).
+
+  * To view utilization information for a portfolio:
+
+    1. Click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel and click Show>Portfolios.
+    1. Apply a filter to the Utilization report, then click `Run`.   
+       You must specify one or more portfolios in the filter prior to running the Utilization report. For information about how to filter the Utilization report, see the section [Filter utilization information](#filtering-utilization-information) in this article.   
+       Utilization information is displayed for individual projects, programs, and portfolios (projects are grouped within their associated program, and programs are grouped within their associated portfolio).
+
+1. In the upper-right corner of the Utilization report, click the `View` drop-down menu, then select from the following:
+
+  * `Cost`
+  * `Hours`
+  * `Revenue`
+  * `Revenue vs. Cost (Planned)`
+  * `Revenue vs Cost (Actual)`.
+
+   The option you select determines which columns and information are available in the report. For more details about the information available in each column, see the table in Step 5.  
+   ![](assets/utilization-view-dropdown.png)
+
+1. (Optional) Select the date range for which utilization information is displayed. You can display information for a given week or month to the left of the `Overall` column. Information for the overall project, program, or portfolio is always displayed in the `Overall` column.  
+   For more information, see the section [Adjust the date range for which information is displayed](#adjusting-the-date-range-for-which-information-is-displayed) in this article. 
+
+1. (Optional) Click any column title to sort the utilization report by the information in that column. Sorting works only when you include multiple items in your report. For example, you can sort the results of your report when you are looking at more than one project (or portfolio or program). You cannot sort the results when you are looking at only one project (or one portfolio or one program) at a time.  
+1. Use the information in the section [Overview of the Utilization report](#understanding-the-utilization-report) in this article to learn about each column in the Utilization report.
 
 ## Filter utilization information
 
@@ -355,25 +367,53 @@ When you create a filter, all Workfront users who have access to the Utilization
 
 To create or modify a filter:
 
-<ol> 
- <li value="1"> To filter utilization information for a single project, go to the project for which you want to filter utilization information, then click Show More>Utilization in the left panel. <p>Or</p> To filter utilization information for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, Resourcing, Utilization in the left panel, then Show>Programs or Portfolios or Projects. </li> 
- <li value="2"> <p>Click the <span class="bold">Filter</span> icon to display the filter options.<br></p> </li> 
- <li value="3">(Conditional) To modify an existing filter, click the <span class="bold">Filter</span> drop-down menu, then select the filter you want to modify.</li> 
- <li value="4"> <p>Specify the following information to create or modify the filter:</p> 
-  <ul> 
-   <li><span class="bold">Portfolios:</span> Begin typing the name of the portfolio that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.<br>Repeat this process to include information from multiple portfolios in the Utilization report.<br>To include all portfolios from your system in your filter, click <span class="bold">Add all</span>. (This option is available only if you have fewer than 10 portfolios in your system.)</li> 
-   <li><span class="bold">Programs:</span> Begin typing the name of the program that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.<br>Repeat this process to include information from multiple tasks in the Utilization report.<br>If you already designated any portfolios in the filter, the program you specify must be from the portfolios already included in the filter. If it is not, data from the program is not included in the Utilization report.<br>To include all programs from your system in your filter, click <span class="bold">Add all</span>. (This option is available only if you have fewer than 20 programs in your system.)</li> 
-   <li><span class="bold">Projects:</span> Begin typing the name of the project that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.<br>Repeat this process to include information from multiple projects in the Utilization report.<br>If you already designated any portfolios or programs in the filter, the project you specify must be from one of the portfolios or programs already included in the filter. If it is not, data from the project is not included in the Utilization report.<br>To include all projects from your system in your filter, click <span class="bold">Add all</span>. (This option is available only if you have fewer than 250 projects in your system.)</li> 
-   <li><span class="bold">Tasks:</span> Begin typing the name of the task that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.<br>Repeat this process to include information from multiple tasks in the Utilization report.<br>If you already designated any portfolios, programs, or projects in the filter, the task you specify must be from one of the portfolios, programs, or projects already included in the filter. If it is not, data from the task is not included in the Utilization report.</li> 
-   <li><span class="bold">Issues:</span> Begin typing the name of the issue that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.<br>Repeat this process to include information from multiple issues in the Utilization report.<br>If you already designated any portfolios, programs, or projects in the filter, the issue you specify must be from one of the portfolios, programs, or projects already included in the filter. If it is not, data from the issue is not included in the Utilization report.<br>Cost information for issues is not always included in the Utilization report. For more information about when cost information for issues is included in the Utilization report, see the section <a href="#tracking-progress-and-cost-with-a-utilization-report" class="MCXref xref">Track progress, cost, and revenue with the Utilization report</a> in this article. </li> 
-   <li><span class="bold">Roles:</span> Begin typing the name of the role you want to be represented in the Utilization Report, then click the name when it appears in the drop-down menu. Repeat this process to include additional roles.<br>The Utilization Report contains information only for the roles you specify. For example, a task contains 10 Actual Hours. 6 of those hours are from a Designer role and 4 are from a Developer role. If you filter the Utilization Report by role for Designer, the 4 hours that come from the Developer role are excluded from the report.</li> 
-   <li> <p><span class="bold">Add Filter Rule:</span> Click <span class="bold">Add Filter Rule</span>, click in the first field, then begin typing the field name that you want to filter on. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to the filter. </p> <note type="important">
-     You must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see 
-     <span href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>. 
-    </note> <p>For more information about the fields you see in the columns, see<a href="../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossary of Adobe Workfront terminology</a>. <br>Choose the filter and condition modifiers for the filter. The available modifiers are described in <a href="../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p> </li> 
-  </ul> </li> 
- <li value="5">To create a new filter, click <span class="bold">Save Filter</span>.<br>Or<br>To modify an existing filter, click the drop-down arrow next to the <span class="bold">Save Filter</span> button, then click <span class="bold">Save New Filter</span>.<br>In the <span class="bold">Filter Name</span> field, specify a name for the filter, then click <span class="bold">Save</span>.<br>The Utilization area is filtered with the information you included in the filter.</li> 
-</ol>
+1. To filter utilization information for a single project, go to the project for which you want to filter utilization information, then click Show More>Utilization in the left panel. Or
+   To filter utilization information for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, Resourcing, Utilization in the left panel, then Show>Programs or Portfolios or Projects. 
+1. Click the `Filter` icon to display the filter options.  
+
+1. (Conditional) To modify an existing filter, click the `Filter` drop-down menu, then select the filter you want to modify.
+1. Specify the following information to create or modify the filter:
+
+  * `Portfolios:` Begin typing the name of the portfolio that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.  
+    Repeat this process to include information from multiple portfolios in the Utilization report.  
+    To include all portfolios from your system in your filter, click `Add all`. (This option is available only if you have fewer than 10 portfolios in your system.)
+  
+  * `Programs:` Begin typing the name of the program that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.  
+    Repeat this process to include information from multiple tasks in the Utilization report.  
+    If you already designated any portfolios in the filter, the program you specify must be from the portfolios already included in the filter. If it is not, data from the program is not included in the Utilization report.  
+    To include all programs from your system in your filter, click `Add all`. (This option is available only if you have fewer than 20 programs in your system.)
+  
+  * `Projects:` Begin typing the name of the project that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.  
+    Repeat this process to include information from multiple projects in the Utilization report.  
+    If you already designated any portfolios or programs in the filter, the project you specify must be from one of the portfolios or programs already included in the filter. If it is not, data from the project is not included in the Utilization report.  
+    To include all projects from your system in your filter, click `Add all`. (This option is available only if you have fewer than 250 projects in your system.)
+  
+  * `Tasks:` Begin typing the name of the task that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.  
+    Repeat this process to include information from multiple tasks in the Utilization report.  
+    If you already designated any portfolios, programs, or projects in the filter, the task you specify must be from one of the portfolios, programs, or projects already included in the filter. If it is not, data from the task is not included in the Utilization report.
+  
+  * `Issues:` Begin typing the name of the issue that contains the information you want to include in the Utilization report, then click the name when it appears in the drop-down menu.  
+    Repeat this process to include information from multiple issues in the Utilization report.  
+    If you already designated any portfolios, programs, or projects in the filter, the issue you specify must be from one of the portfolios, programs, or projects already included in the filter. If it is not, data from the issue is not included in the Utilization report.  
+    Cost information for issues is not always included in the Utilization report. For more information about when cost information for issues is included in the Utilization report, see the section [Track progress, cost, and revenue with the Utilization report](#tracking-progress-and-cost-with-a-utilization-report) in this article. 
+  
+  * `Roles:` Begin typing the name of the role you want to be represented in the Utilization Report, then click the name when it appears in the drop-down menu. Repeat this process to include additional roles.  
+    The Utilization Report contains information only for the roles you specify. For example, a task contains 10 Actual Hours. 6 of those hours are from a Designer role and 4 are from a Developer role. If you filter the Utilization Report by role for Designer, the 4 hours that come from the Developer role are excluded from the report.
+  
+  * `Add Filter Rule:` Click `Add Filter Rule`, click in the first field, then begin typing the field name that you want to filter on. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to the filter.
+
+    >[!IMPORTANT]
+    >
+    >You must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see ` [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)`.
+
+    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).   
+    Choose the filter and condition modifiers for the filter. The available modifiers are described in [Filter and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+
+1. To create a new filter, click `Save Filter`.  
+   Or  
+   To modify an existing filter, click the drop-down arrow next to the `Save Filter` button, then click `Save New Filter`.  
+   In the `Filter Name` field, specify a name for the filter, then click `Save`.  
+   The Utilization area is filtered with the information you included in the filter.
 
 ### Apply a saved filter
 
@@ -383,11 +423,14 @@ To create or modify a filter:
 
 ### Duplicate a filter
 
-<ol> 
- <li value="1"> To duplicate a filter on the Utilization Report for a single project, go to the project for which you want to duplicate the filter, then click Show More>Utilization in the left panel. <p>Or</p> To duplicate a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel. </li> 
- <li value="2"> <p>Click <span class="bold">Saved Filters</span>, mouse over the filter you want to duplicate in the drop-down menu, then click the <span class="bold">Duplicate</span> icon.<br></p> <p> <img src="assets/utilization-filter-duplicate.png"> <br>The Duplicate Filter dialog box is displayed.</p> </li> 
- <li value="3">In the <span class="bold">Filter Name</span> field, specify a name for the new filter, then click <span class="bold">Save</span>.</li> 
-</ol>
+1. To duplicate a filter on the Utilization Report for a single project, go to the project for which you want to duplicate the filter, then click Show More>Utilization in the left panel. Or
+   To duplicate a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel. 
+1. Click `Saved Filters`, mouse over the filter you want to duplicate in the drop-down menu, then click the `Duplicate` icon.
+
+   ![](assets/utilization-filter-duplicate.png)   
+   The Duplicate Filter dialog box is displayed.
+
+1. In the `Filter Name` field, specify a name for the new filter, then click `Save`.
 
 ### Rename a filter
 
@@ -395,11 +438,13 @@ When you rename a filter, all Workfront users who have access to the Utilization
 
 To rename a filter:
 
-<ol> 
- <li value="1"> To rename a filter on the Utilization Report for a single project, go to the project for which you want to rename the filter, then click Show More>Utilization in the left panel. <p>Or</p> To rename a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel. </li> 
- <li value="2">Click <span class="bold">Saved Filters</span>, mouse over the filter you want to duplicate in the drop-down menu, then click the <span class="bold">Rename</span> icon.<br><img src="assets/utilization-filter-rename.png"><br>The Rename Filter dialog box is displayed.</li> 
- <li value="3">In the <span class="bold">Filter Name</span> field, specify a name for the new filter, then click <span class="bold">Save</span>.</li> 
-</ol>
+1. To rename a filter on the Utilization Report for a single project, go to the project for which you want to rename the filter, then click Show More>Utilization in the left panel. Or
+   To rename a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel. 
+1. Click `Saved Filters`, mouse over the filter you want to duplicate in the drop-down menu, then click the `Rename` icon.  
+   ![](assets/utilization-filter-rename.png)  
+   The Rename Filter dialog box is displayed.
+
+1. In the `Filter Name` field, specify a name for the new filter, then click `Save`.
 
 ### Delete a filter
 
@@ -407,11 +452,13 @@ When you delete a filter, the filter is deleted for all Workfront users who have
 
 To delete a filter:
 
-<ol> 
- <li value="1"> To delete a filter on the Utilization Report for a single project, go to the project for which you want to delete the filter, then click Show More>Utilization in the left panel. <p>Or</p> To delete a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel. </li> 
- <li value="2"> <p>Click <span class="bold">Saved Filters</span>, mouse over the filter you want to duplicate in the drop-down menu, then click the <span class="bold">Delete</span> icon.<br></p> <p> <img src="assets/utilization-filter-delete.png"> </p> </li> 
- <li value="3">Click <span class="bold">Delete</span> when prompted whether you want to delete the filter. </li> 
-</ol>
+1. To delete a filter on the Utilization Report for a single project, go to the project for which you want to delete the filter, then click Show More>Utilization in the left panel. Or
+   To delete a filter on the Utilization Report for multiple projects, for a program, or for a portfolio, click the Main Menu icon in the upper-right corner of Workfront, then click Resourcing, then Utilization in the left panel. 
+1. Click `Saved Filters`, mouse over the filter you want to duplicate in the drop-down menu, then click the `Delete` icon.
+
+   ![](assets/utilization-filter-delete.png)
+
+1. Click `Delete` when prompted whether you want to delete the filter.
 
 ## Adjust the date range for which information is displayed
 
@@ -461,12 +508,14 @@ To export utilization information:
 
 You can visualize the data from the Utilization report in a chart view.
 
-<ol> 
- <li value="1"> To view a Utilization report for a single project in a chart format, go to the project you want to view, then click Show More> Utilization in the left panel. <p>Or</p> To view a Utilization report in a chart format for multiple projects, for a program, or for a portfolio, click Reporting in the Global Navigation Bar to go to the Reporting area, then click the Utilization tab. </li> 
- <li value="2">In the upper-right corner of the Utilization report, click the <span class="bold">Chart</span> icon.<br><img src="assets/utilization-chart.png"><br>The Utilization report is displayed in a chart view. </li> 
- <li value="3">(Optional) Configure this to show Projects, Programs, or Portfolios by selecting the appropriate option from the <span class="bold">Show</span> drop-down menu.</li> 
- <li value="4"> <p>(Optional) Mouse over a specific point in time on the report to view data for that point in time. </p> </li> 
- <li value="5">(Optional) Adjust the filters to decide what information is displayed in the chart. For information about adjusting the filters, see the section <a href="#filtering-utilization-information" class="MCXref xref">Filter utilization information</a> in this article. </li> 
- <li value="6">(Optional) Configure the timeframe of the chart report, as described in the section <a href="#adjusting-the-date-range-for-which-information-is-displayed" class="MCXref xref">Adjust the date range for which information is displayed</a> in this article. </li> 
-</ol>
+1. To view a Utilization report for a single project in a chart format, go to the project you want to view, then click Show More> Utilization in the left panel. Or
+   To view a Utilization report in a chart format for multiple projects, for a program, or for a portfolio, click Reporting in the Global Navigation Bar to go to the Reporting area, then click the Utilization tab. 
+1. In the upper-right corner of the Utilization report, click the `Chart` icon.  
+   ![](assets/utilization-chart.png)  
+   The Utilization report is displayed in a chart view. 
+
+1. (Optional) Configure this to show Projects, Programs, or Portfolios by selecting the appropriate option from the `Show` drop-down menu.
+1. (Optional) Mouse over a specific point in time on the report to view data for that point in time. 
+1. (Optional) Adjust the filters to decide what information is displayed in the chart. For information about adjusting the filters, see the section [Filter utilization information](#filtering-utilization-information) in this article. 
+1. (Optional) Configure the timeframe of the chart report, as described in the section [Adjust the date range for which information is displayed](#adjusting-the-date-range-for-which-information-is-displayed) in this article.
 

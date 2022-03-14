@@ -55,11 +55,14 @@ Consider the following when editing issues in a list:
 
 To inline edit an issue:
 
-<ol> 
- <li value="1">Go to a list of issues in a project or task. </li> 
- <li value="2"> <p>Click inside any field that you have permissions to update manually. The field becomes editable and you can make your changes.</p> <p> <img src="assets/edit-issues-inline-350x34.png" style="width: 350;height: 34;"> </img> </p> </li> 
- <li value="3"> <p>Press enter when you want to accept your changes. Changes are saved immediately. </p> <p>For information about inline editing objects, see <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline edit items in a list in&nbsp;Adobe Workfront</a>. </p> </li> 
-</ol>
+1. Go to a list of issues in a project or task. 
+1. Click inside any field that you have permissions to update manually. The field becomes editable and you can make your changes.
+
+   ![](assets/edit-issues-inline-350x34.png)
+
+1. Press enter when you want to accept your changes. Changes are saved immediately.
+
+   For information about inline editing objects, see [Inline edit items in a list in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
 ## Edit issues in a list
 
@@ -77,28 +80,43 @@ You can edit issues in bulk and update all their information at the same time.
 
 To edit issues in bulk:
 
-<ol> 
- <li value="1"> Go to the Main Menu.</li> 
- <li value="2"> Click Projects. </li> 
- <li value="3">Click a project name to access the project.</li> 
- <li value="4"> Click Issues in the left panel. </li> 
- <li value="5">Select several issues in the list. </li> 
- <li value="6"> <p> Click the Edit icon .</p> <p>The <span class="bold">Edit Issues</span> dialog box opens.</p> </li> 
- <li value="7"> <p>Specify the information on all selected issues.</p> <p>Editing the information on all issues is identical to editing information on one issue when editing the following areas:</p> 
-  <ul> 
-   <li>Overview</li> 
-   <li>Settings</li> 
-   <li>Assignments</li> 
-   <li>Comment</li> 
-  </ul> <p>For more information about editing an issue, see <a href="../../../manage-work/issues/manage-issues/edit-issues.md" class="MCXref xref">Edit issues</a>.</p> <note type="note">
-   The information you are changing on all the issues selected will override the existing information on individual issues, except for the 
-   <span class="bold">Assignments</span> field. Adding a new assignee in bulk edit will add that assignee to all the selected issues. If other assignees are assigned to the selected issues, they will remain assigned in addition to the one added through bulk edit.
-   <br>
-  </note> </li> 
- <li value="8"> <p> Click <span class="bold">Custom Forms</span> to edit the custom forms attached to all the issues selected.</p> <p>If the issues selected do not have any common custom forms, no forms are listed in this section.</p> <p>You can edit only the fields on the forms that are attached to all issues selected and which you have permissions to edit.<br></p> </li> 
- <li value="9"> <p>(Optional) In the <span class="bold">Custom Forms</span> area, select the <span class="bold">Recalculate Custom Expressions</span> option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date. </p> <note type="important">
-   We recommend not to select more than 500 issues at a time when you recalculate custom expressions.
-  </note> </li> 
- <li value="10"> <p>Click <span class="bold">Save Changes</span>. </p> <p>All changes you made are now visible on all the selected issues.</p> </li> 
-</ol>
+1. Go to the Main Menu.
+1. Click Projects. 
+1. Click a project name to access the project.
+1. Click Issues in the left panel. 
+1. Select several issues in the list. 
+1. Click the Edit icon .
+
+   The `Edit Issues` dialog box opens.
+
+1. Specify the information on all selected issues.
+
+   Editing the information on all issues is identical to editing information on one issue when editing the following areas:
+
+  * Overview
+  * Settings
+  * Assignments
+  * Comment
+
+   For more information about editing an issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
+
+   >[!NOTE]
+   >
+   >The information you are changing on all the issues selected will override the existing information on individual issues, except for the `Assignments` field. Adding a new assignee in bulk edit will add that assignee to all the selected issues. If other assignees are assigned to the selected issues, they will remain assigned in addition to the one added through bulk edit.
+
+1. Click `Custom Forms` to edit the custom forms attached to all the issues selected.
+
+   If the issues selected do not have any common custom forms, no forms are listed in this section.
+
+   You can edit only the fields on the forms that are attached to all issues selected and which you have permissions to edit.
+
+1. (Optional) In the `Custom Forms` area, select the `Recalculate Custom Expressions` option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.
+
+   >[!IMPORTANT]
+   >
+   >We recommend not to select more than 500 issues at a time when you recalculate custom expressions.
+
+1. Click `Save Changes`.
+
+   All changes you made are now visible on all the selected issues.
 

@@ -53,25 +53,33 @@ You can delete one initiative at a time, `or you can delete multiple initiatives
 
 ### Delete one initiative
 
-<ol> 
- <li value="1"> <p> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then click&nbsp;Scenarios.</p> </p> <p>A list of plans displays. </p> </li> 
- <li value="2">Click the name of a plan to open it, then locate the initiative you want to delete.</li> 
- <li value="3"> <p>Do one of the following:</p> 
-  <ul> 
-   <li> <p>Click the <span class="bold">More menu </span><img src="assets/more-menu.png"> to the right of the initiative name, then click <span class="bold">Delete</span> > <span class="bold">Yes, delete it</span>. </p> </li> 
-  </ul> 
-  <ul> 
-   <li> <p>Select the box to the left of the initiative, then click <span class="bold">Delete</span> on the floating menu that appears at the bottom of the plan, then click <span class="bold">Yes, delete it</span>. </p> </li> 
-  </ul> <p>The initiative and its job role and cost information are deleted from the plan.</p> </li> 
- <li value="4">Click <span class="bold">Save Plan</span> to save your changes. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+
+   A list of plans displays. 
+
+1. Click the name of a plan to open it, then locate the initiative you want to delete.
+1. Do one of the following:
+
+  * Click the `More menu` ![](assets/more-menu.png) to the right of the initiative name, then click `Delete` > `Yes, delete it`.
+
+  * Select the box to the left of the initiative, then click `Delete` on the floating menu that appears at the bottom of the plan, then click `Yes, delete it`.
+
+   The initiative and its job role and cost information are deleted from the plan.
+
+1. Click `Save Plan` to save your changes.
 
 ### Delete initiatives in bulk
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png">, then click&nbsp;Scenarios.</p> <p>A list of plans displays. </p> </li> 
- <li value="2">Click the name of a plan to open it, then locate the initiative you want to delete.</li> 
- <li value="3"> <p>Select the boxes to the left of the initiatives that you want to delete, then click <span class="bold">Delete</span> from the menu that appears at the bottom of the plan, then click <span class="bold">Yes, delete them</span>. </p> <p> <img src="assets/bottom-manage-initiative-menu-350x45.png" style="width: 350;height: 45;"> </p> <p>The initiatives and their job role and cost information are deleted from the plan.</p> </li> 
- <li value="4">Click <span class="bold">Save Plan</span> to save your changes. </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+
+   A list of plans displays. 
+
+1. Click the name of a plan to open it, then locate the initiative you want to delete.
+1. Select the boxes to the left of the initiatives that you want to delete, then click `Delete` from the menu that appears at the bottom of the plan, then click `Yes, delete them`.
+
+   ![](assets/bottom-manage-initiative-menu-350x45.png)
+
+   The initiatives and their job role and cost information are deleted from the plan.
+
+1. Click `Save Plan` to save your changes.
 

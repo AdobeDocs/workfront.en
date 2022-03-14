@@ -52,26 +52,36 @@ You must have the following to perform the steps in this article:
 
 ## Create a sample custom form that has display logic
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="2"> In the left panel, click <span class="bold">Custom Forms</span> <img src="assets/custom-forms-icon.png">. </li> 
- <li value="3">Create the sample custom form:
-  <ol>
-   <li value="1">Click <span class="bold">New Custom Form</span>, then click <span class="bold">Project</span> in the drop-down list.</li>
-   <li value="2">In the <span class="bold">Form Title</span> box, type <span class="bold">Sample custom form - Learning display logic and skip logic</span>.</li>
-   <li value="3">Click <span class="bold">Add a Field</span> in the upper left corner.</li>
-   <li value="4">Add a dropdown field called "Issue Field" by clicking <span class="bold">Dropdown</span>, then typing <span class="bold">Issue field</span> in the <span class="bold">Label</span> box.</li>
-   <li value="5">Click <span class="bold">Save + Close</span> in the lower left corner.</li>
-  </ol></li> 
- <li value="4"> Select the new <span class="bold"><span class="bold">Sample custom form - Learning display logic and skip logic</span></span> custom form, then click <span class="bold">Edit</span>. </li> 
- <li value="5">Add a new single line text field called "Other Research" by clicking <span class="bold">Single Line Text Field</span>, then typing&nbsp;<span class="bold">Other Research</span> in the <span class="bold">Label</span> box.</li> 
- <li value="6"> <p>Click <span class="bold">Add Logic</span> near the lower-left side of the <span class="bold">Edit Custom Form</span> screen.<br></p> </li> 
- <li value="7"> <p> In the box that appears, with the <span class="bold">Display Logic</span> tab open, set up the logic for when the <span class="bold">Other Research</span> field will appear on the form by clicking <span class="bold">Issue field</span> in the first drop-down, <span class="bold">Research Needed</span> in the second drop-down, and <span class="bold">Selected</span> in the third drop-down. </p> <p>Now, when someone selects <span class="bold">Research Needed</span> in the <span class="bold">Issue field</span> drop-down, the <span class="bold">Other Research</span> field will display.</p> </li> 
- <li value="8"> Click <span class="bold">Save</span> to close the <span class="bold">Field Logic</span> window, then click <span class="bold">Done</span> in the <span class="bold">Field Settings</span> area. </li> 
- <li value="9">Click <span class="bold">Preview</span> to make sure the logic appears the way you want it on the form.</li> 
- <li value="10">Click <span class="bold">End Preview</span> when you find that the logic works as expected.</li> 
- <li value="11">Click <span class="bold">Save + Close</span> on the <span class="bold">Edit Custom Form</span> window to save the form, then continue on to <a href="#skip-logic" class="MCXref xref">Skip logic on a custom form</a>below.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. In the left panel, click `Custom Forms` ![](assets/custom-forms-icon.png). 
+
+1. Create the sample custom form:
+
+  1. Click `New Custom Form`, then click `Project` in the drop-down list.
+  
+  1. In the `Form Title` box, type `Sample custom form - Learning display logic and skip logic`.
+  
+  1. Click `Add a Field` in the upper left corner.
+  1. Add a dropdown field called "Issue Field" by clicking `Dropdown`, then typing `Issue field` in the `Label` box.
+  
+  1. Click `Save + Close` in the lower left corner.
+
+1. Select the new ` `Sample custom form - Learning display logic and skip logic`` custom form, then click `Edit`. 
+
+1. Add a new single line text field called "Other Research" by clicking `Single Line Text Field`, then typing  `Other Research` in the `Label` box.
+
+1. Click `Add Logic` near the lower-left side of the `Edit Custom Form` screen.  
+
+1. In the box that appears, with the `Display Logic` tab open, set up the logic for when the `Other Research` field will appear on the form by clicking `Issue field` in the first drop-down, `Research Needed` in the second drop-down, and `Selected` in the third drop-down.
+
+   Now, when someone selects `Research Needed` in the `Issue field` drop-down, the `Other Research` field will display.
+
+1. Click `Save` to close the `Field Logic` window, then click `Done` in the `Field Settings` area. 
+
+1. Click `Preview` to make sure the logic appears the way you want it on the form.
+1. Click `End Preview` when you find that the logic works as expected.
+1. Click `Save + Close` on the `Edit Custom Form` window to save the form, then continue on to [Skip logic on a custom form](#skip-logic)below.
 
 ## Skip logic on a custom form
 
@@ -79,19 +89,24 @@ Skip logic allows you determine which fields should be skipped, based on selecti
 
 To learn about skip logic on custom forms, continue working on the sample custom form you created in the section [Create a sample custom form that has display logic](#display-logic) above:
 
-<ol> 
- <li value="1"><![CDATA[
-          ]]>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.<br></li> 
- <li value="2"> Click <span class="bold">Custom Forms</span>. </li> 
- <li value="3">Select the form <span class="bold">Sample custom form - Learning display logic and skip logic</span> that you created in the steps above, then click <b>Edit</b>. </li> 
- <li value="4"> Select the drop-down field you created named "Issue field." </li> 
- <li value="5"> Click the <span class="bold">Add Logic</span> button in the <span class="bold">Field Settings</span> sidebar. </li> 
- <li value="6"> In the <span class="bold">Field Logic</span> box, make sure the <span class="bold">Skip Logic</span> tab is selected. </li> 
- <li value="7"> Set the first drop-down to <b>No more research</b> and the second drop-down to <span class="bold">Selected</span>.</li> 
- <li value="8"> <p>In the <span class="bold">Then Skip To</span> drop-down, select <span class="bold">End of form.</span></p> <p>Now, when someone selects <span class="bold">No more research</span> in the <span class="bold">Issue field</span> drop-down field, the form will skip directly to the end of the form without displaying the <span class="bold">Other Research</span> field.</p> </li> 
- <li value="9"> Click <span class="bold">Save</span>. </li> 
- <li value="10"> Click <span class="bold">Preview</span> &nbsp;to make sure the logic applies&nbsp;the way you want it. </li> 
- <li value="11"> Click <span class="bold">Done</span> in the lower left side of the form. </li> 
- <li value="12"> Click <span class="bold">Save + Close</span> at the bottom of the Custom Forms window to save the changes you made to the form.&nbsp; </li> 
-</ol>
+1. <![CDATA[          ]]>Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+
+1. Click `Custom Forms`. 
+1. Select the form `Sample custom form - Learning display logic and skip logic` that you created in the steps above, then click **Edit**. 
+
+1. Select the drop-down field you created named "Issue field." 
+1. Click the `Add Logic` button in the `Field Settings` sidebar. 
+
+1. In the `Field Logic` box, make sure the `Skip Logic` tab is selected. 
+
+1. Set the first drop-down to **No more research** and the second drop-down to `Selected`.
+
+1. In the `Then Skip To` drop-down, select `End of form.`
+
+   Now, when someone selects `No more research` in the `Issue field` drop-down field, the form will skip directly to the end of the form without displaying the `Other Research` field.
+
+1. Click `Save`. 
+1. Click `Preview` &nbsp;to make sure the logic applies&nbsp;the way you want it. 
+1. Click `Done` in the lower left side of the form. 
+1. Click `Save + Close` at the bottom of the Custom Forms window to save the changes you made to the form.&nbsp;
 

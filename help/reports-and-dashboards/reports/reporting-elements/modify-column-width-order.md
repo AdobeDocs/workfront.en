@@ -10,15 +10,40 @@ description: The following are guidelines about how column widths work in Adobe 
 
 The following are guidelines about how column widths work in Adobe Workfront:
 
-<ul> 
- <li>Workfront defines the width of columns in lists and reports, by default.</li> 
- <li> <p>Workfront automatically adjusts the width of the columns according to the <code>valueformat </code>information in the all the lists and reports, unless otherwise specified in the text mode of the column.</p> <note type="note">
-   Workfront does not adjust the width of the columns according to the 
-   <code>valueformat </code>information in the lists available in the Setup and Reports areas.
-  </note> <p>The <code>valueformat</code> value defines what kind of information displays in the column. For example, columns that display a number are narrower than columns that display the Description field.</p> </li> 
- <li> <p>You can customize the width of the columns in your Workfront lists and reports to match your needs, depending on what kind of information you want to display in columns.</p> <p>You can modify the width of columns temporarily, while viewing a list or report, or permanently, by adjusting the width of the column in the view builder. For information about modifying the width of columns temporarily, see the <a href="#consider" class="MCXref xref">Considerations when temporarily modifying the width and order of columns</a> section in this article.</p> </li> 
- <li> <p>Columns that appear in built-in views have widths previously defined by Workfront that are hard coded. To modify these widths, you must manually update the width of these columns using text mode in the view builder.</p> <p>For information about modifying the column in text mode, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md" class="MCXref xref">View: permanently edit the width of a column</a>.</p> </li> 
-</ul>
+* Workfront defines the width of columns in lists and reports, by default.
+* Workfront automatically adjusts the width of the columns according to the 
+
+  ```
+  valueformat
+  ```
+
+  information in the all the lists and reports, unless otherwise specified in the text mode of the column.
+
+  >[!NOTE]
+  >
+  >Workfront does not adjust the width of the columns according to the   >
+  >
+  >```  >
+  >valueformat
+  >```  >
+  >
+  >information in the lists available in the Setup and Reports areas.
+
+  The 
+
+  ```
+  valueformat
+  ```
+
+  value defines what kind of information displays in the column. For example, columns that display a number are narrower than columns that display the Description field.
+
+* You can customize the width of the columns in your Workfront lists and reports to match your needs, depending on what kind of information you want to display in columns.
+
+  You can modify the width of columns temporarily, while viewing a list or report, or permanently, by adjusting the width of the column in the view builder. For information about modifying the width of columns temporarily, see the [Considerations when temporarily modifying the width and order of columns](#consider) section in this article.
+
+* Columns that appear in built-in views have widths previously defined by Workfront that are hard coded. To modify these widths, you must manually update the width of these columns using text mode in the view builder.
+
+  For information about modifying the column in text mode, see [View: permanently edit the width of a column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-edit-column-width-permanently.md).
 
 ## Access requirements
 
@@ -72,34 +97,34 @@ You can temporarily modify the width and order of columns in a list without edit
 
 Consider the following when temporarily resizing and ordering columns:
 
-<ul> 
- <li>When resizing columns, the new column sizes are stored in your browser's local storage, and are saved by default. Using a different browser or clearing your cache or browsing data results in column sizes being reverted to the default. Refreshing your page keeps the changes you make to the width of the columns.</li> 
- <li>When reordering columns, the order you choose is maintained only until you navigate away from the list, or you refresh the browser page. After navigating away from the list or refreshing the browser page, columns return to their default order.</li> 
- <li>For optimal performance, the columns you are reordering should not have more than 100 items in the list.</li> 
- <li>When you resize columns, your changes apply only to the view you are currently using and are visible only to you. Sharing a view with another user does not share the column sizes that you have defined.</li> 
- <li> After you resize a column by dragging its border to the right, the width of the neighboring column is preserved except in the following: The Setup area The Reports area Document lists and reports <note type="note">
-   You cannot move the left border of a column past the left border of the neighboring column in any list.
-  </note> </li> 
- <li>If you export any list to a file, the temporary order of the columns does not transfer to the exported file. The exported file displays the order of the columns in the original list, before the columns have been reordered.</li> 
-</ul>
+* When resizing columns, the new column sizes are stored in your browser's local storage, and are saved by default. Using a different browser or clearing your cache or browsing data results in column sizes being reverted to the default. Refreshing your page keeps the changes you make to the width of the columns.
+* When reordering columns, the order you choose is maintained only until you navigate away from the list, or you refresh the browser page. After navigating away from the list or refreshing the browser page, columns return to their default order.
+* For optimal performance, the columns you are reordering should not have more than 100 items in the list.
+* When you resize columns, your changes apply only to the view you are currently using and are visible only to you. Sharing a view with another user does not share the column sizes that you have defined.
+* After you resize a column by dragging its border to the right, the width of the neighboring column is preserved except in the following: The Setup area The Reports area Document lists and reports 
+
+  >[!NOTE]
+  >
+  >You cannot move the left border of a column past the left border of the neighboring column in any list.
+
+* If you export any list to a file, the temporary order of the columns does not transfer to the exported file. The exported file displays the order of the columns in the original list, before the columns have been reordered.
 
 For more information about exporting data from lists and reports, see the article [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 #### Resize columns temporarily
 
-<ol> 
- <li value="1">Go to the list that you want to modify.</li> 
- <li value="2"> Drag the border of a column until the column reaches the desired size.<br><img src="assets/column-resize-350x124.png" style="width: 350;height: 124;"><![CDATA[      ]]></li> 
-</ol>
+1. Go to the list that you want to modify.
+1. Drag the border of a column until the column reaches the desired size.  
+   ![](assets/column-resize-350x124.png)<![CDATA[      ]]>
 
 #### Reorder columns temporarily
 
-<ol> 
- <li value="1"> Go to the list you want to modify. </li> 
- <li value="2"> Click a column you want to move to another location to pick the column. </li> 
- <li value="3"> Drag the column into the correct location. </li> 
- <li value="4"> <p> Drop the column into the location, to move it. </p> <p> <img src="assets/column-reorder-350x118.png" style="width: 350;height: 118;"> </p> </li> 
-</ol>
+1. Go to the list you want to modify. 
+1. Click a column you want to move to another location to pick the column. 
+1. Drag the column into the correct location. 
+1. Drop the column into the location, to move it.
+
+   ![](assets/column-reorder-350x118.png)
 
 >[!TIP]
 >

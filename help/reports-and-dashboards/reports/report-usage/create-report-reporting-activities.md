@@ -42,54 +42,41 @@ You must have the following access to perform the steps in this article:
 
 ## Create the report about existing reports
 
-<ol> 
- <li value="1"> Click the Main Menu icon in the upper-right corner of Adobe Workfront. </li> 
- <li value="2"> <p>Click <span class="bold">Reports</span>, then <span class="bold">New Report</span>.</p> </li> 
- <li value="3">In the <span class="bold">New Report</span> drop-down men, select <span class="bold">Report</span> to create a report on existing reports.</li> 
- <li value="4">In the <span class="bold">Columns (View)</span> tab, add the columns you want in your report.<br>Some of the following fields may be useful:<br>
-  <table cellspacing="15">
-   <col>
-   <col>
-   <thead>
-    <tr>
-     <th>Field</th>
-     <th>Description</th>
-    </tr>
-   </thead>
-   <tbody>
-    <tr>
-     <td><span class="bold">Run As User:&nbsp;Name</span></td>
-     <td>This is the user specified in the <span class="bold">Run this report with the Access Rights of:</span> field on the report. If this user is deactivated, a report does not display for anyone the report is shared with.</td>
-    </tr>
-    <tr>
-     <td><span class="bold">Shared With</span></td>
-     <td>These are all the entities that the report is shared with.</td>
-    </tr>
-    <tr>
-     <td><span class="bold">Entered By</span></td>
-     <td>This is the owner of the report.</td>
-    </tr>
-    <tr>
-     <td><span class="bold">Last Viewed Date</span></td>
-     <td>This is the date and time the report was last viewed by a user.</td>
-    </tr>
-   </tbody>
-  </table></li> 
- <li value="5"> <p>(Optional) To limit your list of reports to specific deactivated users:</p> 
-  <ol> 
-   <li value="1">Select the <span class="bold">Filters</span> tab, then click <span class="bold">Add a Filter Rule</span>.</li> 
-   <li value="2">Add the filter <span class="bold">Run As User ID</span> > <span class="bold">Equal</span>.</li> 
-   <li value="3">Type the name of the deactivated user you want to add to the filter, then click the name when it displays in the list.</li> 
-   <li value="4">Repeat Step C until you have selected all deactivated users you want to include in the report.</li> 
-  </ol> </li> 
- <li value="6"> <p>(Optional) To limit your list of reports to scheduled reports:</p> 
-  <ol> 
-   <li value="1">Select the <span class="bold">Filters</span> tab, then click <span class="bold">Add a Filter Rule</span>.</li> 
-   <li value="2">Add the filter <span class="bold">Scheduled Report ID</span> > <span class="bold">Is Not Blank</span>.</li> 
-  </ol> </li> 
- <li value="7"> <p>Click <span class="bold">Save + Close</span>, then type a name for the report, and click <span class="bold">Save Report</span>.</p> <p>Your report information displays.</p> </li> 
- <li value="8">(Optional) Export this report to Excel and save it on your computer.<br>For information on exporting a report, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</li> 
-</ol>
+1. Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
+1. Click `Reports`, then `New Report`.
+1. In the `New Report` drop-down men, select `Report` to create a report on existing reports.
+
+1. In the `Columns (View)` tab, add the columns you want in your report.  
+   Some of the following fields may be useful:  
+
+   | Field |Description |
+   |---|---|
+   | `Run As User: Name` |This is the user specified in the `Run this report with the Access Rights of:` field on the report. If this user is deactivated, a report does not display for anyone the report is shared with. |
+   | `Shared With` |These are all the entities that the report is shared with. |
+   | `Entered By` |This is the owner of the report. |
+   | `Last Viewed Date` |This is the date and time the report was last viewed by a user. |
+
+1. (Optional) To limit your list of reports to specific deactivated users:
+
+  1. Select the `Filters` tab, then click `Add a Filter Rule`.
+  
+  1. Add the filter `Run As User ID` > `Equal`.
+  
+  1. Type the name of the deactivated user you want to add to the filter, then click the name when it displays in the list.
+  1. Repeat Step C until you have selected all deactivated users you want to include in the report.
+
+1. (Optional) To limit your list of reports to scheduled reports:
+
+  1. Select the `Filters` tab, then click `Add a Filter Rule`.
+  
+  1. Add the filter `Scheduled Report ID` > `Is Not Blank`.
+
+1. Click `Save + Close`, then type a name for the report, and click `Save Report`.
+
+   Your report information displays.
+
+1. (Optional) Export this report to Excel and save it on your computer.  
+   For information on exporting a report, see [Export data](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Update the reports
 

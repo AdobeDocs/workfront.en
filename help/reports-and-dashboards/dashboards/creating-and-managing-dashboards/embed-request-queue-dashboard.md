@@ -64,13 +64,14 @@ When you share a link to a specific queue topic with other users, the request fo
 
 Users can change the request type or choose another topic if they need to. The navigation of the Requests area also displays.
 
-<ol> 
- <li value="1"> Click the Main Menu > Requests > New Request. </li> 
- <li value="2"> <p>Continue selecting topic groups and queue topics until you reach the queue you want to share on the dashboard, if you want to share specific queue. For information about submitting requests, see <a href="../../../manage-work/requests/create-requests/create-submit-requests.md" class="MCXref xref">Create and submit Adobe Workfront requests</a>. </p> <note type="tip">
-   Selecting topic groups and queue topics is optional. 
-  </note> </li> 
- <li value="3"> Click Share path in the upper-right corner of the New Request area. This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available. </li> 
-</ol>
+1. Click the Main Menu > Requests > New Request. 
+1. Continue selecting topic groups and queue topics until you reach the queue you want to share on the dashboard, if you want to share specific queue. For information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+
+   >[!TIP]
+   >
+   >Selecting topic groups and queue topics is optional.
+
+1. Click Share path in the upper-right corner of the New Request area. This copies the link to the request queue or the queue topic as you display it on the screen. Users can update the Request Type or any of the topic groups and queue topics available.
 
 ### Obtain a link to a request queue and ability to change the request type
 
@@ -95,15 +96,28 @@ When you share a link to a request type, the request type is selected for the us
 
 When you share a link to a preselected request type, the request type is selected for the user and cannot be changed (it is dimmed). Users can choose the topic groups or queue topics they need. This is helpful when you do not want users to view and select other request types. The navigation of the Requests area does not display.
 
-<ol> 
- <li value="1"> <p>Go to a project designated as a request queue. </p> <p>For information about creating a request queue from a project, go to <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> </li> 
- <li value="2"> Go to Queue Details. </li> 
- <li value="3"> <p>Copy the code that you find in the <span class="bold">Embedded Code</span> field.</p> <p>The code should look similar to the following:</p> <p><samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp> </p> </li> 
- <li value="4"> <p>Edit the code to preserve only the information below: </p> <p><samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp> </p> <note type="tip">
-   You can preserve the 
-   <samp>iframe </samp>tag when embedding the code in an application other than&nbsp;Workfront. 
-  </note> <p>This is the link to the request queue associated with the selected project. The Request Type is preselected and cannot be changed. </p> <p>Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type. </p>  </li> 
-</ol>
+1. Go to a project designated as a request queue.
+
+   For information about creating a request queue from a project, go to [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 
+
+1. Go to Queue Details. 
+1. Copy the code that you find in the `Embedded Code` field.
+
+   The code should look similar to the following:
+
+   `<samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>` 
+
+1. Edit the code to preserve only the information below:
+
+   `<samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>`
+
+   >[!TIP]
+   >
+   >You can preserve the `<samp>iframe </samp>`tag when embedding the code in an application other than&nbsp;Workfront.
+
+   This is the link to the request queue associated with the selected project. The Request Type is preselected and cannot be changed.
+
+   Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type.
 
 ## Embed a request queue in a dashboard
 

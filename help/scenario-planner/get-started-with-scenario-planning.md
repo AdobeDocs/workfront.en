@@ -31,12 +31,23 @@ The following are benefits of the Workfront Scenario Planner to help you achieve
 
 ## Locate the Workfront Scenario Planner in Workfront
 
-<ol> 
- <li value="1"> <p> Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner, then click <span class="bold">Scenarios</span>. </p> <p> <img src="assets/scenarios-main-menu-highlighted-350x463.png" style="width: 350;height: 463;"> </p> <p>The Workfront Scenario Planner displays. </p> <note type="important">
-   The Workfront Scenario Planner contains the plans you created. If you need to see another user's plan, they must share the URL of that plan with you. 
-  </note> </li> 
- <li value="2"> <p>(Optional) Click the name of a plan to open it and see the details.</p> <p>Or</p> <p>Click <span class="bold">New Plan</span> to add a new plan. </p> <p>For information about creating plans, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner, then click `Scenarios`.
+
+   ![](assets/scenarios-main-menu-highlighted-350x463.png)
+
+   The Workfront Scenario Planner displays.
+
+   >[!IMPORTANT]
+   >
+   >The Workfront Scenario Planner contains the plans you created. If you need to see another user's plan, they must share the URL of that plan with you.
+
+1. (Optional) Click the name of a plan to open it and see the details.
+
+   Or
+
+   Click `New Plan` to add a new plan.
+
+   For information about creating plans, see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md).
 
 ## Workfront Scenario Planner objects
 

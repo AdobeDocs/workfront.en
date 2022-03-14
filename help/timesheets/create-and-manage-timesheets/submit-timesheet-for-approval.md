@@ -50,16 +50,20 @@ After a timesheet approver is set (as described in the section [Designate timesh
 
 To submit a timesheet for approval:
 
-<ol> 
- <li value="1"> <p>Go to a timesheet that has been configured to have an approver. </p> </li> 
- <li value="2"> <p>Log time, as described in <a href="../../timesheets/create-and-manage-timesheets/log-time.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Log time</a>.</p> </li> 
- <li value="3"> <p>Click <span class="bold">Submit for Approval</span> to launch the timesheet approval process. </p> <p> <img src="assets/submit-for-approval-button-on-timesheet-nwe-350x493.png" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="width: 350;height: 493;"> </p> <p>The <span class="bold">Save for Later</span> and <span class="bold">Submit for Approval</span> buttons are replaced by the <span class="bold">Recall</span> button. The status of the timesheet changes to <span class="bold">Submitted</span>. </p> <p>When your timesheet is submitted for approval, the approver sees the timesheet listed in the <span class="bold">Approvals</span>&nbsp;area on the <span class="bold">Home</span> page. The following things might occur: </p> 
-  <ul> 
-   <li> <p>If they approve it, the <span class="bold">Recall</span> button changes to <span class="bold">Re-Open</span> and the timesheet status updates to <span class="bold">Closed</span>. </p> </li> 
-   <li> <p>If they reject it, <span class="bold">Save for Later</span> and <span class="bold">Submit for Approval</span> buttons replace the <span class="bold">Recall</span> button and the timesheet status updates to <span class="bold">Rejected</span>.</p> </li> 
-  </ul> </li> 
- <li value="4"> <p>(Optional)&nbsp;Click&nbsp;<span class="bold">Recall</span> if you need to reopen the timesheet and update your time. For information, see <a href="#recalling-a-timesheet" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Recall a timesheet</a>.</p> </li> 
-</ol>
+1. Go to a timesheet that has been configured to have an approver. 
+1. Log time, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+1. Click `Submit for Approval` to launch the timesheet approval process.
+
+   ![](assets/submit-for-approval-button-on-timesheet-nwe-350x493.png)
+
+   The `Save for Later` and `Submit for Approval` buttons are replaced by the `Recall` button. The status of the timesheet changes to `Submitted`.
+
+   When your timesheet is submitted for approval, the approver sees the timesheet listed in the `Approvals` area on the `Home` page. The following things might occur:
+
+  * If they approve it, the `Recall` button changes to `Re-Open` and the timesheet status updates to `Closed`. 
+  * If they reject it, `Save for Later` and `Submit for Approval` buttons replace the `Recall` button and the timesheet status updates to `Rejected`.
+
+1. (Optional) Click  `Recall` if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recalling-a-timesheet).
 
 ### View the status of a submitted timesheet
 

@@ -35,18 +35,34 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<ol> 
- <li value="1">Go to the area where you want the document you are requesting to reside.</li> 
- <li value="2">Click the <span class="bold">Documents</span>&nbsp;tab.&nbsp;</li> 
- <li value="3"> <p>Click the&nbsp;<span class="bold">Add New</span> drop-down menu.<br></p> </li> 
- <li value="4"> <p>Click <span class="bold">Request a Document</span>.</p> <p>The Request a Document dialog box is displayed.</p> <p> <img src="assets/document-request-350x242.png" alt="document_request.png" style="width: 350;height: 242;"> </p> </li> 
- <li value="5"> <p>Begin typing the name of the user who you are requesting the document from, then select it when it appears in the drop-down list. Only licensed Adobe Workfront users appear as options in the drop-down list.</p> <note type="note">
-   If you have the 
-   <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a> enabled on your account, you can send a request to any email address. There is a setting in the 
-   <a href="../../administration-and-setup/manage-workfront/security/configure-security-preferences.md" class="MCXref xref">Configure system security preferences</a> that determines whether or not these external email users need to create a password before interacting with Workfront.&nbsp;
-  </note> </li> 
- <li value="6">Describe the reason you are requesting the document.</li> 
- <li value="7"> <p>Click <span class="bold">Send Request</span>.</p> <p>When you make a request to a user, a placeholder is added in the documents area. You can remind the user or cancel the request from this placeholder. The user receives a Workfront notification and an email about the request. </p> <p>The user receives an email notification if this preference is enabled, as well as an in-app notification. For more information on email notifications, see <a href="../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md" class="MCXref xref">Activate or deactivate your own event notifications</a>.</p> <p>You can click the link found in the email notification, and then upload the document. Or you can click the in-app notification. Each option routes you to the user profile page where you can upload the requested document.</p> <p>You can also reply directly to the email and attach the requested documents (if you are configured to support email responses). To configure email responses, see .</p> </li> 
- <li value="8"> <p>After you upload the document, the person who requested it can access the document in their personal <span class="bold">Documents</span>&nbsp;area.</p> <p> You can access your personal <span class="bold">Documents</span>&nbsp;area by clicking your user profile picture in the upper-right corner of any Workfront page, clicking your name, then clicking the <span class="bold">Documents</span>&nbsp;tab.</p> </li> 
-</ol>
+1. Go to the area where you want the document you are requesting to reside.
+1. Click the `Documents`&nbsp;tab.&nbsp;
+1. Click the  `Add New` drop-down menu.  
+
+1. Click `Request a Document`.
+
+   The Request a Document dialog box is displayed.
+
+   ![document_request.png](assets/document-request-350x242.png)
+
+1. Begin typing the name of the user who you are requesting the document from, then select it when it appears in the drop-down list. Only licensed Adobe Workfront users appear as options in the drop-down list.
+
+   >[!NOTE]
+   >
+   >If you have the [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) enabled on your account, you can send a request to any email address. There is a setting in the [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) that determines whether or not these external email users need to create a password before interacting with Workfront.&nbsp;
+
+1. Describe the reason you are requesting the document.
+1. Click `Send Request`.
+
+   When you make a request to a user, a placeholder is added in the documents area. You can remind the user or cancel the request from this placeholder. The user receives a Workfront notification and an email about the request.
+
+   The user receives an email notification if this preference is enabled, as well as an in-app notification. For more information on email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+
+   You can click the link found in the email notification, and then upload the document. Or you can click the in-app notification. Each option routes you to the user profile page where you can upload the requested document.
+
+   You can also reply directly to the email and attach the requested documents (if you are configured to support email responses). To configure email responses, see .
+
+1. After you upload the document, the person who requested it can access the document in their personal `Documents`&nbsp;area.
+
+   You can access your personal `Documents` area by clicking your user profile picture in the upper-right corner of any Workfront page, clicking your name, then clicking the `Documents`&nbsp;tab.
 

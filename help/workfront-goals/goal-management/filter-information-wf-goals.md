@@ -90,14 +90,26 @@ The process for creating filters is the same for any section of Workfront Goals.
 
 You can create a filter from scratch or edit one of the built-in filters.
 
-<ol> 
- <li value="1"> <p>Go to the Workfront Goals. </p> <p>For information about accessing Workfront Goals, see <a href="../../workfront-goals/goal-management/access-goals-in-wf-goals.md" class="MCXref xref">Access and open goals in Adobe Workfront Goals </a></p> <p>By default, the Goal List section displays. </p> </li> 
- <li value="2"> <p>Click <span class="bold">Filter </span>in the upper-right corner of the list. </p> <p> <img src="assets/filter-icon-and-label.png"> </p> <p>By default, Workfront applies the <span class="bold">All</span> filter which displays all goals in your system. </p> <note type="tip">
-   You cannot edit or delete the All filter.
-  </note> </li> 
- <li value="3"> <p>Do one of the following:</p> 
-  <ul> 
-   <li> <p>Click any of the following predefined filters to display goals only for the following owners:</p> 
+1. Go to the Workfront Goals.
+
+   For information about accessing Workfront Goals, see [Access and open goals in Adobe Workfront Goals](../../workfront-goals/goal-management/access-goals-in-wf-goals.md)
+
+   By default, the Goal List section displays. 
+
+1. Click `Filter`in the upper-right corner of the list.
+
+   ![](assets/filter-icon-and-label.png)
+
+   By default, Workfront applies the `All` filter which displays all goals in your system.
+
+   >[!TIP]
+   >
+   >You cannot edit or delete the All filter.
+
+1. Do one of the following:
+
+  * Click any of the following predefined filters to display goals only for the following owners:
+
     <table cellspacing="0"> 
      <col> 
      <col> 
@@ -112,9 +124,7 @@ You can create a filter from scratch or edit one of the built-in filters.
       </tr> 
       <tr> 
        <td role="rowheader">My teams</td> 
-       <td> <p>The goals for which any of your teams is selected as the owner. </p> <note type="tip">
-         No goals display when you are not assigned to any teams. 
-        </note> </td> 
+       <td> <p>The goals for which any of your teams is selected as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader">My groups</td> 
@@ -130,13 +140,12 @@ You can create a filter from scratch or edit one of the built-in filters.
         </div> </td> 
       </tr> 
      </tbody> 
-    </table> </li> 
-  </ul> 
-  <ul> 
-   <li> <p>Hover over the name of a filter, then click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png"> next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list. </p> </li> 
-  </ul> 
-  <ul> 
-   <li> <p>Click <span class="bold">New Filter</span> to create a new filter, then select from the following options to customize the new filter:</p> 
+    </table>
+
+  * Hover over the name of a filter, then click the `Edit` icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
+
+  * Click `New Filter` to create a new filter, then select from the following options to customize the new filter:
+
     <table cellspacing="0"> 
      <col> 
      <col> 
@@ -169,30 +178,58 @@ You can create a filter from scratch or edit one of the built-in filters.
        <td> <p>Start typing the name of an owner, then select it when it appears in the list. </p> <p>You can type the names of users, teams, groups, or the name of your organization or you can select from predefined options. </p> <p>The following predefined filter options always refer to the user who is currently logged in: </p> 
         <ul> 
          <li> <p><span class="bold">Me</span>: Displays goals where you are the owner.</p> </li> 
-         <li> <p><span class="bold">My Home Team</span> and <span class="bold">All My Teams</span>: Displays goals where either your Home Team or any of your teams are designated as the owner. </p> <note type="tip">
-           No goals display when you are not assigned to any teams. 
-          </note> </li> 
+         <li> <p><span class="bold">My Home Team</span> and <span class="bold">All My Teams</span>: Displays goals where either your Home Team or any of your teams are designated as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </li> 
          <li> <p><span class="bold">My Home Group</span> and <span class="bold">All&nbsp;My&nbsp;Groups</span>: Displays goals where either your Home Group or any of your groups are designated as the owner.</p> </li> 
         </ul> </td> 
       </tr> 
      </tbody> 
-    </table> </li> 
-  </ul> </li> 
- <li value="4">(Optional) Click <span class="bold">Reset</span> to clear out all the fields you have selected and start building the filter from scratch. </li> 
- <li value="5"> <p>(Optional) Click <span class="bold">Apply</span> to apply the filter without saving. </p> <p>The filter displays in the <span class="bold">Unsaved</span> area of the filter builder as <span class="bold">New Filter</span>. </p> <p>You cannot rename an unsaved filter. </p> <p>Unsaved filters are removed from the Goals area next time you log out of Workfront and log back in.</p> <note type="tip">
-   You can have only one unsaved New Filter at one time. 
-  </note> </li> 
- <li value="6"> <p>Click <span class="bold">Save</span> to save the filter to use it later, then add a name for the filter in the <span class="bold">Add filter name </span>field and click <span class="bold">Done</span>. </p> <p>This saves the filter in the <span class="bold">Saved</span> section of the filter builder. You can use this filter in the future. </p> <p>The last saved and applied filter displays by default next time you log back in to Workfront</p> </li> 
- <li value="7"> <p>(Optional) Click the <span class="bold">left-pointing arrow</span> next to <span class="bold">New Filter</span> to exit the filter builder and return to the list of filters. </p> </li> 
- <li value="8"> <p>(Optional) Hover over the name of a filter, click the <span class="bold">More</span> menu, then click&nbsp;<span class="bold">Delete</span>, then&nbsp;<span class="bold">Delete</span>. This deletes the filter and you cannot recover it. </p> <note type="tip">
-   You cannot delete any of the predefined filters.
-  </note> </li> 
- <li value="9"> <p>Click the <span class="bold">X icon</span> in the upper-right corner of the filter builder to close the filter builder.</p> <p>The name of the filter currently applied displays to the right of the Filter icon, in the upper-right corner of the goals list. </p> <p>The list of goals is filtered by your filter criteria. </p> </li> 
- <li value="10"> <p>(Optional) If you want to view the filtered out results, click&nbsp;<span class="bold">Show them</span> in the list of goals in the Goal List or the Goal Alignment section. </p> <p> <img src="assets/show-them-link-on-filtered-items-goal-list-350x109.png" style="width: 350;height: 109;"> </p> <p>The filter name is outlined in yellow to indicate that it is being ignored.</p> <p> <img src="assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png" style="width: 350;height: 118;"> </p> <note type="tip">
-   Displaying items that are hidden by filters is not possible in the Graphs and Pulse sections. 
-  </note> </li> 
- <li value="11"> <p>Click&nbsp;<span class="bold">Reapply filter</span> to apply the filter and omit the items you displayed in the previous step. </p> </li> 
-</ol>
+    </table>
+
+1. (Optional) Click `Reset` to clear out all the fields you have selected and start building the filter from scratch. 
+1. (Optional) Click `Apply` to apply the filter without saving.
+
+   The filter displays in the `Unsaved` area of the filter builder as `New Filter`.
+
+   You cannot rename an unsaved filter.
+
+   Unsaved filters are removed from the Goals area next time you log out of Workfront and log back in.
+
+   >[!TIP]
+   >
+   >You can have only one unsaved New Filter at one time.
+
+1. Click `Save` to save the filter to use it later, then add a name for the filter in the `Add filter name`field and click `Done`.
+
+   This saves the filter in the `Saved` section of the filter builder. You can use this filter in the future.
+
+   The last saved and applied filter displays by default next time you log back in to Workfront
+
+1. (Optional) Click the `left-pointing arrow` next to `New Filter` to exit the filter builder and return to the list of filters. 
+1. (Optional) Hover over the name of a filter, click the `More` menu, then click  `Delete`, then  `Delete`. This deletes the filter and you cannot recover it.
+
+   >[!TIP]
+   >
+   >You cannot delete any of the predefined filters.
+
+1. Click the `X icon` in the upper-right corner of the filter builder to close the filter builder.
+
+   The name of the filter currently applied displays to the right of the Filter icon, in the upper-right corner of the goals list.
+
+   The list of goals is filtered by your filter criteria. 
+
+1. (Optional) If you want to view the filtered out results, click  `Show them` in the list of goals in the Goal List or the Goal Alignment section.
+
+   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+
+   The filter name is outlined in yellow to indicate that it is being ignored.
+
+   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+
+   >[!TIP]
+   >
+   >Displaying items that are hidden by filters is not possible in the Graphs and Pulse sections.
+
+1. Click  `Reapply filter` to apply the filter and omit the items you displayed in the previous step.
 
 &nbsp;
 

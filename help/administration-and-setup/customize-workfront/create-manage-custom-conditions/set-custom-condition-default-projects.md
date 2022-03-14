@@ -39,15 +39,15 @@ You must have the following to perform the steps in this article:
 
 ## Set a custom condition as a default condition for all projects:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Conditions</span>.<br></li> 
- <li value="3">Click the <span class="bold">Project</span> tab. </li> 
- <li value="4">Click <span class="bold">Set Default Conditions</span>. </li> 
- <li value="5">In the drop-down menu next to the default condition you want to change, click the custom condition you want to use instead. </li> 
- <li value="6">Repeat the previous step for any other default condition you want to change.</li> 
- <li value="7">Click <span class="bold">Save</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Project Preferences` > `Conditions`.  
+
+1. Click the `Project` tab. 
+1. Click `Set Default Conditions`. 
+1. In the drop-down menu next to the default condition you want to change, click the custom condition you want to use instead. 
+1. Repeat the previous step for any other default condition you want to change.
+1. Click `Save`.
 
 For information about setting a custom condition as a default condition for tasks and issues, see [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 

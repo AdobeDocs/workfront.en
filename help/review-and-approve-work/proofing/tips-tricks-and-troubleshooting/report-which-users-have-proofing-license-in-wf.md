@@ -44,14 +44,20 @@ You must have the following access to perform the steps in this article:
 
 You can create a user report&nbsp;to view which users can generate proofs:
 
-<ol> 
- <li value="1">Navigate to <span class="bold">Reporting</span> area.</li> 
- <li value="2">Click the&nbsp;<span class="bold">New Report</span>&nbsp;drop-down menu, then click&nbsp;<span class="bold">User Report</span>.</li> 
- <li value="3">On the <span class="bold">Filters</span> tab, click <span class="bold">Add a Filter Rule</span>.</li> 
- <li value="4">In the available field, expand <span class="bold">User</span>, then click <span class="bold">Has&nbsp;Proof License</span>.</li> 
- <li value="5"> <p>Select <span class="bold">Equal</span> > <span class="bold">True</span>.</p> <p> <img src="assets/report-prooflicenses-350x135.png" alt="report_prooflicenses.png" style="width: 350;height: 135;"> </p> </li> 
- <li value="6"> <p>Click <span class="bold">Save+Close</span>.<br></p> <p>The report displays all users in Workfront who have a proofing license assigned to them.</p> </li> 
-</ol>
+1. Navigate to `Reporting` area.
+1. Click the  `New Report` drop-down menu, then click  `User Report`.
+
+1. On the `Filters` tab, click `Add a Filter Rule`.
+
+1. In the available field, expand `User`, then click `Has Proof License`.
+
+1. Select `Equal` > `True`.
+
+   ![report_prooflicenses.png](assets/report-prooflicenses-350x135.png)
+
+1. Click `Save+Close`.
+
+   The report displays all users in Workfront who have a proofing license assigned to them.
 
 ## Update the People view
 

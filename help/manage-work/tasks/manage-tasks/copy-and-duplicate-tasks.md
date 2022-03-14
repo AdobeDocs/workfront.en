@@ -52,28 +52,34 @@ Consider the following when copying a task:
 
 You can copy a task in the following areas of the Adobe Workfront web application:
 
-<ul> 
- <li> At the task level, from the More icon to the left of the task name. <p>For information, see the <a href="#copy" class="MCXref xref">Copy a task&nbsp;at the task level</a> section in this article.</p> </li> 
- <li> <p>In a task list, by doing one of the following:</p> 
-  <ul> 
-   <li> <p>Right-click the name of a task.</p> </li> 
-   <li> <p>Select the task (or tasks) and expand the More icon at the top of the task list.</p> </li> 
-   <li> <p>Select a task and expanding the <span class="bold">More</span> icon <img src="assets/more-icon-task-list.png"> next to the task name.</p> <p>This option is not available when selecting multiple tasks. </p> </li> 
-  </ul> <p>For information, see the <a href="#copy2" class="MCXref xref">Copy tasks in a list</a> section in this article.</p> </li> 
-</ul>
+* At the task level, from the More icon to the left of the task name. For information, see the [Copy a task at the task level](#copy) section in this article.
+* In a task list, by doing one of the following:
+
+  * Right-click the name of a task.
+  * Select the task (or tasks) and expand the More icon at the top of the task list.
+  * Select a task and expanding the `More` icon ![](assets/more-icon-task-list.png) next to the task name.
+
+    This option is not available when selecting multiple tasks.
+
+  For information, see the [Copy tasks in a list](#copy2) section in this article.
 
 ## Copy tasks in a list
 
-<ol> 
- <li value="1"> <p>Go to the project that contains the task or tasks that you want to copy.</p> <p>Or</p> <p>Go to a task report. </p> </li> 
- <li value="2"> Click Tasks in the left panel. </li> 
- <li value="3"> Click the Plan mode menu , then Autosave. <note type="important">
-   You can copy tasks in a list only when automatically saving your changes. For information about saving options when editing tasks, see 
-   <a href="../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Edit tasks in a list</a>.
-  </note> </li> 
- <li value="4"> Select the task or tasks that you want to copy and do one of the following: Click the More menu at the top of the task list, then click Copy to. Right click the selected tasks, then click Copy to. When selecting one task, click the More menu next to the task name in the list, then click Copy to.  </li> 
- <li value="5"> Continue with copying the task, as described in the section Copy a task at the task level starting with Step 4. </li> 
-</ol>
+1. Go to the project that contains the task or tasks that you want to copy.
+
+   Or
+
+   Go to a task report. 
+
+1. Click Tasks in the left panel. 
+1. Click the Plan mode menu , then Autosave. 
+
+   >[!IMPORTANT]
+   >
+   >You can copy tasks in a list only when automatically saving your changes. For information about saving options when editing tasks, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+
+1. Select the task or tasks that you want to copy and do one of the following: Click the More menu at the top of the task list, then click Copy to. Right click the selected tasks, then click Copy to. When selecting one task, click the More menu next to the task name in the list, then click Copy to.  
+1. Continue with copying the task, as described in the section Copy a task at the task level starting with Step 4.
 
 ## Copy a task&nbsp;at the task level
 
@@ -118,8 +124,13 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 
   * (Conditional) Click the Plan mode menu > Autosave, select the tasks you want to duplicate, then click the More menu > Duplicate.
 
-  * (Conditional) Click the Plan mode menu > Manual save > Standard or Timeline Planning, then do the following: 
-  * `<li value="1">Select the task or tasks you want to duplicate, and click <span class="bold">Duplicate</span>. </li>` `<li value="2">(Optional) Click <span class="bold">Undo</span> to reverse your changes and not duplicate the tasks.</li>` `<li value="3">(Optional and conditional) Click <span class="bold">Redo</span> if you had previously clicked <span class="bold">Undo</span>, to keep the changes and duplicate the tasks.</li>` `<li value="4">Click <span class="bold">Save</span> to save your changes.</li>`
+  * (Conditional) Click the Plan mode menu > Manual save > Standard or Timeline Planning, then do the following:
+
+    1. Select the task or tasks you want to duplicate, and click `Duplicate`. 
+    1. (Optional) Click `Undo` to reverse your changes and not duplicate the tasks.
+    1. (Optional and conditional) Click `Redo` if you had previously clicked `Undo`, to keep the changes and duplicate the tasks.
+    
+    1. Click `Save` to save your changes.
 
   1. Edit tasks in a list
 

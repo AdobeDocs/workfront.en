@@ -35,18 +35,32 @@ The Project Info section of the Business Case includes the basic information of 
 
 Consider editing the following fields:
 
-<ul> 
- <li><span class="bold">Description</span>: Specify a description for your project.</li> 
- <li> <p><span class="bold">Project Owner</span> </p> <p>By default, the user creating the project is also the Project Owner. You can edit this field and indicate another active user as the owner of the project. </p> </li> 
- <li> <p><span class="bold">Project Sponsor</span> </p> <p>Consider adding someone else than the Project Owner as the Sponsor of the project. The sponsor receives the approval of the Business Case.&nbsp;</p> </li> 
- <li> <p><span class="bold">Portfolio</span>: Specify a Portfolio for the project. You must create the Portfolio and place it in the status of <span class="bold">Active</span> before it is available to select in this drop-down menu.</p> <p>For more information about portfolios, see <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md" class="MCXref xref">Portfolio overview in Adobe Workfront</a>.<br></p> <p>For more information about creating Portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio</a>.</p> </li> 
- <li><span class="bold">Planned Benefit</span>: Estimate what the monetary benefit is planned to be for your organization when this project is completed. It can be any amount of currency and it must be a positive value. For example $10,000.</li> 
- <li> <p><span class="bold">Status</span>: By default, the Status for a project request is set to <span class="bold">Idea</span>.</p> <p>If you change the Status to anything other than&nbsp;Idea or&nbsp;Planning, the&nbsp;<span class="bold">Submit</span> button disappears from the Business Case Summary area, and you can no longer submit the Business Case for approval.&nbsp;</p> </li> 
- <li><span class="bold">Fixed Start Date</span>: Specify a date when you would like for the project to start.</li> 
- <li> <p><span class="bold">Fixed End Date</span>: Specify a date when you would like for the project to end.</p> <note type="note">
-   The Fixed Start and End Date on the Business Case do not impact the Planned Start and Completion Dates of the project. These represent the dates requested by the&nbsp;project creator&nbsp;for when the project would ideally develop. Instead, the Planned Start and Planned Completion Dates of the project show the planned timeline for the project which is based on the tasks on the project.
-  </note> </li> 
-</ul>
+* `Description`: Specify a description for your project.
+* `Project Owner`
+
+  By default, the user creating the project is also the Project Owner. You can edit this field and indicate another active user as the owner of the project. 
+
+* `Project Sponsor`
+
+  Consider adding someone else than the Project Owner as the Sponsor of the project. The sponsor receives the approval of the Business Case.&nbsp;
+
+* `Portfolio`: Specify a Portfolio for the project. You must create the Portfolio and place it in the status of `Active` before it is available to select in this drop-down menu.
+
+  For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+
+  For more information about creating Portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
+
+* `Planned Benefit`: Estimate what the monetary benefit is planned to be for your organization when this project is completed. It can be any amount of currency and it must be a positive value. For example $10,000.
+* `Status`: By default, the Status for a project request is set to `Idea`.
+
+  If you change the Status to anything other than Idea or Planning, the  `Submit` button disappears from the Business Case Summary area, and you can no longer submit the Business Case for approval.&nbsp;
+
+* `Fixed Start Date`: Specify a date when you would like for the project to start.
+* `Fixed End Date`: Specify a date when you would like for the project to end.
+
+  >[!NOTE]
+  >
+  >The Fixed Start and End Date on the Business Case do not impact the Planned Start and Completion Dates of the project. These represent the dates requested by the&nbsp;project creator&nbsp;for when the project would ideally develop. Instead, the Planned Start and Planned Completion Dates of the project show the planned timeline for the project which is based on the tasks on the project.
 
 ## Goals
 
@@ -92,17 +106,22 @@ For more information about budgeting resources for the project in the Business C
 
 Consider the following when viewing the Resource Budgeting section of the Business Case:
 
-<ul> 
- <li> <p>You can budget resource information here using the following tools:</p> 
-  <ul> 
-   <li> <p>The Resource Planner</p> <p>For information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Resource Planner</a>. </p> </li> The Scenario Planner , if your company has purchased an additional license for Adobe Scenario Planner For more information, see Budget resources in the Business Case using the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview. 
-  </ul> </li> 
- <li>The information displayed here also displays in the system-level Resource Planner or Scenario Planner.&nbsp;<br></li> 
- <li> <p>After budgeting your resources, the Budgeted Labor Cost of the project displays in the Resource Budgeting area if the roles are associated with Cost per Hour rates.&nbsp;The Budgeted Labor&nbsp;Cost displays in the currency of the project. </p> <note type="important">
-   The Budgeted Labor Cost is the cost associated with the roles on the project, and not with the users. The sum of all Budgeted Labor Costs for the users may or may not equal the Budgeted Labor Cost of the job role associated with the users.&nbsp;
-   <br>
-  </note> <p>For more information about Budgeted Labor Cost, see <a href="../../../manage-work/projects/define-a-business-case/business-case-finances.md" class="MCXref xref">Overview of Business Case financial fields </a>.</p> <p>For more information about creating job roles and associating Cost per Hour rates with them, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> </li> 
-</ul>
+* You can budget resource information here using the following tools:
+
+  * The Resource Planner
+
+    For information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+
+* The information displayed here also displays in the system-level Resource Planner or Scenario Planner.&nbsp;  
+* After budgeting your resources, the Budgeted Labor Cost of the project displays in the Resource Budgeting area if the roles are associated with Cost per Hour rates.&nbsp;The Budgeted Labor&nbsp;Cost displays in the currency of the project.
+
+  >[!IMPORTANT]
+  >
+  >The Budgeted Labor Cost is the cost associated with the roles on the project, and not with the users. The sum of all Budgeted Labor Costs for the users may or may not equal the Budgeted Labor Cost of the job role associated with the users.&nbsp;
+
+  For more information about Budgeted Labor Cost, see [Overview of Business Case financial fields](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+
+  For more information about creating job roles and associating Cost per Hour rates with them, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## Risks
 

@@ -55,14 +55,25 @@ Consider the following scenarios:
 
 Depending on what your Workfront administrator selected in the Project Preferences at the system level, the percent complete for a project is calculated either based on the Planned Duration or the Planned Hours of the main tasks on the project.
 
-<ul> 
- <li> <p> If the system calculates the percent complete based on Planned Hours, the project percent complete is calculated using the following formula:</p> <p><code>Project Percent Complete =((Task 1 Planned Hours * Task 1 Percent Complete + Task 2 Planned Hours * Task 2 Percent Complete)/Total Planned Hours of Parent)*100</code> </p> <note type="note">
-    Task 1 or Task 2 can only be parent tasks or standalone tasks. The Planned Hours and Percent Complete of children tasks are not used in this calculation.
-  </note> </li> 
- <li> <p> If the system calculates the percent complete based on the Planned Duration, the project percent complete is calculated using the following formula:</p> <p><code>Project Percent Complete = ((Task 1 Duration * Task 1 Percent Complete + Task 2 Duration * Task 2 Percent Complete)/Duration of Parent)*100</code> </p> <note type="note">
-    Task 1 or Task 2 can only be parent tasks or standalone tasks. The Duration and Percent Complete of children tasks are not used in this calculation.
-  </note> </li> 
-</ul>
+* If the system calculates the percent complete based on Planned Hours, the project percent complete is calculated using the following formula:
+
+  ```
+  Project Percent Complete =((Task 1 Planned Hours * Task 1 Percent Complete + Task 2 Planned Hours * Task 2 Percent Complete)/Total Planned Hours of Parent)*100
+  ```
+
+  >[!NOTE]
+  >
+  >Task 1 or Task 2 can only be parent tasks or standalone tasks. The Planned Hours and Percent Complete of children tasks are not used in this calculation.
+
+* If the system calculates the percent complete based on the Planned Duration, the project percent complete is calculated using the following formula:
+
+  ```
+  Project Percent Complete = ((Task 1 Duration * Task 1 Percent Complete + Task 2 Duration * Task 2 Percent Complete)/Duration of Parent)*100
+  ```
+
+  >[!NOTE]
+  >
+  >Task 1 or Task 2 can only be parent tasks or standalone tasks. The Duration and Percent Complete of children tasks are not used in this calculation.
 
 ## Example of Percent Complete on a project using Duration
 

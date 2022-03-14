@@ -53,15 +53,17 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about Actual Start&nbsp;Dates for projects
 
-<ul> 
- <li>Workfront automatically sets the Actual&nbsp;Date of a project when any of the following occur:
-  <ul>
-   <li>A task assignee changes the status of a task from <i>New</i> to any other status that does not equate <i>New</i>.</li>
-   <li><p>A task assignee changes the Percent Complete of a task.</p><note type="important">
-     The Project&nbsp;Actual Start&nbsp;Date does not populate when the project is marked as Current.&nbsp;Actual work must start on the tasks of the project before the Actual&nbsp;Start&nbsp;Date of the project populates. 
-    </note><p>In these cases, the Actual Start Date of the project is set to the date and time when these actions occurred for the earliest task on the project. This indicates that the project actually started on this date and time. </p></li>
-  </ul></li> 
-</ul>
+* Workfront automatically sets the Actual&nbsp;Date of a project when any of the following occur:
+
+  * A task assignee changes the status of a task from *New* to any other status that does not equate *New*.
+  
+  * A task assignee changes the Percent Complete of a task.
+
+    >[!IMPORTANT]
+    >
+    >The Project&nbsp;Actual Start&nbsp;Date does not populate when the project is marked as Current.&nbsp;Actual work must start on the tasks of the project before the Actual&nbsp;Start&nbsp;Date of the project populates.
+
+    In these cases, the Actual Start Date of the project is set to the date and time when these actions occurred for the earliest task on the project. This indicates that the project actually started on this date and time.
 
 ## Locate the Actual Start&nbsp;Date of a project
 

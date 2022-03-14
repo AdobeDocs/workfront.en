@@ -50,33 +50,35 @@ You must have the following to perform the steps in this article:
 
 ## View, work with, and create projects for your group from the Groups area
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Click the name of the group for which you want to create, view, or work with projects.</li> 
- <li value="4">In the left panel, click <span class="bold">Projects</span> <img src="assets/projects-in-main-menu.png"> to view a list of the projects associated with the group.</li> 
- <li value="5"> <p>Do any of the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"> <p>Work with a project</p> </td> 
-     <td> <p>Select the project, then use the toolbar buttons to edit <img src="assets/edit-icon.png">, share <img src="assets/share-icon.png">, or delete it <img src="assets/delete.png">.</p> <p>For more information about these activities, see <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Manage projects</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Create a new project for the group</p> </td> 
-     <td> 
-      <ol> 
-       <li value="1"> <p>Click <span class="bold">New Project</span>, then select an option in the drop-down menu to indicate how you want to create it. </p> <p>For more information, see the section <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Ways to create projects</a> in the article <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li> 
-       <li value="2">Type a name for the project and configure it, as explained in <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</li> 
-      </ol> <p> Project preferences that are set for the group affect all projects that you create in the Groups area. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">Configure project preferences for a group</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Export the list of projects</td> 
-     <td>Click the Export icon <img src="assets/export.png"> in the toolbar above the list.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group for which you want to create, view, or work with projects.
+1. In the left panel, click `Projects` ![](assets/projects-in-main-menu.png) to view a list of the projects associated with the group.
+
+1. Do any of the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Work with a project</p> </td> 
+      <td> <p>Select the project, then use the toolbar buttons to edit <img src="assets/edit-icon.png">, share <img src="assets/share-icon.png">, or delete it <img src="assets/delete.png">.</p> <p>For more information about these activities, see <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Manage projects</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Create a new project for the group</p> </td> 
+      <td> 
+       <ol> 
+        <li value="1"> <p>Click <span class="bold">New Project</span>, then select an option in the drop-down menu to indicate how you want to create it. </p> <p>For more information, see the section <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Ways to create projects</a> in the article <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li> 
+        <li value="2">Type a name for the project and configure it, as explained in <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</li> 
+       </ol> <p> Project preferences that are set for the group affect all projects that you create in the Groups area. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">Configure project preferences for a group</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Export the list of projects</td> 
+      <td>Click the Export icon <img src="assets/export.png"> in the toolbar above the list.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 

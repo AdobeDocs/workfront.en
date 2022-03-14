@@ -53,14 +53,32 @@ You must have the following:
 
 ## Update tasks and issues in the Workload Balancer Summary panel
 
-<ol> 
- <li value="1"> <p>Go to the Workload Balancer. </p> <p>The Workload Balancer displays work assignment information starting with the current week. </p> </li> 
- <li value="2"> <p>Go to the <span class="bold">Unassigned Work</span> area and find a work item.</p> <p>Or</p> <p>Go to the <span class="bold">Assigned Work</span> area, expand a user, and find a work item.</p> </li> 
- <li value="3"> <p><span>Click the <span class="bold">Summary</span> icon, then click the bar of a task or issue.</span> </p> <note type="tip">
-   You cannot access the Summary of a project. 
-  </note> <p>The Summary opens on the right. </p> <p> <img src="assets/summary-panel-for-task-in-workload-balancer-350x449.png" style="width: 350;height: 449;"> </p> </li> 
- <li value="4"> <p>Modify a number of fields for the work item, enter an update, or you navigate from here to other areas of Workfront to add documents or other information to the work item. </p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>Navigating from the Summary to the Substasks section to add subtasks removes the original task, because parent tasks do not display in the Workload Balancer.</p> <p>For more information about updating information using the Summary, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</p> </li> 
- <li value="5">(Conditional) If you opened any of the sections of the work item, click your browser's <span class="bold">Back button</span> to return to the Workload Balancer.</li> 
- <li value="6">Click the <span class="bold">Close icon</span><img src="assets/close-icon.png"> in the upper-right corner of the Summary, to close it. </li> 
-</ol>
+1. Go to the Workload Balancer.
+
+   The Workload Balancer displays work assignment information starting with the current week. 
+
+1. Go to the `Unassigned Work` area and find a work item.
+
+   Or
+
+   Go to the `Assigned Work` area, expand a user, and find a work item.
+
+1. `Click the `Summary` icon, then click the bar of a task or issue.`
+
+   >[!TIP]
+   >
+   >You cannot access the Summary of a project.
+
+   The Summary opens on the right.
+
+   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+
+1. Modify a number of fields for the work item, enter an update, or you navigate from here to other areas of Workfront to add documents or other information to the work item.
+
+   ` `**Warning: **``Navigating from the Summary to the Substasks section to add subtasks removes the original task, because parent tasks do not display in the Workload Balancer.
+
+   For more information about updating information using the Summary, see [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+1. (Conditional) If you opened any of the sections of the work item, click your browser's `Back button` to return to the Workload Balancer.
+1. Click the `Close icon` ![](assets/close-icon.png) in the upper-right corner of the Summary, to close it.
 

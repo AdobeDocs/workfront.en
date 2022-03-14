@@ -52,15 +52,19 @@ You can link an asset from Experience Manager Assets to Workfront. Once the asse
 
 To link an asset to Experience Manager Assets:
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span> area in Workfront where you want to add the document.</li> 
- <li value="2"> <p>Click <span class="bold">Add new</span>, then choose the Experience Manager Assets integration your administrator set up.</p> </li> 
- <li value="3"> <note type="note">
-   Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
-  </note> </li> 
- <li value="4"> <p>Select the assets you want.</p> <p> <img src="assets/select-an-asset.png"> </p> </li> 
- <li value="5"> <p>Click <span class="bold">Link</span>.</p> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront where you want to add the document.
+1. Click `Add new`, then choose the Experience Manager Assets integration your administrator set up.
+1. 
+
+   >[!NOTE]
+   >
+   >Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
+
+1. Select the assets you want.
+
+   ![](assets/select-an-asset.png)
+
+1. Click `Link`.
 
 ## Link a folder from Experience Manager Assets
 
@@ -68,15 +72,19 @@ Permissions to view individual assets inside of a folder rely on Experience Mana
 
 To link a folder to Experience Manager Assets:
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span> area in Workfront where you want to add the document.</li> 
- <li value="2"> <p>Click <span class="bold">Add new</span>, then choose the Experience Manager Assets integration your administrator set up.</p> </li> 
- <li value="3"> <note type="note">
-   Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
-  </note> </li> 
- <li value="4"> <p>Select the folders you want.</p> <p> <img src="assets/select-a-folder.png"> </p> </li> 
- <li value="5"> <p>Click <span class="bold">Link</span>.</p> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront where you want to add the document.
+1. Click `Add new`, then choose the Experience Manager Assets integration your administrator set up.
+1. 
+
+   >[!NOTE]
+   >
+   >Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
+
+1. Select the folders you want.
+
+   ![](assets/select-a-folder.png)
+
+1. Click `Link`.
 
 ## Link a new version from Experience Manager Assets
 
@@ -88,13 +96,17 @@ You can pull a new asset over from Experience Manager Assets and add it to an ex
 
 To link a new version from Experience Manager Assets:
 
-<ol> 
- <li value="1">Go to the <span class="bold">Documents</span> area in Workfront where you want to add the document.</li> 
- <li value="2"> <p>Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder. </p> </li> 
- <li value="3"> <p>Click <span class="bold">Add new</span>, then choose the Experience Manager Assets integration your administrator set up.</p> <note type="note">
-   Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
-  </note> </li> 
- <li value="4"> <p>Select the asset you want.</p> <p> <img src="assets/select-an-asset.png"> </p> </li> 
- <li value="5"> <p>Click <span class="bold">Link</span>. </p> </li> 
-</ol>
+1. Go to the `Documents` area in Workfront where you want to add the document.
+1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder. 
+1. Click `Add new`, then choose the Experience Manager Assets integration your administrator set up.
+
+   >[!NOTE]
+   >
+   >Any name may be chosen for this integration, so it may not specifically mention Experience Manager Assets.
+
+1. Select the asset you want.
+
+   ![](assets/select-an-asset.png)
+
+1. Click `Link`.
 

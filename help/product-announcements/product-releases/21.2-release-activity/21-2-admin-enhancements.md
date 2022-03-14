@@ -109,11 +109,11 @@ For more information, see Create, modify, and view a group’s programs.
 
 To better orient administrators in the Setup area and to maintain consistency Adobe Workfront, we have updated the Setup headers with the following:
 
-<ul> 
- <li> <p>A large colorful badge marking each Setup page and subpage</p> </li> 
- <li> <p>Hierarchy information above the name of each subpage (on the page for a single group, for example)</p> </li> 
- <li> <p>Modernized font styles and sizes</p> <p> <img src="assets/updated-headers-in-setup-02-29-21-350x214.png" style="width: 350;height: 214;"> </p> </li> 
-</ul>
+* A large colorful badge marking each Setup page and subpage
+* Hierarchy information above the name of each subpage (on the page for a single group, for example)
+* Modernized font styles and sizes
+
+  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 For more information about the Setup area, see Administration and setup.
 

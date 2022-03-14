@@ -62,8 +62,8 @@ You must create a scenario before you can activate it.
 
 ## Activate or deactivate a scenario:
 
-<ol> 
- <li value="1">Click Scenarios <img src="assets/scenarios-icon.png"> in the left panel, then click the scenario to open it.</li> 
- <li value="2"> <p>In the upper-right corner of the window, click the <span class="bold">On/Off</span> button.</p> <p> <img src="assets/on-off-switch.jpg"> </p> </li> 
-</ol>
+1. Click Scenarios ![](assets/scenarios-icon.png) in the left panel, then click the scenario to open it.
+1. In the upper-right corner of the window, click the `On/Off` button.
+
+   ![](assets/on-off-switch.jpg)
 

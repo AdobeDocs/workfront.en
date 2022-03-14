@@ -45,15 +45,20 @@ You must have the following access to perform the steps in this article:
 
 ## Install Workfront for Adobe Creative Cloud
 
-<ol> 
- <li value="1">Open your Adobe Creative Cloud application and make sure that your apps are up to date.</li> 
- <li value="2"> <p>In the preferences for your Adobe Creative Cloud application, make sure that syncing is enabled (this is the default).<br></p> </li> 
- <li value="3">In a web browser, log in to your Adobe account, then go to the Adobe Exchange Creative Cloud website.</li> 
- <li value="4"> <p>In the <span class="bold">Search Marketplace</span> box (near the bottom of the screen), search for <span class="bold">Workfront</span>.<br></p> </li> 
- <li value="5"> <p>In the box that appears below the search box, click <span class="bold">Workfront Extension</span>.</p> <p> <img src="assets/adobe-workfront-search-in-the-exchange-350x240.png" alt="adobe_workfront_search_in_the_exchange.png" style="width: 350;height: 240;"> </p> </li> 
- <li value="6">Click <span class="bold">Install</span>.</li> 
- <li value="7"> <p>When the installation completes, restart your computer and Workfront for Adobe Creative Cloud is added to your list of extensions for the supported applications. </p> <p>For information about verifying that the extension is installed, see the <a href="#ensuring-the-addon-installed-successfully" class="MCXref xref">Ensure Workfront for Adobe Creative Cloud installed successfully</a> section in this article.</p> </li> 
-</ol>
+1. Open your Adobe Creative Cloud application and make sure that your apps are up to date.
+1. In the preferences for your Adobe Creative Cloud application, make sure that syncing is enabled (this is the default).  
+
+1. In a web browser, log in to your Adobe account, then go to the Adobe Exchange Creative Cloud website.
+1. In the `Search Marketplace` box (near the bottom of the screen), search for `Workfront`.  
+
+1. In the box that appears below the search box, click `Workfront Extension`.
+
+   ![adobe_workfront_search_in_the_exchange.png](assets/adobe-workfront-search-in-the-exchange-350x240.png)
+
+1. Click `Install`.
+1. When the installation completes, restart your computer and Workfront for Adobe Creative Cloud is added to your list of extensions for the supported applications.
+
+   For information about verifying that the extension is installed, see the [Ensure Workfront for Adobe Creative Cloud installed successfully](#ensuring-the-addon-installed-successfully) section in this article.
 
 ## Ensure Workfront for Adobe Creative Cloud installed successfully
 

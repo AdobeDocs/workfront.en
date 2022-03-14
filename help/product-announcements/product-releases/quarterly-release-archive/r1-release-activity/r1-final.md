@@ -134,7 +134,11 @@ You can now include the following additional information&nbsp;in custom views:
 `The reporting feature (formerly known as Analytics) contains the following improvements:`
 
 * New default report types:
-* `<li>Proof turnaround time</li>` `<li>Late approval percentage</li>` `<li>Proof first activity time</li>` `<li>Number of comments and replies</li>` 
+
+  * Proof turnaround time
+  * Late approval percentage
+  * Proof first activity time
+  * Number of comments and replies
 
 * Print reports
 * Updated look and feel

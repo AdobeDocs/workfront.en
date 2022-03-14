@@ -55,28 +55,31 @@ Before you start, you must:
 
 Exporting information from the Details section of an object is identical for all objects.
 
-<ol> 
- <li value="1">Go to a project, task, <span>portfolio, program,</span> or issue for which you have at least View permissions. </li> 
- <li value="2"> <p>Click the <span class="bold" style="font-weight: normal;">"Details" item</span> on the left panel, such as <span class="bold">Task Details</span>.</p> </li> 
- <li value="3"> <p>(Optional) If there is no custom form attached to the object, start typing the name of a custom form in the <span class="bold">Add custom form field</span>, then click it when it appears in the list.</p> <p>You can add up to 10 forms.</p> </li> 
- <li value="4">(Optional) Update information in the Details section, then click <span class="bold">Save Changes</span>.</li> 
- <li value="5"> <p>Click the <span class="bold">Export</span> drop-down menu in the upper-right corner, select <span class="bold">Overview</span>, or the forms you want to export, then click <span class="bold">Export</span>.</p> <p>You can also select <span class="bold">Select all</span> if you want to export the Overview area and all the custom forms. </p> <p> <img src="assets/export-custom-form-button-menu.png"> </p> 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <p> The following scenarios may exist:</p> 
-   <ul> 
-    <li> <p>When your group or Workfront administrator deselects all fields in the Overview area and the object has custom forms attached, the Overview section does not display.</p> </li> 
-    <li> <p>When your group or Workfront administrator deselects all fields in the Overview area and the object has no custom forms attached, the Export drop-down menu is not visible.</p> </li> 
-    <li> <p>When the object has no custom forms attached, you can export only the Overview area.</p> </li> 
-    <li> <p>Custom fields that are behind logic and are not visible on the form do not export. For information about adding logic to a custom form, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Display logic and skip logic on a custom form</a>.</p> </li> 
-   </ul> 
-  </div> <p>A PDF file is produced and downloaded to your computer. The PDF file contains the following information:</p> 
-  <ul> 
-   <li> <p>The name of the object the form is attached to</p> </li> 
-   <li> <p>The name of the user who exported the PDF</p> </li> 
-   <li> <p>The date and time when the PDF was produced</p> </li> 
-   <li> <p>The name of the forms you exported</p> </li> 
-   <li> <p>Information from the fields completed on the form</p> </li> 
-  </ul> </li> 
-</ol>
+1. Go to a project, task, `portfolio, program,` or issue for which you have at least View permissions. 
+1. Click the `"Details" item` on the left panel, such as `Task Details`.
+1. (Optional) If there is no custom form attached to the object, start typing the name of a custom form in the `Add custom form field`, then click it when it appears in the list.
+
+   You can add up to 10 forms.
+
+1. (Optional) Update information in the Details section, then click `Save Changes`.
+1. Click the `Export` drop-down menu in the upper-right corner, select `Overview`, or the forms you want to export, then click `Export`.
+
+   You can also select `Select all` if you want to export the Overview area and all the custom forms.
+
+   ![](assets/export-custom-form-button-menu.png)
+
+   ` `**Tips: **``  The following scenarios may exist:
+
+  * When your group or Workfront administrator deselects all fields in the Overview area and the object has custom forms attached, the Overview section does not display.
+  * When your group or Workfront administrator deselects all fields in the Overview area and the object has no custom forms attached, the Export drop-down menu is not visible.
+  * When the object has no custom forms attached, you can export only the Overview area.
+  * Custom fields that are behind logic and are not visible on the form do not export. For information about adding logic to a custom form, see [Display logic and skip logic on a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md).
+
+   A PDF file is produced and downloaded to your computer. The PDF file contains the following information:
+
+  * The name of the object the form is attached to
+  * The name of the user who exported the PDF
+  * The date and time when the PDF was produced
+  * The name of the forms you exported
+  * Information from the fields completed on the form
 

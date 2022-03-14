@@ -59,12 +59,12 @@ For a list of fields supported by event subscription objects, see [Event subscri
 
 To create, query, or delete an event subscription, your Workfront user needs the following:
 
-<ul> 
- <li> An access level of “System Administrator” </li> 
- <li> <p> An apiKey</p> <note type="note"><![CDATA[
-					]]>If your user is already utilizing Workfront’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request: 
-  </note> </li> 
-</ul>
+* An access level of “System Administrator” 
+* An apiKey
+
+  >[!NOTE]
+  >
+  ><![CDATA[ ]]>If your user is already utilizing Workfront’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request:
 
 `Request URL:` 
 
@@ -111,92 +111,90 @@ To create, query, or delete an event subscription, your Workfront user needs the
 
 The subscription resource&nbsp;contains the following fields.
 
-<ul> 
- <li> objId (optional) </li> 
- <ul> 
-  <li><span class="bold">String</span> - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type. </li> 
- </ul> 
- <li> objCode (required) </li> 
- <ul> 
-  <li><span class="bold">String</span> - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.<br> 
-   <table cellspacing="15"> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th><p>Object</p></th> 
-      <th><p>objCode</p></th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col">Assignment</td> 
-      <td scope="col"><p>ASSGN</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col">Company&nbsp;</td> 
-      <td scope="col"><p>CMPY</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col">Dashboard</td> 
-      <td scope="col">PTLTAB</td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Document</p></td> 
-      <td scope="col">DOCU&nbsp;</td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Expense</p></td> 
-      <td scope="col">EXPNS</td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Hour</p></td> 
-      <td scope="col">HOUR</td> 
-     </tr> 
-     <tr> 
-      <td scope="col">Issue</td> 
-      <td scope="col"><p>OPTASK</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col">Note</td> 
-      <td scope="col">NOTE</td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Portfolio</p></td> 
-      <td scope="col"><p>PORT</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Program</p></td> 
-      <td scope="col"><p>PRGM</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Project</p></td> 
-      <td scope="col"><p>PROJ</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Report</p></td> 
-      <td scope="col"><p>PTLSEC</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Task</p></td> 
-      <td scope="col"><p>TASK</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col"><p>Template</p></td> 
-      <td scope="col"><p>TMPL</p></td> 
-     </tr> 
-     <tr> 
-      <td scope="col">Timesheet</td> 
-      <td scope="col">TSHET</td> 
-     </tr> 
-     <tr> 
-      <td scope="col">User</td> 
-      <td scope="col">USER</td> 
-     </tr> 
-    </tbody> 
-   </table></li> 
- </ul> 
-</ul>
+* objId (optional)
+
+  * `String` - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type.
+
+* objCode (required)
+
+  * `String` - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
+
+    <table cellspacing="15"> 
+     <col> 
+     <col> 
+     <thead> 
+      <tr> 
+       <th><p>Object</p></th> 
+       <th><p>objCode</p></th> 
+      </tr> 
+     </thead> 
+     <tbody> 
+      <tr> 
+       <td scope="col">Assignment</td> 
+       <td scope="col"><p>ASSGN</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col">Company&nbsp;</td> 
+       <td scope="col"><p>CMPY</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col">Dashboard</td> 
+       <td scope="col">PTLTAB</td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Document</p></td> 
+       <td scope="col">DOCU&nbsp;</td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Expense</p></td> 
+       <td scope="col">EXPNS</td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Hour</p></td> 
+       <td scope="col">HOUR</td> 
+      </tr> 
+      <tr> 
+       <td scope="col">Issue</td> 
+       <td scope="col"><p>OPTASK</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col">Note</td> 
+       <td scope="col">NOTE</td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Portfolio</p></td> 
+       <td scope="col"><p>PORT</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Program</p></td> 
+       <td scope="col"><p>PRGM</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Project</p></td> 
+       <td scope="col"><p>PROJ</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Report</p></td> 
+       <td scope="col"><p>PTLSEC</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Task</p></td> 
+       <td scope="col"><p>TASK</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col"><p>Template</p></td> 
+       <td scope="col"><p>TMPL</p></td> 
+      </tr> 
+      <tr> 
+       <td scope="col">Timesheet</td> 
+       <td scope="col">TSHET</td> 
+      </tr> 
+      <tr> 
+       <td scope="col">User</td> 
+       <td scope="col">USER</td> 
+      </tr> 
+     </tbody> 
+    </table>
 
 * eventType (required)
 

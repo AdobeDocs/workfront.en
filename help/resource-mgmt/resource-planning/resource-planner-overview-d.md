@@ -82,25 +82,31 @@ In order to display accurate information in the Resource Planner, you must meet 
 
 Consider the following when selecting the Project view in the Resource Planner:&nbsp;
 
-<ul> 
- <li>You can see projects for which you are designated as the Resource Manager in the Project view of the Resource Planner.</li> 
- <li>You can see projects in all statuses in the Resource Planner. Filter the project list by Project Status to see projects that are current, for example. <br>For more information about filtering information in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</li> 
- <li> The number of items you display or can export from the Project view is limited, to improve performance.<br>For more information about limitations when viewing the Resource Planner in the Project view, see the "Project View" section in <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md" class="MCXref xref">Resource Planner display limitations</a>.&nbsp; </li> 
- <li> The projects are listed in the order of their priority in the Project view.<br>For more information about project priority in the Resource Planner, see <a href="#project-planning-priority" class="MCXref xref">Project Planning&nbsp;Priority</a>.</li> 
- <li> When this view is applied, the Role Hours, FTE or Cost add up to the Project&nbsp;Hours, FTE or Cost.<br><img style="font-size: small;width: 350;height: 228;" src="assets/resource-planner-view-by-project-350x228.png" alt="resource_planner_view_by_project.png"></li> 
-</ul>
+* You can see projects for which you are designated as the Resource Manager in the Project view of the Resource Planner.
+* You can see projects in all statuses in the Resource Planner. Filter the project list by Project Status to see projects that are current, for example.   
+  For more information about filtering information in the Resource Planner, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+
+* The number of items you display or can export from the Project view is limited, to improve performance.  
+  For more information about limitations when viewing the Resource Planner in the Project view, see the "Project View" section in [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).&nbsp; 
+
+* The projects are listed in the order of their priority in the Project view.  
+  For more information about project priority in the Resource Planner, see [Project Planning Priority](#project-planning-priority).
+
+* When this view is applied, the Role Hours, FTE or Cost add up to the Project&nbsp;Hours, FTE or Cost.  
+  ![resource_planner_view_by_project.png](assets/resource-planner-view-by-project-350x228.png)
 
 ###  View by Role
 
 Consider the following when selecting the Role view in the Resource Planner:&nbsp;
 
-<ul> 
- <li>You can see roles that are associated with projects for which you are designated as the Resource Manager in the Role view of the Resource Planner.</li> 
- <li>You can expand each role to display a list of projects, and every project to display a list of users that can fulfill those roles on the projects.&nbsp;</li> 
- <li> The number of items you display or can export from the Role view is limited, to improve performance.<br>For more information about limitations when viewing the Resource Planner in the Role view, see the "Role View" section in <a href="../../resource-mgmt/resource-planning/resource-planner-display-limitations.md" class="MCXref xref">Resource Planner display limitations</a>.&nbsp; </li> 
- <li> The projects are listed under the job role in the same order of priority as they are listed in the Project view.&nbsp; </li> 
- <li> When this view is applied, the Project&nbsp;Hours, FTE or Cost add up to the Role&nbsp;Hours, FTE or Cost.<br><img src="assets/resource-planner-view-by-role-350x222.png" alt="resource_planner_view_by_role.png" style="width: 350;height: 222;"></li> 
-</ul>
+* You can see roles that are associated with projects for which you are designated as the Resource Manager in the Role view of the Resource Planner.
+* You can expand each role to display a list of projects, and every project to display a list of users that can fulfill those roles on the projects.&nbsp;
+* The number of items you display or can export from the Role view is limited, to improve performance.  
+  For more information about limitations when viewing the Resource Planner in the Role view, see the "Role View" section in [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md).&nbsp; 
+
+* The projects are listed under the job role in the same order of priority as they are listed in the Project view.&nbsp; 
+* When this view is applied, the Project&nbsp;Hours, FTE or Cost add up to the Role&nbsp;Hours, FTE or Cost.  
+  ![resource_planner_view_by_role.png](assets/resource-planner-view-by-role-350x222.png)
 
 ###  View by User
 
@@ -155,26 +161,44 @@ Consider the following when generating a unique URL for the User view of the Res
 
 To obtain a unique URL in the User view of the Resource Planner and share it with other users:
 
-<ol> 
- <li value="1">Go to the Resource Planner and select<span class="bold"> View By&nbsp;User</span>.</li> 
- <li value="2">(Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following: 
-  <ul>
-   <li><span class="bold">Week</span></li>
-   <li><span class="bold">Month</span></li>
-   <li><span class="bold">Quarter</span></li>
-  </ul></li> 
- <li value="3">(Optional) Select whether you want to view the information by <span class="bold">FTE</span> or <span class="bold">Hours</span>.<br><img src="assets/rp-hours-or-fte-in-user-view.png"></li> 
- <li value="4">(Optional) Apply filters to the Resource Planner.<br>For information about applying filters, see&nbsp;<a href="../../resource-mgmt/resource-planning/filter-resource-planner.md" class="MCXref xref">Filter information in the Resource Planner</a>.</li> 
- <li value="5">Click the <span class="bold">hyperlink</span> icon.<br><img src="assets/rp-storm-generate-url-with-copy-url-link-350x182.png" style="width: 350;height: 182;"></li> 
- <li value="6">Click <span class="bold">Copy URL</span>.<br>This copies the unique URL of the Resource Planner in the User view to your clipboard.&nbsp;</li> 
- <li value="7">(Optional) Do the following: 
-  <ol>
-   <li value="1">Go to <span class="bold">Reporting</span>><span class="bold">Dashboards</span>><span class="bold">New Dashboard</span>><span class="bold">Add External Page.</span></li>
-   <li value="2">Paste the link you copied to your clipboard in the <span class="bold">URL</span> field.</li>
-   <li value="3">Click <span class="bold">Save</span>, then&nbsp;<span class="bold">Save + Close</span>. <br>This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.</li>
-  </ol><br>Or<br>Paste the URL into another application to send it to another user.<br>The user must be logged in to Workfront to view the Resource Planner in the User view.<br>Or<br>Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to&nbsp;open the Resource Planner in a new tab or window.&nbsp;</li> 
- <li value="8">(Optional) If you embedded the URL into a dashboard, consider adding it to a layout template or share the dashboard with other users.<br>For information about adding dashboards to a layout template, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.<br>For information about sharing dashboards, see <a href="../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md" class="MCXref xref">Share a dashboard in Adobe Workfront</a>.<br>When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner.<br><img src="assets/user-view-dashoard-from-unique-url-350x85.png" style="width: 350;height: 85;"></li> 
-</ol>
+1. Go to the Resource Planner and select `View By User`.
+1. (Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following:
+
+  * `Week`
+  * `Month`
+  * `Quarter`
+
+1. (Optional) Select whether you want to view the information by `FTE` or `Hours`.  
+   ![](assets/rp-hours-or-fte-in-user-view.png)
+
+1. (Optional) Apply filters to the Resource Planner.  
+   For information about applying filters, see&nbsp; [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+
+1. Click the `hyperlink` icon.  
+   ![](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+
+1. Click `Copy URL`.  
+   This copies the unique URL of the Resource Planner in the User view to your clipboard.&nbsp;
+
+1. (Optional) Do the following:
+
+  1. Go to `Reporting`> `Dashboards`> `New Dashboard`> `Add External Page.`
+  
+  1. Paste the link you copied to your clipboard in the `URL` field.
+  1. Click `Save`, then  `Save + Close`.   
+     This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
+
+   Or  
+   Paste the URL into another application to send it to another user.  
+   The user must be logged in to Workfront to view the Resource Planner in the User view.  
+   Or  
+   Open a new browser tab or window and paste the link you copied, then click Enter on your keyboard to&nbsp;open the Resource Planner in a new tab or window.&nbsp;
+
+1. (Optional) If you embedded the URL into a dashboard, consider adding it to a layout template or share the dashboard with other users.  
+   For information about adding dashboards to a layout template, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).  
+   For information about sharing dashboards, see [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md).  
+   When viewing the shared URL, users can see the information with the settings that you originally applied to the Resource Planner.  
+   ![](assets/user-view-dashoard-from-unique-url-350x85.png)
 
 ## Project Name
 
@@ -216,10 +240,15 @@ You cannot report on the Project Planning&nbsp;Priority field. This is visible j
 
 To edit the Project Planning&nbsp;Priority:
 
-<ol> 
- <li value="1"> Go to the <span class="bold">Resource Planner</span>.<br></li> 
- <li value="2"> Click inside the field to the left of the project name which contains&nbsp;a number, enter a number to change Planning Priority, then click Enter.<br><img src="assets/mceclip4.png"><br>Or<br>Mouse over the name of the project and click the indicator to the left of the project name, then drag it and drop it in the correct spot, to change the priority.<br><img src="assets/drag-and-drop-projects-rp--1--350x184.png" alt="drag_and_drop_projects_RP__1_.png" style="width: 350;height: 184;"><br>When you select numbers to prioritize projects, select lower numbers for higher (more important) priorities, and higher numbers for lower (less important) priorities.&nbsp;When you change the priority number of a project to a lower number (higher priority), all other projects in the Resource Planner shift down on the list (become less important).<br>When you change the priority number of a project to a higher number (lower&nbsp;priority), all other projects in the Resource Planner shift up on the list (become more important).</li> 
-</ol>
+1. Go to the `Resource Planner`.  
+
+1. Click inside the field to the left of the project name which contains&nbsp;a number, enter a number to change Planning Priority, then click Enter.  
+   ![](assets/mceclip4.png)  
+   Or  
+   Mouse over the name of the project and click the indicator to the left of the project name, then drag it and drop it in the correct spot, to change the priority.  
+   ![drag_and_drop_projects_RP__1_.png](assets/drag-and-drop-projects-rp--1--350x184.png)  
+   When you select numbers to prioritize projects, select lower numbers for higher (more important) priorities, and higher numbers for lower (less important) priorities.&nbsp;When you change the priority number of a project to a lower number (higher priority), all other projects in the Resource Planner shift down on the list (become less important).  
+   When you change the priority number of a project to a higher number (lower&nbsp;priority), all other projects in the Resource Planner shift up on the list (become more important).
 
 ### Understanding the Effect of Changing the Project Planning Priority on User Available Hours
 
@@ -242,16 +271,15 @@ For more information about Available Hours, see&nbsp; [Availability and Allocati
 
 The following categories&nbsp;of job roles are listed&nbsp;in the Resource Planner:&nbsp;
 
-<ul> 
- <li> The job roles that are assigned to tasks.<br></li> 
- <li> The job roles that are not assigned to tasks, but are the primary job roles of the users&nbsp;associated with the Resource Pools of the projects.&nbsp; </li> 
- <li> The secondary job roles of users who are assigned to tasks in those&nbsp;job roles.&nbsp; </li> 
- <li> The secondary job roles of users who have a valid <span class="bold">Percentage of FTE Availability</span> in their profile.<br>For more information about&nbsp;the <span class="bold">Percentage of FTE Availability</span> for job roles, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br><note type="tip">
-    Job roles assigned to issues are also listed when the 
-   <span class="bold">Include hours from Issue</span> setting is enabled. For more information about enabling issue hours in the Resource Planner, see "
-   <a href="#settings" class="MCXref xref">Settings</a>.
-  </note></li> 
-</ul>
+* The job roles that are assigned to tasks.  
+* The job roles that are not assigned to tasks, but are the primary job roles of the users&nbsp;associated with the Resource Pools of the projects.&nbsp; 
+* The secondary job roles of users who are assigned to tasks in those&nbsp;job roles.&nbsp; 
+* The secondary job roles of users who have a valid `Percentage of FTE Availability` in their profile.  
+  For more information about the `Percentage of FTE Availability` for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+  >[!TIP]
+  >
+  >Job roles assigned to issues are also listed when the `Include hours from Issue` setting is enabled. For more information about enabling issue hours in the Resource Planner, see " [Settings](#settings).
 
 ## Project and Role Options&nbsp;
 
@@ -263,14 +291,18 @@ You can use the quick links inside the `Options` menus for projects and job role
 
 To access the `Options` menu for projects and job roles displayed in the Resource Planner:
 
-<ol> 
- <li value="1">Go to the <span class="bold">Resource Planner</span>.<br>For more information about accessing the Resource Planner, see the&nbsp;"Accessing the Resource Planner" section in <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.<br>The projects for which you are a Resource Manager display in the list, by default.&nbsp;</li> 
- <li value="2">(Optional) Expand each project to see a list of job roles associated with it.<br>Or</li> 
- <li value="3">(Optional) Select <span class="bold">View by Role</span>, then expand each role to see a list of projects associated with it.&nbsp;</li> 
- <li value="4">Mouse over the name of a project or of a job role.</li> 
- <li value="5">Click the <span class="bold">Options</span> icon which displays to the far right of the project or role.<br><img src="assets/options-icon-resource-planner.png" alt="options_icon_resource_planner.png"></li> 
- <li value="6">Click an option to automatically specify the amount of <span class="bold">Budgeted Hours (BDG)</span>, to access the project, or to review whether you can adjust the budgeting dates of the project.</li> 
-</ol>
+1. Go to the `Resource Planner`.  
+   For more information about accessing the Resource Planner, see the&nbsp;"Accessing the Resource Planner" section in [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  
+   The projects for which you are a Resource Manager display in the list, by default.&nbsp;
+
+1. (Optional) Expand each project to see a list of job roles associated with it.  
+   Or
+1. (Optional) Select `View by Role`, then expand each role to see a list of projects associated with it.&nbsp;
+1. Mouse over the name of a project or of a job role.
+1. Click the `Options` icon which displays to the far right of the project or role.  
+   ![options_icon_resource_planner.png](assets/options-icon-resource-planner.png)
+
+1. Click an option to automatically specify the amount of `Budgeted Hours (BDG)`, to access the project, or to review whether you can adjust the budgeting dates of the project.
 
 Depending on what view you apply to the Resource Planner, the `Options` menus for project and job roles change.  
 For more information about what displays in the Resource Planner based on the view you select, see [Project/ Role/ User View Selection](#project-role-view-selection) [Project/ Role/ User View Selection](#project-role-view-selection).&nbsp;
@@ -368,26 +400,24 @@ You can see the amount of Planned Hours attributed to tasks on the project in th
 You can see the availability of your resources and the amount of planned work for your projects in the Resource Planner. These values are displayed in&nbsp;Hours, FTE, or Cost amounts and are organized in columns.  
 These columns change depending on which view you apply to the Resource Planner:
 
-<ul> 
- <li> When you apply the <span class="bold">View by Project</span> or<span class="bold"> View by Role</span> views, you can see the following columns: 
-  <ul>
-   <li>Available&nbsp;Hours, FTE, or Cost</li>
-   <li>Planned&nbsp;Hours, FTE, or Cost</li>
-   <li>Budgeted&nbsp;Hours, FTE, or Cost</li>
-   <li>Hours, FTE, or Cost Variance</li>
-   <li>Net&nbsp;Hours, FTE, or Cost</li>
-  </ul></li> 
- <li> When you apply the <span class="bold">View by User</span> view, you can see the following columns: 
-  <ul>
-   <li> Available Hours or FTE </li>
-   <li> Planned Hours or FTE </li>
-   <li> Hour or FTE Difference </li>
-   <li> Planned Hours Allocation Percentage&nbsp;<br><note type="tip">
-      The information is not available as Cost when applying the 
-     <span class="bold">View by User</span> view to the Resource Planner.
-    </note></li>
-  </ul></li> 
-</ul>
+* When you apply the `View by Project` or `View by Role` views, you can see the following columns:
+
+  * Available&nbsp;Hours, FTE, or Cost
+  * Planned&nbsp;Hours, FTE, or Cost
+  * Budgeted&nbsp;Hours, FTE, or Cost
+  * Hours, FTE, or Cost Variance
+  * Net&nbsp;Hours, FTE, or Cost
+
+* When you apply the `View by User` view, you can see the following columns:
+
+  * Available Hours or FTE 
+  * Planned Hours or FTE 
+  * Hour or FTE Difference 
+  * Planned Hours Allocation Percentage&nbsp;
+
+    >[!TIP]
+    >
+    >The information is not available as Cost when applying the `View by User` view to the Resource Planner.
 
 The hours for each column are distributed for the Duration of the tasks on the project.
 
@@ -409,13 +439,12 @@ Using filters, you can limit the information that you see in the Resource Planne
 
 You can filter the information displayed in the Resource Planner by the following objects and fields:
 
-<ul> 
- <li>Portfolio</li> 
- <li>Project Status</li> 
- <li>Team</li> 
- <li>Job Role</li> 
- <li>Resource Pool<br><img src="assets/rp-filter-collapsed-350x112.png" alt="RP_filter_collapsed.png" style="width: 350;height: 112;"></li> 
-</ul>
+* Portfolio
+* Project Status
+* Team
+* Job Role
+* Resource Pool  
+  ![RP_filter_collapsed.png](assets/rp-filter-collapsed-350x112.png)
 
 For more information about filtering in the Resource Planner, see&nbsp; [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
@@ -427,10 +456,10 @@ You can enable the `Include hours from Issues` setting to display Planned Hours 
 
 Consider the following when you enable this setting:
 
-<ul> 
- <li> The name of the user assigned to the issues is displayed under the job role associated with them on the issue and you can specify Budgeted Hours for the user and the job role&nbsp; the in the Project and Role views. </li> 
- <li> The issues the users are assigned to are listed under the names of the job roles in the User view.<br><note type="tip"></note><em> &nbsp;W </em><em>hen the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.</em><br><img src="assets/rp-settings-expanded-350x215.png" alt="RP_settings_expanded.png" style="width: 350;height: 215;"></li> 
-</ul>
+* The name of the user assigned to the issues is displayed under the job role associated with them on the issue and you can specify Budgeted Hours for the user and the job role&nbsp; the in the Project and Role views. 
+* The issues the users are assigned to are listed under the names of the job roles in the User view.  
+* &nbsp;W **hen the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.* 
+  ![RP_settings_expanded.png](assets/rp-settings-expanded-350x215.png)
 
 ##  Full Screen Option
 
@@ -440,11 +469,12 @@ The option to view information in full screen is available for all views of the 
 
 To display the Resource Planner in full screen:
 
-<ol> 
- <li value="1"> Go to the <span class="bold">Resource Planner</span>. </li> 
- <li value="2"> Click the <span class="bold">Full Screen icon</span> to view the Resource Planner in full screen.<br><img src="assets/rp-full-screen-icon-highlighted-user-view--350x260.png" alt="RP_sull_sccreen_area_User_View__1_.png" style="width: 350;height: 260;"><br>The Resource Planner expands to occupy your entire browser window and the icon changes into a <span class="bold">Close the Full Screen</span> view option.&nbsp; </li> 
- <li value="3"> (Optional) Click the <span class="bold">Close Full Screen icon</span> to revert to the previous display.&nbsp; </li> 
-</ol>
+1. Go to the `Resource Planner`. 
+1. Click the `Full Screen icon` to view the Resource Planner in full screen.  
+   ![RP_sull_sccreen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)  
+   The Resource Planner expands to occupy your entire browser window and the icon changes into a `Close the Full Screen` view option.&nbsp; 
+
+1. (Optional) Click the `Close Full Screen icon` to revert to the previous display.&nbsp;
 
 ##  Hours/ FTE/ Cost View Selection
 
@@ -458,15 +488,25 @@ You can select from the following:
 
 To change the kind of information displayed in the Resource Planner:
 
-<ol> 
- <li value="1"> Go to the <span class="bold">Resource Planner</span>.<br>For more information about accessing the Resource Planner, see <a href="#accessing-the-resource-planner" class="MCXref xref">Overview of the areas of the Resource Planner</a>.<br></li> 
- <li value="2"> Expand the <span class="bold">Hours</span> drop-down menu. <img src="assets/hours-fte-or-cost-dropdown.png" alt="Hours_fte_or_cost_dropdown.png"></li> 
- <li value="3"> Select <span class="bold">Hours</span> to display availability and allocation information in Hours. </li> 
- <li value="4">Select <span class="bold">FTE</span> to display availability and allocation information in FTE.<br>For more information about how the FTE is calculated in the Resource Planner, see <a href="#calculating-fte-in-the-rp" class="MCXref xref">Overview of the areas of the Resource Planner</a>.</li> 
- <li value="5">(Conditional) If you are viewing the Resource Planner in the Project or Role views, select <span class="bold">Cost</span> to display availability and allocation information as Cost. The information displays values of the system currency.&nbsp;Your system administrator defines the system currency.<br>For more information about setting up the system currency in Workfront, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.<br><note type="tip">
-    You must associate users and job roles with Cost per Hour rates in order to display Cost information in the Resource Planner.
-  </note><br><em>For more information about associating Cost per Hour rates with job roles, see <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</em><br><em>For more information about associating Cost per Hour rates with users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br></em>For more information about how Cost is calculated in the Resource Planner, see <a href="../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md" class="MCXref xref">Calculate costs in the Resource Planner </a>.</li> 
-</ol>
+1. Go to the `Resource Planner`.  
+   For more information about accessing the Resource Planner, see [Overview of the areas of the Resource Planner](#accessing-the-resource-planner).  
+
+1. Expand the `Hours` drop-down menu. ![Hours_fte_or_cost_dropdown.png](assets/hours-fte-or-cost-dropdown.png)
+
+1. Select `Hours` to display availability and allocation information in Hours. 
+1. Select `FTE` to display availability and allocation information in FTE.  
+   For more information about how the FTE is calculated in the Resource Planner, see [Overview of the areas of the Resource Planner](#calculating-fte-in-the-rp).
+
+1. (Conditional) If you are viewing the Resource Planner in the Project or Role views, select `Cost` to display availability and allocation information as Cost. The information displays values of the system currency.&nbsp;Your system administrator defines the system currency.  
+   For more information about setting up the system currency in Workfront, see [Set up exchange rates](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+
+   >[!TIP]
+   >
+   >You must associate users and job roles with Cost per Hour rates in order to display Cost information in the Resource Planner.
+
+   *For more information about associating Cost per Hour rates with job roles, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).* 
+   *For more information about associating Cost per Hour rates with users, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).  
+   *For more information about how Cost is calculated in the Resource Planner, see [Calculate costs in the Resource Planner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 ## User Allocation Chart
 
@@ -474,29 +514,45 @@ You can display the Planned Allocation of users against their availability in a 
 
 To display the allocation of users in a chart in the Resource Planner:
 
-<ol> 
- <li value="1">Go to the <span class="bold">Resource Planner</span>.</li> 
- <li value="2">Select <span class="bold">View by User</span>.<br><note type="tip">
-    You cannot view the user allocation chart when you select 
-   <span class="bold">View by Project</span> or 
-   <span class="bold">View by Role</span>.
-  </note></li> 
- <li value="3">Click the user allocation chart icon.<br><img src="assets/rp-user-allocation-chart.png" alt="RP_user_allocation_chart.png"><br>The following information is displayed: 
-  <ul>
-   <li><span class="bold">Availability % with no overallocation for all users</span>: this is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time.&nbsp;</li>
-   <li><span class="bold">Overallocation % for all users</span>: this is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.<br><note type="tip">
-      An overallocation happens when the Planned Hours are higher than the Available Hours.&nbsp;
-    </note></li>
-   <li><span class="bold">Underutilization % for all users</span>: this is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.<br><note type="tip">
-      Underutilization happens when the Planned Hours are lower than the Available Hours.&nbsp;
-    </note></li>
-   <li><span class="bold">There is an overallocation for at least one user during this time period</span>: this indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.<br>You must scroll through the list of users and the hours for the user who is overallocated are highlighted in red.<br><img src="assets/rp--user-allocation-chart-dec.-7--2017-350x148.png" alt="RP__user_allocation_chart_Dec._7__2017.png" style="width: 350;height: 148;"></li>
-  </ul></li> 
- <li value="4">(Optional) Click the <span class="bold">Overallocation % for all users</span> area in the chart.<br>All users that are overallocated are highlighted in red.</li> 
- <li value="5">(Optional) Click the <span class="bold">Underutilization % for all users</span> area in the chart.<br>All users that are underutilized are highlighted in blue.</li> 
- <li value="6">(Optional) Click the indicator that shows where you have at least one user overallocated.<br><img src="assets/one-user-overallocation-marker.png" alt="one_user_overallocation_marker.png"><br>The users that are overallocated are highlighted in red.&nbsp;&nbsp;</li> 
- <li value="7">(Optional) Refresh the page to collapse the chart.&nbsp;</li> 
-</ol>
+1. Go to the `Resource Planner`.
+1. Select `View by User`.
+
+   >[!TIP]
+   >
+   >You cannot view the user allocation chart when you select `View by Project` or `View by Role`.
+
+1. Click the user allocation chart icon.  
+   ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png)  
+   The following information is displayed:
+
+  * `Availability % with no overallocation for all users`: this is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time.&nbsp;
+  * `Overallocation % for all users`: this is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.
+
+    >[!TIP]
+    >
+    >An overallocation happens when the Planned Hours are higher than the Available Hours.&nbsp;
+
+  * `Underutilization % for all users`: this is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.
+
+    >[!TIP]
+    >
+    >Underutilization happens when the Planned Hours are lower than the Available Hours.&nbsp;
+
+  * `There is an overallocation for at least one user during this time period`: this indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.  
+    You must scroll through the list of users and the hours for the user who is overallocated are highlighted in red.  
+    ![RP__user_allocation_chart_Dec._7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
+
+1. (Optional) Click the `Overallocation % for all users` area in the chart.  
+   All users that are overallocated are highlighted in red.
+
+1. (Optional) Click the `Underutilization % for all users` area in the chart.  
+   All users that are underutilized are highlighted in blue.
+
+1. (Optional) Click the indicator that shows where you have at least one user overallocated.  
+   ![one_user_overallocation_marker.png](assets/one-user-overallocation-marker.png)  
+   The users that are overallocated are highlighted in red.&nbsp;&nbsp;
+
+1. (Optional) Refresh the page to collapse the chart.&nbsp;
 
 ## Export Option
 
@@ -507,21 +563,24 @@ For information about what information you can export from the Resource Planner 
 
 To export the information in the Resource Planner:
 
-<ol> 
- <li value="1"> Go to the <span class="bold">Resource Planner</span>.<br>For more information about accessing the Resource Planner, see&nbsp;<a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>&nbsp;in the article&nbsp;<a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.<br></li> 
- <li value="2"> From any of the views of the Resource Planner, click <span class="bold">Export</span>. 
-  <div class="preview">
-   <img src="assets/rp-export-timeframe-box-350x426.png" alt="RP_export_timeframe_box.png" style="width: 350;height: 426;">
-  </div></li> 
- <li value="3"><span class="preview">Specify the following:</span> 
-  <ul> 
-   <li><span class="preview"><span class="bold">Start Date</span>: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here.&nbsp;</span> </li> 
-   <li><span class="preview"><span class="bold">Number of Periods</span>: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export.&nbsp;</span> </li> 
-   <li><span class="preview"><span class="bold">Type</span>: Indicates whether you are exporting information displayed by weeks, months, or quarters.&nbsp;</span> </li> 
-  </ul> </li> 
- <li value="4"><span class="preview">Click <span class="bold">Export&nbsp;</span>to downloads an Excel (.xlsx) file to your computer.&nbsp;</span> <br><span class="preview">Or</span> <br><span class="preview"> (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click <span class="bold">Save and Continue</span>, then the Excel (.xlsx) file is exported to your computer.<br>Only the information that you saved is exported.</span> </li> 
- <li value="5"> (Optional) Share the file with another user by attaching it to an email, storing it on a shared drive, or print the file from your Excel application.&nbsp; </li> 
-</ol>
+1. Go to the `Resource Planner`.  
+   For more information about accessing the Resource Planner, see&nbsp; [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md)&nbsp;in the article&nbsp; [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  
+
+1. From any of the views of the Resource Planner, click `Export`. 
+   ![RP_export_timeframe_box.png](assets/rp-export-timeframe-box-350x426.png)
+
+1. `Specify the following:`
+
+  * ` `Start Date`: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here. ` 
+  * ` `Number of Periods`: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export. ` 
+  * ` `Type`: Indicates whether you are exporting information displayed by weeks, months, or quarters. `
+
+1. `Click `Export`to downloads an Excel (.xlsx) file to your computer. `   
+   `Or`   
+   ` (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click `Save and Continue`, then the Excel (.xlsx) file is exported to your computer.  
+   Only the information that you saved is exported.` 
+
+1. (Optional) Share the file with another user by attaching it to an email, storing it on a shared drive, or print the file from your Excel application.&nbsp;
 
 `***`
 

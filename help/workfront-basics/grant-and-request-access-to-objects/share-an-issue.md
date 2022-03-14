@@ -22,16 +22,20 @@ In addition to the considerations below, also see [Overview of sharing permissio
 >
 >A Workfront administrator can add or remove permissions to any items in the system, for all users, without being the owner of those items.
 
-<ul> 
- <li>The creator of an issue has Manage permissions to it, by default.</li> 
- <li>You can share issues individually, or you can share several of them at a time. Sharing issues is identical to sharing other items in Workfront. For more information about sharing items in Workfront, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </li> 
- <li> You can grant the following permissions to an issue:&nbsp; 
-  <ul>
-   <li><p>View</p><p><img src="assets/view-on-issue-221x216.png" alt="view_on_issue.png" style="width: 221;height: 216;"></p></li>
-   <li><p>Manage</p><p><img src="assets/manage-on-issues-179x199.png" alt="manage_on_issues.png" style="width: 179;height: 199;"></p></li>
-   <li> Contribute<br><img src="assets/contribute-on-issue-156x205.png" alt="contribute_on_issue.png" style="width: 156;height: 205;"></li>
-  </ul></li> 
-</ul>
+* The creator of an issue has Manage permissions to it, by default.
+* You can share issues individually, or you can share several of them at a time. Sharing issues is identical to sharing other items in Workfront. For more information about sharing items in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
+* You can grant the following permissions to an issue:&nbsp;
+
+  * View
+
+    ![view_on_issue.png](assets/view-on-issue-221x216.png)
+
+  * Manage
+
+    ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
+
+  * Contribute  
+    ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * When you share an issue, all the documents attached to the issue inherit the same permissions.
 
@@ -41,26 +45,30 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 ## Ways to share an issue
 
-<ul> 
- <li> <p>Manually, which is similar to sharing any other object in Workfront.&nbsp;For more information about how to share objects in Workfront, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object in Adobe Workfront</a>. </p> </li> 
- <li> <p>Automatically, by doing one of the following:</p> 
-  <ul> 
-   <li> <p>Specify the permissions on any of the parent objects of the issue: project, program, or portfolio. Issues inherit the permissions from their parent objects. For information about viewing inherited permissions on objects, see <a href="../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md" class="MCXref xref">View inherited permissions on objects in Adobe Workfront</a>. </p> </li> 
-   <li> <p>Add entities to Project Sharing on a template used to create the project the issue is on. For information about sharing projects from templates, see <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Sharing a template</a>. </p> </li> 
-  </ul> 
-  <ul> 
-   <li> <p>Specify the permissions on all issues in a project when you edit the project. For information about managing the access to issues or requests on the project based on a user's permissions to the project, see the  section in the article <a href="../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> <note type="tip">
-     If you don't specify what issue permissions you want users to have when they are assigned to the issues on the project, they receive the same permissions they have on the project, by default. 
-    </note> </li> 
-   <li> <p>Specify the permissions users receive on issues they submit in a request queue when creating a request queue. For information, see <a href="../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</p> <note type="important"> 
-     <p>Permissions are granted differently depending on whether or not the project is published as a request queue:</p> 
-     <ul> 
-      <li>When a user submits a request to a project published as a request queue, the Primary Contact and Entered By users are granted the permission specified.</li> 
-      <li>When a user submits a request to a project not published as a request queue, the Primary Contact (if different from Entered By user) is granted the permission specified, and the Entered By user is granted Manage permissions to the issue.</li> 
-     </ul> 
-    </note> </li> 
-  </ul> </li> 
-</ul>
+* Manually, which is similar to sharing any other object in Workfront.&nbsp;For more information about how to share objects in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md). 
+* Automatically, by doing one of the following:
+
+  * Specify the permissions on any of the parent objects of the issue: project, program, or portfolio. Issues inherit the permissions from their parent objects. For information about viewing inherited permissions on objects, see [View inherited permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md). 
+  * Add entities to Project Sharing on a template used to create the project the issue is on. For information about sharing projects from templates, see [Sharing a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+
+  * Specify the permissions on all issues in a project when you edit the project. For information about managing the access to issues or requests on the project based on a user's permissions to the project, see the  section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+
+    >[!TIP]
+    >
+    >If you don't specify what issue permissions you want users to have when they are assigned to the issues on the project, they receive the same permissions they have on the project, by default.
+
+  * Specify the permissions users receive on issues they submit in a request queue when creating a request queue. For information, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+    >[!IMPORTANT]
+    >
+    >Permissions are granted differently depending on whether or not the project is published as a request queue:
+    >
+    >  
+    >  
+    >  * When a user submits a request to a project published as a request queue, the Primary Contact and Entered By users are granted the permission specified.
+    >  * When a user submits a request to a project not published as a request queue, the Primary Contact (if different from Entered By user) is granted the permission specified, and the Entered By user is granted Manage permissions to the issue.
+    >  
+    >
 
 <!--
 Automatically share an issue at the project level As the Project Owner, you can grant permissions automatically to users as the issues are added to a project. Go to the project whose issues you want to share automatically. Click the More menu , then click Edit. In the Edit Project box that displays, click Access. In the When someone is assigned to an ISSUE field, select from the following permissions levels: View Contribute Manage Now, when someone is assigned to an issue on the selected project, they are granted the specified permissions to the issue. (Optional) Select the Also grant ... access to the project field to also grant View, Contribute, or Manage permissions to the projects to the user assigned to the issue In the When someone submits a REQUEST ... field, select from the following permissions levels: View Contribute Manage Important: Permissions are granted differently depending on whether or not the project is published as a request queue: When a user submits a request to a project published as a request queue, the Primary Contact and Entered By users are granted the permission specified. When a user submits a request to a project not published as a request queue, the Primary Contact (if different from Entered By user) is granted the permission specified, and the Entered By user is granted Manage permissions to the issue. (Optional) Select the People from the same company will inherit the same permissions for all requests field. People from the same company as the user submitting the request are granted the same permissions on the requests as the user. Click Save Changes.

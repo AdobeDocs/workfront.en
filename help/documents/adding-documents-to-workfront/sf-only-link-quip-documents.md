@@ -156,15 +156,22 @@ Also, when users without access to Workfront add, remove, and modify Quip files 
 
 You can create a new folder inside an existing linked folder. You can also drag another folder into an existing linked folder.
 
-<ol> 
- <li value="1"> <p>To create a new folder within an existing linked folder, go to the existing folder, then create the new folder as described in <a href="../../documents/organizing-documents/create-documents-folder.md" class="MCXref xref">Create document folders</a>.</p> <p>Or</p> <p>To drag an existing folder into an existing linked folder, go to the Documents&nbsp;area where you want the subfolder, then drag it into the linked folder.</p> <note type="note">  
-   <p>The following limitations apply when dragging an existing Workfront folder into a linked&nbsp;folder:</p> 
-   <ul> 
-    <li>The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.</li> 
-    <li>The folder (including its contents) that you are dragging can't exceed 50 MB.</li> 
-   </ul> 
-  </note> </li> 
-</ol>
+1. To create a new folder within an existing linked folder, go to the existing folder, then create the new folder as described in [Create document folders](../../documents/organizing-documents/create-documents-folder.md).
+
+   Or
+
+   To drag an existing folder into an existing linked folder, go to the Documents&nbsp;area where you want the subfolder, then drag it into the linked folder.
+
+   >[!NOTE]
+   >
+   >The following limitations apply when dragging an existing Workfront folder into a linked&nbsp;folder:
+   >
+   >  
+   >  
+   >  * The folder that you are dragging can't already be linked&nbsp;and can't contain any content that is already linked.
+   >  * The folder (including its contents) that you are dragging can't exceed 50 MB.
+   >  
+   >
 
 ### Folder access rights
 

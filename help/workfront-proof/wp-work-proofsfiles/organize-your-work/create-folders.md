@@ -15,11 +15,12 @@ description: You can create sub-folders in either of the following ways:
 
 ## Creating a new top-level folder
 
-<ol> 
- <li value="1">In the sidebar, click the drop-down arrow (1) next to the green <span class="bold">New proof</span> button.</li> 
- <li value="2">Select <span class="bold">New folder</span>.&nbsp;(2)<br>The New folder page is displayed.</li> 
- <li value="3">Continue with <a href="#configuring-the-new-folder" class="MCXref xref">Configuring the new folder</a>.<br><img src="assets/new-top-folder.png" alt="New_top_folder.png"></li> 
-</ol>
+1. In the sidebar, click the drop-down arrow (1) next to the green `New proof` button.
+1. Select `New folder`.&nbsp;(2)  
+   The New folder page is displayed.
+
+1. Continue with [Configuring the new folder](#configuring-the-new-folder).  
+   ![New_top_folder.png](assets/new-top-folder.png)
 
 ## Creating a new sub-folder
 
@@ -56,12 +57,13 @@ To create a sub-folder from the Folder details page:
 
 ### Creating a sub-folder from the Account&nbsp;folders page
 
-<ol> 
- <li value="1">Click [Your account name] folders in the Sidebar to access the Account&nbsp;folders page (1)<br><img src="assets/subfolder-from-acc-folders-1.png" alt="Subfolder_from_acc_folders_1.png"></li> 
- <li value="2">Find the folder that you would like to add a sub-folder to and open the actions menu (2)</li> 
- <li value="3">Select New sub-folder from the menu (3)<br>The New folder page is displayed.</li> 
- <li value="4">Continue with <a href="#configuring-the-new-folder" class="MCXref xref">Configuring the new folder</a>.</li> 
-</ol>
+1. Click [Your account name] folders in the Sidebar to access the Account&nbsp;folders page (1)  
+   ![Subfolder_from_acc_folders_1.png](assets/subfolder-from-acc-folders-1.png)
+
+1. Find the folder that you would like to add a sub-folder to and open the actions menu (2)
+1. Select New sub-folder from the menu (3)  
+   The New folder page is displayed.
+1. Continue with [Configuring the new folder](#configuring-the-new-folder).
 
 ![Subfolder_from_acc_folders_2.png](assets/subfolder-from-acc-folders-2-350x177.png) 
 

@@ -56,51 +56,74 @@ You must have the following access to perform the steps in this article:
 
 ## Set up a matrix report
 
-<ol> 
- <li value="1">Create a traditional report that contains numerical data in the report output.<br>For information about how to create a report, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</li> 
- <li value="2">Go to the report that you created in Step 1, click <span class="bold">Report Actions</span>, then select <span class="bold">Edit</span>.</li> 
- <li value="3">(Conditional) If you already created a View and you want o apply it to this report, click <span class="bold">Apply an Existing View</span>, then select the View from the drop-down list.</li> 
- <li value="4">(Conditional) If you want to create a new View for the report, complete the following steps:<br> 
-  <ol> 
-   <li value="1">Click the <span class="bold">Columns (View)</span> tab, then select a column that you want to be summarized in the matrix report.</li> 
-   <li value="2"><p>In the <span class="bold">Column Settings</span> area, click the <span class="bold">Summarize this column by</span> drop-down list, then select one of the available options for summarizing the information.</p><note type="important">
-     If this option is not selected, the information from the column is not displayed correctly in the matrix report.
-    </note><p></p></li> 
-   <li value="3">Repeat this process for each column in the Columns (View) tab, then click <span class="bold">Done</span>.</li> 
-  </ol></li> 
- <li value="5">Click the <span class="bold">Groupings</span> tab.</li> 
- <li value="6">(Conditional) If you already created a Grouping and you want to apply it to this report, click <span class="bold">Apply an Existing Grouping</span>, then select the Grouping from the drop-down list.</li> 
- <li value="7">(Conditional) If you want to create a new matrix Grouping for the report,complete the following steps:<br> 
-  <ol> 
-   <li value="1">Select <span class="bold">Switch to Matrix Grouping</span> in the upper-right corner of the builder interface. </li> 
-   <li value="2">In the <span class="bold">Row Groupings</span> section, identify the row grouping, which establishes the horizontal groupings of the table.</li> 
-   <li value="3">(Optional) To add an additional row grouping, click <span class="bold">Add secondary Row Grouping</span>.</li> 
-   <li value="4">In the <span class="bold">Column Groupings</span> section, identify the column grouping, which establish the vertical groupings of the table.</li> 
-   <li value="5">(Optional) To add an additional column grouping, click <span class="bold">Add secondary Column Grouping</span>.</li> 
-   <li value="6">(Conditional) If you add a grouping by date, also specify whether the results are grouped by day, week, month, quarter or year.<br><br></li> 
-   <li value="7">(Conditional) If you selected to group by date and to show results by quarter, for example, specify whether you want to show quarters with no data by selecting the <span class="bold">Show quarters with no results</span> checkbox.<br><br> <note type="note">  The 
-     <span class="bold">Show quarters with no results</span> field is only available for matrix groupings, and not for standard groupings. 
-     <br>Only the quarters with no data that are located in-between two quarters with valid data will display zero for the data values in the matrix tab. The quarters that have no data that are located at the beginning and the end of the timeframe selected by your filter do not appear at all in the matrix grouping. The quarters with no results will not display in a grouping on the Details tab of the report. 
-    </note></li> 
-  </ol></li> 
- <li value="8">(Optional and conditional) Click <span class="bold">Matrix Settings</span>, then select from the following options:<br><span class="bold">Show Record Counts:</span> Select this option to display a row with the total number of entries for the given field.<br><span class="bold">Show Value Column:</span> Select this option to display the following information in the matrix: 
-  <ul> 
-   <li>Record Counts</li> 
-   <li><p>The Value column</p> <note type="note"> This column contains information that describes what the data in each row represents. 
-     <br>The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings: 
-     <br> 
-     <ul> 
-      <li>All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.</li> 
-      <li>Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.</li> 
-      <li>Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. If you created the matrix report to display Planned Hours or Actual Hours in the <span class="bold">Value</span> column, be aware that hours or cost information for any parent objects (such as parent tasks) are not displayed in the matrix report. To view hours on parent objects, you must view the <span class="bold">Details</span> tab.</li> 
-     </ul> 
-    </note></li> 
-  </ul><p><span class="bold">Conditional Rules:</span> Set up any formatting rules for values that are aggregated.<br>After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <span class="bold">Add Rule</span> after you have finished defining the rule, then <span class="bold">Done</span> to save the rule.</p></li> 
- <li value="9">Click the <span class="bold">Filters</span> tab to define what information will display in the report.</li> 
- <li value="10">(Conditional) If you already created a Filter and you want to apply it to this report, click <span class="bold">Apply an Existing Filter</span>, then select the Filter from the drop-down list.</li> 
- <li value="11">(Conditional) If you want to create a new Filter for this report, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a><!--
+1. Create a traditional report that contains numerical data in the report output.  
+   For information about how to create a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+1. Go to the report that you created in Step 1, click `Report Actions`, then select `Edit`.
+
+1. (Conditional) If you already created a View and you want o apply it to this report, click `Apply an Existing View`, then select the View from the drop-down list.
+1. (Conditional) If you want to create a new View for the report, complete the following steps:
+
+  1. Click the `Columns (View)` tab, then select a column that you want to be summarized in the matrix report.
+  1. In the `Column Settings` area, click the `Summarize this column by` drop-down list, then select one of the available options for summarizing the information.
+
+     >[!IMPORTANT]
+     >
+     >If this option is not selected, the information from the column is not displayed correctly in the matrix report.
+
+  1. Repeat this process for each column in the Columns (View) tab, then click `Done`.
+
+1. Click the `Groupings` tab.
+1. (Conditional) If you already created a Grouping and you want to apply it to this report, click `Apply an Existing Grouping`, then select the Grouping from the drop-down list.
+1. (Conditional) If you want to create a new matrix Grouping for the report,complete the following steps:
+
+  1. Select `Switch to Matrix Grouping` in the upper-right corner of the builder interface. 
+  1. In the `Row Groupings` section, identify the row grouping, which establishes the horizontal groupings of the table.
+  1. (Optional) To add an additional row grouping, click `Add secondary Row Grouping`.
+  1. In the `Column Groupings` section, identify the column grouping, which establish the vertical groupings of the table.
+  1. (Optional) To add an additional column grouping, click `Add secondary Column Grouping`.
+  1. (Conditional) If you add a grouping by date, also specify whether the results are grouped by day, week, month, quarter or year.
+
+  1. (Conditional) If you selected to group by date and to show results by quarter, for example, specify whether you want to show quarters with no data by selecting the `Show quarters with no results` checkbox.
+
+     >[!NOTE]
+     >
+     >The `Show quarters with no results` field is only available for matrix groupings, and not for standard groupings.   
+     >Only the quarters with no data that are located in-between two quarters with valid data will display zero for the data values in the matrix tab. The quarters that have no data that are located at the beginning and the end of the timeframe selected by your filter do not appear at all in the matrix grouping. The quarters with no results will not display in a grouping on the Details tab of the report.
+
+1. (Optional and conditional) Click `Matrix Settings`, then select from the following options:  
+   `Show Record Counts:` Select this option to display a row with the total number of entries for the given field.  
+   `Show Value Column:` Select this option to display the following information in the matrix:
+
+  * Record Counts
+  * The Value column
+
+    >[!NOTE]
+    >
+    >This column contains information that describes what the data in each row represents.   
+    >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:   
+    >
+    >  
+    >  
+    >  * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+    >  * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+    >  * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. If you created the matrix report to display Planned Hours or Actual Hours in the `Value` column, be aware that hours or cost information for any parent objects (such as parent tasks) are not displayed in the matrix report. To view hours on parent objects, you must view the `Details` tab.
+    >  
+    >  
+    >
+
+   `Conditional Rules:` Set up any formatting rules for values that are aggregated.  
+   After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click `Add Rule` after you have finished defining the rule, then `Done` to save the rule.
+
+1. Click the `Filters` tab to define what information will display in the report.
+1. (Conditional) If you already created a Filter and you want to apply it to this report, click `Apply an Existing Filter`, then select the Filter from the drop-down list.
+1. (Conditional) If you want to create a new Filter for this report, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
+
+   <!--
    and Advanced Filter and condition qualifiers
-  --> for information about the various qualifiers that you can use when building filters.</li> 
- <li value="12">Click <span class="bold">Save+Close</span> to save and view the matrix report.</li> 
-</ol>
+   -->
+
+   for information about the various qualifiers that you can use when building filters.
+
+1. Click `Save+Close` to save and view the matrix report.
 

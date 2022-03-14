@@ -24,7 +24,11 @@ The default reminder email includes the following information:
 * Personal link to the proof
 * Thumbnail of the proof image
 * The following proof details:
-* `<li>Proof name</li>` `<li>Version number</li>` `<li>Folder name (if applicable)</li>` `<li>List of the reviewers and their progress on the proof</li>`
+
+  * Proof name
+  * Version number
+  * Folder name (if applicable)
+  * List of the reviewers and their progress on the proof
 
 You can also remind somebody about multiple proofs that have been shared with them. For more information, see [Remind a reviewer about assignments in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md).
 

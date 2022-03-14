@@ -61,27 +61,71 @@ You can build a report for projects to see what projects need their Business Cas
 
 To build a report for projects which are pending approval of their Business Cases:
 
-<ol> 
- <li value="1"> <p>Create a report for projects.</p> <p>For more information about creating reports, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </li> 
- <li value="2">Select the <span class="bold">View</span> tab of the report, then click <span class="bold">Add Column</span>.</li> 
- <li value="3"> <p>Start typing "Status" in the <span class="bold">Show in this column</span> field, and select this field when it appears in the list.</p> <p>&nbsp;This column will display the status of the projects.</p> </li> 
- <li value="4">Select the <span class="bold">Filters</span> tab of the report, then click <span class="bold">Add a Filter Rule</span>.</li> 
- <li value="5">Start typing "Status" in the <span class="bold">Only show me Projects in which the ...</span> field, and select it when it appears in the list.</li> 
- <li value="6">Select <span class="bold">Equal</span> for the filter modifier.</li> 
- <li value="7"> <p>Start typing "Requested" in the available field.&nbsp;</p> <p>This ensures that the report includes only projects which are in the Requested status.</p> <p>&nbsp;<img src="assets/requested-projects-filter-350x14.png" alt="requested_projects_filter.png" style="width: 350;height: 14;"></p> </li> 
- <li value="8"> <p>(Optional) Click <span class="bold">Add another Filter Rule</span>.</p> <p>You can add additional filters, to show only projects where you are the Project Owner, or the Project Sponsor, or the Portfolio Owner.</p> <p>For example, you can use the following filter statements:&nbsp; </p> 
-  <ul> 
-   <li><code>Project Sponsor ID Equals $$USER.ID</code> to display projects where you are designated as the Project Sponsor</li> 
-   <li><code>Project Owner ID Equals $$USER.ID</code> to display projects where you are designated as the Project owner</li> 
-   <li><code>Project Portfolio Owner ID Equals $$USER. ID</code> to display where you are designated as the Portfolio Manager.&nbsp;</li> 
-  </ul> </li> 
- <li value="9"> <p>Click <span class="bold">Save+Close</span>.</p> <p>Notice that all projects in the report are in the status of <span class="bold">Requested</span>.</p> </li> 
- <li value="10"> <p>Click the name of a project in the report to open it.</p> </li> 
- <li value="11"> Click Business Case in the left panel.</li> 
- <li value="12"> <p>Click <span class="bold">Approve</span> or <span class="bold">Reject</span> in the Business Case Summary area to approve or reject the Business Case.&nbsp;</p> <p> <img src="assets/business-case-summary-with-rp-information--1-.png"> </p> <p>The project status is changed to <span class="bold">Approved</span> if the Business Case is approved. </p> <p>The project status is changed to <span class="bold">Rejected</span> if the Business case is rejected.</p> <note type="note">
-   There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.
-  </note> </li> 
-</ol>
+1. Create a report for projects.
+
+   For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+1. Select the `View` tab of the report, then click `Add Column`.
+
+1. Start typing "Status" in the `Show in this column` field, and select this field when it appears in the list.
+
+   &nbsp;This column will display the status of the projects.
+
+1. Select the `Filters` tab of the report, then click `Add a Filter Rule`.
+
+1. Start typing "Status" in the `Only show me Projects in which the ...` field, and select it when it appears in the list.
+1. Select `Equal` for the filter modifier.
+1. Start typing "Requested" in the available field.&nbsp;
+
+   This ensures that the report includes only projects which are in the Requested status.
+
+   &nbsp; ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
+
+1. (Optional) Click `Add another Filter Rule`.
+
+   You can add additional filters, to show only projects where you are the Project Owner, or the Project Sponsor, or the Portfolio Owner.
+
+   For example, you can use the following filter statements:&nbsp;
+
+  * 
+  
+    ```  
+    Project Sponsor ID Equals $$USER.ID
+    ```  
+  
+    to display projects where you are designated as the Project Sponsor
+  * 
+  
+    ```  
+    Project Owner ID Equals $$USER.ID
+    ```  
+  
+    to display projects where you are designated as the Project owner
+  * 
+  
+    ```  
+    Project Portfolio Owner ID Equals $$USER. ID
+    ```  
+  
+    to display where you are designated as the Portfolio Manager.&nbsp;
+
+1. Click `Save+Close`.
+
+   Notice that all projects in the report are in the status of `Requested`.
+
+1. Click the name of a project in the report to open it.
+1. Click Business Case in the left panel.
+1. Click `Approve` or `Reject` in the Business Case Summary area to approve or reject the Business Case.&nbsp;
+
+   ![](assets/business-case-summary-with-rp-information--1-.png)
+
+   The project status is changed to `Approved` if the Business Case is approved.
+
+   The project status is changed to `Rejected` if the Business case is rejected.
+
+   >[!NOTE]
+   >
+   >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.
 
 ##
 

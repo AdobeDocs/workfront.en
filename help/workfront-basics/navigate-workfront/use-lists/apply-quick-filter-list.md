@@ -58,32 +58,44 @@ You must have the following access to perform the steps in this article:
 
 ## Apply a quick filter to a list
 
-<ol> 
- <li value="1"> Go to a list or report that supports quick filters, then click the Quick Filter icon in the toolbar. 
-  <div> 
-   <p>Or </p> 
-   <p>Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:</p> 
-   <ul> 
-    <li>ALT+F for Windows computers</li> 
-    <li>ALT+Shift+F for Internet Explorer on Windows computers</li> 
-    <li> <p>ALT/ Option+F for Mac computers</p> <note type="tip">
-      If you press CTRL+F or CMD+F, a tooltip displays next to the quick filter to remind you about these commands. The commands also display inside the quick filter search box.
-     </note> </li> 
-   </ul> 
-  </div> </li> 
- <li value="2"> <p>In the <span class="bold">Filter page</span> box, enter the keyword that you want to filter by.</p> <p>You can use any word that currently displays in the view of the list.</p> <note type="note">
-   If you use a word that might display on another page of the list, the quick filter does not find any results.
-  </note> <p>A list of items that match the search criteria display in the list dynamically as you type and all other items are hidden. The keyword you used in your search is highlighted in yellow in all standalone and complex fields. Some examples of complex fields are shared columns, or any of the following: Assignments, Assignments and Status, Percent Complete, Predecessors, Approvers and Status, Resource Managers, Categories, Condition, Condition Update, etc.</p> </li> 
- <li value="3">(Optional) To bulk edit the items found by the quick filter:<br>
-  <ol>
-   <li value="1">Select all or several of the items in the list, then click <span class="bold">Edit</span> to bulk edit the items.</li>
-   <li value="2">After you complete your edits, click <span class="bold">Save Changes</span>.</li>
-  </ol></li> 
- <li value="4"> <p>(Optional) To export the items found by the quick filter, select all or several of the items in the list, then click <span class="bold">Export</span>.</p> <p> <img src="assets/select-all-projects-with-highlight--1--350x173.png" alt="select_all_projects_with_highlight__1_.png" style="width: 350;height: 173;"> </p> <note type="note">
-   Only the items you found in the quick filter search export to the file you selected. If you don't select any items before exporting the list, the complete, unfiltered list is exported.
-   <br>For more information, see 
-   <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Export a list</a>.
-  </note> </li> 
- <li value="5">(Optional) To clear the filtered results, click the <span class="bold">Quick Filter</span> icon in the top right corner of the window.<br>Or<br>Refresh the page.</li> 
-</ol>
+1. Go to a list or report that supports quick filters, then click the Quick Filter icon in the toolbar. 
+   Or
+
+   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:
+
+  * ALT+F for Windows computers
+  * ALT+Shift+F for Internet Explorer on Windows computers
+  * ALT/ Option+F for Mac computers
+
+    >[!TIP]
+    >
+    >If you press CTRL+F or CMD+F, a tooltip displays next to the quick filter to remind you about these commands. The commands also display inside the quick filter search box.
+
+1. In the `Filter page` box, enter the keyword that you want to filter by.
+
+   You can use any word that currently displays in the view of the list.
+
+   >[!NOTE]
+   >
+   >If you use a word that might display on another page of the list, the quick filter does not find any results.
+
+   A list of items that match the search criteria display in the list dynamically as you type and all other items are hidden. The keyword you used in your search is highlighted in yellow in all standalone and complex fields. Some examples of complex fields are shared columns, or any of the following: Assignments, Assignments and Status, Percent Complete, Predecessors, Approvers and Status, Resource Managers, Categories, Condition, Condition Update, etc.
+
+1. (Optional) To bulk edit the items found by the quick filter:
+
+  1. Select all or several of the items in the list, then click `Edit` to bulk edit the items.
+  1. After you complete your edits, click `Save Changes`.
+
+1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click `Export`.
+
+   ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
+
+   >[!NOTE]
+   >
+   >Only the items you found in the quick filter search export to the file you selected. If you don't select any items before exporting the list, the complete, unfiltered list is exported.  
+   >For more information, see [Export a list](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
+
+1. (Optional) To clear the filtered results, click the `Quick Filter` icon in the top right corner of the window.  
+   Or  
+   Refresh the page.
 

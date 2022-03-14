@@ -30,11 +30,15 @@ Consider the following when working with smart assignments:
 
 You can view smart assignments in the following areas where you can assign tasks or issues:&nbsp;
 
-<ul> 
- <li> <p>A task or issue list or report </p> <p>  </p> </li> A task or issue header The task or issue Summary panel The Assignments field for an item listed in the Home area 
- <li> <p>Resource Scheduling</p> <p> <img src="assets/smart-assignments-scheduling-350x219.png" style="width: 350;height: 219;"> </p> </li> 
- <li> <p>Workload Balancer </p> <p> <img src="assets/smart-assignments-wb-nwe-350x359.png" style="width: 350;height: 359;"> </p> </li> 
-</ul>
+* A task or issue list or report
+
+* Resource Scheduling
+
+  ![](assets/smart-assignments-scheduling-350x219.png)
+
+* Workload Balancer
+
+  ![](assets/smart-assignments-wb-nwe-350x359.png)
 
 ## Smart assignments criteria
 
@@ -42,15 +46,16 @@ Smart assignments display the top fifty recommendations based on a proprietary a
 
 Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important):
 
-<ul> 
- <li> <p>Users assigned to other work items in the past 30 days by the user making the assignment. The first 50 users that match this criteria display. The user that is most often assigned displays first. </p> <p>If the work item is assigned to a team or a role, the list of suggested users is filtered further taking into account the existing assignments below. In this case, only the following users display in the list of suggestions: </p> 
-  <ul> 
-   <li>Users whose Home Team is the team assigned to the work item. </li> 
-   <li> <p>Users whose Primary Role is the role assigned to the work item. </p> <note type="tip">
-      If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
-    </note> </li> 
-  </ul> </li> 
-</ul>
+* Users assigned to other work items in the past 30 days by the user making the assignment. The first 50 users that match this criteria display. The user that is most often assigned displays first.
+
+  If the work item is assigned to a team or a role, the list of suggested users is filtered further taking into account the existing assignments below. In this case, only the following users display in the list of suggestions:
+
+  * Users whose Home Team is the team assigned to the work item. 
+  * Users whose Primary Role is the role assigned to the work item.
+
+    >[!TIP]
+    >
+    >If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
 
 <!--
 Smart assignments criteria for the Production environment Smart assignments display on tasks and issues when the following conditions are met: The task or issue is subordinate to a parent task or issue that has a user, team, or job role currently assigned. Smart assignments display the top twenty recommendations based on a proprietary algorithm that uses your own team information. Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important): The user has the team assigned to the task or issue designated as their Home Team The user is also assigned to the parent task The user has the same primary job role as is currently assigned to the task or issue The user has the team assigned to the parent task or issue designated as their Home Team The user is associated with the same primary job role currently assigned to the parent task The user is a member of the same team as the user who assigned the task or issue and the team is designated as their Home Team The user is a member of the same Home Group as the user who is assigning the task or issue The user has the same primary job role as the user who is assigning the task or issue.

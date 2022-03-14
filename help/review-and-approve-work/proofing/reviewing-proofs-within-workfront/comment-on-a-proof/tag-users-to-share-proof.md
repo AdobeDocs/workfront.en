@@ -49,19 +49,26 @@ Users with the Proof Permission Profile or Proof role outlined in the [Access re
 
 To tag someone and share a proof in a comment:
 
-<ol> 
- <li value="1"> <p>As you comment on a proof, type an at sign (@) followed by the person's name or email address. When you start typing, available names appear in a drop-down list.</p> </li> 
- <li value="2"> <p> Select the person's name when you see it in the drop-down list. </p> <note type="tip">
-   If you want to close the drop-down list without selecting anyone, you can press the 
-   <span class="bold">Esc</span> key or click anywhere outside the list.
-  </note> </li> 
- <li value="3">Repeat steps 1-2 for any other users you want to tag in the comment.</li> 
- <li value="4">Finish the comment, then click <span class="bold">Post</span>.</li> 
- <li value="5"> <p>(Conditional) If you tagged anyone who was not already added to the proof, specify a <span class="bold">Proof role</span> and <span class="bold">Email alerts</span> setting for each user listed in the box that appears, then click <span class="bold">Add people and post comment</span>.</p> <p> <img src="assets/add-people-to-proof-350x220.png" style="width: 350;height: 220;"> </p> <p>For information about proof roles, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md" class="MCXref xref">Configure default proofing roles</a>. For information about proof email alerts, see the section in the article <a href="../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>.</p> <p>If the proof has an Automated Workflow, the users you tag are added to the stage you are in. For more information, see <a href="../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</p> <p>Anyone you tag receives a notification email about your proof comment, regardless of the proof email alert settings they are using:</p> 
-  <ul> 
-   <li>If the user&nbsp;receives a daily summary or hourly summary email, Workfront sends the notification separately and includes information about your proof comment in the summary email.</li> 
-   <li> <p>If the user receives alerts for all activity, or for replies made to their comments, the notification replaces the notifications about these comments and replies.</p> </li> 
-  </ul> </li> 
-</ol>
+1. As you comment on a proof, type an at sign (@) followed by the person's name or email address. When you start typing, available names appear in a drop-down list.
+1. Select the person's name when you see it in the drop-down list.
+
+   >[!TIP]
+   >
+   >If you want to close the drop-down list without selecting anyone, you can press the `Esc` key or click anywhere outside the list.
+
+1. Repeat steps 1-2 for any other users you want to tag in the comment.
+1. Finish the comment, then click `Post`.
+1. (Conditional) If you tagged anyone who was not already added to the proof, specify a `Proof role` and `Email alerts` setting for each user listed in the box that appears, then click `Add people and post comment`.
+
+   ![](assets/add-people-to-proof-350x220.png)
+
+   For information about proof roles, see [Configure default proofing roles](../../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md). For information about proof email alerts, see the section in the article [Configure email notification settings in Workfront Proof](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+
+   If the proof has an Automated Workflow, the users you tag are added to the stage you are in. For more information, see [Automated Workflow overview](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+
+   Anyone you tag receives a notification email about your proof comment, regardless of the proof email alert settings they are using:
+
+  * If the user&nbsp;receives a daily summary or hourly summary email, Workfront sends the notification separately and includes information about your proof comment in the summary email.
+  * If the user receives alerts for all activity, or for replies made to their comments, the notification replaces the notifications about these comments and replies.
 
 For information about other ways to add users to a proof, see [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).

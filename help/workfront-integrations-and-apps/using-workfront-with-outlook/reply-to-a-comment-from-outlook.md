@@ -41,13 +41,19 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 
 ## Reply to a comment from Outlook
 
-<ol> 
- <li value="1">Select the Workfront email notification that contains the comment you want to reply to.&nbsp;</li> 
- <li value="2">Click the&nbsp;<span class="bold">Workfront</span>&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.<br>You might need to click the down-pointing arrow in the upper right of your email to access the Workfront icon.</li> 
- <li value="3">Click the <span class="bold">Menu</span> icon to display the list of available Workfront options.<br><img src="assets/o365-addin-menu-icon.png" alt="o365_addin_menu_icon.png"></li> 
- <li value="4"> <p>Click <span class="bold">Reply to Comment</span>.</p> </li> 
- <li value="5">Specify your comment in the provided field.</li> 
- <li value="6"> (Optional) Click&nbsp;<span class="bold">Include Others</span>, begin typing the name of users who you want to include in the update, then click the name when it appears in the drop-down list. <br>Repeat this process to include additional users, then click <span class="bold">Done</span>.<br>By default, the user you are replying to receives a notification regardless of whether you include them.<br><img src="assets/o365-addin-includeothers.png" alt="o365_addin_includeothers.png"><br></li> 
- <li value="7">Click <span class="bold">Comment</span>.</li> 
-</ol>
+1. Select the Workfront email notification that contains the comment you want to reply to.&nbsp;
+1. Click the  `Workfront`&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.  
+   You might need to click the down-pointing arrow in the upper right of your email to access the Workfront icon.
+
+1. Click the `Menu` icon to display the list of available Workfront options.  
+   ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
+
+1. Click `Reply to Comment`.
+1. Specify your comment in the provided field.
+1. (Optional) Click  `Include Others`, begin typing the name of users who you want to include in the update, then click the name when it appears in the drop-down list.   
+   Repeat this process to include additional users, then click `Done`.  
+   By default, the user you are replying to receives a notification regardless of whether you include them.  
+   ![o365_addin_includeothers.png](assets/o365-addin-includeothers.png)  
+
+1. Click `Comment`.
 

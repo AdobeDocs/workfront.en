@@ -36,14 +36,21 @@ You can submit feedback on the Oracle Eloqua Workfront Proof&nbsp;Add-In Beta in
 
 ### Submitting Feedback within the Integration
 
-<ol> 
- <li value="1">In Eloqua, click&nbsp;<span class="bold">Assets</span>, then click&nbsp;<span class="bold">Emails</span>.</li> 
- <li value="2">Select an&nbsp;email to proof.</li> 
- <li value="3">Click the&nbsp;<span class="bold">Cloud</span>&nbsp;icon, located on the right-hand side of the page.<br><img src="assets/eloqua-icon-350x155.png" style="width: 350;height: 155;"></li> 
- <li value="4">Click the Workfront Proof&nbsp;integration.</li> 
- <li value="5">If a proof has not previously been created for this email, click&nbsp;<span class="bold">Generate New Proof</span>&nbsp;to create a new proof.<br>The New Proof page is displayed.<br>Or<br>If a proof has already been created for this email, click&nbsp;<span class="bold">Add Version</span>&nbsp;to create a new version of the&nbsp;existing proof.<br>The New Version page is displayed.</li> 
- <li value="6">Click <span class="bold">Submit Feedback</span>.<br><img src="assets/eloqua-newproof-form-350x483.png" style="width: 350;height: 483;"></li> 
-</ol>
+1. In Eloqua, click  `Assets`, then click  `Emails`.
+
+1. Select an&nbsp;email to proof.
+1. Click the  `Cloud`&nbsp;icon, located on the right-hand side of the page.  
+   ![](assets/eloqua-icon-350x155.png)
+
+1. Click the Workfront Proof&nbsp;integration.
+1. If a proof has not previously been created for this email, click  `Generate New Proof`&nbsp;to create a new proof.  
+   The New Proof page is displayed.  
+   Or  
+   If a proof has already been created for this email, click  `Add Version`&nbsp;to create a new version of the&nbsp;existing proof.  
+   The New Version page is displayed.
+
+1. Click `Submit Feedback`.  
+   ![](assets/eloqua-newproof-form-350x483.png)
 
 ### Submitting Feedback in a Survey
 

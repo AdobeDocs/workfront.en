@@ -43,38 +43,74 @@ You must have the following access to perform the steps in this article:
 
 ## Convert an issue to a task
 
-<ol> 
- <li value="1"> Go to a project and click Issues in the left panel. </li> 
- <li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> </li> 
- <li value="3"> <p> Click the More menu on the issue, then Convert to Task. </p> <p>  </p> 
-  <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>"> <span class="autonumber"><span><b>Tip: </b></span></span> 
-   <p>If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Overview of converting issues in Adobe Workfront</a>.</p> 
-  </div> </li> 
- <li value="4"> <p>Name the task.</p> </li> 
- <li value="5"> <p>Identify the project where the task will reside. </p> <p>You can select a different project from the project that the issue is on.</p> </li> 
- <li value="6"> <p>In the <span class="bold">Project</span> box, start typing the name of the project where you want to put the new task, then press <span class="bold">Enter</span> when it appears.</p> <p>By default, this box the name of the project containing the issue that you are converting.</p> </li> 
- <li value="7"> <p>(Optional and conditional) Under <span class="bold">Options</span>, select any of the following options. </p> <p>The Workfront administrator or group administrator must enable these preferences before they are visible during the conversion of issues: </p> 
-  <ul> 
-   <li> <p><span class="bold">Keep the original issue and tie its resolution to the this task</span> </p> <p>If unselected, the original issue is deleted.</p> <note type="note">  
-     <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
-     <ul> 
-      <li> <p><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a> </p> </li> 
-      <li> <p><a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue in Adobe Workfront</a> </p> </li> 
-     </ul> 
-    </note> </li> 
-   <li> <p><span class="bold">Allow <User Name> to have access to this task</span> </p> <p>If unselected, the issue's Primary Contact has no access to the new task.</p> </li> 
-   <li> <p><span class="bold">Keep the planned completion date of the issue</span> </p> <p>If unselected, the Planned Completion Date of the new task is calculated from the Planned Start Date of the task. The Planned Start Date of the new task is set according to the system preferences for new tasks.</p> </li> 
-  </ul> <note type="note">  
-   <div> 
-    <p>The options that display here depend on how the Workfront administrator configured them for everyone in the system. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p> 
-    <p>Or, if the top-level groups in your organization configured them separately, the options that display here depend on which group is associated with the project you selected in step 6. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a>.</p> 
-   </div> 
-  </note> </li> 
- <li value="8"> <p> (Optional) Attach custom forms. </p> <p>If you want to transfer custom form information from the issue you are converting to the project, add the project custom form that contains the same fields whose information you want to transfer from the issue. </p> <p>For more information about transferring information from the custom form of the issue to that of the new task, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md" class="MCXref xref">Transfer custom form data to a larger work item</a>. <br></p> </li> 
- <li value="9">  </li> 
- <li value="10"> <p>Click <span class="bold">Save Changes</span> when all task settings are set.</p> <p>The issue is now a task on the designated project, if you decided to delete the original issue.</p> <p>Or</p> <p>The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.</p> <p>Some issue fields transfer to the task. For information, see the <a href="#viewing-original-issue-information" class="MCXref xref">View original issue information on projects and tasks</a> section in this article. <br></p> </li> 
- <li value="11"> <p>(Optional) Continue editing the task (assignments, dates) as necessary. </p> </li> 
-</ol>
+1. Go to a project and click Issues in the left panel. 
+1. Click the issue you want to convert to go to the issue's landing page. 
+1. Click the More menu on the issue, then Convert to Task.
+
+   ` `**Tip: **`` If the issue is associated with an approval process or it is already associated with a resolving object, Workfront displays a warning at the top of the Convert to Project box to notify you that the approval will be removed or the resolving object will be overwritten during the conversion. For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+
+1. Name the task.
+1. Identify the project where the task will reside.
+
+   You can select a different project from the project that the issue is on.
+
+1. In the `Project` box, start typing the name of the project where you want to put the new task, then press `Enter` when it appears.
+
+   By default, this box the name of the project containing the issue that you are converting.
+
+1. (Optional and conditional) Under `Options`, select any of the following options.
+
+   The Workfront administrator or group administrator must enable these preferences before they are visible during the conversion of issues:
+
+  * `Keep the original issue and tie its resolution to the this task`
+
+    If unselected, the original issue is deleted.
+
+    >[!NOTE]
+    >
+    >Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:
+    >
+    >  
+    >  
+    >  * [Grant access to issues](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md) 
+    >  * [Share an issue in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md) 
+    >  
+    >
+
+  * `Allow <User Name> to have access to this task`
+
+    If unselected, the issue's Primary Contact has no access to the new task.
+  
+  * `Keep the planned completion date of the issue`
+
+    If unselected, the Planned Completion Date of the new task is calculated from the Planned Start Date of the task. The Planned Start Date of the new task is set according to the system preferences for new tasks.
+
+   >[!NOTE]
+   >
+   >
+   >The options that display here depend on how the Workfront administrator configured them for everyone in the system. For more information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+   >
+   >
+   >Or, if the top-level groups in your organization configured them separately, the options that display here depend on which group is associated with the project you selected in step 6. For more information, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+
+1. (Optional) Attach custom forms.
+
+   If you want to transfer custom form information from the issue you are converting to the project, add the project custom form that contains the same fields whose information you want to transfer from the issue.
+
+   For more information about transferring information from the custom form of the issue to that of the new task, see [Transfer custom form data to a larger work item](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+
+1. 
+1. Click `Save Changes` when all task settings are set.
+
+   The issue is now a task on the designated project, if you decided to delete the original issue.
+
+   Or
+
+   The issue is now linked to the new task on the project you chose, and it will complete once the task completes, if you decided to keep the original issue.
+
+   Some issue fields transfer to the task. For information, see the [View original issue information on projects and tasks](#viewing-original-issue-information) section in this article.
+
+1. (Optional) Continue editing the task (assignments, dates) as necessary.
 
 ## View original issue information on projects and tasks
 

@@ -47,20 +47,34 @@ Before you begin, you must be assigned to the task or issue you need to update t
 
 Updating the Commit Date is identical for tasks and issues.
 
-<ol> 
- <li value="1"> <p>Go to a task or issue that you are assigned to as the <span class="bold">Task Owner</span>.</p> <p>For more information about finding out who the Task Owner for an issue or task is, see the section <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments" class="MCXref xref">Edit tasks</a> in the article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a>.</p> </li> 
- <li value="2"> <p>Click Work on itin the task or issue header</p> <p>Or</p> <p>Click <span class="bold">Start Task</span> or <span class="bold">Start Issue</span> if the Work on it button has been customized in your environment to indicate that you are now working on the work item. </p> <p>At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.</p> </li> 
- <li value="3"> (Optional) If you clicked Start Task or Start Issue, click Undo in the lower-left corner of the screen. The Commit Date is removed. <p>For information about replacing the Work On&nbsp;It button with a Start button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> <note type="tip">
-   The option to undo your selection to start your work is not available when you click Work on it.
-  </note> </li> 
- <li value="4"> Click Updates in the left panel, then click the Start a new update > Commit Date Or Click Task Details or Issue Details in the left panel, then double click Commit Date and select a new date from calendar, then click Save Changes. <p>  </p> 
-  <div> 
-   <p>The following things happen after making this change:&nbsp;</p> 
-   <ul> 
-    <li> <p>The Commit Date and the Planned Completion date are no longer the same. </p> <p>Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.</p> <p>  </p> </li> 
-    <li> <p>The changes are saved automatically when you select a new date from the Updates area.</p> </li> 
-    <li> <p>The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. </p> <p>  </p> <p>For information about the notifications and updates that are triggered by this change, see the section <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica" class="MCXref xref">Notifications and updates triggered by changing the Commit Date</a> in the article <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</p> </li> 
-   </ul> 
-  </div> </li> 
-</ol>
+1. Go to a task or issue that you are assigned to as the `Task Owner`.
+
+   For more information about finding out who the Task Owner for an issue or task is, see the section [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in the article [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+1. Click Work on itin the task or issue header
+
+   Or
+
+   Click `Start Task` or `Start Issue` if the Work on it button has been customized in your environment to indicate that you are now working on the work item.
+
+   At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.
+
+1. (Optional) If you clicked Start Task or Start Issue, click Undo in the lower-left corner of the screen. The Commit Date is removed. For information about replacing the Work On It button with a Start button, see ` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)`.
+
+   >[!TIP]
+   >
+   >The option to undo your selection to start your work is not available when you click Work on it.
+
+1. Click Updates in the left panel, then click the Start a new update > Commit Date Or Click Task Details or Issue Details in the left panel, then double click Commit Date and select a new date from calendar, then click Save Changes. 
+
+   The following things happen after making this change:&nbsp;
+
+  * The Commit Date and the Planned Completion date are no longer the same.
+
+    Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.
+
+  * The changes are saved automatically when you select a new date from the Updates area.
+  * The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested.
+
+    For information about the notifications and updates that are triggered by this change, see the section [Notifications and updates triggered by changing the Commit Date](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

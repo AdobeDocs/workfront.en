@@ -41,14 +41,22 @@ You must have the following access to perform the steps in this article:
 
 ## Reply to an update or a reply
 
-<ol> 
- <li value="1">Go to the object to which you want to add a reply.</li> 
- <li value="2"> <p>On the <span class="bold">Updates</span> tab for the object, find the update or reply to which you want to reply.</p> To view an image in the update: Click the Preview icon on the image thumbnail to open the full-size image in a new browser tab. Click the Download icon on the image thumbnail to download the image. <p>In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see <a href="../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p> <p> <img src="assets/tagging-transparency-350x192.png" style="width: 350;height: 192;"> </img> </p> </li> 
- <li value="3"> <p>Click <span class="bold">Reply</span> on the update, then type a reply in the box that appears.</p> </li> 
- <li value="4"> <p>(Optional) To include text from a previous update in your reply, click the <span class="bold">More</span> menu next to the update or reply you want to quote, then click <span class="bold">Quote Reply</span>. Text from the previous update appears in the input area, marked with a gray line.</p> </li> 
- <li value="5"> <p>(Optional) Use formatting and emojis, and include links and imagesas explained in the section <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add" class="MCXref xref">Add an update to a work item</a> in the article <a href="../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Reply</span> to save the reply.<br></p> <p>Or<br></p> <p>Click <span class="bold">Done</span> if the task or issue is in a status of Complete or Closed.</p> </li> 
-</ol>
+1. Go to the object to which you want to add a reply.
+1. On the `Updates` tab for the object, find the update or reply to which you want to reply.
+   To view an image in the update: Click the Preview icon on the image thumbnail to open the full-size image in a new browser tab. Click the Download icon on the image thumbnail to download the image. 
+
+   In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+
+   ![](assets/tagging-transparency-350x192.png)
+
+1. Click `Reply` on the update, then type a reply in the box that appears.
+1. (Optional) To include text from a previous update in your reply, click the `More` menu next to the update or reply you want to quote, then click `Quote Reply`. Text from the previous update appears in the input area, marked with a gray line.
+1. (Optional) Use formatting and emojis, and include links and imagesas explained in the section [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click `Reply` to save the reply.
+
+   Or
+
+   Click `Done` if the task or issue is in a status of Complete or Closed.
 
 ## Reply to an update via email notification
 

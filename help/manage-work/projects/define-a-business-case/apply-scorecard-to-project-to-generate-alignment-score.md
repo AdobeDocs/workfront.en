@@ -65,14 +65,26 @@ Your Adobe Workfront administrator `or group administrator` must enable the Scor
 
 To apply a scorecard to a project:
 
-<ol> 
- <li value="1"> Go to a project to which you want to apply a scorecard.</li> 
- <li value="2">Click <span class="bold">Business Case</span>in the left panel.</li> 
- <li value="3"> <p>Find the <span class="bold">Scorecard</span> section of the Business Case.<br>You must create a scorecard before the <span class="bold">Scorecard</span> section displays on the Business Case. </p> <p>For information about creating a scorecard, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Create a scorecard</a>.</p> </li> 
- <li value="4"> <p>Select a scorecard from the drop-down menu.</p> <p> <img src="assets/new-scorecard-350x149.png" alt="new_scorecard.png" style="width: 350;height: 149;"> </p> </li> 
- <li value="5"> <p>Specify an answer for all the questions in the scorecard.</p> <p>Workfront applies a score to each question answered and calculates an overall project score based on the individual score of every question. </p> <p>For more information about generating the project overall alignment score, see <a href="#generating-an-alignment-score-for-a-project" class="MCXref xref">Generate an Alignment Score for a project</a>.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Save</span> to save the scorecard and score the project.</p> <p>The scorecard is now associated with the project and the project is scored. </p> </li> 
-</ol>
+1. Go to a project to which you want to apply a scorecard.
+1. Click `Business Case`in the left panel.
+1. Find the `Scorecard` section of the Business Case.  
+   You must create a scorecard before the `Scorecard` section displays on the Business Case.
+
+   For information about creating a scorecard, see [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+
+1. Select a scorecard from the drop-down menu.
+
+   ![new_scorecard.png](assets/new-scorecard-350x149.png)
+
+1. Specify an answer for all the questions in the scorecard.
+
+   Workfront applies a score to each question answered and calculates an overall project score based on the individual score of every question.
+
+   For more information about generating the project overall alignment score, see [Generate an Alignment Score for a project](#generating-an-alignment-score-for-a-project).
+
+1. Click `Save` to save the scorecard and score the project.
+
+   The scorecard is now associated with the project and the project is scored.
 
 ## Generate an Alignment Score
 
@@ -116,11 +128,13 @@ You can view the alignment score of a project at the project level, or in the Po
 
 You can view the alignment score of a project at the project level if you have Contribute rights to the project.
 
-<ol> 
- <li value="1"> Go to the project whose Alignment Score you want to view. </li> 
- <li value="2">Click <span class="bold">Business Case</span> in the left panel.</li> 
- <li value="3"> <p>Go to the <span class="bold">Business Case Summary</span> on the right side of your screen. </p> <p>The Alignment Score is located in the Business Case Summary, in the <span class="bold">Aligned</span> value.</p> <p> <img src="assets/alignment-score-on-a-project.png" alt="alignment_score_on_a_project.png"> </p> </li> 
-</ol>
+1. Go to the project whose Alignment Score you want to view. 
+1. Click `Business Case` in the left panel.
+1. Go to the `Business Case Summary` on the right side of your screen.
+
+   The Alignment Score is located in the Business Case Summary, in the `Aligned` value.
+
+   ![alignment_score_on_a_project.png](assets/alignment-score-on-a-project.png)
 
 ### View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer
 

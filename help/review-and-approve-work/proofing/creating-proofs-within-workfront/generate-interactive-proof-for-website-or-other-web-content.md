@@ -47,25 +47,37 @@ You must have the following access to perform the steps in this article:
 
 ## Create an interactive proof for a website or other web content
 
-<ol> 
- <li value="1">Go to the project, task, or issue where you want to create a new website proof or a new version of an existing one.</li> 
- <li value="2">Click <span class="bold">Documents</span> in the left panel.</li> 
- <li value="3">(Conditional) If you are creating a new proof, click <span class="bold">Add New</span>, then click <span class="bold">Proof</span> in the menu that appears.</li> 
- <li value="4">(Conditional) On the <span class="bold">New proof</span> page appears, if you are creating a new version of an existing proof: 
-  <ol style="list-style-type: lower-alpha;">
-   <li value="1"><p>Hover over the URL proof for which you want to create a new version, then select it by clicking in the light blue background surrounding it.<br></p><p><img src="assets/select-proof-by-selecting-light-blue-background-350x52.png" alt="Select_proof_by_selecting_light_blue_background.png" style="width: 350;height: 52;"><br></p></li>In the Add new drop-down, click Version > Proof.
-  </ol></li> 
- <li value="5"> <p>In the <span class="bold">Add files</span> section, type the URL of the website you want to proof, then press <span class="bold">Enter</span>.</p> <p> <img src="assets/proof-website-350x65.png" alt="proof_website.png" style="width: 350;height: 65;"> </p> <p>You can repeat this process to add multiple websites to be proofed.<br></p> </li> 
- <li value="6"> <p>Click the URL you have added.</p> <p> <img src="assets/click-url-350x137.png" style="width: 350;height: 137;"> </p> </li> 
- <li value="7"> <p>(Optional) If you want to change the name of the proof from the website URL to something else, type a <span class="bold">Proof name</span>.</p> </li> 
- <li value="8"> <p>Select <span class="bold">Interactive</span>, then click <span class="bold">Done</span>.</p> <note type="note">
-    If you are adding a new version to an existing URL proof, any options that were configured on the original proof or previous version are maintained in this version.
-   <br>
-  </note> </li> 
- <li value="9">Click <span class="bold">Create proof</span> to create a simple proof with no review process.<br>or<br>Continue by configuring an advanced proof: 
-  <ul>
-   <li><p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">Create an advanced proof with a Basic workflow</a></p></li>
-   <li><p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">Create an advanced proof with an Automated workflow</a></p></li>
-  </ul></li> 
-</ol>
+1. Go to the project, task, or issue where you want to create a new website proof or a new version of an existing one.
+1. Click `Documents` in the left panel.
+1. (Conditional) If you are creating a new proof, click `Add New`, then click `Proof` in the menu that appears.
+
+1. (Conditional) On the `New proof` page appears, if you are creating a new version of an existing proof:
+
+  1. Hover over the URL proof for which you want to create a new version, then select it by clicking in the light blue background surrounding it.
+
+     ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+
+1. In the `Add files` section, type the URL of the website you want to proof, then press `Enter`.
+
+   ![proof_website.png](assets/proof-website-350x65.png)
+
+   You can repeat this process to add multiple websites to be proofed.
+
+1. Click the URL you have added.
+
+   ![](assets/click-url-350x137.png)
+
+1. (Optional) If you want to change the name of the proof from the website URL to something else, type a `Proof name`.
+1. Select `Interactive`, then click `Done`.
+
+   >[!NOTE]
+   >
+   >If you are adding a new version to an existing URL proof, any options that were configured on the original proof or previous version are maintained in this version.
+
+1. Click `Create proof` to create a simple proof with no review process.  
+   or  
+   Continue by configuring an advanced proof:
+
+  * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+  * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 

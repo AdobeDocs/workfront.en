@@ -45,49 +45,48 @@ You must have the following to perform the steps in this article:
 
 ## Create a team
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Teams</span>, then click <span class="bold">New Team</span>.</li> 
- <li value="3"> <p>In the <b>New Team</b> box that displays, specify the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Team Name</td> 
-     <td>Type a name for the team.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Group</td> 
-     <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. <note type="note">
-       When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow 
-       <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Team Members</td> 
-     <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Type a description for the team.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Calendar</td> 
-     <td>Choose which calendar tab will appear for this team.</td> 
-    </tr> This is an Agile Team Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see Create an agile team. 
-    <tr> 
-     <td role="rowheader">Work On It</td> 
-     <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Done Button</td> 
-     <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4">Click&nbsp;<span class="bold">Create Team</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Teams`, then click `New Team`.
+
+1. In the **New Team** box that displays, specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Team Name</td> 
+      <td>Type a name for the team.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Group</td> 
+      <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Team Members</td> 
+      <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Type a description for the team.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Calendar</td> 
+      <td>Choose which calendar tab will appear for this team.</td> 
+     </tr> This is an Agile Team Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see Create an agile team. 
+     <tr> 
+      <td role="rowheader">Work On It</td> 
+      <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Done Button</td> 
+      <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click  `Create Team`.
 
 ## Team owners
 

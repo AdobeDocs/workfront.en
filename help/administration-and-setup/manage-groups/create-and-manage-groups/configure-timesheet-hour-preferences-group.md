@@ -64,15 +64,15 @@ Consider the following information about configuring an unlocked timesheet or ho
 >
 >If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Click the name of the group whose timesheet or hour preferences you want to configure.</li> 
- <li value="4">In the left panel, click <span class="bold">Timesheets & Hours</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
 
-<ol data-mc-continue="true"> 
- <li value="5"> <p>On the page that displays, in the <span class="bold">General Preferences</span> section, configure any of the following options: </p>  <p> 
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group whose timesheet or hour preferences you want to configure.
+1. In the left panel, click `Timesheets & Hours`.
+
+1. On the page that displays, in the `General Preferences` section, configure any of the following options:
+
    <table cellspacing="0"> 
     <col> 
     <col> 
@@ -83,9 +83,7 @@ Consider the following information about configuring an unlocked timesheet or ho
        <ul> 
         <li>Any projects, tasks, and issues where they have access to log time, regardless of project’s group</li> 
         <li>Their timesheets as General Time</li> 
-       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <note type="note">
-        You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.
-       </note> </td> 
+       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p>Note: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add expenses from a timesheet</td> 
@@ -93,38 +91,39 @@ Consider the following information about configuring an unlocked timesheet or ho
      </tr> 
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
-      <td> <p>Allow users to manually select any Job Role assigned in their user profile or assigned to the object.</p> <note type="important"> 
+      <td> <p>Allow users to manually select any Job Role assigned in their user profile or assigned to the object.</p> <p>Important:  
         <ul> 
          <li>If you disable this setting after assigning job roles to hour entries, users must adjust hours logged under various roles on the Hours tab of the project, task, or issue.</li> 
          <li>If the user does not have a job role assigned in their profile and there is a task assigned as the Task Owner in the Advanced Assignments dialog box, that job role appears when the user logs time on the task.</li> 
-        </ul> 
-       </note> </td> 
+        </ul> </p> </td> 
      </tr> Restrict timesheet editing to owners and admins Restrict editing to timesheet owners, the group's administrators, and Workfront administrators. When this option is disabled, timesheets can also be edited by: Users with administrative access to timesheets and hours in their access level Timesheet approvers if “Can edit hours” is enabled on the timesheet The manager of the timesheet owner Restrict hour editing to owners and admins Restrict editing to the user who input the hours and Workfront administrators. This setting applies to the Hours tab in a project or in an Hours report. 
     </tbody> 
-   </table> </p> </li> 
- <li value="6"> <p>In the <span class="bold">Pre-Populate timesheets with&nbsp;</span>section, configure any of the following options: </p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Work that is within <number of weeks> of the timesheet's work range</td> 
-     <td> <p>Defines the number of weeks before and after the date range&nbsp;of the timesheet that contains dates of tasks and issues assigned to the user. The default setting is 1 week, and you can extend this range to 4 weeks. This means that the timesheet is pre-populated with tasks and issues which have dates anywhere between four weeks before the date range of the timesheet up to four weeks after the date range of the timesheet, if you select 4 weeks for your range. </p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Tasks & Issues that have been completed</td> 
-     <td>If multiple resources are typically assigned to a single task, we recommend this setting. This means when one resource records time against the task and marks it as complete, the other resources assigned to the task can still find the task or the issue in their timesheet, to record their hours.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Tasks & Issues that have Planned Dates in timesheet's date range</td> 
-     <td> <p>When selected, the timesheet includes tasks and issues that have either a Planned Start Date or Completion Date that falls within the date range of the timesheet.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> Tasks that have Projected Dates in timesheet's date range</td> 
-     <td> <p>When selected, the timesheet includes tasks that have either a Projected Start Date or Completion Date that falls within the time frame of the project, even if the planned date of the issue or task falls outside of the timesheet date range.</p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="7"> <p>Click <span class="bold">Save</span>.</p> </li> 
-</ol>
+   </table>
+
+1. In the `Pre-Populate timesheets with`section, configure any of the following options: 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Work that is within &lt;number of weeks&gt; of the timesheet's work range</td> 
+      <td> <p>Defines the number of weeks before and after the date range&nbsp;of the timesheet that contains dates of tasks and issues assigned to the user. The default setting is 1 week, and you can extend this range to 4 weeks. This means that the timesheet is pre-populated with tasks and issues which have dates anywhere between four weeks before the date range of the timesheet up to four weeks after the date range of the timesheet, if you select 4 weeks for your range. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tasks &amp; Issues that have been completed</td> 
+      <td>If multiple resources are typically assigned to a single task, we recommend this setting. This means when one resource records time against the task and marks it as complete, the other resources assigned to the task can still find the task or the issue in their timesheet, to record their hours.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Tasks &amp; Issues that have Planned Dates in timesheet's date range</td> 
+      <td> <p>When selected, the timesheet includes tasks and issues that have either a Planned Start Date or Completion Date that falls within the date range of the timesheet.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> Tasks that have Projected Dates in timesheet's date range</td> 
+      <td> <p>When selected, the timesheet includes tasks that have either a Projected Start Date or Completion Date that falls within the time frame of the project, even if the planned date of the issue or task falls outside of the timesheet date range.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Save`.
 

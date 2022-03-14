@@ -42,26 +42,30 @@ You must have the following access to perform the steps in this article:
 
 ## Export a list
 
-<ol> 
- <li value="1">Go to a list of objects.</li> 
- <li value="2">(Optional) Select any filter, view, and grouping that you want to apply to the list before exporting.<br>For information on filters, views, and groupings, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</li> 
- <li value="3"> <p>(Optional) To export only specific items in a list, select all items in the list that you want in the exported file.</p> 
-  <div class="tips" data-mc-autonum="<b>Tips: </b>">
-   <span class="autonumber"><span><b>Tips: </b></span></span> 
-   <p>To locate all of the items that you want to include, you can:</p> 
-   <ul> 
-    <li><span class="bold">Select to show All or 2000 items in the lists</span>: For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</li> 
-    <li><span class="bold">Use the quick filter</span>: For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.<br>The quick filter applies only to the current page of the list.</li> 
-   </ul> 
-  </div> <p> <img src="assets/select-all-projects-with-highlight--1--350x173.png" alt="select_all_projects_with_highlight__1_.png" style="width: 350;height: 173;"> </p> </li> 
- <li value="4">Click <span class="bold">Export</span>.</li> 
- <li value="5">Select from the following formats:<br>
-  <ul>
-   <li style="font-weight: bold;">PDF</li>
-   <li style="font-weight: bold;">Excel</li>
-   <li style="font-weight: bold;">Excel (xlsx)</li>
-   <li style="font-weight: bold;">Tab Delimited<br><span style="font-weight: normal;">This exports a copy of the list to one of these formats and saves it on your computer.</span></li>
-  </ul></li> 
- <li value="6">(Optional) Open the exported list using the appropriate application.<br>All the items in the list display in the exported file, whether they are displayed on the screen in the web application or not.</li> 
-</ol>
+1. Go to a list of objects.
+1. (Optional) Select any filter, view, and grouping that you want to apply to the list before exporting.  
+   For information on filters, views, and groupings, see [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+
+1. (Optional) To export only specific items in a list, select all items in the list that you want in the exported file.
+
+   ` `**Tips: **`` To locate all of the items that you want to include, you can:
+
+  * `Select to show All or 2000 items in the lists`: For more information, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
+  
+  * `Use the quick filter`: For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).  
+    The quick filter applies only to the current page of the list.
+
+   ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
+
+1. Click `Export`.
+1. Select from the following formats:
+
+  * PDF
+  * Excel
+  * Excel (xlsx)
+  * Tab Delimited  
+    `This exports a copy of the list to one of these formats and saves it on your computer.`
+
+1. (Optional) Open the exported list using the appropriate application.  
+   All the items in the list display in the exported file, whether they are displayed on the screen in the web application or not.
 

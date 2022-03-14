@@ -12,13 +12,12 @@ description: The table below tells you the highest level of access (Edit or View
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
-<ul> 
- <li> <p><span class="bold">View</span>: The user can review and share items.</p> </li> 
- <li> <p><span class="bold">Edit</span>: The user can create, edit, delete, and share items.</p> <note type="note">
-   When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see 
-   <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects in Adobe Workfront</a>. 
-  </note> </li> 
-</ul>
+* `View`: The user can review and share items.
+* `Edit`: The user can create, edit, delete, and share items.
+
+  >[!NOTE]
+  >
+  >When another user shares an object, the sharer can specify permissions that limit their ability to edit it. For more information, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 | &nbsp; |Plan |Work |Review |Request |External |
 |---|---|---|---|---|---|

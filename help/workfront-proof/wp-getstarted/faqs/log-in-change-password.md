@@ -46,9 +46,9 @@ If you forget your password, you can have Workfront Proof email you a reset emai
 
 ## Changing Your Password
 
-<ol> 
- <li value="1">On the Dashboard, click <span class="bold">Change password</span>.<br><img src="assets/change-passowrd-350x95.png" alt="Change_passowrd.png" style="width: 350;height: 95;"><br>If your Workfront Proof administrator has set up any specific password requirements, they are listed at the top of the reset page.</li> 
-</ol>
+1. On the Dashboard, click `Change password`.  
+   ![Change_passowrd.png](assets/change-passowrd-350x95.png)  
+   If your Workfront Proof administrator has set up any specific password requirements, they are listed at the top of the reset page.
 
 ## About Advanced Password Settings
 

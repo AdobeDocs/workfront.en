@@ -19,11 +19,22 @@ We are continuously trying to improve our product. If you do wish to close your 
 
 You can contact us at support@proofhq.com with your comments; all feedback is welcome.
 
-<ol> 
- <li value="1"> <p>Open the Billing page in your account by opening the Settings menu and choosing <span class="bold">Billing</span> (1).<br></p> <p>For more information about the Billing page, see <a href="../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md" class="MCXref xref">The Workfront Proof Billing Page</a>.<br></p> <p> <img src="assets/upgradesdowngrades-billing-settings-350x168.png" style="width: 350;height: 168;"> </p> </li> 
- <li value="2"> <p>Click the <span class="bold">Close account</span> button (3).<br></p> <p> <img src="assets/billing---close-your-account-350x135.png" alt="Billing_-_close_your_account.png" style="width: 350;height: 135;"> </p> </li> 
- <li value="3">Select your reason for closing the account. (4)</li> 
- <li value="4"> <p>Confirm your decision by clicking <span class="bold">Save</span>. (5)<br></p> <p> <img src="assets/close-account---pop-up-350x262.png" alt="Close_Account_-_pop-up.png" style="width: 350;height: 262;"> </p> </li> 
- <li value="5"> <p>Enter your password to close your account. (6)<br></p> <p> <img src="assets/close-account---password-pop-up-350x152.png" alt="Close_Account_-_password_pop-up.png" style="width: 350;height: 152;"> </p> </li> 
-</ol>
+1. Open the Billing page in your account by opening the Settings menu and choosing `Billing` (1).
+
+   For more information about the Billing page, see [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+
+   ![](assets/upgradesdowngrades-billing-settings-350x168.png)
+
+1. Click the `Close account` button (3).
+
+   ![Billing_-_close_your_account.png](assets/billing---close-your-account-350x135.png)
+
+1. Select your reason for closing the account. (4)
+1. Confirm your decision by clicking `Save`. (5)
+
+   ![Close_Account_-_pop-up.png](assets/close-account---pop-up-350x262.png)
+
+1. Enter your password to close your account. (6)
+
+   ![Close_Account_-_password_pop-up.png](assets/close-account---password-pop-up-350x152.png)
 

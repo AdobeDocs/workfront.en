@@ -33,69 +33,70 @@ You must have the following to perform the steps in this article:
 
 ## Configure users’ access to edit users using a custom access level
 
-<ol> 
- <li value="1">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</li> 
- <li value="2">Click the gear icon <img src="assets/gear-icon-settings.png"> on the <span class="bold">View</span> or <span class="bold">Edit</span> button to the right of Teams, then select the abilities you want to grant under <b>Fine-tune your settings</b>.
-  <ol>
-   <li value="1"><p><b>View</b>: If you are configuring how users with any license can view teams, change any of the following options:</p>
-    <table cellspacing="0">
-     <col>
-     <col>
-     <tbody>
-      <tr>
-       <td role="rowheader">View teams associated with my groups</td>
-       <td>
-        <ul>
-         <li><p>Enabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p></li>
-         <li><p>Disabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p></li>
-        </ul></td>
-      </tr>
-      <tr>
-       <td role="rowheader"><b>View all teams</b></td>
-       <td><p>When this option is enabled and users look for teams in a Team type-ahead field, the users can see and select any team.</p><p>This option is enabled by default. </p></td>
-      </tr>
-     </tbody>
-    </table></li>
-   <li value="2"><p><b>Edit</b>: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:</p>
-    <table cellspacing="0">
-     <col>
-     <col>
-     <tbody>
-      <tr>
-       <td role="rowheader"><span class="bold">Create</span></td>
-       <td><p>Allows users with a Plan license or Work license to create teams.</p><p>This option is enabled by default.</p></td>
-      </tr>
-      <tr>
-       <td role="rowheader"><span class="bold">Delete</span></td>
-       <td><p> Allows users with a Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
-      </tr>
-      <tr>
-       <td role="rowheader"><span class="bold">Edit teams in groups I manage (Group Admins only)</span></td>
-       <td><p>Allows Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
-      </tr>
-      <tr>
-       <td role="rowheader"><span class="bold">Edit teams I'm on</span></td>
-       <td><p>Allows users Plan license or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
-      </tr>
-      <tr>
-       <td role="rowheader">View teams associated with my groups</td>
-       <td>
-        <ul>
-         <li><p>Enabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p></li>
-         <li><p>Disabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p></li>
-        </ul></td>
-      </tr>
-      <tr>
-       <td role="rowheader">View all teams</td>
-       <td><p>When this option is enabled and users look for teams in a Team type-ahead field, the users can see and select any team.</p><p>This option is enabled by default. </p></td>
-      </tr>
-     </tbody>
-    </table></li>
-  </ol></li> 
- <li value="3"> <p>Click the X to close the <span class="bold">Fine-tune your settings</span> box.</p> </li> 
- <li value="4"> <p>(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="">Grant access to financial data</a>.</p> </li> 
- <li value="5">When you are finished, click Save.</li> 
-</ol>
+1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Teams, then select the abilities you want to grant under **Fine-tune your settings**.
+
+  1. **View**: If you are configuring how users with any license can view teams, change any of the following options:
+
+     <table cellspacing="0">
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader">View teams associated with my groups</td>
+        <td>
+         <ul>
+          <li><p>Enabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p></li>
+          <li><p>Disabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p></li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td role="rowheader"><b>View all teams</b></td>
+        <td><p>When this option is enabled and users look for teams in a Team type-ahead field, the users can see and select any team.</p><p>This option is enabled by default. </p></td>
+       </tr>
+      </tbody>
+     </table>
+
+  1. **Edit**: If you are configuring how users with a Plan license and Work license can manage teams, change any of the following options:
+
+     <table cellspacing="0">
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader"><span class="bold">Create</span></td>
+        <td><p>Allows users with a Plan license or Work license to create teams.</p><p>This option is enabled by default.</p></td>
+       </tr>
+       <tr>
+        <td role="rowheader"><span class="bold">Delete</span></td>
+        <td><p> Allows users with a Plan license to delete the teams that they have access to edit (unavailable for users with a Work license).</p><p>This option is enabled by default.</p></td>
+       </tr>
+       <tr>
+        <td role="rowheader"><span class="bold">Edit teams in groups I manage (Group Admins only)</span></td>
+        <td><p>Allows Plan license users who are designated as group administrators to edit teams associated with the groups they manage.</p><p>This option is enabled by default.</p></td>
+       </tr>
+       <tr>
+        <td role="rowheader"><span class="bold">Edit teams I'm on</span></td>
+        <td><p>Allows users Plan license or Work license to edit teams where they are a member.</p><p>This option is disabled by default.</p></td>
+       </tr>
+       <tr>
+        <td role="rowheader">View teams associated with my groups</td>
+        <td>
+         <ul>
+          <li><p>Enabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups whether or not they are team members. </p></li>
+          <li><p>Disabled: When users look for teams in a Team type-ahead field, the users can see the teams associated with their groups only where they are team members</p><p>This option is enabled by default.</p></li>
+         </ul></td>
+       </tr>
+       <tr>
+        <td role="rowheader">View all teams</td>
+        <td><p>When this option is enabled and users look for teams in a Team type-ahead field, the users can see and select any team.</p><p>This option is enabled by default. </p></td>
+       </tr>
+      </tbody>
+     </table>
+
+1. Click the X to close the `Fine-tune your settings` box.
+1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. When you are finished, click Save.
 
 >[!NOTE]
 >

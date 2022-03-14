@@ -19,18 +19,18 @@ This article describes some of the key concepts that you need to know before sta
 
 Consider the following when budgeting resources using the Resource Planner:
 
-<ul style="list-style-type: circle;"> 
- <li> <p>You can budget the allocation of your resources by specifying an amount of Hours, FTE, or Cost that your resources can use to complete work on projects. When you budget time or cost for a resource, the Available Hours, FTE, or Cost for the resource decreases by the amount budgeted. As a result the Available Hours, FTE, or Cost amounts for the projects that follow the project for which you are budgeting decreases for those users and roles on those projects.</p> <note type="important">  You can budget your resources for a period of 15 years. If you budget resources for a project with a duration longer than 15 years the budgeting information might not be accurate. 
-  </note> </li> 
-</ul>
+* You can budget the allocation of your resources by specifying an amount of Hours, FTE, or Cost that your resources can use to complete work on projects. When you budget time or cost for a resource, the Available Hours, FTE, or Cost for the resource decreases by the amount budgeted. As a result the Available Hours, FTE, or Cost amounts for the projects that follow the project for which you are budgeting decreases for those users and roles on those projects.
 
-<ul style="list-style-type: circle;"> 
- <li> <p>You can budget Hours, FTE, or Cost for your resources for any time frame displayed in the Resource Planner, independent of the timeline of the project. For example, if you want to indicate that your resources might not be available during the timeline of the project (where they are associated with Planned Hours), but they might be available during another time, you can do so by budgeting them for time frames where the Planned Hours are zero, if that is when they become available to work. You can manually change the timeline of the project to match your resource availability after you do this.</p> <note type="note">
-    We recommend that you manually budget your Hours, FTE, or Cost for job roles or for users first. You can use the automatic options to budget time for your projects and resources only when you are sure that the amount of Planned Hours, FTE, or Cost should always match your Budgeted Hours, FTE, or Cost. 
-   <br>For information about using the automatic options for budgeting in the Resource Planner, see the section "Budget project and roles automatically" in the article 
-   <a href="../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md" class="MCXref xref">Review resource availability and allocation using the Resource Planner</a>.
-  </note> </li> 
-</ul>
+  >[!IMPORTANT]
+  >
+  >You can budget your resources for a period of 15 years. If you budget resources for a project with a duration longer than 15 years the budgeting information might not be accurate.
+
+* You can budget Hours, FTE, or Cost for your resources for any time frame displayed in the Resource Planner, independent of the timeline of the project. For example, if you want to indicate that your resources might not be available during the timeline of the project (where they are associated with Planned Hours), but they might be available during another time, you can do so by budgeting them for time frames where the Planned Hours are zero, if that is when they become available to work. You can manually change the timeline of the project to match your resource availability after you do this.
+
+  >[!NOTE]
+  >
+  >We recommend that you manually budget your Hours, FTE, or Cost for job roles or for users first. You can use the automatic options to budget time for your projects and resources only when you are sure that the amount of Planned Hours, FTE, or Cost should always match your Budgeted Hours, FTE, or Cost.   
+  >For information about using the automatic options for budgeting in the Resource Planner, see the section "Budget project and roles automatically" in the article [Review resource availability and allocation using the Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md).
 
 * Budgeting FTE or costs is identical with budgeting hours, where Adobe Workfront uses the FTE and cost values instead of hours for the resources you budget.
 

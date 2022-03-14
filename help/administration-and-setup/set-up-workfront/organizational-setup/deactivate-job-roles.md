@@ -42,19 +42,22 @@ You must have the following:
 
 If you deactivate a job role, it no longer displays in the following areas:
 
-<ul> 
- <li> <p>The Assignments typeahead field (for tasks, template tasks, issues, approvals, and routing rules)</p> </li> 
- <li> <p>The Assignments fields in lists and reports</p> </li> 
- <li> <p>User profiles</p> <note type="note">
-   When you add a new role to a user, a deactivated job role doesn't display. But it does continue to display in the Primary Role and Other Roles fields if the user was associated with the job role before it was deactivated.
-  </note> </li> 
- <li> <p>The Sharing dialog box for objects, including layout template assignment</p> </li> 
- <li> <p>Typeahead fields in custom forms</p> </li> 
- <li> <p>The Pool Members field in&nbsp;Resource Pools</p> </li> 
- <li> <p>The Job&nbsp;Role field of a Billing Rate edit screen when a user is overriding billing rates for projects</p> </li> 
- <li> <p>The Add assignment to Kanban board dialog box in a project</p> </li> 
- <li> <p>The Job&nbsp;Role field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner. </p> <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> </li> 
-</ul>
+* The Assignments typeahead field (for tasks, template tasks, issues, approvals, and routing rules)
+* The Assignments fields in lists and reports
+* User profiles
+
+  >[!NOTE]
+  >
+  >When you add a new role to a user, a deactivated job role doesn't display. But it does continue to display in the Primary Role and Other Roles fields if the user was associated with the job role before it was deactivated.
+
+* The Sharing dialog box for objects, including layout template assignment
+* Typeahead fields in custom forms
+* The Pool Members field in&nbsp;Resource Pools
+* The Job&nbsp;Role field of a Billing Rate edit screen when a user is overriding billing rates for projects
+* The Add assignment to Kanban board dialog box in a project
+* The Job&nbsp;Role field of a plan or an initiative when someone is using the Adobe Workfront Scenario Planner.
+
+  This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
@@ -70,18 +73,22 @@ It is better to deactivate rather than delete job roles that become obsolete so 
 
 We recommend that you do the following before deactivating an unused job role:
 
-<ul> 
- <li> <p>Build reports for any objects that are assigned to the role you plan to deactivate and reassign them to an active job role. For information about building reports, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md" class="MCXref xref">Create a report</a>. </p> <note type="tip">
-   You can create a report to filter for any tasks or issues where the deactivated role is assigned. Then use the report to reassign outstanding tasks or issues to an active role. 
-  </note> </li> 
- <li> <p>Take an inventory of all approval processes, current approval paths, and routing rules or other objects that are assigned to the job role you plan to deactivate and reassign them to an active role.</p> <note type="tip">
-   When using request queues, if you deactivate a job role assigned as the default assignee in a routing rule, the role remains and requests are still routed to the deactivated role. We recommend updating routing rules with active roles before you deactivate the team. 
-  </note> <p>For information about creating approval processes and routing rules, see the following articles:</p> 
-  <ul> 
-   <li> <p><a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a> </p> </li> 
-   <li> <p><a href="../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Create Routing Rules</a> </p> </li> 
-  </ul> </li> 
-</ul>
+* Build reports for any objects that are assigned to the role you plan to deactivate and reassign them to an active job role. For information about building reports, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+
+  >[!TIP]
+  >
+  >You can create a report to filter for any tasks or issues where the deactivated role is assigned. Then use the report to reassign outstanding tasks or issues to an active role.
+
+* Take an inventory of all approval processes, current approval paths, and routing rules or other objects that are assigned to the job role you plan to deactivate and reassign them to an active role.
+
+  >[!TIP]
+  >
+  >When using request queues, if you deactivate a job role assigned as the default assignee in a routing rule, the role remains and requests are still routed to the deactivated role. We recommend updating routing rules with active roles before you deactivate the team.
+
+  For information about creating approval processes and routing rules, see the following articles:
+
+  * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) 
+  * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Deactivate a job role
 

@@ -125,10 +125,11 @@ You can customize how your Workfront Proof pages are presented in the browsers b
 
 You can customize your own help links to point your users and reviewers to your own content. To activate this set the Help links option (13) to Enabled and add your links in the next fields (14). You can configure up to four&nbsp;links, and they will be available:
 
-<ul> 
- <li>in the Header menu under the Help link<br><img src="assets/help-links1-350x170.png" alt="Help_links1.png" style="width: 350;height: 170;"></li> 
- <li>in the Help panel of the Workfront Proof Viewer sidebar<br><img src="assets/help-links2-350x532.png" alt="Help_links2.png" style="width: 350;height: 532;"></li> 
-</ul>
+* in the Header menu under the Help link  
+  ![Help_links1.png](assets/help-links1-350x170.png)
+
+* in the Help panel of the Workfront Proof Viewer sidebar  
+  ![Help_links2.png](assets/help-links2-350x532.png)
 
 For an additional charge, customers on Enterprise plans also have the option to fully customize the following:
 

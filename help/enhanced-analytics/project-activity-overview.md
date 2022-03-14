@@ -21,11 +21,17 @@ The Project activity visualization shows an aggregate view of activities on the 
 
 Project activities display in different colors to summarize specific events in a project over a period of time:
 
-<ul> 
- <li> <p><span class="bold">Users logged in</span>: Purple boxes show that people assigned to the project logged in on that day. A darker shade indicates a higher number of people logging in.</p> <p> <img src="assets/project-activity-users-logged-in.png"> </p> </li> 
- <li> <p><span class="bold">Task status change</span>: Pink boxes show that people changed the status of a task for the project on that day. A darker shade indicates a higher number of task statuses changing.</p> <p> <img src="assets/project-activity-task-status-changes.png"> </p> </li> 
- <li> <p><span class="bold">Tasks completed</span>: Blue boxes show that people completed a task for the project. A darker shade indicates a higher number of tasks being completed.</p> <p> <img src="assets/project-activity-tasks-completed.png"> </p> </li> 
-</ul>
+* `Users logged in`: Purple boxes show that people assigned to the project logged in on that day. A darker shade indicates a higher number of people logging in.
+
+  ![](assets/project-activity-users-logged-in.png)
+
+* `Task status change`: Pink boxes show that people changed the status of a task for the project on that day. A darker shade indicates a higher number of task statuses changing.
+
+  ![](assets/project-activity-task-status-changes.png)
+
+* `Tasks completed`: Blue boxes show that people completed a task for the project. A darker shade indicates a higher number of tasks being completed.
+
+  ![](assets/project-activity-tasks-completed.png)
 
 Hovering over a box shows the exact number of times the action was completed in a given day. You can select a project to see a breakdown of these activities by each individual contributor on the project.
 
@@ -72,29 +78,56 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Project activity visualization
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> </li> 
- <li value="2"> <p>(Optional) To use a different date range, select new start and end dates from the date range filter.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </p> <p>For information on using the date range filter, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <note type="note">
-   If you select a date range for a period greater than 3 months, the Project activity visualization does not display any data.
-  </note> </li> 
- <li value="3"> <p>(Conditional) If you need to limit the project data set, select and apply the filters that you want to use.</p> <p>For more information on adding filters in Enhanced analytics, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.</p> </li> 
- <li value="4"> <p>(Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.</p> <p>All other visualizations update to the same date range and a timeframe filter is created.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </p> </li> 
- <li value="5"> <p>(Optional) To change how the projects are sorted, click the <b class="bold">Sort by</b> menu, then select a new sorting option:</p> 
-  <ul> 
-   <li> <p><span class="bold">A - Z</span> </p> </li> 
-   <li> <p><span class="bold">Z - A</span> </p> </li> 
-   <li> <p><span class="bold">Planned completion date</span> </p> </li> 
-   <li> <p><span class="bold">Planned start date</span> </p> </li> 
-  </ul> <p>All other visualizations on the page update to match your sorting selection.</p> </li> 
- <li value="6"> <p>(Conditional) If there are more than 50 projects in your data set, use the arrows in the bottom-left corner of the visualization to navigate from one group of 50 projects to the next.</p> <p>All other visualizations on the page update to match your page selection.</p> <p> <img src="assets/pagination-350x118.png" style="width: 350;height: 118;"> </p> </li> 
- <li value="7"> <p>Click a project in the visualization to see more details for the project.</p> <p>The list expands to display the activities of each individual contributor on the project.</p> </li> 
- <li value="8"> <p>Mouse over a box to see the date that users completed an action, as well as the number of times the action was completed for that day.</p> <p> <img src="assets/project-activity-activity-pop-up-350x137.png" style="width: 350;height: 137;"> </p> </li> 
- <li value="9"> <p>(Optional) To export the visualization data, click the <b>Export icon</b> <img src="assets/export.png"> in the top-right corner of the visualization, then select the export format:</p> 
-  <ul> 
-   <li> <p><b>Chart (PNG)</b> </p> </li> 
-   <li> <p><b>Data Table (XSLX)</b> </p> </li> 
-  </ul> </li> 
-</ol>
+1. Click the Main Menu icon , thenselect **Analytics**.
+1. (Optional) To use a different date range, select new start and end dates from the date range filter.
+
+   ![](assets/filters-select-date-range-350x344.png)
+
+   For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   >[!NOTE]
+   >
+   >If you select a date range for a period greater than 3 months, the Project activity visualization does not display any data.
+
+1. (Conditional) If you need to limit the project data set, select and apply the filters that you want to use.
+
+   For more information on adding filters in Enhanced analytics, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.
+
+1. (Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.
+
+   All other visualizations update to the same date range and a timeframe filter is created.
+
+   ![](assets/timeframe-filter-350x220.png)
+
+1. (Optional) To change how the projects are sorted, click the **Sort by** menu, then select a new sorting option:
+
+  * `A - Z` 
+  * `Z - A` 
+  * `Planned completion date` 
+  * `Planned start date`
+
+   All other visualizations on the page update to match your sorting selection.
+
+1. (Conditional) If there are more than 50 projects in your data set, use the arrows in the bottom-left corner of the visualization to navigate from one group of 50 projects to the next.
+
+   All other visualizations on the page update to match your page selection.
+
+   ![](assets/pagination-350x118.png)
+
+1. Click a project in the visualization to see more details for the project.
+
+   The list expands to display the activities of each individual contributor on the project.
+
+1. Mouse over a box to see the date that users completed an action, as well as the number of times the action was completed for that day.
+
+   ![](assets/project-activity-activity-pop-up-350x137.png)
+
+1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+
+  * **Chart (PNG)** 
+  * **Data Table (XSLX)**
 
 ## Video walk-through
 

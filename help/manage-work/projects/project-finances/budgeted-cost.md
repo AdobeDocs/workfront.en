@@ -43,8 +43,8 @@ Budgeted Cost = Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the
 
 You can view the following Budgeted Cost information in Workfront:
 
-<ul> 
- <li> <p>The Budgeted Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:</p> 
+* The Budgeted Cost as reflected in the Resource Budgeting area of the Business Case or the Resource Planner displays in the following areas of Workfront under the following names:
+
   <table cellspacing="15"> 
    <col> 
    <col> 
@@ -59,9 +59,7 @@ You can view the following Budgeted Cost information in Workfront:
     </tr> 
     <tr> 
      <td>Cost</td> 
-     <td> <p>Portfolio Optimizer</p> <note type="tip">
-       The total of all project Budgeted Cost values is the Budgeted Cost of the portfolio.
-      </note> </td> 
+     <td> <p>Portfolio Optimizer</p> <p>Tip: The total of all project Budgeted Cost values is the Budgeted Cost of the portfolio.</p> </td> 
     </tr> 
     <tr> 
      <td>Project Budgeted Cost</td> 
@@ -70,6 +68,5 @@ You can view the following Budgeted Cost information in Workfront:
       --> <p>Project report</p> <p>Project (Financial Data) report</p> <p>Task report</p> <p>Issue report</p> <p>Budgeted Hour report</p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
     </tr> 
    </tbody> 
-  </table> </li> 
-</ul>
+  </table>
 

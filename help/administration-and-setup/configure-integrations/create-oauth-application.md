@@ -62,109 +62,104 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
 
 ### Create an OAuth2 application using server authentication (JWT flow)
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
- <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
- <li value="4"> <p>In the window that appears, select <b>Server Authentication</b>.</p> </li> 
- <li value="5"> <p>Enter a name for the new application, such as "Workfront for ClientApp."</p> </li> 
- <li value="6"> <p>Click <b>Create</b>.</p> </li> 
- <li value="7"> <p>Fill in the fields for the new app.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Client ID</td> 
-     <td> <p>This field is automatically generated.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Client secret</td> 
-     <td> <p>This field is automatically generated</p> <note type="important"> 
-       <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> 
-       <p>If you lose this key, delete it and create a new Client Secret.</p> 
-       <ol> 
-        <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
-        <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
-       </ol> 
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Public Keys</td> 
-     <td> <p>Server to server apps use public and private keys for authentication. Do one of the following:</p> 
-      <ul> 
-       <li> <p>Click <b>Add a public key</b> and enter the public key from the other application.</p> </li> 
-       <li> <p>Click <b>Generate a public/private keypair</b>, then share the public key with the other application.</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>This is the same name that you gave the app. This field cannot be empty.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Enter a description for the integration.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="8"> <p>Click <b>Save</b>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. In the window that appears, select **Server Authentication**.
+1. Enter a name for the new application, such as "Workfront for ClientApp."
+1. Click **Create**.
+1. Fill in the fields for the new app.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Client ID</td> 
+      <td> <p>This field is automatically generated.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Client secret</td> 
+      <td> <p>This field is automatically generated</p> <p>Important:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
+        <ol> 
+         <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
+         <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
+        </ol> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Public Keys</td> 
+      <td> <p>Server to server apps use public and private keys for authentication. Do one of the following:</p> 
+       <ul> 
+        <li> <p>Click <b>Add a public key</b> and enter the public key from the other application.</p> </li> 
+        <li> <p>Click <b>Generate a public/private keypair</b>, then share the public key with the other application.</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td>This is the same name that you gave the app. This field cannot be empty.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Enter a description for the integration.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Save**.
 
 ### Create an OAuth2 application using user credentials (Authorization code flow)
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
- <li value="2"> <p>In the left navigation panel, click <b>System</b>, then select <b>OAuth Applications</b>.</p> </li> 
- <li value="3"> <p>Click <b>Create app integration</b>.</p> </li> 
- <li value="4"> <p>In the window that apears, select <b>User Authentication</b>.</p> </li> 
- <li value="5"> <p>Enter a name for the new OAuth2 application, such as "Workfront for ClientApp."</p> </li> 
- <li value="6"> <p>Click <b>Create</b>.</p> </li> 
- <li value="7"> <p>Fill in the fields for the new app.</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Client ID</td> 
-     <td> <p>This field is automatically generated.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Client secret</td> 
-     <td> <p>This field is automatically generated</p> <note type="important"> 
-       <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> 
-       <p>If you lose this key, delete it and create a new Client Secret.</p> 
-       <ol> 
-        <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
-        <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
-       </ol> 
-      </note> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Redirect URLs</td> 
-     <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
-       The path will be appended with the authorization code for access, and must have a protocol.
-      --></td> 
-    </tr> Absolute refresh token expiration Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire. Inactivity refresh token expiration Select the amount of time after which, if the user has not been active in your system, their refresh token expires. For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer. 
-    <tr> 
-     <td role="rowheader">Logo</td> 
-     <td>You can add a logo to make this app more identifiable. </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Name</td> 
-     <td>This is the same name that you gave the app. This field cannot be empty.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Description</td> 
-     <td>Enter a description for the integration.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">App Description URL</td> 
-     <td>This can be a link to an "About us" page or a page with more information about the integration.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="8"> <p>Click <b>Save</b>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. In the left navigation panel, click **System**, then select **OAuth Applications**.
+1. Click **Create app integration**.
+1. In the window that apears, select **User Authentication**.
+1. Enter a name for the new OAuth2 application, such as "Workfront for ClientApp."
+1. Click **Create**.
+1. Fill in the fields for the new app.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Client ID</td> 
+      <td> <p>This field is automatically generated.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Client secret</td> 
+      <td> <p>This field is automatically generated</p> <p>Important:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
+        <ol> 
+         <li value="1"> <p>Click the <b>Delete</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
+         <li value="2"> <p>Click <b>Add client secret</b> to generate a new Client Secret.</p> </li> 
+        </ol> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Redirect URLs</td> 
+      <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
+        The path will be appended with the authorization code for access, and must have a protocol.
+       --></td> 
+     </tr> Absolute refresh token expiration Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire. Inactivity refresh token expiration Select the amount of time after which, if the user has not been active in your system, their refresh token expires. For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer. 
+     <tr> 
+      <td role="rowheader">Logo</td> 
+      <td>You can add a logo to make this app more identifiable. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td>This is the same name that you gave the app. This field cannot be empty.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Enter a description for the integration.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">App Description URL</td> 
+      <td>This can be a link to an "About us" page or a page with more information about the integration.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Save**.
 
 For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
 

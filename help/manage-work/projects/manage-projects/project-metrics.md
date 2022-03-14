@@ -123,18 +123,37 @@ You can choose to look at task assignments for a project in the following catego
 
 You can interact with the charts in the Metrics area to look at different aspects of a chart or look more closely at the tasks and issues within a chart.
 
-<ol> 
- <li value="1"> <p>Go to the project you want to see metrics for.</p> </li> 
- <li value="2">In the left panel, click <span class="bold">Show More</span> to display more sections, then click <span class="bold">Metrics</span>.<br>The charts in the Metrics area display information for tasks by default.<br><img src="assets/metrics-section-350x298.png" style="width: 350;height: 298;"></li> 
- <li value="3">(Conditional) If a drop-down arrow displays on a chart, click the <span class="bold">Drop-down arrow</span> icon <img src="assets/dropdown-arrow.png"> on the chart and select the option you want from the menu.<br>For information on the options that appear in the menus on each chart, see the relevant section above.</li> 
- <li value="4"> <p>(Optional) To look more closely at tasks or issues for any metric on the page, do the following:</p> 
-  <ol> 
-   <li value="1"> <p>Click the element—such as tasks assigned to a specific user, issues with a high priority, or all overdue tasks—that you want to see details for.</p> <p>A list of tasks or issues displays.</p> <p> <img src="assets/completed-tasks-dialog-350x75.png" style="width: 350;height: 75;"> </p> </li> 
-   <li value="2"> <p>Use the arrows at the bottom of the list to locate the task or issue you want to look at.</p> <p>Or</p> <p>Select a specific number to display tasks or issues on a specific page.</p> <p> <img src="assets/pagination-300x152.png" style="width: 300;height: 152;"> </p> </li> 
-   <li value="3"> <p>Select a task or issue to view more details.</p> <p>The task or issue opens in a new tab.</p> </li> 
-  </ol> </li> 
- <li value="5"> <p>(Optional) To export the project metrics dashboard to a .png file, click the <span class="bold">Export</span> icon <img src="assets/export.png">, then select <span class="bold">Export as PNG</span> from the drop-down menu.</p> <note type="tip">
-   When you export the dashboard, the exported file includes only what currently displays in your viewport. To include certain things in the exported file, you may need to scroll up or down on the page or adjust your browser's zoom settings.
-  </note> </li> 
-</ol>
+1. Go to the project you want to see metrics for.
+1. In the left panel, click `Show More` to display more sections, then click `Metrics`.  
+   The charts in the Metrics area display information for tasks by default.  
+   ![](assets/metrics-section-350x298.png)
+
+1. (Conditional) If a drop-down arrow displays on a chart, click the `Drop-down arrow` icon ![](assets/dropdown-arrow.png) on the chart and select the option you want from the menu.  
+   For information on the options that appear in the menus on each chart, see the relevant section above.
+
+1. (Optional) To look more closely at tasks or issues for any metric on the page, do the following:
+
+  1. Click the element—such as tasks assigned to a specific user, issues with a high priority, or all overdue tasks—that you want to see details for.
+
+     A list of tasks or issues displays.
+
+     ![](assets/completed-tasks-dialog-350x75.png)
+
+  1. Use the arrows at the bottom of the list to locate the task or issue you want to look at.
+
+     Or
+
+     Select a specific number to display tasks or issues on a specific page.
+
+     ![](assets/pagination-300x152.png)
+
+  1. Select a task or issue to view more details.
+
+     The task or issue opens in a new tab.
+
+1. (Optional) To export the project metrics dashboard to a .png file, click the `Export` icon ![](assets/export.png), then select `Export as PNG` from the drop-down menu.
+
+   >[!TIP]
+   >
+   >When you export the dashboard, the exported file includes only what currently displays in your viewport. To include certain things in the exported file, you may need to scroll up or down on the page or adjust your browser's zoom settings.
 

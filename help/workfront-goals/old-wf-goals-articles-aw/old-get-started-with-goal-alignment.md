@@ -46,12 +46,13 @@ We recommend the following when aligning goals in Workfront Goals:
 
 Remember the following when aligning goals:
 
-<ul> 
- <li>A goal cannot contribute to more than one other goal at the same time. Although you can have multiple children goals aligned to the same parent goal, a child goal you can only have one parent. For information about parent and children goals, see <a href="../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md" class="MCXref xref" xrefformat="{para}">Align goals by connecting them in Adobe Workfront Goals</a>.</li> 
- <li> <p>A goal can have several aligned goals, as well as several activities and results. In addition, each child goal can have other activities and results that influence its progress as well as the progress of the parent goal. </p> <note type="tip">
-   Remember to keep this structure as simple as possible. 
-  </note> </li> 
- <li>As an individual contributor, we recommend that you contribute to your own goals which should be aligned to team, group, and company-level goals. Updating your own goals should update the progress on all other parent goals. </li> 
- <li>As a CEO or business manager, we recommend that you contribute to your goals, as well as update those assigned to teams, groups, and the company. </li> 
-</ul>
+* A goal cannot contribute to more than one other goal at the same time. Although you can have multiple children goals aligned to the same parent goal, a child goal you can only have one parent. For information about parent and children goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* A goal can have several aligned goals, as well as several activities and results. In addition, each child goal can have other activities and results that influence its progress as well as the progress of the parent goal.
+
+  >[!TIP]
+  >
+  >Remember to keep this structure as simple as possible.
+
+* As an individual contributor, we recommend that you contribute to your own goals which should be aligned to team, group, and company-level goals. Updating your own goals should update the progress on all other parent goals. 
+* As a CEO or business manager, we recommend that you contribute to your goals, as well as update those assigned to teams, groups, and the company.
 

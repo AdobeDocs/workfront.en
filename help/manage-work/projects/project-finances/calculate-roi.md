@@ -33,17 +33,20 @@ The following fields affect the ROI of a project:
 
 You can view the ROI value for a project in the following areas in Workfront:
 
-<ul> 
- <li>In the Portfolio Optimizer&nbsp;if the project is associated with a portfolio<br><note type="note">
-    The total of all project ROI values is the ROI of the portfolio.
-   <br>
-  </note>For information about the Portfolio Optimizer, see the article <a href="../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md" class="MCXref xref" xrefformat="{para}">Portfolio Optimizer overview</a>. <br></li> 
- <li>In the Project&nbsp;ROI field in the following lists and reports:&nbsp;
-  <ul>
-   <li><p>Project</p></li>
-   <li><p>Task</p></li>
-   <li><p>Issue</p></li>
-   <li><p>Project (Financial&nbsp;Data) </p></li>
-  </ul><p>For more information about building reports in Workfront, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref" xrefformat="{para}">Create a custom report</a>.<br></p></li> 
-</ul>
+* In the Portfolio Optimizer&nbsp;if the project is associated with a portfolio
+
+  >[!NOTE]
+  >
+  >The total of all project ROI values is the ROI of the portfolio.
+
+  For information about the Portfolio Optimizer, see the article [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).   
+
+* In the Project&nbsp;ROI field in the following lists and reports:&nbsp;
+
+  * Project
+  * Task
+  * Issue
+  * Project (Financial&nbsp;Data)
+
+  For more information about building reports in Workfront, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 

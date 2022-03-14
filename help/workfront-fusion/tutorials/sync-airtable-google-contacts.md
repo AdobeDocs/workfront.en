@@ -13,13 +13,16 @@ One of the many great features of Workfront Fusion is the ability to interconnec
 
 ## First: Add Google contacts
 
-<ol> 
- <li value="1">Create a new scenario in your dashboard.</li> 
- <li value="2">Add the Google Contacts Watch contacts module. </li> 
- <li value="3"> <p>In this module, to the right of the Connection field, click <span class="bold">Add</span>.</p> <p>When you are prompted to name your connection, you can enter whatever name you want. We recommend using a name, such as your Google email, that reminds you which Google account is associated with the connection.</p> <p> <img src="assets/create-new-scenario-350x154.png" style="width: 350;height: 154;"> </p> </li> 
- <li value="4">Click <span class="bold">Save</span>.</li> 
- <li value="5">In the window that displays, select the Google account you want to use and approve access for Workfront Fusion.</li> 
-</ol>
+1. Create a new scenario in your dashboard.
+1. Add the Google Contacts Watch contacts module. 
+1. In this module, to the right of the Connection field, click `Add`.
+
+   When you are prompted to name your connection, you can enter whatever name you want. We recommend using a name, such as your Google email, that reminds you which Google account is associated with the connection.
+
+   ![](assets/create-new-scenario-350x154.png)
+
+1. Click `Save`.
+1. In the window that displays, select the Google account you want to use and approve access for Workfront Fusion.
 
 ## Second: Add Airtable
 

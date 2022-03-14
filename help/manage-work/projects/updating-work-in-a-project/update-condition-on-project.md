@@ -57,20 +57,22 @@ For information about project conditions and how they are calculated based on Pr
 
 If you set your project's Condition Type to&nbsp;Manual instead of Progress Status, you can manually update the Condition of a project.
 
-<ol> 
- <li value="1">Go to the project for which you want to update the Condition. </li> 
- <li value="2"> <p> Click the Project Details section. </p> <p>  <br> </p> </li> 
- <li value="3">Ensure that the <span class="bold">Condition Type</span> field is set to <span class="bold">Manual</span>. </li> 
- <li value="4">In the <span class="bold">Condition</span> field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:
-  <ul>
-   <li><span class="bold">On&nbsp;Target</span></li>
-   <li><span class="bold">At Risk</span></li>
-   <li><p><span class="bold">In Trouble</span></p></li>
-  </ul><p>For more information about project conditions, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a>.</p><note type="note">
-   <span>Conditions can be customized for your environment, so you</span>
-   <span data-mc-edit-date="2019-06-18T10:07:04.7449325-04:00" data-mc-editor="alinawilson" data-mc-comment="Remove draft with 19.3 and add link to COurtney's article??" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-06-18T10:06:50.3739957-04:00">may</span>
-   <span> find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md" class="MCXref xref">Create or edit a custom condition</a>.</span>
-  </note></li> 
- <li value="5">Click <span class="bold">Save</span>.Click Save Changes.</li> 
-</ol>
+1. Go to the project for which you want to update the Condition. 
+1. Click the Project Details section.
+
+1. Ensure that the `Condition Type` field is set to `Manual`. 
+
+1. In the `Condition` field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:
+
+  * `On Target`
+  * `At Risk`
+  * `In Trouble`
+
+   For more information about project conditions, see [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+
+   >[!NOTE]
+   >
+   >`Conditions can be customized for your environment, so you` `may` ` find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).`
+
+1. Click `Save`.Click Save Changes.
 

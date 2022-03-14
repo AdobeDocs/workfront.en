@@ -119,12 +119,13 @@ Consider the following when working with filters in lists or reports:
 
   For information about granting access to Filters, Views, and Groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-<ul> 
- <li> <p>Your level of permissions to a filter determines how filters are saved. If you created the filter originally, you can save the changes, otherwise you are prompted to save a version of the filter that you are modifying.</p> <note type="tip">
-   Keep in mind if you make changes to a filter you have shared with others the changes impact them as well.
-  </note> </li> 
- <li>You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see <a href="../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md" class="MCXref xref">Share a filter, view, or grouping in Adobe Workfront</a>.</li> 
-</ul>
+* Your level of permissions to a filter determines how filters are saved. If you created the filter originally, you can save the changes, otherwise you are prompted to save a version of the filter that you are modifying.
+
+  >[!TIP]
+  >
+  >Keep in mind if you make changes to a filter you have shared with others the changes impact them as well.
+
+* You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Elements of a filter
 
@@ -163,17 +164,15 @@ A filter contains the following elements:
 
 Workfront has 2 filter operators that connect each filter statement:
 
-<ul> 
- <li> <p><span class="bold">AND</span>: When you join 2 filter statement by the AND&nbsp;operator you indicate that you want both filter statements to be met at the same time.</p> 
-  <div> 
-   <p>By default, the statements in a filter are joined by the AND&nbsp;operator.</p> 
-  </div> </li> 
- <li> <p><span class="bold">OR</span>: When you join 2 filter statements by the OR operator you indicate that you want either statement to be met.</p> 
-  <div> <note type="tip">
-    When changing your AND statements to OR statements, the number of the items in your report should increase.
-   </note> 
-  </div> </li> 
-</ul>
+* `AND`: When you join 2 filter statement by the AND&nbsp;operator you indicate that you want both filter statements to be met at the same time.
+
+  By default, the statements in a filter are joined by the AND&nbsp;operator.
+
+* `OR`: When you join 2 filter statements by the OR operator you indicate that you want either statement to be met.
+
+  >[!TIP]
+  >
+  >When changing your AND statements to OR statements, the number of the items in your report should increase.
 
 ## Filter modifiers
 

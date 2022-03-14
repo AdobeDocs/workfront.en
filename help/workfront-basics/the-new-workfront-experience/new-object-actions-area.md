@@ -84,11 +84,9 @@ In the new Adobe Workfront experience, the actions area is located next to the n
 
 Consider the following when using the new actions areas in the new Adobe Workfront experience:
 
-<ul> 
- <li> The area remains highly visible in the upper-left corner of the object page.</li> 
- <li>The area is smaller and less intrusive, as links have been replaced by icons.</li> 
- <li>The Favorites icon <img src="assets/favorites-icon-small.png"> has been added to the area for better visibility and accessibility.</li> 
-</ul>
+* The area remains highly visible in the upper-left corner of the object page.
+* The area is smaller and less intrusive, as links have been replaced by icons.
+* The Favorites icon ![](assets/favorites-icon-small.png) has been added to the area for better visibility and accessibility.
 
 ## Access requirements
 
@@ -127,15 +125,23 @@ For information on what options are available for an object, see [Actions areas 
 
 To access the actions area:
 
-<ol> 
- <li value="1"> <p>Go to an object that displays the new actions areas.</p> <p> <img src="assets/actions-area-new-icon-350x60.png" style="width: 350;height: 60;"> </p> </li> 
- <li value="2"> <p>(Optional) Click the <span class="bold">More</span> menu <img src="assets/more-icon.png">, then select the action that you want.</p> <p>For example, select <span class="bold">Edit</span> on a task to update the <span class="bold">Actual Start Date</span> in the <span class="bold">Edit Task</span> dialog.</p> <note type="note">
-   The options available in the More menu vary by object. For information on what is available for a specific object, see 
-   <a href="#examples" class="MCXref xref">Actions areas for objects in the new Adobe Workfront experience</a> in this article.
-  </note> </li> 
- <li value="3"> <p>(Optional) Click the <span class="bold">Favorites</span> icon <img src="assets/favorites-icon-small.png"> to add an object to your <span class="bold">Favorites</span> menu.</p> <p>To learn more about the Favorites menu, see <a href="../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md" class="MCXref xref">View and manage favorites</a>.</p> </li> 
- <li value="4"> <p>(Conditional) If you want to see a different version of a document, click the version drop-down menu <img src="assets/nwe-document-version-60x38.png" style="width: 60;height: 38;">, then select the version that you want to see.</p> </li> 
-</ol>
+1. Go to an object that displays the new actions areas.
+
+   ![](assets/actions-area-new-icon-350x60.png)
+
+1. (Optional) Click the `More` menu ![](assets/more-icon.png), then select the action that you want.
+
+   For example, select `Edit` on a task to update the `Actual Start Date` in the `Edit Task` dialog.
+
+   >[!NOTE]
+   >
+   >The options available in the More menu vary by object. For information on what is available for a specific object, see [Actions areas for objects in the new Adobe Workfront experience](#examples) in this article.
+
+1. (Optional) Click the `Favorites` icon ![](assets/favorites-icon-small.png) to add an object to your `Favorites` menu.
+
+   To learn more about the Favorites menu, see [View and manage favorites](../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).
+
+1. (Conditional) If you want to see a different version of a document, click the version drop-down menu ![](assets/nwe-document-version-60x38.png), then select the version that you want to see.
 
 ## Actions areas for objects in the new Adobe Workfront experience
 

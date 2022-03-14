@@ -46,15 +46,15 @@ There are a number of project fields that are&nbsp;not imported to or exported f
 
 These fields include but are not limited to the following:
 
-<ul> 
- <li>Document attachments</li> 
- <li>Custom fields (at the project or task levels)</li> 
- <li>Workfront notes</li> 
- <li>Issues</li> 
- <li>Negative lag in tasks with a Start/ Finish predecessor relationship (tasks are imported without the lag)</li> 
- <li>Assignments</li> 
- <li>Task Constraints<br><note type="note">
-    Because Constraints do not map between Microsoft Project and Workfront, ensure that there are predecessor relationships between the tasks. Otherwise, the Planned Start and Planned Completion Dates of the tasks might not accurate in the imported project.&nbsp;
-  </note></li> 
-</ul>
+* Document attachments
+* Custom fields (at the project or task levels)
+* Workfront notes
+* Issues
+* Negative lag in tasks with a Start/ Finish predecessor relationship (tasks are imported without the lag)
+* Assignments
+* Task Constraints
+
+  >[!NOTE]
+  >
+  >Because Constraints do not map between Microsoft Project and Workfront, ensure that there are predecessor relationships between the tasks. Otherwise, the Planned Start and Planned Completion Dates of the tasks might not accurate in the imported project.&nbsp;
 

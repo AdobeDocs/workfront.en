@@ -37,7 +37,16 @@ You must have the following in order to manage companies in Workfront:
 * You can build a company's organization chart by associating users with direct reports. Only users from the same company can be added as direct reports of another user from that company.
 * As a project manager, you can identify available resources within the same company.
 * You can keep information private between companies by choosing one or all of the following settings:
-* `<li> <p>Users from the same company can see each others’ requests.</p> <p>For more information about how a Workfront administrator can give similar access to requests based on users' company, see the section <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences" class="MCXref xref">Configure task and issues preferences for everyone in Workfront</a> in the article <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p> <p>For more information about how a group administrator can give similar access to requests based on users' company, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md" class="MCXref xref">Configure task and issue preferences for a group</a>.</p> </li>` `<li>Users can see only request queues that are associated with their companies. For more information about restricting visibility of a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md" class="MCXref xref">Provide access to request queues</a>.</li>` `<li>You can restrict users to only see users in their company or their company and the primary company. For information about the primary company functionality regarding user privacy, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>` `<li>Users can restrict updates they make on items to be visible by their company users only. For more information about making an update private to a company, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</li>`
+
+  * Users from the same company can see each others’ requests.
+
+    For more information about how a Workfront administrator can give similar access to requests based on users' company, see the section [Configure task and issues preferences for everyone in Workfront](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#changing-task-and-issue-preferences) in the article [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
+    For more information about how a group administrator can give similar access to requests based on users' company, see [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  
+  * Users can see only request queues that are associated with their companies. For more information about restricting visibility of a request queue, see [Provide access to request queues](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md).
+  * You can restrict users to only see users in their company or their company and the primary company. For information about the primary company functionality regarding user privacy, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  * Users can restrict updates they make on items to be visible by their company users only. For more information about making an update private to a company, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Create or edit a company in Workfront
 
@@ -47,42 +56,52 @@ By default, the company associated with your instance of Workfront is already cr
 
 To add or edit a company:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2"> Click <span class="bold">Companies</span>.</li> 
- <li value="3"> <p> If you are adding a company, click <span class="bold">New Company</span>.</p> <p>Or</p> <p>If you are editing an existing company, select the company, then click <span class="bold">Edit</span>.</p> </li> 
- <li value="4"> <p>Use the options that display to configure the following information:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Basic Info section</td> 
-     <td> 
-      <ul> 
-       <li> <p><b>Company Name</b>: Type a name for the company.</p> </li> 
-       <li> <p><b>Is Active</b>: When this option is enabled, users can find the company and attach it to projects that they create and edit. An inactive company cannot be attached to projects. This option is enabled by default.</p> </li> 
-       <li> <p><b>This is the Primary Company</b>: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.</p> <p>By modifying their access levels, you can restrict users to see other users:</p> 
-        <ul> 
-         <li>Only in their primary company</li> 
-         <li> <p>In their associated company and the primary company<br></p> <p>For information about the primary company functionality within users' access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p>You can have only one or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
-        </ul> </li> 
-       <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see Grant users administrative access to certain areas. Start typing the name of the group, then press Enter when it appears. When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see Group administrators and companies in this article. </li> 
-       <li> <p><b>Company Members</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
-      </ul> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Billing Rates section</td> 
-     <td> <p>You can override billing rates associated with your job roles at the company level. For information about creating job roles and associating them with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>For more information about overriding billing rates at the company level, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Override job role billing rates at the company level</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Custom Forms section</td> 
-     <td> <p>If there are fields that you want to add to your company that are not available in Workfront, you can build a Custom Form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating Custom Forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>. </p> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="5"> <p>If you are creating a new company, click <span class="bold">Create Company</span>.</p> <p>Or</p> <p>If you are editing an existing company, click <span class="bold">Save Changes</span>.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Companies`.
+1. If you are adding a company, click `New Company`.
+
+   Or
+
+   If you are editing an existing company, select the company, then click `Edit`.
+
+1. Use the options that display to configure the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Basic Info section</td> 
+      <td> 
+       <ul> 
+        <li> <p><b>Company Name</b>: Type a name for the company.</p> </li> 
+        <li> <p><b>Is Active</b>: When this option is enabled, users can find the company and attach it to projects that they create and edit. An inactive company cannot be attached to projects. This option is enabled by default.</p> </li> 
+        <li> <p><b>This is the Primary Company</b>: Assigns the company as your organization's primary company. The primary company typically represents your Workfront account where most of your users work.</p> <p>By modifying their access levels, you can restrict users to see other users:</p> 
+         <ul> 
+          <li>Only in their primary company</li> 
+          <li> <p>In their associated company and the primary company<br></p> <p>For information about the primary company functionality within users' access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p>You can have only one or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
+         </ul> </li> 
+        <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see Grant users administrative access to certain areas. Start typing the name of the group, then press Enter when it appears. When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see Group administrators and companies in this article. </li> 
+        <li> <p><b>Company Members</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Billing Rates section</td> 
+      <td> <p>You can override billing rates associated with your job roles at the company level. For information about creating job roles and associating them with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>For more information about overriding billing rates at the company level, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Override job role billing rates at the company level</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Custom Forms section</td> 
+      <td> <p>If there are fields that you want to add to your company that are not available in Workfront, you can build a Custom Form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating Custom Forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. If you are creating a new company, click `Create Company`.
+
+   Or
+
+   If you are editing an existing company, click `Save Changes`.
 
 ##  
 

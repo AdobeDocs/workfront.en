@@ -44,35 +44,34 @@ You must have the following to perform the steps in this article:
 
 ## Viewand configure a group’s event notifications
 
-<ol> (Conditional and optional) If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete System Event Notifications in the box above the list , start typing the group’s name in the box, then click it when it appears. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Setup . In the left panel, click Groups . Click the name of the top-level group. In the left menu, click Event notifications. In the list that displays, the Active column on the left shows which notifications are active (blue) and inactive (grey) for the group. 
- <li value="6"> <p>Do any of the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Activate or deactivate an unlocked event notification</td> 
-     <td> <p>Click the button in the <span class="bold">Active</span> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p>  
-      <ul> 
-       <li>If a button in the <span class="bold">Active</span> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can’t activate it<!--
-         or edit its email subject line
-        --> for their groups.</li> 
-       <li>If a button in the <span class="bold">Active</span> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <span class="bold" style="font-weight: normal;">deactivated for all users and</span> group administrators can activate it<!--
-         or edit its email subject line
-        --> for their groups.</li> 
-      </ul> 
-      <ul> 
-       <li>If a button in the <span class="bold">Active</span> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can’t deactivate it<!--
-         or edit its email subject line
-        --> for their groups.</li> 
-       <li>If a button in the <span class="bold">Active</span> column is blue and not dimmed <img src="assets/email-notification-enabled-unlocked.png">, the event notification is <span class="bold" style="font-weight: normal;">activated for all users and</span> group administrators can deactivate it<!--
-         or edit its email subject line
-        --> for their groups.</li> 
-      </ul> </td> 
-    </tr> <!--
-     Customize the email subject line of an event notification Click the name of the event notification. In the Event Notification box that displays, in the Email Subject Line box, change the text and fields, including custom fields, then click Update to save the new subject lines for your emails. Important: The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the Workfront database, see the Adobe Workfront API. For more information about customizing the email subject line of an event notification, see Customize email subjects for event notifications.
-    --> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Do any of the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Activate or deactivate an unlocked event notification</td> 
+      <td> <p>Click the button in the <span class="bold">Active</span> column to activate <img src="assets/email-notification-enabled-unlocked.png"> or deactivate <img src="assets/email-notification-disabled-unlocked.png"> it.</p> <p>For example, you could configure the top two Marketing group event notifications shown below that have been unlocked for groups.</p>  
+       <ul> 
+        <li>If a button in the <span class="bold">Active</span> column is grey and dimmed <img src="assets/email-notification-disabled-locked.png">, the event notification is deactivated for all users and group administrators can’t activate it<!--
+          or edit its email subject line
+         --> for their groups.</li> 
+        <li>If a button in the <span class="bold">Active</span> column is grey and not dimmed <img src="assets/email-notification-disabled-unlocked.png">, the event notification is <span class="bold" style="font-weight: normal;">deactivated for all users and</span> group administrators can activate it<!--
+          or edit its email subject line
+         --> for their groups.</li> 
+       </ul> 
+       <ul> 
+        <li>If a button in the <span class="bold">Active</span> column is blue and dimmed <img src="assets/email-notification-enabled-locked.png">, the event notification is activated for all users and group administrators can’t deactivate it<!--
+          or edit its email subject line
+         --> for their groups.</li> 
+        <li>If a button in the <span class="bold">Active</span> column is blue and not dimmed <img src="assets/email-notification-enabled-unlocked.png">, the event notification is <span class="bold" style="font-weight: normal;">activated for all users and</span> group administrators can deactivate it<!--
+          or edit its email subject line
+         --> for their groups.</li> 
+       </ul> </td> 
+     </tr> <!--
+      Customize the email subject line of an event notification Click the name of the event notification. In the Event Notification box that displays, in the Email Subject Line box, change the text and fields, including custom fields, then click Update to save the new subject lines for your emails. Important: The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the Workfront database, see the Adobe Workfront API. For more information about customizing the email subject line of an event notification, see Customize email subjects for event notifications.
+     --> 
+    </tbody> 
+   </table>
 

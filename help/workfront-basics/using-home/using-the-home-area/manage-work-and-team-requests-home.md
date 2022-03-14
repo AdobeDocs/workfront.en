@@ -51,20 +51,24 @@ You can select filters that display items that are ready for you to work on, or 
 
 This article describes how to use the filters in the Home area to view items that you are currently working on or might consider starting to work on.&nbsp;For information about all filters in the Home area, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-<ol> 
- <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
- <li value="2"> <p>Click the <span class="bold">Filter</span>  drop-down menu.</p> <p> <img src="assets/displaying-work-items-filter-350x348.png" style="width: 350;height: 348;"> </p> <p class="preview">  </p> </li> 
- <li value="3"> <p>Click either or both of the following options for tasks:</p> <p><span class="bold">Ready to Start:</span> Displays only tasks and issues that are ready to start. Both of the following statements must be true:</p> 
-  <ul> 
-   <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
-   <li> <p>The Planned Start Date of the tasks or issues is in the past or up to two weeks in the future.</p> </li> 
-  </ul> <p><b>Not Ready</b>: Displays only tasks and issues that are not yet ready to start. Either one of the following statements must be true:</p> 
-  <ul> 
-   <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
-   <li> <p>The tasks or issues have a Planned Start Date that is more than two weeks in the future.</p> </li> 
-  </ul> </li> 
- <li value="4"> <p>Click <span class="bold">Working On</span> under Tasks or Issues to display tasks and issues that you are currently working on. </p> </li> Click Requested under Issues to display issues that have been requested from you (you are assigned to them), but you have not accepted to work on yet. 
-</ol>
+1. Click the Main Menu in the upper-right corner, then click Home. 
+1. Click the `Filter`  drop-down menu.
+
+   ![](assets/displaying-work-items-filter-350x348.png)
+
+1. Click either or both of the following options for tasks:
+
+   `Ready to Start:` Displays only tasks and issues that are ready to start. Both of the following statements must be true:
+
+  * The tasks and their parents have no predecessors or task constraints preventing them from being worked on.
+  * The Planned Start Date of the tasks or issues is in the past or up to two weeks in the future.
+
+   **Not Ready**: Displays only tasks and issues that are not yet ready to start. Either one of the following statements must be true:
+
+  * The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.
+  * The tasks or issues have a Planned Start Date that is more than two weeks in the future.
+
+1. Click `Working On` under Tasks or Issues to display tasks and issues that you are currently working on.
 
 ## Access a team request
 
@@ -80,12 +84,10 @@ You can access a request assigned to your team directly from the Home area. For 
 
 ## Reassign a request
 
-<ol> 
- <li value="1"> Click the Main Menu in the upper-right corner, then click Home. </li> 
- <li value="2">In the <span class="bold">Work List</span> area, select the request you want to reassign.<br></li> Click on the Assignments widget and remove yourself from the request, then type the name of the user you want to reassign the request to. Tip: If the work request is still in the Ready to Start or Not Ready state, you can use the Reassign button in the More menu in the Work List. <note type="note">
-  If a task's status is changed to New or In Progress after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
- </note> 
-</ol>
+1. Click the Main Menu in the upper-right corner, then click Home. 
+1. In the `Work List` area, select the request you want to reassign.  
+
+1. If a task's status is changed to New or In Progress after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
 
 ## Reply to a request
 

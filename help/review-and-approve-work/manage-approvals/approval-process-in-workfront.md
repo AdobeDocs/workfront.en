@@ -67,13 +67,13 @@ For information about creating a system-level approval process or a group-level 
 
   * The entities associated with an approval process can be users, job roles, or teams. They are responsible for accepting and rejecting the approval.
 
-<ul> 
- <li>When you create a work item, it does not automatically have an approval process attached. You must attach one manually if you want to use one. For information about attaching an approval process to an item, see <a href="../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref" xrefformat="{para}">Associate a new or existing approval process with work</a>. </li> 
- <li> <p>The Workfront administrator or a user with administrative access to approval processes can create a system-level global approval processes for use throughout the system. A group administrator with administrative access to approval processes can create a group-level global approval process for use only by a certain group that they manage.</p> </li> 
- <li> <p>If you don't want to use a predefined system-level or group-level global approval process for a work item, you can create and attach a single-use approval process to it when you have Manage permissions to the object for which you want to attach the approval process.</p> <note type="note">
-   You can use a single-use approval process only once for the specific item for which it was created. You can associate global statuses as well as group-level statuses for single-use approval processes for projects, tasks, issues, templates, and template tasks.
-  </note> </li> 
-</ul>
+* When you create a work item, it does not automatically have an approval process attached. You must attach one manually if you want to use one. For information about attaching an approval process to an item, see [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md). 
+* The Workfront administrator or a user with administrative access to approval processes can create a system-level global approval processes for use throughout the system. A group administrator with administrative access to approval processes can create a group-level global approval process for use only by a certain group that they manage.
+* If you don't want to use a predefined system-level or group-level global approval process for a work item, you can create and attach a single-use approval process to it when you have Manage permissions to the object for which you want to attach the approval process.
+
+  >[!NOTE]
+  >
+  >You can use a single-use approval process only once for the specific item for which it was created. You can associate global statuses as well as group-level statuses for single-use approval processes for projects, tasks, issues, templates, and template tasks.
 
 ## The approval process workflow
 
@@ -98,16 +98,16 @@ For more information about statuses for work items, see the following articles:
 
 The following scenario illustrates how an approval process helps users approve work as a Workfront object progresses through a workflow of several steps in this order:
 
-<ol> 
- <li value="1"> <p>The Workfront administrator or a user with administrative access to Approval Processes creates an approval process for a project, task, or issue.</p> <note type="note">
-   You can attach project approval processes to a template, and task approval processes to a template task. After you do this, when someone uses the template to create a project, the approval process becomes a project or task approval process respectively. A single-use approval process attached to a template or template task remains a single-use approval process for projects and tasks.
-   <br>
-  </note> </li> 
- <li value="2"> <p>A user with Manage permission to the project, task or issue attaches the approval process to the item, or creates a single-use approval for the item. </p> </li> 
- <li value="3"> <p>A user assigned to the work item changes its status to the status that initiates the approval process and the approval process begins. (The person who created the approval process defined the relationship between the status and the approval process.)</p> </li> 
- <li value="4"> <p> The designated approvers receive a notification about the pending approval process and they review the work item.</p> </li> 
- <li value="5"> <p> The approval process ends after the designated approvers approve all steps of the process. Or, if they reject a step, the status is either reset to a predefined status, or an issue is created. (The person who created the approval process defined which of these automated steps happens after a rejection.) </p> </li> 
-</ol>
+1. The Workfront administrator or a user with administrative access to Approval Processes creates an approval process for a project, task, or issue.
+
+   >[!NOTE]
+   >
+   >You can attach project approval processes to a template, and task approval processes to a template task. After you do this, when someone uses the template to create a project, the approval process becomes a project or task approval process respectively. A single-use approval process attached to a template or template task remains a single-use approval process for projects and tasks.
+
+1. A user with Manage permission to the project, task or issue attaches the approval process to the item, or creates a single-use approval for the item. 
+1. A user assigned to the work item changes its status to the status that initiates the approval process and the approval process begins. (The person who created the approval process defined the relationship between the status and the approval process.)
+1. The designated approvers receive a notification about the pending approval process and they review the work item.
+1. The approval process ends after the designated approvers approve all steps of the process. Or, if they reject a step, the status is either reset to a predefined status, or an issue is created. (The person who created the approval process defined which of these automated steps happens after a rejection.)
 
 ` `**Example: **`` An advertising team has created a status called Ready for Printing and an approval process called Designer/ Copywriter Signoff that they associated with this status. This approval process is configured to:
 

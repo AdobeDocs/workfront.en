@@ -21,11 +21,17 @@ The Activity by team visualization shows activities that happen during a specifi
 
 The different activities display in different colors to summarize specific events over the filtered time period:
 
-<ul> 
- <li> <p><span class="bold">Users logged in</span>: Purple boxes show that people on the home team logged in on that day. A darker shade indicates a higher number of people logging in.</p> <p> <img src="assets/project-activity-users-logged-in.png"> </img> </p> </li> 
- <li> <p><span class="bold">Task status change</span>: Pink boxes show that people on the home team changed the status of a task on that day. A darker shade indicates a higher number of task statuses changing.</p> <p> <img src="assets/project-activity-task-status-changes.png"> </img> </p> </li> 
- <li> <p><span class="bold">Tasks completed</span>: Blue boxes show that people on the home team completed a task on that day. A darker shade indicates a higher number of tasks being completed.</p> <p> <img src="assets/project-activity-tasks-completed.png"> </img> </p> </li> 
-</ul>
+* `Users logged in`: Purple boxes show that people on the home team logged in on that day. A darker shade indicates a higher number of people logging in.
+
+  ![](assets/project-activity-users-logged-in.png)
+
+* `Task status change`: Pink boxes show that people on the home team changed the status of a task on that day. A darker shade indicates a higher number of task statuses changing.
+
+  ![](assets/project-activity-task-status-changes.png)
+
+* `Tasks completed`: Blue boxes show that people on the home team completed a task on that day. A darker shade indicates a higher number of tasks being completed.
+
+  ![](assets/project-activity-tasks-completed.png)
 
 Hovering over a box shows the exact number of times the action was completed in a given day. You can select a team to see a breakdown of these activities by each person on the home team.
 
@@ -72,22 +78,47 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Activity by team visualization
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> </li> 
- <li value="2"> <p>In the left panel, select <span class="bold">People</span>.</p> <p>  </p> </li> 
- <li value="3"> <p>(Optional) To use a different date range, select new start and end dates from the date range filter.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </img> </p> <p>For information on using the date range filter, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> </li> 
- <li value="4"> <p>(Conditional) If you haven't set your Team filter, add the Team filter and select each team that you want to see data for.</p> <p>For more information on adding filters in Enhanced analytics, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.</p> </li> 
- <li value="5"> <p>(Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.</p> <p>All other visualizations update to the same date range and a timeframe filter is created.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </img> </p> </li> 
- <li value="6"> <p>Click a team name<!--
-    or role
-   --> to see more details for activities completed by the home team.</p> <p>The list expands to display the activities of each person assigned to the home team.</p> </li> 
- <li value="7"> <p>Hover over a colored box to see the date when users completed an action, as well as the number of times the action was completed that day.</p> <p>Darker colors indicate higher activity.</p> <p> <img src="assets/activity-by-team-activity-pop-up-350x155.png" style="width: 350;height: 155;"> </p> </li> 
- <li value="8"> <p>(Optional) To export the visualization data, click the <b>Export</b> icon <img src="assets/export.png"> in the top-right corner of the visualization, then select the export format:</p> 
-  <ul> 
-   <li> <p><b>Chart (PNG)</b> </p> </li> 
-   <li> <p><b>Data Table (XSLX)</b> </p> </li> 
-  </ul> </li> 
-</ol>
+1. Click the Main Menu icon , thenselect **Analytics**.
+1. In the left panel, select `People`.
+
+1. (Optional) To use a different date range, select new start and end dates from the date range filter.
+
+   ![](assets/filters-select-date-range-350x344.png)
+
+   For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+1. (Conditional) If you haven't set your Team filter, add the Team filter and select each team that you want to see data for.
+
+   For more information on adding filters in Enhanced analytics, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.
+
+1. (Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.
+
+   All other visualizations update to the same date range and a timeframe filter is created.
+
+   ![](assets/timeframe-filter-350x220.png)
+
+1. Click a team name
+
+   <!--
+   or role
+   -->
+
+   to see more details for activities completed by the home team.
+
+   The list expands to display the activities of each person assigned to the home team.
+
+1. Hover over a colored box to see the date when users completed an action, as well as the number of times the action was completed that day.
+
+   Darker colors indicate higher activity.
+
+   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+
+1. (Optional) To export the visualization data, click the **Export** icon ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+
+  * **Chart (PNG)** 
+  * **Data Table (XSLX)**
 
 ## Video walk-through
 

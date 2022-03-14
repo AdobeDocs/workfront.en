@@ -56,19 +56,34 @@ For more information about approving project requests by building a project repo
 
 ## Review Requested Projects within a portfolio
 
-<ol> 
- <li value="1">Go to the portfolio whose requested projects you want to review.</li> 
- <li value="2"> ClickProjects in the left panel</li> 
- <li value="3"> <p> From the Filter drop-down menu, select Requested.</p> <p> Only projects with a status of Requested display in the list. </p> <p>&nbsp;In addition to having a Status of <span class="bold">Requested</span>, projects must be associated with the selected Portfolio to&nbsp;display in this list.</p> </li> 
- <li value="4">Click the name of a project in the list to open it.</li> 
- <li value="5"> Click Project Details in the left panel.</li> 
- <li value="6"> <p>Do either one of the following: </p> 
-  <ul> 
-   <li> <p> Click Business Case, then click Approve or Reject in the Business Case Summary area to approve or reject the Business Case.</p> <p> <img src="assets/approve-or-reject-business-case-350x563.png" alt="approve_or_reject_business_case.png" style="width: 350;height: 563;"> </p> <p>The project status is changed to <span class="bold">Approved</span> if the Business Case is approved.</p> <p>The project status is changed to <span class="bold">Rejected</span> if the Business case is rejected.</p> <note type="note">
-     There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.&nbsp;
-    </note> <p>Or</p> </li> 
-   <li> <p>Change the status of the project to any other status in the <span class="bold">Status</span> drop-down menu.</p> </li> 
-  </ul> <p>&nbsp;</p> </li> 
-</ol>
+1. Go to the portfolio whose requested projects you want to review.
+1. ClickProjects in the left panel
+1. From the Filter drop-down menu, select Requested.
+
+   Only projects with a status of Requested display in the list.
+
+   In addition to having a Status of `Requested`, projects must be associated with the selected Portfolio to&nbsp;display in this list.
+
+1. Click the name of a project in the list to open it.
+1. Click Project Details in the left panel.
+1. Do either one of the following:
+
+  * Click Business Case, then click Approve or Reject in the Business Case Summary area to approve or reject the Business Case.
+
+    ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
+
+    The project status is changed to `Approved` if the Business Case is approved.
+
+    The project status is changed to `Rejected` if the Business case is rejected.
+
+    >[!NOTE]
+    >
+    >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.&nbsp;
+
+    Or
+  
+  * Change the status of the project to any other status in the `Status` drop-down menu.
+
+   &nbsp;
 
 &nbsp;

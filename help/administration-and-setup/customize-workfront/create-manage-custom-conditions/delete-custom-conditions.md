@@ -35,15 +35,20 @@ You must have the following to perform the steps in this article:
 
 ## Delete a custom condition
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">Click <span class="bold">Project Preferences</span> > <span class="bold">Conditions</span>.<br></li> 
- <li value="3">Select the tab of the object type (<span class="bold">Project</span>, <span class="bold">Task</span>, or <span class="bold">Issue</span>) where the condition that you want to delete is located.</li> 
- <li value="4"> <p>Hover over the condition you want to delete, then click the <span class="bold">Delete</span> icon <img src="assets/delete.png"> that appears on the far right.</p> </li> 
- <li value="5">In the confirmation message that appears, click <span class="bold">Delete Condition</span>.<br></li> 
- <li value="6"> <p>In the <span class="bold">Delete Condition</span> box that appears, select a new condition in the drop-down list for all projects that were using the condition that you are deleting.</p> <p>Custom conditions are available in the drop-down list only if they equate with the same built-in condition as the one you are deleting. For example, if you are deleting a condition that equates with At Risk, only custom conditions that also equate with At Risk are available to select.</p> </li> 
- <li value="7">Click <span class="bold">Delete Condition</span>.</li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. Click `Project Preferences` > `Conditions`.  
+
+1. Select the tab of the object type ( `Project`, `Task`, or `Issue`) where the condition that you want to delete is located.
+
+1. Hover over the condition you want to delete, then click the `Delete` icon ![](assets/delete.png) that appears on the far right.
+1. In the confirmation message that appears, click `Delete Condition`.  
+
+1. In the `Delete Condition` box that appears, select a new condition in the drop-down list for all projects that were using the condition that you are deleting.
+
+   Custom conditions are available in the drop-down list only if they equate with the same built-in condition as the one you are deleting. For example, if you are deleting a condition that equates with At Risk, only custom conditions that also equate with At Risk are available to select.
+
+1. Click `Delete Condition`.
 
 >[!NOTE]
 >

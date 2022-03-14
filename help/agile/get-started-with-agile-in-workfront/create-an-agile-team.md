@@ -78,36 +78,37 @@ The following functionality supports this methodology:
 
 ## Create a new agile team
 
-<ol> Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Teams. Click the Switch Teams icon , then click Create New Team. 
- <li value="3"> <p>Specify the following information on the New Team dialog:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Team Name</span> </td> 
-     <td>Type a name for the new agile team.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">This is an Agile Team</span> </td> 
-     <td>Select this option to configure this new team to be an agile team.</td> 
-    </tr> Group Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list. Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow to list all of the teams that are assigned to the groups that they manage. 
-    <tr> 
-     <td role="rowheader"><span class="bold">Team Members</span> </td> 
-     <td>Begin typing the name of a user to be on the team, then select the name when it appears in the drop-down list.<br>Repeat this process to add multiple users to the team.<br>Because users can be on more than one team, they can be on both agile and non-agile teams.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Description</span> </td> 
-     <td>Type a description for the team.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="4"> <p>Click <span class="bold">Create</span>.</p> <p>For information on configuring an Agile team, see the following articles:</p> 
-  <ul> 
-   <li><a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a> </li> 
-   <li><a href="../../agile/get-started-with-agile-in-workfront/configure-scrum.md" class="MCXref xref">Configure Scrum</a> </li> 
-  </ul> </li> 
-</ol>
+1. Specify the following information on the New Team dialog:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Team Name</span> </td> 
+      <td>Type a name for the new agile team.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">This is an Agile Team</span> </td> 
+      <td>Select this option to configure this new team to be an agile team.</td> 
+     </tr> Group Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list. Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow to list all of the teams that are assigned to the groups that they manage. 
+     <tr> 
+      <td role="rowheader"><span class="bold">Team Members</span> </td> 
+      <td>Begin typing the name of a user to be on the team, then select the name when it appears in the drop-down list.<br>Repeat this process to add multiple users to the team.<br>Because users can be on more than one team, they can be on both agile and non-agile teams.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td>Type a description for the team.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click `Create`.
+
+   For information on configuring an Agile team, see the following articles:
+
+  * [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) 
+  * [Configure Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
 ## Convert an existing team into an agile team
 

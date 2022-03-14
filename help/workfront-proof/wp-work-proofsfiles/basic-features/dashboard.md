@@ -115,11 +115,11 @@ The Edit tags menu (1) lets you:
 
 This function lets you move proofs and files to one of your folders. To do this:
 
-<ol> 
- <li value="1">Select the tick box for the relevant item(s).</li> 
- <li value="2">Click <span class="bold">Move to</span> (3) and choose the relevant folder (4).</li> 
- <li value="3"> <p>Click <span class="bold">Save</span> (5).</p> <p> <img src="assets/move-to-350x297.png" style="width: 350;height: 297;"> </p> </li> 
-</ol>
+1. Select the tick box for the relevant item(s).
+1. Click `Move to` (3) and choose the relevant folder (4).
+1. Click `Save` (5).
+
+   ![](assets/move-to-350x297.png)
 
 ### More actions
 
@@ -187,10 +187,10 @@ In this section you'll find the quick links to:
 
 The overview section also displays pre-filtered information. These are:
 
-<ul> 
- <li>Proofs to manage - total number of active proofs owned by you and delegated to you </li> 
- <li> <p>Proofs awaiting decision - total number of active proofs that require your decisions </p> <p> <img src="assets/dashboard-overview-350x169.png" style="width: 350;height: 169;"> </p> </li> 
-</ul>
+* Proofs to manage - total number of active proofs owned by you and delegated to you 
+* Proofs awaiting decision - total number of active proofs that require your decisions
+
+  ![](assets/dashboard-overview-350x169.png)
 
 Here you can see right away how many proofs require immediate action from you or from your reviewers:
 
@@ -248,8 +248,8 @@ You can also go to an item's Details page by clicking opening the item's Actions
 
 To go to the Proof details page of that proof:
 
-<ol> 
- <li value="1">Click on the <span class="bold">Actions</span> menu (1). </li> 
- <li value="2"> <p>Select <span class="bold">View proof details</span> (2) from the dropdown menu.</p> <p> <img src="assets/accessing-the-proof-details-page-recent-activity-350x51.png" style="width: 350;height: 51;"> </p> </li> 
-</ol>
+1. Click on the `Actions` menu (1). 
+1. Select `View proof details` (2) from the dropdown menu.
+
+   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
 

@@ -16,15 +16,19 @@ You can build a report or a list in Adobe Workfront by using either the standard
 >
 >You can also expand the capabilities of calculated custom fields by using a version of text mode for custom fields. The syntax and rules for creating a calculated custom field are different than those you use in reports and lists. For information about adding a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-<ul> 
- <li> <p>Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see <a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Workfront Reports and Dashboards Learning Paths</a>.</p> </li> 
- <li> <p>We recommend that you use standard mode to ensure the reports you create remain intact when the Workfront software is updated. While text mode enables you to create more complex views, filters, and groupings, it is also more complicated to maintain and is not guaranteed when the Workfront software is updated.</p> </li> 
- <li> <p>We recommend that you always try to build all reporting elements in the standard interface and switch to the text mode builder only for few adjustments.</p> <note type="tip">
-   Using the standard builder gives you important building blocks and patterns of code that you can then use when modifying the code in text mode.
-  </note> </li> 
- <li> <p>There are a set of rules and a unique syntax that you must use in order to successfully build reports and lists in text mode. Make sure you are familiar with the Workfront syntax for text mode before you begin.</p> <p>For information about the syntax and rules for using text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Text mode syntax overview</a>.</p> </li> 
- <li> <p>After you customize a reporting element in text mode, you might either not be able to switch back to standard mode (in a view) or the code for the element you created might be deleted (in filters and groupings.) This is because not all fields that are supported in text mode are supported in standard mode.</p> </li> 
-</ul>
+* Before you start using text mode in your reports, we strongly recommend that you take our classes on advanced reporting, to gain a deeper understanding of our text mode language. For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).
+* We recommend that you use standard mode to ensure the reports you create remain intact when the Workfront software is updated. While text mode enables you to create more complex views, filters, and groupings, it is also more complicated to maintain and is not guaranteed when the Workfront software is updated.
+* We recommend that you always try to build all reporting elements in the standard interface and switch to the text mode builder only for few adjustments.
+
+  >[!TIP]
+  >
+  >Using the standard builder gives you important building blocks and patterns of code that you can then use when modifying the code in text mode.
+
+* There are a set of rules and a unique syntax that you must use in order to successfully build reports and lists in text mode. Make sure you are familiar with the Workfront syntax for text mode before you begin.
+
+  For information about the syntax and rules for using text mode, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+
+* After you customize a reporting element in text mode, you might either not be able to switch back to standard mode (in a view) or the code for the element you created might be deleted (in filters and groupings.) This is because not all fields that are supported in text mode are supported in standard mode.
 
 ## Standard Mode interface
 

@@ -56,13 +56,12 @@ To use Google Forms modules, you must have a Google account.
 
 In order to work with your form responses, the spreadsheet from your responses must be created.
 
-<ol> 
- <li value="1">Open your form.</li> 
- <li value="2">Go to the <span class="bold">Responses </span>tab.</li> 
- <li value="3">Click the <span class="bold">Create Spreadsheet</span> icon <img src="assets/spreadsheet-icon.png">. </li> 
- <li value="4">Select whether you want to create a new spreadsheet or an existing spreadsheet</li> 
- <li value="5">Click <span class="bold">Create</span>.</li> 
-</ol>
+1. Open your form.
+1. Go to the `Responses`tab.
+1. Click the `Create Spreadsheet` icon ![](assets/spreadsheet-icon.png). 
+
+1. Select whether you want to create a new spreadsheet or an existing spreadsheet
+1. Click `Create`.
 
 ## Google Forms modules and their fields
 

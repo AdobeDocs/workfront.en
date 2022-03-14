@@ -47,86 +47,106 @@ You must have the following access to perform the steps in this article:
 
 ## Add a new document
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2">Go to the work item where you want to upload a document. </li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png"> in the navigation bar. </li> 
- <li value="4">Click <span class="bold">New File</span> near the bottom of the plugin.</li> 
- <li value="5"> <p>Select the art board you wish to upload.</p> <note type="tip">
-   To select more than one art board, click and drag the mouse over the art boards you want.
-  </note> </li> 
- <li value="6">Choose the <span class="bold">Asset Type</span> from the drop-down menu:<br>
-  <table cellspacing="0">
-   <col>
-   <col>
-   <tbody>
-    <tr>
-     <td colspan="2" role="rowheader">Export Format</td>
-    </tr>
-    <tr>
-     <td role="rowheader">.png</td>
-     <td>The art board upoads as a .png to the work item's Documents tab in WorkfrontWork. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">.jpg</td>
-     <td>The art board uploads as a .jpg to the work item's Documents tab in Workfront. <br></td>
-    </tr>
-    <tr>
-     <td role="rowheader">.svg</td>
-     <td>The art board uploads as a .svg to the work item's Documents tab in Workfront. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">.pdf</td>
-     <td>The art board uploads as a .pdf to the work item's Documents tab in Workfront.</td>
-    </tr>
-   </tbody>
-  </table><note type="note">
-   If you add an approver, the art board uploads to Workfront as a Proof.
-  </note></li> 
- <li value="7">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
- <li value="8">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Go to the work item where you want to upload a document. 
+1. Click the `Document` icon ![](assets/documents.png) in the navigation bar. 
+
+1. Click `New File` near the bottom of the plugin.
+1. Select the art board you wish to upload.
+
+   >[!TIP]
+   >
+   >To select more than one art board, click and drag the mouse over the art boards you want.
+
+1. Choose the `Asset Type` from the drop-down menu:  
+
+   <table cellspacing="0">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td colspan="2" role="rowheader">Export Format</td>
+     </tr>
+     <tr>
+      <td role="rowheader">.png</td>
+      <td>The art board upoads as a .png to the work item's Documents tab in WorkfrontWork. </td>
+     </tr>
+     <tr>
+      <td role="rowheader">.jpg</td>
+      <td>The art board uploads as a .jpg to the work item's Documents tab in Workfront. <br></td>
+     </tr>
+     <tr>
+      <td role="rowheader">.svg</td>
+      <td>The art board uploads as a .svg to the work item's Documents tab in Workfront. </td>
+     </tr>
+     <tr>
+      <td role="rowheader">.pdf</td>
+      <td>The art board uploads as a .pdf to the work item's Documents tab in Workfront.</td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >If you add an approver, the art board uploads to Workfront as a Proof.
+
+1. (Optional) Type a comment in the `Updates` area. 
+1. Click `Upload`.  
+   The document appears in the Documents area in the plugin and the desktop app.
 
 ## Add a new version
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.<br></p> <p> <img src="assets/menu-350x627.png" style="width: 350;height: 627;"> <br> </p> </li> 
- <li value="2">Go to the work item where you want to upload a document. </li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png">in the navigation bar. </li> 
- <li value="4">Click on the document you want to add a new version to.</li> 
- <li value="5">Click <span class="bold">New version</span> near the bottom of the plugin.</li> 
- <li value="6"> <p>Select the art board you wish to upload.</p> <note type="note">
-   If you want to upload a new version of an svg, png, or jpg, you can upload only one art board.
-  </note> </li> 
- <li value="7">Choose the <span class="bold">Asset Type</span> from the drop-down menu:<br>
-  <table cellspacing="0">
-   <col>
-   <col>
-   <tbody>
-    <tr>
-     <td colspan="2" role="rowheader">Export Format</td>
-    </tr>
-    <tr>
-     <td role="rowheader">png</td>
-     <td>The art board upoads as a png to the work item's Documents tab in WorkfrontWork. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">jpg</td>
-     <td>The art board uploads as a jpg to the work item's Documents tab in Workfront. <br></td>
-    </tr>
-    <tr>
-     <td role="rowheader">svg</td>
-     <td>The art board uploads as a svg to the work item's Documents tab in Workfront. </td>
-    </tr>
-    <tr>
-     <td role="rowheader">pdf</td>
-     <td>The art board uploads as a pdf to the work item's Documents tab in Workfront.</td>
-    </tr>
-   </tbody>
-  </table><note type="note">
-   If you add an approver, the art board uploads to Workfront as a Proof.
-  </note></li> 
- <li value="8">(Optional) Type a comment in the <span class="bold">Updates</span> area. </li> 
- <li value="9">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/menu-350x627.png)
+
+1. Go to the work item where you want to upload a document. 
+1. Click the `Document` icon ![](assets/documents.png)in the navigation bar. 
+
+1. Click on the document you want to add a new version to.
+1. Click `New version` near the bottom of the plugin.
+1. Select the art board you wish to upload.
+
+   >[!NOTE]
+   >
+   >If you want to upload a new version of an svg, png, or jpg, you can upload only one art board.
+
+1. Choose the `Asset Type` from the drop-down menu:  
+
+   <table cellspacing="0">
+    <col>
+    <col>
+    <tbody>
+     <tr>
+      <td colspan="2" role="rowheader">Export Format</td>
+     </tr>
+     <tr>
+      <td role="rowheader">png</td>
+      <td>The art board upoads as a png to the work item's Documents tab in WorkfrontWork. </td>
+     </tr>
+     <tr>
+      <td role="rowheader">jpg</td>
+      <td>The art board uploads as a jpg to the work item's Documents tab in Workfront. <br></td>
+     </tr>
+     <tr>
+      <td role="rowheader">svg</td>
+      <td>The art board uploads as a svg to the work item's Documents tab in Workfront. </td>
+     </tr>
+     <tr>
+      <td role="rowheader">pdf</td>
+      <td>The art board uploads as a pdf to the work item's Documents tab in Workfront.</td>
+     </tr>
+    </tbody>
+   </table>
+
+   >[!NOTE]
+   >
+   >If you add an approver, the art board uploads to Workfront as a Proof.
+
+1. (Optional) Type a comment in the `Updates` area. 
+1. Click `Upload`.  
+   The document appears in the Documents area in the plugin and the desktop app.
 

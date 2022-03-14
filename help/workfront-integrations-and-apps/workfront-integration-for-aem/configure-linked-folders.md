@@ -63,22 +63,22 @@ You must have the following access to perform the steps in this article:
 
 ## Linked folder creation
 
-<ol> 
- <li value="1"> <p>Go to <span class="uitext">Projects </span>in Workfront and click on <span class="uitext">+ New Project</span>. Enter a name for your project.</p> </li> 
- <li value="2"> <p>At this point, if you reload the cloud services page, you'll see that there are now 3 active subscriptions:</p> 
-  <ol> 
-   <li value="1"> <p>For the creation of new projects.</p> </li> 
-   <li value="2"> <p>For updates in the project that you just created.</p> </li> 
-   <li value="3"> <p>For the case where you delete the project that you just created.</p> </li> 
-  </ol> </li> 
- <li value="3"> <p>Go to <span class="uitext">Project Details</span> tab of the new project and to <span class="uitext">Custom Forms</span> sub-tab.</p> </li> 
- <li value="4"> <p>Select <span class="uitext">Workfront Tools Project</span> form.</p> </li> 
- <li value="5"> <p>Edit it and select values for <span class="uitext">Project Type</span>, <span class="uitext">Project Tags</span> and <span class="uitext">Project asset types</span>. Select <span class="uitext">Yes </span>for <span class="uitext">Create DAM Linked Folder</span>. Leave AEM Folder URL empty (it will be populated later by an AEM workflow).</p> </li> 
- <li value="6"> <p>Also in <span class="uitext">Project Details</span> tab, go to <span class="uitext">Portfolio </span>sub-tab and add <span class="uitext">Default Portfolio</span>. Also set the Program to <span class="uitext">Test Program</span>.</p> </li> 
- <li value="7"> <p>Change the project status to whatever you selected in the configuration.</p> </li> 
- <li value="8"> <p>At this point, if you reload the cloud services page, you'll see that <span class="uitext">update </span>and <span class="uitext">delete </span>events are no longer there for your project. These events subscriptions are deleted once they are no longer useful</p> </li> 
- <li value="9"> <p>In your Workfront project, if you go to the <span class="uitext">Documents </span>tab, you'll see the linked folder with name <span class="uitext"><Portfolio>-<Program>-<Project Name>-Deliverables</span> or just <span class="uitext">Deliverables </span>(depending on the option for the checkbox in the cloud services).</p> </li> 
- <li value="10"> <p>You can try uploading documents into this folder or its sub-folder and check that the folder together with its content exists in AEM. Also check that the assets in AEM are identified with a small Workfront icon.</p> </li> 
- <li value="11"> <p>You should also check that the linked folder and the assets that were sent have project metadata in their properties.</p> <p> <img src="assets/project-linked-folders-350x257.png" style="width: 350;height: 257;"> </p> </li> 
-</ol>
+1. Go to `Projects`in Workfront and click on `+ New Project`. Enter a name for your project.
+1. At this point, if you reload the cloud services page, you'll see that there are now 3 active subscriptions:
+
+  1. For the creation of new projects.
+  1. For updates in the project that you just created.
+  1. For the case where you delete the project that you just created.
+
+1. Go to `Project Details` tab of the new project and to `Custom Forms` sub-tab.
+1. Select `Workfront Tools Project` form.
+1. Edit it and select values for `Project Type`, `Project Tags` and `Project asset types`. Select `Yes`for `Create DAM Linked Folder`. Leave AEM Folder URL empty (it will be populated later by an AEM workflow).
+1. Also in `Project Details` tab, go to `Portfolio`sub-tab and add `Default Portfolio`. Also set the Program to `Test Program`.
+1. Change the project status to whatever you selected in the configuration.
+1. At this point, if you reload the cloud services page, you'll see that `update`and `delete`events are no longer there for your project. These events subscriptions are deleted once they are no longer useful
+1. In your Workfront project, if you go to the `Documents`tab, you'll see the linked folder with name `<Portfolio>-<Program>-<Project Name>-Deliverables` or just `Deliverables`(depending on the option for the checkbox in the cloud services).
+1. You can try uploading documents into this folder or its sub-folder and check that the folder together with its content exists in AEM. Also check that the assets in AEM are identified with a small Workfront icon.
+1. You should also check that the linked folder and the assets that were sent have project metadata in their properties.
+
+   ![](assets/project-linked-folders-350x257.png)
 

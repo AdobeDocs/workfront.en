@@ -46,11 +46,17 @@ You must have the following access to perform the steps in this article:
 
 ## Access a pinned page
 
-<ol> 
- <li value="1"> <p>At the top of any page in the new Adobe Workfront experience, click the pinned page you want to view.</p> <note type="tip">
-   Hover over a pinned page to view the type of object (such as Project or Dashboard), the full name, and the description.
-  </note> <p>Or</p> <p>If you have many pages pinned, you might need to click the <span class="bold">More menu</span> <img src="assets/more-icon.png"> to view additional pinned pages.</p> <p>The pinned page displays.</p> </li> 
-</ol>
+1. At the top of any page in the new Adobe Workfront experience, click the pinned page you want to view.
+
+   >[!TIP]
+   >
+   >Hover over a pinned page to view the type of object (such as Project or Dashboard), the full name, and the description.
+
+   Or
+
+   If you have many pages pinned, you might need to click the `More menu` ![](assets/more-icon.png) to view additional pinned pages.
+
+   The pinned page displays.
 
 ## Reorder pinned pages
 

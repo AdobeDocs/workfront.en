@@ -45,11 +45,11 @@ You must have the following:
 
 ## View or download a linked asset
 
-<ol> 
- <li value="1"> <p>Locate the document that you want to view or download. </p> </li> 
- <li value="2"> <p>From the document list, select the document. </p> </li> 
- <li value="3"> <p>In the Document Summary on the right, hover over the thumbnail at the top and choose <span class="bold">Preview</span> or <span class="bold">Download</span>. </p> <p> <img src="assets/preview-or-download-350x107.png" style="width: 350;height: 107;"> </p> </li> 
-</ol>
+1. Locate the document that you want to view or download. 
+1. From the document list, select the document. 
+1. In the Document Summary on the right, hover over the thumbnail at the top and choose `Preview` or `Download`.
+
+   ![](assets/preview-or-download-350x107.png)
 
 &nbsp;
 

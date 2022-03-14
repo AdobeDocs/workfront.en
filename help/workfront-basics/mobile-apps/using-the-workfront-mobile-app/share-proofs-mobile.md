@@ -18,49 +18,53 @@ You can share a proof document with internal and external recipients directly fr
 
 This option sends an email with a unique proof link to a contact from Workfront Proof. You can add a new contact if needed.
 
-<ol> 
- <li value="1"> <p>Open the document proof and select the <span class="bold">More</span> menu <img src="assets/mobile-verticalmoremenu-20x33.png" style="width: 20;height: 33;" alt="More menu"> on the top right of the document. Then, select <span class="bold">More</span>.</p> </li> 
- <li value="2"> <p>Select <span class="bold">Share</span>.</p> </li> 
- <li value="3"> <p>Begin typing the contact name in the <span class="bold">Share with</span> box, and select the contact from the list.<br>If the person is not listed, type their email address in the <span class="bold">Share with</span> box and select <span class="bold">Add Recipient</span> to add them.</p> </li> 
- <li value="4"> <p>Select the <span class="bold">Proof Role</span> for the recipient.<br>For information on proof roles, see <a href="../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Proof Roles overview</a>.</p> </li> 
- <li value="5"> <p>Select the <span class="bold">Email Alerts</span> the recipient should receive.<br>For information on email alerts for proofs, see <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Change email alert settings for a proof in Workfront Proof</a> and <a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" class="MCXref xref">Configure email notification settings in Workfront Proof</a>.</p> <p> <img src="assets/mobile-shareproof-350x551.png" alt="Share screen" style="width: 350;height: 551;"> </img> </p> </li> 
- <li value="6"> <p>To add another recipient, repeat from step 3.</p> </li> 
- <li value="7"> <p>To choose a due date for all of the recipients to review the proof, select <span class="bold">Set deadline for new contacts</span>. Then, select a date on the calendar.</p> </li> 
- <li value="8"> <p>Select <img src="assets/mobile-send-icon-25x26.png" style="width: 25;height: 26;" alt="Send icon"> to send the email to the recipients.</p> </li> 
-</ol>
+1. Open the document proof and select the `More` menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the top right of the document. Then, select `More`.
+1. Select `Share`.
+1. Begin typing the contact name in the `Share with` box, and select the contact from the list.  
+   If the person is not listed, type their email address in the `Share with` box and select `Add Recipient` to add them.
+1. Select the `Proof Role` for the recipient.  
+   For information on proof roles, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+1. Select the `Email Alerts` the recipient should receive.  
+   For information on email alerts for proofs, see [Change email alert settings for a proof in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/change-email-alert-settings-wp.md) and [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+
+   ![Share screen](assets/mobile-shareproof-350x551.png)
+
+1. To add another recipient, repeat from step 3.
+1. To choose a due date for all of the recipients to review the proof, select `Set deadline for new contacts`. Then, select a date on the calendar.
+1. Select ![Send icon](assets/mobile-send-icon-25x26.png) to send the email to the recipients.
 
 ## Send a copy of the proof
 
 This option copies a link to your clipboard that you can paste into an email. Then, you can send the email with the proof link to an internal or external recipient.
 
-<ol> 
- <li value="1"> <p>Open the document proof and select the <span class="bold">More</span> menu <img src="assets/mobile-verticalmoremenu-20x33.png" style="width: 20;height: 33;" alt="More menu"> on the top right of the document. Then, select <span class="bold">More</span>.</p> </li> 
- <li value="2"> <p>Select <span class="bold">Send Copy</span>.</p> </li> 
- <li value="3"> <p>Select <span class="bold">Copy to clipboard</span>.</p> </li> 
- <li value="4"> <p>Open your email program and paste the proof link in the body of the email.</p> </li> 
- <li value="5"> <p>Send the email to the recipients you want to share the proof with.</p> </li> 
-</ol>
+1. Open the document proof and select the `More` menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the top right of the document. Then, select `More`.
+1. Select `Send Copy`.
+1. Select `Copy to clipboard`.
+1. Open your email program and paste the proof link in the body of the email.
+1. Send the email to the recipients you want to share the proof with.
 
 ## Share the proof with a public URL
 
 This option sends an email with a public proof link to a contact from Workfront Proof. You can add a new contact if needed. You can choose to send a public URL, a downloadable link, or both.
 
-<ol> 
- <li value="1"> <p>Open the document proof and select the <span class="bold">More</span> menu <img src="assets/mobile-verticalmoremenu-20x33.png" style="width: 20;height: 33;" alt="More menu"> on the top right of the document. Then, select <span class="bold">More</span>.</p> </li> 
- <li value="2"> <p>Select <span class="bold">Share with Public URL</span>.</p> </li> 
- <li value="3"> <p>Begin typing the contact name in the <span class="bold">Share with</span> box, and select the contact from the list.<br>If the person is not listed, type their email address in the <span class="bold">Share with</span> box and select <span class="bold">Add Recipient</span> to add them.<br>Repeat this step to add another recipient.<br></p> </li> 
- <li value="4"> <p>Select <span class="bold">Send Public Link</span> to allow recipients to open the proof document in Workfront Proof.</p> </li> 
- <li value="5"> <p>Select <span class="bold">Send Downloadable Link</span> to allow recipients to download the proof document.</p> <p> <img src="assets/mobile-sharepublicurl-proof-350x296.png" alt="Share with Public URL screen" style="width: 350;height: 296;"> </img> </p> </li> 
- <li value="6"> <p>Select <img src="assets/mobile-send-icon-25x26.png" style="width: 25;height: 26;" alt="Send icon"> to send the email to the recipients.</p> </li> 
-</ol>
+1. Open the document proof and select the `More` menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the top right of the document. Then, select `More`.
+1. Select `Share with Public URL`.
+1. Begin typing the contact name in the `Share with` box, and select the contact from the list.  
+   If the person is not listed, type their email address in the `Share with` box and select `Add Recipient` to add them.  
+   Repeat this step to add another recipient.  
+
+1. Select `Send Public Link` to allow recipients to open the proof document in Workfront Proof.
+1. Select `Send Downloadable Link` to allow recipients to download the proof document.
+
+   ![Share with Public URL screen](assets/mobile-sharepublicurl-proof-350x296.png)
+
+1. Select ![Send icon](assets/mobile-send-icon-25x26.png) to send the email to the recipients.
 
 ## Download the proof
 
 You can download a copy of the proof document to your mobile device.
 
-<ol> 
- <li value="1"> <p>Open the document proof and select the <span class="bold">More</span> menu <img src="assets/mobile-verticalmoremenu-20x33.png" style="width: 20;height: 33;" alt="More menu"> on the top right of the document. Then, select <span class="bold">More</span>.</p> </li> 
- <li value="2"> <p>Select <span class="bold">Download</span>.</p> </li> 
- <li value="3"> <p>Follow your device prompts to complete the download and open the document file.</p> </li> 
-</ol>
+1. Open the document proof and select the `More` menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the top right of the document. Then, select `More`.
+1. Select `Download`.
+1. Follow your device prompts to complete the download and open the document file.
 

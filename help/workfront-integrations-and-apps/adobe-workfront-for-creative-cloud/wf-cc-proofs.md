@@ -51,77 +51,113 @@ You must have the following access to perform the steps in this article:
 
 ## Upload a Proof
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
- <li value="2">Go to the work item where you want to upload a proof.</li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png"> in the navigation bar. </li> 
- <li value="4">Click <span class="bold">New File</span> near the bottom of the plugin.</li> 
- <li value="5">Choose the <span class="bold">Asset Type</span> from the drop-down menu.<br></li> 
- <li value="6"> <p>In the <b>Proof Approvals</b> section, choose one of the following:&nbsp;</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Add Approvers</span> </td> 
-     <td>Type the names of the users you want to tag for approval from the <span class="bold">Approvers</span> drop-down menu that appears.</td> 
-     <td> <img src="assets/copy-of-approvers-350x254.png" style="width: 350;height: 254;"> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Select proof workflow</span> </td> 
-     <td>Select the workflow from the <span class="bold">Workflow Template</span> drop-down menu that appears.</td> 
-     <td> <img src="assets/copy-of-template-350x250.png" style="width: 350;height: 250;"> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="7"> <p>(Optional) Type a comment in the <span class="bold">Updates</span> area.</p> </li> 
- <li value="8"> <p>Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</p> </li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. Go to the work item where you want to upload a proof.
+1. Click the `Document` icon ![](assets/documents.png) in the navigation bar. 
+
+1. Click `New File` near the bottom of the plugin.
+1. Choose the `Asset Type` from the drop-down menu.  
+
+1. In the **Proof Approvals** section, choose one of the following:&nbsp;
+
+   | `Add Approvers`  |Type the names of the users you want to tag for approval from the `Approvers` drop-down menu that appears. | ![](assets/copy-of-approvers-350x254.png)
+
+   |
+   |---|---|---|
+   | `Select proof workflow`  |Select the workflow from the `Workflow Template` drop-down menu that appears. | ![](assets/copy-of-template-350x250.png)
+
+   |
+
+1. (Optional) Type a comment in the `Updates` area.
+1. Click `Upload`.  
+   The document appears in the Documents area in the plugin and the desktop app.
 
 <!--
 Upload a Basic Proof
 -->
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
- <li value="2"> <!--
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. 
+
+   <!--
    Go to the work item where you want to upload a proof.
-  --> </li> 
- <li value="3"> <!--
+   -->
+
+1. 
+
+   <!--
    Click the Document icon in the navigation bar.
-  --> </li> 
- <li value="4"> <!--
+   -->
+
+1. 
+
+   <!--
    Click New File near the bottom of the plugin.
-  --> </li> 
- <li value="5"> <!--
+   -->
+
+1. 
+
+   <!--
    Enable the Create a proof toggle.
-  --> </li> 
- <li value="6"> <!--
+   -->
+
+1. 
+
+   <!--
    Choose the Asset Type from the drop-down menu.
-  --> <!--
-  --> </li> 
- <li value="7"> <!--
+   -->
+
+   <!--
+
+   -->
+
+1. 
+
+   <!--
    In the Proof Approvals section, select Basic.
-  --> </li> 
- <li value="8"> <!--
+   -->
+
+1. 
+
+   <!--
    (Optional) Add approvers.
-  --> </li> 
- <li value="9"> <!--
+   -->
+
+1. 
+
+   <!--
    (Optional) Type a comment in the Updates area.
-  --> <!--
-  --> </li> 
- <li value="10"> <!--
+   -->
+
+   <!--
+
+   -->
+
+1. 
+
+   <!--
    (Optional) Type a name for the proof in the Proof Name text box.
-  --> </li> <!--
-  (Optional) Select Add outside file to add a file from your computer.
- --> 
- <li value="12"> <!--
+   -->
+
+   <!--
+   (Optional) Select Add outside file to add a file from your computer.
+   -->
+
+1. 
+
+   <!--
    Click Upload.
-  --> <!--
+   -->
+
+   <!--
    The document appears in the Documents area in the plugin and the desktop app.
-  --> </li> 
-</ol>
+   -->
 
 <!--
 Upload an Automated Proof
@@ -135,31 +171,27 @@ Click the Menu icon in the top-right corner, then select Work List. You can also
 
 You can upload a new version of a proof. The plugin remembers the proofing workflow set on the previous version, but you can change this if you wish.
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
- <li value="2">Go to the work item you need to upload a document to.</li> 
- <li value="3">Click the <span class="bold">Document</span> icon <img src="assets/documents.png">in the navigation bar. </li> 
- <li value="4">Click <span class="bold">New Version</span> near the bottom of the plugin.</li> 
- <li value="5">Choose the <span class="bold">Asset Type</span> from the drop-down menu.<br></li> 
- <li value="6"> <p>In the <b>Proof Approvals</b> section, choose one of the following:&nbsp;</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Add Approvers</span> </td> 
-     <td>Type the names of the users you want to tag for approval from the <span class="bold">Approvers</span> drop-down menu that appears.</td> 
-     <td> <img src="assets/copy-of-approvers-350x254.png" style="width: 350;height: 254;"> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"><span class="bold">Select proof workflow</span> </td> 
-     <td>Select the workflow from the <span class="bold">Workflow Template</span> drop-down menu that appears.</td> 
-     <td> <img src="assets/copy-of-template-350x250.png" style="width: 350;height: 250;"> </td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
- <li value="7"> <p>(Optional) Type a comment in the <span class="bold">Updates</span> area.</p> </li> 
- <li value="8">Click <span class="bold">Upload</span>.<br>The document appears in the Documents area in the plugin and the desktop app.</li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. Go to the work item you need to upload a document to.
+1. Click the `Document` icon ![](assets/documents.png)in the navigation bar. 
+
+1. Click `New Version` near the bottom of the plugin.
+1. Choose the `Asset Type` from the drop-down menu.  
+
+1. In the **Proof Approvals** section, choose one of the following:&nbsp;
+
+   | `Add Approvers`  |Type the names of the users you want to tag for approval from the `Approvers` drop-down menu that appears. | ![](assets/copy-of-approvers-350x254.png)
+
+   |
+   |---|---|---|
+   | `Select proof workflow`  |Select the workflow from the `Workflow Template` drop-down menu that appears. | ![](assets/copy-of-template-350x250.png)
+
+   |
+
+1. (Optional) Type a comment in the `Updates` area.
+1. Click `Upload`.  
+   The document appears in the Documents area in the plugin and the desktop app.
 

@@ -17,12 +17,15 @@ As part of resource planning, you can budget the job roles necessary for complet
 
 You must associate job roles with the project before you can budget the resources for it. The following are ways of allocating job roles to a project:
 
-<ul> 
- <li> <p>Use the Resource Planner to apply Resource Pools to the project and budget job roles. </p> <p>For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Resource Planner</a>. </p> </li> 
- <li class="preview"> <p>Use the Scenario Planner to create initiatives with required job roles and link them to the project. For more information, see <a href="../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md" class="MCXref xref">Budget resources in the Business Case using the Adobe Workfront Scenario Planner</a>. </p> <note type="note"> 
-   <p>This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p> 
-  </note> </li> 
-</ul>
+* Use the Resource Planner to apply Resource Pools to the project and budget job roles.
+
+  For more information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md). 
+
+* Use the Scenario Planner to create initiatives with required job roles and link them to the project. For more information, see [Budget resources in the Business Case using the Adobe Workfront Scenario Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+
+  >[!NOTE]
+  >
+  >This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
 ##
 

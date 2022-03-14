@@ -62,9 +62,9 @@ For information about adding activities to goals, see [Add activities to goals i
 
 Consider the following when associating activities with your goals:
 
-<ul> 
- <li> <p>They answer the question, “What will&nbsp;I achieve when the goal is complete?” </p> </li> 
- <li> <p>You can associate the following activities with goals:</p> 
+* They answer the question, “What will&nbsp;I achieve when the goal is complete?” 
+* You can associate the following activities with goals:
+
   <table cellspacing="0"> 
    <col> 
    <col> 
@@ -78,8 +78,7 @@ Consider the following when associating activities with your goals:
      <td> <p>Existing projects that you have at least permissions to View and are not in a status of Dead. They are updated automatically, based on the progress of their work items. </p> <p>The projects must exist before associating them with the goal. You can associate a project with multiple goals. For information about adding projects to goals, see <a href="../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md" class="MCXref xref">Overview of connecting projects to goals in Adobe Workfront Goals</a>.</p> </td> 
     </tr> 
    </tbody> 
-  </table> </li> 
-</ul>
+  </table>
 
 For more information about results and activities, see the list of similarities between results and activities in the [Similarities between results, activities, and projects](#similarities) section in this article.
 

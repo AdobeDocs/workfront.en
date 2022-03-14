@@ -58,13 +58,20 @@ By default, the availability and allocation information is displayed in Hours in
 
 To display Available, Planned, and Budgeted information by Cost in the Resource Planner:
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li> 
- <li value="2"> Click Resourcing. </li> 
- <li value="3">Go to the . </li> 
- <li value="4">(Conditional) Select <span class="bold">View by Project</span> or <span class="bold">View by Role</span>.<br>By default <span class="bold">View by Project</span> is selected.<br>The allocation and availability information displays in Hours.</li> 
- <li value="5"> <p>From the <span class="bold">Hours</span> drop-down menu, select <span class="bold">Cost</span>.</p> <p>If you do not have access to Financial Data in your access level, this option is not available.<br>If projects have a different currency than the system currency the Cost for these projects displays in the Resource Planner converted in the currency of the system. Your system administrator defines the system currency.<br>For more information about setting up the system currency in Workfront and conversion rates, see <a href="../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">Set up exchange rates</a>.<br><img src="assets/costs-in-the-planner-with-no-budgeting-350x240.png" alt="costs_in_the_planner_with_no_budgeting.png" style="width: 350;height: 240;"></p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click Resourcing. 
+1. Go to the . 
+1. (Conditional) Select `View by Project` or `View by Role`.  
+   By default `View by Project` is selected.  
+   The allocation and availability information displays in Hours.
+
+1. From the `Hours` drop-down menu, select `Cost`.
+
+   If you do not have access to Financial Data in your access level, this option is not available.  
+   If projects have a different currency than the system currency the Cost for these projects displays in the Resource Planner converted in the currency of the system. Your system administrator defines the system currency.  
+   For more information about setting up the system currency in Workfront and conversion rates, see [Set up exchange rates](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).  
+   ![costs_in_the_planner_with_no_budgeting.png](assets/costs-in-the-planner-with-no-budgeting-350x240.png)
 
 ## Calculate Available Cost in the Resource Planner
 

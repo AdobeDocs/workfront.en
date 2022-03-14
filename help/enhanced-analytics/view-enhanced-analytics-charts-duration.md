@@ -19,20 +19,22 @@ If your teams do not use planned hours, you can select a duration view of the pr
 
 In Enhanced analytics, the duration of a project is calculated by the following formulas:
 
-<ul> 
- <li> <p>Planned Timeframe: <code>Planned Completion Date of the project - Start Date of the project</code></p> </li> 
- <li> <p>Days Worked: <code>Planned Duration for tasks completed in the selected date range / Typical hours per work day</code></p> <note type="note">
-   8 hours is the default number for 
-   <b>Typical hours per work day</b>. An Adobe Workfront administrator can update the 
-   <b>Typical hours per work day</b> setting under 
-   <b>Setup</b> > 
-   <b>Project Preferences</b> > 
-   <b>Projects</b> > 
-   <b>Timelines</b>.
-   <br>To learn more, see 
-   <a href="../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.
-  </note> </li> 
-</ul>
+* Planned Timeframe: 
+
+  ```
+  Planned Completion Date of the project - Start Date of the project
+  ```
+
+* Days Worked: 
+
+  ```
+  Planned Duration for tasks completed in the selected date range / Typical hours per work day
+  ```
+
+  >[!NOTE]
+  >
+  >8 hours is the default number for **Typical hours per work day**. An Adobe Workfront administrator can update the **Typical hours per work day** setting under **Setup** > **Project Preferences** > **Projects** > **Timelines**.  
+  >To learn more, see [Configure system-wide project preferences](../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 For information on Planned Duration, see [Overview of project Duration](../manage-work/projects/planning-a-project/project-duration.md).
 
@@ -71,32 +73,52 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Burndown visualization by duration
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> <note type="tip">
-   If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.
-   <br>For example, the URL changes to "company.my.workfront.com/analytics" in the address bar.
-  </note> </li> 
- <li value="2"> <p>In the <b>Flight plan</b> or <b>Project treemap</b> visualization, select a project.</p> <p>The <b>Burndown</b> visualization for that project opens.</p> </li> 
- <li value="3"> <p>In the Burndown visualization, click the drop-down arrow, then select <b>duration</b>.</p> <p> <img src="assets/duration-selection-burndown.png"> </p> <p>The Y axis changes from Hours to Days.</p> </li> 
- <li value="4"> <p>Select any point on the visualization to display information for that day.</p> <p>This displays the columns Tasks and Days, which contain information about changes to tasks and their duration (in days) for the selected day.</p> </li> 
-</ol>
+1. Click the Main Menu icon , thenselect **Analytics**.
+
+   >[!TIP]
+   >
+   >If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.  
+   >For example, the URL changes to "company.my.workfront.com/analytics" in the address bar.
+
+1. In the **Flight plan** or **Project treemap** visualization, select a project.
+
+   The **Burndown** visualization for that project opens.
+
+1. In the Burndown visualization, click the drop-down arrow, then select **duration**.
+
+   ![](assets/duration-selection-burndown.png)
+
+   The Y axis changes from Hours to Days.
+
+1. Select any point on the visualization to display information for that day.
+
+   This displays the columns Tasks and Days, which contain information about changes to tasks and their duration (in days) for the selected day.
 
 ![](assets/duration-burndown-350x112.png)
 
 ## View the Project treemap visualization by duration
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> <note type="tip">
-   If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.
-   <br>For example, the URL changes to "company.my.workfront
-   <span>.com</span>/analytics" in the address bar.
-  </note> </li> 
- <li value="2"> <p>In the <b>Project treemap</b> visualization, click the drop-down arrow, then select <b>duration</b>.</p> <p> <img src="assets/duration-selection-treemap-321x191.png" style="width: 321;height: 191;"> </p> <p>The numbers listed in the boxes change from hours to days.</p> </li> 
- <li value="3"> <p>(Optional) Hover over a project to see more details, including this duration-specific information:</p> 
-  <ul> 
-   <li> <p><b>Planned Timeframe</b>: The number of days planned to complete the project.</p> </li> 
-   <li> <p><b>Days Worked</b>: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.</p> </li> 
-  </ul> <p> <img src="assets/duration-treemap-350x159.png" style="width: 350;height: 159;"> </p> </li> 
- <li value="4"> <p>(Optional) Select a project to open the <b>Burndown</b> visualization.</p> <p>To learn about the duration view for the Burndown visualization, see <a href="#view" class="MCXref xref">View the Burndown visualization by duration</a>.</p> </li> 
-</ol>
+1. Click the Main Menu icon , thenselect **Analytics**.
+
+   >[!TIP]
+   >
+   >If you don't see Analytics in the Main Menu and you know you have the appropriate access, modify the URL by adding "analytics" to it.  
+   >For example, the URL changes to "company.my.workfront `.com`/analytics" in the address bar.
+
+1. In the **Project treemap** visualization, click the drop-down arrow, then select **duration**.
+
+   ![](assets/duration-selection-treemap-321x191.png)
+
+   The numbers listed in the boxes change from hours to days.
+
+1. (Optional) Hover over a project to see more details, including this duration-specific information:
+
+  * **Planned Timeframe**: The number of days planned to complete the project.
+  * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
+
+   ![](assets/duration-treemap-350x159.png)
+
+1. (Optional) Select a project to open the **Burndown** visualization.
+
+   To learn about the duration view for the Burndown visualization, see [View the Burndown visualization by duration](#view).
 

@@ -22,7 +22,9 @@ When creating approval processes for project, task, and issue approvals, the fol
   Prior to this change, you could include multiple approvers of the same type only. For example, you could include multiple job roles, but not a job role and a team.
 
 * The following pre-existing limitations related to modifying existing global approval processes have been removed:
-* `<li>The modified approval process is&nbsp;reflected only on objects throughout the system where the approval process has either not yet started or where the approval process has not been modified. Objects where the approval process is already started or where the approval process has been modified are not updated with your changes.</li>` `<li>You cannot modify the status that determines when the approval starts.</li>` 
+
+  * The modified approval process is&nbsp;reflected only on objects throughout the system where the approval process has either not yet started or where the approval process has not been modified. Objects where the approval process is already started or where the approval process has been modified are not updated with your changes.
+  * You cannot modify the status that determines when the approval starts.
 
 * Updated look and feel.
 

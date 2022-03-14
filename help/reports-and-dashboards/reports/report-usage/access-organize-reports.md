@@ -59,29 +59,27 @@ You can use folders to organize the reports that you create. You cannot organize
 
 ### Create a new folder for reports
 
-<ol> 
- <li value="1"> From the Main Menu , click Reports. </li> 
- <li value="2">Click the <span class="bold">New Folder</span> icon.<br></li> 
- <li value="3">Specify a name for the new folder, then press Enter.</li> 
- <li value="4">From the <span class="bold">My Reports</span> folder, add reports to the new folder.<br>For information about adding a report to a new folder, see the <a href="#adding-reports-to-a-folder" class="MCXref xref">Add reports to a folder</a> section in this article.<br><note type="note">
-    You can only add new folders to the 
-   <span class="bold">My Reports</span> folder. You cannot add new folders or reports to the 
-   <span class="bold">Shared with Me</span> or 
-   <span class="bold">All Reports</span> folders.
-  </note></li> 
-</ol>
+1. From the Main Menu , click Reports. 
+1. Click the `New Folder` icon.  
+
+1. Specify a name for the new folder, then press Enter.
+1. From the `My Reports` folder, add reports to the new folder.  
+   For information about adding a report to a new folder, see the [Add reports to a folder](#adding-reports-to-a-folder) section in this article.
+
+   >[!NOTE]
+   >
+   >You can only add new folders to the `My Reports` folder. You cannot add new folders or reports to the `Shared with Me` or `All Reports` folders.
 
 ### Add reports to a folder
 
-<ol> 
- <li value="1"> From the Main Menu , click Reports. </li> 
- <li value="2">Click <span class="bold">My Reports</span>.<br>Or<br>Click any folder nested under the <span class="bold">My Reports</span> folder.</li> 
- <li value="3">Drag a report from the report list into the folder where you want it to reside, and drop it when you reach the folder.<br><note type="note">
-   You can only move reports from the 
-   <span class="bold">My Reports</span> folder to other folders nested under 
-   <span class="bold">My Reports</span>. You cannot move reports from or to the 
-   <span class="bold">Shared with Me</span> or 
-   <span class="bold">All Reports</span> folder to or from other folders.
-  </note><br></li> 
-</ol>
+1. From the Main Menu , click Reports. 
+1. Click `My Reports`.  
+   Or  
+   Click any folder nested under the `My Reports` folder.
+
+1. Drag a report from the report list into the folder where you want it to reside, and drop it when you reach the folder.
+
+   >[!NOTE]
+   >
+   >You can only move reports from the `My Reports` folder to other folders nested under `My Reports`. You cannot move reports from or to the `Shared with Me` or `All Reports` folder to or from other folders.
 

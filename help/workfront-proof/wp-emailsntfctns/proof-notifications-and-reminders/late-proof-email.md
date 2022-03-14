@@ -35,12 +35,12 @@ The people who will be notified are:
 
 Consider the following about proof notifications:
 
-<ul> 
- <li>Your Workfront administrator or Workfront Proof administrator can include your organization's logo in your email notifications, as explained in <a href="../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md" class="MCXref xref" xrefformat="{para}">Brand the Workfront Proof site</a>. </li> 
- <li> <p>If you need to share multiple proofs with the same reviewers and you don't want them to get multiple emails, you can upload them at the same time. All of the reviewers receive one email detailing all the proofs and including a personal URL for each proof. </p> <note type="note">
-   The Creator of the proofs receives a separate Proof made email for each of the proofs created. For more information, see 
-   <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref" xrefformat="{para}">The Proof Made email</a>.
-  </note> </li> 
- <li>If you or your reviewers don't receive an expected email notification, see&nbsp;<a href="../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md" class="MCXref xref" xrefformat="{para}">Configure Workfront Proof emails to avoid spam filters</a>.</li> 
-</ul>
+* Your Workfront administrator or Workfront Proof administrator can include your organization's logo in your email notifications, as explained in [Brand the Workfront Proof site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md). 
+* If you need to share multiple proofs with the same reviewers and you don't want them to get multiple emails, you can upload them at the same time. All of the reviewers receive one email detailing all the proofs and including a personal URL for each proof.
+
+  >[!NOTE]
+  >
+  >The Creator of the proofs receives a separate Proof made email for each of the proofs created. For more information, see [The Proof Made email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
+
+* If you or your reviewers don't receive an expected email notification, see&nbsp; [Configure Workfront Proof emails to avoid spam filters](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
 

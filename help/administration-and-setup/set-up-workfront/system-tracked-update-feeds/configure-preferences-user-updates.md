@@ -44,11 +44,14 @@ By default, users cannot add images in updates. When you enable this preference,
 >* Images are only accessible through the Updates tab on an object and are not available on the Documents tab.
 >
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</p> </li> 
- <li value="2"> <p>In the left panel, select <span class="bold">Interface</span> > <span class="bold">Update Feeds</span>.</p> </li> 
- <li value="3"> <p>Select the <span class="bold">Preferences</span> tab.</p> <p> <img src="assets/updatefeeds-preferences-350x137.png" alt="User preferences for update feeds" style="width: 350;height: 137;"> </p> </li> 
- <li value="4"> <p>Select the <span class="bold">Allow users to add images in updates</span> check box.</p> </li> 
- <li value="5"> <p>Select <span class="bold">Save</span>.</p> <p>When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the Updates area on the object.</p> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. In the left panel, select `Interface` > `Update Feeds`.
+1. Select the `Preferences` tab.
+
+   ![User preferences for update feeds](assets/updatefeeds-preferences-350x137.png)
+
+1. Select the `Allow users to add images in updates` check box.
+1. Select `Save`.
+
+   When this preference is enabled, you can disable it at any time. Any images already posted in updates will remain in the Updates area on the object.
 

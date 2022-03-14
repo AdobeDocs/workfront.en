@@ -81,12 +81,23 @@ The Unique Email ID known as 'Email ID (UID)' is the email's identifier. The Ema
 
 ## Change displayed name of sender
 
-<ol> 
- <li value="1">Open the Send an email action advanced settings using the <span class="bold">Show advanced settings</span> checkbox. </li> 
- <li value="2"> <p>Enter the required sender name or email.</p> <note type="important">
-   Use the correct syntax as shown in the hint on the screenshot below. 
-   <code>name@email.com</code> or 
-   <code>"Name" name@email.com</code>
-  </note> <p class="PinkDraftNote">2019-01-10_16_29_32-Microsoft_Edge.png</p> </li> 
-</ol>
+1. Open the Send an email action advanced settings using the `Show advanced settings` checkbox. 
+1. Enter the required sender name or email.
+
+   >[!IMPORTANT]
+   >
+   >Use the correct syntax as shown in the hint on the screenshot below.    >
+   >
+   >```   >
+   >name@email.com
+   >```   >
+   >
+   >or    >
+   >
+   >```   >
+   >"Name" name@email.com
+   >```   >
+   >
+
+   2019-01-10_16_29_32-Microsoft_Edge.png
 

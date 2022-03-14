@@ -37,22 +37,23 @@ Before you begin, you must create a board and add a card to it. For information,
 
 ## Add checklist items
 
-<ol> 
- <li value="1"> <p>Access the board and locate the card to add the checklist to.</p> </li> 
- <li value="2"> <p>Click the <span class="bold">More</span> menu <img src="assets/more-icon-spectrum.png" alt="More menu"> on the card, and select <span class="bold">Edit</span>.</p> </li> 
- <li value="3"> <p>In the Edit Item box, click <span class="bold">Add checklist item</span>.</p> </li> 
- <li value="4"> <p>Type the name of the item and press Enter.</p> <p>Continue clicking <span class="bold">Add checklist item</span> to add more items.</p> <p>The counter at the top of the list shows the number of completed items and the total number of items.</p> </li> 
- <li value="5"> <p>To delete an item, click the <span class="bold">Delete</span> icon <img src="assets/delete.png">.</p> </li> 
- <li value="6"> <p>Click <span class="bold">Update</span> to save the card and return to the board.</p> </li> 
-</ol>
+1. Access the board and locate the card to add the checklist to.
+1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the card, and select `Edit`.
+1. In the Edit Item box, click `Add checklist item`.
+1. Type the name of the item and press Enter.
+
+   Continue clicking `Add checklist item` to add more items.
+
+   The counter at the top of the list shows the number of completed items and the total number of items.
+
+1. To delete an item, click the `Delete` icon ![](assets/delete.png).
+1. Click `Update` to save the card and return to the board.
 
 ## Complete checklist items
 
-<ol> 
- <li value="1"> <p>Access the board and locate the card the checklist is on.</p> </li> 
- <li value="2"> <p>Click the <span class="bold">More</span> menu <img src="assets/more-icon-spectrum.png" alt="More menu"> on the card, and select <span class="bold">Edit</span>.</p> </li> 
- <li value="3"> <p>Select the check box next to the item that is complete.</p> </li> 
- <li value="4"> <p>You can clear the check box if you need to bring the item back. The counter updates to show the completed items. Image here?</p> </li> 
- <li value="5"> <p>Click <span class="bold">Update</span> to save the card and return to the board.</p> </li> 
-</ol>
+1. Access the board and locate the card the checklist is on.
+1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the card, and select `Edit`.
+1. Select the check box next to the item that is complete.
+1. You can clear the check box if you need to bring the item back. The counter updates to show the completed items. Image here?
+1. Click `Update` to save the card and return to the board.
 

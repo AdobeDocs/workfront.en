@@ -40,37 +40,40 @@ You must have the following to perform the steps in this article:
 
 ## View, work with, and create programs for your group from the Groups area
 
-<ol> 
- <li value="1">Click the <span class="bold">Main Menu</span> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront, then click <span class="bold">Setup</span> <img src="assets/gear-icon-settings.png">.</li> 
- <li value="2">In the left panel, click <span class="bold">Groups</span> <img src="assets/groups-icon.png">.</li> 
- <li value="3">Click the name of the group for which you want to create or modify programs.</li> 
- <li value="4">In the left panel, click <span class="bold">Programs <img src="assets/programs-icon.jpg"></span> to list the programs associated with the group that you have access to view (and any subgroups below it).</li> 
- <li value="5"> <p>Do any of the following:</p> 
-  <table cellspacing="0"> 
-   <col> 
-   <col> 
-   <tbody> 
-    <tr> 
-     <td role="rowheader">Add a program</td> 
-     <td> 
-      <ol> 
-       <li value="1"> <p>Click <span class="bold">New Program</span>, then configure the program in the screen that displays. </p> <p>The system fills in the <span class="bold">Group</span> field for the new program with the group you are viewing.</p> <p>For information about the configuration options, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </li> 
-       <li value="2"> <p>Click <span class="bold">Save</span> to return to the group’s Programs list.</p> </li> 
-      </ol> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Edit or delete programs</p> </td> 
-     <td> <p>Select at least one program that you have permissions to edit, then use the toolbar buttons to edit <img src="assets/edit-icon.png"> or delete <img src="assets/delete.png"> it.</p> <p>For information about editing a program, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader">Share programs</td> 
-     <td>Select at least one program that you have permissions to share, then click the share icon <img src="assets/share-icon.png">.</td> 
-    </tr> 
-    <tr> 
-     <td role="rowheader"> <p>Export the list of programs</p> </td> 
-     <td>Click <span class="bold">Export</span> <img src="assets/export.png">, then select the file format you want for the exported list.</td> 
-    </tr> 
-   </tbody> 
-  </table> </li> 
-</ol>
+1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+
+1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+
+1. Click the name of the group for which you want to create or modify programs.
+1. In the left panel, click `Programs ![](assets/programs-icon.jpg)
+
+   ` to list the programs associated with the group that you have access to view (and any subgroups below it).
+1. Do any of the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Add a program</td> 
+      <td> 
+       <ol> 
+        <li value="1"> <p>Click <span class="bold">New Program</span>, then configure the program in the screen that displays. </p> <p>The system fills in the <span class="bold">Group</span> field for the new program with the group you are viewing.</p> <p>For information about the configuration options, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </li> 
+        <li value="2"> <p>Click <span class="bold">Save</span> to return to the group’s Programs list.</p> </li> 
+       </ol> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Edit or delete programs</p> </td> 
+      <td> <p>Select at least one program that you have permissions to edit, then use the toolbar buttons to edit <img src="assets/edit-icon.png"> or delete <img src="assets/delete.png"> it.</p> <p>For information about editing a program, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Share programs</td> 
+      <td>Select at least one program that you have permissions to share, then click the share icon <img src="assets/share-icon.png">.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>Export the list of programs</p> </td> 
+      <td>Click <span class="bold">Export</span> <img src="assets/export.png">, then select the file format you want for the exported list.</td> 
+     </tr> 
+    </tbody> 
+   </table>
 

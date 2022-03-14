@@ -65,13 +65,16 @@ You must have the following access to perform the steps in this article:
 
 ## Post an update
 
-<ol> 
- <li value="1"> <p>Click the <span class="bold">Menu</span> icon in the top-right corner, then select <span class="bold">Work List</span>. You can also use the menu to navigate to parent objects.</p> <p> <img src="assets/go-back-to-work-list-350x314.png" style="width: 350;height: 314;"> <br> </p> </li> 
- <li value="2">From the <span class="bold">Work List</span>, select the work item you need to post an update to.</li> 
- <li value="3">Click <span class="bold">Update</span> in the navigation bar.<br><img src="assets/photoshop-update-350x502.png" style="width: 350;height: 502;"></li> 
- <li value="4">Click <span class="bold">New Update</span>.</li> 
- <li value="5">Type your update.</li> 
- <li value="6">(Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.</li> 
- <li value="7">Click <span class="bold">Submit</span>. Updates are synced with the Adobe Workfront web application in real time.</li> 
-</ol>
+1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+
+   ![](assets/go-back-to-work-list-350x314.png)
+
+1. From the `Work List`, select the work item you need to post an update to.
+1. Click `Update` in the navigation bar.  
+   ![](assets/photoshop-update-350x502.png)
+
+1. Click `New Update`.
+1. Type your update.
+1. (Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.
+1. Click `Submit`. Updates are synced with the Adobe Workfront web application in real time.
 

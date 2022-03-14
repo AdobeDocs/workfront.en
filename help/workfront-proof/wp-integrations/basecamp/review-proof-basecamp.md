@@ -49,18 +49,19 @@ If you link a new or existing proof to Basecamp, Workfront Proof will send a pro
 
 When you receive an email notification about a new proof added to your Basecamp project:
 
-<ol> 
- <ol> 
-  <li value="1">Go to your project page (1).</li> 
-  <li value="2">Find the message for your proof (2).<br>The message page contains the name of the proof (in the subject) (3) and a&nbsp;link to the full screen Proof Viewer (4).</li> 
-  <p> <img src="assets/basecamp-messages-1-350x129.png" alt="Basecamp_messages_1.png" style="width: 350;height: 129;"> </p> 
-  <p>If you are logged in to your Workfront Proof account in one of your browsers windows, you can start reviewing right away. If you cannot see your name in bottom left corner of miniproof:</p> 
-  <li value="3">Click <span class="bold">Sign In</span> (5).</li> 
-  <li value="4">Type your email address (which was used to add you to the proof) (6).</li> 
-  <li value="5">Click <span class="bold">Next</span> and in a second box that appears, type your Workfront Proof password (7).<br>If you don't have a Workfront Proof account, type a public name to display.</li> 
-  <li value="6">Click <span class="bold">Remember me</span> so you only have to input your details once.<br>Now you're ready to proceed with reviewing the proof in Basecamp.</li> 
- </ol> 
-</ol>
+1. Go to your project page (1).
+1. Find the message for your proof (2).  
+   The message page contains the name of the proof (in the subject) (3) and a&nbsp;link to the full screen Proof Viewer (4).
+1. ![Basecamp_messages_1.png](assets/basecamp-messages-1-350x129.png)
+
+1. If you are logged in to your Workfront Proof account in one of your browsers windows, you can start reviewing right away. If you cannot see your name in bottom left corner of miniproof:
+1. Click `Sign In` (5).
+1. Type your email address (which was used to add you to the proof) (6).
+1. Click `Next` and in a second box that appears, type your Workfront Proof password (7).  
+   If you don't have a Workfront Proof account, type a public name to display.
+
+1. Click `Remember me` so you only have to input your details once.  
+   Now you're ready to proceed with reviewing the proof in Basecamp.
 
 ## Reviewing a Proof in Basecamp
 

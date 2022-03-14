@@ -50,11 +50,7 @@ See [Subscribe to a Proof in Workfront Proof](../../../workfront-proof/wp-work-p
 
 To access the proof from a Public&nbsp;URL:
 
-<ul> 
- <li>Users open the proof by using their login details which include their registered email and password for Workfront Proof.</li> 
- <li>Non-users open the proof by entering an email address and display name.</li> <note type="note">
-  In either case, select 
-  <span class="bold">Remember me</span> so that you will have to enter your details this one time (for this proof).
- </note> 
-</ul>
+* Users open the proof by using their login details which include their registered email and password for Workfront Proof.
+* Non-users open the proof by entering an email address and display name.
+* In either case, select `Remember me` so that you will have to enter your details this one time (for this proof).
 

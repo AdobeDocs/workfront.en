@@ -16,11 +16,17 @@ The Tasks in flight visualization shows how many tasks (within the applied filte
 
 The Tasks in flight plan visualization shows the following task details:
 
-<ul> 
- <li> <p><span class="bold">Planned task duration</span>: The length of a task bar indicates the planned duration, which is based on the task's start date and completion date.</p> <p> <img src="assets/tasks-in-flight-duration-350x80.png" style="width: 350;height: 80;"> </p> </li> 
- <li> <p><span class="bold">Work effort completed</span>: The dark blue color within a task bar indicates the amount of work completed for a task. This completion percentage displays to the right of the task bar.</p> <p> <img src="assets/tasks-in-flight-dark-blue-350x35.png" style="width: 350;height: 35;"> </p> </li> 
- <li> <p><span class="bold">Work effort remaining</span>: The light blue color within a task bar indicates the amount of work that needs to be completed for a task.</p> <p> <img src="assets/tasks-in-flight-light-blue-350x35.png" style="width: 350;height: 35;"> </p> </li> 
-</ul>
+* `Planned task duration`: The length of a task bar indicates the planned duration, which is based on the task's start date and completion date.
+
+  ![](assets/tasks-in-flight-duration-350x80.png)
+
+* `Work effort completed`: The dark blue color within a task bar indicates the amount of work completed for a task. This completion percentage displays to the right of the task bar.
+
+  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+
+* `Work effort remaining`: The light blue color within a task bar indicates the amount of work that needs to be completed for a task.
+
+  ![](assets/tasks-in-flight-light-blue-350x35.png)
 
 This information can help you determine:
 
@@ -66,33 +72,58 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Tasks in flight visualization
 
-<ol> 
- <li value="1"> <p> Click the Main Menu icon , thenselect <b>Analytics</b>.</p> </li> 
- <li value="2"> <p>(Optional) To use a different date range, select new start and end dates from the date range filter.</p> <p> <img src="assets/filters-select-date-range-350x344.png" style="width: 350;height: 344;"> </img> </p> <p>For information on using the date range filter, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> </li> 
- <li value="3"> <p>(Conditional) If you need to limit the project data set, select and apply the filters that you want to use.</p> <p>For more information on adding filters in Enhanced analytics, see <a href="../enhanced-analytics/use-enhanced-analytics-filters.md" class="MCXref xref">Apply filters in Enhanced analytics</a>.</p> <p>After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.</p> </li> 
- <li value="4"> <p>On the Flight plan or Project treemap visualization, click a project to view more information.</p> <p>The Burndown and Tasks in flight visualizations display.</p> <note type="note"> 
-   <p>To learn more about these other visualizations, see:</p> 
-   <ul> 
-    <li><a href="../enhanced-analytics/flight-plan-overview.md" class="MCXref xref">View the Flight plan visualization in Enhanced analytics</a> </li> 
-    <li><a href="../enhanced-analytics/project-treemap-overview.md" class="MCXref xref">View the Project treemap visualization in Enhanced analytics</a> </li> 
-    <li><a href="../enhanced-analytics/burndown-overview.md" class="MCXref xref">View the Burndown visualization in Enhanced analytics</a> </li> 
-   </ul> 
-  </note> </li> 
- <li value="5"> <p>(Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.</p> <p>All other visualizations update to the same date range and a timeframe filter is created.</p> <p> <img src="assets/timeframe-filter-350x220.png" style="width: 350;height: 220;"> </img> </p> </li> 
- <li value="6"> <p>(Optional) To change how the tasks are sorted, click the <b class="bold">Sort by</b> menu, then select a new sorting option:</p> 
-  <ul> 
-   <li> <p><span class="bold">Completion date</span> </p> </li> 
-   <li> <p><span class="bold">Alphabetically A-Z</span> </p> </li> 
-   <li> <p><span class="bold">Work breakdown structure</span> (This option matches the order that the tasks appear in the project.)</p> </li> 
-  </ul> <p>All other visualizations on the page update to match your sorting selection.</p> </li> 
- <li value="7"> <p>Review the progress of tasks in the selected project, then hover over a specific task to see the number of planned hours, the planned due date, and the completion percentage.</p> <p> <img src="assets/tasks-in-flight-task-details-350x242.png" style="width: 350;height: 242;"> </p> </li> 
- <li value="8"> <p>Click a task to open the task Detailson the right side of the screen, where you can see more information about the task, view or enter updates, or make changes to the task.</p>  </li> 
- <li value="9"> <p>(Optional) To export the visualization data, click the <b>Export icon</b> <img src="assets/export.png"> in the top-right corner of the visualization, then select the export format:</p> 
-  <ul> 
-   <li> <p><b>Chart (PNG)</b> </p> </li> 
-   <li> <p><b>Data Table (XSLX)</b> </p> </li> 
-  </ul> </li> 
-</ol>
+1. Click the Main Menu icon , thenselect **Analytics**.
+1. (Optional) To use a different date range, select new start and end dates from the date range filter.
+
+   ![](assets/filters-select-date-range-350x344.png)
+
+   For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+1. (Conditional) If you need to limit the project data set, select and apply the filters that you want to use.
+
+   For more information on adding filters in Enhanced analytics, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+
+   After you add filters, data for up to 50 projects displays and the filters remain active even after you leave the page or log out of Workfront.
+
+1. On the Flight plan or Project treemap visualization, click a project to view more information.
+
+   The Burndown and Tasks in flight visualizations display.
+
+   >[!NOTE]
+   >
+   >To learn more about these other visualizations, see:
+   >
+   >  
+   >  
+   >  * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
+   >  * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
+   >  * [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md) 
+   >  
+   >
+
+1. (Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.
+
+   All other visualizations update to the same date range and a timeframe filter is created.
+
+   ![](assets/timeframe-filter-350x220.png)
+
+1. (Optional) To change how the tasks are sorted, click the **Sort by** menu, then select a new sorting option:
+
+  * `Completion date` 
+  * `Alphabetically A-Z` 
+  * `Work breakdown structure` (This option matches the order that the tasks appear in the project.)
+
+   All other visualizations on the page update to match your sorting selection.
+
+1. Review the progress of tasks in the selected project, then hover over a specific task to see the number of planned hours, the planned due date, and the completion percentage.
+
+   ![](assets/tasks-in-flight-task-details-350x242.png)
+
+1. Click a task to open the task Detailson the right side of the screen, where you can see more information about the task, view or enter updates, or make changes to the task.
+1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+
+  * **Chart (PNG)** 
+  * **Data Table (XSLX)**
 
 ## Video walk-through
 

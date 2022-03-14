@@ -222,10 +222,13 @@ For more information about creating and customizing the building elements of lis
 
 There are two types of lists in Workfront:
 
-<ul> 
- <li> <p>Legacy lists</p> <p> <img src="assets/legacy-list-screen-shot-blue-groupings-350x101.png" style="width: 350;height: 101;"> </p> </li> 
- <li> <p>Updated lists</p> <p> <img src="assets/updated-list-screen-shot-gray-groupings-350x71.png" style="width: 350;height: 71;"> </p> </li> 
-</ul>
+* Legacy lists
+
+  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+
+* Updated lists
+
+  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 Both types of lists appear in&nbsp;the new Adobe Workfront experience.
 All lists and reports in the new Adobe Workfront experience are updated lists, except for the following: Lists in the Setup area Lists in the Reports area Documents lists 
