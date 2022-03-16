@@ -1,0 +1,15 @@
+---
+filename: _resource-utilization
+content-type: reference
+product-area: resource-management
+navigation-topic: resource-management-navigation-topic
+title: Resource Utilization
+description: This section contains the following articles:
+---
+
+# Resource Utilization
+
+This section contains the following articles:
+
+* [View resource utilization information](../../resource-mgmt/resource-utilization/view-utilization-information.md)
+

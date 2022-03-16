@@ -1,0 +1,62 @@
+---
+filename: upload-new-document-version
+product-area: documents
+navigation-topic: manage-documents
+title: Upload a new version of a document
+description: You can add a new version of a document you have previously uploaded to Adobe Workfront.
+---
+
+# Upload a new version of a document
+
+You can add a new version of a document you have previously uploaded to Adobe Workfront.
+
+If the file name of the new version is different from the file name of the previous version, Workfront displays the document with the newer file name.
+
+If the document contains a proof and you want to create a new version of the proofed document, see the section [Upload a document and create a new version of a proof](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#uploading-a-document-and-creating-a-new-version-of-a-proof) in the article [Create a proof for a document](../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+
+For information about adding a new version of a document linked to Workfront from an external application, see [Add a new version of a linked document](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add) in [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+## Access requirements
+
+You must have the following:
+
+<table cellspacing="0"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p> Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront licenses*</td> 
+   <td> <p>Request or higher</p> </td> 
+  </tr> Access level configurations* Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. Object permissions Edit access to the object associated with the document For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Use drag-and-drop to add a new version
+
+>[!NOTE]
+>
+>Drag-and-drop does not work with Internet Explorer.
+
+1. Go to the Documents area where the document is uploaded.
+1. From your desktop or a separate browser tab, drag the new version of the document on top of the existing version in Workfront.
+
+   As you drag the new version, you can hover over a Workfront documents folder to open it. You can then scroll up and down by dragging the files to the top or bottom of the screen.
+
+1. Drop the new version on top of the existing file on the `Documents` tab.
+
+   For information about managing document versions, see [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
+
+## Use the More menu to add a new version
+
+1. Select the document where you want to add a new version. 
+1. Click `Add New` `>` `Version` `.`
+1. Select the type of document you want to upload, then follow the prompts.
+

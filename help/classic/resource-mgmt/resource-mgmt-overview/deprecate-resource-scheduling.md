@@ -1,0 +1,297 @@
+---
+filename: deprecate-resource-scheduling
+content-type: reference
+product-area: resource-management
+keywords: workload,balancer
+navigation-topic: resource-management-overview
+title: Deprecation of Resource Scheduling tools in Adobe Workfront
+description: We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
+---
+
+# Deprecation of Resource Scheduling tools in Adobe Workfront
+
+We are currently in the process of deprecating all Scheduling tools from Adobe Workfront and replacing them with the Workload Balancer.
+
+>[!IMPORTANT]
+>
+>The deprecation of the Scheduling tools means that as of now, we are no longer implementing new feature functionality for the current Scheduling solution and we consider and prioritize only High and Critical severity defects for a fix.
+
+![](assets/resource-scheduler-global-350x127.png)
+
+If you currently use Scheduling tools you may now consider discontinuing them and start using the Workload Balancer. A large part of functionality is already available in the Workload Balancer. For information, see the section [Feature availability](#understanding-legacy-tools-and-their-replacements) in this article.
+
+![](assets/workload-balancer-pti-350x111.png)
+
+Over time, you can continue using the Workload Balancer for all your scheduling needs, as more capabilities become available in the near future.
+
+>[!IMPORTANT]
+>
+>You cannot use both Scheduling and the Workload Balancer at the same time to adjust user allocations. If you have managed user allocations in the Scheduling tools, the adjusted daily allocations do not transfer to the Workload Balancer. Similarly, if you have adjusted user allocations in the Workload Balancer, they do not transfer to the Scheduling tools. You must choose one tool to manage daily or weekly user allocations.
+
+This article describes the deprecation timeline and it outlines the functionality you are now using in the Scheduling tools in comparison to what is currently available in the Workload Balancer and what will become available soon. A more exact timeline will be announced through the Announcement Center and this article will be updated as this process continues during the following months.
+
+For information about building up a plan to migrate to the Workload Balancer, see [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md).
+
+>[!NOTE]
+>
+>Please note that the changes described in this article do not affect any other resource management tools.&nbsp;For example, they do not affect the Resource Planner or the Utilization&nbsp;report.
+
+##  Deprecation timeline highlights
+
+>[!IMPORTANT]
+>
+>Please use this article to understand the latest timeline for deprecating the Scheduling tools. Any updates to this timeline will be communicated in this article and in Announcement Center messages.
+
+The following is a tentative timeline for the deprecation process of Resource Scheduling tools:
+
+* [2020.4 release (November 2020)](#2020.4) 
+* [2021.4 release (October 2021)](#2021.4) 
+* [Milestone 1 (date to be determined)](#first) 
+* [Milestone 2 (date to be determined)](#second) 
+* [Milestone 3 (date to be determined)](#mileston) 
+* [Milestone 4 (after the first half of 2022)](#end)
+
+### 2020.4 release (November 2020)
+
+* New feature functionality is no longer implemented for the Scheduling solution
+* Only High and Critical severity defects will be prioritized for a fix
+* New Workload Balancer capabilities added to Workfront
+
+### 2021.4 release (October 2021)
+
+* Workload Balancer is set as default for any first-time user of Workfront
+* Enhanced filters that can be shared and include additional fields
+
+### Milestone 1 (date to be determined)
+
+* All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
+* New Workload Balancer capabilities added to&nbsp;Workfront
+
+### Milestone 2 (date to be determined)
+
+* All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
+* New Workload Balancer capabilities added to Workfront
+
+### Milestone 3 (date to be determined)
+
+* All Resource Scheduling tools will be disabled for customers that have not used them within 60 days
+* All new Workload Balancer features will be added only to The new Adobe Workfront experience
+
+### Milestone 4 (after the first half of 2022)
+
+* All Resource Scheduling tools will be disabled for all customers 
+* The Workload Balancer remains as the only tool to schedule resources in Workfront.
+
+## Feature availability
+
+Unless otherwise specified, all Resource Scheduling features have been or will be available in the Workload Balancer. For information about the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+
+In addition to existing features, the Workload Balancer has or will have new functionality that did not exist in the Resource Scheduling tools, as shown in the following table: 
+
+<table cellspacing="3"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td rowspan="2"><span style="font-weight: normal;">Features</span> </td> 
+   <td rowspan="2"> <span class="bold">Resource Scheduling tools feature availability</span></td> 
+   <td colspan="3">Workload Balancer feature availability</td> 
+  </tr> 
+  <tr> 
+   <td>Available now</td> 
+   <td>Available soon</td> 
+   <td>Not planned</td> 
+  </tr> 
+  <tr> 
+   <td> <p>Access tool from the Peoplearea</p> </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Separate areas for unassigned and assigned work</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Apply and create filters for unassigned and assigned work</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Access work items directly from the tool</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Manually assign or unassign tasks and issues</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Adjust individual allocations</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Include issue time</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Display projected dates </td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Display completed work</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Show user time off, weekends, and schedule exceptions</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td><span>Assign and unassign tasks and issues by dragging and dropping*</span> </td> 
+   <td>✓</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Automatically assign tasks and issues</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+  </tr> Quickly assign users based on roles* ✓ ✓ Quickly replace users* ✓ ✓ Quickly unassign users* ✓ ✓ 
+  <tr> 
+   <td><span>Access tool from a team</span> </td> 
+   <td>✓</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td><span>Access tool from a project</span> </td> 
+   <td>✓</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Visible to all Plan users, without being designated a Resource Manager on the project.</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Group information by project</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Share the Workload Balancer with users with no access to the Peoplearea</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Display and adjust allocations by week</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Access users directly from the tool</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> Access more information about work items without navigating away, using the Summary panel* ✓ 
+  <tr> 
+   <td>Display and adjust allocation as a percentage value </td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Display the difference between the available and allocated time</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Display user availability in a chart</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Color-code work items and projects by Project&nbsp;Status</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Automatically update Planned Hours as you adjust user allocation (for tasks with a Simple Duration Type)</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td><span>Suggest assignments based on the user’s assignment pattern, existing Role or Team assignments</span> </td> 
+   <td>&nbsp;</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td>Enhanced filters that can be shared and include additional fields</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> <!--
+   Suggest assignments based on the user's availability ? ✓
+  --> 
+ </tbody> 
+</table>
+
+&#42; These features are available only in the new Adobe Workfront experience.
+
+&nbsp;

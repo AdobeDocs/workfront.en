@@ -1,0 +1,713 @@
+---
+filename: microsoft-365-excel-modules
+content-type: reference
+product: workfront-fusion
+product-area: workfront-integrations;documents
+keywords: connector
+navigation-topic: apps-and-their-modules
+title: Microsoft Office 365 Excel modules
+description: In a Adobe Workfront Fusion scenario, you can connect your Microsoft 365 Excel account to multiple third-party applications and services.
+---
+
+# Microsoft Office 365 Excel modules
+
+In a Adobe Workfront Fusion scenario, you can connect your Microsoft 365 Excel account to multiple third-party applications and services.
+
+If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
+
+For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
+
+## Access requirements
+
+You must have the following access to use the functionality in this article:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro or higher</p> </td> 
+  </tr> Adobe Workfront license* Plan, Work 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
+   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
+  </tr> <!--
+   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+  --> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+&#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
+## Prerequisites
+
+To use Microsoft office 365 Excel, you must have a Microsoft account.
+
+## Microsoft Office 365 Excel modules and their fields
+
+When you configure Microsoft 365 Excel modules, Workfront Fusion displays the fields listed below. Along with these, additional Microsoft 365 Excel fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+* [Workbook](#workbook) 
+* [Worksheet](#workshee) 
+* [Table](#table) 
+* [Other](#other)
+
+### Workbook
+
+* [Watch Workbooks](#watch2) 
+* [Search Workbooks](#search) 
+* [Download a Workbook](#download)
+
+#### Watch Workbooks
+
+This trigger module starts a scenario when a workbook is created.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Folder</td> 
+   <td> <p>Select the folder that you want to watch for new workbooks.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Filter</p> </td> 
+   <td> <p>You can set a filter to watch for only workbooks that meet criteria you select.</p> <p>For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND or OR rules.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of workbooks you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Search Workbooks
+
+This action module searches for Excel workbooks.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Folder</td> 
+   <td> <p>Select the folder that you want to search for workbooks.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Filter</p> </td> 
+   <td> <p>You can set a filter to search for only workbooks that meet criteria you select.</p> <p>For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND or OR rules.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of worksheets you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Download a Workbook
+
+This action module downloads the content of the specified Excel workbook.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Download a workbook</td> 
+   <td> <p>Select how you want to identify the workbook for the module to download.</p> 
+    <ul> 
+     <li> <p><span class="bold">By entering an ID manually</span> </p> <p>In the Workbook ID field, enter or map the ID of the specific workbook that you want the module to download.</p> </li> 
+     <li> <p><span class="bold">By selecting from the path</span> </p> <p>In the Workbook field, select the workbook that you want the module to download.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Worksheet
+
+* [Watch Worksheet Rows](#watch3) 
+* [List Worksheets](#list) 
+* [List Worksheet Rows](#list2) 
+* [Add a Worksheet](#add) 
+* [Add a Worksheet Row](#add2) 
+* [Update a Worksheet Row](#update) 
+* [Delete a Worksheet Row](#delete)
+
+#### Watch Worksheet Rows
+
+This trigger module starts a scenario when a new row is added to the sheet.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the worksheet you want to watch for new rows.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p>Select the Excel sheet that you want to watch for new rows.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of worksheet rows you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List Worksheets
+
+This action module retrieves a list of worksheets in the specified workbook.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the worksheets that you want the module to list.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of worksheets you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List Worksheet Rows
+
+This action module retrieves a list of rows in the specified worksheet.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the worksheet that includes the rows you want to list.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p>Select the worksheet that contains the rows you want to list.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of worksheet rows you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Add a Worksheet
+
+This action module creates a new worksheet within the selected workbook.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook where you want to add a worksheet.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Name
+   --> 
+   <td> <p>Enter or map a name for the new worksheet.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Add a Worksheet Row
+
+This action module adds a new row to the selected worksheet.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the worksheet where you want to add a row.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p>Select the worksheet where you want to add a row.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Type of values being entered</p> </td> 
+   <td> <p>Select the type of value to be entered into the worksheet. </p> 
+    <ul> 
+     <li> <p><span class="bold">Formulas</span> </p> <p> Excel tries to evaluate the specified expression. The names of functions in a formula are in English. Example: <code>=SUM(A1:A10)</code></p> </li> 
+     <li> <p><span class="bold">Formulas local</span> </p> <p>Excel tries to evaluate the specified expression. The function names are in the language of your Excel application. Example: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><span class="bold">Value</span> </p> <p>Excel does not evaluate the value. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> <!--
+    Row
+   --> <!--
+    For each column, enter the value you want the column to have in the new row.
+   --> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Update a Worksheet Row
+
+This action module updates an existing worksheet row.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the worksheet that includes the row you want to update.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p>Select the worksheet that contains the row you want to update.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Type of values being entered</p> </td> 
+   <td> <p>Select the type of value to be entered into the worksheet. </p> 
+    <ul> 
+     <li> <p><span class="bold">Formulas</span> </p> <p> Excel tries to evaluate the specified expression. The names of functions in a formula are in English. Example: <code>=SUM(A1:A10)</code></p> </li> 
+     <li> <p><span class="bold">Formulas local</span> </p> <p>Excel tries to evaluate the specified expression. The function names are in the language of your Excel application. Example: <code>=SUM(A1, 1.5)</code> vs <code>=SUMME(A1; 1,5)</code></p> </li> 
+     <li> <p><span class="bold">Value</span> </p> <p>Excel does not evaluate the value. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Row ID</td> 
+   <td>Select the number of the row to update.</td> 
+  </tr> 
+  <tr> <!--
+    Row
+   --> <!--
+    For each column, enter the value you want the column to have in the new row.
+   --> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Delete a Worksheet Row
+
+This action module deletes a row from a worksheet.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the worksheet that includes the row you want to delete.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p> Select the worksheet that contains the row you want to delete.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Row ID
+   --> 
+   <td>Enter or map the ID of the row you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Table
+
+* [Watch table rows](#watch) 
+* [List tables](#list4) 
+* [List table rows](#list3) 
+* [Get a Table](#get) 
+* [Add a table](#add3) 
+* [Add a table row](#add4) 
+* [Update a table](#update2) 
+* [Delete a table](#delete2)
+
+#### Watch table rows
+
+This trigger starts a scenario when a new row is added to a table.
+
+>[!NOTE]
+>
+>The table here refers to the embedded table element in the Workbook. Not the entire table (workbook/sheet).
+
+![](assets/embedded-table-350x420.png)
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Workbook</p> </td> 
+   <td> <p>Select the workbook that contains the table you want to watch.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p> Select the worksheet that contains the table you want to watch.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Table</p> </td> 
+   <td> <p>Select the table you want to watch.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p><![CDATA[	]]>Enter or map the maximum number of rows you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List tables
+
+This search module retrieves a list of all table objects.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the tables you want to list.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p>Select the worksheet that contains the tables you want to list</p> </td> 
+  </tr> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of tables you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List table rows
+
+This search module retrieves a list of all table rows in a workbook.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the table that includes the rows you want to list.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p>Select the worksheet that contains the table that includes the rows you want to list</p> </td> 
+  </tr> 
+  <tr> <!--
+    Table
+   --> 
+   <td> <p>Select the table that contains the rows you want to list.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Limit
+   --> 
+   <td> <p>Enter or map the maximum number of table rows you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Get a Table
+
+This action module retrieves metadata for the specified table.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <!--
+     Connection
+    --> </td> 
+   <td> <!--
+     For instructions about connecting your Office 365 account to Workfront Fusion, see Connect the module's app or web service to Workfront Fusion in the article Create a scenario.
+    --> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Get a table</td> 
+   <td> <p>Select how you want to identify the table that you want to retrieve.</p> 
+    <ul> 
+     <li> <p><span class="bold">Enter manually</span> </p> <p>In the Workbook ID field, enter or map the ID&nbsp;of the workbook that contains the table you want to retrieve.</p> <p>In the Table Name field, enter or map the name of the table you want to retrieve.</p> </li> 
+     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the workbook and worksheet that contain the table you want to retrieve, then select the table.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Add a table
+
+This action module creates a table element within the Excel worksheet.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workbook </td> 
+   <td> <p>Select the workbook that contains the worksheet where you want to add a table.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Worksheet </td> 
+   <td> <p>Select the worksheet where you want to add a table.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Has headers</td> 
+   <td> <p>Enable this option to define the first row as table headers.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Address</p> </td> 
+   <td> <p>Set the size of the table by indicating the top left and bottom right cells. Example: <code>A1:C10</code> creates a table with 3 columns and 10 rows.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Add a table row
+
+This action module modifies an existing table.
+
+<table cellspacing="0">   
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Workbook
+   --> 
+   <td> <p>Select the workbook that contains the table where you want to add a row.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Worksheet
+   --> 
+   <td> <p>Select the worksheet that contains the table where you want to add a row.</p> </td> 
+  </tr> 
+  <tr> <!--
+    Table
+   --> 
+   <td>Select the table where you want to add a row.</td> 
+  </tr> 
+  <tr> <!--
+    Row
+   --> <!--
+    For each column, enter the value you want the column to have in the new row.
+   --> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Row ID</p> </td> 
+   <td> <p>To add a row in a specific location on the table enter or map a row number. The module inserts the new row after this row.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Update a table
+
+This action module updates an existing table.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Update a table</td> 
+   <td> <p>Select how you want to identify the table that you want to update.</p> 
+    <ul> 
+     <li> <p><span class="bold">Enter manually</span> </p> <p>In the Workbook ID field, enter or map the ID&nbsp;of the workbook that contains the table you want to update.</p> <p>In the Table Name field, enter or map the name of the table you want to update.</p> </li> 
+     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the workbook and worksheet that contain the table you want to update, then select the table.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Table </td> 
+   <td> <p>Select the table you want to update.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Name</td> 
+   <td> <p>If you want to rename the table, enter or map a new name for the table.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Show Headers</td> 
+   <td> <p>Enable this option to show the headers of the updated table.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Show totals</td> 
+   <td>Enable this option to show the total values of the table.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Style</td> 
+   <td>Choose a style for the new table.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Delete a table
+
+This action module deletes the specified table from an Excel worksheet.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Get a table</td> 
+   <td> <p>Select how you want to identify the table that you want to delete.</p> 
+    <ul> 
+     <li> <p><span class="bold">Enter manually</span> </p> <p>In the Workbook ID field, enter or map the ID&nbsp;of the workbook that contains the table you want to delete.</p> <p>In the Table Name field, enter or map the name of the table you want to delete.</p> </li> 
+     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the workbook and worksheet that contain the table you want to delete, then select the table.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Other
+
+* [Retrieve data](#retrieve) 
+* [Make an API Call](#make)
+
+#### Retrieve data
+
+This action retrieves data from the defined worksheet range, and returns a bundle for each row.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Workbook </td> 
+   <td> <p>Select the workbook that contains the data you want to retrieve.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Worksheet </td> 
+   <td> <p>Select the worksheet that contains the data you want to retrieve.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Range </td> 
+   <td> <p>Specify the area of the sheet you want to retrieve data from by indicating the top left and bottom right cells. Example: <code>A1:D10</code></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Make an API Call
+
+This action module allows you to make a custom API call.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Connection</p> </td> 
+   <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">URL</td> 
+   <td>Enter a path relative to <code>https://graph.microsoft.com</code>. Example:<code> /v1.0/me/drive/root/children</code></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Method</td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Headers</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object.</p> <p>For example, <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion adds the authorization headers for you.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Query String</td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{“name”:“something-urgent”}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Body</td> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:   <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>">  
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

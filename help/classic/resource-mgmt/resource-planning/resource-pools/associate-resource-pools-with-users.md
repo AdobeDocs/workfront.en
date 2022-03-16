@@ -1,0 +1,83 @@
+---
+filename: associate-resource-pools-with-users
+product-area: resource-management
+navigation-topic: resource-pools
+title: Associate resource pools with users in Adobe Workfront
+description: Resource pools are collections of users what help you manage resources in Adobe Workfront.
+---
+
+# Associate resource pools with users in Adobe Workfront
+
+Resource pools are collections of users what help you manage resources in Adobe Workfront.
+
+You must create a resource pool before you can associate it with users.
+
+You can associate users with resource pools when you are creating your resource pools.
+
+If you create resource pools without populating them with users, you can later associate them with users as you are editing or creating new users.
+
+For information about resource pools, see [Resource pools overview in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+
+For information about creating resource pools, see [Create resource pools in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
+## Access requirements
+
+You must have the following:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Pro and higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Projects, Templates, and Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> Object permissions Manage permissions for the projects, templates, and users you associate the resource pools with For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Associate resource pools with one user
+
+1. Go to the People are in the Global Navigation Bar. 
+1. Select the People tab. 
+1. Check the box next to the name of a user from the list, then click `Edit`.
+1. Click `Resource Planning`.
+1. Start typing the name of a resource pool that you want to associate with the user in the `Resource Pools` field, then select it from the list, when it appears.  
+   You can associate multiple resource pools with one user.  
+   ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)  
+
+1. Click `Save Changes`.
+
+For more information about editing users, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+
+For more information about creating new users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+
+## Associate resource pools with users in bulk
+
+You can edit multiple users in bulk and associate the same resource pools with all of them at the same time.
+
+To associate resource pools with several users in bulk:
+
+1. Go to the People area in your Global Navigation Bar. 
+1. Select the People tab. 
+1. Select several users on the list, and click `Edit`.
+1. Click `Resource Planning`.
+1. Start typing the name of a resource pool that you want to associate with the users in the `Resource Pools` field, then select it from the list, when it appears.  
+   You can associate multiple resource pools with multiple users.
+
+   >[!NOTE]
+   >
+   >Only the resource pools that are common to all the users selected appear in this field. If the users selected have no shared resource pools, this field is empty. If this field is empty, the resource pools you specify here will overwrite their individual resource pools.
+
+1. Click `Save Changes`.
+
+For more information about how to edit users in bulk, see [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md). 

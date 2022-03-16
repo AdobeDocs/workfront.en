@@ -1,0 +1,105 @@
+---
+filename: prevent-duplicate-users
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: security
+title: Prevent duplicate users
+description: When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
+---
+
+# Prevent duplicate users
+
+When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
+
+## Access requirements
+
+You must have the following to perform the steps in this article:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Walkthrough
+
+`<iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+
+[View this video in full-screen mode.](https://vimeo.com/371505632/2e6938ce06)
+
+## Create users with unique email addresses
+
+Beginning with the 2019.4 release, when creating a new user in Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case. For example, you cannot create one user with the email address of JohnDoe@example.com if another user has the email address of johndoe@example.com.
+
+## Update email addresses of existing users in your Workfront instance
+
+As the Workfront administrator, you must update existing users who have matching email addresses that differ only by case. This is required for the future enhancements described in [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md).
+
+To fix duplicate email addresses within a Workfront instance:
+
+1. &nbsp;Examine any duplicate users and decide which user is no longer needed.
+
+  1. In the `Filter` menu, select `All`.
+  
+  1. In the `View` menu, select `User Login`.
+  
+  1. In the `Grouping` menu, select `Nothing`.
+  
+  1. Customize the User Login view.
+
+    1. Click `View` >  `Customize View`.
+    
+    1. Replace the `ID` column with the `Email Address` column.
+    
+    1. Rename the View and save it.
+
+  1. Create a new Grouping.
+
+    1. Click `Grouping` >  `New Grouping`.
+    
+    1. Click `Switch to Text Mode` in the upper-right corner of the page.
+    1. Paste the following Text Mode code:
+
+     <pre>group.0.linkedname=direct</pre><pre>group.0.namekey=emailAddr</pre><pre>group.0.valueexpression=LOWER({emailAddr})</pre><pre>group.0.valueformat=string</pre><pre>textmode=true</pre>
+  
+  1. Rename the Grouping and save it.
+
+1. &nbsp;Do any of the following:
+
+  * (Preferred method) Add a + address to the user's email address for each additional account.
+
+    Choose this option if a single user in your organization needs access to more than 1 user account. If plus addressing is not supported by your email provider you must provide a separate email account for each Workfront account.
+
+    For example, John Doe can have one user account for his daily-use account and one to use for testing purposes:&nbsp;
+
+    * johndoe@workfront.com
+    * johndoe+reviewer@workfront.com
+
+  * Change the domain to use a fake domain by appending the following text to the email address:
+    <pre>.inactive</pre>For example,John Doe could have the following domains: (These must be unique.)
+
+    * johndoe@workfront.inactive
+    * johndoe@workfront.inactive2
+
+    You can no longer log in to these accounts because password resets require a valid email address. These accounts can be accessed only by using the Login As feature.
+  
+  * Delete unneeded users
+
+    >[!IMPORTANT]
+    >
+    >Choose this option only for accounts that were created by mistake or for test accounts. This option is usually performed only for accounts with zero or 1 mistaken login. Accounts that have been regularly used should never be deleted.
+
+If you have users in a Workfront instance with matching email addresses that differ only by case, Workfront will contact you with additional information and a timeline when these need to be updated.

@@ -1,0 +1,196 @@
+---
+filename: 21-3-release-overview
+content-type: release-notes
+keywords: notes,quarterly,update
+navigation-topic: 2021-3-release-activity
+title: 21.3 Release overview
+description: This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 21.3 release to help you unlock productivity and collaboration . [Marketing one-liner for the release]
+---
+
+# 21.3 Release overview
+
+This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 21.3 release
+
+<!--
+to help you unlock productivity and collaboration
+-->
+
+.
+
+<!--
+[Marketing one-liner for the release]
+-->
+
+<!--
+As the 21.3 release nears its planned Production release the week of June 21, 2021, this page will be updated with all functionality included with 21.3.
+-->
+
+These enhancements 
+
+<!--
+are currently available in the Preview environment and will be
+-->
+
+were made available in the Production environment the week of June 21, 2021
+
+<!--
+, unless otherwise specified the week of May 10, 2021
+-->
+
+.
+
+<!--
+For specific release dates and times for each cluster, see the Workfront Status Site.
+-->
+
+## Adobe Workfront enhancements
+
+* [Administrator enhancements](#administ) 
+* [Project enhancements](#project) 
+* [Resource Management enhancements](#resource) 
+* [Requests enhancements](#requests) 
+* [Proofing enhancements](#proofing) 
+* [Other enhancements](#other)
+
+### Administrator enhancements
+
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><span class="bold">Feature</span> </p> </td> 
+   <td> <p><span class="bold">Release dates and environments</span> </p> </td> 
+  </tr> Blueprints available in Production with the 21.3 release The blueprints functionality will be generally available with the 21.3 Production release the week of June 21, 2021. Blueprints provides basic building blocks to help you create a work management system that grows with you. System administrators can browse the blueprints catalog and install ready-to-use project templates. Available on these dates: Preview release: April 22, 2021 (with the 21.2 release) Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience New for group administrators: Create and manage statuses for a group at any level To make it easier for all levels of an organization to manage and control their workflows independently, we’ve introduced the ability to create and manage statuses for subgroups. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Adobe Workfront Classic New for administrators: Create a billing record custom form Now you can improve how users capture billing information by creating a billing record custom form. Users can attach the custom form to a billing record, fill it out, and run reports that include the information in the form. Available on these dates: Preview release: May 20, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Adobe Workfront Classic 
+ </tbody> 
+</table>
+
+### Project enhancements
+
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><span class="bold">Feature</span> </p> </td> 
+   <td> <p><span class="bold">Release dates and environments</span> </p> </td> 
+  </tr> Associate a template with a group To help you streamline the project creation process —and to help you more easily identify and report on which groups own which project templates—we’ve added the ability to assign a group to a project template. When you assign a group to a project template, all projects created from the template are automatically associated with the template's group. Also, you can attach a group approval process to a template and its template tasks if the template is associated with your group. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Easier editing of fields in the Details section Various improvements allow you to more easily edit information in the Details section of any object. These improvements include a gray outline around a field when hovering over it indicates that it is editable, as well as the ability to edit fields by clicking them once. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Consider cross-project predecessors when calculating handoff dates With a new improvement in the way Adobe Workfront calculates handoff dates for tasks, the cross-project dependencies are now taken into account. Previously, the handoff dates were calculated based only on the predecessors of the task from the same project. Now, to ensure you always have an accurate handoff date for a task with a cross-project predecessor, you must recalculate the timeline of the successor task's project. After recalculating the timeline, the handoff dates of the task calculates taking into account the cross-project dependencies of the tasks. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Adobe Workfront Classic Add existing stories and issues from the Scrum board You can now add an existing story or issue directly from the Scrum board. This makes it easier to add existing stories to your current iteration without having to go to the backlog page. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Add new stories and issues from the Scrum board You can now create a new story or issue directly from the Scrum board. This makes it easier to quickly add a new story to your current iteration. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Delete story or issue from the Kanban board You can now delete a story or issue directly from your Kanban board by clicking the More icon on a story or issue card and selecting Delete. When you delete a story or issue, it is moved to the Recycle Bin for 30 days and can be recovered only by the system administrator. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Agile card header and story board updates On Kanban and Scrum boards, various enhancements are now available, including a fixed width for story cards and board columns, the renaming of the Stories column to Parent Story, and more. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Group project, task, and issue preferences As we communicated earlier, we rolled out group-level customizations for project, task, and issue preferences in phases. Until June 24, 2021, they were available in Production for all EMEA customers and for a subset of all other customers. Now they are available to all customers. Available on these dates: Preview release: July 9, 2020 (project preferences for groups) December 3, 2020 (task and issue preferences for groups) Production release: With the 21.3 release (was available only for a limited number of customers, available to all customers June 24, 2021) Available in these environments: The new Adobe Workfront experience Adobe Workfront Classic Allow external users to approve a document You can now use external email addresses to assign approvers to a document in the new Workfront experience. Previously, you could add external users by email address only in Workfront Classic. Available on these dates: Preview release: May 20, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Export information from the Details section of a portfolio or program You can now export to a .pdf file information from the Details section of portfolios and programs. Prior to this enhancement, you could export information from the Details section only from projects, tasks and issues. Available on these dates: Preview release: May 20, 2021 Production release: June 3, 2021 Available in these environments: The new Adobe Workfront experience Added Planned Completion Date timestamp in the object’s header To facilitate easy access, convenience as well as accuracy, we have added the option to select a timestamp in the Planned Completion Date of the header of projects, tasks, or issues. Prior to this enhancement, when you updated the Planned Completion Date of an object, Workfront selected midnight as the default time. Now, you can customize the time as well as the completion date. Available on these dates: Preview release: May 20, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience Add a custom form to an object without editing it We have made it easier to add a custom form that someone else will fill out—or that you will fill out later—to an object. The form no longer goes into editing mode automatically when you add it. You can simply save the empty form to the object. Previously, when you added a custom form to an object, the page went into editing mode and you had to complete any required fields on the form before you could save it to the object. This was inconvenient when the form was meant for another user to fill out, or when you did not know yet what to put in a required field on the form. Available on these dates: Preview release: May 20, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience 
+ </tbody> 
+</table>
+
+### Resource Management enhancements
+
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><span class="bold">Feature</span> </p> </td> 
+   <td> <p><span class="bold">Release dates and environments</span> </p> </td> 
+  </tr> Deactivate roles no longer in use To offer you the same experience as with users, teams, and companies, we have introduced a new feature that allows you to deactivate roles you no longer use. When you deactivate a role, it is no longer available for selection in typeahead fields for assigning and sharing objects. Deactivated roles still appear in search fields and filter options. Tasks and issues assigned to a deactivated role as well as approval processes or routing rules continue to be assigned to these roles. You must update these objects to replace the inactive role with an active one, if they are yet to be completed. Available on these dates: Preview release: May 27, 2021 Production release: June 10, 2021 Available in these environments: The new Adobe Workfront experience Adobe Workfront Classic 
+ </tbody> 
+</table>
+
+### Requests enhancements
+
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><span class="bold">Feature</span> </p> </td> 
+   <td> <p><span class="bold">Release dates and environments</span> </p> </td> 
+  </tr> Find requests by recent paths or by searching using a keyword To help you find the right request queue faster by referring to recently logged requests, we have introduced the following improvements to finding a recently used queue: A list of the recent paths for which you have entered requests The ability to search for a request type by any keyword included in a path. A path includes the request queue and all the topic groups and queue topics that you have selected before when submitting a request. Available on these dates: Preview release: June 3, 2021 Production release: With the 21.3 release Available in these environments: The new Adobe Workfront experience 
+ </tbody> 
+</table>
+
+### Proofing enhancements
+
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><span class="bold">Feature</span> </p> </td> 
+   <td> <p><span class="bold">Release dates and environments</span> </p> </td> 
+  </tr> Remove ability to create a new document or proof version in a linked folder We removed the ability to create a new version of a document or proof within a linked folder. You can still create a new version of a linked document or proof if they are outside of a linked folder. Previously, this option still displayed for documents and proofs in linked folders, but users were unable to create a new version of a document. Available on these dates: Preview release: June 3, 2021 Production release: June 3, 2021 Available in these environments: The new Adobe Workfront experience Adobe Workfront Classic Users added to a proof automatically granted View access on a document Users with Reviewer or Read-only selected as their proof role are automatically granted View access on the document if they had none previously. Previously, users with the proof roles mentioned above had to request access to documents when they were added to the proof. Available on these dates: Preview release: May 20, 2021 Production release: June 17, 2021 Available in these environments: The new Adobe Workfront experience Adobe Workfront Classic 
+ </tbody> 
+</table>
+
+### Other enhancements
+
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> <p><span class="bold">Feature</span> </p> </td> 
+   <td> <p><span class="bold">Release dates and environments</span> </p> </td> 
+  </tr> Home area redesign for mobile app Various enhancements have been added to the home area in the Adobe Workfront mobile app, including: a redesigned work item widgets and a larger search box help you find what you need quickly; the navigation bar for home, virtual assistant, quick task, notifications, and user profile now "floats" over the home area for easy access; and the My Work menu scrolls horizontally and shows these items: Projects, Tasks &amp; Issues, Requests, Approvals, and Timesheets. Up to three cards for the selected item are displayed below the menu. Available on these dates: Preview release: N/A Production release: With the 21.3 release Available in these environments: iOS Android Event subscription filters Event subscription filters are now enabled in preview environments. Event subscription filtering can be used to ensure that you receive only relevant messages. Creating filters for your subscriptions may significantly decrease the number of messages that your endpoint needs to consume. Available on these dates: Preview release: May 20, 2021 Production release: June 3, 2021 Available in these environments: The new Adobe Workfront experienceAdobe Workfront Classic 
+ </tbody> 
+</table>
+
+&nbsp;
+
+## Workfront Scenario Planner enhancements
+
+<!--
+There are no Scenario Planner updates at this point in the release. This area will be updated when updates are available.
+-->
+
+New features are coming to Workfront Scenario Planner release with the 21.3 release. For information about these new features now available in Preview, see Adobe Workfront Scenario Planner with the 21.3 release.
+
+## Workfront Fusion enhancements
+
+New features in Workfront Fusion are available in Production at a cadence outside of the 21.3 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+
+## Workfront Proof enhancements
+
+New features in Workfront Proof are now available. For more information, see [Workfront Proof release activity: Week of May 17, 2021](../../../product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md).
+
+## Workfront Goals enhancements
+
+There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
+
+<!--
+Most new features coming to Workfront Goals release with the 21.2 release. For information about these new features now available in Preview, see Workfront Goals with the 21.2 release.
+-->
+
+## Announcements
+
+### Required IP allowlist update for using the Workfront for Jira integration
+
+We've made some back-end updates to the Workfront for Jira integration. Please ensure that the following IP addresses listed in the [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) article have been added to your allowlist for inbound and outbound connections:
+
+* 34.213.36.118
+* 35.160.0.242
+* 3.209.27.146
+* 18.205.251.4
+
+These addresses were previously listed as necessary for other areas of Workfront, but are now also necessary for the Jira integration.
+
+To prevent interruption in your Workfront for Jira integration, your organization must allow these IP addresses by August 4, 2021.
+
+For more information on configuring the Jira integration, see [Install Adobe Workfront for Jira](../../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md).
+
+### API version 13
+
+For API version 13, we've modified various resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+
+For information on what's new and updated, see [What's new in API version 13](../../../wf-api/api/new-api-version-13.md).
+
+## 21.3 Release Webinar
+
+The Workfront 21.3 Release Webinar was presented on June 16, 2021. You can view the recording [here](https://webinars.on24.com/workfront/213Release?partnerref=WFAC).
+
+<!--
+Functionality being removed from Production Feature rollback: Carry over the existing proof workflow when generating a new version Due to customer feedback, Workfront is removing this change from Preview environments on March 30, 2021 and from Production environments on March 31, 2021. On March 11, 2021, Workfront released a change to existing proof workflows in both Workfront Classic and the new Workfront experience. The change allowed for an existing workflow to carry over to any new proof versions created by a user, regardless of the method used to generate them. In the new Workfront experience after this change is removed, proofs created with the Simple proof selection will not include any preset proofing settings, and new versions will not carry over existing workflows or proof settings. A user can adjust settings after proof generation. In Workfront Classic after this change is removed, the option to Generate Proof will not include any preset proofing settings, and new versions will not carry over existing workflows or proof settings. A user can adjust settings after proof generation. Similar functionality to easily copy existing workflows might be added to Production at a future time.
+-->
+
+## Functionality no longer supported
+
+### Internet Explorer 11
+
+With the removal of support for Internet Explorer, Workfront now officially supports Microsoft Edge.
+
+For more information about supported browsers, see [Adobe Workfront browser requirements](../../../workfront-basics/workfront-browser-requirements.md).

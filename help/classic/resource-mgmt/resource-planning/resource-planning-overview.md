@@ -1,0 +1,53 @@
+---
+filename: _resource-planning-overview
+content-type: reference
+product-area: resource-management
+navigation-topic: resource-management-navigation-topic
+title: Resource Planning in Adobe Workfront
+description: The articles in this section contain information about functionality in the Planning tab of the People area of Adobe Workfront.
+---
+
+# Resource Planning in Adobe Workfront
+
+The articles in this section contain information about functionality in the Planning tab of the People area of Adobe Workfront.
+
+For information about Legacy Resource Planning, see Overview of Legacy Resource Planning . The Legacy Resource Planning tools are currently deprecated and will soon be removed from Workfront.
+
+This section contains the following articles:
+
+* [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+* [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) 
+* [Resource Pools](../../resource-mgmt/resource-planning/resource-pools/resource-pools.md) 
+* [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) 
+* [Locate the Resource Planner in Adobe Workfront](../../resource-mgmt/resource-planning/locate-resource-planner.md) 
+* [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md) 
+* [Review resource availability and allocation using the Resource Planner](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md) 
+* [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md) 
+* [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md) 
+* [Adjust budgeting dates in the Resource Planner](../../resource-mgmt/resource-planning/adjust-budgeting-dates.md) 
+* [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) 
+* [Overview of calculating hours and FTE for users and roles in the Resource Planner](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md) 
+* [Calculate costs in the Resource Planner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md) 
+* [Prioritize projects in the Resource Planner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md) 
+* [Share the Resource Planner user view with a link](../../resource-mgmt/resource-planning/share-resource-planner-with-link.md) 
+* [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md) 
+* [Export information from the Resource Planner](../../resource-mgmt/resource-planning/export-resource-planner.md) 
+* [Report on Resource Planner Budgeted Hours](../../resource-mgmt/resource-planning/report-on-budgeted-hours.md) 
+* [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
+
+  <!--
+  Track User Utilization information
+  -->
+
+  <!--
+  Budget resources by project in the Resource Planner
+  -->
+
+  <!--
+  Budget resources by role in the Resource Planner
+  -->
+
+  <!--
+  View projects, roles, and users using the Resource Planner
+  -->
+

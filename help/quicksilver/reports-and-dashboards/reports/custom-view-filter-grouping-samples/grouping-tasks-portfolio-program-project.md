@@ -1,0 +1,58 @@
+---
+filename: grouping-tasks-portfolio-program-project
+content-type: reference
+product-area: reporting;projects;portfolios;programs
+navigation-topic: custom-view-filter-and-grouping-samples
+title: Grouping: tasks by portfolio, program, and project
+description: Use this task grouping to group tasks by the portfolio, by program, and then by the project they are associated with.
+---
+
+# Grouping: tasks by portfolio, program, and project
+
+Use this task grouping to group tasks by the portfolio, by program, and then by the project they are associated with.
+
+![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Group tasks by portfolio, program, and project
+
+To apply this grouping:
+
+1. Go to a list of tasks.
+1. From the `Grouping` drop-down menu, select `New Grouping`.
+
+1. Click `Switch to Text Mode`.
+1. Remove the text in the `Group your Report` area.
+1. Replace&nbsp;the text with the following code:  
+   <pre>group.0.linkedname=project<br>group.0.namekey=portfolio<br>group.0.notime=false<br>group.0.valuefield=project:portfolio:name<br>group.0.valueformat=string<br>group.1.linkedname=project<br>group.1.namekey=program<br>group.1.notime=false<br>group.1.valuefield=project:program:name<br>group.1.valueformat=string<br>group.2.name=Project<br>group.2.valuefield=project:name<br>group.2.valueformat=HTML<br>textmode=true<br></pre>
+
+1. Click `Save Grouping`.
+

@@ -1,0 +1,488 @@
+---
+filename: new-api-version-13
+content-type: api
+navigation-topic: api-navigation-topic
+title: What's new in API version 13
+description: Adobe Workfront released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
+---
+
+# What's new in API version 13
+
+Adobe Workfront released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
+
+## Added resources
+
+No resources were added for API version 13.
+
+## Removed resources
+
+No resources were removed for API verson 13.
+
+## Modified resources
+
+The following resources were modified for API version 13.
+
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td> 
+    <ul> 
+     <li> <p><a href="#accessle" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#breadcru" class="MCXref xref">BreadCrumb</a> </p> </li> 
+     <li> <p><a href="#burndown" class="MCXref xref">BurndownEvent</a> </p> </li> 
+     <li> <p><a href="#customer" class="MCXref xref">CustomerPreferences</a> </p> </li> 
+     <li> <p><a href="#document" class="MCXref xref">DocumentVersion</a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref">Group </a> </p> </li> 
+     <li> <p><a href="#journale" class="MCXref xref">JournalEntry</a> </p> </li> 
+     <li> <p><a href="#layoutte" class="MCXref xref">LayoutTemplate</a> </p> </li> 
+     <li> <p><a href="#linkedfo" class="MCXref xref">LinkedFolder</a> </p> </li> 
+     <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
+    </ul> </td> 
+   <td> 
+    <ul> 
+     <li> <p><a href="#project" class="MCXref xref">Project</a> </p> </li> 
+     <li> <p><a href="#proofapp" class="MCXref xref">ProofApproval</a> </p> </li> 
+     <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
+     <li> <p><a href="#task" class="MCXref xref">Task</a> </p> </li> 
+     <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
+     <li> <p><a href="#timeshee" class="MCXref xref">Timesheet</a> </p> </li> 
+     <li> <p><a href="#timeshee2" class="MCXref xref">TimesheetProfile</a> </p> </li> 
+     <li> <p><a href="#uitempla" class="MCXref xref">UITemplate</a> </p> </li> 
+     <li> <p><a href="#userdele" class="MCXref xref">UserDelegation</a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref">Work </a> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### AccessLevel
+
+An AccessLevel object is associated with users, and describes the set of AccessLevelPermissions that determine what the user can access.
+
+For more information on access levels, see [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>Description</b> </p> <p>Added the validator MAX_LENGTH, which specifies that the length of the description is no more than 4000 characters.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### BreadCrumb
+
+A BreadCrumb object represents an element in the parent/child hierarchy of a Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>objCode</b> </p> <p>Object codes can be found in the <a href="../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### BurndownEvent
+
+A BurndownEvent object represents an object that changes the bundown of an iteration.
+
+For more information on burndown, see [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> <p>The following fields removed the flag NOT_GROUPABLE </p> 
+    <ul> 
+     <li> <p>applyDate</p> </li> 
+     <li> <p>entryDate</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### CustomerPreferences
+
+A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Added possible values:</p> 
+      <ul> 
+       <li style="font-weight: normal;">password:aemAPIKey (config.general.aem.apikey)</li> 
+       <li style="font-weight: normal;"> password:aemAADomain (config.general.aem.aadomain) </li> 
+       <li style="font-weight: normal;">password:aemIntegrationEnabled (config.general.aem.enabled)</li> 
+       <li style="font-weight: normal;">password:aemHost (config.general.aem.host)</li> 
+       <li style="font-weight: normal;">timesheet:default.timesheet.restrict.timesheet.edit.owners.admins (config.timesheet.restrict.timesheet.edit.owners.admins)</li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Actions</td> 
+   <td> <p>The following actions were added to the CustomerPreferences resource.</p> 
+    <ul> 
+     <li> <p><b>getTimesheetPreferences</b> </p> </li> 
+     <li> <p><b>setTimesheetPreferences</b> </p> <p>Takes the argument:</p> 
+      <ul> 
+       <li> <p>preferences (map)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### DocumentVersion
+
+A DocumentVersion object represents a specific version of a file (such as written material, images, or other forms of information).
+
+For more information about document versions, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>Added possible value:</p> 
+      <ul> 
+       <li> <p>AEM (Adobe Experience Manager)</p> </li> 
+      </ul> </li> 
+    </ul> 
+    <ul> 
+     <li> <p><b>proofID</b> </p> <p>Added flag NOT_FILTERABLE</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Group
+
+A Group object represents a set of users and teams. Groups often represent departmental structure.
+
+For more information on groups, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Actions</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>getParents</b> </p> <p>This action returns an array of the group's parent groups (groups that the given group is a subgroup of).</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### JournalEntry
+
+The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
+
+The JournalEntry resource added the flag REPORTABLE.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> <p>The following fields removed the flag NOT_GROUPABLE:</p> 
+    <ul> 
+     <li> <p><b>changeType</b> </p> </li> 
+     <li> <p><b>entryDate</b> </p> </li> 
+     <li> <p><b>fieldName</b> </p> </li> 
+     <li> <p><b>objObjCode</b> </p> </li> 
+    </ul> <p>The following fields added the flag NOT_FILTERABLE:</p> 
+    <ul> 
+     <li> <p><b>subObjCode</b> </p> </li> 
+     <li> <p><b>subObjID</b> </p> </li> 
+     <li> <p><b>topObjCode</b> </p> </li> 
+     <li> <p><b>topObjID</b> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### LayoutTemplate
+
+Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The LayoutTemplate object is specific to Adobe Workfront Classic.
+
+For the object that represents layout templates in the new Adobe Workfront experience, see [UITemplate](#uitempla)
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>Description</b> </p> <p>Added the validator MAX_LENGTH, which specifies that the length of the description is no more than 4000 characters.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### LinkedFolder
+
+A LinkedFolder object represents a folder linked from an external document provider, such as Google Drive or Dropbox.
+
+For more information on Linked Folders, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>Added possible value:</p> 
+      <ul> 
+       <li> <p>AEM (Adobe Experience Manager)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### OpTask
+
+An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Search Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Project
+
+Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
+       Removed flag NOT FILTERABLE
+      --> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### ProofApproval
+
+A ProofApproval object represents an approval that is directly connected to a proof.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Direct Fields</p> </td> 
+   <td> <p>The following fields were added to the ProofApproval resource.</p> 
+    <ul> 
+     <li> <p><b>approverStage</b> </p> </li> 
+     <li> <p><b>DecisionDate</b> </p> </li> 
+     <li> <p><b>workflowTemplate</b> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### QueueDef
+
+A QueueDef object represents a Queue, which is a Project that has been published to the Help Desk area to allow users to submit Issues to it.
+
+For more information on Request Queues, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li> <p><b>documentPosition</b> </p> <p>Added. Possible values are:</p> 
+      <ul> 
+       <li> <p>0 (After custom forms)</p> </li> 
+       <li> <p>1 (Before custom forms)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Task
+
+A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Search Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Team
+
+A Team object is a collection of Users that can be assigned to a work item.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">This field was added, and is a boolean parameter that has a value of true if an object is active and false if it is not. Objects that are set to Active appear in drop-down menus and type-ahead fields and can be attached to other objects. Objects not set to Active are not visible in drop-down menus and type-ahead fields to attach to other objects. &nbsp;</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
+    <ul> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Timesheet
+
+A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li> <p><b>isOvertimeDisabled</b> </p> <p>Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Core Fields</td> 
+   <td> 
+    <ul> 
+     <li> <p><b>objCode</b> </p> <p>Removed</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### TimesheetProfile
+
+A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td>Direct Fields</td> 
+   <td> 
+    <ul> 
+     <li> <p><b>isOvertimeDisabled</b> </p> <p>Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>Default Fields</td> 
+   <td> 
+    <ul> 
+     <li> <p><b>isOvertimeDisabled</b> </p> <p>Added</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### UITemplate
+
+Adobe Workfront administrators or group administrators can create templates to customize the layout elements in Adobe Workfront. The LayoutTemplate object is specific to the new Adobe Workfront experience.
+
+For the object that represents layout templates in Adobe Workfront Classic, see [LayoutTemplate](#layoutte).
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Actions</td> 
+   <td> <p>The following actions were added to the UITemplate resource.</p> 
+    <ul> 
+     <li> <p><b>migrateCustomersAllLayoutTemplates</b> </p> <p>Takes the argument:</p> 
+      <ul> 
+       <li> <p>overrideIfExists (boolean)</p> </li> 
+      </ul> </li> 
+     <li> <p><b>migrateLayoutTemplates</b> </p> <p>Takes the arguments:</p> 
+      <ul> 
+       <li> <p>layoutTemplateIDs (string[])</p> </li> 
+       <li> <p>overrideIfExists (boolean)</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### UserDelegation
+
+A UserDelegation object represents the act of delegating work from one user to another for a specific period of time.
+
+The UserDelegation object added the flag REPORTABLE.
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Direct Fields</td> 
+   <td> <p>The following fields removed the flag NOT_GROUPABLE</p> 
+    <ul> 
+     <li> <p><b>endDate</b> </p> </li> 
+     <li> <p><b>startDate</b> </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Default Fields</td> 
+   <td> <p>The following fields were added:</p> 
+    <ul> 
+     <li> <p><b>endDate</b> </p> </li> 
+     <li> <p><b>startDate</b> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Work
+
+A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
+
+<table cellspacing="15">   
+ <tbody> 
+  <tr> 
+   <td> <p>Search Fields</p> </td> 
+   <td> 
+    <ul> 
+     <li> <p><b>favoritedByUsersMM</b> </p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+

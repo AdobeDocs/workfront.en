@@ -1,0 +1,56 @@
+---
+filename: proof-approval-report
+product-area: documents
+navigation-topic: manage-proofs-within-workfront
+title: Use the proof approval report
+description: You can use the proof approval report to view information about proofs in your environment.
+---
+
+# Use the proof approval report
+
+You can use the proof approval report to view information about proofs in your environment.
+
+## Access requirements
+
+You must have the following:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Workfront licenses overview*</p> </td> 
+   <td> <p>Plan</p> </td> 
+  </tr> Access level* Edit access to: Create Reports, Dashboards, and Calendars Create Filters, Views, and Groupings Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. 
+ </tbody> 
+</table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+## Use the proof approval report
+
+1. Click **New Report**, then scroll to select **Proof Approval**.
+
+1. (Optional) Add any additional fields. 
+1. Click `Save + Close`.
+
+## Additional fields
+
+You can add the following fields to the proof approval report:
+
+* **Decision Date**: Displays the date an approver makes a decision on a proof. You can also find this date on the Print Summary of the proof.
+* **Approver Stage**: Displays the current stage information.
+* **Workflow Template**: Displays any workflow templates attached to the proof. If there is no template attached, the column is blank.
+* `Awaiting decision`: Displays true to signal a decision has not been met when the following are true:
+
+  * The proof has not been archived
+  * The stage the approver is on is active
+  * The proof is pending approval
+
+* `Proof deadline`: Displays the deadline of the proof. Every stage must have a deadline assigned in order for this field to populate. The field displays the deadline for the most recently activated stage.
+
+&nbsp;

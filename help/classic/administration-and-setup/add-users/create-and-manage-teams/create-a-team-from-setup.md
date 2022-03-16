@@ -1,0 +1,94 @@
+---
+filename: create-a-team-from-setup
+title: Grant administrator access
+user-type: administrator
+product-area: system-administration;user-management
+navigation-topic: create-and-manage-teams-admin
+title: Create a team from the Setup area
+description: As an Adobe Workfront administrator, you can create a team from the Setup area. For information about teams, see Teams overview.
+---
+
+# Create a team from the Setup area
+
+As an Adobe Workfront administrator, you can create a team from the Setup area. For information about teams, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+
+>[!NOTE]
+>
+>* A group administrator can create a team for a group they administer from the Setup area. For more information, see Create and modify a group’s teams.
+>* A user with a Plan license can also create a team from the People area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
+>
+
+##  
+
+## Access requirements
+
+You must have the following to perform the steps in this article:
+
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Plan </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Create a team
+
+1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click `Teams`, then click `New Team`.
+
+1. In the **New Team** box that displays, specify the following information:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Team Name</td> 
+      <td>Type a name for the team.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Group</td> 
+      <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Team Members</td> 
+      <td> <p>Begin typing the name of a user to be on the team, then select the name when in appears in the drop-down list. Repeat this process to add multiple users to the team.</p> <p>There is no limit to how many users you can add to a team. However, we recommend to not have an excessively large number of users in one team, because the team’s work management might become too complex.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Type a description for the team.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Calendar</td> 
+      <td>Choose which calendar tab will appear for this team.</td> 
+     </tr> This is an Agile Team Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see Create an agile team. 
+     <tr> 
+      <td role="rowheader">Work On It</td> 
+      <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Done Button</td> 
+      <td>Select the status that you want set for&nbsp;items when the Done button is clicked.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click  `Create Team`.
+
+## Team owners
+
+When you create a team you become the team owner, by default.
+
+You can view team owners for all the teams when you create a report for teams and include the Owner Name field in your report. (For more information about creating a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)

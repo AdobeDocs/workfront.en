@@ -1,0 +1,307 @@
+---
+filename: ftp-modules
+content-type: reference
+product: workfront-fusion
+product-area: workfront-integrations
+navigation-topic: apps-and-their-modules
+title: FTP modules
+description: FTP modules let you monitor file changes in a selected folder, upload new files to the desired folder, and modify or delete existing files that are already in a folder.
+---
+
+# FTP modules
+
+FTP modules let you monitor file changes in a selected folder, upload new files to the desired folder, and modify or delete existing files that are already in a folder.
+
+In order to use [Fusion App] with Workfront Fusion, it is necessary to have an FTP account (such as GoDaddy web hosting).
+
+* [Creating the FTP Connection](#creating) 
+* [Triggers](#triggers) 
+* [Actions](#actions) 
+* [Troubleshooting](#troubles) 
+* [Sources](#sources)
+
+## Creating the FTP Connection
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection name</td> 
+   <td> <p> Enter the name for your FTP connection.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Host </td> 
+   <td> <p>Enter the FTP server hostname. E.g. <code>myftp123.server.com</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td>Port </td> 
+   <td> <p>Enter the FTP server port number. E.g. <code>21</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td>User name </td> 
+   <td> <p>Enter your FTP account user name.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Password </td> 
+   <td> <p>Enter your FTP account password.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Use a secure connection (TLS)</p> </td> 
+   <td> <p>Select if you want to use a secure connection.</p> <p style="font-weight: bold;">No</p> <p>The connection will not be secured.</p> <p style="font-weight: bold;">Explicit encryption or Implicit encryption</p> <p><a href="https://en.wikipedia.org/wiki/FTPS">FTPS connection</a>. The connection will be secured using SSL.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Reject unauthorized certificates</p> </td> 
+   <td> <p>If this option is enabled, the FTP server certificate is verified. If the verification fails, the connection will not be created. To pass the verification, the certificate must meet one of the following criteria:</p> 
+    <ul> 
+     <li>be signed by a Root <a href="https://en.wikipedia.org/wiki/Certificate_authority">Certificate Authority</a></li> 
+     <li>be signed by an Intermediate Certificate Authority (see e.g. <a href="https://knowledge.digicert.com/solution/SO16297.html">How certificate chains work</a> for further explanation). In this case all the Intermediate Certificates should be installed on the FTP server.</li> 
+    </ul> <p>be a Self-Signed Certificate supplied in the Self-signed certificate field (see below)</p> <p>If this option is disabled, the FTP server certificate is not verified. We strongly advise against disabling the option as it renders the connection insecure and poses a serious security risk.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Self-signed certificate</p> </td> 
+   <td> <p>Click the Extract button to open the upload dialog.</p> <p>Upload the certificate to use the TLS with your self-signed certificate. Workfront Fusion does not retain or store any data (files, passwords) you provide. File and password are only used to extract the certificate.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Triggers
+
+Watch files is the only trigger module for FTP. It monitors the file content of the selected folder. The trigger is executed when a new file is inserted into the specified folder.
+
+2019-02-01_17_13_02-Window.png
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Folder</p> </td> 
+   <td> <p>Select the folder you want to watch.</p> <p>Note: Only one folder per scenario is allowed. Subfolders are ignored.</p> <p>Tip: To keep track of multiple folders, create an independent scenario for each of them.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Maximum number of returned files </td> 
+   <td> <p>Set the maximum number of results that Workfront Fusion will work with during one cycle. If the value is set too high, the connection may be interrupted on the side of the given third-party service (timeout). Workfront Fusion has no influence on this. We recommend that you set a lower value and either define a higher value for the maximum number of cycles or run the scenario more frequently.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Choose where to start</p> </td> 
+   <td> <p>Set when do you want to start the FTP file monitoring from.</p> <p class="PinkDraftNote">2019-02-01_17_18_10-Window.png</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Actions
+
+* [Upload a file](#upload) 
+* [Delete a file](#delete) 
+* [Get files](#get) 
+* [List of files in a folder](#list) 
+* [Get a file](#get2)
+
+### Upload a file
+
+Uploads a file to the FTP server.
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td>Folder </td> 
+   <td> <p>Select the FTP folder you want to upload the file to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Source file </td> 
+   <td> <p>Select (or map) the file you want to upload to the FTP server.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Append to an already existing file</td> 
+   <td> <p> If this option is enabled and the file already exists on the FTP server, its content will be appended. If not, the content of the file will be overwritten.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Create folders if don't exist </td> 
+   <td> <p>If this option is enabled and the folder you have entered to the Folder field does not exist on the FTP server, the module will create the folder.</p> <p class="PinkDraftNote">2019-02-01_17_29_20-Window.png</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a file
+
+Deletes a file from the specified folder.
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder </td> 
+   <td> <p>Select the FTP folder you want to delete a file from.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>File name</td> 
+   <td> <p> Enter the filename (including file name extension). E.g. image.png</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Get files
+
+Retrieves information (id, file name, file size, MIME type, date path) about a searched file.
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder </td> 
+   <td> <p>Select the FTP folder you want search in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Search </td> 
+   <td> <p>Enter the search term. If no search term is entered all files from the specified folder will be retrieved.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Maximum number of returned files</td> 
+   <td> <p> Set the maximum number of retrieved files by this module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### List of files in a folder
+
+Retrieves file and/or folder information.
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Folder </td> 
+   <td> <p>Select the FTP folder you want to search in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Show </td> 
+   <td> <p>Select whether you want to retrieve information about files or folders, or both.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Search </td> 
+   <td> <p>Enter the search term. If no search term is entered all files and folders from the specified folder will be retrieved.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Maximum number of returned files</td> 
+   <td> <p> Set the maximum number of retrieved files by this module.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Get a file
+
+Retrieves a file from the FTP server which can be further processed, e.g. uploaded to the Dropbox.
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>File path</td> 
+   <td> <p> Enter the path of the file you want to get.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Example
+
+The file is retrieved from the FTP server and uploaded to your Dropbox.
+
+2019-02-04_11_40_17-Window.png
+
+Change permissions
+
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Connection </td> 
+   <td> <p>For instructions on establishing a connection to the FTP account, see <a href="#creating" class="MCXref xref">Creating the FTP Connection</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Change permission settings of</td> 
+   <td> <p> Select whether you want to change permissions of the file or the folder.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>File path</td> 
+   <td> <p> Enter the folder or file path.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Permissions</p> </td> 
+   <td> <p>Set the desired file/folder permissions. Use the chmod parameters. E.g. <code>777</code> or <code>-rwxrwxrwx</code></p> <p class="PinkDraftNote">2019-02-04_12_19_01-Window.png</p> <p>You can find more details on the <a href="https://ss64.com/bash/chmod.html">chmod Man Page</a>.</p> <p class="PinkDraftNote">2019-02-04_12_38_57-chmod_Man_Page_-_Linux_-_SS64.com.png</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+## Troubleshooting
+
+If you are experiencing issues with the FTP app either during the connection creation or during a module's operation, try to use one of the popular FTP clients, such as [WinSCP](https://winscp.net/eng/download.php), and try to perform the same action (for example, create a connection or list files in a folder). with the FTP client. If you are experiencing the same issues also with the FTP client, the reason might be a misconfiguration of the FTP server.
+
+There are two FTP modes: active and passive. As the Workfront Fusion FTP app requests the passive mode, the FTP server must support the passive mode in order for an FTP session to be established.
+
+1. The Workfront Fusion server sends the 
+
+   ```
+   PASV
+   ```
+
+   command to the FTP server on port 21 (or 990 if Use a secure connection (TLS): "Implicit encryption" option has been chosen in the connection setup). This port must be open on the FTP server's firewall.
+1. The FTP server should send 
+
+   ```
+   227: Entering Passive Mode (h1,h2,h3,h4,p1,p2)
+   ```
+
+   in response. The response specifies:
+
+  * The IP address (h1, h2, h3, h4) the Workfront Fusion server should connect to. When the FTP server is behind a NAT, the FTP server needs to provide its external IP address. It is common that the FTP server is not configured properly and provides its internal IP address instead that cannot be connected to from the Workfront Fusion server, e.g.:
+
+    Screenshot
+  
+  * A random, high-numbered (ephemeral) port (p1, p2) that the Workfront Fusion server can connect to. This port must be open on the FTP server's firewall.
+
+1. The Workfront Fusion server initiates a connection to the IP address and port specified in the response.
+1. The FTP server responds with an 
+
+   ```
+   ACK
+   ```
+
+   . The FTP session has now been established.
+
+## Sources
+
+* [https://winscp.net/eng/docs/ftp_modes](https://winscp.net/eng/docs/ftp_modes) 
+* [https://documentation.meraki.com/.../Active_and_Passive_FTP_Overview_and_Configuration](https://documentation.meraki.com/.../Active_and_Passive_FTP_Overview_and_Configuration)
+
