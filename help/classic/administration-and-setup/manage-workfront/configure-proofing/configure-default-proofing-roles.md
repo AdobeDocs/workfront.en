@@ -38,33 +38,33 @@ You must have the following access to perform the steps in this article:
 
 ## Configure default proofing roles
 
-1. <![CDATA[]]>Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Review and Approval` near the bottom of the list that appears on the left. 
-1. In the `Roles for designated recipients of a document proof` section, select the default role for users and guest users who are added to a proof's workflow.
+1. <![CDATA[]]>Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Review and Approval** near the bottom of the list that appears on the left. 
+1. In the **Roles for designated recipients of a document proof** section, select the default role for users and guest users who are added to a proof's workflow.
 
    See [Rights associated with proofing roles](#rights) below for a list of each proofing role and the rights associated with it.
 
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.
-   >  * The person adding users to the proof can adjust this role, as described in [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-   >  
-   >  
+   >   
+   >   
+   >   * This setting applies only to users who are created in the Workfront system after the role is set; not to existing users.
+   >   * The person adding users to the proof can adjust this role, as described in [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   >   
+   >   
    >
 
-1. In the `Roles for non-recipients that open a document proof` section, select the default role for users and guest users who can access a proof, but are not added to the proof's workflow.
+1. In the **Roles for non-recipients that open a document proof** section, select the default role for users and guest users who can access a proof, but are not added to the proof's workflow.
 
    This situation occurs when users and guests have access to a document for which a proof has been created: even if they have not been added to the proof's workflow, they can open the proof.
 
-   ` `**Examples: **``Here are examples of how you could use this setting:
+   ``` ```**Examples: **``````Here are examples of how you could use this setting:
 
-  * You select `Read only` to limit all proof activity such as adding comments and making decisions to those who have been asked to do it.
-  * You select `Reviewer` because you want any member of the team to be able to add markups and comments on a proof.
+   * You select **Read only** to limit all proof activity such as adding comments and making decisions to those who have been asked to do it.
+   * You select **Reviewer** because you want any member of the team to be able to add markups and comments on a proof.
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Rights associated with proofing roles
 
@@ -88,24 +88,24 @@ The following table shows each role and the rights associated with it:
  <thead> 
   <tr> 
    <th> <p>&nbsp;</p> </th> 
-   <th> <p><span class="bold">View a proof</span> </p> </th> 
-   <th> <p><span class="bold">Add markups</span> </p> </th> 
-   <th> <p><span class="bold">Add comments</span> </p> </th> 
-   <th> <p><span class="bold">Edit own comments if there are no replies</span> </p> </th> 
-   <th> <p><span class="bold">Make a decision</span> </p> </th> 
-   <th> <p><span class="bold">Delete comments made by others</span> </p> </th> 
+   <th> <p><strong>View a proof</strong> </p> </th> 
+   <th> <p><strong>Add markups</strong> </p> </th> 
+   <th> <p><strong>Add comments</strong> </p> </th> 
+   <th> <p><strong>Edit own comments if there are no replies</strong> </p> </th> 
+   <th> <p><strong>Make a decision</strong> </p> </th> 
+   <th> <p><strong>Delete comments made by others</strong> </p> </th> 
    <th>Resolve comments</th> 
    <th>Apply Actions to Comments</th> 
-   <th> <p><span class="bold">Edit the proof</span> </p> </th> 
+   <th> <p><strong>Edit the proof</strong> </p> </th> 
    <th>Share the proof with others</th> 
    <th>Create new version</th> 
-   <th> <p><span class="bold">View approval requests in the Home area</span> </p> </th> 
+   <th> <p><strong>View approval requests in the Home area</strong> </p> </th> 
    <th>Add new reviewers</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><span class="bold">Read Only</span> </p> </td> 
+   <td> <p><strong>Read Only</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
@@ -121,7 +121,7 @@ The following table shows each role and the rights associated with it:
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Reviewer</span> </p> </td> 
+   <td> <p><strong>Reviewer</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -137,7 +137,7 @@ The following table shows each role and the rights associated with it:
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Approver</span> </p> </td> 
+   <td> <p><strong>Approver</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
@@ -153,7 +153,7 @@ The following table shows each role and the rights associated with it:
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Reviewer &amp; Approver</span> </p> </td> 
+   <td> <p><strong>Reviewer &amp; Approver</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -169,7 +169,7 @@ The following table shows each role and the rights associated with it:
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Author</span> </p> </td> 
+   <td> <p><strong>Author</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -185,10 +185,10 @@ The following table shows each role and the rights associated with it:
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Moderator</span> </p> </td> 
+   <td> <p><strong>Moderator</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p><span class="bold">✓</span> </p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p>&nbsp;</p> </td> 

@@ -59,14 +59,18 @@ Consider the following when deciding whether to delete or deactivate portfolios:
 
 When you deactivate a portfolio, you can still access it from the Portfolios area, but it no longer displays in the list of portfolios when users try to add it to a project.
 
-1. Go to the Projects area in the Global Navigation Bar. 
-1. Click the Portfolios tab.
+1. Go to the **Projects** area in the Global Navigation Bar. 
+1. Click the**Portfolios** tab.
 1. Click the name of the portfolio.
+1. Portfolio Details
+1. Edit Overview
+1. Is Active
+1. Save
 
 ## Delete a portfolio
 
-1. Go to the Projects area in the Global Navigation Bar. 
-1. Click the Portfolios tab.
-1. Select the portfolio, then click `Delete`.
-1. In the box that appears, click `Yes, Delete It` to confirm.
+1. Go to the **Projects** area in the Global Navigation Bar. 
+1. Click the**Portfolios** tab.
+1. Select the portfolio, then click **Delete**.
+1. In the box that appears, click **Yes, Delete It** to confirm.
 

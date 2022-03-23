@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -48,16 +59,16 @@ A template must be created before it can be shared.
 
 ## Publish an Adobe Workfront Fusion template
 
-1. In the left navigation panel, click `Templates`.
-1. Click the `Team templates` tab.
+1. In the left navigation panel, click **Templates**.
+1. Click the **Team templates** tab.
 1. Click the name of your template.
-1. Click the `Publish` button in the upper-right corner of the screen.
+1. Click the **Publish** button in the upper-right corner of the screen.
 
 ## Share a Workfront Fusion template
 
 After you have published a template, you can share it.
 
-1. (Conditional) If you want a shareable link, click `Share public link`.
+1. (Conditional) If you want a shareable link, click **Share public link**.
 
    >[!NOTE]
    >
@@ -68,11 +79,11 @@ After you have published a template, you can share it.
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Once the template is approved, it becomes public. Public templates are visible for all Workfront Fusionusers, regardless of the organization or the team, in the Public templates tab. 
-   >  * Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.
-   >  
+   >   
+   >   
+   >   * Once the template is approved, it becomes public. Public templates are visible for all Workfront Fusionusers, regardless of the organization or the team, in the Public templates tab. 
+   >   * Your administrator is not notified about receiving the template to review by email. If the approval is urgent, contact the administrator directly.
+   >   
    >
 
 ## Template statuses
@@ -81,14 +92,14 @@ You can check the status on your template page under the template name
 
 The following statuses are available:
 
-* `Private`: This template is visible only for the template author and their team.
-* `Published`: This template is visible only for the template author and their team. You can send published templates for approval and copy a shareable link.
-* `Approved`: This template is visible for all Workfront Fusion users in the Public templates tab. You can copy a shareable link by clicking Options in the upper-right corner of the screen.
+* **Private**: This template is visible only for the template author and their team.
+* **Published**: This template is visible only for the template author and their team. You can send published templates for approval and copy a shareable link.
+* **Approved**: This template is visible for all Workfront Fusion users in the Public templates tab. You can copy a shareable link by clicking Options in the upper-right corner of the screen.
 
 You can also check the status from the Team templates tab. If a template is published, it will have an icon to the right of the template name.
 
-* `Eye icon`: The template is published, it is visible only for the team, and the approval request was not sent.
-* `Yellow checkmark icon`: The template is published, it is visible only for the team, and the approval request was sent.
-* `Green checkmark icon`: The template is published and public. It is visible for any Workfront Fusion user in the Public templates tab. It is also still visible in the Team templates tab, and the template author or their team member can still edit it.
+* **Eye icon**: The template is published, it is visible only for the team, and the approval request was not sent.
+* **Yellow checkmark icon**: The template is published, it is visible only for the team, and the approval request was sent.
+* **Green checkmark icon**: The template is published and public. It is visible for any Workfront Fusion user in the Public templates tab. It is also still visible in the Team templates tab, and the template author or their team member can still edit it.
 
 Templates without icons have Private status. They are not published and are visible only to the team.

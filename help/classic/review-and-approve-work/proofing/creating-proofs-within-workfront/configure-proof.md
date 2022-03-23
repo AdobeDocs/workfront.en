@@ -14,33 +14,33 @@ After you generate a proof, as described in the [Generate a proof](../../../revi
 
 1. Begin creating the proof, as described in the [Generate a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md) articles.
 
-   The `New Proof` page appears.
+   The **New Proof** page appears.
 
 1. To proof one or more documents, add documents to be proofed in either of the following ways (repeat this process to add multiple documents to be proofed):
 
-  * Drag a document from your file system into the drag-and-drop area in the `Add Files` area.
-  * Click `browse`, then find and select the document you want to upload from the file system on your workstation.
+   * Drag a document from your file system into the drag-and-drop area in the **Add Files** area.
+   * Click **browse**, then find and select the document you want to upload from the file system on your workstation.
 
-    ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
+     ![proof_document_upload.png](assets/proof-document-upload-350x64.png)
 
-    The filename appears below the box where you added it. By default, the filename is also the name of the proof. You can upload up to 100 files at a given time.
+     The filename appears below the box where you added it. By default, the filename is also the name of the proof. You can upload up to 100 files at a given time.
 
-1. (Optional) If you want to change the name of the proof, type a new `Proof name`, then click `Done`.
+1. (Optional) If you want to change the name of the proof, type a new **Proof name**, then click **Done**.
 
 1. Continue with [Single proof](#single-proof) below.
 
 ## Single proof
 
-When the `Single proof` is enabled, all static files and websites are available in a single proof, and you can upload up to 500 files at a given time.
+When the **Single proof** is enabled, all static files and websites are available in a single proof, and you can upload up to 500 files at a given time.
 
 >[!NOTE]
 >
 >Interactive files, including videos and interactive websites, cannot be combined into a single proof.
 
 1. Ensure that you have first added documents or the URL for a website or other web content to the proof, as described above in [Add files](#add-files).
-1. (Optional) Enable  `Combine all compatible files into single proof`, then type a `Proof name` for the resulting proof.
+1. (Optional) Enable&nbsp;**Combine all compatible files into single proof**, then type a **Proof name** for the resulting proof.
 
-1. (Optional) In the `Add Files` area on the left, drag the files or websites you have specified to change the order in which they appear as pages in the combined proof.&nbsp;
+1. (Optional)&nbsp;In the **Add Files** area on the left, drag the files or websites you have specified to change the order in which they appear as pages in the combined proof.&nbsp;
 1. Continue with [Workflow](#workflow) below.
 
 ## Workflow
@@ -67,7 +67,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
 ### Create a basic workflow for the proof
 
-1. In the `Workflow` section, click `Basic`.
+1. In the **Workflow** section, click **Basic**.
 
 1. Continue with [Configure settings for users added to the proof](#configuring-share-settings) below.
 
@@ -77,89 +77,89 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
 ### Create an Automated Workflow for the proof
 
-1. In the `Workflow` section, click `Automated`. 
-1. (Optional) If you want to use an Automated Workflow template that your Workfront administrator created and shared with you, click `Add template`, select the template in the box that appears, then click `Add template`.
+1. In the **Workflow** section, click **Automated**. 
+1. (Optional) If you want to use an Automated Workflow template that your Workfront administrator created and shared with you, click **Add template**, select the template in the box that appears, then click **Add template**.
 
    Consider the following when you use an Automated Workflow template:
 
-  1. An Automated Workflow template's settings determine&nbsp;what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. 
-  1. When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
-  1. Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
+   1. An Automated Workflow template's settings determine&nbsp;what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. 
+   1. When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
+   1. Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in [Create and manage Automated Workflow templates](../../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md). If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
 
 1. Configure the first stage of the Automated Workflow:
 
-  1. (Optional) If you want to create a name for the first stage, click `Stage 1`, then type the name.
-  1. In the `Recipients` section for the stage, add reviewers to the stage.
+   1. (Optional) If you want to create a name for the first stage, click **Stage 1**, then type the name.
+   1. In the **Recipients** section for the stage, add reviewers to the stage.
 
-     Consider the following when&nbsp;adding reviewers to a stage:
+      Consider the following when&nbsp;adding reviewers to a stage:
 
-    * After you add a user to a stage, you can configure settings for that user on the proof, such as the proof role and any additional permissions they should have and the type of email alerts they will receive when people make comments and decisions on the proof.. For more information, see [Configure settings for users added to the proof](#configuring-share-settings) in the article [Configure a proof](#).
-    
-    * You can drag one or more users from one stage to another. You can drag users directly to another stage, or you can drag users to a stage on the `Stages` diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
+      * After you add a user to a stage, you can configure settings for that user on the proof, such as the proof role and any additional permissions they should have and the type of email alerts they will receive when people make comments and decisions on the proof.. For more information, see [Configure settings for users added to the proof](#configuring-share-settings) in the article [Configure a proof](#).
+      
+      * You can drag one or more users from one stage to another. You can drag users directly to another stage, or you can drag users to a stage on the **Stages** diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
 
-      ![](assets/drag-name-stage-350x238.png)
+        ![](assets/drag-name-stage-350x238.png)
 
-    * You&nbsp;can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
-    * Reviewers who are not added to a private stage cannot see that stage on the proof or comments made in that stage.
-    * You can use an email address to add external users as reviewers.
-    * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.
+      * You&nbsp;can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
+      * Reviewers who are not added to a private stage cannot see that stage on the proof or comments made in that stage.
+      * You can use an email address to add external users as reviewers.
+      * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.
 
-      Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added. For more information, see&nbsp; [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)&nbsp;in&nbsp; [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
+        Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added. For more information, see&nbsp; [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md)&nbsp;in&nbsp; [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).
 
-  1. Click `Stage settings`.
-  1. Click an `Activate stage` option to indicate how you want the stage to activate.
+   1. Click **Stage settings**.
+   1. Click an **Activate stage** option to indicate how you want the stage to activate.
 
-     For the first stage, you can select only `On proof creation`, `On a specific date and time`, or `Manually`. 
-  
-  1. (Conditional) If you selected `On a specific date and time` in the previous step, select the date and time when you want to activate the stage in the `Activate on` box that appears.
-  
-  1. Use any of the options below to further configure the stage.
+      For the first stage, you can select only **On proof creation**, **On a specific date and time**, or **Manually**. 
+   
+   1. (Conditional) If you selected **On a specific date and time** in the previous step, select the date and time when you want to activate the stage in the **Activate on** box that appears.
+   
+   1. Use any of the options below to further configure the stage.
 
-     <table cellspacing="0">
-      <col>
-      <col>
-      <tbody>
-       <tr>
-        <td role="rowheader">Set stage deadline</td>
-        <td><p>To set a deadline for the stage, click an option in the <span class="bold">Deadline options</span> drop-down list. Then, under <span class="bold">Deadline</span>, do one of the following:</p>
-         <ul>
-          <li>If you chose <span class="bold">Set specific date</span>: Select the deadline date and time you want.</li>
-          <li>If you chose <span class="bold">Calculate from stage activation date</span>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
-         </ul></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Lock stage</td>
-        <td>Specify when the stage can be locked. </td>
-       </tr>
-       <tr>
-        <td role="rowheader">Transfer primary decision rights to</td>
-        <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <span class="bold">Only one decision required</span> option is disabled on this stage.</p></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Require only one decision for this stage</td>
-        <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<span class="bold">Primary decision maker&nbsp;</span>drop-down menu.</p></td>
-       </tr>
-       <tr>
-        <td role="rowheader">Make this stage private</td>
-        <td>Allows only the following people to view comments and decisions made during this stage: Supervisors, Workfront administrators, and Workfront Proof administrators</td>
-       </tr>
-      </tbody>
-     </table>
+      <table cellspacing="0">
+       <col>
+       <col>
+       <tbody>
+        <tr>
+         <td role="rowheader">Set stage deadline</td>
+         <td><p>To set a deadline for the stage, click an option in the <strong>Deadline options</strong> drop-down list. Then, under <strong>Deadline</strong>, do one of the following:</p>
+          <ul>
+           <li>If you chose <strong>Set specific date</strong>: Select the deadline date and time you want.</li>
+           <li>If you chose <strong>Calculate from stage activation date</strong>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
+          </ul></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Lock stage</td>
+         <td>Specify when the stage can be locked. </td>
+        </tr>
+        <tr>
+         <td role="rowheader">Transfer primary decision rights to</td>
+         <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <strong>Only one decision required</strong> option is disabled on this stage.</p></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Require only one decision for this stage</td>
+         <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong>drop-down menu.</p></td>
+        </tr>
+        <tr>
+         <td role="rowheader">Make this stage private</td>
+         <td>Allows only the following people to view comments and decisions made during this stage: Supervisors, Workfront administrators, and Workfront Proof administrators</td>
+        </tr>
+       </tbody>
+      </table>
 
 1. To add and configure another stage:
 
-  1. Click `New stage`.
-  1. (Optional) If you want to create a name for the first stage, click `Stage 2` (or `Stage 3`, `Stage 4`, and so on), then type the name.
-  
-  1. Click the `Activate stage`, then select an option to specify whether the stage is activated automatically or manually.
+   1. Click **New stage**.
+   1. (Optional) If you want to create a name for the first stage, click **Stage 2** (or **Stage 3**, **Stage 4**, and so on), then type the name.
+   
+   1. Click the **Activate stage**, then select an option to specify whether the stage is activated automatically or manually.
 
-     In addition to the options `On proof creation`, `On a specific date and time`, or `Manually`, you can select an option that is dependent on what occurred in the previous step:
+      In addition to the options **On proof creation**, **On a specific date and time**, or **Manually**, you can select an option that is dependent on what occurred in the previous step:
 
-     ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
-  1. If you selected an Activate stage option that is dependent on what occurred in the previous step, use the options that appear to configure the activation setting.
+   1. If you selected an Activate stage option that is dependent on what occurred in the previous step, use the options that appear to configure the activation setting.
 
-     For example, if you selected `When previous stage status changes`, select the `Previous stage`, then select the status in the `Status changed to` box.
+      For example, if you selected **When previous stage status changes**, select the **Previous stage**, then select the status in the **Status changed to** box.
 
 1. Repeat the previous step as needed to add more stages.
 
@@ -172,7 +172,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
 ### Configure settings for users added to the proof
 
-1. In the `Workflow` section, in the row of a user you have added, click the drop-down menu in the `Proof role` column, then click the role you want to assign to the user.
+1. In the **Workflow** section, in the row of a user you have added, click the drop-down menu in the **Proof role** column, then click the role you want to assign to the user.
 
    ![](assets/new-proof---roles-350x213.png)
 
@@ -191,19 +191,19 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
     <thead> 
      <tr> 
       <th> <p>&nbsp;</p> </th> 
-      <th> <p><span class="bold">View a proof</span> </p> </th> 
-      <th> <p><span class="bold">Add markups</span> </p> </th> 
-      <th> <p><span class="bold">Add comments</span> </p> </th> 
-      <th> <p><span class="bold">Edit own comments if there are no replies</span> </p> </th> 
-      <th> <p><span class="bold">Make a decision</span> </p> </th> 
-      <th> <p><span class="bold">Edit or delete comments made by others</span> </p> </th> 
-      <th> <p><span class="bold">Edit the proof</span> </p> </th> 
-      <th> <p><span class="bold">View approval requests in the Home area</span> </p> </th> 
+      <th> <p><strong>View a proof</strong> </p> </th> 
+      <th> <p><strong>Add markups</strong> </p> </th> 
+      <th> <p><strong>Add comments</strong> </p> </th> 
+      <th> <p><strong>Edit own comments if there are no replies</strong> </p> </th> 
+      <th> <p><strong>Make a decision</strong> </p> </th> 
+      <th> <p><strong>Edit or delete comments made by others</strong> </p> </th> 
+      <th> <p><strong>Edit the proof</strong> </p> </th> 
+      <th> <p><strong>View approval requests in the Home area</strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td> <p><span class="bold">Read Only</span>*</p> </td> 
+      <td> <p><strong>Read Only</strong>*</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>&nbsp;</p> </td> 
       <td> <p>&nbsp;</p> </td> 
@@ -214,7 +214,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
       <td>&nbsp;</td> 
      </tr> 
      <tr> 
-      <td> <p><span class="bold">Reviewer</span>*</p> </td> 
+      <td> <p><strong>Reviewer</strong>*</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
@@ -225,7 +225,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
       <td>&nbsp;</td> 
      </tr> 
      <tr> 
-      <td> <p><span class="bold">Approver</span> </p> </td> 
+      <td> <p><strong>Approver</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>&nbsp;</p> </td> 
       <td> <p>&nbsp;</p> </td> 
@@ -236,7 +236,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
       <td> <p>✓</p> </td> 
      </tr> 
      <tr> 
-      <td> <p><span class="bold">Reviewer &amp; Approver</span> </p> </td> 
+      <td> <p><strong>Reviewer &amp; Approver</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
@@ -247,7 +247,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
       <td> <p>✓</p> </td> 
      </tr> 
      <tr> 
-      <td> <p><span class="bold">Author</span> </p> <p>(Not available when sharing with non-proofing users)</p> </td> 
+      <td> <p><strong>Author</strong> </p> <p>(Not available when sharing with non-proofing users)</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
@@ -258,10 +258,10 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
       <td>&nbsp;</td> 
      </tr> 
      <tr> 
-      <td> <p><span class="bold">Moderator</span> </p> <p>(Not available when sharing with non-proofing users)</p> </td> 
+      <td> <p><strong>Moderator</strong> </p> <p>(Not available when sharing with non-proofing users)</p> </td> 
       <td> <p>&nbsp;</p> </td> 
       <td> <p>✓</p> </td> 
-      <td> <p><span class="bold">✓</span> </p> </td> 
+      <td> <p><strong>✓</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>&nbsp;</p> <p>✓</p> <p>&nbsp;</p> </td> 
@@ -285,7 +285,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Resolve comments and apply actions</span> </td> 
+      <td role="rowheader"><strong>Resolve comments and apply actions</strong> </td> 
       <td> <p>Allows the Workfront user to do the following:</p> 
        <ul> 
         <li>Resolve a comment after it has been addressed, as explained in the section <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/create-manage-proof-comments.md#resolving-a-comment" class="MCXref xref">Resolve a comment</a> in the article <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/create-manage-proof-comments.md" class="MCXref xref">Create and manage proof comments</a>.</li> 
@@ -293,14 +293,14 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Share proof by tagging</span> </td> 
+      <td role="rowheader"><strong>Share proof by tagging</strong> </td> 
       <td> <p>Allows the reviewer to add any Workfront user to the proof as explained in <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md" class="MCXref xref">Tag users to share a proof</a>.</p> <p>Note:  <p>If these two options are unavailable (dimmed), the user already has a permission profile that allows resolving comments, applying actions to comments, and tagging any user. </p> <p>If the options do not display, the person you added is not a Workfront license holder.</p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Repeat steps 1-3 for any other users you have added to the proof.
-1. For each user you are sharing with, in the `Email alerts`&nbsp;drop-down list, select the type of email alerts this user will receive when people make comments and decisions on the proof.
+1. For each user you are sharing with, in the **Email alerts**&nbsp;drop-down list, select the type of email alerts this user will receive when people make comments and decisions on the proof.
 
    For more information about these options, see [Notifications for proof comments and decisions overview](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
@@ -331,10 +331,20 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
      <tr> 
       <td role="rowheader">Daily Summary</td> 
       <td>Workfront sends one email with all&nbsp;comments, replies, and decisions listed only on days when there is activity besides your own.<p>This alert is a good way of seeing a summary of the project&nbsp;without being overwhelmed with multiple&nbsp;updates throughout the day.</p><p>An example use case for this summary is a department leader&nbsp;who wants to monitor the overall progress of the project.</p><p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Manage notifications for proof comments and decisions</a>.</p></td> 
-     </tr> No email Workfront does not send any email alerts. This is useful for a person who is added to a proof only for reference purposes and does not need to be notified of any changes. The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting. <!--
-      Set a deadline Select the day and time when users must take action on the proof. If you are adding users to a proof for a document that already exists in Workfront, you should have already set a deadline.
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">No email</td> 
+      <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td> 
+     </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader">Set a deadline</td> 
+       <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td> 
+      </tr>
      --> <!--
-      Notify people by email Select this option to send an email to the users, notifying them of the proof. Click Add a custom message to specify a message to include in the email notification.
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader">Notify people by email</td> 
+       <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td> 
+      </tr>
      --> 
     </tbody> 
    </table>
@@ -343,9 +353,9 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
 ## Email notification
 
-1. In the `Email notification` section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Workflow](#workflow) earlier in this article:
+1. In the **Email notification** section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Workflow](#workflow) earlier in this article:
 
-   | Notify recipients about this proof |Select this option to send an email notification to users. When `Basic sharing` is selected in the `Workflow` section, an email notification is sent when the proof is created. When `Automated workflow` is selected in the `Workflow` section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with. |
+   | Notify recipients about this proof |Select this option to send an email notification to users. When **Basic sharing** is selected in the **Workflow** section, an email notification is sent when the proof is created. When **Automated workflow** is selected in the **Workflow** section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with. |
    |---|---|
    | Add custom message |Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks. |
 
@@ -353,7 +363,7 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
 
 ## Proof settings
 
-1. In the `Proof settings` section, select any of the following options: 
+1. In the **Proof settings** section, select any of the following options: 
 
    <table cellspacing="0"> 
     <col> 
@@ -392,21 +402,22 @@ For more information, see [Automated Workflow overview](../../../review-and-appr
       <td role="rowheader">Subscribe to proof via public URL or embed code</td> 
       <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:
        <ul>
-        <li><span class="bold">Subscriber role:</span>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</li>
-        <li><span class="bold">Email alert settings for subscribers:</span>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
+        <li><strong>Subscriber role:</strong>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</li>
+        <li><strong>Email alert settings for subscribers:</strong>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
        </ul><p>
         <ul>
-         <li><span class="bold">Proof access via email link required for:</span>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <span class="bold">No email</span> (email link is not required to access the proof), <span class="bold">Proof notification email only</span> (subscriber receives a link to the proof via email without any verification), or <span class="bold">Validation and proof notification emails</span> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
+         <li><strong>Proof access via email link required for:</strong>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <strong>No email</strong> (email link is not required to access the proof), <strong>Proof notification email only</strong> (subscriber receives a link to the proof via email without any verification), or <strong>Validation and proof notification emails</strong> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
         </ul><p>Note: &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Create Proof`.
+1. Click **Create Proof**.
 
    Workfront&nbsp;begins generating a proof of the selected documents or websites.&nbsp;Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.
 
-1. After the proof is generated, click  `Open proof`&nbsp;to launch the proofing viewer.
+1. After&nbsp;the proof is generated, click&nbsp;**Open proof**&nbsp;to launch the proofing viewer.
+   &nbsp; ![](assets/click-open-proof-350x148.png)
 
    Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
 

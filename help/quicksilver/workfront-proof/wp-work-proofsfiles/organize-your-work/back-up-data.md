@@ -47,9 +47,9 @@ The Backup function lets you decide how to use your resources:
 
 ## Backing up your data
 
-1. Click `Account settings` in the upper-right corner of the Workfront Proof interface. (1)
-1. Click the `Backups` tab.&nbsp;(2)
-1. Click the `Request new backup` link (3)
+1. Click **Account settings** in the upper-right corner of the Workfront Proof interface. (1)
+1. Click the **Backups** tab.&nbsp;(2)
+1. Click the **Request new backup** link (3)
 
 When your backup is ready, the following occurs:
 
@@ -78,14 +78,14 @@ To download the backup .zip file from the email:
 
 When your backup .zip file is ready to download, the Backup tab indicates this by displaying a download link. In addition, the Request new backup link appears again.
 
-1. Click `Account settings` in the upper-right corner of the Workfront Proof interface. (1)
-1. Click the `Backups` tab.&nbsp;(2)  
+1. Click **Account settings** in the upper-right corner of the Workfront Proof interface. (1)
+1. Click the **Backups** tab.&nbsp;(2)  
    If no users in your account have requested any backups, the Backups tab indicates that you have no backups. If a user has requested a backup, the tab&nbsp;displays the creation date and download link for the last backup.
 
-1. Click the `Download backup` link. (3)  
+1. Click the **Download backup** link. (3)  
    ![Download_Backup.png](assets/download-backup-350x167.png)A File Download screen appears, asking if you want to Open or Save the download file.
 
-1. Click `Save`, then select the location on your computer where you want to save the backup .zip file.  
+1. Click **Save**, then select the location on your computer where you want to save the backup .zip file.  
    The message identifying the date of your most recent backup remains displayed at the bottom of the Backup page until the next time you request a backup. The Download backup link applies to that last backup. Whenever the Request new backup link is displayed, you can click it to request another backup.
 
 ## Understanding the files in your backup .zip file

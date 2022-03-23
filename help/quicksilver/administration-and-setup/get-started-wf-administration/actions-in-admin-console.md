@@ -30,7 +30,17 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
   </tr> 
  </thead> 
  <tbody> <!--
-   View information about access levels and licenses for your users List your users’ access levels and licenses The section "View user list" in Manage users individually
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">View information about access levels and licenses for your users</td> 
+    <td> 
+     <ul> 
+      <li> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users’ access levels and licenses</a> </p> </li> 
+     </ul> </td> 
+    <td> 
+     <ul> 
+      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     </ul> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Grant a user admin access</td> 
@@ -45,7 +55,9 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
   </tr> 
   <tr> 
    <td role="rowheader">Add a user<!--
-     to Adobe Workfront
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       to Adobe Workfront
+     </MadCap:conditionalText>
     --></td> 
    <td> 
     <ul> 
@@ -57,7 +69,18 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> <!--
-   Add a user to Adobe Workfront Fusion Add a user to an organization Manage users in the Adobe Admin Console The section "Add users" in in Manage users individually
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Add a user to Adobe Workfront Fusion</td> 
+    <td> 
+     <ul> 
+      <li> <p><a href="../../workfront-fusion/organizations/add-user-to-an-organization.md" class="MCXref xref">Add a user to an organization</a> </p> </li> 
+     </ul> </td> 
+    <td> 
+     <ul> 
+      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
+      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     </ul> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Deactivate a user</td> 

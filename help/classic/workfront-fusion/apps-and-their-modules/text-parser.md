@@ -23,7 +23,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -32,7 +36,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -224,7 +235,7 @@ Data scraping, sometimes called web scraping, data extraction, or web harvesting
 * [Web Data Extractors 2019](http://whitepapers.virtualprivatelibrary.net/Web Data Extractors.pdf)
 
   <!--
-  Email/Text Parser visual tool (request)
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="https://www.integromat.com/en/requests/feature-requests/p/email-text-parser-visual-tool">Email/Text Parser visual tool</a> (request)</p> </li>
   -->
 
 If the data scraping tool provides a REST API, you can connect to it via our universal [HTTP modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md) modules. 

@@ -28,7 +28,15 @@ You must have the following:
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
    <td> <p>Request or higher</p> </td> 
-  </tr> Access level configurations* Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. Object permissions View access to the object associated with the document For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the object associated with the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -36,8 +44,8 @@ You must have the following:
 
 ## Open the Summary view
 
-1. Go to the `Documents` area and select an item in the list. 
-1. Click the `Open Summary icon` ![](assets/qs-summary-in-new-toolbar-small.png).
+1. Go to the **Documents** area and select an item in the list. 
+1. Click the **Open Summary icon** ![](assets/qs-summary-in-new-toolbar-small.png).
 
    After you open the Summary, it stays open as you click on other documents and remains open until you manually close it.
 
@@ -45,7 +53,7 @@ You must have the following:
 
 ## Details
 
-Use the Details section to view high-level overview information and interact with custom forms. Click `Details` at the top of the section to go to the full Document Details page.
+Use the Details section to view high-level overview information and interact with custom forms. Click **Details** at the top of the section to go to the full Document Details page.
 
 * [Overview](#overview) 
 * [Custom Forms](#custom2)
@@ -83,7 +91,7 @@ Proof approvals must be added in the Proof Workflow. For more information on app
 
 ## Versions
 
-Use the Versions section to view the number of versions created for a specific document. Click the `More menu` to
+Use the Versions section to view the number of versions created for a specific document. Click the **More menu** to
 
 * Open a proof
 * Download a proof or document

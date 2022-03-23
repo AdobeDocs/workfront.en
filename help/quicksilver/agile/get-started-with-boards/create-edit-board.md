@@ -35,33 +35,33 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
-1. Click `Create New`.
-1. Type a name for the board in the `Board` field and press Enter.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click **Create New**.
+1. Type a name for the board in the **Board** field and press Enter.
 1. Configure the board as needed.
 
    For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), and [Add a card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-1. Click `All Boards` to return to the boards dashboard.
+1. Click **All Boards** to return to the boards dashboard.
 
-   You can also locate the drop-down menu labeled with `Select an option`, and click it to switch to another board.
+   You can also locate the drop-down menu labeled with **Select an option**, and click it to switch to another board.
 
 ## Edit an existing board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. On the dashboard, select the board to open.
 1. Edit the board as needed. You can click on the board name to rename it.
 
    For information, see [Add or remove members from a board](../../agile/get-started-with-boards/add-members-to-board.md), [Manage board columns](../../agile/get-started-with-boards/manage-board-columns.md), and [Add a card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
-1. To delete the board, click the `More` menu ![More menu icon](assets/more-icon-spectrum.png) next to the board name and select `Delete`. Then, click `Delete board` on the confirmation message.
+1. To delete the board, click the **More** menu ![More menu icon](assets/more-icon-spectrum.png) next to the board name and select **Delete**. Then, click **Delete board** on the confirmation message.
 
    >[!NOTE]
    >
    >When you delete a board, it is permanently removed from Workfront and can’t be restored. Any cards on the board are also deleted along with the board.  
    >You can only delete boards that you created, not boards that you were added to.
 
-1. Click `All Boards` to return to the boards dashboard.
+1. Click **All Boards** to return to the boards dashboard.
 
    You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.
 

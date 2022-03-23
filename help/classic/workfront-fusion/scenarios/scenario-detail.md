@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -44,7 +55,7 @@ You must have the following access to use the functionality in this article:
 
 ## Open the scenario detail page:
 
-1. Click the `Scenario` tab in the left panel, then click a scenario you would like details on.
+1. Click the **Scenario** tab in the left panel, then click a scenario you would like details on.
 
    Or
 
@@ -59,11 +70,11 @@ You must have the following access to use the functionality in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Modules diagram</span> </td> 
+      <td role="rowheader"><strong>Modules diagram</strong> </td> 
       <td>This tab displays the visual representation of the scenario. The Diagram is the same as you will see in the scenario editor</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">History (tab)</span> </td> 
+      <td role="rowheader"><strong>History (tab)</strong> </td> 
       <td> <p>Open this tab to see a history of the scenario, including any editing of the scenario. </p> <p>The History tab also provides the scenario execution history of each run, which includes the following:</p> 
        <ul> 
         <li>Status of each run (success or error)</li> 
@@ -108,14 +119,16 @@ You must have the following access to use the functionality in this article:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>History (area)</p> <p>&nbsp;</p> <!--
-        are we not including this as it is in alloy?
+        <MadCap:conditionalText style="color: #ff1493; font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         are we not including this as it is in alloy?
+        </MadCap:conditionalText>
        --> </td> 
       <td> <p>This area shows information related to the last runs of the scenario. For every run it displays:</p> 
        <ul> 
         <li>Run date</li> 
         <li>Status (success or failed)</li> 
         <li>Run duration</li> <!--
-         Number of operations
+         <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Number of operations</li>
         --> 
         <li>Size of data transfer</li> 
         <li>Link to detailed information</li> 
@@ -123,10 +136,16 @@ You must have the following access to use the functionality in this article:
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Stats</p> <p style="font-weight: normal;"> <!--
-         are we not including this as it is in alloy?
+         <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          are we not including this as it is in alloy?
+         </MadCap:conditionalText>
         --> </p> </td> 
       <td>This graph allows you to view the amount of data transfer and operations used throughout the runs of the scenario in a line graph.</td> 
      </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader">&nbsp;</td> 
+       <td>&nbsp;</td> 
+      </tr>
      --> 
     </tbody> 
    </table>

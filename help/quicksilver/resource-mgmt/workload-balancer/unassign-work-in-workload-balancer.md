@@ -9,7 +9,12 @@ description: You can unassign users from work items in the Assigned Work area of
 # Unassign work in the Adobe Workfront Workload Balancer
 
 You can unassign users from work items in the Assigned Work area of the Adobe Workfront Workload Balancer, or reassign them to other users, roles, or teams.
-You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually. For information about unassigning users by dragging and dropping, see Assign work in the Adobe Workfront Workload Balancer by dragging and dropping For information about unassigning users in bulk, see Assign work in bulk using the Adobe Workfront Workload Balancer.
+
+You can unassign users from work items manually, by dragging and dropping, or in bulk. This article describes how to unassign users manually.
+
+For information about unassigning users by dragging and dropping, see [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
+
+For information about unassigning users in bulk, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 ## Access requirements
 
@@ -54,10 +59,11 @@ You can either unassign items from users and move them to the Unassigned Work ar
 
 To unassign work items from users:
 
-1. In the Workload Balancer, go to the `Assigned Work` area and expand a user.
+1. In the Workload Balancer, go to the **Assigned Work** area and expand a user.
 1. Do one of the following:
 
-  * Click the `More` icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click  `Assign this to`, then remove the name of the entities assigned to the work item or enter another name, and click  `Save`.
+  * Find the item you want to unassign in a user's area, click it, and drag and drop it in the Unassigned area or in another user's area. 
+  * Click the **More** icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click&nbsp;**Assign this to**, then remove the name of the entities assigned to the work item or enter another name, and click&nbsp;**Save**.
 
     ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
 

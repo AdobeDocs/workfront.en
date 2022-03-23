@@ -20,7 +20,10 @@ HTTP > Make a request module is a universal module that enables you to configure
 >
 >To make sure your JSON is valid, you may use one of the available online services (e.g. [https://jsonlint.com/](https://jsonlint.com/)) or employ JSON > Create JSON module to create the JSON dynamically and take care of all the necessary escaping>
 ><!-->
->(see our tutorial Use JSON Generator to create a JSON Data Structure and make an HTTP request using an API Key (SendGrid example) for detailed explanation)>
+><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>(see our tutorial>
+><a href="make-an-http-request-with-an-api-key.md" class="MCXref xref" xrefformat="{para}">Use JSON Generator to create a JSON Data Structure and make an HTTP request using an API Key (SendGrid example)</a> for detailed explanation)>
+></MadCap:conditionalText>>
 >-->
 >. Mixing JSON pieces with expressions and items directly in the Request content field is not recommended as it can result in invalid JSON.
 
@@ -98,17 +101,17 @@ In order to make an HTTP(S)request to servers that require a OAuth 2.0 authoriza
 
    Examples of Yahoo addresses:
 
-  * Authorize URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/request_auth
-    ```  
-  
-  * Token URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/get_token
-    ```
+   * Authorize URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/request_auth
+     ```   
+   
+   * Token URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/get_token
+     ```
 
 1. If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion will fail to create the connection and you will receive an invalid scope error.
 1. Once you have completed the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario and in the Connection section click on the Add button.
@@ -274,11 +277,15 @@ application/x-www-form-urlencoded
 <pre>MyVariableOne=ValueOne&MyVariableTwo=ValueTwo</pre>
 
 <!--
-Tutorials
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Tutorial"></a>Tutorials</h2>
 -->
 
 <!--
-How to connect Workfront Fusion with any web service using OAuth2 authorization - drafted out until I fix that article
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">How to connect Workfront Fusion with any web service using OAuth2 authorization<!--
+<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+- drafted out until I fix that article
+</MadCap:conditionalText>
+--></p>
 -->
 
 ## Generating JSON Web Tokens (JWT)

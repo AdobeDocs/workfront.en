@@ -22,10 +22,10 @@ You can now use Workfront Fusion to connect to your SharePoint account. With the
 
 For information about available SharePoint modules, see [SharePoint modules](../../../../../workfront-fusion/apps-and-their-modules/sharepoint-modules.md).
 
-`Preview release`
+```Preview release```
 
 * N/A
 
-`Production release`
+**Production release**
 
 August 20, 2020

@@ -22,7 +22,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -31,7 +35,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -46,7 +57,7 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
 ### Use the Break directive
 
-1. In the [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md), enable the `Allow storing of Incomplete Executions` option.
+1. In the [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md), enable the **Allow storing of Incomplete Executions** option.
 
 1. Attach an error handler route to the module, as described in [Error handling](../../workfront-fusion/errors/error-handling.md).
 1. Link the Break directive to the error handler route (see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md)) and configure it.
@@ -60,14 +71,14 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
 ### Use the Repeater module
 
-1. Employ the `Repeater` module and set its Repeats field to the maximum number of attempts.
-1. Link the potentially failing module to the `Repeater` module.
+1. Employ the **Repeater** module and set its Repeats field to the maximum number of attempts.
+1. Link the potentially failing module to the **Repeater** module.
 1. Attach an error handler route to this module (see [Error handling](../../workfront-fusion/errors/error-handling.md)).
-1. Link the `Tools > Sleep` module to the error handler route and set its `Delay` field to the number of seconds between the attempts.
+1. Link the **Tools > Sleep** module to the error handler route and set its **Delay** field to the number of seconds between the attempts.
 
-1. Link the `Ignore` directive after the `Tools > Sleep` module (see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md)).
+1. Link the **Ignore** directive after the **Tools > Sleep** module (see [Directives for error handling](../../workfront-fusion/errors/directives-for-error-handling.md)).
 
-1. Link the `Tools > Set variable` module after the the potentially failing module and configure it to store the module's result in a variable named, for example, 
+1. Link the **Tools > Set variable** module after the the potentially failing module and configure it to store the module's result in a variable named, for example, 
 
    ```
    Result
@@ -75,17 +86,9 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
    .
 
-1. Link the `Array aggregator` module after the `Tools > Set` variable and choose the `Repeater` module in its Source Module field.
+1. Link the **Array aggregator** module after the **Tools > Set** variable and choose the **Repeater** module in its Source Module field.
 
-1. Link the `Tools > Get variable` module to the `Array aggregator` module and configure it to obtain the value of the 
-
-   ```
-   Result
-   ```
-
-   variable.
-
-1. Insert the `Tools > Get` variable module between the `Repeater` module and the potentially failing module and configure it obtain the value of the 
+1. Link the **Tools > Get variable** module to the **Array aggregator** module and configure it to obtain the value of the 
 
    ```
    Result
@@ -93,7 +96,15 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
    variable.
 
-1. Insert a filter between this `Tools > Get` variable module and the potentially failing module to continue only if the 
+1. Insert the **Tools > Get** variable module between the **Repeater** module and the potentially failing module and configure it obtain the value of the 
+
+   ```
+   Result
+   ```
+
+   variable.
+
+1. Insert a filter between this **Tools > Get** variable module and the potentially failing module to continue only if the 
 
    ```
    Result
@@ -101,7 +112,7 @@ Adobe Workfront Fusion currently does not offer the Retry error handling directi
 
    variable does not exist.
 
-` `**Example: **`` Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
+``` ```**Example: **`````` Here is a sample scenario where the HTTP > Make a request module represents the potentially failing module:
 
 ![](assets/http-make-request-350x116.png)
 

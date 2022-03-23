@@ -31,9 +31,9 @@ This feature is now included in the [Manage proofs and versions in the new Workf
 
 To help surface useful proofing information, we've added the following fields to the Proof Approval report:
 
-* `Decision Date:`&nbsp;Displays the date an approver makes a decision on a proof. You can also find this date on the Print Summary of the proof.
-* `Approver Stage:`&nbsp;Displays the current stage information.
-* `Workflow Template:`&nbsp;Displays any workflow templates attached to the proof. If there is no template attached, the column is blank.
+* **Decision Date:**&nbsp;Displays the date an approver makes a decision on a proof. You can also find this date on the Print Summary of the proof.
+* **Approver Stage:**&nbsp;Displays the current stage information.
+* **Workflow Template:**&nbsp;Displays any workflow templates attached to the proof. If there is no template attached, the column is blank.
 
 These fields are not part of the default report. You need to add them if you want to see them.
 

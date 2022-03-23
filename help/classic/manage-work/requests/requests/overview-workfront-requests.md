@@ -5,11 +5,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Overview of Requests in Adobe Workfront
 description: You can use requests to mitigate concerns and resolve issues that might delay the completion of a project. By submitting a request or an issue to a request queue (also called a help queue), you can communicate your needs to the correct person who can then help to resolve it and move a project along.
+hidefromtoc: true
 ---
 
 # Overview of Requests in&nbsp;Adobe Workfront
 
-You can use requests to mitigate concerns and resolve issues that might delay the completion of a project. By submitting a `request` or an issue to a `request queue` (also called a help queue), you can communicate your needs to the correct person who can then help to resolve it and move a project along.
+You can use requests to mitigate concerns and resolve issues that might delay the completion of a project. By submitting a ```request``` or an issue to a ```request queue``` (also called a help queue), you can communicate your needs to the correct person who can then help to resolve it and move a project along.
 
 ## Request Queue flow
 

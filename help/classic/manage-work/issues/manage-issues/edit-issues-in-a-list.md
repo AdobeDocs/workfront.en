@@ -26,7 +26,7 @@ You must have the following access to perform the actions in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues tabof a project.</p> </td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues tab of a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -50,7 +50,7 @@ Consider the following when editing issues in a list:
 * You can edit any issue field that displays in the list and that you have permissions to update.
 * You can edit an issue in the following lists:
 
-  * An issue report
+   * An issue report
 
 To inline edit an issue:
 
@@ -65,9 +65,12 @@ To inline edit an issue:
 
 ## Edit issues in a list
 
-1. Go to a list of issues in a project or task.
+1. Go to a list of issues in a project or task. 
+1. Edit
+1. Edit Issue
+1. Edit issues
 
-1. (Optional) Click the `Open Summary` icon again, or the `X icon` in the upper-right of the Summary to close the panel and edit the issue inline.
+1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 
 ## Edit issues in bulk
 
@@ -75,43 +78,43 @@ You can edit issues in bulk and update all their information at the same time.
 
 To edit issues in bulk:
 
-1. Go to the Projects area in the Global Navigation Bar. 
-1. Select the Projects tab. 
+1. Go to the **Projects** area in the Global Navigation Bar. 
+1. Select the **Projects** tab.  
 1. Click a project name to access the project.
-1. Select the Issues tab. 
+1. Select the **Issues** tab.  
 1. Select several issues in the list. 
-1. Click Edit.
+1. Click **Edit**.
 
-   The `Edit Issues` dialog box opens.
+   The **Edit Issues** dialog box opens.
 
 1. Specify the information on all selected issues.
 
    Editing the information on all issues is identical to editing information on one issue when editing the following areas:
 
-  * Overview
-  * Settings
-  * Assignments
-  * Comment
+   * Overview
+   * Settings
+   * Assignments
+   * Comment
 
    For more information about editing an issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    >[!NOTE]
    >
-   >The information you are changing on all the issues selected will override the existing information on individual issues, except for the `Assignments` field. Adding a new assignee in bulk edit will add that assignee to all the selected issues. If other assignees are assigned to the selected issues, they will remain assigned in addition to the one added through bulk edit.
+   >The information you are changing on all the issues selected will override the existing information on individual issues, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected issues. If other assignees are assigned to the selected issues, they will remain assigned in addition to the one added through bulk edit.
 
-1. Click `Custom Forms` to edit the custom forms attached to all the issues selected.
+1. Click **Custom Forms** to edit the custom forms attached to all the issues selected.
 
    If the issues selected do not have any common custom forms, no forms are listed in this section.
 
    You can edit only the fields on the forms that are attached to all issues selected and which you have permissions to edit.
 
-1. (Optional) In the `Custom Forms` area, select the `Recalculate Custom Expressions` option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.
+1. (Optional) In the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.
 
    >[!IMPORTANT]
    >
    >We recommend not to select more than 500 issues at a time when you recalculate custom expressions.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
    All changes you made are now visible on all the selected issues.
 

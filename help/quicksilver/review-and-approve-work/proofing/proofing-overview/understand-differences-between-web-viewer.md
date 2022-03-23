@@ -11,21 +11,21 @@ description: Adobe Workfront provides two different proofing viewers:
 
 Adobe Workfront provides two different proofing viewers:
 
-* `Web Proofing Viewer:`&nbsp;Designed primarily for proofing static and video files. Runs in Google Chrome, Firefox, or Safari. 
-* `Desktop Proofing Viewer:` Designed for proofing interactive files as well as video and static files.&nbsp;Runs as&nbsp;a standalone application on your workstation. For more information, see [Understand the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Web Proofing Viewer:**&nbsp;Designed primarily for proofing static and video files. Runs in Google Chrome, Firefox, or Safari. 
+* **Desktop Proofing Viewer:** Designed for proofing interactive files as well as video and static files.&nbsp;Runs as&nbsp;a standalone application on your workstation. For more information, see [Understand the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
 * If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer. For more information, see&nbsp; [Set up interactive content proofing in Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
 The following list can help you understand what Proofing Viewer you can use to proof certain types of content:
 
-* `Interactive web content - URL`: If you create a proof for web content using a URL and you want to proof the content interactively, you must use the Desktop Proofing Viewer.
-* `Interactive web content - ZIP file`: If you create a proof for web content using a ZIP file, you can use either the Web Proofing Viewer (with some limitations) or the Desktop Proofing Viewer. For information about the limitations involved in using the Web Proofing Viewer for interactive content, see [Set up interactive content proofing in Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Interactive web content - URL**: If you create a proof for web content using a URL and you want to proof the content interactively, you must use the Desktop Proofing Viewer.
+* **Interactive web content - ZIP file**: If you create a proof for web content using a ZIP file, you can use either the Web Proofing Viewer (with some limitations) or the Desktop Proofing Viewer. For information about the limitations involved in using the Web Proofing Viewer for interactive content, see [Set up interactive content proofing in Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* `Static and video content`: If you create a proof containing static content, you can use either the Web Proofing Viewer or the Desktop Proofing Viewer.
+* **Static and video content**: If you create a proof containing static content, you can use either the Web Proofing Viewer or the Desktop Proofing Viewer.
 
 ## Static proofs
 
-| `Feature`  | `Web Proofing Viewer`  | `Desktop Proofing Viewer`  |
+| **Feature** |**Web Proofing Viewer** |**Desktop Proofing Viewer** |
 |---|---|---|
 | Open static proofs |✓ |✓&#42; |
 | Single, magazine, and continuous views |✓ |✓&#42; |
@@ -43,7 +43,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Video proofs
 
-| `Feature`  | `Web Proofing Viewer`  | `Desktop Proofing Viewer`  |
+| **Feature**&nbsp; |**Web Proofing Viewer** |**Desktop Proofing Viewer** |
 |---|---|---|
 | Open video proofs |✓ |✓&#42; |
 | Buffering |✓ |✓&#42; |
@@ -62,7 +62,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Interactive proofs
 
-| `Feature`  | `Web Proofing Viewer`  | `Desktop Proofing Viewer`  |
+| **Feature**&nbsp; |**Web Proofing Viewer** |**Desktop Proofing Viewer** |
 |---|---|---|
 | Open interactive proofs created from content bundled in a ZIP file |✓ |✓ (recommended) |
 | Open an interactive proof created from a URL |Not supported |✓ |
@@ -138,7 +138,9 @@ The following list can help you understand what Proofing Viewer you can use to p
   <tr> 
    <td> <p>Undo and redo last operation</p> </td> 
    <td>✓ <!--
-     ?check this
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      ?check this
+     </MadCap:conditionalText>
     --></td> 
    <td> ✓&nbsp;</td> 
   </tr> 
@@ -358,7 +360,7 @@ The following list can help you understand what Proofing Viewer you can use to p
 
 ## Miniviewer
 
-| `Feature`  | `Web Proofing Viewer`  | `Desktop Proofing Viewer`  |
+| **Feature**&nbsp; |**Web Proofing Viewer**&nbsp; |**Desktop Proofing Viewer** |
 |---|---|---|
 | Embedded code |Planned for future for static and native video proofs |Not supported&nbsp; |
 
@@ -370,9 +372,9 @@ The following list can help you understand what Proofing Viewer you can use to p
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Feature</span>&nbsp;</th> 
-   <th><span class="bold">Web Proofing Viewer</span> </th> 
-   <th><span class="bold">Desktop Proofing Viewer</span> </th> 
+   <th><strong>Feature</strong>&nbsp;</th> 
+   <th><strong>Web Proofing Viewer</strong> </th> 
+   <th><strong>Desktop Proofing Viewer</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

@@ -22,7 +22,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -31,7 +35,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -53,7 +64,7 @@ You can paste the module or modules into another area of the same scenario, or i
 Consider the following when pasting modules into a different scenario.
 
   <!--
-  If you paste the modules into another scenario, any fields that pull information from a module that you did not copy must be set to pull information from a module in the new scenario.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>If you paste the modules into another scenario, any fields that pull information from a module that you did not copy must be set to pull information from a module in the new scenario.</p> </li>
   -->
 
 * Any field values that pull information from another module that you did not copy can no longer access that information. You must set these fields to pull information from the new scenario.
@@ -82,11 +93,11 @@ Cloning a scenario creates a copy of the scenario, which you can then edit.
 
 1. Open the scenario detail page:
 
-  1. Click the `Scenario` tab in the left panel, then click a scenario you would like details on.
+   1. Click the **Scenario** tab in the left panel, then click a scenario you would like details on.
 
-     Or
+      Or
 
-     If you are working on the scenario in the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
+      If you are working on the scenario in the [Scenario editor](../../workfront-fusion/scenarios/scenario-editor.md), click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
 1. Right click **Options** at the upper-right of the page.
 1. Select **Clone**.

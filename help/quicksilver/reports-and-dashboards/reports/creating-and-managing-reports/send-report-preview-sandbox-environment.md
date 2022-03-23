@@ -13,7 +13,7 @@ The information on this page refers to functionality that is available only in t
 You can set up Report Delivery options in any Adobe Workfront test environment.
 
 <!--
-For information about the Workfront test environments, see the "Workfront Testing Environments" section.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Workfront test environments, see the "Workfront Testing Environments" section.</p>
 -->
 
 While the test environments are meant to function as close as possible to your production environment, some functionality differs from your production environment.
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
 ### Schedule reports in the Preview environment
 
-Whether a delivered report is produced or not in the Preview environment depends on whether `Receive emails from this test environment` is enabled or not.
+Whether a delivered report is produced or not in the Preview environment depends on whether **Receive emails from this test environment** is enabled or not.
 
 For information about enabling emails from the Sandbox environment see [Enable delivery of emails from the Preview Sandbox environment](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
@@ -69,8 +69,8 @@ Scheduling reports for delivery in the Preview environment is identical to sched
 
 When you schedule a report for delivery in the Preview environment, the following scenarios exist:
 
-* When `Receive emails from this test environment` is disabled for the user who is receiving the report, no file is produced when scheduling the report for delivery.
-* When `Receive emails from this test environment` is enabled for the user who is receiving the report, the file that is produced when scheduling the report for delivery is added in the Documents tab of the user.
+* When **Receive emails from this test environment** is disabled for the user who is receiving the report, no file is produced when scheduling the report for delivery.
+* When **Receive emails from this test environment** is enabled for the user who is receiving the report, the file that is produced when scheduling the report for delivery is added in the Documents tab of the user.
 
 ## Schedule reports in the Custom&nbsp;Refresh Sandbox environment
 

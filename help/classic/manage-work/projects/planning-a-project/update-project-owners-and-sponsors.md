@@ -48,20 +48,22 @@ You must have the following access to perform the steps in this article:
 ## Update the Project Owner of a project
 
 1. Go to the project you want to update.
-1. Click the Project Details tab, then click Edit Overview. 
-1. Specify the name of a user for the `Project Owner` field.
+1. Click the&nbsp;**Project Details** tab, then click&nbsp;**Edit Overview**. 
+
+1. Specify the name of a user for the **Project Owner** field.
 
    Only active users can be specified as Project Owners.
 
-1. Click Save.
+1. Click&nbsp;**Save**.
 
 ## Update the Project Sponsor of a project
 
 1. Go to the Project you want to update.
-1. Click the Project Details tab, then click Edit Overview. 
-1. Specify the name of a user for the `Project Sponsor` field.
+1. Click the&nbsp;**Project Details** tab, then click&nbsp;**Edit Overview**. 
+
+1. Specify the name of a user for the **Project Sponsor** field.
 
    Only active users can be specified as Project Sponsors.
 
-1. Click Save.
+1. Click&nbsp;**Save**.
 

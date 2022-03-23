@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -128,14 +139,20 @@ This action module creates a new board with the selected settings.
    <td role="rowheader"> <p>Permission level</p> </td> 
    <td> <p>Boards have different voting and commenting rules for each permission level. For example: if your board is Private and you set the voting and commenting rules as All, you receive an error. </p> <p>Voting and commenting is limited to the following groups for each permission level:</p> 
     <ul> 
-     <li><span class="bold">Private</span>: <!--
-       Nobody,
+     <li><strong>Private</strong>: <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Nobody, 
+       </MadCap:conditionalText>
       -->Members, Members and Observers</li> 
-     <li><span class="bold">For organization</span>: <!--
-       Nobody,
+     <li><strong>For organization</strong>: <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Nobody, 
+       </MadCap:conditionalText>
       -->Members, Members and Observers, Organization Members</li> 
-     <li><span class="bold">Public</span>: <!--
-       Nobody,
+     <li><strong>Public</strong>: <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Nobody, 
+       </MadCap:conditionalText>
       -->Members, Members and Observers, Organization Members, All</li> 
     </ul> </td> 
   </tr> 
@@ -169,7 +186,7 @@ This action module creates a new board with the selected settings.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Card Covers</p> </td> 
-   <td> <p>Select <span class="bold">Yes</span> if you want to enable card covers for the board.</p> </td> 
+   <td> <p>Select <strong>Yes</strong> if you want to enable card covers for the board.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Background</p> </td> 
@@ -179,8 +196,8 @@ This action module creates a new board with the selected settings.
    <td role="rowheader"> <p>Card aging</p> </td> 
    <td> <p>Select between two modes of card aging. </p> 
     <ul> 
-     <li><span class="bold">Regular</span>: Cards become progressively more transparent as they age. </li> 
-     <li><span class="bold">Pirate</span>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
+     <li><strong>Regular</strong>: Cards become progressively more transparent as they age. </li> 
+     <li><strong>Pirate</strong>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -222,14 +239,20 @@ This action module edits the settings of an existing board.
    <td role="rowheader"> <p>Permission level</p> </td> 
    <td> <p>Boards have different voting and commenting rules for each permission level. For example: if your board is Private and you set the voting and commenting rules as All, you receive an error. </p> <p>Voting and commenting is limited to the following groups for each permission level:</p> 
     <ul> 
-     <li><span class="bold">Private</span>: <!--
-       Nobody,
+     <li><strong>Private</strong>: <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Nobody, 
+       </MadCap:conditionalText>
       -->Members, Members and Observers</li> 
-     <li><span class="bold">For organization</span>: <!--
-       Nobody,
+     <li><strong>For organization</strong>: <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Nobody, 
+       </MadCap:conditionalText>
       -->Members, Members and Observers, Organization Members</li> 
-     <li><span class="bold">Public</span>: <!--
-       Nobody,
+     <li><strong>Public</strong>: <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Nobody, 
+       </MadCap:conditionalText>
       -->Members, Members and Observers, Organization Members, All</li> 
     </ul> </td> 
   </tr> 
@@ -265,8 +288,8 @@ This action module edits the settings of an existing board.
    <td role="rowheader"> <p>Card aging</p> </td> 
    <td> <p>Select between two modes of card aging. </p> 
     <ul> 
-     <li><span class="bold">Regular</span>: Cards become progressively more transparent as they age. </li> 
-     <li><span class="bold">Pirate</span>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
+     <li><strong>Regular</strong>: Cards become progressively more transparent as they age. </li> 
+     <li><strong>Pirate</strong>: Cards will tear, yellow, and crack like an old pirate map as they age.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -381,9 +404,9 @@ This action module assigns a member to a board that you specify .
    <td role="rowheader"> <p>Member type</p> </td> 
    <td> <p>Select the type of member you want to add to the board.</p> 
     <ul> 
-     <li><span class="bold">Admin</span>: A board administrator can perform any board action on the board.</li> 
-     <li><span class="bold">Normal</span>: A normal member is simply a member of the board.</li> 
-     <li><span class="bold">Observer</span>: An observer is a member with read-only access to the board. <br>Observers are only available to teams with Trello Business Class.</li> 
+     <li><strong>Admin</strong>: A board administrator can perform any board action on the board.</li> 
+     <li><strong>Normal</strong>: A normal member is simply a member of the board.</li> 
+     <li><strong>Observer</strong>: An observer is a member with read-only access to the board. <br>Observers are only available to teams with Trello Business Class.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -478,8 +501,8 @@ This action module creates a list on a board that you specify .
    <td role="rowheader">Copy list</td> 
    <td> <p> Select how you want to enter the ID of the list you want to copy.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">List ID</span> field, enter or map the ID&nbsp;of the list you want to copy.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the list you want to copy, then select the list.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>List ID</strong> field, enter or map the ID&nbsp;of the list you want to copy.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the list you want to copy, then select the list.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -565,9 +588,9 @@ This trigger module activated when a new card is added.
    <td role="rowheader">Watched object</td> 
    <td> <p>Select the location you want to watch for cards.</p> 
     <ul> 
-     <li><span class="bold">All cards</span> </li> 
-     <li> <p><span class="bold">Cards on specific board</span> </p> <p>Select the board that you want to watch for cards</p> </li> 
-     <li> <p><span class="bold">Cards on specific list</span> </p> <p>Select the board that contains the list you want to watch for cards, then select the list.</p> </li> 
+     <li><strong>All cards</strong> </li> 
+     <li> <p><strong>Cards on specific board</strong> </p> <p>Select the board that you want to watch for cards</p> </li> 
+     <li> <p><strong>Cards on specific list</strong> </p> <p>Select the board that contains the list you want to watch for cards, then select the list.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -593,8 +616,8 @@ This action module creates a card in a selected list.
    <td role="rowheader">Enter a list ID</td> 
    <td> <p> Select how you want to enter the ID of the list where you want to add a card.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">List ID</span> field, enter or map the ID&nbsp;of the list where you want to add a card.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the list you want to copy, then select the list.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>List ID</strong> field, enter or map the ID&nbsp;of the list where you want to add a card.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the list you want to copy, then select the list.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -634,15 +657,15 @@ This action module creates a card in a selected list.
    <td> <p>Enter or map information for a file you to want to add as an attachment to the card.</p> 
     <ul> 
      <li>File name: Enter or map the file name, including the file extension.</li> 
-     <li> <p>File data: Enter or map the file data (from previous module, e.g. <span class="bold">Dropbox &gt; Get a File or Google Drive &gt; Get a File</span>)</p> <p>Note: There is a 10 MB file upload limit per attachment. However, Business Class and Trello Gold members have a 250 MB file upload limit per attachment.</p> </li> 
+     <li> <p>File data: Enter or map the file data (from previous module, e.g. <strong>Dropbox &gt; Get a File or Google Drive &gt; Get a File</strong>)</p> <p>Note: There is a 10 MB file upload limit per attachment. However, Business Class and Trello Gold members have a 250 MB file upload limit per attachment.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Copy card</td> 
    <td> <p> Select how you want to enter the ID of the card you want to copy.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card you want to copy.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card you want to copy, then select the list that contains the card, then select the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to copy.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to copy, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -664,8 +687,8 @@ This action module edits an existing card.
    <td role="rowheader">Enter Card ID</td> 
    <td> <p> Select how you want to enter the ID of the card you want to edit.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card you want to edit.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card you want to edit, then select the list that contains the card, then select the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to edit.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to edit, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -735,8 +758,8 @@ This action module retrieves a selected card's details.
    <td role="rowheader">Enter card ID</td> 
    <td> <p> Select how you want to enter the ID of the card you want to retrieve details about.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card you want to retrieve details about.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card you want to retrieve details about, then select the list that contains the card, then select the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to retrieve details about.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to retrieve details about, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -762,18 +785,18 @@ This action module returns cards that match the search query.
    <td role="rowheader"> <p>Query</p> </td> 
    <td> <p>Enter the search query. You can refine your search using the following search operators:</p> 
     <ul> 
-     <li><pre><span class="bold">-operator</span><![CDATA[	]]></pre> <p>You can add “-” to any operator to do a negative search, such as <code>-has:members</code> to search for cards without any members assigned.</p> </li> 
-     <li><pre><span class="bold">@name</span><![CDATA[	]]></pre> <p>Returns cards assigned to a member. You can also use <code>member:</code>. Use <code>@me</code> to include only your cards.</p> </li> 
-     <li><pre><span class="bold">#label</span><![CDATA[	]]></pre> <p>Returns labeled cards. You can also use <code>label:</code>. For example, <code>label:"FIX IT"</code> will return cards with the label named “FIX IT”.</p> </li> 
-     <li><pre><span class="bold">board:id</span><![CDATA[	]]></pre> <p>Returns cards within a specific board. For example, <code>board:Trello</code> will return cards on boards with Trello in the board name.</p> </li> 
-     <li><pre><span class="bold">list:name</span><![CDATA[	]]></pre> <p>Returns cards within the list named “name”.</p> </li> 
-     <li><pre><span class="bold">has:attachments</span><![CDATA[	]]></pre> <p>Returns cards with attachments. The <code>has</code>: operator can also be used with other attributes, such as <code>has:description</code>, <code>has:cover</code>, <code>has:members</code>, or <code>has:stickers</code>.</p> </li> 
-     <li><pre><span class="bold">due:day</span><![CDATA[	]]></pre> <p>Returns cards due within 24 hours. The <code>due:</code> operator can also be used with other timeframes, such as <code>due:week</code>, <code>due:month</code>, or <code>due:overdue</code>. You can also search for a specific day range. For example, adding <code>due:14</code> to search includes cards due in the next 14 days.</p> </li> 
-     <li><pre><span class="bold">created:day</span><![CDATA[	]]></pre> <p>Returns cards created in the last 24 hours. The<code> created:</code> operator can also be used with other timeframes such as <code>created:week</code> or <code>created:month</code>. You can also search for a specific day range. For example, adding <code>created:14</code> to the search includes cards created in the last 14 days.</p> </li> 
-     <li><pre><span class="bold">edited:day</span><![CDATA[	]]></pre> <p>Returns cards edited in the last 24 hours. The <code>edited:</code> operator can also be used with other timeframes, such as <code>edited:week</code> or <code>edited:month</code>. You can also search for a specific day range. For example, adding <code>edited:21</code> to the search includes cards edited in the last 21 days.</p> </li> 
-     <li><pre><span class="bold">description:</span>, <span class="bold">checklist:</span>, <span class="bold">comment:</span>, and <span class="bold">name:</span><![CDATA[	]]></pre> <p>Returns cards matching the text of card descriptions, checklists, comments, or names. For example, comment:"FIX IT" will return cards with “FIX IT” in a comment.</p> </li> 
-     <li><pre><span class="bold">is:open</span> and <span class="bold">is:archived</span><![CDATA[	]]></pre> <p>Returns cards that are open or archived. If neither is specified, Trello returns both types.</p> </li> 
-     <li><pre><span class="bold">is:starred	</span></pre> <p>Only includes cards on starred boards.</p> </li> 
+     <li><pre><strong>-operator</strong><![CDATA[	]]></pre> <p>You can add “-” to any operator to do a negative search, such as <code>-has:members</code> to search for cards without any members assigned.</p> </li> 
+     <li><pre><strong>@name</strong><![CDATA[	]]></pre> <p>Returns cards assigned to a member. You can also use <code>member:</code>. Use <code>@me</code> to include only your cards.</p> </li> 
+     <li><pre><strong>#label</strong><![CDATA[	]]></pre> <p>Returns labeled cards. You can also use <code>label:</code>. For example, <code>label:"FIX IT"</code> will return cards with the label named “FIX IT”.</p> </li> 
+     <li><pre><strong>board:id</strong><![CDATA[	]]></pre> <p>Returns cards within a specific board. For example, <code>board:Trello</code> will return cards on boards with Trello in the board name.</p> </li> 
+     <li><pre><strong>list:name</strong><![CDATA[	]]></pre> <p>Returns cards within the list named “name”.</p> </li> 
+     <li><pre><strong>has:attachments</strong><![CDATA[	]]></pre> <p>Returns cards with attachments. The <code>has</code>: operator can also be used with other attributes, such as <code>has:description</code>, <code>has:cover</code>, <code>has:members</code>, or <code>has:stickers</code>.</p> </li> 
+     <li><pre><strong>due:day</strong><![CDATA[	]]></pre> <p>Returns cards due within 24 hours. The <code>due:</code> operator can also be used with other timeframes, such as <code>due:week</code>, <code>due:month</code>, or <code>due:overdue</code>. You can also search for a specific day range. For example, adding <code>due:14</code> to search includes cards due in the next 14 days.</p> </li> 
+     <li><pre><strong>created:day</strong><![CDATA[	]]></pre> <p>Returns cards created in the last 24 hours. The<code> created:</code> operator can also be used with other timeframes such as <code>created:week</code> or <code>created:month</code>. You can also search for a specific day range. For example, adding <code>created:14</code> to the search includes cards created in the last 14 days.</p> </li> 
+     <li><pre><strong>edited:day</strong><![CDATA[	]]></pre> <p>Returns cards edited in the last 24 hours. The <code>edited:</code> operator can also be used with other timeframes, such as <code>edited:week</code> or <code>edited:month</code>. You can also search for a specific day range. For example, adding <code>edited:21</code> to the search includes cards edited in the last 21 days.</p> </li> 
+     <li><pre><strong>description:</strong>, <strong>checklist:</strong>, <strong>comment:</strong>, and <strong>name:</strong><![CDATA[	]]></pre> <p>Returns cards matching the text of card descriptions, checklists, comments, or names. For example, comment:"FIX IT" will return cards with “FIX IT” in a comment.</p> </li> 
+     <li><pre><strong>is:open</strong> and <strong>is:archived</strong><![CDATA[	]]></pre> <p>Returns cards that are open or archived. If neither is specified, Trello returns both types.</p> </li> 
+     <li><pre><strong>is:starred</strong></pre> <p>Only includes cards on starred boards.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -830,16 +853,16 @@ This action module adds an attachment to the selected card.
    <td role="rowheader">Enter card ID</td> 
    <td> <p> Select how you want to enter the ID of the card you want to retrieve details about.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card you want to retrieve details about.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card you want to retrieve details about, then select the list that contains the card, then select the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card you want to retrieve details about.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to retrieve details about, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Attachment type</p> </td> 
    <td> <p>Select whether you want to upload the file directly or provide a URL to the file.</p> 
     <ul> 
-     <li> <p><span class="bold">File</span> </p> <p>Select a source file from a previous module, or map the source file's name and data.</p> </li> 
-     <li> <p><span class="bold">URL</span> </p> <p>Enter the URL to the file, and provide a name for the attachment.</p> </li> 
+     <li> <p><strong>File</strong> </p> <p>Select a source file from a previous module, or map the source file's name and data.</p> </li> 
+     <li> <p><strong>URL</strong> </p> <p>Enter the URL to the file, and provide a name for the attachment.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -876,8 +899,8 @@ This action module adds the specified member to the specified card.
    <td role="rowheader"> <p>Enter card ID and member ID</p> </td> 
    <td> <p>Choose how you want to enter the card ID and the member ID.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>Enter or map the <span class="bold">Card ID</span> and the <span class="bold">Member ID</span>.</p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card you want to add a member to, then select the list that contains the card, the card itself, and the member that you want to add to the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>Enter or map the <strong>Card ID</strong> and the <strong>Member ID</strong>.</p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card you want to add a member to, then select the list that contains the card, the card itself, and the member that you want to add to the card.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -932,8 +955,8 @@ This action module creates a checklist on the selected card.
    <td role="rowheader">Enter a card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a checklist.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card where you want to add a checklist.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -967,8 +990,8 @@ This action module adds an item to a specific checklist.
    <td role="rowheader">Enter checklist ID</td> 
    <td> <p> Select how you want to enter the ID of the checklist where you want to add an item.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Checklist ID</span> field, enter or map the ID&nbsp;of the card where you want to add a checklist.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card, then select the checklist.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Checklist ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card, then select the checklist.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1002,8 +1025,8 @@ This action module edits an existing checklist.
    <td role="rowheader">Enter a Card ID and Checklist Item ID</td> 
    <td> <p> Select how you want to enter the ID of the card and checklist where you want to edit an item.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Checklist ID</span> field, enter or map the ID&nbsp;of the card where you want to add a checklist.</p> <p>In the <span class="bold">Checklist Item ID</span> field, enter or map the ID&nbsp;of the checklist.</p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card, then select the checklist.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Checklist ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist.</p> <p>In the <strong>Checklist Item ID</strong> field, enter or map the ID&nbsp;of the checklist.</p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card, then select the checklist.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1043,8 +1066,8 @@ This action module adds a label to a selected card.
    <td role="rowheader">Enter card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a checklist.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card where you want to add a checklist. In the<span class="bold"> Label ID</span> field, enter or map the ID&nbsp;of the label that you want to add.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card. </p> <p>Select the label that you want to add to the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a checklist. In the<strong>Label ID</strong> field, enter or map the ID&nbsp;of the label that you want to add.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a checklist, then select the list that contains the card, then select the card. </p> <p>Select the label that you want to add to the card.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -1072,10 +1095,10 @@ Retrieves comment details when there is a new comment in a specified location.
    <td role="rowheader">Watched object</td> 
    <td> <p>Select the location you want to watch for comments.</p> 
     <ul> 
-     <li><span class="bold">All cards everywhere</span> </li> 
-     <li> <p><span class="bold">Board</span> </p> <p>Select the board that you want to watch for comments</p> </li> 
-     <li> <p><span class="bold">List</span> </p> <p>Select the board that contains the list you want to watch for comments, then select the list.</p> </li> 
-     <li><span class="bold">Card</span> </li> 
+     <li><strong>All cards everywhere</strong> </li> 
+     <li> <p><strong>Board</strong> </p> <p>Select the board that you want to watch for comments</p> </li> 
+     <li> <p><strong>List</strong> </p> <p>Select the board that contains the list you want to watch for comments, then select the list.</p> </li> 
+     <li><strong>Card</strong> </li> 
      <li>Select the board that contains the card you want to watch for comments, then select the list that contains the card, then select the card.</li> 
     </ul> </td> 
   </tr> 
@@ -1102,8 +1125,8 @@ This action module adds a comment to a selected card.
    <td role="rowheader">Enter a card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a comment.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card where you want to add a comment.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card where you want to add a comment, then select the list that contains the card, then select the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a comment.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a comment, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -1127,8 +1150,8 @@ This action module adds a comment to a selected card.
    <td role="rowheader">Enter a card ID</td> 
    <td> <p> Select how you want to enter the ID of the card where you want to add a comment.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Card ID</span> field, enter or map the ID&nbsp;of the card where you want to add a comment.<br></p> </li> 
-     <li> <p><span class="bold">Select</span> </p> <p>Select the board that contains the card where you want to add a comment, then select the list that contains the card, then select the card.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Card ID</strong> field, enter or map the ID&nbsp;of the card where you want to add a comment.<br></p> </li> 
+     <li> <p><strong>Select</strong> </p> <p>Select the board that contains the card where you want to add a comment, then select the list that contains the card, then select the card.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -48,10 +48,10 @@ As a Workfront administrator, you can access the list of system-level project st
 
 For information about editing a system status and creating custom statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Project Preferences` > `Statuses`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Statuses**.
 
-1. Click the `Project` tab.
+1. Click the **Project** tab.
 
    The project statuses available in Workfront are listed on this tab.
 

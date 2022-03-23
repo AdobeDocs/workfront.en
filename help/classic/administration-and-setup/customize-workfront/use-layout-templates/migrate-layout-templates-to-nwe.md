@@ -35,15 +35,15 @@ You must have the following to perform the steps in this article:
 
 ## Migrate your layout templates from Workfront Classic to the new Adobe Workfront experience
 
-1. In Workfront Classic, click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Interface` > `Layout Templates`.
+1. In Workfront Classic, click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Interface** > **Layout Templates**.
 
    >[!NOTE]
    >
    >In the list that displays, group administrators can see only the layout templates that are managed by the groups that they administer.
 
-1. Select the layout templates that you want to migrate, then click `Migrate`.
-1. If you are sure you want to migrate them, click `Yes, migrate` in the message box that displays.
+1. Select the layout templates that you want to migrate, then click **Migrate**.
+1. If you are sure you want to migrate them, click **Yes, migrate** in the message box that displays.
 
    If the layout templates don't already exist in the new Adobe Workfront experience, they will be added there.
 

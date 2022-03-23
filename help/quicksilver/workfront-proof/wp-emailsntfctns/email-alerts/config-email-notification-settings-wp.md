@@ -41,14 +41,14 @@ You can configure proof settings for proofs you create.&nbsp;
 
 For information about proof settings the Workfront administrator or Workfront Proof administrator can configure, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
-1. Click `Settings` > `Personal settings`.
+1. Click **Settings** > **Personal settings**.
 
-1. Click the `Proofing defaults` tab.
-1. Click `Default email notification settings` to expand it.
+1. Click the **Proofing defaults** tab.
+1. Click **Default email notification settings** to expand it.
 1. In the drop-down list to the right of the following two settings, select one of the options explained in the table below.
 
-  * `Default email alert`: Affects every proof that is shared with you. This setting can be overridden at the proof level.
-  * `Default email alert for new guest reviewers`: Affects reviewers that did not previously exist as contacts in your account.
+  * **Default email alert**: Affects every proof that is shared with you. This setting can be overridden at the proof level.
+  * **Default email alert for new guest reviewers**: Affects reviewers that did not previously exist as contacts in your account.
 
    >[!NOTE]
    >
@@ -81,10 +81,20 @@ For information about proof settings the Workfront administrator or Workfront Pr
      <tr> 
       <td role="rowheader">Daily Summary</td> 
       <td>Workfront sends one email with all&nbsp;comments, replies, and decisions listed only on days when there is activity besides your own.<p>This alert is a good way of seeing a summary of the project&nbsp;without being overwhelmed with multiple&nbsp;updates throughout the day.</p><p>An example use case for this summary is a department leader&nbsp;who wants to monitor the overall progress of the project.</p><p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Manage notifications for proof comments and decisions</a>.</p></td> 
-     </tr> No email Workfront does not send any email alerts. This is useful for a person who is added to a proof only for reference purposes and does not need to be notified of any changes. The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting. <!--
-      Set a deadline Select the day and time when users must take action on the proof. If you are adding users to a proof for a document that already exists in Workfront, you should have already set a deadline.
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">No email</td> 
+      <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td> 
+     </tr> <!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader">Set a deadline</td> 
+       <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td> 
+      </tr>
      --> <!--
-      Notify people by email Select this option to send an email to the users, notifying them of the proof. Click Add a custom message to specify a message to include in the email notification.
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader">Notify people by email</td> 
+       <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td> 
+      </tr>
      --> 
     </tbody> 
    </table>
@@ -100,47 +110,47 @@ For information about proof settings the Workfront administrator or Workfront Pr
       <td>Specify whether you want to receive a Proof made email when you create a proof. For more information, see <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">The Proof Made email</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Format of emails sent to me</span> </td> 
+      <td role="rowheader"><strong>Format of emails sent to me</strong> </td> 
       <td> <p>Choose between HTML styled emails and Plain text emails. </p> <p>Note: &nbsp;Proofing default settings are overridden by the settings at proof level. However, if proof email notifications are disabled for the whole account in Account settings, no email alerts will be sent to the collaborators even if the Disabled email alert is not selected on proofs.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Under `Message settings`,&nbsp;change any of the following:
+1. Under **Message settings**,&nbsp;change any of the following:
 
-   | `Proof subject template`  |Displays on the New proof page, New version page, Message page and Remind page. Can be edited before it's sent. |
+   | **Proof subject template** |Displays on the New proof page, New version page, Message page and Remind page. Can be edited before it's sent. |
    |---|---|
-   | `Proof message template`  |Displays on the New proof page, New version page, Message page, and Remind page. Can be edited before it's sent. |
+   | **Proof message template** |Displays on the New proof page, New version page, Message page, and Remind page. Can be edited before it's sent. |
 
 ## Change email alerts for a recipient
 
 You can change email alerts for a particular recipient in a batch action.
 
-1. Click  `Contacts` in the left navigation panel.
-1. Click the `More` (three dot) menu for the recipient, then click `View member details` in the dropdown menu.
+1. Click&nbsp;**Contacts** in the left navigation panel.
+1. Click the **More**&nbsp;(three dot) menu for the recipient, then click **View member details** in the dropdown menu.
 
-1. Open the `Shared items` section.
+1. Open the **Shared items** section.
 1. Select the checkbox to the left of each item for which you want to change the email alert.
-1. Click `More` above the list of shared items, then click  `Change email alert` in the dropdown menu.
+1. Click **More** above the list of shared items, then click&nbsp;**Change email alert** in the dropdown menu.
 
-1. Change the email alert, then click `Submit`.
+1. Change the email alert, then click **Submit**.
 
 ## Configure proof defaults for a user
 
 If you are a Workfront Proof administrator, you can set proof defaults for users in your account.
 
-1. Click `Settings` > `Account settings`.&nbsp;
+1. Click **Settings** > **Account settings**.&nbsp;
 
-1. Open the `Users` tab.
-1. Open the `More` menu to the right of the user's name. ![More_button_small.png](assets/more-button-small.png)
+1. Open the **Users** tab.
+1. Open the **More** menu to the right of the user's name. ![More_button_small.png](assets/more-button-small.png)
 
-1. Click `View users details` in the dropdown menu.
-1. Under `Settings`, click `Default email alert settings`&nbsp;to expand it.
+1. Click **View users details** in the dropdown menu.
+1. Under **Settings**, click **Default email alert settings**&nbsp;to expand it.
 
 1. In the drop-down list to the right of the following two settings, select one of the options explained in the table below:
 
-  * `Default email alert`: Affects every proof that is shared with you. This setting can be overridden at the proof level.
-  * `Default email alert for new guest reviewers`: Affects reviewers that did not previously exist as contacts in your account.
+  * **Default email alert**: Affects every proof that is shared with you. This setting can be overridden at the proof level.
+  * **Default email alert for new guest reviewers**: Affects reviewers that did not previously exist as contacts in your account.
 
    >[!NOTE]
    >
@@ -173,15 +183,25 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
      <tr>
       <td role="rowheader">Daily Summary</td>
       <td>Workfront sends one email with all&nbsp;comments, replies, and decisions listed only on days when there is activity besides your own.<p>This alert is a good way of seeing a summary of the project&nbsp;without being overwhelmed with multiple&nbsp;updates throughout the day.</p><p>An example use case for this summary is a department leader&nbsp;who wants to monitor the overall progress of the project.</p><p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Manage notifications for proof comments and decisions</a>.</p></td>
-     </tr>No email Workfront does not send any email alerts. This is useful for a person who is added to a proof only for reference purposes and does not need to be notified of any changes. The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.<!--
-      Set a deadline Select the day and time when users must take action on the proof. If you are adding users to a proof for a document that already exists in Workfront, you should have already set a deadline.
+     </tr>
+     <tr data-mc-conditions="">
+      <td role="rowheader">No email</td>
+      <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td>
+     </tr><!--
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       <td role="rowheader">Set a deadline</td>
+       <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td>
+      </tr>
      --><!--
-      Notify people by email Select this option to send an email to the users, notifying them of the proof. Click Add a custom message to specify a message to include in the email notification.
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       <td role="rowheader">Notify people by email</td>
+       <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td>
+      </tr>
      -->
     </tbody>
    </table>
 
-1. In the remaining `Default email alert settings`, change any of the following:
+1. In the remaining **Default email alert settings**, change any of the following:
 
    <table cellspacing="0"> 
     <col> 
@@ -192,7 +212,7 @@ If you are a Workfront Proof administrator, you can set proof defaults for users
       <td>Specify whether you want to receive a Proof made email when you create a proof. For more information, see <a href="https://support.workfront.com/hc/en-us/article">The Proof Made Email.</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Format of emails sent to me</span> </td> 
+      <td role="rowheader"><strong>Format of emails sent to me</strong> </td> 
       <td> <p>Choose between HTML styled emails and Plain text emails. </p> <p>Note: &nbsp;Proofing default settings are overridden by the settings at proof level. However, if proof email notifications are disabled for the whole account in Account settings, no email alerts will be sent to the collaborators even if the Disabled email alert is not selected on proofs.<br></p> </td> 
      </tr> 
     </tbody> 

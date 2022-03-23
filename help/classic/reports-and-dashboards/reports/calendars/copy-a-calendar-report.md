@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 ## Copy a calendar report
 
 1. Go to the calendar you want to copy.
-1. On the `Calendar` toolbar, click `Calendar Actions`, then select `Copy` from the drop-down list.  
+1. On the **Calendar** toolbar, click **Calendar Actions**, then select **Copy** from the drop-down list.  
    A copy of the calendar opens.  
    ![copying_calendar_report.png](assets/copying-calendar-report-350x102.png)  
    All the projects and calendar groupings in the original calendar display in the copy of the calendar. Only objects placed by&nbsp;calendar filters export to the newly copied calendar. Any events manually added to the original calendar must be manually added to the copied calendar.  

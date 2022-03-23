@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: modules
 title: Converger module
 description: Note: Status: PLANNED - see the Workarounds section below.
+hidefromtoc: true
 ---
 
 # Converger module
@@ -23,7 +24,9 @@ A converger module is a counterpart of the Router module. It enables you to merg
 ![](assets/converger-example-350x193.png) 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 later replace with a full scenario like in original Alloy article
+</MadCap:conditionalText>
 -->
 
 ## Usage
@@ -46,13 +49,13 @@ Until the converger module is released, you may use one of the following workaro
 
    ![](assets/converger-data-store-add-filter-free-route-350x549.png)
 
-1. Add `Data store` > `Add/replace a record` modules at the end of each router module's route (except the new extra route) to store the data outputted by the modules on the route that should be passed to the common sequence.
+1. Add **Data store** > **Add/replace a record** modules at the end of each router module's route (except the new extra route) to store the data outputted by the modules on the route that should be passed to the common sequence.
 
    ![](assets/converger-data-store-addreplacearecord-350x110.png)
 
    The Data store would contain just one record. The record's key could be, for example, "MyKey".
 
-1. Add `Data store` > `Get a record module` at the beginning of the common sequence to obtain the previously stored data.
+1. Add **Data store** > ```Get a record module``` at the beginning of the common sequence to obtain the previously stored data.
 
    ![](assets/converger-data-store-getarecordmodule-350x116.png)
 
@@ -60,20 +63,20 @@ Until the converger module is released, you may use one of the following workaro
 
 If you want to avoid the use of the Data Store you can:
 
-1. Instead of the `Data store` > `Get a record` module use `JSON` > `Create JSON` module followed by `Tools` > `Set variable` to store the resulting JSON in a variable (for example, "MyBundle").
+1. Instead of the **Data store** > **Get a record** module use **JSON** > **Create JSON** module followed by **Tools** > **Set variable** to store the resulting JSON in a variable (for example, "MyBundle").
 
-1. Instead of the `Data store` > `Get a record` module use `Tools` > `Get variable` to obtain the previously stored variable followed by `JSON` > `Parse JSON`.
+1. Instead of the **Data store** > **Get a record** module use **Tools** > **Get variable** to obtain the previously stored variable followed by **JSON** > **Parse JSON**.
 
 ### A variable
 
-If it is just a single value that you need to pass to the common sequence (for example, ID), you can employ only the `Tools` > `Set variable` and `Get variable` modules.
+If it is just a single value that you need to pass to the common sequence (for example, ID), you can employ only the **Tools** > **Set variable** and **Get variable** modules.
 
 ### A separate new scenario
 
 You can also place the common sequence to a separate new scenario and then:
 
-1. Employ `HTTP` > `Make a request` module at the end of each route to pass the data to the new scenario.
+1. Employ **HTTP** > **Make a request** module at the end of each route to pass the data to the new scenario.
 
-1. Employ `Webhooks` > `Custom webhook` module at the beginning of the new scenario to receive the data.
+1. Employ **Webhooks** > **Custom webhook** module at the beginning of the new scenario to receive the data.
 
 For more information, see [HTTP](http-modules.md) and [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md).

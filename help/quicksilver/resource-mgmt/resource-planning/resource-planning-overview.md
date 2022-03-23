@@ -9,7 +9,7 @@ description: The articles in this section contain information about functionalit
 
 # Resource Planning in Adobe Workfront
 
-The articles in this section contain information about functionality in the Planner and Resource Pools sections of the Resourcing areaof Adobe Workfront.
+The articles in this section contain information about functionality in the Planner and Resource Pools sections of the Resourcing area of Adobe Workfront.
 
 This section contains the following articles:
 
@@ -34,18 +34,18 @@ This section contains the following articles:
 * [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
   <!--
-  Track User Utilization information
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/track-user-utilization.md" class="MCXref xref" xrefformat="{para}">Track User Utilization information</a> </li>
   -->
 
   <!--
-  Budget resources by project in the Resource Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by project in the Resource Planner </a> </li>
   -->
 
   <!--
-  Budget resources by role in the Resource Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-role-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by role in the Resource Planner </a> </li>
   -->
 
   <!--
-  View projects, roles, and users using the Resource Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/view-projects-roles-users-resource-planner.md" class="MCXref xref" xrefformat="{para}">View projects, roles, and users using the Resource Planner</a> </li>
   -->
 

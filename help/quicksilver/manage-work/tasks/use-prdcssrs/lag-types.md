@@ -49,34 +49,36 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 * [Indicate Lag Types in the Predecessors section of a task](#lag-in-predecessors-tab) 
 * [Indicate Lag Types in a task list](#add-lags-in-task-list)
 
-### Indicate Lag Types in the Predecessors sectionof a task
+### Indicate Lag Types in the Predecessors section of a task
 
 1. Go to a task for which you want to define the predecessor and the Lag Type. 
-1. Click Predecessors in the left panel. You might have to click Show More, and then Predecessors. 
-1. Click `Add Predecessor`.
+1. Click **Predecessors** in the left panel. You might have to click **Show More**, and then **Predecessors**.  
+
+1. Click **Add Predecessor**.
+1. Parent Project
 1. Start typing the name of the predecessor task, then select it when it appears in the list. 
-1. Select the `Dependency Type`.
+1. Select the **Dependency Type**.
 
    For more information about predecessor Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Specify a `Lag` amount using a numeric value. You can specify negative numbers to indicate a negative lag. 
+1. Specify a **Lag** amount using a numeric value. You can specify negative numbers to indicate a negative lag. 
 1. Select from the following options to identify the type of lag you would like to indicate for your predecessor:
 
-  * `Days`
-  * `Calendar Days`
-  * `Percent`
-  * `Day of the Week`
-  * `Day of the Week (Non-Zero)`
+  * **Days**
+  * **Calendar Days**
+  * **Percent**
+  * **Day of the Week**
+  * **Day of the Week (Non-Zero)**
 
     For more information about these Lag Types and how they are calculated, see the section [Lag Types overview](#understanding-lag-types) in this article.
 
-1. Click `Save`.
+1. Click **Save**.
 
 ### Indicate Lag Types in a task list
 
-1. Go to a task list, and select the `Standard` View from the `View` drop-down menu.
+1. Go to a task list, and select the **Standard** View from the **View** drop-down menu.
 
-1. Click inside the `Predecessors` column corresponding to the task for which you want to specify a predecessor and a lag amount. 
+1. Click inside the **Predecessors** column corresponding to the task for which you want to specify a predecessor and a lag amount. 
 1. Enter the following with no spaces:
 
   * the number of the task you want to indicate as the predecessor of the task selected
@@ -84,7 +86,7 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 
     For more information about the abbreviations for Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
   
-  * either a `+` for a positive lag or a `-` for a negative lag
+  * either a **+** for a positive lag or a **-** for a negative lag
   
   * the amount of the lag
   * the abbreviation for the Lag Type you want to use.
@@ -106,8 +108,8 @@ The following table illustrates the Lag Types and how to indicate the amount of 
  <col> 
  <thead> 
   <tr> 
-   <td> <p><span class="bold">Value</span> </p> </td> 
-   <td> <p><span class="bold">Description</span> </p> </td> 
+   <td> <p><strong>Value</strong> </p> </td> 
+   <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 

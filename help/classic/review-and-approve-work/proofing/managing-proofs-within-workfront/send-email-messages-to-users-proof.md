@@ -47,8 +47,21 @@ You must have the following access to perform the steps in this article:
 
 ## Send email messages to users on a proof
 
-1. Selectthe document for the proof that contains the users you want to message.
-1. In the `Message details` section, specify the following information:
+1. Select the document for the proof that contains the users you want to message.
+1. In the **Details**&nbsp;tab, locate&nbsp;the **Proofing**&nbsp;section.
+
+1. 
+1. Click **Details.**
+1. The proofing viewer box appears.
+1. (Conditional) To send a message to multiple&nbsp;users in a stage:
+1. In the **Workflow** section, in the stage that contains the users that you want to message, do one of the following (depending on whether the proof for which you are messaging users has or does not have&nbsp;Advanced Workflow enabled):
+1. ```<li> <p>If you are sending messages to users on a proof that has Advanced Workflow enabled:&nbsp;Click <strong>More,</strong>&nbsp;then click <strong>Message all</strong>.</p> <p> <img src="assets/proof-details-email-350x248.png" alt="" style="width: 350;height: 248;"> </p> </li>``` ```<li> <p>If you are sending messages to&nbsp;users on a proof without Advanced Workflow:&nbsp;Click the <strong>More Options</strong> icon, then click <strong>Message all</strong>.</p> <p> <img src="assets/proof-details-email-basic-350x247.png" alt="" style="width: 350;height: 247;"> </p> <p>The Message box appears.</p> <p> <img src="assets/proof-email-350x307.png" alt="" style="width: 350;height: 307;"> </p> </li>``` 
+
+1. Workflow
+1. ```<li><p>If you are sending messages to a user&nbsp;on a proof that has Advanced Workflow enabled:&nbsp;Click <strong>More,</strong>then click&nbsp;<strong>Message</strong>.</p><p><img src="assets/proof-details-email-user-350x247.png" alt="" style="width: 350;height: 247;"></p></li>``````<li><p>If you are sending messages to a user on a proof without Advanced Workflow:&nbsp;Click the <strong>More Options</strong> icon, then click <strong>Message.</strong></p><p><img src="assets/proof-details-email-user-basic-350x247.png" alt="" style="width: 350;height: 247;"></p><p>The <strong>Message</strong> box appears.</p><p><img src="assets/proof-email-350x307.png" alt="" style="width: 350;height: 307;"></p></li>```
+
+1. Send to
+1. In the **Message details** section, specify the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -60,7 +73,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Discard custom message</td> 
-      <td> <p>Click <span class="bold">Discard custom message</span> if you want to include only the default email content.</p> <p>The default reminder email includes the following information:</p> 
+      <td> <p>Click <strong>Discard custom message</strong> if you want to include only the default email content.</p> <p>The default reminder email includes the following information:</p> 
        <ul> 
         <li>Personal link to the proof<br>Thumbnail of the proof image<br></li> 
         <li>The following proof details: Proof name, version number, folder name (if applicable), and a list of the reviewers and their progress on the proof.</li> 
@@ -77,5 +90,5 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Send.`
+1. Click **Send.**
 

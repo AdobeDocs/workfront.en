@@ -49,24 +49,29 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 ## How-to steps
 
 1. Go to a list of objects that contains the grouping that you want to customize.
-1. Click the `Grouping`icon.
-1. Select the grouping that you want to customize, then click the Edit icon.
+1. Click the **Grouping** icon.
+1. Select the grouping that you want to customize, then click the **Edit** icon.
 
    The interface builder for customizing the grouping opens. 
 
-1. In the `Grouping Preview` section, click `Add Grouping` to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
+1. In the **Grouping Preview** section, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
 
 1. Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.
-1. (Optional and conditional) When viewing an updated list, select Collapse this grouping by default if you want the results in the grouping to display collapsed rather than expanded. This setting is disabled by default and the results of the grouping always display in the expanded list. For information about updated and legacy lists, see the section "The difference between updated and legacy lists" in the article Get started with lists in Adobe Workfront. Tips: When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting. The results of a grouping always display expanded after accessing them from a chart element or in a legacy list. In these cases, this setting is ignored. 
+1. (Optional and conditional) When viewing an updated list, select **Collapse this grouping by default** if you want the results in the grouping to display collapsed rather than expanded. This setting is disabled by default and the results of the grouping always display in the expanded list. For information about updated and legacy lists, see the section "The difference between updated and legacy lists" in the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md). ``` ```**Tips: **``````
+
+  * When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
+  * The results of a grouping always display expanded after accessing them from a chart element or in a legacy list. In these cases, this setting is ignored.
+
 1. Repeat Steps 4, 5, and 6 to define additional groupings.  
    You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Click `Save`as New `Grouping` to replace the current grouping with your changes.
+1. Click **Save** **as New****Grouping** to replace the current grouping with your changes.
 
 ## Additional information
 
 See also:
 
+* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
 * [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)

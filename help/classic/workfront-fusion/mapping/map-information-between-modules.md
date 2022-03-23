@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -43,7 +54,7 @@ You must have the following access to use the functionality in this article:
 &#42;&#42;For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 <!--
-** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.</p>
 -->
 
 ## Bundles and items
@@ -52,12 +63,12 @@ The operation of a module produces zero, one, or more bundles as its output. A b
 
 To explore the output of a module:
 
-1. Click `Run once` to execute the module.
+1. Click **Run once** to execute the module.
 1. Click the bubble above the module.
 
-   A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the `Output` heading. Each bundle contains its items and each item's values.
+   A log containing all of the module's phases displays. You can find the bundle or bundles outputted by a module's operation phase under the **Output** heading. Each bundle contains its items and each item's values.
 
-` `**Example: **`` This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as 
+``` ```**Example: **`````` This example shows the module Email > Watch emails. You can see that it performed 1 operation producing a single bundle that contains various items such as 
 
 ```
 Date
@@ -115,18 +126,18 @@ The first tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) 
 
 The other tabs contain the following types of functions:
 
-* `General functions` ![](assets/toolbar-icon-general-function.png) - See [General functions](../../workfront-fusion/functions/general-functions.md) for more information.
+* **General functions** ![](assets/toolbar-icon-general-function.png) - See [General functions](../../workfront-fusion/functions/general-functions.md) for more information.
 
-* `Math functions` ![](assets/toolbar-icon-math-functions.png) - See [Math functions](../../workfront-fusion/functions/math-functions.md) for more information.
+* **Math functions** ![](assets/toolbar-icon-math-functions.png) - See [Math functions](../../workfront-fusion/functions/math-functions.md) for more information.
 
-* `Text and binary functions` ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions](../../workfront-fusion/functions/string-functions.md) for more information.
+* **Text and binary functions** ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions](../../workfront-fusion/functions/string-functions.md) for more information.
 
-* `Date and time` ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
+* **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
 
-  * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-  * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Tokens for date and time parsing](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* `Functions for working with arrays` ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
+* **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions](../../workfront-fusion/functions/array-functions.md) for more information.
 
 >[!TIP]
 >
@@ -135,7 +146,13 @@ The other tabs contain the following types of functions:
 For more information on mapping items using functions, see [Map items using functions](../../workfront-fusion/functions/map-using-functions.md).
 
 <!--
-Examples: Consider these common examples of formulas created using the mapping panel: Redo this so this it is bigger. Come back to training (Fusion 2.0 Enablement Training (Part 1) - Beyond Basic Mapping) 1:53 in video to see if I should type out how he explained a couple of these
+<div class="examples" data-mc-autonum="<b>Examples: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span class="autonumber"><span><b>Examples: </b></span></span>
+<p>Consider these common examples of formulas created using the mapping panel:</p>
+<p> <img src="assets/formula-examples-350x138.png" style="width: 350;height: 138;"><!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redo this so this it is bigger. Come back to training (Fusion 2.0 Enablement Training (Part 1) - Beyond Basic Mapping) 1:53 in video to see if I should type out how he explained a couple of these</span>
+--> </p>
+</div>
 -->
 
 ## Collections
@@ -291,13 +308,13 @@ For each module, the mapping panel displays all output items, listed by the auth
 
 #### Instant trigger
 
-1. Right-click the module, then click `Run this module only` in the menu that displays.
+1. Right-click the module, then click **Run this module only** in the menu that displays.
 
    If there are no queued webhooks, the module waits for a new webhook to process.
 
 1. Generate a webhook.
 
-   For example, the webhook module `Slack > Listen for new events` (which watches for new channel messages in a channel) sends a message to the channel.
+   For example, the webhook module **Slack > Listen for new events** (which watches for new channel messages in a channel) sends a message to the channel.
 
 1. When the module finishes running, click the bubble above the module to explore its full output.
 
@@ -305,11 +322,11 @@ For each module, the mapping panel displays all output items, listed by the auth
 
 #### Polling trigger
 
-1. Right-click the module, then click `Run this module only` in the menu that displays.
-1. If there is no output, click `Choose where to start` and adjust the settings. 
+1. Right-click the module, then click **Run this module only** in the menu that displays.
+1. If there is no output, click **Choose where to start** and adjust the settings. 
 1. If there is no event to be processed, create one and go back to step 2.
 
-   For example, the webhook module `Gmail > Watch emails` sends an email to the folder that the module is watching.
+   For example, the webhook module **Gmail > Watch emails** sends an email to the folder that the module is watching.
 
 1. When the module finishes running, click the bubble above the module to explore its full output.
 
@@ -327,8 +344,8 @@ You may choose to execute:
 
 If you choose to execute just the single module:
 
-1. Right-click the module, then click `Run this module only` in the menu that displays..
-1. Provide sample values for the input items, then click `OK` .
+1. Right-click the module, then click **Run this module only** in the menu that displays..
+1. Provide sample values for the input items, then click **OK** .
 1. When the module finishes running, click the bubble above the module to explore its full output.
 
    The mapping panel now contains all of the items that were discovered in the module's output.

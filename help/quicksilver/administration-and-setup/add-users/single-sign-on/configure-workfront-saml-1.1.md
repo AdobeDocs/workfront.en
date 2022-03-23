@@ -56,27 +56,27 @@ In order to have home page landing preferences honored when implementing a Feder
 
 ## Configure Workfront with SAML 1.1
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `System` > `Single Sign-On (SSO)`.
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. In the `Type` drop-down list, select `SAML 1.1`.
+1. In the **Type** drop-down list, select **SAML 1.1**.
 1. Specify the following information:
 
-  * `Issuer`: Specify the domain provider obtained from your SAML service provider. It is possible to provide the port instead, for example: `example.company.com:80`  
+  * **Issuer**: Specify the domain provider obtained from your SAML service provider. It is possible to provide the port instead, for example: **example.company.com:80** 
   
-  * `Login Portal URL`: Specify the login URL used to log in to all your SSO-enabled applications, including Workfront.  
+  * **Login Portal URL**: Specify the login URL used to log in to all your SSO-enabled applications, including Workfront.  
   
-  * `Sign-out URL`: Specify the URL displayed after users log out of Workfront.  
+  * **Sign-out URL**: Specify the URL displayed after users log out of Workfront.  
   
-  * `Change password URL`: Specify the URL where users will be directed if they need to change their password.   
+  * **Change password URL**: Specify the URL where users will be directed if they need to change their password.   
     Since users maintain one password across multiple platforms when integrated with SAML 1.1, it is important that they are directed to a central location to change their password rather than being allowed to change their password in Workfront.  
   
-  * `Certificate`: Upload a valid certificate for authentication of a secure connection. OnDemand clients are required to do this. The certificate is obtained from your SAML 1.1 system administrator.  
+  * **Certificate**: Upload a valid certificate for authentication of a secure connection. OnDemand clients are required to do this. The certificate is obtained from your SAML 1.1 system administrator.  
   
-  * `Admin Exemption`: When this box is checked, Workfront will attempt to first login through SAML for users with System Administrator Access Level. If authentication fails, Workfront will use local authentication for administrators. We recommend that you always have this option selected, to provide your Workfront administrator a way for logging into Workfront in the event that your SAML 1.1 provider is temporarily unavailable.  
+  * **Admin Exemption**: When this box is checked, Workfront will attempt to first login through SAML for users with System Administrator Access Level. If authentication fails, Workfront will use local authentication for administrators. We recommend that you always have this option selected, to provide your Workfront administrator a way for logging into Workfront in the event that your SAML 1.1 provider is temporarily unavailable.  
   
-  * `Enable`: Select this option to enable the integration with SAML 1.1. If it is not selected, SAML 1.1 will not be activated.
+  * **Enable**: Select this option to enable the integration with SAML 1.1. If it is not selected, SAML 1.1 will not be activated.
 
-1. Click `Save`.
+1. Click **Save**.
 

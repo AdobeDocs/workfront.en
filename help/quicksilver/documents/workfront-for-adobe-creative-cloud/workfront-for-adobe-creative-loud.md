@@ -16,3 +16,7 @@ This section contains the following articles:
 * [Install Adobe Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/installl-wf-adobe-cc.md) 
 * [Use Adobe Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
 
+  <!--
+  <a href="../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc-wf-library.md" class="MCXref xref" xrefformat="{para}">Use Adobe Workfront for Adobe Creative Cloud with Workfront Library</a>
+  -->
+

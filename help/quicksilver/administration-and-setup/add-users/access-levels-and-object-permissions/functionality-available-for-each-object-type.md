@@ -1,13 +1,4 @@
----
-filename: functionality-available-for-each-object-type
-user-type: administrator
-content-type: reference
-product-area: system-administration
-keywords: access,model,funnel,diagram,levels,permissions
-navigation-topic: access-levels
-title: Functionality available for each object type
-description: The following tables lists the functionality available for each object type in the various access levels.
----
+
 
 # Functionality available for each object type
 
@@ -489,10 +480,13 @@ Only users with a Plan license can have full access to [select object or area]. 
 
 | Action |Planner |Worker |Reviewer |Requestor |External user |
 |---|---|---|---|---|---|
+| Edit priorities and budget hours in the Planner |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Create, edit, delete Resource Pools&#42;&#42; |✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ```Update Planned Hours in the Workload Balancer```&#42;&#42;&#42; | ```✓*```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View project priorities in the Resource Planner | ✓&#42; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | View resource allocation in the Resource Planning tools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
 | View Resource Pools | ✓&#42; |✓&#42; |✓&#42; |&nbsp; |&nbsp; |
+| Budget resources in the Resource Planning tools&#42;&#42; |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Attach Resource Pools to projects, templates, and users |✓ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &#42; Using an access level, Workfront administrators can disable or enable this functionality. For more information, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).

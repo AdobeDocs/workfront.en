@@ -23,24 +23,24 @@ The Comments summary can be accessed directly from the following areas:
 
 ### The Proof Viewer
 
-You can print the proof's Comments summary, including the thumbnails or full-view image of the proof, by clicking on the `Print` icon in the Proof Viewer. (1)
+You can print the proof's Comments summary, including the thumbnails or full-view image of the proof, by clicking on the **Print** icon in the Proof Viewer. (1)
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png) 
 
 ### The Proof Details Page
 
-You can print the proof's Comment summary by clicking on the `Print` icon on the Proof details page. (2)
+You can print the proof's Comment summary by clicking on the **Print** icon on the Proof details page. (2)
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png) 
 
 ### The Proof Actions Menu
 
-You can print the proof's Comment summary by clicking on the `Print` icon in the Proof actions menu.
+You can print the proof's Comment summary by clicking on the **Print** icon in the Proof actions menu.
 
 To access the Comments Summary page from a list view:
 
-1. Click on the `Actions` menu. (3)
-1. Select `Print comments`. (4)
+1. Click on the **Actions** menu. (3)
+1. Select **Print comments**. (4)
 
 ![List_view.png](assets/list-view-350x155.png)   
 On the Comments summary page you have the following print options to choose from:
@@ -57,7 +57,7 @@ On the Comments summary page you have the following print options to choose from
 
 The Thumbnail view shows each comment in order, together with the full thread for each comment. You can also sort comments and see the thumbnail for each comment with markups added.
 
-To print the thumbnail view click the `Printer` icon at the top-right corner of the page and select one of the following:
+To print the thumbnail view click the **Printer** icon at the top-right corner of the page and select one of the following:
 
 * Sort by comment ID or page (1)
 * Thumbnail for each comment with markups added (2)
@@ -68,7 +68,7 @@ To print the thumbnail view click the `Printer` icon at the top-right corner of 
 
 The full-page view shows each page in order, together with the comments on that page and a pin indicating where the markup for the comment is located on the page.
 
-To print the full page view, click the `Printer` icon at the top-right corner of the page.
+To print the full page view, click the **Printer** icon at the top-right corner of the page.
   
 ![PV_full.png](assets/pv-full-350x347.png) 
 
@@ -76,20 +76,20 @@ To print the full page view, click the `Printer` icon at the top-right corner of
 
 To download the excel summary:
 
-1. Open the proof's actions menu to the right of the proof, then click `Excel summary`.&nbsp;(1)  
+1. Open the proof's actions menu to the right of the proof, then click **Excel summary**.&nbsp;(1)  
    ![Excel_summary.png](assets/excel-summary-350x450.png)
 
 To download the excel summary from the Proof details page:
 
-1. Click the Export to `Excel` icon. (2)
+1. Click the Export to **Excel** icon. (2)
 1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exporting to PDF
 
 To export a proof to PDF, together with all markups and comments, follow these steps:
 
-1. Go to `Views` on the left side of the screen.
-1. Click the `More` icon inline with a proof, then click `Print comments`.
+1. Go to **Views** on the left side of the screen.
+1. Click the **More** icon inline with a proof, then click **Print comments**.
 
 1. Click the Export to PDF icon in the top-right corner of the page.
 

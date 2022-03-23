@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms
 description: The following tables are lists of commonly used terms in Adobe Workfront:
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms

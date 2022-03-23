@@ -36,7 +36,9 @@ You must have the following access to perform the steps in this article:
 ## Manually synchronize the burndown chart with data in your 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 project or
+</MadCap:conditionalText>
 -->
 
 iteration
@@ -44,12 +46,26 @@ iteration
 1. Go to the
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    project or
+   </MadCap:conditionalText>
    -->
 
    iteration where you want to manually synchronize the burndown chart.
 
    <!--
-   (Conditional) On a project, ensure that you are viewing the project in an agile view, as described in Manage a project in the Agile View.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) On a project, ensure that you are viewing the project in an agile view, as described in <a href="../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md" class="MCXref xref">Manage a project in the Agile View</a>.</li>
    -->
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   On a project, click
+   <strong>Project Actions</strong>.
+   <br>Or
+   <br>
+   </MadCap:conditionalText>
+   -->
+
+1. Iteration Actions
+1. Synchronize Burndown Data
 

@@ -13,17 +13,18 @@ If you have Manage permissions to content, you can upload new versions. For info
 
 You cannot upload new versions of content in bulk. Each version must be uploaded individually.
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the active (or current) version is located.
 
    You can choose Library, My Content , or Collections.
 
    ![](assets/library-left-panel---new-350x217.png)
 
-1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
 1. Navigate to the thumbnail for the active content.
-1. Hover over the thumbnail, click the `More` icon in the upper-right corner of the thumbnail, then select `New Version` in the drop-down menu.
+1. Hover over the thumbnail, click the **More** icon in the upper-right corner of the thumbnail, then select **New Version** in the drop-down menu.
 
    The file uploading area displays.
 
@@ -35,7 +36,7 @@ You cannot upload new versions of content in bulk. Each version must be uploaded
     >
     >If you are using Internet Explorer as your browser application, you cannot use the drag-and-drop functionality.
 
-  * To browse for the file, click `Browse` in the file uploading area, browse to and select the file you want to upload, then click `Open.`
+  * To browse for the file, click **Browse** in the file uploading area, browse to and select the file you want to upload, then click **Open.**
 
    Depending on how your taxonomy is configured, the Metadata panel for the file you are uploading might display some pre-filled metadata from the active version along with any applicable EXIF, XMP, and file attributes. For information on content metadata, see [Set up taxonomy metadata for Workfront Library](../../../workfront-library/administration-and-setup/metadata/set-up-taxonomy-metadata.md).
 
@@ -45,8 +46,8 @@ You cannot upload new versions of content in bulk. Each version must be uploaded
 
    When searching for the content, users can search only for the most current file name. File names of previous versions are not searchable.
 
-1. (Optional) To update the metadata for the new version, including the file name, edit the taxonomy fields in the `Details` panel.
-1. Click `Upload New Version`.
+1. (Optional) To update the metadata for the new version, including the file name, edit the taxonomy fields in the **Details** panel.
+1. Click **Upload New Version**.
 
    Once the upload is complete, the version number is added to the name of the content.
 

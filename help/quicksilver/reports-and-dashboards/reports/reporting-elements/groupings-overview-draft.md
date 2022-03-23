@@ -5,12 +5,15 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Groupings overview in Adobe Workfront (draft)
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+hidefromtoc: true
 ---
 
 # Groupings overview in&nbsp;Adobe Workfront 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (draft)
+</MadCap:conditionalText>
 -->
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
@@ -19,7 +22,7 @@ Groupings allow you to manage the layout of the information in your reports and 
 
 ## Create groupings in the builder interface
 
-You can create a grouping using the standard builder or beta builder interface in the following ways:
+You can create a grouping using the standard builder  or beta builder  interface in the following ways:
 
 * From scratch
 * Modify an existing grouping
@@ -33,7 +36,9 @@ By default, the grouping name appears highlighted in&nbsp;your report or list. T
 
 You can add up to three groupings to a report or list. You can organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-In a grouping, the first grouping is darker gray and the second and third groupings are lighter gray. All groupings appear the same, whether they were created in the standard builder or the beta builder.You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the grouping name represents the number of results under that grouping. If your report or list spans multiple pages, ensure that you display *All* the results to get an accurate count for your results under each grouping.
+In a grouping, the first grouping is darker  gray  and the second and third groupings are lighter  gray .  All groupings appear the same, whether they were created in the standard builder or the beta builder. You cannot customize the color of the highlight for your grouping, or the font of the grouping name. The number in parentheses after the grouping name represents the number of results under that grouping. If your report or list spans multiple pages, ensure that you display *All* the results to get an accurate count for your results under each grouping.
+
+![](assets/nwe-list-threegroupings-350x78.png)
 
 Consider the following when working with groupings:
 
@@ -76,7 +81,7 @@ Groupings cannot be sorted. Views can be sorted. In order to sort&nbsp;a list by
 
 How you remove a grouping&nbsp;depends on whether you initially created the grouping,&nbsp;or the grouping&nbsp;was shared with you.&nbsp;You cannot remove&nbsp;a default grouping.
 
-* `If you created the grouping and you remove it`, the grouping&nbsp;is removed from the Workfront system. The grouping&nbsp;is no longer available to any users who you previously shared it with.
-* `If the grouping was shared with you and you remove it`, the grouping&nbsp;is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
+* **If you created the grouping and you remove it**, the grouping&nbsp;is removed from the Workfront system. The grouping&nbsp;is no longer available to any users who you previously shared it with.
+* **If the grouping was shared with you and you remove it**, the grouping&nbsp;is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 For information about removing a grouping, see the article [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

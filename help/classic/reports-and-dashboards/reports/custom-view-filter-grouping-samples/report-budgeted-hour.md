@@ -48,12 +48,12 @@ You must have the following access to perform the steps in this article:
 
 ## Build a Budgeted Hour report
 
-1. Go to the Reporting area in your Global Navigation Bar. 
-1. Click Reports > `New Report > Budgeted Hour`.
+1. Go to the **Reporting** area in your Global Navigation Bar. 
+1. Click&nbsp;**Reports** > **New Report > Budgeted Hour**.
 
    The default view is applied to the report.
 
-1. (Optional) To make the report easier to read, click the `Budgeted Hours` column, then `Switch to Text Mode`, then change the 
+1. (Optional) To make the report easier to read, click the **Budgeted Hours** column, then **Switch to Text Mode**, then change the 
 
    ```
    valuefield
@@ -71,18 +71,18 @@ You must have the following access to perform the steps in this article:
 
    For information about how to round a number in Workfront, see the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. (Optional) Click `Add Column` to add additional columns.
+1. (Optional)&nbsp;Click **Add Column** to add additional columns.
 1. (Optional) To make the report easier to read, we recommend that you add a grouping to it. We suggest the following grouping:
 
-   Click the `Groupings` tab, then do one or several of the following:
+   Click the **Groupings** tab, then do one or several of the following:
 
-  1. Click  `Add Grouping` and start typing "Project&nbsp;Name", then select it when it appears in the list.
-  1. Click `Add Grouping` and start typing "Job&nbsp;Role Name", then select it when it appears in the list.
-  1. Click `Add Grouping` and start typing `Allocation Date`, select it when it appears in the list, and then select the timeframe you want to group by from the `Group Dates by` field.
+   1. Click&nbsp;**Add Grouping** and start typing "Project&nbsp;Name", then select it when it appears in the list.
+   1. Click **Add Grouping** and start typing "Job&nbsp;Role Name", then select it when it appears in the list.
+   1. Click **Add Grouping** and start typing **Allocation Date**, select it when it appears in the list, and then select the timeframe you want to group by from the **Group Dates by** field.
 
-1. (Optional) Click  `Filters` to add filters to the report.
-1. (Optional) Click  `Chart` to add a chart to the report.
-1. Click  `Save + Close`.
+1. (Optional) Click&nbsp;**Filters** to add filters to the report.
+1. (Optional)&nbsp;Click&nbsp;**Chart** to add a chart to the report.
+1. Click&nbsp;**Save + Close**.
 
 ## Review the Budgeted Hour report
 

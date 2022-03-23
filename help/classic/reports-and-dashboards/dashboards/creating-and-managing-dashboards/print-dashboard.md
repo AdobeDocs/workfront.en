@@ -79,16 +79,16 @@ The following information is not included in the printed or exported dashboard f
 1. Go to the dashboard that you want to print.
 1. Do either of the following:
 
-  * Click `Dashboard Actions` > `Print`
-  
-  * Press `Ctrl+P` (on Windows) or `Command+P` (on Mac)  
-    The keyboard shortcut option is not available when using the Internet Explorer browser.
+   * Click **Dashboard Actions** > **Print**
+   
+   * Press **Ctrl+P** (on Windows) or **Command+P** (on Mac)  
+     The keyboard shortcut option is not available when using the Internet Explorer browser.
 
-1. In the `Destination` field, select from the various printing options available.  
+1. In the **Destination** field, select from the various printing options available.  
    The printing options vary depending on the browser and browser version you use.
 
-1. (Optional) Save the dashboard as a PDF file, then click `Save` to save the PDF.  
+1. (Optional) Save the dashboard as a PDF file, then click **Save** to save the PDF.  
    To learn how to save the dashboard as a PDF file, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
-1. Click `Print`.
+1. Click **Print**.
 

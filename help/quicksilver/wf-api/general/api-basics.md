@@ -43,10 +43,10 @@ Objects are manipulated by sending an HTTP request to their unique URI. The oper
 
 The standard HTTP methods correspond to the following operations:
 
-* `GET` - Retrieves an object by ID, searches for all objects by a query, runs reports, or executes named queries
-* `POST` - Inserts a new object
-* `PUT` - Edits an existing object
-* `DELETE` - Deletes an object
+* **GET** - Retrieves an object by ID, searches for all objects by a query, runs reports, or executes named queries
+* **POST** - Inserts a new object
+* **PUT** - Edits an existing object
+* **DELETE** - Deletes an object
 
 In order to work around client deficiencies or protocol length limits, the method parameter can be used to override HTTP behavior. For example, a GET operation may be implemented by posting the following URI:
 <pre>GET /attask/api/v9.0/project?id=4c78...54d0&method=get<br>GET /attask/api/v9.0/project/4c78...54d0?method=get</pre>
@@ -61,7 +61,7 @@ Each request is given a response in JSON format. The response has&nbsp;either a 
 >
 >When executing a GET request through your browser's address bar, it is not necessary to include the sessionID as part of the request.
 
-Special security has been added around PUT, POST, and DELETE requests. Any request that results in writing to or deleting from the database can only be executed if the `sessionID=abc123` is included in the URI. The following examples show how this would look for a DELETE request:
+Special security has been added around PUT, POST, and DELETE requests. Any request that results in writing to or deleting from the database can only be executed if the **sessionID=abc123** is included in the URI. The following examples show how this would look for a DELETE request:
 <pre>GET /attask/api/v9.0/project?id=4c78...54d0&method=delete&sessionID=abc123<br>GET /attask/api/v9.0/project/4c78...54d0?method=delete&sessionID=abc123</pre>
 
 ### Authentication
@@ -70,19 +70,19 @@ The API authenticates each request to ensure that the client has access to view 
 
 Authentication is performed by passing in a session ID which can be given using one the following methods:
 
-#### `Request Header Authentication`
+#### **Request Header Authentication**
 
 The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
 
 The following is an example of a request header:
 <pre>GET /attask/api/v9.0/project/search <br>SessionID: abc1234</pre>
 
-#### `Request Parameter Authentication`
+#### **Request Parameter Authentication**
 
 You can authenticate by passing a request parameter named sessionID, as shown in the following example:&nbsp;
 <pre>GET /attask/api/v9.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234</pre>
 
-#### `Cookie-Based Authentication`
+#### **Cookie-Based Authentication**
 
 The API uses the same cookie-based authentication that is used by the web UI to the system. Where, if a client logs into Workfront using the web UI, any AJAX calls made from within the same browser uses the same authentication.
 
@@ -122,10 +122,10 @@ Using a valid username and password, you can use the following request to obtain
 >
 >If you have a designated API user who is also an administrator, Workfront strongly suggests you use an API Key to log in.
 
-`Generating an API Key`
+**Generating an API Key**
 
 You can generate&nbsp;an API Key when you log into the system as that user, as shown in the following example:
-<pre>PUT&nbsp;/attask/api/v9.0/user?action=generateApiKey&username= username&password=password&method=put</pre>`Retrieving a Previously-Generated API Key`
+<pre>PUT&nbsp;/attask/api/v9.0/user?action=generateApiKey&username= username&password=password&method=put</pre>**Retrieving a Previously-Generated API Key**
 
 You can also retrieve an API Key that has been previously generated for a particular user by running getApiKey:
 <pre>PUT&nbsp;/attask/api/v9.0/user?action=getApiKey&username=user@email.com&password=userspassword&method=put</pre>You can then use this result to authenticate any API call by adding "apiKey" as a request parameter with this value in place of a sessionID or username and password. This is beneficial from a security perspective.
@@ -133,7 +133,7 @@ You can also retrieve an API Key that has been previously generated for a partic
 The following request is an example of retrieving data from a project using the apiKey:
 <pre>GET /attask/api/v9.0/project/abc123xxxxx?apiKey=123abcxxxxxxxxx</pre>To learn more about viewing or managing your apiKey, see .
 
-`Invalidating an API Key`
+**Invalidating an API Key**
 
 If the apiKey value has been compromised, you can run "clearApiKey" which invalidates the current API Key, as shown in the following example:
 <pre>GET /attask/api/v9.0/user?action=clearApiKey&username=user@email.com&password=userspassword&method=put</pre>Once cleared, you can run getApiKey again to generate a new API Key.
@@ -151,7 +151,7 @@ To log out a user:
 1. Replace the word *search* with login?username=admin&password=user, substituting your username and password for *admin* and *user  
    *This session is stored in the browser as a cookie and does not need to be restated in each subsequent GET request.
 
-1. Change the URL back to `/attask/api/v9.0/project/search`.
+1. Change the URL back to **/attask/api/v9.0/project/search**.
 1. Notice the response provided.
 
 You must always include the sessionID provided after login when performing PUT, POST, and DELETE requests.
@@ -184,7 +184,7 @@ For example, you can use the following request to return a list of all the proje
 
 The following table lists some of the modifiers you can use with the Workfront API.
 
-| `Modifier`  | `Description`  | `Example`  |
+| **Modifier** |**Description** |**Example** |
 |---|---|---|
 | eq |returns results that are in the status of closed |<pre>...status=cls&status_Mod=eq...</pre> |
 | ne |returns results that are not in the status of closed |<pre>...status=cls&status_Mod=ne...</pre> |
@@ -197,7 +197,7 @@ The following table lists some of the modifiers you can use with the Workfront A
 
 >[!NOTE]
 >
->Search requests are case-sensitive. If you receive an error, ensure   `_Mod` and `_Range` have the correct capitalization.
+>Search requests are case-sensitive. If you receive an error, ensure&nbsp;&nbsp;**_Mod** and **_Range** have the correct capitalization.
 
 #### Using OR Statements
 

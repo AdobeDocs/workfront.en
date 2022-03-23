@@ -46,8 +46,8 @@ When you reset user preferences, some preferences are reverted to the system def
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Preference</span> </th> 
-   <th><span class="bold">Status after the reset</span> </th> 
+   <th><strong>Preference</strong> </th> 
+   <th><strong>Status after the reset</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -88,10 +88,10 @@ When you reset user preferences, some preferences are reverted to the system def
 
 ## Reset user preferences
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. `Log In As`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. **Log In As**.
 1. Begin typing the name of the user whose preferences you want to reset, then click the name when it appears in the drop-down list.
-1. Click `Log In`.
+1. Click **Log In**.
 1. In the URL field at the top of your web browser, add the following to the end of 
 
    ```
@@ -113,10 +113,10 @@ When you reset user preferences, some preferences are reverted to the system def
    >```   >
    >
 
-1. Press `Enter`.
-1. To reset all user preferences, click `Reset`.
+1. Press **Enter**.
+1. To reset all user preferences, click **Reset**.
 
    Or
 
-   To reset only custom tabs, click `Reset Tabs`.
+   To reset only custom tabs, click **Reset Tabs**.
 

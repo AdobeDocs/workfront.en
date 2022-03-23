@@ -56,16 +56,17 @@ You must have the following:
 Sharing filters, views, or groupings in Workfront is identical.
 
 1. Go to a list of objects or a report.
-1. Click the Filter, View, or Grouping drop-down menu, then select the filter, view, or grouping you want to share. 
-1. Click the `Filter`, `View`, or `Grouping` drop-down menu again, then click `Share Filter`, `Share View`, or `Share Grouping`.  
+1. Click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share. 
+
+1. Click the **Filter**, **View**, or **Grouping** drop-down menu again, then click **Share Filter**, **Share View**, or **Share Grouping**.  
    The **Filter Access**, **View Access**, or **Grouping Access** dialog box displays.
 
 1. Complete either of the following, depending on who you want to share with:
 
-   `To share with individual users, teams, roles, groups, or companies:` In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
+   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
-   `To share with all users in the system:` Click the `Settings` icon, then click `Make this visible system-wide`.  
+   **To share with all users in the system:** Click the **Settings** icon, then click **Make this visible system-wide**.  
    Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
@@ -86,14 +87,14 @@ Sharing filters, views, or groupings in Workfront is identical.
      </tr> 
      <tr> 
       <td role="rowheader">Share it</td> 
-      <td> <p>Click <span class="bold">Advanced Settings</span>, then select or deselect the <span class="bold">Share</span> option, depending on whether you want the share recipients to be able to share with others.</p> </td> 
+      <td> <p>Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 
-   Users with whom you shared the filter, view, or grouping can access it by clicking the `Filter`, `View`, or `Grouping` drop-down menu and scrolling down to the `Shared with me` section.
+   Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu and scrolling down to the **Shared with me** section.
 
 ## Video walk-through
 
@@ -106,128 +107,128 @@ View the following video to learn how to share filters, views, and groupings in 
 [ ![](assets/video-share-reporting-elements-350x198.png)](https://workfront-video.wistia.com/medias/wj9snapqio)
 
 <!--
-Additional information
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
 -->
 
 <!--
-See also:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See also:</p>
 -->
 
   <!--
-  Reporting elements: filters, views, and groupings
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a> </li>
   -->
 
   <!--
-  Create a custom report
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a> </li>
   -->
 
   <!--
-  Create groupings in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md" class="MCXref xref">Create groupings in Adobe Workfront</a> </li>
   -->
 
   <!--
-  Edit existing groupings
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md" class="MCXref xref">Edit existing groupings</a> </li>
   -->
 
   <!--
-  Filters overview in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a> </li>
   -->
 
   <!--
-  Views overview in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a> </li>
   -->
 
   <!--
-  Groupings overview in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a> </li>
   -->
 
 <!--
-Old content
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Old content</p>
 -->
 
 <!--
-You can share Filters, Views, and Groupings with other users.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can share Filters, Views, and Groupings with other users.</p>
 -->
 
 <!--
-When a Filter, View, or Grouping is shared with you, you can apply that Filter, View, or Grouping to your lists. Depending on the access granted to you, you might be able to modify it and share it with other users.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">When a Filter, View, or Grouping is shared with you, you can apply that Filter, View, or Grouping to your lists. Depending on the access granted to you, you might be able to modify it and share it with other users.</p>
 -->
 
 <!--
-For information about how to create a Filter, View, or Grouping, see Filters overview in Adobe Workfront Views overview in Adobe Workfront and Groupings overview in Adobe Workfront.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about how to create a Filter, View, or Grouping, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a> <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a> and <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p>
 -->
 
   <!--
-  Sharing a Filter, View, or Grouping
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#sharing-a-filter-view-or-grouping" class="MCXref xref">Sharing a Filter, View, or Grouping</a> </li>
   -->
 
   <!--
-  Viewing a Filter, View, or Grouping That Has Been Shared with You
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#viewing-a-filter-view-or-grouping-that-has-been-shared-with-you" class="MCXref xref">Viewing a Filter, View, or Grouping That Has Been Shared with You</a> </li>
   -->
 
   <!--
-  Removing a Shared Filter, View, or Grouping
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#removing-a-shared-filter-view-or-grouping" class="MCXref xref">Removing a Shared Filter, View, or Grouping</a> </li>
   -->
 
 <!--
-Sharing a Filter, View, or Grouping
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sharing-a-filter-view-or-grouping"></a>Sharing a Filter, View, or Grouping</h2>
 -->
 
    <!--
-   Click the Filter, View, or Grouping drop-down menu, then select the Filter, View, or Grouping you want to share.
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu, then select the Filter, View, or Grouping you want to share.</li>
    -->
 
    <!--
-   Click the Filter, View, or Grouping drop-down menu again, then click Share Filter, Share View, or Share Grouping. The Filter Access, View Access, or Grouping Access dialog box is displayed.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br>The Filter Access, View Access, or Grouping Access dialog box is displayed.<br><img src="assets/share-filterviewgrouping-350x382.png" alt="" style="width: 350;height: 382;"></li>
    -->
 
 1. 
 
    <!--
-   Complete either of the following, depending on who you want to share with:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Complete either of the following, depending on who you want to share with:</p>
    -->
 
    <!--
-   To share with individual users, teams, roles, groups, or companies: In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list. Repeat this process to share access with multiple users, teams, roles, groups, or companies.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.<br>Repeat this process to share access with multiple users, teams, roles, groups, or companies.</p>
    -->
 
    <!--
-   To share with all users in the system: Click the Settings icon, then click Make this visible system-wide. Your administrator must select the Share System-wide option for this option to be available. For more information, see Create or modify custom access levels and Share reports, dashboards, and calendars in Adobe Workfront.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br>Your administrator must select the Share System-wide option for this option to be available. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars in Adobe Workfront</a>.</p>
    -->
 
 1. 
 
    <!--
-   (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.<br><img src="assets/share-filterviewgrouping-dropdown-350x380.png" alt="" style="width: 350;height: 380;"></p>
    -->
 
    <!--
-   You can select from the following options:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can select from the following options:</p>
    -->
 
-    <!--  
-    View it: Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>   
+     -->
 
-    <!--  
-    Manage it: Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>   
+     -->
 
-    <!--  
-    Share: Click Advanced Settings, then select or deselect the Share option, depending on whether you want the share recipients to be able to share with others.  
-    -->
+     <!--   
+     <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>   
+     -->
 
 1. 
 
    <!--
-   Click Save
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save</strong></p>
    -->
 
    <!--
-   Users can access the shared Filter, View, or Grouping as described in Viewing a Filter, View, or Grouping That Has Been Shared with You.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users can access the shared Filter, View, or Grouping as described in <a href="#viewing-a-filter-view-or-grouping-that-has-been-shared-with-you" class="MCXref xref">Viewing a Filter, View, or Grouping That Has Been Shared with You</a>.</p>
    -->
 
    <!--
-   Users who you share the Filter, View, or Grouping with can access the shared Filter, View, or Grouping by clicking the Filter, View, or Grouping drop-down menu and scrolling down to the Shared with me section.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who you share the Filter, View, or Grouping with can access the shared Filter, View, or Grouping by clicking the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu and scrolling down to the <strong>Shared with me</strong> section.</p>
    -->
 

@@ -9,7 +9,7 @@ description: A project team is a group of users associated with a project. Users
 
 # Project Team overview
 
-A project team is a group of users associated with a project. Users listed under the People areaof a project are the users who make up the project team.
+A project team is a group of users associated with a project. Users listed under the People area of a project are the users who make up the project team.
 
 ## Project Team members
 
@@ -33,9 +33,7 @@ See the following articles for information on how to set a user up for role-base
 * [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 
 If you don't want to require the user to be on the project team for role-based approvals, you can control this in approval settings. For more information, see [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
-Projects I'm On filter 
-
-If a user is listed on the People area of a project, that project appears in a list of projects when you apply the Projects I'm On filter in the Projects area.
+Projects I'm On filter If a user is listed on the People area of a project, that project appears in a list of projects when you apply the Projects I'm On filter in the Projects area.
 You can see if the Projects I'm On filter is selected in the Projects area header. You can apply it from the Filters panel or from the header.
 
 >[!NOTE]

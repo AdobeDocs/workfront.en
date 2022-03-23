@@ -45,33 +45,33 @@ You must have the following access in Workfront to perform the steps in this art
 
 1. Select from the following filters:
 
-  * Portfolios: Select specific portfolios whose projects you want to display.
-  * Condition: Select to display only projects with a specific Condition.
-  * Progress: Select to display only projects in a specific Progress Status.
-  * Status: Select to display only projects in specific Statuses.
-  * Planned Start: Select to display only projects with the Planned Start Date in the following time frames:
+   * Portfolios: Select specific portfolios whose projects you want to display.
+   * Condition: Select to display only projects with a specific Condition.
+   * Progress: Select to display only projects in a specific Progress Status.
+   * Status: Select to display only projects in specific Statuses.
+   * Planned Start: Select to display only projects with the Planned Start Date in the following time frames:
 
-    * Past 3 Months
-    * Past 2 Months
-    * Past Month
-    * Past Two Weeks
+      * Past 3 Months
+      * Past 2 Months
+      * Past Month
+      * Past Two Weeks
 
-  * Planned Complete: Select to display only projects with the Planned Completion Date in the following upcoming time frames:
+   * Planned Complete: Select to display only projects with the Planned Completion Date in the following upcoming time frames:
 
-    * Two Weeks
-    * One Month
-    * Two Months
-    * Three Months
+      * Two Weeks
+      * One Month
+      * Two Months
+      * Three Months
 
-  * Projected Complete:&nbsp;Select to display only projects with the Projected Completion Date in the following upcoming time frames:
+   * Projected Complete:&nbsp;Select to display only projects with the Projected Completion Date in the following upcoming time frames:
 
-    * Two Weeks
-    * One Month
-    * Two Months
-    * Three Months
+      * Two Weeks
+      * One Month
+      * Two Months
+      * Three Months
 
-  * Owner: Select to display projects that are assigned to specific Owners.
-  * Sponsor: Select to display projects that are assigned to a specific Sponsor.
+   * Owner: Select to display projects that are assigned to specific Owners.
+   * Sponsor: Select to display projects that are assigned to a specific Sponsor.
 
 1. Tap anywhere on the list of projects to close the list icon.
 

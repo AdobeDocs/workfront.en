@@ -13,5 +13,6 @@ description: The highlighted information on this page refers to functionality no
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 * [Create a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) 
-* [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
+* [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) 
+* View and manage subgroup members
 

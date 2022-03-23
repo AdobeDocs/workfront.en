@@ -9,27 +9,27 @@ With the Reporting Canvas, you can create highly customizable reports. The easy-
 New functionality also allows you more control over what displays when you view a report. For example, you can display it based on specific teams, date ranges, and other criteria.
 
 <!--
-Actions for users with View access
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Actions for users with View access</p>
 -->
 
 <!--
-Reporting elements
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Reportin"></a>Reporting elements</h2>
 -->
 
 <!--
-[screenshot of report with each different element called out]
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><b>[screenshot of report with each different element called out]</b> </p>
 -->
 
 <!--
-Go over reporting elements?
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Go over reporting elements?</p>
 -->
 
 <!--
-Goes over each widget in report: table, visualization, text, embed, filter
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Goes over each widget in report: table, visualization, text, embed, filter</p>
 -->
 
 <!--
-Align different blocks to visuals, narrative, and data
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Align different blocks to visuals, narrative, and data</p>
 -->
 
 ## Building a report

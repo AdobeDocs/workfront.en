@@ -44,7 +44,7 @@ By creating Satellite accounts for your clients.
 
 ## Main features and benefits of Satellite accounts
 
-| `Feature`  | `Benefit`&nbsp; |
+| **Feature** |**Benefit**&nbsp; |
 |---|---|
 | &nbsp;Managed by you from within your "Hub" account |&nbsp;Conveniently manage multiple Satellite accounts from one place&nbsp; |
 | &nbsp;Personal login for each user in the Satellite account |&nbsp;Provides additional security on proofs (proofs can be password protected. For more information, see&nbsp; [Proof security in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |

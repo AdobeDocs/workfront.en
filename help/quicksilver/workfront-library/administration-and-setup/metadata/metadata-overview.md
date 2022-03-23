@@ -14,9 +14,9 @@ Metadata is information that describes the attributes and content of an asset an
 
 A Workfront Library administrator sets up the metadata to gather the types of information most useful for your organization. Workfront Library supports 2 types of metadata:
 
-* `Taxonomy`: Information that describes or categorizes the attributes of an asset. For example, taxonomy might specify when an asset was created or the location of a photograph. For more information on taxonomy, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md). 
+* **Taxonomy**: Information that describes or categorizes the attributes of an asset. For example, taxonomy might specify when an asset was created or the location of a photograph. For more information on taxonomy, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md). 
 
-* `Keywords`: Terms that describe an asset. For example, keywords for the following image might include: running, woman, athlete, running shoe, desert, Titan Running, outdoors, turquoise, and race.
+* **Keywords**: Terms that describe an asset. For example, keywords for the following image might include: running, woman, athlete, running shoe, desert, Titan Running, outdoors, turquoise, and race.
 
   For more information on keywords, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 

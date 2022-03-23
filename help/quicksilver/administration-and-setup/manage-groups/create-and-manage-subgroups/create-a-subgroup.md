@@ -40,15 +40,15 @@ You must have the following to perform the steps in this article:
 
 ## Add a subgroup
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Groups`.
+1. Click **Groups**.
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
 1. Select the existing group or subgroup where you want to add a new subgroup.
-1. Click `New Subgroup`.
-1. In the `New Subgroup` box that appears, type a `Group Name` for the subgroup.
+1. Click **New Subgroup**.
+1. In the **New Subgroup** box that appears, type a **Group Name** for the subgroup.
 1. (Optional) specify any of the following information:
 
    <table cellspacing="0"> 
@@ -62,7 +62,19 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Description</td> 
       <td>Type a description for the subgroup. You can type up to 512 characters.</td> 
-     </tr> Is Active WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in (Enabled by default) Makes the group active in your Workfront instance. In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list. To streamline this for your users, you can disable the Is Active option for groups that are not currently in use. You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see Reporting elements: filters, views, and groupings. 
+     </tr> <!-- 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="preview">Is Active</span> </td> 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
+       <div class="preview"> <!--
+         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
+        --> 
+        <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
+        <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
+        <p> <img src="assets/group-type-aheads.jpg"> </p> 
+        <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
+        <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Reporting elements: filters, views, and groupings</a>.</p> 
+       </div>  </td> 
+     --> 
      <tr> 
       <td role="rowheader">Make this group and its subgroups public</td> 
       <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the subgroup with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <p>Note:  
@@ -84,7 +96,9 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the subgroup, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators:A subgroup inherits the group administrators of the group above it, so specifying a user as a group administrator for a subgroup is optional. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> </li> 
+        <li> <p>Group administrators:<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.subgroups">
+            A subgroup inherits the group administrators of the group above it, so specifying a user as a group administrator for a subgroup is optional.
+          </MadCap:conditionalText> You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -94,5 +108,5 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Save.`
+1. Click **Save.**
 

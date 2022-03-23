@@ -37,7 +37,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -66,7 +74,7 @@ You can review goals in any section of Workfront Goals.&nbsp;For information abo
 
 This article describes how to review goals in the Goal List.
 
-1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
 
    This opens the Workfront Goals area.
 
@@ -74,13 +82,13 @@ This article describes how to review goals in the Goal List.
 
 1. (Recommended) Adjust the following filters for the Goal List area to review at-risk goals:
 
-  * Click `Company`, then `My Teams`, then `My Groups`, then `Personal` goals in this order to view goals that belong to your organization, your teams, groups, and then your own goals. 
+  * Click **Company**, then **My Teams**, then **My Groups**, then **Personal** goals in this order to view goals that belong to your organization, your teams, groups, and then your own goals. 
   
-    ` `**Tip: **`` In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner.
+    ``` ```**Tip: **`````` In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner.
 
     You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. 
   
-  * For each of the organizational units you select above, click `New Filter` > `Progress` > `In Trouble`> `Apply.`
+  * For each of the organizational units you select above, click **New Filter** > **Progress** > **In Trouble**>**Apply.**
   * (Optional) Select the time period for which you want to view goals.
 
     The progress bar indicator displays in red for each goal in the goal list.
@@ -95,11 +103,11 @@ This article describes how to review goals in the Goal List.
 
    In-trouble goals for the selected users display in the goal list. 
 
-1. Click `Expand` `goals`to view additional information about the goals and their contributing items. 
+1. Click ```Expand``` ```goals```to view additional information about the goals and their contributing items. 
 1. A list of results, activities, and aligned goals displays under each goal. Now, you can view which contributing item delays the progress of your goal.
 
    ![](assets/expanded-goal-w-contributing-items-attached-350x105.png)
 
-1. (Optional) Click ` `Print`` to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
-1. Click a `goal name` to open the Goal Details panel, then click `Check in` to update the progress of the Results or Activities associated with the delayed goals. This updates the goals' progress as well. For information about updating the progress of results and activities to check in a goal, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+1. (Optional) Click **Print** to export the list of the in-trouble goals in various formats and share it with others. For information about printing goal lists, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
+1. Click a **goal name** to open the Goal Details panel, then click **Check in** to update the progress of the Results or Activities associated with the delayed goals. This updates the goals' progress as well. For information about updating the progress of results and activities to check in a goal, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 

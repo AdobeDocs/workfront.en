@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -87,8 +98,8 @@ This trigger module retrieves details of an event when the event is created, upd
    <td role="rowheader">Watch events</td> 
    <td> <p>Select how you want to watch events.</p> 
     <ul> 
-     <li> <p><span class="bold">By Created Time</span> </p> <p>Watch for new events.</p> </li> 
-     <li> <p><span class="bold">By Updated Time</span> </p> <p>Watch for updated events.</p> </li> 
+     <li> <p><strong>By Created Time</strong> </p> <p>Watch for new events.</p> </li> 
+     <li> <p><strong>By Updated Time</strong> </p> <p>Watch for updated events.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -145,9 +156,9 @@ This search module retreves details of an event when the event is created, updat
    <td role="rowheader">Order by</td> 
    <td> <p>Select how you want to order the results.</p> 
     <ul> 
-     <li><span class="bold">Subject</span>, ascending or descending</li> 
-     <li><span class="bold">Created Date Time</span>, ascending or descending</li> 
-     <li><span class="bold">Last Modified Date Time</span>, ascending or descending</li> 
+     <li><strong>Subject</strong>, ascending or descending</li> 
+     <li><strong>Created Date Time</strong>, ascending or descending</li> 
+     <li><strong>Last Modified Date Time</strong>, ascending or descending</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -221,10 +232,10 @@ This action module creates a new event.
    <td role="rowheader">Sensitivity </td> 
    <td> <p>Select the sensitivity of this event.</p> 
     <ul> 
-     <li><span class="bold">Normal</span> </li> 
-     <li> <p><span class="bold">Personal</span> </p> <p>The recipient sees a "Please treat this as Personal" message.</p> </li> 
-     <li> <p><span class="bold">Private </span> </p> <p>The recipient sees a "Please treat this as Private" message. This event isn't forwarded or redirected by the recipient's inbox rules.</p> </li> 
-     <li> <p><span class="bold">Confidential</span> </p> <p>The recipient sees a "Please treat this as Confidential" message. </p> </li> 
+     <li><strong>Normal</strong> </li> 
+     <li> <p><strong>Personal</strong> </p> <p>The recipient sees a "Please treat this as Personal" message.</p> </li> 
+     <li> <p><strong>Private</strong> </p> <p>The recipient sees a "Please treat this as Private" message. This event isn't forwarded or redirected by the recipient's inbox rules.</p> </li> 
+     <li> <p><strong>Confidential</strong> </p> <p>The recipient sees a "Please treat this as Confidential" message. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -241,7 +252,7 @@ This action module creates a new event.
   </tr> 
   <tr> 
    <td role="rowheader">Response requested</td> 
-   <td>Select <span class="bold">Yes </span>to request the invitee to send a response to the event invitation.</td> 
+   <td>Select <strong>Yes</strong>to request the invitee to send a response to the event invitation.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Show as</td> 
@@ -259,8 +270,8 @@ This action module creates a new event.
    <td role="rowheader"> <p>Attendees</p> </td> 
    <td> <p>Add attendees of the event.</p> 
     <ul> 
-     <li> <p><span class="bold">Name </span> </p> <p>Enter the attendee's name.</p> </li> 
-     <li> <p><span class="bold">Email </span> </p> <p>Enter the attendee's email address.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the attendee's name.</p> </li> 
+     <li> <p><strong>Email</strong> </p> <p>Enter the attendee's email address.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -319,10 +330,10 @@ Updates an existing event.
    <td role="rowheader">Sensitivity </td> 
    <td> <p>Select the sensitivity of this event.</p> 
     <ul> 
-     <li><span class="bold">Normal</span> </li> 
-     <li> <p><span class="bold">Personal</span> </p> <p>The recipient sees a "Please treat this as Personal" message.</p> </li> 
-     <li> <p><span class="bold">Private </span> </p> <p>The recipient sees a "Please treat this as Private" message. This event isn't forwarded or redirected by the recipient's inbox rules.</p> </li> 
-     <li> <p><span class="bold">Confidential</span> </p> <p>The recipient sees a "Please treat this as Confidential" message. </p> </li> 
+     <li><strong>Normal</strong> </li> 
+     <li> <p><strong>Personal</strong> </p> <p>The recipient sees a "Please treat this as Personal" message.</p> </li> 
+     <li> <p><strong>Private</strong> </p> <p>The recipient sees a "Please treat this as Private" message. This event isn't forwarded or redirected by the recipient's inbox rules.</p> </li> 
+     <li> <p><strong>Confidential</strong> </p> <p>The recipient sees a "Please treat this as Confidential" message. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -339,7 +350,7 @@ Updates an existing event.
   </tr> 
   <tr> 
    <td role="rowheader">Response requested</td> 
-   <td>Select <span class="bold">Yes </span>to request the invitee to send a response to the event invitation.</td> 
+   <td>Select <strong>Yes</strong>to request the invitee to send a response to the event invitation.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Show as</td> 
@@ -357,8 +368,8 @@ Updates an existing event.
    <td role="rowheader"> <p>Attendees</p> </td> 
    <td> <p>Add attendees of the event.</p> 
     <ul> 
-     <li> <p><span class="bold">Name </span> </p> <p>Enter the attendee's name.</p> </li> 
-     <li> <p><span class="bold">Email </span> </p> <p>Enter the attendee's email address.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the attendee's name.</p> </li> 
+     <li> <p><strong>Email</strong> </p> <p>Enter the attendee's email address.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

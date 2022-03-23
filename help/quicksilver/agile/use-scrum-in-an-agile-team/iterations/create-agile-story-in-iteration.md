@@ -45,7 +45,15 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the agile iteration where you want to create the story:
 
-1. Click `New Story.`
+  1. Main Menu
+  1. 
+  1. Teams
+  1. Switch team
+  1. 
+  1. Iterations
+  1. Stories
+
+1. &nbsp;Click **New Story.**
 1. Specify the following information:  
 
    <table cellspacing="0">
@@ -62,7 +70,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">Ready:</td>
-      <td>Select this option if the story is ready to be added to an iteration. When this option is selected, it indicates&nbsp;to users which stories in the backlog are ready to be added to an iteration.<br>A story can be added to an iteration whether or not it is marked <span class="bold">Ready.</span></td>
+      <td>Select this option if the story is ready to be added to an iteration. When this option is selected, it indicates&nbsp;to users which stories in the backlog are ready to be added to an iteration.<br>A story can be added to an iteration whether or not it is marked <strong>Ready.</strong></td>
      </tr>
      <tr>
       <td role="rowheader">Estimate (points)</td>
@@ -83,5 +91,5 @@ You must have the following access to perform the steps in this article:
     </tbody>
    </table>
 
-1. Click `Save Story`.
+1. Click **Save Story**.
 

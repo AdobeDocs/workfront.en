@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Add a custom section to display the Workload Balancer
 description: The title might need to change to indicate what objects this is possible on?! - "Display the Workload Balancer in a custom section"??
+hidefromtoc: true
 ---
 
 # Add a custom section to display the Workload Balancer

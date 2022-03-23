@@ -41,3 +41,5 @@ You must have the following access to perform the steps in this article:
 
 ## View active stages on a proof
 
+1. Proofing Workflow
+

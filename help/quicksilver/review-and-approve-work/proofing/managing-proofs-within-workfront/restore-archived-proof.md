@@ -42,10 +42,10 @@ You must have the following access to perform the steps in this article:
 ## Restore an archived proof
 
 1. Go to the document that contains the archived&nbsp;proof that you want to access.
-1. Click `Open Proof`.
+1. Click **Open Proof**.
 
    A page is displayed, explaining that the proof has been archived.
 
-1. Click `Unarchive`&nbsp;to unarchive&nbsp;the proof.
-1. Refresh the browser, then click `Proof`&nbsp;again.
+1. Click **Unarchive**&nbsp;to unarchive&nbsp;the proof.
+1. Refresh the browser, then click **Proof**&nbsp;again.
 

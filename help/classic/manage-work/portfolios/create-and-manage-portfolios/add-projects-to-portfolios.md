@@ -46,9 +46,9 @@ You must have the following access to perform the steps in this article:
 
 ## Add a project to a portfolio
 
-1. Go to a portfolio and select the Projects tab.<![CDATA[ ]]>
+1. Go to a portfolio and select the **Projects**&nbsp;tab.<![CDATA[ ]]>
 
-1. Click Add Projects and select a method for adding a project. 
+1. Click**Add Projects**and select a method for adding a project. 
 
    >[!TIP]
    >
@@ -83,9 +83,9 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. (Conditional) If you selected to add an existing project, start typing the name of a project in the `Add Projects` box, then click them when they appear in the list. You may add several projects at a time.
+1. (Conditional) If you selected to add an existing project, start typing the name of a project in the **Add Projects** box, then click them when they appear in the list. You may add several projects at a time.
 
-1. Click `Add Projects`.
+1. Click **Add Projects**.
 
    The project or projects you selected are now associated with the portfolio.&nbsp;
 

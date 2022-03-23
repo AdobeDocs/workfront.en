@@ -33,12 +33,12 @@ You must have the following to perform the steps in this article:
 
 ## View the number of licenses used in a group
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group.
-1. On the page that displays, in the header area near the upper-right corner, view the `Licenses in use` area to see the number of `Plan` and `Work` licenses currently being used.
+1. On the page that displays, in the header area near the upper-right corner, view the **Licenses in use** area to see the number of **Plan** and **Work** licenses currently being used.
 
    If you are viewing a top-level group and the Workfront administrator defined a maximum number of each license type for the group, these numbers are also displayed. For example, in the group below, a maximum of 10 users can have a Plan license and a 15 can have a Work license:
 
@@ -54,7 +54,7 @@ You must have the following to perform the steps in this article:
    >![](assets/subgroup-used-licenses-only-350x210.png)   >
    >
 
-1. For separate counts of each type of license currently used in the group (including Review and Request), click the text area directly below `Licenses in use:`
+1. For separate counts of each type of license currently used in the group (including Review and Request), click the text area directly below **Licenses in use:**
 
    ![](assets/click-text-to-see-more-350x208.png)
 

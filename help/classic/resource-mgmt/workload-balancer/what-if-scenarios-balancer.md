@@ -4,6 +4,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Perform 'what-if' scenarios in the Workload Balancer
 description: This is a long-term goal; functionality not mapped yet. This is a placeholder for now.
+hidefromtoc: true
 ---
 
 # Perform 'what-if' scenarios in the Workload Balancer

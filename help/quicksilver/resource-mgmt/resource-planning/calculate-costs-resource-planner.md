@@ -8,7 +8,7 @@ description: You can budget your resources in the Resource Planner by using Cost
 
 # Calculate costs in the Resource Planner
 
-You can budget your resources in the Resource Planner by using Cost values, instead of Hours or FTE values. Cost values are not available for the `View by User` view in the Resource Planner.
+You can budget your resources in the Resource Planner by using Cost values, instead of Hours or FTE values. Cost values are not available for the**View by User** view in the Resource Planner.
 
 >[!IMPORTANT]
 >
@@ -49,7 +49,7 @@ You must have the following:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
-You can budget resources only when you view the Resource Planner in the View by Project or View by Role views. You cannot budget resources when viewing the Resource Planner in the View by User view.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can budget resources only when you view the Resource Planner in the <strong>View by Project</strong> or <strong>View by Role</strong> views. <br>You cannot budget resources when viewing the Resource Planner in the <strong>View by User</strong> view.</p>
 -->
 
 ## Display information in the Resource Planner by Cost
@@ -58,15 +58,15 @@ By default, the availability and allocation information is displayed in Hours in
 
 To display Available, Planned, and Budgeted information by Cost in the Resource Planner:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Resourcing. 
+1. Click **Resourcing**. 
 1. Go to the . 
-1. (Conditional) Select `View by Project` or `View by Role`.  
-   By default `View by Project` is selected.  
+1. (Conditional) Select **View by Project** or **View by Role**.  
+   By default **View by Project** is selected.  
    The allocation and availability information displays in Hours.
 
-1. From the `Hours` drop-down menu, select `Cost`.
+1. From the **Hours** drop-down menu, select **Cost**.
 
    If you do not have access to Financial Data in your access level, this option is not available.  
    If projects have a different currency than the system currency the Cost for these projects displays in the Resource Planner converted in the currency of the system. Your system administrator defines the system currency.  
@@ -90,8 +90,8 @@ The following table illustrates how Available Cost is calculated in the Resource
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Available Cost</span> </th> 
-   <th><span class="bold">Calculation</span> </th> 
+   <th><strong>Available Cost</strong> </th> 
+   <th><strong>Calculation</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -122,7 +122,7 @@ Although you cannot view task information in the Resource Planner, the Planned C
   * A Team  
     A task assigned to a Team is considered unassigned, from the perspective of the Resource Planner.
 
-* The `Cost Type` of the tasks on the project.  
+* The **Cost Type** of the tasks on the project.  
   For more information about the Cost Type of a task, see [Track costs](../../manage-work/projects/project-finances/track-costs.md).
 
 This following table illustrates how Planned Cost is calculated in the Resource Planner, depending on the Cost Type of the tasks on the project: 
@@ -138,19 +138,19 @@ This following table illustrates how Planned Cost is calculated in the Resource 
  <tbody> 
   <tr> 
    <td rowspan="2"> </td> 
-   <td colspan="3"> <p><span class="bold">Cost Type = User Hourly</span> </p><span class="bold">User Planned Cost</span> </td> 
-   <td colspan="3"> <p><span class="bold">Cost Type = Role Hourly</span> </p><span class="bold">Role Planned Cost</span> </td> 
+   <td colspan="3"> <p><strong>Cost Type = User Hourly</strong> </p><strong>User Planned Cost</strong> </td> 
+   <td colspan="3"> <p><strong>Cost Type = Role Hourly</strong> </p><strong>Role Planned Cost</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">No Assignment</span> </p> </td> 
-   <td> <p><span class="bold">User <br>Assignment</span> </p> </td> 
-   <td> <p><span class="bold">Job Role Assignment</span> </p> </td> 
-   <td> <p><span class="bold">No Assignment</span> </p> </td> 
-   <td> <p><span class="bold">User Assignment</span> </p> </td> 
-   <td> <p><span class="bold">Job Role Assignment</span> </p> </td> 
+   <td> <p><strong>No Assignment</strong> </p> </td> 
+   <td> <p><strong>User Assignment</strong> </p> </td> 
+   <td> <p><strong>Job Role Assignment</strong> </p> </td> 
+   <td> <p><strong>No Assignment</strong> </p> </td> 
+   <td> <p><strong>User Assignment</strong> </p> </td> 
+   <td> <p><strong>Job Role Assignment</strong> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">User and Role Planned Cost</span> </p> <p> </p> </td> 
+   <td> <p><strong>User and Role Planned Cost</strong> </p> <p> </p> </td> 
    <td> <p>The Role and User Planned Costs are $0.00.</p> </td> 
    <td> <p> The User Planned Cost is calculated using the following formula: </p> <p><code> User Planned Cost Rate = User Planned Hours * User Cost per Hour Rate </code> </p> <p> If a user has a cost rate in their profile, then that rate is used to calculate Planned Cost. Otherwise, the system-level Cost per Hour rate of their Primary Role is used. <br><p>Note:  The user can be assigned to the task with one of their secondary job roles, but the rate of the primary job role is used here instead.</p></p> <p> The Role Planned Cost is calculated using the following formula: </p> <p><code>Role Planned Cost = SUM(User Planned Cost)</code> </p> </td> 
    <td> <p> The User Planned Cost is $0.00. </p> <p> The Role Planned Cost is calculated using the following formula: </p> <p><code> Role Planned Cost = Role Planned Hours * Role Cost per Hours </code> </p> <p> The system-level Cost per Hour rate of the job role assigned to the task is used to calculate Planned Cost. </p> </td> 
@@ -159,7 +159,7 @@ This following table illustrates how Planned Cost is calculated in the Resource 
    <td> <p> The User Planned Cost is $0.00. </p> <p> The Role Planned Cost is calculated by the following formula: </p> <p><code>Role Planned Cost = Role Planned Hours * Role Cost per Hours</code> </p> <p>Workfront looks at the job role that the user fulfills on the task to calculate the Planned Cost for the role. </p> <p> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td rowspan="2"> <p><span class="bold">Project Planned Cost</span> </p> <p> </p> </td> 
+   <td rowspan="2"> <p><strong>Project Planned Cost</strong> </p> <p> </p> </td> 
    <td> <p>The Project Planned Cost is $0.00.</p> </td> 
    <td> <p>The Project Planned Cost is $0.00.</p> </td> 
    <td> <p>The Project Planned Cost is $0.00.</p> </td> 
@@ -190,8 +190,8 @@ The following table illustrates how Budgeted Cost is calculated in the Resource 
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Budgeted Cost</span> </th> 
-   <th><span class="bold">Calculation</span> </th> 
+   <th><strong>Budgeted Cost</strong> </th> 
+   <th><strong>Calculation</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

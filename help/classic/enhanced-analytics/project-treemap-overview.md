@@ -17,15 +17,15 @@ The boxes in the Project treemap visualization represent projects and the size o
 
 The Project treemap visualization is comprised of:
 
-* `Smaller, light blue boxes`: Projects that have fewer hours—or days—display as smaller boxes with a light blue color.
+* **Smaller, light blue boxes**: Projects that have fewer hours—or days—display as smaller boxes with a light blue color.
 
   ![](assets/project-treemap-smaller-box.png)
 
-* `Larger, dark blue boxes`: Projects that have more hours—or days—display as larger boxes with a dark blue color.
+* **Larger, dark blue boxes**: Projects that have more hours—or days—display as larger boxes with a dark blue color.
 
   ![](assets/project-treemap-larger-box-350x205.png)
 
-* `Medium-sized, blue boxes`: Projects that fall in between the two categories display as medium-sized boxes with a shade of blue between the dark blue and light blue colors. There are 3 possible shades of blue for the medium-sized boxes.
+* **Medium-sized, blue boxes**: Projects that fall in between the two categories display as medium-sized boxes with a shade of blue between the dark blue and light blue colors. There are 3 possible shades of blue for the medium-sized boxes.
 
 The legend on the right side shows a breakdown of completed hours for each shade of blue. This legend is dynamic and updates according to the data.
 
@@ -80,7 +80,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Project treemap visualization
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -95,10 +95,10 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu in the upper-right corner of the Project treemap visualization, then select a new sorting option:
 
-  * `A - Z` 
-  * `Z - A` 
-  * `Planned completion date` 
-  * `Planned start date`
+   * **A - Z** 
+   * **Z - A** 
+   * **Planned completion date** 
+   * **Planned start date**
 
    All other visualizations on the page update to match your sorting selection.
 
@@ -120,12 +120,12 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >
    >If you selected the **duration** view, you'll see the following duration details:
    >
-   >  
-   >  
-   >  * **Planned Timeframe**: The number of days planned to complete the project.
-   >  * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
-   >  
-   >  
+   >   
+   >   
+   >   * **Planned Timeframe**: The number of days planned to complete the project.
+   >   * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
+   >   
+   >   
    >![](assets/duration-treemap-350x159.png)   >
    >
 
@@ -135,8 +135,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 1. Click a project to open the Burndown and Tasks in flight visualizations to gain a deeper insight of how tasks and hours—or days—contributed to the size of a project.
 

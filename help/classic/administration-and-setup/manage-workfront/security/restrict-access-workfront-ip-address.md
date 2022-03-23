@@ -46,10 +46,10 @@ Also, if your organization uses the Enterprise plan, you can configure the Workf
 
 After you add IP addresses to the Workfront allowlist, only those IP addresses can be used to access Workfront. Users who try to access Workfront from another IP address receive an error message indicating that their IP address is blocked.
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `System` > `Customer Info.`
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **System** > **Customer Info.**
 
-1. In the `IP allowlist` section, select `Enable IP allowlist.`
+1. In the **IP allowlist** section, select **Enable IP allowlist.**
 
    This option is disabled by default.
 
@@ -61,10 +61,10 @@ After you add IP addresses to the Workfront allowlist, only those IP addresses c
 
    The IP address you are using to access Workfront must be added to the allowlist before the allowlist is enabled.
 
-1. Click `Add IP Range,` then specify the IP address or range of IP addresses that you want to be able to access Workfront.
+1. Click **Add IP Range,** then specify the IP address or range of IP addresses that you want to be able to access Workfront.
 1. (Optional) Repeat the previous step to add additional IP addresses or IP address ranges.
 
    You can add up to 30 addresses or ranges.
 
-1. Click `Save.`
+1. Click **Save.**
 

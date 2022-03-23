@@ -50,10 +50,14 @@ You must have the following access to perform the actions described in this arti
 
 1. Go to the object where you want to change the order of the added custom forms, ,then start to edit the object.
 
-   ` `**Example: **``For example, to manage the custom forms of a project, go to the project, click the More menu , then click Edit.
+   ``` ```**Example: **``````For example, to manage the custom forms of a project, go to the project,  click the **More** menu ![](assets/more-icon.png), then click **Edit**.
 
-1. In the Custom Forms section for projects, tasks, and issues, click the icon next to the name of a custom form. For all other objects, click Manage Forms. This option displays only if at least one custom form is attached to the object. 
+1. In the **Custom Forms** section for projects, ```tasks, and issues```, click the ![](assets/move-icon---dots.png) icon next to the name of a custom form. For all other objects, click **Manage Forms**. This option displays only if at least one custom form is attached to the object. 
+
 1. Drag a form ![](assets/move-icon---dots.png) to a new location in the list.
+1. For projects, ```tasks, and issues``` custom forms, click **Save**.
+
+1. For all other objects, click **I'm done managing** >&nbsp;**Save Changes**.
 
 ## Remove a custom form from an object
 
@@ -63,11 +67,12 @@ You must have the following access to perform the actions described in this arti
 
 1. Go to the object where you want to remove&nbsp;the custom form and start editing the object.
 
-   For example, go to a project, click the More menu , then click Edit.
+   For example, go to a project,  click the **More** menu ![](assets/more-icon.png), then click **Edit**.
 
-1. Click `Custom Forms`.
-1. For projects, tasks, and issues custom forms, click the X icon to the right of a form to remove it from the object. For all other objects, click Manage Forms, then click the X icon to the right of a form to remove it from the object. 
-1. Click `Save`.
+1. Click **Custom Forms**.
+1. For projects, ```tasks, and issues``` custom forms, click the **X**&nbsp;icon to the right of a form to remove it from the object.  For all other objects, click **Manage Forms**, then click the **X** icon to the right of a form to remove it from the object.  
+
+1. Click **Save**.
 
 ## Manage multiple custom forms that contain the same custom fields
 
@@ -87,8 +92,8 @@ Only the custom forms that are attached to all objects can be edited in a bulk e
 
 To edit multiple custom forms when editing objects in bulk:
 
-1. In a list objects, select the objects where the custom forms are attached, then click the Edit icon.
-1. Click `Custom Forms`.
+1. In a list objects, select the objects where the custom forms are attached, then click the Edit icon ![](assets/edit-icon.png).
+1. Click **Custom Forms**.
 
    You can edit only the custom forms attached to all of the selected objects.
 
@@ -98,39 +103,39 @@ To edit multiple custom forms when editing objects in bulk:
 
    If a field is included on more than one custom form, all values of those fields are updated on each form when you update the field.
 
-1. Click the `Make a selection` drop-down menu and select&nbsp;additional forms to add to all the selected objects.
+1. Click&nbsp;the **Make a selection** drop-down menu and select&nbsp;additional forms to add to all the selected objects.
 
    Consider the following when applying additional forms:
 
   * Objects can have up to 10 custom forms.
   * You can apply forms only when the form is not&nbsp;already applied to any of the objects that you are editing. A form that is already attached to one of the objects does not appear in the drop-down menu.
-  * After you apply an additional form, any fields that form has in common with other forms are displayed in the `Common Fields` section, and they can be edited.
+  * After you apply an additional form, any fields that form has in common with other forms are displayed in the **Common Fields** section, and they can be edited.
 
 1. (Optional) If you added custom forms to all the objects, but you have not saved the objects yet, you can change the order in which the custom forms appear on the objects.
 
    For more information about changing the order of the forms, see [Reorder multiple custom forms attached to an object](#reorder) in this article.
 
-1. Click `Remove Form` to remove a custom form from the objects.
+1. Click **Remove Form** to remove a custom form from the objects.
 
    For more information about removing custom forms from objects, see [Remove a custom form from an object](#removing-a-custom-form-from-an-object).
 
    Consider the following when removing forms in bulk from several objects:
 
   * If you have made changes to the form, removing it results in your changes being lost and they cannot be recovered.
-  * After you remove a form, any fields from that form that were in the `Common Fields` section are removed from this section and can no longer be edited here.
+  * After you remove a form, any fields from that form that were in the **Common Fields** section are removed from this section and can no longer be edited here.
 
-1. Click  `Restore Form` to restore the form to the state it was in before you edited the objects.
+1. Click&nbsp;**Restore Form** to restore the form to the state it was in before you edited the objects.
 1. (Optional) Click the collapse arrow next to the name of the form to collapse one form at a time.
 
    Or
 
-   Click `Collapse Forms` to collapse all forms at the same time.
+   Click **Collapse Forms** to collapse all forms at the same time.
 
 1. (Optional) Click the expand arrow next to the name of the form to expand one form at a time.
 
    Or
 
-   Click `Expand Forms`to expand all forms at the same time.&nbsp;
+   Click **Expand Forms**to expand all forms at the same time.&nbsp;
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

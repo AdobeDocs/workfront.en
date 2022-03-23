@@ -39,21 +39,22 @@ You must have the following access to perform the steps in this article:
 
 ## Modify the email notification settings of multiple users in bulk
 
-1. Go to the People tab in the People area, select the users, then click Edit. 
-1. In theEdit People box that appears, click `Notifications`.
+1. Go to the **People** tab in the **People** area, select the users, then click **Edit**. 
+1. In the**Edit People** box that appears, click **Notifications**.
+
 1. Expand a category to view notification settings related to that category.
 
    If there is at least one user selected where the notifications do not match the notifications of the other selected users, the category check box for that notification contains a horizontal line ![](assets/straight-line-instead-of-checkmark.jpg) instead of a check mark.
 
 1. Click any notifications that you want the users to receive either daily or instantly, or clear any that you want them to stop receiving.
 
-   For the `Communication` category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.
+   For the **Communication** category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.
 
-   When you modify a notification setting, the label `Edited` appears for that notification setting, to let you know that that notification setting has been modified.
+   When you modify a notification setting, the label **Edited** appears for that notification setting, to let you know that that notification setting has been modified.
 
-1. If you selected notifications to be sent as a daily digest, select the time of the day you want the digest delivered at the top of the `Notifications` section in the `Email Daily Digest after` menu.
+1. If you selected notifications to be sent as a daily digest, select the time of the day you want the digest delivered at the top of the **Notifications** section in the **Email Daily Digest after** menu.
 
-   After you select a delivery time, the `Email Daily Digest after` box displays with an orange frame to indicate that the time of the delivery has been edited.
+   After you select a delivery time, the **Email Daily Digest after** box displays with an orange frame to indicate that the time of the delivery has been edited.
 
    The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. Users receive one daily digest email for each notification type.
 

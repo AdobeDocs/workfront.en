@@ -10,7 +10,7 @@ description: As an group administrator of a subgroup, you can create, move, view
 
 # Manage a subgroup
 
-As an group administrator of a subgroup, you can create, move,view, edit, copy, rename, export, and delete the subgroup.
+As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup.
 
 You can also make a subgroup a top-level group by removing it from its parent group.
 
@@ -39,13 +39,16 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
-## Create, move,view, edit, copy, rename, export, or delete a subgroup
+## Create, move, view, edit, copy, rename, export, or delete a subgroup
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
+
+1. Click the name of the group that contains the subgroup you want to work on.
+1. In the left menu, click **Subgroups**.
 
 1. Do any of the following:
 
@@ -55,11 +58,21 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Create a new subgroup</td> 
-      <td> If you want to create the new subgroup one level down from the group you are viewing, click Add subgroup. Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click Add subgroup. <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
-     </tr> Move a subgroup You can move existing subgroups under another group you administer. A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups. (Optional) Select a subgroup to make it the destination group. If you skip this step, the group you selected in step 3 is the destination group. Click Add Subgroup &gt; Existing Group. In the Existing Group box that appears, start typing the name of a subgroup you want to move. The results that display do not contain groups above the destination group. You can make sure you are selecting the right group by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. Click the name of the subgroup you want to move when you see it display in the list. Repeat Steps c-d for any other subgroups you want to move to the destination group Click Save. 
+      <td> If you want to create the new subgroup one level down from the group you are viewing, click <strong>Add subgroup</strong>. Or, if you want to create the new subgroup beneath another subgroup in the list, select that subgroup, then click <strong>Add s</strong><strong>ubgroup</strong>. <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
+     </tr>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Move a subgroup </td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>You can move existing subgroups under another group you administer.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> 
+      <ol> 
+       <li value="1"> <p>(Optional) Select a subgroup to make it the destination group.</p> <p>If you skip this step, the group you selected in step 3 is the destination group.</p> </li> 
+       <li value="2">Click <strong>Add Subgroup</strong> &gt; <strong>Existing Group</strong>.</li> 
+       <li value="3"> <p>In the <strong>Existing Group</strong> box that appears, start typing the name of a subgroup you want to move.</p> <p>The results that display do not contain groups above the destination group.</p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> </li> 
+       <li value="4"> <p>Click the name of the subgroup you want to move when you see it display in the list.</p> </li> 
+       <li value="5"> <p>Repeat Steps c-d for any other subgroups you want to move to the destination group</p> </li> 
+       <li value="6">Click <strong>Save</strong>.</li> 
+      </ol> </td>  
      <tr> 
       <td role="rowheader">Edit a subgroup</td> 
-      <td> <p>Select the subgroup you want to edit, then click the Edit icon.</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.</p> </td> 
+      <td> <p>Select the subgroup you want to edit, then click the Edit icon .</p> <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md" class="MCXref xref">Create a group</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export one or more subgroups</td> 
@@ -73,7 +86,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Copy a subgroup to create a new top-level group</td> 
       <td> <p>(Available only for Workfront administrators.) When you copy a subgroup, it becomes a parent group. All group members and subgroups are copied with it. The groups members retain any assignments they had in the original group.</p> <p>For more information about copying a subgroup, see <a href="#copying" class="MCXref xref">About copying a subgroup</a> in this article.</p> 
        <ol> 
-        <li value="1">Select a subgroup, then click the Copy icon to create a new top-level group based on the selected group.</li> 
+        <li value="1">Select a subgroup, then click the Copy icon <img src="assets/copy-icon.png"> to create a new top-level group based on the selected group.</li> 
         <li value="2"> <p>Configure the new group’s settings.</p> <p>For help with these settings, see the table in the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -81,15 +94,15 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Delete a subgroup</td> 
       <td> <p>Important: When you delete a group or subgroup, you need to preserve the users, work items, and any subgroups that are currently assigned to it. To help you make sure they are preserved, a prompt requires you to reassign the group’s objects to a different group in the step below.</p> 
        <ol> 
-        <li value="1">Select the subgroup, then click the Delete icon.</li> 
-        <li value="2">In the <span class="bold">Delete Group</span> box that appears, starting typing and then select the name of the group where you want to move the members, work items, and subgroups of the group you are deleting.</li> 
-        <li value="3">Click <span class="bold">Delete Them</span>.</li> 
+        <li value="1">Select the subgroup, then click the Delete icon <img src="assets/delete.png">.</li> 
+        <li value="2">In the <strong>Delete Group</strong> box that appears, starting typing and then select the name of the group where you want to move the members, work items, and subgroups of the group you are deleting.</li> 
+        <li value="3">Click <strong>Delete Them</strong>.</li> 
        </ol> </td> 
      </tr> 
     </tbody> 
    </table>
 
-` `**Tip: **`` When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
+``` ```**Tip: **`````` When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
 
 For example, imagine that you manage a large Marketing department and you want a list of all of the projects that the entire department is working on.
 
@@ -104,17 +117,26 @@ You can also use the Top Parent Name field to identify data associated with a to
 ## Remove a subgroup from its parent group and make it a top-level group
 
 You can make a subgroup a top-level group by removing it from its parent group.
-Tip: When you deactivate a group that has subgroups below it, those subgroups also become inactive. If you want one of them to be active, you can use these instructions to remove it from its parent group, then reactivate it. For instructions on deactivating and reactivating groups, see the sections View and manage a group’s details and Inactive groups in the article View and manage a group’s details.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+<!--
+<span class="autonumber"><span><b>Tip: </b></span></span>
+<div class="preview">
+<p>When you deactivate a group that has subgroups below it, those subgroups also become inactive. If you want one of them to be active, you can use these instructions to remove it from its parent group, then reactivate it.</p>
+<p>For instructions on deactivating and reactivating groups, see the sections <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view" class="MCXref xref">View and manage a group’s details</a> and <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive" class="MCXref xref">Inactive groups</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md" class="MCXref xref">View and manage a group’s details</a>.</p>
+</div>
+-->
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Select the parent group of the group you want to make a top-level group, then click the Edit icon. 
-1. In the `Edit Group` box that appears, under `Group Members and Group Administrators`, start typing the name of the subgroup that you want to make a top-level group, then click the X to the right of its name it when it appears.
-1. Click `Save`.
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-View and manage a group’s subgroup members When you are viewing the main page of a group you administer, you can view and manage all of the users in the group’s subgroups. For instructions, see View and manage subgroup members. 
+1. Select the parent group of the group you want to make a top-level group, then click the Edit icon ![](assets/edit-icon.png). 
+1. In the **Edit Group** box that appears, under **Group Members and Group Administrators**, start typing the name of the subgroup that you want to make a top-level group, then click the X to the right of its name it when it appears.
+1. Click **Save**.
+
+## View and manage a group’s subgroup members
+
+When you are viewing the main page of a group you administer, you can view and manage all of the users in the group’s subgroups. For instructions, see [View and manage subgroup members](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md).
 
 ## About copying a subgroup
 

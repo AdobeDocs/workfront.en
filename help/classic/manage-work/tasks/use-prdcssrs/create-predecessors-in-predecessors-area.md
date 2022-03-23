@@ -16,7 +16,7 @@ For information about setting predecessors in a list of tasks, see [Create a pre
 
 You can view the predecessors of tasks in the following areas of Adobe Workfront:
 
-* In the Predecessors tabof the dependent tasks
+* In the Predecessors tab of the dependent tasks
 * In the Gantt Chart
 * In the task list in the Predecessors column
 
@@ -53,22 +53,29 @@ You must have the following access to perform the steps in this article:
 
 ## Create a predecessor for a task
 
-1. Go to a task that you want to designate as a dependent task, then select the Predecessors tab. You might need to click More first, then select the Predecessors tab.  
-1. Click `+Add Predecessor`. 
-1. (Optional) To add a cross-project predecessor, click the Cross-Project Predecessor sub-tab, then Add Predecessor. For information about adding cross-project predecessors, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+1. Go to a task that you want to designate as a dependent task, then select the **Predecessors** tab.  You might need to click **More** first, then select the **Predecessors** tab.  ![more_predecessor_tab.png](assets/more-predecessor-tab-350x122.png)
+
+1. Click **+Add Predecessor**. 
+
+   ![Add_predecessor_button.png](assets/add-predecessor-button-350x206.png)
+
+1. (Optional) To add a cross-project predecessor, click the **Cross-Project Predecessor** sub-tab, then **Add Predecessor**. For information about adding cross-project predecessors, see [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md).
+
 1. Type in the name of the task or tasks that you want to designate as the predecessors.
 
-1. Select a `Dependency Type`.
+1. Select a **Dependency Type**.
 
    For information about task Dependency Types, see a [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Specify a `Lag` amount in days.
+1. Specify a **Lag** amount in days.
 
    For information about Lag Types, see ​ [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-1. Select `Enforced` if you want to enforce the predecessor relationship between the two tasks.
+1. Select **Enforced** if you want to enforce the predecessor relationship between the two tasks.
 
    For information about enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
-1. Click `Save`.
+1. Click **Save**. 
+
+   ![predecessors_tab.png](assets/predecessors-tab-350x54.png)
 

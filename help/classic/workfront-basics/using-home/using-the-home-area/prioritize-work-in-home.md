@@ -45,15 +45,16 @@ You must have the following access to perform the steps in this article:
 
 You can add any item assigned to you in your Work List to&nbsp;My Priority. New items are added at the bottom of the list.
 
-1. Click Home in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see Try the Home area. 
-1. In the left panel, ensure the Sort by drop-down menu is sorting by one of the following options:
+1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
 
-  * Planned Completion
-  * Commit Date
-  * Project
+1. In the left panel, ensure the **Sort by** drop-down menu is sorting by one of the following options:
 
-1. Hover over a work item, and click on the `More` icon.
-1. Select `Add to My Priority`.
+   * Planned Completion
+   * Commit Date
+   * Project
+
+1. Hover over a work item, and click on the **More** icon.
+1. Select**Add to My Priority**.
 
    &nbsp;
 
@@ -63,14 +64,19 @@ You can prioritize your&nbsp;work in My Priority, placing the most important ite
 
 You must add work items to My Priority before you can begin prioritizing. For more information, see [Add items to My Priority](#adding-items) in this article.
 
-1. Click Home in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see Try the Home area. 
-1. In the left panel, click the Sort by drop-down menu, then select `My Priority`.
+1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+
+1. In the left panel, click the **Sort by** drop-down menu, then select **My Priority**.
+
 1. Select a work item and drag and drop it in the right place to prioritize&nbsp;it in your list.
+
+   ![](assets/prioritizing-work-drag-and-drop-350x288.png)
 
 ## Remove items from My Priority
 
 You can remove items from My Priority by completing the work item or manually removing it using the More icon. If you are unassigned from a work item, it is also removed from My Priority.
 
-1. Click Home in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see Try the Home area. 
-1. In the left panel, click the `More` icon, then select `Remove from My Priority`.
+1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+
+1. In the left panel, click the **More** icon, then select **Remove from My Priority**.
 

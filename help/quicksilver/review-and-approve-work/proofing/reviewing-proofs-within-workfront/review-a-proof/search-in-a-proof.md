@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
 ## Search content within a proof
 
 1. Open&nbsp;the proof that you want to search.
-1. In the toolbar above the proof, click the  `Search document`&nbsp;icon.
+1. In the toolbar above the proof, click the&nbsp;**Search document**&nbsp;icon.
 
    ![](assets/search-document-icon-search-in-proof-350x129.png)
 
@@ -60,5 +60,5 @@ You must have the following access to perform the steps in this article:
 
    ![Search_text_highlighted_as_you_type.png](assets/search-text-highlighted-as-you-type-350x214.png)
 
-1. Finish typing the text you want to search for, then click the  `Up` and  `Down`&nbsp;arrows to scan through the search results within the proof.
+1. Finish typing the text you want to search for, then click the&nbsp;**Up**&nbsp;and&nbsp;**Down**&nbsp;arrows to scan through the search results within the proof.
 

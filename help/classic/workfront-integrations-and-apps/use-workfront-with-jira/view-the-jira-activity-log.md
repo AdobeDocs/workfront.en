@@ -54,20 +54,20 @@ Before you can link items between Workfront and Jira, you must
 ## Access the Jira Activity Log:&nbsp;
 
 1. Log into Jira as a system administrator.
-1. Click `Settings` in the main Jira menu.
-1. Click `Add-ons`, then `Manage add-ons`.
+1. Click **Settings** in the main Jira menu.
+1. Click **Add-ons**, then **Manage add-ons**.
 
-1. Expand the `Workfront` add-on.
-1. Click `Configure`.
+1. Expand the **Workfront** add-on.
+1. Click **Configure**.
 1. Log in to Workfront as a system administrator.
-1. Select the `Activity Log`&nbsp;tab.
+1. Select the **Activity Log**&nbsp;tab.
 
    View information about exceptions and errors that occurred during the creation of items or&nbsp;synchronization of fields between the two applications.
 
    The log includes the following fields:
 
-  * Date of the occurrence
-  * The name of the user in Jira
-  * Jira issue number
-  * A brief description of the error that occurred.
+   * Date of the occurrence
+   * The name of the user in Jira
+   * Jira issue number
+   * A brief description of the error that occurred.
 

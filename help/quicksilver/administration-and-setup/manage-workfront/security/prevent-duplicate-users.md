@@ -36,7 +36,7 @@ You must have the following to perform the steps in this article:
 
 ## Walkthrough
 
-`<iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/371505632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/371505632/2e6938ce06)
 
@@ -52,25 +52,29 @@ To fix duplicate email addresses within a Workfront instance:
 
 1. &nbsp;Examine any duplicate users and decide which user is no longer needed.
 
-  1. In the `Filter` menu, select `All`.
+  1. Main Menu
+  1. 
+  1. Users
+  1. 
+  1. In the **Filter** menu, select **All**.
   
-  1. In the `View` menu, select `User Login`.
+  1. In the **View** menu, select **User Login**.
   
-  1. In the `Grouping` menu, select `Nothing`.
+  1. In the **Grouping** menu, select **Nothing**.
   
   1. Customize the User Login view.
 
-    1. Click `View` >  `Customize View`.
+    1. Click **View** >&nbsp;**Customize View**.
     
-    1. Replace the `ID` column with the `Email Address` column.
+    1. Replace the **ID**&nbsp;column with the **Email Address** column.
     
     1. Rename the View and save it.
 
   1. Create a new Grouping.
 
-    1. Click `Grouping` >  `New Grouping`.
+    1. Click **Grouping** >&nbsp;**New Grouping**.
     
-    1. Click `Switch to Text Mode` in the upper-right corner of the page.
+    1. Click **Switch to Text Mode** in the upper-right corner of the page.
     1. Paste the following Text Mode code:
 
      <pre>group.0.linkedname=direct</pre><pre>group.0.namekey=emailAddr</pre><pre>group.0.valueexpression=LOWER({emailAddr})</pre><pre>group.0.valueformat=string</pre><pre>textmode=true</pre>

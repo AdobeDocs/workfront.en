@@ -39,20 +39,21 @@ You must have the following to perform the steps in this article:
 
 ## Solution
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Setup > Custom Forms > Fields> apply the Field List view to find the Calculated Field you are trying to modify and make note of every Custom Form on which it is used (e.g. Form 1, Form 2, Form 3) . 
-1. Click  `Forms`, then apply the `Form List` view. 
-1. Click the `Filter` drop-down list, then `New Filter`. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup** > **Custom Forms** > **Fields**> apply the **Field List** view to find the Calculated Field you are trying to modify and make note of every Custom Form on which it is used (e.g. Form 1, Form 2, Form 3) .  
+1. Click&nbsp;**Forms**, then apply the **Form List** view. 
+1. Click the **Filter** drop-down list, then **New Filter**. 
 
-1. Click  `Add a Filter Rule`, then start typing "Custom&nbsp;Form Name" and select this value when it displays in the list. 
-1. Select `Equal` for your filter modifier, then start typing the name of each form you made a note of in Step 1, then select it when it displays in the list. For example, Custom Form Name Equals Form 1,&nbsp;Form 2,&nbsp;Form 3. 
-1. Click  `Save Filter`, then name the new filter, and click  `Save Filter`. 
+1. Click&nbsp;**Add a Filter Rule**, then start typing "Custom&nbsp;Form Name" and select this value when it displays in the list. 
+1. Select **Equal** for your filter modifier, then start typing the name of each form you made a note of in Step 1, then select it when it displays in the list. For example, Custom Form Name Equals Form 1,&nbsp;Form 2,&nbsp;Form 3. 
+1. Click&nbsp;**Save Filter**, then name the new filter, and click&nbsp;**Save Filter**. 
 
-1. In the list of forms, make note of the object type of the filter which displays in the `Type` column. For example, "Issue."
+1. In the list of forms, make note of the object type of the filter which displays in the **Type** column. For example, "Issue."
 1. On each Custom Form you found in Step 1, create a new Checkbox custom field with a single default value of Yes. For example, Field 1 on Form 1 = Yes, Field 2 on Form 2 = Yes, Field 3 on Form 3 = Yes. This means "The Calculated Custom&nbsp;Field exists on Form 1," or "The Calculated Custom Field exists on Form 2," etc. 
-1. Click the Search icon in the upper-right corner of the screen, then click Advanced Search. 
-1. Click the object of your custom form (for example, Issue), then click  `Filter your results`, then click `Add a filter`. 
-1. Start typing the name of a Checkbox field in the `Start typing field name ...` and click it when it displays in the list, then select `Equal` and type "Yes" (without quotation marks) in the following box. For example: Field 1 Equal (Case Sensitive)&nbsp;Yes. 
-1. Click `Add a Filter` and add all Checkbox fields to your Advanced&nbsp;Search.
+1. Click the **Search icon** ![](assets/search-icon.png) in the upper-right corner of the screen, then click&nbsp;**Advanced Search**.  
+
+1. Click the object of your custom form (for example, Issue), then click&nbsp;**Filter your results**, then click **Add a filter**. 
+1. Start typing the name of a Checkbox field in the **Start typing field name ...** and click it when it displays in the list, then select **Equal** and type "Yes" (without quotation marks) in the following box. For example: Field 1 Equal (Case Sensitive)&nbsp;Yes. 
+1. Click **Add a Filter** and add all Checkbox fields to your Advanced&nbsp;Search.
 
    Look for every possible combination. For example, build several filters with these combinations, as listed below. Only in one situation you should actually find objects with multiple forms containing the same calculated fields attached.&nbsp;For example, you may find the following scenarios:
 

@@ -62,13 +62,13 @@ When you delete a group or subgroup, you reassign the information associated wit
 
 If one of the deleted group’s statuses was also being used by the destination group (the status in both groups has the same key), and the destination group customized the status in different ways, the settings of the destination group’s version override the settings of the moved group’s version.
 
-` `**Example: **`` The group administrator of Group A renames an unlocked system-level status for her group. The group administrator of a Group B also renames that status for his group. Though the status has different names in the two groups, it has the same key.
+``` ```**Example: **`````` The group administrator of Group A renames an unlocked system-level status for her group. The group administrator of a Group B also renames that status for his group. Though the status has different names in the two groups, it has the same key.
 
 Later, Group A is deleted and all of its information is reassigned to Group B.
 
 * The name of Group B version of the status overrides the name of the Group A version.
 * If the status was applied to an object by someone in Group A before that group was deleted, the status name on the object updates to the name for the status used by Group B.
 
-For information about the key for a status, see the table in this article under Create a custom statusCreate or edit a status for a group.
+For information about the key for a status, see the table in this article under [Create a custom status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md#create) [Create or edit a status for a group](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md#create).
 
 For information about deleting a group, see [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).

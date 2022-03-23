@@ -46,10 +46,11 @@ You must have the following access to perform the steps in this article:
 ## Add a Leveling Delay to a task
 
 1. Go to a task for which you want to add a Leveling Delay.
-1. Click the More icon to the right of the task name, then click Edit. 
-1. Click `Settings`.
+1. Click the **More icon** to the right of the task name, then click **Edit**.  
 
-1. Specify the `Leveling Delay`, in hours, then choose a unit of time.  
+1. Click **Settings**.
+
+1. Specify the **Leveling Delay**, in hours, then choose a unit of time.  
    This is the time that the resource will be delayed starting the task due to resource conflicts.
 
    Select from the following options for units of time:
@@ -69,6 +70,6 @@ You must have the following access to perform the steps in this article:
    >
    >Elapsed time is a unit of time for a task's Duration. It is the time between the Planned Start Date and the Planned Completion Date of a task that includes holidays, weekends, and time off. In other words, elapsed time is the passage of calendar days.
 
-1. Click `Save`.&nbsp;
+1. Click **Save**.&nbsp;
 
 &nbsp;

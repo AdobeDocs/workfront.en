@@ -9,9 +9,7 @@ description: Your visibility to objects in Adobe Workfront depends on your acces
 # Request access to objects in Adobe Workfront
 
 Your visibility to objects in&nbsp;Adobe Workfront depends on your access to that type of object as well as your permissions on an individual object. 
-Note: This article describes how you can request permissions to all objects except for plans in the Adobe Workfront Scenario Planner. For information about requesting access to plans, see Request access to a plan in the Adobe Workfront Scenario Planner. This requires an additional license. 
-
-Your Workfront administrator configures your access to a type of object in your access level.&nbsp;For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+``` ```**Note: **`````` ```This article describes how you can request permissions to all objects except for plans in the``` Adobe Workfront Scenario Planner. ```For information about requesting access to plans, see``` [Request access to a plan in the Adobe Workfront Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.  Your Workfront administrator configures your access to a type of object in your access level.&nbsp;For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 If you need permissions to specific objects within Workfront, you can request access to them. Rather than sending&nbsp;an email to the&nbsp;Workfront administrator or&nbsp;object owner to explain your needs, you can request&nbsp;additional access (or permissions) within Workfront.
 
@@ -69,8 +67,8 @@ If you do not already have access to an object&nbsp;and you navigate to that obj
 
 To request initial access to an object:
 
-1. Click `Request Access`.  
-   The `Request Access` dialog box is displayed.  
+1. Click **Request Access**.  
+   The **Request Access** dialog box is displayed.  
 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.&nbsp;
 1. Select the user from the drop-down list who you want to receive your access request.  
@@ -78,8 +76,8 @@ To request initial access to an object:
    For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-more-access-drop-down-menu).
 
 1. From the drop-down list, select the type of access that you are requesting.
-1. (Optional) In the `P.S.` field, specify a note to the user regarding why you need additional access.
-1. Click `Request Access`.  
+1. (Optional) In the **P.S.** field, specify a note to the user regarding why you need additional access.
+1. Click **Request Access**.  
    ![](assets/request-access-dialog-350x340.png)
 
 If you do not have access level rights to an object&nbsp;and you try to access that object from a link,&nbsp;a screen is displayed informing you&nbsp;to contact the Workfront administrator.&nbsp;
@@ -93,14 +91,19 @@ To request additional access to an object that you already have limited access t
 
 1. Go to the object for which you want to request additional access.
 
+1. More
+1. Request More Access
+1. 
+1. 
+1. 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.
 1. Select the user from the drop-down list who you want to receive your access request.  
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
    For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-more-access-drop-down-menu).
 
 1. From the drop-down list, select the level of access that you are requesting.
-1. (Optional) In the `P.S.` field, specify a note regarding why you need additional access.
-1. Click `Request Access`.
+1. (Optional) In the **P.S.** field, specify a note regarding why you need additional access.
+1. Click **Request Access**.
 
 ## Hierarchy of the "Request Access" and "Request More Access" drop-down menus
 
@@ -130,8 +133,8 @@ The owner of an object is defined as follows:
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Object</span> </th> 
-   <th><span class="bold">Definition of the Owner of the Object</span> </th> 
+   <th><strong>Object</strong> </th> 
+   <th><strong>Definition of the Owner of the Object</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -166,7 +169,11 @@ The owner of an object is defined as follows:
   <tr> 
    <td>Filters, views, and groupings</td> 
    <td>The owner of a filter, view, or grouping is the creator. </td> 
-  </tr> Plans The owner is the creator of the plan. This requires an additional license. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview. Goals The owner is the user designated as the Owner. They might not be the same person as the goal creator. This requires an additional license. For information about Workfront Goals, see Adobe Workfront Goals overview. 
+  </tr>  
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><span>Plans</span> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p><span>The owner is the creator of the plan. </span> </p> <p>This requires an additional license. </p> <p><span>For information about the Workfront Scenario Planner, see</span> <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>.</p> </td>   
+  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">Goals</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray"> <p>The owner is the user designated as the Owner. They might not be the same person as the goal creator. </p> <p>This requires an additional license. </p> <p>For information about Workfront Goals, see <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>. </p> </td>  
  </tbody> 
 </table>
 

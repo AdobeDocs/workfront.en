@@ -43,25 +43,30 @@ You must have the following access to perform the steps in this article:
 
 ## Edit an existing calendar report
 
+1. Reporting
+1. Calendars
+1. 
+1. 
+1. 
 1. (Optional) To change the name of the calendar report, click the calendar name field, then make the desired changes.  
    ![TitleChange.png](assets/titlechange-250x230.png)  
    If you have shared the calendar report with other users or teams, the modified calendar name is automatically updated in their calendar view.
 
 1. (Optional) To add a project to the calendar report:
 
-  1. Click `Add to Calendar.`
-  1. In the `Project name` field, begin typing the name of a project from which you want to add calendar&nbsp;events,&nbsp;then click the name when it displays in the drop-down list.  
-     ![CalendarProjName.png](assets/calendarprojname-350x278.png)  
-     Items from the project and its associated tasks and issues are added to the calendar report.
+   1. Click **Add to Calendar.**
+   1. In the **Project name** field, begin typing the name of a project from which you want to add calendar&nbsp;events,&nbsp;then click the name when it displays in the drop-down list.  
+      ![CalendarProjName.png](assets/calendarprojname-350x278.png)  
+      Items from the project and its associated tasks and issues are added to the calendar report.
 
 1. (Optional) To add a calendar grouping or to modify an existing calendar grouping:
 
-  1. Hover over the project name, click the drop-down arrow next to the project name, then click `Edit`.  
-     ![EditCalenderGroup.png](assets/editcalendergroup-350x126.png)
+   1. Hover over the project name, click the drop-down arrow next to the project name, then click **Edit**.  
+      ![EditCalenderGroup.png](assets/editcalendergroup-350x126.png)
 
-  1. Choose how you want to group your items:
+   1. Choose how you want to group your items:
 
-    * [Use Planned Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-    * [Use Projected Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-    * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+      * [Use Planned Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Use Projected Dates in a calendar report](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [Use custom date fields in a calendar report](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 

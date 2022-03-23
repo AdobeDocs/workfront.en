@@ -54,13 +54,14 @@ You must have the following access to perform the steps in this article:
 ## Unlink an issue from a project, task, or issue
 
 1. Go to the issue that is linked to a project, task, or issue.
-1. Select the Issue Details tab, then the Overview sub-tab. 
-1. Click Edit Overview. 
-1. In the `Resolved By` field, remove the resolvable object type.   
+1. Select the **Issue Details** tab, then the **Overview** sub-tab. 
+
+1. Click **Edit Overview**. 
+1. In the **Resolved By** field, remove the resolvable object type.   
    An issue can be resolved by a project, task or issue.
 
    This removes the resolving object from the issue. 
 
-1. Click `Save` .  
+1. Click **Save** .  
    The issue is no longer linked to a project, task, or issue, and you can now resolve the issue independently.
 

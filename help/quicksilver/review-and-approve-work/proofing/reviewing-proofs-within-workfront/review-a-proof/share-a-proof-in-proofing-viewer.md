@@ -47,25 +47,25 @@ You must have the following access to perform the steps in this article:
 
 You can share a proof via a URL if the owner has configured the proof for sharing. Proof owners can update sharing settings any time. For more information, see [Edit proof settings](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-1. If the left icon menu is not displayed, click the `Menu` icon on the upper-left corner of the proofing viewer.
+1. If the left icon menu is not displayed, click the **Menu** icon on the upper-left corner of the proofing viewer.
 
    ![](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. In the left icon menu of the proofing viewer, click the `Share`&nbsp;icon.
+1. In the left icon menu of the proofing viewer, click the **Share**&nbsp;icon.
 
    ![Share_btn_in_viewer.png](assets/share-btn-in-viewer.png)
 
-1. In the `Share proof` options that appear, make sure `Get shareable link` is selected.
+1. In the **Share proof** options that appear, make sure **Get shareable link** is selected.
 
 1. &nbsp;Do either of the following:
 
-  * To copy the link to your clipboard, click `Copy link`.
+  * To copy the link to your clipboard, click **Copy link**.
 
     You can now distribute the link via a third-party tool, such as a chat or an email application.
   
   * To email the link directly from Adobe Workfront, do the following:
 
-    1. In the `Or email link to` field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.
+    1. In the **Or email link to** field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.
 
        >[!NOTE]
        >
@@ -79,7 +79,7 @@ You can share a proof via a URL if the owner has configured the proof for sharin
         <tbody>
          <tr>
           <td role="rowheader">Send public link</td>
-          <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
+          <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <strong>Subscribe to proof via public URL or embed code</strong> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
          </tr>
          <tr>
           <td role="rowheader">Send download link</td>
@@ -92,7 +92,7 @@ You can share a proof via a URL if the owner has configured the proof for sharin
         </tbody>
        </table>
 
-    1. Click `Send`.
+    1. Click **Send**.
 
        Your recipients receive an email notification containing information about the proof and the buttons you chose to include.
 
@@ -106,11 +106,11 @@ For information about configuring a prof with an embedded code, see [Configure a
 
 To share a proof via the embed code:
 
-1. In the toolbar on the left of the proofing viewer, click the `Share`&nbsp;icon.
+1. In the toolbar on the left of the proofing viewer, click the **Share**&nbsp;icon.
 
    ![Share_btn_in_viewer__1_.png](assets/share-btn-in-viewer--1-.png)
 
-1. In the `Share proof` options that appear, click `Get embed code`, then click `Copy`.
+1. In the **Share proof** options that appear, click **Get embed code**, then click **Copy**.
 
 ## Share a proof by adding users to it
 
@@ -132,19 +132,19 @@ When Automated Workflow is enabled and you add a user to the proof who does not 
 
 To share a proof with individual users:
 
-1. In the toolbar on the left of the proofing viewer, click the `Share`&nbsp;icon.
+1. In the toolbar on the left of the proofing viewer, click the **Share**&nbsp;icon.
 
    ![Share_btn_in_viewer__2_.png](assets/share-btn-in-viewer--2-.png)
 
-1. Click `Add recipients` in the list on the left.
-1. Under  `New proof recipients`, begin typing the name of a user who you want to share the proof with, then click the name when it appears in the drop-down list.
+1. Click **Add recipients** in the list on the left.
+1. Under&nbsp;**New proof recipients**, begin typing the name of a user who you want to share the proof with, then click the name when it appears in the drop-down list.
 1. (Optional) Change any reviewer options to the right of the person's name:
 
-  * `Proof role`: For more information, see [Manage Proof Roles in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+  * **Proof role**: For more information, see [Manage Proof Roles in Workfront Proof](../../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
   
-  * `Stage`: (Available only if the proof has an Automated Workflow). For more information, see&nbsp; [Automated Workflow Stages overview](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
+  * **Stage**: (Available only if the proof has an Automated Workflow). For more information, see&nbsp; [Automated Workflow Stages overview](../../../../review-and-approve-work/proofing/proofing-overview/stages.md).
   
-  * `Email alerts`:&nbsp;Select one of the following options to specify how the person will be notified about activity on the proof.
+  * **Email alerts**:&nbsp;Select one of the following options to specify how the person will be notified about activity on the proof.
 
     <table cellspacing="0"> 
      <col> 
@@ -173,16 +173,26 @@ To share a proof with individual users:
       <tr> 
        <td role="rowheader">Daily Summary</td> 
        <td>Workfront sends one email with all&nbsp;comments, replies, and decisions listed only on days when there is activity besides your own.<p>This alert is a good way of seeing a summary of the project&nbsp;without being overwhelmed with multiple&nbsp;updates throughout the day.</p><p>An example use case for this summary is a department leader&nbsp;who wants to monitor the overall progress of the project.</p><p>For more information, see <a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Manage notifications for proof comments and decisions</a>.</p></td> 
-      </tr> No email Workfront does not send any email alerts. This is useful for a person who is added to a proof only for reference purposes and does not need to be notified of any changes. The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting. <!--
-       Set a deadline Select the day and time when users must take action on the proof. If you are adding users to a proof for a document that already exists in Workfront, you should have already set a deadline.
+      </tr> 
+      <tr data-mc-conditions=""> 
+       <td role="rowheader">No email</td> 
+       <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td> 
+      </tr> <!--
+       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+        <td role="rowheader">Set a deadline</td> 
+        <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td> 
+       </tr>
       --> <!--
-       Notify people by email Select this option to send an email to the users, notifying them of the proof. Click Add a custom message to specify a message to include in the email notification.
+       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+        <td role="rowheader">Notify people by email</td> 
+        <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td> 
+       </tr>
       --> 
      </tbody> 
     </table>
 
 1. (Optional) Repeat the two previous steps to add multiple users to the proof.&nbsp;
-1. (Optional) Set a `Deadline` for the reviewers (available only if the proof does not have automated workflow). 
-1. (Optional) Select `Send email notification to new recipients` to let them know you have added them to the proof.
-1. When you are finished adding users to the proof, click `Done.`
+1. (Optional) Set a **Deadline** for the reviewers (available only if the proof does not have automated workflow). 
+1. (Optional) Select **Send email notification to new recipients** to let them know you have added them to the proof.
+1. When you are finished adding users to the proof, click **Done.**
 

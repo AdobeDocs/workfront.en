@@ -11,11 +11,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -24,7 +32,7 @@ You must have the following to perform the steps in this article:
 ## Reuse an existing custom field
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Click `Field Library`, then select the field in the list that appears.
+1. Click **Field Library**, then select the field in the list that appears.
 
    You cannot use an existing field more than once on a form.
 
@@ -32,7 +40,7 @@ You must have the following to perform the steps in this article:
    >
    >When you modify an existing field, any changes you make impact that field on all forms where it is used.
 
-1. Click `Apply`.
+1. Click **Apply**.
 1. (Optional) Repeat the two previous steps to add any other existing fields .
 
    >[!NOTE]
@@ -52,7 +60,7 @@ You must have the following to perform the steps in this article:
    >
    >  
    >  
-   >  * You can use the `Preview` button in the lower-right corner to get an idea of how the fields will display in the form.
+   >  * You can use the **Preview** button in the lower-right corner to get an idea of how the fields will display in the form.
    >  * Fields may not display exactly the same way in the form, depending on how much screen space is available when a user is viewing it. For example, the third field in a row of fields may wrap to the next row of fields if horizontal space is limited.
    >  
    >
@@ -65,7 +73,12 @@ You must have the following to perform the steps in this article:
 
   * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
   * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
+  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+
+    <!--  
+    <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a>  
+    -->  
+  
   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

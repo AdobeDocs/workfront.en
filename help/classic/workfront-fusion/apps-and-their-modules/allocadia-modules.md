@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,10 +65,10 @@ To use Allocadia modules, you must have an Allocadia account.
 
 You can create a connection to your Allocadia account directly from inside an Allocadia module.
 
-1. In any Allocadia module, click `Add`next to the Connection field.
+1. In any Allocadia module, click **Add**next to the Connection field.
 1. Select whether you want to use the North America server or the Europe server.
 1. Enter your Username and Password.
-1. Click `Continue`to create the connection and go back to the module.
+1. Click **Continue**to create the connection and go back to the module.
 
 ## Allocadia modules and their fields
 
@@ -248,9 +259,9 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">Entity Type</td> 
    <td> <p>Select the type of entity that you want to delete.</p> 
     <ul> 
-     <li> <p><span class="bold">Line item</span> </p> <p>Enter the Line Item ID</p> </li> 
-     <li> <p><span class="bold">Column Choice</span> </p> <p>Select the budget that you want to delete a record from, then enter the Column ID and Choice ID.</p> </li> 
-     <li> <p><span class="bold">Forecast Tags</span> </p> <p>Select the budget that you want to delete a record from, then enter the Tag ID.</p> </li> 
+     <li> <p><strong>Line item</strong> </p> <p>Enter the Line Item ID</p> </li> 
+     <li> <p><strong>Column Choice</strong> </p> <p>Select the budget that you want to delete a record from, then enter the Column ID and Choice ID.</p> </li> 
+     <li> <p><strong>Forecast Tags</strong> </p> <p>Select the budget that you want to delete a record from, then enter the Tag ID.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

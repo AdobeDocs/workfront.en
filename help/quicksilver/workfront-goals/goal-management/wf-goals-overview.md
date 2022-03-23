@@ -74,7 +74,7 @@ The following functionality is currently included with Workfront Goals:
 
   For information about Workfront Goals graphs, see [Review graphs to understand goal progress trends in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
-* `Build goal reports and display goal information in project reports for projects that are associated to goals.` For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+* ```Build goal reports and display goal information in project reports for projects that are associated to goals.``` For information about locating goal information on projects, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
 &nbsp;
 
@@ -83,10 +83,18 @@ The following functionality is currently included with Workfront Goals:
 &nbsp;
 
 <!--
-Preview and Custom Refresh Sandbox environments When the data on your Preview Sandbox refreshes at the end of every week, Workfront Goals data is also refreshed. However, when you refresh your Custom Refresh Sandbox, Workfront Goals data does not transfer to this environment. The ability to sync this data from your production environment to the Custom Refresh Sandboxes will be available after September 2020. For information about the Workfront sandbox environments, see Adobe Workfront testing environments.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="sandbox"></a>Preview and Custom Refresh Sandbox environments</h2>
+<p>When the data on your Preview Sandbox refreshes at the end of every week, Workfront Goals data is also refreshed. However, when you refresh your Custom Refresh Sandbox, Workfront Goals data does not transfer to this environment. The ability to sync this data from your production environment to the Custom Refresh Sandboxes will be available after September 2020. </p>
+<p>For information about the Workfront sandbox environments, see <a href="../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md" class="MCXref xref">Adobe Workfront testing environments</a>.</p>
+</div>
 -->
 
 <!--
-Workfront Goals video overview For an overview of Workfront Goals, watch the following video:
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="video"></a>Workfront Goals video overview</h2>
+<p>For an overview of Workfront Goals, watch the following video:</p>
+<p><a href="https://workfront-video.wistia.com/medias/v4lzhz73g5" target="_blank"><img src="assets/align-video-overview-350x197.png" style="width: 350;height: 197;"></a> </p>
+</div>
 -->
 

@@ -32,9 +32,15 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
-Download a single proof version In the document list, click on the proof. Find the document you need. On the Details tab in the right panel, click the More menu to the right of the version, then click Download in the drop-down list that appears. 
+
+## Download a single proof version
+
+1. In the document list, click on the proof.
+1. Find the document you need.
+1. On the **Details** tab in the right panel, click the More menu ![](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
 
 ## Download all versions of a proof
 
 1. In the document list, click on the proof.
+1. On the **Details** tab in the right panel, next to **All Versions**, click**Download All**.
 

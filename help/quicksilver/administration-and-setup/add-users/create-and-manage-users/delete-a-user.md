@@ -67,7 +67,7 @@ Deactivating a user causes the following things to happen:
 
     >[!NOTE]
     >
-    >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the `Run this report with the Access Rights of:` field.  
+    >If you deactivate a user and can no longer view the reports or dashboards associated with a user, you may need to update the **Run this report with the Access Rights of:** field.  
     >To learn more, see the [Why can't I access a report owned by a deactivated user?](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md#why) section of the [Reports FAQs](../../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) article.
 
   * Documents
@@ -109,7 +109,33 @@ You can permanently delete users one at a time, or you can permanently delete mu
 
 ## Delete one or more users
 
-1. In the box that appears, click `Delete Anyway`Delete to confirm the deletion.
+1. Main Menu
+1. 
+1. Users
+1. 
+
+   <!--
+   <MadCap:conditionalText class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   If you are using the Production environment, s
+   </MadCap:conditionalText>
+   -->
+
+   Select at least one user that you want to delete, then click **More** > **Delete**.
+
+   <!--
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <p>Or</p>
+   <p>If you are using the Preview environment, select at least one user that you want to delete, click the More menu <img src="assets/more-icon.png">, then click <b>Delete</b>.</p>
+   </div>
+   -->
+
+1. In the box that appears, click **Delete Anyway**
+
+   <!--
+   Delete
+   -->
+
+   to confirm the deletion.
 
    The process of deleting users runs as a background process, so you can continue using Workfront as the user or users are deleted.
 

@@ -45,22 +45,22 @@ You can add a custom status for use by your entire organization or by a single g
 
 When you create a custom status for the entire organization, you can configure it so that all groups in the system can use it without editing it. Or you can configure it so that group administrators can modify it for their groups, as explained in [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Project Preferences` > `Statuses`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Project Preferences** > **Statuses**.
 
-1. (Conditional) If you are creating a status for use system wide, ensure that `System Statuses` is selected in the box in the upper-right corner.
+1. (Conditional) If you are creating a status for use system wide, ensure that**System Statuses** is selected in the box in the upper-right corner.
 
    Or
 
    If you are creating a status for a group or subgroup, start typing the name of the group in the box in the upper-right corner, then select it when it appears.
 
-1. Select the tab of the object type ( `Project`, `Tasks`, or `Issues`) that you want to associate with the status.
+1. Select the tab of the object type (**Project**, **Tasks**, or **Issues**) that you want to associate with the status.
 
-1. If you are creating a new status, click `Add a New Status`.
+1. If you are creating a new status, click **Add a New Status**.
 
    Or
 
-   If you are editing an existing status, hover over it, then click the `Edit` icon that displays to the far-right.
+   If you are editing an existing status, hover over it, then click the **Edit** icon that displays to the far-right.
 
 1. Configure the status using the following options:
 
@@ -90,17 +90,24 @@ When you create a custom status for the entire organization, you can configure i
      </tr> 
      <tr> 
       <td role="rowheader">Hide Status</td> 
-      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all users in the system can use the status.</p> <p>Tip: You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
+      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">
+         users in the system
+        </MadCap:conditionalText> can use the status.</p> <p>Tip: You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
-      <td> If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups. When this option is disabled, group administrators can customize the status for their individual groups. For more information about locking statuses, see Locking or unlocking a custom system-level status. </td> 
+      <td> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">If you leave this enabled, users throughout the system can see and use the status and group administrators cannot customize it for their groups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">When this option is disabled, group administrators can customize the status for their individual groups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">For more information about locking statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/lock-or-unlock-a-custom-system-level-status.md" class="MCXref xref">Locking or unlocking a custom system-level status</a>.</p> </td> 
      </tr> <!--
-      Users can select this status only if required fields on the object are completed (Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed. This story is on the back burner
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
+       <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p> <!--
+         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This story is on the back burner</p>
+        --> </td> 
+      </tr>
      --> 
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 
-`<li>For instructions on making this status a default status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md" class="MCXref xref">Use custom statuses as default statuses</a>.</li>`  
+```<li>For instructions on making this status a default status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md" class="MCXref xref">Use custom statuses as default statuses</a>.</li>```  

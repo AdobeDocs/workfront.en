@@ -52,7 +52,8 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td>List of programs</td> 
    <td> 
     <ul> 
-     <li> <p>Portfolios &gt; select a portfolio &gt; Programs</p> </li> Programs 
+     <li> <p>Portfolios &gt; select a portfolio &gt; Programs</p> </li>  
+     <p>Programs</p>  
     </ul> </td> 
   </tr> 
   <tr> 
@@ -86,7 +87,7 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td>List of reports</td> 
    <td> 
     <ul> 
-     <li> <p> Reports </p> </li> 
+     <li> <p>  Reports  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ Below are some types of object lists that you can find in Workfront and some of 
    <td>List of timesheets</td> 
    <td> 
     <ul> 
-     <li> <p>Timesheets &gt;&nbsp;All Timesheets*</p> </li> 
+     <li> <p>Timesheet s  &gt;&nbsp;All Timesheets*</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -193,21 +194,21 @@ The following are the elements of a list:
  </thead> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Filter</span> </td> 
+   <td><strong>Filter</strong> </td> 
    <td> <p>Filters keep unnecessary information out of a list, based on the criteria that you specify. </p> <p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">View</span> </td> 
+   <td><strong>View</strong> </td> 
    <td> <p>Views define which fields (columns) you display on the screen.</p> <p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Grouping</span> </td> 
+   <td><strong>Grouping</strong> </td> 
    <td> <p>Groupings separate the objects on the list in areas based on the criteria that you specify.</p> <p>For example, the issues in a list can display in sections by status or priority.</p> <p>You can have up to 3 layers of groupings in a standard grouping, and you can add a 4th layer if you are configuring a grouping in text mode.</p> <p>For more information about groupings, see <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p> <p>For more information about text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-These elements display at the top of every list by default. They are sticky and do not move as you scroll through the list.Mouse over the icon for each element to identify them.
+These elements display at the top of every list by default. They are sticky and do not move as you scroll through the list. Mouse over the icon for each element to identify them.
 
 You can can customize list elements in the following areas and share them with other users:
 
@@ -231,7 +232,12 @@ There are two types of lists in Workfront:
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 Both types of lists appear in&nbsp;the new Adobe Workfront experience.
-All lists and reports in the new Adobe Workfront experience are updated lists, except for the following: Lists in the Setup area Lists in the Reports area Documents lists 
+
+All lists and reports in the new Adobe Workfront experience are updated lists, except for the following:
+
+* Lists in the Setup area
+* Lists in the Reports area
+* Documents lists
 
 The following table shows some of the differences between the legacy and updated lists in Workfront:
 
@@ -252,8 +258,8 @@ The following table shows some of the differences between the legacy and updated
    <td> <p>Faster inline editing</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Display <span class="bold">100</span> items by default</p> </td> 
-   <td> <p>Display <span class="bold">All</span> or up to <span class="bold">2000</span> items by default</p> </td> 
+   <td> <p>Display <strong>100</strong> items by default</p> </td> 
+   <td> <p>Display <strong>All</strong> or up to <strong>2000</strong> items by default</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Use CTRL+F to find items in a list</p> </td> 
@@ -282,9 +288,9 @@ The following table outlines the similarities and differences between lists and 
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Functionality</span> </th> 
-   <th><span class="bold">List</span> </th> 
-   <th><span class="bold">Report</span> </th> 
+   <th><strong>Functionality</strong> </th> 
+   <th><strong>List</strong> </th> 
+   <th><strong>Report</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -344,7 +350,7 @@ The following table outlines the similarities and differences between lists and 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>You can add them to custom sections</p> </td> 
+   <td> <p>You can add them to custom  sections </p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 
@@ -381,7 +387,7 @@ The following table outlines the similarities and differences between lists and 
 >
 >You cannot add a list to a dashboard without creating a report and adding it to the dashboard first.
 
-For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information about creating custom sections, see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). For information about creating custom  sections , see [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
 
 ## List actions
 
@@ -398,19 +404,21 @@ You can complete the following actions in a list:
  </thead> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Inline edit</span> </td> 
+   <td><strong>Inline edit</strong> </td> 
    <td> <p>Edit objects and their information directly in the list.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">Inline edit items in a list in&nbsp;Adobe Workfront</a>.</p> </td> 
-  </tr> Update with the Summary Update tasks and issues at the project level using the Summary panel. Tip: The Summary is not available for all objects and it is not available in Task or Issue reports. For more information, see Summary overview in the new Adobe Workfront experience. 
+  </tr>  
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><strong>Update with the Summary</strong> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>Update tasks and issues at the project level using the Summary panel.</p> <p>Tip: The Summary is not available for all objects and it is not available in Task or Issue reports.</p> <p>For more information, see <a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">Summary overview in the new Adobe Workfront experience</a>.</p> </td>  
   <tr> 
-   <td><span class="bold">Customize list display</span> </td> 
+   <td><strong>Customize list display</strong> </td> 
    <td> <p>Customize the look and feel of a list, column arrangement, sorting order of items, or number of items that display.</p> <p>Note: Changes you make to the number of items to display on a page are reverted when you log out of Workfront or close your browser. Changes might also be reverted after a period of 8 hours.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">Modify how a list displays</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Quick filter</span> </td> 
+   <td><strong>Quick filter</strong> </td> 
    <td> <p>Apply a quick filter to find only items that are important to you so that you can quickly review, update, or share them with others.</p> <p>Important:  You can find items that contain a search word using the quick filter, whether that item is visible on your screen or will display after you scroll to the bottom of the page. When you use your browser's search capabilities, you can find only items that are already visible on the screen. If your list has multiple pages, quick filters find only the items on the current page.</p> <p>For more information, see <a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">Apply the quick filter to a list</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Export</span> </td> 
+   <td><strong>Export</strong> </td> 
    <td> <p>Export a list of objects from Workfront. When a list contains more than 2000 items, exporting the list is the only way to review all of the items on one page.</p> <p>For more information about exporting a list, see <a href="../../../workfront-basics/navigate-workfront/use-lists/export-lists.md" class="MCXref xref">Export a list</a>. For more information about export formats and limits, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a>.</p> </td> 
   </tr> 
  </tbody> 

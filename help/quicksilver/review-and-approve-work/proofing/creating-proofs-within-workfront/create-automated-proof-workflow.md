@@ -41,17 +41,17 @@ You must have the following access to perform the steps in this article:
 
 ## Create an advanced proof with an Automated workflow
 
-1. Go to the project, task, or issue where you want the proof, then click the `Documents` tab.
-1. Click `Add new` > Proof, upload the content, then work through the sections listed below.
+1. Go to the project, task, or issue where you want the proof, then click the **Documents** tab.
+1. Click **Add new** > Proof, upload the content, then work through the sections listed below.
 
    or
 
-   Hover over an existing document, then click the `Create Proof` > `Advanced Proof` and work through the sections listed below.
+   Hover over an existing document, then click the **Create Proof** > **Advanced Proof** and work through the sections listed below.
 
 ## Configure the proof Stages
 
-1. In the Workflow type section, choose `Automated`.
-1. (Optional) If you want to use an Automated Workflow template that your Workfront administrator created and shared with you, click `Add template`, select the template in the box that appears, then click `Add template`.
+1. In the Workflow type section, choose **Automated**.
+1. (Optional) If you want to use an Automated Workflow template that your Workfront administrator created and shared with you, click **Add template**, select the template in the box that appears, then click **Add template**.
 
    >[!NOTE]
    >
@@ -66,8 +66,8 @@ You must have the following access to perform the steps in this article:
 
 1. Configure the first stage of the Automated Workflow:
 
-  1. (Optional) If you want to create a name for the first stage, click `Stage 1`, then type the name.
-  1. In the `Recipients` section for the stage, add reviewers to the stage.
+  1. (Optional) If you want to create a name for the first stage, click **Stage 1**, then type the name.
+  1. In the **Recipients** section for the stage, add reviewers to the stage.
 
      >[!NOTE]
      >
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
      >  
      >  * You can add external users to a stage with an email address.
      >  * After you add a user to a stage, you can configure settings for that user on the proof.
-     >  * You can drag users directly to another stage, or you can drag users to a stage on the `Stages` diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
+     >  * You can drag users directly to another stage, or you can drag users to a stage on the **Stages** diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
      >  * You&nbsp;can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
      >  * Reviewers who are not added to a private stage cannot see that stage on the proof or comments made in that stage.
      >  * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.  
@@ -88,12 +88,12 @@ You must have the following access to perform the steps in this article:
      >  
      >
 
-  1. Click `Stage settings`.
-  1. Click an `Activate stage` option to indicate how you want the stage to activate.
+  1. Click **Stage settings**.
+  1. Click an **Activate stage** option to indicate how you want the stage to activate.
 
-     For the first stage, you can select only `On proof creation`, `On a specific date and time`, or `Manually`. 
+     For the first stage, you can select only **On proof creation**, **On a specific date and time**, or **Manually**. 
   
-  1. (Conditional) If you selected `On a specific date and time` in the previous step, select the date and time when you want to activate the stage in the `Activate on` box that appears.
+  1. (Conditional) If you selected **On a specific date and time** in the previous step, select the date and time when you want to activate the stage in the **Activate on** box that appears.
   
   1. Use any of the options below to further configure the stage.
 
@@ -103,10 +103,10 @@ You must have the following access to perform the steps in this article:
       <tbody>
        <tr>
         <td role="rowheader">Set stage deadline</td>
-        <td><p>To set a deadline for the stage, click an option in the <span class="bold">Deadline options</span> drop-down list. Then, under <span class="bold">Deadline</span>, do one of the following:</p>
+        <td><p>To set a deadline for the stage, click an option in the <strong>Deadline options</strong> drop-down list. Then, under <strong>Deadline</strong>, do one of the following:</p>
          <ul>
-          <li>If you chose <span class="bold">Set specific date</span>: Select the deadline date and time you want.</li>
-          <li>If you chose <span class="bold">Calculate from stage activation date</span>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
+          <li>If you chose <strong>Set specific date</strong>: Select the deadline date and time you want.</li>
+          <li>If you chose <strong>Calculate from stage activation date</strong>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
          </ul></td>
        </tr>
        <tr>
@@ -115,11 +115,11 @@ You must have the following access to perform the steps in this article:
        </tr>
        <tr>
         <td role="rowheader">Transfer primary decision rights to</td>
-        <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <span class="bold">Only one decision required</span> option is disabled on this stage.</p></td>
+        <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <strong>Only one decision required</strong> option is disabled on this stage.</p></td>
        </tr>
        <tr>
         <td role="rowheader">Require only one decision for this stage</td>
-        <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<span class="bold">Primary decision maker&nbsp;</span>drop-down menu.</p></td>
+        <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong>drop-down menu.</p></td>
        </tr>
        <tr>
         <td role="rowheader">Make this stage private</td>
@@ -130,18 +130,18 @@ You must have the following access to perform the steps in this article:
 
 1. To add and configure another stage:
 
-  1. Click `New stage`.
-  1. (Optional) If you want to create a name for the first stage, click `Stage 2` (or `Stage 3`, `Stage 4`, and so on), then type the name.
+  1. Click **New stage**.
+  1. (Optional) If you want to create a name for the first stage, click **Stage 2** (or **Stage 3**, **Stage 4**, and so on), then type the name.
   
-  1. Click the `Activate stage`, then select an option to specify whether the stage is activated automatically or manually.
+  1. Click the **Activate stage**, then select an option to specify whether the stage is activated automatically or manually.
 
-     In addition to the options `On proof creation`, `On a specific date and time`, or `Manually`, you can select an option that is dependent on what occurred in the previous step:
+     In addition to the options **On proof creation**, **On a specific date and time**, or **Manually**, you can select an option that is dependent on what occurred in the previous step:
 
      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
   1. If you selected an Activate stage option that is dependent on what occurred in the previous step, use the options that appear to configure the activation setting.
 
-     For example, if you selected `When previous stage status changes`, select the `Previous stage`, then select the status in the `Status changed to` box.
+     For example, if you selected **When previous stage status changes**, select the **Previous stage**, then select the status in the **Status changed to** box.
 
 1. Repeat the previous step as needed to add more stages.
 
@@ -153,9 +153,9 @@ You must have the following access to perform the steps in this article:
 
 ## Configure email settings for the proof
 
-1. In the `Email notification` section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Create an advanced proof with an Automated workflow](#workflow) earlier in this article:
+1. In the **Email notification** section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Create an advanced proof with an Automated workflow](#workflow) earlier in this article:
 
-   | Notify recipients about this proof |Select this option to send an email notification to users. When `Basic sharing` is selected in the `Workflow` section, an email notification is sent when the proof is created. When `Automated workflow` is selected in the `Workflow` section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with. |
+   | Notify recipients about this proof |Select this option to send an email notification to users. When **Basic sharing** is selected in the **Workflow** section, an email notification is sent when the proof is created. When **Automated workflow** is selected in the **Workflow** section, an email notification is sent when the proof enters the stage of the Automated Workflow that the user is associated with. |
    |---|---|
    | Add custom message |Select this option to include a custom message in the notification. You can specify a subject and message body. The message body can include rich text formatting, such as bold, bullets, and hyperlinks. |
 
@@ -163,7 +163,7 @@ You must have the following access to perform the steps in this article:
 
 ## Configure proof settings
 
-1. In the `Proof settings` section, select any of the following options:
+1. In the **Proof settings** section, select any of the following options:
 
    <table cellspacing="0"> 
     <col> 
@@ -202,21 +202,21 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader">Subscribe to proof via public URL or embed code</td> 
       <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:
        <ul>
-        <li><span class="bold">Subscriber role:</span>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</li>
-        <li><span class="bold">Email alert settings for subscribers:</span>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
+        <li><strong>Subscriber role:</strong>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</li>
+        <li><strong>Email alert settings for subscribers:</strong>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
        </ul><p>
         <ul>
-         <li><span class="bold">Proof access via email link required for:</span>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <span class="bold">No email</span> (email link is not required to access the proof), <span class="bold">Proof notification email only</span> (subscriber receives a link to the proof via email without any verification), or <span class="bold">Validation and proof notification emails</span> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
+         <li><strong>Proof access via email link required for:</strong>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <strong>No email</strong> (email link is not required to access the proof), <strong>Proof notification email only</strong> (subscriber receives a link to the proof via email without any verification), or <strong>Validation and proof notification emails</strong> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
         </ul><p>Note: &nbsp;If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.<br></p></p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Create Proof`.
+1. Click **Create Proof**.
 
    Workfront&nbsp;begins generating a proof of the selected documents or websites.&nbsp;Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront&nbsp;continues to generate your file.&nbsp;The maximum file upload size is 4GB.
 
-1. After the proof is generated, click  `Open proof`&nbsp;to launch the proofing viewer.
+1. After&nbsp;the proof is generated, click&nbsp;**Open proof**&nbsp;to launch the proofing viewer.
 
    Users who do not have proofing enabled on their account&nbsp;are still able to view the document and make comments to the proof [.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
 

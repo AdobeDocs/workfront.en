@@ -56,18 +56,19 @@ Before you begin, you must:
 ## Tie the resolution of an issue to the resolution of a another issue, task, or project
 
 1. Navigate to an issue whose resolution you want to tie to the resolution of another issue or a task or project.
-1. Click the Issue Details > Overview area.
+1. Click the **Issue Details** > **Overview** area.
 
-1. Go to the Overview area in the Issue Details section. 
-1. Click the Resolved By field, and select from the following types of resolving objects: &nbsp;
+1. Go to the **Overview** area in the **Issue Details** section.  
 
-  * `Project`
-  * `Task`
-  * `Issue`
+1. Click the **Resolved By** field, and select from the following types of resolving objects: &nbsp;
+
+  * **Project**
+  * **Task**
+  * **Issue**
 
 1. The field for the resolving object displays. 
 1. After selecting the object, start typing the name of a specific project, task, or issue in the available field and select it when it appears in the drop-down list. 
-1. Click `Save`&nbsp;Changes.  
+1. Click **Save**&nbsp;**Changes**.  
    The original issue becomes the Resolvable Object for the project, task, or issue you selected in step 4 and 5. This means that the original issue completes when the resolving object (the project, task, or issue you linked it to) is completed.
 
    >[!NOTE]

@@ -35,16 +35,17 @@ You must have the following access to perform the steps in this article:
 
 ## Reset a user’s password in an eAuth enabled environment
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Users .
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+
 1. 
-1. Select the User that requires a password reset.
+1. Select the **User** that requires a password reset.
 1. ![](assets/100520classicnweselectuser-350x105.png)
 
-1. Click the `More button` that appears after you've chosen the desired `User` and select the `Send Forgot Password Email` option from the drop-down menu.
+1. Click the **More button** that appears after you've chosen the desired **User** and select the **Send Forgot Password Email** option from the drop-down menu.
 
 1. ![](assets/100520classicnwesendemail-350x134.png)
 
-After selecting the `Send Forgot Password Email` option, an email is sent to the selected user that contains instructions for them to change their own password.
+After selecting the **Send Forgot Password Email** option, an email is sent to the selected user that contains instructions for them to change their own password.
 
 ![](assets/pwresetemail-resized-350x461.png)
 

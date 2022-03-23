@@ -30,6 +30,6 @@ For reference information about various aspects and features found in Workfront 
 * [Apps and their modules](../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
 
   <!--
-  Tutorials
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../workfront-fusion/tutorials/tutorials.md" class="MCXref xref" xrefformat="{para}">Tutorials</a> </li>
   -->
 

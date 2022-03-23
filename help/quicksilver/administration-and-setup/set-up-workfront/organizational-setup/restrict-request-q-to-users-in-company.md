@@ -5,16 +5,21 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Restrict request queue to users in the associated company
 description: When using a project as a request queue, you can allow only users from the company associated with this project to see the request queue in their Requests area of Workfront.
+hidefromtoc: true
 ---
 
 # Restrict request queue to users in the associated company
 
-When using a project as a request queue, you can allow only users from the company associated with this project to see the request queue in their `Requests` area of Workfront.
+When using a project as a request queue, you can allow only users from the company associated with this project to see the request queue in their **Requests** area of Workfront.
 
 For more information about setting up a project as a request queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 Alina recommended that we draft this because the functionality is already documented in the article "Create a request queue." If we decide we want it back, she'd like it to move to the Manage Work area.
+</MadCap:conditionalText>
+--> </p>
 -->
 
 ## Access requirements
@@ -45,6 +50,7 @@ You must have the following to perform the steps in this article:
 
    For information on associating a project with a company, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Click Queue Details in the left panel. 
-1. In the `Queue Type` section, select  `People in this project's company`, then click `Save`.
+1. Click **Queue Details** ![](assets/queue-details-left-panel.png) in the left panel. 
+
+1. In the **Queue Type** section, select&nbsp;**People in this project's company**, then click **Save**.
 

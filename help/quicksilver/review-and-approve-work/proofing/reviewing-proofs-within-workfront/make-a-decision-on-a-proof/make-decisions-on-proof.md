@@ -45,12 +45,12 @@ You must have the following access to perform the steps in this article:
 
 ## Make a decision on a proof in the proofing viewer
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. Click `Make Decision` at the top-center of the proofing viewer.
+1. Click **Make Decision** at the top-center of the proofing viewer.
 
-1. In the `Proof decision` box that appears, click one of the following decisions:
+1. In the **Proof decision** box that appears, click one of the following decisions:
 
    <table cellspacing="0"> 
     <col> 
@@ -80,44 +80,48 @@ You must have the following access to perform the steps in this article:
    </table>
 
 1. (Conditional) If the Adobe Workfront administrator or Workfront Proof administrator has added a Reasons section, select any applicable reasons for your decision. For more information about how administrators can configure decision reasons, see&nbsp; [Configure approval decision options in Workfront Proof](../../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
-1. (Optional) Select `Send me an email confirmation`&nbsp;to receive an email confirmation of your decision.
-1. Click `Make Decision`.
+1. (Optional) Select **Send me an email confirmation**&nbsp;to receive an email confirmation of your decision.
+1. Click **Make Decision**.
 
 <!--
-Make a decision when the proof is configured with an approval process
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="making-a-workfront-approval-decision"></a>Make a decision when the proof is configured with an approval process</h2>
 -->
 
 <!--
-You can make decisions on a proof when it is configured with an approval process (within Workfront) and a user has sent you a document approval request, as described in Request document approvals.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can make decisions on a proof when it is configured with an approval process (within Workfront) and&nbsp;a user has sent you a document approval request, as described in <a href="../../../../review-and-approve-work/manage-approvals/request-document-approvals.md" class="MCXref xref">Request document approvals</a>.</p>
 -->
 
   <!--
-  Make a Workfront approval decision in a proof
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#making-a-workfront-approval-decision-in-a-proof" class="MCXref xref">Make a Workfront approval decision in a proof</a> </li>
   -->
 
   <!--
-  Change your Workfront approval decision in a proof
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#changing-your-workfront-approval-decision-in-a-proof" class="MCXref xref">Change your Workfront approval decision in a proof</a> </li>
   -->
 
 <!--
-Make a Workfront approval decision in a proof
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="making-a-workfront-approval-decision-in-a-proof"></a>Make a Workfront approval decision in a proof</h3>
 -->
 
 1. 
 
    <!--
-   Open the proof of the document that you want to make a decision on.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Open the proof of the document that you want to make a decision on.</p>
    -->
 
    <!--
-   In the proofing viewer, select whether you want to Approve, require Changes, or Reject the approval request.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the proofing viewer, select whether you want to <strong>Approve</strong>, require <strong>Changes</strong>, or <strong>Reject</strong> the approval request.</li>
    -->
 
 <!--
-Change your Workfront approval decision in a proof
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="changing-your-workfront-approval-decision-in-a-proof"></a>Change your Workfront approval decision in a proof</h3>
 -->
 
 <!--
-Open the proof of the document where you want to change your Workfront approval decision. At the top-center of the proofing viewer, click the decision you made previously. In the Proof decision box that appears, select whether you want to Approve, require Changes, or Reject the approval request.
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1">Open the proof of the document where you want to change your Workfront approval decision.</li>
+<li value="2"> <p>At the top-center of the proofing viewer, click the decision you made previously.</p> </li>
+<li value="3">In the <strong>Proof decision</strong> box that appears, select whether you want to <strong>Approve</strong>, require <strong>Changes</strong>, or <strong>Reject</strong> the approval request.</li>
+</ol>
 -->
 

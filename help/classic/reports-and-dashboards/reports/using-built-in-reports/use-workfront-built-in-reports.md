@@ -53,8 +53,8 @@ The following reports come with the Workfront package. The reports are available
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Report Name</span> </th> 
-   <th><span class="bold">Report Description</span> </th> 
+   <th><strong>Report Name</strong> </th> 
+   <th><strong>Report Description</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -344,19 +344,19 @@ The following reports come with the Workfront package. The reports are available
 
 ## Access built-in reports
 
-1. Go to the Reporting area in your Global Navigation Bar. 
-1. Select the Reports tab. 
-1. Click `All Reports`.
-1. Expand the `Filter` drop-down menu, and select `New Filter`.
+1. Go to the **Reporting** area in your Global Navigation Bar. 
+1. Select the **Reports** tab. 
+1. Click **All Reports**.
+1. Expand the **Filter** drop-down menu, and select**New Filter**.
 
-1. Click `Add a Filter Rule`.
-1. In the `Start typing field name` field, start typing `Global ID`.
+1. Click **Add a Filter Rule**.
+1. In the **Start typing field name** field, start typing **Global ID**.
 
-1. Under the `Report` object, select `Global ID`.
+1. Under the **Report** object, select **Global ID**.
 
-1. In the filter modifier drop-down menu, select `Is Not Blank`.  
+1. In the filter modifier drop-down menu, select **Is Not Blank**.  
 
-1. Click `Save Filter`.  
+1. Click **Save Filter**.  
    The reports list displays only built-in reports.  
    For more information about what built-in reports are available, see [Overview of built-in reports](#understanding-built-in-reports).
 

@@ -43,7 +43,7 @@ During the designated approval period, the user to whom you delegate an approval
 
   >[!NOTE]
   >
-  >The Adobe Workfront administrator can restrict users from accessing certain object types. When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the `Home` page, as described in [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).  
+  >&nbsp;The Adobe Workfront administrator can restrict users from accessing certain object types.&nbsp;When a user does not have access to an object type and an approval of that type is delegated to the user, the user does not have View access to the object. However, the user can still approve or reject approval requests from the **Home** page, as described in [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).  
   >For example, User A belongs to Group A. The Workfront administrator has restricted the access rights of Group A so that users in this group cannot view tasks within Workfront. If a task approval request is delegated to User A, User A cannot view the task that the approval is associated with. However, User A can approve or reject the approval request from the Home page.
 
   For information about how the Workfront administrator can restrict access to object types within Setup, see&nbsp; [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).&nbsp;
@@ -80,32 +80,58 @@ Consider the following when delegating approvals:
 
 To delegate approvals to another user:
 
-1. Click the `Filter` drop-down menu, then click `Approvals`.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Click `Delegate My Approvals`.  
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. Click the **Filter** drop-down menu, then click **Approvals**.
+
+1. Click **Delegate My Approvals**.  
    ![Delegate My Approvals dialog](assets/delegate-approvals-350x398.png)
 
 1. Specify the following information:  
-   `Delegate My Approvals To:` Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.  
-   `Start Date:` Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
+   **Delegate My Approvals To:** Begin typing the name of the user who you want to forward approvals to, then click the name when it appears in the drop-down menu.  
+   **Start Date:** Select the date for approvals to begin being forwarded. Forwarding begins at 12:00 A.M. on the date that you select.  
    The Start Date must be the current date or a future date.  
-   `End:`Do one of the following:
+   **End:**Do one of the following:
 
   * Select the date for approvals to stop being forwarded. Forwarding ends at 11:59 P.M. on the date that you select.
-  * Select  `No end date`&nbsp;to configure Workfront to forward approvals indefinitely.
+  * Select&nbsp;**No end date**&nbsp;to configure Workfront to forward approvals indefinitely.
 
-1. Click `Save`.
+1. Click **Save**.
 
 ### Update or stop an approval delegation
 
-1. Click the `Filter` drop-down menu, then click `Approvals`.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Click `Edit delegation`.
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. Click the **Filter** drop-down menu, then click **Approvals**.
+
+1. Click **Edit delegation**.
 1. Do either of the following:
 
-  * `To update the existing approval delegation:` Change the information displayed, then click `Save`.
+  * **To update the existing approval delegation:** Change the information displayed, then click **Save**.
   
-  * `To stop the existing delegation:` Click `Stop Delegation`, then click `Confirm`.  
+  * **To stop the existing delegation:** Click **Stop Delegation**, then click **Confirm**.  
     ![Stop Delegation](assets/stop-delegation-350x373.png)
 
 ### View delegated approvals
@@ -118,7 +144,20 @@ You can view only the following types of approval delegations in the Work List:
 
 To view delegated approvals:
 
-1. Click the  `Filter` drop-down menu, then click  `Approvals`.  
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. Click the&nbsp;**Filter**&nbsp;drop-down menu, then click&nbsp;**Approvals**.  
    All approvals display in the list by default, including approvals assigned to you and approvals delegated to you.  
    ![Approvals delegated to me](assets/delegated-to-me-350x246.png)
 

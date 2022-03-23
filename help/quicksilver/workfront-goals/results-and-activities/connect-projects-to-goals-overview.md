@@ -33,7 +33,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
 ## Considerations about connecting projects to goals
 
-* `You must have access to create goals before you can add projects to goals. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).` 
+* ```You must have access to create goals before you can add projects to goals. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).``` 
 * Adding a project to a goal is identical to adding activities to a goal.
 
   For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). For information about disconnecting projects from goals, see the "Disconnect projects from goals" section in the article [Remove results, activities, and projects from goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md). 
@@ -50,7 +50,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
 * You can associate multiple projects with a goal.
 * You can associate the same project with multiple goals. 
-* Although the project is connected to the goal as a type of activity, you cannot manually update the progress of a project when you check in on your goal. Instead, Workfront calculates the percent complete of the project and Workfront Goals calculates the goal progress using this percent complete. `This updates the goal in real time after the project percent updates.`
+* Although the project is connected to the goal as a type of activity, you cannot manually update the progress of a project when you check in on your goal. Instead, Workfront calculates the percent complete of the project and Workfront Goals calculates the goal progress using this percent complete. ```This updates the goal in real time after the project percent updates.```
 * The owner of the project becomes the owner of this activity.
 * The project duration can be outside the time period of a goal. If a project lasts longer than the goal’s deadline, you can still close your goal and consider it completed, but the goal percent complete will not be 100%. The percent complete of the project no longer updates on the goal. There is an indication on the goal list that the project no longer updates progress for the goal.
 
@@ -58,7 +58,7 @@ To this purpose, you can connect projects as activities (outputs or executed wor
 
 * When you delete a project attached to a goal, the project is also deleted from the goal.
 
-  ` `**Warning: **``If the goal was active and there are no other progress indicators on the goal, the goal remains active but it does not show any progress.
+  ``` ```**Warning: **``````If the goal was active and there are no other progress indicators on the goal, the goal remains active but it does not show any progress.
 
 ## Locate project information on goals
 

@@ -15,7 +15,7 @@ description: As a Workfront Proof administrator, you can view the usage informat
 
 As a Workfront Proof administrator, you can view the usage information for every user that has logged into Workfront Proof.
 
-1. In the left navigation panel, click `Activity`.
-1. In the `Proofs and media logs` drop-down menu, click `Authentication logs`.  
+1. In the left navigation panel, click **Activity**.
+1. In the **Proofs and media logs**&nbsp;drop-down menu, click **Authentication logs**.  
    The login history for every user in the system displays.
 

@@ -23,7 +23,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Plan, Work
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Plan, Work</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
@@ -32,28 +35,34 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
-  </tr> Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>You must be a Workfront Fusion administrator for your organization.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+    --> </td> 
+  </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
-**For information on Adobe Workfront Fusion licenses, see Adobe Workfront Fusion licenses
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">**For information on Adobe Workfront Fusion licenses, see <a href="../../../workfront-fusion/get-started/license-automation-vs-integration.md" class="MCXref xref">Adobe Workfront Fusion licenses</a></p>
 -->
 
 ## View Workfront Fusion templates as an administrator
 
 To view a table of all created templates and their statuses:
 
-1. Click `Administration`in the left navigation panel to open the Administration area.
-1. Click `Templates`in the left navigation panel.
+1. Click **Administration**in the left navigation panel to open the Administration area.
+1. Click **Templates**in the left navigation panel.
 
 There are three columns related to the templates publication status. A checkmark in a column indicates the following:
 
-* `Published`: These templates are currently visible in the Team templates tab in the user interface.
-* `Requested approval`: These templates are waiting for your approval. They are currently visible in the Team templates tab in the user interface.
-* `Approved`: These templates have been approved. They are currently visible in the Public templates tab in the standard user interface.
+* **Published**: These templates are currently visible in the Team templates tab in the user interface.
+* **Requested approval**: These templates are waiting for your approval. They are currently visible in the Team templates tab in the user interface.
+* **Approved**: These templates have been approved. They are currently visible in the Public templates tab in the standard user interface.
 
 >[!NOTE]
 >
@@ -61,14 +70,14 @@ There are three columns related to the templates publication status. A checkmark
 
 ## Edit Workfront Fusion templates as an administrator
 
-1. Click `Administration`in the left navigation panel to open the Administration area.
-1. Click `Templates`in the left navigation panel.
-1. Click `Detail`to the right of the template you want to edit.
+1. Click **Administration**in the left navigation panel to open the Administration area.
+1. Click **Templates**in the left navigation panel.
+1. Click **Detail**to the right of the template you want to edit.
 
 You can now edit the template, similar to editing a template as a non-admin user. However, in the Options in the top-right corner, there is one additional option - the SVG diagram that provides you with the SVG code. Also, the publishing process is the same as in the case of a standard user, refer to the Publishing and sharing templates section for more details.
 
 <!--
-To view the SVG code of the template, click Options in the upper-right corner and select SVG.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To view the SVG&nbsp;code of the template, click Options in the upper-right corner and select SVG.</p>
 -->
 
 For information about specific template options that you can edit, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md).
@@ -79,10 +88,10 @@ For information about publishing templates, see [Publish and share Adobe Workfro
 
 Approving a template makes it visible in the Public templates tab and available to all users. Disapproving a template removes it from the Public templates tab and makes it available only to the team that created it.
 
-1. Click `Administration`in the left navigation panel to open the Administration area.
-1. Click `Templates`in the left navigation panel.
-1. If you want to approve a template, click `Approve`to the right of the template.
-1. If you want to disapprove a template, click `Disapprove`to the right of the template.
+1. Click **Administration**in the left navigation panel to open the Administration area.
+1. Click **Templates**in the left navigation panel.
+1. If you want to approve a template, click **Approve**to the right of the template.
+1. If you want to disapprove a template, click **Disapprove**to the right of the template.
 
 >[!NOTE]
 >

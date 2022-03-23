@@ -4,6 +4,7 @@ content-type: api;faq
 navigation-topic: api-navigation-topic
 title: Adobe Workfront User Unification Management Initiative FAQ (Draft)
 description: In order to make your work life easier, Adobe Workfront is streamlining the way you manage users and passwords by introducing our Unified User Management (UUM) initiative. UUM is designed to unify your users across all Workfront products and services by providing a consistent sign-in experience.
+hidefromtoc: true
 ---
 
 # Adobe Workfront User Unification Management Initiative FAQ (Draft)
@@ -17,14 +18,14 @@ Workfront UUM provides the following benefits:
 * Usernames are no longer required to be unique across all instances of Workfront.
 * Users experience a consistent sign-in across the following Workfront products and services:
 
-  * Workfront
-  * ProofHQ
-  * Workfront Customer Support
-  * Workfront Community
-  * Workfront Training (Ascent)
-  * Workfront Idea Exchange
-  * Workfront Mobile App
-  * Workfront Proof Mobile App
+   * Workfront
+   * ProofHQ
+   * Workfront Customer Support
+   * Workfront Community
+   * Workfront Training (Ascent)
+   * Workfront Idea Exchange
+   * Workfront Mobile App
+   * Workfront Proof Mobile App
 
 * Users can access new Workfront products without having to manage a new username and password.
 * Your organization can more effectively support users that do not have credentials from your single sign-on (SSO) provider.
@@ -89,44 +90,44 @@ After UUM migration Workfront will solely support SAML 2.0. If your SSO applicat
 If your organization currently uses SAML 2.0 for SSO, your users will not need to reset their passwords when you migrate to Workfront UUM. Instead, you will need to update your SSO settings to account for UUM. Contact Workfront Support for more details.
 
 <!--
-How will the migration take place?
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>How will the migration take place?</strong> </p>
 -->
 
 <!--
-<add text here>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><add text here></p>
 -->
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
 -->
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
 -->
 
 <!--
-Migration Plan for customers using SSO:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Migration Plan for customers using SSO:</p>
 -->
 
 <!--
-<add text here>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><add text here></p>
 -->
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
 -->
 
 <!--
-Sandboxes and Other Workfront Instances
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Sandboxes and Other Workfront Instances</p>
 -->
 
 <!--
-<add text here>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><add text here></p>
 -->
 
 ## Summary of UUM Functionality
 
-| `Current Functionality`  | `Functionality After UUM`  | `System Admin Action`  |
+| **Current Functionality** |**Functionality After UUM** |**System Admin Action** |
 |---|---|---|
 | Users are required to have a unique username for each Workfront instance. |Users need only one unique username across all Workfront instances. |Ensure each user has a username that meets the new requirements.&nbsp; |
 | Multiple users within the same Workfront instance can use the same email address (except for having varying combination of uppercase and lowercase letters). |Workfront no longer distinguishes between uppercase and lowercase letters. |Ensure each user has a unique email. If duplicating users within the same Workfront instance with one email address, try giving each user an email alias or a new, unique email address. |

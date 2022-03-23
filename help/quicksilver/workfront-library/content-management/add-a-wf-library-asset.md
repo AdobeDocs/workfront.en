@@ -19,17 +19,17 @@ When you add a document from Workfront Library to Workfront, Workfront creates a
 To learn how to send a document from Workfront to Workfront Library, see [Send documents from Workfront to Workfront Library](../../workfront-library/content-management/send-documents-from-wf-to-library.md).
 
 1. In Workfront, navigate to the Documents tab of the object where you want to add a document from Workfront Library.
-1. Click `Add New`.
+1. Click **Add New**.
 
    ![](assets/content-adddoctowf-350x163.png)
 
-1. In the drop-down menu, click `From Workfront Library`.
+1. In the drop-down menu, click **From Workfront Library**.
 
    ![](assets/content-linktowf-350x383.png)
 
-1. In the `Link External Files and Folders` dialog box, navigate to the document you want to add to Workfront, and select it.
+1. In the **Link External Files and Folders** dialog box, navigate to the document you want to add to Workfront, and select it.
 1. Repeat Step 4 to add multiple documents to a Workfront object.
-1. Click `Link`.
+1. Click **Link**.
 
    Workfront adds the document to the Workfront object. On the Documents tab for the Workfront object, any documents added from Workfront Library display the Workfront icon.
 

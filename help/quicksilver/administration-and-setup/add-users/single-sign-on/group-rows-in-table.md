@@ -5,7 +5,9 @@
 You can organize the information in a report by displaying it in groups defined by currency, date, percentage, text, and time
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 fields
+</MadCap:conditionalText>
 -->
 
 .
@@ -44,24 +46,28 @@ You must have the following access to perform the steps in this article:
 Before you begin, you must enroll in the Reporting Canvas beta program.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
+</MadCap:conditionalText>
 -->
 
 ## Group rows in a table
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Reports`.
-1. Click `New report`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click **New report**.
 
    Or
 
-   Go to an existing report, click the `More Menu` icon ![](assets/more-icon.png) in the report header, then select `Edit`. 
+   Go to an existing report, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**. 
 
    <!--
+   <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    Should this step be a separate section and just a link here?
+   </MadCap:conditionalText>
    -->
 
 1. (Conditional) To group rows on an existing table, click the **Edit** icon ![](assets/edit-icon.png) in the table header.
-1. In the right panel, locate the field that you want group by and drag it to the `Group` section.
+1. In the right panel, locate the field that you want group by and drag it to the **Group** section.
 
    You can use the Search box to find the group you want.
 
@@ -117,12 +123,12 @@ For more information, see [link to Beta enrollment info].
     </tbody> 
    </table>
 
-1. (Optional) To have rows in a group collapsed by default, click the `More menu` icon ![](assets/more-icon.png) next to the group, then select `Collapse`.
+1. (Optional) To have rows in a group collapsed by default, click the **More menu** icon ![](assets/more-icon.png) next to the group, then select **Collapse**.
 
    >[!NOTE]
    >
    >Each group can be set individually to display with rows collapsed or expanded. By default, all grouped rows are collapsed.
 
-1. (Optional) To display a count in the group row, click the `More menu` icon ![](assets/more-icon-27x15.png) next to the group, then select `Display count`.
-1. (Optional) To remove a group, click the `More menu` icon ![](assets/more-icon.png) next to the group, then select `Remove group`.
+1. (Optional) To display a count in the group row, click the **More menu** icon ![](assets/more-icon-27x15.png) next to the group, then select **Display count**.
+1. (Optional) To remove a group, click the **More menu** icon ![](assets/more-icon.png) next to the group, then select **Remove group**.
 

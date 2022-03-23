@@ -9,7 +9,7 @@ description: Note: The information on this page refers to functionality not yet 
 
 # Format your CSV file for metadata import in Workfront Library
 
-Note: The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments. Workfront Library can consume a CSV file with up to 100,000 rows of data. While a larger file can take longer to import, Workfront recommends importing one file—if possible—because Workfront Library only processes one metadata import at a time. If you need to import multiple files, you must wait until the first file has finished before you can start another import.
+``` ```**Note: **``````The information on this page refers to functionality not yet generally available. It is available only to a limited number of environments. Workfront Library can consume a CSV file with up to 100,000 rows of data. While a larger file can take longer to import, Workfront recommends importing one file—if possible—because Workfront Library only processes one metadata import at a time. If you need to import multiple files, you must wait until the first file has finished before you can start another import.
 
 >[!NOTE]
 >
@@ -83,19 +83,19 @@ If an asset already has metadata information in Workfront Library but the metada
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><span class="bold">Single-select fields</span> </p> </td> 
+   <td role="rowheader"> <p><strong>Single-select fields</strong> </p> </td> 
    <td>Regardless of whether metadata exists for the asset already, the tag entered in the column of a single-select field is mapped to the asset listed and all previous selections are removed from that field. If there are multiple tags listed for a single-select metadata option, only the first tag maps to the asset. However, the additonal tags listed will be added as options if they weren't already options for that field.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="bold">Multi-select fields</span> </p> </td> 
+   <td role="rowheader"> <p><strong>Multi-select fields</strong> </p> </td> 
    <td>Regardless of whether metadata exists for the asset already, the tag(s) entered in the column of a multi-select field is mapped to the asset listed and all previous selections are removed from the field. If there are tags listed that aren't already options for that field, they are added as selections.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Keyword fields</span> </td> 
+   <td role="rowheader"><strong>Keyword fields</strong> </td> 
    <td> <p>Any keywords entered in this column are added to the current keyword list for the asset. All keywords previously added to the asset remain.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Blank cells</span> </td> 
+   <td role="rowheader"><strong>Blank cells</strong> </td> 
    <td> <p><span style="font-weight: normal;">Leaving a cell blank in a column does not affect an asset's current metadata selections. To remove metadata information from an asset, you must remove them manually.</span> </p> </td> 
   </tr> 
  </tbody> 

@@ -5,6 +5,7 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Make an HTTP request with an API Key
 description: Use the JSON Generator in the Create JSON module to automatically add a data structure using a sample JSON. Learn how to modify it and make an HTTP request using an API key to connect to a third-party service.
+hidefromtoc: true
 ---
 
 # Make an HTTP request with an API Key
@@ -12,18 +13,22 @@ description: Use the JSON Generator in the Create JSON module to automatically a
 Use the JSON Generator in the Create JSON module to automatically add a data structure using a sample JSON. Learn how to modify it and make an HTTP request using an API key to connect to a third-party service.
 
 <!--
-In this tutorial, we have used SendGrid and have shown how to do the following:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In this tutorial, we have used SendGrid and have shown how to do the following:</p>
 -->
 
 <!--
-Connect to SendGrid over HTTP Send an email using SendGrid directly from the HTTP module on Workfront Fusion Send an email using a template on SendGrid
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1">Connect to SendGrid over HTTP</li>
+<li value="2">Send an email using SendGrid directly from the HTTP module on Workfront Fusion</li>
+<li value="3">Send an email using a template on SendGrid</li>
+</ol>
 -->
 
 >[!NOTE]
 >
 >* >
 >  <!-->
->  SendGrid's authentication takes place using an API Key and hence why we use the 'Make a request' HTTP module on Workfront Fusion.>
+>  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">SendGrid's authentication takes place using an API Key and hence why we use the 'Make a request' HTTP module on Workfront Fusion.</p>>
 >  -->
 >  Screenshot
 >
@@ -33,7 +38,9 @@ Connect to SendGrid over HTTP Send an email using SendGrid directly from the HTT
 >
 >* To send an email using a template, you need to add the 'template_id' parameter.>
 >  <!-->
+>  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >  As you can see in the image below,>
+>  </MadCap:conditionalText>>
 >  -->
 >  'Template_id' is a simple string and is an optional parameter, so it can be left blank.
 >
@@ -41,18 +48,18 @@ Connect to SendGrid over HTTP Send an email using SendGrid directly from the HTT
 >
 
 <!--
-Video Tutorial:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Video Tutorial:</p>
 -->
 
 <!--
-Video
+<p class="PinkDraftNote" data-mc-conditions="QuicksilverOrClassic.Draft mode">Video</p>
 -->
 
 <!--
-You can refer to the SendGrid API Docs here.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can refer to the SendGrid API Docs <a href="https://sendgrid.com/docs/API_Reference/api_v3.html">here</a>.</p>
 -->
 
 <!--
-Please note that Workfront Fusion only supports V3 of the SendGrid API.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Please note that Workfront Fusion only supports V3 of the SendGrid API.</p>
 -->
 

@@ -10,7 +10,7 @@ description: You can use project templates to capture most of the repeatable pro
 
 You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization. While projects have specific start and completion dates, templates have generic start and completion days as an indication for where these dates will fall on the project, based on the overall timeline of the project.
 
-` `**Example: **``If a project's Start&nbsp;Date is April 1 and you want a task to start on April 3rd (two days after the start of the project), the corresponding task on the template that creates the project should start on Day 2 of the template, where the first day of the template is considered Day 0.
+``` ```**Example: **``````If a project's Start&nbsp;Date is April 1 and you want a task to start on April 3rd (two days after the start of the project), the corresponding task on the template that creates the project should start on Day 2 of the template, where the first day of the template is considered Day 0.
 
 ## Start Day
 

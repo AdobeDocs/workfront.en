@@ -39,7 +39,7 @@ You must have the following:
 ## Configure actions
 
 <!--
-A Select or Premium Workfront Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Workfront Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</p>
 -->
 
 For information about using actions in the proofing viewer, see [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -52,34 +52,34 @@ You can configure actions for your organization in the following ways:
 
 ### Add or rename an action
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof. 
-1. Click `Settings` >  `Account settings` in the upper-right corner of the Workfront Proof interface, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.  
+1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
 1. Do either of the following:
 
-  * To create a new action, in the `Actions` section, click  `New action`.
+   * To create a new action, in the **Actions** section, click&nbsp;**New action**.
 
-    There is no limit to the number of actions you can set up in your account.
-  
-  * To rename an existing action, click `Setup` next to the action.
+     There is no limit to the number of actions you can set up in your account.
+   
+   * To rename an existing action, click **Setup** next to the action.
 
-1. Type a name for the action, then click `Save`.
-1. Click `Save.`
+1. Type a name for the action, then click **Save**.
+1. Click **Save.**
 
 ### Deactivate or reactivate an action
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof. 
-1. Click `Settings` >  `Account settings` in the upper-right corner of the Workfront Proof interface, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.  
+1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
-1. Click `Setup` next to the action you want to deactivate or reactivate.
-1. Select `Activate` or `Deactivate`, then click `Save`.
+1. Click **Setup** next to the action you want to deactivate or reactivate.
+1. Select **Activate** or **Deactivate**, then click **Save**.
 
 ### Reorder actions
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof. 
-1. Click `Settings` >  `Account settings` in the upper-right corner of the Workfront Proof interface, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.  
+1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
-1. Click the blue up and down arrows next to  `Setup`&nbsp;to reorder the actions.
+1. Click the blue up and down arrows next to&nbsp;**Setup**&nbsp;to reorder the actions.
 
    ![Re-order_actions.png](assets/re-order-actions-350x103.png)
 
@@ -91,12 +91,12 @@ For information about how users can select devices when reviewing interactive co
 
 To add a custom device:
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof. 
-1. Click `Settings` >  `Account settings` in the upper-right corner of the Workfront Proof interface, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.  
+1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
-1. In the `Custom Devices for proofs` section, click `Add new device`.
+1. In the **Custom Devices for proofs** section, click **Add new device**.
 
-1. In the `Add new device` box that appears, specify the following information:
+1. In the **Add new device** box that appears, specify the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -129,7 +129,7 @@ To add a custom device:
     </tbody> 
    </table>
 
-1. Click `Create`.
+1. Click **Create**.
 
 ## Configure pop-up messages for proofs
 
@@ -137,16 +137,16 @@ You can configure pop-up messages on proofs to communicate general information t
 
 You can configure messages to appear in the following situations:
 
-* `On load message`: Displays when the proof first opens. Useful for explaining to users how to review a proof or to provide a disclaimer or other legal text.
-* `On decision message`: Displays when a user selects a decision on a proof. Useful for giving your users checklists for things such as brand or regulatory compliance. For information about decisions, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **On load message**: Displays when the proof first opens. Useful for explaining to users how to review a proof or to provide a disclaimer or other legal text.
+* **On decision message**: Displays when a user selects a decision on a proof. Useful for giving your users checklists for things such as brand or regulatory compliance. For information about decisions, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-* `Confirm button text`: The label that displays on the button in the On load pop-up message explained above.
+* **Confirm button text**: The label that displays on the button in the On load pop-up message explained above.
 
 To create pop-up messages for proofs:
 
-1. Click `Edit` to the right of the message you want to customize.
-1. Specify a message and include the appropriate formatting, then click `Save`.
-1. (Optional) If you customized the On load message and you want to also customize the confirmation button label, click  `Edit` to the right of  `Confirm button text`, specify a label, then click  `Save`.&nbsp;
+1. Click **Edit** to the right of the message you want to customize.
+1. Specify a message and include the appropriate formatting, then click **Save**.
+1. (Optional) If you customized the On load message and you want to also customize the confirmation button label, click&nbsp;**Edit** to the right of&nbsp;**Confirm button text**, specify a label, then click&nbsp;**Save**.&nbsp;
 
 ## Configure proof defaults
 
@@ -158,22 +158,22 @@ You can define global proof default settings that apply to all proofs created by
 
 To modify the default settings for proofs:
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof. 
-1. Click `Settings` >  `Account settings` in the upper-right corner of the Workfront Proof interface, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.  
+1. Click **Settings** >&nbsp;**Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
-1. Continue with the following sections to learn about each available option in the `Proof Defaults` section:
+1. Continue with the following sections to learn about each available option in the **Proof Defaults** section:
 
-  * [Deadline (+business days)](#deadline-business-days) 
-  * [Copy owner from original proof](#copy-owner-from-original-proof) 
-  * [Electronic signatures](#electronic-signatures) 
-  * [Proof counter](#proof-counter) 
-  * [Make folder mandatory](#make-folder-mandatory) 
-  * [Disable proof email notifications](#disable-proof-email-notifications) 
-  * [Right-to-left text support in comments](#right-to-left-text-support) 
-  * [Login required](#login-required) 
-  * [Comment deletion](#comment-deletion) 
-  * [Web Proofing Viewer](#web-proofing-viewer) 
-  * [Desktop Proofing Viewer](#desktop-proofing-viewer)
+   * [Deadline (+business days)](#deadline-business-days) 
+   * [Copy owner from original proof](#copy-owner-from-original-proof) 
+   * [Electronic signatures](#electronic-signatures) 
+   * [Proof counter](#proof-counter) 
+   * [Make folder mandatory](#make-folder-mandatory) 
+   * [Disable proof email notifications](#disable-proof-email-notifications) 
+   * [Right-to-left text support in comments](#right-to-left-text-support) 
+   * [Login required](#login-required) 
+   * [Comment deletion](#comment-deletion) 
+   * [Web Proofing Viewer](#web-proofing-viewer) 
+   * [Desktop Proofing Viewer](#desktop-proofing-viewer)
 
 ### Deadline (+business days)
 
@@ -190,7 +190,7 @@ This setting applies both to creating new proofs and copying proofs.
 ### Electronic signatures
 
 <!--
-A Select or Premium Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
 -->
 
 This setting makes electronic signatures mandatory on all proofs created in your organization's account. When decision makers on the proof submit their decision, Workfront Proof prompts them to confirm the decision by entering their login credentials. This means that your users cannot share proofs with Guest reviewers who don't have Workfront Proof logins.
@@ -202,7 +202,7 @@ To learn more about&nbsp;electronic signatures, see [Understanding electronic si
 ### Proof counter
 
 <!--
-A Select or Premium Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
 -->
 
 The Proof counter assigns a number to the proofs created in your account. It is unique to your account.
@@ -234,7 +234,7 @@ If your reviewers use languages with right-to-left text direction&nbsp;in their 
 ### Login required
 
 <!--
-A Select or Premium Plan is required to use this feature. For more information about the various plans available, see Workfront Plans.
+<p style="padding: 2px 6px 4px 6px; color: #555555; background-color: #eeeeee; border: #dddddd 2px solid;" data-mc-conditions="QuicksilverOrClassic.Draft mode">A Select or Premium Plan is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans.</a></p>
 -->
 
 Login required enhances the security of the proofs created in your account.&nbsp;If&nbsp;it&nbsp;is enabled, reviewers are required to log in using their email and password before they are allowed to view proofs created in your organization's account. This means that your users cannot share the proof with Guest reviewers.
@@ -310,15 +310,15 @@ You can specify who your organization's proofs can be shared with, what versions
 For more detailed information about sharing settings within Workfront Proof, see [Configure sharing settings for your users](../../../administration-and-setup/manage-workfront/configure-proofing/configure-sharing-settings-users.md).&nbsp;
 
 <!--
-Configure a custom sub-domain for your organization
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Custom-sub-domain"></a>Configure a custom sub-domain for your organization</h2>
 -->
 
 <!--
-You can create a customized sub-domain for your account. The sub-domain will replace the word "app" in your account URL with the sub-domain name.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can create a customized sub-domain for your account. The sub-domain will replace the word "app" in your account URL with the sub-domain name.</p>
 -->
 
 <!--
-For more detailed information branded sub-domains, see Configuring a Branded Sub-Domain in the article Configure a branded domain in Workfront Proof.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more detailed information branded sub-domains, see <a href="../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md#branded-sub-domains" class="MCXref xref">Configuring a Branded Sub-Domain</a> in the article&nbsp;<a href="../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md" class="MCXref xref">Configure a branded domain in Workfront Proof</a>.</p>
 -->
 
 ## Brand the Workfront Proof site
@@ -337,9 +337,9 @@ For detailed information about how to brand the Workfront Proof site, see&nbsp; 
 >
 >This option is available only for Legacy Workfront plans. If you are on a Pro, Business or Enterprise Workfront plan, you can no longer configure advanced password settings.
 
-Under `Advanced password settings`, you can enhance password security for your users.
+Under **Advanced password settings**, you can enhance password security for your users.
 
-1. Click `Setup` to the right of the setting you want to configure:
+1. Click **Setup** to the right of the setting you want to configure:
 
    <table cellspacing="0"> 
     <col> 
@@ -350,11 +350,11 @@ Under `Advanced password settings`, you can enhance password security for your u
       <td>The default Workfront Proof password length is six&nbsp;characters. You may want to increase the number, depending on your organization's policies.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Character mix</span> </td> 
+      <td role="rowheader"><strong>Character mix</strong> </td> 
       <td>You can force the users to use a mix of lowercase, uppercase, numbers, and symbols in their passwords. You decide how many characters the password should contain.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Maximum characters repetition</span> </td> 
+      <td role="rowheader"><strong>Maximum characters repetition</strong> </td> 
       <td>You can specify how many characters can repeat in each user's password.</td> 
      </tr> 
      <tr> 
@@ -362,11 +362,11 @@ Under `Advanced password settings`, you can enhance password security for your u
       <td>Forces users to regularly change their password. You decide how often they will do so.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Number of password repetitions not allowed</span> </td> 
+      <td role="rowheader"><strong>Number of password repetitions not allowed</strong> </td> 
       <td>Configure the number of password repetitions not allowed in your account.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Profile lockout</span> </td> 
+      <td role="rowheader"><strong>Profile lockout</strong> </td> 
       <td>Locks your users out of the account after a number of unsuccessful login attempts that you specify. You also specify how long they should wait before they can access their account again.</td> 
      </tr> 
      <tr> 
@@ -378,7 +378,7 @@ Under `Advanced password settings`, you can enhance password security for your u
       <td>If your user doesn't log into Workfront Proof or a Login-required proof for 120 days, they are locked out of the account.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Change password after first login</span> </td> 
+      <td role="rowheader"><strong>Change password after first login</strong> </td> 
       <td>Requires users to change their temporary password after their first login.<p>Account Administrators can unlock (reactivate) users who are automatically locked out by the system.</p><p>or more password information, see <a href="../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md" class="MCXref xref">Logging in and changing your password and email for Workfront Proof</a>.</p></td> 
      </tr> 
     </tbody> 

@@ -45,9 +45,9 @@ You must have the following access to perform the steps in this article:
 To apply this grouping to a list of tasks:
 
 1. Go to a list of tasks. 
-1. From the `Grouping`drop-down menu, select `New Grouping`.
+1. From the **Grouping**drop-down menu, select **New Grouping**.
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. In the available space, add the following code:
 
    ```
@@ -62,5 +62,5 @@ To apply this grouping to a list of tasks:
    }>25&&{percentComplete}<=50,'26-50%',IF({percentComplete}>50&&{percentComplete}<=75,'51-75%',IF({percentComplete}>75&&{percentComplete}<=100,'76-100%',''))))<br>group.0.linkedname=direct<br>group.0.valueformat=doubleAsString<br>group.0.namekey=percentComplete
    ```
 
-1. Click `Done`, then `Save Grouping`.
+1. Click **Done**, then **Save Grouping**.
 

@@ -24,11 +24,11 @@ As a Workfront user, you are not automatically given access to your organization
 
 There are 3 access levels available, with each level allowing the user to perform specific activities in Workfront Library:
 
-* `Admin`: Allows the user full access to everything in Workfront Library. For more information on Admin tasks, see [Administration and setup of Workfront Library](../../../workfront-library/administration-and-setup/administration-and-setup-library.md). 
+* **Admin**: Allows the user full access to everything in Workfront Library. For more information on Admin tasks, see [Administration and setup of Workfront Library](../../../workfront-library/administration-and-setup/administration-and-setup-library.md). 
 
-* `Manager`: Allows the user to upload, edit, and share items in Workfront Library and to any portal to which they have been given Manage permission. For more information on Manager tasks, see [Content management in Workfront Library](../../../workfront-library/content-management/content-management.md).
+* **Manager**: Allows the user to upload, edit, and share items in Workfront Library and to any portal to which they have been given Manage permission. For more information on Manager tasks, see [Content management in Workfront Library](../../../workfront-library/content-management/content-management.md).
 
-* `Viewer`: Allows the user to see and download items to which they have View permission. For information on Viewer tasks, see [Workfront Library Basics](../../../workfront-library/content-management/basics/basics.md).
+* **Viewer**: Allows the user to see and download items to which they have View permission. For information on Viewer tasks, see [Workfront Library Basics](../../../workfront-library/content-management/basics/basics.md).
 
 For more information about access levels, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md)
 
@@ -40,10 +40,8 @@ If you have Manager or higher access to Workfront Library, you can upload conten
 
 ## Tour of Workfront Library
 
-Once you have your assigned access level, you can open Workfront Library from Workfront. Click the `Workfront Library` icon in the upper-right corner of the Global Navigation Bar.
-In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-
-![](assets/library-left-panel---new-350x217.png)
+Once you have your assigned access level, you can open Workfront Library from Workfront. Click the **Workfront Library** icon in the upper-right corner of the Global Navigation Bar.
+In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab.  ![](assets/library-left-panel---new-350x217.png)
 
 Depending on your access level, you can access the following areas of Workfront Library:
 

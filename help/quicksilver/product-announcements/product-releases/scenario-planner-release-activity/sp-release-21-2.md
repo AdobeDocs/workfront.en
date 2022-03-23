@@ -33,7 +33,7 @@ For more information, see the following articles:
 * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md) 
 * [Import projects to plans in the Adobe Workfront Scenario Planner](../../../scenario-planner/import-projects-to-plans.md)
 
-`<iframe class="vimeo-player_0" src="assets/539863715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/539863715?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/539863715/e851ec323a)
 
@@ -43,11 +43,11 @@ To help you with the strategic planning of your projects and ensure they align w
 
 For information, see the following articles:
 
-* Overview of reconciling resource allocations between projects and initiatives.
+* Overview of reconciling resource allocations between projects and initiatives .
 * Navigate the Workload Balancer
 
 For information, see [Overview of reconciling resource allocations between projects and initiatives](../../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-`<iframe class="vimeo-player_0" src="assets/539890235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/539890235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/539890235/7127d1d666) 

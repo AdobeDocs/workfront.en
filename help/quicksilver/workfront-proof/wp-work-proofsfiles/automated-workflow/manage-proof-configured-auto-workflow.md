@@ -63,7 +63,7 @@ The diagram of your Automated Workflow is displayed at the top of the Workflow s
 
 To hide the diagram
 
-1. Click the `Hide` button (1).
+1. Click the **Hide** button (1).
 
 ![Diagram__1_.png](assets/diagram--1--350x217.png)
 
@@ -88,11 +88,11 @@ To find out more about the Progress bar, see&nbsp; [View the Progress and Status
 
 You can add a new stage to your Automated Workflow from the Proof details page.
 
-1. Click the `New stage` button (1).
+1. Click the **New stage** button (1).
 
 ![Adding_a_new_stage_1.png](assets/adding-a-new-stage-1-350x218.png)
 
-In the `New stage` box that appears, you can populate the stage details and settings.
+In the **New stage** box that appears, you can populate the stage details and settings.
 
 ![Adding_a_new_stage_2.png](assets/adding-a-new-stage-2-350x332.png)
 

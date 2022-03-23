@@ -61,7 +61,7 @@ To successfully manage user assignments as described in this section, you must f
 
 The following sections describe how to modify user assignments manually, automatically, or by swapping assignments by user or role.
 
-## `<font size="5"><span style="line-height: 36px;">Manually assign unassigned tasks or issues to users</span></font>`
+## ```<font size="5"><span style="line-height: 36px;">Manually assign unassigned tasks or issues to users</span></font>```
 
 The scheduling timeline provides the needed visibility into which users are capable of completing the task or issue.   
 For more information about the scheduling timeline, see [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
@@ -72,7 +72,7 @@ You can assign individual tasks and issues to users on the scheduling timeline f
 * The Staffing tab (when scheduling resources for a single project). 
 * The Working On tab (when scheduling resources for a team).
 
-The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of Workfront where you are using resource scheduling (either from the Scheduling tab(when scheduling resources for multiple projects), the Staffing tab (when scheduling resources for a single project), or theWorking On tab (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
+The information displayed in the Unassigned area at the top of the scheduling timeline differs depending on the area of Workfront where you are using resource scheduling (either from the Scheduling tab (when scheduling resources for multiple projects), the Staffing tab (when scheduling resources for a single project), or the Working On tab (when scheduling resources for a team). For more information, see the section [Functionality available in the Scheduling area](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md#functionality-available-in-the-scheduling-area) in the article [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
 Depending on the area of Workfront where you are viewing the scheduling timeline, only some users might be eligible to be assigned work. For more information, see [Overview of the Scheduling areas](../../resource-mgmt/resource-scheduling/overview-scheduling-areas.md).
 
@@ -80,9 +80,9 @@ To assign unassigned tasks or issues to users on the scheduling timeline:
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;Click People in the Global Navigation Bar, click the Workload Balancer tab, then click Switch back to Scheduling. 
-  * **For an individual project**: Go to a project, then click the Staffing tab (the Staffing tab might be located under the More menu), then ensure that the Scheduling tab is selected and click Switch back to Scheduling.
-  * **For a team**: Click People in the Global Navigation Bar, click the Teams tab, select the team from the drop-down menu, then click the Working On subtab and click Switch back to Scheduling.
+   * **For multiple projects**:&nbsp;Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**. 
+   * **For an individual project**: Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the**Scheduling** tab is selected and click **Switch back to Scheduling**.
+   * **For a team**: Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
    ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 
@@ -92,22 +92,22 @@ To assign unassigned tasks or issues to users on the scheduling timeline:
 
 1. Do the following to assign an unassigned task or issue:
 
-  * Drag the task or issue to the row of the user you want to assign.  
-    A maximum of 10 tasks per day are displayed for a given user. You can expand the list to view all tasks currently assigned to that user. (After making assignments on the scheduling timeline, more than 10 tasks might be temporarily displayed.)  
-    As you drag an item, the following information is displayed prior to releasing the task or issue and completing the assignment:
-  
-  * If user allocations are enabled on the scheduling timeline, the red overallocation indicators display if completing the assignment results in the user being overallocated.  
-    For more information about overallocation indicators, see the section [Allocation indicators](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md#understanding-allocation-indicators) in the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
+   * Drag the task or issue to the row of the user you want to assign.  
+     A maximum of 10 tasks per day are displayed for a given user. You can expand the list to view all tasks currently assigned to that user. (After making assignments on the scheduling timeline, more than 10 tasks might be temporarily displayed.)  
+     As you drag an item, the following information is displayed prior to releasing the task or issue and completing the assignment:
+   
+   * If user allocations are enabled on the scheduling timeline, the red overallocation indicators display if completing the assignment results in the user being overallocated.  
+     For more information about overallocation indicators, see the section [Allocation indicators](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md#understanding-allocation-indicators) in the article [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
-    If the `Limit Assignments to Users with a Matching Role` option is enabled in the Settings area, users who are not eligible to receive the assignment are dimmed. If this option is disabled, all users are available to receive the assignment. The option is enabled by default.  
-    For more information about this option, see [By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them.](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md#allowing-assignmennts-to-users-regardless-of-role) in [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
+     If the **Limit Assignments to Users with a Matching Role** option is enabled in the Settings area, users who are not eligible to receive the assignment are dimmed. If this option is disabled, all users are available to receive the assignment. The option is enabled by default.  
+     For more information about this option, see [By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them.](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md#allowing-assignmennts-to-users-regardless-of-role) in [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md)
 
-    A drop indicator displays in the row of the user. This enables you to see where an item is being assigned prior to making the assignment.
+     A drop indicator displays in the row of the user. This enables you to see where an item is being assigned prior to making the assignment.
 
-    Expand the task or issue you want to assign, click the drop-down arrow in the `Assignments` field, begin typing the name of the user you want to assign, then click the user's name in the drop-down list.  
-    ![schedule_task_expanded.png](assets/schedule-task-expanded-350x170.png)
+     Expand the task or issue you want to assign, click the drop-down arrow in the **Assignments** field, begin typing the name of the user you want to assign, then click the user's name in the drop-down list.  
+     ![schedule_task_expanded.png](assets/schedule-task-expanded-350x170.png)
 
 1. (Conditional) After assigning an unassigned task or issue to a user, you might want to adjust the existing assignments for tasks and issues among the users on the scheduling timeline. When scheduling resources for projects (either on the Scheduling tab or the Staffing tab), only users that have the same job role can receive the assignment.   
    To re-assign a task or issue to another user, drag the task from the row of one user to the row of another user.
-1. `(Optional) Configure the number of hours each assigned user is allocated to the task or issue, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)` .
+1. ```(Optional) Configure the number of hours each assigned user is allocated to the task or issue, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)``` .
 

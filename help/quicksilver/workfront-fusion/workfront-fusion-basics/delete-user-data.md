@@ -20,7 +20,7 @@ You can store and delete user data in the following areas in your Adobe Workfron
 * User profiles
 
 <!--
-For information about deleting your user account, see Delete an account.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deleting your user account, see <a href="../../workfront-fusion/workfront-fusion-basics/delete-an-account.md" class="MCXref xref">Delete an account</a>.</p>
 -->
 
 ## Access requirements
@@ -34,7 +34,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -43,7 +47,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -58,8 +69,8 @@ To delete user data:
 
 1. Click the area in the left panel .
 
-   For example, if you want to delete a scenario, click `Scenario` in the left panel.
+   For example, if you want to delete a scenario, click **Scenario** in the left panel.
 
-1. Click the down arrow to the right of the item you want to delete, then click `Delete`.
-1. Click `Really` to confirm.
+1. Click the down arrow to the right of the item you want to delete, then click **Delete**.
+1. Click **Really** to confirm.
 

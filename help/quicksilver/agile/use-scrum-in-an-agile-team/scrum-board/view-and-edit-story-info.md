@@ -18,9 +18,9 @@ When viewing&nbsp;a story tile on the story board, the information in the follow
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Information</span> </th> 
-   <th><span class="bold">Visible</span> </th> 
-   <th><span class="bold">Editable Inline</span> </th> 
+   <th><strong>Information</strong> </th> 
+   <th><strong>Visible</strong> </th> 
+   <th><strong>Editable Inline</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -95,6 +95,13 @@ You must have the following access to perform the steps in this article:
 
 ## View and edit information on a story tile
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
+1. Iterations
+1. Current Iteration
 1. Go to the Scrum agile story board.
 1. Expand the story tile to view all fields associated with the story.
 

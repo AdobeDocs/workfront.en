@@ -53,10 +53,10 @@ To apply this grouping:
 1. Go to an existing project report, or create a new project report.  
    For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. From the `Grouping` tab, click `Add Grouping`.
+1. From the **Grouping** tab, click **Add Grouping**.
 
 1. Click **Switch to Text Mode**.
-1. Remove the text in the `Group your Report` area.
+1. Remove the text in the **Group your Report** area.
 1. Replace the text with the following code:
 
    ```
@@ -79,5 +79,5 @@ To apply this grouping:
    textmode=true
    ```
 
-1. Click `Save + Close`.
+1. Click **Save + Close**.
 

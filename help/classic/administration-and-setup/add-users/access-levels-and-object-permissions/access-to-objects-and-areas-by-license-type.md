@@ -12,8 +12,8 @@ description: The table below tells you the highest level of access (Edit or View
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
-* `View`: The user can review and share items.
-* `Edit`: The user can create, edit, delete, and share items.
+* **View**: The user can review and share items.
+* **Edit**: The user can create, edit, delete, and share items.
 
   >[!NOTE]
   >

@@ -45,9 +45,9 @@ You must have the following to perform the steps in this article:
 
 ## Create a team
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Teams`, then click `New Team`.
+1. Click **Teams**, then click **New Team**.
 
 1. In the **New Team** box that displays, specify the following information:
 
@@ -61,7 +61,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Group</td> 
-      <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+      <td> <p>If you want to associate the team with a group, start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Team Members</td> 
@@ -74,7 +74,11 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Calendar</td> 
       <td>Choose which calendar tab will appear for this team.</td> 
-     </tr> This is an Agile Team Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see Create an agile team. 
+     </tr> 
+     <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
+      <td role="rowheader">This is an Agile Team</td> 
+      <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Work On It</td> 
       <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
@@ -86,7 +90,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click  `Create Team`.
+1. Click&nbsp;**Create Team**.
 
 ## Team owners
 

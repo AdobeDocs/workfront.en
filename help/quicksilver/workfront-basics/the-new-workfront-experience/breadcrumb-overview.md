@@ -33,11 +33,11 @@ You can also use the following keys to navigate the breadcrumbs:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span class="bold">Tab</span> </td> 
+   <td role="rowheader"><strong>Tab</strong> </td> 
    <td> <p>Navigate to each item in the breadcrumbs</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Enter</span> </td> 
+   <td role="rowheader"><strong>Enter</strong> </td> 
    <td> <p>Expand a collapsed breadcrumb path, collapse an expanded breadcrumb path, and open a new page when on an object link</p> </td> 
   </tr> 
  </tbody> 
@@ -70,7 +70,7 @@ You must have the following access to perform the steps in this article:
 
 For information about parent objects in&nbsp;Adobe Workfront administrator, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click `more`, then locate the object.
+1. (Conditional) If you don't see the object you want to navigate to in a collapsed breadcrumb path, click **more**, then locate the object.
 
    >[!NOTE]
    >

@@ -28,9 +28,13 @@ You must have the following:
    <td> <p>Review, Work, or Plan</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Product*</span> </td> 
+   <td><strong>Product*</strong> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* View access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -60,7 +64,7 @@ To request permissions:
 
    ![](assets/request-access-to-plan-350x277.png)
 
-1. In the `Request access to` drop-down menu, indicate what level of permissions you wish to be granted.&nbsp;Select from the following:
+1. In the **Request access to** drop-down menu, indicate what level of permissions you wish to be granted.&nbsp;Select from the following:
 
   * View
   * Manage
@@ -71,7 +75,7 @@ To request permissions:
 
    For information on a Workfront administrator can manage access to the Scenario Planner, see [Grant access to Scenario Planner](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md). 
 
-1. (Optional) Enter a comment or request in the `Leave comment box`, then click `Request access`.
+1. (Optional) Enter a comment or request in the **Leave comment box**, then click **Request access**.
 
    The following happens:&nbsp;
 

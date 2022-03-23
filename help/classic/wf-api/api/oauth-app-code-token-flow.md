@@ -174,7 +174,7 @@ To log your users in with OAuth2, use the following process:
 
    [Copy](javascript:void(0);) 
    <pre><code>https://<span style="color: #63a35c; "><URL of your organization's domain></span>/integrations/oauth2/api/v1/token</code></pre>
-   ` `**Examples: **`` Example of CURL call to token endpoint:
+   ``` ```**Examples: **`````` Example of CURL call to token endpoint:
 
    Example 1
 

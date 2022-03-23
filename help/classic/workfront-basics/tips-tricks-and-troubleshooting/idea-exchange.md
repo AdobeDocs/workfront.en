@@ -20,7 +20,7 @@ To vote on an idea:
 
 1. Log in to the Adobe Workfront Community on the Workfront One site at the following URL:&nbsp; [https://one.workfront.com/s/community](https://one.workfront.com/s/community).  
 
-1. Click the `Collaboration` tab, then click `Innovation Lab`.
+1. Click the **Collaboration** tab, then click **Innovation Lab**.
 
 1. Search for the idea you would like to vote on.
 1. Click on the idea.
@@ -30,15 +30,15 @@ When an idea achieves a critical mass, the Workfront Product Management team act
 
 After an idea has been submitted, the idea defaults to the following status:
 
-* `Seeking Votes:`&nbsp;The idea has been submitted and is seeking votes. The more points the idea gets, the more likely it is to receive attention and/ or make the curated list.
+* **Seeking Votes:**&nbsp;The idea has been submitted and is seeking votes. The more points the idea gets, the more likely it is to receive attention and/ or make the curated list.
 
 After the critical threshold of 450 points is reached, the idea will have one of the following statuses:
 
-* `Not Planned:` The Product team has determined they will not create a solution.
-* `On Roadmap:` Workfront plans to do this at some point in the future.
-* `Prioritized:` An idea that was added to the curated list and deemed a winning or top idea by the community. These ideas receive top priority and attention from the Product team.
-* `Partial Delivery:` Part of a solution has been created and delivered. Further updates will be provided.
-* `Delivered:` A solution has been created and delivered. No further updates will be provided and comments will be disabled.
-* `Archived`: Ideas that reach the 18-month-mark (from submission date) and have less than 300 points will be archived.
+* **Not Planned:** The Product team has determined they will not create a solution.
+* **On Roadmap:** Workfront plans to do this at some point in the future.
+* **Prioritized:** An idea that was added to the curated list and deemed a winning or top idea by the community. These ideas receive top priority and attention from the Product team.
+* **Partial Delivery:** Part of a solution has been created and delivered. Further updates will be provided.
+* **Delivered:** A solution has been created and delivered. No further updates will be provided and comments will be disabled.
+* **Archived**: Ideas that reach the 18-month-mark (from submission date) and have less than 300 points will be archived.
 
 To get started or to learn more, log in to the Innovation Lab at&nbsp; [workfront.com/customer](https://www.workfront.com/customer).

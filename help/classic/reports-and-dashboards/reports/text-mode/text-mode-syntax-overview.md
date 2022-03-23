@@ -27,10 +27,10 @@ The following are common guidelines when building any reporting or list element 
 * Always use camel case when referencing objects or attributes in the Workfront database.
 * Keep in mind the hierarchy of objects in Workfront. The following differences exist between views, filters and groupings:
 
-  * You can display an object that is three objects away from the report or list object in a view.
-  * You cannot reference objects that are more than 2 objects away from the main object in a grouping, filter, or custom prompt.
+   * You can display an object that is three objects away from the report or list object in a view.
+   * You cannot reference objects that are more than 2 objects away from the main object in a grouping, filter, or custom prompt.
 
-  ` `**Example: **`` You can display the name or GUID of the Portfolio Owner in a task view:
+  ``` ```**Example: **`````` You can display the name or GUID of the Portfolio Owner in a task view:
 
   ```
   valuefield=project:portfolio:ownerID
@@ -46,8 +46,8 @@ The following are common guidelines when building any reporting or list element 
 
   For information about the hierarchy of objects in Workfront, see:
 
-  * [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 
-  * [API Explorer](../../../wf-api/general/api-explorer.md)
+   * [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) 
+   * [API Explorer](../../../wf-api/general/api-explorer.md)
 
 * Use wildcards whenever possible to make your reports and lists more dynamic and avoid duplicating them for different users and similar timelines.
 
@@ -69,7 +69,7 @@ The characteristics of camel case are:
 * The following words always start with an uppercase letter.
 * There are no spaces between the words.
 
-` `**Example: **`` To reference the Actual Completion Date of a project, the name of the field that you would use when building text mode reporting elements is 
+``` ```**Example: **`````` To reference the Actual Completion Date of a project, the name of the field that you would use when building text mode reporting elements is 
 
 ```
 actualCompletionDate
@@ -85,15 +85,15 @@ The following similarities exist between the syntax of the sets of reporting ele
 
   For information about the key lines of codes for views and groupings when building them in text mode, see:
 
-  * [Edit a view using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md) 
-  * [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Edit a view using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md) 
+   * [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * The lines of code and syntax are similar for filters and custom prompts.
 
   For more information, see:
 
-  * [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md) 
-  * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+   * [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md) 
+   * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntax for views and groupings
 
@@ -121,11 +121,11 @@ valueexpression
 * [Valuefield syntax overview for views and groupings](#valuefie) 
 * [Valueexpression syntax overview for views and groupings](#valueexp)
 
-` `**Tip: **``
+``` ```**Tip: **``````
 
 * Although the lines of code in the examples below are similar between views and groupings, always remember that every line of code for a grouping starts with the grouping number.
 
-  ` `**Example: **`` To group by Project Name in a project list or report, use the following line for the first-tier grouping:
+  ``` ```**Example: **`````` To group by Project Name in a project list or report, use the following line for the first-tier grouping:
 
   ```
   group.0.valuefield=name
@@ -133,7 +133,7 @@ valueexpression
 
 * If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
 
-  ` `**Example: **`` Use the following format to identify the first column of a view:
+  ``` ```**Example: **`````` Use the following format to identify the first column of a view:
 
   ```
   column.0.valuefield=name
@@ -167,7 +167,7 @@ line:
 
 * Use camel case to reference fields directly.
 
-  ` `**Example: **`` To reference the Task&nbsp;Actual Completion Date in a task view, use the following line:
+  ``` ```**Example: **`````` To reference the Task&nbsp;Actual Completion Date in a task view, use the following line:
 
   ```
   valuefield=actualCompletionDate
@@ -175,7 +175,7 @@ line:
 
 * Use camel case and colons to separate fields related to one another for the same object.
 
-  ` `**Example: **`` To reference the Project&nbsp;Planned Completion Date in a task view, use the following line:
+  ``` ```**Example: **`````` To reference the Project&nbsp;Planned Completion Date in a task view, use the following line:
 
   ```
   valuefield=project:plannedCompletionDate
@@ -185,7 +185,7 @@ line:
 
 * When referencing a custom field, use the name of the field exactly as it appears in the interface.
 
-  ` `**Example: **`` To reference a project custom field labeled Additional Details in a task view, use the following line:
+  ``` ```**Example: **`````` To reference a project custom field labeled Additional Details in a task view, use the following line:
 
   ```
   valuefield=project:Additional Details
@@ -215,7 +215,7 @@ valueexpression=
 
 when building views and groupings in text mode when you want to reference a calculation between 2 or more fields.
 
-` `**Tip: **`` Although you can build calculated fields which you can display in reports, calculated views and groupings are more dynamic. Calculated views and groupings refresh with new information every time you run the report or display a list.
+``` ```**Tip: **`````` Although you can build calculated fields which you can display in reports, calculated views and groupings are more dynamic. Calculated views and groupings refresh with new information every time you run the report or display a list.
 
 For information about creating calculated columns in a view, see [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 Building a calculated grouping is similar to building a calculated column in a view.
@@ -230,7 +230,7 @@ line:
 
 * Use camel case to reference fields directly and enclose each field in curly brackets.
 
-  ` `**Example: **`` To display the Task Name field in a task column using 
+  ``` ```**Example: **`````` To display the Task Name field in a task column using 
 
   ```
   valueexpression
@@ -244,30 +244,30 @@ line:
 
 * Use camel case and periods to separate fields related to one another.
 
-  ` `**Example: **`` To display the name of a project concatenated with the name of the task in a task report, use the following lines:
+  ``` ```**Example: **`````` To display the name of a project concatenated with the name of the task in a task report, use the following lines:
 
-  * In a view:   
-  
-    ```  
-    valueexpression=CONCAT({project}.{name},' - ',{name})
-    ```
+   * In a view:    
+   
+     ```   
+     valueexpression=CONCAT({project}.{name},' - ',{name})
+     ```
 
-  * In a grouping:   
-  
-    ```  
-    group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
-    ```
+   * In a grouping:    
+   
+     ```   
+     group.0.valueexpression=CONCAT({project}.{name},' - ',{name})
+     ```
 
   For information about how objects are referencing one another in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When referencing a custom field, use following rules:
 
-  * Use the name of the field exactly as it appears in the interface.
-  * Precede the name of the field with "DE:".
-  * Enclose the field in curly brackets.
-  * Separate the fields related to the object by periods.
+   * Use the name of the field exactly as it appears in the interface.
+   * Precede the name of the field with "DE:".
+   * Enclose the field in curly brackets.
+   * Separate the fields related to the object by periods.
 
-  ` `**Example: **`` To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
+  ``` ```**Example: **`````` To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
 
   ```
   valueexpression={project}.{DE:Additional Details}
@@ -353,15 +353,15 @@ You can use the following elements to build filters and custom prompts in text m
 
 * A statement connector that connects multiple filter statements:
 
-  * AND
+   * AND
 
-    This is the default connector between filter statements.
-  
-  * OR
+     This is the default connector between filter statements.
+   
+   * OR
 
-    >[!TIP]
-    >
-    >Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
+     >[!TIP]
+     >
+     >Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
 
 * Wildcards to make filters more dynamic and customize them for the current time or the user who is logged in. For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

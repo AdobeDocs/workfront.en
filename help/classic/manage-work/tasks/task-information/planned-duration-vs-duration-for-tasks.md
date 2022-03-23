@@ -19,7 +19,7 @@ For tasks, the Duration and the Planned Duration typically show the same value: 
 
 When the Duration Type of the task is Effort Driven, the Planned Duration diminishes as you are adding resources to the task. 
 
-` `**Example: **`` If a task with a Duration Type of Effort Driven has a Duration of 3 days and you assign one resource with a full-time schedule to the task, the Planned Duration is 3 days, as well.
+``` ```**Example: **`````` If a task with a Duration Type of Effort Driven has a Duration of 3 days and you assign one resource with a full-time schedule to the task, the Planned Duration is 3 days, as well.
 
 If you assign three resources with a full-time schedule to the same task, the Duration stays 3 days, but the Planned Duration becomes 1 day. The Planned Duration also changes the Planned Start and Planned Completion dates of the task, to reflect the new Planned Duration. As a result, the timeline of the project is affected as well. 
 You can use the Effort Driven Duration Type when you assign a task to multiple resources. This reduces the time it takes for the work to be completed on the task.

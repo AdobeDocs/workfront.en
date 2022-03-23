@@ -110,7 +110,7 @@ When you restore a project, task, or issue, the following associated information
 
 * Resolving objects
 
-  A resolving object is a converted issue configured with the option `Keep the original issue and tie its resolution to this` < `project` or `task)`>. If you delete the parent project or task, the issue is no longer identified as a resolving object because there is no longer a link connecting it to the project or task. If you restore the parent, the link is not restored.
+  A resolving object is a converted issue configured with the option **Keep the original issue and tie its resolution to this** <**project** or**task)**>. If you delete the parent project or task, the issue is no longer identified as a resolving object because there is no longer a link connecting it to the project or task. If you restore the parent, the link is not restored.
 
   For more information about how a Workfront administrator or group administrator configures issues to match the resolving object when converted, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
@@ -118,12 +118,12 @@ When you restore a project, task, or issue, the following associated information
 
 ## Restore items
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Recycle Bin` > `Recently Deleted`.
-1. Click the `Projects`, `Tasks`, `Issues`, or `Documents` tab, depending on the type of item you want to restore.
+1. Click **Recycle Bin** > **Recently Deleted**.
+1. Click the **Projects**, **Tasks**, **Issues**, or **Documents** tab, depending on the type of item you want to restore.
 
-   Items are sorted by the `Deletion Date` column by default.
+   Items are sorted by the **Deletion Date** column by default.
 
 1. Select up to 10 items that you want to restore.
 
@@ -131,7 +131,7 @@ When you restore a project, task, or issue, the following associated information
 
    If you delete a parent task, only the parent task shows in the list. But all child tasks are restored when you restore a parent task.
 
-1. Click `Restore` to restore the selected items to their original location.
+1. Click **Restore** to restore the selected items to their original location.
 1. (Optional) To quickly view the restored item, follow the steps in [View restored items](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
    For more information about what happens after you restore an item, see [What happens after you restore items](#what-happens-after-restoring-items) in this article.

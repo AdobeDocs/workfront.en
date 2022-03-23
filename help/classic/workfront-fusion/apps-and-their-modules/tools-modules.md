@@ -25,7 +25,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -34,7 +38,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -81,10 +92,10 @@ This module can read variables that were set anywhere in the scenario, even if t
 | Variable name |For each variable you add, map the name of the variable you want to get. |
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/get-variable-350x240.png" style="width: 350;height: 240;"> </p>
 -->
 
-` `**Examples: **`` The following are possible uses of the Set/Get (multiple) variable(s) modules:
+``` ```**Examples: **`````` The following are possible uses of the Set/Get (multiple) variable(s) modules:
 
 * To store a calculated value for later use, even in a different route. This is useful in cases when the value is used in multiple modules and the formula to calculate the value is overly complex.
 * To debug a formula. If a formula used in a module does not seemingly provide a correct result, copy the formula and paste it into a Set Variable module that you insert before the relevant module. Disconnect the module(s) after the Set Variable module and execute the scenario. Verify the Set Variable module's output, adjust or simplify the formula, execute the scenario again, and continue to do so until the issue has been resolved.
@@ -126,14 +137,14 @@ This module returns a value incremented by 1 after each module's operation.
  </tbody> 
 </table>
 
-` `**Example: **`` One of the module's uses is to implement a "round robin" assignment of tasks, leads, emails, and so on, to users in a group. The algorithm chooses the assignees from a group in some rational order, usually going from the top to the bottom of a list. When the algorithm reaches the end of the list, it would then give the next assignment to the user at the top of the list and continue to make assignments down the list.
+``` ```**Example: **`````` One of the module's uses is to implement a "round robin" assignment of tasks, leads, emails, and so on, to users in a group. The algorithm chooses the assignees from a group in some rational order, usually going from the top to the bottom of a list. When the algorithm reaches the end of the list, it would then give the next assignment to the user at the top of the list and continue to make assignments down the list.
 
 The following scenario sends an email to the first recipient after every odd-numbered scenario run, and to the second recipient after every even-numbered scenario run.
 
 ![](assets/example-email-350x246.gif)
 
 1. To create this scenario: 
-1. Set the module's `Reset a value` field to Never.
+1. Set the module's **Reset a value** field to Never.
 1. Set the route for odd values. Set the filter for this route using the modulus math function that equals 
 
    ```
@@ -182,8 +193,8 @@ This module creates variables that can be mapped by other modules in the route. 
    <td>Variable lifetime </td> 
    <td> <p>Select how long you want the variables to remain valid (keep the same value).</p> 
     <ul> 
-     <li><span class="bold">One cycle</span>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
-     <li><span class="bold">One execution</span>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
+     <li><strong>One cycle</strong>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
+     <li><strong>One execution</strong>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -205,8 +216,8 @@ This module creates a variable that can be mapped by other modules in the route.
    <td>Variable lifetime </td> 
    <td> <p>Select how long you want the variables to remain valid (keep the same value).</p> 
     <ul> 
-     <li><span class="bold">One cycle</span>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
-     <li><span class="bold">One execution</span>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
+     <li><strong>One cycle</strong>: The variable is valid for one cycle. Useful when multiple webhooks in one scenario run are received (more webhooks = more cycles). </li> 
+     <li><strong>One execution</strong>: The variable is valid for one scenario execution. One execution can contain one or more cycles.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -233,7 +244,7 @@ This function can be useful, for example, if you want to lower the target servic
  </tbody> 
 </table>
 
-` `**Tip: **`` If you want to pause the flow for longer periods of time, we suggest to split your scenario into two scenarios:
+``` ```**Tip: **`````` If you want to pause the flow for longer periods of time, we suggest to split your scenario into two scenarios:
 
 * The first scenario would contain the part before the pause
 * The second scenario would contain the part after it.
@@ -281,7 +292,7 @@ This module allows you to retrieve numerical values, then apply one of the selec
  </tbody> 
 </table>
 
-` `**Example: **`` The module sums up values under the number parameter.
+``` ```**Example: **`````` The module sums up values under the number parameter.
 
 ![](assets/module-sums-up-values-350x186.gif)
 
@@ -351,7 +362,7 @@ This module merges values from the selected fields of received bundles into a si
  </tbody> 
 </table>
 
-` `**Example: **``You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
+``` ```**Example: **``````You can use the text aggregator to insert more values (for example, customer names or notes)into a single bundle and send an email containing all the values in the email body or the email subject.
 
 ### Transformers
 
@@ -438,30 +449,30 @@ Checks the input value for a match with the provided list of values. Returns out
 </table>
 
 <!--
-Execute a scenario
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Execute a scenario</h3>
 -->
 
 <!--
-Status: PLANNED - see the Workaround section below.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Status: PLANNED - see the Workaround section below.</p>
 -->
 
 <!--
-Workaround
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Workaround</h3>
 -->
 
 <!--
-Employ the HTTP modules > Make a request module in the main scenario to call the other scenario. Employ the Webhooks > Custom webhook module in the other scenario to receive the call. Employ the Webhooks > Webhook response module in the other scenario to return the response.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Employ the <a href="http-modules.md" class="MCXref xref">HTTP modules</a> >&nbsp;Make a request module in the main scenario to call the other scenario. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Custom webhook module in the other scenario to receive the call. Employ the <a href="../../workfront-fusion/apps-and-their-modules/webhooks-updated.md" class="MCXref xref">Webhooks</a> > Webhook response module in the other scenario to return the response.</p>
 -->
 
 <!--
-Stop / Throw (an error)
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Stop / Throw (an error)</h3>
 -->
 
 <!--
-In some cases you may want to forcibly stop the scenario execution after the rollback or commit phase or stop the processing of a route and optionally store it in the queue of incomplete executions.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In some cases you may want to forcibly stop the scenario execution after the rollback or commit phase or stop the processing of a route and optionally store it in the queue of incomplete executions.</p>
 -->
 
 <!--
-Status: PLANNED - see the Throw module.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Status: PLANNED - see the Throw module.</p>
 -->
 

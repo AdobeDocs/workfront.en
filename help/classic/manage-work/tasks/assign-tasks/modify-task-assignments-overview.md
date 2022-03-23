@@ -11,12 +11,12 @@ description: You can assign tasks to or unassign tasks from users, teams, or job
 
 You can assign tasks to or unassign tasks from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one task at a time, or multiple tasks in bulk. 
 
-` `**Tip: **`` You can assign multiple users or job roles, and you can assign only one team. `You can assign only active users, `job roles`, and teams.`
+``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
 
-`If a user, `job role`, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:`
+```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
 
-* `Reassign the work item to active resources.` 
-* `Associate the users in a deactivated team with an active team and reassign the work item to the active team.`
+* ```Reassign the work item to active resources.``` 
+* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
 
 This article contains general information about the impact of modifying task assignments. For information about how to assign tasks, see the following articles:
 
@@ -49,9 +49,9 @@ Consider the following when assigning multiple resources to a work item:
 * Tasks or issues are usually first assigned to one or multiple job roles or to a team. When projects are ready to start, they might need to also be assigned to users.   
   If a task or an issue is assigned to one or multiple roles and then you also assign a user, Adobe Workfront decides which job role to associate with the additional user (if any)&nbsp;according to the following rules:
 
-  * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
-  * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
-  * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
+   * If there is only one job role assigned and it matches the user's Primary Role, then the task or issue is assigned only to the user fulfilling their&nbsp;Primary Role. 
+   * If there are multiple roles assigned and at least one of the roles matches the user's secondary roles, then the task or issue is assigned to the user fulfilling one of their Other Roles — which Workfront selects at random if there are multiple matches — as well as any additional roles that are assigned.
+   * If there is one or more job roles assigned and there are no matches to the user's roles, then the task or issue is assigned to both&nbsp;the role or roles as well as to the user.
 
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
@@ -61,15 +61,15 @@ Removing users can affect task hours and allocation percentages. The effect that
 
 When you delete a user from a task with the following Duration&nbsp;Types:
 
-* `Simple:` The planned hours assigned to that user are subtracted from the task’s total planned hours.
+* **Simple:** The planned hours assigned to that user are subtracted from the task’s total planned hours.
 
   >[!IMPORTANT]
   >
-  >`This could negatively affect your project plan because it changes the total planned hours for the task and the project.`
+  >```This could negatively affect your project plan because it changes the total planned hours for the task and the project.```
 
-* ` `Effort Driven:` The allocation percentage does not change for other users.` 
-* ` `Calculated Assignment:` The allocation percentages of other users are adjusted so that the total equals 100%.` 
-* ` `Calculated Work:` The allocation percentage does not change for other users.`
+* ```**Effort Driven:** The allocation percentage does not change for other users.``` 
+* ```**Calculated Assignment:** The allocation percentages of other users are adjusted so that the total equals 100%.``` 
+* ```**Calculated Work:** The allocation percentage does not change for other users.```
 
 ## Considerations about unassigning tasks
 

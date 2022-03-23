@@ -26,13 +26,13 @@ The Web Proofing Viewer has the following limitations:
 
    See also [Create a proof for interactive content in a ZIP file](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
 
-1. Click `Add comment`.
+1. Click **Add comment**.
 
    A message prompts you to download the browser extension for interactive content.
 
-1. Click `Add to browser` to go to the extension download page in your browser's store, then download the extension.
-1. In the Web Proofing Viewer, click `Reload the proof`.
+1. Click **Add to browser** to go to the extension download page in your browser's store, then download the extension.
+1. In the Web Proofing Viewer, click **Reload the proof**.
 
-With the extension installed on your browser, the proofing viewer takes a static screenshot of your content every time you click `Add comment`. This screenshot is where you can add comments with markups.
+With the extension installed on your browser, the proofing viewer takes a static screenshot of your content every time you click **Add comment**. This screenshot is where you can add comments with markups.
 
 &nbsp;

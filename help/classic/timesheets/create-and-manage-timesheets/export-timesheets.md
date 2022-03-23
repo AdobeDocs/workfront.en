@@ -41,54 +41,57 @@ You must have the following access to perform the steps in this article:
 
 ## Export a list of timesheets
 
-1. Select the All Timesheets tab. The timesheet filter is prepopulated with the teams you belong to.  
+1. Timesheet
+1. Back to Timesheets
+1. Select the **All Timesheets** tab. The timesheet filter is prepopulated with the teams you belong to.   ![](assets/all-timesheets-page-with-preselected-teams-default-classic-350x268.png)
+
 1. (Optional) To modify the filter in the list of timesheets, do the following:
 
-  1. Click `Filter` to apply the default filter and display timesheets for people in your teams.
+   1. Click **Filter** to apply the default filter and display timesheets for people in your teams.
 
-     Or
+      Or
 
-     Click `Reset Filter` to clear the filter selection and add new filtering criteria. 
-  
-  1. Select from the following filtering options:
+      Click **Reset Filter** to clear the filter selection and add new filtering criteria. 
+   
+   1. Select from the following filtering options:
 
-     | Belonging to |Displays timesheets associated with the users you specify or the users associated with the roles or teams that you specify. |
-     |---|---|
-     | Approver |Displays timesheets associated with the approvers that you specify. |
-     | Status |Displays timesheets associated with the status that you specify. |
-     | Time Period |Displays timesheets that include the time period you select. |
+      | Belonging to |Displays timesheets associated with the users you specify or the users associated with the roles or teams that you specify. |
+      |---|---|
+      | Approver |Displays timesheets associated with the approvers that you specify. |
+      | Status |Displays timesheets associated with the status that you specify. |
+      | Time Period |Displays timesheets that include the time period you select. |
 
-  1. Click  `Filter` after defining your filter criteria.
+   1. Click&nbsp;**Filter** after defining your filter criteria.
 
-     >[!TIP]
-     >
-     >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
+      >[!TIP]
+      >
+      >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
-1. (Optional) Click `View` or **Grouping ** to apply a different view or grouping or to create a new one.
+1. (Optional)&nbsp;Click **View** or **Grouping ** to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
-  * [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
-  * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
-  * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+   * [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
+   * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
+   * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select the timesheets that you want to export, then click `Export` .
+1. Select the timesheets that you want to export, then click **Export** .
 
 1. Select the type of file that you want to export the list of timesheets to from the following options:
 
-  * PDF Ladscape
-  * PDF Portrait
-  * PDF&nbsp;Other Sizes
-  * Excel
-  * Excel (xlsx)
-  * Tab&nbsp;Delimited
+   * PDF Ladscape
+   * PDF Portrait
+   * PDF&nbsp;Other Sizes
+   * Excel
+   * Excel (xlsx)
+   * Tab&nbsp;Delimited
 
    A list of timesheets is downloaded to your computer in the selected format and includes the following timesheet information:
 
-  * Date Range
-  * Owner name
-  * Total Hours
-  * Overtime amount
-  * Approvers names
-  * Status
+   * Date Range
+   * Owner name
+   * Total Hours
+   * Overtime amount
+   * Approvers names
+   * Status
 

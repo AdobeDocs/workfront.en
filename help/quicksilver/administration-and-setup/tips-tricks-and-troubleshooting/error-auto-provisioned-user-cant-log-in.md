@@ -45,11 +45,11 @@ You must have the following to perform the steps in this article:
 
 Create a basic access level with a Request license:
 
-1. Go to `Setup` > `Access Levels`.
+1. Go to **Setup** > **Access Levels**.
 
-1. Click `New Access Level`.
-1. Enter a `Name`.
-1. In the `License Type` drop-down menu, select Request.
-1. Click `Save Changes`.
+1. Click **New Access Level**.
+1. Enter a **Name**.
+1. In the **License Type** drop-down menu, select Request.
+1. Click **Save Changes**.
 
 After you create an access level with a Request license, have the user log in with their SSO credentials.

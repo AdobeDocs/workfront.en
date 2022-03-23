@@ -37,4 +37,12 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the agile Kanban board where&nbsp;you want to assign users.
 1. Go to the story tile on the Kanban board where you want to add a user.
+1. Click the **Plus** icon on the story tile,&nbsp;begin typing the name of the user you want to assign to the story, then click the name when it appears. You can also click the&nbsp;drop-down arrow and select a user from the list. Users who are members of the agile team are displayed.
+1. You can also assign a job role to a story. You can only assign active users and ```active roles```. 
+1. This option is available only when the story tile is expanded.  
+  
+   Or  
+   Drag the user avatar from the list at the top of the page&nbsp;to the story tile where you want to assign the user.  
+   The user avatar list remains at the top of the page even while you scroll down the Kanban board.  
+   ![agile_story_adduser_drag.png](assets/agile-story-adduser-drag-350x186.png)
 

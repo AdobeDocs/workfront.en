@@ -51,14 +51,14 @@ You must have the following access to perform the steps in this article:
 To add this column to a task view:
 
 1. Go to a list of tasks.
-1. From the `View` drop-down menu, click `New View`.
+1. From the **View** drop-down menu, click **New View**.
 
-1. Click `Add Column`, then `Switch to Text Mode`.
+1. Click **Add Column**, then **Switch to Text Mode**.
 
-1. Hover over the text mode area, and click `Click to edit text`.
-1. Remove the text you find in the `Text Mode` box, and replace it with the following code:
+1. Hover over the text mode area, and click **Click to edit text**.
+1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
    <pre>displayname=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
 
 1. (Optional) To aggregate the values displayed in the view in a grouping, follow the steps described in [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

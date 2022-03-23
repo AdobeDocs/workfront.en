@@ -33,7 +33,7 @@ This section contains the following articles:
 * [Create a User Delegation report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
 
   <!--
-
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
   -->
 
 For in-depth training on reports, see Basic Report Creation Program for the new Workfront experience.

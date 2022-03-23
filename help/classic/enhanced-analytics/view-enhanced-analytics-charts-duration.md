@@ -5,6 +5,7 @@ product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 title: View Enhanced analytics visualizations by duration
 description: If your teams do not use planned hours, you can select a duration view of the project data for the following visualizations:
+hidefromtoc: true
 ---
 
 # View Enhanced analytics visualizations by duration
@@ -73,7 +74,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Burndown visualization by duration
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 
    >[!TIP]
    >
@@ -98,12 +99,12 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Project treemap visualization by duration
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 
    >[!TIP]
    >
    >If you don't see Analytics in the Global Navigation Bar and you know you have the appropriate access, modify the URL by adding "analytics" to it.  
-   >For example, the URL changes to "company.my.workfront `.com`/analytics" in the address bar.
+   >For example, the URL changes to "company.my.workfront ```.com```/analytics" in the address bar.
 
 1. In the **Project treemap** visualization, click the drop-down arrow, then select **duration**.
 
@@ -113,8 +114,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) Hover over a project to see more details, including this duration-specific information:
 
-  * **Planned Timeframe**: The number of days planned to complete the project.
-  * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
+   * **Planned Timeframe**: The number of days planned to complete the project.
+   * **Days Worked**: The planned duration for each task that was completed within the date range selected at the top, divided by the number of hours in a day.
 
    ![](assets/duration-treemap-350x159.png)
 

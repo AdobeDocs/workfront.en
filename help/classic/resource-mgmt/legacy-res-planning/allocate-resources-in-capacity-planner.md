@@ -62,7 +62,7 @@ This activity should be done only if you know that project planning has been com
 
 By setting the budgeted resources to the net remaining, you are estimating that the time needed to complete the work equals the difference between the total availability of each resource and the amount of time already budgeted for other projects. If you are trying to use this option on a resource pool you created previously, this option changes your resource budgets to reflect this information.
 
-`Set to Net Remaining` should only be used only in the following scenarios:
+**Set to Net Remaining** should only be used only in the following scenarios:
 
 * if you have established the budget for all other Legacy Resource Pools
 * if you have defined a new set of users as part of a pool and know that all unallocated resources also belong to this pool.
@@ -71,7 +71,7 @@ By setting the budgeted resources to the net remaining, you are estimating that 
 
 ### Set Best Fit
 
-By setting the budgeted resources to the `Best Fit`, you are asking Workfront to find the earliest available start time with the fewest over-allocations for each project. This is similar to the `Move Schedule to Budget` setting. This setting calculates the best fit for your projects based on the following criteria:
+By setting the budgeted resources to the **Best Fit**, you are asking Workfront to find the earliest available start time with the fewest over-allocations for each project. This is similar to the **Move Schedule to Budget** setting. This setting calculates the best fit for your projects based on the following criteria:
 
 * the resource requirements for the projects.
 * the priority of the projects (which is determined by the order in which the projects appear in the Capacity Planner).  
@@ -87,7 +87,7 @@ By setting the budgeted resources to the `Best Fit`, you are asking Workfront to
 
 ### Move Schedule to Budget
 
-By moving the schedule to match your budget, you are asking Workfront to move the project timeline according to the first available time when all resources are available without any over-allocations. This is similar to `Set Best Fit`.
+By moving the schedule to match your budget, you are asking Workfront to move the project timeline according to the first available time when all resources are available without any over-allocations. This is similar to **Set Best Fit**.
 
 This setting calculates the best fit for your projects based on the following criteria:
 

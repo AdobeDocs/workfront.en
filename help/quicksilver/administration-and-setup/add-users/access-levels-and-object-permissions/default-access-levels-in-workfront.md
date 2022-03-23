@@ -1,13 +1,4 @@
----
-filename: default-access-levels-in-workfront
-user-type: administrator
-content-type: reference
-product-area: system-administration
-keywords: access,model,funnel,diagram,levels,permissions
-navigation-topic: access-levels
-title: Built-in access levels in Adobe Workfront
-description: All 6 of the built-in access levels are designed for a particular type of user:
----
+
 
 # Built-in access levels in Adobe Workfront
 
@@ -41,7 +32,9 @@ Attached to the Plan license, this built-in access level is designed for a user 
 
 Users with the System Administrator access level can do everything within Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
 
-They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the Main Menu.
+They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Main Menu ![](assets/main-menu-icon.png)
+
+.
 
 For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -53,7 +46,7 @@ Also attached to the Plan license, this access level is designed for:
 * Anyone who is responsible for planning, creating, and managing tasks, projects, portfolios, and programs
 * Anyone who is responsible for assigning work (tasks and issues) to other users
 * Users who build reports and who approve timesheets, work items, and documents
-* Users who need access to all areas in the Main Menu
+* Users who need access to all areas in the  Main Menu ![](assets/main-menu-icon.png)
 
 You can create a custom version of the Planner built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 
@@ -84,7 +77,9 @@ Users with this access level:
 * Can approve work and documents, but not timesheets
 * Can access and share reports
 * Can communicate with other users in the system  
-* Can access all the areas in the Main Menu, but their "Users" area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
+* Can access all the areas in the  Main Menu ![](assets/main-menu-icon.png)
+
+  , but their  "Users"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
 * Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Worker built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
@@ -103,7 +98,7 @@ The following are the highest access settings available for objects in the Worke
 | Documents |&nbsp; |&nbsp; |✓ |
 | Users |&nbsp; |&nbsp; |✓ |
 | Templates |✓ |&nbsp; |&nbsp; |
-| Financial data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance area&nbsp;in Project Details.) |&nbsp; |
+| Financial data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance  area &nbsp; in  Project Details.) |&nbsp; |
 | Resource Management |&nbsp; |✓ |&nbsp; |
 
 ## Reviewer access level
@@ -115,7 +110,9 @@ For example, a stakeholder with this access level could log in to Workfront to p
 Users with the Reviewer access level:
 
 * Cannot be assigned work items or approve time sheets
-* Can access requests and documents in the Main Menu.
+* Can access requests and documents in the  Main Menu ![](assets/main-menu-icon.png)
+
+  .
 * Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
@@ -199,7 +196,7 @@ More limited for projects and tasks than the Worker access level, the following 
   <tr> 
    <td>Financial data</td> 
    <td>&nbsp;</td> 
-   <td> <p>✓ (The default setting is No Access. The View setting allows the user to view only the Finance area in Project Details.)</p> </td> 
+   <td> <p>✓ (The default setting is No Access. The View setting allows the user to view only the Finance  area   in  Project Details.)</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -207,7 +204,15 @@ More limited for projects and tasks than the Worker access level, the following 
    <td>&nbsp;</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
-  </tr> Scenario Planner ✓ (The default setting is No Access.) Workfront Goals ✓ (The default setting is No Access.) 
+  </tr>  
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">Scenario Planner </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">✓ (The default setting is No Access.)</td>   
+  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">Workfront Goals </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">✓ (The default setting is No Access.)</td>  
  </tbody> 
 </table>
 
@@ -223,7 +228,7 @@ Users with this built-in access level:
 * Can upload and approve documents
 * Can review the status of issues they have submitted
 * Cannot be assigned to work items  
-* Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Can  access requests only from the Main Menu ![](assets/main-menu-icon.png) . For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 You can create a custom version of the Requester built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 

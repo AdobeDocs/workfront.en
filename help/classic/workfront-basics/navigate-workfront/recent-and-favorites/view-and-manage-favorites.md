@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
 
 To view an item that you have previously added as a favorite:
 
-1. Click the `Favorites` icon in the upper-right corner of any Adobe Workfront page.  
+1. Click the **Favorites** icon in the upper-right corner of any Adobe Workfront page.  
 
 1. In the Favorites list, click the item you want to view.
 
@@ -50,23 +50,27 @@ You can add recent items or the current page to the Favorites menu.
 
 ### Add recent items as a favorite
 
-Click the Favorites icon in the upper-right corner of any Workfront page. In the Recent Items column, hover over the recent item that you want to save as a favorite, then click the star. The recent item displays in the Favorites column. 
+```<li value="1">Click the <strong>Favorites</strong> icon in the upper-right corner of any Workfront page.</li>``` ```<li value="2">In the <strong>Recent Items</strong> column, hover over the recent item that you want to save as a favorite, then click the star.<br>The recent item displays in the Favorites column.<br></li>```  
 
 ### Add the current item as a favorite
 
 1. Go to the page that you want to add as a favorite.
-1. Click the `Favorites` icon in the upper-right corner of any Workfront page, then click `Add Current Page`.
+1. Click the **Favorites** icon in the upper-right corner of any Workfront page, then click **Add Current Page**.
+
+   ![](assets/favorites-overview-2-350x146.png)
 
    Or
-   Click the object's Actions menu, then click Add to Favorites.
+   Click the object's **Actions** menu, then click **Add to Favorites**.
 
 ## Remove an item from the Favorites menu
 
-1. Click the `Favorites` icon in the upper-right corner of any Workfront page.  
+1. Click the **Favorites** icon in the upper-right corner of any Workfront page.  
 
-1. Hover over the item that you want to remove as a favorite, then click the `X` next to it.
+1. Hover over the item that you want to remove as a favorite, then click the **X** next to it.
+
+   ![Removing_favorite.png](assets/removing-favorite-350x202.png)
 
    Or
 
-   If you are on the page that you want to remove as a favorite, click Remove Current Page to remove it from the Favorites menu.
+   If you are on the page that you want to remove as a favorite, click **Remove Current Page** to remove it from the Favorites menu.
 

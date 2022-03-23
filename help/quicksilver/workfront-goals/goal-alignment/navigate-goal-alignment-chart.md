@@ -42,7 +42,15 @@ You must have the following to perform the activities described in this article:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions View or higher permissions to goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions to goals</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -56,7 +64,7 @@ You must have the following before you can start:
 
 ## Navigate the Goal Alignment section
 
-1. `Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see` [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+1. ```Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see``` [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
    The goals that match your filters display in the alignment chart on cards.
 
@@ -94,7 +102,10 @@ You must have the following before you can start:
         </ul> 
        </div> </td> 
      </tr> <!--
-      Updated on date The date when the goal was last updated
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader">Updated on date </td> 
+       <td>The date when the goal was last updated</td> 
+      </tr>
      --> 
      <tr> 
       <td role="rowheader">Status</td> 
@@ -107,7 +118,7 @@ You must have the following before you can start:
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
-1. Click the `downward-pointing arrow` icon under a goal to further expand and view the children goals.
+1. Click the **downward-pointing arrow** icon under a goal to further expand and view the children goals.
 
    ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
@@ -119,7 +130,7 @@ You must have the following before you can start:
 
    ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
-1. Click  `Show them` to display the goals currently eliminated by the filter.
+1. Click&nbsp;**Show them** to display the goals currently eliminated by the filter.
 
    Notice the following changes in the alignment chart:
 
@@ -130,7 +141,7 @@ You must have the following before you can start:
 
     A Reapply filter link displays to the left of the filter name.
 
-1. (Optional) Click `Reapply filter` to return to the original results and display the goal hierarchy.
+1. (Optional)&nbsp;Click **Reapply filter** to return to the original results and display the goal hierarchy.
 1. (Optional) Hover over the progress indicator to understand where the goal progress should be for the current day.
 
    ![](assets/progress-mouse-over-alignment-chart-350x163.png)
@@ -157,16 +168,42 @@ You must have the following before you can start:
    </table>
 
 1. Click a goal card to open the Goal&nbsp;Details panel and edit information about or check in on the goal. For information about editing existing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md). For information about checking in on goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
-1. Click the `the upward-pointing arrow` of the current-level goal to return to the previous level in the hierarchy of the chart.
+1. Click the ```the upward-pointing arrow``` of the current-level goal to return to the previous level in the hierarchy of the chart.
 
    Or
 
-   (Optional) Click `Exit goal hierarchy` to display the cards of all the goals that match the current filter, without displaying their connection to each other.
+   (Optional)&nbsp;Click **Exit goal hierarchy** to display the cards of all the goals that match the current filter, without displaying their connection to each other.
 
    &nbsp;
 
 <!--
-In the Preview environment, do the following: Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see Filter information in Adobe Workfront Goals (Conditional) If the current filter excludes some of the goals that participate in an alignment, a warning message displays to indicate that not all goals are displayed: < new screen shot> Click Show them to display the goals currently eliminated by the filter. Notice the following changes in the alignment chart: Connected goals previously eliminated by the filter now display in the alignment chart. The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied. A Reapply filter link displays to the left of the filter name (Optional) Click Reapply filter to return to the original results and display the goal hierarchy . (Optional) Click Exit goal hierarchy to display the cards of all the goals that match the current filter, without displaying their connection to each other. In the Production environment, do the following: (Optional) Click the Company tab to view goals that are assigned to your organization and their aligned goals. Goals that are aligned to other goals display with additional stacked cards behind the top goal card. (Optional) Select a different period from the upper-right drop-down menu. The default is the current quarter. You can only select one time period at a time to view goals that are due during that period. Select from quarters or yearly periods for the current year and up to two more years. (Optional) Start typing the name of an owner who is designated as a goal owner in the Search for owner's name field, the select it when it appears in the list. Goals assigned to the owner you indicate and their aligned goals display in the Goal Alignment section. The goals that match your filter and tab selection display in the alignment chart.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p class="preview">In the Preview environment, do the following:</p>
+<ol>
+<li value="1"> <p><span class="preview">Use the filters in the upper-right corner of the alignment chart to select only goals that are important to you. For information about using filters in Workfront Goals, see </span><a href="../../workfront-goals/goal-management/filter-information-wf-goals.md" class="MCXref xref">Filter information in Adobe Workfront Goals</a> </p> </li>
+<li value="2"> <p>(Conditional) If the current filter excludes some of the goals that participate in an alignment, a warning message displays to indicate that not all goals are displayed:<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+< new screen shot>
+</MadCap:conditionalText>
+--></p> </li>
+<li value="3"> <p>Click&nbsp;<strong>Show them</strong> to display the goals currently eliminated by the filter.</p> <p>Notice the following changes in the alignment chart: </p>
+<ul>
+<li> <p>Connected goals previously eliminated by the filter now display in the alignment chart. </p> </li>
+<li> <p>The filter in the upper-right corner is outlined in yellow to indicate that it is currently not applied. </p> </li>
+<li> <p>A Reapply filter link displays to the left of the filter name</p> </li>
+</ul> </li>
+<li value="4"> <p>(Optional) Click <strong>Reapply filter</strong> to return to the original results and display the goal hierarchy .</p> </li>
+<li value="5"> <p>(Optional)&nbsp;Click <strong>Exit goal hierarchy</strong> to display the cards of all the goals that match the current filter, without displaying their connection to each other. </p> </li>
+</ol>
+<ol>
+<li value="1"> <p>In the Production environment, do the following: </p>
+<ol>
+<li value="1"> <p>(Optional) Click the&nbsp;<strong>Company</strong> tab to view goals that are assigned to your organization and their aligned goals. </p> <p>Goals that are aligned to other goals display with additional stacked cards behind the top goal card. </p> <p> <img src="assets/stacked-aligned-goal-cards-highlighted-350x147.png" style="width: 350;height: 147;"> </p> </li>
+<li value="2"> <p>(Optional) Select a different period from the upper-right drop-down menu.&nbsp;The default is the current quarter. You can only select one time period at a time to view goals that are due during that period. Select from quarters or yearly periods for the current year and up to two more years. </p> </li>
+<li value="3"> <p>(Optional) Start typing the name of an owner who is designated as a goal owner in the <strong>Search for owner's name</strong> field, the select it when it appears in the list. Goals assigned to the owner you indicate and their aligned goals display in the Goal Alignment section. </p> <p>The goals that match your filter and tab selection display in the alignment chart. </p> </li>
+</ol> </li>
+</ol>
+</div>
 -->
 
 &nbsp;

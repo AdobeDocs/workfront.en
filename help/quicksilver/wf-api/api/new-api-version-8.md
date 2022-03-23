@@ -12,7 +12,7 @@ description: This is a list of resources that are new to API Version 9. For a li
 
 This is a list of resources that are new to API&nbsp;Version 9. For a list of updates that have been made to the resources of version 8 please visit [Updates to API Version 8](../../wf-api/api/new-api-version-8-updates.md)
 
-`AgileWork` 
+```AgileWork``` 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -46,7 +46,7 @@ This is a list of resources that are new to API&nbsp;Version 9. For a list of up
 | versionName |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH |
 
-`KanbanBoard` 
+```KanbanBoard``` 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -66,7 +66,7 @@ This is a list of resources that are new to API&nbsp;Version 9. For a list of up
 | proofApprovalStatusID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | proofApprovalStatusLabel |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`ProofFileMetadata` 
+```ProofFileMetadata``` 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -76,7 +76,7 @@ This is a list of resources that are new to API&nbsp;Version 9. For a list of up
 | ID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | isURL |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`ResourceBudgetedHour` 
+```ResourceBudgetedHour``` 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -100,7 +100,7 @@ This is a list of resources that are new to API&nbsp;Version 9. For a list of up
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |REPORT |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |SEARCH |
 
-`RichTextNote` 
+```RichTextNote``` 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|

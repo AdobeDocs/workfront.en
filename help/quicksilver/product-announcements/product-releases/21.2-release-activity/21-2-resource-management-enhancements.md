@@ -17,7 +17,7 @@ To help you manage the allocation of resources for larger periods of time, we ha
 
 For information, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-`<iframe class="vimeo-player_0" src="assets/539893609?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/539893609?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/539893609/a86dd40f4f)
 
@@ -31,14 +31,14 @@ To help you with the strategic planning of your projects and ensure they align w
 
 For information, see the following articles:
 
-* Overview of reconciling resource allocations between projects and initiatives.
+* Overview of reconciling resource allocations between projects and initiatives .
 * Navigate the Workload Balancer
 
 >[!IMPORTANT]
 >
 >This new functionality is visible to all users, in both the new and the classic Workfront experience. This is also visible to customers who have not purchased a Workfront Scenario Planner license.
 
-`<iframe class="vimeo-player_0" src="assets/539890235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/539890235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/539890235/7127d1d666)
 
@@ -50,7 +50,7 @@ Prior to this enhancement, Workfront calculated Net values only using Budgeted H
 
 For information, see [Overview of hours, FTE, and cost information in the Project and Role views of the Resource Planner](../../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-`<iframe class="vimeo-player_0" src="assets/522026737?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/522026737?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/522026737/0cb6ce8144)
 
@@ -60,7 +60,7 @@ You can now view up to 12 weeks of information in the Workload Balancer. Prior t
 
 For information about viewing the Workload Balancer, see [Navigate the Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)Navigate the Workload Balancer.
 
-`<iframe class="vimeo-player_0" src="assets/521971867?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/521971867?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/521971867/daebeb2c7f)
 

@@ -48,12 +48,12 @@ You must have the following to perform the steps in this article:
 
 ## View and manage a group's recently deleted items
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group.
-1. In the left panel, click `Recently Deleted`.
+1. In the left panel, click **Recently Deleted**.
 1. Open one of the following tabs where you want to view and manage the group's recently deleted items:
 
   * Projects
@@ -79,12 +79,16 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Restore objects</p> </td> 
-      <td> <p>Select up to 10 objects, then click <span class="bold">Restore</span>.</p> </td> 
+      <td> <p>Select up to 10 objects, then click <strong>Restore</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Export the entire list of objects on the tab</p> </td> 
-      <td> <p>Click <span class="bold">Export</span>.</p> </td> 
-     </tr> Change the display of information in the list In the upper-right corner above the list, use Filter to define what is displayed based on criteria you provide. Use View to define which fields are displayed as columns. Use Grouping to group the items into categories. 
+      <td> <p>Click <strong>Export</strong>.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader"> <p>Change the display of information in the list</p> </td> 
+      <td> <p>In the upper-right corner above the list, use <strong>Filter</strong> to define what is displayed based on criteria you provide. Use <strong>View</strong> to define which fields are displayed as columns. Use <strong>Grouping</strong> to group the items into categories.</p> </td> 
+     </tr> 
     </tbody> 
    </table>
 

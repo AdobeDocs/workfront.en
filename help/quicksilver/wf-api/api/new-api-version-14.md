@@ -313,6 +313,23 @@ A Template object represents a pattern for a project. Projects can be created fr
 </table>
 
 <!--
-Timesheet (TSHET) A Timesheet object represents a virtual timecard that allows users to enter actual hours worked for tasks, projects, and overhead hour types. For more information, see Timesheets overview. Core Fields objCode Removed.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h3><a name="Timeshee"></a>Timesheet (TSHET)</h3>
+<p>A&nbsp;Timesheet object represents a virtual timecard that allows users to enter actual hours worked for tasks, projects, and overhead hour types.</p>
+<p>For more information, see <a href="../../timesheets/timesheets/timesheets-overview.md" class="MCXref xref">Timesheets overview</a>.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Core Fields</td>
+<td>
+<ul>
+<li> <p><b>objCode</b> </p> <p>Removed.</p> </li>
+</ul> </td>
+</tr>
+</tbody>
+</table>
+</div>
 -->
 

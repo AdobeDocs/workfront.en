@@ -41,16 +41,16 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## `Adjust Budgeting Dates`
+## **Adjust Budgeting Dates**
 
-1. Go to the Resource Planner and select `View by Project`.
+1. Go to the Resource Planner and select **View by Project**.
 
    >[!NOTE]
    >
    >You can use the Adjust Budgeted Dates option only when you view the Resource Planner by project.
 
-1. Hover over the name of a project, then click the `More` menu. 
-1. Click `Adjust Budgeting Dates`.  
+1. Hover over the name of a project, then click the **More** menu. 
+1. Click **Adjust Budgeting Dates**.  
    The project allocation timeline is displayed.  
    The time frame where the hours are currently budgeted is highlighted in orange if there is a budgeting conflict and in blue if there are no conflicts.
 
@@ -59,12 +59,12 @@ You must have the following:
 1. Drag and drop the highlighted time frame to another time to understand where there are no budgeting conflicts for the selected project. When you find a time frame where the Net value is positive, the highlighted time frame changes to blue. 
 1. Click the "x" in the upper right corner of the project allocation timeline to close it. 
 1. Remove the budgeted hours from the existing timeline of the project and add them to the timeline that shows the most availability. 
-1. Click `Save`. 
+1. Click **Save**. 
 1. (Conditional and optional) If the time frames without budgeting conflicts are outside the timeline of the project, click the name of the project to access the project. 
-1. (Conditional and optional) Click `Edit Project`, then edit the `Planned Start Date` or the `Planned Completion Date` to modify the timeline of the project for the time frame with no budgeting conflicts.   
+1. (Conditional and optional) Click **Edit Project**, then edit the **Planned Start Date** or the **Planned Completion Date** to modify the timeline of the project for the time frame with no budgeting conflicts.   
    For more information about editing projects, see the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Conditional and optional) Click `Save Changes`. 
+1. (Conditional and optional) Click **Save Changes**. 
 1. Return to the Resource Planner and re-enter the Budgeted Hours, FTEs, or Costs in the time frame without budgeting conflicts. 
-1. Click `Save`.
+1. Click **Save**.
 

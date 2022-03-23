@@ -36,9 +36,12 @@ You must have the following to perform the steps in this article:
 
 ##  Hide built-in reports
 
-1. Click Setup in the Global Navigation Bar. 
-1. Click `Access Levels`.
-1. Select the access level for which you want to hide built-in reports, then click `Edit`.
-1. For the `Reports` object, click the `Settings` icon next to the highest level of access available, then deselect `View Built-In Reports`.
-1. Click `Save`Changes.
+1. Click **Setup** in the Global Navigation Bar. 
+1. Click **Access Levels**.
+1. Select the access level for which you want to hide built-in reports, then click **Edit**.
+1. For the **Reports** object, click the **Settings** icon next to the highest level of access available, then deselect **View Built-In Reports**.
+
+   ![](assets/access-builtin-report-350x421.png)
+
+1. Click **Save****Changes**.
 

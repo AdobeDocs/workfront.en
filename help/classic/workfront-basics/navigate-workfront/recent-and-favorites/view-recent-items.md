@@ -32,4 +32,13 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
-View recent items Click the Favorites icon in the upper-right corner of any Adobe Workfront page. Under each object type on the left, you can see up to 3 of the last items that you recently viewed. (Optional) To expand the list of recent items, click More just below the third item of the list. You can expand the list to display up to 20 items per object type. For information about how to mark recent items as favorites, see View and manage favorites.  
+
+## View recent items
+
+1. Click the **Favorites** icon in the upper-right corner of any Adobe Workfront page.  
+   ![](assets/favorites-overview-350x146.png)  
+   Under each object type on the left, you can see up to 3 of the last items that you recently viewed.
+
+1. (Optional) To expand the list of recent items, click **More** just below the third item of the list. You can expand the list to display up to 20 items per object type.
+
+For information about how to mark recent items as favorites, see [View and manage favorites](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).

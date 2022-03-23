@@ -11,8 +11,8 @@ description: Before users can open Workfront Library, they must be given access.
 
 Before users can open Workfront Library, they must be given access. As a Workfront Library administrator, you can give your users the following types of access:
 
-* `Individual`: Access that you grant to individual users
-* `User grouping`: Access that users receive through their membership in a job role, team, group, or company that you've added to Workfront Library
+* **Individual**: Access that you grant to individual users
+* **User grouping**: Access that users receive through their membership in a job role, team, group, or company that you've added to Workfront Library
 
 When you add individual users and user groupings to Workfront Library, you assign them an access level. This access level determines what actions users can take with the content that is shared with them. For information on Workfront Library access levels and permissions, see [Overview of user access to Workfront Library](../../../workfront-library/administration-and-setup/user-access/user-access-overview.md) and [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
@@ -26,14 +26,15 @@ Each access level grants specific permissions that affect what a user can do wit
 
 To get individual access to Workfront Library, a user must be active in Workfront. You can also restore access for a user you have removed from Workfront Library previously.
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon.
-1. In the left panel, click `Setup` > `Users`.
-1. Click `Add user`.
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+
+1. In the upper-left corner of Workfront Library, click the **Menu** icon.
+1. In the left panel, click **Setup** > **Users**.
+1. Click **Add user**.
 
    ![](assets/add-workfront-library-user-350x216.png)
 
-1. In the `Search` box that appears, enter text to locate the user.
+1. In the **Search** box that appears, enter text to locate the user.
 
    Or
 
@@ -53,17 +54,18 @@ To add a user grouping in Workfront Library, it must already exist as a grouping
 
 To give access:
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon.
-1. In the left panel, click `Setup`, then select the type of user grouping that you want to add:
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
 
-  * `Job role` 
-  * `Team` 
-  * `Group` 
-  * `Company`
+1. In the upper-left corner of Workfront Library, click the **Menu** icon.
+1. In the left panel, click **Setup**, then select the type of user grouping that you want to add:
 
-1. Click `Add`.
-1. In the `Search` box that appears, enter text to locate the user grouping.
+  * **Job role** 
+  * **Team** 
+  * **Group** 
+  * **Company**
+
+1. Click **Add**.
+1. In the **Search** box that appears, enter text to locate the user grouping.
 
    Or
 

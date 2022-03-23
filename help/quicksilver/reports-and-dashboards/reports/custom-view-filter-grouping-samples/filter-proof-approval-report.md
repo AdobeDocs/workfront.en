@@ -9,7 +9,7 @@ description: On a Proof Approval report, you can use the Is Current Document Ver
 
 # Filter Proof Approval report to omit previous proof versions
 
-On a Proof Approval report, you can use the  `Is Current Document Version` filter to include only the current versions of proofs waiting for your approval.
+On a Proof Approval report, you can use the&nbsp;**Is Current Document Version** filter to include only the current versions of proofs waiting for your approval.
 
 This is useful, for example, if you have been asked to approve proofs that have multiple versions. When you run the Proof Approval report with the Is Current Document Version filter, the report lists only the current version of each proof awaiting your approval, omitting earlier versions that you no longer need to work on.&nbsp;
 
@@ -49,12 +49,13 @@ You must have the following access to perform the steps in this article:
    Or
 
    <!--
-   To create your own Proof Approval report, click the Main Menu , then click Reports . Click New Report. In the list that appears, scroll to and click Proof Approval. Click Save + Close, type a Report Name (optional), then click Save Report.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To create your own Proof Approval report, click the Main Menu <img src="assets/main-menu-icon.png">, then click <strong>Reports</strong> <img src="assets/reports-in-main-menu.png">. Click&nbsp;<strong>New Report</strong>. In the list that appears, scroll to and click <strong>Proof Approval</strong>. Click <strong>Save + Close</strong>, type a <strong>Report Name</strong> (optional), then click <strong>Save Report</strong>.</p>
    -->
 
-1. Click `Report Actions > Edit`.
-1. Click Filters, then click Add a Filter Rule. 
-1. Click `Proof Approval`.
-1. In the list that appears, click `Is Current Document Version`.
-1. Click `Save + Close` in the lower-left corner of Adobe Workfront, then click `Save Report` in the box that appears.
+1. Click **Report Actions > Edit**.
+1. Click **Filters**, then click **Add a Filter Rule**. 
+
+1. Click **Proof Approval**.
+1. In the list that appears, click **Is Current Document Version**.
+1. Click **Save + Close** in the lower-left corner of Adobe Workfront, then click **Save Report** in the box that appears.
 

@@ -55,28 +55,28 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    You can assign work to users using the Workload Balancer in the Resourcing area, at the project, or at the team level. For more information about where the Workload Balancer is located in&nbsp;Workfront, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Go to the `Unassigned Work` area and apply a filter to view work items
+1. (Optional) Go to the **Unassigned Work** area and apply a filter to view work items
 
    Or
 
-   Go to the `Assigned Work` area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
+   Go to the **Assigned Work** area and expand the name of a user to view the work items assigned to them, if you want to reassign their items.
 
    >[!IMPORTANT]
    >
-   >`You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,` you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
+   >```You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,``` you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
 
-1. Click the `More menu` ![](assets/qs-more-menu.png) to the left of a work item name, then click `Assign this to`.
+1. Click the **More menu** ![](assets/qs-more-menu.png) to the left of a work item name, then click **Assign this to**.
 
    ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
 
-   ` `**Tip: **`` `You can also use the following shortcuts to assign tasks or issues:`
+   ``` ```**Tip: **`````` ```You can also use the following shortcuts to assign tasks or issues:```
 
-  * `In Windows: CTRL+click the task or issue bar.` 
-  * `In Mac: CMD+click the task or issue bar.`
+   * ```In Windows: CTRL+click the task or issue bar.``` 
+   * ```In Mac: CMD+click the task or issue bar.```
 
 1.
 
-  * Start typing the name of a user, job role, or team that you want to assign to the item in the `Search people, role or teams` field, select it when it displays in the list, then click  `Save`.
+   * Start typing the name of a user, job role, or team that you want to assign to the item in the **Search people, role or teams** field, select it when it displays in the list, then click&nbsp;**Save**.
 
    ![](assets/assignments-box-wb.png)
 
@@ -84,14 +84,14 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
    If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer.
 
-   ` `**Tip: **`` You can assign multiple users or job roles, and you can assign only one team. `You can assign only active users, `job roles`, and teams.`
+   ``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
 
-   `If a user, `job role`, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:`
+   ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
 
-  * `Reassign the work item to active resources.` 
-  * `Associate the users in a deactivated team with an active team and reassign the work item to the active team.`
+   * ```Reassign the work item to active resources.``` 
+   * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
 
-1. (Optional) Click the `Show allocations icon` ![](assets/show-allocations-icon-small.png), then click the `More menu` ![](assets/qs-more-menu.png) > `Edit allocations`.
+1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png), then click the **More menu** ![](assets/qs-more-menu.png) > **Edit allocations**.
 
    Or
 

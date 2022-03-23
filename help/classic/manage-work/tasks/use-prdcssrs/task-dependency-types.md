@@ -21,9 +21,11 @@ For more information about predecessors, see [Overview of task predecessors](../
 
 The following are the Workfront Dependency Types:
 
-* `Finish-Start (fs)`: The predecessor task must finish before the dependent task can start. This is the default dependency type, used when no other dependency type is specified.
-* `Finish-Finish (ff)`: The predecessor task must finish before the dependent task can finish.
-* `Start-Start (ss)`: The predecessor task must start before the dependent task can start. You cannot start the dependent task unless the predecessor has at least started. 
-* `Start-Finish (sf)`: The predecessor task must start before the dependent task can finish. You can start the dependent task before the predecessor starts, but you cannot finish it unless the predecessor started. 
-* `Scheduled-Start (sd)`: This schedules a task as Finish-Start, but actual enforcement type is a Finish-Finish. When you use this, the dependent task is scheduled to start after the predecessor task is completed. However, the enforcement makes it so the dependent task can start anytime, but cannot finish until the predecessor task is finished.
+* **Finish-Start (fs)**: The predecessor task must finish before the dependent task can start. This is the default dependency type, used when no other dependency type is specified.
+* **Finish-Finish (ff)**: The predecessor task must finish before the dependent task can finish.
+* **Start-Start (ss)**: The predecessor task must start before the dependent task can start. You cannot start the dependent task unless the predecessor has at least started. 
+* **Start-Finish (sf)**: The predecessor task must start before the dependent task can finish. You can start the dependent task before the predecessor starts, but you cannot finish it unless the predecessor started. 
+* **Scheduled-Start (sd)**: This schedules a task as Finish-Start, but actual enforcement type is a Finish-Finish. When you use this, the dependent task is scheduled to start after the predecessor task is completed. However, the enforcement makes it so the dependent task can start anytime, but cannot finish until the predecessor task is finished.
+
+  ![all_predecessor_relationship_types.png](assets/all-predecessor-relationship-types-350x275.png)
 

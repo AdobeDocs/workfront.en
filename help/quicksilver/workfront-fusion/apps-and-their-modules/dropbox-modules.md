@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -336,7 +347,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Folder</p> </td> 
-   <td> <p>Enter or map the path where you want to create a new folder.</p> <p>Note:   <p>If you are using a Dropbox Business account (with team spaces), you must remove the slash <code>/</code>, or do not click <span class="bold">Click here to choose folder</span> to create a team folder in the root.</p> <p>If the slash is not removed an error <code>[409] path/malformed_path/..</code> is returned.</p> </p> </td> 
+   <td> <p>Enter or map the path where you want to create a new folder.</p> <p>Note:   <p>If you are using a Dropbox Business account (with team spaces), you must remove the slash <code>/</code>, or do not click <strong>Click here to choose folder</strong> to create a team folder in the root.</p> <p>If the slash is not removed an error <code>[409] path/malformed_path/..</code> is returned.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>Auto rename</td> 
@@ -414,7 +425,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>Link's Access Level</p> </td> 
-   <td> <p>Set the permission for the link recipient.</p> <p><span class="bold">Viewer</span> Users who use the link can view and comment on the content.</p> <p><span class="bold">Editor</span> Users who use the link can edit, view, and comment on the content.</p> <p><span class="bold">Max</span> Users who use the link receive the maximum access level you can set the link to.</p> </td> 
+   <td> <p>Set the permission for the link recipient.</p> <p><strong>Viewer</strong> Users who use the link can view and comment on the content.</p> <p><strong>Editor</strong> Users who use the link can edit, view, and comment on the content.</p> <p><strong>Max</strong> Users who use the link receive the maximum access level you can set the link to.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -443,7 +454,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td> <p>File Path / File</p> </td> 
-   <td> <p><span class="bold">File Path</span> </p> <p>Enter or map the target path to the file.</p> <p><span class="bold">File</span> </p> <p>Select the file from the menu.</p> </td> 
+   <td> <p><strong>File Path</strong> </p> <p>Enter or map the target path to the file.</p> <p><strong>File</strong> </p> <p>Select the file from the menu.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Revision</p> </td> 
@@ -601,7 +612,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-` `**Example: **`` The following API call returns the first 10 files from the /Text files folder in your Dropbox account:
+``` ```**Example: **`````` The following API call returns the first 10 files from the /Text files folder in your Dropbox account:
 
 URL:
 <pre>/2/files/list_folder</pre>Body:

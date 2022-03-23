@@ -79,8 +79,9 @@ You must have the following access to perform the steps in this article:
 
 1. Do any of the following:
 
-  * &nbsp; To add Resource Managers to a single project, go to the project where you want to designate one or more resource managers, then click the More menu next to the project name, then Edit .
-  * To add Resource Managers to multiple projects simultaneously, navigate to a list of projects, select the projects where you want to designate one or more resource managers, then click `Edit`.
+  * &nbsp;  To add Resource Managers to a single project, go to the project where you want to designate one or more resource managers, then click the **More menu** next to the project name, then **Edit .** 
+  
+  * To add Resource Managers to multiple projects simultaneously, navigate to a list of projects, select the projects where you want to designate one or more resource managers, then click **Edit**.
 
     Existing Resource Managers are not removed from the projects you are editing; any users you add in this way are added as Resources Managers on the project in addition to any existing Resource Managers.
   
@@ -88,31 +89,33 @@ You must have the following access to perform the steps in this article:
 
     For information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
-1. In the `Overview` section on the Edit Project dialog box, click in the `Resource Manager` field.
+1. In the **Overview** section on the Edit Project dialog box, click in the **Resource Manager** field.
 1. Begin typing the name of the user who you want to add as a resource manager for the project, then click the name when it appears in the list.
 
    Repeat this step to add multiple resource managers for the project. Up to 30&nbsp;resource managers can be designated for a given project.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 ## Designate Resource Managers for a template
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront.
-1. Click Templates.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
+
+1. Click&nbsp; **Templates**.
 
 1. Do any of the following:
 
-  * To add Resource Managers to a single template, go to the template where you want to designate one or more resource managers, then click the More menu next to the template name, then Edit .
-  * To add Resource Managers to multiple templates simultaneously, go to a list of templates and select the templates where you want to designate one or more Resource Managers, then click `Edit`.
+  * To add Resource Managers to a single template, go to the template where you want to designate one or more resource managers, then click the **More menu** next to the template name, then **Edit .** 
+  
+  * To add Resource Managers to multiple templates&nbsp;simultaneously, go to a list of templates and select the templates where you want to designate one or more&nbsp;Resource Managers, then click **Edit**.
 
     Existing Resource Managers are not removed from the templates&nbsp;you are editing; any users you add in this way are added as Resources Managers on the template&nbsp;in addition to any existing Resource Managers.
 
-  * To add Resource Managers to a new template, click New Template,then click the More menu next to the template name, then Edit .
+  * To add Resource&nbsp;Managers to a new template, click&nbsp; **New Template**,then click the **More menu** next to the template name, then **Edit .**
 
-1. In the `Overview` section, click in the `Resource Manager` field.
+1. In the **Overview** section, click in the **Resource Manager** field.
 1. Begin typing the name of the user who you want to add as a resource manager for the template, then click the name when it appears in the list.
 
    Repeat this step to add multiple resource managers to the template. Up to 30&nbsp;resource managers can be designated for a given template.&nbsp;
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

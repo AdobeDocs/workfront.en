@@ -15,9 +15,9 @@ As an Adobe Workfront administrator, you can set up currency exchange&nbsp;rates
 * Updating exchange rates in Workfront to match current exchange rates
 * Configuring the exchange rates for&nbsp;multiple currencies (doing so enables&nbsp;users to choose a default currency for individual projects)
 
-Exchange rates impact all financial elements in Workfront. The Base Currency is the default currency for all projects throughout the system, unless it is overridden for a given project `or job role`. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+Exchange rates impact all financial elements in Workfront. The Base Currency is the default currency for all projects throughout the system, unless it is overridden for a given project ```or job role```. You can also select to display financial information in currencies available in your system that are different than the base currency or that of the project when viewing them in a report or list. For more information, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-For more information about overriding the Base Currency in Workfront for projects `and job roles`, see the following articles:
+For more information about overriding the Base Currency in Workfront for projects ```and job roles```, see the following articles:
 
 * [Change the project currency](../../../manage-work/projects/project-finances/change-project-currency.md) 
 * 
@@ -54,19 +54,21 @@ You must have the following to perform the steps in this article:
 
 ## Set up exchange rates
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. Click `Project Preferences` > `Exchange Rates.`  
+1. Click **Project Preferences**&nbsp;> **Exchange Rates.** 
 
-1. Click `Add Currency.`
-1. Begin typing the name of the currency, then click it when it appears in the drop-down list.  
+1. Click**Add Currency.**
+1. Begin typing the name of the currency, then click it when it appears in the drop-down list.
+
+   ![](assets/3-350x234.png)
 
 1. In the provided field, specify the rate for the currency that you selected, as it relates to the currency that is set as the base currency in the system.
 1. (Optional) Set the currency&nbsp;as the base (default) currency for Workfront.
 
    This is the currency that is used as the default for all projects and reports throughout the system.
 
-1. Click `Save`&nbsp;to save your changes.&nbsp;
+1. Click**Save**&nbsp;to save your changes.&nbsp;
 
 ## Enable users to modify the default currency for a project
 

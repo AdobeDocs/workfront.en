@@ -40,7 +40,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -54,12 +62,12 @@ You must have the following before you can start:
 
 ## Considerations when closing goals
 
-* `You must have access to Edit Goals in your access level before you can close and reopen goals. For information about granting access to Goals, see` ` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)`.
+* ```You must have access to Edit Goals in your access level before you can close and reopen goals. For information about granting access to Goals, see``` ``` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)```.
 * You can close only active goals. For information about goal statuses, see [Goal status overview in Adobe Workfront Goals](../../workfront-goals/goal-management/goal-status-overview.md).
 
 * Closing goals locks in its progress and allows you to rate how well you did in accomplishing it.
 
-  ` `**Warning: **``When closing a goal that has active contributing goals, its progress changes after closing to indicate the progress of the contributing active goals. For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+  ``` ```**Warning: **``````When closing a goal that has active contributing goals, its progress changes after closing to indicate the progress of the contributing active goals. For information about aligning goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 * Closing a goal removes it from your Check-in page, as you will no longer be responsible for updating the progress.
 * Check in on your goal to update its progress indicators before you close the goal to ensure the goal closes with an accurate progress value. If all progress indicators have been achieved then the goal percent complete should be 100% and your goal has been achieved. For information about checking in on your goals, see [Check in on goals in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
@@ -70,7 +78,7 @@ You must have the following before you can start:
 
 ## Close goals
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
 
    The Goal List opens. 
 
@@ -82,11 +90,11 @@ You must have the following before you can start:
 
    The Goal Details panel displays on the right. 
 
-1. (Optional and recommended) Click the `Updates` tab and add an update in the `Comment here` field about the reason you are closing the goal, then click `Post`. 
+1. (Optional and recommended) Click the **Updates** tab and add an update in the **Comment here** field about the reason you are closing the goal, then click **Post**. 
 
-1. Click the ` `More icon` ![](assets/more-icon.png)
+1. Click the ```**More icon** ![](assets/more-icon.png)
 
-   ` to the right of the goal name, then click `Close` > `Close Goal`.
+   ``` to the right of the goal name, then click **Close** > **Close Goal**.
 
    This closes the goal and saves the current progress on the goal and its results and activities.
 
@@ -106,9 +114,9 @@ You can reopen closed goals if you decided that they have become relevant again 
 
 >[!TIP]
 >
->`You can reopen closed goals from a past period.`
+>```You can reopen closed goals from a past period.```
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
 
    The Goal List opens. 
 
@@ -122,9 +130,9 @@ You can reopen closed goals if you decided that they have become relevant again 
 
    This opens the Goal Details panel. 
 
-1. Click the ` `More icon` ![](assets/more-icon.png)
+1. Click the ```**More icon** ![](assets/more-icon.png)
 
-   ` to the right of the goal name, then click `Reopen`> `Reopen`.
+   ``` to the right of the goal name, then click **Reopen**>**Reopen**.
 
    This reopens the goal in a status of Active. The progress of the goal is recalculated starting with the current date. 
 

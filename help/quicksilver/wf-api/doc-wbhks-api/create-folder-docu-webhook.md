@@ -17,14 +17,14 @@ POST /createFolder
 
 ## Query Parameters
 
-| `Name`  | `Description`  |
+| **Name** |**Description** |
 |---|---|
 | parentId&nbsp; |The folder ID in which the folder should be created |
 | name&nbsp; |The name of the new folder |
 
 &nbsp;
 
-`Response`
+**Response**
 
 The metadata for the newly created folder, as defined by the /metadata endpoint.
 

@@ -46,7 +46,7 @@ You must have the following to perform the steps in this article:
 ## Customize the Main Menu
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click `Set Main Menu` near the upper-right corner.
+1. Click **Set Main Menu** near the upper-right corner.
 
    In the Main Menu box that appears, you can see the items that are currently active in the Main Menu for the template, as well as the items that are available to add. The following are all the possible items that can be added:
 
@@ -54,7 +54,7 @@ You must have the following to perform the steps in this article:
 
     >[!TIP]
     >
-    >`By default, Home displays as My Updates ![](assets/my-updates-area-in-main-menu-reviewer-only-nwe.png) for Review-license users unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.`
+    >```By default, Home displays as My Updates ![](assets/my-updates-area-in-main-menu-reviewer-only-nwe.png) for Review-license users unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.```
 
   * Portfolios
   * Programs
@@ -92,22 +92,22 @@ You must have the following to perform the steps in this article:
 
 1. Do any of the following:
 
-  * Hide ![](assets/remove-icon---x-in-circle.png) `Active items` that you don't want to display and show ![](assets/add-icon-plus-in-circle.png) `Available items` that you do want to display on the Main Menu.
+  * Hide ![](assets/remove-icon---x-in-circle.png) **Active items** that you don't want to display and show ![](assets/add-icon-plus-in-circle.png) **Available items** that you do want to display on the Main Menu.
   
-  * Drag ![](assets/move-icon---dots.png) `Active items` to change their display order on the Main Menu.
+  * Drag ![](assets/move-icon---dots.png) **Active items** to change their display order on the Main Menu.
 
-1. Click `Done`.
+1. Click **Done**.
 
-   You can also click `Cancel` at any time if you want to discard your changes.
+   You can also click **Cancel** at any time if you want to discard your changes.
 
 1. Continue customizing the layout template.
 
    Or
 
-   If you are finished customizing, click `Save`.
+   If you are finished customizing, click **Save**.
 
    >[!TIP]
    >
-   >You can `Save` your progress at any time, then continue to modify the template later.
+   >You can **Save** your progress at any time, then continue to modify the template later.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

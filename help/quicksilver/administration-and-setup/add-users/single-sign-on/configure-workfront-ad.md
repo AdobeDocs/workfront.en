@@ -10,7 +10,7 @@ description: Since this is no longer supported, I am not going to update the art
 # Configure Adobe Workfront with Active Directory
 
 <!--
-Since this is no longer supported, I am not going to update the article for NWE/phase 2
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Since this is no longer supported, I am not going to update the article for NWE/phase 2</p>
 -->
 
 >[!IMPORTANT]
@@ -25,11 +25,11 @@ Since this is no longer supported, I am not going to update the article for NWE/
 
 To connect&nbsp;Adobe Workfront with an Active Directory Server:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
-1. Expand `System`, then click `Single Sign-On (SSO)`.
+1. Expand **System**, then click **Single Sign-On (SSO)**.
 
-1. In the `Type` drop-down list, select `Active Directory`.  
+1. In the **Type** drop-down list, select **Active Directory**.  
 
 1. Specify the following information:
 
@@ -59,7 +59,7 @@ To connect&nbsp;Adobe Workfront with an Active Directory Server:
      </tr> 
      <tr> 
       <td role="rowheader">Attribute Synchronization</td> 
-      <td> <p>Click <span class="bold">Map User Attributes</span>, select the Workfront User Attribute that you want to map from the drop-down list, then&nbsp;specify the corresponding Directory Attribute in the Active Directory server.&nbsp;You can also specify a Default Value for the attribute&nbsp;if you want one to be set. Click <span class="bold">Add Mapping</span> to include additional attributes, then click <span class="bold">Save</span> when you are finished.<br>When a discrepancy exists between user information in Workfront and Active Directory, and Active Directory is enabled, the information in the Active Directory will update the user information in Workfront.</p> <p>Important: Workfront attempts to map these attributes every time a user with these attributes logs into the system. If you have existing users in the system, make sure you are not overwriting their current access level, or any other attributes, by applying this mapping.</p> <p>You can map the following Workfront attributes:</p> 
+      <td> <p>Click <strong>Map User Attributes</strong>, select the Workfront User Attribute that you want to map from the drop-down list, then&nbsp;specify the corresponding Directory Attribute in the Active Directory server.&nbsp;You can also specify a Default Value for the attribute&nbsp;if you want one to be set. Click <strong>Add Mapping</strong> to include additional attributes, then click <strong>Save</strong> when you are finished.<br>When a discrepancy exists between user information in Workfront and Active Directory, and Active Directory is enabled, the information in the Active Directory will update the user information in Workfront.</p> <p>Important: Workfront attempts to map these attributes every time a user with these attributes logs into the system. If you have existing users in the system, make sure you are not overwriting their current access level, or any other attributes, by applying this mapping.</p> <p>You can map the following Workfront attributes:</p> 
        <ul> 
         <li>Access Level</li> 
         <li>Address</li> 
@@ -92,7 +92,7 @@ To connect&nbsp;Adobe Workfront with an Active Directory Server:
      </tr> 
      <tr> 
       <td role="rowheader">Certificate</td> 
-      <td>If <span class="bold">SSL/TLS</span> is selected, you must upload a valid SSL certificate to ensure a secure&nbsp;connection between the directory service and Workfront.&nbsp;For OnDemand accounts, a certificate is always required.</td> 
+      <td>If <strong>SSL/TLS</strong> is selected, you must upload a valid SSL certificate to ensure a secure&nbsp;connection between the directory service and Workfront.&nbsp;For OnDemand accounts, a certificate is always required.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Admin Exemption</td> 
@@ -100,14 +100,14 @@ To connect&nbsp;Adobe Workfront with an Active Directory Server:
      </tr> 
      <tr> 
       <td role="rowheader">Enable</td> 
-      <td> <p>Select this option to activate SSO on the Workfront system. Ensure that you have communicated login instructions to your users.</p> <p>After you enable your SSO configuration&nbsp;in Workfront, you must update users for SSO to enable the&nbsp;<span class="bold">Only Allow Active Directory Authentication</span> setting for all users.</p> <p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> <p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
+      <td> <p>Select this option to activate SSO on the Workfront system. Ensure that you have communicated login instructions to your users.</p> <p>After you enable your SSO configuration&nbsp;in Workfront, you must update users for SSO to enable the&nbsp;<strong>Only Allow Active Directory Authentication</strong> setting for all users.</p> <p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> <p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Confirm Configuration</td> 
-      <td> <p>Verify that your Workfront account can connect to the Active Directory server using the connection information and credentials provided.&nbsp;Click<span class="bold"> Test Connection</span>.</p> <p> <img src="assets/sso-active-directory-test-connection-350x166.png" alt="sso_active_directory_test_connection.png" style="width: 350;height: 166;"> <br> </p> <p>Specify the&nbsp;<span class="bold">Username</span> and <span class="bold">Password</span>&nbsp;for a user who can successfully log in to your environment using Active Directory. These are their Active Directory credentials.</p> <p>Click <span class="bold">Test Connection</span> to test the connection from Workfront to your Active Directory server.</p> <p>You should receive an on-screen confirmation when the connection is successful.</p> </td> 
+      <td> <p>Verify that your Workfront account can connect to the Active Directory server using the connection information and credentials provided.&nbsp;Click<strong>Test Connection</strong>.</p> <p> <img src="assets/sso-active-directory-test-connection-350x166.png" alt="sso_active_directory_test_connection.png" style="width: 350;height: 166;"> <br> </p> <p>Specify the&nbsp;<strong>Username</strong> and <strong>Password</strong>&nbsp;for a user who can successfully log in to your environment using Active Directory. These are their Active Directory credentials.</p> <p>Click <strong>Test Connection</strong> to test the connection from Workfront to your Active Directory server.</p> <p>You should receive an on-screen confirmation when the connection is successful.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save` to save the Active Directory configuration.
+1. Click **Save** to save the Active Directory configuration.
 

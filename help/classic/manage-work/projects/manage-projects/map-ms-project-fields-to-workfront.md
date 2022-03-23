@@ -25,7 +25,7 @@ When performing such imports of data, it is important to understand how informat
 >
 >Planned dates do not always correspond&nbsp;between both systems. Discrepancies can be accounted for through schedule and differences in system preferences between Workfront and Microsoft Project. These date discrepancies can&nbsp;also result in differences in effort, duration, and percent complete.
 
-| `Microsoft Project Field`  | `Workfront Field`  |
+| **Microsoft Project Field** |**Workfront Field** |
 |---|---|
 | Project Title |Project Name |
 | Project Start Date |Project Planned Start Date |

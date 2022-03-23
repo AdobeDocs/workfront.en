@@ -18,7 +18,7 @@ This section contains the following articles:
 * [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
 
   <!--
-
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</li>
   -->
 
 * [How group and approval process changes affect assigned approval processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md) 

@@ -35,3 +35,11 @@ You must have the following access to perform the steps in this article:
 
 ## Locate a user's organizational chart
 
+1. People
+1. People
+1. Details
+1. Org Chart
+1. 
+1. 
+1.
+

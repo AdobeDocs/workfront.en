@@ -45,17 +45,17 @@ These steps explain how to create a new group from scratch. For information abou
 
 You must be a Workfront administrator to create a top-level group.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-1. Above the list of groups, click `New Group`.
+1. Above the list of groups, click **New Group**.
 
    >[!TIP]
    >
-   >At the bottom of the list of groups, you can also click `Add More Groups` to add a group in-line, then click `Enter` when you are finished adding the group information.
+   >At the bottom of the list of groups, you can also click **Add More Groups** to add a group in-line, then click **Enter** when you are finished adding the group information.
 
-1. In the `New Group` box that displays, type a name for the group.
+1. In the **New Group** box that displays, type a name for the group.
 1. Specify the following information:
 
    <table cellspacing="0"> 
@@ -69,7 +69,19 @@ You must be a Workfront administrator to create a top-level group.
      <tr> 
       <td role="rowheader">Description</td> 
       <td>Type a description for the group. You can type up to 512 characters.</td> 
-     </tr> Is Active WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in (Enabled by default) Makes the group active in your Workfront instance. In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list. To streamline this for your users, you can disable the Is Active option for groups that are not currently in use. You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see Reporting elements: filters, views, and groupings. 
+     </tr> <!-- 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="preview">Is Active</span> </td> 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
+       <div class="preview"> <!--
+         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
+        --> 
+        <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
+        <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
+        <p> <img src="assets/group-type-aheads.jpg"> </p> 
+        <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
+        <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> 
+       </div> </td> 
+     --> 
      <tr> 
       <td role="rowheader">Make this group and its subgroups public</td> 
       <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <p>Note:  
@@ -91,7 +103,7 @@ You must be a Workfront administrator to create a top-level group.
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
+        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -101,7 +113,7 @@ You must be a Workfront administrator to create a top-level group.
     </tbody> 
    </table>
 
-1. Click `Create Group`.
+1. Click **Create Group**.
 
 ## Create a top-level group by copying an existing group or subgroup
 
@@ -114,14 +126,14 @@ Keep the following in mind when you want to do this:
 
 To create a new top-level group by copying a group or subgroup:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
-1. Select the group you want to copy, then click the Copy icon.
-1. In the `Copy Group` box that appears, type a `Group Name` for the copied group.  
+1. Select the group you want to copy, then click the Copy icon ![](assets/copy-icon.png).
+1. In the **Copy Group** box that appears, type a **Group Name** for the copied group.  
 
 1. Specify the following information:
 
@@ -136,7 +148,19 @@ To create a new top-level group by copying a group or subgroup:
      <tr> 
       <td role="rowheader">Description</td> 
       <td>Type a description for the group. You can type up to 512 characters.</td> 
-     </tr> Is Active WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in (Enabled by default) Makes the group active in your Workfront instance. In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list. To streamline this for your users, you can disable the Is Active option for groups that are not currently in use. You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see Reporting elements: filters, views, and groupings. 
+     </tr> <!-- 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><span class="preview">Is Active</span> </td> 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> 
+       <div class="preview"> <!--
+         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> WHEN UNDRAFTING AND LATER UNHIGHLIGHTING THIS, make sure to do the same to the blurb at the top of each of the 3 articles this snippet is in</p>
+        --> 
+        <p>(Enabled by default) Makes the group active in your Workfront instance.</p> 
+        <p>In type-ahead fields like the one shown below, when regular users search for a group to attach it to an object or to share an object with it, only active groups display in the list.</p> 
+        <p> <img src="assets/group-type-aheads.jpg"> </p> 
+        <p>To streamline this for your users, you can disable the Is Active option for groups that are not currently in use.</p> 
+        <p>You can easily view, filter and group the Groups list based on active or inactive status using this field. For information about using views, filters, and groupings in lists, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">Reporting elements: filters, views, and groupings</a>.</p> 
+       </div>  </td> 
+     --> 
      <tr> 
       <td role="rowheader">Make this group and its subgroups public</td> 
       <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <p>Note:  
@@ -158,7 +182,9 @@ To create a new top-level group by copying a group or subgroup:
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators:Any group administrators of the original group are also designated as the group administrators in the copied group. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
+        <li> <p>Group administrators:<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.copied groups">
+            Any group administrators of the original group are also designated as the group administrators in the copied group.
+          </MadCap:conditionalText> You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -178,7 +204,7 @@ To create a new top-level group by copying a group or subgroup:
    >  
    >
 
-1. Click `Create Group`.
+1. Click **Create Group**.
 
 ##  
 

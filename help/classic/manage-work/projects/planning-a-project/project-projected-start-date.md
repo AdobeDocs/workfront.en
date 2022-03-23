@@ -38,5 +38,5 @@ You can locate the Projected Start Date of a project or a task in the following 
 
   For more information about creating a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* In the Project Details tab of a project or the Task Details tab of a task.
+* In the Project Details tab of a project or the Task Details tab of a task.  ![](assets/projected-start-date-on-project-tab-350x406.png)
 

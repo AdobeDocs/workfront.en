@@ -52,8 +52,8 @@ You can link an asset from Experience Manager Assets to Workfront. Once the asse
 
 To link an asset to Experience Manager Assets:
 
-1. Go to the `Documents` area in Workfront where you want to add the document.
-1. Click `Add new`, then choose the Experience Manager Assets integration your administrator set up.
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Click **Add new**, then choose the Experience Manager Assets integration your administrator set up.
 1. 
 
    >[!NOTE]
@@ -64,7 +64,7 @@ To link an asset to Experience Manager Assets:
 
    ![](assets/select-an-asset.png)
 
-1. Click `Link`.
+1. Click **Link**.
 
 ## Link a folder from Experience Manager Assets
 
@@ -72,8 +72,8 @@ Permissions to view individual assets inside of a folder rely on Experience Mana
 
 To link a folder to Experience Manager Assets:
 
-1. Go to the `Documents` area in Workfront where you want to add the document.
-1. Click `Add new`, then choose the Experience Manager Assets integration your administrator set up.
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Click **Add new**, then choose the Experience Manager Assets integration your administrator set up.
 1. 
 
    >[!NOTE]
@@ -84,7 +84,7 @@ To link a folder to Experience Manager Assets:
 
    ![](assets/select-a-folder.png)
 
-1. Click `Link`.
+1. Click **Link**.
 
 ## Link a new version from Experience Manager Assets
 
@@ -92,13 +92,13 @@ You can pull a new asset over from Experience Manager Assets and add it to an ex
 
 >[!TIP]
 >
->You can view all versions of an asset if you go to `Document Details` > `Versions`.
+>You can view all versions of an asset if you go to **Document Details** > **Versions**.
 
 To link a new version from Experience Manager Assets:
 
-1. Go to the `Documents` area in Workfront where you want to add the document.
+1. Go to the **Documents** area in Workfront where you want to add the document.
 1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder. 
-1. Click `Add new`, then choose the Experience Manager Assets integration your administrator set up.
+1. Click **Add new**, then choose the Experience Manager Assets integration your administrator set up.
 
    >[!NOTE]
    >
@@ -108,5 +108,5 @@ To link a new version from Experience Manager Assets:
 
    ![](assets/select-an-asset.png)
 
-1. Click `Link`.
+1. Click **Link**.
 

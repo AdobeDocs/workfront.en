@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Create and manage proof comments
 description: Comments enable you to provide feedback on work and collaborate with other users in the proofing viewer. When tagging users in comments on a proof, the users you are able to tag might differ depending on various factors, such as individual user permissions and your membership in the organization:
+hidefromtoc: true
 ---
 
 # Create and manage proof comments
@@ -44,10 +45,10 @@ You must have the following access to perform the steps in this article:
 
 ## Comment on a proof
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. (Conditional) If this is a video proof, play the video proof, then click `Add comment` at the point in the video where you want the comment. (You can also pause the video, click in the time line where you want the comment, then click `Add comment`.)
+1. (Conditional) If this is a video proof, play the video proof, then click**Add comment** at the point in the video where you want the comment. (You can also pause the video, click in the time line where you want the comment, then click **Add comment**.)
 
 1. Or
 1. If you want to comment on a range of video footage, drag the playheads left and right in the timeline to indicate a range of footage you want to comment on.  
@@ -56,7 +57,7 @@ You must have the following access to perform the steps in this article:
 1. For better precision, you can click the values above the playheads and type new values.  
 1. ![click_above_playheads_to_type_values.png](assets/click-above-playheads-to-type-values-350x79.png)
 
-1. Click `Add comment`.
+1. Click **Add comment**.
 
    ![Add_comment.png](assets/add-comment-350x73.png)
 
@@ -71,23 +72,23 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Draw a freehand line</span> </td> 
+      <td role="rowheader"><strong>Draw a freehand line</strong> </td> 
       <td>Lets you add a line on the selected area on the proof.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Draw an arrow</span> </td> 
+      <td role="rowheader"><strong>Draw an arrow</strong> </td> 
       <td>Lets you add an arrow to an area you select.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Highlight an area</span> </td> 
+      <td role="rowheader"><strong>Highlight an area</strong> </td> 
       <td>Highlights the area you select.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Draw a rectangle</span> </td> 
+      <td role="rowheader"><strong>Draw a rectangle</strong> </td> 
       <td>Lets you draw a rectangle around an area.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Polyline</span> </td> 
+      <td role="rowheader"><strong>Polyline</strong> </td> 
       <td> <p>Draws a connected sequence of line segments that you can leave open or close as a shape. You can move or delete any of the points you add. </p> <p>This tool is especially useful for working with technical and architectural images.</p> </td> 
      </tr> 
      <tr> 
@@ -101,15 +102,15 @@ You must have the following access to perform the steps in this article:
 
    ![Comment_color_tool.png](assets/comment-color-tool-350x240.png)
 
-   | `Set as default`  |(Available only for proofing license holders.) Sets the color, Opacity, and Thickness you select as the defaults for comment markup on all proofs, and marks the color&nbsp;with a star. |
+   | **Set as default** |(Available only for proofing license holders.) Sets the color, Opacity, and Thickness you select as the defaults for comment markup on all proofs, and marks the color&nbsp;with a star. |
    |---|---|
-   | `Opacity`  |Select the opacity level you want for your comment marks. A lower opacity level is more transparent; a higher opacity level is more opaque. |
-   | `Thickness`  |Select the thickness of the comment marks, from 1 to 20 pixels. |
+   | **Opacity** |Select the opacity level you want for your comment marks. A lower opacity level is more transparent; a higher opacity level is more opaque. |
+   | **Thickness** |Select the thickness of the comment marks, from 1 to 20 pixels. |
 
 1. Mark the area of the proof that you want to comment on.
 1. In static proofs, you can mark multiple areas on multiple pages for one comment. For example, if you want to make the same comment on multiple pages, select an area on one page, then go to the next page where you want to make the same comment and select an area there. (This applies only to the regular annotation markup tools, not the text markup tools.)
 1. You can also mark multiple areas of an interactive proof as long as the areas are all on the same page. 
-1. Type your comment in the `Add comment` box on the right.
+1. Type your comment in the **Add comment** box on the right.
 1. (Optional) To tag another user in your comment and add them to the proof's workflow, type @ in the comment box, then type the user's name or email address and select the user in the menu that appears.&nbsp;
 
    For more information, see [Tag users to share a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
@@ -119,15 +120,15 @@ You must have the following access to perform the steps in this article:
   * Click the paper clip icon in the lower-right corner of the comment, then find and select the file you want to upload.
   * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
-1. Click `Post`.
+1. Click **Post**.
 1. Adobe Workfront drops a pin in the center of the area you marked for the comment. In the screenshot below, the markup (red box) was drawn with the Box tool and the pin marked number 2 in the center identifies the markup.  
 1. ![pin_for_comment.png](assets/pin-for-comment-350x179.png)
 
 ## View comments
 
 1. Open the proof where you want to view comments.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. (Optional) Use the `Previous comment` and `Next comment` buttons on the right edge of the screen to navigate forward and back through comments.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. (Optional) Use the **Previous comment** and **Next comment** buttons on the right edge of the screen to navigate forward and back through comments.
 
    ![](assets/prev-commt-next-commnt-350x224.png)
 
@@ -158,12 +159,15 @@ In Workfront, you can view proof comments without launching your proofing viewer
 >
 >This feature is not available in Workfront Proof.
 
-1. On the `Documents` tab of a work item, locate the document you want to view.
+1. On the **Documents** tab of a work item, locate the document you want to view.
+1. Summary
+1. 
+1.
 
 ## Reply to comments
 
 1. View the comment, as described in [View comments](#viewing-comments) in this article.
-1. Type your reply in the `Add a reply` box.
+1. Type your reply in the **Add a reply** box.
 1. (Optional) To notify another reviewer&nbsp;about your reply, type @ in the comment box, then type the user's name or email address.
 
    For more information, see [Tag users to share a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
@@ -173,15 +177,15 @@ In Workfront, you can view proof comments without launching your proofing viewer
   * Click the paper clip icon, then browse to and select the file you want to upload.
   * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
-1. Click `Reply`.
+1. Click **Reply**.
 
 You can also reply to a proof comment from the Updates area for the document.
 
 ## Search the comment list
 
 1. Open the proof where you want to search comments.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. Click the `Search` icon to display the search box.  
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. Click the **Search** icon to display the search box.  
 
 1. Begin typing either of the following:
 
@@ -196,51 +200,51 @@ You can also reply to a proof comment from the Updates area for the document.
 You can filter the comments that display by defining filter parameter such as user, actions, unread status, and more.
 
 1. Open the proof where you want to filter comments.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. In the comments area, click the `Filter` icon.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. In the comments area, click the **Filter** icon.
 
    ![proof_comment_filter.png](assets/proof-comment-filter.png)
 
-1. Use the options that appear below the `Filter` icon to filter the comments by any of the following criteria:
+1. Use the options that appear below the **Filter** icon to filter the comments by any of the following criteria:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Authors</span> </td> 
+      <td role="rowheader"><strong>Authors</strong> </td> 
       <td>Displays only comments and comment replies made by users you specify. Begin typing the name of any user, then select the user you want from the list that appears. The number of comments added by the users you specify displays next to their names.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Actions</span> </td> 
-      <td>(if Actions are enabled in your system): Displays only comments that match the action you select. A number displayed to the right of an action indicates how many comments are associated with that action. The option <span class="bold">Unactioned</span> allows you to display only comments that contain no action.</td> 
+      <td role="rowheader"><strong>Actions</strong> </td> 
+      <td>(if Actions are enabled in your system): Displays only comments that match the action you select. A number displayed to the right of an action indicates how many comments are associated with that action. The option <strong>Unactioned</strong> allows you to display only comments that contain no action.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">General filtering options</span> </td> 
+      <td role="rowheader"><strong>General filtering options</strong> </td> 
       <td> 
        <ul> 
-        <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
-        <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
-        <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
-        <li><span class="bold">Current page only</span>:&nbsp;(Available only for static and interactive proofs.) Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.</li> 
+        <li><strong>Unresolved</strong>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
+        <li><strong>Unread</strong>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
+        <li><strong>With attachments</strong>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
+        <li><strong>Current page only</strong>:&nbsp;(Available only for static and interactive proofs.) Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Apply` or click the `Filter` icon to view the comment list with your filter criteria applied.
+1. Click **Apply**&nbsp;or click the **Filter** icon to view the comment list with your filter criteria applied.
 
 1. The list is filtered, and the Filter icon displays swith a blue dot to indicate that a filter is applied.
 1. ![proof_comment_filtered.png](assets/proof-comment-filtered-350x212.png)
 
-1. When you are finished filtering and you want to see all the comments, click the `Filter` icon, click `Reset`, then click the `Filter` icon again.
+1. When you are finished filtering and you want to see all the comments, click the **Filter** icon, click **Reset**, then click the **Filter** icon again.
 
 ## Sort the comment list
 
 When you sort the comment list, the sort option you choose is remembered the next time you open a proof in the proofing viewer you are using.
 
 1. Open the proof where you want to sort comments.
-1. If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+1. If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.  
 
 1. Click the sorting&nbsp;menu to open it.
 1. ![](assets/mceclip3.png)   
@@ -280,7 +284,7 @@ When you sort the comment list, the sort option you choose is remembered the nex
       <td>(Available only for video proofs.) Displays comments in order of when they appear in relation to the video timeline.&nbsp;Comments made earlier in the timeline display first.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Device (up)</span> </td> 
+      <td role="rowheader"><strong>Device (up)</strong> </td> 
       <td>(Available only for interactive proofs.) Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
      </tr> 
      <tr> 
@@ -306,40 +310,52 @@ When you edit a comment, the time the comment was made is not affected.
 To edit a comment:
 
 1. Open the proof containing the comment that you want to edit.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. Hover over the comment you want to edit, click the `More` (three dots) icon that appears, then click `Edit` in the drop-down menu.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. Hover over the comment you want to edit, click the **More** (three dots) icon that appears, then click **Edit** in the drop-down menu.
 
 1. ![Edit_a_comment-More_icon.png](assets/edit-a-comment-more-icon.png)
 
-1. Make any changes in the comment, then click `Post`.
+1. Make any changes in the comment, then click **Post**.
 
    The label "Edited" appears on the comment. When a reviewer mouses over this, your name and the date and time of the changes appear. If you edit the comment more than once, this information appears only for the most recent change.
 
    ![Comments-Edited_label.png](assets/comments-edited-label-350x211.png)
 
-   This label also appears above the comment when you select the document in the Documents area and view the `Updates` tabin the Summary.
+   This label also appears above the comment when you select the document in the Documents area and view the **Updates** tab in the Summary .
+
+   ![](assets/edited-label-in-minix-qs-350x280.png)
 
 ## Resolve a comment
 
 If you have the Author or Moderator role on a proof, you can resolve a comment after it has been addressed.
 
 1. Open the proof containing the comment that you want to resolve.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. Click the check mark icon in the lower-right corner of the comment (to the right of the `Reply` button).
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. Click the check mark icon in the lower-right corner of the comment (to the right of the **Reply** button).
 
    A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives a notification that the comment was resolved.
-   A "Thread resolved" label also appears above the Updates comment in the Summary. For information about the Summary, see Summary for documents overview.
+
+   <!--
+   A "Thread resolved" label also appears above the
+   <strong>Updates</strong> comment in the Summary. For information about the Summary, see
+   <a href="../../../documents/managing-documents/summary-for-documents.md" class="MCXref xref">Summary for documents overview</a>.
+   -->
 
 ## Reopen a resolved comment
 
 If you have the Author or Moderator role on a proof, you can re-open a comment that you or another reviewer has resolved.
 
 1. Open the proof containing the comment that you want to reopen.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. Click the green check mark icon in the lower-right corner of the comment (to the right of the `Reply` button).
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. Click the green check mark icon in the lower-right corner of the comment (to the right of the **Reply** button).
 
    The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.
-   Also, the "Thread resolved" label above the Updates comment in the Summary is removed. For information about the Summary, see Summary for documents overview.
+
+   <!--
+   Also, the "Thread resolved" label above the
+   <strong>Updates</strong> comment in the Summary is removed. For information about the Summary, see
+   <a href="../../../documents/managing-documents/summary-for-documents.md" class="MCXref xref">Summary for documents overview</a>.
+   -->
 
 ## About applying an action to a comment
 
@@ -360,9 +376,9 @@ For more information, see [Use actions on proof comments](../../../review-and-ap
 As a reviewer of a proof, you can quickly mark all comments as Read.
 
 1. Open the proof containing the comments you want to mark as Read.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.  
 
-1. Above the comment list, click the `More` (three dots) icon, then click `Mark all as read`.
+1. Above the comment list, click the **More** (three dots) icon, then click **Mark all as read**.
 
 1. ![](assets/mceclip8-350x173.png)
 
@@ -382,13 +398,13 @@ After a comment is deleted, the system logs an&nbsp;entry in the proof activity 
 To delete a comment or reply:
 
 1. Open the proof containing the comment or reply that you want to delete.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. Select the comment or reply, then click the `More` (three dots) icon.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. Select the comment or reply, then click the **More** (three dots) icon.
 
    ![phq_viewer_comment_edit.png](assets/phq-viewer-comment-edit.png)
 
-1. Click `Delete` > `Yes, delete it`.
+1. Click **Delete** >**Yes, delete it**.
 
 ## Receive email notifications about comments
 
-The email notifications you receive about comment activity are determined by the option you select in the `Email alerts`&nbsp;menu on the proof.&nbsp; For more information, see in [Manage notifications for proof comments and decisions](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md).
+The email notifications you receive about comment activity are determined by the option you select in the **Email alerts**&nbsp;menu on the proof.&nbsp; For more information, see in [Manage notifications for proof comments and decisions](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md).

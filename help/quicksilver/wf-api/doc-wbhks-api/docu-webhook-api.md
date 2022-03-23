@@ -19,7 +19,7 @@ The user experience for webhook-based integrations will be similar to that of ex
 * Upload files to the external document provider
 * View a thumbnail for the document
 
-## `Reference Implementation`
+## **Reference Implementation**
 
 To help jumpstart the development of a new webhooks implementation, Workfront provides a reference implementation. Code for this can be found at [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). This implementation is Java-based and allows Workfront to connect documents on a network file system.
 
@@ -157,7 +157,7 @@ HTTP Request POST /any/url
 
 The URL is configurable and corresponds to the Token Endpoint URL value on the custom integration Setup page.
 
-`Query Parameters` 
+**Query Parameters** 
 
 <table cellspacing="15"> 
  <col> 
@@ -201,7 +201,7 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 &nbsp;
 
-`Response` 
+**Response** 
 
 <table cellspacing="15"> 
  <col> 
@@ -235,19 +235,19 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
 
 &nbsp;
 
-`Example` 
-<pre>POST /oauth2/token </pre><pre>grant_type=authorization_code </pre><pre>code=d9ac7asdf6asdf579d7a8 </pre><pre>client_id=123456 </pre><pre>client_secret=6asdf7a7a9a4af</pre>`Response` 
+**Example** 
+<pre>POST /oauth2/token </pre><pre>grant_type=authorization_code </pre><pre>code=d9ac7asdf6asdf579d7a8 </pre><pre>client_id=123456 </pre><pre>client_secret=6asdf7a7a9a4af</pre>**Response** 
 <pre>{</pre><pre>"access_token":"ad8af5ad5ads759", </pre><pre>"refresh_token":"9a0h5d87d808ads", </pre><pre>"expires_id":"3600" </pre><pre>}</pre>
 
 ### Get metadata for file or folder
 
 Returns metadata for the specified file or folder.
 
-`URL`
+**URL**
 
 GET /metadata?id=[document or folder ID]
 
-`Query Parameters` 
+**Query Parameters** 
 
 <table cellspacing="15"> 
  <col> 
@@ -268,7 +268,7 @@ GET /metadata?id=[document or folder ID]
 
 &nbsp;
 
-`Response` 
+**Response** 
 
 <table cellspacing="15"> 
  <col> 
@@ -330,9 +330,9 @@ GET /metadata?id=[document or folder ID]
  </tbody> 
 </table>
 
-` `**Example: **``https://www.acme.com/api/metadata?id=12345
+``` ```**Example: **``````https://www.acme.com/api/metadata?id=12345
 
-`Response` 
+**Response** 
 <pre>{</pre><pre>"title":"My Document", </pre><pre>"kind":"file" </pre><pre>"id":"12345", </pre><pre>"viewLink":"https://www.acme.com/viewDocument?id=12345”, </pre><pre>"downloadLink":"https://www.acme.com/downloadDocument?id=12345", </pre><pre>"mimeType":"image/png", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z",</pre><pre>"size": "32554694" </pre><pre>}</pre>
 
 >[!NOTE]
@@ -343,11 +343,11 @@ GET /metadata?id=[document or folder ID]
 
 Returns metadata for the files and folders for a given folder.
 
-`URL`
+**URL**
 
 GET /files
 
-`Query Parameters` 
+**Query Parameters** 
 
 | Name&nbsp; |Description |
 |---|---|
@@ -355,24 +355,24 @@ GET /files
 | max&nbsp; |The maximum number of items to return. Used for pagination. |
 | offset&nbsp; |&nbsp;The page offset, used in conjunction with ‘max’. |
 
-`Response`
+**Response**
 
 JSON containing a list of files and folders. The metadata for each item is the same that returned by the /metadata endpoint.
 
-` `**Example: **``https://www.acme.com/api/files?parentId=123456
+``` ```**Example: **``````https://www.acme.com/api/files?parentId=123456
 
-`Response` 
+**Response** 
 <pre>[</pre><pre>{</pre><pre>"title":"Folder A", </pre><pre>"kind":"folder",</pre><pre>"id":"2lj23lkj", </pre><pre>"viewLink":"https://www.acme.com/viewDocument?id=2lj23lkj”, </pre><pre>"downloadLink":"https://www.acme.com/downloadDocument?id=2lj23lkj", </pre><pre>"mimeType":"", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z",</pre><pre>"size":"" </pre><pre>}, </pre><pre>{</pre><pre>"title":"My Document", </pre><pre>"kind":"file",</pre><pre>"id":"da8cj234", </pre><pre>"viewLink":"https://www.acme.com/viewDocument?id=da8cj234”, </pre><pre>"downloadLink":"https://www.acme.com/downloadDocument?id=da8cj234",</pre><pre>"mimeType":"image/png", </pre><pre>"dateModified":"2014­06­05T17:39:45.251Z",</pre><pre>"size":"32554694" </pre><pre>}, </pre><pre>]</pre>
 
 ### Do a Search
 
 Returns metadata for the files and folders returned from a search. This can be implemented as a full-text search or as a regular database query. Workfront calls the /search endpoint when the user performs a search from the external file browser.
 
-`URL`
+**URL**
 
 GET /search
 
-`Query Parameters` 
+**Query Parameters** 
 
 <table cellspacing="15"> 
  <col> 
@@ -405,11 +405,11 @@ GET /search
 
 &nbsp;
 
-`Response`
+**Response**
 
 JSON containing a list of metadata for files and folders matching the query. What constitutes a “match” is determined by the webhook provider. Ideally, it should do a full-text search. Doing a filename-based search also works.
 
-` `**Example: **``https://www.acme.com/api/search?query=test-query
+``` ```**Example: **``````https://www.acme.com/api/search?query=test-query
 
 Response
 <pre>[</pre><pre>{ File/Folder Metadata }, </pre><pre>{ File/Folder Metadata } </pre><pre>]</pre>
@@ -418,11 +418,11 @@ Response
 
 Returns the raw bytes for a document
 
-`URL`
+**URL**
 
 GET /download
 
-`Query Parameters` 
+**Query Parameters** 
 
 <table cellspacing="15"> 
  <col> 
@@ -443,21 +443,21 @@ GET /download
 
 &nbsp;
 
-`Response`
+**Response**
 
 The raw bytes of the document.
 
-` `**Example: **`` `https://www.acme.com/api/download?id=123456`
+``` ```**Example: **`````` ```https://www.acme.com/api/download?id=123456```
 
 ### Get a thumbnail for a document
 
 Returns the raw thumbnail bytes for a document.
 
-`URL`
+**URL**
 
 GET /thumbnail
 
-`Query Parameters` 
+**Query Parameters** 
 
 | Name&nbsp; |Description |
 |---|---|
@@ -466,11 +466,11 @@ GET /thumbnail
 
 &nbsp;
 
-`Response`
+**Response**
 
 The raw thumbnail bytes.
 
-` `**Example: **``https://www.acme.com/api/thumbnail?id=123456
+``` ```**Example: **``````https://www.acme.com/api/thumbnail?id=123456
 
 ### Upload a file - Part 1 of 2
 
@@ -478,11 +478,11 @@ Uploading a file to a document storage provider is a two-step process that requi
 
 Added to version 1.1 of this spec, the document ID and document version ID can be used to retrieve extra information from Workfront. For example, if the document management system wants extra information about the document, the webhook implementation code could use the document ID to retrieve that information using Workfront’s RESTful API. As a good practice, this information could come from custom data fields on the document and it’s containing task, issue, or project.
 
-`URL`
+**URL**
 
 POST /uploadInit
 
-`Query Parameters` 
+**Query Parameters** 
 
 <table cellspacing="15"> 
  <col> 
@@ -515,13 +515,13 @@ POST /uploadInit
 
 &nbsp;
 
-`Response`
+**Response**
 
 The metadata for the file, as defined by the /metadata endpoint.
 
-` `**Example: **``https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
+``` ```**Example: **``````https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&docu mentId=511ea6e000023edb38d2effb2f4e6e3b&documentVersionId=511ea6e000023edb38d2e ffb2f4e6e3b
 
-`Response`
+**Response**
 
 [file_metadata] ­ includes the new document ID used by the document provider.
 
@@ -529,11 +529,11 @@ The metadata for the file, as defined by the /metadata endpoint.
 
 Uploads the bytes of a document to the webhook provider.
 
-`URL`
+**URL**
 
 PUT /upload
 
-`Query Parameters` 
+**Query Parameters** 
 
 | Name&nbsp; |Description |
 |---|---|
@@ -541,13 +541,13 @@ PUT /upload
 
 &nbsp;
 
-`Request Body`
+**Request Body**
 
 The raw content bytes for the document.
 
-`Response` 
+**Response** 
 <pre>{</pre><pre>"result": “success” </pre><pre>}</pre>or
-<pre>{</pre><pre>"result": “fail” </pre><pre>}</pre>` `**Example: **``https://www.acme.com/api/upload?id=1234 [document bytes included in update stream]
+<pre>{</pre><pre>"result": “fail” </pre><pre>}</pre>``` ```**Example: **``````https://www.acme.com/api/upload?id=1234 [document bytes included in update stream]
 
 Response
 <pre>{</pre><pre>"result":"success"</pre><pre>}</pre>
@@ -556,7 +556,7 @@ Response
 
 (Release Date - TBD) Returns information about the service, such as features and capabilities. Workfront will use this information to customize the user interface in Workfront. For example, if the webhook implementation contains some custom actions, the JSON should list those operations in the JSON. Users would then be able to invoke these actions from Workfront.
 
-`URL`
+**URL**
 
 GET /serviceInfo
 
@@ -564,7 +564,7 @@ Query Parameters
 
 None. In addition, calls to this endpoint should not require authentication.
 
-`Response`
+**Response**
 
 JSON containing information about this service
 
@@ -608,7 +608,7 @@ JSON containing information about this service
  </tbody> 
 </table>
 
-` `**Example: **`` `https://www.acme.com/api/serviceInfo`
+``` ```**Example: **`````` ```https://www.acme.com/api/serviceInfo```
 
 returns
 <pre>{</pre><pre>"webhook version": “1.2”, "version": “1.0”, "publisher": “Acme, LLC”, "availableEndpoints": [“files”, “metadata”, “search”, “download”</pre><pre>“thumbnail”, “uploadInit”, “upload” ], "customActions" [</pre><pre>{</pre><pre>"name": “archive”, "displayName": “Archive” }, {</pre><pre>"name": “doSomethingElse”, "displayName": “Do Something” }, ] }</pre>
@@ -620,7 +620,7 @@ URL
 
 POST /createFolder
 
-`Query Parameters`
+**Query Parameters**
 
 | Name&nbsp; |Description |
 |---|---|
@@ -629,11 +629,11 @@ POST /createFolder
 
 &nbsp;
 
-`Response`
+**Response**
 
 The metadata for the newly created folder, as defined by the /metadata endpoint.
 
-` `**Example: **`` `POST https://www.acme.com/api/createFolder`
+``` ```**Example: **`````` ```POST https://www.acme.com/api/createFolder```
 
 -------------------------------
 
@@ -654,7 +654,7 @@ URL
 
 PUT /delete
 
-`Query Parameters`
+**Query Parameters**
 
 | Name&nbsp; |Description |
 |---|---|
@@ -663,7 +663,7 @@ PUT /delete
 
 Response A JSON string indicating success or failure, as specified in the Error Handling section below.
 
-` `**Example: **``PUT https://www.acme.com/api/delete ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ id=1234 ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
+``` ```**Example: **``````PUT https://www.acme.com/api/delete ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­ id=1234 ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 
 returns
 <pre>{</pre><pre>"status": “success” </pre><pre>}</pre><pre>returns</pre><pre>{</pre><pre>"status": “failure”, "error": “File not found” </pre><pre>}</pre>
@@ -676,7 +676,7 @@ URL
 
 PUT /rename
 
-`Query Parameters`
+**Query Parameters**
 
 | Name&nbsp; |Description |
 |---|---|
@@ -689,7 +689,7 @@ Response
 
 A JSON string indicating success or failure, as specified in the Error Handling section below.
 
-` `**Example: **``PUT&nbsp;https://www.acme.com/api/rename
+``` ```**Example: **``````PUT&nbsp;https://www.acme.com/api/rename
 
 -------------------------------
 
@@ -713,11 +713,11 @@ The webhook provider registers custom actions with Workfront by including the ac
 Users can trigger the custom action by selecting the section under “Document Actions”  
 ![](assets/mceclip1-350x95.png)
 
-`URL`
+**URL**
 
 GET /customAction
 
-`Query Parameters`
+**Query Parameters**
 
 <table cellspacing="15">
  <col>
@@ -746,11 +746,11 @@ GET /customAction
 
 &nbsp;
 
-`Response`
+**Response**
 
 A JSON string indicating success or failure, as specified in the Error Handling section below. On failure (i.e. status = “failure”), Workfront will display the provided error message to the user.
 
-` `**Example: **``https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
+``` ```**Example: **``````https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
 
 response
 <pre>{</pre><pre>"status": “success” </pre><pre>}</pre>

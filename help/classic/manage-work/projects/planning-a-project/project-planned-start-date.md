@@ -20,7 +20,14 @@ You must manually set the Planned Start Date of a project when you schedule the 
 For information about setting the project's Planned Start Date, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
-Go to the Projects area in your Global Navigation Bar. Select the Projects tab, then click New Project. For more information about creating projects, see Create a project. Click Edit Project. In the Schedule From field, select Start Date. Specify the Planned Start Date of the project. Click Save Changes. As you start adding tasks to your project, the Planned Completion Date of the project calculates based on the total Duration of all of the tasks.
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1"> Go to the <strong>Projects</strong> area in your Global Navigation Bar. </li>
+<li value="2"> <p> Select the <strong>Projects</strong> tab, then click <strong>New Project</strong>. </p> <p>For more information about creating projects, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li>
+<li value="3"> Click <strong>Edit Project</strong>. </li>
+<li value="4">In the <strong>Schedule From</strong> field, select <strong>Start Date</strong>.</li>
+<li value="5">Specify the <strong>Planned Start Date</strong> of the project.</li>
+<li value="6"> <p>Click <strong>Save Changes</strong>.</p> <p>As you start adding tasks to your project, the <strong>Planned Completion Date</strong> of the project calculates based on the total Duration of all of the tasks.&nbsp;</p> </li>
+</ol>
 -->
 
 ## Automatically set the Planned Start Date of a project
@@ -48,7 +55,17 @@ The Planned Start Date of a project is automatically set when you create the pro
   For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
-To schedule a project from Completion Date: Go to the Projects area in your Global Navigation Bar. Select the Projects tab, then click New Project. For more information about creating projects, see Create a project. Click Edit Project. In the Schedule From field, select Completion Date. Specify the Planned Completion Date of the project. Click Save Changes. As you start adding tasks to your project, the Planned Start Date of the project calculates based on the total Duration of all of the tasks, counting backwards from the Planned Completion Date. For more information about Task Duration, see the article Overview of Task Duration and Duration Type. The Planned Start Date of the project coincides, in this case, with the Planned Start Date of the first task on the project.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>To schedule a project from Completion Date:</p>
+<ol>
+<li value="1"> Go to the <strong>Projects</strong> area in your Global Navigation Bar. </li>
+<li value="2"> <p> Select the <strong>Projects</strong> tab, then click <strong>New Project</strong>. </p> <p>For more information about creating projects, see <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li>
+<li value="3"> Click <strong>Edit Project</strong>. </li>
+<li value="4">In the <strong>Schedule From</strong> field, select <strong>Completion Date</strong>.</li>
+<li value="5">Specify the <strong>Planned Completion Date</strong> of the project.</li>
+<li value="6"> <p>Click <strong>Save Changes</strong>.</p> <p>As you start adding tasks to your project, the <strong>Planned Start Date</strong> of the project calculates based on the total Duration of all of the tasks, counting backwards from the Planned Completion Date.&nbsp;</p> <p>For more information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <p>The Planned Start Date of the project coincides, in this case, with the Planned Start Date of the first task on the project.</p> </li>
+</ol>
+</div>
 -->
 
 ## The Planned Start Date of a task
@@ -58,6 +75,53 @@ You can either specify the Planned Start Date of a task, or you can leave it up 
 For information about the Planned Start&nbsp;Date of a task, see [Overview of the task Planned Start Date](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
 <!--
-The Planned Start Date of a task You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria. Manually set the Planned Start Date of a task How the Planned Start Date is calculated for a task Manually set the Planned Start Date of a task Setting the Planned Start Date of a task depends on the type of Task Constraint you assign to the task. You can manually set the Planned Start Date when creating a task, as described in the article Create tasks in a project. You can manually specify the Planned Start Date when you select any of the following Task Constraints: Task Constraint Type Effect of Manually Changing the Planned Completion Date Must Start On Start No Earlier Than Start No Later Than The Planned Completion Date is adjusted in order to keep the Duration the same. Fixed Dates The Duration is adjusted in order to keep the Planned Completion Date the same. How the Planned Start Date is calculated for a task When it is calculated automatically by the system, the following can influence the Planned Start Date of a task: The Start Date preference setting in the Tasks & Issues area in Setup Your Workfront or group administrator can determine whether a new task starts on the same date as the project's Planned Start Date or on the day you create the task. For information about Tasks & Issues preferences, see Configure system-wide task and issue preferences. Task Constraint For more information about Task Constraints, see the article Task Constraint overview Task predecessor relationship For more information about task predecessors, see the article Overview of task predecessors. Project Start Date, when the project is scheduled from Start Date. The time off schedule of the Primary Assignee of the task. When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the Consider user time off in task durations setting is selected for the User Time Off field. New projects inherit this setting from the Project Preferences area, but you can edit the setting at the project level. For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 1 marked for Time-off, the task Planned Start Date becomes June 2. For information about the User Time Off preference, see the articles Configure system-wide project preferences and Edit projects. When set automatically, the Planned Start Date is determined based on the following calculation: Planned Start Date = Planned Completion Date - Task Duration For example, if your task has a Completion Date of September 16 and a duration of 10 days, the Planned Start Date is September 6. Note: The Update Type for the project must also be set to 'Automatic and On Change' or 'Automatically' in order for the Planned Hours and Duration to be automatically adjusted. For more information about the Update Type, see the article Select the project Update Type .
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="understanding-planned-completion-of-task"></a>The Planned Start Date of a task</h2>
+<p>You can either specify the Planned Start Date of a task, or you can leave it up to Workfront to calculate it depending on certain criteria.&nbsp;</p>
+<ul>
+<li><a href="#manually-setting-the-planned-completion-date" class="MCXref xref">Manually set the Planned Start Date of a task</a> </li>
+<li><a href="#understanding-how-the-planned-completion-date-is-calculated" class="MCXref xref">How the Planned Start Date is calculated for a task</a> </li>
+</ul>
+<h3><a name="Manually_Setting_the_Planned_Completion_Date"></a>Manually set the Planned Start Date of a task</h3>
+<p>Setting the Planned Start Date of a task depends on the type of Task Constraint you assign to the task.&nbsp;</p>
+<p>You can manually set the Planned Start Date&nbsp;when creating a task, as described in&nbsp;the article <a href="../../../manage-work/tasks/create-tasks/create-tasks-in-project.md" class="MCXref xref">Create tasks in a project</a>.</p>
+<p>You can manually specify the Planned Start Date when you select any of the following Task Constraints:&nbsp;</p>
+<table border="1" cellspacing="15" cellpadding="1">
+<col>
+<col>
+<thead>
+<tr>
+<th> <p><strong>Task Constraint Type</strong> </p> </th>
+<th> <p><strong>Effect of Manually Changing the Planned Completion Date</strong> </p> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td> <p>Must Start On</p> <p>Start No Earlier Than</p> <p>Start No Later Than</p> </td>
+<td> <p><span class="s1">The Planned Completion Date is adjusted in order to keep the Duration the same.</span> </p> </td>
+</tr>
+<tr>
+<td> <p>Fixed Dates</p> </td>
+<td> <p>The Duration is adjusted in order to keep the Planned Completion Date the same.</p> </td>
+</tr>
+</tbody>
+</table>
+<h3><a name="Understanding_How_the_Planned_Completion_Date_Is_Calculated"></a>How the Planned Start Date is calculated for a task</h3>
+<p>When it is calculated automatically by the system, the following can influence the Planned Start Date of a task:</p>
+<ul>
+<li> <p>The Start&nbsp;Date preference setting in the Tasks & Issues area in Setup</p> <p>Your Workfront or group administrator can determine whether a new task starts on the same date as the project's Planned Start&nbsp;Date or on the day you create the task.</p> <p>For information about Tasks &&nbsp;Issues preferences, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Configure system-wide task and issue preferences</a>.</p> </li>
+<li> <p>Task Constraint</p> <p>For more information about Task Constraints, see the article <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a></p> </li>
+<li> <p>Task predecessor relationship</p> <p>For more information about task predecessors, see the article <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p> </li>
+<li>Project Start Date, when the project is scheduled from Start Date.</li>
+<li> <p>The time off schedule of the Primary&nbsp;Assignee of the task. </p> <p>When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the <strong>Consider user time off in task durations</strong> setting is selected for the <strong>User Time Off</strong> field. New projects inherit this setting from the Project&nbsp;Preferences area, but you can edit the setting at the project level. </p> <p>For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 1 marked for Time-off, the task Planned Start Date becomes June 2. </p> <p>For information about the <strong>User Time Off</strong> preference, see the articles <span href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md"><a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a></span> and <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p> </li>
+</ul>
+<p>When set automatically, the Planned Start Date&nbsp;is determined based on the following calculation:&nbsp;</p>
+<p><code>Planned Start Date = Planned Completion Date - Task Duration</code> </p>
+<p>For example, if your task has a Completion Date of September 16 and a duration of 10 days, the Planned Start Date is September 6.</p> <note type="note">
+&nbsp;The Update Type for the project must also be&nbsp;set to 'Automatic and On Change' or 'Automatically' in order for the Planned Hours and Duration to be automatically&nbsp;adjusted.
+<br>For more information about the Update Type, see the article
+<a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.
+</note>
+</div>
 -->
 

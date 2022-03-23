@@ -46,18 +46,20 @@ You must have the following access to perform the steps in this article:
 ## Send an email to a Project Team member
 
 1. Go to a project whose members of the project team you want to send an email to. 
-1. Click the People subtab on the Staffing tab. To update all members of the project team, click `Update All` in the upper-left corner of the list of project team members.
+1. More
+1. Staffing
+1. Click the **People** subtab on the **Staffing** tab. To update all members of the project team, click **Update All** in the upper-left corner of the list of project team members.
 
    Or
 
-   To update certain members of the project team, select one or several users in the list, then click `Update`.   
+   To update certain members of the project team, select one or several users in the list, then click **Update**.   
    ![Commenting_1.png](assets/commenting-1-350x352.png)
 
-1. Type your update in the `Post an update to this project` field.
-1. (Optional) To make the update private, click the `Lock` icon.  
+1. Type your update in the **Post an update to this project** field.
+1. (Optional) To make the update private, click the **Lock** icon.  
    Users outside the company cannot view a private&nbsp;update.
 
-1. Click  `Send`.
+1. Click&nbsp;**Send**.
 
    The update and the names of the users included in it display in the Updates tab of the project.
 
@@ -79,6 +81,15 @@ You can send project updates to team members and to other users that might not b
 &nbsp;
 
 <!--
-Go to a project whose members of the project team you want to send an email to. Click More, then click the Staffing tab. Click the People subtab on the Staffing tab. To update all members of the project team, click Update All in the upper-left corner of the list of project team members. Or To update certain members of the project team, select one or several users in the list, then click Update. Type your update in the Post an update to this project field. (Optional) To make the update private, click the Lock icon. Users outside the company cannot view a private update. (Optional) Add a user who is not part of the Project Team by typing their name in the people field, then selecting the user from the list when it displays. Click Send. The update and the names of the users included in it display in the Updates tab of the project.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<ol>
+<li value="1"> <p>Go to a project whose members of the project team you want to send an email to. </p> </li> Click <strong>More</strong>, then click the <strong>Staffing</strong> tab.
+<li value="3"> Click the <strong>People</strong> subtab on the <strong>Staffing</strong> tab. </li>
+<li value="4"> <p>To update all members of the project team, click <strong>Update All</strong> in the upper-left corner of the list of project team members.</p> <p>Or</p> <p>To update certain members of the project team, select one or several users in the list, then click <strong>Update</strong>. </p> <p>  </p> </li>
+<li value="5">Type your update in the <strong>Post an update to this project</strong> field.</li>
+<li value="6"> <p>(Optional) To make the update private, click the <strong>Lock</strong> icon.</p> <p>Users outside the company cannot view a private&nbsp;update.</p> </li>
+<li value="7"> <p>(Optional) Add a user who is not&nbsp;part of the Project&nbsp;Team by typing their name in the people field, then selecting the user from the list when it displays. </p> </li>
+<li value="8"> <p>Click <strong>Send.</strong></p> <p>The update and the names of the users included in it display in the Updates tab of the project.</p> </li>
+</ol> </p>
 -->
 

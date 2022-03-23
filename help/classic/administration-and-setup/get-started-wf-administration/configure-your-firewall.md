@@ -114,7 +114,7 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 52.29.197.69
 * 52.48.124.108 
 * 69.169.230.231
-* 69.169. `230`.232
+* 69.169. ```230```.232
 * 3.121.91.129
 * 3.122.11.35
 * 34.246.27.40

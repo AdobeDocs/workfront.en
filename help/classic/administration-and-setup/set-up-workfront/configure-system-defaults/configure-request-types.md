@@ -37,32 +37,48 @@ You must have the following to perform the steps in this article:
 </table>
 
 <!--
-Set what issue or request types are allowed for a project You can organize the kind of issues or requests that are logged in Workfront by Request Types. This organization is useful for reporting reasons and for helping users understand what kind of unexpected work might occur during the lifetime of a project. You can specify the type of requests that can be logged on a project when you configure the Queue Details area on the Queue Setup tab for the project. Go to the Projects area in the Global Navigation Bar. Click the name of the project to open it. Click More > Queue Setup. In the Queue Properties section, on the Queue Details sub-tab, select the Request Types you want for the project. Note: You must have at least one request type selected. You can select multiple request types. Click Save. The request types you specified will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="understanding-request-types"></a>Set what issue or request types are allowed for a project</h2>
+<p>You can organize the kind&nbsp;of issues or requests that are logged in Workfront by Request Types. This organization is useful for reporting reasons and for helping users understand what kind&nbsp;of unexpected work&nbsp;might occur during the lifetime of a project.</p>
+<p>You can specify the&nbsp;type of requests that can be logged on a project when you configure the <strong>Queue Details</strong>&nbsp;area on the <strong>Queue Setup</strong> tab for the project.&nbsp;</p>
+<ol>
+<li value="1"> <p> Go to the <strong>Projects</strong> area in the Global Navigation Bar. </p> </li>
+<li value="2">Click the name of the project to open it.</li>
+<li value="3"> Click <strong>More</strong> > <strong>Queue Setup</strong>. </li>
+<li value="4"> <p>In the <strong>Queue Properties</strong> section, on the <strong>Queue Details</strong> sub-tab, select the <strong>Request Types</strong> you want for the project.</p> <note type="note">
+You must have at least one request type selected. You can select multiple request types.
+</note> </li>
+<li value="5"> <p>Click <strong>Save</strong>.</p> <p>The request types you specified&nbsp;will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project.</p> </li>
+</ol>
+</div>
 -->
 
 ## Customize the names of the request types
 
-As a Workfront administrator, you can configure the names of the request types in your system. The new names are visible in any area of Workfront where the `Issue Type` or `Request Type` fields display:
+As a Workfront administrator, you can configure&nbsp;the names of the request types in your system. The new names are visible&nbsp;in any area of Workfront where the **Issue Type** or **Request Type** fields display:
 
-* In the `Queue Details` areaof the Queue Setup tab of&nbsp;a project that will receive the issues or requests.&nbsp;
-* If more than one request type is selected for a Request Queue, in the `New Issue Form` in the `Issue Type` field, when you create a new issue or submit a new request.
+* In the **Queue Details** area of the **Queue Setup** tab of&nbsp;a project that will receive the issues or requests.&nbsp;
+
+* If more than one request type is selected for a Request Queue, in the **New Issue Form** in the **Issue Type** field, when you create a new issue or submit a new request.
 
   For more information about creating issues in Workfront, see&nbsp; [Create issues](../../../manage-work/issues/manage-issues/create-issues.md)
 
   For more information about creating requests in Workfront, see&nbsp; [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* On the `Queue Topic Detail` form, when you configure the Queue Topic.  
+* On the **Queue Topic Detail** form, when you configure the Queue Topic.  
   For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 To customize the names of the request types:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Project Preferences` > `Statuses`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Statuses**.
 
-1. Click the `Issues` tab.
-1. At the top of the `Issues` tab, hover over the name of a request type, then click the `Edit` icon that appears.  
+1. Click the **Issues** tab.
+1. At the top of the **Issues** tab, hover over the name of a request type, then click the **Edit** icon that appears.
 
-1. In the box that appears, type a new name, then press `Enter`.
+   ![edit_request_type_name.png](assets/edit-request-type-name-350x76.png)
+
+1. In the box that appears, type a new name, then press **Enter**.
 
 ## Configure issue statuses within different request types
 

@@ -43,22 +43,27 @@ You must have the following access to perform the steps in this article:
 ## View a list of all versions of a proof
 
 1. Go to the Document list, and select the proof.
-1. On the Details tab in the right panel, view the Versions section.
+1. On the **Details** tab in the right panel, view the **Versions** section.
 
-Preview a previous proof version Go to the document list, and select a proof. On the Details tab in the panel to the right, click the version, then click Preview in the drop-down list that appears. Files that cannot be previewed (such as XLSX and DOC) are downloaded.
+Preview a previous proof version  ```<li value="1">Go to the document list, and select a proof.</li>``` ```<li value="2"> <p> On the <strong>Details</strong> tab in the panel to the right, click the version, then click <strong>Preview</strong> in the drop-down list that appears.</p> <p> <img src="assets/version-hover-329x690.png" alt="" style="width: 329;height: 690;"> </p> </li>``` Files that cannot be previewed (such as XLSX and DOC) are&nbsp;downloaded.
 
-1. In a document list, hover over the row containing the proof, then click `Document Details`.
+1. In a document list, hover over the row containing the proof, then click **Document Details**.
 1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
 
    ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 
-Download a single proof version In the document list, click on the proof. Find the document you need. On the Details tab in the right panel, click the More menu to the right of the version, then click Download in the drop-down list that appears. 
+## Download a single proof version
+
+1. In the document list, click on the proof.
+1. Find the document you need.
+1. On the **Details** tab in the right panel, click the More menu ![](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
 
 ## Download all versions of a proof
 
 1. In the document list, click on the proof.
+1. On the **Details** tab in the right panel, next to **All Versions**, click**Download All**.
 
 ## Delete a proof version
 
@@ -70,18 +75,18 @@ If you upload a version of a proof by mistake, or a version is no longer needed,
 
 Keep the following in mind when you consider deleting a document version:
 
-* Only one version can be deleted at a time. If a version is deleted, this action appears in the `Updates` on the proof. 
+* Only one version can be deleted at a time. If a version is deleted, this action appears in the **Updates** on the proof. 
 * If you upload a new version after deleting a version, the new version receives the next sequential number. For example, if there are 3 versions of a proof and you delete version 3, the next proof uploaded will be version 4.
 * System updates and comments made on a version are retained in Workfront after the version is deleted.
 
   <!--
-  Deleting a document version in Workfront does not delete the Proof version.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deleting a document version in Workfront does not delete the Proof version.&nbsp;</li>
   -->
 
 To delete a proof version:
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.Find the document you need.
-1. On the Details tab in the panel to the right, click the version, then click `Delete` in the drop-down list that appears. The `Delete` option is visible only if there are at least two versions.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.Find the document you need.
+1. On the **Details** tab in the panel to the right, click the version, then click **Delete** in the drop-down list that appears. The **Delete** option is visible only if there are at least two versions.
 
 ## View a previous proof version
 
@@ -89,9 +94,9 @@ Any user in Workfront with View access to the document can view past versions of
 
 To view the proof for a previous version of a proofed document:
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the proof you need.
-1. On the Details tab in the panel to the right, click the version, then click View `Proof`.
+1. On the **Details** tab in the panel to the right, click the version, then click  **View** **Proof**.
 
    ![document_version_proof_view_.png](assets/document-version-proof-view-.png)
 
@@ -101,15 +106,16 @@ To view the proof for a previous version of a proofed document:
 
 Users must have a proofing license in order to view the proof details of a past version of a proofed document.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the proof you need. 
-1. On the Details tab in the panel to the right, click the version, then click Proof `Details` in the drop-down list that appears. 
-1. In the Proofing Details box that appears, do any of the following:
+1. On the **Details** tab in the panel to the right, click the version, then click  **Proof** **Details** in the drop-down list that appears. 
 
-  * Add an automated workflow. For more information, see the section [Create an Automated Workflow for the proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow).
-  * Share the proof's public URL. For more information, see [Share a proof link](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-  * View all activity that has occurred on the proof.
-  * Send reminder messages to reviewers on the proof.
+1. In the **Proofing Details** box that appears, do any of the following:
 
-1. Click `Done`.
+   * Add an automated workflow. For more information, see the section [Create an Automated Workflow for the proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow).
+   * Share the proof's public URL. For more information, see [Share a proof link](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   * View all activity that has occurred on the proof.
+   * Send reminder messages to reviewers on the proof.
+
+1. Click **Done**.
 

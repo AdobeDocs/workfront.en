@@ -10,12 +10,12 @@ description: When creating subtasks for existing stories, keep in mind the follo
 
 When creating subtasks for existing stories, keep in mind the following:
 
-`When the Summary Completion Mode setting for the project is set to Manual:`
+**When the Summary Completion Mode setting for the project is set to Manual:**
 
 * You can move a parent story with subtasks to Complete updates the parent story to 100% and the Status to Complete. Subtasks are not updated.
 * To&nbsp;update the Percent Complete for the story, you must update it from the Stories tab or from the&nbsp;Details page of the object.
 
-`When the Summary Completion Mode setting for the project is set to Automatic`:&nbsp;
+**When the Summary Completion Mode setting for the project is set to Automatic**:&nbsp;
 
 * You can't move the parent story across the board. To update the Percent Complete for the story, you must update the Percent Complete for any subtasks. The Percent Complete for the story is calculated based on the Percent Complete of all subtasks.
 * Moving a parent story with subtasks to Complete updates the parent story to 100% and the Status to Complete. Subtasks are also&nbsp;updated to 100% and the Status is updated to Complete.

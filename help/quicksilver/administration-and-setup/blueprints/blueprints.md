@@ -5,7 +5,7 @@
 * [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md)
 
   <!--
-  Configure access to blueprints
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../administration-and-setup/blueprints/configure-access-to-blueprints.md" class="MCXref xref" xrefformat="{para}">Configure access to blueprints</a> </p> </li>
   -->
 
 * [Install a blueprint](../../administration-and-setup/blueprints/blueprints-install.md) 

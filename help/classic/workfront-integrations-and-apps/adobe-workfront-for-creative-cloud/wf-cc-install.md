@@ -21,7 +21,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or Plan 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or Plan</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -38,13 +42,13 @@ You must have the following access to perform the steps in this article:
 ## Install the Workfront for Adobe Photoshop plugin
 
 1. Open the Adobe Creative Cloud app.
-1. Click the `Marketplace` tab near the top of the window.
-1. In the `Search All Plugins` box, type *Workfront*, then press `Enter`.
+1. Click the **Marketplace** tab near the top of the window.
+1. In the **Search All Plugins** box, type *Workfront*, then press **Enter**.
 
    ![](assets/adobe-marketplace-350x218.png)
 
-1. When Workfront for Adobe Photoshop plugin appears in the search results, click `Get`.
-1. Read the information in the dialog box, then click `OK`.
+1. When Workfront for Adobe Photoshop plugin appears in the search results, click **Get**.
+1. Read the information in the dialog box, then click **OK**.
 1. Once the plugin in installed, open Adobe Photoshop and locate the Workfront plugin in the plugin panel.
 
    ![](assets/photoshop-plugin-350x789.png)
@@ -52,18 +56,29 @@ You must have the following access to perform the steps in this article:
 1. Continue to the following section for information on how to log in to the plugin.
 
 <!--
-Find and install the plugin
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Find and install the plugin</h2>
 -->
 
 <!--
-Download the file provided in Adobe Plugin Beta folder. Right click on the Workfront Plugin .ccx file, then click Download. You can check the .ccx file download progress in the bottom tray of the browser. Once the download is complete, double-click on the file in your tray. The Creative Cloud console automatically opens. In the Couldn't verify plugin pop-up window, click Install locally. Note: Because this an early access plugin and not yet officially supported on the Marketplace, you must opt to install locally. Read the information in the dialog box, then click OK. Open Photoshop, and continue to the Log In to Workfront for Adobe Photoshop section below.
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1"> <p>Download the file provided in <a href="https://drive.google.com/drive/folders/1EehEGJEQESlwP0uXepF3-0GFZGl2psJN?usp=sharing">Adobe Plugin Beta folder</a>.</p>
+<ol>
+<li value="1"> <p>Right click on the Workfront Plugin .ccx file, then click <strong>Download</strong>. You can check the .ccx file download progress in the bottom tray of the browser.</p> </li>
+<li value="2"> <p>Once the download is complete, double-click on the file in your tray. The Creative Cloud console automatically opens.</p> </li>
+</ol> </li>
+<li value="2"> <p>In the <strong>Couldn't verify plugin</strong> pop-up window, click<strong>Install locally</strong>.</p> <note type="note">
+Because this an early access plugin and not yet officially supported on the Marketplace, you must opt to install locally.
+</note> </li>
+<li value="3"> <p>Read the information in the dialog box, then click <strong>OK</strong>.</p> </li>
+<li value="4"> <p>Open Photoshop, and continue to the <a href="#log" class="MCXref xref">Log In to Workfront for Adobe Photoshop</a> section below.</p> </li>
+</ol>
 -->
 
 ## Log In to Workfront for Adobe Photoshop
 
-1. From the `Plugins`menu at the top of the screen, select `Plugin Panel`.
-1. Select `Workfront for Adobe Photoshop`.
-1. Enter your domain, then click `Log in`. A browser page opens.
+1. From the **Plugins**menu at the top of the screen, select **Plugin Panel**.
+1. Select ```Workfront for Adobe Photoshop```.
+1. Enter your domain, then click **Log in**. A browser page opens.
 
    >[!TIP]
    >
@@ -71,7 +86,7 @@ Download the file provided in Adobe Plugin Beta folder. Right click on the Workf
    >![](assets/domain-350x50.png)   >
    >
 
-1. In the browser, enter your Workfront credentials, then click `Log in`. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
+1. In the browser, enter your Workfront credentials, then click **Log in**. If your company uses a single sign-on (SSO), you'll be directed to your SSO provider's page to log in.
 
    >[!NOTE]
    >
@@ -82,14 +97,14 @@ Download the file provided in Adobe Plugin Beta folder. Right click on the Workf
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
-   >  * When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
+   >   
+   >   
+   >   * Workfront connects to Adobe Creative Cloud using OAuth 2.0, a secure standard used by most web-based integrations for the authentication and authorization of users.
+   >   * When you are prompted to enter the [domain or host] of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.  
 
-   >  
+   >   
    >
 
-1. Click `Allow Access` to finish logging in.
+1. Click **Allow Access** to finish logging in.
 1. Go back to Adobe Photoshop to see your work.
 

@@ -41,14 +41,27 @@ You must have the following access to perform the steps in this article:
 
 ## Add additional approvers to submitted document approvals
 
-1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select a `Document` approval.  
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
 
-1. Click `Manage Approvals`&nbsp;in the upper-right corner of the right panel.
-1. In the `Have someone approve this document` box, type the name of the approver.
+1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+
+1. Select a **Document** approval.  
+
+1. Click **Manage Approvals**&nbsp;in the upper-right corner of the right panel.
+1. In the **Have someone approve this document** box, type the name of the approver.
 
    If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
 
-1. Click `Save`.
+1. Click **Save**.
 

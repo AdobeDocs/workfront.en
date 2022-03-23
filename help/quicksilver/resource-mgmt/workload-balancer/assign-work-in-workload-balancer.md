@@ -48,10 +48,18 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
 You can assign work in the Workload Balancer in the following ways:
 
-* One item at a time by manually assigning each item. 
-  You can make Advanced Assignments when assigning items manually, one at time. 
+* One item at a time by manually assigning each item.
+
+  <!--
+  You can make Advanced Assignments when assigning items manually, one at time.
+  -->
 
   For more information, see [Assign work manually using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+
+* One item at a time, by dragging and dropping work items to the user who needs to be assigned. 
+* For more information, see [Assign work in the Adobe Workfront Workload Balancer by dragging and dropping](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+* Multiple items at a time, by using the Bulk Assignments option to define rules by which items are assigned to multiple users at a time. 
+* For more information, see [Assign work in bulk using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
 For information about unassigning work, see [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 
@@ -61,8 +69,8 @@ You can assign work to users using the Workload Balancer in the Resourcing area,
 
 There are two areas in the Workload Balancer where you can view work items:
 
-* `Unassigned Work`:&nbsp;displays items that are not assigned to users.
-* `Assigned Work`: displays items that are assigned to users.
+* **Unassigned Work**:&nbsp;displays items that are not assigned to users.
+* **Assigned Work**: displays items that are assigned to users.
 
 The following table describes which items display in each area based on their assignments:
 
@@ -72,19 +80,29 @@ The following table describes which items display in each area based on their as
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Type of assignment</span> </td> 
-   <td colspan="2"><span class="bold">Visible in the:</span> </td> 
+   <td><strong>Type of assignment</strong> </td> 
+   <td colspan="2"><strong>Visible in the:</strong> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;</td> 
    <td>Unassigned Work </td> 
    <td>Assigned Work </td> 
-  </tr> Unassigned item ✔ 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span style="font-weight: normal;">Unassigned item</span> </td> 
+   <td><span>✔</span> </td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Team</td> 
    <td>✔</td> 
    <td>&nbsp;</td> 
-  </tr> Role ✔ 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span data-mc-edit-date="2020-04-08T15:57:40.7175506-04:00" data-mc-editor="alinawilson" data-mc-comment="Drafted because role only is not displayed; first it will be displayed in Unassigned - 20.2 beta" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:24:04.5189150-05:00">Role</span> </td> 
+   <td><span>✔</span> </td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Role and Team</td> 
    <td>✔</td> 
@@ -104,7 +122,12 @@ The following table describes which items display in each area based on their as
    <td>User,&nbsp;Role, and Team</td> 
    <td>✔*</td> 
    <td>✔**</td> 
-  </tr> User and Role ✔* ✔** 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>User&nbsp;and Role</p> </td> 
+   <td><span data-mc-edit-date="2019-11-15T13:37:42.5435254-05:00" data-mc-editor="alinawilson" data-mc-comment="drafted because it's not in the Unassigned" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2019-11-15T13:37:33.3097484-05:00">✔</span>*</td> 
+   <td>✔**</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -130,10 +153,81 @@ Consider the following when assigning multiple resources to a work item:
 * If a task or an issue is assigned to a team and you also assign a user, the task or issue remains assigned to both the team and the user.
 
 <!--
-Manually assign one item at a time Go to the Workload Balancer. Go to the Unassigned Work area and apply a filter to view work items Or Go to the Assigned Work area and expand the name of a user to view the work items assigned to them. Important: You cannot view and assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise, you can assign issues from a list or at the issue level. For information, see Assign issues. Click the More menu on the bar of a work item, then click Assign this to. Tip: You can also use the following shortcuts to assign tasks or issues: In Windows: CTRL+click the task or issue bar. In Mac: CMD+click the task or issue bar. Start typing the name of a user, job role, or team that you want to assign to the item in the Search people, role or teams field, select it when it displays in the list, then click Save. This assigns or reassigns the work item to the specified assignees. If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer. Tip: You can assign multiple users or job roles, and you can assign only one team. You can assign only active users, job roles, and teams. If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: Reassign the work item to active resources. Associate the users in a deactivated team with an active team and reassign the work item to the active team. (Optional) Click the Show allocations icon , then click the More menu > Edit allocations. Or Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item. For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations" section in the article Manage user allocations in the Workload Balancer. Assign an item by dragging and dropping You can assign an item from the Unassigned Work area to a user, or you can reassign an already assigned item to another user in the Assigned Work area. Go to the Workload Balancer. Go to the Unassigned Work area and apply a filter to view work items. Important: You cannot view and assign issues from the Unassigned Work area. Click the bar of a work item that indicates either the planned or the projected timeline and drag it over the name of a user in the Assigned area. The user you hover over to drop the work item to is highlighted. Tip: The Planned Hours for the user you're hovering over update in real time with the number of daily Planned Hours from the work item, to indicate what the impact of adding a new item might be to their overall allocation. When you are ready, drop the selected work item in the same line as the user's name in the Assigned Area. The item is assigned and the allocated Planned Hours are updated for the user with the new hours from the work item. Tip: If you enabled Group by Project in the Settings area, the assigned task displays under the corresponding project. If the setting is disabled, the assigned task displays in the user area. The item displays according to the Workload Balancer criteria for sorting work items. For more information, see Navigate the Workload Balancer. (Optional) Click the Show allocations icon , then click the More menu > Edit allocations. Or Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item. For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations" section in the article Manage user allocations in the Workload Balancer. Assign items in bulk
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">  Manually assign one item at a time
+<ol>
+<li value="1">Go to the Workload Balancer.</li>
+<li value="2"> <p>Go to the <strong>Unassigned Work</strong> area and apply a filter to view work items</p> <p>Or</p> <p>Go to the <strong>Assigned Work</strong> area and expand the name of a user to view the work items assigned to them.</p> <note type="important">
+<span>You cannot view and assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,</span> you can assign issues from a list or at the issue level. For information, see
+<a href="../../manage-work/issues/manage-issues/assign-issues.md" class="MCXref xref">Assign issues</a>.
+</note> </li>
+<li value="3"> <p>Click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> on the bar of a work item, then click <strong>Assign this to</strong>. </p> <p> <img src="assets/workload-balancer-assign-this-to-link-from-task-350x117.png" style="width: 350;height: 117;"> </p>
+<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+<span class="autonumber"><span><b>Tip: </b></span></span>
+<p><span>You can also use the following shortcuts to assign tasks or issues:</span> </p>
+<ul>
+<li><span>In Windows: CTRL+click the task or issue bar.</span> </li>
+<li><span>In&nbsp;Mac: CMD+click the task or issue bar.</span> </li>
+</ul>
+</div> </li>
+<li value="4"> <p>Start typing the name of a user, job role, or team that you want to assign to the item in the <strong>Search people, role or teams</strong> field, select it when it displays in the list, then click&nbsp;<strong>Save</strong>. </p> <p> <img src="assets/assignments-box-wb.png"> </p> <p>This assigns or reassigns the work item to the specified assignees.</p> <p>If you assign an item to just a team or a job role, the item displays only in the Unassigned Work area. You must assign work items to users in order to display them in the Assigned Work area of the Workload Balancer.</p>
+<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+<span class="autonumber"><span><b>Tip: </b></span></span>
+<p>You can assign multiple users or job roles, and you can assign only one team. <span>You can assign only active users, <span>job roles</span>, and teams.</span></p>
+<p><span>If a user, <span>job role</span>, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:</span> </p>
+<ul>
+<li> <p><span>Reassign the work item to active resources.</span> </p> </li>
+<li> <p><span>Associate the users in a deactivated team with an active team and reassign the work item to the active team.</span> </p> </li>
+</ul>
+</div> </li>
+<li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>.</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
+</ol>  
+<h2>Assign an item by dragging and dropping</h2>
+<p>You can assign an item from the Unassigned Work area to a user, or you can reassign an already assigned item to another user in the Assigned Work area.</p>
+<ol>
+<li value="1">Go to the Workload Balancer.</li>
+<li value="2"> <p>Go to the <strong>Unassigned Work</strong> area and apply a filter to view work items.</p> <note type="important">
+<span>You cannot view and assign issues from the Unassigned Work area.</span>
+</note> </li>
+<li value="3"> <p>Click the bar of a work item that indicates either the planned or the projected timeline and drag it over the name of a user in the <strong>Assigned</strong> area.</p> <p>The user you hover over to drop the work item to is highlighted.</p> <note type="tip">
+The Planned Hours for the user you're hovering over update in real time with the number of daily Planned Hours from the work item, to indicate what the impact of adding a new item might be to their overall allocation.
+</note> <p> <img src="assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png" style="width: 350;height: 152;"> </p> </li>
+<li value="4"> <p>When you are ready, drop the selected work item in the same line as the user's name in the Assigned Area. The item is assigned and the allocated Planned Hours are updated for the user with the new hours from the work item.</p>
+<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+<span class="autonumber"><span><b>Tip: </b></span></span>
+<p>If you enabled Group by Project in the Settings area, the assigned task displays under the corresponding project. If the setting is disabled, the assigned task displays in the user area. </p>
+<p>The item displays according to the Workload Balancer criteria for sorting work items.&nbsp;For more information, see <a href="../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md" class="MCXref xref">Navigate the Workload Balancer</a>.</p>
+</div> </li>
+<li value="5"> <p>(Optional) Click the <strong>Show allocations icon</strong> <img src="assets/show-allocations-icon-small.png">, then click the <strong>More menu</strong> <img src="assets/qs-more-menu.png"> > <strong>Edit allocations</strong>.</p> <p>Or</p> <p>Double-click a daily or weekly allocation to modify the amount of time the user is allocated to the work item.</p> <p>For information about modifying user allocations in the Workload Balancer, see the "Modify user allocations"&nbsp;section in the article <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li>
+</ol> <!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Assign items in bulk</h2>
+</div>
+-->
+<p>&nbsp;</p>  
+</div>
 -->
 
 <!--
-Unassign work items in the Workload Balancer You can either unassign items from users and move them to the Unassigned Work area, or reassign them to other users. To unassign work items from users: In the Workload Balancer, go to the Assigned Work area and expand a user. Do one of the following: Find the item you want to unassign in a user's area, click it, drag and drop it in the Unassigned area or in another user's area. Click the More icon to the right of the name of a work item, click Assign this to , then remove the name of the entities assigned to the work item or enter another name and click Save. The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any users or it displays in the user area if it is assigned to that user. Tip: Unassigned issues do not display in the Unassigned area. For information about filtering information in the Workload Balancer, see Manage filters in the Workload Balancer.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Unassign work items in the Workload Balancer</h2>
+<p>You can either unassign items from users and move them to the Unassigned Work area, or reassign them to other users. </p>
+<p>To unassign work items from users: </p>
+<ol>
+<li value="1">In the Workload Balancer, go to the <strong>Assigned Work</strong> area and expand a user.</li>
+<li value="2">Do <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+one of
+</MadCap:conditionalText>
+--> the following:
+<ul>
+<!--
+<li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Find the item you want to unassign in a user's area, click it, drag and drop it in the Unassigned area or in another user's area. </p></li>
+-->
+<li><p>Click the <strong>More</strong> icon <img src="assets/more-icon-task-list.png"> to the right of the name of a work item, click&nbsp;<strong>Assign this to</strong> , then remove the name of the entities assigned to the work item or enter another name and click&nbsp;<strong>Save</strong>.</p><p><img src="assets/workload-balancer-assign-this-to-link-from-task-350x117.png" style="width: 350;height: 117;"></p></li>
+</ul><p>The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any users or it displays in the user area if it is assigned to that user. </p><note type="tip">
+Unassigned issues do not display in the Unassigned area.
+</note><p>For information about filtering information in the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md" class="MCXref xref">Manage filters in the Workload Balancer</a>. </p></li>
+</ol>
+</div>
 -->
 

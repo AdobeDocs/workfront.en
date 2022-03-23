@@ -1,14 +1,4 @@
----
-filename: how-access-levels-permissions-work-together
-title: How access levels and permissions work together
-user-type: administrator
-content-type: reference
-product-area: system-administration
-keywords: access,model,funnel,diagram,levels,permissions
-navigation-topic: access-levels
-title: How access levels and permissions work together
-description: The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
----
+
 
 # How access levels and permissions work together
 
@@ -70,18 +60,18 @@ For instructions on assigning an access level to a user, see [Edit a user's prof
 
 When sharing an object with someone in the system, a user can grant the recipient any of the following permissions to the object.
 
-* `View`: This level of permission allows the recipient to share the object in one of the following ways:
+* **View**: This level of permission allows the recipient to share the object in one of the following ways:
 
-  * System-wide so that all users can see it (not available for all objects)
-  * With external users who don’t have a Workfront license (not available for all objects)
-  * With an email address (available only for documents)
+   * System-wide so that all users can see it (not available for all objects)
+   * With external users who don’t have a Workfront license (not available for all objects)
+   * With an email address (available only for documents)
 
-* `Contribute` (not available for all objects)
-* `Manage`
+* **Contribute** (not available for all objects)
+* **Manage**
 
 When someone shares an object, the recipient’s rights to the object are determined by a combination of the recipient’s access level and the permissions to the object that were granted by the sharer. The lowest degree of access available in that combination is what determines what the recipient can do with the object.
 
-` `**Example: **`` If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
+``` ```**Example: **`````` If the recipient's access level doesn't allow project editing, that person can't edit or delete a project even if the sharer granted permissions to manage it.
 
 Or, if the recipient’s access level allows project editing, but the sharer granted view-only permissions to a project, the user cannot edit or delete the project.
 The following table compares a user's general access to objects (defined by the user’s access level) to permissions for a specific shared object:

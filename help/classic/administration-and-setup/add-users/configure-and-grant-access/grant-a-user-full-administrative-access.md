@@ -17,15 +17,15 @@
 As an Adobe Workfront administrator, you can create another Workfront administrator by assigning them the System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
 
 <!--
-Replace first paragraph with the following for IMS:
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Replace first paragraph with the following for IMS:</p>
 -->
 
 <!--
-As an Adobe administrator, you can create a Workfront administrator by assigning a user the Workfront System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">As an Adobe administrator, you can create a Workfront administrator by assigning a user the Workfront System Administrator access level. A user with this access level has full administrative access to everything in Workfront, including items they did not create themselves. </p>
 -->
 
 <!--
-For instructions, see the section Create users in Workfront with the Adobe Admin Consolein the article Manage users in the Adobe Admin Console.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For instructions, see the section <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create" class="MCXref xref">Create users in Workfront with the Adobe Admin Console</a>in the article <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.</p>
 -->
 
 >[!NOTE]
@@ -62,22 +62,28 @@ You must have the following to perform the steps in this article:
 </table>
 
 <!--
-This ^ will need to change for IMS, not sure how
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This ^ will need to change for IMS, not sure how</p>
 -->
 
 ## Grant full System Administrator access to a single user
 
 <!--
-Remove this entire section for IMS
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove this entire section for IMS</p>
 -->
 
+1. People
+1. Click the **People** tab.
 1. Click the name of the user to whom you want to grant administrator rights.
-1. On the user's info page that appears, click `Access`.
-1. In the `Access Level` drop-down list, select the `System Administrator`&nbsp;access level.
+1. Near the upper-right corner, click**Edit [User's] Info.**
+1. For example, if the user's name is Olivia, click **Edit Olivia's Info.**
+1. ![](assets/access-people2-adobe-350x114.png)
+
+1. On the user's info page that appears, click **Access**.
+1. In the **Access Level** drop-down list, select the **System Administrator**&nbsp;access level.
 
    Depending on changes made in your system, the name of this access level might have changed.
 
-1. Click `Save Changes.`
+1. Click **Save Changes.**
 
    The user now has full System Administrator rights in the system.
 

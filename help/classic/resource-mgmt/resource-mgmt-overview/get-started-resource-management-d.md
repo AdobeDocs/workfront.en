@@ -5,20 +5,21 @@ product-area: resource-management
 navigation-topic: resource-management-overview
 title: Get started with Resource Management
 description: This replaces this: Get started with Resource Management
+hidefromtoc: true
 ---
 
 # Get started with Resource Management
 
 <!--
-This replaces this: Get started with Resource Management
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> This replaces this:&nbsp;<a href="../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref" xrefformat="{para}">Get started with Resource Management </a>&nbsp; </p>
 -->
 
 <!--
-- this has no reference to Legacy Res Management tools - replace when flash is removed.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> - this has no reference to Legacy Res Management tools - replace when flash is removed.&nbsp; </p>
 -->
 
 <!--
-***
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***</span> </p>
 -->
 
 Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;
@@ -31,53 +32,53 @@ Workfront has several sets of tools used to manage resources. Although some of t
 
 To plan how resources are allocated on projects, use the following area:&nbsp;
 
-* `Resource Planning`: Refers to organizing your users in Resource Pools which can be assigned to your projects. You can assign multiple Resource Pools to a project. The availability of users based on their schedules and allocations to tasks in projects is managed in the `Resource Planner`. This is a high-level view on resource management, allowing you to budget hours for your resources at the project level, according to their scheduled availability. &nbsp;* 
+* **Resource Planning**: Refers to organizing your users in Resource Pools which can be assigned to your projects. You can assign multiple Resource Pools to a project. The availability of users based on their schedules and allocations to tasks in projects is managed in the **Resource Planner**. This is a high-level view on resource management, allowing you to budget hours for your resources at the project level, according to their scheduled availability. &nbsp;* 
   *For more information about Resource Planning, see the [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.&nbsp;
 
 To schedule resources to actual work (tasks and issues), use the following area:&nbsp;
 
-* `Resource Scheduling`: Refers to assigning actual work to users&nbsp;by matching the job roles assigned to the tasks and issues with the&nbsp;job roles they can fulfill, or assigning actual work to users on tasks and issues which are currently unassigned.&nbsp;This is a lower-level view on resource management, allowing you to assign&nbsp;your resources to the actual work (tasks and issues) that they must complete, according to the hours needed in the project plan to fulfill them.  
+* **Resource Scheduling**: Refers to assigning actual work to users&nbsp;by matching the job roles assigned to the tasks and issues with the&nbsp;job roles they can fulfill, or assigning actual work to users on tasks and issues which are currently unassigned.&nbsp;This is a lower-level view on resource management, allowing you to assign&nbsp;your resources to the actual work (tasks and issues) that they must complete, according to the hours needed in the project plan to fulfill them.  
   For more information about Resource Scheduling, see the [Scheduling Resources](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md)section.
 
-## `Overview of the two components of Resource Management`
+## ```Overview of the two components of Resource Management```
 
-`Resource Management is done in two steps:`
+```Resource Management is done in two steps:```
 
-* ` `Configuration`: As a Resource Manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources. `   
-  `You must configure the following items in Workfront:`
+* ```**Configuration**: As a Resource Manager or Project Owner, you or your Workfront administrator must configure certain fields and objects in your Workfront instance before managing your resources. ```   
+  ```You must configure the following items in Workfront:```
 
-  * `Users`   
-    `For more information about creating users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).` 
-  
-  * `Job Roles`   
-    `For more information about creating job roles, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).` 
-  
-  * `Schedules`   
-    `For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).` 
-  
-  * `Project Preferences`   
-    `  
-  
-    >[!TIP]
-    >
-    >Only a system administrator can modify Project Preferences.
+   * ```Users```   
+     ```For more information about creating users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).``` 
+   
+   * ```Job Roles```   
+     ```For more information about creating job roles, see [Create and manage job roles](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).``` 
+   
+   * ```Schedules```   
+     ```For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).``` 
+   
+   * ```Project Preferences```   
+     ```   
+   
+     >[!TIP]
+     >
+     >Only a system administrator can modify Project Preferences.
 
-    For more information about defining Project Preferences, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).` 
-  
-  * `Resource Pools`   
-    `For more information about creating Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).`
+     For more information about defining Project Preferences, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).``` 
+   
+   * ```Resource Pools```   
+     ```For more information about creating Resource Pools, see [Resource pools overview in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).```
 
-* ` `Resource Allocation`: As a Resource Manager, or a Project Owner, you can assign work and define allocation of resources to work tasks and issues. For this step, a Resource Manager manages the allocation of their resources at the project level using the Resource Planner. Then, they assign work items (tasks and issues) to users based on their job roles using the Resource Scheduling tools. `   
-  `For more information about Resource Planning, see the [Resource Planning](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.`   
-  `For more information about Resource Scheduling, see the [Scheduling Resources](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) section. `
+* ```**Resource Allocation**: As a Resource Manager, or a Project Owner, you can assign work and define allocation of resources to work tasks and issues. For this step, a Resource Manager manages the allocation of their resources at the project level using the Resource Planner. Then, they assign work items (tasks and issues) to users based on their job roles using the Resource Scheduling tools. ```   
+  ```For more information about Resource Planning, see the [Resource Planning](../../resource-mgmt/resource-planning/resource-planning-overview.md) section.```   
+  ```For more information about Resource Scheduling, see the [Scheduling Resources](../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md) section. ```
 
-`
+```
 
 >[!TIP]
 >
 >Resource Management is never a stagnant&nbsp;process&nbsp;in Workfront. As the schedules of your projects, the availability&nbsp;of your users, or their roles change, you must continually adjust the information about your resources, their assignments, and their allocations to projects, tasks, and issues. We recommend that you designate Resource Mangers for your projects. The role of the Resource Manager is to manage this process, to&nbsp;accurately allocate&nbsp;your resources and prioritize your projects.&nbsp;
 
-`
+```
 
 ## Access needed to use resource management tools
 
@@ -139,24 +140,24 @@ To manage your resources in Workfront:
 1. Decide how your organization budgets resources.  
    You can budget by:
 
-  * Spreading a bulk number of hours across all the job roles in the system.  
-  * Spreading a bulk number of hours across all the projects in the system
+   * Spreading a bulk number of hours across all the job roles in the system.  
+   * Spreading a bulk number of hours across all the projects in the system
 
-1. (Conditional) If you want to budget a total number of hours or cost for all roles in the system, Go to the `People` area, then `Planning` and `Resource Planner` and select the `View by Role`.  
+1. (Conditional) If you want to budget a total number of hours or cost for all roles in the system, Go to the **People** area, then **Planning** and**Resource Planner** and select the **View by Role**.  
    For information about budgeting resources by role, see [Budget resources by role in the Resource Planner](../../resource-mgmt/resource-planning/budget-by-role-resource-planner-d.md).  
    Or  
-   If you want to budget a total number of hours or cost for several projects in the system, Go to the `People` area, then `Planning` and `Resource Planner` and select the `View by Project`.  
+   If you want to budget a total number of hours or cost for several projects in the system, Go to the **People** area, then **Planning** and**Resource Planner** and select the **View by Project**.  
    For information about budgeting resources by project, see [Budget resources by project in the Resource Planner](../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md).
 
-1. (Optional) Go to the `Scheduling` tab and assign work to users.  
+1. (Optional) Go to the **Scheduling** tab and assign work to users.  
    For more information about assigning work to users in the Scheduling tab, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
 <!--
-***
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">***</span> </p>
 -->
 
 <!--
-As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="wysiwyg-color-pink">As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.</span> </p>
 -->
 
 &nbsp;

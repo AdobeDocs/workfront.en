@@ -11,7 +11,7 @@ description: Resource Scope is a task-level field that indicates whether you can
 
 Resource Scope is a task-level field that indicates whether you can assign other tasks to the user during the timeframe of a certain task. The default value of the Resource Scope field is None and in most cases you cannot edit it.
 
-When the `Task Constraint` of a task is `Fixed Dates`, you can edit the Resource Scope value and you can set it to Global. When you indicate that the Resource Scope of a task is Global, other tasks cannot be assigned to the same user during the same timeframe of the task.
+When the **Task Constraint** of a task is **Fixed Dates**, you can edit the Resource Scope value and you can set it to Global. When you indicate that the Resource Scope of a task is Global, other tasks cannot be assigned to the same user during the same timeframe of the task.
 
 For information about the Fixed Dates Task Constraint, see [Task Constraint overview: Fixed Dates](../../../manage-work/tasks/task-constraints/fixed-dates.md).
 
@@ -47,26 +47,26 @@ You must have the following access to perform the steps in this article:
 ## Edit the Resource Scope field on a task
 
 1. Go to a task for which you want to edit the Resource Scope. 
-1. Click `Edit Task`. 
-1. In the `Overview` section, in the `Task Constraint` field, select `Fixed Dates`. 
+1. Click **Edit Task**. 
+1. In the **Overview** section, in the **Task Constraint** field, select **Fixed Dates**. 
 
-1. Specify the `Planned Start Date` and the `Planned Completion Date` of the task. 
+1. Specify the **Planned Start Date** and the **Planned Completion Date** of the task. 
 
-1. In the `Settings` section, locate the `Resource Scope` field.
+1. In the **Settings** section, locate the **Resource Scope** field.
 
    ![](assets/1-350x331.png)
 
    Select from the following options: 
 
-   | `None` `(this is the default)` |Select this value if you allow for the user assigned to the task to be assigned to other tasks during the same time frame of the task. |
+   | **None** ```(this is the default)``` |Select this value if you allow for the user assigned to the task to be assigned to other tasks during the same time frame of the task. |
    |---|---|
-   | `Global`  |Select this value if you do not want to allow for the user assigned to the task to be assigned to other tasks during the same time frame of the task.  |
+   | **Global** |Select this value if you do not want to allow for the user assigned to the task to be assigned to other tasks during the same time frame of the task.  |
 
    >[!IMPORTANT]
    >
-   >When the Task Constraint is not `Fixed Dates`, you cannot edit the Resource Scope. In that case, the Resource Scope always defaults to `None`, and the user assigned to the task can be assigned to other tasks during the same time frame.
+   >When the Task Constraint is not **Fixed Dates**, you cannot edit the Resource Scope. In that case, the Resource Scope always defaults to **None**, and the user assigned to the task can be assigned to other tasks during the same time frame.
 
-   `<li>Click <span class="bold">Save Changes</span>. </li>`
+   ```<li>Click <strong>Save Changes</strong>. </li>```
 
 ## Tasks with a Global Resource Scope
 

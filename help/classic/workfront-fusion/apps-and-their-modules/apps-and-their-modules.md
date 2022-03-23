@@ -30,15 +30,15 @@ This section contains the following articles:
 * [Adobe Acrobat Sign modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
 
   <!--
-  Adobe Experience Manager Assets modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager Assets modules</a> </li>
   -->
 
   <!--
-  ActiveCampaign modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/active-campaign-modules.md" class="MCXref xref" xrefformat="{para}">ActiveCampaign modules</a> </li>
   -->
 
   <!--
-  Airtable modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/airtable-modules.md" class="MCXref xref" xrefformat="{para}">Airtable modules</a> </li>
   -->
 
 * [Allocadia modules](../../workfront-fusion/apps-and-their-modules/allocadia-modules.md) 
@@ -49,7 +49,7 @@ This section contains the following articles:
 * [Azure DevOps modules](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
 
   <!--
-  Barcodes
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
   -->
 
 * [Box modules](../../workfront-fusion/apps-and-their-modules/box-modules.md) 
@@ -57,7 +57,7 @@ This section contains the following articles:
 * [CloudConvert modules](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
 
   <!--
-  Converter (More information coming soon)
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
   -->
 
 * [CSV](../../workfront-fusion/apps-and-their-modules/csv.md) 
@@ -68,7 +68,7 @@ This section contains the following articles:
 * [Dropbox modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 
   <!--
-  Egnyte modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
   -->
 
 * [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) 
@@ -76,13 +76,13 @@ This section contains the following articles:
 * [Flow control](../../workfront-fusion/apps-and-their-modules/flow-control.md)
 
   <!--
-  FTP modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/ftp-modules.md" class="MCXref xref" xrefformat="{para}">FTP modules</a> </li>
   -->
 
 * [GitHub modules](../../workfront-fusion/apps-and-their-modules/github.md)
 
   <!--
-  GitLab modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/gitlab-modules.md" class="MCXref xref" xrefformat="{para}">GitLab modules</a> </li>
   -->
 
 * [Gmail modules](../../workfront-fusion/apps-and-their-modules/gmail-modules.md) 
@@ -99,7 +99,7 @@ This section contains the following articles:
 * [Intacct modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
 
   <!--
-  ISO modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 
 * [Jira Software modules](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md) 
@@ -135,7 +135,7 @@ This section contains the following articles:
 * [Widen modules](../../workfront-fusion/apps-and-their-modules/widen-modules.md)
 
   <!--
-  Workday modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/workday-modules.md" class="MCXref xref" xrefformat="{para}">Workday modules</a> </li>
   -->
 
 * [XML](../../workfront-fusion/apps-and-their-modules/xml-modules.md)

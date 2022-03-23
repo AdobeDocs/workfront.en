@@ -23,10 +23,9 @@ Anyone you add to a proof will automatically be added to your contacts list. For
 
 To add a new Guest:
 
-1. On the Dashboard, click the down arrow next to  `New proof`, then click  `New guest`.
+1. On the Dashboard, click the down arrow next to&nbsp;**New proof**, then click&nbsp;**New guest**.
 
 1. If you have an Observer profile, you will not have the option to add new contacts. For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
-1. Type the guest's information, then click `Create.  
-   `You can choose the default proof role and permissions&nbsp;for the new Guest. When this person is then added to a proof they will be given this role and alert by default, however these can be changed on the New proof page when adding them to the proof.   
+1. Type the guest's information, then click **Create.**You can choose the default proof role and permissions&nbsp;for the new Guest. When this person is then added to a proof they will be given this role and alert by default, however these can be changed on the New proof page when adding them to the proof.   
    For more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) and [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 

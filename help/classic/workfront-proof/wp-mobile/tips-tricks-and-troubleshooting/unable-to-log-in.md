@@ -28,7 +28,7 @@ When using both Workfront & Workfront Proof,
 
 1. Ensure that both the Workfront Mobile App and the Workfront Proof Mobile App are installed on your device.&nbsp;
 1. Log in to the Workfront Mobile App and Go to the document you want to Proof.
-1. Click the three-dot icon in the upper-right of the screen, then click `Proofing`.   
+1. Click the&nbsp;three-dot icon in the upper-right of the screen, then click **Proofing**.   
    The Workfront Proof Mobile App automatically launches logs you in.  
    You can now work with proofing in the document.
 

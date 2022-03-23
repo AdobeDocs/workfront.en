@@ -10,7 +10,8 @@ description: You can locate the following types of requests that you or someone 
 
 You can locate the following types of requests that you or someone else submitted, or requests you started but you never finished submitting. You can locate these requests in the following areas of Adobe Workfront:
 
-* Draft section: All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* Submitted section: All requests that you or someone else submitted and you have access to at least View. 
+* Draft section : All requests that you started but you never finished and you never submitted. For more information about draft requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
@@ -48,10 +49,152 @@ You must have the following to perform the steps in this article:
 ## Locate submitted requests
 
 <!--
-Locate submitted requests in Production To locate requests that you or other users have submitted in the Production environment: Go to the Requests area in the Global Navigation Bar. Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Requests I've Submitted in the left panel to view all the requests that you have submitted. Or Click All Requests to view all requests that other users have submitted and which you have permissions to at least View. You can display up to 100 requests in the Requests I've Submitted and All Requests sections. Requests that are pending approval do not display. Click the Open subtab to view requests that are open. Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab. Click the Complete subtab to view requests that have been completed. Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab. Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. For information about resolving and resolvable objects, see the article Overview of Resolving and Resolvable Objects . (Optional) Select an option from the Sort by drop-down menu to sort the requests by the following criteria: Assigned To: Requests are sorted alphabetically by the name of the assignee using the following criteria: All requests assigned to users are sorted first, in the order of the users' names. Requests assigned to job roles are sorted secondly, in the order of the job roles' names and are listed after all the requests assigned to users. Requests that are assigned to teams are sorted last, in the order of the teams' names and are listed after all the requests assigned to users and those assigned to job roles. All unassigned requests are listed last, in the order of their Entry Date. Submitted On: Requests are sorted chronologically by the date when they were submitted. Recently Updated (this is the default): Requests are sorted chronologically by the date of their last update. Name: Requests are sorted alphabetically by name. Priority: Requests are sorted in the order of their priority. Queue: Requests are sorted alphabetically by the name of the requests queue where they were submitted. Status: Requests are sorted alphabetically by their status. Click Draft Requests to view all drafted requests. Workfront saves an unlimited number of drafts for each request queue in this folder. When you enter a new request for a queue topic that already has a draft, you will be prompted to use an existing draft. For more information about drafted requests, see the Locate submitted requests section in this article.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Locate submitted requests in Production</h2>
+<p>To locate requests that you or other users have submitted in the Production environment:</p>
+<ol>
+<li value="1"> <p>Go to the <strong>Requests</strong> area in the Global Navigation Bar.</p> <p>Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</p> </li>
+<li value="2"> <p>Click&nbsp;<strong>Requests I've Submitted</strong> in the left panel to view all the requests that you have submitted. </p> <p>Or<br>Click&nbsp;<strong>All Requests</strong>&nbsp;to view all requests that other users have submitted and which you have permissions to at least View. </p> <p>You can display up to 100 requests in the <strong>Requests I've Submitted</strong> and <strong>All Requests</strong> sections.<br>Requests that are pending approval do not display.</p> </li>
+<li value="3">Click the&nbsp;<strong>Open</strong>&nbsp;subtab to view requests that are open.<br>Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</li>
+<li value="4">Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed. <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</li>
+<li value="5">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:&nbsp;
+<ul>
+<li><p><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria:&nbsp;</p>
+<ul>
+<li>All requests assigned to users are sorted first, in the order of the users' names.</li>
+<li>Requests assigned to job roles are sorted secondly, in the order of the job roles' names and are listed after all the requests assigned to users.</li>
+<li>Requests that are assigned to teams are sorted last, in the order of the teams' names and are listed after all the requests assigned to users and those assigned to job roles.</li>
+<li>All unassigned requests are listed last, in the order of their Entry Date. </li>
+</ul></li>
+<li><strong>Submitted On</strong>: Requests are sorted chronologically by the date when they were submitted.</li>
+<li><strong>Recently Updated</strong> (this is the default): Requests are sorted chronologically by the date of their last update.</li>
+<li><strong>Name</strong>: Requests are sorted alphabetically by name.&nbsp;</li>
+<li><strong>Priority</strong>: Requests are sorted in the order of their priority.</li>
+<li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted.&nbsp;</li>
+<li><strong>Status</strong>: Requests are sorted alphabetically by their status.&nbsp;</li>
+</ul></li>
+<li value="6"> <p>Click <strong>Draft Requests</strong> to view all drafted requests. Workfront saves an unlimited number of drafts for each request queue in this folder. When you enter a new request for a queue topic that already has a draft, you will be prompted to use an existing draft. For more information about drafted requests, see the <a href="#create-requests-in-the-web-app" class="MCXref xref">Locate submitted requests</a> section in this article. </p> </li>
+</ol>
+</div>
 -->
 
-To locate requests that you or other users have submitted: Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Submitted in the left panel to view all submitted requests. You can view up to 2000 requests and they may display on multiple pages. Tip: You cannot customize the columns in the Submitted request list. The following columns display by default: Name The name of the request. Click the name of a request to open it. Tip: If the issue was not preserved when it was converted to a task or a project, the name of the issue is dimmed and can no longer be clicked. For information about converting issues, see Overview of converting issues in Adobe Workfront. Converted to The name of the resolving object which can be a task or project that the request was converted to. Click the name of the task or project to open them. If the request was not converted, this field is empty. Path The name of the request queue, topic groups, and queue topics where the request was originally submitted. Status The current status of the request or of the resolving object (task or project) Entry Date The date when the request was submitted or the date when the resolving object was created if the request was deleted when converted. Last Update Date The date when the request was updated last. The Submitted request list is sorted by this field, by default. (Optional) Click the header of a column to sort by it. Tip: When you navigate away from the Submitted requests list, the selected sorting option is preserved. (Optional) Select a request in the list , then click the Open Summary icon to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see Summary overview in the new Adobe Workfront experience. Tip: If the Summary panel is already opened, the Open Summary icon changes to Close Summary. (Optional and conditional) Click the X icon in the upper-right corner or the Close Summary icon to close the Summary Panel. If an issue was converted to a task or project and the issue was deleted in the conversion process, the Summary panel is blank. For information about converting issues, see Overview of converting issues in Adobe Workfront. From the Filter icon in the top right of the list, select any of the following filters: All All submitted requests, regardless of status or who submitted them. Open All submitted requests that are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself. Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab. Tip: Requests that are in any status that does not equate with Closed are considered open. My Requests Requests you submitted regardless of their status. My Open Requests Requests you submitted that are still open. Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab. Tip: Requests that are not in a status that equates with Closed are considered open. (Optional) Click the Filter page icon at the top of the list to search for a request by name. The list updates with results that match your search criteria. Click the Complete subtab to view requests that have been completed. Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab. Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. For information about resolving and resolvable objects, see the article Overview of Resolving and Resolvable Objects . (Optional) Select an option from the Sort by drop-down menu to sort the requests by the following criteria: Assigned To: Requests are sorted alphabetically by the name of the assignee using the following criteria: All requests assigned to users are sorted first, in the order of the users' names. Requests assigned to job roles are sorted secondly, in the order of the job roles' names and are listed after all the requests assigned to users. Requests that are assigned to teams are sorted last, in the order of the teams' names and are listed after all the requests assigned to users and those assigned to job roles. All unassigned requests are listed last, in the order of their Entry Date. Submitted On: Requests are sorted chronologically by the date when they were submitted. Recently Updated (this is the default): Requests are sorted chronologically by the date of their last update. Name: Requests are sorted alphabetically by name. Priority: Requests are sorted in the order of their priority. Queue: Requests are sorted alphabetically by the name of the requests queue where they were submitted. Status: Requests are sorted alphabetically by their status. Click Drafts to view all drafted requests. Workfront saves an unlimited number of drafts for each request queue in this folder. When you enter a new request for a queue topic that already has a draft, you will be prompted to use an existing draft. For more information, see Create requests from drafts.  &nbsp;
+To locate requests that you or other users have submitted:
+
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click&nbsp;**Submitted** in the left panel to view all submitted requests.
+
+   You can view up to 2000 requests and they may display on multiple pages.
+
+   >[!TIP]
+   >
+   >You cannot customize the columns in the Submitted request list.
+
+   ![](assets/nwe-submitted-requests-new-list-350x57.png)
+
+1. The following columns display by default:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>The name of the request.</p> <p>Click the name of a request to open it. </p> <p>Tip: If the issue was not preserved when it was converted to a task or a project, the name of the issue is dimmed and can no longer be clicked. For information about converting issues, see <a href="../../../manage-work/issues/convert-issues/convert-issues.md" class="MCXref xref">Overview of converting issues in Adobe Workfront</a>. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Converted to</td> 
+      <td> <p>The name of the resolving object which can be a task or project that the request was converted to. </p> <p>Click the name of the task or project to open them. </p> <p>If the request was not converted, this field is empty. </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Path</td> 
+      <td>The name of the request queue, topic groups, and queue topics where the request was originally submitted. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Status</td> 
+      <td>The current status of the request or of the resolving object (task or project)</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Entry Date</td> 
+      <td>The date when the request was submitted or the date when the resolving object was created if the request was deleted when converted. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Last Update Date</td> 
+      <td> <p>The date when the request was updated last.</p> <p>The Submitted request list is sorted by this field, by default. </p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Click the header of a column to sort by it.
+
+   ``` ```**Tip: **`````` ```When you navigate away from the Submitted requests list, the selected sorting option is preserved.``` 
+
+1. (Optional) ```Select``` a request in the list , then click the **Open Summary** icon ``` ![](assets/open-summary-with-text-nwe.png)
+
+   ``` to open the Summary panel and display additional information about the request, add comments, documents, or assign it. For information about the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+   >[!TIP]
+   >
+   >```If the Summary panel is already opened, the Open Summary icon changes to Close Summary.```
+
+1. (Optional and conditional) Click the **X** icon in the upper-right corner ```or the ```Close Summary``` icon ![](assets/close-summary-with-text-nwe.png)
+
+   ``` to close the Summary Panel.
+
+   If an issue was converted to a task or project and the issue was deleted in the conversion process, the Summary panel is blank. For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md). 
+
+1. From the **Filter icon** ![](assets/filter-nwepng.png) in the top right of the list, select any of the following filters: 
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">All</td> 
+      <td>All submitted requests, regardless of status or who submitted them.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Open</td> 
+      <td> <p>All submitted requests that are currently open, regardless of who submitted them. Only requests you have at least permissions to view display here if you did not submit them yourself. </p> <p>Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the Open subtab.</p> <p>Tip: Requests that are in any status that does not equate with Closed are considered open.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">My Requests</td> 
+      <td>Requests you submitted regardless of their status. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">My Open&nbsp;Requests</td> 
+      <td> <p>Requests you submitted that are still open. </p> <p>Requests without an Actual Completion Date or whose resolving object does not have an Actual Completion Date are listed in the My Open Requests subtab.&nbsp;</p> <p>Tip: Requests that are not in a status that equates with Closed are considered open.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) Click the **Filter page** icon ![](assets/search-icon.png) at the top of the list to search for a request by name. The list updates with results that match your search criteria.
+
+   <!--
+   <li value="9" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the&nbsp;<strong>Complete</strong> subtab to view requests that have been completed. <br>Requests with an Actual Completion Date or whose resolving object has an Actual Completion Date are listed in the Complete subtab.<br>Once a request receives an Actual Completion Date, it stays in the Recently Completed area for 10 business days. After that, it is moved to the Completed area. <br>For information about resolving and resolvable objects, see the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</li>
+   -->
+
+   <!--
+   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">(Optional) Select an option from the <strong>Sort by</strong> drop-down menu to sort the requests by the following criteria:&nbsp;
+   <ul>
+   <li><p><strong>Assigned To</strong>: Requests are sorted alphabetically by the name of the assignee using the following criteria:&nbsp;</p>
+   <ul>
+   <li>All requests assigned to users are sorted first, in the order of the users' names.</li>
+   <li>Requests assigned to job roles are sorted secondly, in the order of the job roles' names and are listed after all the requests assigned to users.</li>
+   <li>Requests that are assigned to teams are sorted last, in the order of the teams' names and are listed after all the requests assigned to users and those assigned to job roles.</li>
+   <li>All unassigned requests are listed last, in the order of their Entry Date. </li>
+   </ul></li>
+   <li><strong>Submitted On</strong>: Requests are sorted chronologically by the date when they were submitted.</li>
+   <li><strong>Recently Updated</strong> (this is the default): Requests are sorted chronologically by the date of their last update.</li>
+   <li><strong>Name</strong>: Requests are sorted alphabetically by name.&nbsp;</li>
+   <li><strong>Priority</strong>: Requests are sorted in the order of their priority.</li>
+   <li><strong>Queue</strong>: Requests are sorted alphabetically by the name of the requests queue where they were submitted.&nbsp;</li>
+   <li><strong>Status</strong>: Requests are sorted alphabetically by their status.&nbsp;</li>
+   </ul></li>
+   -->
+
+1. Click **Drafts** to view all drafted requests. Workfront saves an unlimited number of drafts for each request queue in this folder. When you enter a new request for a queue topic that already has a draft, you will be prompted to use an existing draft. For more information, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+&nbsp;
 
 &nbsp;
 

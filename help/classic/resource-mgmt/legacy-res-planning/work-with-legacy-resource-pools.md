@@ -30,23 +30,23 @@ We recommend against creating too many Legacy Resource Pools unless you have sev
 
 ## Create a Legacy Resource Pool
 
-1. Go to the `People` area in the Global Navigation Bar.
-1. Select the `Legacy` `Resource Planning` tab.
+1. Go to the **People** area in the Global Navigation Bar.
+1. Select the **Legacy** **Resource Planning** tab.
 
-1. Select the `Legacy` `Resource Pools` sub-tab.  
+1. Select the **Legacy** **Resource Pools** sub-tab.  
    ![legacy_resource_pools.png](assets/legacy-resource-pools-350x118.png)
 
-1. Click `New Resource Pool`.
-1. Specify a name for the `Resource Pool` in inline edit.
-1. Select the `Resource Estimates` tab.
-1. Click `Add Job Roles`.
+1. Click **New Resource Pool**.
+1. Specify a name for the **Resource Pool** in inline edit.
+1. Select the **Resource Estimates** tab.
+1. Click **Add Job Roles**.
 1. Select job roles to add. If you want to add several job roles at a time, press the Shift key on your keyboard and click several job roles to select. 
-1. Click `OK`.
+1. Click **OK**.
 1. In the grid portion of the Resource Estimates tab, budget your job roles in the Legacy Resource Pool. You can budget your job roles by hours, cost, or FTE, and you can view the grid by week or by month.  
    Manually enter the amount of time or cost for each job role for each unit of time, in the Resource Estimates grid. This is an estimation of how much available time one job role would have to complete work in a given time frame (week of month).  
    ![resource_estimates_legacy_pool.png](assets/resource-estimates-legacy-pool-350x197.png)
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Add job roles to a Legacy Resource Pool
 

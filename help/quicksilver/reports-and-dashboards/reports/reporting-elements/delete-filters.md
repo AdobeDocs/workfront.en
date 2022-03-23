@@ -58,7 +58,7 @@ Deleting filters is possible only when the following conditions are met:
 ## Delete a filter
 
 1. Go to a list of projects, tasks, or issues.
-1. Click the `Filter` icon ![](assets/filter-nwepng.png), then enable the `Beta setting` ![](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
+1. Click the **Filter** icon ![](assets/filter-nwepng.png), then enable the **Beta setting** ![](assets/beta-toggle-white-on-existing-filters.png) to access the beta builder. It is disabled by default.
 
    This opens the beta filter builder interface.
 
@@ -75,11 +75,11 @@ Deleting filters is possible only when the following conditions are met:
    | Suggested |Filters that the Workfront administrator adds to your list of filters, either at the system level, or in your Layout Template.  |
    | Shared with me |Filters that others create and share with you or that are shared system-wide. |
 
-1. Hover over a filter that you have permissions to manage, then click the `More` menu ![](assets/more-menu.png), then click  `Delete`.
+1. Hover over a filter that you have permissions to manage, then click the **More** menu ![](assets/more-menu.png), then click&nbsp;**Delete**.
 
    ![](assets/new-filters-delete-option-highlighted-wb-350x116.png)
 
-1. (Optional) Click  `Cancel` to avoid the deletion and return to the list of filters. 
-1. `Click `Delete` to confirm the deletion.` 
+1. (Optional)&nbsp;Click&nbsp;**Cancel** to avoid the deletion and return to the list of filters. 
+1. ```Click **Delete** to confirm the deletion.``` 
 1. The filter is deleted for you and all users who had permissions to it.
 

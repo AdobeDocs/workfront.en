@@ -60,8 +60,13 @@ You must have the following access to perform the steps in this article:
 ## Modify the allocation hours for a task
 
 1. Go to a task for whose assignments you want to change the allocation hours.
-1. Click the More menu next to the name of the task, then click Edit, then Assignments. Or Click the Assignments area in the task header, then click Advanced. 
-1. Ensure that the Duration Type of the task is Simple. 
-1. Modify the Allocations for each task assignee. These are overall allocations for each assignment to this task, for the entire duration of the task. This might also update the overall Planned Hours of the task. 
-1. Click `Save`.
+1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the task, then click **Edit**, then **Assignments**. Or Click the **Assignments** area in the task header, then click&nbsp;**Advanced**. 
+
+1. Ensure that the **Duration Type** of the task is **Simple**. 
+
+1. Modify the **Allocations** for each task assignee. These are overall allocations for each assignment to this task, for the entire duration of the task. This might also update the overall Planned Hours of the task. 
+
+   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
+
+1. Click **Save**.
 

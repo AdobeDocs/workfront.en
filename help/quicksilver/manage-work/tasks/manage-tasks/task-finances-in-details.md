@@ -46,12 +46,17 @@ Edit task finances in the Task Details section
    >
    >To find a task, you can also search for it, and click the name to access the task. For more information on searching for objects in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
-1. Click Tasks in the left panel. 
+1. Click **Tasks** in the left panel.  
 1. Click the name of a task that you want to view.
-1. Click `Task Details`.
-1. Click Finance to expand and view the financial information for the task. Click the Edit icon in the upper-right corner of the Details section, then click Finance. 
-1. Edit any field that is available for editing, by single-clicking the field or click +Add to add information to an empty field. 
-1. Review or edit the following information in the Finance area: 
+1. Click **Task Details**.
+1. (Optional) Click the **Collapse all** icon in the top right of the Task Details page. 
+1. ![](assets/collapse-all-icon-on-details-page.png)   
+
+1. Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Task Details section might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+1. Click **Finance** to expand and view the financial information for the task.  Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance**.  
+
+1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field. 
+1. Review or edit the following information in the **Finance** area: 
 
    <table cellspacing="0"> 
     <col> 
@@ -99,7 +104,7 @@ Edit task finances in the Task Details section
       <td> <p>This is a calculation that shows the revenue associated with the task based on the actual hours, the revenue type, and the hourly rate for users or job roles. For more information about tracking costs, see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">CPI/SPI/CSI</span> </td> 
+      <td role="rowheader"><strong>CPI/SPI/CSI</strong> </td> 
       <td> <p>These are task performance metrics that show how your task is performing, at a given time. Their values are calculated based on the Performance Index Method of the project.<br>For more information see the following articles:</p> 
        <ul> 
         <li> <p><a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref">Calculate Cost Performance Index (CPI)</a> </p> </li> 
@@ -114,5 +119,5 @@ Edit task finances in the Task Details section
     </tbody> 
    </table>
 
-1. (Conditional) If you are editing the fields in the Finance section, click `Save`Changes.
+1. (Conditional) If you are editing the fields in the Finance section, click **Save****Changes**.
 

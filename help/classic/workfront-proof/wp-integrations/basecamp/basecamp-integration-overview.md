@@ -22,10 +22,10 @@ The Workfront Proof integration with Basecamp helps you significantly improve re
 
 ## Key Benefits
 
-* `Save Time:` Easily track the status of comments, feedback and decisions.
-* `Faster Speed to Market:` Deliver design projects faster with shorter review cycles and fewer revisions.
-* `Reduce Costs:` Reduce the time you spend managing reviews and reworking designs.
-* `Full Accountability:` Keep a complete record of all comments and decisions timestamped, stored and organized in a traceable audit trail.
+* **Save Time:** Easily track the status of comments, feedback and decisions.
+* **Faster Speed to Market:** Deliver design projects faster with shorter review cycles and fewer revisions.
+* **Reduce Costs:** Reduce the time you spend managing reviews and reworking designs.
+* **Full Accountability:** Keep a complete record of all comments and decisions timestamped, stored and organized in a traceable audit trail.
 
 ## Key Features
 

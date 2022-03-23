@@ -55,46 +55,23 @@ Consider the following when using task priorities:
 
   Refer to the following table to understand each default priority label and its corresponding number: 
 
-  <table cellspacing="15"> 
-   <col> 
-   <col> 
-   <thead> 
-    <tr> 
-     <th><span class="bold">Priority Label <br>(Can be modified)</span> </th> 
-     <th><span class="bold">Priority Number <br>(Cannot be modified)</span> </th> 
-    </tr> 
-   </thead> 
-   <tbody> 
-    <tr> 
-     <td> None </td> 
-     <td> 0 </td> 
-    </tr> 
-    <tr> 
-     <td> Low </td> 
-     <td> 1 </td> 
-    </tr> 
-    <tr> 
-     <td> Normal </td> 
-     <td> 2 </td> 
-    </tr> 
-    <tr> 
-     <td> High </td> 
-     <td> 3 </td> 
-    </tr> 
-    <tr> 
-     <td> Urgent </td> 
-     <td> 4 </td> 
-    </tr> 
-   </tbody> 
-  </table>
+  | **Priority Label (Can be modified)** |**Priority Number (Cannot be modified)** |
+  |---|---|
+  |  None  | 0  |
+  |  Low  | 1  |
+  |  Normal  | 2  |
+  |  High  | 3  |
+  |  Urgent  | 4  |
 
 <![CDATA[ ]]>
 
 ## Modify the Priority of a task
 
 1. Go to the task whose priority you want to modify. 
-1. Click the Task Details tab. 
-1. Select the Overview sub-tab, then Edit Overview. 
-1. Select a value for the Priority field.  
-1. Click `Save`.
+1. Click the **Task Details** tab.  
+1. Select the **Overview** sub-tab, then **Edit Overview**.  
+
+1. Select a value for the **Priority** field.   
+
+1. Click **Save**.
 

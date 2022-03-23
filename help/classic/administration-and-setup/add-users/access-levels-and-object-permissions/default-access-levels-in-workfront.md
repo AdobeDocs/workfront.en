@@ -41,7 +41,7 @@ Attached to the Plan license, this built-in access level is designed for a user 
 
 Users with the System Administrator access level can do everything within Workfront. They can view and edit all Workfront objects and information entered in Workfront by all other users.
 
-They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the Global Navigation Bar.
+They also have access to the complete Setup area, where they can change any setting at the system level. And they can access all areas in the  Global Navigation Bar .
 
 For more information, see [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -53,7 +53,7 @@ Also attached to the Plan license, this access level is designed for:
 * Anyone who is responsible for planning, creating, and managing tasks, projects, portfolios, and programs
 * Anyone who is responsible for assigning work (tasks and issues) to other users
 * Users who build reports and who approve timesheets, work items, and documents
-* Users who need access to all areas in the Global Navigation Bar
+* Users who need access to all areas in the  Global Navigation Bar
 
 You can create a custom version of the Planner built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 
@@ -84,7 +84,7 @@ Users with this access level:
 * Can approve work and documents, but not timesheets
 * Can access and share reports
 * Can communicate with other users in the system  
-* Can access all the areas in the Global Navigation Bar, but their "People" area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
+* Can access all the areas in the  Global Navigation Bar , but their  "People"  area is named Teams. In the Teams area, users with this access level can view only teams that they belong to, along with the work assigned to those teams.
 * Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Worker built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
@@ -103,7 +103,7 @@ The following are the highest access settings available for objects in the Worke
 | Documents |&nbsp; |&nbsp; |✓ |
 | Users |&nbsp; |&nbsp; |✓ |
 | Templates |✓ |&nbsp; |&nbsp; |
-| Financial data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance subtab&nbsp;under Project Details.) |&nbsp; |
+| Financial data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance  subtab &nbsp; under  Project Details.) |&nbsp; |
 | Resource Management |&nbsp; |✓ |&nbsp; |
 
 ## Reviewer access level
@@ -115,7 +115,8 @@ For example, a stakeholder with this access level could log in to Workfront to p
 Users with the Reviewer access level:
 
 * Cannot be assigned work items or approve time sheets
-* Can access requests and documents in the Global Navigation Bar.
+* Can access requests and documents in the  Global Navigation Bar .
+* My Updates area
 * Have limited ability to create objects—they can’t create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
@@ -199,7 +200,7 @@ More limited for projects and tasks than the Worker access level, the following 
   <tr> 
    <td>Financial data</td> 
    <td>&nbsp;</td> 
-   <td> <p>✓ (The default setting is No Access. The View setting allows the user to view only the Finance subtab under Project Details.)</p> </td> 
+   <td> <p>✓ (The default setting is No Access. The View setting allows the user to view only the Finance  subtab   under  Project Details.)</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -223,7 +224,7 @@ Users with this built-in access level:
 * Can upload and approve documents
 * Can review the status of issues they have submitted
 * Cannot be assigned to work items  
-* Can see only the Requests area in the Global Navigation Bar. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Can  see only the Requests area in the Global Navigation Bar . For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 You can create a custom version of the Requester built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Built-in access levels in Adobe Workfront](#customiz) in this article.
 

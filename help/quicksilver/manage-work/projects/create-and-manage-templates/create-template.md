@@ -8,7 +8,7 @@ description: You can create and delete templates from the Templates area. When b
 
 # Create a project template
 
-You can create and delete templates from the Templatesarea. When building a new template, you can enter the information for all of the tasks and all information for your future project settings. This information will then transfer to the project, when you create it from the template.
+You can create and delete templates from the Templates area. When building a new template, you can enter the information for all of the tasks and all information for your future project settings. This information will then transfer to the project, when you create it from the template.
 
 You can create a new template in the following ways:
 
@@ -20,6 +20,8 @@ You can create a new template in the following ways:
 * By copying it from another template.
 
   For more information about copying an existing template, see [Copy a project template](../../../manage-work/projects/create-and-manage-templates/copy-template.md).
+
+* If you are a Workfront administrator, you can create templates by importing Blueprints. For information, see [Configure a blueprint](../../../administration-and-setup/blueprints/configure-template-package.md).
 
 ## Access requirements
 
@@ -52,18 +54,21 @@ You must have the following:
 
 ## Create a template
 
-1. From the Main Menu click Templates.
-1. Click `New Template`.
+1. From the **Main Menu** ![](assets/main-menu-icon.png) click **Templates**. 
+
+1. Click **New Template**.
 
    The template is untitled.
 
-1. Specify a name for the new template in the template header, then press `Enter.`
-1. Click the Template Tasks section in the left panel. 
-1. Click `Start Adding Template Tasks`.
+   ![New template](assets/create-template-nwe-2022-350x186.png)
+
+1. Specify a name for the new template in the template header, then press **Enter.**
+1. Click the **Template Tasks** section in the left panel.  
+1. Click**Start Adding Template Tasks**.
 
    Or
 
-   Click `New Template Task` to start adding tasks to your template.
+   Click **New Template Task** to start adding tasks to your template.
 
    Adding template tasks to a template is identical to adding tasks to a project.
 
@@ -73,17 +78,17 @@ You must have the following:
    >
    >You cannot add recurring tasks to a template.
 
-1. (Optional) Click the `Gantt chart` icon in the upper-right corner of the Task List to see a visual representation of the template's task list.
+1. (Optional) Click the **Gantt chart** icon in the upper-right corner of the Task List to see a visual representation of the template's task list.
 
    >[!TIP]
    >
    >You cannot edit tasks directly from this Gantt chart.
 
-1. To add information to your new template, click the More menu , then click Edit.
+1. To add information to your new template, click the **More** menu ![](assets/more-icon.png), then click **Edit**.
 
    For information about editing a template, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 1. (Optional) If you want to add additional items to the template, see the section [Add additional items to a template](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#adding-items-to-template) in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Template settings determined by group association

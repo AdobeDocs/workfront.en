@@ -39,7 +39,15 @@ You need to following:
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* View or higher access to Projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View or higher permissions to the project For information on requesting additional access to a plan, see Request access to a plan in the Workfront Scenario Planner. For information about requesting additional access to a project, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access to a plan, see <a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FScenario_Planner%2Frequest-access-to-plan.htm" target="_blank">Request access to a plan in the Workfront Scenario Planner</a>.</p> <p>For information about requesting additional access to a project, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>. </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -51,27 +59,28 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
 
 1. (Conditional) Connect a project with an initiative using one of the methods described in the following articles:
 
-  * [Import projects to plans in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fimport-projects-to-plans.htm&_LANG=enus) 
-  * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fpublish-scenarios-update-projects.htm&_LANG=enus)
+   * [Import projects to plans in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fimport-projects-to-plans.htm&_LANG=enus) 
+   * [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fpublish-scenarios-update-projects.htm&_LANG=enus)
 
    >[!IMPORTANT]
    >
    >If you make changes to resources on the initiative, you must re-publish the scenario that the initiative belongs to in order for the latest resource information from the initiative to update on the project.
 
 1. Go to the project where you want to review the allocation of job roles for the project as well as for the associated initiative. 
-1. Click Staffing > Workload Balancer. You might have to click `Scheduling`, then `Switch to Workload Balancer`. 
+1. Click **Staffing** > Workload Balancer.  You might have to click **Scheduling**, then **Switch to Workload Balancer**. 
+
 1. Do one of the following:
 
-  * Click `Month` to view the Workload Balancer by month, click the drop-down menu next to a month in the timeline ![](assets/drop-down-next-to-month-month-view-wb.png), then click  `More`. 
-  * Click the `Show role allocation` icon ![](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
+   * Click **Month** to view the Workload Balancer by month, click the drop-down menu next to a month in the timeline ![](assets/drop-down-next-to-month-month-view-wb.png), then click&nbsp;**More**. 
+   * Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
 
    The Role&nbsp;Allocation panel displays.
 
    ![](assets/role-allocation-panel-months-collapsed-350x319.png)
 
-   ` `**Warning: **``Although you can view the Role Allocation panel even if your organization did not purchase a Workfront Scenario Planner license, you cannot view information about initiatives' job roles. 
+   ``` ```**Warning: **``````Although you can view the Role Allocation panel even if your organization did not purchase a Workfront Scenario Planner license, you cannot view information about initiatives' job roles. 
 
-1. Review the following information in the `Project Totals` area of the Role Allocation panel: 
+1. Review the following information in the **Project Totals** area of the Role Allocation panel: 
 
    <table cellspacing="0"> 
     <col> 
@@ -101,29 +110,29 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
     </tbody> 
    </table>
 
-   ` `**Tip: **`` Planned Hours from the project do not display in the following scenarios:
+   ``` ```**Tip: **`````` Planned Hours from the project do not display in the following scenarios:
 
-  * When tasks or issues are not assigned to job roles, or users with a job role associated with them.
-  * When tasks or issues have a Duration of zero.
+   * When tasks or issues are not assigned to job roles, or users with a job role associated with them.
+   * When tasks or issues have a Duration of zero.
 
    &nbsp;
 
 1. (Optional) If the Variance column shows that your resources are overallocated, adjust one of the following:
 
-  * Lower the number of Planned Hours for one job role that shows overallocated or add more resources to the tasks and distribute more Planned Hours to the new resources. You can update assignments or the number of Planned Hours on tasks or issues when editing them.&nbsp;For more information see the following articles:
+   * Lower the number of Planned Hours for one job role that shows overallocated or add more resources to the tasks and distribute more Planned Hours to the new resources. You can update assignments or the number of Planned Hours on tasks or issues when editing them.&nbsp;For more information see the following articles:
 
-    * [Edit tasks](../manage-work/tasks/manage-tasks/edit-tasks.md) 
-    * [Edit issues](../manage-work/issues/manage-issues/edit-issues.md)
+      * [Edit tasks](../manage-work/tasks/manage-tasks/edit-tasks.md) 
+      * [Edit issues](../manage-work/issues/manage-issues/edit-issues.md)
 
-    >[!NOTE]
-    >
-    >You must have additional access and permissions to edit tasks and issues.
+     >[!NOTE]
+     >
+     >You must have additional access and permissions to edit tasks and issues.
 
-  * Increase the number of required hours for role that shows the overallocation on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fcreate-and-edit-initiatives.htm&_LANG=enus).
+   * Increase the number of required hours for role that shows the overallocation on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FScenario_Planner%2Fcreate-and-edit-initiatives.htm&_LANG=enus).
 
-    >[!NOTE]
-    >
-    >You must have additional access and permissions to edit plans.
+     >[!NOTE]
+     >
+     >You must have additional access and permissions to edit plans.
 
 1. (Optional) Click the drop-down icon to expand one of the months in the Role Allocation panel or in the timeline of the Workload Balancer.
 
@@ -136,7 +145,7 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
    >The months listed in the Role Allocation panel are the months in the timeline displayed on the screen in the Workload Balancer. Scroll back and forward on the timeline to view additional months.
 
    <!--
-
+   <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>&nbsp;</p> </li>
    -->
 
 &nbsp;

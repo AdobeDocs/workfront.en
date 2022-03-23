@@ -1,6 +1,6 @@
 
 
-# `Workfront Tools for AEM User Guide : Metadata Schema Mapping`
+# ```Workfront Tools for AEM User Guide : Metadata Schema Mapping```
 
 ## Asset Metadata Mapping
 
@@ -20,7 +20,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Work or higher
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Work or higher</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -41,16 +44,16 @@ You must have the following access to perform the steps in this article:
 
 Follow these steps to configure the mappings:
 
-1. Navigate to `Tools → Assets → Metadata Schemas`.
+1. Navigate to ```Tools → Assets → Metadata Schemas```.
 
    ![](assets/metadata-schema-350x242.png)
 
-1. Select the metadata schema form you wish to edit and click `Edit`or create a new metadata schema from scratch.
+1. Select the metadata schema form you wish to edit and click ```Edit```or create a new metadata schema from scratch.
 
    ![](assets/edit-schema-350x242.png)
 
-1. Select the metadata schema form field you wish to edit and select `Settings`tab on the right panel.
-1. In `Workfront Custom Form Field` select the name of the Workfront field that you wish to map to the selected AEM property. Available options are:
+1. Select the metadata schema form field you wish to edit and select ```Settings```tab on the right panel.
+1. In ```Workfront Custom Form Field``` select the name of the Workfront field that you wish to map to the selected AEM property. Available options are:
 
   1. Document custom form fields
   1. Project custom form fields
@@ -58,7 +61,7 @@ Follow these steps to configure the mappings:
   1. Task custom form fields
   1. Project Overview fields (ID, Name, Description or Reference Number)&nbsp;
 
-1. In the case where the Workfront field selected in `Workfront Custom Form Field` is a Workfront User type-ahead field, it will be necessary to specify which Workfront User field you wish to map. To do so, check `Get value from Workfront referenced object field` and then specify the name of the Workfront User Custom Form Field from which to retrieve the value to be mapped.
+1. In the case where the Workfront field selected in ```Workfront Custom Form Field``` is a Workfront User type-ahead field, it will be necessary to specify which Workfront User field you wish to map. To do so, check ```Get value from Workfront referenced object field``` and then specify the name of the Workfront User Custom Form Field from which to retrieve the value to be mapped.
 
    ![](assets/metadata--project-id-schema-350x242.png)
 
@@ -68,16 +71,16 @@ Metadata mapping between Workfront Projects and AEM Folders is defined within AE
 
 Follow these steps to configure the mappings:
 
-1. Navigate to `Tools → Assets → Folder Metadata Schemas`.
+1. Navigate to ```Tools → Assets → Folder Metadata Schemas```.
 
    ![](assets/folder-schema-mapping-350x242.png)
 
-1. Select the folder metadata schema form you wish to edit and click `Edit`.
+1. Select the folder metadata schema form you wish to edit and click ```Edit```.
 
    ![](assets/edit-folder-schema-350x104.png)
 
-1. Select the folder metadata schema form field you wish to edit and select `Settings`tab on the right panel.
-1. In `Mapped from Workfront Field` select the name of the Workfront field that you wish to map to the selected AEM folder property. Available options are:
+1. Select the folder metadata schema form field you wish to edit and select ```Settings```tab on the right panel.
+1. In ```Mapped from Workfront Field``` select the name of the Workfront field that you wish to map to the selected AEM folder property. Available options are:
 
   1. Project custom form fields
   1. Project Overview fields (ID, Name, Description, Reference Number, Planned Completion Date, Project Owner, Project Sponsor, Portfolio or Program)&nbsp;

@@ -28,15 +28,14 @@ To create a Satellite account:
 1. Go to the Billing page.  
    For more information about the billing page, see&nbsp; [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. Click the `New Satellite` account button. (1)
+1. Click the **New Satellite** account button. (1)
 
    A pop-up window appears.
 
    ![New_Satellite_Account.png](assets/new-satellite-account-350x156.png)
 
 1. Enter the details of your client, including any relevant promo codes.
-1. Click `Save  
-   `The Satellite account appears automatically within the Accounts drop-down menu at the top of the Billing page.
+1. Click **Save**The Satellite account appears automatically within the Accounts drop-down menu at the top of the Billing page.
 1. Select the new Satellite account from the drop-down menu.
 1. Continue with [Selecting a plan for your Satellite account](#selecting-a-plan-for-your-satellite-account) to upgrade your Satellite account.
 
@@ -47,13 +46,13 @@ After you have set up the Satellite account as described in [Creating a Satellit
 1. Go to the Billing page.  
    For more information about the billing page, see&nbsp; [The Workfront Proof Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-1. In the `Your accounts` drop-down menu at the top of the page (1), choose the relevant Satellite account.
+1. In the **Your accounts** drop-down menu at the top of the page (1), choose the relevant Satellite account.
 
    The billing page for the Satellite account appears, and the billing contact details from your account are automatically replicated.
 
    ![Satellite_Account_Change_Plan.png](assets/satellite-account-change-plan-350x156.png)
 
-1. Click the `Change Plan` button in the upper-right of the page. (2)  
+1. Click the **Change Plan** button in the upper-right of the page. (2)  
    Or  
    Open the pop-up by clicking your current or next plan name. (3)
 
@@ -64,20 +63,20 @@ After you have set up the Satellite account as described in [Creating a Satellit
 After you have upgraded the Satellite account to your chosen plan, you need to add users to the account.
 
 1. Log in to Workfront Proof as the Workfront Proof administrator.
-1. Click `Account Settings`.&nbsp;
+1. Click **Account Settings**.&nbsp;
 1. In the drop-down menu at the top of the page, select the relevant Satellite account. (1)  
    The account settings page for the Satellite account appears.
-1. Click the `New user` button in the upper-right of the page. (2)  
+1. Click the **New user** button in the upper-right of the page. (2)  
    The New User page displays.
 
-1. Enter the user's details, then click `Save`.  
+1. Enter the user's details, then click **Save**.  
    The user receives an email notification giving them access to the account.
 
 Users added to the Satellite account appear as members in the contact list of the hub account.
 
 Similarly, users in the hub account appear as members in the contacts of the Satellite account.
 
-To see a full list of all users in the Satellite account, click the `Users` tab.
+To see a full list of all users in the Satellite account, click the **Users** tab.
 
 ![SA_New_User.png](assets/sa-new-user-350x156.png) 
 

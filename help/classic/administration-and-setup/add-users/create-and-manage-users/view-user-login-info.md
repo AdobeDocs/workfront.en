@@ -43,8 +43,8 @@ You must have the following to perform the steps in this article:
 
 Workfront records the following information about users logging in to the system:
 
-* `Login Count`: Workfront counts a user logging in to the application once every 24 hours. If one user logs in multiple times using different browsers, computers, or mobile devices, Workfront counts all of the logins that occurred in one day as one login. The Login Count includes information starting with when the user was created.
-* `Last Login Date`: The last date when a user logged in. The date of every login from any browser, mobile device, or other applications is recorded in this field.
+* **Login Count**: Workfront counts a user logging in to the application once every 24 hours. If one user logs in multiple times using different browsers, computers, or mobile devices, Workfront counts all of the logins that occurred in one day as one login. The Login Count includes information starting with when the user was created.
+* **Last Login Date**: The last date when a user logged in. The date of every login from any browser, mobile device, or other applications is recorded in this field.
 
 Logging in to Workfront in any of the following ways counts as a login to Workfront:
 
@@ -66,16 +66,16 @@ For more information about creating a report, see [Create a custom report](../..
 To display usage information in the view of a list of users:
 
 1. Go to a list of users in Workfront.
-1. From the `View` drop-down menu, select `New View`.
+1. From the **View** drop-down menu, select **New View**.
 
-1. Click `Add Column` near the lower-right corner of the screen.
-1. In the `Show in this column` field, start typing `Login Count`, then select it when it appears in the list under `User`.
+1. Click **Add Column** near the lower-right corner of the screen.
+1. In the **Show in this column** field, start typing **Login Count**, then select it when it appears in the list under **User**.
 
-1. Click `Add Column` again.
-1. In the `Show in the column` field, start typing `Last Login Date`, then select it when it appears in the list under `User`.
+1. Click **Add Column** again.
+1. In the **Show in the column** field, start typing **Last Login Date**, then select it when it appears in the list under **User**.
 
-1. (Optional) Click `Advanced Options`, then select a `Field Format` from the drop down menu to include the time or the day of the week of the last login in your column.
+1. (Optional) Click **Advanced Options**, then select a **Field Format** from the drop down menu to include the time or the day of the week of the last login in your column.
 
-1. Click `Save View`.  
+1. Click **Save View**.  
    The view includes information about how many times the users have logged in and when they logged in last.
 

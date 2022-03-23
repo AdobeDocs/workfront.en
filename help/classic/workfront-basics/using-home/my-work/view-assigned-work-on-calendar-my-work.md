@@ -52,23 +52,23 @@ You must have the following access to perform the steps in this article:
 
 By default, issues are not displayed on the calendar in the My Work area. To configure issues to be displayed on the calendar in the My Work area:
 
-1. Click the `Settings` icon in the lower-right corner of the calendar in the My Work area.  
+1. Click the **Settings** icon in the lower-right corner of the calendar in the My Work area.  
    ![](assets/mywork-calendar-settings-350x149.png)
 
-1. In the Personal Calendar Settings dialog box, in the `Include Issues` section, select `Yes`.
+1. In the Personal Calendar Settings dialog box, in the **Include Issues**&nbsp;section, select **Yes**.
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Configure completed work to display on the calendar
 
 By default, completed work is not displayed on the calendar in the My Work area. To&nbsp;configure the calendar in the My Work area&nbsp;to display work that has already been marked as Complete:
 
-1. Click the `Settings` icon in the lower-right corner of the calendar in the My Work area.  
+1. Click the **Settings** icon in the lower-right corner of the calendar in the My Work area.  
    ![](assets/mywork-calendar-settings-350x149.png)
 
-1. In the Personal Calendar Settings dialog box, in the `Show Completed Work` section, select `Yes`.
+1. In the Personal Calendar Settings dialog box, in the **Show Completed Work**&nbsp;section, select **Yes**.
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## View task and issue details
 
@@ -77,11 +77,11 @@ You can view details of tasks and issues directly from the calendar in the Worki
 1. In the calendar, expand the task or issue that contains the&nbsp;details you want to view.  
    ![](assets/calendar-mywork-expanded-adobe-350x272.png)  
    The following information is displayed:  
-   `Project:`&nbsp;The name and link to the project where the task resides.  
-   `Dates:` The Start on and Due On dates associated with the task.  
-   `Planned Hours:` The number of Planned Hours associated with the task.  
-   `Predecessor icon:` Any predecessors associated with the task. (The predecessor icon is displayed only if there are predecessors associated with the task.)  
-   `Assignments:` Any user or job role assignments associated with the task. Job role assignments are displayed in parenthesis next to the user assignment.  
+   **Project:**&nbsp;The name and link to the project where the task resides.  
+   **Dates:** The Start on and Due On dates associated with the task.  
+   **Planned Hours:** The number of Planned Hours associated with the task.  
+   **Predecessor icon:** Any predecessors associated with the task. (The predecessor icon is displayed only if there are predecessors associated with the task.)  
+   **Assignments:** Any user or job role assignments associated with the task. Job role assignments are displayed in parenthesis next to the user assignment.  
    Team assignments are not displayed.  
    If you have Manage access to the task or issue, you can modify the hours for which users are allocated on each day within the task or issue duration. For more information about modifying user allocations, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
@@ -107,16 +107,16 @@ You can quickly adjust the size of the calendar view&nbsp;to a precise size. The
 You can hide or adjust the size of the calendar view by making changes in the Settings area. Any adjustments you make to the calendar view from the Settings area are retained the next time you access your My Work area.
 
 1. Navigate to your My Work area.
-1. Click the `Settings` icon in the lower-right corner of the calendar.  
+1. Click the **Settings** icon in the lower-right corner of the calendar.  
    ![](assets/mywork-calendar-settings-350x149.png)
 
-1. In the Personal Calendar Settings dialog box, in the `Calendar View` section, select from the following options:
+1. In the Personal Calendar Settings dialog box, in the **Calendar View** section, select from the following options:
 
-  * `Off:` Hides the calendar from the My Work area.
-  * `Default:` Maintains the default height of the calendar in the My Work area. (Sufficient height&nbsp;for 3 tasks to be displayed.)
-  * `Show More:`&nbsp;The calendar occupies more space in the My Work area. (Sufficient height for 8 tasks to be displayed.)
+   * **Off:** Hides the calendar from the My Work area.
+   * **Default:** Maintains the default height of the calendar in the My Work area. (Sufficient height&nbsp;for 3 tasks to be displayed.)
+   * **Show More:**&nbsp;The calendar occupies more space in the My Work area. (Sufficient height for 8 tasks to be displayed.)
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Adjust the dates displayed on the calendar
 
@@ -124,13 +124,13 @@ By default, 14 consecutive days (including weekends) are displayed on the schedu
 
 Use any&nbsp;of the following options to modify the date range&nbsp;for which data is displayed on the scheduling timeline:
 
-* `Week Options:`&nbsp;Click the Calendar icon, then select the number of weeks to&nbsp;display on the timeline.&nbsp;You can display 1 week (7 days), 2 weeks (14 days), or 3 weeks (21 days).  
+* **Week Options:**&nbsp;Click the Calendar icon, then select the number of weeks to&nbsp;display on the timeline.&nbsp;You can display 1 week (7 days), 2 weeks (14 days), or 3 weeks (21 days).  
   ![](assets/calendar-mywork-date-week-350x331.png)  
 
-* `Calendar:` Click the Calendar icon, then click the day prior to or after the current day. The time between the current day and the selected day is the new range.  
+* **Calendar:** Click the Calendar icon, then click the day prior to or after the current day. The time between the current day and the selected day is the new range.  
   ![](assets/calendar-mywork-date-range-350x331.png)  
 
-* `Drag-and-drop of the date range:` Drag the date range at the top of the scheduling timeline.  
+* **Drag-and-drop of the date range:** Drag the date range at the top of the scheduling timeline.  
   ![](assets/calendar-mywork-date-drag-350x89.png)
 
 ## Re-assign a work item from the calendar
@@ -142,7 +142,7 @@ To re-assign a work item from the calendar in the My Work area:
 1. In the calendar, expand the task or issue you want to re-assign.  
    ![](assets/calendar-mywork-expanded-adobe-350x272.png)
 
-1. In the `Assignments`&nbsp;area, click the drop-down arrow.
+1. In the **Assignments**&nbsp;area, click the drop-down arrow.
 1. Begin typing the name of the user you want to assign, then click the name when it appears in the drop-down list.  
    The task or issue is immediately removed from your calendar.
 
@@ -159,12 +159,12 @@ For more detailed information about user allocations, see the [Manage user alloc
 
 By default, user allocations are not displayed in the calendar in the My Work area. To enable user allocation indicators in the calendar in the My Work area:&nbsp;
 
-1. Click the `Settings` icon in the lower-right corner of the calendar in the My Work area.  
+1. Click the **Settings** icon in the lower-right corner of the calendar in the My Work area.  
    ![](assets/mywork-calendar-settings-350x149.png)
 
-1. In the Personal Calendar Settings dialog box, in the `Show User Allocations` section, select `Yes`.
+1. In the Personal Calendar Settings dialog box, in the **Show User Allocations**&nbsp;section, select **Yes**.
 
-1. Click `Save`.
+1. Click **Save**.
 
 ### Modify user allocations for a task or issue
 
@@ -173,11 +173,11 @@ To make allocations for a task or issue from the calendar in the My Work area:
 1. In the calendar in the My Work area, expand the task or issue for which you want to manage user allocations.  
    ![](assets/calendar-mywork-expanded-adobe-350x272.png)
 
-1. In the `Assignments`&nbsp;area, click the field for the user whose hours you want to adjust on a given day.  
+1. In the **Assignments**&nbsp;area, click the field for the user whose hours you want to adjust on a given day.  
    The first time&nbsp;you click in a&nbsp;field on a given task or issue, hours are adjusted&nbsp;and are rounded to the nearest half hour. (For example, 1.33 is rounded to 1.5.)
 
 1. Specify the adjusted number of hours.  
    You can specify hours in half-hour increments, such as 1, 1.5, 2, 2.5, and so forth.
-1. Click `Save`.  
+1. Click **Save**.  
    For more detailed information about modifying&nbsp;user allocations, see [Manage user allocations in the Scheduling areas](../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 

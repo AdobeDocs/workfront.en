@@ -15,8 +15,8 @@ We have introduced a new design for the Edit Object box to match the new Adobe W
 >This is currently available for the following objects when editing an individual object or when editing a single object from a list:
 >
 >* Projects
->* `Tasks` 
->* `Issues` 
+>* ```Tasks``` 
+>* ```Issues``` 
 >
 
 ##
@@ -66,26 +66,26 @@ You must have the following access to perform the steps in this article:
 
 Accessing the Edit Object box is similar for all objects where this functionality is supported. The areas and the fields available in the Edit Object box differs depending on which object you are updating.
 
-1. Go to the object that you want to edit and click the `More` icon ![](assets/more-icon.png) >  `Edit`.
+1. Go to the object that you want to edit and click the **More** icon ![](assets/more-icon.png) >&nbsp;**Edit**.
 
    Or
 
-   Go to a list of objects that contains the item you want to edit, select the item, then click the `Edit icon` ![](assets/edit-icon.png) at the top of the list.
+   Go to a list of objects that contains the item you want to edit, select the item, then click the **Edit icon** ![](assets/edit-icon.png) at the top of the list.
 
-   The `Edit Object` box opens. 
+   The **Edit Object** box opens. 
 
-   ` `**Example: **`` For example, the Edit Project box opens.
+   ``` ```**Example: **`````` For example, the Edit Project box opens.
 
    ![](assets/edit-project-box-nwe-350x208.png)
 
-1. In the left panel, notice the two main sections: `Details` and  `Setup`.
+1. In the left panel, notice the two main sections: **Details** and&nbsp;**Setup**.
 
    Notice the following in the Details and Setup sections:
 
   * Each section contains multiple links that take you directly to areas in the Edit box where you can update fields related to the object. 
   * Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit box might display different fields in your environment. For information, see [Customize the Details view using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. To edit information, click any editable field that you have permissions to edit, and specify the information about the object, then click  `Save`.
+1. To edit information, click any editable field that you have permissions to edit, and specify the information about the object, then click&nbsp;**Save**.
 
    For more information about editing different objects, see the following articles:
 

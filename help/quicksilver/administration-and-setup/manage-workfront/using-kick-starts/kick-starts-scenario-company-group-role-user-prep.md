@@ -45,9 +45,9 @@ The following table displays the Companies, Groups, and Roles to import:
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Companies</span> </th> 
-   <th><span class="bold">Groups</span> </th> 
-   <th><span class="bold">Roles</span> </th> 
+   <th><strong>Companies</strong> </th> 
+   <th><strong>Groups</strong> </th> 
+   <th><strong>Roles</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -65,90 +65,90 @@ The following tables display the users to import and several user attributes for
 
 ### User 1
 
-| `First Name`  |Chris |
+| **First Name** |Chris |
 |---|---|
-| `Last Name`  |Manning |
-| `Username/Email`  | [cmanning@foo.com](mailto:cmanning@foo.com)  |
-| `Password`  |updateMe |
-| `Access`  |Team Member |
-| `Company`  |<*Your Company>* |
-| `Home Group`  |Marketing |
-| `Job Role`  |Business Analyst |
+| **Last Name** |Manning |
+| **Username/Email** | [cmanning@foo.com](mailto:cmanning@foo.com)  |
+| **Password** |updateMe |
+| **Access** |Team Member |
+| **Company** |<*Your Company>* |
+| **Home Group** |Marketing |
+| **Job Role** |Business Analyst |
 
 ### User 2
 
-| `First Name`  |Jennifer |
+| **First Name** |Jennifer |
 |---|---|
-| `Last Name`  |Campbell |
-| `Username/Email`  |jcampbell@foo.com |
-| `Password`  |updateMe |
-| `Access`  |Project Manager |
-| `Company`  |<*Your Company>* |
-| `Home Group`  |Marketing |
-| `Job Role`  |Project Manager |
+| **Last Name** |Campbell |
+| **Username/Email** |jcampbell@foo.com |
+| **Password** |updateMe |
+| **Access** |Project Manager |
+| **Company** |<*Your Company>* |
+| **Home Group** |Marketing |
+| **Job Role** |Project Manager |
 
 ### User 3
 
-| `First Name`  |Jill |
+| **First Name** |Jill |
 |---|---|
-| `Last Name`  |Sullivan |
-| `Username/Email`  |jsullivan@foo.com |
-| `Password`  |updateMe |
-| `Access`  |Help Desk |
-| `Company`  |<*Your Company>* |
-| `Home Group`  |Sales |
-| `Job Role`  |Sales Rep |
+| **Last Name** |Sullivan |
+| **Username/Email** |jsullivan@foo.com |
+| **Password** |updateMe |
+| **Access** |Help Desk |
+| **Company** |<*Your Company>* |
+| **Home Group** |Sales |
+| **Job Role** |Sales Rep |
 
 ### User 4
 
-| `First Name`  |Marc |
+| **First Name** |Marc |
 |---|---|
-| `Last Name`  |Lewis |
-| `Username/Email`  |mlewis@foo.com |
-| `Password`  |updateMe |
-| `Access`  |Portfolio Manager |
-| `Company`  |<*Your Company>* |
-| `Home Group`  |Finance |
-| `Job Role`  |Controller |
+| **Last Name** |Lewis |
+| **Username/Email** |mlewis@foo.com |
+| **Password** |updateMe |
+| **Access** |Portfolio Manager |
+| **Company** |<*Your Company>* |
+| **Home Group** |Finance |
+| **Job Role** |Controller |
 
 ### User 5
 
-| `First Name`  |Pam |
+| **First Name** |Pam |
 |---|---|
-| `Last Name`  |Reynolds |
-| `Username/Email`  |preynolds@foo.com |
-| `Password`  |updateMe |
-| `Access`  |Project Manager |
-| `Company`  |*Your Company>* |
-| `Home Group`  |Marketing |
-| `Job Role`  |IT |
+| **Last Name** |Reynolds |
+| **Username/Email** |preynolds@foo.com |
+| **Password** |updateMe |
+| **Access** |Project Manager |
+| **Company** |*Your Company>* |
+| **Home Group** |Marketing |
+| **Job Role** |IT |
 
 ### User 6
 
-| `First Name`  |Ray |
+| **First Name** |Ray |
 |---|---|
-| `Last Name`  |Andrews |
-| `Username/Email`  |randrews@foo.com |
-| `Password`  |updateMe |
-| `Access`  |Administrator |
-| `Company`  |*Your Company>* |
-| `Home Group`  |Resource Manager |
-| `Job Role`  |none |
+| **Last Name** |Andrews |
+| **Username/Email** |randrews@foo.com |
+| **Password** |updateMe |
+| **Access** |Administrator |
+| **Company** |*Your Company>* |
+| **Home Group** |Resource Manager |
+| **Job Role** |none |
 
 ## Download a Kick-Start Template
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `System` > `Kick-Starts` > `Import Data.`
+1. Click **System** > **Kick-Starts** > **Import Data.**
 
-1. Click `More Options` to see the full list of import options.
+1. Click **More Options** to see the full list of import options.
 1. Select the Access Level, Company, Group, Job Role, and User objects that you want to import.
 
 ## Input company information
 
-1. Open the `Workfront.xlsx`&nbsp;file you just downloaded.
+1. Open the **Workfront.xlsx**&nbsp;file you just downloaded.
 
-   ` `**Tip: **`` When working with very wide data sheets, you may want to use your spreadsheet editor's Freeze Pane (or equivalent) tool to make the spreadsheet easier to work with.
+   ``` ```**Tip: **`````` When working with very wide data sheets, you may want to use your spreadsheet editor's Freeze Pane (or equivalent) tool to make the spreadsheet easier to work with.
 
    ![](assets/freezepanes-350x140.png)
 
@@ -158,7 +158,7 @@ The following tables display the users to import and several user attributes for
 
    ![](assets/companyid--1--350x78.png)
 
-1. Specify TRUE into the `isNew`&nbsp;column.
+1. Specify&nbsp;TRUE&nbsp;into the **isNew**&nbsp;column.
 1. Repeat this action for each company being added. (In this example, complete this action for&nbsp;rows 3-6, because four&nbsp;companies are being added.)
 
    ![](assets/cmpyisnew-350x86.png)
@@ -171,7 +171,7 @@ The following tables display the users to import and several user attributes for
 
 1. Set a Name.
 
-   Specify the names of each customer in the `setName`&nbsp;column.
+   Specify the names of each customer in&nbsp;the **setName**&nbsp;column.
 
    ![](assets/companyid-350x78.png)
 
@@ -181,7 +181,7 @@ The following tables display the users to import and several user attributes for
 
    ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
 
-1. Set the `isNew`&nbsp;column.According to the scenario, 4 groups will be imported, so specify TRUE into rows 4 through 7 for the 'isNew' column.
+1. Set the **isNew**&nbsp;column.According to the scenario, 4 groups will be imported, so specify TRUE into rows 4 through 7 for the 'isNew' column.
 1. Specify a unique ID.
 
    This must be done for each row for the ID column. Integers starting at 1 work well when creating new records.
@@ -190,7 +190,7 @@ The following tables display the users to import and several user attributes for
 
 1. Set a Name.
 
-   Specify the names of each department in the `setName`&nbsp;column.
+   Specify the names of each department in&nbsp;the **setName**&nbsp;column.
 
    ![](assets/groupnames-350x85.png)
 
@@ -246,7 +246,7 @@ The following tables display the users to import and several user attributes for
 
 1. Specify Access Level values.
 
-   For example, Chris Manning, who is a Team Member, look up the ID on the ACSLVL Access Level sheet for the Team Member access level. Copy the ID into your clipboard, and on the USER User sheet paste it in the `setAccessLevelID` column on Chris' row.&nbsp;
+   For example, Chris Manning, who is a Team Member, look up the ID on the ACSLVL Access Level sheet for the Team Member access level. Copy the ID into your clipboard, and on the USER User sheet paste it in the **setAccessLevelID** column on Chris' row.&nbsp;
 
    Repeat this step for each user and access level.
 
@@ -254,7 +254,7 @@ The following tables display the users to import and several user attributes for
 
 1. Specify&nbsp;Home Group details.
 
-   According to the scenario, Chris Manning belongs to the Marketing group. On the GROUP Group sheet, locate the ID for the Marketing group, copy it into the clipboard, and on the USER User sheet paste it in the `setHomeGroupID`column on Chris' row.&nbsp;​Repeat this step for each user and group assignment.
+   According to the scenario, Chris Manning belongs to the Marketing group. On the GROUP Group sheet, locate the ID for the Marketing group, copy it into the clipboard, and on the USER User sheet paste it in the **setHomeGroupID**column on Chris' row.&nbsp;​Repeat this step for each user and group assignment.
 
    ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
 
@@ -279,5 +279,5 @@ The following tables display the users to import and several user attributes for
 1. Fill in other user details, as needed, then save the file.
 1. Import the Excel File.
 
-   Follow the directions provided in the `Importing Kick Start Files` section of this article.
+   Follow the directions provided in the **Importing Kick Start Files** section of this article.
 

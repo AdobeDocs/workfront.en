@@ -49,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 Project managers understand that a SPI&nbsp;value of 1 means the project is on plan or on schedule. &nbsp;Values greater than 1 indicate a project is ahead of schedule, and values less than 1 mean a project is behind schedule. &nbsp;The further from 1, the greater deviation from the plan.
 
-| `SPI Value`  | `Indication of "On Schedule"`  |
+| **SPI Value** |**Indication of "On Schedule"** |
 |---|---|
 | 1 |On plan or on schedule |
 | > 1 (greater than 1) |Ahead of schedule |
@@ -72,6 +72,7 @@ For example, if you have a project with 1 task and the task has 10 planned hours
 ## Locate SPI in a project or task
 
 1. Go to the project or task where you want to view SPI.
-1. Depending on whether you want to view SPI on a project or a task, do one of the following: Click Project Details in the left panel, then view the Finance area. Click Task Details in the left panel, then view the Finance area. 
-1. Find the `CPI/ SPI/ CSI` field.
+1. Depending on whether you want to view SPI on a project or a task, do one of the following:  ```<li value="1">Click <strong>Project Details</strong> in the left panel, then view the <strong>Finance</strong> area.</li>``` ```<li value="2">Click <strong>Task Details</strong> in the left panel, then view the <strong>Finance</strong> area. </li>```  
+
+1. Find the **CPI/ SPI/ CSI** field.
 

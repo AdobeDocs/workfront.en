@@ -39,7 +39,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -71,7 +79,7 @@ Do at least one of the following to be able to activate a goal:
 
 ## Activate goals
 
-`You must have access to Edit Goals in your access level before you can activate goals. For information about granting access to Goals, see` ` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)`.
+```You must have access to Edit Goals in your access level before you can activate goals. For information about granting access to Goals, see``` ``` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)```.
 
 You can activate goals you created or a goal that you have Manage permissions to.
 
@@ -81,11 +89,11 @@ You can activate goals you created or a goal that you have Manage permissions to
 
 1. Do one or several of the following:
 
-  * Click `Add Result`.
+  * Click **Add Result**.
 
     For information about adding results to goals, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
   
-  * Click `Add Activity`.
+  * Click **Add Activity**.
 
     For information about adding activities to goals, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
   
@@ -96,11 +104,11 @@ You can activate goals you created or a goal that you have Manage permissions to
     * [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md) 
     * [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
-1. Click `Activate`.
+1. Click **Activate**.
 
    Or
 
-   Click the ` `More icon` ![](assets/more-icon.png),`then click `Activate`.
+   Click the ```**More icon** ![](assets/more-icon.png),```then click **Activate**.
 
    The goal status changes to Active. You can now track progress on the goal and the goal displays in the Check-in section as well as is taken into account in the Graphs sections of Workfront Goals
 

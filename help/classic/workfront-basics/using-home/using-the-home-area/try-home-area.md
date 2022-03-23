@@ -40,9 +40,9 @@ You must have the following access to perform the steps in this article:
 You can switch back to the My Work area from Home.
 
 1. Go to the Home area.
-1. (Conditional) If you are currently viewing the Calendar, click `Calendar` in the upper-left area and select `Work List`.
+1. (Conditional) If you are currently viewing the Calendar, click **Calendar** in the upper-left area and select **Work List**.
 
-1. Click  `Go to Legacy My Work`&nbsp;in the lower-right corner of the Home area.  
+1. Click&nbsp;**Go to Legacy My Work**&nbsp;in the lower-right corner of the Home area.  
    ![Switch_to_My_Work_Adobe.png](assets/switch-to-my-work-adobe-350x210.png)  
   
    The My Work area displays.
@@ -50,7 +50,7 @@ You can switch back to the My Work area from Home.
 ## Switch back to Home from My Work
 
 1. Go to the My Work area.
-1. Click  `Switch to Home`&nbsp;in the upper-left corner of the My Work area.  
+1. Click&nbsp;**Switch to Home**&nbsp;in the upper-left corner of the My Work area.  
    The Home area displays.  
    ![Switch_to_home_Adobe.png](assets/switch-to-home-adobe-350x156.png)
 

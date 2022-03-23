@@ -14,7 +14,7 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 This section contains the following articles:
 
   <!--
-  Adobe Workfront Fusion scenario overview
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion scenario overview</a> </li>
   -->
 
 * [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md) 
@@ -31,7 +31,7 @@ This section contains the following articles:
 * [Add a filter to a scenario](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
 
   <!--
-  Cycles
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/scenarios/cycles.md" class="MCXref xref" xrefformat="{para}">Cycles</a> </li>
   -->
 
 * [Debug scenarios with the Adobe Workfront Fusion DevTool](../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md) 

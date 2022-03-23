@@ -41,8 +41,8 @@ You must have the following access to perform the steps in this article:
 
 ## Change the unit of measurement of the timeline
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
 1. In the lower-left corner of the proofing viewer, click the current unit of measurement.
 

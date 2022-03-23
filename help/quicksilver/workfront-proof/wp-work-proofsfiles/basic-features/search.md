@@ -28,7 +28,7 @@ You can search for the following types of content across the Workfront Proof sit
 
 To search the Workfront Proof site:
 
-1. Type the text you want to search for, then press `Enter`.  
+1. Type the text you want to search for, then press **Enter**.  
    Note the following about search results:
 
   * The search tool finds items that contains all of the keywords you type. In order to minimize search results and maximize search accuracy, ensure that you spell the keywords correctly and add spaces between them.

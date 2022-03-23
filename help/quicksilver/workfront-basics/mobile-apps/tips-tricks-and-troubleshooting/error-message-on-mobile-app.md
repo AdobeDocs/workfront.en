@@ -43,11 +43,11 @@ Your Workfront administrator has not enabled your Workfront environment to be ac
 ## Solution
 
 1. Log into the Workfront web application as a Workfront Administrator.
-1. Go to the `Setup` area.
-1. Expand the `System` menu, then click `Preferences`.
+1. Go to the **Setup** area.
+1. Expand the **System** menu, then click **Preferences**.
 
-1. Under the `Security` section, select the `Let people use Workfront's mobile applications and the Workfront Outlook Add-In`&nbsp;option to enable it.&nbsp;
+1. Under the **Security** section, select the **Let people use Workfront's mobile applications and the Workfront Outlook Add-In**&nbsp;option to enable it.&nbsp;
 
-1. Click `Save`.  
+1. Click **Save**.  
    All users in the system can now access Workfront from their mobile apps, and from Outlook.
 

@@ -68,8 +68,8 @@ If you do not already have access to an object&nbsp;and you navigate to that obj
 
 To request initial access to an object:
 
-1. Click `Request Access`.  
-   The `Request Access` dialog box is displayed.  
+1. Click **Request Access**.  
+   The **Request Access** dialog box is displayed.  
 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.&nbsp;
 1. Select the user from the drop-down list who you want to receive your access request.  
@@ -77,8 +77,8 @@ To request initial access to an object:
    For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-more-access-drop-down-menu).
 
 1. From the drop-down list, select the type of access that you are requesting.
-1. (Optional) In the `P.S.` field, specify a note to the user regarding why you need additional access.
-1. Click `Request Access`.  
+1. (Optional) In the **P.S.** field, specify a note to the user regarding why you need additional access.
+1. Click **Request Access**.  
    ![](assets/request-access-dialog-350x340.png)
 
 If you do not have access level rights to an object&nbsp;and you try to access that object from a link,&nbsp;a screen is displayed informing you&nbsp;to contact the Workfront administrator.&nbsp;
@@ -92,14 +92,19 @@ To request additional access to an object that you already have limited access t
 
 1. Go to the object for which you want to request additional access.
 
+1. Request More Access
+1. 
+1. Request Access
+1. 
+1. 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.
 1. Select the user from the drop-down list who you want to receive your access request.  
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
    For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-more-access-drop-down-menu).
 
 1. From the drop-down list, select the level of access that you are requesting.
-1. (Optional) In the `P.S.` field, specify a note regarding why you need additional access.
-1. Click `Request Access`.
+1. (Optional) In the **P.S.** field, specify a note regarding why you need additional access.
+1. Click **Request Access**.
 
 ## Hierarchy of the "Request Access" and "Request More Access" drop-down menus
 
@@ -129,8 +134,8 @@ The owner of an object is defined as follows:
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Object</span> </th> 
-   <th><span class="bold">Definition of the Owner of the Object</span> </th> 
+   <th><strong>Object</strong> </th> 
+   <th><strong>Definition of the Owner of the Object</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

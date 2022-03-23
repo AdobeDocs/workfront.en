@@ -37,17 +37,17 @@ You must have the following access to perform the steps in this article:
 
 ## Add members to a board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Create a new board or edit an existing board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click the `Add member` icon ![Add members](assets/boards-addmember-spectrum-25x25.png).
-1. In the `Add members` box, start typing a name, then select it when it displays in the list.
+1. Click the **Add member** icon ![Add members](assets/boards-addmember-spectrum-25x25.png).
+1. In the **Add members** box, start typing a name, then select it when it displays in the list.
 
 ## Remove members from a board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Create a new board or edit an existing board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click the `Add member` icon ![Add members](assets/boards-addmember-spectrum-25x25.png).
-1. In the `Add members` box, click the X next to a member name to remove them from the board.
+1. Click the **Add member** icon ![Add members](assets/boards-addmember-spectrum-25x25.png).
+1. In the **Add members** box, click the X next to a member name to remove them from the board.
 
    ![Remove member from board](assets/boards-remove-member-from-board-350x367.png)
 

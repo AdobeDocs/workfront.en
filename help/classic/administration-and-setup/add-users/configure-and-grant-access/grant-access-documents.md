@@ -42,7 +42,7 @@ You must have the following to perform the steps in this article:
 ## Configure user access to documents using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Documents, then select the abilities you want to grant under **Fine-tune your settings**.
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Documents, then select the abilities you want to grant under **Fine-tune your settings**.
 
    ![document_access.png](assets/document-access-350x171.png)
 
@@ -83,7 +83,7 @@ You must have the following to perform the steps in this article:
    >
    >When you configure an access level setting for a certain type of object, that configuration doesn't affect the users' access to objects with a lower rank. For example, you can restrict users from deleting projects in their access level, but this does not restrict them from deleting documents, which are lower-ranking than projects.For more information about the hierarchy of objects, see the section [Interdependency and hierarchy of objects](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in&nbsp;the article [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-1. (Optional) To restrict inherited permissions for documents from higher ranking objects, click `Set additional restrictions`, then select `Never inherit document access from projects, tasks, issues, etc`.
+1. (Optional) To restrict inherited permissions for documents from higher ranking objects, click **Set additional restrictions**, then select **Never inherit document access from projects, tasks, issues, etc**.
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. When you are finished, click Save Changes.
 

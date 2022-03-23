@@ -21,7 +21,15 @@ For information about the Adobe Workfront release schedule, see [Adobe Workfront
   <tr> 
    <td>Workfront releases</td> 
    <td>Other product releases</td> 
-  </tr> Releases in 2022 22.2 Release overview 22.1 Release overview 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Releases in 2022</p> 
+    <ul> 
+     <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">22.2 Release overview</a> </p> </li> 
+     <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1 Release overview</a> </p> </li> 
+    </ul> </td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td> <p>Releases in 2021</p> 
     <ul> 

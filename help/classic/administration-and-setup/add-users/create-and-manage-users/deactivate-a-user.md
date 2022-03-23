@@ -57,7 +57,11 @@ You must have the following to perform the steps in this article:
 
 ## Deactivate a user immediately
 
-1. Click `Deactivate` in the box that appears.
+1. People
+1. People
+1. More
+1. Deactivate
+1. Click **Deactivate** in the box that appears.
 
 ## Schedule users for deactivation
 
@@ -67,28 +71,30 @@ Workfront administrators and Plan license users can see the deactivation date in
 
 To schedule a user for deactivation:
 
+1. People
+1. People
 1. Select the user's name.
 
    Or
 
    (Optional) Select multiple users to schedule them for deactivation in bulk.
 
-1. Click `Edit`.
-1. In the `Resource Planning` area of the user profile box, click the `Schedule Deactivation` box to select it.  
+1. Click **Edit**.
+1. In the **Resource Planning** area of the user profile box, click the **Schedule Deactivation** box to select it.  
 
-1. In the calendar that displays, specify the date and the time for the `Scheduled Deactivation Date`.
+1. In the calendar that displays, specify the date and the time for the **Scheduled Deactivation Date**.
 
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * In the time box, you can select only whole hour increments, not minutes.
-   >  * If you select a time for the current day which has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. The time selected matches the computer timezone of the user who is scheduling the deactivation.
-   >  
+   >   
+   >   
+   >   * In the time box, you can select only whole hour increments, not minutes.
+   >   * If you select a time for the current day which has passed, Workfront will schedule the deactivation for the following day at 12:00 AM. The time selected matches the computer timezone of the user who is scheduling the deactivation.
+   >   
    >
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
    The user is deactivated on the selected day sometimes after the selected time. If you selected multiple users to deactivate in bulk, all selected users are deactivated on the selected day sometimes after the selected time.
 

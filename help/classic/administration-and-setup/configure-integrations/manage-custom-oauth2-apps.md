@@ -42,9 +42,9 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <!--
-     You must be a Workfront administrator.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. </p>
     --> <!--
-     For information on Workfront administrators, see Grant a user full administrative access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> </td> 
   </tr> 
  </tbody> 
@@ -65,7 +65,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### View and edit custom OAuth2 applications
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. Hover over the application and click the **Edit** icon when it appears on the far right.
@@ -75,7 +75,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### Delete custom OAuth2 Applications
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. Hover over the application and click the **Delete** icon when it appears on the far right.
@@ -96,21 +96,21 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 >* To create a new Client Secret, see [Create an OAuth2 application](../../administration-and-setup/configure-integrations/create-oauth-application.md#create) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md).
 >
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. Hover over the application and click the **Edit** icon when it appears on the far right.
 1. View details in the Client Secret area:
 
-  * Created date
-  * Last used date
-  * Notes
+   * Created date
+   * Last used date
+   * Notes
 
-    To add notes to a Client Secret, see [Add or edit notes for Client Secret](#add).
+     To add notes to a Client Secret, see [Add or edit notes for Client Secret](#add).
 
 ### Add or edit notes for Client Secret
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. Hover over the application and click the **Edit** icon when it appears on the far right.
@@ -127,7 +127,7 @@ For more information, see [Create OAuth2 applications for Workfront integrations
 
 ### Delete Client Secret
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. Hover over the application and click the **Edit** icon when it appears on the far right.

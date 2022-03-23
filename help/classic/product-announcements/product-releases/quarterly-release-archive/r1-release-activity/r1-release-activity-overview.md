@@ -116,9 +116,9 @@ The following enhancements are releasing to the ProofHQ application with R1:
 * [Search in PDF Documents (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#search-in-pdf-documents) 
 * [Updated Global Navigation Bar (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#updated-global-navigation-bar):
 
-  * New user profile picture
-  * New link to the Workfront application (when the ProofHQ account is integrated with a Workfront account)
-  * Updated look and feel
+   * New user profile picture
+   * New link to the Workfront application (when the ProofHQ account is integrated with a Workfront account)
+   * Updated look and feel
 
 * [Include Additional Information in Custom Views (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#include-additional-information-in-custom-views) 
 * [Improvements to Proofing Reports (Formerly Analytics) (ProofHQ)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#improvements-to-proofing-reports) 
@@ -133,16 +133,16 @@ The following enhancements are releasing to the ProofHQ application with R1:
 
 The functionality described in this section was&nbsp;available in the Preview environment during&nbsp;the R1 release cycle; however, this functionality is not releasing to Production in R1. The functionality will be removed from the Preview environment for 6 weeks leading up to the R1 release to Production. After R1 releases to Production, it will be re-introduced to the Preview environment.
 
-* [New Resource Planning Functionality (Not Available in Production in R1)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality) (Not Available in Production in R1; remaining in `Preview`)
+* [New Resource Planning Functionality (Not Available in Production in R1)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md#new-resource-planning-functionality)&nbsp;(Not Available in Production in R1; remaining in **Preview**)
 
-* [Reorder Columns in Any List with Drag-and-Drop](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns) (Not Available in Production in R1; remaining in `Early Access`)
+* [Reorder Columns in Any List with Drag-and-Drop](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#reorder-columns)&nbsp;(Not Available in Production in R1; remaining in **Early Access**)
 
-* [Updated Look and Feel in the Dashboard List](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list) (Not Available in Production in R1; remaining in `Early Access`)
+* [Updated Look and Feel in the Dashboard List](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-look-and-feel-in-the-dashboard-list)&nbsp;(Not Available in Production in R1; remaining in **Early Access**)
 
-* [Updated Calendar in the My Work Area (No Longer Available)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area) (Not Available in Production in R1; `removed from Early Access` on April 19, 2017)
+* [Updated Calendar in the My Work Area (No Longer Available)](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#updated-calendare-in-the-my-work-area)&nbsp;(Not Available in Production in R1; **removed from Early Access** on April 19, 2017)
 
 * [Integration with Adobe Creative Cloud](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md#adobe-creative-cloud) 
-* [New Field for Managing Emails in the Preview Sandbox Environment](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#new-field-for-managing-emails-in-the-preview-sandbox-environment) (Not intended to go to Production at any point; available only in  `Preview` and the `Custom Refresh Sandbox`)
+* [New Field for Managing Emails in the Preview Sandbox Environment](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md#new-field-for-managing-emails-in-the-preview-sandbox-environment)&nbsp;(Not intended to go to Production at any point;&nbsp;available only in&nbsp;**Preview** and the**Custom Refresh Sandbox**)
 
 ## 2017 R1 Preview Release Webinars
 

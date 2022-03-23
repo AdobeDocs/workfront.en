@@ -45,17 +45,17 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the iteration or Kanban board that contains the story that you want to move to the backlog.
 1. Click the iteration heading at the top of the page.
-1. On the `Stories` tab, select the stories that you want to move.
-1. Click `More` > `Move to`.
+1. On the **Stories** tab, select the stories that you want to move.
+1. Click **More**&nbsp;> **Move to**.
 
-   The `Move Story`&nbsp;dialog box is displayed.
+   The **Move Story**&nbsp;dialog box is displayed.
 
    ![](assets/iteration-story-move-350x143.png)
 
 1. Select *team_name*'s Backlog.  
-   In the above example, the team name is `Development.`
+   In the above example, the team name is**Development.**
 
-1. Click `Move Story`.
+1. Click **Move Story**.
 
 ## Move a story to a different iteration
 
@@ -63,13 +63,13 @@ You can move a story to a different iteration for your Scrum team.
 
 1. Go to the iteration that contains the story that you want to move.
 1. Click the iteration heading at the top of the page.
-1. On the `Stories` tab, select the stories that you want to move.
-1. Click `More` > `Move to`.
+1. On the **Stories** tab, select the stories that you want to move.
+1. Click **More**&nbsp;> **Move to**.
 
-   The `Move Story`&nbsp;dialog box is displayed.
+   The **Move Story**&nbsp;dialog box is displayed.
 
    ![](assets/iteration-story-move-350x143.png)
 
-1. Select `Another Iteration`,&nbsp;then in the drop-down menu, select the iteration where you want to move the story.
-1. Click `Move Story`.
+1. Select **Another Iteration**,&nbsp;then in the drop-down menu, select the iteration where you want to move the story.
+1. Click **Move Story**.
 

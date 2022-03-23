@@ -53,31 +53,31 @@ You must have the following access to perform the steps in this article:
 
 ##
 
-## `Calculate the time and date difference between two date fields on the same object`
+## **Calculate the time and date difference between two date fields on the same object**
 
 For example, you can calculate the difference between the Planned Completion Date and the Actual Completion Date of a task.
 
 ![](assets/view-planned-actual-completion-dates-datediff-column-350x92.png)
 
 1. Go to a list of tasks. 
-1. From the `View` drop-down menu, click `New View`.
+1. From the **View** drop-down menu, click **New View**.
 
-1. Click `Add Column` and start typing "Planned Completion Date" in the `Show in this column` field then select it when it displays in the list.
+1. Click **Add Column** and start typing "Planned Completion Date" in the **Show in this column** field then select it when it displays in the list.
 
-1. Click `Add Column` and start typing "Actual Completion Date" in the `Show in this column` field then select it when it displays in the list.
+1. Click **Add Column** and start typing "Actual Completion Date" in the **Show in this column** field then select it when it displays in the list.
 
-1. Click `Add Column`, then click `Switch to Text Mode`.
+1. Click **Add Column**, then click **Switch to Text Mode**.
 
-1. Hover over the text mode area, and click `Click to edit text`.
-1. Remove the text you find in the `Text Mode` box, and replace it with the following code:
+1. Hover over the text mode area, and click **Click to edit text**.
+1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
 
    ```
    displayname=Planned-Actual Completion Date<br>linkedname=direct<br>querysort=plannedCompletionDate<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({plannedCompletionDate},{actualCompletionDate}),2)<br>valueformat=HTML
    ```
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 
-## `Calculate the time and date difference between the field on an object and another field on a parent object`
+## **Calculate the time and date difference between the field on an object and another field on a parent object**
 
 For a list of objects and their parents, see the "Understanding the Interdependency and Hierarchy of Objects" section in [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).  
 For example, you can calculate the difference between the Planned Completion Date of a task and the Planned Completion Date of its parent task, or of the project that the task is on.
@@ -85,16 +85,16 @@ For example, you can calculate the difference between the Planned Completion Dat
 ![](assets/view-project-planned-task-planned-completion-dates-datediff-column-350x184.png)
 
 1. Go to a list of tasks. 
-1. From the `View` drop-down menu, click `New View`.
+1. From the **View** drop-down menu, click **New View**.
 
-1. Click `Add Column` and start typing " Project Planned Completion Date" or "Parent Completion Date" in the `Show in this column` field then select it when it displays in the list.
+1. Click **Add Column** and start typing " Project Planned Completion Date" or "Parent Completion Date" in the **Show in this column** field then select it when it displays in the list.
 
-1. Click `Add Column` and start typing "Planned Completion Date" in the `Show in this column` field then select it when it displays in the list.
+1. Click **Add Column** and start typing "Planned Completion Date" in the **Show in this column** field then select it when it displays in the list.
 
-1. Click `Add Column`, then click `Switch to Text Mode`.
+1. Click **Add Column**, then click **Switch to Text Mode**.
 
-1. Hover over the text mode area, and click `Click to edit text`.
-1. Remove the text you find in the `Text Mode` box, and replace it with one of the following codes:
+1. Hover over the text mode area, and click **Click to edit text**.
+1. Remove the text you find in the **Text Mode** box, and replace it with one of the following codes:
 
   * To display the difference between the Planned Completion Date of the project and that of the task:
 
@@ -108,5 +108,5 @@ For example, you can calculate the difference between the Planned Completion Dat
     valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
     ```
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

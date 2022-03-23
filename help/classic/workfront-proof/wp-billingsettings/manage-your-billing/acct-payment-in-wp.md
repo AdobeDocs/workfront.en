@@ -6,6 +6,7 @@ product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: Account Payment in Workfront Proof
 description: We have the following payment options available:
+hidefromtoc: true
 ---
 
 # Account Payment in Workfront Proof
@@ -110,7 +111,7 @@ Routing & Transit 121140399 Access Proof Shared w You-DRFT| SWIFT SVBKUS6S
 
 Account 3300794570
 
-### `Payments by Mail (USD Only)`
+### ```Payments by Mail (USD Only)```
 
 For Credit of: Workfront, Inc.
 
@@ -122,7 +123,7 @@ Palatine, IL 60055-6712
 >
 >&nbsp;The Silicon Valley Bank, as most of the US banks, is not a part of IBAN scheme and for the transfers the SWIFT code should be used. If you have any troubles with making transfers without IBAN&nbsp;please get in touch with your bank - they should be able to advise.
 
-### `Payments in GBP`
+### ```Payments in GBP```
 
 Payment to&nbsp;Ultimate Beneficiary:&nbsp;Workfront, Inc.
 
@@ -187,7 +188,7 @@ For the services invoices the same payment method is set as for the subscription
 
 If you&nbsp;would like to use a different payment method for the services invoices, please reach out to our&nbsp;Finance team at&nbsp;mailto:finance@proofhq.com.
 
-### `Invoice Amends`
+### ```Invoice Amends```
 
 All invoices are issued with the billing details provided by the users, and it is the users' responsibility to ensure that these details are always correct and up-to-date.
 

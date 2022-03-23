@@ -10,7 +10,12 @@ description: Note: Currently, we are not supporting the ability to copy a custom
 
 # Copy a custom form to create a new one
 
-Note: Currently, we are not supporting the ability to copy a custom form that has multiple object types. This note will be updated when more information is available. You can create a new custom form that is based on an existing one.
+<!--
+<span class="autonumber"><span><b>Note: </b></span></span>
+<span class="preview">Currently, we are not supporting the ability to copy a custom form that has multiple object types. This note will be updated when more information is available.</span>
+-->
+
+You can create a new custom form that is based on an existing one.
 
 ## Access requirements
 
@@ -19,11 +24,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -31,11 +44,11 @@ You must have the following to perform the steps in this article:
 
 ## Copy a custom form to create a new one
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Custom Forms.`
-1. Select the custom form that you want to use as the basis for a new custom form, then click `Copy`.
-1. In the `Custom Form Copy` box that appears, type the following information:
+1. Click **Custom Forms.**
+1. Select the custom form that you want to use as the basis for a new custom form, then click **Copy**.
+1. In the **Custom Form Copy** box that appears, type the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -52,13 +65,18 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Copy Form`.
-1. Select the form that you just copied, then click `Edit`.
+1. Click **Copy Form**.
+1. Select the form that you just copied, then click **Edit**.
 1. Make any changes to the form, as explained in the following articles:
 
   * [Copy a custom form to create a new one](#add2) 
   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md) 
-  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md) 
+  * [Position fields and widgets in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
+
+    <!--  
+    <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md" class="MCXref xref">Add or edit an image widget in a custom form</a>  
+    -->  
+  
   * [Using an existing calculated custom field on a new custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md) 
   * [Display logic and skip logic on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md) 
   * [Preview and complete a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)

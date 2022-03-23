@@ -33,9 +33,9 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   Also see the following articles to learn how to share reports, dashboards, and calendars:
 
-  * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) 
-  * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 
-  * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) 
+   * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 
+   * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
 * You can share reports and dashboards individually, or you can share them in bulk.
 
@@ -47,13 +47,13 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can grant the following permissions to reports, dashboards, and calendars:
 
-  * View
+   * View
 
-    ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
+     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
 
-  * Manage
+   * Manage
 
-    ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
+     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * When you share a dashboard, users have View permissions by default to all the reports, calendars, and external pages on the dashboard.
 * Users with a Request license cannot view a system-wide report. A report must be shared with the Requestors individually if they need to view it.
@@ -66,7 +66,9 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can also share a report or a calendar publicly or system-wide.
 
+  ![document_share_public.png](assets/document-share-public.png)
+
   You cannot share a dashboard publicly, but you can share it system-wide.
 
-  ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
+  ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization.
 

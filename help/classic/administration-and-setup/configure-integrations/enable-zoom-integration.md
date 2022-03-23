@@ -43,12 +43,12 @@ You must have the following to perform the steps in this article:
 
 ## Enable the Zoom integration in Workfront:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `System` > `Preferences`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **System** > **Preferences**.
 
-1. At the bottom of the `System Preferences` page, select the option `Enable Zoom integration in the updates stream`.
+1. At the bottom of the **System Preferences** page, select the option **Enable Zoom integration in the updates stream**.
 
    ![](assets/zoom-enable-checkbox-350x113.png)
 
-1. Click `Save`.
+1. Click **Save**.
 

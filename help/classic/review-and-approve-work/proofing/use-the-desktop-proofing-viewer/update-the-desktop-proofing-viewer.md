@@ -41,11 +41,11 @@ The Desktop Proofing Viewer automatically checks for updates when it launches.&n
 
 To manually check for updates:
 
-1. On a Mac, click  `Workfront Proof` > `About Workfront Proof` in the Apple navigation bar above the Desktop Proofing Viewer.&nbsp;
+1. On a Mac, click&nbsp;**Workfront Proof** > **About Workfront Proof** in the Apple navigation bar above the Desktop Proofing Viewer.&nbsp;
 
    Or
 
-   In Windows, click `Window` > `About Workfront Proof` in the menu bar above the Desktop Proofing Viewer.
+   In Windows, click **Window** > **About Workfront Proof** in the menu bar above the Desktop Proofing Viewer.
 
    The Desktop Proofing Viewer checks for updates.
 
@@ -53,23 +53,22 @@ To manually check for updates:
 
 ## Standard updates
 
-The Desktop Proofing Viewer can function without the non-critical updates. However, for optimal functionality, we recommend that you apply them when available. You will be notified when they are available by an `App update` button in the Desktop Proofing Viewer left sidebar.
+The Desktop Proofing Viewer can function without the non-critical updates. However, for optimal functionality, we recommend that you apply them when available. You will be notified when they are available by an **App update** button in the Desktop Proofing Viewer left sidebar.
 
-1. Click  `App update.`
+1. Click&nbsp;**App update.**
 
-   The updates download. `  
-   `
+   The updates download.****
 
-1. Click  `Relaunch.`
+1. Click&nbsp;**Relaunch.**
 
-   The `Desktop Proofing Viewer`relaunches and you can resume work on your proof.
+   The**Desktop Proofing Viewer**relaunches and you can resume work on your proof.
 
 ## Required updates
 
 It is important that you run required updates for the Desktop Proofing Viewer. Afterwards, you must relaunch to continue using the viewer.
 
 1. Open the Desktop Proofing Viewer.
-1. In the box that appears, click  `Relaunch.`
+1. In the box that appears, click&nbsp;**Relaunch.**
 
    The Desktop Proofing Viewer relaunches and you can resume work on your proof.&nbsp;
 

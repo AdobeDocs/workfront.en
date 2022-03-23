@@ -57,13 +57,13 @@ You must have Manage permissions to the report to be able to change the report s
 To adjust the report and see the results:
 
 1. Go to the report.
-1. Click `Report Actions` > `Edit` > `Report Settings`.
+1. Click **Report Actions** > **Edit** > **Report Settings**.
 
-1. Specify the name of an active user in the `Run this report with the Access Rights of:` field.  
+1. Specify the name of an active user in the **Run this report with the Access Rights of:** field.  
    Or  
-   Leave the `Run this report with the Access Rights of:` field blank.
+   Leave the **Run this report with the Access Rights of:** field blank.
 
-1. Click `Done`.
-1. Click `Save + Close`.  
+1. Click **Done**.
+1. Click **Save + Close**.  
    The error should not appear again when running this report.
 

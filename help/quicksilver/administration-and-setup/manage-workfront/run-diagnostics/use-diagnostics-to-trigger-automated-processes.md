@@ -32,9 +32,9 @@ You must have the following to perform the steps in this article:
 
 ## Use diagnostics to trigger automated processes
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
-1. Expand `System`, then click `Diagnostics`.
+1. Expand **System**, then click **Diagnostics**.
 1. Select from any of the following options:
 
    <table cellspacing="0"> 
@@ -56,7 +56,7 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Check All POP Accounts</td> 
       <td> <p>Checks for new emails that have been sent to POP accounts linked to Workfront. </p> <!--
-        For more information about Workfront and POP account integrations, see and Overview of the Queue Details tab in a project.
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Workfront and POP account integrations, see and&nbsp;<a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.</p>
        --> </td> 
      </tr> 
      <tr> 
@@ -65,7 +65,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Restore Default Customer Reports</td> 
-      <td>Restores the default reports that were originally delivered with Workfront, so that they are visible in the <span class="bold">Reports</span> section for all&nbsp;users.</td> 
+      <td>Restores the default reports that were originally delivered with Workfront, so that they are visible in the <strong>Reports</strong> section for all&nbsp;users.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Generate Timesheets</td> 

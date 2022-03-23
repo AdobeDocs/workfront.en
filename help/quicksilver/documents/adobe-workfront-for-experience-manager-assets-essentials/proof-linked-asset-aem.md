@@ -49,12 +49,12 @@ You can create static, video, or interactive proofs.
 
 To create a proof:
 
-1. Go to the project, task, or issue where you want the proof, then click the `Documents` section.
-1. Hover over the document, then click the `Create Proof` link that appears below the document name.
+1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
+1. Hover over the document, then click the **Create Proof** link that appears below the document name.
 
    >[!NOTE]
    >
-   >If you have `Automatically generate proofs when uploading documents` enabled in your user profile, the system automatically creates a simple proof.
+   >If you have **Automatically generate proofs when uploading documents** enabled in your user profile, the system automatically creates a simple proof.
 
 1. Choose one of the following:  
 1. 

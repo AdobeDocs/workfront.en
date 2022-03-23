@@ -27,9 +27,27 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -51,13 +69,13 @@ Before you can access Home content from G Suite, you must
 
    ![](assets/left-arrow-to-home.png)
 
-1. In the `Sort by` area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
+1. In the **Sort by** area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
 
    ![](assets/sort-by-area.png)
 
-   When you sort by `Commit date` or `Planned completion` date, the oldest work items are at the top.
+   When you sort by **Commit date** or **Planned completion** date, the oldest work items are at the top.
 
-   When you sort by `Project`, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under `No Project`.
+   When you sort by **Project**, work items appear in the order of their parent projects, listed alphabetically from A to Z. Work items without a parent project display under **No Project**.
 
 1. Click the expand arrow ![](assets/dropdown-arrow.png) for the grouping you want to view.
 
@@ -65,12 +83,12 @@ Before you can access Home content from G Suite, you must
 
    Work items appear as follows:
 
-  * ![](assets/task-icon.png) `Tasks` display the parent project name, task name, and planned completion date.
+  * ![](assets/task-icon.png) **Tasks** display the parent project name, task name, and planned completion date.
   
-  * ![](assets/issue-icon.png) `Issues` display the parent project name, issue name, and planned completion date.
+  * ![](assets/issue-icon.png) **Issues** display the parent project name, issue name, and planned completion date.
   
-  * ` ![](assets/document-icon.png) Approvals` display the requester's name, document name, and submission date.
-  * `Access requests` display the requester's name, object name, and submission date. The icon for the object type displays on the left.
+  * **Approvals** display the requester's name, document name, and submission date.
+  * **Access requests** display the requester's name, object name, and submission date. The icon for the object type displays on the left.
 
 1. Click anywhere on a work item to see its details, updates, and documents.
 

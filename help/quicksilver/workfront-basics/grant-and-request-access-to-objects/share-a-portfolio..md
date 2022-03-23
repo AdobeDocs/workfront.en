@@ -33,7 +33,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 The following table displays what permissions you can grant users when allowing them to view or manage a Portfolio:
 
-| `Actions`  | `Manage`  | `View`  |
+| **Actions** |**Manage** |**View** |
 |---|---|---|
 | Edit Portfolio details |✓ |&nbsp; |
 | View a Portfolio |✓ |✓ |

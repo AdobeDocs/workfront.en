@@ -53,15 +53,15 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;Click People in the Global Navigation Bar, click the Workload Balancer tab, then click Switch back to Scheduling. 
-  * **For an individual project**: Go to a project, then click the Staffing tab (the Staffing tab might be located under the More menu), then ensure that the Scheduling tab is selected and click Switch back to Scheduling.
-  * **For a team**: Click People in the Global Navigation Bar, click the Teams tab, select the team from the drop-down menu, then click the Working On subtab and click Switch back to Scheduling.
+   * **For multiple projects**:&nbsp;Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**. 
+   * **For an individual project**: Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the**Scheduling** tab is selected and click **Switch back to Scheduling**.
+   * **For a team**: Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
-  *
+   *
 
-1. Click the `Settings` icon on the scheduling timeline.
-1. Disable the option `Limit Assignments to Users with Matching Role`.
-1. Click `Return to Scheduling`.
+1. Click the **Settings** icon on the scheduling timeline.
+1. Disable the option **Limit Assignments to Users with Matching Role**.
+1. Click **Return to Scheduling**.
 
 ## Allow assignments to users regardless of group membership
 
@@ -75,14 +75,14 @@ You can configure Workfront to allow tasks and issues to be assigned to any user
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp;Click People in the Global Navigation Bar, click the Workload Balancer tab, then click Switch back to Scheduling. 
-  * **For an individual project**: Go to a project, then click the Staffing tab (the Staffing tab might be located under the More menu), then ensure that the Scheduling tab is selected and click Switch back to Scheduling.
-  * **For a team**: Click People in the Global Navigation Bar, click the Teams tab, select the team from the drop-down menu, then click the Working On subtab and click Switch back to Scheduling.
+   * **For multiple projects**:&nbsp;Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**. 
+   * **For an individual project**: Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the**Scheduling** tab is selected and click **Switch back to Scheduling**.
+   * **For a team**: Click **People** in the Global Navigation Bar, click the **Teams** tab, select the team from the drop-down menu, then click the **Working On** subtab and click **Switch back to Scheduling**.
 
-  *
+   *
 
-1. Click the `Settings` icon on the scheduling timeline.
-1. Disable the option `Limit Assignments to the Group Associated with the Project`.
-1. Click `Return to Scheduling`.
+1. Click the **Settings** icon on the scheduling timeline.
+1. Disable the option **Limit Assignments to the Group Associated with the Project**.
+1. Click **Return to Scheduling**.
 
 &nbsp;

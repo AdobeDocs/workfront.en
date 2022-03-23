@@ -43,13 +43,13 @@ You must have the following access to perform the steps in this article:
 
 ## Navigate within a portfolio
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Portfolios.
-1. From the Filter drop-down menu, select the following:
+1. ```Click``` Portfolios. 
+1. From the **Filter** drop-down menu, select the following:
 
-  * `Portfolios I Own`: Includes a list of portfolios for which you are designated as the Portfolio Manager.
-  * `All`: Includes all portfolios for which you have at least access to View.  
+  * **Portfolios I Own**: Includes a list of portfolios for which you are designated as the Portfolio Manager.
+  * **All**: Includes all portfolios for which you have at least access to View.  
     For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).  
     For more information about permissions to Portfolios, see&nbsp; [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).  
   
@@ -64,29 +64,30 @@ You must have the following access to perform the steps in this article:
   * The portfolio Alignment
   * The portfolio Net Value
 
-1. (Optional) &nbsp; Click Projects in the left panel to view projects associated with the selected portfolio, then select any of the following filters from the Filter drop-down menu:
+1. (Optional) &nbsp; Click **Projects** in the left panel to view projects associated with the selected portfolio, then select any of the following filters from the **Filter** drop-down menu:&nbsp;
 
-  * `Active`: Includes all projects associated with the selected portfolio which are in the following statuses:  
+  * **Active**: Includes all projects associated with the selected portfolio which are in the following statuses:  
     - Planning  
     - Approved  
     - Current
   
-  * `Requested`: Includes projects associated with the selected portfolio with a status of `Requested`.  
+  * **Requested**: Includes projects associated with the selected portfolio with a status of **Requested**.  
     For information about reviewing Requested projects, see [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
   
-  * `All`: Includes all projects associated with the selected portfolio.
+  * **All**: Includes all projects associated with the selected portfolio.
 
     >[!NOTE]
     >
-    >To see only specific projects, consider creating a project filter in the `Filter` drop-down menu at the top of the list of projects to decrease the number of projects displayed.
+    >To see only specific projects, consider creating a project filter in the **Filter** drop-down menu at the top of the list of projects to decrease the number of projects displayed.
 
     For more information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click Programs in the left panel to create Programs within the portfolio or manage existing ones.  
+1. Click **Programs**in the left panel to create Programs within the portfolio or manage existing ones.  
    For information about programs, see the [Create and manage programs](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) section.
 
-1. (Optional) Expand the Portfolio Details area in the left panel, then click Overview or Custom Forms to edit information about the portfolio.
-1. (Optional) Click Portfolio Optimization in the left panel to optimize the performance of the portfolio.
+1. (Optional) Expand the **Portfolio Details** area in the left panel, then click **Overview** or **Custom Forms** to edit information about the portfolio. 
+
+1. (Optional) Click **Portfolio Optimization** in the left panel to optimize the performance of the portfolio.
 
    >[!IMPORTANT]
    >
@@ -94,9 +95,9 @@ You must have the following access to perform the steps in this article:
 
    For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section.&nbsp;
 
-1. (Optional) Click Documents in the left panel to attach documents to the portfolio.
-1. (Optional) &nbsp;Click Updates in the left panel to add comments to the update stream of the portfolio.
-1. (Optional) <![CDATA[]]>Click the More menu to do one of the following:
+1. (Optional) Click&nbsp;**Documents** in the left panel to attach documents to the portfolio.
+1. (Optional) &nbsp;Click **Updates** in the left panel to add comments to the update stream of the portfolio. 
+1. (Optional) <![CDATA[]]>Click the **More menu** ![](assets/qs-more-icon-on-an-object.png) to do one of the following:
 
   * Delete the portfolio.
 
@@ -106,5 +107,5 @@ You must have the following access to perform the steps in this article:
 
   * Share the portfolio with other users.
 
-1. (Optional) Click the Star icon to the right of the portfolio name to add the portfolio to your list of favorites.
+1. (Optional) Click the **Star** icon ![](assets/qs-star-icon-favorites-39x38.png) to the right of the portfolio name to add the portfolio to your list of favorites.
 

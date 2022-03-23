@@ -13,7 +13,9 @@ description: In a Adobe Workfront Fusion scenario, you can connect an archive, s
 In a Adobe Workfront Fusion scenario, you can connect an archive, such as a zipped file, to multiple third-party applications and services.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For example, you can configure a scenario that
+</MadCap:conditionalText>
 -->
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md). For information about modules, see [Modules in Adobe Workfront Fusion](../../workfront-fusion/modules/modules.md).
@@ -48,7 +50,7 @@ The module returns the ID of the  file and any associated fields, along with any
  </tbody> 
 </table>
 
-` `**Example: **`` Get the ZIP file from the defined Dropbox folder (for example, Archives), extract it using the Archive module and send extracted files to the desired email address as attachments with the Email or Gmail module.
+``` ```**Example: **`````` Get the ZIP file from the defined Dropbox folder (for example, Archives), extract it using the Archive module and send extracted files to the desired email address as attachments with the Email or Gmail module.
 
 ![](assets/example-dropbox-350x134.png)
 
@@ -93,7 +95,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-` `**Example: **`` Watch incoming emails using the Gmail > Watch emails module. If an email is received, its attachments are iterated into individual bundles then archived to the ZIP file and saved to the defined Dropbox folder.
+``` ```**Example: **`````` Watch incoming emails using the Gmail > Watch emails module. If an email is received, its attachments are iterated into individual bundles then archived to the ZIP file and saved to the defined Dropbox folder.
 
 ![](assets/example-gmail-350x102.png)
 

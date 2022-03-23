@@ -29,8 +29,9 @@ This section contains the following articles about you can grant and request per
 * [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) 
 * [Share reports, dashboards, and calendars in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) 
 * [Share a filter, view, or grouping in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
-* Share a plan in the Adobe Workfront Scenario Planner This requires an additional license to the Workfront Scenario Planner. For information, see Access needed to use the Adobe Workfront Scenario Planner. 
-* Share a goal in Adobe Workfront Goals This requires an additional license to Workfront Goals. For information, see Requirements to use Adobe Workfront Goals.
+* [Share a plan in the Adobe Workfront Scenario Planner](../../scenario-planner/share-a-plan.md)  This requires an additional license to the Workfront Scenario Planner. For information, see [Access needed to use the Adobe Workfront Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).  
+
+* [Share a goal in Adobe Workfront Goals](../../workfront-goals/workfront-goals-settings/share-a-goal.md)  This requires an additional license to Workfront Goals. For information, see [Requirements to use Adobe Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 * [Configure access to Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 

@@ -41,7 +41,8 @@ You must have the following access to perform the steps in this article:
 
 You can remove a deadline for the stage the reviewer is on.
 
-1. Click `Clear` on the calendar that appears.
+1. Hover over the proof, then click **Proofing workflow** to open the Workflow page.
+1. Click **Clear** on the calendar that appears.
 1. To save your change, click outside the deadline box.
 1. In the prompt that appears, specify whether you want to send an email alert to reviewers.
 

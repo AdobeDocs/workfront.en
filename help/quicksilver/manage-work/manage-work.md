@@ -19,6 +19,6 @@ This section contains the following subsections:
 * [Requests](../manage-work/requests/requests-overview.md)
 
   <!--
-  Delegate work
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../manage-work/delegate-work/delegate-work.md" class="MCXref xref" xrefformat="{para}">Delegate work</a> </li>
   -->
 

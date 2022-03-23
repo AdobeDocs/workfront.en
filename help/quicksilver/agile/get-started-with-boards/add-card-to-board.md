@@ -43,41 +43,41 @@ You must have the following access to perform the steps in this article:
 
 ## Add a card with full details
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click `Add Card`.
-1. In the `Card Details` box, add the following information:
+1. Click **Add Card**.
+1. In the **Card Details** box, add the following information:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Name</span> </td> 
+      <td role="rowheader"><strong>Name</strong> </td> 
       <td>The name of the card.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>A description of the card.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Assignees</span> </td> 
+      <td role="rowheader"><strong>Assignees</strong> </td> 
       <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can assign more than one person to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Column</span> </td> 
-      <td>Select the column for the card. If you leave the <span class="bold">Column</span> field blank, the card is placed in the first column on the left of the board.</td> 
+      <td role="rowheader"><strong>Column</strong> </td> 
+      <td>Select the column for the card. If you leave the <strong>Column</strong> field blank, the card is placed in the first column on the left of the board.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Checklist Items</span> </td> 
-      <td> <p>Click <span class="bold">Add checklist item</span>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <span class="bold">Delete</span> icon <img src="assets/delete.png">.</p> </td> 
+      <td role="rowheader"><strong>Checklist Items</strong> </td> 
+      <td> <p>Click <strong>Add checklist item</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>To delete an item, click the <strong>Delete</strong> icon <img src="assets/delete.png">.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
    ![Card details](assets/boards-edit-card-350x445.png)
 
-1. Click `Close` to add the card to the board.
+1. Click **Close** to add the card to the board.
 
    The assignees and checklist counter are displayed on the card.
 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 You can add cards with only a title to quickly populate your board.
 
 1. Access the board you want to add cards to.
-1. Click the `Add` icon ![Add card](assets/addicon-spectrum.png) on the column where you want to add the card.
+1. Click the **Add** icon ![Add card](assets/addicon-spectrum.png) on the column where you want to add the card.
 1. Type the card name and press Enter.
 
    Another card is automatically added below the new card.
@@ -105,9 +105,9 @@ You can add cards with only a title to quickly populate your board.
 
    Or
 
-   Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the card and select `Edit`.
+   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **Edit**.
 
-1. In the Card Details box, update the information as needed, and click `Close` to return to the board.
+1. In the Card Details box, update the information as needed, and click **Close** to return to the board.
 
 ## Complete checklist items
 
@@ -116,7 +116,7 @@ You can add cards with only a title to quickly populate your board.
 
    Or
 
-   Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the card, and select `Edit`.
+   Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Edit**.
 
 1. Select the check box next to the item that is complete.
 
@@ -126,7 +126,7 @@ You can add cards with only a title to quickly populate your board.
 
    ![Completed checklist item](assets/boards-completedchecklistitem-350x192.png)
 
-1. Click `Close` to return to the board.
+1. Click **Close** to return to the board.
 
    The counter on the card is also updated.
 

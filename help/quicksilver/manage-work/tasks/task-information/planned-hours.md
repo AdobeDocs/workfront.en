@@ -59,7 +59,7 @@ The following scenarios exist when manually updating user or job role allocation
 * When you have manually updated the allocations to trigger a change to the task Planned Hours and you add an assignment to the task, the new assignment is allocated 0 hours by default. You must manually update their allocation to the task which might affect the Planned Hours. 
 * Whether you have manually updated the allocations to trigger a change to the task Planned Hours or not and you remove all the assignments to the task, the Planned Hours remain unchanged.
 
-` `**Example: **`` For example, if a task has 10 Planned Hours and you have two assignees, they are each allocated 5 hours each, by default.
+``` ```**Example: **`````` For example, if a task has 10 Planned Hours and you have two assignees, they are each allocated 5 hours each, by default.
 
 * If you don't update the individual user allocation or the daily allocations using the Workload Balancer and you remove one of the assignees from the task, the task Planned Hours remain 10 hours. 
 * If you manually change the assignments' allocations to 4 and 6 hours, respectively, and you remove the user allocated to 6 hours as well as their job role, the task Planned Hours updates to 4 hours. The 6 hours allocated to the user are also removed. If you also remove the user that is allocated to 4 hours, the Planned Hours of the task remain 4 hours. If you later remove the last user who is allocated to 4 hours as well as their job role and the task remains unassigned, the task Planned Hours remain 4 hours.
@@ -102,15 +102,17 @@ You cannot edit the amount of Planned Hours on a project. Planned Hours on a pro
 
 Whether issues are included in the calculation for Planned Hours depends on the location within the project where you are viewing Planned Hours. You can view Planned Hours in the following locations within a project:
 
-* `Project Details` section `:` Only the Planned Hours for the tasks on the project are taken into account. The Planned Hours for the issues on the project are not taken into account when viewing the total number of Planned Hours for the project in the Project Details section.
+* **Project Details** **section** **:** Only the Planned Hours for the tasks on the project are taken into account. The Planned Hours for the issues on the project are not taken into account when viewing the total number of Planned Hours for the project in the Project Details  section .
 
-* `Utilization section:` The Planned Hours for tasks and the issues on the project are taken into account when viewing the total number of Planned Hours for the project in the Utilization section.
+* **Utilization section :** The Planned Hours for tasks and the issues on the project are taken into account when viewing the total number of Planned Hours for the project in the Utilization  section .
+* Role Allocation panel
+* View project Planned Hours in the Role Allocation panel
 
 ## Locate Planned Hours
 
 You can find the Planned Hours information on tasks, issues, or projects in the following locations:
 
-* Planned Hours in the Details section 
+* [Planned Hours in the Details section](#planned2)  
 * [Planned Hours when editing a task or issue](#plan-hours-on-edit-task-or-issue) 
 * [Planned Hours in reports](#reports) 
 * [Planned Hours in Resource Management tools](#resource-grid)
@@ -143,13 +145,13 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Planned Hours in the Details section Finding the Planned Hours in the Details sectionis identical for tasks, issues, and projects.
+Planned Hours in the Details section Finding the Planned Hours in the Details  section is identical for tasks, issues, and projects.
 
-To locate the Planned Hours value on the Details section of a task:
+To locate the Planned Hours value on the Details  section  of a task:
 
 1. Go to a task for which you want to review the Planned Hours.
-1. Click Task Details in the left panel. 
-1. Click the Overview area and notice the Planned Hours value. This value represents the time it would take the user assigned to the task to complete it.
+1. Click **Task Details** in the left panel.  
+1. Click the **Overview** area and notice the Planned Hours value. This value represents the time it would take the user assigned to the task to complete it.
 
 ### Planned Hours when editing a task or issue
 
@@ -162,7 +164,7 @@ Finding the Planned Hours while editing a task or an issue is identical.
 To locate the value of Planned Hours while editing a task:
 
 1. Go to the task or issue you want to view Planned Hours for.
-1. Click the More icon next to the task name, then click Edit. The Planned Hours are located in the `Overview` section.
+1. Click the **More** icon ![](assets/qs-more-icon-on-an-object.png) next to the task name, then click **Edit**. The Planned Hours are located in the **Overview** section.
 
 ### Planned Hours in reports
 
@@ -172,12 +174,13 @@ Adding the Planned Hours column to a project view is similar to building a view 
 
 To show Planned Hours in a project report:
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
-1. Click `New Report`, then choose `Project` as your object.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**.  
 
-1. Click `Add Column`, and start typing `Planned Hours` when the `Show in this column` drop-down field is displayed. Select the field when it appears in the list.
+1. Click **New Report**, then choose **Project** as your object.
 
-1. Click `Save + Close` to save the report.
+1. Click **Add Column**, and start typing **Planned Hours** when the **Show in this column** drop-down field is displayed. Select the field when it appears in the list.
+
+1. Click **Save + Close** to save the report.
 
    The Planned Hours column shows the total number of Planned Hours on each project.
 
@@ -193,9 +196,15 @@ You can see the value of Planned Hours for your tasks, issues, or projects when 
 
   For information about the utilization report, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* The following sections: Scheduling or Workload Balancer sections in the Resourcing area Scheduling section at the project level Schedule section at the team level For information about scheduling resources, see [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+* The following sections:
+
+  * Scheduling or Workload Balancer sections in the Resourcing area
+  * Scheduling section at the project level
+  * Schedule section at the team level
+
+  For information about scheduling resources, see [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
   For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
-* **Role Allocation panel** in the project task list or Workload Balancer: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role are taken into account in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
+* **Role Allocation panel** in the project  task list or  Workload Balancer: The Planned Hours for the tasks and the issues on the project that are assigned to a job role or a user associated with a job role are taken into account in this area. For more information, see [View project Planned Hours in the Role Allocation panel](../../../manage-work/projects/planning-a-project/view-planed-hours-in-role-allocation-panel.md).
 

@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -53,7 +64,7 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
 ## Connect Azure DevOps to Workfront Fusion
 
 1. Add an Azure DevOps module to your scenario.
-1. Click `Add`next to the Connection field.
+1. Click **Add**next to the Connection field.
 1. In the Connection Type field, select **Azure DevOps**.
 
    >[!IMPORTANT]
@@ -66,7 +77,7 @@ To use Azure DevOps modules, you must have an Azure DevOps account.
    |---|---|
    | Organization |Enter the name of the organization under which you created your Azure DevOps application. |
 
-1. Click `Continue`to finish setting up the connection and continue creating your scenario.
+1. Click **Continue**to finish setting up the connection and continue creating your scenario.
 
 ## Azure DevOps modules and their fields
 
@@ -132,7 +143,11 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td role="rowheader">Relative URL</td> 
    <td> <p>Enter the relative URL that you want to connect to for this API call.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
-  </tr> API Version Select or map the version of the Azure DevOps API that you want to connect to for this API call. If no version is selected, Workfront Fusion connects to Azure DevOps API version 5.1. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">API Version</td> 
+   <td>Select or map the version of the Azure DevOps API that you want to connect to for this API call. If no version is selected, Workfront Fusion connects to Azure DevOps API version 5.1.</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Method</td> 
    <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods</a>.</p> </td> 
@@ -177,8 +192,8 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">Record type</td> 
    <td> <p>Select whether you want to read a project or a work item</p> 
     <ul> 
-     <li> <p><span class="bold">Project</span>:Select the project that you want to read..</p> </li> 
-     <li> <p><span class="bold">Work item</span>:Select the project that contains the work item you want to read, then select the work item type.</p> </li> 
+     <li> <p><strong>Project</strong>:Select the project that you want to read..</p> </li> 
+     <li> <p><strong>Work item</strong>:Select the project that contains the work item you want to read, then select the work item type.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -210,19 +225,19 @@ The module outputs the object ID for the newly created work item, or the URL and
    <td role="rowheader">Record type</td> 
    <td> <p>Select whether you want to create a work item or a project.</p> 
     <ul> 
-     <li> <p><span class="bold">Project</span> </p> <p>Fill in the following fields:</p> 
+     <li> <p><strong>Project</strong> </p> <p>Fill in the following fields:</p> 
       <ul> 
-       <li> <p><span class="bold">Name</span>:Enter or map a name for the new project.</p> </li> 
-       <li> <p><span class="bold">Description</span>:Enter or map a description for the new project. </p> </li> 
-       <li> <p><span class="bold">Visibility</span>:Select whether you want your project to be public or private. Users must be signed into your organization and must have been granted access to the project in order to interact with a private project. Public projects are visible to users who are not signed in to your organization.</p> </li> 
-       <li> <p><span class="bold">Version control</span>:Select whether you want the project to use Git or Team Foundation Version Control (TFCV) for version control.</p> </li> 
-       <li> <p><span class="bold">Work item process</span>:Select the work process that you want to use for the project. Options are Basic, Scrum, Capability Maturity Model Integration (CMMI), and Agile.</p> <p>For more information on Azure DevOps processes, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process">Choose a Process</a> in the Azure DevOps Documentation.</p> </li> 
+       <li> <p><strong>Name</strong>:Enter or map a name for the new project.</p> </li> 
+       <li> <p><strong>Description</strong>:Enter or map a description for the new project. </p> </li> 
+       <li> <p><strong>Visibility</strong>:Select whether you want your project to be public or private. Users must be signed into your organization and must have been granted access to the project in order to interact with a private project. Public projects are visible to users who are not signed in to your organization.</p> </li> 
+       <li> <p><strong>Version control</strong>:Select whether you want the project to use Git or Team Foundation Version Control (TFCV) for version control.</p> </li> 
+       <li> <p><strong>Work item process</strong>:Select the work process that you want to use for the project. Options are Basic, Scrum, Capability Maturity Model Integration (CMMI), and Agile.</p> <p>For more information on Azure DevOps processes, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process">Choose a Process</a> in the Azure DevOps Documentation.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">Work item</span> </p> <p>Fill in the following fields:</p> 
+     <li> <p><strong>Work item</strong> </p> <p>Fill in the following fields:</p> 
       <ul> 
-       <li> <p><span class="bold">Project</span>:Select the project where you want to create the work item.</p> </li> 
-       <li> <p><span class="bold">Work item type</span>:Select the type of work item you want to create.</p> </li> 
-       <li> <p><span class="bold">Other fields</span>:In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the work item type.</p> </li> 
+       <li> <p><strong>Project</strong>:Select the project where you want to create the work item.</p> </li> 
+       <li> <p><strong>Work item type</strong>:Select the type of work item you want to create.</p> </li> 
+       <li> <p><strong>Other fields</strong>:In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the work item type.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

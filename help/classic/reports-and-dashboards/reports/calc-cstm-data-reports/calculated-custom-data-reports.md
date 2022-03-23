@@ -17,5 +17,6 @@ This section contains the following articles:
 * ["IF" statements overview](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) 
 * [Calculated custom field example: display the manager of an issue's creator on the issue custom form](../../../reports-and-dashboards/reports/calc-cstm-data-reports/custom-field-manager-issue-creator-on-issue-form.md) 
 * [Calculated custom field example: display a Status timestamp in a Custom Form](../../../reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md) 
-* [Calculated custom field example: display a field's edit history](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
+* [Calculated custom field example: display a field's edit history](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md) 
+* Learning Path for reports and dashboards
 

@@ -5,6 +5,7 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-projects
 title: How Financial Recalculation is Triggered
 description: The following actions trigger financial recalculation in Workfront:
+hidefromtoc: true
 ---
 
 # How Financial Recalculation is Triggered
@@ -19,4 +20,4 @@ The following actions trigger financial recalculation in Workfront:
 >
 >When you change the project status, only the planned values are being recalculated.
 
-You can also recalculate finances manually under Project Actions by clicking Recalculate Finance.  
+You can also recalculate finances manually under **Project Actions** by clicking **Recalculate Finance**.  

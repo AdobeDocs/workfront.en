@@ -21,72 +21,72 @@ Proof progress indicates the work done on a proof from the time you send the pro
  <col> 
  <thead> 
   <tr> 
-   <td> <p><span class="bold">Progress icon</span> </p> </td> 
-   <td> <p><span class="bold">Description</span> </p> </td> 
+   <td> <p><strong>Progress icon</strong> </p> </td> 
+   <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><span class="bold">Sent</span> </p> </td> 
+   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Sent</strong> </p> </td> 
    <td> <p>The proof has been sent to assigned recipients.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold"><img src="assets/proof-progress-opened-icon.png" alt=""></span> </p> <p><span class="bold">Opened&nbsp;</span> </p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Opened</strong> </p> </td> 
    <td> <p>All assigned recipients open&nbsp;the proof or Proof details page.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold"><img src="assets/proof-progress-comment-icon.png" alt=""></span> </p> <p><span class="bold">Comments made</span> </p> </td> 
-   <td> <p>All assigned recipients make at least one comment on the proof.</p> <p>If there are no reviewers&nbsp;assigned to the proof, the <span class="bold">C</span>&nbsp;icon does not appear in the progress bar.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Comments made</strong> </p> </td> 
+   <td> <p>All assigned recipients make at least one comment on the proof.</p> <p>If there are no reviewers&nbsp;assigned to the proof, the <strong>C</strong>&nbsp;icon does not appear in the progress bar.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><span class="bold">Decision made</span> </p> </td> 
-   <td> <p>All assigned approvers make a decision on the proof, All assigned approvers make a decision on the proof, unless the proof creator specifies only one decision is needed.</p> <p>If there are no approvers (decision makers) designated for&nbsp;the proof,&nbsp;the <span class="bold">D</span>&nbsp;icon does not appear in the progress bar.&nbsp;</p> </td> 
+   <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Decision made</strong> </p> </td> 
+   <td> <p>All assigned approvers make a decision on the proof, All assigned approvers make a decision on the proof, unless the proof creator specifies only one decision is needed.</p> <p>If there are no approvers (decision makers) designated for&nbsp;the proof,&nbsp;the <strong>D</strong>&nbsp;icon does not appear in the progress bar.&nbsp;</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 The progress icons can appear in the following colors to indicate certain information about the proof's progress:
 
-* `Green`: Complete.
-* `White`: Not complete.
-* `Orange`:&nbsp;Not&nbsp;complete and deadline is less than 24 hours. 
-* `Red`: Not&nbsp;complete and past the deadline.
+* **Green**: Complete.
+* **White**: Not complete.
+* **Orange**:&nbsp;Not&nbsp;complete and deadline is less than 24 hours. 
+* **Red**: Not&nbsp;complete and past the deadline.
 
 <!--
-Levels of proof progress
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Levels-of-Proof-Progress"></a>Levels of proof progress</h3>
 -->
 
 <!--
-Workfront Proof uses the progress icons to track a proof's progress at each of the following levels:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront Proof uses the progress icons to track a proof's progress at each of the following levels:</p>
 -->
 
   <!--
-  For each reviewer, based on that person's activity on the proof.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">For each reviewer, based on that person's activity on the proof.&nbsp;</li>
   -->
 
   <!--
-  For each stage, based on the progress the reviewer on the stage who is most behind in the proofing process. To learn more about stages, see Automated Workflow Stages overview.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">For each stage, based on the progress the reviewer on the stage who is most behind in the proofing process.&nbsp;To learn more about stages, see <a href="../../../review-and-approve-work/proofing/proofing-overview/stages.md" class="MCXref xref">Automated Workflow Stages overview</a>.</li>
   -->
 
   <!--
-  For the proof, based on the progress of the stage (group of reviewers) who is the most behind in the proofing process.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">For the proof, based on the progress of the stage (group of reviewers) who is the most behind in the proofing process.</li>
   -->
 
 <!--
-For an example of how Workfront Proof determines progress using the reviewer or stage that is most behind, suppose three reviewers on a proof need to make a decision. If two of them have made their decision but the third has not, the progress bar for the proof does not show the D in green because of the outstanding decision.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For an example of how Workfront Proof determines progress using the reviewer or stage that is most behind,&nbsp;suppose three reviewers on a proof need to make a&nbsp;decision. If two of them have made their&nbsp;decision&nbsp;but the third has not, the progress bar for the proof does not show&nbsp;the D in green because of the outstanding&nbsp;decision.</p>
 -->
 
 <!--
-If the Primary Decision Maker setting is selected on a proof and the primary decision maker submits a decision, the D in the proof progress bar turns green for all reviewers because no other decisions are required.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">If the Primary Decision Maker setting is selected on a proof and the primary decision maker submits a decision, the D in the proof progress bar turns&nbsp;green for all reviewers because no other decisions are required.</p>
 -->
 
 <!--
-Similarly, if the Only One Decision Required setting is selected on a proof and any reviewer submits a decision, the D in the proof progress bar turns green for all reviewers because no other decisions are required.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Similarly, if the Only One Decision Required setting is selected on a proof and any reviewer submits a decision, the D in the proof progress bar turns&nbsp;green for all reviewers because no other decisions are required.</p>
 -->
 
 ## Proof status overview
 
-The proof status displays the status of decisions that are required for the proof. The status of the proof is driven by the “worst case” participant. For example, suppose there are three decisions on the proof: two have the status of `Accepted` and one has the status of `Rejected`. The "worst case" decision of `Rejected` over-rules the other decisions and the overall status of the proof is shown as `Rejected`.&nbsp;
+The proof status displays&nbsp;the status of decisions that are required for&nbsp;the proof. The status of the proof is driven by the “worst case” participant. For example, suppose&nbsp;there are three&nbsp;decisions&nbsp;on the proof: two have the status of **Accepted**&nbsp;and one has the status of **Rejected**. The "worst case" decision of **Rejected** over-rules the other decisions and the overall status of the proof is shown as **Rejected**.&nbsp;
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -101,42 +101,43 @@ The standard status options are as follows:
 If custom decisions are configured in your account, the status options reflect your&nbsp;custom decision&nbsp;settings.
 
 <!--
-Viewing proof progress and status
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="viewing-proof-progress-and-status"></a>Viewing proof progress and status</h2>
 -->
 
 <!--
-You can view the progress and status of proofs for individual documents. Or, you can see proof approval information for all documents that you submit for approval.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> You can view the progress and status of proofs for individual documents. Or, you can see proof approval information for all documents that you submit for approval.<![CDATA[
+]]></p>
 -->
 
   <!--
-  View proof progress and status for a document
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#viewing-proof-progress-and-status-for-an-individual-document" class="MCXref xref">View proof progress and status&nbsp;for a document</a> </li>
   -->
 
   <!--
-  View proof approval information in Home
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#viewing-proof-approval-information-for-all-documents-you-submit-for-approval" class="MCXref xref">View proof approval information&nbsp;in Home</a> </li>
   -->
 
 <!--
-View proof progress and status for a document
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="viewing-proof-progress-and-status-for-an-individual-document"></a>View proof progress and status&nbsp;for a document</h3>
 -->
 
    <!--
-   If a proof has not already been generated for the document in Adobe Workfront, generate it, as described in the Generate a proof articles.
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">If a proof has not already been generated for the document in Adobe Workfront, generate it, as described in the <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md" class="MCXref xref">Generate a proof</a> articles.</li>
    -->
 
    <!--
-   In the Documents area, under the proof's name, click Proof Details.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Documents area, under the proof's name, click <strong>Proof Details</strong>.</li>
    -->
 
    <!--
-   In the Proofing Details box that appears, the proof's progress for each stage, then click Done.
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Proofing Details</strong> box that appears, the proof's progress for each stage, then click <strong>Done</strong>.</li>
    -->
 
 <!--
-View proof approval information in Home
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="viewing-proof-approval-information-for-all-documents-you-submit-for-approval"></a>View proof approval information&nbsp;in Home</h3>
 -->
 
 <!--
-You can view information about proofs that you have submitted for approval. Proof approval information is displayed in the Home area only while the proof is pending approval. For information about how to view information about proof approvals in the Home area, see View approvals in Adobe Workfront.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can view information about proofs that you have submitted for approval. Proof approval information is displayed in the Home area only while the proof is pending approval.&nbsp;For information about how to view information about proof approvals in the Home area, see&nbsp;<a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a>.</p>
 -->
 

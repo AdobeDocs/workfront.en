@@ -43,20 +43,25 @@ You must have the following access to perform the steps in this article:
 
 ## Create a portfolio
 
-1. Go to the Projects area in the Global Navigation Bar. 
-1. Select the Portfolios tab. 
-1. Click `New Portfolio`.
-1. Replace `Untitled Portfolio` with the name you want for the portfolio.
+1. Go to the **Projects** area in the Global Navigation Bar. 
+1. Select the **Portfolios** tab. 
+
+   ![](assets/projects-tab-highlighted-classic-350x241.png)
+
+1. Click **New Portfolio**.
+1. Replace **Untitled Portfolio** with the name you want for the portfolio.
 
    The name can contain up to 255 characters.
 
-1. Click the Portfolio Details tab.
-1. Ensure that the Overview subtab is selected, then change any of the following information:
+1. Click the **Portfolio Details** tab.
+1. Ensure that the **Overview** subtab is selected, then change any of the following information:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
-    <tbody> Name Specify a name for the Portfolio if you have not already done so. 
+    <tbody>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Name</td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Specify a name for the Portfolio if you have not already done so.</td>  
      <tr> 
       <td role="rowheader">Description</td> 
       <td> <p>Type a description for the Portfolio to indicate what is unique about it. </p> </td> 
@@ -64,25 +69,50 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Portfolio Manager</td> 
       <td> <p>Start typing the name of a user that you want to indicate as the portfolio manager, then select it when it appears in the list. This is the same as the Portfolio Owner. This is the person who can oversee the work defined in the projects of the portfolio and can approve the Business Case.</p> <p>Important: When you designate someone as the Portfolio Manager, they automatically gain&nbsp;Manage permissions to the portfolio, the programs and the projects in the portfolio. </p> </td> 
-     </tr> Group Add the name of a single group if the group owns the portfolio or has responsibility for completing it. Alignment Scorecard Select the alignment scorecard that you want to use from the drop-down list. A scorecard is used to measure how well a project aligns with the established criteria of a Portfolio often reflecting an organization’s mission, values, and strategic goals. For more information, see Apply a scorecard to a project and generate an Alignment Score and Create a scorecard. Is Active Select this checkbox if you want the portfolio to be active. Other users can find active portfolios and attach them to projects when creating or editing projects. Inactive portfolios cannot be attached to projects. This is enabled by default. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Group </td> 
+      <td> <p>Add the name of a single group if the group owns the portfolio or has responsibility for completing it. </p> </td> 
+     </tr>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Alignment Scorecard</td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Select the alignment scorecard that you want to use from the drop-down list. A scorecard is used to measure how well a project aligns with the established criteria of a Portfolio often reflecting an organization’s mission, values, and strategic goals. For more information, see <a href="../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md" class="MCXref xref">Apply a scorecard to a project and generate an Alignment Score</a> and <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md" class="MCXref xref">Create a scorecard</a>.</p> </td>   
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Is Active</td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p> Select this checkbox if you want the portfolio to be active. Other users can find active portfolios and attach them to projects when creating or editing projects. Inactive portfolios cannot be attached to projects. This is enabled by default.</p> </td>  
     </tbody> 
    </table>
 
-1. (Optional) Click the Custom Forms subtab and select a custom form to attach to the portfolio and update the custom fields.
+1. (Optional) Click the **Custom Forms** subtab and select a custom form to attach to the portfolio and update the custom fields.
 
    >[!TIP]
    >
    >You must have portfolio custom forms already created before you can attach them to portfolios.
 
-1. (Optional) Select the Programs tab and add Programs to the Portfolio.
+1. Edit Custom Form
+1. Save
+1. (Optional) Select the **Programs** tab and add Programs to the Portfolio.
 
    For more information about creating Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-1. (Optional) Select the Projects tab and add projects to the Portfolio.
+1. (Optional) Select the **Projects** tab and add projects to the Portfolio.
 
    For more information about adding projects to a Portfolio, see [Add projects to a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
-Deactivate a portfolio When you deactivate a portfolio, you can still access it from the Portfolios area, but it no longer displays in the list of portfolios when users try to add it to a project. Go to the Projects area in the Global Navigation Bar. Click the Portfolios tab. Click the name of the portfolio. On the page that appears, click the Portfolio Details tab, then click Edit Overview. Deselect the Is Active box, then click Save. Delete a portfolio Go to the Projects area in the Global Navigation Bar. Click the Portfolios tab. Select the portfolio, then click Delete. In the box that appears, click Yes, Delete It to confirm.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Deactivate a portfolio</h2>
+<p>When you deactivate a portfolio, you can still access it from the Portfolios area, but it no longer displays in the list of portfolios when users try to add it to a project.</p>
+<ol>
+<li value="1"> Go to the <strong>Projects</strong> area in the Global Navigation Bar. </li>
+<li value="2">Click the<strong>Portfolios</strong> tab.</li>
+<li value="3"> <p>Click the name of the portfolio.</p> </li> On the page that appears, click the <strong>Portfolio Details</strong> tab, then click <strong>Edit Overview</strong>. Deselect the <strong>Is Active</strong> box, then click <strong>Save</strong>.
+</ol>
+<h2>Delete a portfolio</h2>
+<ol>
+<li value="1"> Go to the <strong>Projects</strong> area in the Global Navigation Bar. </li>
+<li value="2"> <p>Click the<strong>Portfolios</strong> tab.</p> </li>
+<li value="3"> <p>Select the portfolio, then click <strong>Delete</strong>.</p> </li>
+<li value="4"> <p>In the box that appears, click <strong>Yes, Delete It</strong> to confirm.</p> </li>
+</ol>
+</div>
 -->
 

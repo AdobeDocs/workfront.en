@@ -53,24 +53,30 @@ You can manually assign a request to a team from the team page,&nbsp;as describe
 
 To manually assign a request to a team from the team page:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Teams`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
 
-1. Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
-1. Click the `More` icon ![](assets/more-icon.png), then select `Send work request`.
+1. Click the **More** icon ![](assets/more-icon.png), then select **Send work request**.
 
    ![](assets/edit-team-settings-350x205.png)
 
 1. Fill in the information in the box that opens.
-1. Click `Send Request`.  
+1. Click **Send Request**.  
    The team is now assigned a new task which is displayed on the Team Requests tab. This task is not currently associated with a project, but it can be moved, as described in [Move tasks](../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Reassign requests
 
 You can reassign requests that have been assigned to your team:
 
-1. Click the `Reassign`&nbsp;icon.  
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
+1. Team Requests
+1. Click the **Reassign**&nbsp;icon.  
 
-1. Begin typing the name of the user, group, or team who you want to reassign the request to, then click `Assign`.  
+1. Begin typing the name of the user, group, or team who you want to reassign the request to, then click **Assign**.  
    The request is reassigned.
 

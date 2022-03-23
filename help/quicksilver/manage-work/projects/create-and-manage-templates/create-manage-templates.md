@@ -15,7 +15,12 @@ You can use project templates to capture most of the repeatable processes, infor
 
 * [Project template overview](../../../manage-work/projects/create-and-manage-templates/project-template-overview.md) 
 * [Create a project template](../../../manage-work/projects/create-and-manage-templates/create-template.md) 
-* [Create project templates from examples](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md) 
+* [Create project templates from examples](../../../manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
+
+  <!--
+  <a href="../../../administration-and-setup/blueprints/browse-catalog.md" class="MCXref xref" xrefformat="{para}">Browse the blueprints catalog and request installation of blueprints</a>
+  -->
+
 * [Copy a project template](../../../manage-work/projects/create-and-manage-templates/copy-template.md) 
 * [Overview of attaching a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md) 
 * [Attach a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md) 

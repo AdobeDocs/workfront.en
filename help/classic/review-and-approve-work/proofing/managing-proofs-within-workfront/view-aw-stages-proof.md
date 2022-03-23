@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## View the Automated Workflow diagram
 
-1. In a document list that contains the document, hover over the row containing the document, then click Proof Details.
+1. In a document list that contains the document, hover over the row containing the document, then click **Proof Details**.
 
    The diagram for the Automated Workflow displays just below the Workflow title.
 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
 
 ## View a stage
 
-1. In a document list that contains the document, hover over the row containing the document, then click Proof Details.
+1. In a document list that contains the document, hover over the row containing the document, then click **Proof Details**.
 1. On the diagram, click the stage that you want to view.
 
    ![](assets/view-stage-diagram-350x204.png)
@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
 
 To view all stages in an Automated Workflow:
 
-1. Click the Change View button at t the top of the page ![](assets/change-view-btn.png), then click `View all stages`.
+1. Click the Change View button at t the top of the page ![](assets/change-view-btn.png), then click **View all stages**.
 
    All of the stages of the Automated Workflow are listed in the section, however the details are hidden.
 
@@ -85,6 +85,6 @@ To view all stages in an Automated Workflow:
 
 To view all stages of your Automated Workflow with their details expanded:
 
-1. Click the Change View button at t the top of the page ![](assets/change-view-btn.png), then click `View all stages in detail`.
+1. Click the Change View button at t the top of the page ![](assets/change-view-btn.png), then click **View all stages in detail**.
 1. To view the details of a stage, click the down arrow below its name.
 

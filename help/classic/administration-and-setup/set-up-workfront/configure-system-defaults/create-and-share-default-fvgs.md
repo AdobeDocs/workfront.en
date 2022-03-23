@@ -38,30 +38,30 @@ You must have the following to perform the steps in this article:
 
 ## Create default filters, views, or groupings
 
-1. Go to the Setup area in the Global Navigation Bar.<![CDATA[	]]> 
+1. Go to the **Setup** area in the Global Navigation Bar.<![CDATA[	]]> 
 1. Do any of the following, depending on whether you are creating or editing a filter, view, or grouping:
 
-  * Click `Interface` > `Filters`.
-  
-  * Click `Interface >` `Views`.
-  
-  * Click `Interface` > `Groupings`.
+   * Click **Interface** > **Filters**.
+   
+   * Click **Interface >** **Views**.
+   
+   * Click **Interface** > **Groupings**.
 
-1. If you’re creating a filter, view, or grouping, click `New Filter`, `New View`, or `New Grouping,` then select the object type you want to associate the new filter, view, or grouping with.
+1. If you’re creating a filter, view, or grouping, click **New Filter**, **New View**, or **New Grouping,** then select the object type you want to associate the new filter, view, or grouping with.
 
    Or
 
-   If you’re editing an existing filter, view, or grouping, select it, then click `Edit`.
+   If you’re editing an existing filter, view, or grouping, select it, then click **Edit**.
 
 1. Configure the filter, view, or grouping.
 
    For information about available options, see one of the following articles:
 
-  * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
-  * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
-  * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+   * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
+   * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-1. Click the `Save` option near the lower-left corner.
+1. Click the **Save** option near the lower-left corner.
 
 You can make the filter, view, or grouping available to users in your system. For more information about sharing filters, views or groupings with other users, see the section [Make filters, views, or groupings available to users](#making-default-filters-available-to-users) in this article.
 
@@ -69,11 +69,11 @@ You can make the filter, view, or grouping available to users in your system. Fo
 
 These steps explain how to make filters, views, and groupings available from the Interface area in Setup. You can also do this in the List Controls area in Setup. For more information, see [Edit list controls: filters, views, and groupings](../../../administration-and-setup/manage-workfront/configure-reports/edit-list-controls-filters-views-groupings.md).
 
-1. Go to the Setup area in the Global Navigation Bar.<![CDATA[	]]>
-1. Click `Interface`, then click one of the following: `Filters`, `Views`, or `Groupings`.
+1. Go to the **Setup** area in the Global Navigation Bar.<![CDATA[	]]>
+1. Click **Interface**, then click one of the following: **Filters**,**Views**, or**Groupings**.
 
-1. Select the filter, view, or grouping that you want to make available to users, then click `Share` to open the Filter Access, View Access, or Grouping Access form.
-1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the `Gear` drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click `Make this visible system-wide`. All users in the system can now see the filter, view, or grouping.
+1. Select the filter, view, or grouping that you want to make available to users, then click **Share** to open the Filter Access, View Access, or Grouping Access form.
+1. (Conditional) To make the filter, view, or grouping available to all users in the system, click the **Gear** drop-down menu ![](assets/gear-menu-for-sharing-items.png), then click **Make this visible system-wide**. All users in the system can now see the filter, view, or grouping.
 
    Or
 
@@ -81,7 +81,7 @@ These steps explain how to make filters, views, and groupings available from the
 
    For more information about sharing, see [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Click `Save`.
+1. Click **Save**.
 
    Users that you specified can now see the default filter, view, or grouping when viewing the object type that you associated it with.
 
@@ -91,19 +91,19 @@ These steps explain how to make filters, views, and groupings available from the
 >
 >You can hide the options All, Standard, and Nothing after selecting different defaults (see Step 5), but they can’t be deleted.You can delete any other option being used as a default, but you have to select a different default first.
 
-1. Go to the Setup area in the Global Navigation Bar.<![CDATA[	]]>
+1. Go to the **Setup** area in the Global Navigation Bar.<![CDATA[	]]>
 1. Do any of the following, depending on whether you are deleting a filter, view, or grouping:
 
-  * Click `Interface` > `Filters`
-  
-  * Click `Interface >` `Views`
-  
-  * Click `Interface` > `Groupings`
+   * Click **Interface** > **Filters**
+   
+   * Click **Interface >****Views**
+   
+   * Click **Interface** > **Groupings**
 
-1. Select one or more items in the list, then click `Delete`.
+1. Select one or more items in the list, then click **Delete**.
 1. See one of the following sections for detailed information about configuring a filter, view, or grouping.
 
-  * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
-  * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
-  * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+   * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+   * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
+   * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 

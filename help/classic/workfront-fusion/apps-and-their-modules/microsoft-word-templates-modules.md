@@ -7,6 +7,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Microsoft Word Template modules
 description: In a Adobe Workfront Fusion scenario, you can connect your MIcrosoft Word Templates account to multiple third-party applications and services.
+hidefromtoc: true
 ---
 
 # Microsoft Word Template modules
@@ -28,7 +29,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +42,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -80,7 +92,7 @@ A simple value tag is simply replaced with a corresponding value. The tag's name
 
 .
 
-` `**Example: **`` To create a document that says "Hi, Peter!", you could use a Microsoft WordTemplate module to create the following template:
+``` ```**Example: **`````` To create a document that says "Hi, Peter!", you could use a Microsoft WordTemplate module to create the following template:
 
 ```
 > Hi {{name}}!
@@ -94,7 +106,7 @@ To do this, you would set up the module as follows:
 
 You can use a condition tag to wrap text that should be rendered only when certain conditions are met. To wrap the text, place it between opening and closing condition tags, such as "hasPhone" if the condition is whether or not the data includes a phone number. The name of an opening tag is prepended with a hash sign #, the name of a closing tag is prepended with a slash /, as shown in the example below.
 
-` `**Example: **`` To produce a document that includes a customer's phone number if the input data includes a phone number, but no email address, you could use a Microsoft Word Template module and create the following template:
+``` ```**Example: **`````` To produce a document that includes a customer's phone number if the input data includes a phone number, but no email address, you could use a Microsoft Word Template module and create the following template:
 <pre>> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}</pre><pre>> {{#hasEmail}}Email: {{email}} {{/hasEmail}}</pre>To do this, you would set up the module as follows:
 
 ![](assets/word-template-conditional-350x501.png)
@@ -111,7 +123,7 @@ You can use a loop tag, also known as a section tag, to repeat a section of text
 
 #### Loop tag with Fill out a document module
 
-` `**Example: **`` To produce a document that lists the name and phone number of each contact in a customer list, you could use a Microsoft Word Template module and create the following template:
+``` ```**Example: **`````` To produce a document that lists the name and phone number of each contact in a customer list, you could use a Microsoft Word Template module and create the following template:
 <pre>> {{#contact}}</pre><pre>>     {{name}}, {{phone}}</pre><pre>> {{/contact}}</pre>To do this, you would set up the module as follows:
 
 ![](assets/word-template-fill-out-a-document-350x732.png)
@@ -121,7 +133,7 @@ The module would create the following document:
 
 #### Loop tag with Fill a document with a batch of data module
 
-` `**Example: **`` You can export Google contacts into a table that you create using loop tags.
+``` ```**Example: **`````` You can export Google contacts into a table that you create using loop tags.
 
 The first module loads the template. The next module retrieves all contacts from the group you specify in Google Contacts. The aggregator module aggregates all values retrieved from Google Contacts and merges them into the template. And the last module saves the filled template to the desired location.
 
@@ -149,7 +161,7 @@ These modules do not require a connection.
 ### Fill out a document
 
 <!--
-This transformer module lets you fill a document with data you specify. It can be used with simple values tags, conditional tags, or loop tags.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This transformer module lets you fill a document with data you specify. It can be used with simple values tags, conditional tags, or loop tags. </p>
 -->
 
 <table cellspacing="0"> 

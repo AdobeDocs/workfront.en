@@ -27,7 +27,11 @@ The headers of the following objects have been redesigned:
 | Billing Record | [Billing Record header overview](#billing)  |
 | User | [User header overview](#user)  |
 | Team | [Team header overview](#team)  |
+| Iteration | [Iteration header overview](#iteratio)  |
+| Group | [Group header overview](#group)  |
 | Document | [Document header overview](#document)  |
+| Company | [Company header overview](#company)  |
+| Plan | [Plan header overview](#plan)  |
 
 For more information on objects, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -80,7 +84,11 @@ The project header displays the following information:
   <tr> 
    <td role="rowheader">Breadcrumb with parent objects</td> 
    <td>If the project is associated with a program or a portfolio, they display in the breadcrumb in the upper-left corner of the header. Clicking the name of the parent opens that parent object.</td> 
-  </tr> Object icon The purple Project icon displays to the left of the project name. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object icon </td> 
+   <td> <p>The purple Project icon <img src="assets/nwe-projects-icon.png"> displays to the left of the project name.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Name of the project</td> 
    <td>You can edit the project name in the header.</td> 
@@ -139,7 +147,11 @@ The task header includes the following information:
   <tr> 
    <td role="rowheader">Breadcrumb with parent objects</td> 
    <td> <p>The parent objects of the task display in the breadcrumb. Clicking the name of the parent opens that parent object.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
-  </tr> Object icon The green Task icon displays to the left of the task name. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object icon </td> 
+   <td> <p>The green Task icon <img src="assets/nwe-tasks-icon.png"> displays to the left of the task name.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Name of the task</td> 
    <td>You can edit the task name in the header.</td> 
@@ -537,7 +549,10 @@ The user header displays the following information:
    <td role="rowheader">Name of the user and title</td> 
    <td> <p> The title of the user displays in all capital letters above their name. You cannot edit the name of the user in the header.</p> </td> 
   </tr> <!--
-   Name of the object type The name of the object type does not display.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Name of the object type</td> 
+    <td> <p>The name of the object type does not display.</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Activation status</td> 
@@ -828,9 +843,9 @@ The plan header displays the following information:
    <td role="rowheader">Additional plan actions</td> 
    <td> <p>Below the plan name and actions area, you can complete the following actions:</p> 
     <ul> 
-     <li> <p><span class="bold">Show conflicts</span>: Clicking this toggle shows or hides conflicts in the initiatives.</p> </li> 
-     <li> <p><span class="bold">Compare scenarios</span>: Clicking this link shows you a side-by-side comparison of the scenarios you have created.</p> </li> 
-     <li> <p><span class="bold">Scenario selection</span>: In this drop-down menu, you can copy a scenario or select to view a different scenario.</p> </li> 
+     <li> <p><strong>Show conflicts</strong>: Clicking this toggle shows or hides conflicts in the initiatives.</p> </li> 
+     <li> <p><strong>Compare scenarios</strong>: Clicking this link shows you a side-by-side comparison of the scenarios you have created.</p> </li> 
+     <li> <p><strong>Scenario selection</strong>: In this drop-down menu, you can copy a scenario or select to view a different scenario.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

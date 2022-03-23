@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -183,7 +194,11 @@ Creates and sends an email message.
   <tr> 
    <td role="rowheader">Subject</td> 
    <td> <p>Enter or map the subject line of the message.</p> </td> 
-  </tr> Body Content Type Select whether the body content of the message is HTML or Text. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Body Content Type</td> 
+   <td>Select whether the body content of the message is HTML or Text.</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Body content</td> 
    <td> <p>Enter or map the message body text of the email.</p> </td> 
@@ -201,40 +216,40 @@ Creates and sends an email message.
    <td role="rowheader"> <p>To Recipients</p> </td> 
    <td> <p>Add the email address to which you want to send the messages:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>CC Recipients</p> </td> 
    <td> <p>Add the recipients that you want to receive a copy of the message:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Bcc Recipients</p> </td> 
    <td> <p>Add the recipients that you want to copy on the message, without allowing other recipients to see their names or email addresses:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Attachments</p> </td> 
    <td> <p>Add the attachments to the email:</p> 
     <ul> 
-     <li> <p><span class="bold">File name</span> </p> <p>Enter the file name. Example: <code>sample.doc</code></p> </li> 
-     <li> <p><span class="bold">Data</span> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
+     <li> <p><strong>File name</strong> </p> <p>Enter the file name. Example: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>Data</strong> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Internet Message Headers</td> 
    <td> <p>Add the message headers for the email.</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the header</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter a value for the header.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the header</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter a value for the header.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -325,32 +340,32 @@ Creates a new email message.
    <td role="rowheader"> <p>To Recipients</p> </td> 
    <td> <p>Add the recipients to which you want to send the messages:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>CC Recipients</p> </td> 
    <td> <p>Add the recipients The you want to receive a copy of the message:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Bcc Recipients</p> </td> 
    <td> <p>Add the recipients that you want to copy on the message, without allowing other recipients to see their names or email addresses:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Attachments</p> </td> 
    <td> <p>Add the attachments to the email:</p> 
     <ul> 
-     <li> <p><span class="bold">File name</span> </p> <p>Enter the file name. Example: <code>sample.doc</code></p> </li> 
-     <li> <p><span class="bold">Data</span> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
+     <li> <p><strong>File name</strong> </p> <p>Enter the file name. Example: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>Data</strong> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -391,8 +406,8 @@ Updates an existing message.
    <td role="rowheader">Enter a message ID</td> 
    <td> <p>Select how you want to identify the message to update:</p> 
     <ul> 
-     <li> <p><span class="bold">Enter Manually</span> </p> <p>Enter or map the message ID.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the folder that contains the message you want to update, then select the message</p> </li> 
+     <li> <p><strong>Enter Manually</strong> </p> <p>Enter or map the message ID.</p> </li> 
+     <li> <p><strong>Select from the list</strong> </p> <p>Select the folder that contains the message you want to update, then select the message</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -416,32 +431,32 @@ Updates an existing message.
    <td role="rowheader"> <p>To Recipients</p> </td> 
    <td> <p>Add the email address to which you want to send the messages:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>CC Recipients</p> </td> 
    <td> <p>Add the recipients The you want to receive a copy of the message:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Bcc Recipients</p> </td> 
    <td> <p>Add the recipients that you want to copy on the message, without allowing other recipients to see their names or email addresses:</p> 
     <ul> 
-     <li> <p><span class="bold">Name</span> </p> <p>Enter the name of the contact</p> </li> 
-     <li> <p><span class="bold">Email Address</span> </p> <p>Enter the email address of the contact.</p> </li> 
+     <li> <p><strong>Name</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>Email Address</strong> </p> <p>Enter the email address of the contact.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Attachments</p> </td> 
    <td> <p>Add the attachments to the email:</p> 
     <ul> 
-     <li> <p><span class="bold">File name</span> </p> <p>Enter the file name. Example: <code>sample.doc</code></p> </li> 
-     <li> <p><span class="bold">Data</span> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
+     <li> <p><strong>File name</strong> </p> <p>Enter the file name. Example: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>Data</strong> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

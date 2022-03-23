@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 ## Delete a calendar report
 
 1. Go to the calendar you want to delete.
-1. On the `Calendar` toolbar, click `Calendar Actions`, then select `Delete` from the drop-down list.
+1. On the **Calendar** toolbar, click **Calendar Actions**, then select **Delete** from the drop-down list.
 
-1. Click `Yes, Delete It.`
+1. Click **Yes, Delete It.**
 

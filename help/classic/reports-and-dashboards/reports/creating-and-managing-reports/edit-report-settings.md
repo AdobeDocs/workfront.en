@@ -49,11 +49,11 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
 
 ## How-to steps
 
-1. Start creating a report by going to Reporting > Reports > New Report, then select the object of your report. Or
+1. Start creating a report by going to **Reporting** > **Reports** > **New Report**, then select the object of your report. Or
 
-   Open an existing report, then click `Report Actions` > `Edit`.
+   Open an existing report, then click **Report Actions** > **Edit**.
 
-1. Click `Report Settings` in the upper-right corner of the report builder.
+1. Click **Report Settings** in the upper-right corner of the report builder.
 1. Configure the following report settings:
 
    <table cellspacing="0"> 
@@ -83,13 +83,19 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
      <tr> 
       <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
       <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <p>Note:  When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. <!--
-         For more information about using the Resource Grid, see the article Overview of the Resource Grid .
+         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          For more information about using the Resource Grid, see the article 
+          <a href="../../../resource-mgmt/legacy-res-planning/resource-grid-overview.md" class="MCXref xref">Overview of the Resource Grid </a>.
+         </MadCap:conditionalText>
         --></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Show a special view on the Details tab</td> 
       <td>(Project Report Only) Specify the type of view users will see when they access this information on the Details tab. For example, you can select a Milestone or Gantt view.</td> 
-     </tr> Show the Legacy Gantt view on the Details tab (Task Report Only) Select this option to display the Legacy Gantt chart on the Details tab of the report. The Legacy Gantt chart is a visual representation of the tasks in the report. For information about using the Legacy Gantt chart, see the article Navigate the Legacy Gantt Chart. 
+     </tr> <!-- 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Show the Legacy Gantt view on the Details tab</td> 
+      <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>(Task Report Only) Select this option to display the Legacy Gantt chart on the Details tab of the report. The Legacy Gantt chart is a visual representation of the tasks in the report.</p> <p>For information about using the Legacy Gantt chart, see the article <a href="../../../manage-work/gantt-chart/using-the-legacy-gantt-chart/navigate-legacy-gantt.md" class="MCXref xref">Navigate the Legacy Gantt Chart</a>.</p> </td> 
+     --> 
      <tr> 
       <td role="rowheader">Show this report in a Gantt view by default</td> 
       <td>(Project Report and Task Report Only) Select this option to have the Gantt view automatically enabled when users view the Details tab in this report.<br>For more information about viewing the Gantt chart in project reports and task reports, see the section "View task information in the project list Gantt Chart" in the article <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md" class="MCXref xref">View information in the Gantt Chart </a>.</td> 
@@ -109,15 +115,16 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
     </tbody> 
    </table>
 
-1. Click `Report Prompts` to set up any prompts for the report.  
+1. Click **Report Prompts** to set up any prompts for the report.  
    For more information about adding prompts to a report, see the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Click `Done,` then click `Save + Close`.
+1. Click**Done,** then click **Save + Close**.
 
 ## Additional information
 
 See also:
 
+* Learning Path for reports and dashboards
 * [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 
 * [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

@@ -52,13 +52,13 @@ You must enable notifications in the Setup area of Workfront before users can en
 
 >[!TIP]
 >
->`You cannot activate notifications for Workfront Goals from the Setup area.` Users `can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see` [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
+>```You cannot activate notifications for Workfront Goals from the Setup area.``` Users ```can activate these notifications only in their profiles. Users with Plan licenses can activate them for other users. For information about enabling Workfront Goals notifications for users, see``` [Notifications: Goals](../../../workfront-basics/using-notifications/notifications-goals.md).
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Email` > `Notifications`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Email** > **Notifications**.
 
-1. Make sure the `Event Notifications` tab is open.
-1. Select the check box to the left of the event type for which you want to enable or disable notifications, then click Activate or Deactivate.
+1. Make sure the **Event Notifications** tab is open.
+1. Select the check box to the left of the event type for which you want to enable or disable notifications, then click **Activate** or **Deactivate**.
 
    To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 

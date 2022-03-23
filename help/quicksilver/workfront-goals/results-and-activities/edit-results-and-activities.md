@@ -45,7 +45,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -81,13 +89,13 @@ You must have the following before you can start:
 
 ## Edit results
 
-1. Go to the goal for which you want to edit a result and click the goal name to open the `Goal Details` panel.
-1. Click `Results`.
-1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
+1. Click **Results**.
+1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
    ![](assets/results-gear-icon-options-350x85.png)
 
-1. Click `Edit` to edit the following information:
+1. Click **Edit** to edit the following information:
 
    | Name |The name of the result. |
    |---|---|
@@ -96,7 +104,7 @@ You must have the following before you can start:
    | Initial |The original value of the result. |
    | Target |The desired value when the result is completed. &nbsp; |
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Edit activities
 
@@ -104,17 +112,17 @@ You must have the following before you can start:
 >
 >You cannot edit the&nbsp;Activity Type after you saved an activity on a goal.
 
-1. Go to the goal for which you want to edit an activity and click the goal name to open the `Goal Details` panel.
-1. Click `Activities`.
-1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
+1. Click **Activities**.
+1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
    ![](assets/activities-gear-icon-options-350x84.png)
 
-1. Click `Edit` to edit the following information:
+1. Click **Edit** to edit the following information:
 
    | Name |The name of the activity. |
    |---|---|
    | Owner |The owner of activity.  |
 
-1. Click `Save`.
+1. Click **Save**.
 

@@ -54,7 +54,7 @@ To match the modern look of other areas in the new Workfront experience, the sty
 * When you click a typeahead field, the suggestions menu now displays before you enter text. 
 * The suggestions menu is more responsive to the length of values and these values are now truncated at the end when the character limit is met instead of in the middle of the value.
 
-For information on updated lists, see the The difference between the updated and the legacy lists section in the article Get started with lists in Adobe Workfront.
+For information on updated lists, see the The difference between the updated and the legacy lists section in the article Get started with lists in&nbsp;Adobe Workfront.
 
 ![](assets/typeahead-updates-350x336.png)
 
@@ -74,6 +74,6 @@ Previously, you could report on system updates only via the Workfront API.
 
 To learn more about this report and what you can use it for, see [Report on the Updates area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
-`<iframe class="vimeo-player_0" src="assets/513511262?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/513511262?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/513511262/466fe94246) 

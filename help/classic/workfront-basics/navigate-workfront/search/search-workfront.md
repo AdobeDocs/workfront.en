@@ -32,9 +32,9 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>View access to the type of object </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-     You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> <!--
-     You must be a group administrator. For more information on group administrators, see Group administrators.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -74,11 +74,11 @@ The fields available for search are based on the type of search: Basic or Advanc
 
 * **Basic Search**: When searching for objects in a basic search, Workfront looks for text that might contain your keywords in the following fields:
 
-  * Object names
-  * Descriptions
-  * Custom data fields
-  * Updates
-  * Document names (in specific document searches and in a basic search)
+   * Object names
+   * Descriptions
+   * Custom data fields
+   * Updates
+   * Document names (in specific document searches and in a basic search)
 
   For more information about basic searching in Workfront, see [Basic Search](#basic) in this article.
 
@@ -178,9 +178,9 @@ You can do a basic search in either of the following ways:
 
 To perform a basic search:
 
-1. Locate the Search box in the upper-right corner of the Workfront interface. 
-1. (Optional) To search for a specific object, click the magnifying glass and select an object—Projects, for example—from the drop-down menu.
-1. In the `Search` box, start typing the information you are searching for.  
+1. Locate the **Search** box in the upper-right corner of the Workfront interface. 
+1. (Optional) To search for a specific object, click the magnifying glass and select an object—**Projects**, for example—from the drop-down menu.
+1. In the **Search** box, start typing the information you are searching for.  
    For information about what fields are searched in Workfront, see [Understand Search](#understanding-search).  
   
    As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in orange.
@@ -189,7 +189,7 @@ To perform a basic search:
 
    Or
 
-   Press `Enter` to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
+   Press **Enter** to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
    The Search Results page displays. 
 
    If you chose the magnifying glass, for a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understanding-search). The objects that match your search display in a list, with the keyword you typed highlighted in orange in the name.
@@ -226,7 +226,8 @@ Advanced Search allows you to search using fields and filters not available to b
 >
 >To perform an Advanced Search, you must select the Advanced Search option when beginning your search. You cannot refine a basic search into an Advanced Search.
 
-* [Use Advanced Search](#using-advanced-search)
+* [Use Advanced Search](#using-advanced-search) 
+* Select new filters for Advanced Search
 
 #### Use Advanced Search
 
@@ -235,22 +236,34 @@ This type of search is helpful when you cannot remember a keyword associated wit
 
 To perform an advanced search:
 
-1. In the upper-right corner of any page in Workfront, locate and click the drop-down arrow in the Search box.  
-1. At the bottom of the Search menu, click `Advanced Search`.  
+1. In the upper-right corner of any page in Workfront, locate and click the drop-down arrow in the **Search** box.  
+
+1. At the bottom of the Search menu, click **Advanced Search**.  
   
    The Advanced Search page displays.  
 
 1. Select the type of object you are searching for.  
-   `Projects` is selected by default.
+   **Projects** is selected by default.
 
 1. (Optional) Type a keyword in the field at the top of the list.  
-1. (Optional) Click `Filter your results` to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.  
+1. (Optional) Click **Filter your results** to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.  
    Or  
    Add a new filter.  
-   For information on adding a filter, see Select new filters for Advanced Search.
+   For information on adding a filter, see [Select new filters for Advanced Search](#filtering-search-results).
 
-1. Click `Search`.  
+1. Click **Search**.  
    A list of items that match your search displays to the right of the Advanced Search toolbar.
 
-Select new filters for Advanced Search After performing an advanced search—as described in Use Advanced Search—you can change your filters to update your search results. To update your filters:
+Select new filters for Advanced Search After performing an advanced search—as described in [Use Advanced Search](#using-advanced-search)—you can change your filters to update your search results. To update your filters:
+
+1. Filter your results
+1. 
+1. 
+1. 
+1. 
+1. Add a Filter
+1. 
+1. Update Results
+1. 
+1.
 

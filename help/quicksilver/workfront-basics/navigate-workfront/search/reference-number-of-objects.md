@@ -35,7 +35,9 @@ Reference numbers are displayed by default for tasks and issues. You can also ea
 
 ### View reference numbers for tasks and issues
 
-Reference numbers are displayed by default when viewing a task or issue. To see the reference number click Task Details or Issue Details in the left panel, then locate the Basic Information section in the Overview.
+Reference numbers are displayed by default when viewing a task or issue.  To see the reference number click **Task Details** or **Issue Details** in the left panel, then locate the **Basic Information** section in the Overview.
+
+![](assets/reference-number-nwe-350x184.png)  
 
 ### View reference numbers for other objects
 
@@ -53,6 +55,6 @@ For information about how to add a column to a report, see [Create a custom repo
 
 Workfront enables you to search for an object by reference number.
 
-Type an object's reference number into the `Search` field, then press `Enter`.
+Type an object's reference number into the **Search** field, then press **Enter**.
 
 For more information on searching in Workfront, see [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).

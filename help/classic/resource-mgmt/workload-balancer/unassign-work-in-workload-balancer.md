@@ -53,12 +53,12 @@ You can either unassign items from users and move them to the Unassigned Work ar
 
 To unassign work items from users:
 
-1. In the Workload Balancer, go to the `Assigned Work` area and expand a user.
+1. In the Workload Balancer, go to the **Assigned Work** area and expand a user.
 1. Do the following:
 
-  * Click the `More` icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click  `Assign this to`, then remove the name of the entities assigned to the work item or enter another name, and click  `Save`.
+   * Click the **More** icon ![](assets/more-icon-task-list.png) to the right of the name of a work item, click&nbsp;**Assign this to**, then remove the name of the entities assigned to the work item or enter another name, and click&nbsp;**Save**.
 
-    ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
+     ![](assets/workload-balancer-assign-this-to-link-from-task-350x117.png)
 
    The item displays in the Unassigned Work area if it matches the filtering criteria for that area and it is not assigned to any other users, or it displays in the user area if it is assigned to another user.
 

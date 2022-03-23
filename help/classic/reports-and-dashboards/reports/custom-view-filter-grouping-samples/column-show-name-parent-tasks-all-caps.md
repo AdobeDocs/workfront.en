@@ -47,14 +47,14 @@ You must have the following access to perform the steps in this article:
 To build this column in a task view:
 
 1. Go to a list of tasks.
-1. From the `View` drop-down menu, select `Customize View`.  
+1. From the **View** drop-down menu, select **Customize View**.  
    Or  
-   From the `View` drop-down menu, select `New View`.
+   From the **View** drop-down menu, select **New View**.
 
-1. In the `Column Preview` area, click the header of the column that shows the task name in the list.
-1. Click `Switch to Text Mode`.
-1. Mouse over the text mode area, and click `Click to edit text`.
-1. Remove the text you find in the `Text Mode` box, and replace it with the following code: <pre><br>descriptionkey=name<br>displayname=Task Name<br>textmode=true<br>valueexpression=IF({numberOfChildren}>"0",UPPER({name}),{name})<br>valueformat=HTML<br>width=150<br></pre>
+1. In the**Column Preview** area, click the header of the column that shows the task name in the list.
+1. Click**Switch to Text Mode**.
+1. Mouse over the text mode area, and click **Click to edit text**.
+1. Remove the text you find in the **Text Mode** box, and replace it with the following code: <pre><br>descriptionkey=name<br>displayname=Task Name<br>textmode=true<br>valueexpression=IF({numberOfChildren}>"0",UPPER({name}),{name})<br>valueformat=HTML<br>width=150<br></pre>
 
-1. Click `Save View`.
+1. Click **Save View**.
 

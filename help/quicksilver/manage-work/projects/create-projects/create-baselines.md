@@ -56,20 +56,21 @@ You must have the following access to perform the steps in this article:
 
 You can create a baseline in the following ways:
 
-* Automatically: Your Workfront administrator `or a group administrator` sets the project preference for Workfront to automatically create a baseline when a project becomes Current. When this setting is enabled, a baseline is created when the project status becomes Current. When this setting is not enabled, you must manually create baselines.
+* Automatically: Your Workfront administrator ```or a group administrator``` sets the project preference for Workfront to automatically create a baseline when a project becomes Current. When this setting is enabled, a baseline is created when the project status becomes Current. When this setting is not enabled, you must manually create baselines.
 
   For more information about configuring project preferences and setting up automatic baseline creation, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-  ` `**Warning: **`` Enabling this setting automatically creates a baseline for a project every time a project's status changes to Current. The first created baseline is the default one. You must manually create all other baselines during the life of the project .
+  ``` ```**Warning: **`````` Enabling this setting automatically creates a baseline for a project every time a project's status changes to Current. The first created baseline is the default one. You must manually create all other baselines during the life of the project .
 
 * Manually: You can create new baselines for the project as needed as the project progresses. You can then compare baselines to see how the project progressed over time.
 
 1. Navigate to a project. 
-1. In the left panel, click Baselines. Or Click Show More, then click Baselines. 
-1. Click `New Baseline.`
+1. In the left panel, click **Baselines**.  Or Click **Show More**, then click **Baselines**.  
+
+1. Click **New Baseline.**
 1. Specify the name for the baseline.
 1. (Optional) If this is the first baseline, you may want to choose it as the default. 
-1. Click `Save`.
+1. Click **Save**.
 
    By default, the following information displays about the baseline you created:
 
@@ -85,7 +86,7 @@ You can create a baseline in the following ways:
     >
     >You cannot view information from any two baselines at the same time in the same view or report. You can only view information from a given baseline and the Default baseline in the same report. You can modify which baseline you consider to be the Default baseline any time during the life of the project.
 
-1. (Optional) Click the drop-down arrow next to the View, then `Customize View` to add fields to your view and compare additional information between baselines.
+1. (Optional) Click the drop-down arrow next to the View, then **Customize View** to add fields to your view and compare additional information between baselines.
 
 ## Create a Baseline or a Baseline Task report
 

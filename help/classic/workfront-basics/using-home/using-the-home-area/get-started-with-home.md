@@ -58,6 +58,8 @@ The Sort by option allows you to group like items in the Work List. You can sort
 
 For more information on how to use groupings, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
+![](assets/sort-by-home-350x273.png)  
+
 ### Narrow your focus with filters
 
 The Work List Filter allows you to narrow your focus to specific work items.
@@ -66,14 +68,16 @@ The following are examples of how you can filter items you see in Home :&nbsp;
 
 * Filter based solely on work item type or state:
 
-  * `Type`: Tasks, Issues, Approvals, or Personal tasks
-  * `State`: Working On, Ready to Start, Not Ready, or Completed
+   * **Type**: Tasks, Issues, Approvals, or Personal tasks
+   * **State**: Working On, Ready to Start, Not Ready, or Completed
 
 * Filter using type and state together.
 
   For example, you can select Tasks and Ready to Start to find all of the tasks in your work list that are ready for work.
 
 For more information on how to use filters, see&nbsp; [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
+![](assets/filter-home-350x342.png)
 
 ### Access work assigned to your team
 
@@ -85,6 +89,8 @@ The Home area has a permanent grouping dedicated to team requests with a direct 
 
 For more information on accessing team requests, see the article [Manage work and team requests in the Home area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
+![](assets/work-list-home-350x184.png)  
+
 ### Monitor work that you submitted
 
 Keep track of work that you submitted for approval directly from Work List. You can remind the approver about the work that needs approval. You can also recall the approval if needed.
@@ -93,7 +99,8 @@ Keep track of work that you submitted for approval directly from Work List. You 
 >
 >The Filter and Sort by options do not affect the Approvals I've Submitted grouping. This grouping is visible as long as you have work waiting for approval.
 
-For more information on how to keep track of work you've submitted, see Managing Approvals. 
+For more information on how to keep track of work you've submitted, see [Managing Approvals.](https://support.workfront.com/hc/en-us/sections/203948437-Managing-Approvals)  
+![](assets/approvals-i-ve-submited-350x339.png) 
 
 ## Prioritize what's important to you
 
@@ -104,6 +111,8 @@ The Work List allows you to surface and prioritize work that is important to you
 >Any work items added to My Priority are visible only to you, and no one can prioritize work for you.
 
 For more information on how to use My Priority, see [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+
+![](assets/more-menu-home-350x272.png)  
 
 ## Get it done
 
@@ -126,7 +135,10 @@ Communicate quickly and efficiently with coworkers from the Home area. You ask c
 * Updating the Commit Date
 
   <!--
-  Note: This is the only place you can update the Commit Date in Home.
+  <note type="note">
+  This is the only place you can update the Commit Date in Home.
+  <br>
+  </note>
   -->
 
 * Reporting on how you feel things are going

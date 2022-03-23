@@ -77,13 +77,13 @@ The left panel is available for the following objects:
 
 >[!IMPORTANT]
 >
->If the left panel displays only one section by default—such as `All Projects` in the `Projects` area—a Workfront administrator must add at least one custom section to this area when building a Layout Template and assign you to that template before the left panel displays in that area.  
+>If the left panel displays only one section by default—such as **All Projects** in the **Projects** area—a Workfront administrator must add at least one custom section to this area when building a Layout Template and assign you to that template before the left panel displays in that area.  
 >For information about how a Workfront administrator customizes the left panel in a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 Depending on the object or the area you've navigated to, the sections that appear in the left panel are different.
 
   <!--
-  Default sections for objects
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#default2" class="MCXref xref">Default sections for objects</a> </li>
   -->
 
 * [Default sections in the Dashboards area](#left7) 
@@ -93,24 +93,45 @@ Depending on the object or the area you've navigated to, the sections that appea
 * [Default sections in the Timesheets area](#left6)
 
 <!--
-Default sections for objects
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Default2"></a>Default sections for objects</h3>
 -->
 
 <!--
-There may be additional sections that display The following sections display for most objects:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">There may be additional sections that display The following sections display for most objects:</p>
 -->
 
 <!--
-Updates Displays . Use this area to . For more information, see . Details Displays . Use this area to . For more information, see . Documents Displays . Use this area to . For more information, see . Displays . Use this area to . For more information, see .
+<table cellspacing="0" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Updates</td>
+<td>Displays . Use this area to . For more information, see .</td>
+</tr>
+<tr>
+<td role="rowheader">Details</td>
+<td>Displays . Use this area to . For more information, see .</td>
+</tr>
+<tr>
+<td role="rowheader">Documents</td>
+<td>Displays . Use this area to . For more information, see .</td>
+</tr>
+<tr>
+<td role="rowheader">&nbsp;</td>
+<td>Displays . Use this area to . For more information, see .</td>
+</tr>
+</tbody>
+</table>
 -->
 
 <!--
-To learn how to use the left panel for an object, see Use the new left navigation panel.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn how to use the left panel for an object, see <a href="#examples" class="MCXref xref">Use the new left navigation panel</a>.</p>
 -->
 
 ### Default sections in the Dashboards area
 
-The following sections display in the left panel for the `Dashboards` area:
+The following sections display in the left panel for the **Dashboards** area:
 
 | My Dashboards |Displays the dashboards that you have built. |
 |---|---|
@@ -130,7 +151,7 @@ To learn how to use the left panel in the Requests area, see [Use the new left n
 
 ### Default sections in the Resourcing area
 
-The following sections display in the left panel for the `Resourcing` area:
+The following sections display in the left panel for the **Resourcing** area:
 
 <table cellspacing="0"> 
  <col> 
@@ -159,7 +180,7 @@ To learn how to use the left panel in the Resourcing area, see [Use the new left
 
 ### Default sections in the Projects area
 
-The following sections display in the left panel for the `Projects` area:
+The following sections display in the left panel for the **Projects** area:
 
 | All Projects |Displays all projects that you have access to view. Use the Filter drop-down menu to change what projects you want to view |
 |---|---|
@@ -169,7 +190,7 @@ To learn how to use the left panel in the Projects area, see [Use the new left n
 
 ### Default sections in the Timesheets area
 
-The following sections display in the left panel for the `Timesheets` area:
+The following sections display in the left panel for the **Timesheets** area:
 
 | My Timesheets |Displays all your active timesheets by default. To display submitted or closed timesheets, select Submitted or All from the Filter drop-down menu. |
 |---|---|
@@ -184,14 +205,14 @@ Finding and editing information in the left panel is similar for these objects. 
 
 To learn what sections are available for specific areas, see [Default sections in the left navigation panel](#default).
 
-1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click the name of an object to access it.
+1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click the name of an object to access it.
 
    The object page displays.
 
-1. (Conditional) If you selected an area that contains a list of objects—such as `Projects` or `Portfolios`—you must do the following to access the left panel navigation:
+1. (Conditional) If you selected an area that contains a list of objects—such as **Projects** or **Portfolios**—you must do the following to access the left panel navigation:
 
   1. Click an object in the list.
-  1. (Optional) In the left panel navigation, you can select another object—such as `Tasks` or `Issues` within a project—in the left panel to access a list of objects, then click the name of the specific object.  
+  1. (Optional) In the left panel navigation, you can select another object—such as **Tasks** or **Issues** within a project—in the left panel to access a list of objects, then click the name of the specific object.  
      The object page displays.
 
 1. From the object page, click any of the sections in the left panel to view or edit the information in that section.
@@ -200,32 +221,32 @@ To learn what sections are available for specific areas, see [Default sections i
 
    ![](assets/left-panel-sections.png)
 
-1. (Optional) Click `Show More` at the bottom of the left panel to display more sections.
+1. (Optional) Click **Show More** at the bottom of the left panel to display more sections.
 
    >[!NOTE]
    >
    >This option is not available if all sections display in the left panel by default.
 
-1. (Optional) At the bottom of the left panel, click `Add Custom Section` to add a custom section, then do the following:
+1. (Optional) At the bottom of the left panel, click **Add Custom Section** to add a custom section, then do the following:
 
-  1. Type a name for the custom section in the `Custom Section Title` field.
-  1. Start typing the name of an existing dashboard in the `Add a Dashboard` field, then click the dashboard when it displays in the list.
+  1. Type a name for the custom section in the **Custom Section Title** field.
+  1. Start typing the name of an existing dashboard in the **Add a Dashboard** field, then click the dashboard when it displays in the list.
 
      >[!TIP]
      >
      >You must build the dashboard before it appears in the list.
 
-  1. Click `Add new section`.
+  1. Click **Add new section**.
 
      The custom section appears at the bottom of the left panel.
 
-1. (Optional) To change the order of a section in the left panel, click the `Drag` icon ![](assets/drag-icon.png) to the left of a section and drag it up or down.
+1. (Optional) To change the order of a section in the left panel, click the **Drag** icon ![](assets/drag-icon.png) to the left of a section and drag it up or down.
 
    ![](assets/drag-section-350x301.png)
 
-1. (Optional) To close the left panel, click the `Collapse` icon ![](assets/left-panel-collapse-icon.png).
+1. (Optional) To close the left panel, click the **Collapse** icon ![](assets/left-panel-collapse-icon.png).
 
    >[!NOTE]
    >
-   >When you collapse the left panel, Workfront retains your preference even when you navigate to another Workfront object. To expand the left panel again, click the `Expand` icon ![](assets/left-panel-expand-icon.png).
+   >When you collapse the left panel, Workfront retains your preference even when you navigate to another Workfront object. To expand the left panel again, click the **Expand** icon ![](assets/left-panel-expand-icon.png).
 

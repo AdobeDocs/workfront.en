@@ -16,23 +16,23 @@ The Team capacity visualization shows the total amount of capacity a home team h
 
 The Team capacity visualization displays the volume of work assigned to the home team on a given day.
 
-* `Burnout`: When the darker blue fill color is above the dotted line, the home team has more work hours assigned to them than they can complete in the number of hours the team is available to work. This indicates that the team is overallocated and may be approaching burnout.
+* **Burnout**: When the darker blue fill color is above the dotted line, the home team has more work hours assigned to them than they can complete in the number of hours the team is available to work. This indicates that the team is overallocated and may be approaching burnout.
 
   ![](assets/team-capacity-over-capacity.png)
 
-* `Unchallenged`: When the darker blue fill color is below the dotted line, the home team has more hours available to work than the amount of work assigned to them. This indicates that the team is underallocated and may be unchallenged.
+* **Unchallenged**: When the darker blue fill color is below the dotted line, the home team has more hours available to work than the amount of work assigned to them. This indicates that the team is underallocated and may be unchallenged.
 
   ![](assets/team-capacity-under-capacity.png)
 
-* `Balance`: When the lighter or more transparent blue fill color is just above, just below, or at the dotted line, the home team has an amount of work hours assigned to them that they should be able to complete within their available work hours. This indicates that the team's workload is more balanced.
+* **Balance**: When the lighter or more transparent blue fill color is just above, just below, or at the dotted line, the home team has an amount of work hours assigned to them that they should be able to complete within their available work hours. This indicates that the team's workload is more balanced.
 
   ![](assets/team-capacity-at-capacity.png)
 
 Hovering over any point on the visualization shows the following details for a given day:
 
-* `Scheduled hours`: This is the number of planned hours of work the team needs to complete.
-* `Available hours`: This is the number of work hours the team is available to work.
-* `Capacity`: In addition to a capacity percentage, the designations At capacity, Under capacity, or Over capacity also display.
+* **Scheduled hours**: This is the number of planned hours of work the team needs to complete.
+* **Available hours**: This is the number of work hours the team is available to work.
+* **Capacity**: In addition to a capacity percentage, the designations At capacity, Under capacity, or Over capacity also display.
 
 Seeing this information helps you determine:
 
@@ -78,8 +78,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Team capacity visualization
 
-1. In the Global Navigation Bar,select **Analytics**.
-1. In the left panel, select `People`.
+1. In the Global Navigation Bar, select **Analytics**.
+1. In the left panel, select **People**.
 
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
@@ -111,8 +111,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 ## Video walk-through
 

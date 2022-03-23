@@ -22,7 +22,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -31,7 +35,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -65,11 +76,11 @@ You must have the following access to use the functionality in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If the template you want to access was not created by a you or member of your team, and is not public yet, you can ask the person who created and published it to share the template link with you.
-   >  * If you cannot find the public template that has been created by you, contact the administrator. It is possible that before approving your template, the administrator had renamed it.
-   >  
+   >   
+   >   
+   >   * If the template you want to access was not created by a you or member of your team, and is not public yet, you can ask the person who created and published it to share the template link with you.
+   >   * If you cannot find the public template that has been created by you, contact the administrator. It is possible that before approving your template, the administrator had renamed it.
+   >   
    >
 
 1. Click the template that you want to view.
@@ -78,18 +89,18 @@ You must have the following access to use the functionality in this article:
 
 You can edit any templates that are available in the Team templates tab.
 
-1. Click the `Templates` icon ![](assets/fusion-template-icon.png) in the side navigation menu.
-1. Click the `Team templates` tab.
-1. Click the `Private` tab.
+1. Click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Click the **Team templates** tab.
+1. Click the **Private** tab.
 1. Click the template you want to edit.
-1. Click `Edit` in the top-right corner
+1. Click **Edit** in the top-right corner
 
    or
 
    Click the template diagram.
 
 1. Make changes in the template. You can access all options that were available when creating the template. To see these options, see [Create new templates in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md). Then click the save icon at the very bottom of the page.
-1. Click the `Save` icon ![](assets/save-icon.png).
+1. Click the **Save** icon ![](assets/save-icon.png).
 
 >[!NOTE]
 >
@@ -101,13 +112,13 @@ You can only delete templates that are not yet approved. If you want to delete a
 
 Please note that once you delete a template, it cannot be restored. Team templates are available for all members of your team so before deleting a template we advise you to check if other team members do not need it.
 
-1. Click the `Templates` icon ![](assets/fusion-template-icon.png) in the side navigation menu.
-1. Click the `Team templates` tab.
-1. Click `Delete` next to the template name
+1. Click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+1. Click the **Team templates** tab.
+1. Click **Delete** next to the template name
 
    Or
 
-   Click the name of the template to go into the template. Click `Options` in the top right corner and select `Delete`.
+   Click the name of the template to go into the template. Click **Options** in the top right corner and select **Delete**.
 
-1. Click `Really?` to confirm the delete.
+1. Click **Really?** to confirm the delete.
 

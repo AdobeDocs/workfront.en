@@ -17,16 +17,16 @@ You can export Workfront Library asset metadata from the list view. Consider the
 
 ## Export metadata from the Workfront Library list view
 
-1. (Conditional) If you are in the grid view, click the `Show list view` icon ![](assets/list-view-icon.png)to switch to the list view.
+1. (Conditional) If you are in the grid view, click the **Show list view** icon ![](assets/list-view-icon.png)to switch to the list view.
 
 1. Filter for the assets you want to include in the metadata export. For information on how to filter, see [Filter content displayed in Workfront Library](../../workfront-library/content-management/basics/filter-content-displayed.md).
-1. Click the `Export CSV file` icon ![](assets/export-library-list-icon.png).
+1. Click the **Export CSV file** icon ![](assets/export-library-list-icon.png).
 
 1. When the export is complete, download the CSV file.
 
-   In the notification area, locate the notification regarding your Library export file. Click `Download`.
+   In the notification area, locate the notification regarding your Library export file. Click **Download**.
 
    Or
 
-   In your email, locate the email regarding your Library export file. Open it, then click `Download`.
+   In your email, locate the email regarding your Library export file. Open it, then click **Download**.
 

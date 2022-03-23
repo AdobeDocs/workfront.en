@@ -7,6 +7,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: GitLab modules
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+hidefromtoc: true
 ---
 
 # GitLab modules

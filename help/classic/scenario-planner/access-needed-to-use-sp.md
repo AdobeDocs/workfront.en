@@ -3,7 +3,7 @@
 # Access needed to use the Adobe Workfront Scenario Planner
 
 This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../scenario-planner/scenario-planner-overview.md). 
-Without correct access or `permissions`, you may not be able to view the Scenarios area of Adobe Workfront nor manage plans or initiatives for your organization.&nbsp;Managing plans and initiatives includes creating, editing, and deleting them.
+Without correct access or ```permissions```, you may not be able to view the Scenarios area of Adobe Workfront nor manage plans or initiatives for your organization.&nbsp;Managing plans and initiatives includes creating, editing, and deleting them.
 
 >[!IMPORTANT]
 >
@@ -24,9 +24,9 @@ You must ensure that the following conditions are all met before you can access 
 * Your organization must purchase a Workfront Scenario Planner license, in addition to a Workfront license.&nbsp;Contact your Workfront Account Representative to learn about Workfront Scenario Planner licenses. 
 * Your Workfront administrator must assign you a license of any of the following Workfront types:
 
-  * Plan
-  * Work
-  * Review
+   * Plan
+   * Work
+   * Review
 
   >[!NOTE]
   >
@@ -40,7 +40,7 @@ You must ensure that the following conditions are all met before you can access 
 * Your Workfront administrator must enroll you in the new Adobe Workfront experience.&nbsp;
 
   <!--
-  Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. For information about customizing the Main Menu in a layout template, see Customize the Main Menu using a layout template. For information about assigning users to a Layout Template, see Assign users to a layout template.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Your Workfront administrator must assign you a layout template that includes the Scenarios area in the Main Menu. </p> <p>For information about customizing the Main Menu in a layout template, see Customize the Main Menu using a layout template. </p> <p>For information about assigning users to a Layout Template, see Assign users to a layout template.</p> </li>
   -->
 
 * If you need to access plans you didn't create, a plan creator must give you the correct permissions to their plan to access it.&nbsp;For information about the permissions needed to access plans and initiatives that you didn't create, see the [Permissions needed to access plans and initiatives](#permissi) section in this article.

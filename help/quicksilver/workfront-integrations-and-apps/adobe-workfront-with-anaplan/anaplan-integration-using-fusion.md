@@ -4,6 +4,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Integrate with Anaplan using Adobe Workfront Fusion
 description: Adobe Workfront Fusion allows you to integrate Workfront with your Anaplan account. For example, you can create campaigns in Anaplan, then create a Workfront project or program linked to the campaign. Any costs tracked in Workfront can then be uploaded back to Anaplan to review campaign performance.
+hidefromtoc: true
 ---
 
 # Integrate with Anaplan using Adobe Workfront Fusion
@@ -23,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -32,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -128,7 +140,7 @@ Line Items
   </table>
 
   <!--
-  (Screenshot)
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span style="color: #ff0000;">(Screenshot)</span> </p>
   -->
 
 * Update Campaigns to Adobe Workfront
@@ -160,7 +172,7 @@ Line Items
   </table>
 
   <!--
-  (Screenshot)
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span style="color: #ff0000;">(Screenshot)</span> </p>
   -->
 
 #### Workfront Integration: Campaign Data by Role by Month
@@ -247,7 +259,7 @@ Target Object: Role List
 Source Object: WorkfrontUpdateLinkedProjects_HoursRoles.csv
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 #### (Import) Workfront integration: Campaign Hours by Role and Month
@@ -259,11 +271,11 @@ Target Object: Workfront Integration - Campaign Data by Role by Month
 Source Object: WorkfrontUpdateLinkedProjects_HoursRoles.csv
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 #### (Import) Workfront integration: Campaign Expense Actuals List
@@ -275,7 +287,7 @@ Target Object: Campaign Expenses C2 List
 Source Object: WorkfrontUpdateLinkedProjects_ActExpenses.csv
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 #### (Import) Workfront integration: Campaign Expense Actuals
@@ -287,11 +299,11 @@ Target Object: Workfront Integration - Campaign Expense Data Module
 Source Object: WorkfrontUpdateLinkedProjects_ActExpenses.csv
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 #### (Import) Workfront integration: Campaign Expense Planned
@@ -307,11 +319,11 @@ Target Object: Workfront Integration - Campaign Expense Data
 Source Object: WorkfrontUpdateLinkedProjects_PlannedExpenses.csv
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 (Import) Workfront integration: Update Campaign Details
@@ -323,11 +335,11 @@ Target Object: Workfront Integration - Campaign Details
 Source Object: WorkfrontUpdateLinkedProject.csv
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 <!--
-Screenshot
+<p style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Screenshot</p>
 -->
 
 ### Anaplan processes for Workfront

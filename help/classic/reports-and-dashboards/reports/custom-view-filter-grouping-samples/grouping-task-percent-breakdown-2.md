@@ -62,12 +62,12 @@ You must have the following access to perform the steps in this article:
 To apply this grouping:
 
 1. Go to a list of tasks.
-1. From the `Grouping` drop-down menu, select `New Grouping`.
+1. From the **Grouping**&nbsp;drop-down menu, select **New Grouping**.
 
-1. Click `Switch to Text Mode`.
-1. Remove the text in the `Group your Report` area.
+1. Click **Switch to Text Mode**.
+1. Remove the text&nbsp;in the **Group your Report** area.
 1. Replace&nbsp;the text with the following code:  
    <pre>group.0.linkedname=direct<br>group.0.name=Percent Breakdown<br>group.0.notime=false<br>group.0.valueexpression=IF({percentComplete}=0,"0 %",IF({percentComplete}<=11,"1-10 %",IF({percentComplete}<=21,"11-20 %",IF({percentComplete}<=31,"21-30 %",IF({percentComplete}<41,"31-40 %",IF({percentComplete}<51,"41-50 %",IF({percentComplete}<61,"51-60 %",IF({percentComplete}<71,"61-70 %",IF({percentComplete}<81,"71-80 %",IF({percentComplete}<91,"81-90 %",IF({percentComplete}<100,"91-99 %","100 %")))))))))))<br>textmode=true</pre>
 
-1. Click `Save Grouping`.
+1. Click **Save Grouping**.
 

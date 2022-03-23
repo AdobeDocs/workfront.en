@@ -167,7 +167,27 @@ The following table lists many of the icons in the new toolbar and indicates wha
    <td> <img src="assets/qs-gantt-chart-icon-in-new-toolbar.png"> </td> 
    <td>Gantt Chart</td> 
    <td> <p>Display the list in the Gantt Chart View.</p> <p>This is available only for projects and tasks.</p> </td> 
-  </tr> Filter drop-down menu Display a list of filters and additional options to manage filters, including creating one. On a small screen, the Filter name is replaced by the filter icon. A blue dot displays on the Filter icon when you apply any filter other than "All." For information about managing filters in new toolbar, see the Manage Filters, Views, and Groupings from the new toolbar section in this article. View drop-down menu Display a list of views and additional options to manage views, including creating one. On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard." For information about managing views in new toolbar, see the Manage Filters, Views, and Groupings from the new toolbar section in this article. Grouping drop-down menu Display a list of groupings and additional options to manage groupings, including creating one. On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing." For information about managing groupings in new toolbar, see the Manage Filters, Views, and Groupings from the new toolbar section in this article. Plan mode Choose whether you want to save the changes you make in a task list automatically or manually. For information about editing tasks in a list, see Edit tasks in a list. This is available only for tasks. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <img src="assets/qs-filter-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-filter-in-new-toolbar-with-blue-dot---small.png"> </p> </td> 
+   <td>Filter drop-down menu</td> 
+   <td> <p>Display a list of filters and additional options to manage filters, including creating one. </p> <p>On a small screen, the Filter name is replaced by the filter icon. A blue dot displays on the Filter icon when you apply any filter other than "All."</p> <p>For information about managing filters in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <img src="assets/qs-view-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-view-in-new-toolbar-with-blue-dot.png"> </p> </td> 
+   <td>View drop-down menu</td> 
+   <td> <p>Display a list of views and additional options to manage views, including creating one. </p> <p>On a small screen, the View name is replaced by the view icon. A blue dot displays on the View icon when you apply any view other than "Standard."</p> <p>For information about managing views in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <img src="assets/qs-grouping-in-new-toolbar-with-name.png"> <p> <img src="assets/qs-grouping-in-new-toolbar-with-blue-dot.png"> </p> </td> 
+   <td>Grouping drop-down menu</td> 
+   <td> <p>Display a list of groupings and additional options to manage groupings, including creating one. </p> <p>On a small screen, the Grouping name is replaced by the grouping icon. A blue dot displays on the Grouping icon when you apply any grouping other than "Nothing."</p> <p>For information about managing groupings in new toolbar, see the <a href="#new" class="MCXref xref">Manage Filters, Views, and Groupings from the new toolbar</a> section in this article.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <img src="assets/qs-autosave-icon-in-new-toolbar-for-tasks.png"> </td> 
+   <td> <p>Plan mode</p> </td> 
+   <td> <p>Choose whether you want to save the changes you make in a task list automatically or manually. </p> <p>For information about editing tasks in a list, see <a href="../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md" class="MCXref xref">Edit tasks in a list</a>. </p> <p>This is available only for tasks.</p> </td> 
+  </tr> 
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>Summary</td> 
@@ -195,7 +215,7 @@ This experience is identical between managing a filter, a view, or a grouping.
 For example, to manage a filter:
 
 1. Go to a list of projects, tasks, issues, portfolios, or programs.
-1. Find the `Filters` drop-down menu or the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) at the top of the list.
+1. Find the **Filters** drop-down menu or the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png) at the top of the list.
 
    If it has a blue dot in the upper-right corner, it indicates that a filter other than "All" is selected for the list.
 
@@ -205,7 +225,7 @@ For example, to manage a filter:
 
 1. Click the name of the filter or click the Filter icon ![](assets/qs-filter-in-new-toolbar-with-blue-dot---small.png).
 
-   The `Filters` box displays.
+   The **Filters** box displays.
 
    ![](assets/qs-manage-filters-in-the-new-toolbar-350x306.png)
 
@@ -213,21 +233,21 @@ For example, to manage a filter:
 
 1. In the filter box, do one of the following:
 
-  * Click `New Filter` to add a new filter.
+  * Click **New Filter** to add a new filter.
 
     The New Filter builder opens. For information about creating filters, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
   
-  * Mouse over any of the filters listed and click the `Edit icon` ![](assets/edit-icon.png).
+  * Mouse over any of the filters listed and click the **Edit icon** ![](assets/edit-icon.png).
 
-    The `Customize Filter` builder opens. Customizing filters is identical to creating them.
+    The **Customize Filter** builder opens. Customizing filters is identical to creating them.
   
-  * Mouse over any of the filters listed and click the `More menu` ![](assets/more-icon.png), then click  `Remove`.
+  * Mouse over any of the filters listed and click the **More menu** ![](assets/more-icon.png), then click&nbsp;**Remove**.
 
     The filter is removed from the list.
 
     or
 
-    Click `Share` and specify the names of the entities that you want to share the filter with, then click `Save`.
+    Click **Share** and specify the names of the entities that you want to share the filter with, then click **Save**.
 
     >[!TIP]
     >

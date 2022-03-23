@@ -53,8 +53,8 @@ You must have the following to perform the steps in this article:
    >
    >When you are satisfied with your layout template, we recommend that you test it, as described in [Testing a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md).
 
-1. Click `Assign this to` in the top section of the page.
-1. In the box that appears, click `Add a User, Job Role, Team, or Group`, start typing the name of a user, job role, team, or group, then click the name when it appears in the drop-down.
+1. Click **Assign this to** in the top section of the page.
+1. In the box that appears, click **Add a User, Job Role, Team, or Group**, start typing the name of a user, job role, team, or group, then click the name when it appears in the drop-down.
 
    Recently added names display with a blue background. This is helpful when you are editing an existing layout template because you can distinguish the names you have just added from those that were already in the list.
 
@@ -64,7 +64,7 @@ You must have the following to perform the steps in this article:
 
    You can assign up to 100 users at a time. 
 
-1. Click `Done`, then click `Save` in the lower-left corner.
+1. Click **Done**, then click **Save** in the lower-left corner.
 
    This step completes the process of creating and assigning a layout template.
 
@@ -79,16 +79,16 @@ You and other Workfront administrators can assign multiple different layout temp
 
 However, only one layout template is visible to the user at any given time.&nbsp;The template that is visible is determined by the following priority hierarchy:
 
-* `Individual user`: The layout template assigned to the person as an individual user overrides all others. You can override a previous assignment made so an individual user by making a new assignment; the most recent one takes precedence. 
-* `Primary job role`:&nbsp;If the person is not assigned a layout template as a single user, they see the&nbsp;template assigned for their primary job role.
+* **Individual user**: The layout template assigned to the person as an individual user overrides all others. You can override a previous assignment made so an individual user by making a new assignment; the most recent one takes precedence. 
+* **Primary job role**:&nbsp;If the person is not assigned a layout template as a single user, they see the&nbsp;template assigned for their primary job role.
 
   Only the layout template assigned to the primary job role of a user is visible to the user. Templates assigned to any secondary job roles held by the user are not visible.
 
-* `Home team`: If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, they see the template assigned to their Home team.
+* **Home team**: If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, they see the template assigned to their Home team.
 
   Only the template assigned to the Home team of a user is visible to the user. Templates assigned to other teams where the a user is a member are not visible.
 
-* `Home group`:&nbsp;If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, they see the template assigned to their Home group.
+* **Home group**:&nbsp;If the person is not assigned a layout template as an individual user, nor as a user with a primary job role, nor as a member of a Home team, they see the template assigned to their Home group.
 
   Only the template assigned to the Home group&nbsp;of a user is visible to the user. Templates assigned to any of their other groups are not visible.&nbsp;
 

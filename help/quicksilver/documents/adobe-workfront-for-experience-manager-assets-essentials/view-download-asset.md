@@ -47,7 +47,7 @@ You must have the following:
 
 1. Locate the document that you want to view or download. 
 1. From the document list, select the document. 
-1. In the Document Summary on the right, hover over the thumbnail at the top and choose `Preview` or `Download`.
+1. In the Document Summary on the right, hover over the thumbnail at the top and choose **Preview** or **Download**.
 
    ![](assets/preview-or-download-350x107.png)
 

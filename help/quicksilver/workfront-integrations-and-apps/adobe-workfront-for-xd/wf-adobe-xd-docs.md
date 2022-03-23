@@ -21,7 +21,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or Plan 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or Plan</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -47,21 +51,21 @@ You must have the following access to perform the steps in this article:
 
 ## Add a new document
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x627.png)
 
 1. Go to the work item where you want to upload a document. 
-1. Click the `Document` icon ![](assets/documents.png) in the navigation bar. 
+1. Click the **Document** icon ![](assets/documents.png) in the navigation bar. 
 
-1. Click `New File` near the bottom of the plugin.
+1. Click **New File** near the bottom of the plugin.
 1. Select the art board you wish to upload.
 
    >[!TIP]
    >
    >To select more than one art board, click and drag the mouse over the art boards you want.
 
-1. Choose the `Asset Type` from the drop-down menu:  
+1. Choose the **Asset Type** from the drop-down menu:  
 
    <table cellspacing="0">
     <col>
@@ -93,28 +97,28 @@ You must have the following access to perform the steps in this article:
    >
    >If you add an approver, the art board uploads to Workfront as a Proof.
 
-1. (Optional) Type a comment in the `Updates` area. 
-1. Click `Upload`.  
+1. (Optional) Type a comment in the **Updates** area. 
+1. Click **Upload**.  
    The document appears in the Documents area in the plugin and the desktop app.
 
 ## Add a new version
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x627.png)
 
 1. Go to the work item where you want to upload a document. 
-1. Click the `Document` icon ![](assets/documents.png)in the navigation bar. 
+1. Click the **Document** icon ![](assets/documents.png)in the navigation bar. 
 
 1. Click on the document you want to add a new version to.
-1. Click `New version` near the bottom of the plugin.
+1. Click **New version** near the bottom of the plugin.
 1. Select the art board you wish to upload.
 
    >[!NOTE]
    >
    >If you want to upload a new version of an svg, png, or jpg, you can upload only one art board.
 
-1. Choose the `Asset Type` from the drop-down menu:  
+1. Choose the **Asset Type** from the drop-down menu:  
 
    <table cellspacing="0">
     <col>
@@ -146,7 +150,7 @@ You must have the following access to perform the steps in this article:
    >
    >If you add an approver, the art board uploads to Workfront as a Proof.
 
-1. (Optional) Type a comment in the `Updates` area. 
-1. Click `Upload`.  
+1. (Optional) Type a comment in the **Updates** area. 
+1. Click **Upload**.  
    The document appears in the Documents area in the plugin and the desktop app.
 

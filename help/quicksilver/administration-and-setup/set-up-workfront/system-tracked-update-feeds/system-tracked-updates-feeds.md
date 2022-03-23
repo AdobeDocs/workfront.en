@@ -13,5 +13,6 @@ description: This section contains the following articles:
 This section contains the following articles:
 
 * [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md) 
-* [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
+* [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) 
+* Configure preferences for user updates
 

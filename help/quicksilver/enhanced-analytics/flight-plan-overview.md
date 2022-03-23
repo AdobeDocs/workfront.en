@@ -34,9 +34,9 @@ The Flight plan visualization shows the following project details:
 
 * **Actual condition**: The thick, colored line also shows the condition of a project at different moments in time. The color of the line changes depending on the condition of the project:
 
-  * `Green`: On Target
-  * `Orange`: At Risk
-  * `Red`: In&nbsp;Trouble
+  * **Green**: On Target
+  * **Orange**: At Risk
+  * **Red**: In&nbsp;Trouble
 
   ![](assets/actual-condition-color.png)
 
@@ -87,7 +87,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Flight plan visualization
 
-1. Click the Main Menu icon , thenselect **Analytics**.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -108,10 +108,10 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu in the upper-right corner of the Flight plan visualization, then select a new sorting option:
 
-  * `A - Z` 
-  * `Z - A` 
-  * `Planned completion date` 
-  * `Planned start date`
+  * **A - Z** 
+  * **Z - A** 
+  * **Planned completion date** 
+  * **Planned start date**
 
    All other visualizations on the page update to match your sorting selection.
 

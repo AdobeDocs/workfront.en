@@ -23,7 +23,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -32,7 +36,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -52,7 +63,7 @@ There are two kinds of filtering that can take place on an error handler route.
 
 You can use a filter to control which errors are handled by the error handler route. This allows you to process only specific types of errors. If an error does not pass through the filter, it will be treated as if there is no error handler route defined for the given module.
 
-` `**Example: **``  ![](assets/filter-error-handling-350x238.png)
+``` ```**Example: **``````  ![](assets/filter-error-handling-350x238.png)
 
 ### Adding a Router followed by filters to the error handler route
 
@@ -82,9 +93,9 @@ The complete scenario:
 1. The error handler route (transparent bubbles) contains a router to filter the errors
 1. The first route is for a specified type of error called Data Error as we know of it already:
 
-  1. If a Data Error takes place and the error details pass through the filter, the Dropbox > List all files/subfolders in a folder module lists all folders in Dropbox
-  1. The subsequent filter matches the folder names
-  1. The Resume directive specifies the folder ID and folder path of the existing folder and the scenario execution resumes from the Dropbox > Create a folder module but instead of trying to create a new folder, this time it uses the values from the Resume directive to move to the next module and upload the file in the existing folder
+   1. If a Data Error takes place and the error details pass through the filter, the Dropbox > List all files/subfolders in a folder module lists all folders in Dropbox
+   1. The subsequent filter matches the folder names
+   1. The Resume directive specifies the folder ID and folder path of the existing folder and the scenario execution resumes from the Dropbox > Create a folder module but instead of trying to create a new folder, this time it uses the values from the Resume directive to move to the next module and upload the file in the existing folder
 
 1. The second route is for all other errors and ends with the Rollback directive which results in stopping the scenario immediately
 
@@ -121,6 +132,6 @@ However, if an error does take place with this Dropbox module, then the executio
 That is a combination of filtering and nesting error handlers.
 
 <!--
-Watch this 4-part video course to learn all about error handling in less than 22 minutes
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Watch this 4-part video course to learn all about error handling in less than 22 minutes</p>
 -->
 

@@ -50,9 +50,9 @@ You must have the following access to perform the steps in this article:
 
 ### Limitations for deleting tasks
 
-* When a project has a status of Complete you can delete tasks only if your Workfront administrator `or a group administrator` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* When a project has a status of Complete you can delete tasks only if your Workfront administrator ```or a group administrator``` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* If the task has logged hours, the Workfront ` `or group administrator`` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance. This also applies when you try to delete projects that have tasks with hours logged on them.
+* If the task has logged hours, the Workfront ``` ```or group administrator`````` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance. This also applies when you try to delete projects that have tasks with hours logged on them.
 
   For more information about enabling the deletion of tasks where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -92,43 +92,48 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
 ### Delete multiple tasks in a project simultaneously
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Projects.
+1. Click **Projects**.
 1. Click the project name that contains the tasks you want to delete.
-1. Click Tasks in the left panel. 
+1. Click **Tasks** in the left panel. 
 1. Do one of the following:
 
-  1. (Conditional) When the `Autosave` toggle is enabled:
+  1. (Conditional) When the **Autosave** toggle is enabled:
 
-    1. Select the tasks you want to delete, then click `More`
-    1. Click `Delete`, then `Yes, Delete It` to confirm the deletion.
+    1. Select the tasks you want to delete, then click **More**
+    1. Click **Delete**, then **Yes, Delete It** to confirm the deletion.
 
        The tasks are deleted.
 
-  1. (Conditional) Click the Plan Mode icon and select Manual save if you want to reverse the changes you make to the task list.Do the following:
+  1. (Conditional) Click the **Plan Mode** icon and select **Manual save** if you want to reverse the changes you make to the task list. ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)  
+  
+     Do the following:
 
     1. Select the tasks you want to delete. 
-    1. Click `Delete`.
-    1. (Optional) Click `Undo` to reverse your change and not delete the tasks.
-    1. Click `Redo` if you want to keep the change and delete the task.
-    1. Click `Save` to delete the tasks.
+    1. Click **Delete**.
+    1. (Optional) Click **Undo** to reverse your change and not delete the tasks.
+    1. Click **Redo** if you want to keep the change and delete the task.
+    1. Click **Save** to delete the tasks.
 
        Tasks are deleted only after you save your changes.
 
 ### Delete a single task
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Projects. 
+1. Click **Projects**.  
 1. Click the project name that contains the task you want to delete.
-1. Click Tasks in he left panel.
+1. Click **Tasks** in he left panel.
 1. Click the name of the task you want to delete.
-1. Click the More icon in the upper-right corner. 
-1. Click `Delete Task`.
-1. If the deletion is allowed, click `Yes, Delete it`.
+1. Click the **More** icon ![](assets/qs-more-menu.png)in the upper-right corner.  
 
-   Your Workfront administrator `or group administrator` might not allow the deletion of tasks where hours are logged.
+   ![](assets/delete-tasks-task-level-nwe-350x225.png)
+
+1. Click **Delete Task**.
+1. If the deletion is allowed, click **Yes, Delete it**.
+
+   Your Workfront administrator ```or group administrator``` might not allow the deletion of tasks where hours are logged.
 
    For more information about the access and permissions needed to delete a task, see the section [Limitations for deleting tasks](#access-and-permissions-needed) in this article.
 

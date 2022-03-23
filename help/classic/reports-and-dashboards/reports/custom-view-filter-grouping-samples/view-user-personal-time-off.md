@@ -42,9 +42,10 @@ You must have the following access to perform the steps in this article:
 
 ## View user personal time off
 
-1. Click Reporting in your Global Navigation Area, then Reports > New Report. 
-1. From the drop-down menu, select `Time Off`.
-1. Click `Save + Close`.
+1. Click&nbsp;**Reporting** in your Global Navigation Area, then **Reports > New Report.** 
+
+1. From the drop-down menu, select **Time Off**.
+1. Click **Save + Close**.
 
    The report displays the following fields in the view by default:
 
@@ -55,10 +56,10 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Finish creating the report by editing any of the following tabs:
 
-  * Columns (View)
-  * Groupings
-  * Filters
-  * Chart
+   * Columns (View)
+   * Groupings
+   * Filters
+   * Chart
 
    For information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -67,46 +68,48 @@ You must have the following access to perform the steps in this article:
    >We recommend adding a grouping for the User object, to make the report easier to read.
 
 <!--
-Add Time Off information to a user report
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Add"></a>Add Time Off information to a user report</h2>
 -->
 
 <!--
-To add a column to a user view or report to display a list of future days which have been marked for time off by users:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To add a column to a user view or report to display a list of future days which have been marked for time off by users:</p>
 -->
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/time-off-report-350x61.png" alt="time_off_report.png" style="width: 350;height: 61;"> </p>
 -->
 
    <!--
-   Click Reporting in your Global Navigation Area, then Reports > New Report.
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Click&nbsp;<strong>Reporting</strong> in your Global Navigation Area, then <strong>Reports > New Report.</strong> </li>
    -->
 
    <!--
-   From the New Report drop-down menu, select User Report.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">From the&nbsp;<strong>New Report</strong> drop-down menu, select&nbsp;<strong>User Report</strong>.</li>
    -->
 
    <!--
-   Click Add Column.
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Add Column</strong>.</li>
    -->
 
    <!--
-   From the View drop-down menu, select New View.
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode">From the <strong>View</strong> drop-down menu, select <strong>New View</strong>.</li>
    -->
 
    <!--
-   Click the header of the new column, then click Switch to Text Mode.
+   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the header of the new column, then click<strong>Switch to Text Mode</strong>.</li>
    -->
 
    <!--
-   Mouse over the text mode area, and click Click to edit text.
+   <li value="6" data-mc-conditions="QuicksilverOrClassic.Draft mode">Mouse over the text mode area, and click <strong>Click to edit text</strong>.</li>
    -->
 
    <!--
-   Remove the text you find in the Text Mode box, and replace it with the following code: displayname=Personal Time Off listdelimiter=<span> listmethod=nested(reservedTimes).lists name=Upcoming Time Off stretch=0 textmode=true type=iterate valueexpression=IF({startDate}>$$TODAY,CONCAT({startDate}," - ",{endDate}),'') valueformat=HTML width=150
+   <li value="7" data-mc-conditions="QuicksilverOrClassic.Draft mode">Remove the text you find in the <strong>Text Mode</strong> box, and replace it with the following code:<br><!--
+   <pre data-mc-conditions="QuicksilverOrClassic.Draft mode">displayname=Personal Time Off<br>listdelimiter=<span><br>listmethod=nested(reservedTimes).lists<br>name=Upcoming Time Off<br>stretch=0<br>textmode=true<br>type=iterate<br>valueexpression=IF({startDate}>$$TODAY,CONCAT({startDate}," - ",{endDate}),'')<br>valueformat=HTML<br>width=150</pre>
+   --></li>
    -->
 
    <!--
-   Click Save+Close.
+   <li value="8" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Click <strong>Save</strong>+<strong>Close</strong>.</li>
    -->
 

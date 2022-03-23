@@ -30,7 +30,10 @@ You must have the following:
    <td role="rowheader">Product</td> 
    <td>You must have Experience Manager Assets Essentials.</td> 
   </tr> <!--
-   AEM assets permisson
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">AEM assets permisson</td> 
+    <td>&nbsp;</td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -52,8 +55,8 @@ You can link an asset from Experience Manager Assets Essentials to Workfront. On
 * [Proof a linked asset for Experience Manager Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md) 
 * [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md)
 
-1. Go to the `Documents` area in Workfront where you want to add the document.
-1. Select `Add New`, then select the Assets Essentials integration your administrator set up.
+1. Go to the **Documents** area in Workfront where you want to add the document.
+1. Select **Add New**, then select the Assets Essentials integration your administrator set up.
 
    >[!NOTE]
    >
@@ -63,14 +66,14 @@ You can link an asset from Experience Manager Assets Essentials to Workfront. On
 
    ![](assets/select-an-asset.png)
 
-1. Click `Select`.
+1. Click **Select**.
 
 ## Link a folder from Experience Manager Assets Essentials
 
 Permissions to view individual assets inside of a folder rely on Experience Manager Assets Essentials permissions.
 
-1. Go to the `Documents` area in Workfront where you want the folder.
-1. Select `Add New`, then select the Assets Essentials integration your administrator set up.
+1. Go to the **Documents** area in Workfront where you want the folder.
+1. Select **Add New**, then select the Assets Essentials integration your administrator set up.
 
    >[!NOTE]
    >
@@ -80,7 +83,7 @@ Permissions to view individual assets inside of a folder rely on Experience Mana
 
    ![](assets/select-a-folder.png)
 
-1. Click `Select`.
+1. Click **Select**.
 
 ## Link a new version from Experience Manager Assets Essentials
 
@@ -88,9 +91,9 @@ You can pull a new asset over from Assets Essentials and add it to an existing a
 
 To link a new version from Assets Essentials:
 
-1. Go to the `Documents` area in Workfront where you want to add the document.
+1. Go to the **Documents** area in Workfront where you want to add the document.
 1. Select the asset you want to replace with a new version. You can't create a new version of an asset in a linked folder. 
-1. Select `Add New` > `Version`, then select the Assets Essentials integration your administrator set up.
+1. Select **Add New** > **Version**, then select the Assets Essentials integration your administrator set up.
 
    >[!NOTE]
    >
@@ -100,9 +103,9 @@ To link a new version from Assets Essentials:
 
    ![](assets/select-an-asset.png)
 
-1. Click `Select`.
+1. Click **Select**.
 
 >[!TIP]
 >
->You can view all versions of an asset if you go to `Document Details` > `Versions`.
+>You can view all versions of an asset if you go to **Document Details** > **Versions**.
 

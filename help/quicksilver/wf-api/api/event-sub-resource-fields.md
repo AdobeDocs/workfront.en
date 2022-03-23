@@ -243,7 +243,112 @@ The following table lists the fields available for event subscription resources:
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td> <p>referenceNumber</p> </td> 
-  </tr> DocumentVersion DOCV activeProofStages documentID docSize entryDate enteredByID ext externalIntegrationType externalStorageID fileName fileType location proofedByUserID proofDeadlineDate proofDecision proofID proofName proofOwnerID proofPages proofProgress proofApprovalStatusID version 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>DocumentVersion</span> </td> 
+   <td><span>DOCV</span> </td> 
+   <td><span>activeProofStages</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>documentID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>docSize</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>entryDate</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>enteredByID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>ext</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>externalIntegrationType</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>externalStorageID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>fileName</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>fileType</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>location</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofedByUserID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofDeadlineDate</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofDecision</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofName</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofOwnerID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofPages</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofProgress</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofApprovalStatusID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>version</span> </td> 
+  </tr> 
   <tr> 
    <td>Expense</td> 
    <td>EXPNS</td> 
@@ -858,7 +963,32 @@ The following table lists the fields available for event subscription resources:
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>templateID</td> 
-  </tr> ProofApproval PRFAPL documentVersionID approverDecision approverID isAwaitingDecision proofCreationDate 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>ProofApproval</span> </td> 
+   <td><span>PRFAPL</span> </td> 
+   <td><span>documentVersionID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>approverDecision</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>approverID</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>isAwaitingDecision</span> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+   <td><span>proofCreationDate</span> </td> 
+  </tr> 
   <tr> 
    <td>Report</td> 
    <td>PTLSEC</td> 

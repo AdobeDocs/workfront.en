@@ -50,12 +50,12 @@ You must have the following to perform the steps in this article:
 
 ## View, work with, and create projects for your group from the Groups area
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create, view, or work with projects.
-1. In the left panel, click `Projects` ![](assets/projects-in-main-menu.png) to view a list of the projects associated with the group.
+1. In the left panel, click **Projects** ![](assets/projects-in-main-menu.png) to view a list of the projects associated with the group.
 
 1. Do any of the following:
 
@@ -71,7 +71,7 @@ You must have the following to perform the steps in this article:
       <td role="rowheader"> <p>Create a new project for the group</p> </td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Click <span class="bold">New Project</span>, then select an option in the drop-down menu to indicate how you want to create it. </p> <p>For more information, see the section <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Ways to create projects</a> in the article <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li> 
+        <li value="1"> <p>Click <strong>New Project</strong>, then select an option in the drop-down menu to indicate how you want to create it. </p> <p>For more information, see the section <a href="../../../manage-work/projects/create-projects/create-project.md#ways-to-create-projects" class="MCXref xref">Ways to create projects</a> in the article <a href="../../../manage-work/projects/create-projects/create-project.md" class="MCXref xref">Create a project</a>.</p> </li> 
         <li value="2">Type a name for the project and configure it, as explained in <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</li> 
        </ol> <p> Project preferences that are set for the group affect all projects that you create in the Groups area. For more information, see <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md" class="MCXref xref">Configure project preferences for a group</a>.</p> </td> 
      </tr> 

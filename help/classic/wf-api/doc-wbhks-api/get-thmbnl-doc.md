@@ -25,4 +25,4 @@ GET /thumbnail
 
 The raw thumbnail bytes.
 
-` `**Example: **``:&nbsp;https://www.acme.com/api/thumbnail?id=123456
+``` ```**Example: **``````:&nbsp;https://www.acme.com/api/thumbnail?id=123456

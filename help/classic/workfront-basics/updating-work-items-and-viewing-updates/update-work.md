@@ -12,8 +12,8 @@ You can add an update on a Adobe Workfront object (project, task, or issue) to c
 
 You&nbsp;can add updates to an object from the following areas of Workfront:
 
-* From a Workfront object, in the Updates tab
-* From the Home or My Work area (for tasks and issues)
+* From a Workfront object, in the Updates  tab 
+* From the Home  or My&nbsp;Work  area (for tasks and issues)
 * From the timesheet (for tasks and issues)
 
 ## Access requirements
@@ -49,14 +49,14 @@ You must have the following access to perform the steps in this article:
 
 ## Add an update to a work item
 
-1. Go to the work item for which you want to provide an update (such as a project, `task,` or `issue).`
+1. Go to the work item for which you want to provide an update (such as a project, ```task,``` or ```issue).```
 
-1. Click the `Updates` tab.
-1. Click `Start a new update,` then type your update.  
+1. Click the **Updates** tab .
+1. Click **Start a new update,** then type your update.  
 
-1. (Optional) To add rich text formatting to your update, use any attributes on the `Rich Text`toolbar as you type.
+1. (Optional) To add rich text formatting to your update, use any attributes on the **Rich Text**toolbar as you type.
 
-   | `Attribute`  | `Toolbar Button`  | `Mac Shortcut Keys`  | `PC Shortcut Keys`  |
+   | **Attribute** |**Toolbar Button** |**Mac Shortcut Keys** |**PC Shortcut Keys** |
    |---|---|---|---|
    | Bold | ![mceclip10.png](assets/mceclip10.png)
 
@@ -76,22 +76,25 @@ You must have the following access to perform the steps in this article:
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)
 
    |⌘+Shift+7 |&nbsp;Ctrl+Shift+7 |
+   | Block Quote | ![](assets/block-quote-icon-large.png)
 
-   To stop formatting text, deselect the attribute on the `Rich Text` toolbar.
+   |⌘+Shift+9 |Ctrl+Shift+9 |
+
+   To stop formatting text, deselect the attribute on the **Rich Text** toolbar.
 
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Formatting also displays in any email notification users receive containing your update.
-   >  * Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
-   >    If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
-   >  * Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >  
+   >   
+   >   
+   >   * Formatting also displays in any email notification users receive containing your update.
+   >   * Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.  
+   >     If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
+   >   * Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
+   >   
    >
 
-1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the `Block Quote` icon ![](assets/block-quote-(small).png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the `Block Quote` icon again to return to normal formatting.
+1. (Optional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-(small).png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting.
 
    ![](assets/block-quote-marked-350x144.png)
 
@@ -100,41 +103,41 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * Workfront does not replace punctuation emoticons such as :) with emojis.
-   >  * Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
-   >  * The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
-   >  * An unsupported emoji is represented by a black or white box.
-   >  * Windows 7 supports only black and white emojis.  
-   >  * Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
-   >  
+   >   
+   >   
+   >   * Workfront does not replace punctuation emoticons such as :) with emojis.
+   >   * Emojis are not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
+   >   * The emoji feature in Workfront utilizes Unicode characters and, as such, displays only on browsers and operating systems that support Unicode code points. Users on a platform, browser, or operating system version different than yours might not have access to the same emojis.
+   >   * An unsupported emoji is represented by a black or white box.
+   >   * Windows 7 supports only black and white emojis.  
+   >   * Emojis that are applied to an update made via email do not display on the update when viewed in the Updates area.
+   >   
    >
 
 1. (Optional) To add a URL link to additional information sources:
 
-  1. Click in your update where you want to insert a link.
-  1. On the `Rich Text` toolbar, click the `Hyperlink`icon. ![](assets/link-icon.png)  
+   1. Click in your update where you want to insert a link.
+   1. On the **Rich Text** toolbar, click the **Hyperlink**icon. ![](assets/link-icon.png)  
 
-  1. In the `Create Link` box that appears, under `URL`, type or paste the URL of the source to which you want to link.
-  
-  1. Under `Text to display`, type or paste the link text.
-  1. Click `Save`.
-     If you include a URL in your update, the system truncates it to preserve space. Anyone who wants to see the full URL can click the More icon to the right of the update, then click Show full URL in the menu that appears.
+   1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
+   
+   1. Under **Text to display**, type or paste the link text.
+   1. Click **Save**.
+      If you include a URL in your update, the system truncates it to preserve space. Anyone who wants to see the full URL can click the More icon ![](assets/more-icon.png) to the right of the update, then click **Show full URL** in the menu that appears.
 
-1. (Optional) To insert a Zoom meeting URL in your update, click the `Zoom` icon ![](assets/zoom-icon-updates.png).
+1. (Optional) To insert a Zoom meeting URL in your update, click the **Zoom** icon ![](assets/zoom-icon-updates.png).
 
    The recipients that you notify can join the meeting after they receive their instant notification in Workfront or via email. For more information on notifying users, see the Notify section below.
 
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * The Zoom integration is available only if your Workfront administrator enabled it, as explained in [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
-   >  * The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
-   >  * Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
-   >  
+   >   
+   >   
+   >   * The Zoom integration is available only if your Workfront administrator enabled it, as explained in [Install the Zoom integration](../../administration-and-setup/configure-integrations/enable-zoom-integration.md).
+   >   * The first time you use this integration, you need to follow the prompts requesting you to connect Zoom to Workfront. You need to do this only once.
+   >   * Although the integration uses your Zoom account, the Zoom meeting ID that you add to your update is a unique meeting URL, not your personal Zoom meeting room URL.
+   >   
    >
 
 1. (Optional) Specify any of the following items:
@@ -170,7 +173,7 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Update` to add the update to the Workfront object.
+1. Click **Update** to add the update to the Workfront object.
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
 ## Copy update information
@@ -186,7 +189,7 @@ There are several ways you can copy an update. After copying a link, you can sha
 This option copies the text from a specific update to the clipboard.
 
 1. Go to the update or reply you want to copy.
-1. Click the `More` menu, then click `Copy body text`.
+1. Click the **More** menu, then click **Copy body text**.
 
    ![Select Copy body text](assets/update-stream-copy-body-text-350x152.png)
 
@@ -195,7 +198,7 @@ This option copies the text from a specific update to the clipboard.
 This option copies the full thread link to the clipboard so you can share the thread with other users.
 
 1. Go to the update thread you want to copy.
-1. Click the `More` menu, then click `Copy thread link`.
+1. Click the **More** menu, then click **Copy thread link**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
@@ -204,7 +207,7 @@ This option copies the full thread link to the clipboard so you can share the th
 This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
 
 1. Go to the update or reply you want to copy.
-1. Click the `More` menu next to the individual update, then click `Copy update link`. .
+1. Click the **More** menu next to the individual update, then click **Copy update link**. .
 
    ![](assets/update-stream-reply-menu-marked-350x182.png)
 
@@ -215,30 +218,30 @@ Depending on the access&nbsp;your Workfront administrator gives you, you might b
 No Workfront user (including the Workfront administrator) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the Workfront administrator can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Go to the update or reply you want to delete.
-1. Click the `More` menu next to the update or reply you wish to delete, then click `Delete`.
+1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**.
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 
-1. In the message that appears, click `Confirm`.
+1. In the message that appears, click **Confirm**.
 
 ## Add an update on a Timesheet
 
 1. Go to a Timesheet on which you want to make an update.
 1. Click the Timesheet to open it.
-1. At the bottom of the Timesheet, click `Include a comment`.
+1. At the bottom of the Timesheet, click **Include a comment**.
 1. In the box that displays at the bottom of the Timesheet, type an update.
 
    ![timesheet_update_stream.png](assets/timesheet-update-stream-350x50.png)
 
-1. (Conditional)To save your update without submitting the Timesheet for approval, click `Save for Later`.
+1. (Conditional)To save your update without submitting the Timesheet for approval, click **Save for Later**.
 
    Or
 
-   To save your update and submit the Timesheet for approval, click `Submit for Approval`.
+   To save your update and submit the Timesheet for approval, click **Submit for Approval**.
 
    Or
 
-   If your Timesheet is not set up with an approver, click `Save and Close Timesheet` to save your update.
+   If your Timesheet is not set up with an approver, click **Save and Close Timesheet** to save your update.
 
    For information about the additional functionality available when adding an update, see [Update work](#).
 
@@ -246,23 +249,23 @@ No Workfront user (including the Workfront administrator) can delete updates mad
 
 The Updates tab for a Workfront object displays two types of information:
 
-* `User updates:` User updates are comments that you and other users in your system enter.
+* **User updates:** User updates are comments that you and other users in your system enter.
 
   ![](assets/user-update-cl-350x277.png)
 
-* `System updates:` System updates record removing assets, adding or deleting versions, attaching or removing an approval request, as well as any edits or changes made to the documents on the object.
+* **System updates:** System updates record removing assets, adding or deleting versions, attaching or removing an approval request, as well as any edits or changes made to the documents on the object.
 
   ![](assets/system-updates-cl-350x277.png)
 
 Depending on your Workfront license, system updates might be enabled&nbsp;by default. Workfront administrators can determine what is tracked in system updates,&nbsp;as explained in [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md). You can also filter out&nbsp;system updates or activities so that you see&nbsp;only user updates for all objects.
-Note: You cannot disable system updates on a user's homepage. To learn more about the user homepage, see Send direct messages to other users. 
-
-For more information about the difference between user and system updates, see [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+``` ```**Note: **``````You cannot disable system updates on a user's homepage. To learn more about the user homepage, see [Send direct messages to other users](../../people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md). For more information about the difference between user and system updates, see [System-tracked updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 To enable or disable system updates:
 
-1. Click the `Updates` tab on an&nbsp;object.
-1. Click `Show System Updates` to slide the switch left (disabled) or right (enabled).
+1. Click the **Updates** tab on an&nbsp;object.
+1. Click **Show System Updates** to slide the switch left (disabled) or right (enabled).
+
+   ![](assets/mceclip0-124x26.png)
 
    This option&nbsp;is persistent across all objects throughout Workfront and remains in the position you select, even if you log out of Workfront.
 

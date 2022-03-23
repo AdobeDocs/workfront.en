@@ -44,8 +44,9 @@ You must have the following:
 ## Create a Routing Rule
 
 1. Go to the project which you want to add the routing rules for your requests. 
-1. Click Routing Rules in the left panel. You might need to click Show More, then Routing Rules. 
-1. Click `New Routing Rules`&nbsp;to add the new rule.&nbsp; 
+1. Click **Routing Rules** in the left panel. You might need to click **Show More**, then&nbsp;**Routing Rules**. 
+
+1. Click **New Routing Rules**&nbsp;to add the new rule.&nbsp; 
 1. Specify the following information for the Routing Rule:
 
    <table cellspacing="0"> 
@@ -59,23 +60,23 @@ You must have the following:
     </thead> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Name</span> </td> 
+      <td role="rowheader"><strong>Name</strong> </td> 
       <td> <p>The name of the&nbsp;Routing Rule. You can see the Routing Rule if you have access to see this information on the project.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>Add a description for the Routing Rule.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Default Assignee*</span> </td> 
+      <td role="rowheader"><strong>Default Assignee*</strong> </td> 
       <td>Add an active user or an <span data-mc-edit-date="2021-05-27T11:52:45.4165986-04:00" data-mc-editor="alinawilson" data-mc-comment="yellow" data-mc-initials="AL" data-mc-creator="alinawilson" data-mc-create-date="2021-05-25T13:04:12.7687137-04:00">active</span> job role&nbsp;to whom the new issues should be assigned. You can only have one default assignee in this field. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Default Team*</span> </td> 
+      <td role="rowheader"><strong>Default Team*</strong> </td> 
       <td>Add an active team to whom the new issue should be assigned. You can only have one team assigned to the issue. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Route to Project</span> </td> 
+      <td role="rowheader"><strong>Route to Project</strong> </td> 
       <td>This is the project where the issue is added.</td> 
      </tr> 
     </tbody> 
@@ -83,11 +84,11 @@ You must have the following:
 
    >[!NOTE]
    >
-   >&#42;If a user, `job role`, or team are deactivated after they are associated with a routing rule, the requests continue to be routed to them. You must periodically take an inventory of all routing rules and replace deactivated assignments with active ones.
+   >&#42;If a user, ```job role```, or team are deactivated after they are associated with a routing rule, the requests continue to be routed to them. You must periodically take an inventory of all routing rules and replace deactivated assignments with active ones.
 
    When you route an issue to a project, users with permissions on the issue receive the permissions set on that project. For information about setting permissions on projects, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-1. Select `Save`&nbsp;when done.  
-   This process only defines the Routing Rule. To ensure that the issue is routed when it is submitted to the Request Queue, you must select the routing rule on the `Queue Details` tab under  `Default Route`. For information about adding a Default Route to a Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).  
+1. Select**Save**&nbsp;when done.  
+   This process only defines&nbsp;the Routing Rule. To ensure that the issue is routed when it is submitted to the Request Queue, you must&nbsp;select the routing&nbsp;rule&nbsp;on the **Queue Details** tab under&nbsp;**Default Route**. For information about adding a Default Route to a Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).  
    If you want to associate multiple routing rules with the Request Queue, you must create multiple Queue Topics and associate each one with a separate Routing Rule. For more information about creating a queue topic, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 

@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Review a video proof
 description: You can review a video proof that someone shared with you or that you created.
+hidefromtoc: true
 ---
 
 # Review a video proof
@@ -42,7 +43,7 @@ You must have the following access to perform the steps in this article:
 ## Open and work with a video proof
 
 1. Go to the document list that contains the video proof you want to open.
-1. Hover over the document, then click  `Open proof`.
+1. Hover over the document, then click&nbsp;**Open proof**.
 
    You can proof video content in the Web Proofing Viewer or the Desktop Proofing Viewer. The viewer that opens depends on how your Adobe Workfront administrator has configured your organization's proofing viewers.
 
@@ -88,14 +89,14 @@ You can adjust the unit of measurement that is used in the video timeline. You c
 
 ## Measure an area within a proof
 
-1. Click the `Measure an area` icon at the top of the proofing viewer.
+1. Click the **Measure an area** icon at the top of the proofing viewer.
 
    ![](assets/measuring-tool-video-350x135.png)
 
-1. (Optional) Click  `Measurement markup color` to expand the color options, then click a color and `Opacity` that is easy to see on your proof.
+1. (Optional) Click&nbsp;**Measurement markup color**&nbsp;to expand the color options, then click a color and **Opacity** that is easy to see on your proof.
 
    <!--
-
+   <img src="assets/selection-color-350x330.png" style="width: 350;height: 330;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    -->
 
    The default measurement tool color is red.
@@ -104,7 +105,7 @@ You can adjust the unit of measurement that is used in the video timeline. You c
 
 1. Drag the measurement window to the area of the proof you need to measure.
 1. Drag the corners or edges of the measurement window to resize it.
-1. (Optional) If you need the measurement area to be an exact size, type `Selection size` values.
+1. (Optional) If you need the measurement area to be an exact size, type **Selection size** values.
 1. (Optional) If you need to measure a certain percentage within an area, check the calculate percentage box. A new box appears allowing you to adjust it
 
 ## Control video playback
@@ -117,18 +118,18 @@ You can adjust the unit of measurement that is used in the video timeline. You c
 
 You can adjust the playback speed of the video proof. You can select to view the video between a quarter speed, to double speed.
 
-1. In the lower-right corner of the proofing viewer, click the `Settings` icon.
+1. In the lower-right corner of the proofing viewer, click the **Settings** icon.
 
    ![phq_viewer_video_playbackspeed__2_.png](assets/phq-viewer-video-playbackspeed--2-.png)
 
 1. Click the current speed, then select a new playback speed.  
-1. Click the `Play` button on the video to test the new speed.
+1. Click the **Play** button on the video to test the new speed.
 
 ### View video frame-by-frame
 
 For a more detailed look at the video proof, you can manually review&nbsp;the video frame-by-frame.
 
-1. At the bottom of the proofing viewer, click the `Forward` and `Back` arrows to review the video frame-by-frame.
+1. At the bottom of the proofing viewer, click the **Forward**&nbsp;and **Back** arrows to review the video frame-by-frame.
 
 1. (Optional) Change the timeline to measure by frame, as described in&nbsp; [Change the unit of measurement of the timeline](#changing-the-unit-of-measurement-of-the-timeline).&nbsp;
 
@@ -136,29 +137,29 @@ For a more detailed look at the video proof, you can manually review&nbsp;the vi
 
 You can control the volume in the video playback.
 
-1. In the lower-right corner of the proofing viewer, mouse over the `Volume` icon, then drag the slider to select a new volume.
+1. In the lower-right corner of the proofing viewer, mouse over the **Volume** icon, then drag the slider to select a new volume.
 
    ![](assets/phq-viewer-volume.png)
 
    Or
 
-   Click the `Volume` icon to mute and unmute the volume.
+   Click the **Volume** icon to mute and unmute the volume.
 
 ## Enable video loop
 
 You can configure the video to continuously loop (the video begins playing again after it finishes).&nbsp;
 
-1. In the lower-right corner of the proofing viewer, click the `Settings` icon.
+1. In the lower-right corner of the proofing viewer, click the **Settings** icon.
 
    ![phq_viewer_video_playbackspeed__3_.png](assets/phq-viewer-video-playbackspeed--3-.png)
 
-1. Enable the `Loop` option.
+1. Enable the **Loop** option.
 
 ## Use full-screen mode
 
 You can configure videos to occupy more space on the screen and eliminate other distractions such as the header and comment area.
 
-1. In the lower-right corner of the proofing viewer, click the `Full Screen` icon.
+1. In the lower-right corner of the proofing viewer, click the **Full Screen** icon.
 
    ![](assets/phq-viewer-video-fullscreen.png)
 
@@ -172,15 +173,15 @@ You can adjust the zoom percentage when viewing a video proof. When viewing a pr
 
 1. While viewing a video proof in the proofing viewer, do any of the following to adjust the zoom percentage of the proof (see also the shortcuts for these actions in [Keyboard shortcuts in the Workfront Proof proofing viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)):
 
-  * Click the `Zoom` icon, then either click on the proof to zoom in, or drag across an area of the proof to zoom in only on that area. You can click the proof multiple times to continue zooming in.  
-    ![Video_pan_zoom_percentage_icon.png](assets/video-pan-zoom-percentage-icon-350x203.png)
+   * Click the **Zoom** icon, then either click on the proof to zoom in, or drag across an area of the proof to zoom in only on that area. You can click the proof multiple times to continue zooming in.  
+     ![Video_pan_zoom_percentage_icon.png](assets/video-pan-zoom-percentage-icon-350x203.png)
 
-  * Click the current zoom percentage, the click the zoom percentage or click  `Fit to page`.  
-  
-  * Click the `Plus` or `Minus` icons to increase or decrease the zoom percentage.  
-    ![video_pan_zoom_click_percentage_box.png](assets/video-pan-zoom-click-percentage-box-350x213.png)
+   * Click the current zoom percentage, the click the zoom percentage or click&nbsp;**Fit to page**.  
+   
+   * Click the **Plus** or **Minus** icons to increase or decrease the zoom percentage.  
+     ![video_pan_zoom_click_percentage_box.png](assets/video-pan-zoom-click-percentage-box-350x213.png)
 
-1. If you need to pan the proof, click the `Pan` icon, then drag the proof as needed.  
+1. If you need to pan the proof, click the **Pan** icon, then drag the proof as needed.  
    ![video_pan_zoom_pan_hand.png](assets/video-pan-zoom-pan-hand-350x216.png)
 
 ## Print a proof summary

@@ -40,11 +40,11 @@ You must have the following to perform the steps in this article:
 
 For information about editing the system statuses or creating new custom statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Project Preferences` > `Statuses`.
+1. Click **Project Preferences** > **Statuses**.
 
-1. Click the `Tasks` tab.
+1. Click the **Tasks** tab.
 
    The tasks statuses available in Workfront are listed on this tab.
 

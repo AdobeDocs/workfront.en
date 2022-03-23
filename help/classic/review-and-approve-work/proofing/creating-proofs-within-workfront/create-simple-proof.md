@@ -32,14 +32,14 @@ You must have the following:
 ## Create a simple proof
 
 1. Go to the project, task, or issue where you want to create a new proof.
-1. Click the `Documents`&nbsp;tab.
-1. Click `Documents` ![](assets/document-icon.png) in the left panel.
+1. Click the **Documents**&nbsp;tab.
+1. Click **Documents** ![](assets/document-icon.png) in the left panel.
 
-1. Click  `Add New`, then click `Proof` in the menu that appears.
+1. Click&nbsp;**Add New**, then click **Proof** in the menu that appears.
 
    >[!TIP]
    >
-   >You can enable the `Automatically generate proofs when uploading documents` setting in your user profile to automate this process. For more information, see [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+   >You can enable the **Automatically generate proofs when uploading documents** setting in your user profile to automate this process. For more information, see [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
 
-1. In the `New proof` page that appears, continue with [Add files](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#add-files) in [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md).
+1. In the **New proof** page that appears, continue with [Add files](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#add-files) in [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md).
 

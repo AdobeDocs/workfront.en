@@ -8,13 +8,13 @@ There are some limitations to be aware of when communicating with people outside
 
 There are three types of contacts that exist in a proofing environment:
 
-* `Users`: Users have a Workfront Proof login in your organization's environment.
-* `Members`: Members have their own Workfront Proof login in another organization's environment(not your own). You cannot convert members to users in your environment.
-* `Guests`: Guests do not have their own Workfront Proof login in your organization's environment, but you have added their details to your account (for example, guest reviewers on proofs). You can convert guests to users.
+* **Users**: Users have a Workfront Proof login in your organization's environment.
+* **Members**: Members have their own Workfront Proof login in another organization's environment(not your own). You cannot convert members to users in your environment.
+* **Guests**: Guests do not have their own Workfront Proof login in your organization's environment, but you have added their details to your account (for example, guest reviewers on proofs). You can convert guests to users.
 
 Because Members can't be converted to users, their ability to tag people in proof comments is limited to users from *their original organization*.
 
-` `**Example: **``Company A invites an outside user to review a proof. This user already exists in separate proof environment, Company B.
+``` ```**Example: **``````Company A invites an outside user to review a proof. This user already exists in separate proof environment, Company B.
 
 &nbsp;
 

@@ -18,12 +18,12 @@ For information about the release time frame and all functionality available wit
   <tr> 
    <td> <h3><a name="Add2"></a>Add a filter to a Typeahead field in a custom form</h3> <p>Now, when you add a Typeahead field to a custom form, you can add a filter to limit the objects that are available when someone uses the field. For example, you could limit the field so that the user can select only members of the Marketing and Sales teams in your organization.</p> <p>For more information, see the section Create and add a new field in the article Creating Custom Forms.</p> 
     <div class="workfront_plans"> 
-     <p><span class="bold">Available in these environments:</span> </p> 
+     <p><strong>Available in these environments:</strong> </p> 
      <ul> 
       <li>Workfront Classic</li> 
       <li>The new Workfront experience</li> 
      </ul> 
-     <p><span class="bold">Production release:</span> </p> 
+     <p><strong>Production release:</strong> </p> 
      <ul> 
       <li> October 18, 2019</li> 
      </ul> 
@@ -39,12 +39,12 @@ For information about the release time frame and all functionality available wit
      <p>Previously, to change the display type of a custom field, you had to create a new field and delete the old one. This required transferring data, which was often time consuming.</p> 
      <p>For more information, see <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a></p> 
      <div class="workfront_plans"> 
-      <p><span class="bold">Available in these environments:</span> </p> 
+      <p><strong>Available in these environments:</strong> </p> 
       <ul> 
        <li>Workfront Classic</li> 
        <li>The new Workfront experience</li> 
       </ul> 
-      <p><span class="bold">First available in Preview:</span> </p> 
+      <p><strong>First available in Preview:</strong> </p> 
       <ul> 
        <li>August 9, 2019</li> 
       </ul> 
@@ -59,12 +59,12 @@ For information about the release time frame and all functionality available wit
      <h3><a name="Create"></a>Create time off calendars and reports</h3> 
      <p>You can now see user’s time off for better planning and execution. You can also add new time off reports and calendars to your dashboards for a real-time view of user availability.</p> 
      <div class="workfront_plans"> 
-      <p><span class="bold">Available in these environments:</span> </p> 
+      <p><strong>Available in these environments:</strong> </p> 
       <ul> 
        <li>Workfront Classic</li> 
        <li>The new Workfront experience</li> 
       </ul> 
-      <p><span class="bold">First available in Preview:</span> </p> 
+      <p><strong>First available in Preview:</strong> </p> 
       <ul> 
        <li>August 9, 2019</li> 
       </ul> 

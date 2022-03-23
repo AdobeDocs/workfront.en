@@ -36,7 +36,7 @@ Depending on your access level, you can access content in the following areas of
 
 For more information on the areas in Workfront Library, see [Get started with Workfront Library](../../../workfront-library/content-management/basics/get-started-with-library.md).
 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 
    ![](assets/library-left-panel---new-350x217.png)
 

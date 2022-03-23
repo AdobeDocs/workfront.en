@@ -30,7 +30,19 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
-  </tr> Proof role Author, Moderator Proof Permission Profile Supervisor or Administrator Access level configurations* Edit access to Documents For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Proof role</td> 
+   <td>Author, Moderator</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Proof Permission Profile </td> 
+   <td>Supervisor or Administrator</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>For information on requesting additional access, see <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -54,11 +66,11 @@ To tag someone and share a proof in a comment:
 
    >[!TIP]
    >
-   >If you want to close the drop-down list without selecting anyone, you can press the `Esc` key or click anywhere outside the list.
+   >If you want to close the drop-down list without selecting anyone, you can press the **Esc** key or click anywhere outside the list.
 
 1. Repeat steps 1-2 for any other users you want to tag in the comment.
-1. Finish the comment, then click `Post`.
-1. (Conditional) If you tagged anyone who was not already added to the proof, specify a `Proof role` and `Email alerts` setting for each user listed in the box that appears, then click `Add people and post comment`.
+1. Finish the comment, then click **Post**.
+1. (Conditional) If you tagged anyone who was not already added to the proof, specify a **Proof role** and **Email alerts** setting for each user listed in the box that appears, then click **Add people and post comment**.
 
    ![](assets/add-people-to-proof-350x220.png)
 
@@ -68,7 +80,7 @@ To tag someone and share a proof in a comment:
 
    Anyone you tag receives a notification email about your proof comment, regardless of the proof email alert settings they are using:
 
-  * If the user&nbsp;receives a daily summary or hourly summary email, Workfront sends the notification separately and includes information about your proof comment in the summary email.
-  * If the user receives alerts for all activity, or for replies made to their comments, the notification replaces the notifications about these comments and replies.
+   * If the user&nbsp;receives a daily summary or hourly summary email, Workfront sends the notification separately and includes information about your proof comment in the summary email.
+   * If the user receives alerts for all activity, or for replies made to their comments, the notification replaces the notifications about these comments and replies.
 
 For information about other ways to add users to a proof, see [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).

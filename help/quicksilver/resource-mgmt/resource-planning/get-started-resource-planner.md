@@ -184,7 +184,32 @@ You can locate the Resource Planner in two areas of Workfront, depending on whet
 For information about locating the Resource Planner, see [Locate the Resource Planner in Adobe Workfront](../../resource-mgmt/resource-planning/locate-resource-planner.md).
 
 <!--
-Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources. For information about the prerequisites that must be met before you can start using the Resource Planner, see the Prerequisites for working in the Resource Planner section in this article. You can locate the Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project. Use the Resource Planner for multiple projects Use the Resource Planner for one project Use the Resource Planner for multiple projects When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects. To access the Planner section in the Resourcingarea: Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Resourcing. The Planner displays by default. For information about budgeting resources in the Planner, see the article Budget resources in the Resource Planner using the Project and Role views. Hover over the left panel, and click Resource Pools. For information about creating new resource pools, see Create resource pools in Adobe Workfront. Use the Resource Planner for one project When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. Go to a project you want to budget resources for. Click Business Case in the left panel. Scroll to the Resource Budgeting section of the Business Case. Click Edit Resource Budgeting to add resource pools to your project and start budgeting your resources. Tip: You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a resource pool, the users in the pool and their job roles display in the Resource Budgeting area by default. For information about budgeting resources for one project, see the article Budget resources in the Business Case.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>Ensure that all prerequisites are met before starting to use the Resource Planner. This way, you ensure that the Resource Planner displays the correct information before you start budgeting your resources.<br>For information about the prerequisites that must be met before you can start using the Resource Planner, see the <a href="#prerequisites" class="MCXref xref">Prerequisites for working in the Resource Planner</a> section in this article. </p>
+<p>You can locate the Planner in two areas of Workfront, depending on whether you want to budget your resources for multiple projects, or for just one project.</p>
+<ul>
+<li><a href="#access" class="MCXref xref">Use the Resource Planner for multiple projects</a> </li>
+<li> <p><a href="#access2" class="MCXref xref">Use the Resource Planner for one project</a> </p> </li>
+</ul>
+<h3><a name="Access"></a>Use the Resource Planner for multiple projects</h3>
+<p>When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects. </p>
+<p>To access the Planner section in the Resourcing area: </p>
+<ol>
+<li value="1">  Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront. </li>
+<li value="2"> <p> Click <strong>Resourcing</strong>. The Planner displays by default.  For information about budgeting resources in the Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a>. </p> <p>  </p> </li>
+<li value="3"> Hover over the left panel, and click <strong>Resource Pools</strong>. <br>For information about creating new resource pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</li>
+</ol>
+<h3><a name="Access2"></a>Use the Resource Planner for one project</h3>
+<p>When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project. </p>
+<ol>
+<li value="1"> <p>Go to a project you want to budget resources for.</p> </li>
+<li value="2"> Click <strong>Business Case</strong> in the left panel. </li>
+<li value="3"> <p>Scroll to the <strong>Resource Budgeting</strong> section of the Business Case.</p> </li>
+<li value="4"> <p>Click <strong>Edit Resource Budgeting</strong> to add resource pools to your project and start budgeting your resources. </p> <note type="tip">
+You can only add a resource pool in the Resource Budgeting area of the Business Case when the project has no resource pools associated with it. When the project already has a resource pool, the users in the pool and their job roles display in the Resource Budgeting area by default.
+</note> <p> <img src="assets/resource-budgeting-area-on-project-350x70.png" style="width: 350;height: 70;"> </p> <p>For information about budgeting resources for one project, see the article <a href="../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md" class="MCXref xref">Budget resources in the Business Case</a>.</p> </li>
+</ol>
+</div>
 -->
 
 ## The areas of the Resource Planner
@@ -233,7 +258,15 @@ Consider the following when viewing information by Cost in the Resource Planner:
 For more information about how Costs are calculated in the Resource Planner for users and roles, see the article [Calculate costs in the Resource Planner](../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 
 <!--
-Use the User View to view Available, Planned, and Actual Hours or FTE You can use the User View of the Resource Planner to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources. For information about using the Resource Planner to review the Available, Planned, and Actual Hours and FTE for resources, see the article View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view. Use the Project and Role Views to budget resources The main function of the Resource Planner is to budget your resources for the work that needs to be completed on the projects that you can manage. You can budget your resources only if you apply the View by Project or View by Role views to the Resource Planner. For information about budgeting resources using the Project and Role views in the Resource Planner, see the article Budget resources in the Resource Planner using the Project and Role views.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="Using"></a>Use the User View to view Available, Planned, and Actual Hours or FTE </h2>
+<p>You can use the User View of the Resource Planner to display information about the Planned, Available, and Actual Hours or FTE values for projects and resources. </p>
+<p>For information about using the Resource Planner to review the Available, Planned, and Actual Hours and FTE for resources, see the article <a href="../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md" class="MCXref xref">View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view</a>.</p>
+<h2><a name="Using2"></a>Use the Project and Role Views to budget resources </h2>
+<p> The main function of the Resource Planner is to budget your resources for the work that needs to be completed on the projects that you can manage. </p>
+<p> You can budget your resources only if you apply the <strong>View by Project</strong> or <strong>View by Role</strong> views to the Resource Planner.</p>
+<p>For information about budgeting resources using the Project and Role views in the Resource Planner, see the article <a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md"><a href="../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the Resource Planner using the Project and Role views</a></a>.</p>
+</div>
 -->
 
 ## Filter information in the Resource Planner

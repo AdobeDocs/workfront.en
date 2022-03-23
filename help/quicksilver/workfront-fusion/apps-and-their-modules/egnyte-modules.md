@@ -7,6 +7,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Egnyte modules
 description: In a Adobe Workfront Fusion scenario, you can connect your Egnyte account to multiple third-party applications and services.This allows you to monitor, list, retrieve, upload, download, move, copy, lock, unlock, and delete files and folders, as well as create and manage links, or watch events in your Egnyte account.
+hidefromtoc: true
 ---
 
 # Egnyte modules
@@ -49,7 +50,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Folder </td> 
-   <td> <p>Click <span class="bold">Click here to choose folder</span> in order to select the folder you want to watch for new and changed files.</p> </td> 
+   <td> <p>Click <strong>Click here to choose folder</strong> in order to select the folder you want to watch for new and changed files.</p> </td> 
   </tr> 
   <tr> 
    <td>Limit </td> 
@@ -81,7 +82,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -126,7 +127,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -209,7 +210,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -246,7 +247,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -281,7 +282,7 @@ The module returns the ID of the  file and any associated fields, along with any
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -318,7 +319,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -351,7 +352,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -384,7 +385,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -442,7 +443,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -483,7 +484,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -524,7 +525,7 @@ When you are configuring this module, the following fields display.
    <td> <p>Select whether you want to map the File ID or select the path manually.</p> 
     <ul> 
      <li style="font-weight: bold;">File ID<span style="font-weight: normal;">: Map the File ID from the previous module. For example, Watch Files.</span></li> 
-     <li><span class="bold">Path</span>: Click <span class="bold">Click here to choose folder</span> to select the file you want to move.</li> 
+     <li><strong>Path</strong>: Click <strong>Click here to choose folder</strong> to select the file you want to move.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -546,7 +547,7 @@ When you are configuring this module, the following fields display.
 
 >[!NOTE]
 >
->You may need to extend your permissions in your connection between Workfront Fusion and Egnyte. If prompted, click Continue and grant access to your account by clicking `Allow Access`.
+>You may need to extend your permissions in your connection between Workfront Fusion and Egnyte. If prompted, click Continue and grant access to your account by clicking **Allow Access**.
 
 <table cellspacing="15"> 
  <col> 
@@ -922,7 +923,7 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-` `**Example: **`` The following API call returns the list of all Link IDs in your Egnyte account:
+``` ```**Example: **`````` The following API call returns the list of all Link IDs in your Egnyte account:
 
 2019-08-15_18_51_16-Integration_Meetup___Integromat.png
 

@@ -49,31 +49,31 @@ You must have the following to perform the steps in this article:
 >
 >To enable timesheet profile changes in current timesheets, you have to delete the existing timesheets and then generate new ones. For instructions, see [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) and [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. If you are creating or editing a timesheet profile for use throughout the system, click `Timesheet & Hours`.
+1. If you are creating or editing a timesheet profile for use throughout the system, click **Timesheet & Hours**.
 
    Or
 
    If you creating or editing a timesheet profile for a group, click **Groups**, then click the group's name.
 
 1. Click **Timesheet Profiles**.
-1. To create a new timesheet profile, click `New Profile`.
+1. To create a new timesheet profile, click **New Profile**.
 
    Or
 
-   To edit an existing timesheet profile, select the timesheet profile you want to edit, then click `Edit`.
+   To edit an existing timesheet profile, select the timesheet profile you want to edit, then click **Edit**.
 
    The new or existing timesheet profile displays.
 
-1. On the `Set Details` tab, type a `Name`and `Description`for the timesheet profile and supply the following information:
+1. On the**Set Details** tab, type a **Name**and **Description**for the timesheet profile and supply the following information:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Group with Administration Access</span> </td> 
+      <td role="rowheader"><strong>Group with Administration Access</strong> </td> 
       <td> <p> 
         <ul> 
          <li> <p>If you are creating a system-level timesheet profile, leave this field blank.</p> <p>Any user who can edit user accounts can attach a system-level timesheet to other users.</p> <p>Only a Workfront administrator can edit a system-level timesheet profile.</p> </li> 
@@ -83,30 +83,34 @@ You must have the following to perform the steps in this article:
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Create timesheets</span> </td> 
+      <td role="rowheader"><strong>Create timesheets</strong> </td> 
       <td> <p> <p>Specify when the timesheet profile should generate the timesheets. A timesheet can be set to automatically generate on a weekly, bi-weekly, semi-monthly, or monthly basis. Select the day of the week when you want the timesheet to be produced.</p> <p>Note:  If you configure a timesheet profile to create timesheets on a Friday, users are not able to record hours on Friday, Saturday, and Sunday, for the current week.</p> <p>Workfront always creates two timesheets at a time: the first timesheet always includes the current date, and the second timesheet&nbsp;starts when the time frame of the first one ends.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Approvers</span> </td> 
+      <td role="rowheader"><strong>Approvers</strong> </td> 
       <td> <p> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. You can identify up to 7 users as approvers on a timesheet. Identifying multiple users is useful to ensure an approver is available when someone is out of the office. All approvers are notified when a user submits the timesheet for approval. Only one user is required to approve the timesheet in order for it to be approved.</p> <p>Only users with timesheet administrative rights can be set as approvers. For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Use the drop-down menu&nbsp;to select&nbsp;the approver&nbsp;for the timesheet (if an approver is required). You can select from the following options:</p> 
         <ul> 
-         <li><span class="bold">None</span>: The timesheet does not need to&nbsp;be approved.</li> 
-         <li><span class="bold">Their Manager</span>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
-         <li><span class="bold">Specific People:</span>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <span class="bold">Closed</span> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
+         <li><strong>None</strong>: The timesheet does not need to&nbsp;be approved.</li> 
+         <li><strong>Their Manager</strong>: This is the default approver, set by the system. In this case, the user designated as their manager approves the timesheet when it is submitted for approval.</li> 
+         <li><strong>Specific People:</strong>&nbsp;You can designate specific users, by name, as timesheet approvers. You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Can edit hours</span> </td> 
+      <td role="rowheader"><strong>Can edit hours</strong> </td> 
       <td> <p> <p>Select this option to allow the approvers to edit hours on the timesheet. If Restrict timesheet editing to owners and admins is enabled in Timesheet &amp; Hours &gt; Preferences, you can't enable this setting. </p> <p>Note: Once you submit a timesheet for approval, you can no longer edit the hours. To return a submitted timesheet to an editable state, recall the timesheet or have the approver reject the timesheet. For more information, see <a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md" class="MCXref xref">Submit a timesheet for approval</a> and<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md" class="MCXref xref">Approve a timesheet</a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Available Hour Types</span> </td> 
+      <td role="rowheader"><strong>Available Hour Types</strong> </td> 
       <td>By default, users see all general hours on a timesheet. However, if your organization wants only specific general hours to be shown for a particular set of users, you can select the general hours that they need to see in their timesheets by&nbsp;selecting them in their timesheet profile in this field. If you want to disable all general hours, deselect&nbsp;all hour types to generate the timesheet without a section for general hours.</td> 
-     </tr> Overtime You can choose to hide the Overtime box in timesheets. This option is disabled by default. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
+      <td>You can choose to hide the Overtime box in timesheets. This option is disabled by default.</td> 
+     </tr> 
     </tbody> 
    </table>
 
-1. Click the `Assign People` tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
+1. Click the **Assign People** tab to associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams. Begin typing the name of the user, group, or team, then click it when it appears in the drop-down list.
 
    If you are a group administrator, you can assign the timesheet profile to groups you administer, but not to teams. For more information, see [Limitations for a group administrator assigning a timesheet profile](#possible) in this article.
 
@@ -121,7 +125,7 @@ You must have the following to perform the steps in this article:
    >  
    >
 
-1. ClickSave Changes.
+1. Click **Save Changes** .
 
    The first time the timesheet profile generates timesheets, 2 timesheets are created for each user. After that, each time it generates new timesheets, onhe timesheet is created per user.
 

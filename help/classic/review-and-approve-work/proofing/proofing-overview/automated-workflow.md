@@ -11,7 +11,7 @@ description: Automated Workflows allow you to create a series of sequential or p
 
 Automated Workflows allow you to create a series of sequential or parallel review stages, establish dependencies between these stages, and limit their visibility to certain users. If there are interdependent stages in your review process, Automated Workflows move your proof through the stages automatically, notifying the relevant reviewers and approvers along the way. For information on setting up an Automated Workflow, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-` `**Examples: **`` Automated Workflows help you manage complex proof review processes like
+``` ```**Examples: **`````` Automated Workflows help you manage complex proof review processes like
 
 * When different groups or reviewers need to review content in a particular order 
 * When there are dependencies between the activity of users as they review content

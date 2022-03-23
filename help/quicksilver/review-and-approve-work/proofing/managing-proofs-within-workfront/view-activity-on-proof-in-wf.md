@@ -41,3 +41,6 @@ You must have the following access to perform the steps in this article:
 
 ## View activity on a proof within Adobe Workfront
 
+1. Document details
+1. Proofing Activities
+

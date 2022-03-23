@@ -54,10 +54,10 @@ Each comment displays the following information:
 
 To view comments in the proofing viewer:
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
 1. Click any comment to view the comment marks on the proof.
 1. &nbsp;Or
 1. &nbsp;In a video proof, hover over the point in the timeline where a comment was made, then click the numbered balloon that appears. 
@@ -70,39 +70,41 @@ To view comments in the proofing viewer:
 
 In Workfront, you can view proof comments without launching the proofing viewer.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Click the row containing the document, then click the **Summary** icon ![](assets/summary-panel-icon.png) on the right-side of the page.  
+   The comments display in the Updates section of the Document Summary.
 
 ## Mark all comments as read
 
 As a reviewer of a proof, you can quickly mark all comments as Read.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.  
 
-1. Above the comment list, click the `More` icon, then click `Mark all as read`.
+1. Above the comment list, click the **More** icon, then click **Mark all as read**.
 
 1. ![](assets/mceclip8-350x173.png)
 
 ## Reply to proof comments from the proofing viewer
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
 1. Click any comment to view the comment marks on the proof.
 
    >[!TIP]
    >
-   >Use the `Previous comment` and `Next comment` buttons on the right edge of the screen to navigate forward and back through comments.
+   >Use the **Previous comment** and **Next comment** buttons on the right edge of the screen to navigate forward and back through comments.
 
-1. Type your reply in the `Add a reply` box.
+1. Type your reply in the **Add a reply** box.
 1. (Optional) To notify another reviewer&nbsp;about your reply, type @ in the comment box, then type the user's name or email address. For more information, see [Tag users to share a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Optional) To add a file to a comment, do either of the following:
 
   * Click the paper clip icon, then browse to and select the file you want to upload.
   * Drag a file from a&nbsp;location on your computer and drop it into the comment area.
 
-1. Click `Reply`.
+1. Click **Reply**.
 

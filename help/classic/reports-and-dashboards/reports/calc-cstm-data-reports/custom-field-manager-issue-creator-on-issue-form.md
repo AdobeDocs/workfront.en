@@ -30,7 +30,15 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td> <p>Adobe Workfront license*</p> </td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to Custom forms For information about granting administrative access from the access level, see Grant users administrative access to certain areas. Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Contribute access to the object where the form is attached with access to Edit the Custom Form For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Administrative access to Custom forms<br>For information about granting administrative access from the access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Contribute access to the object where the form is attached with access to Edit the Custom Form</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -44,10 +52,10 @@ The following steps show how you can create a calculated field for an issue cust
 
    For information about creating a custom form and adding calculated fields to it, see the following articles:
 
-  * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
-  * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
+   * [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
 
-1. Copy the following text mode code and paste it in the `Calculation` field of the custom form:
+1. Copy the following text mode code and paste it in the **Calculation** field of the custom form:
 
    ```
    Owner.Manager.Name
@@ -57,7 +65,7 @@ The following steps show how you can create a calculated field for an issue cust
    >
    >Custom field calculations are case sensitive.
 
-1. Click `Done`, then `Save + Close`.
+1. Click **Done**, then **Save + Close**.
 
    The manager of the user who created the issue displays in the calculated field when the form that contains the field is attached to an issue.
 

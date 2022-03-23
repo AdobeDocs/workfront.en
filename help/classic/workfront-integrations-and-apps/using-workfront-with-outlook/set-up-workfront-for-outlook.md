@@ -38,9 +38,27 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -55,8 +73,8 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 
 The following applications are available:&nbsp;
 
-* `Outlook on the Web:` The Workfront add-in is available when using Outlook from a&nbsp;web browser either on a desktop or mobile device. This functionality is also available when using the Outlook Web App.
-* `Outlook Desktop Application:` The Workfront add-in is available when using the Windows and Mac desktop versions of Outlook included with the Office package.
+* **Outlook on the Web:** The Workfront add-in is available when using Outlook from a&nbsp;web browser either on a desktop or mobile device. This functionality is also available when using the Outlook Web App.
+* **Outlook Desktop Application:** The Workfront add-in is available when using the Windows and Mac desktop versions of Outlook included with the Office package.
 
 The Workfront add-in for Outlook is supported in environments that meet the following requirements:
 
@@ -79,8 +97,7 @@ When configuring the client, the user must select one of the following account t
 
 * Exchange
 * Office 365
-* Outlook.com `  
-  `If the client is configured to connect with POP3 or IMAP, the Workfront add-in does not load.
+* Outlook.com****If the client is configured to connect with POP3 or IMAP, the Workfront add-in does not load.
 
 ### Mail server requirements
 
@@ -106,11 +123,11 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
 
 ### Workfront for Outlook 365
 
-1. In Outlook 365, click the `Browse Add-ins` icon ![](assets/outlook-add-in-26x26.png)at the top of the Office 365 interface, then click `Manage add-ins`.  
+1. In Outlook 365, click the **Browse Add-ins** icon ![](assets/outlook-add-in-26x26.png)at the top of the Office 365 interface, then click **Manage add-ins**.  
 
-1. In the `Search add-ins` box, search for `Workfront`then press Enter.&nbsp;
+1. In the **Search add-ins** box, search for **Workfront**then press Enter.&nbsp;
 
-1. Click `Add`.
+1. Click **Add**.
 
 ### Workfront for Outlook on the Web
 
@@ -119,25 +136,25 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
 
    To locate the icon, see [Using add-ins in Outlook on the web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in the Microsoft documentation.
 
-1. Search for `Workfront` in the `Search add-ins` field, then press `Enter`.
+1. Search for **Workfront** in the **Search add-ins** field, then press **Enter**.
 
    ![workfront_for_outlook_on_the_web.png](assets/workfront-for-outlook-on-the-web-350x116.png)
 
-1. When it appears on the list, click `Add`.
+1. When it appears on the list, click **Add**.
 
 ### Workfront for Outlook on Windows or Mac
 
-1. Click `Home >` `Store` on the ribbon.
+1. Click **Home >****Store** on the ribbon.
 
-1. Search for `Workfront` in the `Search` field, then press `Enter`.
+1. Search for **Workfront** in the **Search** field, then press **Enter**.
 
    ![o365_addin_search.png](assets/o365-addin-search-350x158.png)
 
-1. Click the toggle to enable the `Workfront add-in`.
+1. Click the toggle to enable the **Workfront add-in**.
 
 ## Log in to Workfront from Outlook
 
-1. In Outlook, select an email message, then click the `Workfront` icon in the email header.
+1. In Outlook, select an email message, then click the **Workfront** icon in the email header.
 1. Follow the prompts to log in to Workfront using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.
 
    Before users can log in to the Workfront add-in using SAML, a Workfront administrator must first enable Office 365 add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure Adobe Workfront with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
@@ -145,10 +162,10 @@ For more information about setting up the Workfront add-in for Outlook, see [Wor
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >  * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
-   >  
+   >   
+   >   
+   >   * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >   * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
+   >   
    >
 

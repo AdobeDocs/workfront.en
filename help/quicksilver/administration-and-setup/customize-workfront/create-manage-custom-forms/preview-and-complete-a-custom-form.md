@@ -20,11 +20,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -34,16 +42,19 @@ You must have the following to perform the steps in this article:
 
 1. Begin creating and configuring a custom form, as described in the articles [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md), [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md), [Add or edit an image widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-image-or-edit-its-properties-in-a-custom-form.md),and others.
 
-1. (Optional) Click `Preview` to see how the form will look when being used, then click `End Preview` to return to editing the form.  
+1. (Optional) Click **Preview** to see how the form will look when being used, then click **End Preview** to return to editing the form.  
 
-1. Click `Save+Close` to save your changes.
+1. Click **Save+Close** to save your changes.
 
    Or
 
-   If you don't want to keep your changes on the form, click `Cancel`, then click `Go Ahead and Close`.
+   If you don't want to keep your changes on the form, click **Cancel**, then click **Go Ahead and Close**.
 
    <!--
-   Note: If the form is already attached to a lot of objects, it might take a few minutes for your changes to apply to all of them. This happens in the background, so you can work on other tasks in Workfront while you wait.
+   <note type="note">
+   <span class="preview">If the form is already attached to a lot of objects, it might take a few minutes for your changes to apply to all of them. This happens in the background, so you can work on other tasks in Workfront while you wait.</span>
+   <br>
+   </note>
    -->
 
 1. (Optional) Add the form to the Workfront object where you want to use it, as described in [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

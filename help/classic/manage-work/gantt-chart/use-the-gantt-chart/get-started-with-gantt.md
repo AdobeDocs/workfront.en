@@ -28,12 +28,14 @@ The task list Gantt Chart is accessible in the following areas:
 
 * Within a Project
 
-  * Tasks tab 
-  * Subtasks tab
+   * Tasks tab 
+   * Subtasks tab
 
 * Within a Template
 
 To access the task list Gantt Chart, navigate to any of the areas mentioned above and click the Gantt Chart icon.
+
+![Gantt_icon.png](assets/gantt-icon-350x170.png)  
 
 ### Project list Gantt Chart
 
@@ -43,11 +45,11 @@ The project list Gantt Chart is accessible in the following areas:
 
 * Within a Portfolio
 
-  * Projects tab
+   * Projects tab
 
 * Within a Project Report
 
-  * Any Project or Task Report
+   * Any Project or Task Report
 
 * Within a Program
 

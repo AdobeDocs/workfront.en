@@ -16,14 +16,14 @@ When an action occurs on a Adobe Workfront object that is supported by event sub
 
 In order to receive event subscriptions payloads through your firewall, you must add the following IP addresses to your allowlist:
 
-`For customers in Europe:`
+**For customers in Europe:**
 
 * 3.122.135.96
 * 3.122.150.235
 * 52.19.64.185
 * 52.212.92.170
 
-`For customers in locations other than Europe:`
+**For customers in locations other than Europe:**
 
 * 35.160.0.242
 * 34.213.36.118
@@ -66,10 +66,10 @@ To create, query, or delete an event subscription, your Workfront user needs the
   >
   ><![CDATA[ ]]>If your user is already utilizing Workfront’s API, your user should already have an apiKey. You can retrieve the apiKey via the following HTTP request:
 
-`Request URL:` 
+**Request URL:** 
 
 [Copy](javascript:void(0);) 
-<pre><code>[PUT]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD></code></pre>`Request Headers:` 
+<pre><code>[PUT]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;https://<HOSTNAME>/attask/api/v7.0/USER?action=getApiKey&username=<USERNAME>&password=<PASSWORD></code></pre>**Request Headers:** 
 
 <table cellspacing="15"> 
  <col> 
@@ -88,14 +88,14 @@ To create, query, or delete an event subscription, your Workfront user needs the
  </tbody> 
 </table>
 
-`Response Codes:` 
+**Response Codes:** 
 
 | Response Code |Description |
 |---|---|
 | 200 (OK) |The request was processed successfully, and the existing apiKey for the user should be returned in the response body. |
 | 401 (Unauthorized) |The server acknowledges the request but was unable to process it because the requesting apiKey/user does not have access to make this request. |
 
-`Response Body Example:` 
+**Response Body Example:** 
 
 [Copy](javascript:void(0);) 
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"data"</span>: {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"result"</span>: <span style="color: #dd1144; ">"rekxqndrw9783j4v79yhdsakl56bu1jn"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></pre>
@@ -113,11 +113,11 @@ The subscription resource&nbsp;contains the following fields.
 
 * objId (optional)
 
-  * `String` - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type.
+  * **String** - The ID of the object of the specified objCode for which events are fired. If this field is not specified, the user receives events for all objects of the specified type.
 
 * objCode (required)
 
-  * `String` - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
+  * **String** - The objCode of the object being subscribed to changes. The possible values for objCode are listed in the table below.
 
     <table cellspacing="15"> 
      <col> 
@@ -198,7 +198,7 @@ The subscription resource&nbsp;contains the following fields.
 
 * eventType (required)
 
-  * `String` - A value that represents the type of event to which the object is subscribed. The available event types include:
+  * **String** - A value that represents the type of event to which the object is subscribed. The available event types include:
 
     * CREATE
     * DELETE&nbsp;
@@ -207,11 +207,11 @@ The subscription resource&nbsp;contains the following fields.
 
 * url (required)
 
-  * `String` - The URL of the endpoint to which subscription event payloads are sent via HTTP.
+  * **String** - The URL of the endpoint to which subscription event payloads are sent via HTTP.
 
 * authToken (required)
 
-  * `String` - The OAuth2 bearer token used to authenticate with the URL specified in the “URL” field.&nbsp;
+  * **String** - The OAuth2 bearer token used to authenticate with the URL specified in the “URL” field.&nbsp;
 
 ## Creating Event Subscription API&nbsp;Requests
 
@@ -219,10 +219,10 @@ After ensuring the user has administrator access and forming the subscription re
 
 Use the following syntax to construct the URL.
 
-`Request URL:` 
+**Request URL:** 
 
 [Copy](javascript:void(0);) 
-<pre><code>[POST] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions</code></pre>`Request Headers:` 
+<pre><code>[POST] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions</code></pre>**Request Headers:** 
 
 <table cellspacing="15"> 
  <col> 
@@ -245,10 +245,10 @@ Use the following syntax to construct the URL.
  </tbody> 
 </table>
 
-`Request Body Example:` 
+**Request Body Example:** 
 
 [Copy](javascript:void(0);) 
-<pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objCode"</span>: <span style="color: #dd1144; ">"PROJ"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"eventType"</span>: <span style="color: #dd1144; ">"UPDATE"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"url"</span>: <span style="color: #dd1144; ">"http://requestb.in/ua5hi2ua"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"authToken"</span>: <span style="color: #dd1144; ">"EauthTokenWorkfrontRocks1234_"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></pre>`Response Codes:` 
+<pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objCode"</span>: <span style="color: #dd1144; ">"PROJ"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"eventType"</span>: <span style="color: #dd1144; ">"UPDATE"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"url"</span>: <span style="color: #dd1144; ">"http://requestb.in/ua5hi2ua"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"authToken"</span>: <span style="color: #dd1144; ">"EauthTokenWorkfrontRocks1234_"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></pre>**Response Codes:** 
 
 | Response Code |Description |
 |---|---|
@@ -257,13 +257,13 @@ Use the following syntax to construct the URL.
 | 401 (Unauthorized) |The apiKey provided was empty or deemed invalid. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
-Passing a subscription resource as the body of a request (with the content-type being “application/json”) results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was `NOT` created.
+Passing a&nbsp;subscription resource&nbsp;as the body of a&nbsp;request (with the content-type being&nbsp;“application/json”) results in an event subscription being created for the object specified. A response code of 201 (Created) indicates the subscription was created. A response code other than 201 means the subscription was **NOT** created.
 
 >[!NOTE]
 >
 >&nbsp;The “Location” response header contains the URI of the newly created event subscription.
 
-`Response Headers Example:` 
+**Response Headers Example:** 
 
 | Response Headers |Example |
 |---|---|
@@ -272,7 +272,7 @@ Passing a subscription resource as the body of a request (with the content-type 
 | Location |<pre>→https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/750a636c-5628-48f5-ba26-26b7ce537ac2</pre> |
 | Server | &nbsp; <pre>→Apache-Coyote/1.1</pre> |
 
-`Response Body Example:`N/A&nbsp;
+**Response Body Example:**N/A&nbsp;
 
 ## Querying Event Subscriptions
 
@@ -287,10 +287,10 @@ You can query all events subscriptions for a customer as specified by the apiKey
 
 The request syntax for listing all event subscriptions for a specific customer is as follows:
 
-`Request URL:` 
+**Request URL:** 
 
 [Copy](javascript:void(0);) 
-<pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions</code></pre>`Request Headers:` 
+<pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions</code></pre>**Request Headers:** 
 
 <table cellspacing="15"> 
  <col> 
@@ -309,7 +309,7 @@ The request syntax for listing all event subscriptions for a specific customer i
  </tbody> 
 </table>
 
-`Response Codes:` 
+**Response Codes:** 
 
 | Response Code |Description |
 |---|---|
@@ -317,7 +317,7 @@ The request syntax for listing all event subscriptions for a specific customer i
 | 401 (Unauthorized) |The apiKey provided was empty. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
-`Response Headers Example:` 
+**Response Headers Example:** 
 
 | Response Header |Example |
 |---|---|
@@ -326,7 +326,7 @@ The request syntax for listing all event subscriptions for a specific customer i
 | Server |<pre>→Apache-Coyote/1.1</pre> |
 | Transfer-Encoding |<pre>→chunked</pre> |
 
-`Response Body Example:` 
+**Response Body Example:** 
 
 [Copy](javascript:void(0);) 
 <pre><code><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"subscriptions"</span>:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"id"</span>: <span style="color: #dd1144; ">"37c4bcf5-e0b5-4256-aba3-a51cba7bf997"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"customerId"</span>: <span style="color: #dd1144; ">"504f9640000013401be513579fbebffa"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objId"</span>: <span style="color: #dd1144; ">"ObjId1234"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objCode"</span>: <span style="color: #dd1144; ">"TASK"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"url"</span>: <span style="color: #dd1144; ">"http://test.test.net/test/1234"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"eventType"</span>: <span style="color: #dd1144; ">"UPDATE"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"authToken"</span>: <span style="color: #dd1144; ">"auth_token"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"id"</span>: <span style="color: #dd1144; ">"750a636c-5628-48f5-ba26-26b7ce537ac2"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"customerId"</span>: <span style="color: #dd1144; ">"504f9640000013401be513579fbebffa"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objId"</span>: <span style="color: #008080; ">null</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objCode"</span>: <span style="color: #dd1144; ">"PROJ"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"url"</span>: <span style="color: #dd1144; ">"http://requestb.in/ua5hi2ua"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"eventType"</span>: <span style="color: #dd1144; ">"UPDATE"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"authToken"</span>: <span style="color: #dd1144; ">"authTokenWorkfrontRocks1234_"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;],<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"meta"</span>:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"page"</span>: <span style="color: #008080; ">1</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"page_count"</span>: <span style="color: #008080; ">2</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"limit"</span>: <span style="color: #008080; ">100</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"total_count"</span>: <span style="color: #008080; ">150</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></pre>Where
@@ -339,10 +339,10 @@ The request syntax for listing all event subscriptions for a specific customer i
 
 You can query for event subscriptions by the event subscription’s ID. The request syntax for listing event subscriptions is as follows:
 
-`Request URL:` 
+**Request URL:** 
 
 [Copy](javascript:void(0);) 
-<pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID></code></pre>`Request Headers:` 
+<pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID></code></pre>**Request Headers:** 
 
 <table cellspacing="15"> 
  <col> 
@@ -361,7 +361,7 @@ You can query for event subscriptions by the event subscription’s ID. The requ
  </tbody> 
 </table>
 
-`Response Codes:` 
+**Response Codes:** 
 
 | Response Code |Description |
 |---|---|
@@ -369,7 +369,7 @@ You can query for event subscriptions by the event subscription’s ID. The requ
 | 401 (Unauthorized)  |The apiKey provided was empty. |
 | 403 (Forbidden) |The user, which matches the provided apiKey, does not have administrator access. |
 
-`Response Body Example:` 
+**Response Body Example:** 
 
 [Copy](javascript:void(0);) 
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"id"</span>: <span style="color: #dd1144; ">"750a636c-5628-48f5-ba26-26b7ce537ac2"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"customerId"</span>: <span style="color: #dd1144; ">"504f9640000013401be513579fbebffa"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objId"</span>: <span style="color: #008080; ">null</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"objCode"</span>: <span style="color: #dd1144; ">"PROJ"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"url"</span>: <span style="color: #dd1144; ">"http://requestb.in/ua5hi2ua"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"eventType"</span>: <span style="color: #dd1144; ">"UPDATE"</span>,<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #dd1144; ">"authToken"</span>: <span style="color: #dd1144; ">"authTokenWorkfrontRocks1234_"</span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></pre>
@@ -407,7 +407,7 @@ You can specify a comparison field along with the filter field. Use a comparison
 
 You can make several AND or OR statements in a single filter by specifying a connector field. When used along with the filter field, this determines which type of operation you want to perform between different filters in your subscription.
 
-` `**Example: **``JSON object defining an event subscription that fires when an optask is updated, with filter parameter set to filter by **projectID**, **enteredByID**, and a custom field specified by **parameterValues** called **customField** with a value equal to **customValue**.
+``` ```**Example: **``````JSON object defining an event subscription that fires when an optask is updated, with filter parameter set to filter by **projectID**, **enteredByID**, and a custom field specified by **parameterValues** called **customField** with a value equal to **customValue**.
 
 [Copy](javascript:void(0);) 
 <pre><code>{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"objCode": "OPTASK",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"eventType": "UPDATE",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"url": "https://eventfilter.yourendpoint.com",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"authToken": "EauthTokenWorkfrontRocks1234_",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"filters": [<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fieldName": "projectID",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fieldValue": "5db1e0ec007696247fcf2290ecf8a339"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fieldName": "enteredByID",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fieldValue": "5a456f460328289a0cd2c21b34c54741"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fieldName": "parameterValues",<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"fieldValue": {<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"DE: customField": "customValue"<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code></pre>
@@ -416,10 +416,10 @@ You can make several AND or OR statements in a single filter by specifying a con
 
 When deleting Workfront’s HTTP use the DELETE method. The request syntax for deleting a single event subscription by subscription ID is as follows:
 
-`Request URL:` 
+**Request URL:** 
 
 [Copy](javascript:void(0);) 
-<pre><code>[DELETE] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>&nbsp;</code></pre>`Request Headers:` 
+<pre><code>[DELETE] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>&nbsp;</code></pre>**Request Headers:** 
 
 <table cellspacing="15"> 
  <col> 
@@ -438,7 +438,7 @@ When deleting Workfront’s HTTP use the DELETE method. The request syntax for d
  </tbody> 
 </table>
 
-`Response Codes:` 
+**Response Codes:** 
 
 <table cellspacing="15"> 
  <col> 
@@ -469,14 +469,14 @@ When deleting Workfront’s HTTP use the DELETE method. The request syntax for d
  </tbody> 
 </table>
 
-`Response Headers Example:` 
+**Response Headers Example:** 
 
 | Response Header |Example |
 |---|---|
 | Date |<pre>→Wed, 05 Apr 2017 21:33:41 GMT</pre> |
 | Server |<pre>→Apache-Coyote/1.1</pre> |
 
-`Response Body Example:` N/A
+**Response Body Example:** N/A
 
 ## Examples of Event Payloads
 
@@ -512,7 +512,7 @@ The base64Encoding field is an optional field that is used to enable Base64 enco
 
 ### Example of a request using the base64Encoding field
 
-If a request is made using the base64Encoding field set to true, then the `newState` and `oldState` objects in the payload are delivered as base 64 encoding strings. If the base64Encoding field is set to false, left blank, or not included in the request, then the returned payload will not be encoded in base 64.
+If a request is made using the base64Encoding field set to true, then the **newState** and **oldState** objects in the payload are delivered as base 64 encoding strings. If the base64Encoding field is set to false, left blank, or not included in the request, then the returned payload will not be encoded in base 64.
 
 The following is an example of a request that uses the base64Encoding field:
 
@@ -531,7 +531,7 @@ The following API endpoint is deprecated and should not be used for new implemen
 You can query all event subscriptions for a customer as specified by the apiKey value. The request syntax for listing all event subscriptions for a specific customer is the following URL:
 
 [Copy](javascript:void(0);) 
-<pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list</code></pre>`Request Headers:` 
+<pre><code>[GET] https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list</code></pre>**Request Headers:** 
 
 <table cellspacing="15"> 
  <col> 
@@ -550,7 +550,7 @@ You can query all event subscriptions for a customer as specified by the apiKey 
  </tbody> 
 </table>
 
-`Response Codes:` 
+**Response Codes:** 
 
 <table cellspacing="15"> 
  <col> 

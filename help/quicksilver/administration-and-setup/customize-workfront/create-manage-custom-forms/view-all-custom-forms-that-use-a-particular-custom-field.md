@@ -20,11 +20,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -32,9 +40,9 @@ You must have the following to perform the steps in this article:
 
 ## Find out which custom forms use a particular custom field
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Custom Forms`.
+1. In the left panel, click **Custom Forms**.
 1. Open the custom form containing the field you want to modify, then click the field on the right side of the screen.
 
    A warning message displays if the field is used on another custom form.
@@ -42,4 +50,5 @@ You must have the following to perform the steps in this article:
    ![](assets/warning-message-fields-used-elsewhere-350x242.png)
 
 1. Click the blue arrow in the warning message to see which custom forms are using the field.
+1. (Optional) Click the name of any custom form listed to go to that form and consider what changes you might want to make there if you modify the field.
 

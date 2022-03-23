@@ -26,9 +26,9 @@ As a Workfront administrator or Workfront Proof administrator, you can assign a 
 
 The following table displays the permissions available with each Proof Permissions Profile.
 
-| `Own Items`  | `Other Users' Items`  | `Admin`  | `Billing`  |
+| **Own Items** |**Other Users' Items** |**Admin** |**Billing** |
 |---|---|---|---|
-|   | `Add`  | `View`  | `Edit`  | `Delete`  | `View`  | `Edit`  | `Delete`  | `Edit and Delete`  | `Edit`  |
+| &nbsp; |**Add** |**View** |**Edit** |**Delete** |**View** |**Edit** |**Delete** |**Edit and Delete** |**Edit** |
 | Billing Admin | ![](assets/cleaner2.png)
 
 | ![](assets/cleaner2.png)
@@ -90,6 +90,9 @@ The following table displays the permissions available with each Proof Permissio
 
 |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | Observer |&nbsp; | ![](assets/cleaner2.png)
+
+|&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| Visitor |&nbsp; | ![](assets/cleaner2.png)
 
 |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
@@ -344,19 +347,17 @@ Administrators and Billing Administrators can edit the permission profiles of al
 
 1. To find the user to edit, do one of the following:&nbsp;
 
-  * Navigate to  `Account Settings,`then click the  `Users`tab.
+  * Navigate to&nbsp;**Account Settings,**then click the&nbsp;**Users**tab.
   
-  * Go to the  `Contacts`page.
+  * Go to the&nbsp;**Contacts**page.
 
-1. Click the user's name whose permissions you want to edit. `  
-   ` ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Click the user's name whose permissions you want to edit.**** ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
-1. Click the  `Permissions profile`drop-down menu and select a new permission profile. :
+1. Click the&nbsp;**Permissions profile**drop-down menu and select a new permission profile. :
 
    ![Screenshot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
 
-   Permission profiles are&nbsp;Administrator, Supervisor, Manager,&nbsp;and Observer.&nbsp; `  
-   `
+   Permission profiles are&nbsp;Administrator, Supervisor, Manager,&nbsp;and Observer.&nbsp;****
 
 1. Click anywhere outside of the menu to save.&nbsp;
 

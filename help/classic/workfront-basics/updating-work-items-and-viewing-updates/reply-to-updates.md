@@ -42,20 +42,20 @@ You must have the following access to perform the steps in this article:
 ## Reply to an update or a reply
 
 1. Go to the object to which you want to add a reply.
-1. On the `Updates` tab for the object, find the update or reply to which you want to reply.
+1. On the **Updates** tab for the object, find the update or reply to which you want to reply.
 
    In addition to seeing the users who are actively engaged in the conversation, you can see who is tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive a notification whenever an update or reply is made on the object. To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
    ![](assets/tagging-transparency-350x192.png)
 
-1. Click `Reply` on the update, then type a reply in the box that appears.
-1. (Optional) To include text from a previous update in your reply, click the `More` menu next to the update or reply you want to quote, then click `Quote Reply`. Text from the previous update appears in the input area, marked with a gray line.
+1. Click **Reply** on the update, then type a reply in the box that appears.
+1. (Optional) To include text from a previous update in your reply, click the **More** menu next to the update or reply you want to quote, then click **Quote Reply**. Text from the previous update appears in the input area, marked with a gray line.
 1. (Optional) Use formatting and emojis, and include links as explained in the section [Add an update to a work item](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in the article [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Click `Reply` to save the reply.
+1. Click **Reply** to save the reply.
 
    Or
 
-   Click `Done` if the task or issue is in a status of Complete or Closed.
+   Click **Done** if the task or issue is in a status of Complete or Closed.
 
 ## Reply to an update via email notification
 
@@ -85,7 +85,7 @@ From the email, you can easily add a reply directly to the communications thread
 
 When you receive an email notification, you can quickly open the associated Workfront object and add a reply directly to the communication thread.
 
-1. Click `Comment` on the email notification.
+1. Click **Comment** on the email notification.
 
    The Details page for the object opens in Workfront.
 
@@ -93,7 +93,7 @@ When you receive an email notification, you can quickly open the associated Work
 
    In addition to seeing the users who are actively engaged in the conversation, you can see who was tagged in each reply at the top of that update thread. These users, along with any users subscribed to the object, receive notification whenever an update or reply is made on the object.&nbsp;To tag more users, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. Click `Reply,`enter your reply, then click `Reply`.
+1. Click **Reply,**enter your reply, then click **Reply**.
 
 ### Add an update to an object outside of Workfront
 
@@ -104,7 +104,7 @@ To add an update to a Workfront email:
 1. From your email application, open the Workfront email to which you want to respond, then open a reply email window.
 1. Type your update.  
    Attachments are not permitted, and any Rich Text formatting applied to an update in an email does not display on the update when viewed in the Updates tab.
-1. Click `Send`.
+1. Click **Send**.
 
    Your update is added to the communications thread of the object.
 

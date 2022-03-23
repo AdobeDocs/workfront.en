@@ -23,7 +23,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -32,7 +36,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -69,14 +80,14 @@ To connect your SFTP account to Workfront Fusion you need to enter the target Ho
    <td role="rowheader"> <p>Auth type</p> </td> 
    <td> <p>Select the authorization method you want to use for connecting to the SFTP server.</p> 
     <ul> 
-     <li><span class="bold">User name and password</span>: Enter your credentials.</li> 
-     <li> <p><span class="bold">User name and key</span>: Enter your user name and the private key/certificate</p> <p>Upload the private key to use the client-side authorization or upload your certificate (P12 or PFX file) if you want to use TLS using your self-signed certificate. If you're using the client-side certificate authorization, you can enter your CA certificate here.</p> <p>Workfront Fusion does not retain or store any data (files, passwords) you provide here. File and password are only used to extract a private key/certificate.</p> </li> 
+     <li><strong>User name and password</strong>: Enter your credentials.</li> 
+     <li> <p><strong>User name and key</strong>: Enter your user name and the private key/certificate</p> <p>Upload the private key to use the client-side authorization or upload your certificate (P12 or PFX file) if you want to use TLS using your self-signed certificate. If you're using the client-side certificate authorization, you can enter your CA certificate here.</p> <p>Workfront Fusion does not retain or store any data (files, passwords) you provide here. File and password are only used to extract a private key/certificate.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-After entering the connection information, click `Continue`to establish a connection.
+After entering the connection information, click **Continue**to establish a connection.
 
 ## SFTP modules and their fields
 

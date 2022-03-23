@@ -20,8 +20,8 @@ The character limit differs depending on the field you are using. The limits sho
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Field Type</span> </p> </th> 
-   <th> <p><span class="bold">Character Limit (</span><span class="bold">including spaces)</span> </p> </th> 
+   <th> <p><strong>Field Type</strong> </p> </th> 
+   <th> <p><strong>Character Limit (</strong><strong>including spaces)</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

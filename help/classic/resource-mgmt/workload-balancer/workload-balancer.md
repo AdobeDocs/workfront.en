@@ -31,10 +31,10 @@ For information about what the Workload Balancer is, how to navigate it, and how
 * [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 
   <!--
-  Add a custom section to display the Workload Balancer
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/add-custom-section-for-balancer.md" class="MCXref xref" xrefformat="{para}">Add a custom section to display the Workload Balancer </a> </li>
   -->
 
   <!--
-  Perform 'what-if' scenarios in the Workload Balancer
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/what-if-scenarios-balancer.md" class="MCXref xref" xrefformat="{para}">Perform 'what-if' scenarios in the Workload Balancer</a> </li>
   -->
 

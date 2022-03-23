@@ -40,8 +40,8 @@ You must have the following to perform the steps in this article:
 
 ## Create, view, edit, copy, rename, export, or delete a subgroup
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
@@ -53,7 +53,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Create a new subgroup</td> 
-      <td> Select the group under which you want to create a new subgroup, then click New Subgroup. <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
+      <td> Select the group under which you want to create a new subgroup, then click <strong>New Subgroup</strong>. <p>For information about the options you can use to configure the subgroup, see the table in <a href="../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md" class="MCXref xref">Create a subgroup</a>.</p> <p>A group hierarchy cannot exceed 15 levels, but a single level can have an unlimited number of parallel groups.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Edit a subgroup</td> 
@@ -64,14 +64,14 @@ You must have the following to perform the steps in this article:
       <td> 
        <ol> 
         <li value="1">Select the subgroup or subgroups you want to export.</li> 
-        <li value="2">Click Exportthe Export icon <img src="assets/export.png">, then select the file format you want.</li> 
+        <li value="2">Click <strong>Export</strong>the Export icon <img src="assets/export.png">, then select the file format you want.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Copy a subgroup to create a new top-level group</td> 
       <td> <p>(Available only for Workfront administrators.) When you copy a subgroup, it becomes a parent group. All group members and subgroups are copied with it. The groups members retain any assignments they had in the original group.</p> <p>For more information about copying a subgroup, see <a href="#copying" class="MCXref xref">About copying a subgroup</a> in this article.</p> 
        <ol> 
-        <li value="1">Select a subgroup, then click More &gt; Copy to create a new top-level group based on the selected group.</li> 
+        <li value="1">Select a subgroup, then click <strong>More &gt; Copy</strong> to create a new top-level group based on the selected group.</li> 
         <li value="2"> <p>Configure the new group’s settings.</p> <p>For help with these settings, see the table in the section <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a> in the article <a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">Create a top-level group by copying an existing group or subgroup</a>.</p> </li> 
        </ol> </td> 
      </tr> 
@@ -79,15 +79,15 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Delete a subgroup</td> 
       <td> <p>Important: When you delete a group or subgroup, you need to preserve the users, work items, and any subgroups that are currently assigned to it. To help you make sure they are preserved, a prompt requires you to reassign the group’s objects to a different group in the step below.</p> 
        <ol> 
-        <li value="1">Select the subgroup, then click More &gt; Delete.</li> 
-        <li value="2">In the <span class="bold">Delete Group</span> box that appears, starting typing and then select the name of the group where you want to move the members, work items, and subgroups of the group you are deleting.</li> 
-        <li value="3">Click <span class="bold">Delete Them</span>.</li> 
+        <li value="1">Select the subgroup, then click <strong>More &gt; Delete</strong>.</li> 
+        <li value="2">In the <strong>Delete Group</strong> box that appears, starting typing and then select the name of the group where you want to move the members, work items, and subgroups of the group you are deleting.</li> 
+        <li value="3">Click <strong>Delete Them</strong>.</li> 
        </ol> </td> 
      </tr> 
     </tbody> 
    </table>
 
-` `**Tip: **`` When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
+``` ```**Tip: **`````` When you are managing a group that contains subgroups, it’s helpful to be able to identify and filter data about the entire group and all of its subgroups. You can do this by using the Top Parent ID field in a report or list.
 
 For example, imagine that you manage a large Marketing department and you want a list of all of the projects that the entire department is working on.
 
@@ -103,12 +103,12 @@ You can also use the Top Parent Name field to identify data associated with a to
 
 You can make a subgroup a top-level group by removing it from its parent group.
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-1. Select the parent group of the group you want to make a top-level group, then click Edit. 
-1. In the `Edit Group` box that appears, under `Group Members and Group Administrators`, start typing the name of the subgroup that you want to make a top-level group, then click the X to the right of its name it when it appears.
-1. Click `Save`.
+1. Select the parent group of the group you want to make a top-level group, then click **Edit**. 
+1. In the **Edit Group** box that appears, under **Group Members and Group Administrators**, start typing the name of the subgroup that you want to make a top-level group, then click the X to the right of its name it when it appears.
+1. Click **Save**.
 
 ## About copying a subgroup
 

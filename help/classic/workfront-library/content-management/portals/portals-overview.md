@@ -14,8 +14,8 @@ Your organization can portals to gather, share, and manage related content while
 
 As a Workfront Library administrator or a user with Manager access to the portal, you can give someone access to a portal and assign them one of the following portal access levels:
 
-* `Manager`: User can add, edit, download, and share items in the portal
-* `Viewer:` User can see and download items in the portal
+* **Manager**: User can add, edit, download, and share items in the portal
+* **Viewer:** User can see and download items in the portal
 
 >[!NOTE]
 >
@@ -31,13 +31,13 @@ Consider the following example:
 
 * Joan Harris has Viewer access to Workfront Library.
 
-  * She has View permissions to the Ranger_Print-Ad2 file in Workfront Library.
+   * She has View permissions to the Ranger_Print-Ad2 file in Workfront Library.
 
 * She has Manager access to the Ranger portal.
 
-  * She has Manage permissions to the Ranger_Print-Ad2 file in the portal.
-  * She renames the Ranger_Print-Ad2 file in the portal to Campaign_Cover.
-  * The Ranger_Print-Ad2 file in Workfront Library is updated with file name Joan applied in the portal.
+   * She has Manage permissions to the Ranger_Print-Ad2 file in the portal.
+   * She renames the Ranger_Print-Ad2 file in the portal to Campaign_Cover.
+   * The Ranger_Print-Ad2 file in Workfront Library is updated with file name Joan applied in the portal.
 
 Although Joan has only View permissions to the file in Workfront Library, she is able to edit the file in the portal using her portal Manage permissions.
 
@@ -45,8 +45,8 @@ Because each item in a portal is actually a link to its counterpart in Workfront
 
 There are 2 ways you can give users access to Workfront Library:
 
-* `Explicit access`: Access you specifically assign to a user when you add them to a portal
-* `Inherited access`: Access inherited by a user who is a member of a Workfront organizational unit that you've given access
+* **Explicit access**: Access you specifically assign to a user when you add them to a portal
+* **Inherited access**: Access inherited by a user who is a member of a Workfront organizational unit that you've given access
 
 For information on granting users portal access, see [Give users access to a Workfront Library portal](../../../workfront-library/administration-and-setup/user-access/give-users-access-portal.md).
 

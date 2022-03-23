@@ -23,8 +23,8 @@ When creating approval processes for project, task, and issue approvals, the fol
 
 * The following pre-existing limitations related to modifying existing global approval processes have been removed:
 
-  * The modified approval process is&nbsp;reflected only on objects throughout the system where the approval process has either not yet started or where the approval process has not been modified. Objects where the approval process is already started or where the approval process has been modified are not updated with your changes.
-  * You cannot modify the status that determines when the approval starts.
+   * The modified approval process is&nbsp;reflected only on objects throughout the system where the approval process has either not yet started or where the approval process has not been modified. Objects where the approval process is already started or where the approval process has been modified are not updated with your changes.
+   * You cannot modify the status that determines when the approval starts.
 
 * Updated look and feel.
 
@@ -37,7 +37,7 @@ When associating an approval process with a project, task, or issue, the followi
 
 For more information about associating approvals with projects, tasks, and issues, see [Associate a new or existing approval process with work](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-`<iframe class="mt-media" src="assets/203901609?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
+```<iframe class="mt-media" src="assets/203901609?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
 ## Change the Status of a Project Directly from the Project Page
 
@@ -103,4 +103,4 @@ This functionality should be released to both the iOS and Android app stores the
 
 For more information, see .
 
-`<iframe class="mt-media" src="assets/200086387?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
+```<iframe class="mt-media" src="assets/200086387?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;

@@ -15,8 +15,8 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 
 ## Scenarios
 
-* The default scenario execution timeout is `40 minutes`. When the execution reaches this timeout, Workfront Fusion interrupts scenario execution after the next cycle or operation, depending on the scenario. This forces the scenario to stop shortly after the 40 minute limit is reached
-* The maximum size of a scenario blueprint is `5 MB`, but we recommend keeping scenario size under `3 MB`.
+* The default scenario execution timeout is **40 minutes**. When the execution reaches this timeout, Workfront Fusion interrupts scenario execution after the next cycle or operation, depending on the scenario. This forces the scenario to stop shortly after the 40 minute limit is reached
+* The maximum size of a scenario blueprint is **5 MB**, but we recommend keeping scenario size under **3 MB**.
 
   App modules that create or update data with large numbers of fields can cause very large blueprints.
 
@@ -27,7 +27,7 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 
 ## Operations
 
-* The default operation timeout is typically `40 seconds`.
+* The default operation timeout is typically **40 seconds**.
 * The operation timeout for calls to Adobe Workfront is **120 seconds**.
 
 ## Files
@@ -42,6 +42,6 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 
 ## Webhooks
 
-* The default maximum size of a payload is `5 MB`.
+* The default maximum size of a payload is **5 MB**.
 * Webhooks are limited to 100 requests per second. When this limit is reached, Workfront Fusion sends a 429 (Too Many Requests) status.
 

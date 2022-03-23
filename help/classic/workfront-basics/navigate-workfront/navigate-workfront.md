@@ -15,5 +15,8 @@ This section contains the following subsections:
 * [Adobe Workfront Search](../../workfront-basics/navigate-workfront/search/search.md) 
 * [Recents and favorites in Adobe Workfront](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md) 
 * [Lists in Adobe Workfront](../../workfront-basics/navigate-workfront/use-lists/lists.md) 
-* [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
+* [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md) 
+* Customize the Global Navigation Bar in&nbsp;Adobe Workfront
+* Understand a Worker's Global&nbsp;Navigation Bar in&nbsp;Adobe Workfront
+* Understand a Reviewer's Global Navigation Bar in Adobe Workfront
 

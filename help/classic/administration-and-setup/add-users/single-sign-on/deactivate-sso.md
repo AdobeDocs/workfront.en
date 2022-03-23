@@ -21,7 +21,9 @@ After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log 
 >
 >This is not available if your organization’s Workfront instance uses a custom SSO portal>
 ><!-->
+><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >or is enabled with Adobe IMS>
+></MadCap:conditionalText>>
 >-->
 >. See your network or IT administrator if you need more information.
 
@@ -50,9 +52,9 @@ You must have the following to perform the steps in this article:
 
 ## Deactivate SSO
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `System` > `Single Sign-On (SSO)`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. Scroll to the bottom of the page and disable the `Enable` option.
-1. Click `Save`.
+1. Scroll to the bottom of the page and disable the **Enable** option.
+1. Click **Save**.
 

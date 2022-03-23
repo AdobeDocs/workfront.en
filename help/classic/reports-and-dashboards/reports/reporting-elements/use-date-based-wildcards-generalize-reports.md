@@ -66,19 +66,19 @@ View the following video to learn how you can generalize the information in your
 To insert a date-based wildcard in a report:
 
 1. Go to a report for which you want to insert a date-based wildcard.
-1. Click `Report Actions`, then `Edit`.
+1. Click **Report Actions**, then **Edit**.
 
-1. Click the `Filters` tab.
-1. Click `Add a Filter Rule`.
+1. Click the **Filters** tab.
+1. Click **Add a Filter Rule**.
 1. Start typing the name of the field that you want to filter by.  
    You must type fields that reference a date.
-1. Select `Equal` in the drop-down menu for the filter variable.
+1. Select **Equal** in the drop-down menu for the filter variable.
 
    >[!TIP]
    >
-   >You must always select the `Equal` filter variable when working with wildcards in Adobe Workfront.
+   >You must always select the **Equal** filter variable when working with wildcards in Adobe Workfront.
 
-1. In the `Start typing name ...` box, type: 
+1. In the **Start typing name ...** box, type: 
 
    ```
    $$TODAY
@@ -123,12 +123,13 @@ To insert a date-based wildcard in a report:
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
-1. Click `Save + Close`.
+1. Click **Save + Close**.
 
 ## Additional information
 
 See also:
 
+* Learning Path for reports and dashboards
 * [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md) 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) 

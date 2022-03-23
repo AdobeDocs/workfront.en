@@ -36,7 +36,7 @@ The proof creation process includes both importing and proof generation. Occasio
 * The file is damaged or corrupted.
 * The workflow deadline on a new proof version is in the past.
 
-  This occurs when you are creating a new proof version using a quick proof method and `Automatically generate proofs when uploading documents` is selected. The new proof version attempts to take the workflow deadlines from the previously generated proof. Proof generation fails if these deadline are in the past. To remedy this, you can set the workflow deadlines on the previous version in the future, or generate a new proof version. If you generate a new version, use  `More > New Version > Proof` and select `Workflow deadlines in the future`.
+  This occurs when you are creating a new proof version using a quick proof method and **Automatically generate proofs when uploading documents** is selected. The new proof version attempts to take the workflow deadlines from the previously generated proof. Proof generation fails if these deadline are in the past. To remedy this, you can set the workflow deadlines on the previous version in the future, or generate a new proof version. If you generate a new version, use&nbsp;**More > New Version > Proof** and select **Workflow deadlines in the future**.
 
 * When proofing PDF files, reasons for proof generation failure include:
 

@@ -22,7 +22,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -31,7 +35,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -46,7 +57,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
 ## Task 1: Add the first module and configure it
 
-1. Search for Email and choose `Watch emails` as the Trigger.
+1. Search for Email and choose **Watch emails** as the Trigger.
 
    >[!NOTE]
    >
@@ -64,7 +75,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    You can change this based on the volume of messages you receive. However, it’s recommended to set a low value and run the scenario more often.
 
-1. Now click `Show advanced settings` at the bottom to see these filters:
+1. Now click **Show advanced settings** at the bottom to see these filters:
 
    ![](assets/show-adv-settings-350x332.png)
 
@@ -76,7 +87,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
    >
    >We will add a router to look for phrases in an email using the Match Pattern iterator and a Regular Expression (Regex) as a search pattern. This also enables us to build a multi-utility scenario.
 
-1. Once the configuration is done, and you are prompted to specify where to start watching your emails, click `From now on`.
+1. Once the configuration is done, and you are prompted to specify where to start watching your emails, click **From now on**.
 
    ![](assets/from-now-on-350x236.png)
 
@@ -96,21 +107,21 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    We will search for the phrase “text parser module” in all incoming emails to capture the body text and sender’s name of the ones that match that phrase.
 
-  1. Write the Pattern as a Regular Expression:
+   1. Write the Pattern as a Regular Expression:
 
-     text\sparser\smodule
-  
-  1. (Optional) Use any of the other Patter options.
+      text\sparser\smodule
+   
+   1. (Optional) Use any of the other Patter options.
 
-     ![](assets/pattern-350x318.png)
+      ![](assets/pattern-350x318.png)
 
-     Multiline is useful if your text contains several lines and you need to search for the pattern in each line. For this tutorial we need to search for the pattern in the entire email body text, hence we will leave it unchecked.
-  
-  1. In the Text field, click the attribute `Text content` in the list.
+      Multiline is useful if your text contains several lines and you need to search for the pattern in each line. For this tutorial we need to search for the pattern in the entire email body text, hence we will leave it unchecked.
+   
+   1. In the Text field, click the attribute **Text content** in the list.
 
-     ![](assets/text-content-350x264.png)
+      ![](assets/text-content-350x264.png)
 
-     This is the attribute that stores the text from the email body in which we will search for the pattern.
+      This is the attribute that stores the text from the email body in which we will search for the pattern.
 
 1. Add another Match Pattern that searches for the same phrase and an email address.
 
@@ -130,13 +141,13 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
    >
    >While it’s important to write your regex in accordance with the specification of the email addresses you accept, the one above takes care of most standard email addresses.
 
-  * If you’d like to search only for email address, you can use the regex below:
+   * If you’d like to search only for email address, you can use the regex below:
 
-    ([\w.-]+@[\w.-]+)
-  
-  * You may also search only for phone numbers using the regex below:
+     ([\w.-]+@[\w.-]+)
+   
+   * You may also search only for phone numbers using the regex below:
 
-    ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4}
+     ^[+]?\(?(\d{1,3})\)?[\s-]?\(?(\d{3})\)?[\s-]?\d{3}[\s-]?\d{3,4}
 
    The above pattern covers most common formats in which a phone number is written.
 
@@ -152,7 +163,7 @@ Instead of Google Sheets, you can use another app like Airtable or a CRM such as
 
    For example, create one called “Email Data: Support Ticket” with Sender Name, Sender Email and Email Content as columns. Name the worksheet "contains: text parser module."
 
-1. Add the Google Sheets module with `Add a row` as the action.
+1. Add the Google Sheets module with **Add a row** as the action.
 
    ![](assets/add-a-row-350x174.png)
 
@@ -168,43 +179,43 @@ Instead of Google Sheets, you can use another app like Airtable or a CRM such as
 
 1. Clone the module you just created and link it to the second Text Parser module.
 
-  1. Go to your Spreadsheet, duplicate the worksheet you created earlier and give it a name.
+   1. Go to your Spreadsheet, duplicate the worksheet you created earlier and give it a name.
 
-     For example, name it "contains: text parser module and email."
-  
-  1. Add another column to store the email address that the email body contains.
+      For example, name it "contains: text parser module and email."
+   
+   1. Add another column to store the email address that the email body contains.
 
-     For example, name it "Email Address Shared."
-  
-  1. Click the cloned Google Sheets module to configure the setup.
-  1. Change the worksheet to the new one you just created.
-  1. Map the output from the Match Pattern module ($1) to the column where you want to store the email address (Email Address Shared).
+      For example, name it "Email Address Shared."
+   
+   1. Click the cloned Google Sheets module to configure the setup.
+   1. Change the worksheet to the new one you just created.
+   1. Map the output from the Match Pattern module ($1) to the column where you want to store the email address (Email Address Shared).
 
-     ![](assets/map-the-output.png)
+      ![](assets/map-the-output.png)
 
-     ![](assets/sender-name-350x411.png)
+      ![](assets/sender-name-350x411.png)
 
-  1. Click `OK`, save the scenario, and take it for a test run.
+   1. Click **OK**, save the scenario, and take it for a test run.
 
-     You will need to send two separate emails to the connected email address as follows:
+      You will need to send two separate emails to the connected email address as follows:
 
-    * Containing the phrase “text parser module” (and no email address)
+      * Containing the phrase “text parser module” (and no email address)
 
-      ![](assets/text-parser-module-350x103.png)
+        ![](assets/text-parser-module-350x103.png)
 
-    * Containing the above phrase and an email address
+      * Containing the above phrase and an email address
 
-      ![](assets/above-phrase-and-email-350x106.png)
+        ![](assets/above-phrase-and-email-350x106.png)
 
-      If there are no errors in your setup, you will see that the first worksheet captures all emails containing the phrase “text parser module” while the second worksheet captures only those that contain the phrase “text parser module” and an email address. You may refer to the screenshots below.
+        If there are no errors in your setup, you will see that the first worksheet captures all emails containing the phrase “text parser module” while the second worksheet captures only those that contain the phrase “text parser module” and an email address. You may refer to the screenshots below.
 
-      Worksheet 1:
+        Worksheet 1:
 
-      ![](assets/worksheet-1-350x57.png)
+        ![](assets/worksheet-1-350x57.png)
 
-      Worksheet 2:
+        Worksheet 2:
 
-      ![](assets/worksheet-2-350x41.png)
+        ![](assets/worksheet-2-350x41.png)
 
 ## Resources
 

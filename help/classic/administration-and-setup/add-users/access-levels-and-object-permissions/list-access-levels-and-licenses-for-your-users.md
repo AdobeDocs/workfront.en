@@ -44,29 +44,29 @@ You must have the following:
 
 ## List your users’ access levels and licenses
 
-1. Click People in the Global Navigation Bar, then click the People tab that appears.
+1. Click **People** in the Global Navigation Bar, then click the **People** tab that appears.
 
    By default, all users who are set as Active display in the list.
 
-1. In the `View` drop-down menu, select `Licenses`.
+1. In the **View** drop-down menu, select **Licenses**.
 
-   The `License` column displays the name of the license assigned to each user.
+   The **License** column displays the name of the license assigned to each user.
 
-1. In the `Grouping` drop-down menu, click `License Type`.
+1. In the **Grouping** drop-down menu, click **License Type**.
 
    This view groups together the users who have the same license types.
 
 1. (Optional) To filter the list by a specific license:
 
-  1. Click the `Filter` drop-down menu, then click `New Filter`.
-  
-  1. Click `Add a Filter Rule`.
-  1. Start typing `License` and select it when it appears in the list.
-  1. With the `Equal` modifier selected, start typing the name of the license you want to filter the list by.
+   1. Click the **Filter** drop-down menu, then click **New Filter**.
+   
+   1. Click **Add a Filter Rule**.
+   1. Start typing **License** and select it when it appears in the list.
+   1. With the **Equal** modifier selected, start typing the name of the license you want to filter the list by.
 
-     You can specify more than one license type.
-  
-  1. Click `Save Filter`.
+      You can specify more than one license type.
+   
+   1. Click **Save Filter**.
 
-     The list displays only the users associated with the license types that you specified in the filter.
+      The list displays only the users associated with the license types that you specified in the filter.
 

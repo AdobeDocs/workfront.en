@@ -77,7 +77,7 @@ You can continue submitting the request, or you can complete as much information
 >
 >Consider the following when working with drafts:
 >
->* Workfront does not create draft requests when you submit them from a third-party application, like emailing them into Workfront, or creating them using any another application. When you submit a request from outside the Workfront web app the request is saved in the All Requests or Requests I've Submitted tabs. 
+>* Workfront does not create draft requests when you submit them from a third-party application, like emailing them into Workfront, or creating them using any another application. When you submit a request from outside the Workfront web app the request is saved in the All&nbsp;Requests or Requests I've Submitted tabs.  
 >* If the structure of a request queue changes, you can no longer access existing drafts.&nbsp;For example, if a queue topic is removed, or a topic group is added, the saved drafts are no longer accessible. 
 >
 
@@ -85,8 +85,33 @@ For information about creating requests from existing drafts, see [Create reques
 
 To create a request in the Workfront web app:&nbsp;
 
-1. Go to the Requests area in the Global Navigation Bar. 
-1. Click New Request. 
+1. Go to the **Requests** area in the Global Navigation Bar. 
+1. Click **New Request**. 
+1. From the **Select a Request Type** drop-down menu, do one of the following:
+1.
+
+   * (Conditional) Select an available draft from the **Recent Drafts** section.  
+     The three most recent drafts from three different queue topics display by default. This area displays only if you have saved drafts before without submitting them.
+
+     ![](assets/new-requests-with-drafts-drop-down-350x142.png)
+
+   * Choose or search for a request queue for your request from the **New Request** tab, then click it when it displays in the list. 
+   
+     ``` ```**Tips: **``````
+
+      * The first 200 requests queues display by default, in alphabetical order. 
+      * The name of the request queue is the name of the project which has been published as a Help Request Queue. 
+      * Hovering over the information icon ![](assets/information-icon-classic.png) next to the name of the selected request queue displays the description of the project configured as a request queue.
+
+     For more information about how to publish a project as a Help&nbsp;Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+     If you have started a request for this request type before and you did not submit it when you first created it, a notification displays under the request type you selected to let you know that a draft of your request is saved in the Drafts area. The first two drafts are listed by default.&nbsp;Click **See all <number> drafts** to see a list of all available drafts for the request type you selected, then click the one you want to continue editing when you see it in the list.
+
+     ![](assets/multiple-drafts-warning-350x199.png)
+
+     Click the **X** icon to close the draft notification and continue entering a new request.
+
+     A new draft automatically saves for you in the Drafts tab  after you start entering information for the new request and you give the request a name in the Subject field.
+
 1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic.
 
    You can have up to 10 tiers of Topic Groups built into&nbsp;your Request Queue.   
@@ -94,28 +119,28 @@ To create a request in the Workfront web app:&nbsp;
 
    >[!TIP]
    >
-   >If you selected a draft `or a previous path`, the topic groups and queue topics are already selected. You can select a different one, if needed.
+   >If you selected a draft ```or a previous path```, the topic groups and queue topics are already selected. You can select a different one, if needed.
 
-1. Depending on what fields the Workfront administrator enabled in the `New Issue Fields` section of the `Queue Details`&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:
+1. Depending on what fields the Workfront administrator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Subject</span> </td> 
+      <td role="rowheader"><strong>Subject</strong> </td> 
       <td>Specify a name for your request. This is a mandatory field.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>Specify a description for your request.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">URL</span> </td> 
+      <td role="rowheader"><strong>URL</strong> </td> 
       <td> <p>Specify a URL that might relate to your request.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Priority</span> </td> 
+      <td role="rowheader"><strong>Priority</strong> </td> 
       <td> <p>Specify a priority for your request. The priority should define how fast you think this request should be resolved. The default&nbsp;options are: </p> 
        <ul> 
         <li>None</li> 
@@ -126,7 +151,7 @@ To create a request in the Workfront web app:&nbsp;
        </ul> <p>Your system administrator can modify the names of priorities.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Severity</span> </td> 
+      <td role="rowheader"><strong>Severity</strong> </td> 
       <td> <p>Specify a severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default&nbsp;options are:</p> 
        <ul> 
         <li>Cosmetic</li> 
@@ -137,9 +162,15 @@ To create a request in the Workfront web app:&nbsp;
        </ul> <p>Your system administrator can modify the names of severities.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Primary Contact</span> </td> 
+      <td role="rowheader"><strong>Primary Contact</strong> </td> 
       <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other Workfront user.</td> 
-     </tr> Assigned To* Specify the name of an active user who this request should be assigned to. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate users. You can specify only one user. Job Role* Specify the name of an active job role that the request should be assigned to. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate job roles. You can specify only one role. Team* Specify the name of an active team that the request should be assigned to. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate teams. You can specify only one team. 
+     </tr>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><strong>Assigned To*</strong> </td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Specify the name of an active user who this request should be assigned to. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate users. You can specify only one user. </p> </td>   
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader"><strong>Job Role*</strong> </td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Specify the name of an active job role that the request should be assigned to.&nbsp;We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate job roles. You can specify only one role. </p> </td>   
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><strong>Team*</strong> </td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Specify the name of an active team that the request should be assigned to.&nbsp;We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate teams. You can specify only one team. </p> </td>  
      <tr> 
       <td role="rowheader" colspan="2"> <p>Note:  <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.) </p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
         <ul> 
@@ -148,23 +179,23 @@ To create a request in the Workfront web app:&nbsp;
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Planned Hours</span> </td> 
+      <td role="rowheader"><strong>Planned Hours</strong> </td> 
       <td> <p>Estimate how many hours it would take for this request to complete.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Planned Start Date</span> </td> 
+      <td role="rowheader"><strong>Planned Start Date</strong> </td> 
       <td> <p>Specify the date when work on this request should start.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Planned Completion Date</span> </td> 
+      <td role="rowheader"><strong>Planned Completion Date</strong> </td> 
       <td>Specify the date when you would like for this request to be resolved.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Status</span> </td> 
+      <td role="rowheader"><strong>Status</strong> </td> 
       <td>The default status of a new request is "New." Your system administrator might have changed the name of this&nbsp;status. You can also change the status to something else from this drop-down menu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Documents</span> </td> 
+      <td role="rowheader"><strong>Documents</strong> </td> 
       <td> <p>Add documents to your request. </p> <p>Tip: Depending on how the request queue was set up, the Documents section might display before or after the custom fields. </p> <p>Documents that you upload to Workfront are stored for 24 hours in a drafted request. After that, you must reattach them when you return to edit and submit the draft. Documents that are linked from other drives are saved on the draft permanently. </p> </td> 
      </tr> 
     </tbody> 
@@ -172,16 +203,16 @@ To create a request in the Workfront web app:&nbsp;
 
 1. (Optional) If your Workfront administrator associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form.   
    Custom forms are different for every Workfront instance.&nbsp;
-1. (Optional and conditional) At any point during entering the request, click `Discard` if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
-1. (Optional) Click `Cancel` on the confirmation message if you want to revert your action and keep the `draft.`
+1. (Optional and conditional)&nbsp;At any point during entering the request, click **Discard** if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
+1. (Optional) Click **Cancel** on the confirmation message if you want to revert your action and keep the ```draft.```
 
 1. Do one of the following:
 
-  * Click Submit Request if you are ready to submit the request. The request is saved in the Requests I've Submitted tab. Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Click **Submit Request** if you are ready to submit the request. The request is saved in the Requests I've Submitted tab. Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
-    Or
+     Or
 
-    Click anywhere outside your request if you are not quite ready to submit it and you might come back and finish it later. Your request is saved in the Drafts taband it will be available to you next time you submit a request for this request queue.
+     Click anywhere outside your request if you are not quite ready to submit it and you might come back and finish it later. Your request is saved in the Drafts  tab and it will be available to you next time you submit a request for this request queue.
 
    When you submit the request, the draft automatically deletes and cannot be restored.
 
@@ -191,7 +222,14 @@ To create a request in the Workfront web app:&nbsp;
 
 ## Create requests from outside of Workfront
 
-After your Workfront administrator creates the Request Queue, you can share the URL of that request queue outside of Workfront, or embed it in other applications you use in your organization. You can share a Request Queue by doing one of the following: Using a Direct Access URL to the request. Embedding the code of the Request Queue into an iframe. For information about the Direct Access URL and the Embed Code field, see the article Create a Request Queue. 
+After your Workfront administrator creates the Request Queue, you can share the URL of that request queue outside of Workfront, or&nbsp;embed it in other applications you use in your organization.&nbsp;
+
+You can share a Request Queue by doing one of the following:
+
+* Using a Direct Access URL to the request.
+* Embedding the code of the Request Queue into an iframe.&nbsp;
+
+For information about the Direct Access URL and the Embed Code field, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Create requests by emailing&nbsp;into Workfront
 

@@ -46,14 +46,14 @@ You must have the following access to perform the steps in this article:
 ## Set the Condition Type for a project
 
 1. Go to the project for which you want to update the Condition Type. 
-1. Click Edit Project.
+1. Click **Edit Project**.
 
-1. In the `Condition Type` field, choose one of the following:
+1. In the **Condition Type** field, choose one of the following:
 
-  * `Manual:` The project owner sets the Condition on the project manually.
-    In this case, the project owner can update the Condition of the project in the Project Details tab.
-  * `Progress Status:` Workfront sets the Condition based on the Progress Status of the project. For information about how the Progress Status is calculated, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * **Manual:** The project owner sets the Condition on the project manually.
+     In this case, the project owner can update the&nbsp;Condition of the project in the Project Details tab.
+   * **Progress Status:** Workfront sets the Condition based on the Progress Status of the project. For information about how the Progress Status is calculated, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-1. Click  `Save Changes` .
+1. Click&nbsp;**Save Changes** .
 
 &nbsp;

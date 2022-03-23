@@ -30,7 +30,10 @@ You must have the following:
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront licenses overview* Plan
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
+    <td> <p>Plan</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -78,6 +81,10 @@ Before you can create tasks and issues from Slack, you must
 
 1. (Optional) Start typing the name of a project with which you want to associate the new task and select it when it appears in the list.  
    You receive a confirmation indicating that the task was added to the selected project.
+1. Add to my work
+1. 
+1. 
+1. Create ad hoc work items
 1. (Optional) Click the name of the task in the confirmation message to open it in Workfront, in a new browser tab.
 
 ## Create issues from Slack

@@ -22,7 +22,7 @@ A user might have multiple access levels assigned to them. For example, a user c
 
 >[!NOTE]
 >
->To determine how a user has access to Workfront Library, you can open the Library menu and go to `Setup` > `Access` > `Users`. In the Users area, you see a list of users and the type of access they have is listed in the Access Sources column.  
+>To determine how a user has access to Workfront Library, you can open the Library menu and go to **Setup** > **Access** > **Users**. In the Users area, you see a list of users and the type of access they have is listed in the Access Sources column.  
 >![](assets/access-sources-column-350x274.png)<![CDATA[		]]>
 
 * [Remove a user's individual access](#remove2) 
@@ -34,15 +34,15 @@ Removing a user's individual access to Workfront Library does not affect any oth
 
 To remove individual access:
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon.
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 
    >[!NOTE]
    >
-   >To remove a user from a portal, click `Portals` in the bottom-left panel.
+   >To remove a user from a portal, click **Portals** in the bottom-left panel.
 
-1. In the left panel, click `Setup` > `Users`.
-1. To locate the user you want to remove, click the `Search` icon in the top-right corner, then enter the user's name and hit Enter.
+1. In the left panel, click **Setup** > **Users**.
+1. To locate the user you want to remove, click the **Search** icon in the top-right corner, then enter the user's name and hit Enter.
 
    ![](assets/search-icon-for-users-350x144.png)
 
@@ -50,27 +50,27 @@ To remove individual access:
 
    Scroll down until you've located the user's name.
 
-1. Next to the user's name, click the More menu, then select `Remove individual access`.
+1. Next to the user's name, click the More menu, then select **Remove individual access**.
 
    ![](assets/remove-individual-access-selection-350x173.png)
 
 1. (Optional) If the user owns assets and doesn't have access through a user grouping, you must select what you would like to do with the assets:
 
-  * Transfer the assets to a different user
-  * Delete the assets
-  * Keep the assets without transfering them to a new owner
+   * Transfer the assets to a different user
+   * Delete the assets
+   * Keep the assets without transfering them to a new owner
 
    >[!NOTE]
    >
    >If you choose to keep the assets assigned to the user that you're removing, you can transfer the assets later. If you select to transfer the assets now, you must select a new owner to assign them to. To learn more about transfering assets, see [Transfer ownership assets to another user](../../../workfront-library/administration-and-setup/manage-assets/transfer-ownership-to-others.md).
 
-1. In the Remove individual access dialog, click `Remove user`.
+1. In the Remove individual access dialog, click **Remove user**.
 
    The user appears in the Deactivated users list.
 
    >[!NOTE]
    >
-   >If you want to restore access for an inactive user, you can locate them by clicking the Filter icon, then selecting `Deactivated users` from the menu. After finding the Deactivated users list, you can select `Restore user access` from the More Menu.
+   >If you want to restore access for an inactive user, you can locate them by clicking the Filter icon, then selecting **Deactivated users** from the menu. After finding the Deactivated users list, you can select **Restore user access** from the More Menu.
 
 ## Remove access for a user grouping
 
@@ -96,27 +96,27 @@ Users who are members of the removed user grouping lose their access to Workfron
 
 To remove access for a user grouping in Workfront Library:
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon.
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon.
 
    >[!NOTE]
    >
-   >To remove a grouping from a portal, click `Portals` in the bottom-left panel.
+   >To remove a grouping from a portal, click **Portals** in the bottom-left panel.
 
-1. In the left panel, click `Setup`, then select the type of user grouping you want to remove access for:
+1. In the left panel, click **Setup**, then select the type of user grouping you want to remove access for:
 
-  * `Job role` 
-  * `Team` 
-  * `Group` 
-  * `Company`
+   * **Job role** 
+   * **Team** 
+   * **Group** 
+   * **Company**
 
    A list of the user groupings for the selected type displays in Workfront Library.
 
-1. Click the `More` menu inline with the user grouping that you want to remove.
+1. Click the **More** menu inline with the user grouping that you want to remove.
 
    ![](assets/remove-grouping-library-350x169.png)
 
-1. Click `Remove`, then click `Remove` to confirm.
+1. Click **Remove**, then click **Remove** to confirm.
 
    The user grouping is removed from Workfront Library. Removing a user grouping from Workfront Library does not delete the user grouping in Workfront.
 

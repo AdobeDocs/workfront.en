@@ -19,7 +19,7 @@ For more information about Groups, see [Manage Groups using Workfront Proof](#).
 
 ## Opening the Groups Page
 
-1. Click `Groups` in the left navigation sidebar.  
+1. Click **Groups** in the left navigation sidebar.  
    On the Groups page, you can:
 
   * View all your public and private Groups.
@@ -36,7 +36,7 @@ For more information about Groups, see [Manage Groups using Workfront Proof](#).
     * Delete the selected Groups.  
       ![](assets/trash-button.png)
 
-  * You can perform actions on Groups also on each Group separately from their own `More` (three dot) menu:  
+  * You can perform actions on Groups also on each Group separately from their own **More** (three dot) menu:  
     ![](assets/more-button-small.png)
 
     * View Group details.  
@@ -57,49 +57,48 @@ You can Sort Groups by Group name, privacy status, and description.
 
 ## Filtering Groups
 
-1. Click the `Filter` icon to the far-right of the column headings to display the filtering options below the column headings.  
+1. Click the **Filter** icon to the far-right of the column headings to display the filtering options below the column headings.  
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. Select filtering options from the dropdown menus and type in the filtering boxes that appear below each column header, then click the `Filter` icon again to apply the options.  
+1. Select filtering options from the dropdown menus and type in the filtering boxes that appear below each column header, then click the **Filter** icon again to apply the options.  
    Or  
    Select the first letter in the Group name.   
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)
 
 ## Viewing and Editing Group Details
 
-1. Click the `More` button to the far-right of the Group name, then click `View group details` in the drop-down menu.  
+1. Click the **More** button to the far-right of the Group name, then click **View group details** in the drop-down menu.  
    On the page that appears, you can view&nbsp;all the people currently in the Group, along with their default roles and email alerts for the Group.
 
 1. Do any of the following the edit the Group details:
 
-  * Edit the Group name and `Description`&nbsp;by clicking it and typing. Clicking anywhere outside the field saves your changes.
-  * Click `Privacy` to change the Group privacy setting in the drop-down menu.
-  * Click `Add to group` to add new people to the Group.  
+  * Edit the Group name and **Description**&nbsp;by clicking it and typing. Clicking anywhere outside the field saves your changes.
+  * Click **Privacy** to change the Group privacy setting in the drop-down menu.
+  * Click **Add to group** to add new people to the Group.  
     ![Add_to_Group_btn.png](assets/add-to-group-btn.png)
 
-  * Click `Delete group` in the upper-right corner to delete the group.  
+  * Click **Delete group** in the upper-right corner to delete the group.  
     ![Trash_button.png](assets/trash-button.png)
 
   * Click the checkbox at the beginning of a Group member's row and use any of the options that appear just above the list.  
-  * Click the `More` icon at the end of a Group member's row and use any of the options in the drop-down menu.  
+  * Click the **More** icon at the end of a Group member's row and use any of the options in the drop-down menu.  
     ![More_button_small.png](assets/more-button-small.png)
 
 ## Adding Contacts to Groups
 
-1. Click `Contacts` in the left navigation panel to go to the  `Contacts`page.
+1. Click **Contacts** in the left navigation panel to go&nbsp;to the&nbsp;**Contacts**page.
 
 1. Select the check boxes next to the name or names of the contacts you want to add to a group.
-1. Click the  `Add to group`button.  
+1. Click the&nbsp;**Add to group**button.  
    ![](assets/screenshot-2018-04-06-15-27-17.png)  
-   The  `Add to group`dialogue box appears.
+   The&nbsp;**Add to group**dialogue box appears.
 
-1. In the  `People`section:
+1. In the&nbsp;**People**section:
 
-  1. Use the drop-down menus to change a member's  `Role`or&nbsp; `Email alerts.  
-     `For more information, see&nbsp; [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)&nbsp;and&nbsp; [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
+  1. Use the drop-down menus to change a member's&nbsp;**Role**or&nbsp;**Email alerts.**For more information, see&nbsp; [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)&nbsp;and&nbsp; [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
   
-  1. Use the  `Enter a contact name or email address`field to add additional contacts to the group.
+  1. Use the&nbsp;**Enter a contact name or email address**field to add additional contacts to the group.
 
-1. In the  `Groups`section, select the group to which you want to add the contact or contacts.
-1. Click  `Add to group.`
+1. In the&nbsp;**Groups**section, select the group to which you want to add the contact or contacts.
+1. Click&nbsp;**Add to group.**
 

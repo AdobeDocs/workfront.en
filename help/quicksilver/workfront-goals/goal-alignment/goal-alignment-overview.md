@@ -41,9 +41,9 @@ For more information about best practices when aligning goals, see [Get started 
 
 There are two approaches for aligning goals:
 
-* `A bottom-up alignment`: You can directly connect a child goal to a parent goal. For information about bottom-up goal alignment, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+* **A bottom-up alignment**: You can directly connect a child goal to a parent goal. For information about bottom-up goal alignment, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
-* `A top-down alignment`: You can convert a result or an activity of a goal into another goal.&nbsp;The new goal becomes the child goal of the original goal which becomes the parent. For information about top-down goal alignment, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+* **A top-down alignment**: You can convert a result or an activity of a goal into another goal.&nbsp;The new goal becomes the child goal of the original goal which becomes the parent. For information about top-down goal alignment, see [Align goals by converting results and activities to goals](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 For information about parent and children goals, see the [Understand parent and children goals](#parent) section in this article.
 
@@ -54,7 +54,14 @@ When you align goals to one another, one goal becomes the parent goal and the ot
 Consider the following when working with children and parent goals:
 
   <!--
-  In the Production environment, the following time period restrictions exist: You can align goals that only belong to the same or to a future time period. The child goal must end earlier or on the same day as the parent goal. You cannot align a goal to a past goal. You can replace an existing parent goal with another goal, even if the child goal or the parent goals are in the past. You can align a quarterly goal to an annual goal, but not a yearly goal to a quarterly goal.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>In the Production environment, the following time period restrictions exist: &nbsp;&nbsp;</p>
+  <ul>
+  <li>You can align goals that only belong to the same or to a future time period.</li>
+  <li>The child goal must end earlier or on the same day as the parent goal. </li>
+  <li>You cannot align a goal to a past goal. </li>
+  <li>You can replace an existing parent goal with another goal, even if the child goal or the parent goals are in the past. </li>
+  <li>You can align a quarterly goal to an annual goal, but not a yearly goal to a quarterly goal. </li>
+  </ul> </li>
   -->
 
 * You can align multiple children goals to the same parent goal. 

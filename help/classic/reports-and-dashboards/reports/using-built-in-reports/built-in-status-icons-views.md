@@ -22,7 +22,7 @@ Most of the indicators in the Status Icons field are quick links to the actual o
 If any of the items represented by the icons are missing from the object, the icon representing the missing item appears as an outline in the Status Icons column instead of a complete image.  
 ![task_status_icons.png](assets/task-status-icons.png)  
 For more information, see the [Overview of Status Icons and Flags](#understanding-status-icons) section in this article.  
-In some views, the `Status Icons` field is named `Flags` or `View Icons`.  
+In some views, the **Status Icons** field is named **Flags** or **View Icons**.  
 You cannot customize the look and feel of the icons that are included in the Status Icons field.
 
 ## Access requirements
@@ -68,34 +68,40 @@ To add the Status Icons field to a custom view that you build from scratch:
 
 1. Go to a list of any of the following objects:
 
-  * Tasks
-  * Issues
-  * Projects
-  * Template Tasks
-  * Templates
-  * Expenses
-  * Documents
-  * Users  
-    Only these objects have the `Status Icons` field available.  
-    For information on object lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   * Tasks
+   * Issues
+   * Projects
+   * Template Tasks
+   * Templates
+   * Expenses
+   * Documents
+   * Users  
+     Only these objects have the **Status Icons** field available.  
+     For information on object lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-1. From the `View` drop-down menu, select `New View`.
+1. From the **View** drop-down menu, select **New View**.
 
-1. Click `Add Column`.
-1. In the `Show in this column` box, start typing any of the following field names, then select it when it appears in the list:
+1. Click **Add Column**.
+1. In the **Show in this column** box, start typing any of the following field names, then select it when it appears in the list:
 
-  * *Status Icons*
-  * *Flags*
-  * *View Icons *(only in Document views).
+   * *Status Icons*
+   * *Flags*
+   * *View Icons *(only in Document views).
 
    The built-in icons are listed under any of these names.  
-   A Template view contains both the `Status Icons` and the `Flags` fields. In this case, the two columns contain identical icons.   
-   Document views contain a `View Icons` field.
+   A Template view contains both the **Status Icons** and the **Flags** fields. In this case, the two columns contain identical icons.   
+   Document views contain a **View Icons** field.
 
-1. Click `Save View`. 
-1. (Optional) Specify a new name for your view, then click `Save View`.  
-   This adds the `Status Icons` column to your View.
+1. Click **Save View**. 
+1. (Optional) Specify a new name for your view, then click **Save View**.  
+   This adds the **Status Icons** column to your View.
+
+   ![Screen_Shot_2018-07-26_at_10.35.14_AM.png](assets/screen-shot-2018-07-26-at-10.35.14-am-350x75.png)
+
 1. (Optional) Mouse over an icon to understand what it represents.
+
+   ![critical_path_icon.png](assets/critical-path-icon-350x209.png)
+
 1. (Optional) Click an icon to go to the area of the object represented by it.  
    Not all icons are links to objects.  
    For a complete list of attributes for each icon, see the [Overview of Status Icons and Flags](#understanding-status-icons) section.
@@ -114,9 +120,9 @@ You must have permissions to at least View the objects in order to be able to cl
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Status Icon or Flag</span> </th> 
-   <th><span class="bold">Description</span> </th> 
-   <th><span class="bold">Object</span> </th> 
+   <th><strong>Status Icon or Flag</strong> </th> 
+   <th><strong>Description</strong> </th> 
+   <th><strong>Object</strong> </th> 
    <th>On Click</th> 
    <th> </th> 
   </tr> 

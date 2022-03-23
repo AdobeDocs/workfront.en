@@ -106,7 +106,7 @@ When you copy a report, you automatically become the owner of the copied report.
 
 For information on copying reports, see the article [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-You can see who owns a report by checking the `Entered By` field.
+You can see who owns a report by checking the **Entered By** field.
 
 ### Create reports in the builder interface
 
@@ -134,13 +134,13 @@ Text Mode enables you to create more complex views, filters, groupings, and prom
 * [Calculated Columns, Conditional Formatting, and other uses of Text Mode](#calculated-columns-conditional-formatting-other-uses) 
 * [Text Mode samples](#samples)
 
-#### `Text Mode terminology`
+#### **Text Mode terminology**
 
 You must use a specific syntax to use the Workfront Text Mode interface.
 
 For more details about the Workfront syntax for text mode, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-#### `Calculated Columns, Conditional Formatting, and other uses of Text Mode`
+#### **Calculated Columns, Conditional Formatting, and other uses of Text Mode**
 
 Outside of reporting on fields that are not available in the builder interface, you can use Text Mode to display calculations or comparisons between certain fields.
 
@@ -153,7 +153,7 @@ For information about comparing fields in conditional formatting, see the articl
 You can also refer to collection fields using Text Mode in reports.  
 For information about using Text Mode to display collection information in a report, see the article [Reference collections in a report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
-#### `Text Mode samples`
+#### **Text Mode samples**
 
 We have a library of samples of the most used Views, Filters, and Groupings you can create with Text Mode.
 
@@ -289,8 +289,8 @@ The following terms are used in reference to Workfront reports:
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Term or Phrase</span> </th> 
-   <th><span class="bold">Definition</span> </th> 
+   <th><strong>Term or Phrase</strong> </th> 
+   <th><strong>Definition</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -378,7 +378,7 @@ The following terms are used in reference to Workfront reports:
      <li>On the Filter tab</li> 
      <li>The Advanced Options screen for the column in the Columns (View) tab. By defining a qualifier you can compare the Field Name to another field or value.</li> 
      <li> In a Custom Prompt<br>For information about Custom Prompts, see the "Creating a Prompt" section in the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</li> 
-    </ul> <p>For example, when building a filter for tasks with a Planned Completion Date of Today, you would select <span class="bold">Equal</span> in your Qualifier field, and today's date in the Date field:</p> <p><em>Task&gt; Planned Completion Date&gt;Equal&gt;(today's date)</em> </p> <p>In this scenario the Qualifier is <span class="bold">Equal</span>.<br>For more information about qualifiers, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p> </td> 
+    </ul> <p>For example, when building a filter for tasks with a Planned Completion Date of Today, you would select <strong>Equal</strong> in your Qualifier field, and today's date in the Date field:</p> <p><em>Task&gt; Planned Completion Date&gt;Equal&gt;(today's date)</em> </p> <p>In this scenario the Qualifier is <strong>Equal</strong>.<br>For more information about qualifiers, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">Filter and condition modifiers</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Report </td> 

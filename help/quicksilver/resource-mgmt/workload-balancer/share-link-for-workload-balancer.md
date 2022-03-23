@@ -67,7 +67,7 @@ The following options are available to the user viewing the Workload Balancer fr
   * Back and forward icons
   * Calendar selection
 
-* The Day, Week, `and Month` icons 
+* The Day, Week, ```and Month``` icons 
 * The Settings icon
 * The Show allocations icon
 
@@ -100,7 +100,7 @@ You need the following access to view information in the Workload Balancer from 
 1. (Optional) Do one or more of the following:
 
   * Update the time period selection.
-  * Click `Day, Week`, or `Month` to view daily, weekly, `or monthly` information.
+  * Click **Day, Week**, or **Month** to view daily, weekly, ```or monthly``` information.
 
     ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
@@ -108,7 +108,7 @@ You need the following access to view information in the Workload Balancer from 
 
     For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Click the `link icon` ![](assets/wb-shearable-link-icon-small.png).
+1. Click the **link icon** ![](assets/wb-shearable-link-icon-small.png).
 
    This adds the link to your clipboard. 
 
@@ -117,7 +117,7 @@ You need the following access to view information in the Workload Balancer from 
   * Paste it into an e-mail, chat message, or any other application and share that with other users. 
   * Add it to a custom section as an external page, add the custom section to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups.
 
-    For information about creating an&nbsp;External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding custom sections to a Layout Template, see Customize the left panel using a layout template.
+    For information about creating an&nbsp;External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding custom sections to a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
     >[!IMPORTANT]
     >

@@ -19,8 +19,8 @@ Making your group private means that only you will be able to view, use, edit or
 
 To make a new group private:
 
-1. Go to `Groups` on the left side of the screen.
-1. Select the `Private` option on the New group page when setting up the group. (1)
+1. Go to **Groups** on the left side of the screen.
+1. Select the **Private** option on the New group page when setting up the group. (1)
 
 ![Private_new_group.png](assets/private-new-group-350x221.png)
 
@@ -28,8 +28,8 @@ To make a new group private:
 
 To make an existing group private:
 
-1. Go to `Groups` on the left side of the screen.
-1. Enable the `Private` option on the Group details page. (2)
+1. Go to **Groups** on the left side of the screen.
+1. Enable the **Private** option on the Group details page. (2)
 
 ![Private_Group_Details.png](assets/private-group-details-350x123.png)
 

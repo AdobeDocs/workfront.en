@@ -27,9 +27,9 @@ When you align goals you indicate that they are connected to one another and the
 
 Consider the following concepts when aligning your goals:
 
-* `Alignment`: The process of connecting one goal to another. For information about best practices for alignment, see the [Guidelines for goal alignment](#a) section in this article. 
+* **Alignment**: The process of connecting one goal to another. For information about best practices for alignment, see the [Guidelines for goal alignment](#a) section in this article. 
 
-* `Cascading`: The process of creating goals where teams, groups, or the company are the owner, then connecting them to one another in a hierarchy.&nbsp;For example, a company-owned goal can cascade down to group-level goals. A&nbsp;group-level goal can cascade down to team-level goals which can ultimately cascade down to personal goals. For information about the difference between teams and groups in&nbsp;Workfront, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
+* **Cascading**: The process of creating goals where teams, groups, or the company are the owner, then connecting them to one another in a hierarchy.&nbsp;For example, a company-owned goal can cascade down to group-level goals. A&nbsp;group-level goal can cascade down to team-level goals which can ultimately cascade down to personal goals. For information about the difference between teams and groups in&nbsp;Workfront, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
 ## Best practices for aligning goals
 

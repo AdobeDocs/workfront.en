@@ -41,15 +41,15 @@ You must have the following to perform the steps in this article:
 
 ## Delete timesheet profiles
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. If you are deleting a timesheet profile that is in use throughout the system, click `Timesheet & Hours`.
+1. If you are deleting a timesheet profile that is in use throughout the system, click **Timesheet & Hours**.
 
    Or
 
    If you deleting a timesheet profile for a group, click **Groups**, then click the group's name.
 
 1. Click **Timesheet Profiles**.
-1. Select at least one timesheet profile that you want to delete, then click `More > Delete`.
+1. Select at least one timesheet profile that you want to delete, then click **More > Delete**.
 1. On the message box that displays, click **Yes, Delete I**t.
 

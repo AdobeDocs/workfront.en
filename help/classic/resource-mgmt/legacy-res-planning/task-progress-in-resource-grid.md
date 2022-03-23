@@ -26,7 +26,7 @@ You can configure the Resource Grid to display the following visual indicators r
 * Bold the hours of any user who has a task with potential impact on the project.  
   Either the user has not recorded hours to the task, or the user has taken longer than was planned. The project manager can assess the schedule and make adjustments.
 
-To configure the `Resource Grid` to display visual indicators related to task progress, see [Chart Options](../../resource-mgmt/legacy-res-planning/resource-grid-overview.md#chart-options).
+To configure the **Resource Grid** to display visual indicators related to task progress, see [Chart Options](../../resource-mgmt/legacy-res-planning/resource-grid-overview.md#chart-options).
 
 ## Overview of the icons in the Resource Grid
 
@@ -42,7 +42,7 @@ Depending where you are viewing the Resource Grid from, the icons may be slightl
 
 The following icons are visible on both the Resource Grid accessible from the Legacy Resource Planning tab as well as on the Resource Grid View when applied to a user report:
 
-| `Icon`  | `Name`  | `Function`  |
+| **Icon** |**Name** |**Function** |
 |---|---|---|
 |  ![resource_grid_magnifing_glass.png](assets/resource-grid-magnifing-glass.png), ![resource_grid_zoom_in_2.png](assets/resource-grid-zoom-in-2.png)
 
@@ -89,7 +89,7 @@ For more information about the Resource Grid colors, see [Overview of the colors
 
 The timeline shows the dates during which the user is allocated to a task or an issue. You can choose to see the Planned timeline, or the Projected timeline. For more information about choosing Planned vs Projected dates to display in the Resource Grid, see [View Planned or Projected work](../../resource-mgmt/legacy-res-planning/resource-grid-overview.md#viewing-planned-or-projected-work).
 
-When there is an over allocation, the day of the allocation for that task or issue is displayed in red. Toggle between `Used Resources` and `Available Resources`. Using `Available Resources` displays over-allocations in red negative numbers.
+When there is an over allocation, the day of the allocation for that task or issue is displayed in red. Toggle between **Used Resources** and **Available Resources**. Using **Available Resources** displays over-allocations in red negative numbers.
 
 ![](assets/screen-shot-2014-777-15-at-9.34.46-am--1--350x187.png)
 
@@ -98,5 +98,5 @@ The Resource Grid truncates Planned Hours if a task is completed early. The user
 ## Timeline limitations for user allocation
 
 There is a limitation of how many days display user allocation for the timeline of a task, issue, or project in the Resource Grid.  
-If a task, issue, or project span more than 1,000 days, the `Resource Grid` shows allocation information only for 1,000 days starting from the planned start date of the task, issue, or project .  
-All other days included in the timeline of the task, issue, or project in the `Resource Grid` appear as non-working days and therefore no allocation is calculated for those. 
+If a task, issue, or project span more than 1,000 days, the **Resource Grid** shows allocation information only for 1,000 days starting from the planned start date of the task, issue, or project .  
+All other days included in the timeline of the task, issue, or project in the **Resource Grid** appear as non-working days and therefore no allocation is calculated for those. 

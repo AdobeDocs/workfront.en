@@ -37,38 +37,41 @@ You must have the following to perform the steps in this article:
 
 ## Edit timesheets
 
-1. Select the All Timesheets tab. The timesheet filter is prepopulated with the teams you belong to.  
+1. Timesheet
+1. Back to Timesheets
+1. Select the **All Timesheets** tab. The timesheet filter is prepopulated with the teams you belong to.   ![](assets/all-timesheets-page-with-preselected-teams-default-classic-350x268.png)
+
 1. (Optional) To modify the filter in the list of timesheets, do the following:
 
-  1. Click `Filter` to apply the default filter and display timesheets for people in your teams.
+   1. Click **Filter** to apply the default filter and display timesheets for people in your teams.
 
-     Or
+      Or
 
-     Click `Reset Filter` to clear the filter selection and add new filtering criteria. 
-  
-  1. Select from the following filtering options:
+      Click **Reset Filter** to clear the filter selection and add new filtering criteria. 
+   
+   1. Select from the following filtering options:
 
-     | Belonging to |Displays timesheets associated with the users you specify or the users associated with the roles or teams that you specify. |
-     |---|---|
-     | Approver |Displays timesheets associated with the approvers that you specify. |
-     | Status |Displays timesheets associated with the status that you specify. |
-     | Time Period |Displays timesheets that include the time period you select. |
+      | Belonging to |Displays timesheets associated with the users you specify or the users associated with the roles or teams that you specify. |
+      |---|---|
+      | Approver |Displays timesheets associated with the approvers that you specify. |
+      | Status |Displays timesheets associated with the status that you specify. |
+      | Time Period |Displays timesheets that include the time period you select. |
 
-  1. Click  `Filter` after defining your filter criteria.
+   1. Click&nbsp;**Filter** after defining your filter criteria.
 
-     >[!TIP]
-     >
-     >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
+      >[!TIP]
+      >
+      >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
-1. (Optional) Click `View` or **Grouping ** to apply a different view or grouping or to create a new one.
+1. (Optional)&nbsp;Click **View** or **Grouping ** to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
-  * [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
-  * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
-  * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
+   * [Create or edit filters in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
+   * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
+   * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets, then click `Edit` `` at the top of the timesheet list. 
+1. Select one or several timesheets, then click **Edit** `````` at the top of the timesheet list. 
 1. View or specify the following information:
 
    <table cellspacing="0"> 
@@ -76,27 +79,31 @@ You must have the following to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Owner</span> </td> 
+      <td role="rowheader"><strong>Owner</strong> </td> 
       <td> <p>This is the name of the user for which the timesheet was created.&nbsp;You cannot edit this field. </p> <p>The field does not display when you select multiple timesheets. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Start Date</span> </td> 
+      <td role="rowheader"><strong>Start Date</strong> </td> 
       <td>This is the start date of the timesheet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">End Date</span> </td> 
+      <td role="rowheader"><strong>End Date</strong> </td> 
       <td> This is the end date of the timesheet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Approvers</span> </td> 
-      <td> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with administrative access to Timesheets can be set as approvers. </p> <p>For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Start entering the names of the timesheet approvers and select them when they appear&nbsp;in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <span class="bold">Closed</span> and it disappears from the timesheet approvals list of all the remaining approvers.</p> </td> 
+      <td role="rowheader"><strong>Approvers</strong> </td> 
+      <td> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with administrative access to Timesheets can be set as approvers. </p> <p>For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Start entering the names of the timesheet approvers and select them when they appear&nbsp;in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Can edit time</span> </td> 
+      <td role="rowheader"><strong>Can edit time</strong> </td> 
       <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> <p>This option is not available when you select multiple timesheets. </p> </td> 
-     </tr> Overtime You can choose to hide the Overtime box on the timesheet. This option is disabled by default. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
+      <td> <p>You can choose to hide the Overtime box on the timesheet.</p> <p>This option is disabled by default.</p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
-1. Click `Save Changes` .
+1. Click **Save Changes** .
 

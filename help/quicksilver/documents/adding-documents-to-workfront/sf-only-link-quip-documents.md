@@ -4,12 +4,13 @@ product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Link documents between Quip and Adobe Workfront
 description: ***** Keep this article drafted but don't delete it. It's for Salesforce customers only (delivered as a PDF). *****
+hidefromtoc: true
 ---
 
 # Link documents between Quip and Adobe Workfront
 
 <!--
-***** Keep this article drafted but don't delete it. It's for Salesforce customers only (delivered as a PDF). *****
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">***** Keep this article drafted but don't delete it. It's for Salesforce customers only (delivered as a PDF). *****</p>
 -->
 
 You can link documents and folders from Quip to Adobe Workfront and from Workfront to Quip.
@@ -26,7 +27,7 @@ You can proof and approve documents linked to Quip the same way you do so with d
 * [Add a Quip document to a linked folder](#adding)
 
   <!--
-
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#synchronizing-changes-made-on-a-linked-document" class="MCXref xref"></a> </li>
   -->
 
 * [Delete a linked document or folder](#deleting-a-linked-document-or-folder) 
@@ -38,21 +39,23 @@ You can link existing Quip documents to Workfront. This includes any shared docu
 
 Before you link Quip documents or folders, your Workfront administrator must enable this functionality, as described in [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-1. Go to the `Documents` area in Workfront where you want the document.
-1. Click `Add New`, then click 
+1. Go to the **Documents** area in Workfront where you want the document.
+1. Click **Add New**, then click 
 
    <!--
-   From
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <strong>From</strong>
+   </MadCap:conditionalText>
    -->
 
-   `Quip`.
+   **Quip**.
 
-1. (Conditional) If you are prompted to log into Quip, type your login credentials in the box that appears, then click `Sign in`.
-1. (Conditional) If you are prompted to authorize Quip, click the `Authorize` button.
+1. (Conditional) If you are prompted to log into Quip, type your login credentials in the box that appears, then click **Sign in**.
+1. (Conditional) If you are prompted to authorize Quip, click the **Authorize** button.
 
    You need to do this only once.
 
-1. In the search box of the `Link External Files and Folders` box that appears, type the name of the item you want to search for, then press `Enter` to see all results from Quip, regardless of which folder they are storied in.
+1. In the search box of the **Link External Files and Folders** box that appears, type the name of the item you want to search for, then press **Enter** to see all results from Quip, regardless of which folder they are storied in.
 
    Or
 
@@ -60,7 +63,7 @@ Before you link Quip documents or folders, your Workfront administrator must ena
 
    Though you can select multiple documents, only documents that are selected in&nbsp;the current view are linked. For example, if you select a document, then go into a folder, the document you originally selected is not linked.
 
-1. Click `Link`.
+1. Click **Link**.
 
    In Workfront, the Quip icon appears next to the documents.
 
@@ -68,15 +71,15 @@ Before you link Quip documents or folders, your Workfront administrator must ena
 
 You can add a new version of a Quip document linked to Workfront.
 
-1. Go to the `Documents` area where the document is linked, then select the linked document.
-1. Click `More` > `New Version` > `New Version`..
+1. Go to the **Documents** area where the document is linked, then select the linked document.
+1. Click **More** > **New Version** > **New Version**..
 
-1. (Conditional) If you are prompted to log into Quip, type your login credentials in the box that appears, then click `Sign in`.
-1. (Conditional) If you are prompted to authorize Quip, click `Authorize`.
+1. (Conditional) If you are prompted to log into Quip, type your login credentials in the box that appears, then click **Sign in**.
+1. (Conditional) If you are prompted to authorize Quip, click **Authorize**.
 
    You need to do this only once.
 
-1. In the search box of the `Link External Files and Folders` box that appears, type the name of the item you want to search for, then press `Enter` to see all results&nbsp;from Quip, regardless of which folder they are storied in.
+1. In the search box of the **Link External Files and Folders** box that appears, type the name of the item you want to search for, then press **Enter** to see all results&nbsp;from Quip, regardless of which folder they are storied in.
 
    Or
 
@@ -84,7 +87,7 @@ You can add a new version of a Quip document linked to Workfront.
 
    You can select multiple documents; however, only documents that are selected in the current&nbsp;view are linked. For example, if you select a document, then go into a folder, the document&nbsp;you originally selected is not linked.
 
-1. Click `Link`.
+1. Click **Link**.
 
    In Workfront, the Quip icon appears next to the documents.
 
@@ -109,13 +112,14 @@ When you do this, the storage of the document moves from Workfront to Quip. When
 Quip users without Workfront access can see the document in Quip.
 
 1. Select a document that is uploaded in Workfront.
-1. Click `More` > `Send to` > `Quip`.
-   You can also use the More menu on the Document Details page to do this. 
+1. Click **More** >**Send to** > **Quip**.
+   You can also use the More menu ![](assets/more-icon.png) on the Document Details page to do this.  
+
 1. Select the Quip folder where you want to store the document.
 
    This can be any folder in Quip, including a shared folder. 
 
-1. Click `Save`.
+1. Click **Save**.
 
    Quip's logo appears next to the document name to indicate the link.
 
@@ -133,23 +137,25 @@ Also, when users without access to Workfront add, remove, and modify Quip files 
 
 ### Link one or more Quip folders
 
-1. Go to the area in Workfront where you want the folder, then click Documents in the left panel.
-1. Click `Add New`, then click `Quip`.
-1. (Conditional) If you have not yet authorized Quip to integrate with Workfront, specify your Quip credentials, then click `Sign in`.
-1. In the `Link External Files and Folders` box that appears, browse to and select the folders you want to link.
+1. Go to the area in Workfront where you want the folder, then click  **Documents** ![](assets/document-icon.png) in the left panel .
+
+1. Click **Add New**, then click **Quip**.
+1. (Conditional) If you have not yet authorized Quip to integrate with Workfront, specify your Quip credentials, then click **Sign in**.
+1. In the **Link External Files and Folders** box that appears, browse to and select the folders you want to link.
 
    Or
 
-   Type the name of the folder you want to search for, then press `Enter`.
+   Type the name of the folder you want to search for, then press **Enter**.
 
    You can select multiple folders; however, only folders that are selected in the current view are linked. For example, if you select a folder, then go into a folder, the folder you originally selected is not linked.
 
-1. Click `Link`.
+1. Click **Link**.
 
    In Workfront, Quip's logo displays next to the folder.
 
-1. (Optional) To rename the folder so that the folder name in Workfront is different from the folder name in Quip, select the folder in the `Folders` section, click the More menu that displays next to the folder name, then click `Rename`.
+1. (Optional) To rename the folder so that the folder name in Workfront is different from the folder name in Quip, select the folder in the **Folders** section, click the  More menu ![](assets/more-icon.png)  that displays next to the folder name, then click **Rename**.
 
+   ![](assets/quip-folderlink-rename-nwe-350x191.png)   
    This does not rename the folder in Quip.
 
 ### Add subfolders to a linked&nbsp;folder
@@ -185,24 +191,24 @@ When synchronizing folder content from Quip, Workfront uses the credentials of t
 
 When you add a document to a linked folder via Workfront, it is automatically added as a linked document.
 
-1. In the `Documents` area where you want the document, drag the document into a linked&nbsp;folder.
+1. In the **Documents** area where you want the document, drag the document into a linked&nbsp;folder.
 
    Or
 
-   Select the linked folder where you want the document, click `Add New > Document`, then browse to the document and add it to the folder.
+   Select the linked folder where you want the document, click **Add New > Document**, then browse to the document and add it to the folder.
 
    A new version of your document is automatically created in Quip and linked into Workfront.
 
 <!--
-
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="synchronizing-changes-made-on-a-linked-document"></a> </h2>
 -->
 
 ## Delete a linked document or folder
 
 When you delete a linked Quip document or folder, it remains in the Workfront system until you also delete it from Workfront.
 
-1. Select the linked document or folder, then click `Delete`.
-1. In the confirmation box that appears, click `Yes, Unlink it`.
+1. Select the linked document or folder, then click **Delete**.
+1. In the confirmation box that appears, click **Yes, Unlink it**.
 
    The document is unlinked from the Workfront site. It is not affected in Quip.
 

@@ -28,7 +28,7 @@ PUT /rename
 
 A JSON string indicating success or failure, as specified in the Error Handling section below.
 
-` `**Example: **``PUT&nbsp;https://www.acme.com/api/rename
+``` ```**Example: **``````PUT&nbsp;https://www.acme.com/api/rename
 
 -------------------------------
 

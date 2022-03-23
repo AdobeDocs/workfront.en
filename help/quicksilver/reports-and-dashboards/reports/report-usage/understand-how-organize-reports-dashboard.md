@@ -57,31 +57,33 @@ You must have the following access to perform the steps in this article:
 
 To build a view with dashboard information for a report list:
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
-1. On the list of reports, click the `View` drop-down menu.
-1. Click `New View`.
-1. Click `Add Column`.
-1. Start typing "Dashboards" in the `Start typing field name` field.
-1. Under the `Report` object, select `Dashboards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**.  
 
-1. Click `Save View`.  
+1. On the list of reports, click the **View** drop-down menu.
+1. Click **New View**.
+1. Click **Add Column**.
+1. Start typing "Dashboards" in the **Start typing field name** field.
+1. Under the **Report** object, select **Dashboards**.
+
+1. Click **Save View**.  
    The dashboards that a report appears on display in the Dashboards column of the report list.
 
 ## Filter a report list by dashboard information
 
 To filter a list of reports by dashboard information:
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
-1. On the list of reports, click the `Filter` drop-down menu.
-1. Click `New Filter`, then click `Add a Filter Rule`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**.  
 
-1. Start typing "Dashboards" in the `Start typing field name` field.  
+1. On the list of reports, click the **Filter** drop-down menu.
+1. Click **New Filter**, then click **Add a Filter Rule**.
 
-1. Under the `Dashboards` object, select `Name`.
+1. Start typing "Dashboards" in the **Start typing field name** field.  
 
-1. Select `Equal` in the modifier drop-down menu, then start typing the name of the dashboard you want to filter by. You can select multiple dashboards for your filter.  
+1. Under the **Dashboards** object, select **Name**.
 
-1. Click `Save + Close`.  
+1. Select **Equal** in the modifier drop-down menu, then start typing the name of the dashboard you want to filter by. You can select multiple dashboards for your filter.  
+
+1. Click **Save + Close**.  
    This displays a list of reports that are listed only on the specified dashboards.  
    You can also build a report for the report object and use this filter in the report.
 

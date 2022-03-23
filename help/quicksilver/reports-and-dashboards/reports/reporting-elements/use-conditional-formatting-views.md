@@ -65,15 +65,16 @@ For information on creating a report, see [Create a report](../../../reports-and
 
 ## Create a conditionally formatted View
 
-1. Click the Main Menu icon in the upper-right corner of Workfront,then click Reports. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront,then click&nbsp;**Reports**. 
+
 1. Click the name of a report where you want to create a conditionally-formatted view.
 
    Or
 
-   Click  `Report Actions`, then click  `Edit`.
+   Click&nbsp;**Report Actions**, then click&nbsp;**Edit**.
 
 1. (Conditional) If you edited a report, select an existing column, or create a new column.  
-1. Click `Advanced Options`.  
+1. Click **Advanced Options**.  
 
 1. Specify the following information:
 
@@ -96,14 +97,14 @@ For information on creating a report, see [Create a report](../../../reports-and
     </tbody> 
    </table>
 
-1. Click `Add a Rule for this Column`.
+1. Click **Add a Rule for this Column**.
 
    >[!NOTE]
    >
    >You cannot apply conditional formatting to a User Team ID field.
 
-1. In the `When the:` section, set a condition statement for the column. For example: when the Task Percent Complete Equals (Case Sensitive) 50.
-1. In the `Show the field like this:`&nbsp;section specify what this field looks like when the condition defined above is met.  
+1. In the **When the:** section, set a condition statement for the column. For example: when the Task Percent Complete Equals (Case Sensitive) 50.
+1. In the**Show the field like this:**&nbsp;section specify what this field looks like when the condition defined above is met.  
    Specify the following information:
 
    <table cellspacing="0"> 
@@ -132,7 +133,7 @@ For information on creating a report, see [Create a report](../../../reports-and
      </tr> 
      <tr> 
       <td role="rowheader">Show Text</td> 
-      <td> <p>Select this option to display a custom label for this column, instead of its actual value. Specify the text to show instead of the value in the field provided.</p> <p>Important: Selecting <span class="bold">Show Text</span> disables the ability to inline edit the text in this column.<br>Also, you can't change the value of a Predecessor column because it contains built-in logic.</p> </td> 
+      <td> <p>Select this option to display a custom label for this column, instead of its actual value. Specify the text to show instead of the value in the field provided.</p> <p>Important: Selecting <strong>Show Text</strong> disables the ability to inline edit the text in this column.<br>Also, you can't change the value of a Predecessor column because it contains built-in logic.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Apply to the entire row</td> 
@@ -141,7 +142,7 @@ For information on creating a report, see [Create a report](../../../reports-and
     </tbody> 
    </table>
 
-1. Click `Add Rule`.  
+1. Click **Add Rule**.  
    You can add additional rules to the same column, or add rules to other columns.  
    Rules are applied in the order that they were created.  
    For example, you can first create a rule that states when the Project Status is Building, the&nbsp;text color is purple and bold. You then create a second rule that states when the Task Name is not blank, the text color is red and italicized, and the background color is green. In this example, the following occurs:
@@ -149,7 +150,7 @@ For information on creating a report, see [Create a report](../../../reports-and
   * Tasks whose Project Status is Building are displayed in purple and bold text. If the task name is not blank, tasks also have a green background.
   * Tasks whose Project Status is anything other than Building (and the Task Name is not blank)&nbsp;are displayed in a red and italicized text&nbsp;with a green background.
 
-1. Click `Done`.
-1. Click `Save + Close`.  
+1. Click **Done**.
+1. Click **Save + Close**.  
    On the report, users see changes to the format if the conditions specified have been met.
 

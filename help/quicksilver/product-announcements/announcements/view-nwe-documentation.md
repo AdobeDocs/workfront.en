@@ -14,7 +14,7 @@ You can choose to view the new Adobe Workfront experience documentation by doing
 
 ## Change an article to the new Adobe Workfront experience version while viewing it
 
-1. When viewing any documentation article on Workfront One, click the `Currently viewing` drop-down menu, then click The new Adobe Workfront experience if it is not already selected.
+1. When viewing any documentation article on Workfront One, click the **Currently viewing** drop-down menu, then click The new Adobe Workfront experience if it is not already selected.
 
    ![](assets/article-nwe-drop-down-350x114.png)
 
@@ -24,7 +24,7 @@ You can choose to view the new Adobe Workfront experience documentation by doing
 
 ## Choose the new Adobe Workfront experience version of an article in the search results
 
-1. After performing a search on Workfront One, click the link that says, `Also available in: The new Workfront experience` to see the new Workfront experience version of the article.
+1. After performing a search on Workfront One, click the link that says, **Also available in: The new Workfront experience** to see the new Workfront experience version of the article.
 
    ![](assets/combined2-350x153.png)
 
@@ -39,11 +39,11 @@ Adjust your Workfront&nbsp;One profile to make the new Adobe Workfront experienc
 >You must be logged in to Workfront One to access this feature.
 
 1. Enter a search string in the search field on Workfront One, then press Enter.
-1. On the search results page, make sure that the `Personalized Search Results` toggle is enabled, then click `Edit Preferences`.
+1. On the search results page, make sure that the **Personalized Search Results** toggle is enabled, then click **Edit Preferences**.
 
    ![](assets/editpref-350x152.png)
 
-1. On the `Search Preferences` tab, enable the option for The new Adobe Workfront experience.
+1. On the **Search Preferences** tab, enable the option for The new Adobe Workfront experience.
 
    Your changes are saved automatically.
 

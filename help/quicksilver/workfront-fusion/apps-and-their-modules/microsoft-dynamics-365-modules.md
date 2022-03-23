@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,16 +65,16 @@ To use Microsoft Dynamics 365, you must have a Microsoft Dynamics 365 account.
 
 You can create a connection to your Microsoft Dynamics 365 account directly from inside an Allocadia module.
 
-1. In any Microsoft Dynamics 365 module, click `Add`next to the Connection field.
+1. In any Microsoft Dynamics 365 module, click **Add**next to the Connection field.
 1. Enter a name for the connection.
-1. In the `Resource`field, enter the address of your Dynamics 365 account, without 
+1. In the **Resource**field, enter the address of your Dynamics 365 account, without 
 
    ```
    https://
    ```
 
    .
-1. Click `Continue`to create the connection and go back to the module.
+1. Click **Continue**to create the connection and go back to the module.
 
 >[!NOTE]
 >
@@ -113,7 +124,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Include</td> 
-   <td>Select whether you want the module to watch <span class="bold">Only new records</span>, <span class="bold">Updated records only</span>, or <span class="bold">New records and all changes</span>.</td> 
+   <td>Select whether you want the module to watch <strong>Only new records</strong>, <strong>Updated records only</strong>, or <strong>New records and all changes</strong>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Entity Type</td> 
@@ -144,10 +155,10 @@ A webhook is required in this module.
    <td role="rowheader">Webhook</td> 
    <td> <p>Select the webhook that you want to use for this module. </p> <p>To add a new webhook:</p> 
     <ol> 
-     <li value="1"> <p>Click <span class="bold">Add </span>to the right of the Webhook field</p> </li> 
-     <li value="2"> <p>In the <span class="bold">Webhook </span>name field, type a descriptive name for the webhook.</p> </li> 
-     <li value="3"> <p>In the <span class="bold">Connection </span>field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
-     <li value="4"> <p>Click <span class="bold">Save </span>to save your webhook and return to the module.</p> </li> 
+     <li value="1"> <p>Click <strong>Add</strong>to the right of the Webhook field</p> </li> 
+     <li value="2"> <p>In the <strong>Webhook</strong>name field, type a descriptive name for the webhook.</p> </li> 
+     <li value="3"> <p>In the <strong>Connection</strong>field, select the Connection that you want to use selected</p> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </li> 
+     <li value="4"> <p>Click <strong>Save</strong>to save your webhook and return to the module.</p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -174,7 +185,11 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td role="rowheader">Entity Type</td> 
    <td>Select the type of entity that you want the module to create.</td> 
-  </tr> Property fields In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Property fields</td> 
+   <td>In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -301,7 +316,19 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td role="rowheader">Connection</td> 
    <td> <p>For instructions about connecting your Microsoft Dynamics 365 account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Microsoft Dynamics 365 to Workfront Fusion</a> in this article. </p> </td> 
-  </tr> Entity Type Select the type of entity that you want the module to update. Property fields In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type. ID Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to update. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Entity Type</td> 
+   <td>Select the type of entity that you want the module to update.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Property fields</td> 
+   <td>In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">ID</td> 
+   <td>Enter or map the unique Microsoft Dynamics 365 ID of the record that you want the module to update.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -327,16 +354,16 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">Filters</td> 
    <td> <p>Select the filter that you want to use for this search.</p> 
     <ul> 
-     <li> <p><span class="bold">Standard Filters</span> </p> <p>Set up the filter by selecting a field and operator, and entering or mapping the value that you want to search for. You can use AND or OR rules to your filter.</p> </li> 
-     <li> <p><span class="bold">Query Functions</span> </p> <p>Enter the Dynamics 365 web API query function that you want to use to search. </p> <p>For more information on query functions, see <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/queryfunctions?view=dynamics-ce-odata-9">Web API Query Function Reference</a> in the Microsoft documentation.</p> </li> 
+     <li> <p><strong>Standard Filters</strong> </p> <p>Set up the filter by selecting a field and operator, and entering or mapping the value that you want to search for. You can use AND or OR rules to your filter.</p> </li> 
+     <li> <p><strong>Query Functions</strong> </p> <p>Enter the Dynamics 365 web API query function that you want to use to search. </p> <p>For more information on query functions, see <a href="https://docs.microsoft.com/en-us/dynamics365/customer-engagement/web-api/queryfunctions?view=dynamics-ce-odata-9">Web API Query Function Reference</a> in the Microsoft documentation.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sort</td> 
    <td> <p>Specify the order in which items are returned. You can add multiple sorts.</p> 
     <ul> 
-     <li> <p><span class="bold">Field</span> </p> <p>Specify the field by which you want to sort results.</p> </li> 
-     <li> <p><span class="bold">Direction</span> </p> <p>Specify the direction of the sort (ascending or descending).</p> </li> 
+     <li> <p><strong>Field</strong> </p> <p>Specify the field by which you want to sort results.</p> </li> 
+     <li> <p><strong>Direction</strong> </p> <p>Specify the direction of the sort (ascending or descending).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

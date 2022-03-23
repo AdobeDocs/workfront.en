@@ -30,6 +30,6 @@ The resulting behavior depends&nbsp;on the current group membership of the selec
 * If the selected users have different Other Group memberships...  
   After you select the users and click Edit, the Other Groups field will be blank.
 
-When you click `Save Changes`, whatever is showing in the Other Groups field is saved.
+When you click **Save Changes**, whatever is showing in the Other Groups field is saved.
 
 The previous contents of the field are overwritten.&nbsp; 

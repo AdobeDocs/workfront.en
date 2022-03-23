@@ -6,6 +6,7 @@ product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
 title: Trend views overview
 description: These charts will show trends in the way the aggregate average of all completed projects work across a percentage of the duration of the project.
+hidefromtoc: true
 ---
 
 # Trend views overview
@@ -57,7 +58,7 @@ Seeing this information helps you determine:
 * How many issues come in and at what point in the project.
 * How large most of your planned projects are.
 
-`[Trend views screenshot]`
+**[Trend views screenshot]**
 
 On the charts, you can see the following key details:
 

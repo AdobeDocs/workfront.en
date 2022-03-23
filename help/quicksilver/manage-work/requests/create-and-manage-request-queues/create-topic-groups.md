@@ -45,7 +45,7 @@ For example, if you have a Request Queue for Marketing Requests, you can have a 
 
 For more information about how to create Request Queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-` `**Tips: **``
+``` ```**Tips: **``````
 
 * You can create up to 10 tiers of Topic Groups within a Request Queue.
 * There is no limit to the number of Queue Topics that can be associated with a topic group. 
@@ -60,17 +60,18 @@ To create a Topic Group:
 1. Go to the project that you published as a Help Request Queue.  
    For more information about publishing a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Click Topic Groups in the left panel. You might need to click Show More, then Topic Groups. 
-1. Click `New Topic Group`.  
+1. Click **Topic Groups** in the left panel. You might need to click **Show More**, then **Topic Groups**.  
+
+1. Click **New Topic Group**.  
    ![](assets/10-350x170.png)
 
 1. Specify the following information:
 
-  * `Name`: The name is visible to users who submit requests to this request queue. 
-  * `Description`: The description displays when users select the topic group in the process of submitting a new request. 
-  * `Add to Topic Group`: You can add the new Topic Group to an existing Topic Group, or you can add it directly to the project published as a Help Request Queue.
+  * **Name**: The name is visible to users who submit requests to this request queue. 
+  * **Description**: The description displays when users select the topic group in the process of submitting a new request. 
+  * **Add to Topic Group**: You can add the new Topic Group to an existing Topic Group, or you can add it directly to the project published as a Help Request Queue.
 
-1. Click `Save`.  
+1. Click **Save**.  
    This creates a new Topic Group in your Request Queue. You can now select additional categories from the first drop-down menu under a Request Queue.  
    For more information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 

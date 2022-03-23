@@ -26,8 +26,8 @@ For more information, also see the following articles:
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Term</span> </p> </th> 
-   <th> <p><span class="bold">Definition</span> </p> </th> 
+   <th> <p><strong>Term</strong> </p> </th> 
+   <th> <p><strong>Definition</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -91,6 +91,67 @@ For more information, also see the following articles:
 &nbsp;
 
 <!--
-Differences between the two EAC methods There are two methods for calculating EAC: Calculate EAC at project level Caculate EAC as a roll up from tasks Calculate EAC at project level EAC for the parent task and project are determined by entering the actual hours/actual labor cost into the EAC Formulas Includes Actual Hours/ Costs and expenses added directly to the parent task or project Caculate EAC as a roll up from tasks EAC for the parent task and project are determined by summing up the EAC for each direct child task Excludes Actual Hours and expenses added directly to the parent task or project Formulas How Adobe Workfront calculates finances How Adobe Workfront calculates finances PIM= Hour-Based TotalBudgetedCostWorkPerformed For a non-parent task: TotalBudgetedCostWorkPerformed = Planned Hours * (Percent Complete/100) For a parent task: TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all single children tasks For a project: TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all top-level tasks Note: This includes only first level parents, not secondary level parents, etc. CPI IF Actual Hours > 0 THEN CPI = TotalBudgetedCostWorkPerformed / Actual Hours ELSE CPI = 1 EAC IF CPI <> 0 THEN EAC = Planned Hours / CPI ELSE EAC = Planned Hours + Actual Hours PIM= Cost-Based TotalBudgetedCostWorkPerformed For a non parent task : TotalBudgetedCostWorkPerformed = Planned Labor Cost * (Percent Complete/100) For a parent task: TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all direct child tasks For a project: TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all top-level tasks CPI IF Actual Labor Cost + IncurredActualExpenseCost <> 0 THEN CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost) ELSE CPI = CPI_Labor EAC EAC = EAC Labor + EAC Expense For EAC Labor, we first need to determine CPI_Labor. CPI_Labor = IF Actual Labor Cost <> 0 THEN CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost ELSE CPI_Labor = 1 EAC Labor = IF CPI_Labor <> 0 THEN EAC Labor = Planned Labor Cost / CPI_Labor ELSE EAC Labor = Planned Labor Cost + Actual Labor Cost EAC Expense = IncurredActualExpenseCost + NotIncurredPlannedExpense
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Differences between the two EAC methods</h2>
+<p>There are two methods for calculating EAC:</p>
+<ul>
+<li><a href="#calculat" class="MCXref xref">Calculate EAC at project level</a> </li>
+<li><a href="#caculate" class="MCXref xref">Caculate EAC as a roll up from tasks</a> </li>
+</ul>
+<h3><a name="Calculat"></a>Calculate EAC at project level</h3>
+<ul>
+<li> EAC for the parent task and project are determined by entering the actual hours/actual labor cost into the EAC Formulas </li>
+<li><em> Includes </em> Actual Hours/ Costs and expenses added directly to the parent task or project </li>
+</ul>
+<h3><a name="Caculate"></a>Caculate EAC as a roll up from tasks</h3>
+<ul>
+<li> EAC for the parent task and project are determined by summing up the EAC for each <em> direct </em> child task </li>
+<li><em> Excludes </em> Actual Hours and expenses added directly to the parent task or project </li>
+</ul>
+<h2><a name="Formulas"></a>Formulas</h2>
+<ul>
+<li><a href="#pim-hour-based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
+<li><a href="#pim-cost-based" class="MCXref xref">How Adobe Workfront calculates finances </a> </li>
+</ul>
+<h3><a name="PIM-Hour-Based_section-1"></a>PIM= Hour-Based</h3>
+<h4><strong>TotalBudgetedCostWorkPerformed</strong> </h4>
+<ul>
+<li><strong>For a non-parent task</strong>: <code>TotalBudgetedCostWorkPerformed = Planned Hours * (Percent Complete/100)</code></li>
+<li><strong>For a parent task:</strong> <code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all single children tasks</code></li>
+<li> <p><strong>For a project:</strong> <code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all top-level tasks</code> </p> <note type="note">
+This includes only first level parents, not secondary level parents, etc.
+</note> </li>
+</ul>
+<h4><strong>CPI</strong> </h4>
+<p><em> IF </em> Actual Hours > 0 <em> THEN </em><![CDATA[
+]]><code>CPI = TotalBudgetedCostWorkPerformed / Actual Hours </code><![CDATA[    ]]></p>
+<p><em> ELSE </em> CPI = 1 </p>
+<p><strong>EAC</strong> </p>
+<p><em> IF </em> CPI <> 0 <em> THEN </em> EAC = Planned Hours / CPI </p>
+<p><em> ELSE </em> EAC = Planned Hours + Actual Hours </p>
+<h3><a name="PIM-Cost-Based_section-1"></a>PIM= Cost-Based</h3>
+<h4><strong>TotalBudgetedCostWorkPerformed</strong> </h4>
+<p><strong>For a non parent task</strong> : <code>TotalBudgetedCostWorkPerformed = Planned Labor Cost * (Percent Complete/100)</code></p>
+<p><strong>For a parent task:</strong> <code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all direct child tasks</code></p>
+<p><strong>For a project:</strong> <code>TotalBudgetedCostWorkPerformed = the sum of the TotalBudgetedCostWorkPerformed field for all top-level tasks</code></p>
+<h4><strong>CPI</strong> </h4>
+<p><em> IF </em> Actual Labor Cost + IncurredActualExpenseCost <> 0 <em> THEN </em><![CDATA[
+]]><code> CPI = (TotalBudgetedCostWorkPerformed + IncurredPlannedExpenseCost) / (ActualLaborCost + IncurredActualExpenseCost)</code><![CDATA[
+]]></p>
+<p><em> ELSE </em> CPI = CPI_Labor </p>
+<h4><strong>EAC</strong> </h4>
+<p><strong>EAC</strong> = <strong>EAC Labor</strong> + <strong>EAC Expense</strong><strong></strong> </p>
+<p> For EAC Labor, we first need to determine CPI_Labor. </p>
+<p><strong>CPI_Labor</strong> = IF Actual Labor Cost <> 0 THEN <code>CPI_Labor = TotalBudgetedCostWorkPerformed / Actual Labor Cost</code><![CDATA[
+]]></p>
+<p> ELSE CPI_Labor = 1 <strong></strong> </p>
+<p><strong>EAC Labor</strong> = <em> IF </em> CPI_Labor <> 0 <em> THEN </em><![CDATA[
+]]><code>EAC Labor = Planned Labor Cost / CPI_Labor </code></p>
+<p><em> ELSE </em><![CDATA[
+]]><code>EAC Labor = Planned Labor Cost + Actual Labor Cost </code></p>
+<p><strong>EAC Expense</strong><![CDATA[
+]]><code>= IncurredActualExpenseCost + NotIncurredPlannedExpense</code><![CDATA[
+]]></p>
+</div>
 -->
 

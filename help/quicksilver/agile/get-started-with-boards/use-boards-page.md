@@ -43,21 +43,21 @@ Archiving a board sends it to the archive and you can restore it later.
 >
 >When you archive a board, it is archived for all of the board members.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
-1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the board, and select `Archive`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the board, and select **Archive**.
 
    An Archive icon ![Archive](assets/archive-icon-spectrum-25x20.png) appears on the board. You can't edit an archived board.
 
    Archived boards remain on the boards dashboard unless you apply a filter to not display them. For more information, see the [Filter boards](#filter) section in this article.
 
-1. To restore an archived board, click the `More` menu ![More menu icon](assets/more-icon-spectrum.png) on the board and select `Restore`.
+1. To restore an archived board, click the **More** menu ![More menu icon](assets/more-icon-spectrum.png) on the board and select **Restore**.
 
 ## Filter boards
 
 You can filter the boards dashboard to show active boards, archived boards, or all boards.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select `All`, `Active boards`, or `Archived boards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select **All**, **Active boards**, or **Archived boards**.
 
 ## Delete a board
 
@@ -67,7 +67,7 @@ When you delete a board, it is permanently removed from Workfront and can’t be
 >
 >You can only delete boards that you created, not boards that you were added to.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
-1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the board, and select `Delete`.
-1. Click `Delete board` on the confirmation message.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
+1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the board, and select **Delete**.
+1. Click **Delete board** on the confirmation message.
 

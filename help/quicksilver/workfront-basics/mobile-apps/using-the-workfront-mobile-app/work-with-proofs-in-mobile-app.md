@@ -21,11 +21,11 @@ Your access to review and approve proofs is the same as in Adobe Workfront. For 
     ![My Work Approvals section](assets/mobile-mywork-approvals-338x482.png)   
     Or
   
-  * Select `Show all Approvals` in the Approvals area of My Work. Then select the proof approval task in the list of all approvals.
+  * Select **Show all Approvals** in the Approvals area of My Work. Then select the proof approval task in the list of all approvals.
 
     For information about My&nbsp;Work in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
-1. On the Details page, select `Go to Proof`.
+1. On the Details page, select **Go to Proof**.
 
    ![Proof Task](assets/mobile-prooftask1-338x516.png)
 
@@ -37,11 +37,11 @@ Your access to review and approve proofs is the same as in Adobe Workfront. For 
 1. (Optional) Go to a specific page using the scroll indicator on the right:
 
   1. Tap the scroll indicator.
-  1. Type the page number in the Go To Page box and select `OK`.
+  1. Type the page number in the Go To Page box and select **OK**.
   1. ![Go To Page](assets/mobile-gotopage-350x224.png)
 
 1. Select the arrow on the top left of the document to go back to the Details page.
-1. (Optional) On the Details page, select `Updates` to see all updates for the proof, such as when it was created and when it was sent for approval.
+1. (Optional) On the Details page, select **Updates** to see all updates for the proof, such as when it was created and when it was sent for approval.
 
 ## Review comments in a proof
 
@@ -50,7 +50,7 @@ You can review comments that are made on a proof document. Comments often have a
 1. Open the document proof.
 1. Select a comment icon on the document page ![Comment icon on document](assets/mobile-comment-icon-on-proofdoc-30x34.png) to open the comment and any associated drawings.
 
-   If the comment has more than one reply, you can select `View Replies` to show all replies, or swipe the comment sheet up and down to display more content.
+   If the comment has more than one reply, you can select **View Replies** to show all replies, or swipe the comment sheet up and down to display more content.
 
 ### Use the comment list
 
@@ -68,7 +68,7 @@ In the comment list, you can perform different actions such as resolving a comme
 1. Select comments:
 
   * Press and hold an individual comment to select it.
-  * Choose `Select` on the top right to display a check box next to each comment. Then, tap the comment check boxes or choose `Select All` on the top left.
+  * Choose **Select** on the top right to display a check box next to each comment. Then, tap the comment check boxes or choose **Select All** on the top left.
 
 1. To resolve the selected comment, select ![Resolve comment icon](assets/mobile-resolvecomment-icon-30x30.png) in the bottom toolbar.
 
@@ -76,17 +76,17 @@ In the comment list, you can perform different actions such as resolving a comme
 
    The original comment remains on the document. A comment resolution appears as a reply to the original comment: "This thread was resolved by [name]."
 
-   You can undo the resolution by selecting the resolved comment and selecting the `Undo` icon.
+   You can undo the resolution by selecting the resolved comment and selecting the **Undo** icon.
 
-1. To mark the selected comments as read, select the `Mark as read` icon ![Mark as read](assets/mobile-markread-icon-30x31.png) in the bottom toolbar.
+1. To mark the selected comments as read, select the **Mark as read** icon ![Mark as read](assets/mobile-markread-icon-30x31.png) in the bottom toolbar.
 
    This option is only available when you have unread comments selected.
 
-1. To delete the selected comments, select the `Delete` icon ![](assets/delete-30x28.png) in the bottom toolbar. Then, select `Delete` on the confirmation message to permanently delete the comment.
+1. To delete the selected comments, select the **Delete** icon ![](assets/delete-30x28.png) in the bottom toolbar. Then, select **Delete** on the confirmation message to permanently delete the comment.
 
 ### Take action on comments in the selection view (Android)
 
-The options you have in the selection view `More` menu might be different depending on what your Workfront administrator or Workfront Proof administrator has set up.
+The options you have in the selection view **More** menu might be different depending on what your Workfront administrator or Workfront Proof administrator has set up.
 
 1. To see more comment options, select ![List of comments icon](assets/mobile-listofcommentsicon-30x27.png) on the top right of the comment list.
 
@@ -98,7 +98,7 @@ The options you have in the selection view `More` menu might be different depend
 
 1. To select an individual comment, tap the check box.
 
-   To select all comments, select the `More` menu on the top right ![More menu](assets/mobile-verticalmoremenu-20x33.png) and choose `Select All`.
+   To select all comments, select the **More** menu on the top right ![More menu](assets/mobile-verticalmoremenu-20x33.png) and choose **Select All**.
 
 1. To resolve the selected comment, select ![Resolve comment icon](assets/mobile-resolvecomment-icon-30x30.png) on the top right.
 
@@ -106,13 +106,13 @@ The options you have in the selection view `More` menu might be different depend
 
    The original comment remains on the document. A comment resolution appears as a reply to the original comment: "This thread was resolved by [name]."
 
-   You can undo the resolution by selecting the resolved comment and selecting the `Undo` icon on the top right.
+   You can undo the resolution by selecting the resolved comment and selecting the **Undo** icon on the top right.
 
-1. To mark the selected comments as read, select the `Mark as read` icon ![Mark as read](assets/mobile-markread-icon-30x31.png).
+1. To mark the selected comments as read, select the **Mark as read** icon ![Mark as read](assets/mobile-markread-icon-30x31.png).
 
    This option is only available when you have unread comments selected.
 
-1. To delete the selected comments, select the `More` menu on the top right ![More menu](assets/mobile-verticalmoremenu-20x33.png) and choose `Delete`. Then, select `Delete` on the confirmation message to permanently delete the comment.
+1. To delete the selected comments, select the **More** menu on the top right ![More menu](assets/mobile-verticalmoremenu-20x33.png) and choose **Delete**. Then, select **Delete** on the confirmation message to permanently delete the comment.
 1. Select the arrow on the top left to exit the selection view and return to the comment list.
 
 ## Lock and unlock a proof
@@ -121,15 +121,15 @@ Any user assigned as a proof owner, author, or moderator can lock a proof to pre
 
 ### Lock a proof
 
-1. Open the document proof and select the `More` menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select `More`.
-1. Select `Lock Document`.  
+1. Open the document proof and select the **More** menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select **More**.
+1. Select **Lock Document**.  
    A "Locked" indicator appears at the top of the document.
 
 ### Unlock a proof
 
-1. Open the document proof and select the `More` menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select `More`.
-1. Select `Unlock Document`.
-1. Select `Unlock` on the confirmation message.
+1. Open the document proof and select the **More** menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select **More**.
+1. Select **Unlock Document**.
+1. Select **Unlock** on the confirmation message.
 
 ## Make decisions on a proof
 
@@ -168,7 +168,7 @@ After you have reviewed the document proof, you can make a decision in the proof
 
    For more information about how administrators can configure reasons, see&nbsp; [Configure approval decision options in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 
-1. Select `Submit`.
+1. Select **Submit**.
 
 ### Change your decision in the proof
 
@@ -177,9 +177,9 @@ After you have reviewed the document proof, you can make a decision in the proof
 
    The Make a Decision box shows your current decision.
 
-1. Select a different decision, or choose `Clear Selection` to remove the decision.
+1. Select a different decision, or choose **Clear Selection** to remove the decision.
 
    For decisions with reasons, you can choose a different reason or remove the reason.
 
-1. Select `Submit`.
+1. Select **Submit**.
 

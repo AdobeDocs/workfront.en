@@ -45,34 +45,34 @@ You must have the following access to perform the steps in this article:
 ## Example: Remove the link to a task from the Task Name column in a task view:
 
 1. Go to a list of tasks.
-1. From the `View` drop-down menu, click `New View` to create a new view.
+1. From the **View** drop-down menu, click **New View** to create a new view.
 
    Or
 
-   Click Customize View to edit an existing view, then select the view.
+   Click  **Customize View** to edit an existing view, then select the view.
 
-1. Click `Add Column` to add a new column.
+1. Click **Add Column** to add a new column.
 
    Or
 
    Click an existing column with a link to an object.
 
-1. Click `Switch to Text Mode`.
-1. Hover over the text mode area, and click `Click to edit text`.
-1. Remove the text you find in the `Text Mode` box, and replace it with the following code:
-   <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><span class="bold">valueexpression={name}</span><br>valueformat=Compound</pre>
-   ` `**Tips: **``  You can use similar code for other objects by doing adjusting the following:
+1. Click **Switch to Text Mode**.
+1. Hover over the text mode area, and click **Click to edit text**.
+1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
+   <pre>displayname=Task Name<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br><strong>valueexpression={name}</strong><br>valueformat=Compound</pre>
+   ``` ```**Tips: **``````  You can use similar code for other objects by doing adjusting the following:
 
-  * Replace the `valuefield` line of the code with `valueexpression` and keep the same name included in curly brackets after the equal sign.
+   * Replace the **valuefield** line of the code with **valueexpression** and keep the same name included in curly brackets after the equal sign.
 
-  * Eliminate all the lines that start with   
-  
-    ```  
-    link.
-    ```  
-  
-    from the original text of the column. For example, eliminate all the following lines:
-    <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
+   * Eliminate all the lines that start with    
+   
+     ```   
+     link.
+     ```   
+   
+     from the original text of the column. For example, eliminate all the following lines:
+     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

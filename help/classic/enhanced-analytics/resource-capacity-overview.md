@@ -26,19 +26,19 @@ This comparison of a home team's planned hours and actual scheduled hours can he
 
 On the Resource capacity visualization, you can see the following details:
 
-* `Planned capacity`: Inline with a home team name, the blue circle represents the number of planned hours assigned to the home team.
+* **Planned capacity**: Inline with a home team name, the blue circle represents the number of planned hours assigned to the home team.
 
   ![](assets/resource-capacity-blue-circle.png)
 
-* `Actual capacity`: Inline with a home team name, the vertical line represents the number of hours available for the home team.
+* **Actual capacity**: Inline with a home team name, the vertical line represents the number of hours available for the home team.
 
   ![](assets/resource-capacity-vertical-line.png)
 
-* `Over capacity`: When the horizontal line and the blue circle display to the right of the vertical line, the home team was assigned more work than they can complete in the number of available hours. This means that the team may be over capacity for the filtered time period. The remaining number of hours the team needs to complete displays to the right of the blue circle.
+* **Over capacity**: When the horizontal line and the blue circle display to the right of the vertical line, the home team was assigned more work than they can complete in the number of available hours. This means that the team may be over capacity for the filtered time period. The remaining number of hours the team needs to complete displays to the right of the blue circle.
 
   ![](assets/resource-capacity-over-capacity.png)
 
-* `Under capacity`: When the horizontal line and the blue circle display to the left of the vertical line, the home team has more available hours than the number of planned hours of work they were assigned. This means that the team may be under capacity for the filtered time period. The additional number of available hours for the home team to complete work displays to the left of the blue circle.
+* **Under capacity**: When the horizontal line and the blue circle display to the left of the vertical line, the home team has more available hours than the number of planned hours of work they were assigned. This means that the team may be under capacity for the filtered time period. The additional number of available hours for the home team to complete work displays to the left of the blue circle.
 
   ![](assets/resource-capacity-under-capacity.png)
 
@@ -87,8 +87,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Resource capacity visualization
 
-1. In the Global Navigation Bar,select **Analytics**.
-1. In the left panel, select `People`.
+1. In the Global Navigation Bar, select **Analytics**.
+1. In the left panel, select **People**.
 
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
@@ -114,8 +114,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 1. Click a home team name to see more information in the Team capacity visualization.
 

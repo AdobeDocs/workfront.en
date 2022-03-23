@@ -47,32 +47,32 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   If you are reviewing the proof in the proofing viewer, click `Workflow` ![](assets/workflow-icon-proofing-viewer.png) in the left panel, then click the Edit icon ![](assets/edit-icon-proofing-viewer.png) to open the Automated Workflow settings for the proof.
+   If you are reviewing the proof in the proofing viewer, click **Workflow** ![](assets/workflow-icon-proofing-viewer.png) in the left panel, then click the Edit icon ![](assets/edit-icon-proofing-viewer.png) to open the Automated Workflow settings for the proof.
 
-1. (Conditional) If the proof currently is currently using a basic workflow (without stages), click `Convert to Automated Workflow` in the screen that appears.
+1. (Conditional) If the proof currently is currently using a basic workflow (without stages), click **Convert to Automated Workflow** in the screen that appears.
 
    >[!NOTE]
    >
    >You cannot edit the first stage when you convert from a basic workflow to an Automated Workflow, but you can add and configure new stages.
 
-1. Conditional) To use an Automated Workflow template that your Adobe Workfront administrator created and shared with you, click `Add template`, select the template in the box that appears, then click `Add template`.
+1. Conditional)&nbsp;To use an Automated Workflow template that your Adobe Workfront administrator created and shared with you, click **Add template**, select the template in the box that appears, then click **Add template**.
 
    For more information, see [About using Automated Workflow templates](#adding-additional-template-to-existing-workflow) in this article.
 
 1. Add a stage to the Automated Worfklow:
 
-  1. Click `New stage` near the upper-right corner.
-  1. In the box that appears, type a  `Name` for the stage.
+  1. Click **New stage** near the upper-right corner.
+  1. In the box that appears, type a&nbsp;**Name** for the stage.
   1. (Optional) Set a deadline for the stage. 
-  1. In the `Activate stage` section, choose how you want the stage to activate:
+  1. In the **Activate stage** section, choose how you want the stage to activate:
 
      | On proof creation |The stage becomes active automatically because the proof has already been created.  |
      |---|---|
-     | `When previous stage deadline passes` |Click the previous stage in the `Parent stage` drop-down list . |
-     | `On a specific date & time` |Click the `On` box to select the date, then click the box to the right to select the time. |
-     | `All decisions are Approved or Approved with changes on parent stage` |Click the parent stage in the `Parent stage` drop-down list. |
-     | `All decisions are Approved on parent stage` |Click the parent stage in the `Parent stage` drop-down list. |
-     | All decisions are made |Click the parent stage in the `Parent stage` drop-down list. |
+     | **When previous stage deadline passes** |Click the previous stage in the **Parent stage** drop-down list . |
+     | **On a specific date & time** |Click the **On** box to select the date, then click the box to the right to select the time. |
+     | **All decisions are Approved or Approved with changes on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
+     | **All decisions are Approved on parent stage** |Click the parent stage in the **Parent stage** drop-down list. |
+     | All decisions are made |Click the parent stage in the **Parent stage** drop-down list. |
 
   1. Enter a contact name or email address, and configure settings for reviewers for the stage.
 
@@ -85,11 +85,11 @@ You must have the following access to perform the steps in this article:
       <col>
       <tbody>
        <tr>
-        <td role="rowheader"><span class="bold">Deadline options</span> </td>
-        <td><p>To set a deadline for the stage, click an option in the <span class="bold">Deadline options</span> drop-down list. Then, under <span class="bold">Deadline</span>, do one of the following:</p>
+        <td role="rowheader"><strong>Deadline options</strong> </td>
+        <td><p>To set a deadline for the stage, click an option in the <strong>Deadline options</strong> drop-down list. Then, under <strong>Deadline</strong>, do one of the following:</p>
          <ul>
-          <li>If you chose <span class="bold">Set specific date</span>: Select the deadline date and time you want.</li>
-          <li>If you chose <span class="bold">Calculate from stage activation date</span>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
+          <li>If you chose <strong>Set specific date</strong>: Select the deadline date and time you want.</li>
+          <li>If you chose <strong>Calculate from stage activation date</strong>: Select the number of business days you want to add to the stage activation date to determine the deadline.</li>
          </ul></td>
        </tr>
        <tr>
@@ -98,11 +98,11 @@ You must have the following access to perform the steps in this article:
        </tr>
        <tr>
         <td role="rowheader">Primary decision maker</td>
-        <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <span class="bold">Only one decision required</span> option is disabled on this stage.</p></td>
+        <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <strong>Only one decision required</strong> option is disabled on this stage.</p></td>
        </tr>
        <tr>
         <td role="rowheader">Only one decision required</td>
-        <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<span class="bold">Primary decision maker&nbsp;</span>drop-down menu.</p></td>
+        <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong>drop-down menu.</p></td>
        </tr>
        <tr>
         <td role="rowheader">Private stage</td>
@@ -115,13 +115,15 @@ You must have the following access to perform the steps in this article:
       </tbody>
      </table>
 
-  1. Click `Add stage`.
+  1. Click **Add stage**.
 
 1. Repeat the previous step as needed to add more stages.
 
    As you add stages to the Automated Workflow, a diagram forms on the screen to represent them:
 
-1. When you are finished adding stages, click `Done`.
+   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+
+1. When you are finished adding stages, click **Done**.
 
 ## About using Automated Workflow templates
 
@@ -136,7 +138,7 @@ Consider the following when you use an Automated Workflow template:
 Consider the following when&nbsp;adding reviewers to a stage:
 
 * After you add a user to a stage, you can configure settings for that user on the proof, such as the proof role and any additional permissions they should have and the type of email alerts they will receive when people make comments and decisions on the proof. 
-* You can drag one or more users from one stage to another. You can drag users directly to another stage, or you can drag users to a stage on the `Stages` diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
+* You can drag one or more users from one stage to another. You can drag users directly to another stage, or you can drag users to a stage on the **Stages** diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
 * You&nbsp;can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
 * Reviewers who are not added to a private stage cannot see that stage on the proof or comments made in that stage.
 * By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.

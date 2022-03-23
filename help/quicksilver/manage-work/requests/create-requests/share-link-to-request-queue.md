@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
   * Select a request queue and up to 10 Topic Groups
   * Select a request queue, a Topic group, and a Queue&nbsp;Topic
 
-1. Before you submit the request, click  `Share Path` in the upper-right corner of the page.
+1. Before you submit the request, click&nbsp;**Share Path** in the upper-right corner of the page.
 
    This copies a link to the request queue, topic group, or queue topic that you selected in the previous step to your clipboard.
 

@@ -32,4 +32,4 @@ When exporting from Workfront to Microsoft Project, Effort Driven tasks become F
 
 When importing from Microsoft Project to Workfront, Fixed Units become Effort Driven. Fixed Work and Fixed duration receive the default duration type.
 
-` `**Warning: **``When a task has Calculated Work as the duration type and the default duration type in Setup is set as Calculated Assignment, then MS Project assignment allocations will be lost during the import.
+``` ```**Warning: **``````When a task has Calculated Work as the duration type and the default duration type in Setup is set as Calculated Assignment, then MS Project assignment allocations will be lost during the import.

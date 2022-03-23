@@ -17,6 +17,8 @@ This section contains the following articles:
 * [Categorize stories by color on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md) 
 * [Change the order of stories on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md) 
 * [Filter by user on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md) 
+* Add stories and issues from the Scrum board
+* Manage stories and issues on the Scrum board
 * [Update the status of stories and subtasks on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md) 
 * [View and edit story information on the Scrum board](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
 

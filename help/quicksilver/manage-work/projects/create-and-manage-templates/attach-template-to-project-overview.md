@@ -19,7 +19,7 @@ For information about how to attach a template to a project, see [Attach a templ
 Consider the following when adding templates to projects:
 
 * You can attach only active templates to projects.
-* You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator `or a group administrator` has enabled this functionality in the Project&nbsp;Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* You can attach a template to a project when the project is in a status of Complete, Dead, or in Pending Approval, only when your Adobe Workfront administrator ```or a group administrator``` has enabled this functionality in the Project&nbsp;Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 * Unless you exclude specific template tasks from being added in the attachment process, all template tasks are added to the existing project.
 * Most template settings are added to the project. Some project settings are preserved. For information, see the section [Understand changes to project fields when attaching a template](#understa2) in this article.
 
@@ -244,7 +244,11 @@ The following table describes the default for what happens to project fields whe
    <td>Work&nbsp;Effort</td> 
    <td>Project information is preserved</td> 
    <td>&nbsp;</td> 
-  </tr> Issue Settings fields Allow users to add issues inline Project information is preserved 
+  </tr>  
+  <td class="TableStyle-Standard-BodyD-Column1-MediumGray" style="font-weight: normal;" colspan="3"><span style="font-weight: bold;">Issue Settings fields</span> </td>   
+  <td class="TableStyle-Standard-BodyE-Column1-LightGray" style="font-weight: normal;"><span>Allow users to add issues inline</span> </td> 
+  <td class="TableStyle-Standard-BodyE-Column1-LightGray"><span>Project information is preserved</span> </td> 
+  <td class="TableStyle-Standard-BodyD-Column1-LightGray">&nbsp;</td>  
   <tr> 
    <td colspan="3">Access section </td> 
   </tr> 
@@ -313,7 +317,7 @@ The following table describes the default for what happens to project fields whe
   </tr> 
   <tr> 
    <td>Queue Details, Topic Groups, Queue Topics, Routing Rules</td> 
-   <td> <p>Transferred from template</p> <p>If you select the <span class="bold">Queue Properties &amp; Issues Setup</span> option during the attachment process, the Queue Details of the template overwrite those of the project. In this case, the Routing Rules, Queue Topics, and Topic Groups of the template are added to those of the project. <br>If the project is set up as a request queue and the template you attach to the project is not set up as a request queue, the queue information of the project is removed if you leave the <span class="bold">Queue Properties &amp; Issues Setup</span> box checked. <br>If you deselect the <span class="bold">Queue Properties &amp; Issue Setup</span> box, all the Queue Setup settings of the project are preserved and no Queue Setup settings from the template are attached.</p> </td> 
+   <td> <p>Transferred from template</p> <p>If you select the <strong>Queue Properties &amp; Issues Setup</strong> option during the attachment process, the Queue Details of the template overwrite those of the project. In this case, the Routing Rules, Queue Topics, and Topic Groups of the template are added to those of the project. <br>If the project is set up as a request queue and the template you attach to the project is not set up as a request queue, the queue information of the project is removed if you leave the <strong>Queue Properties &amp; Issues Setup</strong> box checked. <br>If you deselect the <strong>Queue Properties &amp; Issue Setup</strong> box, all the Queue Setup settings of the project are preserved and no Queue Setup settings from the template are attached.</p> </td> 
    <td> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>&nbsp;</p> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -337,7 +341,66 @@ The following table describes the default for what happens to project fields whe
 &nbsp; 
 
 <!--
-Understand changes to project fields when attaching a template Some template settings automatically transfer to the project, unless you specifically mark them to be excluded during the template attachment process. When you mark them to be excluded, the project field values are preserved. Important: Not all project fields are available to manage in the process of attaching a template to a project. For information, see Attach a template to a project. The following scenarios exist when attaching a template to an existing project: Project fields that are empty and the template information updates them Project fields that are populated and the template information overwrites them Project fields that are populated and they remain unchanged after attaching the template Important: Attaching a template to a project is not the same as creating a project from a template. When you create a project from a template all template fields transfer to the new project. Attaching a template leaves some of the existing project's fields unchanged. Project fields that are empty and the template information updates them Most project fields that are empty are populated with template information when attaching the template to an existing project. Project fields that are populated and the template information overwrites them The following fields always overwrite or update existing project information with template information when you attach a template to the project and they cannot be managed during attaching the template: Resource manager: The template Resource Managers are added to the list of existing resource managers on the project. Financial Information: You can indicate whether you want financial information to transfer from the template or to keep the existing financial information on the project in the process of attaching a template. However, when the Financial Information option is selected to indicate that you intend to keep the information from the template, the following fields are updated on the project: The updated Fixed Cost of the project is calculated using the following formula: Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost The updated Fixed Revenue of the project is calculated using the following formula: Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue Filter Hour Types Access settings Custom Forms: Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. Start From Project fields that are populated and they remain unchanged after attaching the template The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: URL Project Owner Project Sponsor Group Company Currency Milestone Path Completion Mode Resource Pool Tasks Settings fields Issue Settings fields
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div>
+<h2><a name="Understa"></a> </h2>
+<h2>Understand changes to project fields when attaching a template</h2>
+<p>Some template settings automatically transfer to the project, unless you specifically mark them to be excluded during the template attachment process. When you mark them to be excluded, the project field values are preserved. </p> <note type="important">
+Not all project fields are available to manage in the process of attaching a template to a project. For information, see
+<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md" class="MCXref xref">Attach a template to a project</a>.
+</note>
+<p>The following scenarios exist when attaching a template to an existing project: </p>
+<ul>
+<li> <p><a href="#project" class="MCXref xref">Project fields that are empty and the template information updates them</a> </p> </li>
+<li> <p><a href="#project2" class="MCXref xref">Project fields that are populated and the template information overwrites them</a> </p> </li>
+<li> <p><a href="#project3" class="MCXref xref">Project fields that are populated and they remain unchanged after attaching the template</a> </p> </li>
+</ul> <note type="important">
+Attaching a template to a project is not the same as creating a project from a template. When you create a project from a template all template fields transfer to the new project. Attaching a template leaves some of the existing project's fields unchanged.
+</note>
+<h3><a name="Project"></a>Project fields that are empty and the template information updates them</h3>
+<p>Most project fields that are empty are populated with template information when attaching the template to an existing project. </p>
+<h3><a name="Project2"></a>Project fields that are populated and the template information overwrites them</h3>
+<p>The following fields always overwrite or update existing project information with template information when you attach a template to the project and they cannot be managed during attaching the template: </p>
+<ul>
+<li> <p><b>Resource manager</b>: The template Resource Managers are added to the list of existing resource managers on the project.</p> </li>
+</ul>
+<ul>
+<li> <p><b>Financial Information</b>: You can indicate whether you want financial information to transfer from the template or to keep the existing financial information on the project in the process of attaching a template. However, when the Financial Information option is selected to indicate that you intend to keep the information from the template, the following fields are updated on the project: </p>
+<ul>
+<li> <p> The updated Fixed Cost of the project is calculated using the following formula:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li>
+<li> <p>The updated Fixed Revenue of the project is calculated using the following formula:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li>
+</ul> </li>
+</ul>
+<ul>
+<li> <p><b>Filter Hour Types</b> </p> </li>
+</ul>
+<ul>
+<li> <p><b>Access settings</b> </p> </li>
+</ul>
+<ul>
+<li> <p><b>Custom&nbsp;Forms</b>:&nbsp;Template custom forms are added to the project, in addition to existing project custom forms. If the fields from the template custom forms already exist on the project and contain information, they preserve the information already on the project. You cannot edit them during attaching the template. </p> </li>
+</ul>
+<ul>
+<li> <p><b>Start&nbsp;From</b> </p> </li>
+</ul>
+<h3><a name="Project3"></a>Project fields that are populated and they remain unchanged after attaching the template</h3>
+<p>The following fields remain unchanged on the project, even if they are also populated on the template, and they cannot be managed during attaching the template: </p>
+<ul>
+<li> <p style="font-weight: bold;">URL</p> </li>
+<li> <p style="font-weight: bold;">Project Owner</p> </li>
+<li> <p style="font-weight: bold;">Project&nbsp;Sponsor</p> </li>
+<li> <p style="font-weight: bold;">Group</p> </li>
+<li> <p style="font-weight: bold;">Company</p> </li>
+<li> <p style="font-weight: bold;">Currency</p> </li>
+<li> <p style="font-weight: bold;">Milestone Path</p> </li>
+<li> <p><b>Completion Mode</b> </p> </li>
+<li> <p style="font-weight: bold;">Resource Pool</p> </li>
+<li> <p style="font-weight: bold;">Tasks Settings fields</p> </li>  
+<p style="font-weight: bold;">Issue Settings fields</p>  
+</ul>
+</div>
+<p>&nbsp;</p>
+</div>
 -->
 
 &nbsp;

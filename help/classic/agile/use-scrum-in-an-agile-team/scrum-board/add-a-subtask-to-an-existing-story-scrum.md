@@ -10,12 +10,12 @@ description: When creating subtasks for existing stories, keep in mind the follo
 
 When creating subtasks for existing stories, keep in mind the following:
 
-`When the Completion Mode setting for the project is set to Manual:`
+**When the Completion Mode setting for the project is set to Manual:**
 
 * Moving a parent story with subtasks to Complete updates the parent story to 100% and the Status to Complete. Subtasks are not updated.
 * To&nbsp;update the Percent Complete for the story, you must update it from the Stories tab or from the&nbsp;Details page of the object.
 
-`When the Completion Mode setting for the project is set to Automatic`:&nbsp;
+**When the Completion Mode setting for the project is set to Automatic**:&nbsp;
 
 * Moving a parent story with subtasks to Complete updates the parent story to 100% and the Status to Complete. Subtasks are also&nbsp;updated to 100% and the Status is updated to Complete.
 * To update the Percent Complete for the story, you must update the Percent Complete for any subtasks. The Percent Complete for the story is calculated based on the Percent Complete of all subtasks.
@@ -55,11 +55,11 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the agile iteration or project that contains the story&nbsp;where&nbsp;you want to add a subtask. For information about how to navigate to an iteration, see [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md).
 1. Go to the story tile on the story board where you want to add a subtask.
-1. Click `Add Subtask` on the main story card&nbsp;to create a subtask to the story.
+1. Click **Add Subtask** on the main story card&nbsp;to create a subtask to the story.
 
    Or
 
-   Click `Add Subtask`&nbsp;on a subtask tile to create a subtask to the subtask.
+   Click **Add Subtask**&nbsp;on a subtask tile to create a subtask to the subtask.
 
    Workfront supports infinite levels of subtasks, but only two levels (subtasks of subtasks)&nbsp;are displayed on the agile story board.
 
@@ -72,15 +72,15 @@ You must have the following access to perform the steps in this article:
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="bold">Subtask Name:</span></td>
+      <td role="rowheader"><strong>Subtask Name:</strong></td>
       <td> Specify a name for the subtask.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Description:</span></td>
+      <td role="rowheader"><strong>Description:</strong></td>
       <td>Specify a description for the subtask.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Estimate:</span></td>
+      <td role="rowheader"><strong>Estimate:</strong></td>
       <td>Specify the estimate for the subtask.<br><p>Keep in mind the following when creating estimates:</p>
        <ul>
         <li>If your&nbsp;agile team is configured to estimate stories in points, then by default 1 point equals 8 hours. Estimates are added as Planned Hours on the story.</li>
@@ -89,15 +89,15 @@ You must have the following access to perform the steps in this article:
        </ul><br></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Planned Hours:</span></td>
+      <td role="rowheader"><strong>Planned Hours:</strong></td>
       <td> (Available only in projects) Specify the number of planned hours for the task.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Assignment:</span></td>
+      <td role="rowheader"><strong>Assignment:</strong></td>
       <td>Begin typing the name of the team where you want to assign the subtask, then click it when it appears in the drop-down list.</td>
      </tr>
     </tbody>
    </table>
 
-1. Click `Create`.
+1. Click **Create**.
 

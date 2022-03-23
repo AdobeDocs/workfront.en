@@ -58,16 +58,16 @@ Before you can map fields for the metadata mapping process, you must enable the 
 
 ## Configure Workfront to send metadata
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. In the left panel, click `Documents` > `Metadata Mapping`.
+1. In the left panel, click **Documents** > **Metadata Mapping**.
 
    ![](assets/metadata-mapping-350x193.png)
 
-1. In the `Select Source Field for Mapping` box, begin typing the name of the Workfront field you want to map to Workfront Library or Workfront DAM, then select it when you see it in the list.
-1. In the `Select Target Field for Mapping` box, select the field you want to populate with the information in the selected Workfront field.  
+1. In the **Select Source Field for Mapping** box, begin typing the name of the Workfront field you want to map to Workfront Library or Workfront DAM, then select it when you see it in the list.
+1. In the **Select Target Field for Mapping** box, select the field you want to populate with the information in the selected Workfront field.  
 
-1. Click `Add Mapping`.
+1. Click **Add Mapping**.
 
    The mapped field displays in the mapped fields listed at the bottom of the page.
 
@@ -76,12 +76,12 @@ Before you can map fields for the metadata mapping process, you must enable the 
 ## Delete mapped fields
 
 1. Log in to Workfront as the administrator.
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. In the left panel click `Documents` > `Metadata Mapping`.
+1. In the left panel click **Documents** > **Metadata Mapping**.
 
 1. In the list of mapped fields, select the fields you want to remove from metadata mapping.
-1. Click `Delete`.
+1. Click **Delete**.
 
    The designated fields are no longer mapped. Now when a user sends a document from Workfront to Workfront Library or Workfront DAM, the metadata contained within the deleted fields is not transferred with the document.
 

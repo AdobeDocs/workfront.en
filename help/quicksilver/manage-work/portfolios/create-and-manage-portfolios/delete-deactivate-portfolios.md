@@ -59,16 +59,18 @@ Consider the following when deciding whether to delete or deactivate portfolios:
 
 When you deactivate a portfolio, you can still access it from the Portfolios area, but it no longer displays in the list of portfolios when users try to add it to a project.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Portfolios.
+1. Click **Portfolios** .
 1. Click the name of the portfolio.
+1. 
+1. Deactivate Portfolio
 
 ## Delete a portfolio
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Portfolios.
-1. Select the portfolio, then click `Delete`the Delete icon.
-1. In the box that appears, click `Yes, Delete It` to confirm.
+1. Click **Portfolios** .
+1. Select the portfolio, then click **Delete**the Delete icon ![](assets/delete.png).
+1. In the box that appears, click **Yes, Delete It** to confirm.
 

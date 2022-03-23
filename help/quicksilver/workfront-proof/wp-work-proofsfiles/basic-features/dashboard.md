@@ -81,7 +81,7 @@ To open the New menu,
 
 1. Click the dropdown arrow (7).
 
-   The `New` menu has the following options:
+   The **New** menu has the following options:
 
   * New Proof (8) 
   * Upload file (9) 
@@ -116,8 +116,8 @@ The Edit tags menu (1) lets you:
 This function lets you move proofs and files to one of your folders. To do this:
 
 1. Select the tick box for the relevant item(s).
-1. Click `Move to` (3) and choose the relevant folder (4).
-1. Click `Save` (5).
+1. Click **Move to** (3) and choose the relevant folder (4).
+1. Click **Save** (5).
 
    ![](assets/move-to-350x297.png)
 
@@ -137,11 +137,11 @@ In the More actions menu (6) you can perform the following actions:
 
 To delete items:
 
-1. Select the tick box to the left of the item(s) and click `Delete` (7).
+1. Select the tick box to the left of the item(s) and click **Delete** (7).
 
 ![](assets/delete-350x109.png)
 
-1. In the confirmation screen that appears, check the details and confirm by clicking `Yes` (8).
+1. In the confirmation screen that appears, check the details and confirm by clicking **Yes** (8).
 
 ![](assets/deleteing-items-350x237.png)
 
@@ -227,8 +227,8 @@ See Page layouts for the different layout options available for this section.
 
 To access the Proof details page:
 
-1. Click on the `Actions` menu (1) available to the right of the proof name.
-1. Select `View proof details` (2) from the menu.
+1. Click on the **Actions** menu (1) available to the right of the proof name.
+1. Select **View proof details** (2) from the menu.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
@@ -248,8 +248,8 @@ You can also go to an item's Details page by clicking opening the item's Actions
 
 To go to the Proof details page of that proof:
 
-1. Click on the `Actions` menu (1). 
-1. Select `View proof details` (2) from the dropdown menu.
+1. Click on the **Actions** menu (1). 
+1. Select **View proof details** (2) from the dropdown menu.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
 

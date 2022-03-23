@@ -1,19 +1,11 @@
----
-filename: access-to objects-and-areas-by-license-type
-user-type: administrator
-content-type: reference
-product-area: system-administration
-navigation-topic: access-levels
-title: Access to objects and areas by license type
-description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
----
+
 
 # Access to objects and areas by license type
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
-* `View`: The user can review and share items.
-* `Edit`: The user can create, edit, delete, and share items.
+* **View**: The user can review and share items.
+* **Edit**: The user can create, edit, delete, and share items.
 
   >[!NOTE]
   >
@@ -32,7 +24,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 | Users |Edit |View |View |View |View |
 | Teams |Edit |Edit |View |View |No access |
 | Templates |Edit |No access |No access |No access |No access |
-| Financial data |Edit |View (only the Finance areain Project Details) |View |No access |No access |
+| Financial data |Edit |View (only the Finance area in Project Details) |View |No access |No access |
 | Resource Management |Edit |View |View |No access |No access |
 | Scenario Planner |Edit |Edit |Edit |No access |No access |
 | Workfront Goals  |Edit |Edit |Edit |Edit |No access |

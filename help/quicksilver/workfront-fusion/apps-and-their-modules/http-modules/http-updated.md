@@ -20,7 +20,10 @@ HTTP > Make a request module is a universal module that enables you to configure
 >
 >To make sure your JSON is valid, you may use one of the available online services (e.g. [https://jsonlint.com/](https://jsonlint.com/)) or employ JSON > Create JSON module to create the JSON dynamically and take care of all the necessary escaping>
 ><!-->
->(see our tutorial Use JSON Generator to create a JSON Data Structure and make an HTTP request using an API Key (SendGrid example) for detailed explanation)>
+><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
+>(see our tutorial>
+><a href="make-an-http-request-with-an-api-key.md" class="MCXref xref" xrefformat="{para}">Use JSON Generator to create a JSON Data Structure and make an HTTP request using an API Key (SendGrid example)</a> for detailed explanation)>
+></MadCap:conditionalText>>
 >-->
 >. Mixing JSON pieces with expressions and items directly in the Request content field is not recommended as it can result in invalid JSON.
 
@@ -274,11 +277,15 @@ application/x-www-form-urlencoded
 <pre>MyVariableOne=ValueOne&MyVariableTwo=ValueTwo</pre>
 
 <!--
-Tutorials
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Tutorial"></a>Tutorials</h2>
 -->
 
 <!--
-How to connect Workfront Fusion with any web service using OAuth2 authorization - drafted out until I fix that article
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">How to connect Workfront Fusion with any web service using OAuth2 authorization<!--
+<MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+- drafted out until I fix that article
+</MadCap:conditionalText>
+--></p>
 -->
 
 ## Generating JSON Web Tokens (JWT)

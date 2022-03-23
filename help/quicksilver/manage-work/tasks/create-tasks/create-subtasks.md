@@ -42,15 +42,16 @@ You must have the following access to perform the steps in this article:
 ## Create subtasks
 
 * [Create subtasks from the task list](#creating-subtasks-from-the-task-list) 
-* Create subtasks from the task Subtasks section
+* [Create subtasks from the task Subtasks section](#create)
 
 ### Create subtasks from the task list
 
 1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
+1. Tasks
 1. (Conditional) If the task that you want to make the child task is not already located directly beneath the task that you want make the parent, drag it to the appropriate location in the task list.
 1. Select the&nbsp;task that you want to make a subtask and do one of the following:
 
-  * Click the `Indent` icon ![](assets/cs1.png) to make the selected task a subtask&nbsp;to the task directly above it.
+  * Click the **Indent** icon ![](assets/cs1.png) to make the selected task a subtask&nbsp;to the task directly above it.
   * When using a standard QWERTY keyboard, press Option +&nbsp;> (Mac) or Alt +&nbsp;> (Windows) on your keyboard.
 
     >[!TIP]
@@ -66,19 +67,21 @@ You must have the following access to perform the steps in this article:
 Create subtasks from the task Subtasks section
 
 1. Go to the&nbsp;project where you want to create&nbsp;subtasks.
+1. Tasks
 1. Click the name of the task where you want to create a subtask.
-1. Click the Subtasks section in the left panel. 
-1. Click `New Task.`
+1. Click the **Subtasks** section in the left panel. 
+1. Click **New Task.**
 
    Follow the steps in the following article to continue creating the subtask: [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Click `Save Task.`
+1. Click **Save Task.**
 
 ## Make a subtask a main task
 
 1. Go to the&nbsp;project where you want to make a subtask a main task.
+1. Click the **Tasks** section in the left panel.
 1. Select the subtask that you want to make a main task.
-1. Click the `Outdent` icon to make the subtask a main task.
+1. Click the **Outdent** icon to make the subtask a main task.
 
    ![](assets/cs4.png)
 

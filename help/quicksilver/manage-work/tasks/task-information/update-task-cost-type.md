@@ -33,9 +33,9 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Projects, Tasks, and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-     You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> <!--
-     You must be a group administrator. For more information on group administrators, see Group administrators.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -50,8 +50,9 @@ You must have the following access to perform the steps in this article:
 ## Configure the Cost Type of an individual task
 
 1. Go to the task where you want to configure the Cost Type. 
-1. Click Task Details in the left panel, then expand the Finance area. 
-1. Double click Cost Type and select the cost type that you want to apply to the task.
+1. Click **Task Details** in the left panel, then expand the **Finance** area.  
+
+1. Double click **Cost Type** and select the cost type that you want to apply to the task.
 
    Select from the following options:
 
@@ -62,5 +63,5 @@ You must have the following access to perform the steps in this article:
 
    For more information about each task cost type, see [Track costs](../../../manage-work/projects/project-finances/track-costs.md).
 
-1. Click `Save`Changes `.`
+1. Click **Save** **Changes** **.**
 

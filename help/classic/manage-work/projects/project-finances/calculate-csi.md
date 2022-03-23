@@ -47,12 +47,12 @@ CSI has the following three possible values:
 
 ## Locate the Cost Schedule Performance Index (CSI)
 
-` `**Warning: **``You must have access to View Financial Data in your Access Level and permissions to View the project or task in order to be able to see the CSI value of a project or task.
+``` ```**Warning: **``````You must have access to View Financial Data in your Access Level and permissions to View the project or task in order to be able to see the CSI value of a project or task.
 
 You can locate CSI in the following areas of Workfront:
 
 * Project Details tab, in the Finance sub-tab. 
-* Task Details tab, in the Finance sub-tab. 
+* Task Details tab, in the Finance sub-tab.&nbsp; 
 * A project or task view
 * A project or task report
 

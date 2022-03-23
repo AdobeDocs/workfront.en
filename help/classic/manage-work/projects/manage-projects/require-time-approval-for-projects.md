@@ -64,10 +64,12 @@ You must have the following access to perform the steps in this article:
 To require project manager approval for hours on the project:
 
 1. Go to the project where you want to require approval for hours.
-1. Click Edit Project.   
+1. Click **Edit Project**.   
    The Edit Project dialog box displays.
-1. In the Finance section, select Require time to be approved for this project. 
-1. Click `Save`Changes.  
+
+1. In the **Finance** section, select **Require time to be approved for this project**. 
+
+1. Click **Save****Changes**.  
    Now when&nbsp;time is logged and approved, those hours become locked and cannot be altered by the user who entered them on the project or the timesheet. Only a Workfront administrator can adjust the time recorded.
 
 ## Approve and reject time on a&nbsp;project
@@ -81,16 +83,17 @@ If you set up a project to require approval on the hours logged, the project man
 To approve or reject hours on a project:
 
 1. Go to the project.
-1. Click the Hours tab.   
-   Depending on the changes made to your layout template by the Workfront administrator, the Hours tab might be under the More tab.
-1. The hours logged for issues, tasks, and the project display and should have a status of `Submitted`.  
+1. Click the **Hours** tab.   
+   Depending on the changes made to your layout template by the Workfront administrator, the **Hours** tab might be under the **More** tab.
+
+1. The hours logged for issues, tasks, and the project display and should have a status of **Submitted**.  
    Click the box to the left of the hour entries to select the hours you want to approve.
 
-1. Click `Approve`.  
-   The status of the hours changes to `Approved`.  
-   If you later reject the approved hours, the status of the hours changes to `Not Approved`.  
-   When you include the approved hours in a billing record, the status of the hours changes to `Billed and Approved`. Hours added to a billing record cannot be deleted. For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
+1. Click **Approve**.  
+   The status of the hours changes to **Approved**.  
+   If you later reject the approved hours, the status of the hours changes to **Not Approved**.  
+   When you include the approved hours in a billing record, the status of the hours changes to **Billed and Approved**. Hours added to a billing record cannot be deleted. For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md)
 
-1. (Optional) Click `Reject` to reject the time entries on the project.  
-   The status of the hours changes to `Rejected`.
+1. (Optional) Click **Reject** to reject the time entries on the project.  
+   The status of the hours changes to **Rejected**.
 

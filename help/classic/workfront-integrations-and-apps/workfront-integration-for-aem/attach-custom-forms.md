@@ -1,6 +1,6 @@
 
 
-# `Workfront Tools for AEM User Guide : Attach Custom Forms`
+# ```Workfront Tools for AEM User Guide : Attach Custom Forms```
 
 This workflow step will allow a user to attach a custom form to a Workfront artifact. This workflow step can be added to any workflow model. The Workfront artifact this step affects will be looked up using a relative path from the payload.
 
@@ -18,7 +18,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Work or higher
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Work or higher</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Product</td> 

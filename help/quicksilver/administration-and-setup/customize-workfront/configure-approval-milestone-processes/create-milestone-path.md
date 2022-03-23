@@ -47,19 +47,19 @@ For more information on how you can associate a milestone path with a project an
 
 ## Create a&nbsp;milestone&nbsp;path
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Processes` > `Milestone Paths`.
-1. Click  `New Milestone Path.`
-1. Specify the following information in the `Basic Info` area:
+1. Click **Processes** > **Milestone Paths**.
+1. Click&nbsp;**New Milestone Path.**
+1. Specify the following information in the **Basic Info** area:
 
    | Milestone Path Name |Enter a name for the milestone&nbsp;path. |
    |---|---|
    | Description |Enter a description to define the milestone path. |
-   | `Is Active`  |Select this checkbox if you want the milestone path to be active. Other users can find this path and attach it to projects when creating or editing projects. Inactive milestone paths cannot be attached to projects. This is enabled by default. |
+   | **Is Active** |Select this checkbox if you want the milestone path to be active. Other users can find this path and attach it to projects when creating or editing projects. Inactive milestone paths cannot be attached to projects. This is enabled by default. |
    | Groups |Select the groups listed to allow users in these groups to see and apply this milestone path to their projects. The home group&nbsp;of the user entering the milestone path is selected by default. |
 
-1. Specify the following information in the `Milestones` area:
+1. Specify the following information in the **Milestones** area:
 
    <table cellspacing="0"> 
     <col> 
@@ -70,7 +70,7 @@ For more information on how you can associate a milestone path with a project an
       <td>Type descriptive names for each milestone.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>Type a description for the milestone.</td> 
      </tr> 
      <tr> 
@@ -80,8 +80,8 @@ For more information on how you can associate a milestone path with a project an
     </tbody> 
    </table>
 
-1. Click  `Add Milestone`&nbsp;and continue to add milestones as needed until the path is completed.&nbsp;
-1. Click  `Create Milestone Path` to save your changes.
+1. Click&nbsp;**Add Milestone**&nbsp;and continue to add milestones as needed until the path is completed.&nbsp;
+1. Click&nbsp;**Create Milestone Path** to save your changes.
 
    Your milestone path is ready to be associated with a project.
 

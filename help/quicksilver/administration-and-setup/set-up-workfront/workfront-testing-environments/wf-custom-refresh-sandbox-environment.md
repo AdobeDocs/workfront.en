@@ -58,7 +58,9 @@ The Custom Refresh Sandbox contains your actual production data, it does not ref
 >
 
 <!--
-Important: If you are a Workfront Goals customer, Workfront Goals data does not transfer to the Custom Refresh Sandbox when you schedule a refresh. The ability to sync this data from your production environment to your Custom Refresh Sandbox will be available after September 2020.
+<note type="important">
+If you are a Workfront Goals customer, Workfront Goals data does not transfer to the Custom Refresh Sandbox when you schedule a refresh. The ability to sync this data from your production environment to your Custom Refresh Sandbox will be available after September 2020.
+</note>
 -->
 
 ## Access the Custom Refresh Sandbox from your Production environment
@@ -71,11 +73,11 @@ As a Workfront administrator, you can access your Custom Refresh Sandbox from yo
 
 To access your Custom Refresh Sandbox:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `System` > `Preferences`.  
+1. Click **System** >**Preferences**.  
 
-1. In the `Test Environment` section, click `Sandbox 1` or `Sandbox 2`.
+1. In the **Test Environment** section, click **Sandbox 1** or **Sandbox 2**.
 
    Your support package specifies whether you have access to one or two Custom Refresh Sandboxes.
 
@@ -92,7 +94,7 @@ Any user can access the Custom Refresh Sandbox by using a URL.
 * [Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5](#custom-refresh-1-2-3) 
 * [Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#custom-refresh-cluster-4)
 
-### `Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5`
+### **Access the Custom Refresh Sandbox for accounts on Clusters 1,2,3, and 5**
 
 Depending on your Support package, you should have access to one or two Custom Refresh Sandboxes.
 
@@ -109,7 +111,7 @@ To access your Custom Refresh Sandbox using a URL:
 1. On the login screen, log in using your Custom Refresh Sandbox credentials.&nbsp;
 1. Your Custom Refresh Sandbox credentials are the same as your production credentials, unless you have changed your production credentials since your Custom Refresh Sandbox was last refreshed. The logins are synchronized&nbsp;only when a refresh occurs. They do not synchronize automatically.
 
-### `Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)`
+### **Access the Custom Refresh Sandbox for Accounts on Cluster 4 (EMEA Accounts)**
 
 If your Workfront account is on Cluster 4 (EMEA cluster), you can access your Custom Refresh Sandbox only using a URL. To&nbsp;find out what cluster your account is on, contact our Customer Support team.&nbsp;
 
@@ -148,8 +150,8 @@ After you schedule a refresh of your Custom Refresh Sandbox, you can cancel it b
 To schedule a refresh of your Customer Refresh Sandbox:
 
 1. Log in to your Custom Refresh Sandbox.
-1. Click `Schedule` in the banner at the top of the screen and select a date from the calendar.
-1. Select a date for when you want the refresh to happen, then click `Schedule Refresh`.
+1. Click **Schedule** in the banner at the top of the screen and select a date from the calendar.
+1. Select a date for when you want the refresh to happen, then click **Schedule Refresh**.
 
 ## Switch to Production from the Custom Refresh Sandbox
 
@@ -157,7 +159,7 @@ To schedule a refresh of your Customer Refresh Sandbox:
 
    For more information about accessing your Custom Refresh Sandbox, see [Access the Custom Refresh Sandbox from your Production environment](#accessing-your-custom-refresh-from-production) or [Access the Custom Refresh Sandbox using a URL](#accessing-your-custom-refresh-sandbox-using-a-url).
 
-1. Click `Go To Production` in the banner at the top of the screen.
+1. Click **Go To Production** in the banner at the top of the screen.
 
    Remember that work done in the sandbox will not be visible in the production environment, as the transfer of data is unidirectional, from production to your Custom Refresh Sandbox,&nbsp;and not in reverse.
 

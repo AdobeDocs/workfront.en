@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,10 +65,10 @@ To use Marketo modules, you must have a Marketo account.
 
 You can create a connection to your Marketo account directly from inside Marketo module.
 
-1. In any Marketo module, click `Add`next to the Connection field.
+1. In any Marketo module, click **Add**next to the Connection field.
 1. Enter your Marketo account or Marketo Munchkin ID. This is the unique part of the Base URL or Endpoint assigned to your account, that you use to access Marketo via its REST API. For instructions on locating this, see [Base URL](https://developers.marketo.com/rest-api/base-url/) in the Marketo documentation.
 1. Enter your Client ID and Client secret. For instructions on locating these, see [Authentication](https://developers.marketo.com/rest-api/authentication/) in the Marketo documentation.
-1. Click `Continue`to create the connection and go back to the module.
+1. Click **Continue**to create the connection and go back to the module.
 
 ## Marketo Modules and their fields
 
@@ -92,9 +103,9 @@ This trigger module starts a scenario when a record is created or updated.
    <td role="rowheader">Record Type</td> 
    <td> <p>Select the type of record that you want to create.</p> 
     <ul> 
-     <li> <p><span class="bold">Activity</span> </p> <p>Select the activity type that you want to watch. </p> <p>The module watches only for new activities.<br></p> </li> 
-     <li> <p><span class="bold">Lead</span> </p> <p>Select whether you want to watch for new records, updated records, both new and updated records, or specific field updates. If you select to watch specific field updates, select the field that you want the module to watch.</p> </li> 
-     <li> <p><span class="bold">Program</span> </p> <p>Select whether you want to watch for new records, updates records, or both new and updated records.</p> </li> 
+     <li> <p><strong>Activity</strong> </p> <p>Select the activity type that you want to watch. </p> <p>The module watches only for new activities.<br></p> </li> 
+     <li> <p><strong>Lead</strong> </p> <p>Select whether you want to watch for new records, updated records, both new and updated records, or specific field updates. If you select to watch specific field updates, select the field that you want the module to watch.</p> </li> 
+     <li> <p><strong>Program</strong> </p> <p>Select whether you want to watch for new records, updates records, or both new and updated records.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

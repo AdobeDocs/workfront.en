@@ -17,7 +17,9 @@ A company is an organizational unit in Adobe Workfront that can represent your o
 
 You must have the following in order to manage companies in Workfront:
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Workfront plan*</p> </td> 
@@ -26,7 +28,23 @@ You must have the following in order to manage companies in Workfront:
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* One of the following: The System Administrator access level, which allows you to edit any company in the system. For more information, see Grant a user full administrative access. Administrative access to manage companies, which allows you to edit any company in the system. For more information, see Grant users administrative access to certain areas. Note: You can also manage companies associated with any group where you are assigned as a group administrator. In order to add to and remove users from the Workfront system, you must have one of the following: The System Administrator access level. For information about this access level, see Grant a user full administrative access. In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings , the Create option and at least one of the two User Admin options must be enabled. If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member. For information about the Users setting in an access level, see Grant access to users. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td> <p>One of the following:</p> 
+    <ul> 
+     <li> <p>The System Administrator access level, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+     <li> <p>Administrative access to manage companies, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </li> 
+    </ul> <p>Note:  
+     <ul> 
+      <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
+      <li> <p>In order to add to and remove users from the Workfront system, you must have one of the following:</p> 
+       <ul> 
+        <li> <p>The System Administrator access level. For information about this access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+        <li> <p>In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> </li> 
+       </ul> <p>For information about the Users setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     </ul> </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -56,14 +74,14 @@ By default, the company associated with your instance of Workfront is already cr
 
 To add or edit a company:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Companies`.
-1. If you are adding a company, click `New Company`.
+1. Click **Companies**.
+1. If you are adding a company, click **New Company**.
 
    Or
 
-   If you are editing an existing company, select the company, then click `Edit`.
+   If you are editing an existing company, select the company, then click **Edit**.
 
 1. Use the options that display to configure the following information:
 
@@ -82,7 +100,7 @@ To add or edit a company:
           <li>Only in their primary company</li> 
           <li> <p>In their associated company and the primary company<br></p> <p>For information about the primary company functionality within users' access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <p>You can have only one or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </li> 
          </ul> </li> 
-        <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see Grant users administrative access to certain areas. Start typing the name of the group, then press Enter when it appears. When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see Group administrators and companies in this article. </li> 
+        <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> <p>Important: If you don’t associate the group that will be working with this company, administrators for the group can’t access unless they have administrative access to companies in their access level. For information about how this access is granted, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Start typing the name of the group, then press <strong>Enter</strong> when it appears.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">When you assign a group to a company, the group administrators for the group gain Manage access to the company. For more information, see <a href="#access" class="MCXref xref">Group administrators and companies</a> in this article.</p> </li> 
         <li> <p><b>Company Members</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -97,15 +115,17 @@ To add or edit a company:
     </tbody> 
    </table>
 
-1. If you are creating a new company, click `Create Company`.
+1. If you are creating a new company, click **Create Company**.
 
    Or
 
-   If you are editing an existing company, click `Save Changes`.
+   If you are editing an existing company, click **Save Changes**.
 
-##  
+##
 
-Manage company memberships For information about managing memberships for an existing company, see Manage company memberships. 
+## Manage company memberships
+
+For information about managing memberships for an existing company, see [Manage company memberships](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
 ## About sharing objects with companies
 

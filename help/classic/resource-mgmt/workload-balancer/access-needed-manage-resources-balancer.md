@@ -79,9 +79,9 @@ You must have the following access to manage the Workload Balancer:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to&nbsp;Resource Management</p> <!--
-     View or higher access to Financial Data, if you want to view information by cost
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost</p>
     --> <p>For information about the Resource Management access level, see the article <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Grant access to Resource Management</a>.</p> <!--
-     For information about the Financial Data access level, see the articleGrant access to financial data.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the Financial Data access level, see the article<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">Grant access to financial data</a>.</p>
     --> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 

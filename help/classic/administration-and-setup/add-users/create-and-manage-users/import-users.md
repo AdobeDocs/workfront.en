@@ -55,69 +55,41 @@ For information about how to synchronize users to your Workfront site via LDAP, 
 
 ## Use a spreadsheet import file to import users
 
-1. Click the `New Person
+1. People
+1. Click the **People** tab.
+1. Click the **New PersonUser** drop-down arrow, then click **Import PeopleUsers**.
 
-   <!--
-   User
-   -->
-
-   ` drop-down arrow, then click `Import People
-
-   <!--
-   Users
-   -->
-
-   `.
-
-1. In the `Import People
-
-   <!--
-   Users
-   -->
-
-   ` box that displays, download the sample file, then update the sample file to include your own user's personal information.
+1. In the **Import PeopleUsers** box that displays, download the sample file, then update the sample file to include your own user's personal information.
 
    Each row includes the following fields:
 
-  * `First Name` 
-  * `Last Name` 
-  * `Email Address`
+   * **First Name** 
+   * **Last Name** 
+   * **Email Address**
 
-    Email addresses must be unique.
+     Email addresses must be unique.
 
-  * `Access Level`
+   * **Access Level**
 
-    Access Levels are case sensitive.
+     Access Levels are case sensitive.
 
-  * `SSO Login ID`
+   * **SSO Login ID**
 
-    This field is included only if SSO is enabled in your system. You must add the Federation ID in this field for each user. When you create a user from the People tab, you can set up a password for the user if you want to allow users to log in without SSO. However, the import feature does not allow you to leave the SSO LOGIN ID blank.
+     This field is included only if SSO is enabled in your system. You must add the Federation ID in this field for each user. When you create a user from the People tab, you can set up a password for the user if you want to allow users to log in without SSO. However, the import feature does not allow you to leave the SSO LOGIN ID blank.
 
-  * Ensure that no extra spaces exist before or after a user's email address.
+   * Ensure that no extra spaces exist before or after a user's email address.
 
-    ![importing-new-users.png](assets/importing-new-users-350x211.png)
+     ![importing-new-users.png](assets/importing-new-users-350x211.png)
 
 1. Save the file to a location on your workstation.
-1. Click `Choose File` in the `Import People
-
-   <!--
-   Users
-   -->
-
-   ` box.
+1. Click **Choose File** in the **Import PeopleUsers** box.
 
 1. Navigate to and select the file that you saved.  
-1. (Optional) Select the `Send an invite email to this person
-
-   <!--
-   user
-   -->
-
-   ` option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+1. (Optional) Select the **Send an invite email to this personuser** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
 
    Deselect this option if you want to set the password for the user.
 
-1. Click `Import`.
+1. Click **Import**.
 
    You receive a confirmation message at the top of the screen that the user was successfully imported.
 

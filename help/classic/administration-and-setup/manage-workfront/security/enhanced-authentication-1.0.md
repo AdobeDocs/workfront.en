@@ -11,9 +11,9 @@ description: The following sections describe how to configure and manage the Enh
 
 >[!IMPORTANT]
 >
->`This article is for organizations that migrated from Legacy Authentication to Enhanced Authentication 1.0. Most customers are currently using Legacy Authentication and will not migrate to Enhanced Authentication 1.0. Instead, they will migrate to Enhanced Authentication 2.0 in 2021. 
+>```This article is for organizations that migrated from Legacy Authentication to Enhanced Authentication 1.0. Most customers are currently using Legacy Authentication and will not migrate to Enhanced Authentication 1.0. Instead, they will migrate to Enhanced Authentication 2.0 in 2021. 
   
->If your organization is currently using Legacy Authentication, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md) for more information about Enhanced Authentication 2.0.`
+>If your organization is currently using Legacy Authentication, see [Enhanced Authentication overview](../../../administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md) for more information about Enhanced Authentication 2.0.```
 
 The following sections describe how to configure and manage the Enhanced Authentication 1.0 experience for your organization as the Adobe Workfront administrator.
 
@@ -69,17 +69,17 @@ With the Enhanced Authentication experience, you can no longer manually reset an
 
 To send the Forgot Password email:
 
-1. Go to the `People` area, then click the `People` tab.
+1. Go to the **People** area, then click the **People** tab.
 
 1. Select the users whose passwords you want to reset.
-1. Click `More` > `Send Forgot Password Email`.
+1. Click **More** > **Send Forgot Password Email**.
 
    ![](assets/send-forgot-password-350x96.png)
 
 ## Reset your administrator password
 
-1. Click your profile picture in the upper-right corner of the Workfront interface, then click `My Settings`. 
-1. In the My Settings dialog box, click `Reset Password`.
+1. Click your profile picture in the upper-right corner of the Workfront interface, then click **My Settings**. 
+1. In the My Settings dialog box, click **Reset Password**.
 1. In the box that displays, type and then retype a new password.
 
    This generates a confirmation email.

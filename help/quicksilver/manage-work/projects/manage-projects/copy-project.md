@@ -27,7 +27,15 @@ You must have the following:
   <tr> 
    <td> <p>Adobe Workfront license*</p> </td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Edit access to Projects with ability to Create and Copy projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View permissions or higher to the project For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access to Projects with ability to Create <span>and Copy</span> projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>View permissions or higher to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -36,24 +44,45 @@ You must have the following:
 ## Copy a 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 single
+</MadCap:conditionalText>
 -->
 
 project
 
 1. Go to the project that you want to copy.
-   Or Go to a project list or report and select a project. 
-1. Click the More icon , then click Copy.
+
+   <!--
+   <p>Or</p>
+   <p>Go to a project list or report and select a project. </p>
+   -->
+
+1. Click the **More** icon ![](assets/qs-more-menu.png) , then click **Copy**.
 
 1. Specify a name for the project.
 
-   By default, the new name is `Copy of <Original project name>.`
+   By default, the new name is **Copy of <Original project name>.**
 
-1. Select the `Status` of your new project.
+   <!--
+   <img src="assets/copy-project-box-nwe-350x276.png" style="width: 350;height: 276;">
+   -->
 
-   By default, the `Status` matches that of the original project.
+1. Select the **Status** of your new project.
 
-1. Depending on the environment that you use for copying the project, do one of the following: In the Production environment: (Optional) Select any of the following options to remove the items from the new project.
+   By default, the **Status** matches that of the original project.
+
+1. 
+
+   <!--
+   Depending on the environment that you use for copying the project, do one of the following:
+   -->
+
+   <!--
+   In the Production environment:
+   -->
+
+   (Optional) Select any of the following options to remove the items from the new project.
 
    >[!IMPORTANT]
    >
@@ -86,9 +115,9 @@ project
 
    If you leave any of the following items unselected, they transfer to the copied project by default:
 
-  * `Clear Assignments`: Removes all the project and task assignments
-  * `Clear Progress`: Removes the progress on all the tasks.
-  * `Clear Custom Data`: Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:
+  * **Clear Assignments**: Removes all the project and task assignments
+  * **Clear Progress**: Removes the progress on all the tasks.
+  * **Clear Custom Data**: Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:
 
     * Tasks
     * Expenses
@@ -96,17 +125,17 @@ project
 
     The custom forms will remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. 
   
-  * `Clear Documents`: Removes everything in the documents tab, including document versions, linked documents, and folders.
+  * **Clear Documents**: Removes everything in the documents tab, including document versions, linked documents, and folders.
 
     By default, document proofs and approvals cannot be copied to another project. 
   
-  * `Clear All Predecessors`: Removes all predecessor relationships between the tasks on the project.
+  * **Clear All Predecessors**: Removes all predecessor relationships between the tasks on the project.
 
     >[!TIP]
     >
     >Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not.
 
-  * `Clear Financial Information`: Removes the information in the following areas:
+  * **Clear Financial Information**: Removes the information in the following areas:
 
     * Finance sub-tab of the project
     * Planned Benefit in the Business Case
@@ -114,20 +143,85 @@ project
 
     For more information about the project Finance sub-tab, see [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
-  * `Clear Approval Process`: Removes all approvals associated with the tasks or the project. 
-  * `Clear Reminder Notifications`: Removes the Reminder Notifications associated with the tasks or the project. 
-  * `Clear Expenses`: Removes expenses associated with the tasks or the project. 
-  * `Clear Permissions`: Removes permissions to all the users on the tasks or the project.
+  * **Clear Approval Process**: Removes all approvals associated with the tasks or the project. 
+  * **Clear Reminder Notifications**: Removes the Reminder Notifications associated with the tasks or the project. 
+  * **Clear Expenses**: Removes expenses associated with the tasks or the project. 
+  * **Clear Permissions**: Removes permissions to all the users on the tasks or the project.
 
     >[!NOTE]
     >
-    >Permissions are removed from users who are assigned to the copied tasks, even if `Clear Assignments` is not selected.
+    >Permissions are removed from users who are assigned to the copied tasks, even if **Clear Assignments** is not selected.
 
-  * `Select all`: Select this option to select all the options above and clear all the fields and objects listed from the new project.
+  * **Select all**: Select this option to select all the options above and clear all the fields and objects listed from the new project.
 
-   In the Preview environment, deselect the items that you don't want to copy to the new project: Assignments Removes all the project and task assignments Progress Removes the progress on all the tasks and they display as New. Custom Data Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items: Tasks Expenses Documents Note: The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project. Documents Removes everything in the documents tab, including document versions, linked documents, and folders. By default, document proofs and approvals cannot be copied to another project. All Predecessors Removes all predecessor relationships between the tasks on the project. Tip: Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not. Financial Information Removes the information in the following areas: Finance sub-tab of the project Planned Benefit in the Business Case Financial information from all tasks For more information about the project Finance sub-tab, see Manage information in the project Finance area. Approval Process Reminder Notifications Expenses Permis Tip: Deselecting Select all deselects all items. 
+   <!--
+   <li> <p>In the Preview environment, deselect the items that you don't want to copy to the new project:</p>
+   <table cellspacing="0">
+   <col>
+   <col>
+   <tbody>
+   <tr>
+   <td role="rowheader">Assignments</td>
+   <td>Removes all the project and task assignments</td>
+   </tr>
+   <tr>
+   <td role="rowheader">Progress</td>
+   <td>Removes the progress on all the tasks and they display as New. </td>
+   </tr>
+   <tr>
+   <td role="rowheader">Custom&nbsp;Data</td>
+   <td> <p>Removes the information from the custom form on the project, as well as the information on the custom forms associated with the following items:</p>
+   <ul>
+   <li>Tasks</li>
+   <li>Expenses</li>
+   <li> <p>Documents</p> </li>
+   </ul> <note type="note">
+   The custom forms remain attached to the tasks, expenses, documents, and the project, but the information in the custom fields of the forms is not copied to the new project.
+   </note> </td>
+   </tr>
+   <tr>
+   <td role="rowheader">Documents</td>
+   <td> <p>Removes everything in the documents tab, including document versions, linked documents, and folders.</p> <p>By default, document proofs and approvals cannot be copied to another project. </p> </td>
+   </tr>
+   <tr>
+   <td role="rowheader">All Predecessors</td>
+   <td> <p>Removes all predecessor relationships between the tasks on the project. </p> <note type="tip">
+   Cross-project predecessors never transfer to the new project, regardless of whether this is selected or not.
+   </note> </td>
+   </tr>
+   <tr>
+   <td role="rowheader">Financial Information</td>
+   <td> <p>Removes the information in the following areas: </p>
+   <ul>
+   <li>Finance sub-tab of the project</li>
+   <li> Planned Benefit in the Business Case</li>
+   <li>Financial information from all tasks<br></li>
+   </ul> <p>For more information about the project Finance sub-tab, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref">Manage information in the project Finance area</a>.</p> </td>
+   </tr>
+   <tr>
+   <td role="rowheader">Approval Process</td>
+   <td>&nbsp;</td>
+   </tr>
+   <tr>
+   <td role="rowheader">Reminder Notifications</td>
+   <td>&nbsp;</td>
+   </tr>
+   <tr>
+   <td role="rowheader">Expenses</td>
+   <td>&nbsp;</td>
+   </tr>
+   <tr>
+   <td role="rowheader">Permis</td>
+   <td>&nbsp;</td>
+   </tr>
+   </tbody>
+   </table> <note type="tip">
+   Deselecting
+   <strong>Select all</strong> deselects all items.
+   </note> </li>
+   -->
 
-1. Click `Copy` to create a copy of the project.
+1. Click **Copy** to create a copy of the project.
 
    This creates a new project which is similar to the project you copied.
 

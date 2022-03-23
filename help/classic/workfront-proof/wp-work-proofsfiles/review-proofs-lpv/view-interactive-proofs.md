@@ -22,7 +22,7 @@ You can adjust the resolution of a proof through any of the following ways:
 ## Specifying&nbsp;a Custom Resolution
 
 1. Go to the Interactive proof for which you want to adjust the screen resolution.
-1. In the proofing viewer, next to the `Resolution` icon in the lower-right corner of the viewer, specify a custom resolution.  
+1. In the proofing viewer, next to&nbsp;the **Resolution** icon in the lower-right corner of the viewer, specify a custom resolution.  
    ![phq_resolution_custom.png](assets/phq-resolution-custom.png)  
    The Interactive proof is rendered in the selected resolution.  
    The updated resolution is displayed on each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with).  
@@ -37,18 +37,18 @@ You can adjust the resolution of a proof through any of the following ways:
    ![phq_resolution_drag.png](assets/phq-resolution-drag-350x434.png)  
    The updated resolution is displayed in the following locations:
 
-  * In the lower-right corner of the viewer  
-    ![phq_resolution_custom.png](assets/phq-resolution-custom.png)
+   * In the lower-right corner of the viewer  
+     ![phq_resolution_custom.png](assets/phq-resolution-custom.png)
 
-  * On each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with)  
-    ![phq_resolution_comment.png](assets/phq-resolution-comment.png)
+   * On each comment made on the proof&nbsp;(this ensures other users are aware what resolution the comment is associated with)  
+     ![phq_resolution_comment.png](assets/phq-resolution-comment.png)
 
 ## Viewing a Preset Resolution
 
 You can choose from a list of predefined, standard resolutions for various phones, tablets, notebooks, and desktops.
 
 1. Go to the Interactive proof for which you want to adjust the screen resolution.
-1. In the Proof Viewer, click the `Resolution` icon in the lower-right corner of the viewer.  
+1. In the Proof Viewer, click the **Resolution** icon in the lower-right corner of the viewer.  
    ![phq_viewer_resolution_icon.png](assets/phq-viewer-resolution-icon-321x474.png)
 
 1. Select from the available resolution options of various phones, tablets, notebooks, and desktops.  

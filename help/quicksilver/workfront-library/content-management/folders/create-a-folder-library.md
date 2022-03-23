@@ -19,24 +19,25 @@ Users with Manager or high access can create an unlimited number of folders. Use
 
 &nbsp;For more information about folders, see [Overview of folders in Workfront Library](../../../workfront-library/content-management/folders/folders-overview-library.md).
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Navigate to where you want to add a folder.
 
    You can add a folder to your Library or My Content areas and to any collection that you have access to. You can also create sub-folders within an existing folder.
 
-1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
-1. Click the `Add New` icon ![](assets/add-icon---library.png) in the upper-right corner, then select `New Folder`.
+1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Click the **Add New** icon ![](assets/add-icon---library.png) in the upper-right corner, then select **New Folder**.
 
    ![](assets/new-folder-350x201.png)
 
-1. Type a name for the folder, then press `Enter`.
+1. Type a name for the folder, then press **Enter**.
 
    When you navigate to another area of Workfront Library, the newly-created folder is placed in alphabetical order with the other folders in the area.
 
 1. (Optional) Select a cover image for the folder:
 
-  1. Hover over the folder you just created, click the `More` icon in the upper-right corner of the folder, then click `Select cover image` in the drop-down menu.
+  1. Hover over the folder you just created, click the **More** icon in the upper-right corner of the folder, then click **Select cover image** in the drop-down menu.
   1. Navigate to the image you want displayed on the folder cover.
 
      You can choose from content in your Library or My Content areas. You cannot use an expired or hidden item as a cover image.
@@ -45,7 +46,7 @@ Users with Manager or high access can create an unlimited number of folders. Use
      >
      >The image you select remains as the cover image, even if the asset is updated with a new version or is deleted from Workfront Library.
 
-  1. Select the image, then click `Save`.
+  1. Select the image, then click **Save**.
 
      The image displays on the folder cover. You might need to refresh your browser tab to see the folder cover.
 

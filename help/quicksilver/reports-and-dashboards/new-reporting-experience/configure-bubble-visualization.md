@@ -27,7 +27,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to create reports, calendars, and dashboards</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> Object permissions Manage access to the report For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -38,7 +42,9 @@ You must have the following access to perform the steps in this article:
 Before you begin, you must enroll in the Reporting Canvas beta program.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
+</MadCap:conditionalText>
 -->
 
 ## Configure a bubble visualization
@@ -62,24 +68,60 @@ Your changes save automatically as you go.
        <tr>
         <td role="rowheader">Vertical axis</td>
         <td>Select the values that you want to include on the left edge (Y axis). <!--
-          The values come from the view of the report Also, specify how you want the information to be aggregated/summarized.
+          <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+           The values come from the view of the report Also, specify how you want the information to be aggregated/summarized.
+          </MadCap:conditionalText>
          --></td>
        </tr>
        <tr>
         <td role="rowheader">Horizontal axis</td>
         <td><p>Select the values that you want to include along the bottom (X axis). <!--
-           The values come from the view of the report. Also, specify how you want the information to be aggregated/summarized.
+           <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+            The values come from the view of the report. Also, specify how you want the information to be aggregated/summarized.
+           </MadCap:conditionalText>
           --> </p><p>Important: Ensure that you have at least one column that is aggregated for this field to be active. For more information about summarizing the information in a report column, see <a href="../../reports-and-dashboards/new-reporting-experience/modify-columns-table.md" class="MCXref xref">Modify table columns in Reporting Canvas</a>.</p></td>
        </tr>
       </tbody>
      </table>
 
      <!--  
-     On the Data source tab: Data source (drop-down menu) Change the data source for the visualization to another table on the report canvas Show Data Source On the report canvas, show (enable) or hide (disable) the table that powers the visualization  
+     <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Data source</b> tab:</p>  
+     <table cellspacing="0">  
+     <col>  
+     <col>  
+     <tbody>  
+     <tr>  
+     <td role="rowheader">Data source (drop-down menu)</td>  
+     <td>Change the data source for the visualization to another table on the report canvas</td>  
+     </tr>  
+     <tr>  
+     <td role="rowheader">Show Data Source</td>  
+     <td>On the report canvas, show (enable) or hide (disable) the table that powers the visualization</td>  
+     </tr>  
+     </tbody>  
+     </table></li>  
      -->
 
      <!--  
-     On the Style tab:  
+     <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>On the <b>Style</b> tab:</p>  
+     <table cellspacing="0">  
+     <col>  
+     <col>  
+     <tbody>  
+     <tr>  
+     <td role="rowheader">&nbsp;</td>  
+     <td>&nbsp;</td>  
+     </tr>  
+     <tr>  
+     <td role="rowheader">&nbsp;</td>  
+     <td>&nbsp;</td>  
+     </tr>  
+     <tr>  
+     <td role="rowheader">&nbsp;</td>  
+     <td>&nbsp;</td>  
+     </tr>  
+     </tbody>  
+     </table></li>  
      -->
 
 1. Click anywhere outside the menu of visualizations settings to close it.

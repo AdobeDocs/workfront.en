@@ -5,6 +5,7 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: Overview of the areas of the Resource Planner
 description: By using the Resource Planner, you can easily understand the availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your users and their job roles on the projects they are assigned to. You cannot manage the allocation of teams on the tasks they are assigned to in the Resource Planner.
+hidefromtoc: true
 ---
 
 # Overview of the areas of the Resource Planner
@@ -47,10 +48,10 @@ By default, the Resource Planner shows resource information for three or four mo
 ![time_frame_selection_in_the_resource_planner.png](assets/time-frame-selection-in-the-resource-planner-350x61.png)   
 You can select from the following date range options in the Resource Planner by clicking the appropriate buttons:
 
-* `Week` to display information by week.
-* `Month` to display information by month.
-* `Quarter` to display information by quarter.
-* `Today` to return to today's month, week, or quarter.  
+* **Week** to display information by week.
+* **Month** to display information by month.
+* **Quarter** to display information by quarter.
+* **Today** to return to today's month, week, or quarter.  
   By clicking the back and forward arrows you can move backwards and forwards on the timeline.
 
 ## Project/ Role/ User View Selection
@@ -67,10 +68,10 @@ When you change the view, the following information also changes:
 For more information about what columns you see in the Resource Planner depending on which view you select, see [Availability and Allocation of Resources](#availability-and-allocation-of-resources). 
 In order to display accurate information in the Resource Planner, you must meet the prerequisites for working with the Resource Planning tools. For more information about the prerequisites that must be met, see the "Understanding Prerequisites for Resource Planning" section in [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).  To change the view in the Resource Planner:
 
-1. Go to the `Resource Planner`.  
+1. Go to the **Resource Planner**.  
    For more information about accessing the Resource Planner, see the "Accessing the Resource Planner" section in [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  
 
-1. In the `View by`&nbsp;drop-down menu, select one of the following views:
+1. In the**View by**&nbsp;drop-down menu, select one of the following views:
 
   * [View by Project](#view-by-project-subsection)
   * [View by Role](#view-by-role-subsection)
@@ -112,7 +113,7 @@ Consider the following when selecting the Role view in the Resource Planner:&nbs
 
 You can display the Resource Planner in the User view to understand the difference between the Planned and the Available Hours or FTE for your users.&nbsp;
 
-You cannot budget your resources when applying the User view to the Resource Planner. You must budget your resources using the ``Project or Role ``views, and use the User view to review your users' allocation and availability in relation to the planned work.*&nbsp;*
+You cannot budget your resources when applying the User view&nbsp;to the Resource Planner. You must budget your resources using the****Project or Role****views, and use the User view to review your users' allocation and availability in relation to the planned work.*&nbsp;*
 
 The User view is the default view of the Resource Planner.&nbsp;&nbsp;
 
@@ -131,17 +132,17 @@ Consider the following when selecting the User view in the Resource Planner:&nbs
 * The projects are listed under the name of the user in the same order of priority as they are listed in the Project view.  
   For more information about project priority in the Resource Planner, see [Project Planning Priority](#project-planning-priority).
 
-* If users have no job role associated with them, the Hours or FTE values are listed under the `No Role` section.&nbsp; 
+* If users have no job role associated with them, the Hours or FTE values are listed under the **No Role** section.&nbsp; 
 * When this view is applied, the Project Hours or FTE add up to the User Hours or FTE.  
   You cannot display the allocation and availability of the users by Cost in the User view.  
 
 * Your permissions to projects and tasks determine what is displayed under the names of the users you see in the User view.   
   The following scenarios exist:&nbsp;
 
-  * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the `Inaccessible Items` sections. The `Inaccessible Items` sections replace the Project or Task sections in this case.
+  * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the **Inaccessible Items** sections. The **Inaccessible Items** sections replace the Project or Task sections in this case.
   
   * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
-  * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the `Inaccessible Items` section.  
+  * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
     For more information about permissions in Adobe Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 ## Unique URL for the User View
@@ -161,31 +162,31 @@ Consider the following when generating a unique URL for the User view of the Res
 
 To obtain a unique URL in the User view of the Resource Planner and share it with other users:
 
-1. Go to the Resource Planner and select `View By User`.
+1. Go to the Resource Planner and select**View By User**.
 1. (Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following:
 
-  * `Week`
-  * `Month`
-  * `Quarter`
+  * **Week**
+  * **Month**
+  * **Quarter**
 
-1. (Optional) Select whether you want to view the information by `FTE` or `Hours`.  
+1. (Optional) Select whether you want to view the information by **FTE** or **Hours**.  
    ![](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Optional) Apply filters to the Resource Planner.  
    For information about applying filters, see&nbsp; [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-1. Click the `hyperlink` icon.  
+1. Click the **hyperlink** icon.  
    ![](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
 
-1. Click `Copy URL`.  
+1. Click **Copy URL**.  
    This copies the unique URL of the Resource Planner in the User view to your clipboard.&nbsp;
 
 1. (Optional) Do the following:
 
-  1. Go to `Reporting`> `Dashboards`> `New Dashboard`> `Add External Page.`
+  1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
   
-  1. Paste the link you copied to your clipboard in the `URL` field.
-  1. Click `Save`, then  `Save + Close`.   
+  1. Paste the link you copied to your clipboard in the **URL** field.
+  1. Click **Save**, then&nbsp;**Save + Close**.   
      This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
 
    Or  
@@ -240,7 +241,7 @@ You cannot report on the Project Planning&nbsp;Priority field. This is visible j
 
 To edit the Project Planning&nbsp;Priority:
 
-1. Go to the `Resource Planner`.  
+1. Go to the **Resource Planner**.  
 
 1. Click inside the field to the left of the project name which contains&nbsp;a number, enter a number to change Planning Priority, then click Enter.  
    ![](assets/mceclip4.png)  
@@ -274,37 +275,37 @@ The following categories&nbsp;of job roles are listed&nbsp;in the Resource Plann
 * The job roles that are assigned to tasks.  
 * The job roles that are not assigned to tasks, but are the primary job roles of the users&nbsp;associated with the Resource Pools of the projects.&nbsp; 
 * The secondary job roles of users who are assigned to tasks in those&nbsp;job roles.&nbsp; 
-* The secondary job roles of users who have a valid `Percentage of FTE Availability` in their profile.  
-  For more information about the `Percentage of FTE Availability` for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* The secondary job roles of users who have a valid **Percentage of FTE Availability** in their profile.  
+  For more information about&nbsp;the **Percentage of FTE Availability** for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
   >[!TIP]
   >
-  >Job roles assigned to issues are also listed when the `Include hours from Issue` setting is enabled. For more information about enabling issue hours in the Resource Planner, see " [Settings](#settings).
+  >Job roles assigned to issues are also listed when the **Include hours from Issue** setting is enabled. For more information about enabling issue hours in the Resource Planner, see " [Settings](#settings).
 
 ## Project and Role Options&nbsp;
 
-You can use the quick links inside the `Options` menus for projects and job roles to automatically budget allocations for your resources in bulk. Because the quick links allow you to budget hours, they are available only on the Project and Role views.&nbsp;&nbsp;
+You can use the quick links inside the **Options** menus for projects and job roles to automatically budget allocations for your resources in bulk. Because the quick links allow you to budget hours, they are available only on the Project and Role views.&nbsp;&nbsp;
 
 >[!TIP]
 >
 >When using the quick links to budget allocations for resources, the budgeting is automatically applied only to the time periods displayed on the screen. If the timeline of a project spans over a period of time longer than the one displayed on your screen, you must scroll from left to right, and then use the quick links to automatically budget your resources.
 
-To access the `Options` menu for projects and job roles displayed in the Resource Planner:
+To access the **Options** menu for projects and job roles displayed in the Resource Planner:
 
-1. Go to the `Resource Planner`.  
+1. Go to the **Resource Planner**.  
    For more information about accessing the Resource Planner, see the&nbsp;"Accessing the Resource Planner" section in [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  
    The projects for which you are a Resource Manager display in the list, by default.&nbsp;
 
 1. (Optional) Expand each project to see a list of job roles associated with it.  
    Or
-1. (Optional) Select `View by Role`, then expand each role to see a list of projects associated with it.&nbsp;
+1. (Optional) Select **View by Role**, then expand each role to see a list of projects associated with it.&nbsp;
 1. Mouse over the name of a project or of a job role.
-1. Click the `Options` icon which displays to the far right of the project or role.  
+1. Click the **Options** icon which displays to the far right of the project or role.  
    ![options_icon_resource_planner.png](assets/options-icon-resource-planner.png)
 
-1. Click an option to automatically specify the amount of `Budgeted Hours (BDG)`, to access the project, or to review whether you can adjust the budgeting dates of the project.
+1. Click an option to automatically specify the amount of **Budgeted Hours (BDG)**, to access the project, or to review whether you can adjust the budgeting dates of the project.
 
-Depending on what view you apply to the Resource Planner, the `Options` menus for project and job roles change.  
+Depending on what view you apply to the Resource Planner, the **Options** menus for project and job roles change.  
 For more information about what displays in the Resource Planner based on the view you select, see [Project/ Role/ User View Selection](#project-role-view-selection) [Project/ Role/ User View Selection](#project-role-view-selection).&nbsp;
 
 >[!TIP]
@@ -318,7 +319,7 @@ For more information about what displays in the Resource Planner based on the vi
 
 For more information about the prerequisites that must be met for accurate budgeting in the Resource Planner, see the "Understanding Prerequisites for Resource Planning" section in [Get started with Resource Planning](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-The following information displays in the `Options` menus of projects and roles based on what view you select for the Resource Planner:&nbsp;
+The following information displays in the **Options** menus of projects and roles based on what view you select for the Resource Planner:&nbsp;
 
 <table cellspacing="15"> 
  <col> 
@@ -327,32 +328,32 @@ The following information displays in the `Options` menus of projects and roles 
  <tbody> 
   <tr> 
    <td>&nbsp;</td> 
-   <td><span class="bold">Project View</span> </td> 
-   <td><span class="bold">Role View</span> </td> 
+   <td><strong>Project View</strong> </td> 
+   <td><strong>Role View</strong> </td> 
   </tr> 
   <tr> 
    <td>Project Options</td> 
    <td> 
     <ul> 
-     <li><span class="bold">Set Roles' Planned Hours as Budgeted</span>: Select this option to make the Budgeted&nbsp;Hours of the role become identical to their Planned&nbsp;Hours. The total of&nbsp;the Budgeted Hours for the roles will display for the Project Budgeted Hours. </li> 
-     <li><span class="bold">Adjust Budgeting Dates</span> : Select this option to move the Budgeted Hours to a different timeframe.<br>For more information about adjusting budgeting dates, see the "Adjusting Budgeted Dates" section in <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</li> 
+     <li><strong>Set Roles' Planned Hours as Budgeted</strong>: Select this option to make the Budgeted&nbsp;Hours of the role become identical to their Planned&nbsp;Hours. The total of&nbsp;the Budgeted Hours for the roles will display for the Project Budgeted Hours. </li> 
+     <li><strong>Adjust Budgeting Dates</strong> : Select this option to move the Budgeted Hours to a different timeframe.<br>For more information about adjusting budgeting dates, see the "Adjusting Budgeted Dates" section in <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">Set Users' Planned Hours as Budgeted</span>: Select this option to make the Budgeted&nbsp;Hours of the user become identical to the their Planned&nbsp;Hours.&nbsp; </li> 
-     <li><span class="bold">Total Users' Budgeted Hours for Project</span>: Select this option&nbsp;to add all the user Budgeted Hours together and&nbsp;display the total as the Budgeted Hours for the project and for the role. We recommend that you use this option after you have either manually&nbsp;budgeted your users, or you have used the previous option first.&nbsp; </li> 
+     <li><strong>Set Users' Planned Hours as Budgeted</strong>: Select this option to make the Budgeted&nbsp;Hours of the user become identical to the their Planned&nbsp;Hours.&nbsp; </li> 
+     <li><strong>Total Users' Budgeted Hours for Project</strong>: Select this option&nbsp;to add all the user Budgeted Hours together and&nbsp;display the total as the Budgeted Hours for the project and for the role. We recommend that you use this option after you have either manually&nbsp;budgeted your users, or you have used the previous option first.&nbsp; </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Role Options</td> 
    <td> 
     <ul> 
-     <li><span class="bold">Set Users' Planned Hours as Budgeted</span>: Select this option to make the Budgeted&nbsp;Hours of the user become identical to their Planned&nbsp;Hours.&nbsp; </li> 
-     <li><span class="bold">Total Users' Budgeted Hours for Role</span>: Select this option&nbsp;to add all the Budgeted Hours of the user together and&nbsp;display the total as the Budgeted Hours for the role and the project. We recommend that you use this option after you have either manually&nbsp;budgeted your users, or you have used the previous option first.&nbsp; </li> 
+     <li><strong>Set Users' Planned Hours as Budgeted</strong>: Select this option to make the Budgeted&nbsp;Hours of the user become identical to their Planned&nbsp;Hours.&nbsp; </li> 
+     <li><strong>Total Users' Budgeted Hours for Role</strong>: Select this option&nbsp;to add all the Budgeted Hours of the user together and&nbsp;display the total as the Budgeted Hours for the role and the project. We recommend that you use this option after you have either manually&nbsp;budgeted your users, or you have used the previous option first.&nbsp; </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">Set Projects' Planned Hours as Budgeted</span>: Select this option to make the project Budgeted Hours become identical with the project Planned Hours.&nbsp;&nbsp;</li> 
+     <li><strong>Set Projects' Planned Hours as Budgeted</strong>: Select this option to make the project Budgeted Hours become identical with the project Planned Hours.&nbsp;&nbsp;</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -370,10 +371,10 @@ In the Project and Role views, users could appear listed under the following typ
 * Their primary job role
 * Their secondary job role, in the following scenarios:
 
-  * If the secondary job role has a valid number for the `Percentage of FTE Availability` in their user profile.
+  * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
   * If the user is assigned to tasks in those roles.
 
-For more information about the  `Percentage of FTE Availability`&nbsp;for a job role, see&nbsp; [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+For more information about the&nbsp;**Percentage of FTE Availability**&nbsp;for a job role, see&nbsp; [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ##  "No Role" and "No User" Sections
 
@@ -382,16 +383,16 @@ For more information about the  `Percentage of FTE Availability`&nbsp;for a job 
 
 ### "No Role" Section
 
-When a user belongs to a Resource Pool associated with a project, but they do not have a job role associated with them, they appear in the `No Role` section, instead of under a specific job role.
+When a user belongs to a Resource Pool associated with a project, but they do&nbsp;not have a job role associated with them, they appear in the **No Role** section, instead of under a specific job role.
 
-You cannot budget hours for a user in a `No Role` section. The user must have at least one job role associated with them to be budgeted for work.  
+You cannot budget hours for a user in a **No Role** section. The user must have at least one job role associated with them to be budgeted for work.  
 ![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
 
 ### "No User" Section
 
-When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the `No User` section which appears under the `No Role` section in the Resource Planner. These tasks do not appear in the Resource Planner when using the `View by User` view.&nbsp;
+When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the **No User** section which appears under the **No Role** section in the Resource Planner. These tasks do not appear in the Resource Planner when using the **View by User** view.&nbsp;
 
-You can see the amount of Planned Hours attributed to tasks on the project in the `No User` section in the Resource Planner, but you cannot budget for these allocations.&nbsp;
+You can see the amount of Planned Hours attributed to tasks on the project in the **No User** section in the Resource Planner, but you cannot budget for these allocations.&nbsp;
 
 ![no_user_and_no_role___res_planner.png](assets/no-user-and-no-role---res-planner-350x129.png)
 
@@ -400,7 +401,7 @@ You can see the amount of Planned Hours attributed to tasks on the project in th
 You can see the availability of your resources and the amount of planned work for your projects in the Resource Planner. These values are displayed in&nbsp;Hours, FTE, or Cost amounts and are organized in columns.  
 These columns change depending on which view you apply to the Resource Planner:
 
-* When you apply the `View by Project` or `View by Role` views, you can see the following columns:
+* When you apply the **View by Project** or**View by Role** views, you can see the following columns:
 
   * Available&nbsp;Hours, FTE, or Cost
   * Planned&nbsp;Hours, FTE, or Cost
@@ -408,7 +409,7 @@ These columns change depending on which view you apply to the Resource Planner:
   * Hours, FTE, or Cost Variance
   * Net&nbsp;Hours, FTE, or Cost
 
-* When you apply the `View by User` view, you can see the following columns:
+* When you apply the **View by User** view, you can see the following columns:
 
   * Available Hours or FTE 
   * Planned Hours or FTE 
@@ -417,7 +418,7 @@ These columns change depending on which view you apply to the Resource Planner:
 
     >[!TIP]
     >
-    >The information is not available as Cost when applying the `View by User` view to the Resource Planner.
+    >The information is not available as Cost when applying the **View by User** view to the Resource Planner.
 
 The hours for each column are distributed for the Duration of the tasks on the project.
 
@@ -452,7 +453,7 @@ For more information about filtering in the Resource Planner, see&nbsp; [Filter 
 
 By accessing the Settings area, you can enable or disable options to&nbsp;display or hide information in the Resource Planner.
 
-You can enable the `Include hours from Issues` setting to display Planned Hours from issues in the Resource Planner. This setting is disabled, by default. &nbsp;
+You can enable the **Include hours from Issues** setting to display Planned Hours from issues in the Resource Planner. This setting is disabled, by default. &nbsp;
 
 Consider the following when you enable this setting:
 
@@ -469,12 +470,12 @@ The option to view information in full screen is available for all views of the 
 
 To display the Resource Planner in full screen:
 
-1. Go to the `Resource Planner`. 
-1. Click the `Full Screen icon` to view the Resource Planner in full screen.  
+1. Go to the **Resource Planner**. 
+1. Click the **Full Screen icon** to view the Resource Planner in full screen.  
    ![RP_sull_sccreen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)  
-   The Resource Planner expands to occupy your entire browser window and the icon changes into a `Close the Full Screen` view option.&nbsp; 
+   The Resource Planner expands to occupy your entire browser window and the icon changes into a **Close the Full Screen** view option.&nbsp; 
 
-1. (Optional) Click the `Close Full Screen icon` to revert to the previous display.&nbsp;
+1. (Optional) Click the **Close Full Screen icon** to revert to the previous display.&nbsp;
 
 ##  Hours/ FTE/ Cost View Selection
 
@@ -484,20 +485,20 @@ You can select from the following:
 
 * When you display the Resource Planner in the Role and Project view, the information displays in Hours, FTE, or Cost values. 
 * When you display the Resource Planner in the User view, the information displays in Hours or FTE values.  
-  Hours are displayed by default for all views. `(some of the information in this area is also covered in Calculating Costs in the RP - https://workfront.zendesk.com/hc/en-us/articles/115004186433 - update this article also, when changes here occur)`
+  Hours are displayed by default for all views. ```(some of the information in this area is also covered in Calculating Costs in the RP - https://workfront.zendesk.com/hc/en-us/articles/115004186433 - update this article also, when changes here occur)```
 
 To change the kind of information displayed in the Resource Planner:
 
-1. Go to the `Resource Planner`.  
+1. Go to the **Resource Planner**.  
    For more information about accessing the Resource Planner, see [Overview of the areas of the Resource Planner](#accessing-the-resource-planner).  
 
-1. Expand the `Hours` drop-down menu. ![Hours_fte_or_cost_dropdown.png](assets/hours-fte-or-cost-dropdown.png)
+1. Expand the **Hours** drop-down menu. ![Hours_fte_or_cost_dropdown.png](assets/hours-fte-or-cost-dropdown.png)
 
-1. Select `Hours` to display availability and allocation information in Hours. 
-1. Select `FTE` to display availability and allocation information in FTE.  
+1. Select **Hours** to display availability and allocation information in Hours. 
+1. Select **FTE** to display availability and allocation information in FTE.  
    For more information about how the FTE is calculated in the Resource Planner, see [Overview of the areas of the Resource Planner](#calculating-fte-in-the-rp).
 
-1. (Conditional) If you are viewing the Resource Planner in the Project or Role views, select `Cost` to display availability and allocation information as Cost. The information displays values of the system currency.&nbsp;Your system administrator defines the system currency.  
+1. (Conditional) If you are viewing the Resource Planner in the Project or Role views, select **Cost** to display availability and allocation information as Cost. The information displays values of the system currency.&nbsp;Your system administrator defines the system currency.  
    For more information about setting up the system currency in Workfront, see [Set up exchange rates](../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
    >[!TIP]
@@ -514,38 +515,38 @@ You can display the Planned Allocation of users against their availability in a 
 
 To display the allocation of users in a chart in the Resource Planner:
 
-1. Go to the `Resource Planner`.
-1. Select `View by User`.
+1. Go to the **Resource Planner**.
+1. Select **View by User**.
 
    >[!TIP]
    >
-   >You cannot view the user allocation chart when you select `View by Project` or `View by Role`.
+   >You cannot view the user allocation chart when you select **View by Project** or **View by Role**.
 
 1. Click the user allocation chart icon.  
    ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png)  
    The following information is displayed:
 
-  * `Availability % with no overallocation for all users`: this is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time.&nbsp;
-  * `Overallocation % for all users`: this is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.
+  * **Availability % with no overallocation for all users**: this is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time.&nbsp;
+  * **Overallocation % for all users**: this is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.
 
     >[!TIP]
     >
     >An overallocation happens when the Planned Hours are higher than the Available Hours.&nbsp;
 
-  * `Underutilization % for all users`: this is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.
+  * **Underutilization % for all users**: this is the amount of time that users are underutilized in a time period, shown as a percentage from the total available time.
 
     >[!TIP]
     >
     >Underutilization happens when the Planned Hours are lower than the Available Hours.&nbsp;
 
-  * `There is an overallocation for at least one user during this time period`: this indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.  
+  * **There is an overallocation for at least one user during this time period**: this indicates that there is an overallocation for at least one user in a time period, although the total amount of time of all users is not overallocated for the time period.  
     You must scroll through the list of users and the hours for the user who is overallocated are highlighted in red.  
     ![RP__user_allocation_chart_Dec._7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
 
-1. (Optional) Click the `Overallocation % for all users` area in the chart.  
+1. (Optional) Click the **Overallocation % for all users** area in the chart.  
    All users that are overallocated are highlighted in red.
 
-1. (Optional) Click the `Underutilization % for all users` area in the chart.  
+1. (Optional) Click the **Underutilization % for all users** area in the chart.  
    All users that are underutilized are highlighted in blue.
 
 1. (Optional) Click the indicator that shows where you have at least one user overallocated.  
@@ -563,31 +564,31 @@ For information about what information you can export from the Resource Planner 
 
 To export the information in the Resource Planner:
 
-1. Go to the `Resource Planner`.  
+1. Go to the **Resource Planner**.  
    For more information about accessing the Resource Planner, see&nbsp; [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md)&nbsp;in the article&nbsp; [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).  
 
-1. From any of the views of the Resource Planner, click `Export`. 
+1. From any of the views of the Resource Planner, click **Export**. 
    ![RP_export_timeframe_box.png](assets/rp-export-timeframe-box-350x426.png)
 
-1. `Specify the following:`
+1. ```Specify the following:```
 
-  * ` `Start Date`: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here. ` 
-  * ` `Number of Periods`: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export. ` 
-  * ` `Type`: Indicates whether you are exporting information displayed by weeks, months, or quarters. `
+  * ```**Start Date**: Indicates the start date of your export. The exported file contains allocation and availability information starting with the date specified here. ``` 
+  * ```**Number of Periods**: Indicates how many time periods you want to include in your report. The default is four periods, which is also the maximum number of time periods that you can include in an export. ``` 
+  * ```**Type**: Indicates whether you are exporting information displayed by weeks, months, or quarters. ```
 
-1. `Click `Export`to downloads an Excel (.xlsx) file to your computer. `   
-   `Or`   
-   ` (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click `Save and Continue`, then the Excel (.xlsx) file is exported to your computer.  
-   Only the information that you saved is exported.` 
+1. ```Click **Export**to downloads an Excel (.xlsx) file to your computer. ```   
+   ```Or```   
+   ``` (Conditional) If you have unsaved Budgeted Hours in the Role or Project views, click **Save and Continue**, then the Excel (.xlsx) file is exported to your computer.  
+   Only the information that you saved is exported.``` 
 
 1. (Optional) Share the file with another user by attaching it to an email, storing it on a shared drive, or print the file from your Excel application.&nbsp;
 
-`***`
+```***```
 
-`ALWAYS READ THESE NOTES FOR 2018 - THERE ARE MODIFICATIONS FOR EACH BETA CAPTURED IN HERE:`
+```ALWAYS READ THESE NOTES FOR 2018 - THERE ARE MODIFICATIONS FOR EACH BETA CAPTURED IN HERE:```
 
-`&#42;&#42;&#42; This links to Planning in the Resource Planner, Calculating Costs in the Resource Planner, Understanding Project Priority, ` `Understanding Limitations in Displaying Information in the Resource Planner (when this one is deleted, updated this article, as well)`` . `
+```&#42;&#42;&#42; This links to Planning in the Resource Planner, Calculating Costs in the Resource Planner, Understanding Project Priority, ```**Understanding Limitations in Displaying Information in the Resource Planner (when this one is deleted, updated this article, as well)**``` . ```
 
-`*** Some pink caveats in this article will have to be removed when the performance is corrected and other features are added - later in 2018`
+```*** Some pink caveats in this article will have to be removed when the performance is corrected and other features are added - later in 2018```
 
-`^^^^^ READ ALL PINK NOTES WITH EVERY PRODUCTION RELEASE AND REMOVE THE CAVEATS FOR PRODUCTION/ PREVIEW.^^^^^` 
+```^^^^^ READ ALL PINK NOTES WITH EVERY PRODUCTION RELEASE AND REMOVE THE CAVEATS FOR PRODUCTION/ PREVIEW.^^^^^``` 

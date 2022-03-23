@@ -47,11 +47,13 @@ You can print a proof summary directly from the document list.
 >
 >You cannot print multiple proof summaries from the document list at the same time.
 
-1. From the document list that contains the proof, hover over the row containing the document, then click `Print Summary`.
+1. From the document list that contains the proof, hover over the row containing the document, then click **Print Summary**.
+
+   ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 
    Or
 
-   While viewing the proof in the the proofing viewer, click the `Print`icon ![](assets/print-icon-in-pv.png) in the left toolbar. (If the left toolbar is not visible, click the Menu icon ![](assets/menu-icon-in-pv.png) in the upper-left corner of the proofing viewer.)
+   While viewing the proof in the the proofing viewer, click the **Print**icon ![](assets/print-icon-in-pv.png) in the left toolbar. (If the left toolbar is not visible, click the Menu icon ![](assets/menu-icon-in-pv.png) in the upper-left corner of the proofing viewer.)
 
 1. Use any of the following options:
 
@@ -63,9 +65,9 @@ You can print a proof summary directly from the document list.
       <td role="rowheader">Show</td> 
       <td> <p>Specify what you want to print:</p> 
        <ul> 
-        <li>The <span class="bold">Current version</span> or <span class="bold">All versions</span> of the proof</li> 
-        <li>Only the <span class="bold">Pages with comments</span> or <span class="bold">All pages</span></li> 
-        <li>Only the <span class="bold">Page thumbnails</span> (a small rendering of each page)&nbsp;or <span class="bold">Full pages</span> (a full rendering of the proof)<br></li> 
+        <li>The <strong>Current version</strong> or <strong>All versions</strong> of the proof</li> 
+        <li>Only the <strong>Pages with comments</strong> or <strong>All pages</strong></li> 
+        <li>Only the <strong>Page thumbnails</strong> (a small rendering of each page)&nbsp;or <strong>Full pages</strong> (a full rendering of the proof)<br></li> 
         <p>Note:  In order to see pin numbers on markup in your printed output, you need to select Full pages, not Page thumbnails.&nbsp;</p> 
        </ul> </td> 
      </tr> 
@@ -73,10 +75,10 @@ You can print a proof summary directly from the document list.
       <td role="rowheader">Sort comments by</td> 
       <td> <p>(Available only if you selected Page Thumbnails above) Specify the order in which you want the proof's comments to print:</p> 
        <ul> 
-        <li><span class="bold">Oldest</span>: From first comment made to last</li> 
-        <li><span class="bold">Latest</span>: From last comment made to first</li> 
-        <li><span class="bold">Page</span>: By page, from the first page to the last or from the last page to the first</li> 
-        <li><span class="bold">Creator</span>: By the names of the users who added them, from A-Z or from Z-A</li> 
+        <li><strong>Oldest</strong>: From first comment made to last</li> 
+        <li><strong>Latest</strong>: From last comment made to first</li> 
+        <li><strong>Page</strong>: By page, from the first page to the last or from the last page to the first</li> 
+        <li><strong>Creator</strong>: By the names of the users who added them, from A-Z or from Z-A</li> 
        </ul> <p>These options do not affect output you export as an XLS or PDF file.</p> </td> 
      </tr> 
      <tr> 
@@ -85,25 +87,25 @@ You can print a proof summary directly from the document list.
        <ul> 
         <li>Authors you select (default)</li> 
         <li>Actions you select</li> 
-        <li><span class="bold">Unresolved</span> status</li> 
+        <li><strong>Unresolved</strong> status</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Workflow</td> 
-      <td> <p>(Available only if the proof has an Automated Workflow) You can click <span class="bold">Show diagram</span> to include a diagram in printed output showing the stages on the proof and decisions made on each stage. In the diagram that appears, the colors represent decisions made on a stage:</p> <p><span class="bold">Green</span>: Approved</p> <p><span class="bold">Blue</span>: Pending a decision</p> <p><span class="bold">Red</span>: Changes required decision</p> <p><span class="bold">Grey</span>: Not started yet</p> <p><span class="bold">Yellow</span>: Approved with changes</p> </td> 
+      <td> <p>(Available only if the proof has an Automated Workflow) You can click <strong>Show diagram</strong> to include a diagram in printed output showing the stages on the proof and decisions made on each stage. In the diagram that appears, the colors represent decisions made on a stage:</p> <p><strong>Green</strong>: Approved</p> <p><strong>Blue</strong>: Pending a decision</p> <p><strong>Red</strong>: Changes required decision</p> <p><strong>Grey</strong>: Not started yet</p> <p><strong>Yellow</strong>: Approved with changes</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Print`.
-1. In the right panel in the window that appears, if you want to print the summary, click the `Destination` menu, then click `See more`. Click the printer you want to use in the list that appears, then click `Print`.
+1. Click **Print**.
+1. In the right panel in the window that appears, if you want to print the summary, click the **Destination** menu, then click **See more**. Click the printer you want to use in the list that appears, then click **Print**.
 
    Or
 
-   If you want to save the summary as a PDF file, click the `Destination` menu, click `Save as PDF`, then click `Save`.
+   If you want to save the summary as a PDF file, click the **Destination** menu, click **Save as PDF**, then click **Save**.
 
 <!--
-For information about using and customizing decisions, see Configure approval decision options in Workfront Proof.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about using and customizing decisions, see <a href="../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md" class="MCXref xref">Configure approval decision options in Workfront Proof</a>.</p>
 -->
 
 ## Export a proof summary as an XLS or PDF
@@ -111,10 +113,15 @@ For information about using and customizing decisions, see Configure approval de
 You can export a proof summary for static content as an XLS file or as a PDF file. Proof exports include only the content of the proof.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 You can't include a diagram showing the stages and decisions made on the proof.
+</MadCap:conditionalText>
 -->
 
-1. From the document list that contains the proof, hover over the row containing the document, then click `Print Summary`.
+1. From the document list that contains the proof, hover over the row containing the document, then click **Print Summary**.
+
+   ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
+
 1. Click the XLS icon or PDF icon near the upper-right corner of the page.
 
    ![](assets/xls-pdf-icons-350x136.png)

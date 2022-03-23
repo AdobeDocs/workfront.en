@@ -26,7 +26,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -35,7 +39,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -48,7 +59,7 @@ You must have the following access to use the functionality in this article:
 
 All messages from incoming webhooks are stored in the webhook's queue.
 
-1. Click `Webhooks` in the menu on left.
+1. Click **Webhooks** in the menu on left.
 1. Find the Webhook for which you want to view the queue.
 1. Click the button with a truck icon and the number of received webhooks.
 
@@ -80,7 +91,7 @@ In this case your scenario will run immediately whenWorkfront Fusion receives ne
 If you use any other schedule setting than Immediately, the scenario executes at the intervals you specify. As several webhooks can be gathered in the queue during the interval, it is recommended to set the [Maximum number of cycles](../../workfront-fusion/scenarios/scenario-settings-panel.md#maximum) to a higher value than the default 1 to process more webhooks in one scenario run:
 
 1. Click the Scenario settings icon ![](assets/gear-icon-settings.png) at the bottom of your scenario.
-1. In the `Scenario settings` box that appears, type a number in the `Max number of cycles` box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario.
+1. In the **Scenario settings** box that appears, type a number in the **Max number of cycles** box to indicate the number of webhooks from the queue that you want to run each time you execute the scenario.
 
 ## Rate limits
 

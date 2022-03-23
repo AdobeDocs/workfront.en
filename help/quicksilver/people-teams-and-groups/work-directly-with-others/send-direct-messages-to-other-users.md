@@ -41,12 +41,15 @@ You must have the following access to perform the steps in this article:
 
   * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
 
-1. On the `Updates`&nbsp;tab, click in the text box field.
+1. On the **Updates**&nbsp;tab, click in the text box field.
+
+   ![Message user on the Updates tab](assets/message-user-nwe-350x166.png)
+
 1. Type your message.
-1. (Optional) Click in the `Notify`&nbsp;field, then begin typing the name of another user you want to include in this message.  
+1. (Optional) Click in the **Notify**&nbsp;field, then begin typing the name of another user you want to include in this message.  
 
-1. (Optional) Select `Private to my company` to make this message visible only to other users in your company.  
+1. (Optional) Select **Private to my company** to make this message visible only to other users in your company.  
 
-1. Click `Update.`  
-   The message is posted at the top of the list of messages on the `Updates`&nbsp;tab on the user's home page.
+1. Click **Update.** 
+   The message is posted at the top of the list of messages on the **Updates**&nbsp;tab on the user's home page.
 

@@ -49,8 +49,8 @@ You must have the following access to perform the steps in this article:
 
 To apply an action to an existing comment in the proofing viewer:
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
 1. Do one of the following:
 
@@ -58,13 +58,13 @@ To apply an action to an existing comment in the proofing viewer:
 
     ![](assets/actions-flag-icon-350x198.png)
 
-  * Click the `More` icon (three horizontal dots on the comment),&nbsp;then click the action you want in the lower section of the drop-down menu that appears.
+  * Click the **More** icon (three horizontal dots on the comment),&nbsp;then click the action you want in the lower section of the drop-down menu that appears.
 
     ![Actions_on_coments-More_menu.png](assets/actions-on-coments-more-menu-350x347.png)
 
 1. (Optional) If you change your mind, you can do either of the followinng:
 
-  * Click the flag icon or the `More` icon again, then click `Remove action`.
+  * Click the flag icon or the **More** icon again,&nbsp;then click **Remove action**.
   
   * Repeat step 1 to apply a different action.
 

@@ -25,7 +25,7 @@ As you are setting up your service for batch updates here are a few important th
 
 Entry dates are stored utilizing ISO 8601 formatting. This standard includes date, time, and timezone infromation.
 
-` `**Example: **``ISO 8601 date format
+``` ```**Example: **``````ISO 8601 date format
 
 [Copy](javascript:void(0);) 
 &nbsp;  
@@ -33,7 +33,7 @@ Entry dates are stored utilizing ISO 8601 formatting. This standard includes dat
 
 Both the date that an object is created and the last date that the object was modified are stored as "entryDate" and "lastUpdateDate", respectively. For in depth information about Workfront objects, their associated fields, and field names, please see the [API Explorer](../../wf-api/general/api-explorer.md). Notice that the entryDate for any given Workfront object doesn't change, where as the lastUpdatedDate changes each time the object is modified.
 
-` `**Example: **``GET reqeust for an issue object, utilizing the **lastUpdateDate** field. This request would return all issues updated since that specified date.
+``` ```**Example: **``````GET reqeust for an issue object, utilizing the **lastUpdateDate** field. This request would return all issues updated since that specified date.
 
 [Copy](javascript:void(0);) 
 &nbsp;  

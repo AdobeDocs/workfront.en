@@ -68,10 +68,10 @@ The following table displays what permissions you can grant users when allowing 
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Action</span> </th> 
-   <th><span class="bold">Manage</span> </th> 
-   <th><span class="bold">Contribute</span> </th> 
-   <th><span class="bold">View</span> </th> 
+   <th><strong>Action</strong> </th> 
+   <th><strong>Manage</strong> </th> 
+   <th><strong>Contribute</strong> </th> 
+   <th><strong>View</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

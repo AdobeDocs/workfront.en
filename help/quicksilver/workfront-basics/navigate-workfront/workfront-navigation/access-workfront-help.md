@@ -42,4 +42,4 @@ In addition to searching for help documentation, you can also access the followi
 * Innovation Lab: For more information, see [The Innovation Lab](../../../workfront-basics/tips-tricks-and-troubleshooting/idea-exchange.md).
 * Workfront Community: For more information, see [The Adobe Workfront Community](../../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md)
 
-Access help from inside Workfront Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Help .  
+Access help from inside Workfront  ```<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li>``` ```<li value="2">Click <strong>Help</strong> <img src="assets/help-icon-32x33.png" style="width: 32;height: 33;">.</li>``` 

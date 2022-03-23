@@ -15,8 +15,8 @@ description: You can create sub-folders in either of the following ways:
 
 ## Creating a new top-level folder
 
-1. In the sidebar, click the drop-down arrow (1) next to the green `New proof` button.
-1. Select `New folder`.&nbsp;(2)  
+1. In the sidebar, click the drop-down arrow (1) next to the green **New proof** button.
+1. Select **New folder**.&nbsp;(2)  
    The New folder page is displayed.
 
 1. Continue with [Configuring the new folder](#configuring-the-new-folder).  
@@ -46,7 +46,7 @@ To create a sub-folder from the Folder details page:
 1. Click the new sub-folder button (2) at the top of the page.  
    A new folder appears in the list of the items in the folder.
 1. Type a name for the new sub-folder. (3)
-1. Press `Enter`.  
+1. Press **Enter**.  
    Or  
    Click outside of the folder name field.
 

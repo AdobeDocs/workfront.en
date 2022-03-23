@@ -41,33 +41,33 @@ You must have the following access to perform the steps in this article:
 
 ## Move story or issue from the Scrum board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Teams`.
-1. Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a Scrum team from the drop-down menu or search for a team in the search bar.
-1. In the left panel, select `Iterations` to choose a specific iteration, or select `Current Iteration`.
-1. Click the `More` icon on the story or issue, and select `Move to`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a Scrum team from the drop-down menu or search for a team in the search bar.
+1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
+1. Click the **More** icon on the story or issue, and select **Move to**.
 
    ![Scrum_delete_move_story.png](assets/scrum-delete-move-story.png)
 
 1. On the confirmation message, choose either:
 
-   | `Another iteration`  |Select to move the item to another iteration, then choose which iteration the story or issue will move to. If no future iterations are defined, you cannot move the item. |
+   | **Another iteration** |Select to move the item to another iteration, then choose which iteration the story or issue will move to. If no future iterations are defined, you cannot move the item. |
    |---|---|
-   | `Backlog`  |Select to move the story or issue to the team's backlog. |
+   | **Backlog** |Select to move the story or issue to the team's backlog. |
 
    >[!NOTE]
    >
    >The work item Planned Start Date and Planned Completion Date are affected by a setting on the Edit Team page. For information, see the section [Configure how dates are applied when adding work items to an iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) in the article [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Click `Move`.
+1. Click **Move**.
 
 ## Delete story or issue from the Scrum board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Teams`.
-1. Click the `Switch team` icon ![Switch team icon](assets/switch-team-icon.png), then either select a Scrum team from the drop-down menu or search for a team in the search bar.
-1. In the left panel, select `Iterations` to choose a specific iteration, or select `Current Iteration`.
-1. Click the `More` icon on the story or issue, and select `Delete Story` or `Delete Issue`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+1. Click the **Switch team** icon ![Switch team icon](assets/switch-team-icon.png), then either select a Scrum team from the drop-down menu or search for a team in the search bar.
+1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
+1. Click the **More** icon on the story or issue, and select **Delete Story** or **Delete Issue**.
 
    ![Scrum_delete_move_story.png](assets/scrum-delete-move-story.png)
 
-1. On the confirmation message, click `Yes, delete it`.
+1. On the confirmation message, click **Yes, delete it**.
 

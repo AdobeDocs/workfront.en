@@ -20,15 +20,15 @@ The solid blue line shows the planned velocity from the start date to the planne
 
 The actual line shows the number of hours—or days—spent on the project over time. The color of this line indicates the condition of the project each day:
 
-* `Green`: The project is on target.
+* **Green**: The project is on target.
 
   ![](assets/burndown-green.png)
 
-* `Orange`: The project is at risk.
+* **Orange**: The project is at risk.
 
   ![](assets/burndown-orange.png)
 
-* `Red`: The project is in trouble.
+* **Red**: The project is in trouble.
 
   ![](assets/burndown-red.png)
 
@@ -108,21 +108,21 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >
    >To learn more about these other visualizations, see:
    >
-   >  
-   >  
-   >  * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
-   >  * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
-   >  * [View the Tasks in flight visualization in Enhanced analytics](../enhanced-analytics/tasks-in-flight-overview.md) 
-   >  
+   >   
+   >   
+   >   * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
+   >   * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
+   >   * [View the Tasks in flight visualization in Enhanced analytics](../enhanced-analytics/tasks-in-flight-overview.md) 
+   >   
    >
 
-1. (Optional) Change the view from `planned hours` to **duration**.
+1. (Optional) Change the view from ```planned hours``` to **duration**.
 
    Planned hours is selected by default.
 
    >[!NOTE]
    >
-   >Selecting `duration` changes all hours information to days.  
+   >Selecting **duration** changes all hours information to days.  
    >![](assets/duration-burndown-350x112.png)  
    >For more information on duration in the Enhanced analytics area, see the "Duration view" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
@@ -139,8 +139,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To export the visualization data, click the **Export** icon ![](assets/export.png)in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 1. (Optional) To see details about the progress of tasks in the selected project, look at the Tasks in flight visualization that appears below the Burndown visualization.
 

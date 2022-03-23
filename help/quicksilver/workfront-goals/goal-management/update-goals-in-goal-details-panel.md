@@ -37,7 +37,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -58,7 +66,7 @@ You can access an individual goal which opens the Goal Details panel of the goal
 * Pulse 
 * Check-in
 
-1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
 
    This opens the Workfront Goals area. 
 
@@ -68,25 +76,25 @@ You can access an individual goal which opens the Goal Details panel of the goal
 
    ![](assets/goal-details-summary-tab-350x294.png)
 
-1. On the Summary tab, click `the `More icon` ![](assets/more-icon.png)
+1. On the Summary tab, click ```the **More icon** ![](assets/more-icon.png)
 
-   `, then click&nbsp;any of the following options:
+   ```, then click&nbsp;any of the following options:
 
-  1. `Edit`. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
-  1. `Copy`. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
-  1. `Activate`.&nbsp;This option is available only for drafted and inactive goals.
+  1. **Edit**. For information about editing goals, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
+  1. **Copy**. For information about copying goals, see [Copy goals in Adobe Workfront Goals](../../workfront-goals/goal-management/copy-goals.md).
+  1. **Activate**.&nbsp;This option is available only for drafted and inactive goals.
 
      For information about activating goals, see [Access and open goals in Adobe Workfront Goals](../../workfront-goals/goal-management/access-goals-in-wf-goals.md). 
   
-  1. `Close`, then click `Close Goal`.&nbsp;This option is available only for active goals.
+  1. **Close**, then click**Close Goal**.&nbsp;This option is available only for active goals.
 
      For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
   
-  1. `Deactivate`. This option is available only for active goals. This deactivates the goal immediately.
+  1. **Deactivate**. This option is available only for active goals. This deactivates the goal immediately.
 
      For information about deactivating goals, see [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
   
-  1. `Delete`, then click `Yes, Delete`.
+  1. **Delete**, then click **Yes, Delete**.
 
      For information about deleting goals, see [Delete and deactivate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/delete-and-deactivate-goals.md).
 
@@ -94,18 +102,18 @@ You can access an individual goal which opens the Goal Details panel of the goal
      >
      >Deleted goals cannot be recovered.
 
-  1. `Reopen`, then click  `Reopen`. This option is available only for closed goals that are from a current time period.
+  1. **Reopen**,&nbsp;then click&nbsp;**Reopen**. This option is available only for closed goals that are from a current time period.
 
      For information about reopening goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
   
-  1. (Conditional) If you clicked any of the options between steps a-i above except Delete or Reopen, click `Save`.
+  1. (Conditional) If you clicked any of the options between steps a-i above except Delete or Reopen, click **Save**.
 
-1. Click  `Align to another goal` in the upper-right of the Summary tab, then specify the name of a goal in the `Align to` `another goal` field that you want to align the current goal to. The current goal becomes the child of the goal you align it to. For information about child and parent goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md). 
-1. Click  `Add results`. Results drive the progress of your goal. For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+1. Click&nbsp;**Align to another goal** in the upper-right of the Summary tab, then specify the name of a goal in the **Align to** **another goal** field that you want to align the current goal to. The current goal becomes the child of the goal you align it to. For information about child and parent goals, see [Align goals by connecting them in Adobe Workfront Goals](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md). 
+1. Click&nbsp;**Add results**. Results drive the progress of your goal. For information about adding results, see [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-1. Click `Add activities`. Activities drive the progress of your goal. For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
+1. Click **Add activities**. Activities drive the progress of your goal. For information about adding activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). 
 
-1. Click the `Updates` tab. Here, you can view goal comments and review the entire editing history of the goal, activities, and results, to understand who changed what and when.
+1. Click the **Updates** tab. Here, you can view goal comments and review the entire editing history of the goal, activities, and results, to understand who changed what and when.
 
    ![](assets/goal-details-updates-tab-350x280.png)
 
@@ -116,7 +124,7 @@ You can access an individual goal which opens the Goal Details panel of the goal
    | Comments |Displays comments made by users on the goal.  |
    | Editing History |Displays information about creating and updating the goal, results, and activities.  |
 
-1. (Optional) Click `Details` under a progress or an editing history update to display additional information about the update.
+1. (Optional)&nbsp;Click **Details** under a progress or an editing history update to display additional information about the update.
 
    ![](assets/update-details-in-updates-tab-expanded-highlighted-350x139.png)
 

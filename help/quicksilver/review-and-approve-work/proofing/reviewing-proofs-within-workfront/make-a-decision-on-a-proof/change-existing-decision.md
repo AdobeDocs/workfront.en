@@ -31,7 +31,7 @@ You must have the following access to perform the steps in this article:
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Proof role</span> </td> 
+   <td role="rowheader"><strong>Proof role</strong> </td> 
    <td>Approver, Reviewer &amp; Approver, Author, Moderator</td> 
   </tr> 
   <tr> 
@@ -45,9 +45,9 @@ You must have the following access to perform the steps in this article:
 
 ## Change an existing decision on a proof
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
 1. Click the decision you made at the top-center of the proofing viewer.
-1. In the `Proof decision` box that appears, click `Remove decision` beneath the decision you made previously.
+1. In the **Proof decision** box that appears, click **Remove decision** beneath the decision you made previously.
 

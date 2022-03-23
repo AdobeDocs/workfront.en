@@ -76,7 +76,7 @@ By giving projects a new priority, you can rank them in order of importance.
 
 To edit the Project Planning Priority:
 
-1. Go to the `Resource Planner`.  
+1. Go to the **Resource Planner**.  
 
 1. Click inside the field to the left of the project name which contains a number, and enter a number to change Planning Priority, then press Enter.  
    ![](assets/mceclip4.png)  
@@ -88,7 +88,7 @@ To edit the Project Planning Priority:
    When you select numbers to prioritize projects, select lower numbers for higher (more important) priorities, and higher numbers for lower (less important) priorities. When you change the priority number of a project to a lower number (higher priority), all other projects in the Resource Planner shift down on the list (become less important).  
    When you change the priority number of a project to a higher number (lower priority), all other projects in the Resource Planner shift up on the list (become more important).
 
-1. Click `Save`.  
+1. Click **Save**.  
    The order of the projects changes according to your selections and this becomes your custom project priority in the Resource Planner. Other users cannot see your order of priority for the projects in the Resource Planner, although they might be able to view the same projects in their Resource Planners.
 
 ## Order projects according to their Portfolio Priority in the Resource Planner
@@ -101,15 +101,15 @@ To edit the Project Planning Priority:
 >
 >For information about prioritizing projects in the Portfolio Optimizer, see [Prioritize projects in the Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Open the `Resource Planner` in the `Project View`.
-1. Click the `Settings` icon.
-1. Enable the `Display Portfolio Priorities` setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
+1. Open the **Resource Planner** in the **Project View**.
+1. Click the **Settings** icon.
+1. Enable the **Display Portfolio Priorities** setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
 
    ![](assets/rp-portfolio-priority-unordered-(1)-350x203.png)
 
    The portfolio priorities of the projects display only in the Project view of the Resource Planner.
 
-1. Click `Order` to order the projects according to the portfolio priorities.
+1. Click **Order** to order the projects according to the portfolio priorities.
 
    If you have projects that belong to more than one portfolio, you could see multiple projects with the same portfolio priority in the Resource Planner. In this case, the projects with the same portfolio priority are listed by the following criteria, in this order:
 
@@ -119,7 +119,7 @@ To edit the Project Planning Priority:
 
    ![](assets/rp-portfolio-priority-ordered-350x225.png)
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## The effect of changing the Project Planning Priority on User Available Hours
 

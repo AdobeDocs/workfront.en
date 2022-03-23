@@ -37,7 +37,15 @@ You must have the following access to perform the actions described in this arti
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions on goals</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -71,7 +79,7 @@ Consider the following when reviewing the Goal List:
 
 To review goals in the Goal List:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    ![](assets/main-menu-align-icon-highlighted-350x463.png)
 
@@ -119,10 +127,10 @@ To review goals in the Goal List:
     </tbody> 
    </table>
 
-1. `Use the filters in the upper-right corner of the goal list to select only goals that are important to you. For information about using filters in Workfront Goals, see` [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md) 
+1. ```Use the filters in the upper-right corner of the goal list to select only goals that are important to you. For information about using filters in Workfront Goals, see``` [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md) 
 1. Click any of the fields in the column headers to sort it by that field.
 
-   A `n arrow` displays to the right of the field by which the list is sorted.
+   A ```n arrow``` displays to the right of the field by which the list is sorted.
 
    ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
@@ -131,7 +139,7 @@ To review goals in the Goal List:
 
    Or
 
-   Click `the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list`to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click ```the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list```to expand all the goals in the list and view additional information about each goal, including any of the following:
 
   * Results names, owners, and progress
 
@@ -141,22 +149,22 @@ To review goals in the Goal List:
 
     For information about activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-1. Click the name of a goal to open the `Goal Details` panel on the right and review more information about the goal as well as manage it. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
-1. (Optional) Expand the `Goals per page` drop-down menu and select from the following options to display additional goals:
+1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
+1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
 
   * 20. This is the default selection. 
   * 50
   * 100
 
-1. Click `Print` to export a list of goals, results, and activities to a .pdf file. 
+1. Click **Print** to export a list of goals, results, and activities to a .pdf file. 
 
-   ` `**Tip: **``
+   ``` ```**Tip: **``````
 
   * When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
   * When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the `Alignment icon` ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
 &nbsp;

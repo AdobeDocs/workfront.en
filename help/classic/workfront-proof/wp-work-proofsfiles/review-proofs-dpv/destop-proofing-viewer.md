@@ -33,11 +33,11 @@ Two main characteristics distinguish the Desktop Proofing Viewer from the Web Pr
   >[!NOTE]
   >
   >
-  >  
-  >  
-  >  * If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer.
-  >  * Proof management tasks such as creating and browsing through proofs occur in Workfront or Workfront Proof. The Desktop Proofing Viewer is only for reviewing proofs.
-  >  
+  >   
+  >   
+  >   * If your organization cannot use the Desktop Proofing Viewer app for security reasons, your Workfront administrator can configure your system so that you can review interactive content, bundled in a ZIP archive file, in the Web Proofing Viewer.
+  >   * Proof management tasks such as creating and browsing through proofs occur in Workfront or Workfront Proof. The Desktop Proofing Viewer is only for reviewing proofs.
+  >   
   >
 
 For more information about the capabilities of the various proofing viewers,&nbsp;see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
@@ -56,7 +56,10 @@ The Desktop Proofing Viewer includes the following enhancements over the Legacy 
 The Legacy proofing viewer will be removed from Workfront with the 2018.3 release at the end of the 2018 calendar year
 
 <!--
-(see Legacy proofing viewer removed in 2018.3)
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(see
+<a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref" xrefformat="{para}">Legacy proofing viewer removed in 2018.3</a>)
+</MadCap:conditionalText>
 -->
 
 . The Legacy proofing viewer is not included for customers acquiring Workfront after the 2018.2 release in July 2018.
@@ -69,6 +72,6 @@ Users can configure the Desktop Proofing Viewer to launch automatically when the
 
 ## Entering a Proof URL
 
-If you launch the Desktop Proofing Viewer directly from your workstation, you can open a proof by specifying the proof URL. To do this, you must have proof URL of the proof you want to view. For information about obtaining a proof URL, see Share the Public URL in Workfront Proof.
+If you launch the Desktop Proofing Viewer directly from your workstation, you can open a proof by specifying the proof URL. To do this, you must have proof URL of the proof you want to view.  For information about obtaining a proof URL, see [Share the Public URL in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-public-url.md).
 
 We recommend that you open proofs directly from Workfront. For more information, see [Review a proof](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md).

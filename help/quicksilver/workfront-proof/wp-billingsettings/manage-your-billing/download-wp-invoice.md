@@ -35,16 +35,16 @@ You will find the following information on your invoice:
 >
 >&nbsp;If the payment for that invoice has already been received (for example, for automated credit card payments), the payment terms and due date will show as paid and a reference number for the payment will appear in the description.
 
-We issue all our automatic invoices for the subscriptions in USD by default, but for all `UK` organizations we include the Value-Added Tax ( `VAT)`amount  `(in both USD and sterling)`&nbsp;in the documents. If you want to receive your subscription invoices entirely in GBP, please contact our Finance team at [finance@proofhq.com](mailto:finance@proofhq.com).
+We issue all our automatic invoices for the subscriptions in USD by default, but for all ```UK``` organizations we include the Value-Added Tax ( ```VAT)```amount  ```(in both USD and sterling)```&nbsp;in the documents. If you want to receive your subscription invoices entirely in GBP, please contact our Finance team at [finance@proofhq.com](mailto:finance@proofhq.com).
 
 * [Downloading Your Invoice](#downloading-your-invoice) 
 * [Useful Links](#useful-links)
 
 ## Downloading Your Invoice
 
-1. Click `Settings` > `Billing`.
+1. Click **Settings** > **Billing**.
 
-1. In the `Billing History` section of the Billing page that appears, click the dropdown menu at the right of the invoice, then select `Download PDF Invoice`.  
+1. In the **Billing History** section of the Billing page that appears, click the dropdown menu at the right of the invoice, then select **Download PDF Invoice**.  
 
 1. Services invoices (for example, for your Success Start program, Custom landing pages) are currently not available on your Billing page. If you need copies of these documents, please contact our Finance team at finance@proofhq.com.
 

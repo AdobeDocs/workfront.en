@@ -16,6 +16,6 @@ This section contains the following articles:
 * [Instant triggers (webhooks)](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
   <!--
-  Create a custom mailhook
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/webhooks/custom-mailhook.md" class="MCXref xref" xrefformat="{para}">Create a custom mailhook</a> </li>
   -->
 

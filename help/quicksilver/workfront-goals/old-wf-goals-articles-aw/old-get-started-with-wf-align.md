@@ -27,7 +27,7 @@ Consider the following before you start using Workfront Goals:
 * You can view your goals and all the goals that anyone in Workfront has created. 
 
   <!--
-  (this will change with the access levels epic)
+  <span style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(this will change with the access levels epic)</span>
   -->
 
 * You can view personal goals, as well as goals within your team, group, or company. 

@@ -21,15 +21,15 @@ The Activity by team visualization shows activities that happen during a specifi
 
 The different activities display in different colors to summarize specific events over the filtered time period:
 
-* `Users logged in`: Purple boxes show that people on the home team logged in on that day. A darker shade indicates a higher number of people logging in.
+* **Users logged in**: Purple boxes show that people on the home team logged in on that day. A darker shade indicates a higher number of people logging in.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* `Task status change`: Pink boxes show that people on the home team changed the status of a task on that day. A darker shade indicates a higher number of task statuses changing.
+* **Task status change**: Pink boxes show that people on the home team changed the status of a task on that day. A darker shade indicates a higher number of task statuses changing.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* `Tasks completed`: Blue boxes show that people on the home team completed a task on that day. A darker shade indicates a higher number of tasks being completed.
+* **Tasks completed**: Blue boxes show that people on the home team completed a task on that day. A darker shade indicates a higher number of tasks being completed.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -78,8 +78,8 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Activity by team visualization
 
-1. Click the Main Menu icon , thenselect **Analytics**.
-1. In the left panel, select `People`.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+1. In the left panel, select **People**.
 
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
@@ -102,7 +102,9 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 1. Click a team name
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    or role
+   </MadCap:conditionalText>
    -->
 
    to see more details for activities completed by the home team.

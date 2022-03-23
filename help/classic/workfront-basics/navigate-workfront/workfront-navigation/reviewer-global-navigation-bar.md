@@ -16,16 +16,16 @@ As a Reviewer, your main responsibility is to review, comment on, and approve wo
 
 The following areas are included in the default layout of a Reviewer:
 
-* My Updates: The My Work area available to users of all access levels is renamed to My Updates for a Reviewer. As a Reviewer, you do not complete work. You need to only see information about work you have to review, comment on, or approve. The My Updates area allows you to perform these actions. This is the default landing area for Reviewers. 
-* `Requests`: You can submit and review requests you or other users from your company have submitted in this area.
-* `Documents`: You can upload documents, or review documents shared with you here.
+* **My Updates**: The **My Work** area available to users of all access levels is renamed to **My Updates** for a Reviewer. As a Reviewer, you do not complete work. You need to only see information about work you have to review, comment on, or approve. The **My Updates** area allows you to perform these actions. This is the default landing area for Reviewers. 
+* **Requests**: You can submit and review requests you or other users from your company have submitted in this area.
+* **Documents**: You can upload documents, or review documents shared with you here.
 
 &nbsp;
 
 ## Customize your default Global Navigation Bar
 
-You can customize the areas that you see in your Global Navigation Bar by removing or adding areas.
+You can customize the areas that you see in your  Global Navigation Bar by removing or adding areas.
 
-For more information about customizing the Global Navigation Bar, see [Customize the Global Navigation Bar in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
+For more information about customizing the  Global Navigation Bar, see [Customize the Global Navigation Bar in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
 
-Your Workfront administrator can also modify your Workfront default layout by assigning you a Layout Template. For more information about working with Layout Templates, see Create and manage layout templates.
+Your Workfront administrator can also modify your Workfront default layout by assigning you a Layout Template. For more information about working with Layout Templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

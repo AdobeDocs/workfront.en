@@ -24,13 +24,13 @@ We have redesigned the experience for resolving job role and budget conflicts in
 
 For information about resolving conflicts in the Scenario Planner, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../../../scenario-planner/resolve-conflicts-in-sp.md).
 
-`<iframe class="vimeo-player_0" src="assets/500514710?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/500514710?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/500514710/16de07c8f6)
 
 >[!NOTE]
 >
->`Available on these dates:` 
+>**Available on these dates:** 
 >
 >Beta Preview release:&nbsp;January 13, 2021
 >
@@ -48,6 +48,6 @@ For more information, see the following articles:
 * [Copy initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/copy-initiatives.md) 
 * [Update initiative priorities in the Adobe Workfront Scenario Planner](../../../scenario-planner/prioritize-initiatives.md)
 
-`<iframe class="vimeo-player_0" src="assets/492162384?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/492162384?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/492162384/cbde9317d9) 

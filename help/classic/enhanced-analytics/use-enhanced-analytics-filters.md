@@ -53,9 +53,9 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## Video walk-through
 
-Note: Enhanced analytics is available for both Adobe Workfront Classic and the new Adobe Workfront experience, but the video below was recorded in the new Adobe Workfront experience. View the following video to learn more about the filters in the Enhanced analytics area:
+``` ```**Note: **``````Enhanced analytics is available for both Adobe Workfront Classic and the new Adobe Workfront experience, but the video below was recorded in the new Adobe Workfront experience. View the following video to learn more about the filters in the Enhanced analytics area:
 
-`<iframe class="vimeo-player_0" src="assets/441153490?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/441153490?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/441153490/8d5303704c)
 
@@ -70,7 +70,7 @@ By default, the visualizations in the Enhanced analytics area show data for the 
 
 To select a new date range:
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. In the top-right corner of the screen, click the date range field to open the calendar view.
 1. Use the arrows above the calendar to locate the month of your start date, then select the start date.
 
@@ -97,7 +97,7 @@ You can add filters based on default project fields, Custom Form fields, and hom
 * [Add a Team filter](#add2)
 
   <!--
-  Add job roles filter link
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Add job roles filter link</li>
   -->
 
 ### Add a project field filter
@@ -119,7 +119,7 @@ Custom Form filters work differently. For more information, see [Add a project f
 
 To add a project field filter:
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. In the top-left corner of the screen, click **Add Filter**, then select the desired filter type.
 
    >[!NOTE]
@@ -138,13 +138,13 @@ To add a project field filter:
 
    As you add filters, data displays in the visualizations below for up to 50 projects.
 
-   ` `**Tip: **``To see data for more than the 50 projects that display by default, you can:
+   ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
 
-  * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
-    ![](assets/pagination-350x118.png)  
-  
-  * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
-    ![](assets/sort-by-menu-350x247.png)
+   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
+     ![](assets/pagination-350x118.png)  
+   
+   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
+     ![](assets/sort-by-menu-350x247.png)
 
    To adjust the date range, see [Change the date range filter](#change).
 
@@ -154,7 +154,7 @@ The Custom Form filter type allows you to filter data for projects and tasks bas
 
 To add a Custom Form filter:
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. In the top-left corner of the screen, click **Add Filter**, then select **Custom form**.
 
    ![](assets/select-custom-form-filter-350x271.png)
@@ -166,17 +166,17 @@ To add a Custom Form filter:
    >
    >Not all Custom Form field types can be added to a filter. Currently, Enhanced analytics supports only the field types listed above.
 
-  * **Checkbox**, **drop-down**, or **radio button**: Select each value in the selected field that you want to include in your filter or click the **Select All** checkbox.  
-    ![](assets/custom-form-filter-checkbox-350x255.png)  
-  
-  * **Date**: Use the arrows to navigate to a specific month, then select the date in the selected field that you want to include in your filter.  
-    ![](assets/custom-form-filter-date-350x348.png)  
-  
-  * **Text**: Enter the text within the selected field that you want to include in your filter.  
-    ![](assets/custom-form-filter-text-350x90.png)
+   * **Checkbox**, **drop-down**, or **radio button**: Select each value in the selected field that you want to include in your filter or click the **Select All** checkbox.  
+     ![](assets/custom-form-filter-checkbox-350x255.png)  
+   
+   * **Date**: Use the arrows to navigate to a specific month, then select the date in the selected field that you want to include in your filter.  
+     ![](assets/custom-form-filter-date-350x348.png)  
+   
+   * **Text**: Enter the text within the selected field that you want to include in your filter.  
+     ![](assets/custom-form-filter-text-350x90.png)
 
-  * **Number**: Enter the number within the selected field that you want to include in your filter.  
-    ![](assets/custom-form-filter-number-350x93.png)
+   * **Number**: Enter the number within the selected field that you want to include in your filter.  
+     ![](assets/custom-form-filter-number-350x93.png)
 
 1. After you enter or select the values you want to filter for, click **Apply Filter**.
 
@@ -186,20 +186,23 @@ To add a Custom Form filter:
 
    As you add filters, data displays in the visualizations below for up to 50 projects.
 
-   ` `**Tip: **``To see data for more than the 50 projects that display by default, you can:
+   ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
 
-  * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
-    ![](assets/pagination-350x118.png)  
-  
-  * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
-    ![](assets/sort-by-menu-350x247.png)
+   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
+     ![](assets/pagination-350x118.png)  
+   
+   * Use the Sort by drop-down menu on a visualization to view the projects in a different order.  
+     ![](assets/sort-by-menu-350x247.png)
 
    To adjust the date range, see [Change the date range filter](#change).
 
 ### Add a Team filter
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. In the left panel, click **People**.
+
+   ![](assets/people-area-classic-350x167.png)
+
 1. In the top-left corner of the screen, click **Add Filter**, then select the **Team** filter.
 1. Locate the teams you want to see data for by entering at least 3 characters of text in the **Search** field, then select each team you want to include in the filter. To select all teams, click **Select All**.
 
@@ -222,7 +225,7 @@ You can remove a filter at any time. If you remove a filter, it doesn't display 
 
 To remove a filter:
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. If you want to remove a Work filter, remain in the **Work** area.
 
    Or

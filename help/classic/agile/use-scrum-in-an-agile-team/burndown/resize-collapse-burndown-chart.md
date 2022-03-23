@@ -40,7 +40,9 @@ You must have the following access to perform the steps in this article:
 1. Go to the iteration 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    or project
+   </MadCap:conditionalText>
    -->
 
    that contains the burndown chart you want to resize.
@@ -52,7 +54,9 @@ You must have the following access to perform the steps in this article:
 1. Go to the iteration 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    or project
+   </MadCap:conditionalText>
    -->
 
    that contains the burndown chart you want to collapse.

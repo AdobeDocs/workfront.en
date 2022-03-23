@@ -1,6 +1,6 @@
 
 
-# `Workfront Tools for AEM User Guide: Installation Guide 1.x.x`
+# ```Workfront Tools for AEM User Guide: Installation Guide 1.x.x```
 
 ## Access requirements
 
@@ -16,7 +16,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Plan or higher
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Plan or higher</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -39,11 +42,11 @@ Prior to installing/configuring the tools you’ll need to complete a few steps:
 1. Ensure your firewall is properly configured:
 
   1. [Configure your firewall](https://one.workfront.com/s/document-item?bundleId=workfront-classic&topicId=Content%2FAdministration_and_Setup%2FSet_up_Workfront%2FGet_started-WF_administration%2Fconfigure-your-firewall.html) 
-  1. You can find your IP cluster in Workfront by going to `Setup → System → Customer Info`.
+  1. You can find your IP cluster in Workfront by going to ```Setup → System → Customer Info```.
 
      ![](assets/wf---customer-info-350x224.png)
 
-1. If there is an AEM dispatcher in front of the AEM Author instance that will be communicating with Workfront, it will need to be configured to allow HTTP headers named `authorization`, `username`and `apikey`. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.
+1. If there is an AEM dispatcher in front of the AEM Author instance that will be communicating with Workfront, it will need to be configured to allow HTTP headers named ```authorization```, ```username```and ```apikey```. The dispatcher should allow GET, POST, and PUT to /bin/workfront-tools.
 1. Lastly, before installing Workfront Tools for AEM, you should check that none of the following paths already exist on your AEM instance because the package includes files on these paths and they won’t get updated properly.
 
   * /apps/dam/gui/coral/components/admin/schemaforms/formbuilder
@@ -54,9 +57,9 @@ Prior to installing/configuring the tools you’ll need to complete a few steps:
 
 # 2 - Installation
 
-`For AEMaaCS customers start below otherwise skip ahead to step 1`
+```For AEMaaCS customers start below otherwise skip ahead to step 1```
 
-`AEMaaCS:` If you are installing the Workfront Tools connector on AEMaaCS please refer to [AEM as a Cloud Service Compatibility](https://hoodoodigital.atlassian.net/wiki/spaces/WTFAUG/pages/634978569/AEM+as+a+Cloud+Service+compatibility).
+```AEMaaCS:``` If you are installing the Workfront Tools connector on AEMaaCS please refer to [AEM as a Cloud Service Compatibility](https://hoodoodigital.atlassian.net/wiki/spaces/WTFAUG/pages/634978569/AEM+as+a+Cloud+Service+compatibility).
 
 The Workfront Tools packages will need to be referenced as a dependency in the pom.xml, as provided by the vendor.
 
@@ -69,7 +72,7 @@ The Workfront Tools packages will need to be referenced as a dependency in the p
 <pre><code><repository><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<name>Hoodoo Repository</name><br>&nbsp;&nbsp;&nbsp;&nbsp;<url>https://gitlab.com/api/v4/projects/12715200/packages/maven</url><br></repository></code></pre>Example settings.xml file
 
 [Copy](javascript:void(0);) 
-<pre><code><server><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<configuration><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<name>Private-Token</name><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<value>*********************</value><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;</configuration><br></server></code></pre>The Workfront Tools packages will also need to be added to the embeddeds section of the pom.xml of your `all`subproject like in the following example.
+<pre><code><server><br>&nbsp;&nbsp;&nbsp;&nbsp;<id>hoodoo-maven</id><br>&nbsp;&nbsp;&nbsp;&nbsp;<configuration><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<name>Private-Token</name><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<value>*********************</value><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</property><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</httpHeaders><br>&nbsp;&nbsp;&nbsp;&nbsp;</configuration><br></server></code></pre>The Workfront Tools packages will also need to be added to the embeddeds section of the pom.xml of your ```all```subproject like in the following example.
 
 [Copy](javascript:void(0);) 
 <pre><code><!-- Workfront Tools --><br><embedded><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.tools.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<target>/apps/<path-to-project-install-folder>/install</target><br></embedded></code></pre>
@@ -77,12 +80,12 @@ The Workfront Tools packages will need to be referenced as a dependency in the p
 <pre><code><!-- Workfront Tools --><br><embedded><br>&nbsp;&nbsp;&nbsp;&nbsp;<groupId>digital.hoodoo</groupId><br>&nbsp;&nbsp;&nbsp;&nbsp;<artifactId>workfront-tools.core.ui.apps</artifactId><br>&nbsp;&nbsp;&nbsp;&nbsp;<type>zip</type><br>&nbsp;&nbsp;&nbsp;&nbsp;<target>/apps/<path-to-project-install-folder>/install</target><br></embedded></code></pre>
 
 1. The connector will be available for download from the creator, Hoodoo Digital. The format will be two zip files, workfront-tools.tools.ui.apps-1.1.0.zip and workfront-tools.core.ui.apps-1.1.0.zip.
-1. Once the files are downloaded, log in to your AEM environment and navigate to `Tools → Deployment → Packages`.
+1. Once the files are downloaded, log in to your AEM environment and navigate to ```Tools → Deployment → Packages```.
 
    ![](assets/deployment-packages-350x154.png)
 
-1. Upon clicking `Packages`you will be taken to the CRX Package Manager.&nbsp;&nbsp;
-1. Click the `Upload Package` button at the top of the screen. This will bring up an operating system prompt for your computer that will allow you to browse to the location where the ZIP files are located.&nbsp;
+1. Upon clicking ```Packages```you will be taken to the CRX Package Manager.&nbsp;&nbsp;
+1. Click the ```Upload Package``` button at the top of the screen. This will bring up an operating system prompt for your computer that will allow you to browse to the location where the ZIP files are located.&nbsp;
 1. Select one of the packages and then repeat for the other one. Both packages will appear in the main list of other packages.&nbsp;&nbsp;
 
    ![](assets/package-manager-350x166.png)
@@ -93,12 +96,12 @@ The Workfront Tools packages will need to be referenced as a dependency in the p
 To complete the setup process you will need to work with Hoodoo Digital to get all the necessary configurations in place.&nbsp; These may be different for each user based on your company's security and other setups.&nbsp;
 
 <!--
-To arrange an installation session please contact Hoodoo Digital: help@hoodoo.digital or (801) 896-9667.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To arrange an installation session please contact Hoodoo Digital: help@hoodoo.digital or (801) 896-9667.&nbsp;</p>
 -->
 
 # 3 - Externalizer
 
-Check that `Day CQ Link Externalizer` has been set properly. Day CQ Link Externalizer configuration can be found on AEM’s Web Console Configuration (<aem-server>/system/console/configMgr). Check that `author`domain is set to your AEM’s author instance domain.
+Check that ```Day CQ Link Externalizer``` has been set properly. Day CQ Link Externalizer configuration can be found on AEM’s Web Console Configuration (<aem-server>/system/console/configMgr). Check that ```author```domain is set to your AEM’s author instance domain.
 
 ![](assets/externalizer-350x154.png)
 
@@ -108,7 +111,7 @@ Check that `Day CQ Link Externalizer` has been set properly. Day CQ Link Externa
 
    ![](assets/wf-tools-permissions-350x192.png)
 
-1. `workfront-tools` user should have:
+1. ```workfront-tools``` user should have:
 
   * jcr:read privilege to /conf/workfront-tools
   * jcr:all privilege to /content/dam
@@ -117,31 +120,31 @@ Check that `Day CQ Link Externalizer` has been set properly. Day CQ Link Externa
   * jcr:read privilege to /conf/global/settings/dam/adminui-extension (Take into account that this path might not exist in your AEM instance if there are no custom Asset Metadata Schemas. If that is the case, you’ll need to create the path manually.)
   * jcr:read privilege to /libs/dam/content/schemaeditors/forms
 
-1. Create `workfront-tools` user manually `(if applicable)`
+1. Create ```workfront-tools``` user manually ```(if applicable)```
 
-  1. If you need to create `workfront-tools` system user manually. Click on `User Administration` on `CRX Explorer` menu (<aem-server>/crx/explorer/index.jsp). Click on `Create System User`, enter `workfront-tools` as the system user’s ID and click on the green tick on the right hand side, then click on `Close`.
+  1. If you need to create ```workfront-tools``` system user manually. Click on ```User Administration``` on ```CRX Explorer``` menu (<aem-server>/crx/explorer/index.jsp). Click on ```Create System User```, enter ```workfront-tools``` as the system user’s ID and click on the green tick on the right hand side, then click on ```Close```.
   
-  1. Search for `workfront-tools` user on `AEM Security | Permissions` menu (<aem-server>/security/permissions.html/principal/workfront-tools) and add the permissions described above.
+  1. Search for ```workfront-tools``` user on ```AEM Security | Permissions``` menu (<aem-server>/security/permissions.html/principal/workfront-tools) and add the permissions described above.
 
 # 5 - Cloud Services - Connection configuration
 
-To create `Workfront Tools` Cloud Services configuration, from `AEM Start` page (<aem-server>/aem/start.html), click on `Tools`, then `Cloud Services` on the left panel and click on `Workfront Tools Configuration`.
+To create ```Workfront Tools``` Cloud Services configuration, from ```AEM Start``` page (<aem-server>/aem/start.html), click on ```Tools```, then ```Cloud Services``` on the left panel and click on ```Workfront Tools Configuration```.
 
-With `workfront-tools` selected on the left panel, click on `Create`button on the top-right corner.
+With ```workfront-tools``` selected on the left panel, click on ```Create```button on the top-right corner.
 
 ![](assets/create-350x108.png)
 
-`Workfront Connection` dialog will automatically open. Enter your workfront domain, a valid workfront admin user and password. Click on `Connect to Workfront`.
+```Workfront Connection``` dialog will automatically open. Enter your workfront domain, a valid workfront admin user and password. Click on ```Connect to Workfront```.
 
 ![](assets/workfront-connection-350x166.png)
 
-If the connection was successful, you will see a `green success` message. Copy `AEM API Key`, this key will be configured in Workfront in the next step.
+If the connection was successful, you will see a ```green success``` message. Copy ```AEM API Key```, this key will be configured in Workfront in the next step.
 
 ![](assets/connection-configurations-350x208.png)
 
 # 6 - Workfront Custom Integration Configuration
 
-Create a new `Custom Integration` on Adobe Workfront. To do so, click on `Setup`located on the top navigation, select `Documents`on the left hand panel and click on `Custom Integration`. Click on `Add Custom Integration` and fill in the fields with the information found in the following table:
+Create a new ```Custom Integration``` on Adobe Workfront. To do so, click on ```Setup```located on the top navigation, select ```Documents```on the left hand panel and click on ```Custom Integration```. Click on ```Add Custom Integration``` and fill in the fields with the information found in the following table:
 
 <table data-layout="default" cellspacing="0"> 
  <colgroup> 
@@ -172,15 +175,15 @@ Create a new `Custom Integration` on Adobe Workfront. To do so, click on `Setup`
 
 Authorize the new Document Provider by following these steps:
 
-1. Open `Documents`tab on a Workfront project.
-1. Click on `Add Document` drop-down menu and select `From <document-provider-name>` (From AEM Cloud in the case of the above example).
+1. Open ```Documents```tab on a Workfront project.
+1. Click on ```Add Document``` drop-down menu and select ```From <document-provider-name>``` (From AEM Cloud in the case of the above example).
 1. You will see the list of AEM DAM assets/folders. This means that the connection from Workfront to AEM was successful.
 
 <!--
-To complete the setup process you will need to work with Hoodoo Digital to get all the necessary configurations in place. These may be different for each user based on your company's security and other setups.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To complete the setup process you will need to work with Hoodoo Digital to get all the necessary configurations in place. These may be different for each user based on your company's security and other setups.</p>
 -->
 
 <!--
-To arrange an installation session please contact Hoodoo Digital: workfront-tools@hoodoo.digital or (801) 896-9667.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To arrange an installation session please contact Hoodoo Digital: <a href="mailto:workfront-tools@hoodoo.digital" class="external-link" rel="nofollow">workfront-tools@hoodoo.digital</a> or (801) 896-9667.</p>
 -->
 

@@ -20,15 +20,15 @@ The solid blue line shows the planned velocity from the start date to the planne
 
 The actual line shows the number of hours—or days—spent on the project over time. The color of this line indicates the condition of the project each day:
 
-* `Green`: The project is on target.
+* **Green**: The project is on target.
 
   ![](assets/burndown-green.png)
 
-* `Orange`: The project is at risk.
+* **Orange**: The project is at risk.
 
   ![](assets/burndown-orange.png)
 
-* `Red`: The project is in trouble.
+* **Red**: The project is in trouble.
 
   ![](assets/burndown-red.png)
 
@@ -81,7 +81,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Burndown visualization
 
-1. Click the Main Menu icon, then select **Analytics**.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -116,13 +116,13 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >  
    >
 
-1. (Optional) Change the view from `planned hours` to **duration**.
+1. (Optional) Change the view from ```planned hours``` to **duration**.
 
    Planned hours is selected by default.
 
    >[!NOTE]
    >
-   >Selecting `duration` changes all hours information to days.  
+   >Selecting **duration** changes all hours information to days.  
    >![](assets/duration-burndown-350x112.png)  
    >For more information on duration in the Enhanced analytics area, see the "Duration view" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 

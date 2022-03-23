@@ -14,7 +14,7 @@ You can use the Workload Balancer to schedule resources for work or review their
 You can access the&nbsp;Workload Balancer in the following ways:
 
 * From several areas predefined by Adobe Workfront 
-* By adding it to a custom section
+* By adding it to a custom  section
 
 >[!NOTE]
 >
@@ -71,15 +71,15 @@ You can manage resources in the following predefined areas in Workfront:
 
 For multiple projects:
 
-* In the Workload Balancer section the Resourcing area. The Workload Balancer is the default setting. You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
+* In the Workload Balancer section the Resourcing area. The Workload Balancer is the default setting.  You can make resourcing assignments and adjust allocations across multiple projects that you have permissions to edit.
 
 For a team:
 
-* From the Workload Balancer section of a team. You can adjust allocations and review or assign work from multiple projects to individual team members.
+* From the Workload Balancer section of a team.  You can adjust allocations and review or assign work from multiple projects to individual team members.
 
 For a project:
 
-* In the Workload Balancer section of a project. The Workload Balancer is the default setting. You can do the following when you use the&nbsp;Workload Balancer within a project:
+* In the Workload Balancer section of a project. The Workload Balancer is the default setting.  You can do the following when you use the&nbsp;Workload Balancer within a project:
 
   * Assign work on the project to users already assigned other work on the project.
   * Assign work to any user that might not be on the project.
@@ -87,11 +87,11 @@ For a project:
   * View additional work that users are assigned to on other projects.
   * Adjust user allocations to work items.
 
-Add the Workload Balancer to a custom section You can add the Workload Balancer to any custom section.
+Add the&nbsp;Workload Balancer to a custom section You can add the Workload Balancer to any custom  section .
 
 1. Access the Workload Balancer by going to any of the following areas:
 
-  * The Resourcingarea
+  * The  Resourcing area
   * A team 
   * A project
 
@@ -101,5 +101,5 @@ Add the Workload Balancer to a custom section You can add the Workload Balancer 
 
    When accessing the Workload Balancer from the custom tab, you can view it as if you were accessing it directly from one of its original areas listed in Step 1. 
 
-1. (Optional) Share the custom tab in a Layout Template as described in Customize the left panel using a layout template.
+1. (Optional) Share the custom tab in a Layout Template as described in  [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) .
 

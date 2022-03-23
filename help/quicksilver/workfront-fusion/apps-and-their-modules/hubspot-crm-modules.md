@@ -15,7 +15,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -24,7 +28,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -88,19 +99,22 @@ This search module searches for CRM objects by custom properties or by query. To
    <td role="rowheader">Filter by </td> 
    <td> <p>Select how you want to filter the search</p> 
     <ul> 
-     <li> <p><span class="bold">Query</span> </p> <p>Enter or map the query</p> </li> 
-     <li> <p><span class="bold">Properties</span> </p> <p>Enter the groups or filters for your search.</p> </li> 
+     <li> <p><strong>Query</strong> </p> <p>Enter or map the query</p> </li> 
+     <li> <p><strong>Properties</strong> </p> <p>Enter the groups or filters for your search.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Sort by</td> 
    <td> <p>Click if you want to sort the results. If you choose to sort results, the following fields appear. </p> 
     <ul> 
-     <li> <p><span class="bold">Property name</span> </p> <p>Select the property by which you want to sort results</p> </li> 
-     <li> <p><span class="bold">Direction</span> </p> <p>Choose whether you want to sort the results in an ascending or descending direction.</p> </li> 
+     <li> <p><strong>Property name</strong> </p> <p>Select the property by which you want to sort results</p> </li> 
+     <li> <p><strong>Direction</strong> </p> <p>Choose whether you want to sort the results in an ascending or descending direction.</p> </li> 
     </ul> </td> 
   </tr> <!--
-   Start Offset Enter or map the ID of the first item you want to retrieve details for. This module only returns up to 5000 results at a time. Setting a start offset allows you to retrieve items other than the first 5000. If the start offset is 5000, the module would return items 5000-9999.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Start Offset</td> 
+    <td>Enter or map the ID&nbsp;of the first item you want to retrieve details for. This module only returns up to 5000 results at a time. Setting a start offset allows you to retrieve items other than the first 5000. If the start offset is 5000, the module would return items 5000-9999.</td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -337,14 +351,14 @@ Creates a group of contacts or updates them if they already exist. Performance i
   </tr> 
   <tr> 
    <td role="rowheader">Batch of Contacts to Create/Update </td> 
-   <td> <p>Add the batch of contacts.</p> <p>Click <span class="bold">Add item</span> to add a new contact. In the window that appears, enter or map the following information:</p> 
+   <td> <p>Add the batch of contacts.</p> <p>Click <strong>Add item</strong> to add a new contact. In the window that appears, enter or map the following information:</p> 
     <ul> 
-     <li> <p><span class="bold">Search Type</span> </p> <p>Select how you want to identify the contact:</p> 
+     <li> <p><strong>Search Type</strong> </p> <p>Select how you want to identify the contact:</p> 
       <ul> 
        <li> <p>ID</p> <p>Enter the ID of the contact that you want to create or update. </p> </li> 
        <li> <p>Email</p> <p>Enter the email address of the contact that you want to create or update. </p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">Properties</span> </p> <p>Fill in any properties that you want to set or updatefor the contact.</p> </li> 
+     <li> <p><strong>Properties</strong> </p> <p>Fill in any properties that you want to set or updatefor the contact.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -468,7 +482,10 @@ Returns all contacts that have been created in the portal. The output is limited
    <td role="rowheader">Output properties</td> 
    <td>Select the properties that you want to appear in the module's output. </td> 
   </tr> <!--
-   Contact ID [start offset] Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Contact ID [start offset] </td> 
+    <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -493,7 +510,10 @@ Retrieves a list of contacts in the company. The output is limited to 5000 conta
    <td role="rowheader">Limit</td> 
    <td>The maximum number of contacts Workfront Fusion should return during one scenario execution cycle. </td> 
   </tr> <!--
-   Contact ID [start offset] Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Contact ID [start offset] </td> 
+    <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -732,15 +752,15 @@ Allows you to perform a custom API call.
  </tbody> 
 </table>
 
-` `**Example: **`` The following API call returns all contacts in your HubSpot account:
+``` ```**Example: **`````` The following API call returns all contacts in your HubSpot account:
 
-`URL`:
+**URL**:
 
 ```
 /contacts/v1/lists/all/contacts/all
 ```
 
-`Method`:
+**Method**:
 
 ```
 GET

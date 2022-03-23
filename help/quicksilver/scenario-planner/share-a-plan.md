@@ -36,7 +36,15 @@ You must have the following:
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions You must be the creator of the plan. Plan creators have Manage permissions to the plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>You must be the creator of the plan. </p> <p>Plan creators have Manage permissions to the plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -58,7 +66,9 @@ For more information about access to the Scenario Planner for various license ty
 * You must be the creator of the plan 
 
   <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   or a plan must be shared with you
+  </MadCap:conditionalText>
   -->
 
   to share it with other users. You cannot share plans that are shared with you. 
@@ -74,25 +84,25 @@ For more information about access to the Scenario Planner for various license ty
 >
 >You can share the plan by clicking the avatars of users with whom the plan is shared from the plan header.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click `Scenarios`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Scenarios**.
 1. Click the name of a plan to open it
 
    Or
 
    Select several plans to share them in bulk. 
 
-1. (Conditional) If you opened a plan, click the `More` icon ![](assets/more-icon.png) to the right of the Plan name, then click Share
+1. (Conditional) If you opened a plan, click the **More** icon ![](assets/more-icon.png) to the right of the Plan name, then click Share
 
    Or
 
-   If you selected several plans to share them in bulk, click the `Share` icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the Plan access box. 
+   If you selected several plans to share them in bulk, click the **Share** icon ![](assets/share-icon-26x26.png) at the top of the list of plans to open the Plan access box. 
 
-   ` `**Tips: **``
+   ``` ```**Tips: **``````
 
   * Users that have permissions to all the plans you select display in the Plan access box. 
   * Any additional users are added to and do not replace the existing users on all the plans selected.
 
-1. In the `Give plan access to` field, start typing the name of the users that you want to share the plan with, then select them when they appear in the list. 
+1. In the **Give plan access to** field, start typing the name of the users that you want to share the plan with, then select them when they appear in the list. 
 1. From the permissions drop-down menu to the right of the user name, select the level of permission you want to grant them to the plan. 
 1. Select from the following:
 
@@ -115,7 +125,7 @@ For more information about access to the Scenario Planner for various license ty
    >
    >You can delete a plan only when you created it. You cannot delete plans that are shared with you.
 
-1. Click  `Save`.
+1. Click&nbsp;**Save**.
 
    The plan is now shared with the users you specified.
 
@@ -135,9 +145,9 @@ The following table lists the permissions that you can grant when sharing a plan
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Actions</span> </p> </th> 
-   <th> <p><span class="bold">Manage</span> </p> </th> 
-   <th> <p><span class="bold">View</span> </p> </th> 
+   <th> <p><strong>Actions</strong> </p> </th> 
+   <th> <p><strong>Manage</strong> </p> </th> 
+   <th> <p><strong>View</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -190,7 +200,12 @@ The following table lists the permissions that you can grant when sharing a plan
    <td>Copy scenarios</td> 
    <td>✓ </td> 
    <td>&nbsp;</td> 
-  </tr> Publish scenarios** ✓ 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Publish scenarios**</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+  </tr> 
  </tbody> 
 </table>
 

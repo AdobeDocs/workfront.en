@@ -5,39 +5,43 @@
 Following are some key enhancements made in the new Adobe Workfront experience, many of which are based on your feedback. This list does not include all bug fixes and enhancements.
 
 <!--
-Future
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Future</h2>
 -->
 
 <!--
-Updated Users page
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated Users page</h3>
 -->
 
 <!--
-The Users area is now fully functional. This includes a new header that provides access to all user settings and the ability to reset passwords.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Users area is now fully functional. This includes a new header that provides access to all user settings and the ability to reset passwords.</p>
 -->
 
 <!--
-New Details page on projects, tasks, and issues (Retire Tertiary Nav)
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">New Details page on projects, tasks, and issues (Retire Tertiary Nav)</h3>
 -->
 
 <!--
-Layout Templates
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Layout Templates</h3>
 -->
 
 <!--
-The Layout Template in the new Adobe Workfront experiencehas a new look and feel. All functionality from the Classic experience has been carried over. In addition, we’ve added a few new things to help you customize the new experience for your users:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Layout Template in the new Adobe Workfront experiencehas a new look and feel. All functionality from the Classic experience has been carried over. In addition, we’ve added a few new things to help you customize the new experience for your users:</p>
 -->
 
 <!--
-Select secondary navigation in Projects, tasks, and issues Choose what populates in the Main Menu Customize the Summary side bar
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li>Select secondary navigation in Projects, tasks, and issues</li>
+<li>Choose what populates in the Main Menu</li>
+<li>Customize the Summary side bar</li>
+</ul>
 -->
 
 <!--
-Branding
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Branding </h3>
 -->
 
 <!--
-Replace logo for Home icon and in Main Menu. Replace branding on login screen.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Replace logo for Home icon and in Main Menu. Replace branding on login screen.</p>
 -->
 
 ## July 12, 2019
@@ -89,31 +93,39 @@ When you open a proof from anywhere in Workfront, you no longer have to press th
 When you are finished using the proofing viewer, you can simply close the tab where you were using it and return to what you were doing in the tab to the immediate left.
 
 <!--
-Information for Reviewers is now in Home
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Information for Reviewers is now in Home</h3>
 -->
 
 <!--
-We created a new page for Reviewers in the new Workfront Experience. This page is a modified version of Home where users with a Review license can
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">We created a new page for Reviewers in the new Workfront Experience. This page is a modified version of Home where users with a Review license can</p>
 -->
 
 <!--
-- View a list of items to they need to approve - Make updates on approval items - Delegate their approvals to another user
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li>- View a list of items to they need to approve</li>
+<li>- Make updates on approval items</li>
+<li>- Delegate their approvals to another user</li>
+</ul>
 -->
 
 <!--
-Previously, this functionality was housed on the My updates page in Workfront Classic.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Previously, this functionality was housed on the My updates page in Workfront Classic.</p>
 -->
 
 <!--
-Calendars in the Reporting area now available
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Calendars in the Reporting area now available</h3>
 -->
 
 <!--
-You can now access existing calendars in the Reports > Calendars area in the new Workfront experience. From this area you can:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can now access existing calendars in the Reports > Calendars area in the new Workfront experience. From this area you can:</p>
 -->
 
 <!--
-See multiple calendars on the main view Filter by Month, Week, or Gantt view Toggle the view by date in all filter views
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li>See multiple calendars on the main view</li>
+<li>Filter by Month, Week, or Gantt view</li>
+<li> Toggle the view by date in all filter views</li>
+</ul>
 -->
 
 ## May 6, 2019

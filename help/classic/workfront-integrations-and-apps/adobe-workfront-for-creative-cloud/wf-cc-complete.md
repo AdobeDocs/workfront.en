@@ -21,7 +21,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or higher 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -43,12 +47,12 @@ You must have the following access to perform the steps in this article:
 
 ## Complete a work item
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. From the `Work List`, select the task or issue you wish to mark complete. 
-1. Click `Done`.  
+1. From the **Work List**, select the task or issue you wish to mark complete. 
+1. Click **Done**.  
    This marks the item complete in Workfront.  
    ![](assets/complete-work-350x529.png)
 

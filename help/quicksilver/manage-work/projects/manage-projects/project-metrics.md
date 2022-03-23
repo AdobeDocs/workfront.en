@@ -51,11 +51,11 @@ Key performance indicators (KPIs) display at the top of the Metrics area.
 
 These KPIs are broken down into the following categories:
 
-| Completed tasks | `Completed tasks` shows the number of tasks in a Complete status. This number also includes tasks that have a custom status that equates with Complete. |
+| Completed tasks |**Completed tasks** shows the number of tasks in a Complete status. This number also includes tasks that have a custom status that equates with Complete. |
 |---|---|
-| Incomplete tasks | `Incomplete tasks` shows the number of tasks that are not in a Complete or Closed status or a status that equates with Complete. |
-| Overdue tasks | `Overdue tasks` shows the number of tasks that are past the Planned Completion Date and are not in a Complete or Closed status or a status that equates with Complete or Closed. |
-| Total tasks | `Total tasks` shows the total number of tasks in the project. |
+| Incomplete tasks |**Incomplete tasks** shows the number of tasks that are not in a Complete or Closed status or a status that equates with Complete. |
+| Overdue tasks |**Overdue tasks** shows the number of tasks that are past the Planned Completion Date and are not in a Complete or Closed status or a status that equates with Complete or Closed. |
+| Total tasks |**Total tasks** shows the total number of tasks in the project. |
 
 >[!TIP]
 >
@@ -89,9 +89,9 @@ The donut chart located below the project KPIs allows you to look at the ratio o
 
 In the drop-down menu above the chart, you can select:
 
-| All tasks |Selecting `tasks` shows you the total number of tasks in the project, as well as the ratio between completed and incomplete tasks. |
+| All tasks |Selecting **tasks** shows you the total number of tasks in the project, as well as the ratio between completed and incomplete tasks. |
 |---|---|
-| All issues |Selecting `issues` shows you the total number of issues in the project, as well as the ratio between completed and incomplete issues. |
+| All issues |Selecting **issues** shows you the total number of issues in the project, as well as the ratio between completed and incomplete issues. |
 
 >[!TIP]
 >
@@ -107,11 +107,11 @@ The assignee bar chart shows you the number of tasks assigned to each person in 
 
 You can choose to look at task assignments for a project in the following categories:
 
-| Complete |Selecting `Complete` shows the number of tasks assigned to each user that have been completed. |
+| Complete |Selecting **Complete** shows the number of tasks assigned to each user that have been completed. |
 |---|---|
-| Incomplete |Selecting `Incomplete` shows the number of tasks assigned to each user that have not been completed yet. |
-| Upcoming |Selecting `Upcoming` shows the number of tasks assigned to each user that have not yet reached the Planned Start Date. |
-| Overdue |Selecting `Overdue` shows the number of tasks assigned to each user that are past the Planned Completion Date and have not yet been completed. |
+| Incomplete |Selecting **Incomplete** shows the number of tasks assigned to each user that have not been completed yet. |
+| Upcoming |Selecting **Upcoming** shows the number of tasks assigned to each user that have not yet reached the Planned Start Date. |
+| Overdue |Selecting **Overdue** shows the number of tasks assigned to each user that are past the Planned Completion Date and have not yet been completed. |
 
 >[!TIP]
 >
@@ -124,11 +124,11 @@ You can choose to look at task assignments for a project in the following catego
 You can interact with the charts in the Metrics area to look at different aspects of a chart or look more closely at the tasks and issues within a chart.
 
 1. Go to the project you want to see metrics for.
-1. In the left panel, click `Show More` to display more sections, then click `Metrics`.  
+1. In the left panel, click **Show More** to display more sections, then click **Metrics**.  
    The charts in the Metrics area display information for tasks by default.  
    ![](assets/metrics-section-350x298.png)
 
-1. (Conditional) If a drop-down arrow displays on a chart, click the `Drop-down arrow` icon ![](assets/dropdown-arrow.png) on the chart and select the option you want from the menu.  
+1. (Conditional) If a drop-down arrow displays on a chart, click the **Drop-down arrow** icon ![](assets/dropdown-arrow.png) on the chart and select the option you want from the menu.  
    For information on the options that appear in the menus on each chart, see the relevant section above.
 
 1. (Optional) To look more closely at tasks or issues for any metric on the page, do the following:
@@ -151,7 +151,7 @@ You can interact with the charts in the Metrics area to look at different aspect
 
      The task or issue opens in a new tab.
 
-1. (Optional) To export the project metrics dashboard to a .png file, click the `Export` icon ![](assets/export.png), then select `Export as PNG` from the drop-down menu.
+1. (Optional) To export the project metrics dashboard to a .png file, click the **Export** icon ![](assets/export.png), then select **Export as PNG** from the drop-down menu.
 
    >[!TIP]
    >

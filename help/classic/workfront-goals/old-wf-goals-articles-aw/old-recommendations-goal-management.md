@@ -25,9 +25,9 @@ For information about getting your organization started with working in Workfron
 
 Use enterprise goal planning to achieve the following within your organization:
 
-* `Align all your resources`: Align strategic goals to work and ensure everyone works on the right things.
-* `Accelerate performance`: Track and monitor progress against strategic goals to ensure success.
-* `Drive results`: Continuously update goal status driven by work in progress to keep teams and contributors focused and aligned on what moves the needle.
+* **Align all your resources**: Align strategic goals to work and ensure everyone works on the right things.
+* **Accelerate performance**: Track and monitor progress against strategic goals to ensure success.
+* **Drive results**: Continuously update goal status driven by work in progress to keep teams and contributors focused and aligned on what moves the needle.
 
 ## The need for alignment between goals and work
 

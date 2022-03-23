@@ -49,7 +49,7 @@ For more information, see:
 * [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md) 
 * [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## `Edit text mode in a filter`
+## **Edit text mode in a filter**
 
 Editing a filter using text mode is identical for reports and lists.&nbsp;Accessing the view from a report or from a list differs.
 
@@ -63,10 +63,10 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Do one of the following:
 
-  1. To access the filter from a report, go to the report, then click  `Report Actions` > `Edit` > `Filters` tab.
-  1. To access the filter from a list, go to the list and from the Filter drop-down menu, click Customize Filter to customize the filter that is currently applied to the list. The filter builder opens.
+   1. To access the filter from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Filters** tab.
+   1. To access the filter from a list, go to the list and from the **Filter** drop-down menu, click&nbsp;**Customize Filter** to customize the filter that is currently applied to the list. The filter builder opens.
 
-1. Click  `Add a Filter Rule` to start adding the conditions of your filter, then click  `Switch to Text Mode` in the upper-right corner of the builder.
+1. Click&nbsp;**Add a Filter Rule** to start adding the conditions of your filter, then click&nbsp;**Switch to Text Mode** in the upper-right corner of the builder.
 
 1. Add filter statements using text mode. Each filter statement may contain the following lines and additional information:
 
@@ -137,21 +137,21 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. To add a filter statement connected by the "OR" operator, do the following:
 
-  1. Add a new line of code and type OR:1: followed by the object or attribute you wan to filter by and the value you want to compare it with. To reference tasks that are in any status except New, use the following line:
+   1. Add a new line of code and type OR:1: followed by the object or attribute you wan to filter by and the value you want to compare it with. To reference tasks that are in any status except New, use the following line:
 
-     ```  
-     OR:1:status=NEW
-     ```
+      ```   
+      OR:1:status=NEW
+      ```
 
-  1. Add a second line and type OR:1: followed by the object, the modifier, and the modifier code. To define the modifier for the line of code referencing all task statuses except for New, use the following modifier line:
+   1. Add a second line and type OR:1: followed by the object, the modifier, and the modifier code. To define the modifier for the line of code referencing all task statuses except for New, use the following modifier line:
 
-     ```  
-     OR:1:status_Mod=notin
-     ```
+      ```   
+      OR:1:status_Mod=notin
+      ```
 
-     Each line of the new statement must be preceded by "OR:<number>:".
+      Each line of the new statement must be preceded by "OR:<number>:".
 
-     For information about creating "OR" statements in a filter, see [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
+      For information about creating "OR" statements in a filter, see [Create "OR" statements in text mode filters](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md).
 
    >[!NOTE]
    >
@@ -212,7 +212,7 @@ For information about creating a report, see [Create a custom report](../../../r
    >```   >
    >
 
-1. Click `Done` if you want to save your changes and continue editing the report or the filter.
+1. Click **Done** if you want to save your changes and continue editing the report or the filter.
 1. 
-   Click `Save + Close` to save your report or `Save Filter` to save the filter in the list.
+   Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
 

@@ -12,8 +12,8 @@ For a high-level overview of the Workfront Scenario Planner, see [The Adobe Work
 
 There are two approaches to using the Workfront Scenario Planner:
 
-* `A top-down approach`: As an executive, you can use the Workfront Scenario Planner to plan fluidly, review scenarios for your high-level initiatives, and gather feedback for the future in a cohesive way. Here, you can define the number of resources and the budget that your organization needs to deliver the strategic initiatives for your company. 
-* `A bottom-up approach`: As a work manager, you can use the Workfront Scenario Planner to define departmental outcomes for the business. Here, you can start by sketching out the required departmental initiatives to achieve those outcomes while specifying the resources and the budget needed to achieve them. Regardless of what your organization manager's budget might be, you can communicate to them what your departmental needs are by defining the cost and resources needed for each initiative. After you complete this planning, the organization manager will evaluate all initiatives, create and inspect multiple scenarios and decide what would fit in the budget and what you must re-plan.
+* **A top-down approach**: As an executive, you can use the Workfront Scenario Planner to plan fluidly, review scenarios for your high-level initiatives, and gather feedback for the future in a cohesive way. Here, you can define the number of resources and the budget that your organization needs to deliver the strategic initiatives for your company. 
+* **A bottom-up approach**: As a work manager, you can use the Workfront Scenario Planner to define departmental outcomes for the business. Here, you can start by sketching out the required departmental initiatives to achieve those outcomes while specifying the resources and the budget needed to achieve them. Regardless of what your organization manager's budget might be, you can communicate to them what your departmental needs are by defining the cost and resources needed for each initiative. After you complete this planning, the organization manager will evaluate all initiatives, create and inspect multiple scenarios and decide what would fit in the budget and what you must re-plan.
 
 ## Benefits of using the Workfront Scenario Planner
 
@@ -31,7 +31,7 @@ The following are benefits of the Workfront Scenario Planner to help you achieve
 
 ## Locate the Workfront Scenario Planner in Workfront
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner, then click `Scenarios`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Scenarios**.
 
    ![](assets/scenarios-main-menu-highlighted-350x463.png)
 
@@ -45,13 +45,13 @@ The following are benefits of the Workfront Scenario Planner to help you achieve
 
    Or
 
-   Click `New Plan` to add a new plan.
+   Click **New Plan** to add a new plan.
 
    For information about creating plans, see Create and edit plans in the Adobe Workfront Scenario Planner.
 
 ## Workfront Scenario Planner objects
 
-The table below describes the Workfront Scenario Planner objects. `Your Workfront administrator can customize their name in your system by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see` Customize user interface terminology using a layout template.
+The table below describes the Workfront Scenario Planner objects. ```Your Workfront administrator can customize their name in your system by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see``` Customize user interface terminology using a layout template.
 
 For information about Workfront objects, see [Understand objects in Adobe Workfront](../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md). 
 

@@ -112,7 +112,9 @@ Follow these guidelines to ensure that you are properly configured to get starte
 * Based on these findings, determine who needs access to Workfront Goals.
 
   <!--
-  (this will change to the following after access levels: Based on findings, determine who needs full manage or edit access, view only access, and no access at all
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+  <span style="color: #ff0000;">(this will change to the following after access levels:&nbsp;Based on findings, determine who needs full manage or edit access, view only access, and no access at all</span>
+  </MadCap:conditionalText>
   -->
 
 >[!NOTE]
@@ -123,7 +125,7 @@ For information about configuring access to Workfront Goals, see [Requirements t
 
 ## Workfront Goals objects
 
-The table below describes the Workfront Goals objects. `You can customize their name by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see` [Customize user interface terminology using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
+The table below describes the Workfront Goals objects. ```You can customize their name by modifying a layout template and assigning it to users, teams, or groups. For information about customizing object names using a layout template, see``` [Customize user interface terminology using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md).
 
 Workfront Goals uses the following main objects: 
 

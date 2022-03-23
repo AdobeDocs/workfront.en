@@ -26,7 +26,7 @@ This section contains the following articles:
 * [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)
 
   <!--
-  Trend views overview
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
 For in-depth training on Enhanced analytics, see [Enhanced analytics Learning Paths](https://one.workfront.com/s/enhanced-analytics-program).

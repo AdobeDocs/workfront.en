@@ -29,8 +29,8 @@ To learn how to complete these requirements, see:
 
 After completing the actions above, you can import the file.
 
-1. In Workfront, click the Workfront Library `icon` in the top-right corner of the screen.
-1. In Workfront Library, click the `Menu icon`, then go to Setup > Metadata > Import.
+1. In Workfront, click the Workfront Library **icon** in the top-right corner of the screen.
+1. In Workfront Library, click the **Menu icon**, then go to Setup > Metadata > Import.
 
    ![](assets/import-area.png)
 
@@ -38,7 +38,7 @@ After completing the actions above, you can import the file.
    >
    >Because you can only import one CSV file at a time, Workfront recommends importing only one CSV file if you have less than 100,000 rows of metadata.
 
-1. If your CSV file is properly formatted, click `Choose CSV`, then double-click the file in your computer to upload it. The import begins and you are unable to import additional files until it completes.
+1. If your CSV file is properly formatted, click **Choose CSV**, then double-click the file in your computer to upload it. The import begins and you are unable to import additional files until it completes.
 
    If a row in the CSV file fails to map to an asset in Workfront Library, a link appears allowing you to download a report detailing the filenames and filepath of rows that did not import. You may need to manually update the metadata for these assets.
 

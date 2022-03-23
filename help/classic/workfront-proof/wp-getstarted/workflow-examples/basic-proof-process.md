@@ -18,14 +18,14 @@ This example explains the basic workflow between a designer or project manager a
 
 ![basic_workflow.png](assets/basic-workflow-350x67.png)
 
-* `Create new proof` - The designer or project manager creates a new proof in Workfront Proof and shares the proof with the client. (See [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
+* **Create new proof** - The designer or project manager creates a new proof in Workfront Proof and shares the proof with the client. (See [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
 
-* `New proof email` - The client receives an email containing a link to the proof.
+* **New proof email** - The client receives an email containing a link to the proof.
 
-* `Review a proof` - The client reviews the proof, adds comments and makes a decision. (See [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) and [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
+* **Review a proof** - The client reviews the proof, adds comments and makes a decision. (See [Review proofs within Adobe Workfront](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) and [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).)
 
-* `Email alert`&nbsp;- the designer or project manager receives an email with a summary of the client's review, depending on the email&nbsp;alerts they have set. (See [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
+* **Email alert**&nbsp;- the designer or project manager receives an email with a summary of the client's review, depending on the email&nbsp;alerts they have set. (See [Configure email notification settings in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).)
 
-* `New version` (if required) - The designer or project manager amends the file and uploads it to Workfront Proof as a new version. (See .)
+* **New version** (if required) - The designer or project manager amends the file and uploads it to Workfront Proof as a new version. (See .)
 
 You can repeat this process until the proof is approved. 

@@ -18,17 +18,17 @@ Consider the following when working with the SNLT constraint:
 * When you use the SNLT constraint with a Schedule From Start Date project, Adobe Workfront schedules the task as it would an As Soon As Possible task.
 * When you move or copy a task with a SNLT constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
-  * When the destination project is scheduled From Start:
+   * When the destination project is scheduled From Start:
 
-    * When the constraint date of the task is earlier than the project Planned Start Date, the task constraint changes to As Soon As Possible. 
-    * When the constraint date of the task is later than the project Planned Completion Date, the project Planned Completion Date changes to match the completion constraint date of the task.
+      * When the constraint date of the task is earlier than the project Planned Start Date, the task constraint changes to As Soon As Possible. 
+      * When the constraint date of the task is later than the project Planned Completion Date, the project Planned Completion Date changes to match the completion constraint date of the task.
 
-    * When the destination project is scheduled From Completion:
+      * When the destination project is scheduled From Completion:
 
-      * When the constraint date of the task is later than the Project Completion Date, the task constraint changes to As Late As Possible. 
-      * When the constraint date of the task is earlier than the Planned Start Date of the project, the project Planned Start Date changes to match the start constraint date of the task.
+         * When the constraint date of the task is later than the Project Completion Date, the task constraint changes to As Late As Possible. 
+         * When the constraint date of the task is earlier than the Planned Start Date of the project, the project Planned Start Date changes to match the start constraint date of the task.
 
-    * Regardless of the schedule of the project, when the constraint date of the task is within the Start and Completion Dates of the project, there are no changes to the Task Constraint or the project dates.
+      * Regardless of the schedule of the project, when the constraint date of the task is within the Start and Completion Dates of the project, there are no changes to the Task Constraint or the project dates.
 
   For information about moving tasks, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
@@ -37,6 +37,17 @@ Consider the following when working with the SNLT constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-Use the Start No Later Than Task Constraint To update the Task Constraint to Start No Later Than: Go to a task whose Task Constraint you want to update. Click Edit Task. In the Overview section, expand the Task Constraint drop-down menu. Select Start No Later Than. Specify a Planned Start Date. This is the date by which the task must start, and not later than this date. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="using-SNLT"></a>Use the Start No Later Than Task Constraint</h2>
+<p>To update the Task Constraint to Start No Later Than:</p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click <strong>Edit Task</strong>. </li>
+<li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
+<li value="4"> <p>Select <strong>Start No Later Than</strong>.</p> <p>  </p> </li>
+<li value="5"> <p>Specify a <strong>Planned Start Date</strong>.</p> <p>This is the date by which the task must start, and not later than this date.</p> </li>
+<li value="6">Click <strong>Save Changes</strong>.<br></li>
+</ol>
+</div>
 -->
 

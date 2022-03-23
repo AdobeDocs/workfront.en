@@ -37,12 +37,13 @@ You must have the following access to perform the steps in this article:
 
 ## Customize the Main Menu
 
-1. In the upper-right corner of Workfront, click the Main menu, then click on your user avatar. 
-1. In your user profile, click the More menu next to your name, then select Edit. 
-1. Click `Preferences`.  
+1. In the upper-right corner of Workfront, click the **Main menu**, then click on your user avatar. 
+1. In your user profile, click the **More** menu next to your name, then select **Edit**. 
 
-1. (Optional) In the `When I log in, show:` field, select the default landing page for your Workfront web application.
-1. Click the `In the Global Nav bar, show:` drop-down list, then select the areas that you want to show in the Main Menu.
+1. Click **Preferences**.  
 
-1. Click `Save Changes`.
+1. (Optional) In the **When I log in, show:** field, select the default landing page for your Workfront web application.
+1. Click the **In the Global Nav bar, show:** drop-down list, then select the areas that you want to show in the Main Menu.
+
+1. Click **Save Changes**.
 

@@ -5,12 +5,12 @@
 As an Adobe Workfront administrator, you can use an access level to define a user’s access to Scenario Planner, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).&nbsp;
 
 In addition to access to Scenario Planner, a user with a non-System Administrator access level must also have access to financial data in order to see any financial information contained in a plan, such as budgets, costs, and job role rates. For more information, see [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-Important: When granting access to Scenario Planner you must also enroll the users with this access to the new Adobe Workfront experience. Scenario Planner is not available in Adobe Workfront Classic. 
+``` ```**Important: **``````When granting access to Scenario Planner you must also enroll the users with this access to the new Adobe Workfront experience. Scenario Planner is not available in Adobe Workfront Classic. 
 
 ## Configure user access to Scenario Planner using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the option to the right of `Scenario Planner` that you want to use for this access level.
+1. Click the option to the right of **Scenario Planner** that you want to use for this access level.
 
    >[!NOTE]
    >

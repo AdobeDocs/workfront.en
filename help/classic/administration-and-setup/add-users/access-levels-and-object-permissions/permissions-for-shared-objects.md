@@ -6,11 +6,14 @@ product-area: system-administration
 navigation-topic: access-levels
 title: Permissions for shared objects
 description: Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in Share a project in Adobe Workfront. Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.
+hidefromtoc: true
 ---
 
 # Permissions for shared objects
 
 Anyone who can view an item in Adobe Workfront can grant other users permissions to that item when they share it, as described in [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md). Sharing permissions are specific to one item in Workfront and define what actions the recipient user or users can take on the item.
+
+![](assets/screen-shot-2014-01-20-at-1.10.15-pm-350x404.png)  
 
 ##  
 
@@ -26,23 +29,23 @@ A user with permissions to at least View an object can share that object with so
 
 The task of sharing an object is identical for all objects, as explained in [Overview of sharing permissions on objects in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md). You can share the following objects in Workfront:
 
-* `Projects`: For more information, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* **Projects**: For more information, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
-* `Templates`: For more information, see [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+* **Templates**: For more information, see [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-* `Portfolios`: For more information, see [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolios**: For more information, see [Share a portfolio in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 
-* `Tasks`: For information, see [Share a task in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+* **Tasks**: For information, see [Share a task in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-* `Issues`: For information, see [Share an issue in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+* **Issues**: For information, see [Share an issue in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
-* `Documents`: For information, see [Share a document in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
+* **Documents**: For information, see [Share a document in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md).
 
-* `Reports, dashboards, and calendars`: For information, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+* **Reports, dashboards, and calendars**: For information, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 * **Filters, views, and groupings**: For information, see [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md). 
 
-* `Programs`
+* **Programs**
 
 The following table illustrates the permission settings you can select from when sharing an object. Not all objects have all these settings available.
 
@@ -104,37 +107,345 @@ For more information about requesting permissions, see [Request access to object
 ## Sharing objects
 
 <!--
-The following table lists the objects can be shared in Workfront and the entities with which they can be shared:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><![CDATA[
+]]>The following table lists the objects can be shared in Workfront and the entities with which they can be shared:</p>
 -->
 
 <!--
-Object People Teams Job Roles Groups Companies Public System-Wide Calendars ✓ ✓ ✓ ✓ ✓ ✓ ✓ Custom Forms ✓ ✓ ✓ ✓ ✓ ✓ Documents ✓ ✓ ✓ ✓ ✓ ✓ ✓ Dashboards ✓ ✓ ✓ ✓ ✓ ✓ Issues ✓ ✓ ✓ ✓ ✓ ✓ Portfolios ✓ ✓ ✓ ✓ ✓ ✓ Programs ✓ ✓ ✓ ✓ ✓ ✓ Projects ✓ ✓ ✓ ✓ ✓ ✓ Reports ✓ ✓ ✓ ✓ ✓ ✓ ✓ Tasks ✓ ✓ ✓ ✓ ✓ ✓ Templates ✓ ✓ ✓ ✓ ✓ ✓
+<table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<thead>
+<tr> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Object</th>
+--> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">People</th>
+--> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Teams</th>
+--> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Job Roles</th>
+--> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Groups</th>
+--> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Companies</th>
+--> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">Public</th>
+--> <!--
+<th data-mc-conditions="QuicksilverOrClassic.Draft mode">System-Wide</th>
+-->
+</tr>
+</thead>
+<tbody>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Calendars</p>
+--> </th> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
+-->
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Forms</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓&nbsp;</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Documents</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Dashboards</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+-->
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Issues</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolios</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr> <!--
+<th scope="row" data-mc-conditions="QuicksilverOrClassic.Draft mode">Programs</th>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</td>
+-->
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Projects</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Reports</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+<tr>
+<th scope="row"> <!--
+<p class="wysiwyg-text-align-left" data-mc-conditions="QuicksilverOrClassic.Draft mode">Templates</p>
+--> </th>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;</p>
+--> </td>
+<td> <!--
+<p class="wysiwyg-text-align-center" data-mc-conditions="QuicksilverOrClassic.Draft mode">✓</p>
+--> </td>
+</tr>
+</tbody>
+</table>
 -->
 
 <!--
-* This is available only if your organization has purchased the Workfront Scenario Planner. For information about the Workfront Scenario Planner, see The Adobe Workfront Scenario Planner overview.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">* This is available only if your organization has purchased the Workfront Scenario Planner. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Adobe Workfront Scenario Planner overview</a>. </p>
 -->
 
 ##  
 
 This table lists the objects that users can share and how they can share them: 
 
-| ` `Object`` | ` `Share with Workfront users`` | ` `Share publicly with users outside of Workfront`` | ` `Share via email with anyone`` |
+| ```**Object**``` | ```**Share with Workfront users**``` | ```**Share publicly with users outside of Workfront**``` | ```**Share via email with anyone**``` |
 |---|---|---|---|
-| `Project` | `✓` |&nbsp; |&nbsp; |
-| `Task` | `✓` |&nbsp; |&nbsp; |
-| `Issue` | `✓` |&nbsp; |&nbsp; |
-| `Portfolio` | `✓` |&nbsp; |&nbsp; |
-| `Program` | `✓` |&nbsp; |&nbsp; |
-| `Template` | `✓` |&nbsp; |&nbsp; |
+| ```Project``` | ```✓``` |&nbsp; |&nbsp; |
+| ```Task``` | ```✓``` |&nbsp; |&nbsp; |
+| ```Issue``` | ```✓``` |&nbsp; |&nbsp; |
+| ```Portfolio``` | ```✓``` |&nbsp; |&nbsp; |
+| ```Program``` | ```✓``` |&nbsp; |&nbsp; |
+| ```Template``` | ```✓``` |&nbsp; |&nbsp; |
 | Custom Form |✓ |&nbsp; |&nbsp; |
-| `Report` | `✓` | `✓` |&nbsp; |
-| `Dashboard` | `✓` | `` |&nbsp; |
-| `Calendar` | `✓` | `✓` |&nbsp; |
+| ```Report``` | ```✓``` | ```✓``` |&nbsp; |
+| ```Dashboard``` | ```✓``` | `````` |&nbsp; |
+| ```Calendar``` | ```✓``` | ```✓``` |&nbsp; |
 | Filter |✓ |&nbsp; |&nbsp; |
 | View |✓ |&nbsp; |&nbsp; |
 | Grouping |✓ |&nbsp; |&nbsp; |
-| `Document` | `✓` | `✓` | `✓` |
+| ```Document``` | ```✓``` | ```✓``` | ```✓``` |
 
 ## Inherited permissions
 

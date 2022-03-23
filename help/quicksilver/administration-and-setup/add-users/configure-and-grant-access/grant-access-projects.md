@@ -40,7 +40,7 @@ You must have the following to perform the steps in this article:
 ## Configure user access to projects using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Projects, then select the abilities you want to grant under **Fine-tune your settings**.
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Projects, then select the abilities you want to grant under **Fine-tune your settings**.
 
    ![](assets/planner-fine-tune-your-settings-with-copy-projects-350x93.png)
 
@@ -56,7 +56,7 @@ You must have the following to perform the steps in this article:
    >  
    >
 
-1. (Optional) Click `set sharing defaults` to the right of the Create option, then `Add Rule` to add a sharing rule for new projects.
+1. (Optional) Click **set sharing defaults** to the right of the Create option, then **Add Rule** to add a sharing rule for new projects.
 
    When the user with this access level creates a project, the project is shared automatically with the users you select in the menu on the left.
 
@@ -72,7 +72,7 @@ You must have the following to perform the steps in this article:
 
    You can repeat this step to add as many project sharing rules as you need for the access level.
 
-1. Click the X to close the `Fine-tune your settings` box.
+1. Click the X to close the **Fine-tune your settings** box.
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. When you are finished, click Save.
 

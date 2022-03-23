@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms (V-Z)
 description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms (V-Z)
@@ -28,7 +29,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
  </thead> 
  <tbody> <!--
-   Velocity A measure of the total work cycle time (how long it takes to complete a piece of work) and how frequently work is done in the time originally committed (work-to-commit ratio).
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Velocity</td> 
+    <td>A measure of the total work cycle time (how long it takes to complete a piece of work) and how frequently work is done in the time originally committed (work-to-commit ratio).</td> 
+   </tr>
   --> 
   <tr> 
    <td>View</td> 
@@ -53,27 +57,60 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Work</td> 
    <td> <p>One of the two primary License Types. This has less access than Plan, but can create and make updates in the system. This mas more abilities than External, Reviewer, or Requester License Types.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td> 
   </tr> <!--
-   Work Breakdown Structure A hierarchical structure of the tasks to be executed by the project team based on the parent/child relationship.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work Breakdown Structure</td> 
+    <td>A hierarchical structure of the tasks to be executed by the project team based on the parent/child relationship.</td> 
+   </tr>
   --> <!--
-   Work management mix A Work Performance Indicator (WPI) of the proportion of work allocated to run your business versus change your business. The Mix WPI helps you understand, at an organizational level, whether your strategy has any real work allocation applied to it.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work&nbsp;management mix</td> 
+    <td>A Work Performance Indicator&nbsp;(WPI) of the proportion of work allocated to run your business versus change your business. The Mix WPI helps you understand, at an organizational level, whether your strategy has any real work allocation applied to it.</td> 
+   </tr>
   --> <!--
-   Work management SLA A quantifiable metric agreed upon by all stakeholders.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work management SLA</td> 
+    <td>A quantifiable metric agreed upon by all stakeholders.</td> 
+   </tr>
   --> <!--
-   Work Management Persona
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work Management Persona</td> 
+    <td>&nbsp;</td> 
+   </tr>
   --> <!--
-   Work Management Resource A designation of a persona in the system who is eligible to receive work or track time.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work Management Resource</td> 
+    <td>A designation of a persona in the system who is eligible to receive work or track time.</td> 
+   </tr>
   --> <!--
-   Work Management Role and Responsibilities Defining the owners and stakeholders for managing the scope, execution, and approvals of the designated issue, task, project, program, or portfolio.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work Management Role and Responsibilities</td> 
+    <td>Defining the owners and stakeholders for managing the scope, execution, and approvals of the designated issue, task, project, program, or portfolio.</td> 
+   </tr>
   --> <!--
-   Work Management Stakeholder A collection of users with a vested interest in the outcomes of a work request.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work Management Stakeholder</td> 
+    <td>A collection of users with a vested interest in the outcomes of a work request.</td> 
+   </tr>
   --> <!--
-   Work management touchpoints Digitized records of communication between stakeholders.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work management touchpoints</td> 
+    <td>Digitized records of communication between stakeholders.</td> 
+   </tr>
   --> <!--
-   Work Performance Indicators (WPI) Mix ratio, capacity, velocity, quality, and engagement
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work Performance Indicators (WPI)</td> 
+    <td>Mix ratio, capacity, velocity, quality, and engagement</td> 
+   </tr>
   --> <!--
-   Work Process The method in which work is received, prioritized, and executed. The way you execute the work is typically called "the workflow" or "project plan" (a list of tasks with dates, predecessor relationships, and so forth). Examples of a work process might be the production of a single asset or the delivery of a multi-asset campaign.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Work Process</td> 
+    <td> <p>The method in which work is received, prioritized, and executed. The way you execute the work is typically called "the workflow" or "project plan" (a list of tasks with dates, predecessor relationships, and so forth). </p> <p>Examples of a work process might be the production of a single asset or the delivery of a multi-asset campaign. </p> </td> 
+   </tr>
   --> <!--
-   Working time The data that makes up your schedules.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Working time</td> 
+    <td>The data that makes up your schedules.</td> 
+   </tr>
   --> 
  </tbody> 
 </table>

@@ -45,14 +45,14 @@ You must have the following:
 
 Add a custom form To add a custom form to a document:
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-Click the Custom Form tab in the right panel. Select the custom form you want to attach from the Make a Selection drop-down menu. Only active custom forms display in the drop-down menu. You can add up to 10 custom forms per document. If you need to create a custom form, see Create or edit a custom form. Click Edit Custom Form to enter information into the fields. Click Save to keep the information entered. Click Cancel to remove the information entered. Or Click Remove this form to remove the form from the document.
+```<li value="3">Click the <strong>Custom Form</strong> tab in the right panel.</li>``` ```<li value="4"> <p>Select the custom form you want to attach from the <strong>Make a Selection</strong> drop-down menu.</p> <p> Only active custom forms display in the drop-down menu. You can add up to 10 custom forms per document. If you need to create a custom form, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> <p>  <br> </p> </li>``` ```<li value="5"> <p>Click <strong>Edit Custom Form</strong> to enter information into the fields.</p> <p>  <br> </p> </li>``` ```<li value="6"> <p>Click <strong>Save</strong> to keep the information entered. Click <strong>Cancel</strong> to remove the information entered.</p> <p>Or</p> <p>Click <strong>Remove this form</strong> to remove the form from the document.</p> </li>```
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 

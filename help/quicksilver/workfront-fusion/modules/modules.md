@@ -22,7 +22,7 @@ This section contains the following articles:
 * [Iterator module](../../workfront-fusion/modules/iterator-module.md)
 
   <!--
-  Converger module
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/modules/converger-module.md" class="MCXref xref" xrefformat="{para}">Converger module</a> </li>
   -->
 
 * [HTTP request methods](../../workfront-fusion/modules/http-request-methods.md) 

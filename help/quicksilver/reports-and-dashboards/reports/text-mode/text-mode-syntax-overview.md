@@ -30,7 +30,7 @@ The following are common guidelines when building any reporting or list element 
   * You can display an object that is three objects away from the report or list object in a view.
   * You cannot reference objects that are more than 2 objects away from the main object in a grouping, filter, or custom prompt.
 
-  ` `**Example: **`` You can display the name or GUID of the Portfolio Owner in a task view:
+  ``` ```**Example: **`````` You can display the name or GUID of the Portfolio Owner in a task view:
 
   ```
   valuefield=project:portfolio:ownerID
@@ -69,7 +69,7 @@ The characteristics of camel case are:
 * The following words always start with an uppercase letter.
 * There are no spaces between the words.
 
-` `**Example: **`` To reference the Actual Completion Date of a project, the name of the field that you would use when building text mode reporting elements is 
+``` ```**Example: **`````` To reference the Actual Completion Date of a project, the name of the field that you would use when building text mode reporting elements is 
 
 ```
 actualCompletionDate
@@ -121,11 +121,11 @@ valueexpression
 * [Valuefield syntax overview for views and groupings](#valuefie) 
 * [Valueexpression syntax overview for views and groupings](#valueexp)
 
-` `**Tip: **``
+``` ```**Tip: **``````
 
 * Although the lines of code in the examples below are similar between views and groupings, always remember that every line of code for a grouping starts with the grouping number.
 
-  ` `**Example: **`` To group by Project Name in a project list or report, use the following line for the first-tier grouping:
+  ``` ```**Example: **`````` To group by Project Name in a project list or report, use the following line for the first-tier grouping:
 
   ```
   group.0.valuefield=name
@@ -133,7 +133,7 @@ valueexpression
 
 * If you edit multiple columns in a view in the same column (as it is the case of shared columns), remember that every line of code for each column starts with the column number. 
 
-  ` `**Example: **`` Use the following format to identify the first column of a view:
+  ``` ```**Example: **`````` Use the following format to identify the first column of a view:
 
   ```
   column.0.valuefield=name
@@ -167,7 +167,7 @@ line:
 
 * Use camel case to reference fields directly.
 
-  ` `**Example: **`` To reference the Task&nbsp;Actual Completion Date in a task view, use the following line:
+  ``` ```**Example: **`````` To reference the Task&nbsp;Actual Completion Date in a task view, use the following line:
 
   ```
   valuefield=actualCompletionDate
@@ -175,7 +175,7 @@ line:
 
 * Use camel case and colons to separate fields related to one another for the same object.
 
-  ` `**Example: **`` To reference the Project&nbsp;Planned Completion Date in a task view, use the following line:
+  ``` ```**Example: **`````` To reference the Project&nbsp;Planned Completion Date in a task view, use the following line:
 
   ```
   valuefield=project:plannedCompletionDate
@@ -185,7 +185,7 @@ line:
 
 * When referencing a custom field, use the name of the field exactly as it appears in the interface.
 
-  ` `**Example: **`` To reference a project custom field labeled Additional Details in a task view, use the following line:
+  ``` ```**Example: **`````` To reference a project custom field labeled Additional Details in a task view, use the following line:
 
   ```
   valuefield=project:Additional Details
@@ -215,7 +215,7 @@ valueexpression=
 
 when building views and groupings in text mode when you want to reference a calculation between 2 or more fields.
 
-` `**Tip: **`` Although you can build calculated fields which you can display in reports, calculated views and groupings are more dynamic. Calculated views and groupings refresh with new information every time you run the report or display a list.
+``` ```**Tip: **`````` Although you can build calculated fields which you can display in reports, calculated views and groupings are more dynamic. Calculated views and groupings refresh with new information every time you run the report or display a list.
 
 For information about creating calculated columns in a view, see [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 Building a calculated grouping is similar to building a calculated column in a view.
@@ -230,7 +230,7 @@ line:
 
 * Use camel case to reference fields directly and enclose each field in curly brackets.
 
-  ` `**Example: **`` To display the Task Name field in a task column using 
+  ``` ```**Example: **`````` To display the Task Name field in a task column using 
 
   ```
   valueexpression
@@ -244,7 +244,7 @@ line:
 
 * Use camel case and periods to separate fields related to one another.
 
-  ` `**Example: **`` To display the name of a project concatenated with the name of the task in a task report, use the following lines:
+  ``` ```**Example: **`````` To display the name of a project concatenated with the name of the task in a task report, use the following lines:
 
   * In a view:   
   
@@ -267,7 +267,7 @@ line:
   * Enclose the field in curly brackets.
   * Separate the fields related to the object by periods.
 
-  ` `**Example: **`` To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
+  ``` ```**Example: **`````` To display the Additional&nbsp;Details project custom field in a task view in a valueexpression line, use the following line:
 
   ```
   valueexpression={project}.{DE:Additional Details}

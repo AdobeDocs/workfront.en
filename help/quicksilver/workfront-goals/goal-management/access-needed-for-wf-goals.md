@@ -57,11 +57,11 @@ Your Workfront administrator, must grant you one of the following Workfront lice
 
 After your Workfront administrator grants you one of these license types, they must also give you access to Goals in your access level. For information about access to Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-`As a Workfront administrator, you can review the number of Workfront Goals licenses in your system and` `understand` `how many are currently enabled. For more information, see` [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+```As a Workfront administrator, you can review the number of Workfront Goals licenses in your system and``` ```understand``` ```how many are currently enabled. For more information, see``` [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 >[!NOTE]
 >
->`Workfront allows you to assign more Workfront Goals licenses that you have purchased. However, when you assign more licenses than what your Workfront Goals contract allows, a Workfront account manager will contact you to let you know that you have exceeded your contractual number.`
+>```Workfront allows you to assign more Workfront Goals licenses that you have purchased. However, when you assign more licenses than what your Workfront Goals contract allows, a Workfront account manager will contact you to let you know that you have exceeded your contractual number.```
 
 ##  Add Workfront Goals to a layout template
 

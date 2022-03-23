@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: navigate-workfront
 title: Adobe Workfront navigation
 description: This section contains the following articles:
+hidefromtoc: true
 ---
 
 # Adobe Workfront navigation

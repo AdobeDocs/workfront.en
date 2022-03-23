@@ -18,9 +18,9 @@ When viewing&nbsp;a story tile on the story board, the information in the follow
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Information</span> </th> 
-   <th><span class="bold">Visible</span> </th> 
-   <th><span class="bold">Editable Inline</span> </th> 
+   <th><strong>Information</strong> </th> 
+   <th><strong>Visible</strong> </th> 
+   <th><strong>Editable Inline</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

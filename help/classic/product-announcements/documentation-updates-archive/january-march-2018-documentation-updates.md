@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: product-releases-archive
 title: January - March 2018 documentation updates
 description: This article describes changes that were made to the Workfront documentation between January - March 2018 based on features that are generally available (available to all Workfront customers).
+hidefromtoc: true
 ---
 
 # January - March 2018 documentation updates
@@ -17,10 +18,10 @@ This article describes changes that were made to the Workfront documentation bet
  <col> 
  <thead> 
   <tr> 
-   <th scope="col"> <p><span class="bold">Article or Section</span> </p> </th> 
-   <th scope="col"> <p><span class="bold">Change</span> </p> </th> 
-   <th scope="col"> <p><span class="bold">Article Status</span> </p> </th> 
-   <th scope="col"> <p><span class="bold">Effective Date</span> </p> </th> 
+   <th scope="col"> <p><strong>Article or Section</strong> </p> </th> 
+   <th scope="col"> <p><strong>Change</strong> </p> </th> 
+   <th scope="col"> <p><strong>Article Status</strong> </p> </th> 
+   <th scope="col"> <p><strong>Effective Date</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

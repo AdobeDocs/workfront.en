@@ -63,11 +63,11 @@ The following options are available to the user viewing the Workload Balancer fr
 
 * The following timeline selections:
 
-  * Today 
-  * Back and forward icons
-  * Calendar selection
+   * Today 
+   * Back and forward icons
+   * Calendar selection
 
-* The Day, Week, `and Month` icons 
+* The Day, Week, ```and Month``` icons 
 * The Settings icon
 * The Show allocations icon
 
@@ -99,27 +99,27 @@ You need the following access to view information in the Workload Balancer from 
 
 1. (Optional) Do one or more of the following:
 
-  * Update the time period selection.
-  * Click `Day, Week`, or `Month` to view daily, weekly, `or monthly` information.
+   * Update the time period selection.
+   * Click **Day, Week**, or **Month** to view daily, weekly, ```or monthly``` information.
 
-    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
+     ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-  * Apply filters to the Unassigned and Assigned Work areas.
+   * Apply filters to the Unassigned and Assigned Work areas.
 
-    For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+     For information about filtering information in the Workload Balancer, see [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Click the `link icon` ![](assets/wb-shearable-link-icon-small.png).
+1. Click the **link icon** ![](assets/wb-shearable-link-icon-small.png).
 
    This adds the link to your clipboard. 
 
 1. Do one of the following to share the link with others:
 
-  * Paste it into an e-mail, chat message, or any other application and share that with other users. 
-  * Add it to a custom tab as an external page, add the custom tab to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups.
+   * Paste it into an e-mail, chat message, or any other application and share that with other users. 
+   * Add it to a custom tab as an external page, add the custom tab to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups.
 
-    For information about creating an&nbsp;External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about customizing tabs using Layout Templates, see Create and manage layout templates.
+     For information about creating an&nbsp;External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about customizing tabs using Layout Templates, see [Create and manage layout templates](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-    >[!IMPORTANT]
-    >
-    >When you add the Workload Balancer to the custom tab of an object, the information in the Workload Balancer is not filtered by the object.&nbsp;The Workload Balancer displays the information filtered by the originally applied filters.
+     >[!IMPORTANT]
+     >
+     >When you add the Workload Balancer to the custom tab of an object, the information in the Workload Balancer is not filtered by the object.&nbsp;The Workload Balancer displays the information filtered by the originally applied filters.
 

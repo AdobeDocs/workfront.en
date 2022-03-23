@@ -1,6 +1,6 @@
 
 
-# `Workfront Tools for AEM User Guide : Map Property`
+# ```Workfront Tools for AEM User Guide : Map Property```
 
 This workflow step will allow a user to map a property to a Adobe Workfront custom form on a project, task, issue, or document. The Workfront artifact this step affects will be looked up using a relative path from the payload. Which properties to map are controlled within the steps dialog configuration.
 
@@ -18,7 +18,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Work or higher
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Work or higher</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -37,9 +40,9 @@ You must have the following access to perform the steps in this article:
 
 ## Configuration
 
-* `Type:` This field allows you to select the Workfront object type that the properties should be mapped to.
-* `ID Property:` This field allows you to specify the path to the ID of the Workfront object that the properties should be mapped to. The path specified in this field should be relative to the workflow payload.
-* `Property Assignments: This multi-field allows you to specify the mappings between AEM properties and Workfront fields. Each item in the multi-field will specify one mapping. Each mapping should have the following format:` *<workfront-field>***=***<aem-mapped-property>*
+* ```Type:``` This field allows you to select the Workfront object type that the properties should be mapped to.
+* ```ID Property:``` This field allows you to specify the path to the ID of the Workfront object that the properties should be mapped to. The path specified in this field should be relative to the workflow payload.
+* ```Property Assignments: This multi-field allows you to specify the mappings between AEM properties and Workfront fields. Each item in the multi-field will specify one mapping. Each mapping should have the following format:``` *<workfront-field>***=***<aem-mapped-property>*
 
 Where workfront-field can be one of the following:
 

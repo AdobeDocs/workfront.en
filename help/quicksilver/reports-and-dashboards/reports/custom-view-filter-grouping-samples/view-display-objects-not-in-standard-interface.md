@@ -30,7 +30,7 @@ You can determine which fields can be included in a view in either of the follow
   ```
 
   .  
-  For example, in the standard mode interface, the `Portfolio Owner ID` field is available for a project view, but the `Portfolio Owner Name` field is not. You can use text mode to display the `Portfolio Owner Name` in the column of a view.
+  For example, in the standard mode interface, the **Portfolio Owner ID** field is available for a project view, but the **Portfolio Owner Name** field is not. You can use text mode to display the **Portfolio Owner Name** in the column of a view.
 
 ## Access requirements
 
@@ -64,12 +64,12 @@ You must have the following access to perform the steps in this article:
 ## Example: add the Portfolio Owner Name column to a project view
 
 1. Go to a list of projects.
-1. From the `View` drop-down menu, click `New View`.
+1. From the **View** drop-down menu, click **New View**.
 
-1. Click `Add Column` then start typing "Portfolio Owner ID" in the `Show in this column` field, then select it when it displays in the list.
+1. Click **Add Column** then start typing "Portfolio Owner ID" in the **Show in this column** field, then select it when it displays in the list.
 
-1. Click `Switch to Text Mode`.
-1. Hover over the text mode area, and click `Click to edit text`.
+1. Click **Switch to Text Mode**.
+1. Hover over the text mode area, and click **Click to edit text**.
 1. Replace the 
 
    ```
@@ -90,7 +90,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Remove the text you find in the `Text Mode` box, and replace it with the following code:
+   Remove the text you find in the **Text Mode** box, and replace it with the following code:
    <pre>valuefield=portfolio:owner:name</pre><pre>querysort=portfolio:ownerID</pre><pre>valueformat=HTML</pre><pre>displayname=Portfolio Owner Name</pre><pre>linkedname=portfolio</pre>In this particular example, the report will sort the report by the Portfolio Owner ID, as indicated by the 
 
    ```
@@ -133,5 +133,5 @@ You must have the following access to perform the steps in this article:
    >
    >line.
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

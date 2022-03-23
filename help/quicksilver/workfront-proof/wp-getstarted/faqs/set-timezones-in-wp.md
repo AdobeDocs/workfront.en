@@ -22,9 +22,9 @@ All guest reviewers (users without their own Workfront Proof account) will see a
 
 ## Setting Your Personal Time Zone
 
-1. Click `Settings` > `Personal settings`, then open the `Settings` tab.
+1. Click **Settings** > **Personal settings**, then open the **Settings** tab.
 
-1. (Optional) To change the format of the dates and times displayed in your account, edit the `Dates format`.   
+1. (Optional) To change the format of the dates and times displayed in your account, edit the **Dates format**.   
    If you'd like to see the times displayed in the AM/PM format, make sure to pick the following option from the menu:
 
 1. ![Dates_format.png](assets/dates-format-350x152.png)
@@ -33,7 +33,7 @@ All guest reviewers (users without their own Workfront Proof account) will see a
 
 If you are an Account Administrators, you can set a default time zone for your organization. This time zone will be set by default for all new user added to the organization (but can be changed by the individual user).
 
-1. Click `Settings` > `Personal settings`, then open the `Settings` tab.
+1. Click **Settings** > **Personal settings**, then open the **Settings** tab.
 
-1. Under `Account details`, click Edit to the right of `Time zone default` and make the change.
+1. Under **Account details**, click Edit to the right of **Time zone default** and make the change.
 

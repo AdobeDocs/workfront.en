@@ -45,13 +45,13 @@ You must have the following access to perform the steps in this article:
 
 ## View previous proof versions in the proofing viewer
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
 1. In the upper-left corner of the proofing viewer, click the name of the proof.
 
    ![phq_viewer_version.png](assets/phq-viewer-version-350x184.png)
 
 1. In the list that appears, click the version you want to view.
-1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the `Unlock` icon in the left panel, then click `Yes, unlock`. For more information, see [Lock or unlock a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).
+1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the **Unlock** icon in the left panel, then click **Yes, unlock**. For more information, see [Lock or unlock a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md).
 

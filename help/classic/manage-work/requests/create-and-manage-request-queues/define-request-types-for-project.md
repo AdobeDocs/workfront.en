@@ -51,16 +51,17 @@ Before you begin, you must
 
 ## Considerations about Request Types
 
-* You can specify the type of issues or requests that can be logged on a project when you configure the `Queue Details`&nbsp;area on the Queue Setup tab for the project.
+* You can specify the&nbsp;type of issues or requests that can be logged on a project when you configure the **Queue Details**&nbsp;area  on the **Queue Setup** tab for the project.
 * You don't have to enable the project to be a request queue to be able to define Request&nbsp;Types for a project. Any issues logged for a project can be labeled with a different Request&nbsp;Type. 
 * If you add Queue Topics to your project, you must define Request&nbsp;Types on each queue topic to display it when adding a new issue or request. For more information, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Define the issue or request types for a project
 
-1. Go to the Projects area in the Global Navigation Bar. 
+1. Go to the **Projects** area in the Global Navigation Bar. 
 1. Click the name of the project to open it.
-1. Click More > Queue Setup. 
-1. In the `Queue Properties` section,on the Queue Details sub-tab, select the `Request Types` you want for the project.
+1. Click **More** > **Queue Setup**. 
+
+1. In the **Queue Properties** section, on the **Queue Details** sub-tab, select the **Request Types** you want for the project.
 
    >[!NOTE]
    >
@@ -68,16 +69,16 @@ Before you begin, you must
 
    Select from the following types:
 
-  * Bug Report
-  * Change Order
-  * Issue
-  * Request
+   * Bug Report
+   * Change Order
+   * Issue
+   * Request
 
    >[!TIP]
    >
    >Your Workfront administrator might have renamed some of these options. For information, see [Configure request types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Click `Save`.
+1. Click **Save**.
 
    The request types you specified&nbsp;will be available to select when you enter a new issue on a task or a project, or when you submit a new request to the project, if the project is enabled as a request queue.
 

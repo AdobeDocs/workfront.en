@@ -42,12 +42,12 @@ You must have the following to perform the steps in this article:
 ## Create direct reports
 
 1. Begin editing a user as described in [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
-1. In the `Organization` section, ensure that a company is selected in the `Company` field.
+1. In the **Organization** section, ensure that a company is selected in the **Company** field.
 
    This field cannot be blank.
 
-1. In the `Direct Reports` field, specify any users who report to the user you are editing.  
+1. In the **Direct Reports** field, specify any users who report to the user you are editing.  
 
-1. (Optional) In the `Reports To` field, specify the name of the user who this user reports to.
-1. Click `Save Changes`.
+1. (Optional) In the **Reports To** field, specify the name of the user who this user reports to.
+1. Click **Save Changes**.
 

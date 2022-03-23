@@ -17,7 +17,7 @@ By default, a task requester/ assigner does not receive email notifications for 
 
 ## Why does the New Task button not show in the Subtasks section?
 
-The New Task button does not show in the subtask sectionwhen there is an Approval on the main task.
+The New Task button does not show in the subtask section when there is an Approval on the main task.
 
 ### Answer
 

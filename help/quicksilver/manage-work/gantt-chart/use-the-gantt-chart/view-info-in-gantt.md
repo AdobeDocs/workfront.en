@@ -65,19 +65,19 @@ You can view the task information for a project directly from a list of projects
 To view tasks in a project from a list of projects:
 
 1. Go to one of the areas mentioned above.
-   For example, from the main menu, click Projects.  
+   For example, from the main menu, click **Projects**.   ![](assets/qs-main-menu-expanded-with-menu-highlight-350x481.png)
 
    A list of projects displays. 
 
-1. Click the `Gantt chart` icon  in the upper-right corner of the screen.  
+1. Click the **Gantt chart** icon  in the upper-right corner of the screen.  
 
-1. Click the `Show Task List` icon.  
+1. Click the **Show Task List** icon.  
 
 1. In the project list to the left, click the drop-down arrow next to the name of the project to display any tasks under that project.  
    This displays task information on the Gantt chart.  
    ![Show_task_list_enabled_project_expanded.png](assets/show-task-list-enabled-project-expanded-350x78.png)
 
-1. (Optional) Click the `Print` icon in the upper-right corner to export the Gantt chart.
+1. (Optional) Click the **Print** icon in the upper-right corner to export the Gantt chart.
 
    >[!NOTE]
    >
@@ -103,13 +103,13 @@ You can adjust the time period shown on the Gantt chart to display information o
 
 1. Select a time frame from the following available options:
 
-  * `Fit All`: This option displays the time line of the entire project.
-  * `All Projects`: This option is available only in the Project List Gantt chart.
-  * `Year`
-  * `Quarter`
-  * `Month`
-  * `Week`
-  * `Day`
+  * **Fit All**: This option displays the time line of the entire project.
+  * **All Projects**: This option is available only in the Project List Gantt chart.
+  * **Year**
+  * **Quarter**
+  * **Month**
+  * **Week**
+  * **Day**
 
 1. (Optional) Select a more granular time frame, such as Week or Day, and click and drag the horizontal scroll bar at the bottom of the Gantt chart to move left to right on the time line of the project.  
    A timeline snapshot of the Gantt displays to show the entire project.
@@ -128,7 +128,7 @@ You can adjust the time period shown on the Gantt chart to display information o
 
 The Gantt chart is a visual representation of the information that is currently displayed in the task list. You can apply filters, views, and groupings to&nbsp;the objects listed in both Gantt charts.&nbsp;
 
-` `**Warning: **``You cannot apply filters, views, and groupings when you select Manual save Timeline Planning to save changes to your task list.&nbsp;For information about saving changes to tasks in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+``` ```**Warning: **``````You cannot apply filters, views, and groupings when you select Manual save Timeline Planning to save changes to your task list.&nbsp;For information about saving changes to tasks in a list, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 Filters and groupings that you apply to the list are reflected on both the Project List and Task List Gantt charts and are also included when the Gantt charts are exported:
 

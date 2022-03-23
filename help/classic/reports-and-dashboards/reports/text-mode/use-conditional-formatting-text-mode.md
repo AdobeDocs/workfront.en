@@ -64,13 +64,13 @@ To add conditional formatting to a view in the text mode interface:
 
 1. Go to a list of objects.
 1. Expand the drop-down menu of a view to which you want to add conditional formatting.
-1. Click `Customize View`.
+1. Click **Customize View**.
 1. Click the column in the view to which you want to apply conditional formatting.
-1. Click `Switch to Text Mode`.
-1. In the `Show in this column:` area, click `Click to edit text`.
+1. Click **Switch to Text Mode**.
+1. In the **Show in this column:** area, click **Click to edit text**.
 
 1. Add the code samples provided in [Format Views using Text Mode](#formatting-views-in-text-mode) at the bottom of the text in the column you selected.
-1. Click `Save`, then click `Save View`.
+1. Click **Save**, then click **Save View**.
 
 ## Format Views using Text Mode
 
@@ -103,7 +103,59 @@ Dates can be configured to display in a variety of formats.
 For more information, see [Format dates in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
-To establish a date format, you must modify the valueformat line of the text mode code in the column. valueformat=&nbsp;[new date format] For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like: valueformat=atDate valuefield=projectedCompletionDate&nbsp; If you wanted to show the Planned Completion Date as Mth, DD, Year, the code would look like: valueformat=mediumAtdate valuefield=plannedCompletionDate You can format dates using the following valueformat text mode values: Format Example valueformat= MM/DD/YY 10/11/18 atDate MM/DD/YY Time 10/11/18 12:00pm longAtDate MM/DD/YY 10/11/18 shortAtDate Mth, DD, YR Oct, 11, 2018 mediumAtDate DW, Mth, Day, YR Mon, Oct, 11, 2018 partialAtDate DW, Mth, Day, YR Time Mon, Oct, 11, 2018 12:00 pm fullAtDate
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>To establish a date format, you must modify the <code>valueformat</code> line of the text mode code in the column.</p>
+<pre>valueformat=&nbsp;[new date format]</pre>
+<p>For example, if you wanted the Projected Completion Date to be displayed as MM/DD/YY the code would look like:</p>
+<pre>valueformat=atDate<br>valuefield=projectedCompletionDate&nbsp;</pre>
+<p>If you wanted to show the Planned Completion Date as <em>Mth, DD, Year</em>, the code would look like:</p>
+<pre>valueformat=mediumAtdate<br>valuefield=plannedCompletionDate</pre>
+<p>You can format dates using the following <code>valueformat</code>&nbsp;text mode values:</p>
+<table cellspacing="15">
+<col>
+<col>
+<col>
+<thead>
+<tr>
+<th scope="col"><strong>Format</strong> </th>
+<th scope="col">Example&nbsp;</th>
+<th scope="col"><em><strong>valueformat=</strong></em> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>MM/DD/YY</td>
+<td>10/11/18</td>
+<td><pre>atDate</pre> </td>
+</tr>
+<tr>
+<td>MM/DD/YY Time</td>
+<td>10/11/18 12:00pm</td>
+<td><pre>longAtDate</pre> </td>
+</tr>
+<tr>
+<td>MM/DD/YY</td>
+<td>10/11/18</td>
+<td><pre>shortAtDate</pre> </td>
+</tr>
+<tr>
+<td>Mth, DD, YR</td>
+<td>Oct, 11, 2018</td>
+<td><pre>mediumAtDate</pre> </td>
+</tr>
+<tr>
+<td>DW, Mth, Day, YR</td>
+<td>Mon, Oct, 11, 2018</td>
+<td><pre>partialAtDate</pre> </td>
+</tr>
+<tr>
+<td>DW, Mth, Day, YR Time</td>
+<td>Mon, Oct, 11, 2018 12:00 pm</td>
+<td><pre>fullAtDate</pre> </td>
+</tr>
+</tbody>
+</table>
+</div>
 -->
 
 #### Format numbers
@@ -113,7 +165,60 @@ You can format numeric values to display information that best suits your report
 For more information, see [Format numbers, currency and percentage values in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
 
 <!--
-To modify the format of a numeric value, you must edit the valueformat line of your column. For example, if you wanted to display the Budget column as $1000, the value format line would look like: valueformat=currencyStringCurrencyRounded valuefield=budget You can format numbers using the following values for the valueformat line of your column: Example valueformat= 1234 doubleAsString or int 1,234 doubleAsInt $1,234 currencyStringCurrencyRounded 1234.56 doubleAsDouble $1,234.56 currencyStringCurrency 12% doubleAsPercentRounded 12.34% doubleAsPercent (1,234.56) doubleAsFinancial (1,234) doubleAsFiancialRounded
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>To modify the format of a numeric value, you must edit the&nbsp;<strong>valueformat</strong>&nbsp;line of your column.</p>
+<p>For example, if you wanted to display the Budget column as $1000, the value format line would look like:</p>
+<pre>valueformat=currencyStringCurrencyRounded<br>valuefield=budget</pre>
+<p>You can format numbers&nbsp;using the following values for the&nbsp;<code>valueformat</code>&nbsp;line of your column:</p>
+<table border="2" cellspacing="15" cellpadding="1">
+<col>
+<col>
+<thead>
+<tr>
+<th scope="col"><strong>Example</strong> </th>
+<th scope="col"><em><code>valueformat=</code></em> </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1234</td>
+<td><pre>doubleAsString</pre> or <pre>int</pre></td>
+</tr>
+<tr>
+<td>1,234</td>
+<td><pre>doubleAsInt</pre> </td>
+</tr>
+<tr>
+<td>$1,234</td>
+<td><pre>currencyStringCurrencyRounded</pre> </td>
+</tr>
+<tr>
+<td>1234.56</td>
+<td><pre>doubleAsDouble</pre> </td>
+</tr>
+<tr>
+<td>$1,234.56</td>
+<td><pre>currencyStringCurrency</pre> </td>
+</tr>
+<tr>
+<td>12%</td>
+<td><pre>doubleAsPercentRounded</pre> </td>
+</tr>
+<tr>
+<td>12.34%</td>
+<td><pre>doubleAsPercent</pre> </td>
+</tr>
+<tr>
+<td>(1,234.56)</td>
+<td><pre>doubleAsFinancial</pre> </td>
+</tr>
+<tr>
+<td>(1,234)</td>
+<td><pre>doubleAsFiancialRounded</pre> </td>
+</tr>
+</tbody>
+</table>
+</div>
 -->
 
 ### Column rules
@@ -192,7 +297,7 @@ Whether Text Color, Alignment, Font Style, or Background Color are applied to a 
 The following lines must be modified to reflect the corresponding formatting needed for the column:
 <pre>styledef.case.0.comparison.trueproperty.0.name= [format option]<br>styledef.case.0.comparison.trueproperty.0.value= [format style]</pre>Use the following tables to identify which lines need to be modified and what values you should specify&nbsp;to define the format style of your column:
 
-| `Text Color`  | `Line: *textcolor=*`  |
+| **Text Color** |**Line: textcolor=** |
 |---|---|
 | Black |<pre>000000</pre> |
 | Dark Blue |<pre>0c6aca</pre> |
@@ -203,18 +308,18 @@ The following lines must be modified to reflect the corresponding formatting nee
 | Red |<pre>d30519</pre> |
 | Yellow |<pre>e19503</pre> |
 
-| `Alignment`  | `Line: *align=*`  |
+| **Alignment** |**Line: align=** |
 |---|---|
 | Left alignment |<pre>left</pre> |
 | Right alignment |<pre>right</pre> |
 | Center Alignment |<pre>center</pre> |
 
-| Font |Line: * `fontstyle=`* |
+| Font |Line:&nbsp;***fontstyle=*** |
 |---|---|
 | Bold |<pre>bold</pre> |
 | Italic |<pre>italic</pre> |
 
-| `Background Color`  | `Line:* bgcolor=*`  |
+| **Background Color** |**Line: bgcolor=** |
 |---|---|
 | Teal |<pre>dcf6f7</pre> |
 | Green |<pre>def6e2</pre> |
@@ -251,11 +356,7 @@ For example, on a project report, set the Planned Start Date column value to not
 >```>
 >case.0.
 >```>
->&nbsp;use case comparisons to identifying the use of text. The lines that start with `>
->```>
->styledef.case.0
->```>
->.`&nbsp;are early conditional formatting statements where we identify the use of text through the >
+>&nbsp;use case comparisons to identifying the use of text. The lines that start with **styledef.case.0.**&nbsp;are early conditional formatting statements where we identify the use of text through the >
 >```>
 >truetext
 >```>
@@ -298,13 +399,7 @@ Similarly to formatting with text, images can be used to display information in 
 
 To use the images available, apply the following code and values:
 
-| `Icon`  | `Line:&nbsp;
-
-```
-image.case.0.comparison.truetext=
-```
-
-`  |
+| **Icon** |**Line: image.case.0.comparison.truetext=** |
 |---|---|
 | Frown Face&nbsp; ![](assets/face-sad.png)
 
@@ -401,9 +496,9 @@ Consider the following when adding aggregators to a column in Text Mode:
 
 * The values in the column must have a format that can be summarized.&nbsp;For example, they must have one of the following formats:
 
-  * Number
-  * Date
-  * Currency
+   * Number
+   * Date
+   * Currency
 
 * You can add an aggregator to a column that displays a calculation. The aggregated value displays in the grouping of the view or report. For more information, see [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * The lines of code for the definition of the column must be identical to the lines of code introducing the aggregator and preceded by "aggregator."&nbsp;For example, if you have a column where you display Planned Hours on a project, the text mode of the main lines of the column is:

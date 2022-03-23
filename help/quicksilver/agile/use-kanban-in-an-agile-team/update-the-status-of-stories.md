@@ -41,6 +41,11 @@ You must have the following access to perform the steps in this article:
 
 ## Update the status of stories on the Kanban board
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. Go to the Kanban board where you want to update the status of a story.
 1. Drag a story from one status column on the Kanban&nbsp;board and into another column.  
    A story remains in the Complete column for two weeks after it is added.  

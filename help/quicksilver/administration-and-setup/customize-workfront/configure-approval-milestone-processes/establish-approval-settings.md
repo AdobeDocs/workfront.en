@@ -36,12 +36,26 @@ You must have the following:
 ## Configure global approval settings
 
 1. Log in to Workfront as a Workfront administrator . 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Processes` > `Approvals` and Reviews.  
+1. Click **Processes** > **Approvals** 
 
-1. Click the Settings icon next to the Approvals and Reviews area name. 
-1. In the `Approval Settings` box that appears, specify the following information:
+   <!--
+   <span class="preview">and </span>
+   <strong>Reviews</strong>
+   -->
+
+   .  
+
+1. Click&nbsp;the **Settings** icon ![](assets/gear-icon-settings.png) next to the **Approvals** 
+
+   <!--
+   and Reviews
+   -->
+
+   area name.   
+
+1. In the **Approval Settings** box that appears, specify the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -53,7 +67,7 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader">Approver not required to be on the project team (for approval processes that include a role)</td> 
-      <td> <p>Select this if an approver is not required to be on the project team when an approval process includes a role. When assigning the approval decision to a job role, only the users who have a role associated with them on the project will see the approval. If you enable this setting, any user with that job role receives the approval request whether they are on the project team or not. For information about editing a user's project role, see <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Manage the Project Team</a>. </p> <p>Tip: When you assign an approval to a role and the <span class="bold">Approver not required to be on the project team (for approval processes that include a role)</span> is disabled but there are no roles in the project team that match the role on the approval, the approval is reassigned to the Project Owner. </p> </td> 
+      <td> <p>Select this if an approver is not required to be on the project team when an approval process includes a role. When assigning the approval decision to a job role, only the users who have a role associated with them on the project will see the approval. If you enable this setting, any user with that job role receives the approval request whether they are on the project team or not. For information about editing a user's project role, see <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Manage the Project Team</a>. </p> <p>Tip: When you assign an approval to a role and the <strong>Approver not required to be on the project team (for approval processes that include a role)</strong> is disabled but there are no roles in the project team that match the role on the approval, the approval is reassigned to the Project Owner. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Disable approval delegation</td> 
@@ -69,15 +83,15 @@ You must have the following:
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Allow users to recall newly created requests pending approval</span> </td> 
+      <td role="rowheader"><strong>Allow users to recall newly created requests pending approval</strong> </td> 
       <td> <p>Select this option to configure whether users can recall an issue or a request pending approval for their first status.&nbsp;You can associate the first status of an issue or a request with an approval process by configuring requests queues. <br></p> <p>For more information about request queues, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.</p> <p>Do one of the following:</p> 
        <ul> 
-        <li>Select this option to allow users to recall an approval for the first status of an issue or a request. In this case, they can see a <span class="bold">Recall</span> button on a new issue or request which is pending approval status. When they select to recall the issue, they will receive a warning that the issue will also be deleted. The issue is deleted after they have confirmed their recalling it.&nbsp;</li> 
-        <li> <p>Deselect this option to prevent users from recalling an issue or a request whose first status is pending approval. They cannot see a <span class="bold">Recall</span> button on the new issue or request and the approval must be granted. This is the default option.</p> <p>For more information about reviewing items waiting for approval, see <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a>.</p> </li> 
+        <li>Select this option to allow users to recall an approval for the first status of an issue or a request. In this case, they can see a <strong>Recall</strong> button on a new issue or request which is pending approval status. When they select to recall the issue, they will receive a warning that the issue will also be deleted. The issue is deleted after they have confirmed their recalling it.&nbsp;</li> 
+        <li> <p>Deselect this option to prevent users from recalling an issue or a request whose first status is pending approval. They cannot see a <strong>Recall</strong> button on the new issue or request and the approval must be granted. This is the default option.</p> <p>For more information about reviewing items waiting for approval, see <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals in Adobe Workfront</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save Changes.`&nbsp;
+1. Click **Save Changes.**&nbsp;
 

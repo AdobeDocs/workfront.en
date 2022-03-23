@@ -99,35 +99,35 @@ For more information, see [Run and deliver a report with the access rights of an
 To see all tasks or issues assigned to you, whether you are the Owner (or Primary Assignee) or not, use the following filter in a task or issue report:
 
 1. Access a task or issue report.
-1. On the `Filters` tab, click `Add a Filter Rule`.
+1. On the **Filters** tab, click **Add a Filter Rule**.
 
-1. In the `Start typing field name ...` field, start typing `Assignment Users Name`, then select it when it appears in the list.
+1. In the **Start typing field name ...** field, start typing **Assignment Users Name**, then select it when it appears in the list.
 
    >[!NOTE]
    >
-   >Do not use the `Assigned To Name` field, as this filters only for the tasks and issues for which you are the Primary Assignee, or Owner.
+   >Do not use the **Assigned To Name** field, as this filters only for the tasks and issues for which you are the Primary Assignee, or Owner.
 
-1. Select the `Equal` modifier.
+1. Select the **Equal** modifier.
 1. Start typing *$$USER.ID* in the textbox and select it from the drop-down list that appears.  
    This ensures that you see all tasks and issues that are assigned to the logged in user. You can replace the wildcard with a specific user name.  
 
-1. Click `Save + Close`.
+1. Click **Save + Close**.
 
 ## Why are the Add Issues/Add Tasks links not appearing at the bottom of my Issues and Tasks lists on a project?
 
 ### Answer
 
-First, ensure that you have the correct access and permissions to add issues and tasks to a project. In this case, you should see the `Add Issues` and `Add Tasks` links at the bottom of the `Issues` and `Tasks` lists.
+First, ensure that you have the correct access and permissions to add issues and tasks to a project. In this case, you should see the **Add Issues** and **Add Tasks** links at the bottom of the **Issues** and **Tasks** lists.
 
 However, there are a few things that may prevent these links from displaying:
 
 * If you have the quick filter applied to these lists, the links do not display. Remove the quick filter and the links should display so you can add issues and tasks to your projects.  
   For information about the quick filter, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-* If you have a `Grouping` applied to these lists, the links do not display. Remove the `Grouping` and the links should display so you can add issues and tasks to your projects.  
+* If you have a **Grouping** applied to these lists, the links do not display. Remove the **Grouping** and the links should display so you can add issues and tasks to your projects.  
   For information about creating Groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-* If you have a `View` applied to these lists that has a currency selected other than the default currency for the project, the links do not display. Change the `View` to `Project's Original Currency` and the links should display so you can add issues and tasks to your projects.  
+* If you have a **View** applied to these lists that has a currency selected other than the default currency for the project, the links do not display. Change the **View** to **Project's Original Currency** and the links should display so you can add issues and tasks to your projects.  
   For more information on changing the currency in your View, see [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Does the information in my report or dashboard refresh automatically?
@@ -160,9 +160,9 @@ If you have permissions to view or manage a report, you can also make a copy of 
 
 ### Answer
 
-Sometimes, the owner of the report is also the user specified in the `Run this report with the Access Rights of:` field on the report. If the `Run this report with the Access Rights of:` user is deactivated, the report no longer displays for users who have the report shared with them. When this happens, you can make the report accessible again by leaving the `Run this Report with the Access Rights of:` blank or entering an active user in the field.
+Sometimes, the owner of the report is also the user specified in the **Run this report with the Access Rights of:** field on the report. If the **Run this report with the Access Rights of:** user is deactivated, the report no longer displays for users who have the report shared with them.&nbsp;When this happens, you can make the report accessible again by leaving the **Run this Report with the Access Rights of:** blank or entering an active user in the field.
 
-To learn more about the `Run this Report with the Access Rights of:` field, see [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). For information on identifying all reports owned by deactivated users, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
+To learn more about the **Run this Report with the Access Rights of:** field, see [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md). For information on identifying all reports owned by deactivated users, see [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 ## How do I access a dashboard that contains a report owned by a deleted user?
 

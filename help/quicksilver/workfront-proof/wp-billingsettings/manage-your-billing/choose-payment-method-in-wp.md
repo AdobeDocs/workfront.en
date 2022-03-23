@@ -17,7 +17,7 @@ description: The following payment options are available:
 
 The following payment options are available:
 
-| `Monthly subscriptions`  | `Annual subscriptions`  |
+| **Monthly subscriptions** |**Annual subscriptions** |
 |---|---|
 | credit card |credit card |
 | bank transfer |
@@ -36,17 +36,17 @@ We do not accept checks
 
 To change your next payment method and update your credit card details:
 
-1. Click `Change payment details` (1) at the top of the page  
+1. Click **Change payment details** (1) at the top of the page  
    Or  
-   Click  `Next payment method`.&nbsp;(2)  
+   Click&nbsp;**Next payment method**.&nbsp;(2)  
    ![Payment_and_CC_details1.png](assets/payment-and-cc-details1-350x205.png)
 
-1. In the  `Change payment details`&nbsp;pop-up, select your next payment method. (3)
+1. In the&nbsp;**Change payment details**&nbsp;pop-up, select your next payment method. (3)
 1. (Conditional)&nbsp;For the Credit Card payments, enter your card details.  
    If you want to change your credit card details only, populate only the credit card details (4) fields with your new card data and save (5) the changes.&nbsp;You can change your credit card details at any time. The new&nbsp;card&nbsp;is used for all subscription payments effective immediately.  
    We accept Visa, American Express and MasterCard.
 
-1. Click `Save`. (4)  
+1. Click **Save**. (4)  
    ![Payment_and_CC_details.png](assets/payment-and-cc-details-350x217.png)
 
 ## Changing payment method&nbsp;details for Satellite accounts

@@ -49,6 +49,11 @@ You must have the following access to perform the steps in this article:
 
 To change the order or stories:
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. Go to the Kanban board&nbsp;that contains the stories that you want to reorder.
 1. Drag a story tile to the desired vertical location within a status column on the Kanban board.
 

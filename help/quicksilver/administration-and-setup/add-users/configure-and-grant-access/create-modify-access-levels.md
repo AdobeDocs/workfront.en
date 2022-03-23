@@ -1,17 +1,9 @@
----
-filename: create-modify-access-levels
-title: Create or modify access levels
-user-type: administrator
-product-area: system-administration;user-management
-navigation-topic: configure-access-to-workfront
-title: Create or modify custom access levels
-description: ** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
----
+
 
 # Create or modify custom access levels
 
 <!--
-** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.</p>
 -->
 
 As an Adobe Workfront administrator, you can create custom access levels and apply them to users, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
@@ -47,10 +39,10 @@ You must have the following to perform the steps in this article:
 
 ## Create or edit a custom access level
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Access Levels` in the left panel.
-1. Select the access level you want to copy and customize, then click `Copy`.
+1. Click **Access Levels** in the left panel.
+1. Select the access level you want to copy and customize, then click **Copy**.
 
    Or
 
@@ -64,20 +56,20 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is <span class="bold">Access Level Name (Copy),</span> where <span class="bold">Access Level Name</span> is the access level you copied.</p> <p>Tip: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Planner access level might be named ACME Planner.</p> </td> 
+      <td> <p>Type a name for your access level. </p> <p>If you just copied an access level to create a new one, the default name is <strong>Access Level Name (Copy),</strong> where <strong>Access Level Name</strong> is the access level you copied.</p> <p>Tip: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Planner access level might be named ACME Planner.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>Type a description for the access level. It’s helpful to list here what an user with this access level will be able to access.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">License Type</span> </td> 
+      <td role="rowheader"><strong>License Type</strong> </td> 
       <td>Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditional) If `Plan` is selected in the `License Type` box, scroll to the section `Allow administrative access for` and select administrative access permissions for those who will have this access level.
+1. (Conditional) If **Plan** is selected in the **License Type** box, scroll to the section **Allow administrative access for** and select administrative access permissions for those who will have this access level.
 
    <table cellspacing="0"> 
     <col> 
@@ -138,7 +130,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Set additional restrictions`, then set any restrictions you want for the access level.
+1. Click **Set additional restrictions**, then set any restrictions you want for the access level.
 
    >[!IMPORTANT]
    >
@@ -151,7 +143,11 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Never give access to the whole project when assigned to a task or issue</td> 
       <td> Prevents users assigned to tasks or issues to also gain permissions to the parent project, even if the project permissions allow that.<br><p>For more information about configuring the permissions on a project, see the section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref"></a> in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Edit projects</a>.</p></td> 
-     </tr> Never inherit document access from projects, tasks, issues, etc... Prevents documents from inheriting the permissions set on their parent object. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Never inherit document access from projects, tasks, issues, etc...</td> 
+      <td>Prevents documents from inheriting the permissions set on their parent object.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">View only updates in which they have been included in the conversation</td> 
       <td> <p>Enables users to see only comments where their name or the name of their team has been included.</p> <p> <p>Note: This prevents&nbsp;users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p> </p> </td> 
@@ -175,7 +171,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section `People in other companies should only view users from`.
+1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section **People in other companies should only view users from**.
 
    You can restrict the users to see just users from their own company or from the company you designated as the primary company. For more information about the primary company, see [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
@@ -184,18 +180,22 @@ You must have the following to perform the steps in this article:
    >If two users belong to two different companies, but they can both see users from the primary company, they can see the Updates area associated with the primary company.
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
-1. Click Save.
+1. Click **Save**.
 
    After the access level is created, you can assign it to a user
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    (unless it is a System Administrator access level)
+   </MadCap:conditionalText>
    -->
 
    . For more information, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    For information about how an Adobe administrator assigns a System Administrator access level to a users, see __________________.
+   </MadCap:conditionalText>
    -->
 
 ##  

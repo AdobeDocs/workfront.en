@@ -23,21 +23,21 @@ This article explains the following about the Dropzone:
 
 1. In your browser, go to the unique Dropzone URL, as described in [Configure the dropzone in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md)&nbsp;
 1. Enter your email address.
-1. Click `Select a file` or `Capture a web page` and choose the file or web page you want to upload.
+1. Click **Select a file** or **Capture a web page** and choose the file or web page you want to upload.
 
-1. Enter the security code, then click `Next`.  
+1. Enter the security code, then click **Next**.  
    A progress bar shows you the progress of your upload.  
    In the next screen, you will be able to add Proof details.  
    Note that this section appears&nbsp;only if it has been enabled in the Dropzone settings.
 
-1. Once you've filled in the details, click `Next`.
+1. Once you've filled in the details, click **Next**.
 1. Any reviewers added to the proof will only receive their notification email upon activation of the proof (see below).
 1. &nbsp;Your proof goes through the following states after you submit it to the Dropzone:
 
-  * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
-  * Once you complete the submission, the proof shows in your Dropzone as Submitted.
-  * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
-  * If the proof is locked, it shows in your Dropzone as Locked.
+   * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
+   * Once you complete the submission, the proof shows in your Dropzone as Submitted.
+   * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
+   * If the proof is locked, it shows in your Dropzone as Locked.
 
 ## Submitting a New Version of an Existing Proof via the Dropzone URL
 
@@ -45,9 +45,9 @@ This article explains the following about the Dropzone:
 1. Enter your email address.
 1. Select the check box to indicate that you are uploading a new version of an existing proof.  
    For information about creating a new version of a proof, see .
-1. Click `Select a file` or `Capture a web page` and choose the file or web page you want to upload.
+1. Click **Select a file** or **Capture a web page** and choose the file or web page you want to upload.
 
-1. Enter the security code, then click `Next`.  
+1. Enter the security code, then click **Next**.  
    A progress bar shows you the progress of your upload.  
    Workfront Proof sends you a validation email.
 
@@ -57,7 +57,7 @@ This article explains the following about the Dropzone:
    In the next screen you will be able to add proof details.   
    This section appears only if it has been enabled in Dropzone settings.
 
-1. Type the details, click `Next`.
+1. Type the details, click **Next**.
 
    >[!NOTE]
    >
@@ -65,10 +65,10 @@ This article explains the following about the Dropzone:
 
    Your proof goes through the following states after you submit it to the Dropzone:
 
-  * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
-  * Once you complete the submission, the proof shows in your Dropzone as Submitted.
-  * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
-  * If the proof is locked, it shows in your Dropzone as Locked.
+   * When you first upload a file to the Dropzone, the proof shows there as a Draft.&nbsp;
+   * Once you complete the submission, the proof shows in your Dropzone as Submitted.
+   * Once the proof has been activated and unlocked, it shows in your Dropzone as Active.
+   * If the proof is locked, it shows in your Dropzone as Locked.
 
 ## Emailing a Proof to the Dropzone
 
@@ -81,8 +81,7 @@ This article explains the following about the Dropzone:
 
 ## Completing Your Submission
 
-Workfront sends you (the submitter) a Complete your submission email asking you to confirm whether the file was a new proof or a new version. The link in the email notification is valid for 24 hours. `  
-`
+Workfront sends you (the submitter) a Complete your submission email asking you to confirm whether the file was a new proof or a new version. The link in the email notification is valid for 24 hours.****
 
 1. Click the link and follow the steps above, depending on whether it is a new proof or a new version of an existing proof.
 
@@ -96,13 +95,13 @@ The Dropzone owner receives a notification email to advise that a new proof has 
 
 To activate the proof:
 
-1. Go to the drop down menu to the right of the proof and click `Activate.` 
+1. Go to the drop down menu to the right of the proof and click **Activate.** 
 1. &nbsp;Once the proof has been activated/unlocked:
 
-  * The proof status changes to Active.
-  * Any people that were added to the proof will receive a notification email to advise that they have a new proof to review. (No email is sent until the proof has been activated/unlocked.)
-  * The proof can be worked on as normal  
-  * &nbsp;If the submitter also adds themselves explicitly to the proof, they will not receive a New proof email. For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+   * The proof status changes to Active.
+   * Any people that were added to the proof will receive a notification email to advise that they have a new proof to review. (No email is sent until the proof has been activated/unlocked.)
+   * The proof can be worked on as normal  
+   * &nbsp;If the submitter also adds themselves explicitly to the proof, they will not receive a New proof email. For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
 ## Managing Your Dropzone
 

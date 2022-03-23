@@ -41,16 +41,18 @@ You must have the following access to perform the steps in this article:
 
 ## Add an existing program to a portfolio
 
-1. Select the Programs tab. 
-1. Click `Add Program`.
-1. Click `Existing Program`.
+1. Projects
+1. Portfolios
+1. Select the **Programs** tab.  
+1. Click **Add Program**.
+1. Click **Existing Program**.
 
    >[!IMPORTANT]
    >
    >Adding an existing program carries all projects associated with that program to the portfolio. Be careful not to unintentionally move projects this way.
 
-1. In the `Add Programs` dialog box, type and select the name of a program.
+1. In the **Add Programs** dialog box, type and select the name of a program.
 1. (Optional) To add additional programs, type and select the name of a program.
-1. Click `Add Programs`.  
-   The program appears in the `Programs` tab on the portfolio you selected.
+1. Click **Add Programs**.  
+   The program appears in the **Programs** tab on the portfolio you selected.
 

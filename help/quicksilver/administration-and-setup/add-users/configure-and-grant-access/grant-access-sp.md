@@ -29,7 +29,11 @@ You must have the following:
   <tr> 
    <td role="rowheader">Access level*</td> 
    <td> <p>View access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
-  </tr> Object permissions View permissions or higher for a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> <p>View permissions or higher for a plan</p> <p>For information on requesting additional access to a plan, see <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -38,7 +42,7 @@ You must have the following:
 ## Configure user access to Scenario Planner using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the option to the right of `Scenario Planner` that you want to use for this access level.
+1. Click the option to the right of **Scenario Planner** that you want to use for this access level.
 
    >[!NOTE]
    >

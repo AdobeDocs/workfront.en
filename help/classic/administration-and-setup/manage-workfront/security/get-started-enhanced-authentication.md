@@ -29,29 +29,30 @@ The following table provides details about current and future functionality:
 
 >[!IMPORTANT]
 >
->`Most customers are currently using Legacy Authentication and some are using Enhanced Authentication 1.0.  
+>```Most customers are currently using Legacy Authentication and some are using Enhanced Authentication 1.0.  
   
 >To verify which type of authentication you are currently using, go to *your_domain*.my.workfront.com/login. If you are redirected to /auth/login, then you are using Enhanced Authentication 1.0.  
   
 >If you are redirected to https://login-a-xx.workfront.com/, where 'xx' could be US (United States), EU (Europe), or GCP (Google Cloud Platform) depending on your location/platform, then you are using Enhanced Authentication 2.0.  
   
->All customers will be moving to Enhanced Authentication 2.0 by the end of 2021.`
+>All customers will be moving to Enhanced Authentication 2.0 by the end of 2021.```
 
 <table cellspacing="15"> 
  <col> 
  <col> 
- <col>  
+ <col> 
+ <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Feature</span> </p> </th> 
-   <th><span class="bold">Legacy Authentication</span> </th> 
-   <th><span class="bold">Enhanced Authentication 1.0</span> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th><strong>Legacy Authentication</strong> </th> 
+   <th><strong>Enhanced Authentication 1.0</strong> </th> 
    <th> <p>Enhanced Authentication 2.0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td colspan="3"> <p><span class="bold">Login options</span> </p> </td> 
+   <td colspan="3"> <p><strong>Login options</strong> </p> </td> 
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
@@ -71,11 +72,13 @@ The following table provides details about current and future functionality:
    <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
    <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case.&nbsp;</p> </td> 
    <td> <p class="preview">✓</p> <p class="preview">Multiple users cannot have the same email address if the address differs only by case. <!--
-      For more information, see .
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        For more information, see . 
+      </MadCap:conditionalText>
      --></p> <p class="preview">Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><span class="bold">Password management options</span> </p> </td> 
+   <td colspan="3"> <p><strong>Password management options</strong> </p> </td> 
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
@@ -91,7 +94,7 @@ The following table provides details about current and future functionality:
    <td> <p class="preview">Not planned</p> <p class="preview">This functionality is not a security best practice</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><span class="bold">Password policy requirements</span> </p> </td> 
+   <td colspan="3"> <p><strong>Password policy requirements</strong> </p> </td> 
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +120,9 @@ The following table provides details about current and future functionality:
    <td>✓</td> 
    <td> <p>✓&nbsp;</p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
    <td> <p class="preview">✓</p> <p class="preview"> <!--
-      To learn more about setting password requirements, see .
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        To learn more about setting password requirements, see . 
+      </MadCap:conditionalText>
      --> </p> </td> 
   </tr> 
   <tr> 
@@ -126,10 +131,15 @@ The following table provides details about current and future functionality:
    <td> ✓&nbsp;</td> 
    <td> <p class="preview">✓</p> </td> 
   </tr> <!--
-   Restrict users from using more than 2 identical characters in a row Not available Not available ✓
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Restrict users from using more than 2 identical characters in a row</td> 
+    <td>Not available</td> 
+    <td>Not available</td> 
+    <td> <p class="preview">✓</p> </td> 
+   </tr>
   --> 
   <tr> 
-   <td colspan="3"> <p><span class="bold">Single Sign-On Protocol support</span>&nbsp;&nbsp;</p> </td> 
+   <td colspan="3"> <p><strong>Single Sign-On Protocol support</strong>&nbsp;&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
@@ -163,7 +173,7 @@ The following table provides details about current and future functionality:
    <td> <p class="preview">✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><span class="bold">Environment support</span> </p> </td> 
+   <td colspan="3"> <p><strong>Environment support</strong> </p> </td> 
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
@@ -178,9 +188,19 @@ The following table provides details about current and future functionality:
    <td> <p>Not available</p> </td> 
    <td> <p class="preview">✓</p> </td> 
   </tr> <!--
-   Available for Production environments ✓ ✓ ✓
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> <p>Available for Production environments</p> </td> 
+    <td>✓</td> 
+    <td> ✓&nbsp;</td> 
+    <td> <p class="preview">✓</p> </td> 
+   </tr>
   --> <!--
-   Available for Preview and Sandbox environments ✓ ✓ ✓
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td> Available for Preview and Sandbox environments&nbsp;</td> 
+    <td> ✓&nbsp;</td> 
+    <td> ✓</td> 
+    <td> <p class="preview">✓</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>

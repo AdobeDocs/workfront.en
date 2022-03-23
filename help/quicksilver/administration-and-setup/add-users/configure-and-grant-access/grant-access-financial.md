@@ -1,12 +1,4 @@
----
-filename: grant-access-financial
-title: Grant access to financial data
-user-type: administrator
-product-area: system-administration
-navigation-topic: configure-access-to-workfront
-title: Grant access to financial data
-description: As an Adobe Workfront administrator, you can define a user’s access to the following through the user's access level, as explained in Access levels overview:
----
+
 
 # Grant access to financial data
 
@@ -48,8 +40,11 @@ Consider the following when granting users access to financial data in Workfront
 ## Configure user access to financial data using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Financial Data, then select the abilities you want to grant under **Fine-tune your settings**.
-1. (Optional) In the `Allow administrative access for` area, select the following options:<![CDATA[]]>
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Financial Data, then select the abilities you want to grant under **Fine-tune your settings**.
+
+   ![](assets/financial-data-fine-tune-nwe-350x85.png)
+
+1. (Optional) In the **Allow administrative access for** area, select the following options:<![CDATA[]]>
 
    <table cellspacing="0"> 
     <col> 

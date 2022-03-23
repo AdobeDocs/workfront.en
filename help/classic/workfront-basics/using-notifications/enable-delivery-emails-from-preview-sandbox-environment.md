@@ -62,18 +62,18 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   Search for a user in Workfront and click their name. Then, click Edit <User Name>'s Info, in the upper-right corner of their profile page.
+   Search for a user in Workfront and click their name. Then, click **Edit <User Name>'s Info**, in the upper-right corner of their profile page.
 
    Or
 
-   For multiple users: Go to the People tab in the People area. Then, select multiple users and click `Edit`.
+   For multiple users: Go to the **People** tab in the **People** area.  Then, select multiple users and click **Edit**.
 
-1. Click `Preferences`.
-1. Select `Receive emails from this test environment`.
+1. Click **Preferences**.
+1. Select **Receive emails from this test environment**.
 
    >[!NOTE]
    >
    >This option is not available if you are in a production environment.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

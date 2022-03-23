@@ -11,7 +11,7 @@ description: This is a transformer, not an app
 # CSV
 
 <!--
-This is a transformer, not an app
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This is a transformer, not an app</p>
 -->
 
 The CSV modules let you create CSV files and parse CSV text from a received text value or a file.
@@ -27,7 +27,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -36,7 +40,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -92,7 +103,26 @@ For more information on aggregators, see [Aggregator module](../../workfront-fus
 </table>
 
 <!--
-Example: Let us assume you would like to export your Google contacts to a CSV file with two columns "Full Name" and "Email". The output bundle from the Google Contacts > Get contacts from a group module has the following structure. The email addresses are stored inside the Emails[] item, which is an array of collections, each collection containing two items: Label and Email. If you employ the simple Create CSV module, you are offered a list of checkboxes corresponding to a bundle's top-level items. If you attempt to tick Full name and Emails items, the Create CSV module produces the following output, which is probably not what you want: "emails","fullName" "[object Object]","Shon Winer" "[object Object]","Lizeth Fulmore" "[object Object]","Hilario Gullatt" "[object Object]","Abby Eisenbarth" Since the item Full Name is of simple type Text, it is exported just fine. But the item Emails, which is of a complex type Array of Collections, is exported as [object Object], which is how Collections and Arrays are transformed to text by default. For more information, see Item data types. To export content of the Email item of the first collection of the Emails[] array instead, it is necessary to employ the Create CSV (advanced) module. The module enables you to define individual columns of your CSV file and map items to them, including the nested ones. Insert the module Create CSV (advanced) in a scenario and open its configuration. Click the Add button next to the Data structure field to create a new Data structure. Write in a name for the Data structure and click the Add item button to add the individual columns. If you want to export two columns: "Full Name" and "Email", the resulting Data structure would look like this: Once you have successfully defined the Data structure, fields corresponding to each individual column should appear in the configuration of the Create CSV (advanced) module so you can map the items. Take the first item from the Emails[] array and map its item Email to the field/column Email: Execute the scenario. Since the item Emails[1]: Email mapped to column "Email" is of simple type Text, it exports correctly now: "Full Name","Email" "Shon Winer","Shon@Winer.com" "Lizeth Fulmore","Lizeth@Fulmore.com" "Hilario Gullatt","Hilario@Gullatt.com" "Abby Eisenbarth","Abby@Eisenbarth.com"
+<div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span class="autonumber"><span><b>Example: </b></span></span>
+<p>Let us assume you would like to export your Google contacts to a CSV file with two columns "Full Name" and "Email". The output bundle from the Google Contacts > Get contacts from a group module has the following structure. The email addresses are stored inside the <code>Emails[]</code> item, which is an array of collections, each collection containing two items: <code>Label</code> and <code>Email</code>.</p>
+<p> <img src="assets/transforming-350x546.png" style="width: 350;height: 546;"> </p>
+<p>If you employ the simple Create CSV module, you are offered a list of checkboxes corresponding to a bundle's top-level items. If you attempt to tick <code>Full name</code> and <code>Emails</code> items, the Create CSV module produces the following output, which is probably not what you want:</p>
+<p>"emails","fullName"</p>
+<p>"[object Object]","Shon Winer"</p>
+<p>"[object Object]","Lizeth Fulmore"</p>
+<p>"[object Object]","Hilario Gullatt"</p>
+<p>"[object Object]","Abby Eisenbarth"</p>
+<p>Since the item <code>Full Name</code> is of simple type Text, it is exported just fine. But the item <code>Emails</code>, which is of a complex type Array of Collections, is exported as [object Object], which is how Collections and Arrays are transformed to text by default. For more information, see <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Item data types</a>.</p>
+<p>To export content of the <code>Email </code>item of the first collection of the <code>Emails[]</code> array instead, it is necessary to employ the Create CSV (advanced) module. The module enables you to define individual columns of your CSV file and map items to them, including the nested ones.</p>
+<ol>
+<li value="1">Insert the module Create CSV (advanced) in a scenario and open its configuration.</li>
+<li value="2">Click the <strong>Add</strong> button next to the Data structure field to create a new Data structure.</li>
+<li value="3"> <p>Write in a name for the Data structure and click the <strong>Add item</strong> button to add the individual columns. If you want to export two columns: "Full Name" and "Email", the resulting Data structure would look like this:</p> <p> <img src="assets/google-contacts-350x524.png" style="width: 350;height: 524;"> </p> </li>
+<li value="4"> <p>Once you have successfully defined the Data structure, fields corresponding to each individual column should appear in the configuration of the Create CSV (advanced) module so you can map the items. Take the first item from the <code>Emails[]</code> array and map its item <code>Email </code>to the field/column Email:</p> <p> <img src="assets/create-csv-advanced-350x308.png" style="width: 350;height: 308;"> </p> </li>
+<li value="5"> <p>Execute the scenario. Since the item <code>Emails[1]: Email</code> mapped to column "Email" is of simple type Text, it exports correctly now:</p> <p>"Full Name","Email"</p> <p>"Shon Winer","Shon@Winer.com"</p> <p>"Lizeth Fulmore","Lizeth@Fulmore.com"</p> <p>"Hilario Gullatt","Hilario@Gullatt.com"</p> <p>"Abby Eisenbarth","Abby@Eisenbarth.com"</p> </li>
+</ol>
+</div>
 -->
 
 ## Parse CSV

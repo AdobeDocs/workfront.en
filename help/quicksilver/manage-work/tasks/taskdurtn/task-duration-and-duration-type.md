@@ -17,11 +17,11 @@ The Duration Type of a task identifies the relationship between the number of re
 
 >[!NOTE]
 >
->When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see ` [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)`.
+>When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see ``` [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)```.
 
 If the Actual Start and&nbsp;Actual Completion Dates of the task fall outside of the schedule of the project, primary assignee, or the Default Schedule, the task&nbsp;Duration is zero.
 
-` `**Example: **``If you have a schedule that starts at 9:00&nbsp;AM and ends at 12:00&nbsp;PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
+``` ```**Example: **``````If you have a schedule that starts at 9:00&nbsp;AM and ends at 12:00&nbsp;PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
 
 The following are two scenarios that exist when calculating duration in&nbsp;Adobe Workfront.
 
@@ -58,7 +58,7 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 | Elapsed Weeks |EW |
 | Elapsed Months |ET |
 
-` `**Example: **`` If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list . You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task Details section.For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+``` ```**Example: **`````` If you want to indicate that a task's Duration is 3 Elapsed Day, you would type "3 ED" in the Duration field in a task list . You can also select the preferred option for the Duration Unit of Time from the available drop-down menu when editing a task or in the Task&nbsp;Details section. For information about editing tasks, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
 Consider the following when indicating the Duration of a task:
 
@@ -89,18 +89,18 @@ Duration Type helps to answer the following questions:
  <thead> 
   <tr> 
    <th scope="row">Duration Type </th> 
-   <th scope="col"> <p><span class="bold">Function</span> </p> </th> 
-   <th scope="col"> <p><span class="bold">How Resources Affect It</span> </p> </th> 
+   <th scope="col"> <p><strong>Function</strong> </p> </th> 
+   <th scope="col"> <p><strong>How Resources Affect It</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <th scope="col"> <p><span class="bold">Calculated Assignment</span> </p> </th> 
+   <th scope="col"> <p><strong>Calculated Assignment</strong> </p> </th> 
    <td scope="col"> <p>Calculates the allocation percentage for each assignee on a task. </p> <p>When you choose this Duration Type, you can input individual Duration and Planned Hours for the task. Workfront divides the Planned Hours by the number of hours inside the Duration of the task, then by the number of resources assigned to the task to calculate the allocation for each assignee.</p> <p>For more detailed information, see <a href="../../../manage-work/tasks/taskdurtn/calculated-assignment.md" class="MCXref xref">Duration Type overview: Calculated Assignment</a>.</p> </td> 
    <td scope="col">Duration and Planned Hours do not change when adding or removing assignees to the task. </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p><span class="bold">Calculated Work</span> </p> </th> 
+   <th scope="col"> <p><strong>Calculated Work</strong> </p> </th> 
    <td scope="col"> <p>Determines the Planned Hours (amount of effort) required for the task to be completed.</p> <p>Normally used when the resources assigned to the task are allocated for the entire Duration of the task.</p> <p>When you choose this Duration Type, you have the ability to input an individual Duration for the task. Workfront calculates the Planned Hours for the task by multiplying the number of days in the Duration by the number of work hours in the schedule and by the number of assignees to the task. </p> <p>You have the ability to manually change the allocation percentage of each assignee to the task which will shorten the amount of the Planned Hours.</p> <p>For more detailed information, see <a href="../../../manage-work/tasks/taskdurtn/calculated-work.md" class="MCXref xref">Duration Type overview: Calculated Work</a>.</p> </td> 
    <td scope="col"> <p>Planned Hours increase when assignees are added to the task. </p> <p>Planned Hours decrease when assignees are removed from the task.</p> </td> 
   </tr> 
@@ -110,7 +110,7 @@ Duration Type helps to answer the following questions:
    <td scope="col"> <p>Planned hours increase when assignees are removed from the task.</p> <p>Planned hours decrease when assignees are added to the task. </p> <p>The Duration does not change, regardless of changes in the number of assignees or their schedule. </p> <p>Duration is equal to Planned Hours. Planned Duration is equal to Planned Hours divided by the number of assignees.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p><span class="bold">Simple</span> </p> </th> 
+   <th scope="col"> <p><strong>Simple</strong> </p> </th> 
    <td scope="col"> <p>Determines the Planned Hours and the Duration (which are the same, for this Duration Type) based on the number of hours each assignee is allocated for. </p> <p>Workfront calculates the Planned Hours by adding up the planned allocated hours for each assignee. </p> <p>You have the ability to manually change the amount of hours that each assignee is allocated for, and the number of Planned Hours and the amount of the Duration changes accordingly. If you choose a total number of allocated hours for all the assignees, that number is divided equally between each assignee.</p> <p>For more detailed information, see <a href="../../../manage-work/tasks/taskdurtn/simple-duration-type.md" class="MCXref xref">Duration Type overview: Simple</a>.</p> </td> 
    <td scope="col"> <p>Hours are distributed evenly among assignees if you choose a total number of allocated hours. However, as the project manager, you can manually adjust the hours for each assignee. </p> <p>You can either edit Planned Hours and Duration of a task with a Simple Duration Type inline or at the task level. </p> <p>If an agile team is assigned to a task, the Duration Type is automatically set to Simple and cannot be changed. The task duration for an agile team must be greater than 0 minutes.</p> </td> 
   </tr> 
@@ -119,7 +119,7 @@ Duration Type helps to answer the following questions:
 
 ##  The Duration&nbsp;Type of new tasks
 
-The Duration Type of a new task matches the Duration Type set up in your system. The default Duration Type is Calculated Assignment. Your Workfront administrator `or a group administrator` can update the default Duration Type for your system `or for the group associated with the project`.&nbsp;For information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+The Duration Type of a new task matches the Duration Type set up in your system. The default Duration Type is Calculated Assignment. Your Workfront administrator ```or a group administrator``` can update the default Duration Type for your system ```or for the group associated with the project```.&nbsp;For information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ## Change the Duration Type of a task
 

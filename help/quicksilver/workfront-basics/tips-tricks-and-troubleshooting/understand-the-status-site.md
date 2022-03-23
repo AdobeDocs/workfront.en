@@ -17,26 +17,26 @@ You have access to the following information on the Status site:
 
 You can view status updates on the Adobe Status site.
 
-1. Go to [https://one.workfront.com](https://one.workfront.com/), then click `Status` in the `Support` section, in the lower-right corner of the page.
+1. Go to [https://one.workfront.com](https://one.workfront.com/), then click **Status** in the **Support** section, in the lower-right corner of the page.
 
    Or
 
    Type [status.adobe.com](http://status.adobe.com/) in your browser to access the Status site.
 
-1. Select `Experience Cloud`.
-1. Scroll down and select `Adobe Workfront` from the list of solutions.
+1. Select ```Experience Cloud```.
+1. Scroll down and select ```Adobe Workfront``` from the list of solutions.
 
 ## Subscribe or Manage your subscription
 
 To subscribe to the Status site or to manage your subscription after you have already subscribed:&nbsp;
 
 1. Go to [status.adobe.com](http://status.adobe.com/).
-1. In the status bar, select `Manage subscriptions`.
+1. In the status bar, select ```Manage subscriptions```.
 1. If you have an existing account, log in to the account; otherwise, create a new account.
-1. Click the `Create subscriptions` button.
-1. Select `Adobe Workfront` under the `Experience Cloud` header, then click `Continue`.
-1. Select your regional and event type preferences, then click `Continue`.
-1. Click `Done` to confirm your subscription.
+1. Click the ```Create subscriptions``` button.
+1. Select ```Adobe Workfront``` under the ```Experience Cloud``` header, then click ```Continue```.
+1. Select your regional and event type preferences, then click ```Continue```.
+1. Click ```Done``` to confirm your subscription.
 
 ## Understand named vulnerabilities
 
@@ -52,7 +52,7 @@ Vulnerability researchers and exploit creators name their projects internally to
 
 ### How do I view named vulnerabilities identified by Workfront?
 
-1. Go to  [status.adobe.com](https://status.adobe.com/), then click `Security`.
+1. Go to&nbsp; [status.adobe.com](https://status.adobe.com/), then click **Security**.
 
 ## Why is this important?
 

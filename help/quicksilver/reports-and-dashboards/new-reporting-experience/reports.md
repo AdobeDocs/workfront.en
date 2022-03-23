@@ -16,13 +16,13 @@ This section contains the following articles:
 * [Configure a column visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-column-visualization.md)
 
   <!--
-  Configure a line visualization in Reporting Canvas
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../reports-and-dashboards/new-reporting-experience/configure-line-visualization.md" class="MCXref xref" xrefformat="{para}">Configure a line visualization in Reporting Canvas</a> </p> </li>
   -->
 
 * [Configure pie visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-pie-visualization.md)
 
   <!--
-  Configure a bubble visualization in the Reporting Canvas
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../reports-and-dashboards/new-reporting-experience/configure-bubble-visualization.md" class="MCXref xref" xrefformat="{para}">Configure a bubble visualization in the Reporting Canvas</a> </p> </li>
   -->
 
 * [Configure a KPI visualization in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/configure-kpi-visualization.md) 
@@ -32,28 +32,28 @@ This section contains the following articles:
 * [Send a report in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/send-report.md)
 
 <!--
-Sarah had these in here for future stuff she heard about:
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah had these in here for future stuff she heard about:</p>
 -->
 
 * 
 
   <!--
-  Add a story to your report
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Add a story to your report</p>
   -->
 
 * 
 
   <!--
-  Embed an external source in a report
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Embed an external source in a report</p>
   -->
 
 * 
 
   <!--
-  Add a page filter to your report
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Add a page filter to your report</p>
   -->
 
 <!--
-For in-depth training on the Reporting Canvas, see [future Learning Path link].
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For in-depth training on the Reporting Canvas, see [future Learning Path link].</p>
 -->
 

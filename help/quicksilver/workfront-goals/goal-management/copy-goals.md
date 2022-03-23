@@ -37,7 +37,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -51,7 +59,7 @@ You must have the following before you can start:
 
 ## Considerations for copying goals
 
-`You must have access to Edit Goals in your access level before you can copy goals. For information about granting access to Goals, see` ` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)`.
+```You must have access to Edit Goals in your access level before you can copy goals. For information about granting access to Goals, see``` ``` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)```.
 
 Some of the reasons you might want to copy an existing goal are:
 
@@ -82,24 +90,24 @@ Consider the following when copying goals:
 
    This opens the Goal Details panel.
 
-1. Click the ` `More icon` ![](assets/more-icon.png),`then click `Copy`. 
+1. Click the ```**More icon** ![](assets/more-icon.png),```then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
    | New Goal |The name of the new goal. The default is the name of the original goal.  |
    |---|---|
-   | Period |The time period during which you want to achieve the goal. Select a time period from the drop-down menu or click `Define custom dates` to indicate a custom time period. By default, the Period is always the current quarter. |
+   | Period |The time period during which you want to achieve the goal. Select a time period from the drop-down menu or click **Define custom dates** to indicate a custom time period. By default, the Period is always the current quarter. |
    | Owner |The owner of the goal. It can be a user, team, group, or a company. The default is the owner of the original goal.  |
    | Description |Additional information about the goal.  |
 
-1. (Conditional) Select `Copy results` if the original goal had results added to it and you want to copy them to the new goal. This duplicates the original results to the new goal. The results of the copied goal have the same owner, names and measured values as the results of the original goal. 
+1. (Conditional) Select **Copy results** if the original goal had results added to it and you want to copy them to the new goal. This duplicates the original results to the new goal. The results of the copied goal have the same owner, names and measured values as the results of the original goal. 
 
-   ` `**Tips: **``
+   ``` ```**Tips: **``````
 
   * The progress of the original result does not transfer to the copied goal. 
   * If the original owner was deleted or deactivated from&nbsp;Workfront, the new result is assigned to the logged in user.
 
-1. Click `Save`.
+1. Click **Save**.
 
    The copied goal is saved with a status of Draft and displays in the Goal Details panel.
 
@@ -130,8 +138,8 @@ Consider the following when copying goals:
    >  
    >
 
-1. Click  `Activate`. The goal status updates to Active. 
-1. Click the `X` icon in the upper-right of the Goal Details panel to close it.
+1. Click&nbsp;**Activate**. The goal status updates to Active. 
+1. Click the **X** icon in the upper-right of the Goal Details panel to close it.
 
    The new goal displays in the following sections:
 
@@ -144,5 +152,5 @@ Consider the following when copying goals:
 
   1. Go to the original goal in the Goal List, Check-in page, or Pulse section and comment on the goal, to indicate that this goal was copied to another, more current goal. For information about commenting on a goal, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
   1. Close the original goal, to preserve the progress in its original time period. For information about closing goals, see [Close and reopen goals in Adobe Workfront Goals](../../workfront-goals/goal-management/close-and-reopen-goals.md). 
-  1. Update the `the `Initial` value` of the new Result to match the `End At` value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
+  1. Update the ```the **Initial** value``` of the new Result to match the **End At** value of the previous result, so that your new goal progress will start calculating from the point you achieved in the previous period.
 

@@ -4,6 +4,7 @@ product: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Filter information in Workfront Goals using the new Adobe Workfront experience
 description: By default, the filter shows Active and Draft goals, but other statuses can be added, too.
+hidefromtoc: true
 ---
 
 # Filter information in Workfront Goals using the new Adobe Workfront experience

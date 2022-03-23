@@ -49,13 +49,13 @@ You must have the following access to perform the steps in this article:
 ## View a project with all project team users and roles
 
 1. Go to a list of projects.
-1. From the `View` drop-down menu, select `New View`.
+1. From the **View** drop-down menu, select **New View**.
 
-1. In the `Column Preview` area, eliminate all columns except for one.
-1. Click the header of the remaining column, then click `Switch to Text Mode`.
-1. Mouse over the text mode area, and click `Click to edit text`.
-1. Remove the text you find in the `Text Mode` box, and replace it with the following code:
+1. In the**Column Preview** area, eliminate all columns except for one.
+1. Click the header of the remaining column, then click **Switch to Text Mode**.
+1. Mouse over the text mode area, and click **Click to edit text**.
+1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
    <pre>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat=int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield=objCode<br>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=60<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=Team Users<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.linkproperty.0.valuefield=userID<br>column.1.link.linkproperty.0.valueformat=int<br>column.1.link.page=/userView.cmd<br>column.1.listdelimiter=<br>column.1.listmethod=nested(projectUsers).lists<br>column.1.namekey=user.plural<br>column.1.stretch=30<br>column.1.type=iterate<br>column.1.valuefield=user:name<br>column.1.valueformat=HTML<br>column.1.width=150<br>column.2.description=Team Roles<br>column.2.link.linkproperty.0.name=ID<br>column.2.link.linkproperty.0.valuefield=ID<br>column.2.link.linkproperty.0.valueformat=int<br>column.2.link.page=/roleView.cmd<br>column.2.listdelimiter=<br>column.2.listmethod=nested(roles).lists<br>column.2.namekey=jobrole.plural<br>column.2.stretch=10<br>column.2.type=iterate<br>column.2.valuefield=name<br>column.2.valueformat=HTML<br>column.2.width=150.stretch=0</pre>
 
-1. Click `Save View`.
+1. Click **Save View**.
 

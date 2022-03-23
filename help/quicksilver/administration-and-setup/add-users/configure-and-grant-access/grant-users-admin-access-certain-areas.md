@@ -37,11 +37,11 @@ You must have the following to perform the steps in this article:
 >
 >We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. (You can do this for every access level except for System Administrator and External User.)
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Access Levels`.
+1. In the left panel, click **Access Levels**.
 1. Click the name of the access level you want to use to grant users administrative access to certain areas of Workfront.
-1. In the `Allow administrative access for` section, check boxes to grant the necessary administrative access.
+1. In the **Allow administrative access for** section, check boxes to grant the necessary administrative access.
 
    These options allow you to grant the following capabilities:
 

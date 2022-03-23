@@ -42,26 +42,26 @@ You must have the following:
 ## Remove the link between Workfront and Dropbox
 
 1. Log in to Dropbox.
-1. Click your profile picture in the upper right corner, then click `Settings`.
-1. Click the  `Connected apps` tab, then scroll down to `Linked apps`.
+1. Click your profile picture in the upper right corner, then click **Settings**.
+1. Click the&nbsp;**Connected apps** tab, then scroll down to **Linked apps**.
 
-1. Click the `X` next to Workfront.
+1. Click the **X** next to Workfront.
 
 ## Remove the link between Workfront and Box
 
 1. Log in to your Box account.
 1. Click your profile picture in the upper right corner.
-1. Click `Account Settings`, then the `Security` tab.
+1. Click **Account Settings**, then the **Security** tab.
 
-1. Find `MyWorkfront` and click the `X` under Forget App.
+1. Find **MyWorkfront** and click the **X** under Forget App.
 
 ## Remove the link between Workfront and Google Drive
 
 1. Log in to your Google Drive.
-1. Click the gear icon in the upper right corner, then click `Settings`.
-1. Click `Manage Apps` on the left side and find `Workfront` in the list.
+1. Click the gear icon in the upper right corner, then click **Settings**.
+1. Click **Manage Apps** on the left&nbsp;side and find **Workfront** in the list.
 
-1. Under the Options drop-down menu, click `Disconnect from Drive`.
+1. Under the Options drop-down menu, click **Disconnect from Drive**.
 
 ## Remove the links between Workfront and Other Document Storage Providers
 

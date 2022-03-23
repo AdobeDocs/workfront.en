@@ -12,7 +12,7 @@ You can upload files using WorkFront APIs with API tools, such as Postman, or wi
 
 To upload documents, see the instructions for **Uploading Documents** in WorkFront [Post Behavior](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FWF_API%2FGeneral%2Fapi-basics.html). You can also use these same instructions for cURL requests.
 
-`When using API tools to upload files, follow these guidelines:`
+**When using API tools to upload files, follow these guidelines:**
 
 * Use your API tool option to upload your file. These is often a **Choose File** button on the request screen. 
 * Use the POST HTTP method to make the request to upload the file. 

@@ -47,13 +47,13 @@ You must have the following access to perform the steps in this article:
 To apply this grouping:
 
 1. Go to a list of hours.
-1. From the `Grouping` drop-down menu, select `New Grouping`.
+1. From the **Grouping**&nbsp;drop-down menu, select **New Grouping**.
 
-1. Click `Switch to Text Mode`.
-1. Remove the text in the `Group your Report` area.  
+1. Click**Switch to Text Mode**.
+1. Remove the text&nbsp;in the **Group your Report** area.  
 
 1. Replace&nbsp;the text with the following code:  
    <pre>group.0.linkedname=project:sponsor:name<br>group.0.name=<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=HTML<br>textmode=true<br></pre>
 
-1. Click `Save Grouping`.
+1. Click **Save Grouping**.
 

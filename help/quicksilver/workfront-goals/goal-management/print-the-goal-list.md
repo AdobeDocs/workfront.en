@@ -37,7 +37,15 @@ You must have the following access to perform the actions described in this arti
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions on goals</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -51,12 +59,12 @@ You must have the following before you can start:
 
 ## Print the goal list
 
-` `**Tip: **``
+``` ```**Tip: **``````
 
 * When printing a list of goals, the file produced contains only the information displayed on the screen. Items eliminated by filtering a list of goals do not display in the .pdf file.
 * When you do not expand the goals in the list before printing the list, the .pdf file displays only goals without their results and activities.
 
-1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
 
    This opens the Workfront Goals area.
 
@@ -66,7 +74,7 @@ You must have the following before you can start:
 
    For information about filtering information in the Goal List, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md). 
 
-1. Click  ` `Print``. The Print box displays. 
+1. Click&nbsp;**Print**. The Print box displays. 
 1. (Conditional) Depending on the browser you are using and other applications you have installed on your computer, you can select from the following destinations:
 
   * Print to a printer
@@ -75,7 +83,7 @@ You must have the following before you can start:
   * Send the list of goals to another application (for example, One Note)
 
 1. (Optional) Adjust your printing options. 
-1. Click  `Print`.
+1. Click&nbsp;**Print**.
 
    The list of goals is delivered to your selected destination.
 

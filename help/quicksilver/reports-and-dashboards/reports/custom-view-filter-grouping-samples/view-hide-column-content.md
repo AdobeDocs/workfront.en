@@ -11,7 +11,7 @@ description: You might want to hide information in the column of a view. You can
 
 You might want to hide information in the column of a view. You can do this by modifying the text mode of the column.
 
-` `**Tips: **``
+``` ```**Tips: **``````
 
 * You can use hidden columns to sort by a certain object that you do not want to display in the view.  
   For example, you can sort by Task Number in a task view and hide the Task Number information from the view. In this case, the object referenced in the column helps sorting the view, but the information of that object does not display in the view.
@@ -49,14 +49,14 @@ You must have the following access to perform the steps in this article:
 ## Example: Sort and hide the Task Number column in a task view:
 
 1. Go to a list of tasks.
-1. From the `View` drop-down menu, click `New View`.
+1. From the **View** drop-down menu, click **New View**.
 
-1. Click `Add Column` and start typing "Task Number" in the `Show in this column` field then select it when it displays in the list.
+1. Click **Add Column** and start typing "Task Number" in the **Show in this column** field then select it when it displays in the list.
 
-1. Click `Switch to Text Mode`.
-1. Hover over the text mode area, and click `Click to edit text`.
-1. Remove the text you find in the `Text Mode` box, and replace it with the following code:
-   <pre><span class="bold">displayname=<br></span>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><span class="bold">value=<br></span>valueformat=int<br><span class="bold">width=0</span></pre>The important changes in this code which make the column hidden are:
+1. Click **Switch to Text Mode**.
+1. Hover over the text mode area, and click **Click to edit text**.
+1. Remove the text you find in the **Text Mode** box, and replace it with the following code:
+   <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>The important changes in this code which make the column hidden are:
 
   * 
   
@@ -81,5 +81,5 @@ You must have the following access to perform the steps in this article:
   
     : Depending on the field, this must have a value of *0* or *1*.
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

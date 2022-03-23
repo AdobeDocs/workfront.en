@@ -44,30 +44,30 @@ You must have the following to perform the steps in this article:
 To disable document integrations for Workfront DAM, Workfront Library, Box, Dropbox, Google Drive, Microsoft&nbsp;OneDrive, WebDAM:
 
 1. Log in to Workfront as a Workfront administrator.
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Documents` > `Cloud Providers`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Documents** > **Cloud Providers**.
 
 1. Deselect any of the cloud providers you want to disconnect from Workfront.
-1. Click `Save`.
+1. Click **Save**.
 
    Users are not able to connect to the specific cloud provider you disabled, and they can no longer link documents from that cloud provider to Workfront.
 
 ## Disable the SharePoint integration
 
 1. Log in to Workfront as a Workfront administrator.
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Expand `Documents`, then click `SharePoint Integration`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Expand **Documents**, then click **SharePoint Integration**.
 1. Select the SharePoint integration you want to disable.
-1. Click `Disable`.  
+1. Click **Disable**.  
    Users are not able to connect to the SharePoint site you disabled, and they can no longer link documents from SharePoint&nbsp;to Workfront.&nbsp;
 
 ## Disable custom integrations
 
 1. Log in to Workfront as the administrator.
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Documents` > `Custom Integration`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Documents** > **Custom Integration**.
 1. Select the custom&nbsp;integration you want to disable.
-1. Click `Disable`.
+1. Click **Disable**.
 
    Users are not able to connect to the third-party document provider you disabled, and they can no longer link documents from that cloud provider to Workfront.
 

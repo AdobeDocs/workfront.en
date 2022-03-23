@@ -6,12 +6,13 @@ product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Email
 description: This isn't a list of modules. It's just about connecting email to fusion. Does it need to be in a different section from all the other apps?
+hidefromtoc: true
 ---
 
 # Email
 
 <!--
-This isn't a list of modules. It's just about connecting email to fusion. Does it need to be in a different section from all the other apps?
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This isn't a list of modules. It's just about connecting email to fusion. Does it need to be in a different section from all the other apps?</p>
 -->
 
 Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
@@ -24,7 +25,7 @@ In a Adobe Workfront Fusion scenario, you can connect your [Fusion app] account 
 
 ### IMAP connection settings
 
-IMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. IMAP connection is used by most of the Email modules. For instructions about connecting your IMAP account to Workfront Fusion, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md) Before you click `Continue`, select whether you want an IMAP or Google connection. These are both IMAP connections, but Gmail requires a different type of authorization.
+IMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. IMAP connection is used by most of the Email modules. For instructions about connecting your IMAP account to Workfront Fusion, see [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md) Before you click **Continue**, select whether you want an IMAP or Google connection. These are both IMAP connections, but Gmail requires a different type of authorization.
 
 Screenshot
 
@@ -69,18 +70,18 @@ The Unique Email ID known as 'Email ID (UID)' is the email's identifier. The Ema
 * Getting an email from 'Inbox' folder
 
   <!--
-  screenshot
+  <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
   -->
 
 * Deleting the email from 'Inbox' folder
 
   <!--
-  screenshot
+  <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
   -->
 
 ## Change displayed name of sender
 
-1. Open the Send an email action advanced settings using the `Show advanced settings` checkbox. 
+1. Open the Send an email action advanced settings using the **Show advanced settings** checkbox. 
 1. Enter the required sender name or email.
 
    >[!IMPORTANT]

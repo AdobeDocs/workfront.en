@@ -20,7 +20,7 @@ Consider the following when working with commit dates:
   When you create a task or issue, there is no commit date assigned to the task or issue.
 * If you are assigned to a task or issue, you can set the Commit Date by doing one of the following:
 
-  * Let Workfront set the Commit Date to match the existing Planned Completion Date of the task or issue by clicking Work On It, Start Issue, or Start Task on the task or issue. For information about replacing the Work On It button with a Start button, see ` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)`.
+  * Let Workfront set the Commit Date to match the existing Planned Completion Date of the task or issue by clicking Work On It, Start Issue, or Start Task on the task or issue. For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
   * Manually set the Commit Date yourself according to when you believe the task or issue might be completed. This&nbsp;is your estimation&nbsp;and commitment, as the assignee, to the Project Manager&nbsp;that you will have the task or issue completed by a particular date.
 
 >[!NOTE]
@@ -45,7 +45,7 @@ When a task or issue assignee selects a Commit Date that is different than the P
 >Changes made to the Commit Date do not automatically change the planned dates, and changes made to the planned dates do not automatically change the Commit Date.&nbsp;
 
 Setting the Commit Date for a task or issue triggers the following changes:
-`<li>  <ul>   <li> <p>The Commit Date populates in the Update Stream of the task or issue.</p> <p>  </p> <note type="tip">    The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see     <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.   </note> </li>  </ul> </li>`
+```<li>  <ul>   <li> <p>The Commit Date populates in the Update Stream of the task or issue.</p> <p>  </p> <note type="tip">    The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in&nbsp;Setup.&nbsp;For information, see     <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md" class="MCXref xref">System-tracked updates</a>.   </note> </li>  </ul> </li>```
 
 * The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.  
   For more information about the Projected Completion Date, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
@@ -62,7 +62,7 @@ Setting the Commit Date for a task or issue triggers the following changes:
 
   >[!NOTE]
   >
-  >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click `Project Timeline`. This opens the Gantt Chart where you can evaluate the date changes.
+  >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the Gantt Chart where you can evaluate the date changes.
   >
   >
 
@@ -71,6 +71,26 @@ For information about the additional functionality that is available when updati
 For information about updating Commit Dates for tasks and issues, see [Update Commit Dates on tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 <!--
-Update Commit Dates on tasks and issues Updating the Commit Date is identical for tasks and issues. Go to a task or issue that you are assigned to as the Task Owner. For more information about finding out who the Task Owner for an issue or task is, see the section Edit tasks in the article Edit tasks. Click Work on it in the task or issue header Or Click Start Task or Start Issue if the Work on it button has been customized in your environment to indicate that you are now working on the work item. At this time, the Commit Date and the Planned Completion Date of the task or issue are the same. (Optional) If you clicked Start Task or Start Issue, click Undo in the lower-left corner of the screen. The Commit Date is removed. For information about replacing the Work On It button with a Start button, see Replace the Work On It button with a Start button. Tip: The option to undo your selection to start your work is not available when you click Work on it. Expand the This will be done by date picker, and select a new Commit Date. Click Updates in the left panel, then click the Start a new update>Commit Date Or Click Task Details or Issue Details in the left panel, then double click Commit Date and select a new date from calendar. The Commit Date and the Planned Completion date are no longer the same. Instead, the Commit Date and the Projected Completion Date of the task or issue become the same. The changes are saved automatically. The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. For information about the notifications and updates that are triggered by this change, see the section Notifications and updates triggered by changing the Commit Date in this article.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="Updating"></a>Update Commit Dates on tasks and issues</h2>
+<p>Updating the Commit Date is identical for tasks and issues.</p>
+<ol>
+<li value="1"> <p>Go to a task or issue that you are assigned to as the <strong>Task Owner</strong>.</p> <p>For more information about finding out who the Task Owner for an issue or task is, see the section <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments" class="MCXref xref">Edit tasks</a> in the article <a href="../../../manage-work/tasks/manage-tasks/edit-tasks.md" class="MCXref xref">Edit tasks</a>.</p> </li>
+<li value="2"> <p>Click Work on it in the task or issue header</p> <p>Or</p> <p>Click <strong>Start Task</strong> or <strong>Start Issue</strong> if the Work on it button has been customized in your environment to indicate that you are now working on the work item. </p> <p>At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.</p> </li>
+<li value="3"> (Optional) If you clicked Start Task or Start Issue, click <strong>Undo</strong> in the lower-left corner of the screen. The Commit Date is removed.  <p>For information about replacing the Work On&nbsp;It button with a Start button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> <note type="tip">
+The option to undo your selection to start your work is not available when you click Work on it.
+</note> </li>
+<li value="4"> <p> Expand the <strong>This will be done by</strong> date picker, and select a new Commit Date.</p>
+<div>  
+<p>Click <strong>Updates</strong> in the left panel, then click the <strong>Start a new update</strong>><strong>Commit Date</strong></p>
+<p>Or</p>
+<p>Click <strong>Task Details</strong> or <strong>Issue Details</strong> in the left panel, then double click&nbsp;<strong>Commit Date</strong> and select a new date from calendar. </p>  
+<p>The Commit Date and the Planned Completion date are no longer the same.</p>
+<p>Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.</p>
+<p>The changes are saved automatically.</p>
+<p>The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. For information about the notifications and updates that are triggered by this change, see the section <a href="#notifica" class="MCXref xref">Notifications and updates triggered by changing the Commit Date</a> in this article.</p>
+</div> </li>
+</ol>
+</div>
 -->
 

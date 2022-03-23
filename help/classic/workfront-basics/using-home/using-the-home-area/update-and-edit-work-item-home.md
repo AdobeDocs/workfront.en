@@ -45,39 +45,42 @@ You must have the following access to perform the steps in this article:
 
 You can view updates on any work item in the Work List:
 
-1. Click Home in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see Try the Home area. 
-1. In the `Work List` area, select the item where you want to view updates.  
+1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+
+1. In the **Work List** area, select the item where you want to view updates.  
    Updates are displayed in the right panel.
 
-1. (Optional) To filter system updates so only user updates are displayed, toggle  `Show System Updates`to Off.
+1. (Optional) To filter system updates so only user updates are displayed, toggle&nbsp;**Show System Updates**to Off.
 
 ## Provide updates on a work item
 
 You can provide updates on any work item in the Work List:
 
-1. Click Home in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see Try the Home area. 
-1. In the `Work List` area, select the item where you want to provide an update.
-1. In the right panel, click `Update` to display a text field.
+1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+
+1. In the **Work List** area, select the item where you want to provide an update.
+1. In the right panel, click **Update** to display a text field.
 
    <!--
-
+   <img src="assets/updating-a-work-item-update-stream-350x295.png" style="width: 350;height: 295;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
    -->
 
 1. In the provided field, specify your update.
 1. (Optional) Specify any of the following information:  
-   `Commit Date:` Select a date from the date picker when you commit to complete the work item.  
-   `How's it going?:`&nbsp;Select a new condition for the task or issue. For more information about task and issue conditions, see [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).  
-   `Status:`&nbsp;Select a new status for the task or issue. For more information about task statuses, see [Update task status](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). For more information about issue statuses, see [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).  
-   `Completion Bar:`Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete. 
+   **Commit Date:** Select a date from the date picker when you commit to complete the work item.  
+   **How's it going?:**&nbsp;Select a new condition for the task or issue. For more information about task and issue conditions, see [Update Condition for tasks and issues](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).  
+   **Status:**&nbsp;Select a new status for the task or issue. For more information about task statuses, see [Update task status](../../../manage-work/projects/updating-work-in-a-project/update-task-status.md). For more information about issue statuses, see [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md).  
+   **Completion Bar:**Indicate the percentage of work completed by sliding the progress bar to the desired percentage. You can also double-click the completion bar and enter the percent complete. 
 
-1. Click `Update`.
+1. Click **Update**.
 
 ## Edit a work item
 
 You can edit any field on any work item that you have access to edit.
 
-1. Click Home in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see Try the Home area. 
-1. In the `Work List` area, select the item you want to edit.  
+1. Click **Home** in the Global Navigation Bar. For information about accessing the Home area if it is not visible to you, see [Try the Home area](../../../workfront-basics/using-home/using-the-home-area/try-home-area.md). 
+
+1. In the **Work List** area, select the item you want to edit.  
    All fields you have access to view are displayed in the right panel.
 
 1. In the right panel, hover over the field you want to edit.  

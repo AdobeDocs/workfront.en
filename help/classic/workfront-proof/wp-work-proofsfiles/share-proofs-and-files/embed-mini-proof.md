@@ -27,11 +27,11 @@ Here is an example of a Miniproof embedded in a Basecamp project:
 
 To embed a Miniproof in a web page, blog, or wiki:
 
-1. Go to the `Proof details` page of a proof (see "The Proof Details Page" in&nbsp; [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
+1. Go to the **Proof details** page of a proof (see "The Proof Details Page" in&nbsp; [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md)).
 
-1. Click  `More sharing options` to expand that section.
-1. Next to `Embed code`, make sure  `Enable` is selected.
+1. Click&nbsp;**More sharing options** to expand that section.
+1. Next to **Embed code**, make sure&nbsp;**Enable** is selected.
 
-1. Click `Copy code` to copy the embed code to your clipboard.&nbsp; 
+1. Click **Copy code** to copy the embed code to your clipboard.&nbsp; 
 1. Paste the code into the website, blog, or wiki where you want to embed the Miniproof.
 

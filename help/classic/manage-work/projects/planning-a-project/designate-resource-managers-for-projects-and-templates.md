@@ -70,8 +70,8 @@ You must have the following access to perform the steps in this article:
 * You can designate Resource Managers for projects or for project&nbsp;templates. When you designate Resource Managers on a project template, any users you designate as Resource Managers on the template automatically become Resource Managers on any projects that are created using that template.
 * &nbsp;You can view the Resource Manager field in the following ways:
 
-  * When building reports, as described in [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
-  * When creating or customizing Views, as described in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   * When building reports, as described in [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   * When creating or customizing Views, as described in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 * You can add or remove Resource Managers by adding the Resource Manager field to a View, viewing it on a list of projects, and editing the Resource Manager field via in-line edit.
 
@@ -79,41 +79,47 @@ You must have the following access to perform the steps in this article:
 
 1. Do any of the following:
 
-  * To add Resource Managers to a single project, go to the project where you want to designate one or more resource managers, then click Edit Project .&nbsp; 
-  * To add Resource Managers to multiple projects simultaneously, navigate to a list of projects, select the projects where you want to designate one or more resource managers, then click `Edit`.
+   * To add Resource Managers to a single project, go to the project where you want to designate one or more resource managers, then click **Edit Project** . &nbsp; 
+   * To add Resource Managers to multiple projects simultaneously, navigate to a list of projects, select the projects where you want to designate one or more resource managers, then click **Edit**.
 
-    Existing Resource Managers are not removed from the projects you are editing; any users you add in this way are added as Resources Managers on the project in addition to any existing Resource Managers.
-  
-  * To add Resource Managers to a new project, begin creating a new project.
+     Existing Resource Managers are not removed from the projects you are editing; any users you add in this way are added as Resources Managers on the project in addition to any existing Resource Managers.
+   
+   * To add Resource Managers to a new project, begin creating a new project.
 
-    For information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
+     For information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
-1. In the `Overview` section on the Edit Project dialog box, click in the `Resource Manager` field.
+1. In the **Overview** section on the Edit Project dialog box, click in the **Resource Manager** field.
+
+   ![](assets/resource-manager-modify-350x172.png)
+
 1. Begin typing the name of the user who you want to add as a resource manager for the project, then click the name when it appears in the list.
 
    Repeat this step to add multiple resource managers for the project. Up to 30&nbsp;resource managers can be designated for a given project.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 ## Designate Resource Managers for a template
 
-1. Click Projects in the Global Navigation Bar. 
-1. Click the Projects tab.
+1. Click **Projects** in the Global Navigation Bar.  
+1. Click the **Projects** tab.
 
-1. Click Templates.  
+1. Click&nbsp;**Templates**. 
 1. Do any of the following:
 
-  * To add Resource Managers to a single template, click the name of the template where you want to designate one or more Resource Managers, then click the Edit Template.
-  * To add Resource Managers to multiple templates simultaneously, go to a list of templates and select the templates where you want to designate one or more Resource Managers, then click `Edit`.
+   * To add Resource Managers to a single template, click the name of the template where you want to designate one or more Resource Managers, then click the **Edit Template.** 
+   * To add Resource Managers to multiple templates&nbsp;simultaneously, go to a list of templates and select the templates where you want to designate one or more&nbsp;Resource Managers, then click **Edit**.
 
-    Existing Resource Managers are not removed from the templates&nbsp;you are editing; any users you add in this way are added as Resources Managers on the template&nbsp;in addition to any existing Resource Managers.
+     Existing Resource Managers are not removed from the templates&nbsp;you are editing; any users you add in this way are added as Resources Managers on the template&nbsp;in addition to any existing Resource Managers.
 
-  * To add Resource Managers to a new template, click New Template, then click Edit Template.
+   * To add Resource Managers to a new template, click **New Template**, then click&nbsp; **Edit Template**.
 
-1. In the `Overview` section, click in the `Resource Manager` field.
+1. In the **Overview** section, click in the **Resource Manager** field.
+
+   ![](assets/resource-manager-template-350x172.png)
+
 1. Begin typing the name of the user who you want to add as a resource manager for the template, then click the name when it appears in the list.
 
    Repeat this step to add multiple resource managers to the template. Up to 30&nbsp;resource managers can be designated for a given template.&nbsp;
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

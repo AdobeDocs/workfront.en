@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -57,11 +68,11 @@ To use Datadog modules, you must have a Datadog account.
 To connect your Datadog account to Workfront Fusion you need to retrieve an API Key and an application key from your Datadog account.
 
 1. Log in to your Datadog account.
-1. In the left navigation panel, click `Integrations`, then click `APIs`.
-1. On the main screen, click `API Keys`. 
+1. In the left navigation panel, click **Integrations**, then click **APIs**.
+1. On the main screen, click **API Keys**. 
 1. Hover over the purple bar to reveal the API key.
 1. Copy the API key to a secure location.
-1. On the main screen, click `Application Keys`. 
+1. On the main screen, click **Application Keys**. 
 1. Hover over the purple bar to reveal the application key.
 1. Copy the application key to a secure location.
 
@@ -69,7 +80,7 @@ To connect your Datadog account to Workfront Fusion you need to retrieve an API 
 
 You can create a connection to your Datadog account directly from inside a Datadog module.
 
-1. In any Datadog module, click `Add`next to the Connection field.
+1. In any Datadog module, click **Add**next to the Connection field.
 1. Fill the module's fields as follows:
 
    <table cellspacing="0"> 
@@ -99,7 +110,7 @@ You can create a connection to your Datadog account directly from inside a Datad
     </tbody> 
    </table>
 
-1. Click `Continue` to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## Datadog modules and their fields
 
@@ -132,11 +143,11 @@ The limit for compressed payloads is 3.2 megabytes (3200000), and 62 megabytes (
    <td role="rowheader">Series</td> 
    <td> <p>Add time series you want to submit to Datadog.</p> 
     <ul> 
-     <li> <p><span class="bold">Metric </span> </p> <p>Enter the name of the timeseries.</p> </li> 
-     <li> <p><span class="bold">Type </span> </p> <p>Select the type of the metric.</p> </li> 
-     <li> <p><span class="bold">Interval</span> </p> <p> If the type of the metric is rate or count, define the corresponding interval.</p> </li> 
-     <li> <p><span class="bold">Points</span> </p> <p>Add points relating to a metric.</p> <p>This is a JSON array of points. Each point has the format: <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>Note:  <p>The timestamp must be in seconds.</p> <p>The timestamp must be current. Current is defined as not more than 10 minutes in the future or more than 1 hour in the past.</p> <p> The numeric value format should be a float value.</p> </p> <p>This field must contain at least 1 item.</p> </li> 
-     <li> <p><span class="bold">Host </span> </p> <p>Enter the name of the host that produced the metric.</p> </li> 
+     <li> <p><strong>Metric</strong> </p> <p>Enter the name of the timeseries.</p> </li> 
+     <li> <p><strong>Type</strong> </p> <p>Select the type of the metric.</p> </li> 
+     <li> <p><strong>Interval</strong> </p> <p> If the type of the metric is rate or count, define the corresponding interval.</p> </li> 
+     <li> <p><strong>Points</strong> </p> <p>Add points relating to a metric.</p> <p>This is a JSON array of points. Each point has the format: <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>Note:  <p>The timestamp must be in seconds.</p> <p>The timestamp must be current. Current is defined as not more than 10 minutes in the future or more than 1 hour in the past.</p> <p> The numeric value format should be a float value.</p> </p> <p>This field must contain at least 1 item.</p> </li> 
+     <li> <p><strong>Host</strong> </p> <p>Enter the name of the host that produced the metric.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -180,7 +191,7 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-` `**Example: **`` The following API call returns the all dashboards in your Datadog account:
+``` ```**Example: **`````` The following API call returns the all dashboards in your Datadog account:
 
 URL:
 

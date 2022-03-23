@@ -26,7 +26,7 @@ You must have the following access to perform the actions in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues sectionof a project.</p> </td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to edit issues in the Issues section of a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -66,13 +66,20 @@ To inline edit an issue:
 
 ## Edit issues in a list
 
-1. Go to a list of issues in a project or task.
+1. Go to a list of issues in a project or task. 
+1. Do one of the following
+1. ```<li> <p>Select the issue in the list, then click Edit icon <img src="assets/qs-edit-icon.png"> in the toolbar. </p> </li>``` ```<li> <p>Click the <strong>More menu</strong> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <strong>Open in a new tab</strong>. This opens the issue page in a new tab. Click&nbsp;<strong>More</strong> > <strong>Edit</strong> from the issue page. </p> </li>``` ```<li> <p>Click the <strong>More menu</strong> <img src="assets/more-icon-task-list.png"> to the right of the issue name, then click <strong>Edit</strong>. </p> <p><span>Any of these actions opens the Edit Issue box.</span> </p> <p>For information about editing issues in the Edit Issue box, see <a href="../../../manage-work/issues/manage-issues/edit-issues.md" class="MCXref xref">Edit issues</a>.</p> </li>```
 
 Edit issues using the Summary You can edit an issue in a list using the Summary.
 
-1. Click Issues in the left panel. The list of issues on the project displays. 
-1. Click any of the following icons or areas to go to the issue and edit information at the issue level: Documents Click Click here to add to add documents to the issue. Details Click to update information about the issue. Hours Click to log hours. Approvals Click to add issue approvals. 
-1. (Optional) Click the `Open Summary` icon again, or the `X icon` in the upper-right of the Summary to close the panel and edit the issue inline.
+1. Click **Issues** in the left panel.  The list of issues on the project displays.  
+1. Select an issue that you want to edit, then click the **Open Summary** icon ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in the upper-right corner of the issue list. 
+
+1. The **Summary** opens.
+1. Updates
+1. Click any of the following icons or areas to go to the issue and edit information at the issue level:  ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">``` ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">``` ```<tbody>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> <span style="font-weight: bold;">Documents</span>  Click <strong>Click here to add</strong> to add documents to the issue.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> <span style="font-weight: bold;">Details</span>  Click to update information about the issue.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray"> <span style="font-weight: bold;">Hours</span>  Click to log hours.  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray"> <span style="font-weight: bold;">Approvals</span>  Click to add issue approvals.   </tr> </tbody>```  
+
+1. (Optional) Click the **Open Summary** icon again, or the **X icon** in the upper-right of the Summary to close the panel and edit the issue inline.
 
 ## Edit issues in bulk
 
@@ -80,14 +87,14 @@ You can edit issues in bulk and update all their information at the same time.
 
 To edit issues in bulk:
 
-1. Go to the Main Menu.
-1. Click Projects. 
+1. Go to the **Main Menu**. 
+1. Click **Projects**.  
 1. Click a project name to access the project.
-1. Click Issues in the left panel. 
+1. Click **Issues** in the left panel.  
 1. Select several issues in the list. 
-1. Click the Edit icon .
+1. Click the **Edit** icon ![](assets/edit-icon.png).
 
-   The `Edit Issues` dialog box opens.
+   The **Edit Issues** dialog box opens.
 
 1. Specify the information on all selected issues.
 
@@ -102,21 +109,21 @@ To edit issues in bulk:
 
    >[!NOTE]
    >
-   >The information you are changing on all the issues selected will override the existing information on individual issues, except for the `Assignments` field. Adding a new assignee in bulk edit will add that assignee to all the selected issues. If other assignees are assigned to the selected issues, they will remain assigned in addition to the one added through bulk edit.
+   >The information you are changing on all the issues selected will override the existing information on individual issues, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected issues. If other assignees are assigned to the selected issues, they will remain assigned in addition to the one added through bulk edit.
 
-1. Click `Custom Forms` to edit the custom forms attached to all the issues selected.
+1. Click **Custom Forms** to edit the custom forms attached to all the issues selected.
 
    If the issues selected do not have any common custom forms, no forms are listed in this section.
 
    You can edit only the fields on the forms that are attached to all issues selected and which you have permissions to edit.
 
-1. (Optional) In the `Custom Forms` area, select the `Recalculate Custom Expressions` option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.
+1. (Optional) In the **Custom Forms** area, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the Custom Forms attached to the issues selected are up to date.
 
    >[!IMPORTANT]
    >
    >We recommend not to select more than 500 issues at a time when you recalculate custom expressions.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
    All changes you made are now visible on all the selected issues.
 

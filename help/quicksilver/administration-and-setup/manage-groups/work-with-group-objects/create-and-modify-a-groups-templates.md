@@ -40,12 +40,12 @@ You must have the following to perform the steps in this article:
 
 ## View, work with, and create templates for your group from the Groups area
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create or modify templates.
-1. In the left panel, click `Templates` to list the templates that are associated with the group and with any subgroups it might have.
+1. In the left panel, click **Templates** to list the templates that are associated with the group and with any subgroups it might have.
 
    You must have View access to a template to see it in this list. For information about this access, see [Grant access to templates](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
@@ -57,7 +57,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Add a template</td> 
-      <td> <p>Click <span class="bold">New Template</span>, then configure it using the available options. For information about these options, see <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Create a project template</a>.</p> <p>The template is automatically associated with the group.</p> <p>For information about how group preferences apply to new templates, see <a href="#how" class="MCXref xref">How preferences apply to templates and template tasks</a> in this article.</p> </td> 
+      <td> <p>Click <strong>New Template</strong>, then configure it using the available options. For information about these options, see <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Create a project template</a>.</p> <p>The template is automatically associated with the group.</p> <p>For information about how group preferences apply to new templates, see <a href="#how" class="MCXref xref">How preferences apply to templates and template tasks</a> in this article.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Edit one or more templates</td> 
@@ -71,13 +71,13 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Share one or more templates</td> 
       <td> <p>Select at least one template, click the Share icon <img src="assets/share-icon.png">, then click one of the following options in the dropdown menu:</p> 
        <ul> 
-        <li> <p><span class="bold">Template</span>: In the <span class="bold">Template Access</span> box that displays, add names to specify who you want to have access to the template itself.</p> <p>For more information, see the section <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Share a template</a> in the article <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Share project templates</a>.</p> </li> 
-        <li><span class="bold">Project</span>: In the <span class="bold">Project Access</span> box that displays, add names to specify who you want to have access to the projects created from the template</li> 
+        <li> <p><strong>Template</strong>: In the <strong>Template Access</strong> box that displays, add names to specify who you want to have access to the template itself.</p> <p>For more information, see the section <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Share a template</a> in the article <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Share project templates</a>.</p> </li> 
+        <li><strong>Project</strong>: In the <strong>Project Access</strong> box that displays, add names to specify who you want to have access to the projects created from the template</li> 
        </ul> <p>The Share icon is available only if you have Share access to all of the templates you select. For information about this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Export the list of templates</td> 
-      <td>Click <span class="bold">Export</span> <img src="assets/export.png">, then select the file format you want for the exported list.</td> 
+      <td>Click <strong>Export</strong> <img src="assets/export.png">, then select the file format you want for the exported list.</td> 
      </tr> 
     </tbody> 
    </table>

@@ -37,7 +37,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -70,14 +78,14 @@ You must have the following before you can start:
 
 ## Edit goals
 
-1. Go to a goal that you want to edit and click the goal name to open the `Goal Details` panel. 
-1. Click the ` `More icon` ![](assets/more-icon.png)
+1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
+1. Click the ```**More icon** ![](assets/more-icon.png)
 
-   ` , then click `Edit`.
+   ``` , then click **Edit**.
 
    ![](assets/edit-goal-highlighted.png)
 
-1. Update the name of the goal in the `Goal` field. 
+1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
 
    Select from the following predefined options:
@@ -89,19 +97,19 @@ You must have the following before you can start:
 
    Or
 
-   Click `Define custom dates` to select a custom time frame. 
+   Click **Define custom dates** to select a custom time frame. 
 
-1. (Conditional) Select a start and an end date for your goal, if you clicked `Define custom dates`.
+1. (Conditional) Select a start and an end date for your goal, if you clicked **Define custom dates**.
 
-   ` `**Warning: **``You cannot create a goal with dates in the past. 
+   ``` ```**Warning: **``````You cannot create a goal with dates in the past. 
 
-1. (Optional) Click `Reset custom dates` to return to the predefined options.
+1. (Optional) Click **Reset custom dates** to return to the predefined options.
 
    >[!TIP]
    >
    >We recommend that everyone in your organization selects the same time frames for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your over-arching strategy.
 
-1. Click the `Owner` field and select a new owner for the goal, if you want to indicate someone else as the owner of the goal. 
-1. (Conditional) Start typing the name of a user, team, group, or the name of your organization in the `Owner` field, then select it when it displays in the list. You can have only one owner for a goal. 
-1. Update the `Description` of the goal, then click `Save`.
+1. Click the **Owner** field and select a new owner for the goal, if you want to indicate someone else as the owner of the goal. 
+1. (Conditional)&nbsp;Start typing the name of a user, team, group, or the name of your organization in the **Owner** field, then select it when it displays in the list. You can have only one owner for a goal. 
+1. Update the **Description** of the goal, then click **Save**.
 

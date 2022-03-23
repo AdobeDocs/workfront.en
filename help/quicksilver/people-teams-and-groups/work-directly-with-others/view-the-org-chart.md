@@ -35,3 +35,9 @@ You must have the following access to perform the steps in this article:
 
 ## Locate a user's organizational chart
 
+1. Main Menu
+1. 
+1. Org Chart
+1. 
+1.
+

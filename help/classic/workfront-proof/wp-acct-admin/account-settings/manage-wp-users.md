@@ -15,21 +15,21 @@ description: As a Workfront Proof administrator, you can view user settings and 
 
 As a Workfront Proof administrator, you can view user settings and manage proof users in the Account Settings area.
 
-1. Click `Settings` > `Account settings` in the upper-right corner of the Workfront Proof window.
+1. Click **Settings**&nbsp;> **Account settings** in the upper-right corner of the Workfront Proof window.
 
-1. Open the `Users` tab.
+1. Open the **Users** tab.
 
    This tab lists the users in your account and their user account details.
 
 1. (Optional) Select a user or multiple users, then click any of the following options: 
 
-   | `Activate`  |Activate the selected user or users. |
+   | **Activate** |Activate the selected user or users. |
    |---|---|
-   | `Deactivate`  |Deactivate the selected user or users. |
-   | `Reinvite`  |Reinvite the selected user or users to access Workfront Proof.  |
-   | `Reset password`  |Reset the password for the user or users you have selected. |
+   | **Deactivate** |Deactivate the selected user or users. |
+   | **Reinvite** |Reinvite the selected user or users to access Workfront Proof.  |
+   | **Reset password** |Reset the password for the user or users you have selected. |
    | Delete |Delete the selected user or users. |
 
-1. (Optional) Click the `More` icon ![More_button_small.png](assets/more-button-small.png) to the right of the user's name, then click an option to view the user's details or to delete the user.
+1. (Optional) Click the **More** icon ![More_button_small.png](assets/more-button-small.png) to the right of the user's name, then click an option to view the user's details or to delete the user.
 
 For more information about managing users in Workfront Proof, see [Users.](https://support.workfront.com/hc/en-us/sections/115000911887-Users)

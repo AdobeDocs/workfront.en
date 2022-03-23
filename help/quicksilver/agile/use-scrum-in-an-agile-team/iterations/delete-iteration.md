@@ -39,5 +39,11 @@ You must have the following access to perform the steps in this article:
 
 ## Delete an iteration
 
-1. Select the iteration that you want to delete, then click `Delete`.
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
+1. Iterations
+1. Select the iteration that you want to delete, then click **Delete**.
 

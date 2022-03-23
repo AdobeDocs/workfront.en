@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -288,8 +299,8 @@ This action module creates a new message.
    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
+     <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -300,7 +311,10 @@ This action module creates a new message.
    <td role="rowheader">Blocks</td> 
    <td>Block are reusable components that you can use to customize and organize your messages. For more information on blocks, see <a href="https://api.slack.com/block-kit">Block Kit</a> in the Slack documentation.</td> 
   </tr> <!--
-   As user Select Yes to create the message as the authenticated user instead of as a bot.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>As user</p> </td> 
+    <td> <p>Select <strong>Yes</strong> to create the message as the authenticated user instead of as a bot.</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Thread message ID (time stamp)</td> 
@@ -308,17 +322,26 @@ This action module creates a new message.
   </tr> 
   <tr> 
    <td role="rowheader">Reply broadcast</td> 
-   <td> <p>Select <span class="bold">Yes</span> if both of the following apply:</p> 
+   <td> <p>Select <strong>Yes</strong> if both of the following apply:</p> 
     <ul> 
      <li> <p>The new message is a reply to another message</p> </li> 
      <li> <p>You want the new message to be visible to everyone in the channel</p> </li> 
     </ul> </td> 
   </tr> <!--
-   Attachments Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty. For more details about attachments, see Attaching content and links to messages in the Slack documentation.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>Attachments</p> </td> 
+    <td> <p>Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty.</p> <p>For more details about attachments, see <a href="https://api.slack.com/docs/message-attachments">Attaching content and links to messages</a> in the Slack documentation.</p> </td> 
+   </tr>
   --> <!--
-   Icon emoji Enter or map the emoji you want to use for the posted message. For a list of emoji, see the Emoji cheat sheet. If the As user option is enabled, this field is ignored.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>Icon emoji</p> </td> 
+    <td> <p>Enter or map the emoji you want to use for the posted message. </p> <p>For a list of emoji, see the <a href="https://www.webfx.com/tools/emoji-cheat-sheet/">Emoji cheat sheet</a>.</p> <p>If the As user option is enabled, this field is ignored.</p> </td> 
+   </tr>
   --> <!--
-   Icon URL Enter or map the URL to an image you want to use as the icon for this message. If the As user option is enabled, this field is ignored.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>Icon URL</p> </td> 
+    <td> <p>Enter or map the URL to an image you want to use as the icon for this message.</p> <p>If the As user option is enabled, this field is ignored. </p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader"> <p>Link names</p> </td> 
@@ -340,7 +363,10 @@ This action module creates a new message.
    <td role="rowheader"> <p>Unfurl media content</p> </td> 
    <td> <p>Enable this option to allow unfurling of media content. </p> <p>For more information about unfurling in Slack, see <a href="https://api.slack.com/reference/messaging/link-unfurling">Unfurling links in messages</a> in the Slack documentation.</p> </td> 
   </tr> <!--
-   User name Enter the name of your bot. If the As user option is enabled, this field is ignored.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>User name</p> </td> 
+    <td> <p>Enter the name of your bot. </p> <p>If the As user option is enabled, this field is ignored.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -361,8 +387,8 @@ This action module allows you to edit an existing message.
    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
    <td> <p>Choose how you want to select the message you want to .</p> 
     <ul> 
-     <li> <p><span class="bold">Enter manually</span> </p> <p>In the <span class="bold">Channel ID or name</span> field, enter or map the Channel ID or of the channel that contains the message, then enter the <span class="bold">Time Stamp (Message ID)</span> of the message. .</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
-     <li> <p><span class="bold">Select from the list</span> </p> <p>Select the type of channel, then select the channel, then select the message.</p> </li> 
+     <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or of the channel that contains the message, then enter the <strong>Time Stamp (Message ID)</strong> of the message. .</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
+     <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel, then select the message.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -373,9 +399,15 @@ This action module allows you to edit an existing message.
    <td role="rowheader">Blocks</td> 
    <td>Block are reusable components that you can use to customize and organize your messages. For more information on blocks, see <a href="https://api.slack.com/block-kit">Block Kit</a> in the Slack documentation.</td> 
   </tr> <!--
-   As user Select Yes to update the message as the authenticated user instead of as a bot.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>As user</p> </td> 
+    <td> <p>Select <strong>Yes</strong> to update the message as the authenticated user instead of as a bot.</p> </td> 
+   </tr>
   --> <!--
-   Attachments Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty. For more details about attachments, see Attaching content and links to messages in the Slack documentation.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>Attachments</p> </td> 
+    <td> <p>Add any attachments that you want to include in the message. An attachment is required when the field Text is left empty.</p> <p>For more details about attachments, see <a href="https://api.slack.com/docs/message-attachments">Attaching content and links to messages</a> in the Slack documentation.</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader"> <p>Link names</p> </td> 
@@ -408,7 +440,10 @@ This action module deletes a specified message.
    <td role="rowheader">Message ID</td> 
    <td> <p> Enter or map the time stamp of the message you want to delete.</p> <p>Note: The time stamp can be retrieved using another module, such as the Watch Private Channel Module.</p> </td> 
   </tr> <!--
-   As user Select Yes to delete the message as the authenticated user instead of as a bot.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>As user</p> </td> 
+    <td> <p>Select <strong>Yes</strong> to delete the message as the authenticated user instead of as a bot.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -687,7 +722,14 @@ This search module returns a list of users in the selected channel.
    <td role="rowheader">Connection </td> 
    <td> <p>For instructions about connecting your Slack account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> <!--
-   Enter a channel ID or name Choose how you want to select the channel where you want to create a message. Enter manually In the Channel ID or name field, enter or map the Channel ID or name of the channel where you want to post the message. Note: The Channel ID can be retrieved using the List Channels module. Select from the list Select the type of channel, then select the channel.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
+    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
+     <ul> 
+      <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
+      <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
+     </ul> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -716,7 +758,14 @@ This action module changes the topic of a channel
    <td role="rowheader">Connection </td> 
    <td> <p>For instructions about connecting your Slack account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> <!--
-   Enter a channel ID or name Choose how you want to select the channel that you want to change the topic for. Enter manually In the Channel ID or name field, enter or map the Channel ID or name of the channel where you want to post the message. Note: The Channel ID can be retrieved using the List Channels module. Select from the list Select the type of channel, then select the channel.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
+    <td> <p>Choose how you want to select the channel that you want to change the topic for.</p> 
+     <ul> 
+      <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
+      <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
+     </ul> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -745,7 +794,14 @@ This action module changes the purpose of a channel
    <td role="rowheader">Connection </td> 
    <td> <p>For instructions about connecting your Slack account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> <!--
-   Enter a channel ID or name Choose how you want to select the channel where you want to create a message. Enter manually In the Channel ID or name field, enter or map the Channel ID or name of the channel where you want to post the message. Note: The Channel ID can be retrieved using the List Channels module. Select from the list Select the type of channel, then select the channel.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"> <p>Enter a channel ID or name</p> </td> 
+    <td> <p>Choose how you want to select the channel where you want to create a message.</p> 
+     <ul> 
+      <li> <p><strong>Enter manually</strong> </p> <p>In the <strong>Channel ID or name</strong> field, enter or map the Channel ID or name of the channel where you want to post the message.</p> <p>Note: The Channel ID can be retrieved using the List Channels module.</p> </li> 
+      <li> <p><strong>Select from the list</strong> </p> <p>Select the type of channel, then select the channel.</p> </li> 
+     </ul> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Channel type</td> 
@@ -1474,9 +1530,9 @@ This action module lets you make a custom authenticated call to the Slack API. T
 
 The following terminology may be useful when configuring Slack modules:
 
-* `DM`: Direct Message
-* `IM`: Instant Message
-* `Private Channel`: formerly Group
-* `Direct Message`: formerly IM
-* `Channel`: Conversation in the API documentation, channel in the Slack app.
+* **DM**: Direct Message
+* **IM**: Instant Message
+* **Private Channel**: formerly Group
+* **Direct Message**: formerly IM
+* **Channel**: Conversation in the API documentation, channel in the Slack app.
 

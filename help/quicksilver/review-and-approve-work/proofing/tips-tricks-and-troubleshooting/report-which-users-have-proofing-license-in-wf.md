@@ -44,18 +44,18 @@ You must have the following access to perform the steps in this article:
 
 You can create a user report&nbsp;to view which users can generate proofs:
 
-1. Navigate to `Reporting` area.
-1. Click the  `New Report` drop-down menu, then click  `User Report`.
+1. Navigate to **Reporting** area.
+1. Click the&nbsp;**New Report**&nbsp;drop-down menu, then click&nbsp;**User Report**.
 
-1. On the `Filters` tab, click `Add a Filter Rule`.
+1. On the **Filters** tab, click **Add a Filter Rule**.
 
-1. In the available field, expand `User`, then click `Has Proof License`.
+1. In the available field, expand **User**, then click **Has Proof License**.
 
-1. Select `Equal` > `True`.
+1. Select **Equal** > **True**.
 
    ![report_prooflicenses.png](assets/report-prooflicenses-350x135.png)
 
-1. Click `Save+Close`.
+1. Click **Save+Close**.
 
    The report displays all users in Workfront who have a proofing license assigned to them.
 
@@ -63,17 +63,17 @@ You can create a user report&nbsp;to view which users can generate proofs:
 
 You can add a new column in the People view to view which users can generate proofs:
 
-1. Go to the `People`&nbsp;area.
-1. Click the `People` tab.
-1. In the `View` drop-down menu, do either of the following:
+1. Go to the **People**&nbsp;area.
+1. Click the **People** tab.
+1. In the **View** drop-down menu, do either of the following:
 
-  * To add this information to an existing view, select the view you want to customize, then click `Customize View`.
-  * To add this information to a new view, click `New View`.
+  * To add this information to an existing view, select the view you want to customize,&nbsp;then click **Customize View**.
+  * To add this information to a new view, click **New View**.
 
-1. Click `Add Column`.
-1. In the available field, expand `User`, then click `Has Proof License`.
+1. Click **Add Column**.
+1. In the available field, expand **User**, then click **Has Proof License**.
 
-1. Click `Done`, then click `Save View` or `Save as New View`.
+1. Click **Done**, then click **Save View** or **Save as New View**.
 
-   The view displays `True` or `False` depending on whether the user has a proofing license assigned to them.
+   The view displays **True** or **False** depending on whether the user has a proofing license assigned to them.
 

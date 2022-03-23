@@ -28,6 +28,7 @@ This section contains the following articles:
 * [Update task Leveling Delay](../../../manage-work/tasks/task-information/task-leveling-delay.md) 
 * [Update task Cost Type](../../../manage-work/tasks/task-information/update-task-cost-type.md) 
 * [Differentiate between Projected and Estimated Dates](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md) 
+* Resource Scope overview
 * [Overview of task Original Duration and Original Planned Hours](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) 
 * [Difference between Planned Duration and Duration for tasks](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md) 
 * [Work Effort overview](../../../manage-work/tasks/task-information/work-effort.md)

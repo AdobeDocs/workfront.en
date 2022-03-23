@@ -15,7 +15,7 @@ The Planned Labor Cost of a project is a calculation between the cost associated
 
 ## Overview of the Planned Labor Cost
 
-The `Planned Labor Cost` of a project is calculated by adding all the Planned Labor Costs of all the tasks on the project.
+The **Planned Labor Cost** of a project is calculated by adding all the Planned Labor Costs of all the tasks on the project.
 
 >[!TIP]
 >

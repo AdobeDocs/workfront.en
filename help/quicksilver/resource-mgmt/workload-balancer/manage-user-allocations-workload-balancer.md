@@ -10,7 +10,7 @@ description: The highlighted information on this page refers to functionality no
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
-As a Resource Manager, you can assign work to users and manage their daily, weekly, `or monthly` allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
+As a Resource Manager, you can assign work to users and manage their daily, weekly, ```or monthly``` allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
 ## Access requirements
 
@@ -49,7 +49,7 @@ You must have the following:
 
 ## Understand user allocations
 
-User allocations are amounts of hours that indicate the time that a user should spend on one given day or week day, week, `or month` to complete the work item. They are included in the Planned Hours of the work item.
+User allocations are amounts of hours that indicate the time that a user should spend on one given day or week day, week, ```or month``` to complete the work item. They are included in the Planned Hours of the work item.
 
 This article describes how to update daily, weekly, or monthly hourly allocations for users assigned to tasks or issues. For information about managing overall allocations for users and job roles to tasks, see [Manage allocation hours on tasks](../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md) .
 
@@ -58,22 +58,22 @@ This article describes how to update daily, weekly, or monthly hourly allocation
 
 ### User allocation overview
 
-You can display user allocation as hours `or as a percentage value` in the Workload Balancer. You can adjust hours `or percentages`.
+You can display user allocation as hours ```or as a percentage value``` in the Workload Balancer. You can adjust hours ```or percentages```.
 
 User allocations are included in the number of Planned Hours of a work item. For information about Planned Hours, see [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md).
 
 The task Planned Hours are distributed equally between all the days within the Duration of the task for the user assigned to the task. For example, if a task has a Duration of 5 days and a total of 10 Planned Hours, the number of daily allocations for the task is 2 hours. The weekly allocation is 10 hours. This means, that a user is allocated to work on the task for 2 hours each day. However, you can manually change the daily allocation for the user using the Workload Balancer.
 
-` `**Warning: **``The Workload Balancer displays only up to 1000 Planned Hours per work item. The allocations in the Workload Balancer display as zero after the 1000 hour limit is reached. We recommend dividing the task in smaller subtasks to accommodate for a larger number of Planned Hours.
+``` ```**Warning: **``````The Workload Balancer displays only up to 1000 Planned Hours per work item. The allocations in the Workload Balancer display as zero after the 1000 hour limit is reached. We recommend dividing the task in smaller subtasks to accommodate for a larger number of Planned Hours.
 
-Consider the following when locating daily, weekly `or monthly` allocations for tasks `or issues` in the Workload Balancer:
+Consider the following when locating daily, weekly ```or monthly``` allocations for tasks ```or issues``` in the Workload Balancer:
 
-* You can view daily, weekly, `and monthly` allocations of the users to their work items. Enable the Week `or Month` view to display weekly `or monthly` allocations. 
-* You can use the Workload Balancer to modify the daily, weekly `or monthly` allocation of the users to the tasks `or issues`. For information about adjusting the view of the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* You can view daily, weekly, ```and monthly``` allocations of the users to their work items. Enable the Week ```or Month``` view to display weekly ```or monthly``` allocations. 
+* You can use the Workload Balancer to modify the daily, weekly ```or monthly``` allocation of the users to the tasks ```or issues```. For information about adjusting the view of the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
   >[!NOTE]
   >
-  >We recommend that you make a decision which time frame (daily, weekly, `or monthly`) you want to always use when managing user allocations and not switch between them for the same work items. Updating weekly allocations for the same user for which you previously updated daily allocations changes the daily allocation for the user.
+  >We recommend that you make a decision which time frame (daily, weekly, ```or monthly```) you want to always use when managing user allocations and not switch between them for the same work items. Updating weekly allocations for the same user for which you previously updated daily allocations changes the daily allocation for the user.
 
 * You can update allocations for both working and non-working days. 
 * The time stamps for the Planned Start and Planned Completion Dates of the work items as well as the Schedule of the project are important when Adobe Workfront automatically calculates the daily allocation for the task. For example, a task may have a Duration of 2 days and 8 Planned Hours and it has a Planned Start time of 4:30 PM with a Project Schedule that ends at 5:00 PM. In this case, the daily allocation for one user is 0.50 hours for the first day of the task and 7.50 hours for the second day.
@@ -113,14 +113,14 @@ Not all task changes trigger the modified allocations to redistribute. However, 
 
 >[!NOTE]
 >
->`If you have not modified the automatic distribution of allocations on work items, the hours redistribute evenly among all the assignees when there is a change in the number of assignees, the Duration of a task, or the amount of Planned Hours on the work item.`
+>```If you have not modified the automatic distribution of allocations on work items, the hours redistribute evenly among all the assignees when there is a change in the number of assignees, the Duration of a task, or the amount of Planned Hours on the work item.```
 
 * [Actions that reset adjusted allocations](#actions) 
 * [Actions that do not reset adjusted allocations](#actions2)
 
 #### Actions that reset adjusted allocations
 
-The following actions either reset or modify the daily, weekly `or monthly` allocations for users after you have manually adjusted them as described in the [Modify user allocations](#modify) section in this article:
+The following actions either reset or modify the daily, weekly ```or monthly``` allocations for users after you have manually adjusted them as described in the [Modify user allocations](#modify) section in this article:
 
 * When you shorten the length of a work item which shortens the amount of days in its Duration, the adjusted allocated hours from the lost days is added to the allocation amount of the last day of the work item. 
 * When you change the amount of Planned Hours on an assignment or on the work item, the new number of Planned Hours redistributes uniformly for the entire Duration of the work item.
@@ -136,26 +136,26 @@ The following changes to a work item do not trigger the adjusted allocations to 
 
 ## Locate Planned Hours in the Workload Balancer
 
-You can modify user allocations to tasks `or issues` using the Workload Balancer by finding the Planned Hours of the tasks `or issues` assigned to users.
+You can modify user allocations to tasks ```or issues``` using the Workload Balancer by finding the Planned Hours of the tasks ```or issues``` assigned to users.
 
 Consider the following when viewing Planned Hours in the Workload Balancer:
 
-* The total Planned Hours for a task `or an issue` display next to the Task `or `Issue` Name` on the left of the Workload Balancer.
+* The total Planned Hours for a task ```or an issue``` display next to the Task ```or ```Issue``` Name``` on the left of the Workload Balancer.
 
-* The total Planned Hours for a project displays next to the Project Name on the left of the Workload Balancer. This represents the total of Planned Hours for all the tasks `and issues` listed under the project in the Workload Balancer and not all the Planned Hours of the project. 
+* The total Planned Hours for a project displays next to the Project Name on the left of the Workload Balancer. This represents the total of Planned Hours for all the tasks ```and issues``` listed under the project in the Workload Balancer and not all the Planned Hours of the project. 
 * The amount of time allocated daily or weekly for all task and for all project displays only when you manually enable the Show allocations setting. For information about enabling settings in the Workload Balancer see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Modify user allocations
 
 As part of assigning work to users, you can modify user allocations in the Workload Balancer to ensure that they are never overallocated, or to ensure an accurate balance of hours between your resources. For information about identifying whether a user is overallocated, see the section [User allocation overview](#overview) in this article.
 
-1. Ensure you have tasks `and issues` assigned to users. For information about assigning work to users in the Workload Balancer see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+1. Ensure you have tasks ```and issues``` assigned to users. For information about assigning work to users in the Workload Balancer see [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 1. Go to the Workload Balancer .
-1. (Optional) Click `Week` `or `Month`` to manage weekly `or monthly` allocations for users.
+1. (Optional) Click **Week** ```or **Month**``` to manage weekly ```or monthly``` allocations for users.
 
    ![](assets/month-icon-on-toolbar-selected-wb-350x226.png)
 
-1. In the `Assigned Work` area, find the user that you want to manually modify the allocation for, and click the right-pointing arrow to the left of the user name to expand the user.
+1. In the **Assigned Work** area, find the user that you want to manually modify the allocation for, and click the right-pointing arrow to the left of the user name to expand the user.
 
    ![](assets/wb-highlight-on-name-caret-350x106.png)
 
@@ -165,21 +165,26 @@ As part of assigning work to users, you can modify user allocations in the Workl
    >
    >You can modify user allocations only for tasks and issues. You cannot modify user allocations for projects.
 
-1. (Optional) Click the `Show allocations icon` ![](assets/show-allocations-icon-small.png) to display allocations for all work items.
+1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png) to display allocations for all work items.
 
    The name of the tasks and of the projects is replaced with the allocation of the user for the task or the project. 
 
-1. (Optional) Click the `Settings` icon ![](assets/gear-icon-settings.png) and select any of the following options:
+1. (Optional)&nbsp;Click the **Settings** icon ![](assets/gear-icon-settings.png) and select any of the following options:
 
-  1. `Include hours from issues`.&nbsp;This allows you to manage issue allocations in addition to task allocations. 
-  1. `Show completed work` . This displays items that have been completed and are scheduled during the timeline you manage allocations for. 
-  1. `Show remaining time` option. The total number of hours for each user (in the user line) changes. With this setting enabled, the Workload Balancer displays the hours that each user has available for work instead of the number of hours they are allocated for.
+  1. **Include hours from issues**.&nbsp;This allows you to manage issue allocations in addition to task allocations. 
+  1. **Show completed work** . This displays items that have been completed and are scheduled during the timeline you manage allocations for. 
+  1. **Show remaining time** option. The total number of hours for each user (in the user line) changes. With this setting enabled, the Workload Balancer displays the hours that each user has available for work instead of the number of hours they are allocated for.
 
      >[!TIP]
      >
      >Modifying allocations when this setting is enabled makes the total number in the user line decrease.
 
-1. Click the `More` menu ![](assets/qs-more-menu.png) for a work item, then click `Edit allocations`.
+  1. **Project** in the **Select color theme** section. This displays each project and its respective work items in unique colors and makes it easier to understand which items belong to which project. 
+  
+  1. Percentage
+  1. Display user allocation in
+
+1. Click the **More** menu ![](assets/qs-more-menu.png) for a work item, then click **Edit allocations**.
 
    Or
 
@@ -189,11 +194,11 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
    The allocation boxes become editable. 
 
-1. Click inside the box of each daily, weekly, `or monthly` allocation to manually update the amount of hours `or the percentage value` for which you want the user to be allocated each day, week, `or month` then click the `Save` icon ![](assets/checkmark-icon.png).
+1. Click inside the box of each daily, weekly, ```or monthly``` allocation to manually update the amount of hours ```or the percentage value``` for which you want the user to be allocated each day, week, ```or month``` then click the **Save** icon ![](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Click the `Cancel` icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
+   >Click the **Cancel** icon ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
 
    ![](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 
@@ -205,12 +210,12 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
    The following scenarios exist:
 
-  * For tasks with Duration Types that are not Simple `or for `issues``, the total of the allocations must match the task Planned Hours before you can click the check mark icon. 
+  * For tasks with Duration Types that are not Simple ```or for ```issues``````, the total of the allocations must match the task Planned Hours before you can click the check mark icon. 
   * For tasks with a Simple Duration Type the total of the allocations can be higher or lower than the Planned Hours and you can click the check mark icon even if they don't match. This also updates the amount of Planned Hours for the task. You must have the correct permissions and access to update Planned Hours on tasks from the Workload Balancer.
 
     >[!TIP]
     >
-    >`A lock icon displays to the right of the task name as you start adjusting your allocations to indicate that the task has a Simple Duration Type.`
+    >```A lock icon displays to the right of the task name as you start adjusting your allocations to indicate that the task has a Simple Duration Type.```
 
     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
 
@@ -227,9 +232,9 @@ You can update the Planned Hours of a task when managing user allocations in the
 >[!IMPORTANT]
 >
 >* Updating Planned Hours for tasks can impact the progress on your project. 
->* `Manually updating Planned Hours by changing daily allocations can have an impact to the Planned Hours when removing assignments from the tasks in the future. For more information, see` [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md). 
+>* ```Manually updating Planned Hours by changing daily allocations can have an impact to the Planned Hours when removing assignments from the tasks in the future. For more information, see``` [Planned Hours overview](../../manage-work/tasks/task-information/planned-hours.md). 
 >
->* `It's not possible to update Planned Hours for issues by updating allocations in the Workload Balancer.` 
+>* ```It's not possible to update Planned Hours for issues by updating allocations in the Workload Balancer.``` 
 >
 
 This is possible when the following conditions exist:

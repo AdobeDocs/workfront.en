@@ -17,3 +17,7 @@ This section contains the following subsections:
 * [Resource Utilization](../resource-mgmt/resource-utilization/resource-utilization.md) 
 * [The Workload Balancer](../resource-mgmt/workload-balancer/workload-balancer.md)
 
+  <!--
+  <a href="../resource-mgmt/legacy-res-planning/legacy-resource-planning.md" class="MCXref xref" xrefformat="{para}">Legacy Resource Planning</a>
+  -->
+

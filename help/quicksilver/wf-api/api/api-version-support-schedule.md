@@ -10,9 +10,9 @@ description:
 
 &nbsp;
 
-`Adobe Workfront releases new API versions on a biannual basis, every six to eight months. API versions are supported for 3 years after release. API versions older than 3 years are no longer supported.`
+```Adobe Workfront releases new API versions on a biannual basis, every six to eight months. API versions are supported for 3 years after release. API versions older than 3 years are no longer supported.```
 
-`The following table shows the release and support schedule for the Workfront API.` 
+```The following table shows the release and support schedule for the Workfront API.``` 
 
 <table cellspacing="15"> 
  <col> 
@@ -20,9 +20,9 @@ description:
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Version</span> </th> 
-   <th><span class="bold">Release</span> </th> 
-   <th><span class="bold">*Unsupported</span> </th> 
+   <th><strong>Version</strong> </th> 
+   <th><strong>Release</strong> </th> 
+   <th><strong>*Unsupported</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

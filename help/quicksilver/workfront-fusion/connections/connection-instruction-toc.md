@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -123,7 +134,10 @@ The following apps do not follow the basic configuration for Workfront Fusion co
    <td role="rowheader"> <p>Email</p> </td> 
    <td><a href="../../workfront-fusion/apps-and-their-modules/email-modules.md#connecti" class="MCXref xref">Connect your email to Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/email-modules.md" class="MCXref xref">Email modules</a></td> 
   </tr> <!--
-   Frame.io Connect Frame.io to Adobe Workfront Fusion in Frame.io modules
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Frame.io</td> 
+    <td><a href="../../workfront-fusion/apps-and-their-modules/frame-io-modules.md#connect" class="MCXref xref">Connect Frame.io to Adobe Workfront Fusion</a> in <a href="../../workfront-fusion/apps-and-their-modules/frame-io-modules.md" class="MCXref xref">Frame.io modules</a></td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader"> <p>Gmail</p> </td> 

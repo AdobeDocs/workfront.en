@@ -40,7 +40,7 @@ Consider the following when viewing the Hours or FTE information in the Resource
   * Expand every project to display a list of job roles that user can fulfill on those projects. 
   * Expand each role to display a list of tasks the user in that role is assigned to.
 
-  If users have no job roles associated with them, their Available, Planned, and Actual Hours or FTE are listed in the `No Role` section.  
+  If users have no job roles associated with them, their Available, Planned, and Actual Hours or FTE are listed in the **No Role** section.  
   For information about what fields and items display when applying the User view to the Resource Planner, see the "Project/ Role/ User View Selection" section in [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
 ## Overview of fields visible in the User View of the Resource Planner
@@ -53,9 +53,9 @@ Refer to the following table for understanding the information displayed in the 
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Column Name<br> (Hours or FTE)</span> </td> 
-   <td><span class="bold">Displayed By</span> </td> 
-   <td> <p><span class="bold">Description</span> </p> </td> 
+   <td><strong>Column Name (Hours or FTE)</strong> </td> 
+   <td><strong>Displayed By</strong> </td> 
+   <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
   <tr> 
    <td rowspan="5">AVL <br>(Available Hours or FTE)</td> 
@@ -68,7 +68,7 @@ Refer to the following table for understanding the information displayed in the 
   </tr> 
   <tr> 
    <td>Role</td> 
-   <td> <p>The total of Available Hours or FTE for the role according to the schedule of the user and the <span class="bold">Percentage of FTE Availability</span> of the role.</p> </td> 
+   <td> <p>The total of Available Hours or FTE for the role according to the schedule of the user and the <strong>Percentage of FTE Availability</strong> of the role.</p> </td> 
   </tr> 
   <tr> 
    <td>Task or Issue</td> 
@@ -100,7 +100,7 @@ Refer to the following table for understanding the information displayed in the 
      <li> <p>Planned Hours are equally distributed to each day within the Duration of tasks and issues , for each resource assigned to them. The task or issue Duration is based on their Planned Start and Completion Dates and includes every calendar day within that period of time.<br>Workfront takes into account the schedule of the user or of the project when distributing Planned Hours to users or projects. In this case, Planned Hours are equally distributed to each day within the Duration of tasks or issues excluding weekends, time-off days, and schedule exceptions.</p> <p>If you display the Resource Planner by Week, for example, and you have tasks that span multiple weeks on projects, the number of Planned Hours per week depends on how many days within that week are part of the task Duration. This works similarly when displaying the Resource Planner by Month or Quarter and when tasks span multiple months or quarters.<br>Weekend days, schedule exceptions, and time-off days are excluded from this distribution.</p> </li> 
      <li> <p>The following categories of tasks are included in calculating the Planned Hours for each resource: </p> 
       <ul> 
-       <li> <p> tasks assigned to users in Resource Pools, job roles, or teams on the project.</p> <p>Tip: If tasks are assigned to teams, their allocation will appear under <span class="bold">No Role</span> and <span class="bold">No User</span> sections. You can see the Planned Hours associated with teams, but you cannot budget the hours, because no roles nor users are associated with the tasks. </p> </li> 
+       <li> <p> tasks assigned to users in Resource Pools, job roles, or teams on the project.</p> <p>Tip: If tasks are assigned to teams, their allocation will appear under <strong>No Role</strong> and <strong>No User</strong> sections. You can see the Planned Hours associated with teams, but you cannot budget the hours, because no roles nor users are associated with the tasks. </p> </li> 
       </ul> </li> 
     </ul> 
     <ul> 
@@ -108,7 +108,7 @@ Refer to the following table for understanding the information displayed in the 
       <ul>
        <li>parent tasks</li>
        <li>unassigned tasks</li>
-       <li>issues, when the <span class="bold">Include hours from Issues</span> setting is disabled.</li>
+       <li>issues, when the <strong>Include hours from Issues</strong> setting is disabled.</li>
       </ul></li> 
      <li>Planned Hours do not display in the Resource Planner if the task or issue Duration is zero.</li> 
      <li>Planned Hours associated with deactivated users do not display. </li> 
@@ -170,7 +170,7 @@ Refer to the following table for understanding the information displayed in the 
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td>This information is not available for the Project when applying the <span class="bold">View by User</span> view to the Resource Planner.</td> 
+   <td>This information is not available for the Project when applying the <strong>View by User</strong> view to the Resource Planner.</td> 
   </tr> 
   <tr> 
    <td>Role</td> 

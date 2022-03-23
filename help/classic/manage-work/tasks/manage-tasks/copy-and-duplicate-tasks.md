@@ -50,14 +50,15 @@ Consider the following when copying a task:
 
 You can copy a task in the following areas of the Adobe Workfront web application:
 
-* At the task level, from the Task Actions menu in the upper-right corner. For information, see the [Copy a task at the task level](#copy) section in this article.
+* At the task level, from the **Task Actions** menu in the upper-right corner. For information, see the [Copy a task at the task level](#copy) section in this article.
+
 * In a task list, by doing one of the following:
 
-  * Right-click the name of a task.
-  * Select the task (or tasks) and expand the More menu at the top of the task list.
-  * Select a task and expanding the `More` icon ![](assets/more-icon-task-list.png) next to the task name.
+   * Right-click the name of a task.
+   * Select the task (or tasks) and expand the **More** menu at the top of the task list.
+   * Select a task and expanding the **More** icon ![](assets/more-icon-task-list.png) next to the task name.
 
-    This option is not available when selecting multiple tasks.
+     This option is not available when selecting multiple tasks.
 
   For information, see the [Copy tasks in a list](#copy2) section in this article.
 
@@ -69,20 +70,21 @@ You can copy a task in the following areas of the Adobe Workfront web applicatio
 
    Go to a task report. 
 
-1. Select the Tasks tab. 
-1. Select Autosave in the upper-right corner of the list of tasks. 
+1. Select the **Tasks** tab. 
+1. Select **Autosave** in the upper-right corner of the list of tasks. 
 
    >[!IMPORTANT]
    >
    >You can copy tasks in a list only when automatically saving your changes. For information about saving options when editing tasks, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-1. Select the task or tasks that you want to copy and click More > Copy To. 
-1. Continue with copying the task, as described in the section Copy a task at the task level starting with Step 4.
+1. Select the task or tasks that you want to copy and click **More** > **Copy To**.  
+
+1. Continue with copying the task, as described in the section [Copy a task at the task level](#copy) starting with Step 4.
 
 ## Copy a task&nbsp;at the task level
 
 In addition to copying tasks in a list of tasks, you can also copy a task after you have opened it.&nbsp;
-This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see Create ad hoc work items. Find a task in your Workfront system by searching for it. Click the name of the task to open it. In the upper-right corner of the task, click Task Actions, then click Copy to. The Copy Task box displays. (Optional) Update the task name. Tip: This option is not available when selecting more than one task in a list. Type the name of the project where you want the task copy the task to in the Select Destination Project field. Tip: Only 50 projects display in the list. (Optional) If you want to copy the task within the same project, type the name of the current project in the Select Destination Project field. (Optional) Click Next Step to clear any information that you don't want to transfer to the copied task. Select to clear any of the following options: Constraints Note: When moving or copying a task with date-specific constraints to another project and the constraint dates of the task are outside the dates of the new project, either the Task Constraint changes to As Soon as Possible or As Late as Possible or the Planned Start or Planned Completion dates of the projects are adjusted. Some examples of date-specific constraints are Must Start On, Must Finish On, Start No Earlier Than, Start No Later Than, etc. For information about task constraints and how task constraints or project dates can be affected, see Task Constraint overview and look for a specific constraint. Assignments Approval Processes Progress All Predecessors This is selected by default. Financial information Documents This includes versions, proofs, and linked documents. This does not include document approvals. Document approvals can never be moved when a task is moved. Reminder Notifications Expenses Permissions Custom Data Custom forms (Optional) Click Go back a Step to move to the previous step. (Optional) Click Next Step. Or Click Select Parent if you want to choose a parent for the tasks that copy to the new project. If you do not select a parent task, the tasks are copied as main tasks rather than subtasks and they are placed at the end of the task list on the specified project. (Optional) Select a parent by doing one of the following: In the task list, select one of the parents in the project plan. Or Using the Search field, search for a parent task by name. The task should appear in the list. Select the radio button for the parent, after you have found it. (Optional) Click Go back a Step to move to the previous step Click Finish and Copy Task. The moved task now resides on the specified project and is either a subtask to a parent task, or the last task on the project.  
+This is helpful for ad hoc tasks, which are not located on a task list of a project. For more information on ad hoc tasks, see [Create ad hoc work items](../../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).  ```<li value="1">Find a task in your Workfront system by searching for it.</li>``` ```<li value="2">Click the name of the task to open it.&nbsp;</li>``` ```<li value="3"> <p> In the upper-right corner of the task, click <strong>Task Actions</strong>, then click&nbsp;<strong>Copy to</strong>. </p> <p>The Copy Task box displays. </p> <p> <img src="assets/copy-task-350x191.png" alt="copy_task.png" style="width: 350;height: 191;"> </p> </li>``` ```<li value="4"> <p>(Optional) Update the task name. </p> <note type="tip">  This option is not available when selecting more than one task in a list. </note> </li>``` ```<li value="5"> <p>Type the name of the project&nbsp;where you want the task copy the task to in the <strong>Select Destination Project</strong> field.&nbsp;</p> <note type="tip">  Only 50 projects display in the list.  </note> </li>``` ```<li value="6"> <p>(Optional) If you want to copy the task within the same project, type the name of the current project in the <strong>Select Destination Project</strong> field.</p> </li>``` ```<li value="7">(Optional) Click&nbsp;<strong>Next Step</strong>&nbsp;to clear any information that you don't want to transfer to the copied task. Select to clear any of the following options: <br> <ul>  <li><p>Constraints</p><note type="note">    When moving or copying a task with date-specific constraints to another project and the constraint dates of the task are outside the dates of the new project, either the Task&nbsp;Constraint changes to As Soon as Possible or As Late as Possible or the Planned Start or Planned Completion dates of the projects are adjusted. Some examples of date-specific constraints are Must Start On, Must&nbsp;Finish On, Start No Earlier Than, Start No Later Than, etc. For information about task constraints and how task constraints or project dates can be affected, see     <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a> and look for a specific constraint.   </note></li>  <li>Assignments</li>  <li>Approval Processes</li>  <li>Progress</li>  <li><p>All Predecessors</p><p>This is selected by default. </p></li>  <li>Financial information</li>  <li><p>Documents</p><p>This includes versions, proofs, and linked documents.&nbsp;</p><p>This does not include document approvals. Document approvals can never be moved when a task is moved.</p></li>  <li>Reminder Notifications</li>  <li>Expenses</li>  <li>Permissions</li>  <li><p>Custom Data</p><p>Custom forms </p></li> </ul></li>``` ```<li value="8">(Optional) Click <strong>Go back a Step</strong> to move to the previous step.</li>``` ```<li value="9"> <p>(Optional) Click&nbsp;<strong>Next Step.</strong></p> <p>Or</p> <p>Click <strong>Select Parent</strong> if you want to choose a parent for the tasks that copy to the new project.</p> <p>If you do not select a parent task, the tasks are copied as main tasks rather than subtasks and they&nbsp;are placed at the end of the task list on the specified&nbsp;project.&nbsp;</p> </li>``` ```<li value="10">(Optional) Select a parent by doing one of the following:<br>In the task list, select one of the parents in the project plan.<br>Or<br>Using the <strong>Search</strong> field, search for a parent task by name. The task should appear in the list.</li>``` ```<li value="11">Select the radio button for the parent, after you have found it.&nbsp;</li>``` ```<li value="12">(Optional) Click <strong>Go back a Step</strong> to move to the previous step</li>``` ```<li value="13"> <p>Click <strong>Finish and Copy Task.</strong></p> <p>The moved&nbsp;task now resides&nbsp;on the specified project and&nbsp;is either a subtask to a parent task, or the last task on the project.</p> </li>``` 
 
 ## Duplicate tasks
 
@@ -99,12 +101,12 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 * You cannot select what information is duplicated to the new task. Almost all the information from the original task will be transferred to the duplicated task, including parent relationship, by default. 
 * The following items are not transferred to the new task:
 
-  * Logged hours
-  * Notes
-  * Issues
-  * Only the predecessors which are in the same group of copied tasks are also copied with their successor tasks.
+   * Logged hours
+   * Notes
+   * Issues
+   * Only the predecessors which are in the same group of copied tasks are also copied with their successor tasks.
 
-    ` `**Example: **``For example, if you copy Task 2 and its predecessor, Task 1, at the same time, then you have a copy of Task 2 and a copy of Task 1. The copy of Task 1 will be the predecessor of the copy of Task 2. But if you copy just Task 2 without copying its predecessor, then its copy will have no predecessor.
+     ``` ```**Example: **``````For example, if you copy Task 2 and its predecessor, Task 1, at the same time, then you have a copy of Task 2 and a copy of Task 1. The copy of Task 1 will be the predecessor of the copy of Task 2. But if you copy just Task 2 without copying its predecessor, then its copy will have no predecessor.
 
 * When you duplicate a parent task, all children tasks are also duplicated, even when the children tasks are not selected. 
 * You can duplicate multiple tasks as the same time.
@@ -116,19 +118,19 @@ You can quickly duplicate a task in a task list, if you need an identical task o
 ### Duplicate tasks
 
 1. Go to the project that contains the task or tasks that you want to duplicate.
-1. Select the Tasks tab. 
+1. Select the **Tasks** tab. 
 1. 
    Do one of the following:
 
-  * (Conditional) Select Autosave in the upper-right corner of the list, select the tasks you want to duplicate, then click More > Duplicate.
+   * ```(Conditional) Select **Autosave** in the upper-right corner of the list, select the tasks you want to duplicate, then click **More** > **Duplicate**.```  ![duplicate_from_the_More_menu.png](assets/duplicate-from-the-more-menu-350x179.png)
 
-  * Select either the Manual save or Timeline planning options from the upper-right corner of the list of tasks, then do the following:
+   * ```Select either the **Manual save** or **Timeline planning** options from the upper-right corner of the list of tasks, then do the following:```
 
-    1. Select the task or tasks you want to duplicate, and click `Duplicate`. 
-    1. (Optional) Click `Undo` to reverse your changes and not duplicate the tasks.
-    1. (Optional and conditional) Click `Redo` if you had previously clicked `Undo`, to keep the changes and duplicate the tasks.
-    
-    1. Click `Save` to save your changes.
+      1. Select the task or tasks you want to duplicate, and click **Duplicate**. 
+      1. (Optional) Click **Undo** to reverse your changes and not duplicate the tasks.
+      1. (Optional and conditional) Click **Redo** if you had previously clicked **Undo**, to keep the changes and duplicate the tasks.
+      
+      1. Click **Save** to save your changes.
 
-  1. Edit tasks in a list
+   1. Edit tasks in a list
 

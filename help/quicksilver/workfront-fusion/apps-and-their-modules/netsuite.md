@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -51,7 +62,110 @@ You must have the following access to use the functionality in this article:
 To use NetSuite modules, you must have a NetSuite account.
 
 <!--
-Connect NetSuite to Workfront Fusion Prerequisites for using NetSuite's REST web services To use NetSuite's REST web services, you must first enable the relevant features in your account, and assign the required permissions to the web services user's role. Note: For instructions on enabling these features and assigning these permissions: See the "REST Web Services Prerequisites and Setup" section of the latest version of Oracle's SuiteTalk REST Web Services documentation. Or Log in to your Oracle Net Suite account, and search the online documentation for "REST Web Services Prerequisites and Setup." Enable Features Assign permissions Enable Features Enable the following features REST Web Services feature To use this feature, you must accept the SuiteCloud Terms of Service. REST Record Service (beta) feature This feature enables you to work with the REST record service beta functionality. Using the REST record service, you can: Perform CRUD operations on beta records Filter record collections Interact with record metadata Perform record actions and transformations. To use this feature, you must accept the SuiteCloud Terms of Service. REST Query Service (beta) feature This feature enables you to work with the REST query service beta functionality. Using the REST query service, you can work with datasets and related functionality. Suite Analytics Workbook feature This feature allows you to create workbooks that combine datasets, tables, pivot tables, and charts using the analytics data source. Note: To access the REST Record Service, REST Query Service, Record Customization, or SuiteScript Workbook API beta features, you must complete the Oracle NetSuite Umbrella Beta Program Recruitment Form. On this form, you must identify an authorized user who can sign to accept the Oracle Cloud Services Beta Trial License Agreement. After this agreement is fully executed by an authorized user through completion of this form, the requested features are available for enablement on this page. To locate the Oracle NetSuite Umbrella Beta Program Recruitment Form, search the Oracle NetSuite documentation. Assign permissions Assign the following permissions: REST Web Services Log in using Access Tokens Suite Analytics Workbook Create a new integration record To set up a connection between NetSuite and Workfront Fusion, you need to create a new integration record in Netsuite. Note: For instructions on creating a new integration record. See the "Setting Up OAuth 2.0 Authentication for REST Web Services" section of the latest version of Oracle's SuiteTalk REST Web Services documentation. Or Log in to your Oracle Net Suite account, and search the online documentation for "Create Integration Records for Applications to use Oauth 2.0." Begin creating a new integration record. When creating the new record, configure the following fields: Name Enter a name for your NetSuite integration State Select Enabled Authorization Code Grant Check this checkbox Redirect URI https://app.workfrontfusion.com/oauth/cb/workfront-netsuite-rest2 Scope Check the checkbox next to REST WEB SERVICES. Save the new integration. A page showing your client credentials appears. Copy and save the client credentials in a secure place. You will need them to create a connection in Workfront Fusion. Warning: You must copy and save the credentials before you close this window. You will not be able to access them again. Create a connection to NetSuite in a Workfront Fusion NetSuite module You can create a connection to your NetSuite account directly from inside a NetSuite module. In any NetSuite module, click Add next to the Connection field. Enter the Account ID of the Netsuite account you want the module to access. Enter the Client ID and Client Secret that you saved in step 3 in Create a new integration record above. Note: For security reasons, the values for Client Credentials are only displayed on the initial setup page. They cannot be retrieved from the system. If you did not save this information, you must reset credentials to obtain new values for your Client Credentials. Click Continue to create the connection and go back to the module.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Connect NetSuite to Workfront Fusion</h2>
+<h3>Prerequisites for using NetSuite's REST web services</h3>
+<p>To use NetSuite's REST web services, you must first enable the relevant features in your account, and assign the required permissions to the web services user's role. </p> <note type="note">
+<p>For instructions on enabling these features and assigning these permissions:</p>
+<ul>
+<li> <p>See the "REST&nbsp;Web Services Prerequisites and Setup" section of the latest version of Oracle's <a href="https://docs.oracle.com/cloud/latest/netsuitecs_gs/NSTRW/NSTRW.pdf">SuiteTalk REST Web Services</a> documentation.</p> <p>Or</p> </li>
+<li> <p>Log in to your Oracle Net Suite account, and search the online documentation for "REST Web Services Prerequisites and Setup."</p> </li>
+</ul>
+</note>
+<ul>
+<li> <p><a href="#enable" class="MCXref xref">Enable Features</a> </p> </li>
+<li> <p><a href="#assign" class="MCXref xref">Assign permissions</a> </p> </li>
+</ul>
+<h4><a name="Enable"></a>Enable Features</h4>
+<p>Enable the following features</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">REST Web Services feature</td>
+<td> <p>To use this feature, you must accept the SuiteCloud Terms of Service.</p> </td>
+</tr>
+<tr>
+<td role="rowheader">REST Record Service (beta) feature</td>
+<td> <p>This feature enables you to work with the REST&nbsp;record service beta functionality. </p> <p>Using the REST record service, you can:</p>
+<ul>
+<li> <p> Perform CRUD operations on beta records</p> </li>
+<li> <p>Filter record collections </p> </li>
+<li> <p>Interact with record metadata</p> </li>
+<li> <p>Perform record actions and transformations.</p> </li>
+</ul> <p>To use this feature, you must accept the SuiteCloud Terms of Service.</p> </td>
+</tr>
+<tr>
+<td role="rowheader">REST Query Service (beta) feature</td>
+<td>This feature enables you to work with the REST&nbsp;query service beta functionality. Using the REST query service, you can work with datasets and related functionality.</td>
+</tr>
+<tr>
+<td role="rowheader">Suite Analytics Workbook feature</td>
+<td>This feature allows you to create workbooks that combine datasets, tables, pivot tables, and charts using the analytics data source.</td>
+</tr>
+</tbody>
+</table> <note type="note">
+<p>To access the REST Record Service, REST&nbsp;Query Service, Record Customization, or SuiteScript Workbook API beta features, you must complete the Oracle NetSuite Umbrella Beta Program Recruitment Form. On this form, you must identify an authorized user who can sign to accept the Oracle Cloud Services Beta Trial License Agreement. After this agreement is fully executed by an authorized user through completion of this form, the requested features are available for enablement on this page.</p>
+<p>To locate the Oracle NetSuite Umbrella Beta Program Recruitment Form, search the Oracle NetSuite documentation.</p>
+</note>
+<h4><a name="Assign"></a>Assign permissions</h4>
+<p>Assign the following permissions:</p>
+<ul>
+<li> <p>REST Web Services</p> </li>
+<li> <p>Log in using Access Tokens</p> </li>
+<li> <p>Suite Analytics Workbook</p> </li>
+</ul>
+<h3><a name="Create2"></a>Create a new integration record</h3>
+<p>To set up a connection between NetSuite and Workfront Fusion, you need to create a new integration record in Netsuite.</p> <note type="note">
+<p>For instructions on creating a new integration record.</p>
+<ul>
+<li> <p>See the "Setting Up OAuth 2.0 Authentication for REST Web Services" section of the latest version of Oracle's <a href="https://docs.oracle.com/cloud/latest/netsuitecs_gs/NSTRW/NSTRW.pdf">SuiteTalk REST Web Services</a> documentation.</p> <p>Or</p> </li>
+<li> <p>Log in to your Oracle Net Suite account, and search the online documentation for "Create Integration Records for Applications to use Oauth 2.0."</p> </li>
+</ul>
+</note>
+<ol>
+<li value="1"> <p>Begin creating a new integration record. </p> <p>When creating the new record, configure the following fields:</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Name</td>
+<td>Enter a name for your NetSuite integration</td>
+</tr>
+<tr>
+<td role="rowheader">State</td>
+<td>Select <strong>Enabled</strong></td>
+</tr>
+<tr>
+<td role="rowheader">Authorization Code Grant</td>
+<td>Check this checkbox</td>
+</tr>
+<tr>
+<td role="rowheader">Redirect URI</td>
+<td>https://app.workfrontfusion.com/oauth/cb/workfront-netsuite-rest2</td>
+</tr>
+<tr>
+<td role="rowheader">Scope</td>
+<td> <p>Check the checkbox next to REST&nbsp;WEB&nbsp;SERVICES.</p> </td>
+</tr>
+</tbody>
+</table> <p> <img src="assets/netsuite-setup-350x275.png" style="width: 350;height: 275;"> </p> </li>
+<li value="2"> <p><strong>Save</strong>the new integration.</p> <p>A page showing your client credentials appears.</p> </li>
+<li value="3"> <p>Copy and save the client credentials in a secure place. You will need them to create a connection in Workfront Fusion.</p> <p class="warning" data-mc-autonum="<b>Warning: </b>"><span class="autonumber"><span><b>Warning: </b></span></span>You must copy and save the credentials before you close this window. You will not be able to access them again. </p> </li>
+</ol>
+<h3><a name="Create3"></a>Create a connection to NetSuite in a Workfront Fusion NetSuite module</h3>
+<p>You can create a connection to your NetSuite account directly from inside a NetSuite module.</p>
+<ol>
+<li value="1"> <p>In any NetSuite module, click <strong>Add</strong>next to the Connection field.</p> </li>
+<li value="2"> <p>Enter the Account ID&nbsp;of the Netsuite account you want the module to access.</p> </li>
+<li value="3"> <p>Enter the Client ID and Client Secret that you saved in step 3 in <a href="#create2" class="MCXref xref">Create a new integration record</a> above.</p> <note type="note">
+For security reasons, the values for Client Credentials are only displayed on the initial setup page. They cannot be retrieved from the system. If you did not save this information, you must reset credentials to obtain new values for your Client Credentials.
+</note> </li>
+<li value="4"> <p>Click <strong>Continue</strong>to create the connection and go back to the module.</p> </li>
+</ol>
+</div>
 -->
 
 ## NetSuite modules and their fields
@@ -63,7 +177,58 @@ If you see the map button above a field or function, you can use it to set varia
 ![](assets/map-toggle-350x74.png)
 
 <!--
-Triggers Actions Searches Triggers Watch records This trigger module activates a scenario when a record is created or updated. Connection For instructions about connecting your NetSuite account to Workfront Fusion, seeCreate a connection to NetSuite in a Workfront Fusion NetSuite module in this article. Record type Select the type of record you want to watch. Outputs Select the fields that you want to include in the module output. The available fields depend on the type of record you want to watch. Event type Select whether you want to watch for new records or updated records. Limit Set the highest number of records you want the module to return during each scenario execution cycle. Actions Custom API Call Create a record Update a record Delete a Record Read a Record
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<ul>
+<li><a href="#triggers" class="MCXref xref">Triggers</a> </li>
+<li><a href="#actions" class="MCXref xref">Actions</a> </li>
+<li><a href="#searches" class="MCXref xref">Searches</a> </li>
+</ul>
+<h3><a name="Triggers"></a>Triggers</h3>
+<h4>Watch records</h4>
+<p>This trigger module activates a scenario when a record is created or updated.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
+-->
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
+-->
+<td> <p style="color: #000000;">Select the type of record you want to watch.</p> </td>
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Outputs</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the fields that you want to include in the module output. The available fields depend on the type of record you want to watch.</td>
+-->
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Event type</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select whether you want to watch for new records or updated records.</td>
+-->
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Set the highest number of records you want the module to return during each scenario execution cycle.</td>
+-->
+</tr>
+</tbody>
+</table>
+<h3><a name="Actions"></a>Actions</h3>
+<ul>
+<li> <p><a href="#custom" class="MCXref xref">Custom API Call</a> </p> </li>
+<li> <p><a href="#create" class="MCXref xref">Create a record</a> </p> </li>
+<li> <p><a href="#update" class="MCXref xref">Update a record</a> </p> </li>
+<li> <p><a href="#delete" class="MCXref xref">Delete a Record</a> </p> </li>
+<li> <p><a href="#read" class="MCXref xref">Read a Record</a> </p> </li>
+</ul>
+</div>
 -->
 
 #### Custom API Call
@@ -109,6 +274,158 @@ When you are configuring this module, the following fields display.
 </table>
 
 <!--
-Create a record This action module creates a new record. You specify the type of record and field values for the new record. The module returns the ID of the record. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your NetSuite account to Workfront Fusion, seeCreate a connection to NetSuite in a Workfront Fusion NetSuite module in this article. Record type Select the type of record you want to create. Properties Fill in any properties that you want to set for the record. The available fields depend on the type of record you want to create. Update a record This action module updates an existing record. When you are configuring this module, the following fields display. Connection For instructions about connecting your NetSuite account to Workfront Fusion, seeCreate a connection to NetSuite in a Workfront Fusion NetSuite module in this article. Record type Select the type of record you want to update. Internal ID Enter the unique NetSuite ID of the record that you want the module to update Properties Fill in any properties that you want to set for the record. The available fields depend on the type of record you want to create. Delete a Record This action module deletes a single record from NetSuite. You specify the ID of the record. The module returns the internal ID of the deleted record. When you are configuring this module, the following fields display. Connection For instructions about connecting your NetSuite account to Workfront Fusion, seeCreate a connection to NetSuite in a Workfront Fusion NetSuite module in this article. Record Type Select the type of record that you want the module to delete. Internal ID Enter or map the NetSuite ID of the record you want the module to delete. Read a Record This action module reads data from a single record in NetSuite. You specify the ID of the record. The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your NetSuite account to Workfront Fusion, seeCreate a connection to NetSuite in a Workfront Fusion NetSuite module in this article. Record Type Select the type of record that you want the module to read. Outputs Select the fields that you want the module to output. The output for these fields can be mapped in later modules. Internal ID Enter or map the NetSuite ID of the record you want the module to delete. Searches Search for records This search module searches for records based on custom criteria. Connection For instructions about connecting your NetSuite account to Workfront Fusion, seeCreate a connection to NetSuite in a Workfront Fusion NetSuite module in this article. Record Type Select the type of record that you want the module to read. Search criteria Field Select the field that you want to use in your search. The available fields depend on the type of record you want to create. Logical operator Select the operator. This will vary based on the type of field. Value Enter or map the value you want to search for Records to return Select whether you want to return the first matching record, or all matching records. Outputs Select the fields that you want the module to output. The output for these fields can be mapped in later modules. Limit Enter or map the maximum number of records you want the module to return during each scenario execution cycle.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h4><a name="Create"></a>Create a record</h4>
+<p>This action module creates a new record.</p>
+<p>You specify the type of record and field values for the new record.</p>
+<p>The module returns the ID of the record. You can map this information in subsequent modules in the scenario.</p>
+<p>When you are configuring this module, the following fields display.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
+-->
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
+-->
+<td> <!--
+<p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of record you want to create.</p>
+--> </td>
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Properties</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Fill in any properties that you want to set for the record. The available fields depend on the type of record you want to create.</td>
+-->
+</tr>
+</tbody>
+</table>
+<h4><a name="Update"></a>Update a record</h4>
+<p>This action module updates an existing record.</p>
+<p>When you are configuring this module, the following fields display.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+-->
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Record type</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of record you want to update.</td>
+-->
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Internal ID</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Enter the unique NetSuite ID of the record that you want the module to update</td>
+-->
+</tr>
+<tr> <!--
+<td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Properties</td>
+--> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Fill in any properties that you want to set for the record. The available fields depend on the type of record you want to create.</td>
+-->
+</tr>
+</tbody>
+</table>
+<h4><a name="Delete"></a>Delete a Record</h4>
+<p>This action module deletes a single record from NetSuite.</p>
+<p>You specify the ID of the record.</p>
+<p>The module returns the internal ID of the deleted record.</p>
+<p>When you are configuring this module, the following fields display.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Connection</td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+</tr>
+<tr>
+<td role="rowheader">Record Type</td>
+<td>Select the type of record that you want the module to delete.</td>
+</tr>
+<tr>
+<td role="rowheader">Internal ID</td>
+<td>Enter or map the NetSuite ID of the record you want the module to delete.</td>
+</tr>
+</tbody>
+</table>
+<h4><a name="Read"></a>Read a Record</h4>
+<p>This action module reads data from a single record in NetSuite.</p>
+<p>You specify the ID of the record.</p>
+<p>The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
+<p>When you are configuring this module, the following fields display.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Connection</td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+</tr>
+<tr>
+<td role="rowheader">Record Type</td>
+<td>Select the type of record that you want the module to read.</td>
+</tr>
+<tr>
+<td role="rowheader">Outputs</td>
+<td>Select the fields that you want the module to output. The output for these fields can be mapped in later modules.</td>
+</tr>
+<tr>
+<td role="rowheader">Internal ID</td>
+<td>Enter or map the NetSuite ID of the record you want the module to delete.</td>
+</tr>
+</tbody>
+</table>
+<h3><a name="Searches"></a>Searches</h3>
+<h4>Search for records</h4>
+<p>This search module searches for records based on custom criteria.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Connection</td>
+<td> <p>For instructions about connecting your NetSuite account to Workfront Fusion, see<a href="#create3" class="MCXref xref">Create a connection to NetSuite in a Workfront Fusion NetSuite module</a> in this article.</p> </td>
+</tr>
+<tr>
+<td role="rowheader">Record Type</td>
+<td>Select the type of record that you want the module to read.</td>
+</tr>
+<tr>
+<td role="rowheader">Search criteria</td>
+<td>
+<ul>
+<li> <p><strong>Field</strong> </p> <p>Select the field that you want to use in your search. The available fields depend on the type of record you want to create.</p> </li>
+<li> <p><strong>Logical operator</strong> </p> <p>Select the operator. This will vary based on the type of field.</p> </li>
+<li> <p><strong>Value</strong> </p> <p>Enter or map the value you want to search for </p> </li>
+</ul> </td>
+</tr> <!--
+<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<td role="rowheader">Records to return</td>
+<td>Select whether you want to return the first matching record, or all matching records.</td>
+</tr>
+-->
+<tr>
+<td role="rowheader">Outputs</td>
+<td>Select the fields that you want the module to output. The output for these fields can be mapped in later modules.</td>
+</tr>
+<tr>
+<td role="rowheader">Limit</td>
+<td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td>
+</tr>
+</tbody>
+</table>
+</div>
 -->
 

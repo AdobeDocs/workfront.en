@@ -1,0 +1,190 @@
+<html>
+ <head>
+  <title>Grant access to Adobe Workfront Goals</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Grant access to Adobe Workfront Goals</h1> 
+    <p aemmigrated="true">As an Adobe Workfront administrator, you can use an access level to define a user’s access to Adobe Workfront Goals, as explained in <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref" aemmigrated="true">Access levels overview</a>.</p> 
+    <h2 aemmigrated="true">Access requirements</h2> 
+    <p aemmigrated="true">You must have the following to grant users access to Workfront Goals:</p> 
+    <table cellspacing="0" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Workfront plan</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Pro or higher</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Adobe Workfront license*</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Plan </p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Product</td> 
+       <td aemmigrated="true">Workfront Goals <p aemmigrated="true">Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p aemmigrated="true">Workfront Goals is available only in the new Adobe Workfront experience. For information about enrolling users in the new Adobe Workfront experience, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md" class="MCXref xref" data-mc-variable-override="" aemmigrated="true">Enroll users in the new Adobe Workfront experience</a>.</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Access level configuration*</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">You must have the System Administrator access level. For information about this access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="" aemmigrated="true">Grant a user full administrative access</a>.</p> <p aemmigrated="true">Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="" aemmigrated="true">Create or modify custom access levels</a>.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p aemmigrated="true">*To find out what plan, license type, or access level you have, contact your Workfront administrator.</p> 
+    <p aemmigrated="true">For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.</p> 
+    <h2 aemmigrated="true"><a name="Understa2" aemmigrated="true"></a>Grant user access to Workfront Goals using a custom access level</h2> 
+    <ol aemmigrated="true"> 
+     <li value="1" aemmigrated="true">Begin creating or editing the access level, as explained in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="" aemmigrated="true">Create or modify custom access levels</a>.</li> 
+     <li value="2" aemmigrated="true"> <p aemmigrated="true">Click the option to the right of <strong aemmigrated="true">Goals</strong> that you want to use for this access level.</p> <p aemmigrated="true"> <img src="assets/edit-access-level-goals-350x139.png" style="width: 350;height: 139;" aemmigrated="true"> </p> <note aemmigrated="true">
+       The External license type does not allow View or Edit access to Workfront Goals.
+      </note> </li> 
+     <li value="3" aemmigrated="true"> <p aemmigrated="true">(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" data-mc-variable-override="" aemmigrated="true">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" data-mc-variable-override="" aemmigrated="true">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" data-mc-variable-override="" aemmigrated="true">Grant access to financial data</a>.</p> </li> 
+     <li value="4" aemmigrated="true"> <p aemmigrated="true">When you are finished, click Save.</p> </li> 
+    </ol> 
+    <h2 aemmigrated="true"><a name="Understa3" aemmigrated="true"></a>Access to Workfront Goals by license type</h2> 
+    <p aemmigrated="true">A Workfront administrator can allow to users with a Plan, Work, Request, or Review license fill Edit access to Workfront Goals in an access level.</p> 
+    <table cellspacing="15" aemmigrated="true"> <draft-comment aemmigrated="true">
+      <col data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">
+     </draft-comment> <draft-comment aemmigrated="true">
+      <col data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">
+     </draft-comment> <draft-comment aemmigrated="true">
+      <col data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">
+     </draft-comment> <draft-comment aemmigrated="true">
+      <col data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">
+     </draft-comment> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Actions</th> 
+       <th aemmigrated="true">Edit</th> 
+       <th aemmigrated="true">View</th> 
+       <th aemmigrated="true">No Access</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View Goals in the Main menu</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View the Goals area from a shared link</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View all goals in the system</td> 
+       <td aemmigrated="true">✓ </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Create goals</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Edit and delete all goals</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Activate/ deactivate/ close all goals</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Create, edit, and delete activities</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Create, edit, and delete results</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Add an aligned goal</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Update progress on a result or activity</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Own a goal, result, or activity</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Comment on a goal</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Copy goals</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View the Goal List section in the left panel</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View the Graphs section in the left panel</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View the Goal Alignment section in the left panel</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View the Pulse section in the left panel</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View the Check-in area in the left panel</td> 
+       <td aemmigrated="true">✓</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">View the Settings area in the left panel</td> 
+       <td aemmigrated="true">✓ </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Print a list of goals</td> 
+       <td aemmigrated="true">✓ </td> 
+       <td aemmigrated="true">&nbsp;</td> 
+       <td aemmigrated="true">&nbsp;</td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+  </div>
+ </body>
+</html>

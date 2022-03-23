@@ -56,11 +56,11 @@ You must have the following access to perform the steps in this article:
 To apply this grouping:
 
 1. Go to a list of projects.
-1. From the `Grouping` drop-down menu, select `New Grouping`.
+1. From the **Grouping**&nbsp;drop-down menu, select **New Grouping**.
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. Remove the text in the box, and paste the following code in the available space:
    <pre>group.0.linkedname=direct<br>group.0.name=Percent Breakdown<br>group.0.notime=false<br>group.0.valueexpression=IF({percentComplete}=0,"0 %",IF({percentComplete}<=26,"0-25 %",IF({percentComplete}<=51,"25-50 %",IF({percentComplete}<=76,"50-75 %",IF({percentComplete}<100,"75-99 %","100 %")))))<br>group.0.valueformat=string</pre>
 
-1. Click `Save Grouping`.
+1. Click **Save Grouping**.
 

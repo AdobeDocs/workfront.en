@@ -44,8 +44,8 @@ You must have the following to perform the steps in this article:
 ## Grant administrative access for a layout template
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click `Grant access to` in the top section of the page.
-1. In the box that appears, click `Add a group`, start typing the name of the group, click the name when it appears, then click `Done`.
+1. Click **Grant access to** in the top section of the page.
+1. In the box that appears, click **Add a group**, start typing the name of the group, click the name when it appears, then click **Done**.
 
    Any users designated as the group administrators for the group you specify can administer the layout template. However, the template is not assigned to the member of the group for their use. For information about assigning a layout template to a group, see [Assign a layout template to users](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in this article.
 
@@ -60,5 +60,5 @@ You must have the following to perform the steps in this article:
    >  
    >
 
-1. You can `Save` your progress at any time, then continue to modify the template later.
+1. You can **Save** your progress at any time, then continue to modify the template later.
 

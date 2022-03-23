@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Review an interactive proof
 description: You can review an interactive proof that has been shared with you or that you have created.
+hidefromtoc: true
 ---
 
 # Review an interactive proof
@@ -42,7 +43,7 @@ You must have the following access to perform the steps in this article:
 ## Open and work with an interactive proof
 
 1. Go to the document list that contains the interactive proof you want to open.
-1. Hover over the document, then click  `Open proof`.
+1. Hover over the document, then click&nbsp;**Open proof**.
 
    Depending on which proofing viewer your Adobe Workfront administrator has configured for proofing interactive content, the Desktop Proofing Viewer or Web Proofing Viewer launches automatically. For information about these two viewers, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
@@ -56,7 +57,7 @@ You must have the following access to perform the steps in this article:
 
     >[!NOTE]
     >
-    >The Desktop Proofing Viewer, takes a static screenshot of your content every time you click `Add comment` so users can see what part of the content you are commenting on. This screenshot is where you can add comments with markups.
+    >The Desktop Proofing Viewer, takes a static screenshot of your content every time you click **Add comment** so users can see what part of the content you are commenting on. This screenshot is where you can add comments with markups.
 
   * Use proofing viewer functionality described in the remaining sections below.
 
@@ -87,14 +88,14 @@ After your Workfront administrator configures your system for interactive proofi
 
    See also [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
 
-1. Click `Add comment`.
+1. Click **Add comment**.
 
    A message prompts you to download the browser extension for interactive content.
 
-1. Click `Add to browser` to go to the extension download page in your browser's store, then download the extension.
-1. In the Web Proofing Viewer, click `Reload the proof`.
+1. Click **Add to browser** to go to the extension download page in your browser's store, then download the extension.
+1. In the Web Proofing Viewer, click **Reload the proof**.
 
-With the extension installed on your browser, the proofing viewer takes a static screenshot of your content every time you click `Add comment`. This screenshot is where you can add comments with markups.
+With the extension installed on your browser, the proofing viewer takes a static screenshot of your content every time you click **Add comment**. This screenshot is where you can add comments with markups.
 
 ## Use browser navigation within an interactive proof
 

@@ -62,16 +62,17 @@ You must have the following:
 
 ## View project Planned Hours in the Role Allocation panel
 
-1. Click Projects in the Global Navigation Bar. 
+1. Click **Projects** in the Global Navigation Bar.  
 1. Click the name of a project to access it.&nbsp;This opens the Project page. 
-1. Click Staffing > Workload Balancer. You might need to click Scheduling > Switch to Workload Balancer. 
-1. Click the `Show role allocation` icon ![](assets/show-role-allocation-icon.png).
+1. Click **Staffing** > Workload Balancer. You might need to click **Scheduling** > **Switch to Workload Balancer**.  
+
+1. Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png).
 
    The Role Allocation panel displays.
 
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
-1. Review the following information in the `Role Allocation` panel:
+1. Review the following information in the **Role Allocation** panel:
 
    | Job Role |Job roles assigned to tasks and issues on the project. These can be job roles assigned directly to tasks and issues or job roles associated with users assigned to tasks and issues on the project.  |
    |---|---|

@@ -14,11 +14,16 @@ Adobe Workfront captures the activity taking place on certain objects by logging
 
 The Updates area includes the following types of updates:
 
-* `User updates:` Manually entered by users. Also referred to as comments, replies, and notes.
-* `System updates:` Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
+* **User updates:** Manually entered by users. Also referred to as comments, replies, and notes.
+
+  ![Updates.png](assets/updates-350x53.png)   
+
+* **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
 
   <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   Timestamps for system updates are based on your operating system's timezone.
+  </MadCap:conditionalText>
   -->
 
 The following objects can have updates:

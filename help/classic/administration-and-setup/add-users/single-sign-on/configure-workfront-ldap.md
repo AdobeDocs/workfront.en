@@ -44,10 +44,10 @@ You must have the following to perform the steps in this article:
 
 ## Connect Adobe Workfront with an LDAP Directory Server
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `System` > `Single Sign-On (SSO)`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **System** > **Single Sign-On (SSO)**.
 
-1. In the `Type` drop-down list, click `LDAP`.
+1. In the **Type** drop-down list, click **LDAP**.
 
 1. Specify the following information:
 
@@ -77,7 +77,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Attribute Synchronization</td> 
-      <td>Click <span class="bold">Map User Attributes</span>, select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the Active Directory server. You can also specify a Default Value for the attribute if you want one to be set. Click <span class="bold">Add Mapping</span> to include additional attributes, then click <span class="bold">Save</span> when you are finished.<p>Important:  Workfront attempts to map these attributes every time a user with these attributes logs into the system. If you have existing users in the system, make sure you are not overwriting their current access level, or any other attributes, by applying this mapping. </p><p>You can map the following Workfront attributes:</p> 
+      <td>Click <strong>Map User Attributes</strong>, select the Workfront User Attribute that you want to map from the drop-down list, then specify the corresponding Directory Attribute in the Active Directory server. You can also specify a Default Value for the attribute if you want one to be set. Click <strong>Add Mapping</strong> to include additional attributes, then click <strong>Save</strong> when you are finished.<p>Important:  Workfront attempts to map these attributes every time a user with these attributes logs into the system. If you have existing users in the system, make sure you are not overwriting their current access level, or any other attributes, by applying this mapping. </p><p>You can map the following Workfront attributes:</p> 
        <ul> 
         <li>Access Level</li> 
         <li>Address</li> 
@@ -118,14 +118,14 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Enable</td> 
-      <td>Select this option to activate SSO on the Workfront system. Ensure that you have communicated login instructions to your users.<p>After you enable your SSO configuration in Workfront, you must update users for SSO to enable the <span class="bold">Only Allow LDAP Authentication</span> setting for all users.</p><p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p><p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p></td> 
+      <td>Select this option to activate SSO on the Workfront system. Ensure that you have communicated login instructions to your users.<p>After you enable your SSO configuration in Workfront, you must update users for SSO to enable the <strong>Only Allow LDAP Authentication</strong> setting for all users.</p><p>For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p><p>For more information about user settings, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Confirm Configuration</td> 
-      <td>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.<p>Click <span class="bold">Test Connection</span>, then specify the <span class="bold">Username</span> and <span class="bold">Password</span> for accessing the directory service, then click <span class="bold">Test Connection</span>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection-350x166.png" alt="sso_active_directory_and_ladap_test_connection.png" style="width: 350;height: 166;"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
+      <td>Verify that your Workfront account can connect to the LDAP server using the connection information and credentials provided.<p>Click <strong>Test Connection</strong>, then specify the <strong>Username</strong> and <strong>Password</strong> for accessing the directory service, then click <strong>Test Connection</strong>.</p><p><img src="assets/sso-active-directory-and-ladap-test-connection-350x166.png" alt="sso_active_directory_and_ladap_test_connection.png" style="width: 350;height: 166;"></p><p>You should receive an on-screen notification that the connection was successful.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save` to save the LDAP configuration.
+1. Click **Save** to save the LDAP configuration.
 

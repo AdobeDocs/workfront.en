@@ -43,11 +43,11 @@ You must have the following access to perform the steps in this article:
 
 ## Remove a project from a portfolio
 
-1. Go to a Portfolio and select the Projects tab. 
+1. Go to a Portfolio and select the **Projects**&nbsp;tab. 
 1. Select the project to be removed.&nbsp;
 
-1. Click  `Remove Projects`.
-1. Click either `Delete` to delete the project from Workfront, or `Remove` `from Portfolio` to remove it from the selected Portfolio.  
+1. Click&nbsp;**Remove Projects**.
+1. Click either **Delete** to delete the project from Workfront, or **Remove** **from Portfolio** to remove it from the selected Portfolio.  
 
 1. (Optional and conditional) Find the project you removed from the portfolio and associate it with another portfolio. For information about associating projects with portfolios see [Add projects to a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 

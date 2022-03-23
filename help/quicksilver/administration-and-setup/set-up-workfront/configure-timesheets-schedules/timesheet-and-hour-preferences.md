@@ -38,9 +38,13 @@ You must have the following to perform the steps in this article:
 
 ## Set timesheet and hour preferences
 
-1. Click `Timesheet & Hours` > `Preferences`.
+1. Main Menu
+1. 
+1. Setup
+1. 
+1. Click **Timesheet & Hours** > **Preferences**.
 
-1. On the page that displays, in the `General Preferences` section, configure any of the following options:
+1. On the page that displays, in the **General Preferences** section, configure any of the following options:
 
    <table cellspacing="0"> 
     <col> 
@@ -65,11 +69,31 @@ You must have the following to perform the steps in this article:
          <li>If you disable this setting after assigning job roles to hour entries, users must adjust hours logged under various roles on the Hours tab of the project, task, or issue.</li> 
          <li>If the user does not have a job role assigned in their profile and there is a task assigned as the Task Owner in the Advanced Assignments dialog box, that job role appears when the user logs time on the task.</li> 
         </ul> </p> </td> 
-     </tr> Restrict timesheet editing to owners and admins Restrict editing to timesheet owners and Workfront administrators. When this option is disabled, timesheets can also be edited by: Users with administrative access to timesheets and hours in their access level Timesheet approvers if “Can edit hours” is enabled on the timesheet The manager of the timesheet owner Restrict hour editing to owners and admins Restrict editing to the user who input the hours and Workfront administrators. This setting applies to the Hours tab in a project or in an Hours report. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
+      <td> <p>Restrict editing to timesheet owners and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
+       <ul> 
+        <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
+        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
+        <li> <p>The manager of the timesheet owner</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Restrict hour editing to owners and admins</td> 
+      <td>Restrict editing to the user who input the hours and Workfront administrators. This setting applies to the Hours tab in a project or in an Hours report.</td> 
+     </tr> 
     </tbody> 
    </table>
 
-1. In the `Pre-Populate timesheets with`section, configure any of the following options: 
+1. In the **Logging Time** section, configure any of the following options: 
+
+   | Log time directly on projects |Allows users to log time on the project (both on the Updates tab and timesheet). If users do not record&nbsp;time at the project level, this options should remain unchecked. |
+   |---|---|
+   | Log time on projects that are complete |Allows users to record time on a project that has been marked complete. If this option is disabled, users cannot record time for the work they have completed on projects in the Complete status. |
+   | **Log time on projects that are dead** |When this option is enabled, users can log hours on projects with a Dead status. |
+
+1. In the **Pre-Populate timesheets with**section, configure any of the following options: 
 
    <table cellspacing="0"> 
     <col> 
@@ -94,7 +118,32 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. In the **Project, Task or Issue Deletion Preferences** section, specify the following:
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">When deleting projects</td> 
+      <td> 
+       <ul> 
+        <li><strong>Keep logged time already added to timesheets as general time</strong>: If this project is restored at a later time, the time remains on the timesheet.</li> 
+        <li><strong>Delete any logged time</strong>: If this project is later restored, time already logged is restored to the project.</li> 
+       </ul> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">When deleting tasks or issues</td> 
+      <td> 
+       <ul> 
+        <li><strong>Move any logged time to the project where the task or issue resides</strong>: If this task or issue is later restored, the time remains on the project.<br></li> 
+        <li> <p><strong>Delete any logged time</strong>: If this task or issue is later restored, logged time is restored to the task or issue.</p> <p>For more detailed information about these options, see <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">Configure affect on hours when an object is deleted and restored</a>.</p> </li> 
+       </ul> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Click **Save**.
 
 ## Unlock timesheet and hour preferences for groups
 
@@ -110,9 +159,9 @@ For information about how a group administrator configures timesheet and hour pr
 
 To unlock a project preference so that groups can configure it:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Timesheets & Hours`, then click `Preferences`.
+1. In the left panel, click **Timesheets & Hours**, then click **Preferences**.
 
 1. Do any of the following:
 
@@ -123,5 +172,5 @@ To unlock a project preference so that groups can configure it:
     >
     >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
-1. Click `Save`.
+1. Click **Save**.
 

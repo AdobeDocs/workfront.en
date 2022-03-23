@@ -43,25 +43,27 @@ You must have the following access to perform the steps in this article:
 
 ## Grant access to objects in the Home area
 
-1. In the `Work List`, select the access request you want to manage.  
+1. Home
+1. In the **Work List**, select the access request you want to manage.  
    ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
 1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says  `Grant View Access`.  
+   Depending on the type of access requested, the button name changes.&nbsp;For example, if the requestor asks for View access, the button says&nbsp;**Grant View Access**.  
    ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
 
 1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access.  
    A message appears confirming access was granted.  
    OR  
-   Click `Ignore` to deny access.  
+   Click **Ignore** to deny access.  
    A message appears confirming access was ignored.
 
 ## Configure Email Notifications for Requests
 
 You can configure whether you receive email notifications for access requests. Your Workfront administrator can disable this functionality (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Click `Preferences`, or scroll to the Preferences section.
-1. In the `Email Me When` drop-down list, select or deselect `Someone requests access from me`, depending on whether you want to receive email notifications when another user requests access from you or not.
+1. My Settings
+1. Click **Preferences**, or scroll to the Preferences section.
+1. In the **Email Me When** drop-down list, select or deselect **Someone requests access from me**, depending on whether you want to receive email notifications when another user requests access from you or not.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

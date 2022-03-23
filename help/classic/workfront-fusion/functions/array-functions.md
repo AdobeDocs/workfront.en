@@ -21,7 +21,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -30,7 +34,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -51,13 +62,13 @@ Verifies if an array contains the value.
 
 Removes duplicates inside an array. Use the "key" argument to access properties inside complex objects. To access nested properties, use dot notation. The first item in an array is index 1.
 
-` `**Example: **`` `distinct(` `Contacts[]` `;`
+``` ```**Example: **`````` ```distinct(``` ```Contacts[]``` ```;```
 
 ```
 name
 ```
 
-`)` Removes duplicates inside an array of contacts by comparing the "name" property
+```)``` Removes duplicates inside an array of contacts by comparing the "name" property
 
 ## flatten (array)
 
@@ -81,50 +92,52 @@ Returns the number of items in an array.
 
 Returns a primitive array containing values of a complex array. This function allows filtering values. Use raw variable names for keys.
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
-* `map(` `Emails[]` `;`
+* ```map(``` ```Emails[]``` ```;```
 
   ```
   email
   ```
 
-  `)`
+  ```)```
 
   Returns a primitive array with emails
 
-* `map(` `Emails[]` `;`
+* ```map(``` ```Emails[]``` ```;```
 
   ```
   email
   ```
 
-  `;`
+  ```;```
 
   ```
   label
   ```
 
-  `;`
+  ```;```
 
   ```
   work
   ```
 
-  `;`
+  ```;```
 
   ```
   home
   ```
 
-  `)`
+  ```)```
 
-  Returns a primitive array with `emails`having a label equal to work or home
+  Returns a primitive array with ```emails```having a label equal to work or home
 
 For more information, see [Map information from one module to another](../../workfront-fusion/mapping/map-information-between-modules.md)
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 and our Extract an item and/or its value from an array of collections video tutorial
+</MadCap:conditionalText>
 -->
 
 .
@@ -201,41 +214,41 @@ To access nested properties, use dot notation.
 
 The first item in an array is index 1.
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
-* `sort(` `Contacts[]` `;`
+* ```sort(``` ```Contacts[]``` ```;```
 
   ```
   name
   ```
 
-  `)`
+  ```)```
 
   Sorts an array of contacts by the "name" property in default ascending order
 
-* `sort(` `Contacts[]` `;`
+* ```sort(``` ```Contacts[]``` ```;```
 
   ```
   desc
   ```
 
-  `;`
+  ```;```
 
   ```
   name
   ```
 
-  `)`
+  ```)```
 
   Sorts an array of contacts by the "name" property in descending order
 
-* `sort(` `Contacts[]` `;`
+* ```sort(``` ```Contacts[]``` ```;```
 
   ```
   asc ci
   ```
 
-  `;`
+  ```;```
 
   ```
   name
@@ -245,13 +258,13 @@ The first item in an array is index 1.
 
   Sorts an array of contacts by the "name" property in case-insensitive ascending order
 
-* `sort(` `Emails[]` `;`
+* ```sort(``` ```Emails[]``` ```;```
 
   ```
   sender.name
   ```
 
-  `)`
+  ```)```
 
   Sorts an array of emails by the "sender.name" property
 
@@ -320,7 +333,7 @@ parameter.
 
   .
 
-` `**Examples: **`` Given the following arrays:
+``` ```**Examples: **`````` Given the following arrays:
 
 ```
 myArray = [1,2,3,4,5]

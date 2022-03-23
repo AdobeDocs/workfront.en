@@ -33,7 +33,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or higher 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -49,13 +53,13 @@ You must have the following access to perform the steps in this article:
 1. In the preferences for your Adobe Creative Cloud application, make sure that syncing is enabled (this is the default).  
 
 1. In a web browser, log in to your Adobe account, then go to the Adobe Exchange Creative Cloud website.
-1. In the `Search Marketplace` box (near the bottom of the screen), search for `Workfront`.  
+1. In the **Search Marketplace** box (near the bottom of the screen), search for **Workfront**.  
 
-1. In the box that appears below the search box, click `Workfront Extension`.
+1. In the box that appears below the search box, click **Workfront Extension**.
 
    ![adobe_workfront_search_in_the_exchange.png](assets/adobe-workfront-search-in-the-exchange-350x240.png)
 
-1. Click `Install`.
+1. Click **Install**.
 1. When the installation completes, restart your computer and Workfront for Adobe Creative Cloud is added to your list of extensions for the supported applications.
 
    For information about verifying that the extension is installed, see the [Ensure Workfront for Adobe Creative Cloud installed successfully](#ensuring-the-addon-installed-successfully) section in this article.
@@ -64,11 +68,11 @@ You must have the following access to perform the steps in this article:
 
 1. Open one of the following supported applications on your computer:
 
-  * Adobe Illustrator
-  * Adobe InDesign
-  * Adobe Photoshop
+   * Adobe Illustrator
+   * Adobe InDesign
+   * Adobe Photoshop
 
-1. Click `Window` > `Extensions` > Workfront.
+1. Click **Window** > **Extensions** > Workfront.
 
    If you don't see the Workfront extension, make sure that syncing is enabled in Adobe Creative Cloud. See Adobe Help documentation if you need help
 

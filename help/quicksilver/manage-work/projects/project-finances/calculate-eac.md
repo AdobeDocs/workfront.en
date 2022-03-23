@@ -92,16 +92,16 @@ EAC = EAC Labor + EAC Expense
 
   For information about the total Budgeted Cost Work Performed (BCWP), see [Calculate Budgeted Cost Work Performed (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-  * `For a non-parent task:`
+  * **For a non-parent task:**
 
     ```  
     Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete/100)
     ```
 
-  * `For a parent task:`   
+  * **For a parent task:** 
     Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all direct child tasks.
   
-  * `For a project:`   
+  * **For a project:** 
     Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all top level tasks (parents and standalone tasks).&nbsp;
 
 * EAC&nbsp;Expense = the result of adding the Incurred Actual Expense Cost to the Not Incurred Planned Expense Cost. It is calculated by the following formula:
@@ -116,8 +116,9 @@ EAC = EAC Labor + EAC Expense
 ## Locate the EAC in a project or a task
 
 1. Go to the project or task where you want to view the EAC.
-1. Expand Project Details or Tasks Details in the left panel of the project or task, depending on where you view the EAC. 
-1. Click `Finance`.&nbsp;
+1. Expand **Project Details** or **Tasks Details** in the left panel of the project or task, depending on where you view the EAC.  
 
-   The EAC value displays in the `Estimate at Completion` field.
+1. Click **Finance**.&nbsp;
+
+   The EAC value displays in the **Estimate at Completion** field.
 

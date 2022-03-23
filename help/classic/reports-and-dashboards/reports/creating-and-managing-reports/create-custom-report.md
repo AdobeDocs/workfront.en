@@ -45,8 +45,9 @@ You must have the following access to perform the steps in this article:
 
 To watch a video of how to create a report, see this [Video walk-through](#walk-thr) below.
 
-1. Go to the Reporting area in the Global Navigation Bar, then select the Reports tab. 
-1. Click `New Report`, then select the object type that you want for the report.
+1. Go to the **Reporting** area in the Global Navigation Bar, then select the **Reports** tab. 
+
+1. Click **New Report**, then select the object type that you want for the report.
 
    The report builder loads.
 
@@ -87,18 +88,18 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
     </tbody> 
    </table>
 
-1. At any point during the report creation process, click `Apply` to save your changes.
-1. After you are finished, click `Save + Close`.
+1. At any point during the report creation process, click **Apply** to save your changes.
+1. After you are finished, click **Save + Close**.
 
 ### Add columns (view) to a report
 
 1. Start creating a report as described in the [Create a report](#how-to) section in this article.
-1. In the report builder, select the `Columns (View)` tab to identify the columns to appear in the report.
-1. (Optional) Click `Apply an Existing View` to use an existing view.
+1. In the report builder, select the **Columns (View)** tab to identify the columns to appear in the report.
+1. (Optional) Click **Apply an Existing View** to use an existing view.
 
    For more information about creating a new view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. To add a new column, click `Add Column`.
+1. To add a new column, click **Add Column**.
 
    Or
 
@@ -108,7 +109,7 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-1. (Optional) In the `Column Settings` area, select `Sort by this column` to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.
+1. (Optional) In the **Column Settings** area, select **Sort by this column** to sort the values in the column either in ascending on descending alphabetical order, then indicate whether the list should use this column as its first sort.
 
    You can have multiple levels of sorts in a report view if you want to sort by the value in one column first, the value in a second column secondly, etc.
 
@@ -120,7 +121,7 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
    >For example, an issue report cannot sort by the Project Owner field because it references 3 additional objects: Project, Owner, and Name. However, you can still add this field to an issue report and see the information for it.  
    >To learn more about cross-object references in reports, see the section "Advanced Reporting Part 1 of 3" in the [Reports and Dashboards Learning Path](https://one.workfront.com/s/learningpath2/workfront-reporting-MC7MZT2BOL2ZC2LMJ4MA3EMHOCNY?tabset-dc70e=2).
 
-1. (Optional) If you are using groupings and you want to summarize (aggregate) the information in a column, click the `Summarize this column by` drop-down list in the `Column Settings` area, then select the option you want to use to aggregate the information in the column.
+1. (Optional) If you are using groupings and you want to summarize (aggregate) the information in a column, click the **Summarize this column by** drop-down list in the **Column Settings** area, then select the option you want to use to aggregate the information in the column.
 
    The aggregated information displays in the column in the grouping rows.
 
@@ -130,17 +131,17 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
    >
    >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
    >
-   >  
-   >  
-   >  * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
-   >  * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
-   >  * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
-   >  
+   >   
+   >   
+   >   * All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
+   >   * Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
+   >   * Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
+   >   
    >
 
    For more information about using groupings in a report, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. (Optional) Click `Advanced Options` to specify the following information for the column:
+1. (Optional) Click **Advanced Options** to specify the following information for the column:
 
    <table cellspacing="0"> 
     <col> 
@@ -160,27 +161,27 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
      </tr> 
      <tr> 
       <td role="rowheader">Column Rules</td> 
-      <td> <p>Click <span class="bold">Add a Rule for this Column</span> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <span class="bold">Add Rule</span> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </td> 
+      <td> <p>Click <strong>Add a Rule for this Column</strong> to add conditional formatting to the column. After you add a rule, you can define field and text styles for how fields that match that rule are displayed. Click <strong>Add Rule</strong> after you have finished defining the rule. For more information about conditional formatting in a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md" class="MCXref xref">Use conditional formatting in Views</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Apply` to apply your changes so far and continue editing the report with the following options.
+1. Click **Apply** to apply your changes so far and continue editing the report with the following options.
 
-   Click `Save + Close` if you are finished editing the columns in the report and you want to save the report.
+   Click **Save + Close** if you are finished editing the columns in the report and you want to save the report.
 
 ### Add groupings to a report
 
 1. Start creating a report as described in the [Create a report](#how-to) section in this article.
-1. In the report builder, select the `Groupings` tab to identify how you want to group items in the report.
-1. Click `Add Grouping` to add a new grouping.
+1. In the report builder, select the **Groupings** tab to identify how you want to group items in the report.
+1. Click **Add Grouping** to add a new grouping.
 
    Or
 
-   Choose `Apply an Existing Grouping` to select an existing grouping
+   Choose **Apply an Existing Grouping** to select an existing grouping
 
 1. Start typing the field that you want to add as a grouping. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that grouping.
-1. (Optional) You can choose to build a grouping in text mode, by clicking `Switch to Text Mode`. For more information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+1. (Optional) You can choose to build a grouping in text mode, by clicking **Switch to Text Mode**. For more information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
    For more information about creating new groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
@@ -188,41 +189,41 @@ To watch a video of how to create a report, see this [Video walk-through](#walk-
 
    For more information about building a matrix report, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Click `Apply` to apply your changes so far and continue editing the report with the following options.
+1. Click **Apply** to apply your changes so far and continue editing the report with the following options.
 
-   Click `Save + Close` if you are finished editing the groupings in the report and you want to save the report.
+   Click **Save + Close** if you are finished editing the groupings in the report and you want to save the report.
 
 ### Add filters to a report
 
 1. Start creating a report as described in the [Create a report](#how-to) section in this article.
-1. In the report builder, select the `Filters` tab to identify the amount of information that you want the report to include.
-1. Click `Add a Filter Rule` to add a custom filter.  
+1. In the report builder, select the **Filters** tab to identify the amount of information that you want the report to include.
+1. Click **Add a Filter Rule** to add a custom filter.  
    Or  
-   Choose `Apply an Existing Filter` to use an existing filter.
+   Choose **Apply an Existing Filter** to use an existing filter.
 
-1. If you clicked `Add a Filter Rule`, start typing the field that you want to add as a filter. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that filter.  
+1. If you clicked **Add a Filter Rule**, start typing the field that you want to add as a filter. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that filter.  
    Use filter modifiers to build your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    For more information about creating new filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. (Optional) You can choose to build a filter in text mode by clicking `Switch to Text Mode`.
+1. (Optional) You can choose to build a filter in text mode by clicking **Switch to Text Mode**.
 
    For more information about using text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-1. Click `Apply` when you are finished editing the filters in the report to apply your changes so far and continue editing the report with the following options.
+1. Click **Apply** when you are finished editing the filters in the report to apply your changes so far and continue editing the report with the following options.
 
-   Click `Save + Close` if the report and you want to save the report.
+   Click **Save + Close** if the report and you want to save the report.
 
 ### Add a chart to a report
 
 1. Start creating a report as described in the [Create a report](#how-to) section in this article.
-1. In the report builder, select the `Chart` tab, then select the type of chart you want to add.
+1. In the report builder, select the **Chart** tab, then select the type of chart you want to add.
 
    For more information about building a chart in a report, see [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-1. Click `Apply` to apply your changes so far and continue editing the report with the following options.
+1. Click **Apply** to apply your changes so far and continue editing the report with the following options.
 
-   Click `Save + Close` if you are finished editing the report and you want to save the report.
+   Click **Save + Close** if you are finished editing the report and you want to save the report.
 
 ## Video walk-through
 
@@ -231,10 +232,18 @@ View the following video to learn how to create a report. This video was recorde
 [ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
-Additional information
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
 -->
 
 <!--
-Learning Path for reports and dashboards Get started with reports in Adobe Workfront Use Adobe Workfront built-in reports Text Mode overview Edit report settings Wildcard filter variables Add a chart to a report
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> <a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a>  
+<li><a href="../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md" class="MCXref xref">Get started with reports in Adobe Workfront</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md" class="MCXref xref">Use Adobe Workfront built-in reports</a> </li>
+<li><![CDATA[
+]]><a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a></li>
+<li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md" class="MCXref xref">Edit report settings</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">Wildcard filter variables</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Add a chart to a report</a> </li>
+</ul>
 -->
 

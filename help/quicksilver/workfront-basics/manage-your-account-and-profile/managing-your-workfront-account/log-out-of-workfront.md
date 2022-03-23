@@ -39,6 +39,6 @@ You must have the following access to perform the steps in this article:
 
 ## Log out of your Workfront account
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Logout . 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Logout** ![](assets/logout-icon.png). 
 1. This returns you to the login page where you can re-enter your username and password.
 

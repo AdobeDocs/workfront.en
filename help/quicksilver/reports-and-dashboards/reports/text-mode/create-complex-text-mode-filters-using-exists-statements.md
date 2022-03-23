@@ -118,7 +118,7 @@ To create a filter that spans over multiple levels in the object hierarchy:
    For example, (Project) ID (Linking Field displayed on the Original Object) is referenced from Issues (Original Object). (Portfolio) ownerID (Linking Field to the Target Object) is displayed in the Fields tab of the Project (Linking Object). Portfolio ownerID is also a field on the Target Object (Portfolio). The Linking Field on the Linking Object matches the Target Field.  
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)  
 
-1. Using the API Explorer, identify the `Object Code` of the Linking Object (Project).  
+1. Using the API Explorer, identify the **Object Code** of the Linking Object (Project).  
    For example, the Object Code for Project is PROJ.  
    ![project_objCode_in_the_API.PNG](assets/project-objcode-in-the-api-350x84.png)
 
@@ -126,11 +126,11 @@ To create a filter that spans over multiple levels in the object hierarchy:
    For example, create an Issue filter.  
    For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. Paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:  
    <pre>EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field></pre>For an example using the fields we have identified above, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1) section in this article.
 
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 
 ## Create complex text mode filters for missing objects
 
@@ -151,7 +151,7 @@ To create a filter that references missing objects:
    For example, the categoryID field (Target Field) which belongs to Category (Target Object).
 1. Because the Original Object (Parameter) and the Target Field (categoryID) are not directly connected to each other, you must find a third object, a Linking Object (a Category Parameter) that connects them. The Linking Object must have at least one field that is referenced from the Fields or References tabs of the Original Object (Linking Field displayed on the Original Object) and it must also have a Linking Field to the Target Object displayed in the Fields or References tabs of the Linking Object. The Linking Field to the Target Object which displays on the Linking Object (or the Linking Field displayed on the Linking Object) must match the Target Field.  
    For example, the ID of the Category Parameter (Linking Field displayed on the Original Object) is referenced from Parameter(Original Object). parameterID (Linking Field to the Target Object) is displayed in the Fields tab of the Category Parameter (Linking Object). The Linking Field to the Target Object which displays on the Linking Object matches the Target Field.
-1. Using the API Explorer, identify the `Object Code` of the Linking Object (Category Parameter).  
+1. Using the API Explorer, identify the **Object Code** of the Linking Object (Category Parameter).  
    For example, the Object Code for Category Parameter is CTGYPA.  
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
 
@@ -159,7 +159,7 @@ To create a filter that references missing objects:
    For example, create a Parameter filter.  
    For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. (Conditional) If you are filtering for objects that are missing, paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:
 
    ```
@@ -172,7 +172,7 @@ To create a filter that references missing objects:
 
    For an example of reporting on Custom Fields that are not associated with Custom Forms, see the [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2) section in this article.
 
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 
 ## Examples of text mode filters that span multiple levels in the object hierarchy
 
@@ -190,7 +190,7 @@ To filter issues by the Portfolio Owner Name:
 1. Create an Issue filter.  
    For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
 
    ```
@@ -201,7 +201,7 @@ To filter issues by the Portfolio Owner Name:
    EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
    ```
 
-1. Paste the following code in the `Set Filter Rules for your Report` area to replace the generic code above:  
+1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:  
    <pre>EXISTS:A:$$OBJCODE=PROJ<br>EXISTS:A:ID=FIELD:projectID<br>EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
 
    >[!NOTE]
@@ -219,7 +219,7 @@ To filter issues by the Portfolio Owner Name:
    >
 
 1. Replace the value of the Target Field (ownerID) in the last statement with a User ID from your environment.
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 
 ### Example 2: Filter for missing objects: custom fields that do not appear in any custom forms
 
@@ -234,7 +234,7 @@ To filter for Custom Fields that are not associated with a Custom Form:
 1. Create a Parameter or a Custom Field filter.  
    For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
 
    ```
@@ -245,7 +245,7 @@ To filter for Custom Fields that are not associated with a Custom Form:
    EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-1. Paste the following code in the `Set Filter Rules for your Report` area to replace the generic code above:  
+1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:  
    <pre>EXISTS:A:$$OBJCODE=CTGYPA<br>EXISTS:A:parameterID=FIELD:ID<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS</pre>
 
    >[!NOTE]
@@ -262,7 +262,7 @@ To filter for Custom Fields that are not associated with a Custom Form:
    >  
    >
 
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 
 ### Example 3: Filter for missing objects: users who did not log time for a certain period of time
 
@@ -273,7 +273,7 @@ To filter for users who did not log time during last week:
 1. Create a User filter.  
    For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
 
    ```
@@ -284,7 +284,7 @@ To filter for users who did not log time during last week:
    EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
    ```
 
-1. Paste the following code in the `Set Filter Rules for your Report` area to replace the generic code above:
+1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:
 
    ```
    EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
@@ -306,7 +306,7 @@ To filter for users who did not log time during last week:
    >  
    >
 
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 
 ### Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID
 
@@ -322,8 +322,8 @@ To filter tasks by the Portfolio Owner Name and Portfolio Alignment Scorecard ID
 1. Create a Task filter.  
    For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click `Switch to Text Mode`.
-1. Paste the following code in the `Set Filter Rules for your Report` area:  
+1. Click **Switch to Text Mode**.
+1. Paste the following code in the **Set Filter Rules for your Report** area:  
    <pre>EXISTS:A:$$OBJCODE=PROJ<br>EXISTS:A:ID=FIELD:projectID<br>EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f<br>AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS<br>AND:A:EXISTS:A:$$OBJCODE=PROJ<br>AND:A:EXISTS:A:ID=FIELD:projectID<br>AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad</pre>
 
    >[!NOTE]
@@ -343,5 +343,5 @@ To filter tasks by the Portfolio Owner Name and Portfolio Alignment Scorecard ID
    >  
    >
 
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 

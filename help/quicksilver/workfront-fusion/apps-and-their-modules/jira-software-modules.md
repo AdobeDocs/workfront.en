@@ -19,7 +19,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -28,7 +32,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -57,9 +68,9 @@ To connect Jira Software to Workfront Fusion, you must create an API token and i
 #### Create an API&nbsp;token in Jira
 
 1. Go to [https://id.atlassian.com/manage/api-tokens](https://id.atlassian.com/manage/api-tokens) and log in.
-1. Click `Create API token`.
+1. Click **Create API token**.
 1. Type a name for the token, such as *Workfront Fusion*.
-1. Copy the token using the `Copy to clipboard` button.
+1. Copy the token using the **Copy to clipboard** button.
 
    >[!IMPORTANT]
    >
@@ -70,12 +81,12 @@ To connect Jira Software to Workfront Fusion, you must create an API token and i
 
 #### Configure the Jira API token in Workfront Fusion
 
-1. In Workfront Fusion, add a Jira module to a scenario to open the `Create a connection` box.
+1. In Workfront Fusion, add a Jira module to a scenario to open the **Create a connection** box.
 1. Specify the following information:
 
-  * `Service URL:`
-  * `Username:`
-  * `API token:`&nbsp;This is the API token you created in the [Create an API token in Jira](#create3) section of this article.
+  * **Service URL:**
+  * **Username:**
+  * **API token:**&nbsp;This is the API token you created in the [Create an API token in Jira](#create3) section of this article.
 
 1. Click Continue to create the connection and return to the module.
 
@@ -164,16 +175,16 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 #### Configure the client app as a consumer in Jira
 
 1. Log into your Jira instance.
-1. In the left navigation panel, click `Jira Settings` ![](assets/jira-settings-icon.png) > `Applications`> `Application links`.
-1. In the `Enter the URL of the application you want to link` field, enter 
+1. In the left navigation panel, click **Jira Settings** ![](assets/jira-settings-icon.png) > **Applications**> **Application links**.
+1. In the **Enter the URL of the application you want to link** field, enter 
 
    ```
    https://app.workfrontfusion.com/oauth/cb/workfront-jiraserver-oauth1
    ```
 
-1. Click `Create new link`. Ignore the "No response was received from the URL you entered" error message.
-1. In the `Link applications` window, enter values into the `Consumer key` and `Shared secret` fields. You can choose the values for these fields. 
-1. Copy the values of the `Consumer key` and `Shared secret` fields to a secure location. You will require these values later in the configuration process.
+1. Click **Create new link**. Ignore the "No response was received from the URL you entered" error message.
+1. In the **Link applications** window, enter values into the **Consumer key** and **Shared secret** fields. You can choose the values for these fields. 
+1. Copy the values of the **Consumer key** and **Shared secret** fields to a secure location. You will require these values later in the configuration process.
 1. Fill in the URL fields as follows:
 
    | Request Token URL |
@@ -199,11 +210,13 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 
    |
 
-1. Select the `Create incoming link` checkbox.
-1. Click `Continue`.
-1. the `Link applications` window, fill in the following fields:
+1. Select the **Create incoming link** checkbox.
+1. Click **Continue**.
+1. the **Link applications** window, fill in the following fields:
 
-   <table cellspacing="0">   
+   <table cellspacing="0"> 
+    <col data-mc-conditions=""> 
+    <col data-mc-conditions=""> 
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Consumer Key</p> </td> 
@@ -220,7 +233,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
     </tbody> 
    </table>
 
-1. Click `Continue`
+1. Click **Continue**
 1. Continue to [Create a connection to Jira Server or Jira Data Center in Workfront Fusion](#create2)
 
 #### Create a connection to Jira Server or Jira Data Center in Workfront Fusion
@@ -229,7 +242,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
 >
 >Use the Jira Server app to connect to Jira Server or Jira Data Center.
 
-1. In any Jira Server module in Workfront Fusion, click `Add` next to the connection field.
+1. In any Jira Server module in Workfront Fusion, click **Add** next to the connection field.
 1. In the Create a connection panel, fill in the following fields:
 
    <table cellspacing="0"> 
@@ -255,7 +268,7 @@ To acquire a private key for your Workfront Fusion Jira connection, you need to 
     </tbody> 
    </table>
 
-1. Click `Continue` to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## Jira Software modules and their fields
 
@@ -283,7 +296,7 @@ This trigger module starts a scenario when a record is added, updated, or delete
    <td role="rowheader">Webhook</td> 
    <td> <p>Select the webhook that you want to use to watch for records. </p> <p>To add a new webhook:</p> 
     <ol> 
-     <li value="1">Click <span class="bold">Add</span></li> 
+     <li value="1">Click <strong>Add</strong></li> 
      <li value="2">Enter a name for the webhook.</li> 
      <li value="3"> <p>Select the connection you want to use for your webhook. </p> <p>For instructions about connecting your Jira Software account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Jira Cloud to Workfront Fusion</a> in this article.</p> </li> 
      <li value="4"> <p>Select the record type that you want the software to watch for:</p> 
@@ -573,7 +586,10 @@ When you are configuring this module, the following fields display.
    <td role="rowheader"> <p>Max Results</p> </td> 
    <td> <p>Enter or map the maximum number of records you want the module to retrieve during each scenario execution cycle.</p> </td> 
   </tr> <!--
-   Offset Enter or map the ID of the first item you want to retrieve details for. This is a way to paginate the records. If you enter the 5000th item as the offset, the module would return items 5000-9999.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Offset</td> 
+    <td> Enter or map the ID of the first item you want to retrieve details for. This is a way to paginate the records. If you enter the 5000th item as the offset, the module would return items 5000-9999.</td> 
+   </tr>
   --> 
  </tbody> 
 </table>

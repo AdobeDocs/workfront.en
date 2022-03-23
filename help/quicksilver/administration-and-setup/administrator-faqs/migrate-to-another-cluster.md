@@ -7,6 +7,7 @@ product-area: system-administration
 navigation-topic: administrator-faqs
 title: Migrating to another cluster
 description: When we are migrating your Adobe Workfront environment to a new cluster, consult this document to answer some of the frequently asked questions about this process.
+hidefromtoc: true
 ---
 
 # Migrating to another cluster

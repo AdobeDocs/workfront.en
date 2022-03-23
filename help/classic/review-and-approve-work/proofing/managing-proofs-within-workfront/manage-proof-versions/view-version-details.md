@@ -37,15 +37,16 @@ You must have the following access to perform the steps in this article:
 
 Users must have a proofing license in order to view the proof details of a past version of a proofed document.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the proof you need. 
-1. On the Details tab in the panel to the right, click the version, then click Proof `Details` in the drop-down list that appears. 
-1. In the Proofing Details box that appears, do any of the following:
+1. On the **Details** tab in the panel to the right, click the version, then click  **Proof** **Details** in the drop-down list that appears. 
 
-  * Add an automated workflow. For more information, see the section [Create an Automated Workflow for the proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow).
-  * Share the proof's public URL. For more information, see [Share a proof link](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-  * View all activity that has occurred on the proof.
-  * Send reminder messages to reviewers on the proof.
+1. In the **Proofing Details** box that appears, do any of the following:
 
-1. Click `Done`.
+   * Add an automated workflow. For more information, see the section [Create an Automated Workflow for the proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow).
+   * Share the proof's public URL. For more information, see [Share a proof link](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+   * View all activity that has occurred on the proof.
+   * Send reminder messages to reviewers on the proof.
+
+1. Click **Done**.
 

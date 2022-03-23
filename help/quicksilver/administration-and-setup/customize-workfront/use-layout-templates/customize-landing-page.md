@@ -42,7 +42,7 @@ You must have the following to perform the steps in this article:
 ## Customize the landing page
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In the `Top Navigation area`, click `Select landing page`, then select the area you want users to see when they log in.
+1. In the **Top Navigation area**, click **Select landing page**, then select the area you want users to see when they log in.
 
    >[!IMPORTANT]
    >
@@ -53,9 +53,9 @@ You must have the following to perform the steps in this article:
 
    Or
 
-   If you are finished customizing, click `Save`.
+   If you are finished customizing, click **Save**.
 
    >[!TIP]
    >
-   >You can `Save` your progress at any time, then continue to modify the template later.
+   >You can **Save** your progress at any time, then continue to modify the template later.
 

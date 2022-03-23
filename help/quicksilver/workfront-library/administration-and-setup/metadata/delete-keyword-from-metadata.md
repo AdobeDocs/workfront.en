@@ -17,14 +17,15 @@ When you delete a keyword from the picklist, the keyword is also removed from al
 >
 >When you delete a keyword from the picklist, all child keywords related to the deleted keyword are deleted from the picklist and from all tagged assets.
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
-1. In the left panel, click `Setup`> `Keywords`.
-1. Hover over the keyword you want to delete, and click the `trash can` icon.
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the left panel, click **Setup**> **Keywords**.
+1. Hover over the keyword you want to delete, and click the **trash can** icon.
 
    The Delete Keyword dialog box displays and specifies the number of assets tagged with the keyword you want to delete.
 
-1. (Optional) To view all the assets tagged with the keyword, click `See all affected assets.`
+1. (Optional) To view all the assets tagged with the keyword, click **See all affected assets.**
 
    The tagged assets display in a new browser tab. Close the tab to return to the Delete keywords box.
 
@@ -39,7 +40,7 @@ When you delete a keyword from the picklist, the keyword is also removed from al
    >  
    >
 
-1. Click `Delete`.
+1. Click **Delete**.
 
    The keyword and any child keywords are deleted from the picklist and from all tagged assets.
 

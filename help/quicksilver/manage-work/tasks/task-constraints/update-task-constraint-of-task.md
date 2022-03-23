@@ -41,9 +41,11 @@ You must have the following to change the Task Constraint of a task:
 
 ## Update the Task&nbsp;Constraint of a task
 
-1. Click Main Menu > Projects, then click a project to access it. 
-1. Click the `Tasks` section in the left panel. 
-1. Click Task Details in the left panel, then in the Overview area click Task Constraint.  
+1. Click **Main Menu** >&nbsp;**Projects**, then click a project to access it. 
+
+1. Click the **Tasks** section in the left panel. 
+1. Click **Task Details** in the left panel, then in the Overview area click **Task Constraint**.   ![](assets/task-constraint-all-options-in-overview-350x254.png)
+
 1. Select from the following options
 
    | Fixed Dates |For information, see [Task Constraint overview: Fixed Dates](../../../manage-work/tasks/task-constraints/fixed-dates.md).  |
@@ -59,6 +61,6 @@ You must have the following to change the Task Constraint of a task:
    | Finish No Later Than |For information, see [Task Constraint overview: Finish No Later Than](../../../manage-work/tasks/task-constraints/finish-no-later-than.md).  |
    | Finish No&nbsp;Earlier Than |For information, see [Task Constraint overview: Finish No Earlier Than](../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md).  |
 
-1. Click `Save`&nbsp;Changes.
+1. Click **Save**&nbsp;**Changes**.
 
 &nbsp;

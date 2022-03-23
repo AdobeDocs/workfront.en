@@ -30,7 +30,15 @@ You must have the following:
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -40,7 +48,7 @@ You must have the following:
 
 A scenario is a copy of a plan. You can create as many scenarios as you need. However, we recommend that you keep the number of scenarios to a minimum so that you can easily compare them.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
 
 1. Create a plan.
 
@@ -48,7 +56,7 @@ A scenario is a copy of a plan. You can create as many scenarios as you need. Ho
 
    The first plan you create is automatically saved as the "Initial scenario."
 
-1. Click the down-pointing arrow next to an existing scenario, then ` click the `Copy` icon.`
+1. Click the down-pointing arrow next to an existing scenario, then ``` click the **Copy** icon.```
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
@@ -70,14 +78,14 @@ A scenario is a copy of a plan. You can create as many scenarios as you need. Ho
 
     For information about resolving conflicts, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. Click `Save Plan` to save your changes.
+1. Click **Save Plan** to save your changes.
 
 ## Compare scenarios
 
 After creating your scenarios, you can compare them to find the best one for your organization.
 
 1. Go to the plan for which you want to compare scenarios.
-1. Click `Compare scenarios`. The scenario comparison page displays.
+1. Click **Compare scenarios**. The scenario comparison page displays.
 
    All existing scenarios for the plan display in a side-by-side card format. The Initial scenario is always listed first and it is static.
 
@@ -115,23 +123,23 @@ After creating your scenarios, you can compare them to find the best one for you
 
    For more information, see the [Create scenarios](#create) section in this article.
 
-1. Click `Add description` to add a description for the scenario
+1. Click **Add description** to add a description for the scenario
 
    Or
 
    Click the description field to update it, then click anywhere on the screen to save your changes.
 
-1. (Optional) Click the `More` menu ![](assets/more-icon.png) to `Copy` or `Delete` the scenario.
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to **Copy** or **Delete** the scenario.
 
    ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    When you copy a scenario, it automatically appears on the card page and is renamed according to this pattern: "Scenario <next number in order>." 
 
-1. (Conditional) If you clicked `Delete`, click `Yes, delete it` to confirm.
+1. (Conditional) If you clicked **Delete**, click **Yes, delete it** to confirm.
 
    Deleted scenarios cannot be recovered.
 
    For information about deleting scenarios, see [Delete plans in the Adobe Workfront Scenario Planner](../scenario-planner/delete-plans.md).
 
-1. Click  `Save Plan` to save your scenarios and your plan.
+1. Click&nbsp;**Save Plan** to save your scenarios and your plan.
 

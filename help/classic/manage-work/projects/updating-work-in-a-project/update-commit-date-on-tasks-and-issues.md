@@ -47,35 +47,33 @@ Before you begin, you must be assigned to the task or issue you need to update t
 
 Updating the Commit Date is identical for tasks and issues.
 
-1. Go to a task or issue that you are assigned to as the `Task Owner`.
+1. Go to a task or issue that you are assigned to as the **Task Owner**.
 
    For more information about finding out who the Task Owner for an issue or task is, see the section [Assignments](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in the article [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-1. Click Work On Iton the task or issue details panel
+1. Click **Work On It**on the task or issue details panel
 
    Or
 
-   Click `Start Task` or `Start Issue` if the Work On It button has been customized in your environment to indicate that you are now working on the work item. 
-   The Due on date on the Details panel is replaced by the This will be done by or Commit Date. 
+   Click **Start Task** or **Start Issue** if the **Work On It** button has been customized in your environment to indicate that you are now working on the work item. 
+   The **Due on** date on the Details panel is replaced by the **This will be done by** or Commit Date. At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.
 
-   At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.
-
-1. (Optional) If you clicked Start Task or Start Issue in the details panel, click the Actually, I'm not ready to start. The This will be done by is replaced by the Due on date on the details panel to indicate that the work item does not have a Commit Date. The work item only has a Planned Completion Date. For information about replacing the Work On It button with a Start button, see ` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)`.
+1. (Optional)&nbsp;If you clicked Start Task or Start Issue in the details panel, click the **Actually, I'm not ready to start**.&nbsp;The This will be done by is replaced by the Due on date on the details panel to indicate that the work item does not have a Commit Date. The work item only has a Planned Completion Date.  For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
 
    >[!TIP]
    >
    >The option to undo your selection to start your work is not available when you click Work On It.
 
-1. Expand the This will be done by date picker, and select a new Commit Date. 
+1. Expand the **This will be done by** date picker, and select a new Commit Date. 
 
    The following things happen after making this change:&nbsp;
 
-  * The Commit Date and the Planned Completion date are no longer the same.
+   * The Commit Date and the Planned Completion date are no longer the same.
 
-    Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.
-  
-  * The changes are saved automatically when you select a new date from the Updates area.
-  * The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested.
+     Instead, the Commit Date and the Projected Completion Date of the task or issue become the same.
+   
+   * The changes are saved automatically when you select a new date from the Updates area.
+   * The Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested.
 
-    For information about the notifications and updates that are triggered by this change, see the section [Notifications and updates triggered by changing the Commit Date](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+     For information about the notifications and updates that are triggered by this change, see the section [Notifications and updates triggered by changing the Commit Date](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 

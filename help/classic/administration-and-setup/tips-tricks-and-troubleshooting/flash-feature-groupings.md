@@ -6,6 +6,7 @@ product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Flash feature groupings
 description: For most customers, Adobe Workfront removed all Flash-based tools as part of the 2018.3 release to the Production environment (for more information, see Replacement of Flash-based tools in Adobe Workfront). However, some organizations were identified as a regular user of one of the legacy Flash tools in Workfront. These customers continued to have access to that Flash tool after the 2018.3 release was made available in Production.
+hidefromtoc: true
 ---
 
 # Flash feature groupings

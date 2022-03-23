@@ -15,13 +15,13 @@ To view the Portfolio subtab, you need View permissions to the project. To edit 
 
 Fields on the Portfolio subtab include:
 
-* `Portfolio:`Identifies which portfolio is associated with the project. &nbsp;
-* `Program:` Identifies which program is associated&nbsp;with the project. This field appears only when the portfolio has programs.
-* `Alignment Score:` The score based on the values input to the&nbsp;scorecard in the Business&nbsp;Case. This field does not appear while in edit mode.  
+* **Portfolio:**Identifies which portfolio is associated with the project. &nbsp;
+* **Program:** Identifies which program is associated&nbsp;with the project. This field appears only when the portfolio has programs.
+* **Alignment Score:** The score based on the values input to the&nbsp;scorecard in the Business&nbsp;Case. This field does not appear while in edit mode.  
   For more information on this field, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-* `Planned Benefit:` The planned financial benefit gained upon completion of the project.&nbsp;
-* `Actual Benefit:`The actual financial benefit gained upon completion of the project.&nbsp;
+* **Planned Benefit:** The planned financial benefit gained upon completion of the project.&nbsp;
+* **Actual Benefit:**The actual financial benefit gained upon completion of the project.&nbsp;
 
   ![Screen_Shot_2018-07-02_at_10.39.29_AM.png](assets/screen-shot-2018-07-02-at-10.39.29-am-350x260.png)
 

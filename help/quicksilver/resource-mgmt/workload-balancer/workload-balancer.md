@@ -25,16 +25,20 @@ For information about what the Workload Balancer is, how to navigate it, and how
 * [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) 
 * [Overview of assigning work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) 
 * [Assign work manually using the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md) 
+* Assign work in the Adobe Workfront Workload Balancer by dragging and dropping 
+* Assign work in bulk using the Adobe Workfront Workload Balancer
 * [Unassign work in the Adobe Workfront Workload Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md) 
 * [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) 
 * [Manage filters in the Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md) 
 * [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
 
   <!--
-  Add a custom section to display the Workload Balancer
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/add-custom-section-for-balancer.md" class="MCXref xref" xrefformat="{para}">Add a custom section to display the Workload Balancer </a> </li>
   -->
 
   <!--
-  Perform 'what-if' scenarios in the Workload Balancer
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/workload-balancer/what-if-scenarios-balancer.md" class="MCXref xref" xrefformat="{para}">Perform 'what-if' scenarios in the Workload Balancer</a> </li>
   -->
+
+* Update work items in the Workload Balancer using the Summary in the new Adobe Workfront experience
 

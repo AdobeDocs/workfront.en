@@ -42,25 +42,26 @@ You must have the following to perform the steps in this article:
 
 As an Adobe Workfront administrator, you can configure when&nbsp;Workfront automatically recalculates project timelines. Workfront can recalculate project timelines either every night or when the project scope changes, or both.
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Setup. 
-1. Click `Project Preferences` > `Projects.`
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup** ![](assets/gear-icon-settings.png). 
 
-1. In the `Timelines` section, enable or disable one or both of the settings below. By default, both settings are enabled.
+1. Click **Project Preferences** > **Projects.**
 
-  * `Every night:` Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:
+1. In the **Timelines** section, enable or disable one or both of the settings below. By default, both settings are enabled.
+
+  * **Every night:** Workfront​​​ recalculates timelines at night only for projects where both of the following conditions are met:
 
     * Have a status of Current
     * Have had an update in the past three months
 
     In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic or Automatic and On Change. 
   
-  * `When a project's scope changes`: For information about what constitutes a project scope change, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+  * **When a project's scope changes**: For information about what constitutes a project scope change, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
     In this case, Workfront recalculates the timeline for all projects that have an Update Type of Automatic and On&nbsp;Change or On Change Only.
 
    For information about project Update Types, see [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md). 
 
-1. Click `Save`.
+1. Click **Save**.
 
    The timeline of all projects in the system recalculates automatically based on the Update Type of each project.
 

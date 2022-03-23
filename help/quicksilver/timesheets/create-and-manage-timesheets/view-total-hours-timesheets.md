@@ -45,14 +45,39 @@ You must have the following access to perform the steps in this article:
 
 ## View the total hours on your timesheet
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Timesheets. 
-1. (Conditional and optional) In the Production environment, do the following to modify the filter in the list of timesheets: (Optional) To modify the filter in the list of timesheets, do the following:
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**.
+1. 
 
-  1. Click `Filter` to apply the default filter and display timesheets for people in your teams.
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (Conditional) Depending on which environment you are accessing timesheets from, select from the following:&nbsp;In the Production environment,
+   </MadCap:conditionalText>
+   -->
+
+   Click **All Timesheets** in the left panel.
+
+1. The timesheet filter is prepopulated with the teams you belong to. 
+1. ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)
+
+1. ```<li> <!--  <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Preview environment, the <strong>All</strong> filter is selected by default. </p> --> </li>```
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/timesheet-list-one-timesheet-selected-nwe-350x70.png" style="width: 350;height: 70;"> </img> </p>
+   -->
+
+1. 
+
+   <!--
+   (Conditional and optional) In the Production environment, do the following to modify the filter in the list of timesheets:
+   -->
+
+   (Optional) To modify the filter in the list of timesheets, do the following:
+
+  1. Click **Filter** to apply the default filter and display timesheets for people in your teams.
 
      Or
 
-     Click `Reset Filter` to clear the filter selection and add new filtering criteria. 
+     Click **Reset Filter** to clear the filter selection and add new filtering criteria. 
   
   1. Select from the following filtering options:
 
@@ -62,13 +87,43 @@ You must have the following access to perform the steps in this article:
      | Status |Displays timesheets associated with the status that you specify. |
      | Time Period |Displays timesheets that include the time period you select. |
 
-  1. Click  `Filter` after defining your filter criteria.
+  1. Click&nbsp;**Filter** after defining your filter criteria.
 
      >[!TIP]
      >
      >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
-1. (Optional) Click the `View` or **Grouping **icons to apply a different view or grouping or to create a new one.
+   <!--
+   <p>(Conditional and optional) In the Preview environment, do one of the following to update the filter in the list of timesheets:</p>
+   <ul>
+   <li> <p>Select <strong>My Timesheet Approvals</strong> in the upper-right corner of the page to view only timesheets that you approve</p> <p>Or</p> <p>Select <strong>My Timesheets</strong> to view only your timesheets. </p> <p>This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </img> </p> </li>
+   <li> <p>Click the Filter icon <img src="assets/filter-nwepng.png"> to apply a different filter, or create a new one.</p> </li>
+   </ul>
+   -->
+
+1. (Optional)&nbsp;Click 
+
+   <!--
+   the
+   -->
+
+   **View**
+
+   <!--
+
+   -->
+
+   or **Grouping **
+
+   <!--
+
+   -->
+
+   <!--
+   icons
+   -->
+
+   to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -76,11 +131,15 @@ You must have the following access to perform the steps in this article:
   * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
   * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. The total number of hours for each timesheet displays in the `Total Hours` column.
+1. The total number of hours for each timesheet displays in the **Total Hours** column.
 
    ![](assets/total-hours-column-highlighted-all-timesheets-tab-classic-old-nwe-350x130.png)
 
-   ` `**Tip: **`` The total number of hours for each timesheet displays in the `Total Time` column in the `My Timesheets` and `Timesheet I Approve` sections.
+   <!--
+   <img src="assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png" style="width: 350;height: 120;">
+   -->
+
+   ``` ```**Tip: **`````` The total number of hours for each timesheet displays in the **Total Time** column in the **My Timesheets** and **Timesheet I Approve** sections.
 
 &nbsp;
 

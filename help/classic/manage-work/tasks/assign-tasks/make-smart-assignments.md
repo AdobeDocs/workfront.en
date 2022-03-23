@@ -45,11 +45,13 @@ Smart assignments are available in most locations where you can make assignments
 
 1. Go to an issue or a task and click one of the following fields to edit them: &nbsp;&nbsp;
 
-  * A task or issue list or report 
-  * Resource Scheduling
-  * Workload Balancer
+   * A task or issue list or report 
+   * A task or issue page
+   * The Advanced Assignments box when making advanced assignments. For information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md). 
+   * Resource Scheduling
+   * Workload Balancer
 
-1. Place your cursor in the assignment field, and wait for two seconds. The Here are a few recommendations `` list displays.
+1. Place your cursor in the assignment field, and wait for two seconds. The **Here are a few recommendations****** list displays.
 
    Users displayed in this list are the smart assignment suggestions for the task or the issue.
 
@@ -62,7 +64,7 @@ Smart assignments are available in most locations where you can make assignments
    >If there are no suggestions, the suggestion list does not open.
 
 1. (Optional) If you do not want to use one of the recommended users from the smart assignments list, start typing the name of the desired user and select the name when it appears in the list.
-1. Click `Enter` to make the assignment.
+1. Click **Enter** to make the assignment.
 
    The selected user is assigned to the task or issue.
 

@@ -39,16 +39,16 @@ You must have the following access in Workfront to perform the steps in this art
 ## Add updates to a project in Workfront View
 
 1. From the home page of Workfront View, tap a project to access it.
-1. (Optional) Add the `Updates` widget to your view.  
+1. (Optional) Add the **Updates** widget to your view.  
    For more information about adding widgets to your project view, see [Update widgets in the Project Details view](../../../workfront-basics/mobile-apps/using-workfront-view/update-widgets-in-workfront-view.md).
 
-1. Tap the `Updates` icon (bottom right) or (conditional) the `[+]` icon on an update in the `Updates` widget.  
+1. Tap the **Updates** icon (bottom right) or (conditional) the **[+]** icon on an update in the **Updates** widget.  
    ![workfront_view_updates_icon.png](assets/workfront-view-updates-icon-315x196.png)
 
 1. Type in an update.
 1. (Optional) Include others in the update by tapping the people icon and specifying the name of another user.  
    ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
-1. Tap `Post`.  
-   The update appears on the project, in the `Updates` widget.
+1. Tap **Post**.  
+   The update appears on the project, in the **Updates** widget.
 

@@ -10,7 +10,7 @@ description: When multiple project requests are submitted for review, the projec
 
 When multiple project requests are submitted for review, the project management office or portfolio committee can meet to review submitted requests and determine project request approvals. To submit a project request for review, do one of the following:
 
-* Change the project status to `Requested`.
+* Change the project status to **Requested**.
 * Complete the Business Case of the project and submit it for approval.   
   For more information about completing a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -57,30 +57,30 @@ For more information about approving project requests by building a project repo
 ## Review Requested Projects within a portfolio
 
 1. Go to the portfolio whose requested projects you want to review.
-1. Click the Projects tab. 
-1. Click the Requested Projects sub-tab.
+1. Click the **Projects** tab. 
+1. Click the **Requested Projects** sub-tab.
 
-   In addition to having a Status of `Requested`, projects must be associated with the selected Portfolio to&nbsp;display in this list.
+   &nbsp;In addition to having a Status of **Requested**, projects must be associated with the selected Portfolio to&nbsp;display in this list.
 
 1. Click the name of a project in the list to open it.
-1. Select the Project Details tab. 
+1. Select the **Project Details** tab. 
 1. Do either one of the following:
 
-  * Select the Business Case sub-tab, then click Approve or Reject in the Business Case Summary area to approve or reject the Business Case.
+   * Select the **Business Case** sub-tab, then click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case.
 
-    ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
+     ![approve_or_reject_business_case.png](assets/approve-or-reject-business-case-350x563.png)
 
-    The project status is changed to `Approved` if the Business Case is approved.
+     The project status is changed to **Approved** if the Business Case is approved.
 
-    The project status is changed to `Rejected` if the Business case is rejected.
+     The project status is changed to **Rejected** if the Business case is rejected.
 
-    >[!NOTE]
-    >
-    >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.&nbsp;
+     >[!NOTE]
+     >
+     >There are no notifications that alert the user who submitted the approval of the business case whether their project request was approved or rejected.&nbsp;
 
-    Or
-  
-  * Change the status of the project to any other status in the `Status` drop-down menu.
+     Or
+   
+   * Change the status of the project to any other status in the **Status** drop-down menu.
 
    &nbsp;
 

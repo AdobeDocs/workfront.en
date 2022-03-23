@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms (P-R)
 description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms (P-R)
@@ -46,7 +47,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Parent Task</td> 
    <td>Also known as a Summary Task. This is a task that has Subtasks (also called Children Tasks). The Duration, Work Required, and Percent Complete of the Parent Task is calculated from the Subtasks.</td> 
   </tr> <!--
-   Part-Time Resources A licensed user who has less capacity than the default schedule defined in the system.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Part-Time Resources</td> 
+    <td>A licensed user who has less capacity than the default schedule defined in the system.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Percent Complete</td> 
@@ -77,7 +81,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Planned</td> 
    <td> <p>The time frame within which something is scheduled to occur. When you create projects, tasks, or issues in&nbsp;Workfront, you establish the planned start and end dates, as well as the planned timeframe during which they occur. These values represent your original intention or estimate of how long a work time should take to complete. </p> <!--
-     The timestamp used to baseline task KPIs
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The timestamp used to baseline task KPIs</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -111,7 +115,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td> <p>Planned Hours</p> </td> 
    <td> <p>This field appears on projects, tasks, and issues.&nbsp;</p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. </p> <p>For tasks, you can manually update this field when the Duration Type of the task is Calculated Assignment. This field is calculated by Workfront when the Duration Type of the task is Calculated Work, Effort Driven, or Simple.<br>For information about Task Duration, see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.<br>Planned Hours are distributed equally to all the days within the duration of each task. They are stored in minutes in the Workfront database.<br></p> <p>Workfront calculates the Planned Hours of a Project by adding all Planned Hours from all the tasks on the project. </p> <p>You can manually update this field for Issues.&nbsp;Issue Planned Hours are not added to the Project Planned Hours.&nbsp;</p> <p>For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <!--
-     A baseline measurement for task KPI and a communication tool for the resource managers
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A baseline measurement for task KPI and a communication tool for the resource managers</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -141,14 +145,23 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Portfolio</td> 
    <td> <p>A collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.</p> <p>For more information about portfolios, see <a href="../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md" class="MCXref xref">Portfolio overview in Adobe Workfront</a>.</p> <!--
-     A collection of projects and programs grouped by common data points and sharing similar resource pools and budgets to achieve a strategic objective.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of projects and programs grouped by common data points and sharing similar resource pools and budgets to achieve a strategic objective.</p>
     --> </td> 
   </tr> <!--
-   Portfolio Management A practice area focused on managing a collection or related programs and project efforts.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Portfolio Management</td> 
+    <td>A practice area focused on managing a collection or related programs and project efforts.</td> 
+   </tr>
   --> <!--
-   Portfolio Optimizer A Workfront tool to assist in assessing and prioritizing projects within a portfolio.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Portfolio Optimizer</td> 
+    <td>A Workfront tool to assist in assessing and prioritizing projects within a portfolio.</td> 
+   </tr>
   --> <!--
-   Portfolio Owner The stakeholder responsible for the prioritization and budget for a portfolio.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Portfolio Owner</td> 
+    <td>The stakeholder responsible for the prioritization and budget for a portfolio.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Predecessor</td> 
@@ -174,14 +187,20 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Program</td> 
    <td> <p>A subset within a portfolio, where similar projects can be grouped together in order to achieve a well-defined benefit.</p> </td> 
   </tr> <!--
-   Program Management Management of cross-project dependencies, risks, issues, requirements, and solutions to keep the program healthy and achieve the defined program benefit.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Program Management</td> 
+    <td>Management of cross-project dependencies, risks, issues, requirements, and solutions to keep the program healthy and achieve the defined program benefit.</td> 
+   </tr>
   --> <!--
-   Program Owner The stakeholder responsible for supervising and organizing activities to ensure that project goals align with the company objectives.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Program Owner</td> 
+    <td>The stakeholder responsible for supervising and organizing activities to ensure that project goals align with the company objectives.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Project</td> 
    <td> <p>A large amount of work that must be completed within a specific timeframe and must use a specific budget and number of resources. To make it manageable, you divide the project into a series of tasks that need to be completed first in order to deliver the common outcome defined by the project. For information about planning a project, see <a href="../../../manage-work/projects/planning-a-project/plan-project.md" class="MCXref xref">Plan a project overview</a>.</p> <!--
-     A collection of tasks with a well-defined scope, beginning, and end to produce a specific deliverables, service, or benefit.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of tasks with a well-defined scope, beginning, and end to produce a specific deliverables, service, or benefit.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -192,19 +211,34 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Project Budgeted Cost</td> 
    <td>See <i>Budgeted&nbsp;Cost</i></td> 
   </tr> <!--
-   Project Management A set of policies that governs the thresholds for project creation, categorization, and naming of the projects.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Project Management</td> 
+    <td>A set of policies that governs the thresholds for project creation, categorization, and naming of the projects.</td> 
+   </tr>
   --> <!--
-   Project Owner The user responsible for managing the scope, timeline, and assignments of a project. The default approver for change orders, financial changes, and deliverables.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Project Owner</td> 
+    <td>The user responsible for managing the scope, timeline, and assignments of a project. The default approver for change orders, financial changes, and deliverables.</td> 
+   </tr>
   --> <!--
-   Project Planning Processes to develop and maintain the project schedule.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Project Planning</td> 
+    <td>Processes to develop and maintain the project schedule.</td> 
+   </tr>
   --> <!--
-   Project Sponsor A designated stakeholder profile that each of your user's should relate to. In Workfront, these are designated as Access Levels
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Project Sponsor</td> 
+    <td>A designated stakeholder profile that each of your user's should relate to. In Workfront, these are designated as Access Levels</td> 
+   </tr>
   --> 
   <tr> 
    <td>Project Teams</td> 
    <td> <p>The collection of Users or Roles assigned to a Project</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>.</p> </td> 
   </tr> <!--
-   Project tracking The data used to measure the health and scope of a project
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Project tracking</td> 
+    <td>The data used to measure the health and scope of a project</td> 
+   </tr>
   --> 
   <tr> 
    <td>Projected</td> 
@@ -253,7 +287,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
  </thead> 
  <tbody> <!--
-   Quality The perception of work quality within the organization.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Quality</td> 
+    <td>The perception of work quality within the organization.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Queue</td> 
@@ -311,9 +348,15 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Request</td> 
    <td> <p>A type of issue that is triaged in a single centralized queue and is unrelated to an ongoing work effort.</p> </td> 
   </tr> <!--
-   Request Queue The backlog of issues that is managed by a traffic and triage process.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Request Queue</td> 
+    <td>The backlog of issues that is managed by a traffic and triage process.</td> 
+   </tr>
   --> <!--
-   Request velocity Total work cycle time to intake and complete a request.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Request velocity</td> 
+    <td>Total work cycle time to intake and complete a request.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Requester</td> 
@@ -343,7 +386,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>Resource Managers</p> </td> 
    <td> <p>Resource Managers perform resource scheduling actions on a project.&nbsp;They utilize the enterprise resource management tools in Workfront to review capacity, monitor utilization, and assign project tasks.</p> <p>When you use "Resource&nbsp;Managers"&nbsp;in a report, a list of resource managers is displayed, with each resource manager on the project separated by a comma (there can be up to 10 resource managers on a given project).</p> <p>For more information, see the article <a href="../../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md" class="MCXref xref">Designate Resource Managers for a project or template </a>.</p> </td> 
   </tr> <!--
-   Resource Planner An advanced Workfront tool that lets you view and manage resources across projects, job roles, or users.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Resource Planner</td> 
+    <td>An advanced Workfront tool that lets you view and manage resources across projects, job roles, or users.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Resource Planner Budgeted Labor&nbsp;Cost</td> 
@@ -356,20 +402,26 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td> <p>Resource Pools</p> </td> 
    <td> <p>Resource Pools are collections of users that can be associated with a project.&nbsp;The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user.</p> <p>For more information about the functionality of Resource Pools see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.&nbsp; </p> <p>In project reports, Resource Pools show all the pools associated with a project.&nbsp;This object cannot be used in a grouping. <br></p> <!--
-     A collection of resources available for assignment to project tasks. A resource pool can be assigned exclusively to a project or shared by several projects.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A collection of resources available for assignment to project tasks. A resource pool can be assigned exclusively to a project or shared by several projects.</p>
     --> </td> 
   </tr> 
   <tr> 
    <td>Resource Scope</td> 
    <td>A task-level field that is applicable only when using a Task Constraint of Fixed Dates. For more information about the Fixed Dates Task Constraint, see the article <a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a>. The value of the Resource Scope on a task is intended to prevent other tasks from being assigned to the same user during the time frame of the task. For more information about Resource Scope, see the article <a href="../../../manage-work/tasks/task-information/resource-scope.md" class="MCXref xref">Resource Scope overview</a>.</td> 
   </tr> <!--
-   Resource Management Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget. With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. For information about Resource Management in Workfront, see Get started with Resource Management .
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Resource Management</td> 
+    <td> <p>Resource Management is an enterprise set of tool that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.&nbsp;</p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in&nbsp;Workfront, see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md" class="MCXref xref">Get started with Resource Management </a>.</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td>Resource Utilization</td> 
    <td>A Report displaying the number of hours available during a certain time period and the number of hours scheduled for each user in the report. This is also calculated into Average Hours Per Day and an allocation percentage.</td> 
   </tr> <!--
-   Revenue A billable amount for the task or project. The amount can be hourly, fixed, or a combination of both.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Revenue</td> 
+    <td>A billable amount for the task or project. The amount can be hourly, fixed, or a combination of both.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Revenue Type</td> 
@@ -379,9 +431,15 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Reviewer</td> 
    <td>Typically a license type. A User with a Reviewer license has the ability to review and approve work items in the system.</td> 
   </tr> <!--
-   Risk A type of issue against a project that identifies a potential impact to the cost, scope, or schedule.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Risk</td> 
+    <td>A type of issue against a project that identifies a potential impact to the cost, scope, or schedule.</td> 
+   </tr>
   --> <!--
-   Risk Management Processes to identify, mitigate, and monitor risk.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Risk Management</td> 
+    <td>Processes to identify, mitigate, and monitor risk.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Role</td> 

@@ -48,13 +48,16 @@ You must have the following access to perform the steps in this article:
 When you update the Group for a project, the options available for the Status change, to match the group.
 
 1. Go to a project, or create a new project, as described in [Create a project](../../../manage-work/projects/create-projects/create-project.md).
-1. In the `Edit Project` box that displays, near the bottom of the `Overview` section, select the group in the `Group` drop-down menu.
+1. More
+1. 
+1. Edit
+1. In the **Edit Project** box that displays, near the bottom of the **Overview** section, select the group in the **Group** drop-down menu.
 
-1. In the `Status` drop-down menu, select the custom status.
+1. In the **Status** drop-down menu, select the custom status.
 
    >[!NOTE]
    >
-   >If you select a different group in the `Group` drop-down menu, the custom statuses in the `Status` menu change automatically to correlate with the new group.
+   >If you select a different group in the **Group** drop-down menu, the custom statuses in the **Status** menu change automatically to correlate with the new group.
    >
    >
    >![](assets/screenshot-2016-05-12-12.05.43.png)   >

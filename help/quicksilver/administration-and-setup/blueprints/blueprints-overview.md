@@ -15,14 +15,18 @@ The highlighted information on this page refers to functionality not yet general
 Blueprints provide basic building blocks to help you create a work management system that grows with you. System administrators can browse the blueprints catalog and install ready-to-use project templates. 
 
 <!--
-Other users can browse the catalog and request installation of a blueprint, depending on their permissions. For more information, see Browse the blueprints catalog and request installation of blueprints.
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span class="preview">Other users can browse the catalog and request installation of a blueprint, depending on their permissions. For more information, see </span>
+<a href="../../administration-and-setup/blueprints/browse-catalog.md" class="preview MCXref xref xrefpreview">Browse the blueprints catalog and request installation of blueprints</a>
+<span class="preview">.</span>
+</MadCap:conditionalText>
 -->
 
 Each template is targeted to a department and specific maturity level to help you implement proven best practices in your system faster. The maturity levels detailed below are indicated in the blueprint catalog card and details.
 
-| `Managed`  |Managed project templates help support the adoption of a new business process before activities and deliverables are fully accepted as a standard procedure. They contain tasks to ensure each step of the new process is being followed. |
+| ```Managed```  |Managed project templates help support the adoption of a new business process before activities and deliverables are fully accepted as a standard procedure. They contain tasks to ensure each step of the new process is being followed. |
 |---|---|
-| `Integrated`  |Integrated project templates assume that business functions are supported through a standard operating procedure. Contributors to the process know the steps and tasks they need to complete to follow the process. The project templates to support this process contain fewer tasks to track only milestones and other key deliverables necessary for reporting purposes. |
+| ```Integrated```  |Integrated project templates assume that business functions are supported through a standard operating procedure. Contributors to the process know the steps and tasks they need to complete to follow the process. The project templates to support this process contain fewer tasks to track only milestones and other key deliverables necessary for reporting purposes. |
 
 ## Find the right blueprint
 
@@ -34,7 +38,7 @@ Each blueprint contains a details page. From this page, you can:
 
 * View a summary of the workflow content
 * Read a brief summary of the blueprint
-* View installation history ` (click `View Details` to see the full list of objects installed with the blueprint)`
+* View installation history ``` (click **View Details** to see the full list of objects installed with the blueprint)```
 * See role, team, company, and group descriptions
 * See a visual example of the project template (you can preview the full image in the browser or download it)
 

@@ -24,7 +24,7 @@ Objects are linked to one another in Workfront. For example, a task or an issue 
 
 The following are some of the most commonly used objects in Workfront and their respective parent and children objects:
 
-| `Object`  | `Parent objects`  | `Child objects`  |
+| **Object** |**Parent objects** |**Child objects** |
 |---|---|---|
 | Portfolios |  |Programs, Projects, Documents, Notes, Users |
 | Programs |Portfolios |Projects, Documents, Notes, Users |
@@ -98,31 +98,31 @@ The following areas show the updated name of the objects:
 The following areas do not show the updated name of the objects:
 
   <!--
-  Legacy Gantt
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Legacy Gantt</li>
   -->
 
   <!--
-  Resource Estimates
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
   -->
 
   <!--
-  Resource Budget Manager
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Budget Manager</li>
   -->
 
   <!--
-  Capacity Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Capacity Planner</li>
   -->
 
   <!--
-  Resource Grid
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Grid</li>
   -->
 
   <!--
-  Team Builder
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Team Builder</li>
   -->
 
   <!--
-  Portfolio Optimizer
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolio Optimizer</li>
   -->
 
 * Referenced Object Type selection for a Typeahead field in a Custom Form
@@ -151,7 +151,7 @@ For more information about which objects can have customized names in Workfront,
 
 The following is a list of objects and their corresponding icons in Workfront.
 
-| `Object`  | `Icon`  | `Customizable object ame`  |
+| **Object** |**Icon** |**Customizable object ame** |
 |---|---|---|
 | Company |   |  |
 | Dashboard |   |  |
@@ -182,7 +182,7 @@ You can search across all the objects that are searchable in Workfront, or you c
 
 Not all objects are searchable in Workfront. You can run basic and advanced searches for the following objects in Workfront:
 
-| `Object`  | `Basic Search`  | `Advanced Search`  |
+| **Object** |**Basic Search** |**Advanced Search** |
 |---|---|---|
 | Projects |✓ | ✓ |
 | Tasks |✓ | ✓ |
@@ -265,13 +265,13 @@ You can report on the following objects when using the report builder in the Wor
 * Group
 * Grouping
 * Hour Type
-* `Initiative`
+* ```Initiative```
 
-  `You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see` [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience).
+  ```You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see``` [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience).
 
-* `Initiative Job Role`
+* ```Initiative Job Role```
 
-  `You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see` [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience).
+  ```You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see``` [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience).
 
 * Iteration
 * Job Role
@@ -282,7 +282,10 @@ You can report on the following objects when using the report builder in the Wor
 * Layout Template
 
   <!--
-  Legacy Resource Pool Note: This report captures information about an area in Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about the current resource pools, see Resource pools overview in Adobe Workfront.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Legacy Resource Pool</p> <note type="note">
+  This report captures information about an area in&nbsp;Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about the current resource pools, see
+  <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.
+  </note> </li>
   -->
 
 * Milestone
@@ -316,7 +319,10 @@ You can report on the following objects when using the report builder in the Wor
 * Report
 
   <!--
-  Resource Estimate Note: This report captures information about an area in Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see Resource Planner overview.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Resource Estimate</p> <note type="note">
+  This report captures information about an area in&nbsp;Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see
+  <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.
+  </note> </li>
   -->
 
 * Resource Pool

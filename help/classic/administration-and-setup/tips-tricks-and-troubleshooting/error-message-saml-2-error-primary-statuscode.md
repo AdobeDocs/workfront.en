@@ -47,13 +47,13 @@ You must have the following to perform the steps in this article:
 
 ### Solution
 
-1. In Windows, click `Start` > `Administration` > `ADFS 2.0 Management`.  
+1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.  
    The ADFS 2.0 Management dialog box is displayed.
 
-1. Select `Trust Relationship` > `Relying Party Trusts` in the left-hand pane.
+1. Select **Trust Relationship** > **Relying Party Trusts** in the left-hand pane.
 
-1. Right-click on the relying party trust related to Adobe Workfront, then select `Properties`.
-1. Click on the `Advanced` tab, then select `SHA-1` from the `Secure hash algorithm` drop-down menu.  
+1. Right-click on the relying party trust related to Adobe Workfront, then select **Properties**.
+1. Click on the **Advanced**&nbsp;tab, then select **SHA-1** from&nbsp;the **Secure hash algorithm** drop-down menu.  
    ![](assets/1-350x287.png)
 
 ## Cause 2: ADFS Signing Certificate is about to expire and has been replaced by a new Certificate with overlapping dates
@@ -62,21 +62,21 @@ You must have the following to perform the steps in this article:
 
 The Workfront SSO Setup Page lists the certificate expiration date. If the certificate is about to expire, you need to manually pull the New Signing Certificate from the ADFS Server:
 
-1. In Windows, click `Start` > `Administration` > `ADFS 2.0 Management`.  
+1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.  
    The ADFS 2.0 Management dialog box is displayed.
 
-1. Select `Trust Relationship` > `Relying Party Trusts` in the left-hand pane.
+1. Select **Trust Relationship** > **Relying Party Trusts** in the left-hand pane.
 
-1. Right-click on the relying party trust related to Workfront, and select `Properties`.
-1. Click on the `Signature` tab.
-1. Click on the name of the Signing Certificate, and click `View`.
-1. Click Copy to `File`..., and select `Next`.
+1. Right-click on the relying party trust related to Workfront, and select **Properties**.
+1. Click on the **Signature** tab.
+1. Click on the name of the Signing Certificate, and click **View**.
+1. Click Copy to **File**..., and select **Next**.
 
-1. Select `Base-64 encoded x.509 (CER)`, and click `Next`.
+1. Select **Base-64 encoded x.509 (CER)**, and click **Next**.
 
-1. Specify the file name, and click `Next`.
-1. Click `Finish`.
-1. In Workfront, navigate to `Setup` > `System` > `Single Sign-On (SSO)` and manually upload the Signing Certificate.
+1. Specify the file name, and click **Next**.
+1. Click **Finish**.
+1. In Workfront, navigate to **Setup** > **System** > **Single Sign-On (SSO)** and manually upload the Signing Certificate.
 
 ## Cause 3: Certificate revocation check is failing
 
@@ -84,12 +84,12 @@ The Workfront SSO Setup Page lists the certificate expiration date. If the certi
 
 Run the following PowerShell Commands replacing domain with their Domain:
 
-1. In Windows, click `Start` > `Administrative Tools` > `Windows Powershell Modules`.
+1. In Windows, click **Start** > **Administrative Tools** > **Windows Powershell Modules**.
 
 1. In the Powershell window, type:   
    *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -SigningCertificateRevocationCheck None&nbsp;*
 
-  1. The "DOMAIN.my.workfront.com/SAML2" will be the identifier name of your relying party trust as displayed int he ADFS Management console.
+   1. The "DOMAIN.my.workfront.com/SAML2" will be the identifier name of your relying party trust as displayed int he ADFS Management console.
 
 1. Then run  
    *Set-ADFSRelyingPartyTrust -TargetIdentifier "DOMAIN.my.workfront.com/SAML2" -EncryptionCertificateRevocationCheck None&nbsp;*

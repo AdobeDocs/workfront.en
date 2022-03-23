@@ -11,14 +11,14 @@ description: You can use the Must Finish On (MFO) Task Constraint to schedule a 
 
 You can use the Must Finish On (MFO) Task Constraint to schedule a task to end on a specific date. 
 
-The Must Finish On constraint schedules a task to finish exactly at the time and date you specify in the `Planned Completion Date` field.
+The Must Finish On constraint schedules a task to finish exactly at the time and date you specify in the **Planned Completion Date** field.
 
 ## Overview of the Must Finish On Task Constraint
 
 Consider the following when scheduling a task with a Must Finish On constraint:
 
 * Predecessor relationships do not force the task to be rescheduled. Adobe Workfront essentially ignores the predecessor relationships.
-* The task shows as `At Risk` if the predecessors begin to run behind or are late.
+* The task shows as **At Risk** if the predecessors begin to run behind or are late.
 
 * When you move or copy a task with a MFO constraint to another project, the constraint of the task or the dates of the project might change depending on what the constraint dates are and what the Start and Completion Dates of the project are. The following scenarios exist:
 
@@ -39,6 +39,17 @@ Consider the following when scheduling a task with a Must Finish On constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-Use the Must Finish On Task Constraint To update the Task Constraint to Must Finish On: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Must Finish On. Specify a Planned Completion Date. The task must complete by this date, and no later than this date. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="Use"></a>Use the Must Finish On Task Constraint</h2>
+<p>To update the Task Constraint to Must Finish On:</p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>. </li>
+<li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
+<li value="4"> <p>Select <strong>Must Finish On</strong>.</p> </li>
+<li value="5"> <p>Specify a <strong>Planned Completion Date</strong>.</p> <p>The task must complete by this date, and no later than this date. </p> </li>
+<li value="6">Click <strong>Save Changes</strong>. </li>
+</ol>
+</div>
 -->
 

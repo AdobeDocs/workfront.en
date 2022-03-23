@@ -49,11 +49,11 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
 
 ## How-to steps
 
-1. Start creating a report by going to the Main menu > Reports, then select the object of your report. Or
+1. Start creating a report by going to the **Main menu** > **Reports**, then select the object of your report. Or
 
-   Open an existing report, then click `Report Actions` > `Edit`.
+   Open an existing report, then click **Report Actions** > **Edit**.
 
-1. Click `Report Settings` in the upper-right corner of the report builder.
+1. Click **Report Settings** in the upper-right corner of the report builder.
 1. Configure the following report settings:
 
    <table cellspacing="0"> 
@@ -83,7 +83,9 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
      <tr> 
       <td role="rowheader">Show the Resource Grid view on the Details tab</td> 
       <td> <p>(User Report Only) Select this option to display the Resource Grid on the Details tab of the report.</p> <p>Note:  When applying the Resource Grid view to a user report, the report only shows projects that are in the Current status. If you want to see projects in any other status, you can use the User Utilization Tab in the People area of the Global Navigation Bar, and apply the Resource Grid View there. <!--
-         For more information about using the Resource Grid, see the article Overview of the Resource Grid .
+         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          For more information about using the Resource Grid, see the article Overview of the Resource Grid .
+         </MadCap:conditionalText>
         --></p> </td> 
      </tr> 
      <tr> 
@@ -109,15 +111,16 @@ This video was recorded in Adobe WorkfrontClassic. However, the content also app
     </tbody> 
    </table>
 
-1. Click `Report Prompts` to set up any prompts for the report.  
+1. Click **Report Prompts** to set up any prompts for the report.  
    For more information about adding prompts to a report, see the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-1. Click `Done,` then click `Save + Close`.
+1. Click**Done,** then click **Save + Close**.
 
 ## Additional information
 
 See also:
 
+* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) 
 * [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md) 
 * [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

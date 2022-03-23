@@ -15,7 +15,7 @@ I have a task set to autocomplete, but when the due date arrives and the task au
 
 ## Solution
 
-You still have to mark the task as `Done` in the Working On list.
+You still have to mark the task as **Done** in the Working On list.
 
 The My Work "Done" and the Task Status "Complete" are two separate code paths in Adobe Workfront. When an item is marked Done, it can also automatically be set to complete the task.
 

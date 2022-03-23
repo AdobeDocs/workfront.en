@@ -13,6 +13,8 @@ description: You see more than one of the same approval in your Home Work List.
 
 You see more than one of the same approval in your Home Work List.
 
+![](assets/duplicate-info-home-350x204.png)  
+
 ## Cause
 
 You have been assigned to the approval as an individual user and as a member of a team.

@@ -21,14 +21,17 @@ See MobileIron's help documentation to install the Workfront mobile app from the
 For information on configuring Workfront for MobileIron, see [Configure Adobe Workfront for MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 <!--
-Blackberry Dynamics
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
 -->
 
 <!--
-See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:</p>
 -->
 
 <!--
-iOS Android
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li>iOS</li>
+<li>Android</li>
+</ul>
 -->
 

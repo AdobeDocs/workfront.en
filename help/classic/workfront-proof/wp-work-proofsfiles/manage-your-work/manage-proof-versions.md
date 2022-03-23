@@ -30,7 +30,7 @@ The full name of the version you are viewing displays at the top left of the pro
 1. Open a proof in the proofing viewer, as described in [Opening a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md).
 1. In the proofing viewer, click the version number to the right of the proof name.
 1. To view the other version, click its name in the menu that appears when you click the version number.
-1. To compare two versions, click the `Compare proofs` icon.  
+1. To compare two versions, click the **Compare proofs** icon.  
    ![Compare_Proofs_button.png](assets/compare-proofs-button.png)  
    If there are multiple versions of the proof, you can select which two version you want to compare by clicking the relevant version number in each side of the compare mode split screen.
 
@@ -41,7 +41,7 @@ For information about reviewing proofs in a proofing viewer, see [Review a proof
 You can access all versions of a proof via the Proof details page.&nbsp;
 
 1. Open the Proof details page for a proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Click the tab for the version tabs at the top of the page and click `Go to proof` to open the version you want in the proofing viewer.  
+1. Click the tab for the version tabs at the top of the page and click **Go to proof** to open the version you want in the proofing viewer.  
    ![Version_tabs_on_Proof_Details_page.png](assets/version-tabs-on-proof-details-page-350x205.png)
 
 ## Linking Proof Versions
@@ -51,12 +51,12 @@ If your proof has multiple versions, the previous version of the proof is common
 If you would like to change the parent proof (previous version) to another proof in your account, or connect a single proof to another proof in your account (as a new version of the other proof), you can do so easily by following these steps:
 
 1. Open the Proof details page for a proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Click `More` > `Change previous version`.
+1. Click **More** > **Change previous version**.
 
-1. In the `Change previous version`box that appears, select the proof you wish to set as the parent proof (previous version).  
+1. In the **Change previous version**box that appears, select the proof you wish to set as the parent proof (previous version).  
    If you need help finding the proof on the list you can sort the columns by clicking on the column header.
 
-1. Click `Change previous version` at the bottom of the box to connect versions.&nbsp;
+1. Click **Change previous version** at the bottom of the box to connect versions.&nbsp;
 
 >[!NOTE]
 >
@@ -67,12 +67,12 @@ If you would like to change the parent proof (previous version) to another proof
 You can unlink the proof you're currently viewing from its parent proof (previous version) without linking it to another proof in your account:
 
 1. Open the Proof details page for a proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Click `More` > `Remove link to previous version`.
+1. Click **More** > **Remove link to previous version**.
 
 1.
 
-  * Only the last version can be unlinked (disconnected) from the whole set of versions. It will then become a single proof. 
-  * If you need to insert a version in between two existing versions, you can unlink all versions of the same proof and re-link them in the correct order.
+   * Only the last version can be unlinked (disconnected) from the whole set of versions. It will then become a single proof. 
+   * If you need to insert a version in between two existing versions, you can unlink all versions of the same proof and re-link them in the correct order.
 
 ## About Version Sets and Proof Limits
 

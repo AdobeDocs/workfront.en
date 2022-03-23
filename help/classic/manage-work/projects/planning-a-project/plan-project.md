@@ -136,9 +136,9 @@ When defining tasks, consider the following:
 * Assign each task to a user or team who is responsible for completing it.&nbsp;
 * Check the availability of the users you are assigning to the tasks. Ensure they are free to work and not overallocated so they can complete their assigned tasks. If users are overallocated or they have time off in their schedules, consider one of the following:
 
-  * Reduce the Planned Hours of each task.
-  * Add more users to a task to ensure it can be completed during the time allocated for it.
-  * Reassign the tasks to users who are available with no other constraints.  
-    For more information about planning your project resources, see the article [Resource Planning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).  
-    For more information about scheduling your resources to accomplish the work on a project, see the article [Resource Scheduling](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
+   * Reduce the Planned Hours of each task.
+   * Add more users to a task to ensure it can be completed during the time allocated for it.
+   * Reassign the tasks to users who are available with no other constraints.  
+     For more information about planning your project resources, see the article [Resource Planning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).  
+     For more information about scheduling your resources to accomplish the work on a project, see the article [Resource Scheduling](../../../resource-mgmt/resource-scheduling/resource-scheduling-overview.md).
 

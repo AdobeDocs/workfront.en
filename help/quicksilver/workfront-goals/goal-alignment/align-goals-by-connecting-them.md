@@ -47,7 +47,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -67,16 +75,16 @@ You must have the following before you can start:
 
 1. Create two goals that you want to align. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 1. (Optional)&nbsp;Activate the goals that you want to align.&nbsp;You can align goals that have a Draft, Active, or Inactive status. For information about activating goals, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
-1. Go to the goal that you want to align (child goal) to another goal (parent goal) and click its name to open the `Goal Details` panel.&nbsp;
+1. Go to the goal that you want to align (child goal) to another goal (parent goal) and click its name to open the **Goal Details** panel.&nbsp;
 
    For example, if you want Goal 2 to influence the progress of Goal 1, you must go to Goal 2. 
 
-1. Click `Align to another goal` in the upper-right corner of the right panel.
+1. Click **Align to another goal** in the upper-right corner of the right panel.
 
    ![](assets/align-to-another-goal-link-highlighted-350x128.png)
 
-1. Start typing the name of an existing goal or the name of an owner in the `Align to `another goal`` field, then select it when it appears in the list. Only goals that are from the same or future periods display in the list. 
-1. Click  `Save`.
+1. Start typing the name of an existing goal or the name of an owner in the **Align to another goal** field, then select it when it appears in the list. Only goals that are from the same or future periods display in the list. 
+1. Click&nbsp;**Save**.
 
    The goal you started with (Goal 2) is now the child goal of the goal you aligned it with (Goal 1).   
    The aligned goals display connected in the Goal Alignment section with Goal 2 as secondary to&nbsp;Goal 1.
@@ -86,7 +94,7 @@ You must have the following before you can start:
 1. (Optional) To view the goals in the Goal Alignment section, do one of the following:&nbsp;
 
   * Click the Goal Alignment section in the left panel and find the goals by applying the correct filter. For information about filtering information in&nbsp;Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
-  * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the `Alignment icon` ![](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
+  * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
 
    For information about the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md). 
 

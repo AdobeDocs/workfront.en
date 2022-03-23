@@ -88,8 +88,8 @@ For more information about the syntax you must use in a calculated custom column
 
 ## Actions that trigger the update of a calculated custom field
 
-* Bulk editing multiple objects when `Recalculate Custom Expressions` is enabled
-* Editing a custom form when `Update previous calculations` is enabled for the calculated custom field
+* Bulk editing multiple objects when **Recalculate Custom Expressions** is enabled
+* Editing a custom form when **Update previous calculations** is enabled for the calculated custom field
 
 ## When to use Calculated Columns in a View
 

@@ -17,7 +17,7 @@ This section contains the following articles:
 * [Basic terms](../../workfront-fusion/get-started/basic-terms.md)
 
   <!--
-  Create a practice automation scenario
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/get-started/create-a-practice-automation-scenario.md" class="MCXref xref" xrefformat="{para}">Create a practice automation scenario</a> </li>
   -->
 
 * [Create a practice integration scenario](../../workfront-fusion/get-started/create-a-practice-scenario.md) 

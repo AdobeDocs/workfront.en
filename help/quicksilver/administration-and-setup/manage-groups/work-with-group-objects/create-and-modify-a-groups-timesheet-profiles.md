@@ -10,7 +10,7 @@ description: Do this to other step articles about objects and groups? Remove ste
 # Create and manage a group’s timesheet profiles
 
 <!--
-Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Do this to other step articles about objects and groups? Remove steps and point to main article; add group or step in that article. Already done previously for approval processes.</p>
 -->
 
 When you are viewing a group that you manage in the Groups area, you can view and work with the timesheet profiles for which the administrators of the group, or one of its subgroups, have administrative access.
@@ -58,7 +58,7 @@ For information about on deleting group timesheets, see [Delete timesheets in Ad
 
 ## Export group-level timesheet profiles
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. Click **Groups**.
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.

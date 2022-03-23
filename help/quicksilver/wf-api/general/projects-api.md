@@ -5,6 +5,7 @@ product-area: projects
 navigation-topic: general-api
 title: Projects API
 description: You can use the Projects API to interact with projects within Adobe Workfront. The calls included with this API interact directly with the project itself.
+hidefromtoc: true
 ---
 
 # Projects API
@@ -28,7 +29,7 @@ Following are some examples of how you can interact with projects through the AP
 
 Projects are represented as JSON objects with the following attributes:
 
-| `Name`  | `Field Type`  | `Code`  | `Description`  |
+| **Name** |**Field Type** |**Code** |**Description** |
 |---|---|---|---|
 | BC Completion State |string[] |BCCompletionState |&nbsp; |
 | ID |&nbsp; |&nbsp; |&nbsp; |

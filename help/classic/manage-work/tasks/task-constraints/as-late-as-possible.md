@@ -22,7 +22,17 @@ For information about where to set the default Constraint for a new task, refer 
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-Use the As Late As Possible Task Constraint To update the Task Constraint to As Late As Possible: Go to a task whose Task Constraint you want to update. Click Edit Task. In the Overview section, expand the Task Constraint drop-down menu. Select As Late As Possible. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="as-late-as-possible"></a>Use the As Late As Possible Task Constraint</h2>
+<p>To update the Task Constraint to As Late As Possible:&nbsp;</p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click&nbsp;<strong>Edit Task</strong>. </li>
+<li value="3"> <p>In the&nbsp;<strong>Overview</strong>&nbsp;section, expand the&nbsp;<strong>Task Constraint</strong>&nbsp;drop-down menu.</p> </li>
+<li value="4"> <p>Select&nbsp;<strong>As Late As Possible</strong>.</p> <p>  </p> </li>
+<li value="5">Click <strong>Save Changes</strong>.&nbsp;</li>
+</ol>
+</div>
 -->
 
 ## The difference between Latest&nbsp;Available Time and As Late&nbsp;As Possible
@@ -35,11 +45,11 @@ The Latest&nbsp;Available Time constraint differs from the As Late&nbsp;As Possi
 
 In this situation:
 
-* `Latest Available Time:` Using the Latest&nbsp;Available Time constraint on the successor task gives priority to flexible constraint of the predecessor.
+* **Latest Available Time:** Using the Latest&nbsp;Available Time constraint on the successor task gives priority to flexible constraint of the predecessor.
 
   For example, Task A is a predecessor to Task B. Task B has the Latest&nbsp;Available Time constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close&nbsp;to the start&nbsp;of the project as possible.
 
-* `As Late As Possible:` In this scenario, using the As Late&nbsp;As Possible constraint on the successor task gives the priority to the successor task.
+* **As Late As Possible:** In this scenario, using the As Late&nbsp;As Possible constraint on the successor task gives the priority to the successor task.
 
   For example, Task A is a predecessor to Task B. Task B has the As Late&nbsp;As Possible&nbsp;constraint and Task A has the As Soon&nbsp;As Possible constraint. In this situation, the task is scheduled as close to the end&nbsp;of the project as possible.
 

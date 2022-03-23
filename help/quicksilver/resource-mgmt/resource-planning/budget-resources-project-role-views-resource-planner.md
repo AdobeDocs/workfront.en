@@ -12,7 +12,7 @@ The main function of the Resource Planner is to budget your resources for the wo
 
 >[!IMPORTANT]
 >
->You can budget your resources only if you apply the `View by Project` or `View by Role` views to the Resource Planner.
+>You can budget your resources only if you apply the **View by Project** or **View by Role** views to the Resource Planner.
 
 ##  
 
@@ -57,19 +57,19 @@ You must have the following access to perform the steps in this article:
 * [Budget resources in the Role View](#budgeting-in-the-role-view) 
 * [Budget resources in bulk](#budget)
 
-### `Budget resources in the Project View`<![CDATA[   ]]>
+### **Budget resources in the Project View**<![CDATA[   ]]>
 
-1. <![CDATA[				]]>Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
+1. <![CDATA[				]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
 
-1. <![CDATA[				]]><![CDATA[			]]>Click Resourcing.<![CDATA[    ]]>
-1. <![CDATA[			]]>The Planner displays by default. 
-1. (Conditional) Select the `View by Project` view. 
+1. <![CDATA[				]]><![CDATA[			]]>Click **Resourcing**. <![CDATA[    ]]>
+1. <![CDATA[			]]>The **Planner** displays by default.  
+1. (Conditional) Select the **View by Project** view. 
 1. Expand the projects and the job roles to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users do one of the following:
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the users.  
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users.  
   
-  * Click the `More` menu for the job role of the user, then click `Set Users' Planned Hours as Budgeted`.  
+  * Click the **More** menu for the job role of the user, then click **Set Users' Planned Hours as Budgeted**.  
     The Budgeted Hours of each user are calculated using the following formula:
 
     ```  
@@ -78,20 +78,20 @@ You must have the following access to perform the steps in this article:
 
 1. To budget allocation for job roles, do one of the following:
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the job role.
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job role.
 
     >[!NOTE]
     >
     >The Role Budgeted Hours are added to the Project Budgeted Hours.
 
-  * (Conditional) If you have budgeted hours for users, click the `More` menu for the job role, then click `Total Users' Budgeted Hours for Role`.  
+  * (Conditional) If you have budgeted hours for users, click the **More** menu for the job role, then click **Total Users' Budgeted Hours for Role**.  
     The Budgeted Hours for each role are calculated using the following formula:
 
     ```  
     Role Budgeted Hours = SUM(User Budgeted Hours)
     ```
 
-  * Click the `More` menu for the project, then click `Set Roles' Planned Hours as Budgeted`.  
+  * Click the **More** menu for the project, then click **Set Roles' Planned Hours as Budgeted**.  
     The Budgeted Hours for each role are calculated using the following formula:  
     * 
   
@@ -108,13 +108,13 @@ You must have the following access to perform the steps in this article:
     >  
     >  * The Role Budgeted Hours are added to the Project Budgeted Hours.
     >  * Users can be budgeted for both Primary and Other (or secondary) Roles. 
-    >  * The `Percentage of FTE Availability` for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% `Percentage of FTE Availability`, the Available Hours value is zero for that job role. In this case, the role might show a negative `Net Value`.  
-    >    For more information about the `Percentage of FTE Availability` for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
+    >  * The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.  
+    >    For more information about the **Percentage of FTE Availability** for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
     >  
     >  
     >
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the project. This distributes the number of Project Budgeted Hours to each role under the project. The following scenarios exist:
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project. This distributes the number of Project Budgeted Hours to each role under the project. The following scenarios exist:
 
     * If the number of Project Budgeted Hours your specify equals the Project Planned Hours, the Role Budgeted Hours match the Role Planned Hours.
     * If the number of Project Budgeted Hours you specify does not equal the Project Planned Hours, the Role Budgeted Hours are distributed according to the percentage of Planned Hours needed for each role.  
@@ -129,34 +129,34 @@ You must have the following access to perform the steps in this article:
     Project Budgeted Hours = SUM(Role Budgeted Hours)
     ```
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the project.  
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the project.  
     This updates the Role Budgeted Hours, as described in Step 7.  
     ![budget_for_project.png](assets/budget-for-project-350x182.png)
 
-1. Click `Save`.  
+1. Click **Save**.  
    After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.  
    For more information about understanding the Resource Budgeting area of the Business Case, see the section "Resource Budgeting" in the article [Overview of the Areas of the Business Case](../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
 1. (Optional) Select the User view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the User view.
 
-### `Budget resources in the Role View`
+### **Budget resources in the Role View**
 
 You must have Edit access to Resource Management and Financial Data and Manage Finance permissions on the projects in order to budget resources in the Resource Planner. If you only have View access to at least one project listed under a job role, you cannot budget allocations for the role in the Role view. You can still budget allocation for the projects where you have Manage permissions.
 
 For information about the access needed for budgeting resources, see the article [Access needed to budget resources](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-To budget allocations in the Resource Planner in the `` Role view:
+To budget allocations in the Resource Planner in the**** Role view:
 
-1. <![CDATA[				]]><![CDATA[			]]>Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
+1. <![CDATA[				]]><![CDATA[			]]>Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.<![CDATA[      ]]>
 
-1. <![CDATA[				]]><![CDATA[			]]>Click Resourcing.<![CDATA[     ]]>
-1. <![CDATA[			]]>The Planner displays by default.
-1. (Conditional) Select the `View by Role` view. 
+1. <![CDATA[				]]><![CDATA[			]]>Click **Resourcing**. <![CDATA[     ]]>
+1. <![CDATA[			]]>The **Planner** displays by default. 
+1. (Conditional) Select the **View by Role** view. 
 1. Expand the job roles and the projects to manage the allocation for the project, job roles, or users. 
 1. To budget allocation for users, do one of the following:
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the users. 
-  * Click the `More` menu for the project, then click `Set Users' Planned Hours as Budgeted`.  
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the users. 
+  * Click the **More** menu for the project, then click **Set Users' Planned Hours as Budgeted**.  
     The Budgeted Hours of each user are calculated using the following formula:
 
     ```  
@@ -165,11 +165,10 @@ To budget allocations in the Resource Planner in the `` Role view:
 
 1. To budget allocation for job roles, do one of the following:
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the job roles.  
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the job roles.  
     This distributes the Role Budgeted Hours to the Project Budgeted Hours for the projects that you have access to manage.
   
-  * Click the `More` menu for the job role, then click `Set Projects' Planned Hours as Budgeted.  
-    `The Role Budgeted Hours are calculated using the following formula:  
+  * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted.**The Role Budgeted Hours are calculated using the following formula:  
     * 
   
     ```  
@@ -182,20 +181,20 @@ To budget allocations in the Resource Planner in the `` Role view:
     Project Budgeted Hours = Project Planned Hours
     ```
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects listed under the job role.  
     This adds the number of Project Budgeted Hours to the role.
 
    >[!NOTE]
    >
-   >Users can be budgeted for both Primary and Other (or secondary) Roles. The `Percentage of FTE Availability` for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% `Percentage of FTE Availability`, the Available Hours value is zero for that job role. In this case, the role might show a negative `Net Value`.  
-   >For more information about the `Percentage of FTE Availability` for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   >Users can be budgeted for both Primary and Other (or secondary) Roles. The **Percentage of FTE Availability** for the roles of the user must be a number different than 0% for the Available Hours to display a value in the Resource Planner for a job role. If a user is associated with a role with a 0% **Percentage of FTE Availability**, the Available Hours value is zero for that job role. In this case, the role might show a negative **Net Value**.  
+   >For more information about the **Percentage of FTE Availability** for job roles, see the article [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. To budget allocation for the project, do one of the following:
 
-  * In the `BDG` column, manually specify a number of budgeted hours, FTE, or cost for the projects.  
+  * In the **BDG** column, manually specify a number of budgeted hours, FTE, or cost for the projects.  
     This also updates the Budgeted Hours for the roles under which the project is listed. 
   
-  * Click the `More` menu for the job role, then click `Set Projects' Planned Hours as Budgeted`.  
+  * Click the **More** menu for the job role, then click **Set Projects' Planned Hours as Budgeted**.  
     The Project Budgeted Hours are calculated by the following formula:
 
     ```  
@@ -204,7 +203,7 @@ To budget allocations in the Resource Planner in the `` Role view:
 
     The Project Budgeted Hours are added to the Role Budgeted Hours. 
   
-  * (Conditional) If you have budgeted the hours for the users, click the `More` menu for the project, then click `Total Users' Budgeted Hours for Project`.  
+  * (Conditional) If you have budgeted the hours for the users, click the **More** menu for the project, then click **Total Users' Budgeted Hours for Project**.  
     The Project Budgeted Hours is calculated using the following formula:
 
     ```  
@@ -213,11 +212,11 @@ To budget allocations in the Resource Planner in the `` Role view:
 
     ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
-1. Click `Save`.  
+1. Click **Save**.  
    After you budget your resources in the Resource Planner, the Budgeted Hours for your resources and any cost associated with them are listed in the Business Case of every project.  
    For more information about understanding the Resource Budgeting area of the Business Case, see the article [Budget resources in the Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-1. (Optional) Select the `View by User` view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the View by User view.
+1. (Optional) Select the **View by User** view to notice any user overallocations or underutilization between the Available and the Planned Hours for each user. Budgeted Hours are not visible in the View by User view.
 
 ### Budget resources in bulk
 
@@ -237,9 +236,9 @@ To budget your resources in bulk:
 
 1. (Optional) Expand each project to see a list of job roles associated with it.  
    Or
-1. (Optional) Select `View by Role`, then expand each role to see a list of projects associated with it. 
+1. (Optional) Select **View by Role**, then expand each role to see a list of projects associated with it. 
 1. Hover over the name of a project or of a job role.
-1. Click the `More` icon ![options_icon_resource_planner.png](assets/options-icon-resource-planner.png)which displays to the far right of the project or role name.  
+1. Click the **More** icon ![options_icon_resource_planner.png](assets/options-icon-resource-planner.png)which displays to the far right of the project or role name.  
 
 1. Click one of the available options to automatically specify the amount of Budgeted Hours (BDG) for other objects.
 
@@ -252,32 +251,32 @@ To budget your resources in bulk:
     <tbody> 
      <tr> 
       <td> </td> 
-      <td><span class="bold">Project View</span> </td> 
-      <td><span class="bold">Role View</span> </td> 
+      <td><strong>Project View</strong> </td> 
+      <td><strong>Role View</strong> </td> 
      </tr> 
      <tr> 
       <td>Project Options</td> 
       <td> 
        <ul> 
-        <li><span class="bold">Set Roles' Planned Hours as Budgeted</span>: Select this option to make the Budgeted Hours of the role become identical to their Planned Hours. The total of the Budgeted Hours for the roles will display for the Project Budgeted Hours. </li> 
-        <li><span class="bold">Adjust Budgeting Dates</span> : Select this option to move the Budgeted Hours to a different timeframe.<br>For more information about adjusting budgeting dates, see <a href="../../resource-mgmt/resource-planning/adjust-budgeting-dates.md" class="MCXref xref">Adjust budgeting dates in the Resource Planner</a>.</li> 
+        <li><strong>Set Roles' Planned Hours as Budgeted</strong>: Select this option to make the Budgeted Hours of the role become identical to their Planned Hours. The total of the Budgeted Hours for the roles will display for the Project Budgeted Hours. </li> 
+        <li><strong>Adjust Budgeting Dates</strong> : Select this option to move the Budgeted Hours to a different timeframe.<br>For more information about adjusting budgeting dates, see <a href="../../resource-mgmt/resource-planning/adjust-budgeting-dates.md" class="MCXref xref">Adjust budgeting dates in the Resource Planner</a>.</li> 
        </ul> </td> 
       <td> 
        <ul> 
-        <li><span class="bold">Set Users' Planned Hours as Budgeted</span>: Select this option to make the Budgeted Hours of the user become identical to the their Planned Hours. </li> 
-        <li><span class="bold">Total Users' Budgeted Hours for Project</span>: Select this option to add all the user Budgeted Hours together and display the total as the Budgeted Hours for the project and for the role. We recommend that you use this option after you have either manually budgeted your users, or you have used the previous option first. </li> 
+        <li><strong>Set Users' Planned Hours as Budgeted</strong>: Select this option to make the Budgeted Hours of the user become identical to the their Planned Hours. </li> 
+        <li><strong>Total Users' Budgeted Hours for Project</strong>: Select this option to add all the user Budgeted Hours together and display the total as the Budgeted Hours for the project and for the role. We recommend that you use this option after you have either manually budgeted your users, or you have used the previous option first. </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td>Role Options</td> 
       <td> 
        <ul> 
-        <li><span class="bold">Set Users' Planned Hours as Budgeted</span>: Select this option to make the Budgeted Hours of the user become identical to their Planned Hours. </li> 
-        <li><span class="bold">Total Users' Budgeted Hours for Role</span>: Select this option to add all the Budgeted Hours of the user together and display the total as the Budgeted Hours for the role and the project. We recommend that you use this option after you have either manually budgeted your users, or you have used the previous option first. </li> 
+        <li><strong>Set Users' Planned Hours as Budgeted</strong>: Select this option to make the Budgeted Hours of the user become identical to their Planned Hours. </li> 
+        <li><strong>Total Users' Budgeted Hours for Role</strong>: Select this option to add all the Budgeted Hours of the user together and display the total as the Budgeted Hours for the role and the project. We recommend that you use this option after you have either manually budgeted your users, or you have used the previous option first. </li> 
        </ul> </td> 
       <td> 
        <ul> 
-        <li><span class="bold">Set Projects' Planned Hours as Budgeted</span>: Select this option to make the project Budgeted Hours become identical with the project Planned Hours. </li> 
+        <li><strong>Set Projects' Planned Hours as Budgeted</strong>: Select this option to make the project Budgeted Hours become identical with the project Planned Hours. </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

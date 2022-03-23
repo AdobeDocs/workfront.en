@@ -71,9 +71,9 @@ To add a Workfront work item to your calendar:
 
 1. Do any of the following:
 
-  * `To schedule a work item for multiple days:` Repeat step 2 to add the item to each day and time when you want to work on it.
-  * `To modify the duration of a calendar item:`&nbsp;Hover over the bottom edge of the item until the cursor becomes a double arrow, then drag the bottom edge to the ending time you want.
-  * `To delete a calendar item:` Hover over the item, then click the trashcan icon that is displayed.
+   * **To schedule a work item for multiple days:** Repeat step 2 to add the item to each day and time when you want to work on it.
+   * **To modify the duration of a calendar item:**&nbsp;Hover over the bottom edge of the item until the cursor becomes a double arrow, then drag the bottom edge to the ending time you want.
+   * **To delete a calendar item:** Hover over the item, then click the trashcan icon that is displayed.
 
 ## Update a work item on your Home Calendar
 
@@ -83,8 +83,8 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
 1. Open the Details panel for the work item you want to update:
 
-  * From the left panel: Select the work item, then click `Details`.
-  * From the calendar: Click the scheduled calendar event.
+   * From the left panel: Select the work item,&nbsp;then click **Details**.
+   * From the calendar: Click the scheduled calendar event.
 
    Details for the work item display in a panel that appears on the right of the window.
 
@@ -92,47 +92,55 @@ You&nbsp;can make updates to work items that display in Home Calendar view. Your
 
 1. Do any of the following to update the work item:
 
-  * In the  `Start a new update` box, type your update, specify any of the following information, then click `Update`.
+   * In the&nbsp;**Start a new update**&nbsp;box, type your update, specify any of the following information, then click **Update**.
 
-    <table cellspacing="0">
-     <col>
-     <col>
-     <tbody>
-      <tr>
-       <td role="rowheader">Notify</td>
-       <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p>&nbsp;</p></td>
-      </tr>Commit Date In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the Commit Date, see Commit Date overview.How's this going? Select a new condition for the task or issue. For information about task and issue conditions, see Update Condition for tasks and issues.
-      <tr>
-       <td role="rowheader">Private to my company</td>
-       <td>Disable to prevent users outside your company from being able to view this update.</td>
-      </tr>
-     </tbody>
-    </table>
+     <table cellspacing="0">
+      <col>
+      <col>
+      <tbody>
+       <tr>
+        <td role="rowheader">Notify</td>
+        <td><p> Tag users you want to notify about your update. For more information, see <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p><p>&nbsp;</p></td>
+       </tr>
+       <tr data-mc-conditions="">
+        <td role="rowheader">Commit Date</td>
+        <td>In the drop-down calendar, select the date when you are committing to complete the work item. For information about setting the Commit Date, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>.</td>
+       </tr>
+       <tr data-mc-conditions="">
+        <td role="rowheader">How's this going?</td>
+        <td>Select a new condition for the task or issue. For information about task and issue conditions, see <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update Condition for tasks and issues</a>.</td>
+       </tr>
+       <tr>
+        <td role="rowheader">Private to my company</td>
+        <td>Disable to prevent users outside your company from being able to view this update.</td>
+       </tr>
+      </tbody>
+     </table>
 
-  * Click the current `Status` for the item, then click a new status in the list that appears. For more information, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
+   * Click the current **Status** for the item, then click a new status in the list that appears. For more information, see [Approval process overview](../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md).
 
-    >[!NOTE]
-    >
-    >If you mark a work item assigned to you as Complete - Pending Approval, you may notice that it no longer appears on your calendar. This is because no further action is expected of you until the user who is set to approve the item marks it as Approved. When this occurs, you will be able to see the item on your calendar as an Approved item.
+     >[!NOTE]
+     >
+     >If you mark a work item assigned to you as Complete - Pending Approval, you may notice that it no longer appears on your calendar. This is because no further action is expected of you until the user who is set to approve the item marks it as Approved. When this occurs, you will be able to see the item on your calendar as an Approved item.
 
-  * (Optional) To reply to an existing comment or update, click `Reply`, specify any recipients in the `Notify` box, type your reply, then click `Reply`.  
-    If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * (Optional) To reply to an existing comment or update, click **Reply**, specify any recipients in the **Notify** box, type your reply, then click **Reply**.  
+     If you need information about specifying recipients, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-1. (Optional) To close the `Details` panel, click anywhere outside it.ok
+1. (Optional) To close the **Details** panel, click anywhere outside it.ok
 
 ## Update events from integrated calendars
 
 To update the integrated calendar events in your Home Calendar:
 
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. Click Refresh Calendars in the upper right corner of the Home Calendar.
+1. Click **Refresh Calendars** in the upper right corner of the Home Calendar.
 
    Integrated calendar events update automatically when you open your Home Calendar view or when you refresh your Home Calendar.
 
 ## Filter and sort work items
 
 1. Go to the Home Calendar view, as explained in [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. Click the `Filter` drop-down menu.
+1. Click the **Filter** drop-down menu.
 
    >[!NOTE]
    >
@@ -154,7 +162,7 @@ To update the integrated calendar events in your Home Calendar:
      </tr> 
      <tr> 
       <td role="rowheader">Issues</td> 
-      <td>Issues you are currently working on.&nbsp;The <span class="bold">Issue</span> icon appears next to each issue in the Work List. <img src="assets/home-issue-icon.png"></td> 
+      <td>Issues you are currently working on.&nbsp;The <strong>Issue</strong> icon appears next to each issue in the Work List. <img src="assets/home-issue-icon.png"></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Approvals</td> 
@@ -185,7 +193,7 @@ To update the integrated calendar events in your Home Calendar:
 
    ![](assets/calendar-filters-classic-and-nwe-350x350.png)
 
-1. To group and sort your list of work, click the Sort by drop-down menu, then select the criteria you want to use.
+1. To group and sort your list of work, click the **Sort by** drop-down menu, then select the criteria you want to use.
 
    The items are listed on the left side of the calendar according to the criteria and in the order that you specify.
 
@@ -200,11 +208,11 @@ To update the integrated calendar events in your Home Calendar:
 ## Navigate to a different week
 
 1. Go to your Home Calendar view, as explained in&nbsp; [View the Home Calendar](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
-1. On the `Calendar toolbar`, click the left arrow of the date indicator to move the calendar view back one week or the right arrow to move forward one week.
+1. On the **Calendar toolbar**, click the left arrow of the date indicator to move the calendar view back one week or the right arrow to move forward one week.
 
    ![](assets/week-arrows-350x206.png)
 
-   You can click `Today` to return to the current week.
+   You can click **Today** to return to the current week.
 
 ## Specify which calendars you view
 

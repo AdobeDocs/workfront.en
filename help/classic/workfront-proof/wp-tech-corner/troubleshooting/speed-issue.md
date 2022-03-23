@@ -38,10 +38,10 @@ When you are experiencing performance issues it is important to run the tracerou
 
 1. Type one of the following, then wait for the tracerout to be completed:
 
-  * Windows:  `tracert app.proofhq.com`&nbsp;
-  * Mac/Linux:  `traceroute app.proofhq.com`&nbsp;
+   * Windows:&nbsp;**tracert app.proofhq.com**&nbsp;
+   * Mac/Linux:&nbsp;**traceroute app.proofhq.com**&nbsp;
 
-1. (Windows only) Type `ping app.proofhq.com`.
+1. (Windows only) Type **ping app.proofhq.com**.
 1. When the ping completes, right-click in the command prompt and Select All.
 1. Copy and paste the results into the the reply to your email.  
    Make sure you allow traceroute and ping to finish before sending the results to the Support Team.

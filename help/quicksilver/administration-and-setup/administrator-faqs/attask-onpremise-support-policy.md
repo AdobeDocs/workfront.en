@@ -16,11 +16,11 @@ Adobe Workfront moved to a 100% Software-As-A-Service model and stopped selling 
 If you already have the application and need to re-install OnPremise, download the installation guide .
 
 <!--
-OnPremise optimization tips can be found.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">OnPremise optimization tips can be found.</p>
 -->
 
 <!--
-To learn more about reporting in AtTask OnPremise, click.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about reporting in AtTask OnPremise, click.</p>
 -->
 
 Download instructions on SSL/TSL setup.

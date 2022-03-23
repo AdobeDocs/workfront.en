@@ -40,6 +40,6 @@ You must have the following access to perform the steps in this article:
 By default, the Backlog column is hidden. To display the backlog:
 
 1. Go to the Kanban board where you want to display the backlog.
-1. Click `Show Backlog`.
+1. Click **Show Backlog**.
 
 For more information about the backlog, see [Manage the agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

@@ -18,7 +18,7 @@ This section contains the following articles:
 * [Adobe Workfront user credentials vs. SAML user credentials](../../administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
 
   <!--
-  Allow Adobe Workfront to run flash on Google Chrome
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/tips-tricks-and-troubleshooting/allow-wf-run-flash-chrome.md" class="MCXref xref" xrefformat="{para}">Allow Adobe Workfront to run flash on Google Chrome</a> </li>
   -->
 
 * [Automatic reminders vs. reminder notifications](../../administration-and-setup/tips-tricks-and-troubleshooting/auto-reminders-vs-reminder-notifications.md) 
@@ -35,7 +35,7 @@ This section contains the following articles:
 * [External user license type missing from access levels](../../administration-and-setup/tips-tricks-and-troubleshooting/external-user-license-type-missing-from-access-levels.md)
 
   <!--
-  Flash feature groupings
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/tips-tricks-and-troubleshooting/flash-feature-groupings.md" class="MCXref xref" xrefformat="{para}">Flash feature groupings</a> </li>
   -->
 
 * [Login Error: The following fields are invalid: emailAddr cannot be null](../../administration-and-setup/tips-tricks-and-troubleshooting/login-error-following-field-invalid-emailaddr-cant-be-null.md) 

@@ -41,9 +41,9 @@ You must have the following to perform the steps in this article:
 
 ## Edit a team’s settings
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click **Teams** in the left panel.
-1. Select a team, then click `Edit` ![](assets/edit-icon.png).
+1. Select a team, then click **Edit** ![](assets/edit-icon.png).
 
 1. Make any of the following changes:
 
@@ -55,7 +55,10 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Team Name</td> 
       <td>Type a name for the team.</td> 
      </tr> <!--
-      Is Active New and existing teams have this box checked by default. Uncheck this box to deactivate the team. For more information, see Deactivate a team
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader"><span class="preview">Is Active</span> </td> 
+       <td><span class="preview">New and existing teams have this box checked by default. Uncheck this box to deactivate the team. For more information, see <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Deactivate a team</a></span> </td> 
+      </tr>
      --> 
      <tr> 
       <td role="rowheader">Group</td> 
@@ -75,12 +78,18 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Layout Template</td> 
-      <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> For more information, see the section Apply the Layout Template to a team in the article Change the My Work and Work Requests areas with Layout Templates. </td> 
-     </tr> Calendar Designate the calendar that displays when someone accesses the team 
+      <td> <p>Start typing the name of the layout template you want the team to use, then click it when it appears.</p> For more information, see the section <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md#applying" class="MCXref xref">Apply the Layout Template to a team</a> in the article <a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md" class="MCXref xref">Change the My Work and Work Requests areas with Layout Templates</a>. </td> 
+     </tr>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Calendar</td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray"> <p>Designate the calendar that displays when someone accesses the team</p> </td>  
      <tr> 
       <td role="rowheader">Agile</td> 
       <td>Specify whether this is an agile team. For information on agile teams and how to manage their work, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
-     </tr> Work On It Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically. For more information on how to configure the Start button, see Replace the Work On It button with a Start button. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Work On It</td> 
+      <td> <p>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</p> <p>For more information on how to configure the Start button, see <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Done Button</td> 
       <td> <p>Customize the Done button. For more information, see:</p> 
@@ -92,5 +101,5 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

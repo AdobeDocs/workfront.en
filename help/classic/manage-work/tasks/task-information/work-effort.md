@@ -26,7 +26,9 @@ As a project manager, you can decide how you want to estimate the amount of work
   <tr> 
    <td role="rowheader">Work Effort </td> 
    <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task. <!--
-      The level of effort is estimated to be a percentage of the daily amount of working time.
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       The level of effort is estimated to be a percentage of the daily amount of working time.
+      </MadCap:conditionalText>
      --> </p> <p>Consider the following about Work Effort:</p> 
     <ul> 
      <li>This field is available only for tasks with a Simple Duration Type. </li> 
@@ -83,21 +85,23 @@ You must have the following access to perform the steps in this article:
 
 ## Enable using Work Effort instead of Planned Hours
 
-1. Go to a project and click Edit Project. 
-1. Click Settings, then select the option `Use Work Effort to automatically calculate task Planned hours`. This is deselected by default.
+1. Go to a project and click **Edit Project**. 
+1. Click **Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default. 
+
+   ![](assets/classic-work-effort-on-projects-350x80.png)
 
    For more information about enabling the use of Work Effort on a project, see the "Tasks " section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article. 
 
-1. Click Tasks , then click the name of a task to access it. 
-1. Click Edit Task. Ensure the task has a Simple Duration Type. 
-1. In the `Overview` area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
+1. Click **Tasks** , then click the name of a task to access it. 
+1. Click **Edit Task**. Ensure the task has a Simple Duration Type. 
+1. In the **Overview** area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
 
    ![](assets/work-effort-on-edit-task-page-350x239.png)
 
    For more information about updating the Work Effort field on a task, see the following articles:
 
-  * The "Overview" section in the [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
-  * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+   * The "Overview" section in the [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md) article
+   * [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
 ## Levels of Work Effort
 

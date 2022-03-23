@@ -22,7 +22,7 @@ This section contains the following articles:
 * [Logging in and changing your password and email for Workfront Proof](../../../workfront-proof/wp-getstarted/faqs/log-in-change-password.md)
 
   <!--
-  Opening a Workfront Proof basic trial account
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-proof/wp-getstarted/faqs/open-wp-basic-trial.md" class="MCXref xref" xrefformat="{para}">Opening a Workfront Proof basic trial account</a> </li>
   -->
 
 * [Setting time zones in Workfront Proof](../../../workfront-proof/wp-getstarted/faqs/set-timezones-in-wp.md)

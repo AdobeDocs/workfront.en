@@ -46,7 +46,7 @@ You can display or filter by users, job roles, or teams associated with the foll
 
 ## Display all users and job roles associated with a project
 
-You can display all users associated with in the project in the view of a project list or report. This includes all users listed in the People sectionof the project. You can also view the roles they are associated with when assigned to tasks or issues on the project in a project report.
+You can display all users associated with in the project in the view of a project list or report. This includes all users listed in the People section of the project. You can also view the roles they are associated with when assigned to tasks or issues on the project in a project report.
 
 ![](assets/project-with-user-and-role-information-report-350x100.png)
 

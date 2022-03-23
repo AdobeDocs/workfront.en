@@ -1,0 +1,38 @@
+<html>
+ <head>
+  <title>Configure access to Adobe Workfront</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Configure access to Adobe Workfront</h1> 
+    <p aemmigrated="true">These articles explain how you, as an Adobe Workfront administrator, can grant users access to view or edit objects by assigning them an access level.</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Create or modify custom access levels</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant a user full administrative access</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant users administrative access to certain areas</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to projects</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to tasks</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to issues</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to documents</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to users</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to teams</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to templates</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to reports, dashboards, and calendars</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to portfolios</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to programs</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to financial data</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to filters, views, and groupings</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to Scenario Planner</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to Resource Management</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant access to Adobe Workfront Goals</a> </li> 
+    </ul> 
+    <h2 aemmigrated="true">See also</h2> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"> <p aemmigrated="true">For general information about access levels, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">How access levels work</a>.</p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true">For information about how users can share objects with each other, granting View and Edit permissions on those objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant and request permissions to objects</a> and <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">How access levels and permissions work together</a>.</p> </li> 
+    </ul> 
+   </div> 
+  </div>
+ </body>
+</html>

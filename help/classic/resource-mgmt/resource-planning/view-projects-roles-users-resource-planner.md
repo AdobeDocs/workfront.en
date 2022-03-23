@@ -5,6 +5,7 @@ product-area: resource-management;projects
 navigation-topic: resource-planning
 title: View projects, roles, and users using the Resource Planner
 description: You can view or manage the allocation of your resources in the Resource Planner by viewing it at the project or role level. You can view the availability and planned work of your users by viewing it at the user level.
+hidefromtoc: true
 ---
 
 # View projects, roles, and users using the Resource Planner
@@ -54,12 +55,12 @@ The following categories of job roles are listed in the Resource Planner:
 * The job roles that are assigned to tasks.  
 * The job roles that are not assigned to tasks, but are the primary job roles of the users associated with the Resource Pools of the projects. 
 * The secondary job roles of users who are assigned to tasks in those job roles. 
-* The secondary job roles of users who have a valid `Percentage of FTE Availability` in their profile.  
-  For more information about the `Percentage of FTE Availability` for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+* The secondary job roles of users who have a valid **Percentage of FTE Availability** in their profile.  
+  For more information about the **Percentage of FTE Availability** for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 >[!NOTE]
 >
->Job roles assigned to issues are also listed when the `Include hours from Issue` setting is enabled. For more information about enabling issue hours in the Resource Planner, see the [Settings](../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) section in the [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md) article.
+>Job roles assigned to issues are also listed when the **Include hours from Issue** setting is enabled. For more information about enabling issue hours in the Resource Planner, see the [Settings](../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) section in the [Resource Planner navigation overview](../../resource-mgmt/resource-planning/resource-planner-navigation.md) article.
 
 ## User Name
 
@@ -73,10 +74,10 @@ In the Project and Role Views, users could appear listed under the following typ
 * Their primary job role
 * Their secondary job role, in the following scenarios:
 
-  * If the secondary job role has a valid number for the `Percentage of FTE Availability` in their user profile.
-  * If the user is assigned to tasks in those roles.
+   * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
+   * If the user is assigned to tasks in those roles.
 
-For more information about the `Percentage of FTE Availability` for a job role, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+For more information about the **Percentage of FTE Availability** for a job role, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## "No Role" and "No User" sections
 
@@ -85,16 +86,16 @@ For more information about the `Percentage of FTE Availability` for a job role, 
 
 ### "No Role" section
 
-When a user belongs to a Resource Pool associated with a project, but they do not have a job role associated with them, they appear in the `No Role` section, instead of under a specific job role.
+When a user belongs to a Resource Pool associated with a project, but they do not have a job role associated with them, they appear in the **No Role** section, instead of under a specific job role.
 
-You cannot budget hours for a user in a `No Role` section. The user must have at least one job role associated with them to be budgeted for work.  
+You cannot budget hours for a user in a **No Role** section. The user must have at least one job role associated with them to be budgeted for work.  
 ![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
 
 ### "No User" section
 
-When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the `No User` section which appears under the `No Role` section in the Resource Planner. These tasks do not appear in the Resource Planner when using the `View by User` view.
+When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the **No User** section which appears under the **No Role** section in the Resource Planner. These tasks do not appear in the Resource Planner when using the **View by User** view.
 
-You can see the amount of Planned Hours attributed to tasks on the project in the `No User` section in the Resource Planner, but you cannot budget for these allocations.
+You can see the amount of Planned Hours attributed to tasks on the project in the **No User** section in the Resource Planner, but you cannot budget for these allocations.
 
 ![no_user_and_no_role___res_planner.png](assets/no-user-and-no-role---res-planner-350x129.png)
 

@@ -72,14 +72,16 @@ In addition to the considerations below, also see [Share reports, dashboards, an
 
 Sharing one dashboard or several dashboards from a list is identical.
 
-1. Go to a list of dashboards and select one or multiple dashboards, then click `Share` .
+1. Go to a list of dashboards and select one or multiple dashboards, then click **Share** .
 
    Or
 
-   Click the name of one dashboard, then click `Dashboard Actions >` `Sharing`.
+   Click the name of one dashboard, then click **Dashboard Actions >****Sharing**.
 
-1. In the `Add people, teams, roles, groups, or companies ...`&nbsp;field, start typing the name of the user, team, role, group, or company that you want to share the dashboard with, then click the name when it appears in the drop-down list.
-1. (Optional) To make the dashboard accessible to all users in the system, click the `Settings` icon in the upper right corner of the sharing dialog box, then select `Make this visible system-wide`.
+   ![](assets/dashboard-sharing-309x164.png)
 
-1. Click `Save`.
+1. In the **Add people, teams, roles, groups, or companies ...**&nbsp;field, start typing the name of the user, team, role, group, or company that you want to share the dashboard with, then click the name when it appears in the drop-down list.
+1. (Optional) To make the dashboard accessible to all users in the system, click the **Settings** icon in the upper right corner of the sharing dialog box, then select **Make this visible system-wide**.
+
+1. Click **Save**.
 

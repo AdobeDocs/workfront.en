@@ -39,9 +39,9 @@ You must have the following to perform the steps in this article:
 
 ## Solution
 
-1. Go to `Setup` > `System` > `Preferences`.
+1. Go to **Setup** > **System** > **Preferences**.
 
-1. In the `Security` section, ensure the option `Collaborate with people without Workfront accounts by using their email address` is enabled.
+1. In the **Security** section, ensure the option **Collaborate with people without Workfront accounts by using their email address** is enabled.
 
    If this option is not enabled, the external user does not appear in Access Level Setup.
 

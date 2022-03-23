@@ -9,7 +9,39 @@ description: The following features were made available in the Preview environme
 # Functionality made available in Preview in 2016
 
 The following features were made available in the Preview environment in 2016. These features are planned to release to the production environment with the R1 release.
-Updated Calendar in the My Work Area (No Longer Available) Preview Sandbox: Oct 19, 2016; Early Access: Oct 26, 2016; Removed from Early Access on April 19, 2017 Note: The functionality described in this section was removed from Early Access in Production on April 19, 2017. It will not be released to Production, based on customer feedback. We are currently working to improve the My Work area as a whole; these improvements will include an updated calendar view. The calendar in the My Work area has been updated with the following changes: Updated look and feel Expand tasks or issues to view more details directly from the My Work page. Prior to this change, you had to go to the details page of the task or issue to view more details. A 14-day period (including weekends) is displayed on the calendar. Prior to this change, only a five-day period was displayed, and weekends were excluded. Task and issue duration is visually represented on the calendar (tasks and issues span the number of days equal to the duration). Prior to this change, tasks and issues were displayed on the start date and did not visually span multiple days on the calendar. The project where the task or issue resides is visually represented by color. Each project is assigned a color; any tasks from a single project are displayed in the same color. Time off is represented on the calendar with a gray indicator. Prior to this change, time off was not represented on the calendar. Completed tasks are removed from the calendar Prior to this change, tasks were dimmed. Any tasks or issues assigned to you that are not yet complete are displayed on the calendar. (This does not include work assigned to a team you are a member of.) Prior to this change, tasks were displayed on your calendar when they were assigned to you and only after you had specified a commit date. Adjust the dates displayed on the calendar by dragging to the desired date. Prior to this change, you had to use the forward and back arrows to adjust the visible dates. For more information, see View assigned work on the My Work calendar 
+
+## Updated Calendar in the My Work Area (No Longer Available)
+
+```Preview Sandbox: Oct 19, 2016; Early Access: Oct 26, 2016; **Removed from Early Access on April 19, 2017**```
+
+>[!NOTE]
+>
+>&nbsp;The functionality described in this section was removed from Early Access in Production on April 19, 2017. It will not be released to&nbsp;Production, based on customer feedback.&nbsp;We are currently working to improve the My Work area as a whole; these improvements&nbsp;will include an updated calendar view.
+
+The calendar in the My Work area has been updated with the following changes:
+
+* Updated look and feel
+* Expand tasks or issues to view more&nbsp;details&nbsp;directly from the My Work page.  
+  Prior to this change, you had to go to the details page of the task or issue to view more details.
+* A 14-day&nbsp;period (including weekends) is displayed on the calendar.  
+  Prior to this change, only a five-day period was displayed, and weekends were excluded.
+* Task and issue duration is visually represented on the calendar (tasks and issues span the number of days equal to&nbsp;the duration).  
+  Prior to this change, tasks and issues were displayed on the start date and did not visually span multiple days on the calendar.
+* The project where the task or issue resides is visually represented by color. Each project is assigned a color; any tasks from a single project are displayed in the same color.
+* Time off is represented on the calendar with a gray indicator.  
+  Prior to this change, time off was not represented on the calendar.  
+
+* Completed tasks are removed from the calendar  
+  Prior to this change, tasks were dimmed.
+* Any tasks or issues assigned to you that are not yet complete are displayed on the calendar. (This does not include work assigned to a team you are a member of.)  
+  Prior to this change, tasks were displayed on your&nbsp;calendar when they were assigned to you and only after you had specified a commit date.  
+
+* Adjust the dates displayed on the calendar&nbsp;by dragging to the desired date.  
+  Prior to this change, you had to use the forward and back arrows to adjust the visible dates.
+
+For more information, see [View assigned work on the My Work calendar](../../../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md)
+
+```<iframe class="mt-media" src="assets/187845073?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
 ## Resource Scheduling Improvements
 
@@ -21,7 +53,7 @@ To adjust the information that is displayed on the scheduling timeline, create a
 
 In addition to viewing tasks on the projects you are responsible for, you can use the scheduling timeline to make changes to resourcing assignments. For information about how to manage user assignments on the scheduling timeline, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md)
 
-`<iframe class="mt-media" src="assets/194383424?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
+```<iframe class="mt-media" src="assets/194383424?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
 
 ## Manage User Allocations on the Scheduling Timeline
 
@@ -29,7 +61,7 @@ Now when scheduling resources with the new resource scheduling tools, you can de
 
 For more information, see [Manage user allocations in the Scheduling areas](../../../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md)
 
-`<iframe class="mt-media" src="assets/187845071?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
+```<iframe class="mt-media" src="assets/187845071?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
 
 ## User Allocations Are Disabled by Default
 
@@ -43,7 +75,7 @@ For more information about how to enable user allocation options, see [Manage us
 
 ## Layout Template Determines Whether the New or&nbsp;Legacy Calendar Displays in the My Work Area
 
-`Preview Sandbox: Dec 7, 2016; Early Access: Dec 14, 2016`&nbsp;
+```Preview Sandbox: Dec 7, 2016; Early Access: Dec 14, 2016```&nbsp;
 
 The new calendar is displayed in the My Work area by default when no layout template is applied.
 
@@ -54,22 +86,22 @@ When using the legacy calendar in the My Work area, only work you have committed
 To configure Workfront to display the new&nbsp;calendar in the My Work area when a layout template is applied, configure the layout template to show the Planned Completion&nbsp;Date on&nbsp;tasks and issues, then assign that layout template to the appropriate users.
 
 For more information about configuring the layout template, see [Customize My Work](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Create and manage layout templates](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-For information about using the new calendar in the My Work area, see View assigned work on the My Work calendar 
+For information about using the new calendar in the My Work area,&nbsp;see&nbsp; [View assigned work on the My Work calendar](../../../../workfront-basics/using-home/my-work/view-assigned-work-on-calendar-my-work.md) 
 
 ## Outlook 365 Beta
 
-`Beta: TBD; Public Availability: TBD`
+```Beta: TBD; Public Availability: TBD```
 
 You can use Workfront from Outlook for Office 365, as described in the following sections:
 
 * [Set up Adobe Workfront for Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md) 
 * "Updating an Existing Item from an Email with Outlook 365"
 
-`<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
+```<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
 
 ## Reorder Columns in Any List with Drag-and-Drop
 
-`Early Access: Feb 20, 2016`
+```Early Access: Feb 20, 2016```
 
 You can change the order of columns in any list by dragging a column from one location and dropping it in another.
 
@@ -85,7 +117,7 @@ For more information about dashboards, see [Create a dashboard](../../../../repo
 
 ## Control Access to Custom Forms
 
-`Preview Sandbox: Jan 23, 2016`
+```Preview Sandbox: Jan 23, 2016```
 
 You can now control who has access to a custom form by granting access to individual users, teams, roles, groups, or companies.&nbsp;
 
@@ -93,11 +125,11 @@ Prior to this change,&nbsp;you could grant access only to groups.
 
 For more information, see [Create or edit a custom form](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
 
-`<iframe class="mt-media" src="assets/152626892?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
+```<iframe class="mt-media" src="assets/152626892?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
 ## Integration with Adobe Creative Cloud
 
-`Add-On available for download: April 2016`
+```Add-On available for download: April 2016```
 
 The Workfront Extension for&nbsp;Adobe Creative Cloud is designed to allow you to save and&nbsp;export assets you create&nbsp;in the Creative Cloud to Workfront, thereby&nbsp;speeding up the approval and review process.
 

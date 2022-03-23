@@ -7,6 +7,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: ActiveCampaign modules
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+hidefromtoc: true
 ---
 
 # ActiveCampaign modules
@@ -19,10 +20,10 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 ## Connect Active Campaign to Workfront Fusion
 
 1. Log in to your ActiveCampaign account.
-1. From the left menu, click `Settings` > `Developer`.
+1. From the left menu, click **Settings** > **Developer**.
 
-1. Copy the API `Key` to the clipboard.
-1. Go to Workfront Fusion, add an ActiveCampaign module to a scenario, and open the `Create a Connection` box,
+1. Copy the API **Key** to the clipboard.
+1. Go to Workfront Fusion, add an ActiveCampaign module to a scenario, and open the **Create a Connection** box,
 
    XsCCPEaX9L.gif
 
@@ -45,7 +46,7 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 
    .
 
-1. Click `Continue`.
+1. Click **Continue**.
 
 ## ActiveCampaign Contact modules
 
@@ -76,23 +77,23 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><span class="bold">Connection </span> </td> 
+   <td role="rowheader"><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Email </span> </td> 
+   <td role="rowheader"><strong>Email</strong> </td> 
    <td> <p>Enter the email address of the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">First Name</span> </td> 
+   <td role="rowheader"><strong>First Name</strong> </td> 
    <td> <p> Enter the first name of the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Last Name</span> </td> 
+   <td role="rowheader"><strong>Last Name</strong> </td> 
    <td> <p> Enter the last name of the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Phone </span> </td> 
+   <td role="rowheader"><strong>Phone</strong> </td> 
    <td> <p>Enter the phone number of the contact.</p> </td> 
   </tr> 
  </tbody> 
@@ -113,23 +114,23 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Email </span> </td> 
+   <td><strong>Email</strong> </td> 
    <td> <p>Enter the email address of the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">First Name</span> </td> 
+   <td><strong>First Name</strong> </td> 
    <td> <p> Enter the first name of the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Last Name</span> </td> 
+   <td><strong>Last Name</strong> </td> 
    <td> <p> Enter the last name of the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Phone </span> </td> 
+   <td><strong>Phone</strong> </td> 
    <td> <p>Enter the phone number of the contact.</p> </td> 
   </tr> 
  </tbody> 
@@ -150,11 +151,11 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">ID </span> </td> 
+   <td><strong>ID</strong> </td> 
    <td> <p>Enter or map the unique ActiveCampaign ID of the contact that you want the module to delete.</p> </td> 
   </tr> 
  </tbody> 
@@ -175,11 +176,11 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">ID </span> </td> 
+   <td><strong>ID</strong> </td> 
    <td> <p>Select the type of [Fusion app] record from which you want the module to retrieve details.</p> </td> 
   </tr> 
  </tbody> 
@@ -196,23 +197,23 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Contact ID</span> </td> 
+   <td><strong>Contact ID</strong> </td> 
    <td> <p> Select the Contact ID whose Custom Field value you want to update.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Field ID</span> </td> 
+   <td><strong>Field ID</strong> </td> 
    <td> <p><![CDATA[	]]>Enter the unique [Fusion app] ID of the record that you want the module to update.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Field Value</span> </td> 
+   <td><strong>Field Value</strong> </td> 
    <td> <p> Enter the new field value to update.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Contact's field ID</span> </td> 
+   <td><strong>Contact's field ID</strong> </td> 
    <td> <p> Enter the ID of the contact field to edit.</p> </td> 
   </tr> 
  </tbody> 
@@ -233,19 +234,19 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Contact ID</span> </td> 
+   <td><strong>Contact ID</strong> </td> 
    <td> <p> Select the Contact ID whose list status you want to update.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">List ID</span> </td> 
+   <td><strong>List ID</strong> </td> 
    <td> <p> Select the List ID of the contacts you want to update.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Status</span> </p> </td> 
+   <td> <p><strong>Status</strong> </p> </td> 
    <td> <p>Select the status to update:</p> 
     <ul> 
      <li>Active</li> 
@@ -271,15 +272,15 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Contact ID</span> </td> 
+   <td><strong>Contact ID</strong> </td> 
    <td> <p> Enter the Contact ID to which you want to add the tag.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Tag ID</span> </td> 
+   <td><strong>Tag ID</strong> </td> 
    <td> <p> Enter the Tag ID you want to add to the contact.</p> </td> 
   </tr> 
  </tbody> 
@@ -300,11 +301,11 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Contact's Tag ID</span><![CDATA[	]]></td> 
+   <td><strong>Contact's Tag ID</strong><![CDATA[	]]></td> 
    <td> <p>Enter the Tag ID to remove from the contact.</p> </td> 
   </tr> 
  </tbody> 
@@ -321,15 +322,15 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Limit </span> </td> 
+   <td><strong>Limit</strong> </td> 
    <td> <p>The maximum number of contacts should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Order by</span> </p> </td> 
+   <td> <p><strong>Order by</strong> </p> </td> 
    <td> <p>Select the order in which you want to list the contacts:</p> 
     <ul> 
      <li>Creation date</li> 
@@ -338,7 +339,7 @@ When you are configuring this module, the following fields display.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">ASC/DESC</span> </td> 
+   <td><strong>ASC/DESC</strong> </td> 
    <td> <p> Select the order to list the contacts:</p> 
     <ul> 
      <li>ASC - Ascending order</li> 
@@ -346,31 +347,31 @@ When you are configuring this module, the following fields display.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Email </span> </td> 
+   <td><strong>Email</strong> </td> 
    <td> <p>Enter the email address of the contacts you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Email-like pattern</span> </td> 
+   <td><strong>Email-like pattern</strong> </td> 
    <td> <p> Enter the email pattern to list the contacts that contain the given value in the email address.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Search pattern</span> </td> 
+   <td><strong>Search pattern</strong> </td> 
    <td> <p> Enter the search pattern to list contacts that match the given value in the contact names, organization, phone or email.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Organization ID</span> </td> 
+   <td><strong>Organization ID</strong> </td> 
    <td> <p> Select the Organization ID whose contacts you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">List ID</span> </td> 
+   <td><strong>List ID</strong> </td> 
    <td> <p> Select the List ID of the contacts you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Segment ID</span> </td> 
+   <td><strong>Segment ID</strong> </td> 
    <td> <p> Select the Segment ID whose contacts you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Status</span><![CDATA[	]]></td> 
+   <td><strong>Status</strong><![CDATA[	]]></td> 
    <td> <p>Select the status of the contacts you want to list:</p> 
     <ul> 
      <li>Any</li> 
@@ -381,19 +382,19 @@ When you are configuring this module, the following fields display.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Tag ID</span> </td> 
+   <td><strong>Tag ID</strong> </td> 
    <td> <p> Select the Tag ID for the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Form ID</span> </td> 
+   <td><strong>Form ID</strong> </td> 
    <td> <p> Select the Form ID for the contact.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Since DateTime</span> </td> 
+   <td><strong>Since DateTime</strong> </td> 
    <td> <p> Select the date from which you want to list the contacts.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Until DateTime</span> </td> 
+   <td><strong>Until DateTime</strong> </td> 
    <td> <p> Select the date until which you want to list the contacts.</p> </td> 
   </tr> 
  </tbody> 
@@ -410,7 +411,7 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
  </tbody> 
@@ -427,39 +428,39 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Limit </span> </td> 
+   <td><strong>Limit</strong> </td> 
    <td> <p>The maximum number of contacts should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Email </span> </td> 
+   <td><strong>Email</strong> </td> 
    <td> <p>Enter the email address of the contacts you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Email-like Pattern</span> </td> 
+   <td><strong>Email-like Pattern</strong> </td> 
    <td> <p> Enter the email pattern to list the contacts that contain the given value in the email address.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Search Pattern</span> </td> 
+   <td><strong>Search Pattern</strong> </td> 
    <td> <p> Enter the search pattern to list contacts that match the given value in the contact names, organization, phone or email.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Organization ID</span> </td> 
+   <td><strong>Organization ID</strong> </td> 
    <td> <p> Select the Organization ID whose contacts you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">List ID</span> </td> 
+   <td><strong>List ID</strong> </td> 
    <td> <p> Select the List ID of the contacts you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Segment ID</span> </td> 
+   <td><strong>Segment ID</strong> </td> 
    <td> <p> Select the Segment ID whose contacts you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Status </span> </td> 
+   <td><strong>Status</strong> </td> 
    <td> <p>Select the status of the contacts you want to watch:</p> 
     <ul> 
      <li>Any</li> 
@@ -470,19 +471,19 @@ When you are configuring this module, the following fields display.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Tag ID</span> </td> 
+   <td><strong>Tag ID</strong> </td> 
    <td> <p> Select the Tag ID whose contacts you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Form ID</span> </td> 
+   <td><strong>Form ID</strong> </td> 
    <td> <p> Select the Form ID for the contact you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Since DateTime</span> </td> 
+   <td><strong>Since DateTime</strong> </td> 
    <td> <p> Select the date from which you want to watch the contacts.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Until DateTime</span> </td> 
+   <td><strong>Until DateTime</strong> </td> 
    <td> <p> Select the date until which you want to watch the contacts.</p> </td> 
   </tr> 
  </tbody> 
@@ -513,47 +514,47 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Title </span> </td> 
+   <td><strong>Title</strong> </td> 
    <td> <p>Enter the name of the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Description </span> </td> 
+   <td><strong>Description</strong> </td> 
    <td> <p>Enter the details of the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Contact ID</span> </td> 
+   <td><strong>Contact ID</strong> </td> 
    <td> <p> Select the Contact ID to assign the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Pipeline ID </span> </td> 
+   <td><strong>Pipeline ID</strong> </td> 
    <td> <p>Select the Pipeline ID for the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Stage </span> </td> 
+   <td><strong>Stage</strong> </td> 
    <td> <p>Enter the stage name of the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Owner ID</span> </td> 
+   <td><strong>Owner ID</strong> </td> 
    <td> <p> Select the Owner ID to assign as the deal owner.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Value </span> </td> 
+   <td><strong>Value</strong> </td> 
    <td> <p>Enter the deal value in cents.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Currency </span> </td> 
+   <td><strong>Currency</strong> </td> 
    <td> <p>Select the currency applicable for the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Percent </span> </td> 
+   <td><strong>Percent</strong> </td> 
    <td> <p>Enter the deal's percentage.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Status </span> </td> 
+   <td><strong>Status</strong> </td> 
    <td> <p>Select the status of the deal:</p> 
     <ul> 
      <li>Open</li> 
@@ -562,7 +563,7 @@ When you are configuring this module, the following fields display.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Custom Fields</span> </p> </td> 
+   <td> <p><strong>Custom Fields</strong> </p> </td> 
    <td> <p>Add the custom fields.</p> 
     <ul> 
      <li> <p>Custom Field ID</p> <p>Select the Custom Field ID.</p> </li> 
@@ -586,51 +587,51 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Deal ID</span> </td> 
+   <td><strong>Deal ID</strong> </td> 
    <td> <p> Select the Deal ID you want to update.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Title </span> </td> 
+   <td><strong>Title</strong> </td> 
    <td> <p>Enter the name for the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Description</span><![CDATA[	]]></td> 
+   <td><strong>Description</strong><![CDATA[	]]></td> 
    <td> <p>Enter the details for the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Contact ID</span> </p> </td> 
+   <td> <p><strong>Contact ID</strong> </p> </td> 
    <td> <p>Select the Contact ID to assign the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Pipeline ID</span> </td> 
+   <td><strong>Pipeline ID</strong> </td> 
    <td> <p> Select the Pipeline ID for the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Stage </span> </td> 
+   <td><strong>Stage</strong> </td> 
    <td> <p>Enter the stage name of the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Owner ID</span> </td> 
+   <td><strong>Owner ID</strong> </td> 
    <td> <p> Select the Owner ID to assign as the deal owner.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Value </span> </td> 
+   <td><strong>Value</strong> </td> 
    <td> <p>Enter the deal value in cents.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Currency </span> </td> 
+   <td><strong>Currency</strong> </td> 
    <td> <p>Select the currency applicable for the deal.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Percent </span> </td> 
+   <td><strong>Percent</strong> </td> 
    <td> <p>Enter the deal's percentage.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Status </span> </td> 
+   <td><strong>Status</strong> </td> 
    <td> <p>Select the status of the deal:</p> 
     <ul> 
      <li>Open</li> 
@@ -656,11 +657,11 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">ID </span> </td> 
+   <td><strong>ID</strong> </td> 
    <td> <p>Enter the Deal ID whose details you want to retrieve.</p> </td> 
   </tr> 
  </tbody> 
@@ -681,11 +682,11 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">ID </span> </td> 
+   <td><strong>ID</strong> </td> 
    <td> <p>Select the Deal ID you want to delete.</p> </td> 
   </tr> 
  </tbody> 
@@ -706,15 +707,15 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Stage ID</span> </td> 
+   <td><strong>Stage ID</strong> </td> 
    <td> <p> Select the Stage ID whose details you want to move to another stage.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Target stage ID</span> </td> 
+   <td><strong>Target stage ID</strong> </td> 
    <td> <p> Select the Stage ID to which you want to move the details.</p> </td> 
   </tr> 
  </tbody> 
@@ -731,59 +732,59 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Limit </span> </td> 
+   <td><strong>Limit</strong> </td> 
    <td> <p>The maximum number of deals should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Group </span> </td> 
+   <td><strong>Group</strong> </td> 
    <td> <p>Enter the group name of the deal you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Stage</span> </td> 
+   <td><strong>Stage</strong> </td> 
    <td> <p>Enter the stage name of the deals you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Owner </span> </td> 
+   <td><strong>Owner</strong> </td> 
    <td> <p>Enter the owner name of the deals you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Status </span> </td> 
+   <td><strong>Status</strong> </td> 
    <td> <p>Enter the status of the deals you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Due date</span> </td> 
+   <td><strong>Due date</strong> </td> 
    <td> <p> Enter the due date of the deal that you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Tag </span> </td> 
+   <td><strong>Tag</strong> </td> 
    <td> <p>Enter the tag names to filter the deals.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Task Type</span> </td> 
+   <td><strong>Task Type</strong> </td> 
    <td> <p> Select the task type of the deal that you want to list.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Created Before</span> </td> 
+   <td><strong>Created Before</strong> </td> 
    <td> <p> Enter the date from which the deals that you want to list were created.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Created After</span> </td> 
+   <td><strong>Created After</strong> </td> 
    <td> <p> Enter the date from which the deals that you want to list were created.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Updated Before</span> </td> 
+   <td><strong>Updated Before</strong> </td> 
    <td> <p> Enter the date before which the deals that you want to list were updated.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Updated After</span> </td> 
+   <td><strong>Updated After</strong> </td> 
    <td> <p> Enter the date from which the deals that you want to list were updated.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Organization </span> </td> 
+   <td><strong>Organization</strong> </td> 
    <td> <p>Select the organization whose deals you want to list.</p> </td> 
   </tr> 
  </tbody> 
@@ -800,63 +801,63 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Limit </span> </td> 
+   <td><strong>Limit</strong> </td> 
    <td> <p>The maximum number of deals should return during one scenario execution cycle.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Title </span> </td> 
+   <td><strong>Title</strong> </td> 
    <td> <p>Enter the name to filter the deal you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Group </span> </td> 
+   <td><strong>Group</strong> </td> 
    <td> <p>Enter the group name of the deals you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Stage </span> </td> 
+   <td><strong>Stage</strong> </td> 
    <td> <p>Enter the stage name of the deals you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Owner </span> </td> 
+   <td><strong>Owner</strong> </td> 
    <td> <p>Enter the owner name of the deals you want to watch</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Status </span> </td> 
+   <td><strong>Status</strong> </td> 
    <td> <p>Enter the status of the deals you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Due Date</span> </td> 
+   <td><strong>Due Date</strong> </td> 
    <td> <p> Enter the due date of the deal that you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Tag </span> </td> 
+   <td><strong>Tag</strong> </td> 
    <td> <p>Enter the tag names to filter the deals.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Task Type</span> </td> 
+   <td><strong>Task Type</strong> </td> 
    <td> <p> Select the task type of the deal that you want to watch.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Created Before</span> </td> 
+   <td><strong>Created Before</strong> </td> 
    <td> <p> Enter the date from which the deals that you want to watch were created.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Created After</span> </td> 
+   <td><strong>Created After</strong> </td> 
    <td> <p> Enter the date from which the deals that you want to watch were created.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Updated Before</span> </td> 
+   <td><strong>Updated Before</strong> </td> 
    <td> <p> Enter the date before which the deals that you want to watch were updated.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Updated After</span> </td> 
+   <td><strong>Updated After</strong> </td> 
    <td> <p> Enter the date from which the deals that you want to watch were updated.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Organization</span> </td> 
+   <td><strong>Organization</strong> </td> 
    <td> <p> Select the organization whose deals you want to watch.</p> </td> 
   </tr> 
  </tbody> 
@@ -1156,27 +1157,128 @@ When you are configuring this module, the following fields display.
 </table>
 
 <!--
-ActiveCampaign Event modules
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Events"></a>ActiveCampaign Event modules</h2>
 -->
 
   <!--
-  Watch Events
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#watch5" class="MCXref xref">Watch Events</a> </li>
   -->
 
 <!--
-Watch Events
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Watch5"></a>Watch Events</h3>
 -->
 
 <!--
-I don't see this one
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I don't see this one</p>
 -->
 
 <!--
-This trigger module executes a scenario when a new event is fired. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This trigger module executes a scenario when a new event is fired. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
 -->
 
 <!--
-Webhook Name Enter the webhook name. Connection For instructions about connecting your ActiveCampaign account to Workfront Fusion, see Connect Active Campaign to Workfront Fusion in this article. Custom webhook name in ActiveCampaign Enter the webhook name mentioned in the ActiveCampaign. Events Select the events you want to watch: Campaign forwarded Campaign opened Campaign shared Campaign starts sending Contact added Contact note added Contact tag added Contact tag removed Contact unsubscription Contact updated Deal added Deal note added Deal pipeline added Deal stage added Deal task added Deal task completed Deal task type added Deal updated Email bounces Email replies Link clicked List added SMS reply SMS sent SMS unsubscribe Sources Select the sources which causes the events: Run the hooks when a contact triggers the action Run the hooks when an admin user triggers the action Run the hooks when an API call triggers the action Run the hooks when automated systems trigger the action
+<table cellspacing="15" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<col>
+<col>
+<tbody>
+<tr> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Webhook Name</td>
+-->
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name.</p>
+--> </td>
+</tr>
+<tr> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
+-->
+<td> <p>For instructions about connecting your ActiveCampaign account to Workfront Fusion, see <a href="#connect" class="MCXref xref" data-mc-variable-override="">Connect Active Campaign to Workfront Fusion</a> in this article.</p> </td>
+</tr>
+<tr> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom webhook name in ActiveCampaign</td>
+-->
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> Enter the webhook name mentioned in the ActiveCampaign.</p>
+--> </td>
+</tr>
+<tr> <!--
+<td data-mc-conditions="QuicksilverOrClassic.Draft mode">Events </td>
+-->
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the events you want to watch:</p>
+-->
+<ul> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign forwarded</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign opened</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign shared</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Campaign starts sending</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact note added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact tag removed</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact unsubscription</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Contact updated</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal note added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal pipeline added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal stage added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task completed</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal task type added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deal updated</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email bounces</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Email replies</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Link clicked</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">List added</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS reply</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS sent</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">SMS unsubscribe</li>
+-->
+</ul> </td>
+</tr>
+<tr>
+<td> <!--
+<p style="font-weight: bold;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sources</p>
+--> </td>
+<td> <!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the sources which causes the events:</p>
+-->
+<ul> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when a contact triggers the action</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an admin user triggers the action</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when an API call triggers the action</li>
+--> <!--
+<li data-mc-conditions="QuicksilverOrClassic.Draft mode">Run the hooks when automated systems trigger the action</li>
+-->
+</ul> </td>
+</tr>
+</tbody>
+</table>
 -->
 
 ## ActiveCampaign Automation modules
@@ -1229,7 +1331,10 @@ When you are configuring this module, the following fields display.
    <td>Limit </td> 
    <td> <p>The maximum number of organizations should return during one scenario execution cycle.</p> </td> 
   </tr> <!--
-   Name Enter the name of the organization whose details you want to retrieve.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Name </td> 
+    <td> <p>Enter the name of the organization whose details you want to retrieve.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -1482,23 +1587,23 @@ When you are configuring this module, the following fields display.
 </table>
 
 <!--
-Other ActiveCampaign modules
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Other"></a>Other ActiveCampaign modules</h2>
 -->
 
   <!--
-  Make an API Call
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Make an API Call</li>
   -->
 
   <!--
-  Make a Legacy API Call
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a Legacy API&nbsp;Call</li>
   -->
 
 <!--
-Make an API Call
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make an API&nbsp;Call</h3>
 -->
 
 <!--
-Make a Legacy API Call
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Make a Legacy API Call</h3>
 -->
 
 ## Troubleshooting
@@ -1535,29 +1640,29 @@ These steps seem really wonky in Alloy article. Test!
     </tbody> 
    </table>
 
-1. Save your setting by clicking the `Save` button, then close and save the Watch events webhook module by clicking `OK`.
+1. Save your setting by clicking the **Save** button, then close and save the Watch events webhook module by clicking **OK**.
 
 1. Log in to your ActiveCampaign account.
-1. In the `Settings` dropdown menu, click `Developer`, then click `Manage Webhooks`.
+1. In the **Settings** dropdown menu, click **Developer**, then click **Manage Webhooks**.
 
    <!--
-   screenshot
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
    -->
 
-1. In the Webhook settings fields, click `Edit` to open the webhook settings in the ActiveCampaign.
+1. In the Webhook settings fields, click **Edit** to open the webhook settings in the ActiveCampaign.
 
    <!--
-   screenshot
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
    -->
 
-1. In the Webhook settings section, in the `List` dropdown menu, select the list that you want to work with the Workfront Fusion webhook.
+1. In the Webhook settings section, in the **List** dropdown menu, select the list that you want to work with the Workfront Fusion webhook.
 
    <!--
-   screenshot
+   <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
    -->
 
-1. Run your scenario in Workfront Fusion and then `send sample Data` so that you can confirm if the webhook catches the correct data.
-1. `Update` to save your work.
+1. Run your scenario in Workfront Fusion and then **send sample Data** so that you can confirm if the webhook catches the correct data.
+1. **Update** to save your work.
 
    Screenshot
 

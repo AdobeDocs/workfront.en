@@ -41,9 +41,9 @@ You must have the following access to perform the steps in this article:
 
 ## Convert a basic workflow to an Automated Workflow
 
-1. In the documents list, hover over the document, then click `Proofing Workflow` when it displays.
-1. Near the upper-right corner of Adobe Workfront, click `Convert to Automated Workflow`. 
-1. Click `New Stage` in the top-right corner of the screen.
+1. In the documents list, hover over the document, then click **Proofing Workflow** when it displays.
+1. Near the upper-right corner of Adobe Workfront, click **Convert to Automated Workflow**. 
+1. Click **New Stage** in the top-right corner of the screen.
 1. Specify the following:
 
    <table cellspacing="0"> 
@@ -51,44 +51,44 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Name</span> </td> 
+      <td role="rowheader"><strong>Name</strong> </td> 
       <td>Add a name for your stage.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Deadline</span> </td> 
+      <td role="rowheader"><strong>Deadline</strong> </td> 
       <td>Choose a date for the deadline.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p><span class="bold">Activate stage</span> </p> </td> 
+      <td role="rowheader"> <p><strong>Activate stage</strong> </p> </td> 
       <td>Choose when the stage should activate.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Deadline options</span> </td> 
+      <td role="rowheader"><strong>Deadline options</strong> </td> 
       <td>Select how the deadline triggers.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Lock stage</span> </td> 
+      <td role="rowheader"><strong>Lock stage</strong> </td> 
       <td>Choose if the stage should be locked.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Primary decision maker</span> </td> 
+      <td role="rowheader"><strong>Primary decision maker</strong> </td> 
       <td>Specify the primary decision maker.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Decision</span> </td> 
+      <td role="rowheader"><strong>Decision</strong> </td> 
       <td>Choose if only one decision is required. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Privacy</span> </td> 
+      <td role="rowheader"><strong>Privacy</strong> </td> 
       <td>Choose if the stage is private.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Add users</span> </td> 
+      <td role="rowheader"><strong>Add users</strong> </td> 
       <td>Enter a contact name or email address, choose the proof role, then configure email alerts.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Add stage`.
+1. Click **Add stage**.
 1. (Optional) Repeat steps 3 and 4 until your satisfied with your workflow.
 

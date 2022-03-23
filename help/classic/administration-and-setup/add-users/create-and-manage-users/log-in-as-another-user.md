@@ -23,7 +23,12 @@ Or, as a group administrator, you might need to access Workfront on behalf of a 
 For example, if a task can’t progress until a user on vacation performs a certain action, you can log in as that user and perform the action instead.
 
 <!--
-Note: Some users, such as executives, need to be able to control which administrators can log in to their accounts, and for how long. Working with your organization, Workfront configures settings that allow this control for these users. When a Workfront administrator or group administrator (associated with one of the user’s groups) tries to log in as one of these users, an on-screen message prompts the administrator to contact the user for access. From the user profile area, the user can then grant access to the administrator and specify an expiration time for it. For more information on how the user does this, see Access in Configure My Settings. [Add a note about this being only for the Enterprise package if they decide to do it that way]
+<note type="note">
+Some users, such as executives, need to be able to control which administrators can log in to their accounts, and for how long. Working with your organization, Workfront configures settings that allow this control for these users. When a Workfront administrator or group administrator (associated with one of the user’s groups) tries to log in as one of these users, an on-screen message prompts the administrator to contact the user for access. From the user profile area, the user can then grant access to the administrator and specify an expiration time for it. For more information on how the user does this, see
+<a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md#access" class="MCXref xref">Access</a> in
+<a href="../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">Configure My Settings</a>.
+<span class="PinkDraftNote">[Add a note about this being only for the Enterprise package if they decide to do it that way]</span>
+</note>
 -->
 
 >[!NOTE]
@@ -62,28 +67,28 @@ You must have the following to perform the steps in this article:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If you are a group administrator, you can log in only as users in the groups you manage. Also, the User Admin (Group Users) permission must be enabled in your access level:
-   >  
-   >  
-   >    ![](assets/group-admin-user-350x165.png)   >  
-   >  
+   >   
+   >   
+   >   * If you are a group administrator, you can log in only as users in the groups you manage. Also, the User Admin (Group Users) permission must be enabled in your access level:
+   >   
+   >   
+   >     ![](assets/group-admin-user-350x165.png)   >   
+   >   
 
-   >  
-   >  
-   >    This setting is disabled by default. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-   >  
-   >  * You cannot reset the password of a Workfront administrator.  
+   >   
+   >   
+   >     This setting is disabled by default. For more information, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+   >   
+   >   * You cannot reset the password of a Workfront administrator.  
 
-   >  
+   >   
    >
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. In the left panel, click `Log in As`.  
+1. In the left panel, click **Log in As**.  
 
-1. In the `Users` box on the `Log In As` tab, begin typing the name of the user, then click the name when it appears in the drop-down list.
+1. In the **Users** box on the **Log In As** tab, begin typing the name of the user, then click the name when it appears in the drop-down list.
 
    The user must have an access level defined in Workfront. You cannot log in to the Workfront system as a user who does not have rights to log in.
 
@@ -91,27 +96,31 @@ You must have the following to perform the steps in this article:
    >
    >Group administrators can log in only as the users who are members of the groups they manage. They cannot log in as a Workfront administrator.
 
-1. Click `Log in.`
+1. Click **Log in.**
 
    <!--
-   Or [specify somewhere here that this is only for the Enterprise package if they decide on that]
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Or <!--
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[specify somewhere here that this is only for the Enterprise package if they decide on that]</span>
+   --></p>
    -->
 
    <!--
-   If a prompt appears indicating that the user has restricted access to their account, contact the user to request access.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a prompt appears indicating that the user has restricted access to their account, contact the user to request access.<br></p>
    -->
 
    <!--
-   The user can then can grant you "Log in as" access in their user profile. They can also specify an expiration date and time for the access period.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The user can then can grant you "Log in as" access in their user profile. They can also specify an expiration date and time for the access period. </p>
    -->
 
    <!--
-   This triggers an email to let you know that you have access to log in as the user, depending on how your event notifications are enabled. For more information, see Event notifications.
+   <div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   This triggers an email to let you know that you have access to log in as the user, depending on how your event notifications are enabled. For more information, see <a href="../../../workfront-basics/using-notifications/event-notifications.md" class="MCXref xref">Event notifications</a>.
+   </div>
    -->
 
    When you are logged in as another user, a notification displays at the top of the screen to indicate this.
 
-1. After you have performed the necessary actions as the user, click `Log Out.`
+1. After you have performed the necessary actions as the user, click **Log Out.**
 
 ## Tracking and auditing activity while an administrator is logged in as another user
 
@@ -131,14 +140,14 @@ For example, if you comment on an item while logged in as another user, a statem
 ### View audit information
 
 1. Log in to Workfront as a Workfront administrator or group administrator.
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Log in As,` then click the `Access Log` tab.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Log in As,** then click the **Access Log** tab.
 
    Any time a system or group administrator logs in to Workfront as another user, the event is logged in the audit trail. In addition, any auditable actions that take place while the administrator is logged in as another user are logged in the audit trail.
 
 1. (Optional) You can filter the results that are displayed in the audit trail in the following ways:
 
-  * By user who has logged in
-  * By user who has been logged in as
-  * By date
+   * By user who has logged in
+   * By user who has been logged in as
+   * By date
 

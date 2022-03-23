@@ -32,9 +32,9 @@ For information about how to share all other objects in Workfront, also see the 
 * For proofs, see [Share a Proof in Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 * For reports, dashboards, and calendars, see the following articles:
 
-  * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
-  * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-  * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
+   * [Share a report in Adobe Workfront](../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md)
+   * [Share a dashboard in Adobe Workfront](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+   * [Share a calendar report](../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
 
   Additionally, see [Share reports, dashboards, and calendars in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md) for general information about sharing reports, dashboards, and calendars.&nbsp;
 
@@ -74,15 +74,27 @@ You must have the following to share objects:
 1. Go to the object you want to share.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-1. In the `Give <Object Name> access to` field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
+1. 
+1. ```<li><span>When sharing a project, task, issue, portfolio, or program, </span>click the <strong>Actions</strong> menu, then click&nbsp;<strong>Sharing.</strong><br>For example, if you are sharing a project, click <strong>Project Actions</strong>, then<strong>Sharing.</strong><br><img src="assets/screen-shot-2013-12-04-at-1.07.49-pm.png" alt=""></li>```When sharing a document, click&nbsp;**Sharing**.
 
-   For example, if you are sharing a project, use the `Give project access to` field.
+   ![](assets/sharing-document-link-highlighted-classic-350x257.png)
+
+   <!--
+   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><span>When sharing a document that does not contain a proof,</span> select the document that you want to share, then click <strong>Share</strong>&nbsp;> <strong>Document</strong>.<br><note type="tip">
+   You can share multiple documents at the same time by holding the Shift key to select multiple documents, then clicking
+   <strong>Share</strong>.
+   </note><br></li>
+   -->
+
+1. In the **Give <Object Name> access to** field, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
+
+   For example, if you are sharing a project, use the **Give project access to** field.
 
    >[!TIP]
    >
-   >You can share an object only with active users, teams, `roles,` or companies.
+   >You can share an object only with active users, teams, ```roles,``` or companies.
 
-   ` `**Tip: **`` If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
+   ``` ```**Tip: **`````` If you have multiple entities named similarly, they are all listed under their type. The names of the entities appear in alphabetical order. However, the order in which the entity types appear is random.
 
    ![](assets/sharing-entities-named-similarly-in-sharing-box-350x179.png)
 
@@ -91,37 +103,37 @@ You must have the following to share objects:
 
    The following options are available:
 
-  * `View:`&nbsp;Users can&nbsp;review and share&nbsp;the item.&nbsp;
-  * `Contribute` `:`&nbsp;Users can&nbsp;make&nbsp;updates, log&nbsp;information, make minor edits, and share, plus all View permissions. 
-  
-    ` `**Tip: **``You can grant Contribute permissions only to the following objects:&nbsp;
+   * **View:**&nbsp;Users can&nbsp;review and share&nbsp;the item.&nbsp;
+   * **Contribute****:**&nbsp;Users can&nbsp;make&nbsp;updates, log&nbsp;information, make minor edits, and share, plus all View permissions. 
+   
+     ``` ```**Tip: **``````You can grant Contribute permissions only to the following objects:&nbsp;
 
-    * Projects
-    * Tasks
-    * Issues
+      * Projects
+      * Tasks
+      * Issues
 
-  * `Manage:`Users&nbsp;have full access to the object without administrative&nbsp;rights, which are granted at the access level, plus all View and Contribute permissions.
+   * **Manage:**Users&nbsp;have full access to the object without administrative&nbsp;rights, which are granted at the access level, plus all View and Contribute permissions.
 
-    >[!NOTE]
-    >
-    >&nbsp;The Workfront administrator or the object creator has the ability to remove permissions from these entities.
+     >[!NOTE]
+     >
+     >&nbsp;The Workfront administrator or the object creator has the ability to remove permissions from these entities.
 
-    &nbsp;
+     &nbsp;
 
-    ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
-1. (Optional) Click `Advanced Options`&nbsp;to configure specific permissions&nbsp;on the object.
+1. (Optional) Click **Advanced Options**&nbsp;to configure specific permissions&nbsp;on the object.
 
    View, Manage and Contribute have different advanced options depending on the selected object.  
    For more information about the permissions levels, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
-1. (Optional) To make this object available to all users in the system, click the `Gear` icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) , then in the drop-down menu click `Make this visible system-wide`.
+1. (Optional)&nbsp;To make this object available to all users in the system, click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) , then in the drop-down menu click **Make this visible system-wide**.
 
    All users can&nbsp;see the object based on the permissions that you set.
 
-1. (Optional and conditional) When sharing a project, click the `Gear` icon ![](assets/gear-icon-settings-with-dn-arrow.jpg), then in the drop-down menu click `Set as my project access template`&nbsp;to set the permissions as a template.  
+1. (Optional and conditional) When sharing a project, click the **Gear** icon ![](assets/gear-icon-settings-with-dn-arrow.jpg), then in the drop-down menu click **Set as my project access template**&nbsp;to set the permissions as a template.  
    After you have defined permissions on one project, these same permissions are automatically applied the next time you create a project from scratch.
 
    >[!NOTE]
@@ -131,18 +143,18 @@ You must have the following to share objects:
 
    You can specify permissions on the projects that will be created from a template when you share the template.&nbsp;For more information, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Optional) To make the object public, click `Make this public to external users`.
+1. (Optional) To make the object public, click **Make this public to external users**.
 
    >[!TIP]
    >
    >This option is not available for all objects.
 
-1. (Conditional) If you made the object public to external users, click `copy link,`&nbsp;then distribute the link to external users.  
+1. (Conditional) If you made the object public to external users, click **copy link,**&nbsp;then distribute the link to external users.  
    Any users with the link are able to view the object.
 
-   ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
+   ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Share objects in bulk
 
@@ -156,17 +168,17 @@ To share objects in bulk:
 
 1. Navigate to a list of objects.
 1. Select&nbsp;two or more objects in the list.
-1. Click Share.   
+1. Click&nbsp;**Share**.   
    Users who already have access to the object&nbsp;are not listed as available when bulk sharing.
 
    >[!NOTE]
    >
-   >If you do not have permissions to share an object that you selected, the `Share` button is not visible.
+   >If you do not have permissions to share an object that you selected, the **Share** button is not visible.
 
-1. In the `Edit <Object Name> access for` field, start typing the name of a user, team, group, job role, or company to which you want to grant permissions.
+1. In the **Edit <Object Name> access for** field, start typing the name of a user, team, group, job role, or company to which you want to grant permissions.
 
-   For example, if you are sharing a project, use the `Give project access for`&nbsp;field.
+   For example, if you are sharing a project, use the **Give project access for**&nbsp;field.
 
 1. Continue sharing the selected objects as described in steps 4-9 in the section [Share a single object](#share) in this article. 
-1. Click `Save`.
+1. Click **Save**.
 

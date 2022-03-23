@@ -19,14 +19,14 @@ Each filter on the Filter panel contains facets, which are filters that allow yo
 
 If your organization allows you to add keywords to uploaded content, you can enhance your filtering by selecting the keywords you want to filter for.
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area you want to filter.
 
-  * If you have Manager or higher access to Workfront Library, you can filter the My Content and Library areas. 
-  * Users with Viewer access can filter only the Library area.
+   * If you have Manager or higher access to Workfront Library, you can filter the My Content and Library areas. 
+   * Users with Viewer access can filter only the Library area.
 
-1. Click the `Filter` icon.
+1. Click the **Filter** icon.
 
    ![](assets/filter-icon-location-350x102.png)
 
@@ -47,9 +47,9 @@ If your organization allows you to add keywords to uploaded content, you can enh
    ![](assets/filterfacets.png)
 
 1. Repeat steps 5 and 6 until you have selected all the filters and facets you want to apply.
-1. (Optional) To filter using keywords, click in the `Keywords` box, then select the keywords you want to filter with.
+1. (Optional) To filter using keywords, click in the **Keywords** box, then select the keywords you want to filter with.
 
    The filtered results display.
 
-1. (Optional) To close the Filter panel, click the `X` at the upper-right corner of the Filter panel.
+1. (Optional) To close the Filter panel, click the **X** at the upper-right corner of the Filter panel.
 

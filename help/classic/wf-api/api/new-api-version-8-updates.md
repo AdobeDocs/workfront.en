@@ -22,7 +22,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | action¹&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Changes to possible values`
+```¹ Changes to possible values```
 
 ### AccessRule¹&nbsp;
 
@@ -32,8 +32,8 @@ The following existing resources have been updated with this release of the Adob
 | forbiddenActions² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | secondaryActions² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Flag removed: REPORTABLE`   
-`² Changes to possible values`
+```¹ Flag removed: REPORTABLE```   
+```² Changes to possible values```
 
 ### Approval
 
@@ -44,8 +44,8 @@ The following existing resources have been updated with this release of the Adob
 | backlogParent |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`   
-`²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE`
+```¹Changes to possible values```   
+```²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE```
 
 ### Assignment
 
@@ -62,7 +62,7 @@ The following existing resources have been updated with this release of the Adob
 | bizRuleExclusions¹ |&nbsp; |&nbsp; |&nbsp; |getPackagingOptionValue |&nbsp; |&nbsp; |
 | proofPlan¹ |&nbsp; |&nbsp; |&nbsp; |isPackagingOptionEnabled |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### CustomerPreferences
 
@@ -70,7 +70,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | name¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### DocumentApproval
 
@@ -78,7 +78,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | ID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Flag added: NOT_FILTERABLE`
+```¹Flag added: NOT_FILTERABLE```
 
 ### DocumentVersion
 
@@ -98,7 +98,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | appGlobalID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Flag added: NOT_FILTERABLE`
+```¹Flag added: NOT_FILTERABLE```
 
 ### Iteration
 
@@ -110,7 +110,7 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| `<del>endorsementID</del>`  |`<del>endorsement</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ```<del>endorsementID</del>```  |```<del>endorsement</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 ### Note
 
@@ -118,7 +118,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | auditType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### OpTask
 
@@ -130,7 +130,7 @@ The following existing resources have been updated with this release of the Adob
 | estimate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | iterationID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### Portfolio
 
@@ -138,7 +138,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### Program
 
@@ -146,7 +146,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### Project
 
@@ -154,7 +154,7 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | auditTypes¹ |&nbsp; |resourcePools |&nbsp; |&nbsp; |defaultShownTimesheetProjects |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### ProofApproval
 
@@ -165,7 +165,7 @@ The following existing resources have been updated with this release of the Adob
 | ID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | proofCreationDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Flag added: NOT_FILTERABLE`
+```¹Flag added: NOT_FILTERABLE```
 
 ### QueueDef
 
@@ -174,7 +174,7 @@ The following existing resources have been updated with this release of the Adob
 | requestorCoreAction¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | requestorForbiddenActions¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### Rate
 
@@ -204,7 +204,7 @@ The following existing resources have been updated with this release of the Adob
 | backlogParent |kanbanBoard |&nbsp; |&nbsp; |&nbsp; |defaultShownTimesheetTasks |&nbsp; |
 | kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### Team
 
@@ -228,15 +228,15 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
-`Update` 
+```Update``` 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType¹ |`<del>updateEndorsement</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| updateType¹ |```<del>updateEndorsement</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### User
 
@@ -250,11 +250,11 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| `<del>endorsementID</del>`  |`<del>endorsement</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| `<del>endorsementShareID</del>`  |`<del>endorsementShare</del>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ```<del>endorsementID</del>```  |```<del>endorsement</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ```<del>endorsementShareID</del>```  |```<del>endorsementShare</del>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | eventType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`
+```¹Changes to possible values```
 
 ### Work
 
@@ -265,5 +265,5 @@ The following existing resources have been updated with this release of the Adob
 | backlogParent&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹Changes to possible values`   
-`²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE`
+```¹Changes to possible values```   
+```²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE```

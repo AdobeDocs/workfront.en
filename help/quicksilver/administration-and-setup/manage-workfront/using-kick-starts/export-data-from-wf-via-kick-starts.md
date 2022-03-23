@@ -62,12 +62,12 @@ The following table shows the advantages and disadvantages of each method:&nbsp;
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><span class="bold">Exporting Data from a List View</span> </p> <p>For more information about exporting data from a list, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a></p> </td> 
+   <td> <p><strong>Exporting Data from a List View</strong> </p> <p>For more information about exporting data from a list, see <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">Export data</a></p> </td> 
    <td> <p>Yes</p> <p>Both Workfront native fields and custom fields associated with the objects are exported.</p> </td> 
    <td> <p>No</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Exporting Data via Kick-Starts</span> </p> </td> 
+   <td> <p><strong>Exporting Data via Kick-Starts</strong> </p> </td> 
    <td> <p>Yes (limited)</p> <p>Most Workfront native fields associated with objects are exported, but some are not. For example, you cannot export the Schedule, Project Owner, or Project Sponsor fields through a project kick-start export.</p> <p>In a project that has a custom form attached, any data entered in the fields on the form is not exported.</p> <p>But you can export a custom form. The resulting file lists the fields configured in the form, such as text boxes and radio buttons.</p> </td> 
    <td> <p>Yes</p> <p>Using Kick-Starts to export Workfront data&nbsp;enables you to export data related to multiple object types in a single export. For example, you can include tasks, issues, and projects in a single export.</p> </td> 
   </tr> 
@@ -78,21 +78,21 @@ The following table shows the advantages and disadvantages of each method:&nbsp;
 
 The following limitations exist&nbsp;when exporting data via kick-starts (data is exported in an Excel file format):&nbsp;
 
-* `50,000 rows:`&nbsp;The number of rows allowed in the file.
-* `65,530 hyperlinks:`&nbsp;This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened after they are exported. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open.
+* **50,000 rows:**&nbsp;The number of rows allowed in the file.
+* **65,530 hyperlinks:**&nbsp;This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened after they are exported. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open.
 
 ## Export data via kick-starts
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `System` > `Kick-Starts,` then click `Export Data.`
+1. Click **System** > **Kick-Starts,** then click **Export Data.**
 
 1. Select the object&nbsp;you want to export.
-1. Click `More Options`&nbsp;to see the full list of objects.
+1. Click **More Options**&nbsp;to see the full list of objects.
 
    All&nbsp;of the objects listed here&nbsp;can be&nbsp;used to also import data into Workfront.
 
-   The only exception is the `Access Levels` object. The Access Levels data sheet that is included in an export is provided for reference purposes only. It allows you to assign an access level to a new user account by ID.
+   The only exception is the **Access Levels** object. The Access Levels data sheet that is included in an export is provided for reference purposes only. It allows you to assign an access level to a new user account by ID.
 
    For more information about importing data into Workfront via kick-starts, see [Import data into Adobe Workfront via a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)The following is a list of all objects that can be exported through kick-starts:
 
@@ -246,11 +246,11 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
     </tbody> 
    </table>
 
-1. Click `Download.`
+1. Click **Download.**
 
-   The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a `Properties` sheet associated with every export.
+   The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a **Properties** sheet associated with every export.
 
-   The `Dashboard` and `Report`&nbsp;options allow you to select specific dashboards and reports to include in the download. You can export only&nbsp;Dashboards which are shared system-wide.
+   The **Dashboard**&nbsp;and **Report**&nbsp;options allow you to select specific dashboards and reports to include in the download. You can export only&nbsp;Dashboards which are shared system-wide.
 
    You cannot export matrix reports. For more information about matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
@@ -260,7 +260,7 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
 
    You can export multiple objects at one time.
 
-   By default, the following objects are displayed under the `What to include` label (prior to clicking `More Options`):
+   By default, the following objects&nbsp;are displayed under the **What to include**&nbsp;label (prior to clicking **More Options**):
 
    <table cellspacing="15"> 
     <col> 
@@ -268,9 +268,9 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
     <col> 
     <thead> 
      <tr> 
-      <th> <p><span class="bold">Object</span> </p> </th> 
-      <th> <p><span class="bold">Exported Sheets of the Excel File</span> </p> </th> 
-      <th> <p>&nbsp;<span class="bold">Export Format</span></p> </th> 
+      <th> <p><strong>Object</strong> </p> </th> 
+      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
+      <th> <p>&nbsp;<strong>Export Format</strong></p> </th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -323,9 +323,9 @@ The following limitations exist&nbsp;when exporting data via kick-starts (data i
     <col> 
     <thead> 
      <tr> 
-      <th> <p><span class="bold">&nbsp;</span> </p> </th> 
-      <th> <p><span class="bold">Exported Sheets of the Excel File</span> </p> </th> 
-      <th> <p>&nbsp;<span class="bold">Export Format</span></p> </th> 
+      <th> <p><strong></strong> </p> </th> 
+      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
+      <th> <p>&nbsp;<strong>Export Format</strong></p> </th> 
      </tr> 
     </thead> 
     <tbody> 

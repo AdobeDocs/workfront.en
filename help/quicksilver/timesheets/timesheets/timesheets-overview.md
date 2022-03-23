@@ -27,13 +27,13 @@ For more information about logging time in Workfront, see [Log time](../../times
 
 Timesheets provide users with a simple way to track time for both project and non-project work:
 
-* `Project Time:` Directly from the task or project where you want to track the time.
+* **Project Time:** Directly from the task or project where you want to track the time.
 
   Hours recorded toward tasks, issues, and projects through a timesheet become associated with the respective work items to provide an accurate representation of effort spent on projects and tasks. Without accurate time entry, your data might&nbsp;not be accurate&nbsp;if intended for billing purposes.
 
   Additionally, when a resource records hours directly on tasks, issues and projects automatically appear when the user accesses the timesheet. This is assuming the timesheet date range spans the dates the hours were recorded.
 
-* `Non-Project Time:` Directly on the user timesheet. For more information about how to track time in Workfront, see&nbsp; [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Non-Project Time:** Directly on the user timesheet. For more information about how to track time in Workfront, see&nbsp; [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
   On a timesheet, a resource can record vacation hours, sick hours, hours spent in transit, hours spent repairing or maintaining equipment, or whatever general overhead hour types you wish to create.
 
@@ -46,17 +46,58 @@ You can track time in Workfront by accessing timesheets from the following locat
 * The My Timesheets section in the Timesheets area
 
   &nbsp;
-  Depending on where you access timesheets from: In the Production environment, in the My Timesheets section:
+
+  ![](assets/my-timesheets-list-various-statuses-old-nwe-350x194.png)  
+
+  <!--
+  <p>Depending on where you access timesheets from:</p>
+  <ul>
+  <li> <p>In the Production environment, in the My Timesheets section: </p> <p> <img src="assets/my-timesheets-list-various-statuses-old-nwe-350x194.png" style="width: 350;height: 194;"> </p> </li>
+  </ul>
+  -->
+
+    <!--  
+    <p>In the Preview environment, when selecting the My&nbsp;Timesheets filter: </p>  
+    <p> <img src="assets/my-timesheets-list-various-statuses-nwe-350x60.png" style="width: 350;height: 60;"> </p>  
+    -->
 
 * The Timesheets I Approve section in the Timesheets area
-  Depending on where you access timesheets from: In the Production environment, in the Timesheets I Approve section:
+
+  ![](assets/timesheets-i-approve-section-old-nwe-350x80.png)  
+
+  <!--
+  <p>Depending on where you access timesheets from:</p>
+  <ul>
+  <li> <p>In the Production environment, in the Timesheets I Approve section: </p> <p> <img src="assets/timesheets-i-approve-section-old-nwe-350x80.png" style="width: 350;height: 80;"> </p> </li>
+  </ul>
+  -->
+
+    <!--  
+    <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p>  
+    <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p>  
+    -->
 
 * The All&nbsp;Timesheets section in the Timesheets area
-  Depending on where you access timesheets from: In the Production environment, in the Timesheets I Approve section:
 
-` `**Tip: **`` By default, timesheets in the `All Timesheets` tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
+  ![](assets/all-timesheets-list-old-nwe-350x134.png)  
 
-* Click `Filter`&nbsp;to display all timesheets assigned to people in your teams.
-* Modify any filter options, then click `Filter.`
-* Click `Reset Filter,` then manually specify any filter options, then click  `Filter`.
+  <!--
+  <p>Depending on where you access timesheets from:</p>
+  <ul>
+  <li> <p>In the Production environment, in the Timesheets I Approve section: </p> <p> <img src="assets/all-timesheets-list-old-nwe-350x134.png" style="width: 350;height: 134;"> </p> </li>
+  </ul>
+  -->
+
+    <!--  
+    <p>In the Preview environment, when selecting the My&nbsp;Timesheet Approvals filter: </p>  
+    <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p>  
+    -->
+
+``` ```**Tip: **`````` By default, timesheets in the **All Timesheets** tab are not displayed. However, the filter area on the left side of the page is&nbsp;pre-populated&nbsp;to display all timesheets associated with the teams that you are part of. Do one of the following to display timesheets:
+
+* Click **Filter**&nbsp;to display all timesheets assigned to people in your teams.
+* Modify any filter options, then click **Filter.**
+* Click **Reset Filter,**&nbsp;then manually specify any filter options, then click&nbsp;**Filter**.
+
+  ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)
 

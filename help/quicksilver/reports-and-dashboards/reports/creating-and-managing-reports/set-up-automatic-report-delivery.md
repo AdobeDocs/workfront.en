@@ -55,16 +55,16 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
    >
    >Report deliveries do not contain prompts. If you wish to limit data in a report delivery, we recommend applying filters to the report that you want to send.
 
-1. Click `Report Actions`, then `Send Report`.
+1. Click **Report Actions**, then **Send Report**.
 
-   The `Send Report` dialog box displays.
+   The **Send Report** dialog box displays.
 
    >[!TIP]
    >
-   >To send a report manually at any given time, go to the report, then click `Report Actions` > `Send Report` > `Send Now`.
+   >To send a report manually at any given time, go to the report, then click **Report Actions** > **Send Report** > **Send Now**.
 
-1. Select the `Repeating Deliveries` tab.
-1. (Conditional) To modify an existing repeating report delivery, select the report delivery in the `Repeating Deliveries` section.
+1. Select the **Repeating Deliveries** tab.
+1. (Conditional) To modify an existing repeating report delivery, select the report delivery in the **Repeating Deliveries** section.
 1. Specify the following information:
 
    <table cellspacing="0"> 
@@ -96,14 +96,14 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
       <td> <p>Select the format you want for the delivered report:</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>If you select this, you can format the output using the additional <span class="bold">Paper Size</span> and <span class="bold">Orientation</span> options that display.</p> </li> 
+        <li> <p>PDF</p> <p>If you select this, you can format the output using the additional <strong>Paper Size</strong> and <strong>Orientation</strong> options that display.</p> </li> 
         <li> <p>MS Excel (.xlsx)</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Include Links</p> </td> 
-      <td> <p>This option is available only when <span class="bold">MS Excel</span> is selected in the <span class="bold">Format</span> drop-down menu. When this option is enabled, any hyperlinks are included in the exported Excel document.</p> <p>Documents that contain more than 65,530 links cannot be opened. If the exported document will contain more than 65,530 links, deselect this option.</p> <p>This option is enabled by default.</p> </td> 
+      <td> <p>This option is available only when <strong>MS Excel</strong> is selected in the <strong>Format</strong> drop-down menu. When this option is enabled, any hyperlinks are included in the exported Excel document.</p> <p>Documents that contain more than 65,530 links cannot be opened. If the exported document will contain more than 65,530 links, deselect this option.</p> <p>This option is enabled by default.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Summary</p> </td> 
@@ -115,7 +115,7 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats Every</p> </td> 
-      <td> <p>Select the frequency with which you want the delivery to repeat. The value you select for this option is based on the option that is selected in the <span class="bold">Repeats</span> drop-down list.</p> </td> 
+      <td> <p>Select the frequency with which you want the delivery to repeat. The value you select for this option is based on the option that is selected in the <strong>Repeats</strong> drop-down list.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Time</p> </td> 
@@ -123,10 +123,10 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats On</p> </td> 
-      <td> <p>This option is available when the <span class="bold">Repeats</span> option is set to either <span class="bold">Weekly</span> or <span class="bold">Monthly</span>:</p> 
+      <td> <p>This option is available when the <strong>Repeats</strong> option is set to either <strong>Weekly</strong> or <strong>Monthly</strong>:</p> 
        <ul> 
-        <li> <p>When the <span class="bold">Repeats</span> option is set to <span class="bold">Weekly</span>: Select the days of the week that the delivery is sent.</p> </li> 
-        <li> <p>When the <span class="bold">Repeats</span> option is set to <span class="bold">Monthly</span>: Select whether the delivery is sent on the day of the month, day of the week, or last day of the month (these options leverage the date that you select in the <span class="bold">Starts On</span> field).</p> </li> 
+        <li> <p>When the <strong>Repeats</strong> option is set to <strong>Weekly</strong>: Select the days of the week that the delivery is sent.</p> </li> 
+        <li> <p>When the <strong>Repeats</strong> option is set to <strong>Monthly</strong>: Select whether the delivery is sent on the day of the month, day of the week, or last day of the month (these options leverage the date that you select in the <strong>Starts On</strong> field).</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -139,21 +139,21 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Never</p> </td> 
-      <td>Select <span class="bold">Never</span> if you want the scheduled delivery to last indefinitely.</td> 
+      <td>Select <strong>Never</strong> if you want the scheduled delivery to last indefinitely.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save` to save the report delivery.
+1. Click **Save** to save the report delivery.
 
-   The report displays in the `Repeating Deliveries` section (in the `Send Report` dialog box) and it will send at the scheduled time.
+   The report displays in the **Repeating Deliveries** section (in the **Send Report** dialog box) and it will send at the scheduled time.
 
    For information about size limitations that can affect the delivery of your reports, see the sections [Report delivery limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) and [Export limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export) in the article [Schedule an automatic report delivery](#).
 
 1. (Optional) To delete a scheduled delivery:
 
-  1. In the `Repeating Deliveries` panel, click the scheduled delivery, then click `Delete`.
-  1. Click `Delete` to confirm.
+  1. In the **Repeating Deliveries** panel, click the scheduled delivery, then click **Delete**.
+  1. Click **Delete** to confirm.
 
 ## Video walk-through
 
@@ -162,14 +162,18 @@ View the following video to learn how to schedule a report delivery. This video 
 [ ![](assets/video-walk-through--350x197.png)](https://workfront-video.wistia.com/medias/45jffmll62)
 
 <!--
-Additional information
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
 -->
 
 <!--
-See also:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See also:</p>
 -->
 
   <!--
-  Learning Path for reports and dashboards
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ" target="_blank">Learning Path for reports and dashboards</a> </li>
+  -->
+
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p>
   -->
 

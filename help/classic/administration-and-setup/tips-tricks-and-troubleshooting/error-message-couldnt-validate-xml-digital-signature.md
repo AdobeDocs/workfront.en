@@ -49,22 +49,22 @@ You must have the following to perform the steps in this article:
 
 Manually retrieve the Signing Certificate from the ADFS Server:
 
-1. In Windows, click `Start` > `Administration` > `ADFS 2.0 Management`.  
+1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.  
    The ADFS 2.0 Management dialog box is displayed.
 
-1. Select `Trust Relationship` > `Relying Party Trusts` in the left-hand pane.
+1. Select **Trust Relationship** > **Relying Party Trusts** in the left-hand pane.
 
-1. Right-click on `Relying Party Trust`, and select `Properties`.
+1. Right-click on **Relying Party Trust**, and select **Properties**.
 
-1. Click on the `Signature` tab.
-1. Click on the name of the Signing Certificate, and click `View`.
-1. Click Copy to `File`..., and select `Next`.
+1. Click on the **Signature** tab.
+1. Click on the name of the Signing Certificate, and click **View**.
+1. Click Copy to **File**..., and select **Next**.
 
-1. Select `Base-64 encoded x.509 (CER)`, and click `Next`.
+1. Select **Base-64 encoded x.509 (CER)**, and click **Next**.
 
-1. Specify the file name, and click `Next`.
-1. Click `Finish`.
-1. In Adobe Workfront, navigate to `Setup` > `System` > `Single Sign-On (SSO)` and manually upload the Signing Certificate.
+1. Specify the file name, and click **Next**.
+1. Click **Finish**.
+1. In Adobe Workfront, navigate to **Setup** > **System** > **Single Sign-On (SSO)** and manually upload the Signing Certificate.
 
 ## Cause 2: The certificate is signed using DSA when Workfront is expecting an RSA signature
 

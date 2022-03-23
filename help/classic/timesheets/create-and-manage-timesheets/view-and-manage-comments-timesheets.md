@@ -52,7 +52,7 @@ By default, comments are hidden the first time you&nbsp;access a timesheet.
 To show comments on a timesheet:
 
 1. Go to the timesheet where you want to display comments.
-1. Click `Show Comments`&nbsp;in the upper-right corner of the timesheet.
+1. Click **Show Comments**&nbsp;in the upper-right corner of the timesheet.
 
    ![Screen_Shot_2017-03-22_at_11.27.58_AM.png](assets/screen-shot-2017-03-22-at-11.27.58-am.png)
 
@@ -71,13 +71,13 @@ To show comments on a timesheet:
 You can make general comments about the timesheet.
 
 1. Go to the timesheet where you want to make a comment.
-1. Below the timesheet, click `Include a comment`.
+1. Below the timesheet, click **Include a comment**.
 
    ![timesheet_comment_enter.png](assets/timesheet-comment-enter-350x349.png)
 
-1. Type your comment, then click `Save`.
+1. Type your comment, then click **Save**.
 
-   Your comment is displayed in the `Recent Updates` area.
+   Your comment is displayed in the **Recent Updates** area.
 
 ### Comment on an individual hour entry in a timesheet
 
@@ -86,11 +86,11 @@ You can make general comments about the timesheet.
 
    ![](assets/14.png)
 
-1. Click the `+` icon.
+1. Click the **+** icon.
 
    ![timesheet_comment_entry.png](assets/timesheet-comment-entry.png)
 
-1. Type your comment, then click `Save`.
+1. Type your comment, then click **Save**.
 
    After a comment is submitted, a notch appears on the record in the box, indicating that a comment was made.
 
@@ -103,7 +103,7 @@ You can make general comments about the timesheet.
 You can comment on individual items in the timesheet, update their Actual Start Date or Condition. The update displays in the Updates area of the object associated with the logged time.
 
 1. Go to the timesheet where you want to make a comment.
-1. Click the `Update Status` icon ![](assets/update-status-icon-in-timesheet-19x20.png) inline with a task or issue.
+1. Click the **Update Status** icon ![](assets/update-status-icon-in-timesheet-19x20.png) inline with a task or issue.
 
    >[!TIP]
    >
@@ -113,14 +113,14 @@ You can comment on individual items in the timesheet, update their Actual Start 
 
 1. Do one of the following:
 
-  * Update the Condition of the item.
+   * Update the Condition of the item.
 
-    This is possible only when the Condition Type of the project is set to Manual. For more information, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md). 
-  
-  * Update the Actual Start Date. 
-  * Enter an update in the space provided and click the `People` icon ![](assets/people-icon-updates-classic-19x17.png) to include others in the update or the `Lock` icon ![](assets/lock-icon-open-updates-classic.png) to make the update visible only to users in your Company.
+     This is possible only when the Condition Type of the project is set to Manual. For more information, see [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md). 
+   
+   * Update the Actual Start Date. 
+   * Enter an update in the space provided and click the **People** icon ![](assets/people-icon-updates-classic-19x17.png) to include others in the update or the **Lock** icon ![](assets/lock-icon-open-updates-classic.png) to make the update visible only to users in your Company.
 
-1. Click  `Update`.
+1. Click&nbsp;**Update**.
 
    The update is now visible in the Updates area of the task or the issue.
 

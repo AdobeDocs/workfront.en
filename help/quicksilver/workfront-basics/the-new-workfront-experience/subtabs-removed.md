@@ -57,17 +57,17 @@ You must have the following access to perform the steps in this article:
 
 The areas that you can access from the Main Menu in the new Adobe Workfront experience are dependent on:
 
-* `Layout template configurations`: To learn how a Workfront administrator can modify the main menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Layout template configurations**: To learn how a Workfront administrator can modify the main menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* `License type`: To learn the default configurations for different license types, see [Understand a Reviewer's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand a Worker's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **License type**: To learn the default configurations for different license types, see [Understand a Reviewer's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand a Worker's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-* `User customization`: To learn how to change your own main menu configuration, see [Customize the Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
+* **User customization**: To learn how to change your own main menu configuration, see [Customize the Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
 
 To learn more about an option in the Main Menu, see [Top navigation bar overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
 To access the new areas in the new Adobe Workfront experience:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon-16x12.png) in the upper-right corner of the new Adobe Workfront experience.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon-16x12.png) in the upper-right corner of the new Adobe Workfront experience.
 
 1. Click an area to access a list of objects.
 
@@ -87,11 +87,11 @@ The information in the following subtabs is now available through filters:
 
 When accessing the Projects area, you can use the filter to display only projects that you own or projects you are part of.
 
-1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click `Projects`.
+1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click **Projects**.
 
    A list of projects displays.
 
-1. From the `Filter` drop-down menu, select from the following built-in filters to display certain types of projects:
+1. From the **Filter** drop-down menu, select from the following built-in filters to display certain types of projects:
 
    <table cellspacing="0"> 
     <col> 
@@ -121,11 +121,11 @@ When accessing the Projects area, you can use the filter to display only project
 
 When accessing the Portfolio area, you can use the filter to display only portfolios that you own or all portfolios.
 
-1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click `Portfolios`.
+1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click **Portfolios**.
 
    A list of portfolios displays.
 
-1. From the `Filter` drop-down menu, select from the following built-in filters to display certain types of portfolios:
+1. From the **Filter** drop-down menu, select from the following built-in filters to display certain types of portfolios:
 
    | All |Displays all portfolios you have access to view. |
    |---|---|
@@ -135,16 +135,16 @@ When accessing the Portfolio area, you can use the filter to display only portfo
 
 When accessing the Issues area at the project level, you can use the filter to display only issues that are open, or issues that are closed.
 
-1. Click the `Main menu` icon ![](assets/main-menu-icon-16x12.png), then click `Projects`.
+1. Click the **Main menu** icon ![](assets/main-menu-icon-16x12.png), then click **Projects**.
 
    A list of projects displays.
 
 1. Click the name of a project to access it.
-1. Click the `Issues` area in the left panel.
+1. Click the **Issues** area in the left panel.
 
    A list of issues displays.
 
-1. From the `Filter` drop-down menu, select from the following built-in filters to displays certain types of issues:
+1. From the **Filter** drop-down menu, select from the following built-in filters to displays certain types of issues:
 
    | All |Displays all issues on the project, regardless of their status. |
    |---|---|

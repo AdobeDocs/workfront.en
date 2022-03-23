@@ -23,7 +23,7 @@ To learn more about Workfront, you can:
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Check out Workfront One</span> </td> 
+   <td><strong>Check out Workfront One</strong> </td> 
    <td> <p>You can use the search bar at the top of <a href="https://one.workfront.com/">one.workfront.com</a> to help you find a specific article, a discussion, or training. Think of it as your search engine for all things Workfront.</p> <p>The Resources tab gives you access to:</p> 
     <ul> 
      <li> <p><a href="https://one.workfront.com/s/documentation-classic">Documentation</a> </p> </li> 
@@ -34,23 +34,23 @@ To learn more about Workfront, you can:
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Ask an expert</span> </td> 
-   <td> <p>Follow the 5-minute rule. If you can't find the answer after a few minutes, don't hesitate to reach out to Workfront Support! <span class="bold">Workfront's Customer Support Team</span> is dedicated to helping you with technical issues as well as accessing our community and training platform.</p> <p>Our live Support engineers—based in US and EMEA—will answer your phone call in seconds. Please don’t hesitate to call us!</p> 
+   <td><strong>Ask an expert</strong> </td> 
+   <td> <p>Follow the 5-minute rule. If you can't find the answer after a few minutes, don't hesitate to reach out to Workfront Support! <strong>Workfront's Customer Support Team</strong> is dedicated to helping you with technical issues as well as accessing our community and training platform.</p> <p>Our live Support engineers—based in US and EMEA—will answer your phone call in seconds. Please don’t hesitate to call us!</p> 
     <ul> 
      <li> <p>844-306-4357 (US)</p> </li> 
      <li>+44(0)-1256-274200 (EMEA)</li> 
     </ul> <p>For more information, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md" class="MCXref xref" xrefformat="{para}">Contact Customer Support</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Connect with peers</span> </td> 
+   <td><strong>Connect with peers</strong> </td> 
    <td>Workfront Community offers a network of professionals mastering modern work who actively share their insights and expertise. For more information, see <a href="../../workfront-basics/tips-tricks-and-troubleshooting/workfront-community.md" class="MCXref xref" xrefformat="{para}">The Adobe Workfront Community</a>.</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">See what's new in any of the </span>Workfront<span class="bold"> products</span> </td> 
+   <td><strong>See what's new in any of the</strong>Workfront<strong>products</strong> </td> 
    <td>Visit <a href="https://workfront.com/release" target="_blank">workfront.com/release</a> for the latest information about what's new.</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Learn on-demand and dive deep with Workfront Training</span> </td> 
+   <td><strong>Learn on-demand and dive deep with Workfront Training</strong> </td> 
    <td><a href="http://one.workfront.com/s/getting-started">Workfront One</a> offers role-based learning paths to get planners, workers, collaborators, and system administrators up and running with key functionality in Workfront.<br><a href="http://one.workfront.com/s/training">Expand your Workfrontknowledge</a> by exploring learning paths, video tutorials, and downloadable guides on your topics of interest.<br></td> 
   </tr> 
  </tbody> 
@@ -60,11 +60,33 @@ To learn more about Workfront, you can:
 
 The following resources can help you determine how you can use Workfront:
 
-| [Workfront resources highlighting customers](https://www.workfront.com/resources)  |This is your starting source for webinars, ebooks, whitepapers, videos, and reports. |
-|---|---|
-| [Case studies](https://www.workfront.com/customers)  |Read through a growing collection of 60+ case studies, highlighting customer challenges and Workfront solutions and benefits. |
-| [Workfront Community](https://one.workfront.com/s/community)  |The Workfront Community allows you to have conversations with Workfront users and experts all over the world. They're always there to help answer your questions or point you in the right direction. |
-| [User groups](https://one.workfront.com/s/groups)  |Come together with other Workfront users in your geographical, industry, and interest areas to share and learn, both virtually and in person. |
+<table> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td><a href="https://www.workfront.com/resources">Workfront resources highlighting customers</a> </td> 
+   <td>This is your starting source for webinars, ebooks, whitepapers, videos, and reports.</td> 
+  </tr> 
+  <tr> 
+   <td><a href="https://www.workfront.com/customers">Case studies</a> </td> 
+   <td>Read through a growing collection of 60+ case studies, highlighting customer challenges and Workfront solutions and benefits.</td> 
+  </tr> 
+  <tr> 
+   <td><a href="https://one.workfront.com/s/community">Workfront Community</a> </td> 
+   <td>The Workfront Community allows you to have conversations with Workfront users and experts all over the world. They're always there to help answer your questions or point you in the right direction.</td> 
+  </tr> 
+  <tr> 
+   <td><a href="https://one.workfront.com/s/groups" target="_blank">User groups</a> </td> 
+   <td>Come together with other Workfront users in your geographical, industry, and interest areas to share and learn, both virtually and in person.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td><a href="https://www.workfront.com/leap">Leap</a> </td> 
+    <td> <p>This premier modern work management event is designed to help you gain the skills to master modern work.</p> <p>Leap is your opportunity to network with the largest collection of Workfront users each year. Learn from the brightest minds in keynotes, interactive breakouts, and one-on-one consulting sessions. Get a sneak peek of the Workfront product roadmap and discover how companies like yours are leveraging Workfront as their operational system of record.<br>To learn more, see <a href="https://www.workfront.com/leap-us/whyattend">Why to attend Leap</a>.</p> </td> 
+   </tr>
+  --> 
+ </tbody> 
+</table>
 
 ## How can Workfront administrators prepare for Workfront product releases?
 
@@ -75,15 +97,15 @@ These 3 steps can help you as a Workfront administrator stay on top of each new 
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Step 1: Learn what's coming</span> </td> 
+   <td><strong>Step 1: Learn what's coming</strong> </td> 
    <td> <p>These resources keep you informed on what updates are releasing to Workfront:</p> 
     <ul> 
      <li> <p><a href="https://one.workfront.com/s/article/Product-announcements-1407560965" target="_blank">Product Announcements</a>: Looking for updates of Workfront’s product roadmap? The Product Announcements page is where you can find release updates and roadmap presentations.</p> </li> 
-     <li> <p><span class="bold">Announcement Center</span>: Review your notifications and receive important updates from our Workfront Product team regarding information for all customers. Visit the <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">“Notifications”</a> section in Workfront, in your top navigation.</p> </li> 
+     <li> <p><strong>Announcement Center</strong>: Review your notifications and receive important updates from our Workfront Product team regarding information for all customers. Visit the <a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">“Notifications”</a> section in Workfront, in your top navigation.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Step 2: Prepare for updates</span> </td> 
+   <td><strong>Step 2: Prepare for updates</strong> </td> 
    <td> 
     <ul> 
      <li> <p>Test the latest updates in your Workfront <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">Sandbox</a>.</p> </li> 
@@ -91,7 +113,7 @@ These 3 steps can help you as a Workfront administrator stay on top of each new 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Step 3: Communicate the change</span> </td> 
+   <td><strong>Step 3: Communicate the change</strong> </td> 
    <td> 
     <ul> 
      <li> <p>Send a communication to users in your organization on what will change, why it benefits them, and who they can talk to for questions.</p> </li> 

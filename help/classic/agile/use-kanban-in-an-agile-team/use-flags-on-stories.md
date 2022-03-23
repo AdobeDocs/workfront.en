@@ -10,7 +10,7 @@ description: On the Kanban board, flags provide a visual indication of when a st
 
 On the Kanban board, flags provide a visual indication of when a story is ready to move to the next status. This enables Kanban teams to use a "pull" approach rather than a "push" approach when moving stories across statuses.
 
-` `**Example: **``Consider the following example of a team using a "pull" approach: Olivia, the graphic designer on the team, finishes her work and then sets the story flag as "Ready to Pull." This flag provides a visual indication to Tony, the copywriter on the team, that the story is ready for him to move to the next status. Tony then moves the story to the next status when he is ready to begin working on it.&nbsp; Consider the following when using flags on stories:
+``` ```**Example: **``````Consider the following example of a team using a "pull" approach: Olivia, the graphic designer on the team, finishes her work and then sets the story flag as "Ready to Pull." This flag provides a visual indication to Tony, the copywriter on the team, that the story is ready for him to move to the next status. Tony then moves the story to the next status when he is ready to begin working on it.&nbsp; Consider the following when using flags on stories:
 
 * Flags are not a status, but rather a visual indication that the story is ready to be moved to the next status by another member of the team.&nbsp;
 * Flags do not appear on any story cards that are in the Backlog column or in the Complete column (or in any column where the status of the column equates with Complete).
@@ -48,18 +48,18 @@ To change a flag on a story:
 
 1. Go to the Kanban board where you want to change a flag on a story.
 1. Expand the story tile to view the&nbsp;flag.  
-   The flag is set to `On Track` for each story by default.  
+   The flag is set to **On Track** for each story by default.  
    ![Kanban card](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. Click the current flag, then select from the&nbsp;following flag options:
 
-  * `On Track:`&nbsp;The story is in the appropriate status and no action needs to be taken at this time.  
-    This is the default flag for each story on the Kanban board.  
-    ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
+   * **On Track:**&nbsp;The story is in the appropriate status and no action needs to be taken at this time.  
+     This is the default flag for each story on the Kanban board.  
+     ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-  * `Is Blocked:`&nbsp;The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see&nbsp;the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).  
-    ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
+   * **Is Blocked:**&nbsp;The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see&nbsp;the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).  
+     ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-  * `Ready to Pull:`&nbsp;The story is ready to be moved to the next status by another member of the team.  
-    ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
+   * **Ready to Pull:**&nbsp;The story is ready to be moved to the next status by another member of the team.  
+     ![kanban_flag_ready.png](assets/kanban-flag-ready.png)
 

@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: Android Beta Program for Submitting Requests
 description: You will soon be able to submit requests from the Workfront mobile app! With this new feature, you’ll be able to use your Workfront app on your smartphone to submit a request to a request queue in Workfront. You will be able to immediately access the same information that you have access to see in the web application.
+hidefromtoc: true
 ---
 
 # Android Beta Program for Submitting Requests
@@ -34,7 +35,7 @@ In the version of the Workfront mobile app that we have made available for the b
 
 For a demonstration of how to use this feature, watch the following video:
 
-`<iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
+```<iframe class="mt-media" src="assets/226008768?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
 
 ## Signing Up for the Android Beta Program for Submitting Requests
 
@@ -62,9 +63,9 @@ After testing the functionality of submitting requests from mobile as described 
 
 1. Using your Workfront mobile app:
 
-1. In the homepage of Workfront app, swipe right to open the side menu, then tap the `Submit Feedback` link and select `Start Survey`.
+1. In the homepage of Workfront app, swipe right to open the side menu, then tap the **Submit Feedback** link and select **Start Survey**.
 
-2. Fill out the  `Testing Results for Submitting Requests on Mobile`&nbsp;survey, and submit it.&nbsp;
+2. Fill out the&nbsp;**Testing Results for Submitting Requests on Mobile**&nbsp;survey, and submit it.&nbsp;
 
 2. Go directly to and fill out the [following survey](https://survey.qualtrics.com/jfe/form/SV_6Wr8o6Nt7XHOAVT).&nbsp;
 

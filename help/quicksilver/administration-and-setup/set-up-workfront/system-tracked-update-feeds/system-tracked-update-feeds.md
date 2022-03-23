@@ -14,11 +14,16 @@ Adobe Workfront captures the activity taking place on certain objects by logging
 
 The Updates area includes the following types of updates:
 
-* `User updates:` Manually entered by users. Also referred to as comments, replies, and notes.
-* `System updates:` Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
+* **User updates:** Manually entered by users. Also referred to as comments, replies, and notes.
+
+  ![](assets/updates-qs-350x125.png)
+
+* **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
 
   <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   Timestamps for system updates are based on your operating system's timezone.
+  </MadCap:conditionalText>
   -->
 
 The following objects can have updates:
@@ -45,4 +50,4 @@ Workfront administrators can define what type of changes the system should track
 * Documents
 * Timesheets
 
-For more information about system update feeds and how to enable them, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md). For more information about configuring user updates, see Configure preferences for user updates.
+For more information about system update feeds and how to enable them, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md). For more information about configuring user updates, see [Configure preferences for user updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).

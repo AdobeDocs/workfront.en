@@ -10,7 +10,7 @@ description: In an effort to increase successful email delivery, we’re adding 
 
 In an effort to increase successful email delivery, we’re adding new IP addresses with the 21.1 Production release for the clusters listed below. To find out which cluster you're instance is on, go to Setup > System > Customer Info.
 
-`Clusters 1,2,3, and 5`
+**Clusters 1,2,3, and 5**
 
 Add the following IP addresses to your allowlist to ensure your users continue to receive their email:
 
@@ -19,7 +19,7 @@ Add the following IP addresses to your allowlist to ensure your users continue t
 * 23.251.237.109
 * 23.251.237.106
 
-`Cluster 4`
+**Cluster 4**
 
 Add the following IP addresses to your allowlist to ensure your users continue to receive their email:
 

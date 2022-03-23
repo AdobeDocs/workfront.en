@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Create a custom mailhook
 description: Yo a mailhook that monitors your arriving emails without the need to have a scheduled run.
+hidefromtoc: true
 ---
 
 # Create a custom mailhook
@@ -28,7 +29,7 @@ In the POP/IMAP setting look for the forwarding field as shown in the picture be
 
 ![](assets/pop-imap-350x39.png)
 
-A popup box appears requiring you to enter the mailhook address. Click `Next`, then confirm when prompted.
+A popup box appears requiring you to enter the mailhook address. Click **Next**, then confirm when prompted.
 
 Once you have confirmed, you will see another message stating that you have received a verification code. You will find this code in your scenario. Either refresh the page, or select the history tab and then select the Detail of the log as shown below.
 

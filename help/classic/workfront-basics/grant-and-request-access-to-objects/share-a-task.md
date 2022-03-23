@@ -25,10 +25,10 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can grant the following permissions to a task:&nbsp;
 
-  * View
-  * Manage
-  * Contribute  
-    ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
+   * View
+   * Manage
+   * Contribute  
+     ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
 
 * When you share a task, users inherit the same permissions on all the children objects associated with the task, by default. For example, they inherit the same permissions on the children tasks, issues, and documents attached to the task.   
   For more information about the hierarchy of objects in Workfront, see&nbsp; [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
@@ -48,10 +48,10 @@ You can share a task in the following ways:
 
 * Automatically, by doing the following:
 
-  * Specify the permissions on any of the parent objects of the task: project, program, or portfolio. Tasks inherit the permissions from their parent objects. For information about viewing inherited permissions on objects, see [View inherited permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md). 
-  * Add entities to Project Sharing on a template used to create the project the task is on. For information about sharing projects from templates, see [Sharing a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Specify the permissions on any of the parent objects of the task: project, program, or portfolio. Tasks inherit the permissions from their parent objects. For information about viewing inherited permissions on objects, see [View inherited permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md). 
+   * Add entities to Project Sharing on a template used to create the project the task is on. For information about sharing projects from templates, see [Sharing a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-  * Specify the permissions on all tasks in a project when you edit the project.&nbsp;For information about managing the access to tasks on the project based on a user's permissions to the project, see the Access section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Specify the permissions on all tasks in a project when you edit the project.&nbsp;For information about managing the access to tasks on the project based on a user's permissions to the project, see the Access section in the article [Edit projects](../../manage-work/projects/manage-projects/edit-projects.md).
 
   >[!TIP]
   >
@@ -68,10 +68,10 @@ The following table displays what permissions you can grant users when allowing 
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Action</span> </th> 
-   <th><span class="bold">Manage</span> </th> 
-   <th><span class="bold">Contribute</span> </th> 
-   <th><span class="bold">View</span> </th> 
+   <th><strong>Action</strong> </th> 
+   <th><strong>Manage</strong> </th> 
+   <th><strong>Contribute</strong> </th> 
+   <th><strong>View</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

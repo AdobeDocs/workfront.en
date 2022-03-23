@@ -26,7 +26,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -35,7 +39,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -101,8 +112,8 @@ When you are configuring this module, the following fields display.
    <td>Filter type </td> 
    <td> <p>Select the filter type you want to use to watch emails</p> 
     <ul> 
-     <li> <p><span class="bold">Simple filter</span> </p> <p>Fill out the Criteria, Sender Email Address, Subject, and Search Phrase fields</p> </li> 
-     <li> <p> <span class="bold">Gmail filter </span></p> <p>In the Query field, enter the query that you want to use to filter emails.</p> <p>For more information on Gmail filters, see <a href="https://support.google.com/mail/answer/7190">Search operators</a> in the Gmail documentation.</p> </li> 
+     <li> <p><strong>Simple filter</strong> </p> <p>Fill out the Criteria, Sender Email Address, Subject, and Search Phrase fields</p> </li> 
+     <li> <p> <strong>Gmail filter</strong></p> <p>In the Query field, enter the query that you want to use to filter emails.</p> <p>For more information on Gmail filters, see <a href="https://support.google.com/mail/answer/7190">Search operators</a> in the Gmail documentation.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -167,7 +178,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>To </td> 
-   <td> <p>Click <span class="bold">Add</span>, then enter or map the email address for each recipient.</p> </td> 
+   <td> <p>Click <strong>Add</strong>, then enter or map the email address for each recipient.</p> </td> 
   </tr> 
   <tr> 
    <td>Subject </td> 
@@ -179,15 +190,15 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Attachments </td> 
-   <td> <p>Click <span class="bold">Add </span>to add an attachment. You can map a file from the previous modules.</p> </td> 
+   <td> <p>Click <strong>Add</strong>to add an attachment. You can map a file from the previous modules.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy recipients</td> 
-   <td> <p> Click <span class="bold">Add</span>, then enter or map the email address for each copy recipient.</p> </td> 
+   <td> <p> Click <strong>Add</strong>, then enter or map the email address for each copy recipient.</p> </td> 
   </tr> 
   <tr> 
    <td>Blind copy recipients</td> 
-   <td> <p> Click <span class="bold">Add</span>, then enter or map the email address for each blind copy recipient.</p> </td> 
+   <td> <p> Click <strong>Add</strong>, then enter or map the email address for each blind copy recipient.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -216,7 +227,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>To </td> 
-   <td> <p>Click <span class="bold">Add</span>, then enter or map the email address for each recipient.</p> </td> 
+   <td> <p>Click <strong>Add</strong>, then enter or map the email address for each recipient.</p> </td> 
   </tr> 
   <tr> 
    <td>Subject </td> 
@@ -228,15 +239,15 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Attachments </td> 
-   <td> <p>Click <span class="bold">Add </span>to add an attachment. You can map a file from the previous modules.</p> </td> 
+   <td> <p>Click <strong>Add</strong>to add an attachment. You can map a file from the previous modules.</p> </td> 
   </tr> 
   <tr> 
    <td>Copy recipients</td> 
-   <td> <p> Click <span class="bold">Add</span>, then enter or map the email address for each copy recipient.</p> </td> 
+   <td> <p> Click <strong>Add</strong>, then enter or map the email address for each copy recipient.</p> </td> 
   </tr> 
   <tr> 
    <td>Blind copy recipients</td> 
-   <td> <p> Click <span class="bold">Add</span>, then enter or map the email address for each blind copy recipient.</p> </td> 
+   <td> <p> Click <strong>Add</strong>, then enter or map the email address for each blind copy recipient.</p> </td> 
   </tr> 
  </tbody> 
 </table>

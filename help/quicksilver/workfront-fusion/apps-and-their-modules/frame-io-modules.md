@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -104,9 +115,15 @@ This action module creates a new asset.
    <td role="rowheader">Name </td> 
    <td> <p>Enter the name of the new file or folder.</p> </td> 
   </tr> <!--
-   File Type Select the type of file you want to upload.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">File Type </td> 
+    <td> <p>Select the type of file you want to upload.</p> </td> 
+   </tr>
   --> <!--
-   File Size The file size in bytes.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">File Size </td> 
+    <td> <p>The file size in bytes.</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Source URL </td> 
@@ -626,7 +643,7 @@ This module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-` `**Example: **`` The following API call returns all teams and its details in your Frame.io account:
+``` ```**Example: **`````` The following API call returns all teams and its details in your Frame.io account:
 
 URL: 
 

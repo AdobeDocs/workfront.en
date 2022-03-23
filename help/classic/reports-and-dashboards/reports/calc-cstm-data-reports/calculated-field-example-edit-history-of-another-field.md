@@ -23,8 +23,8 @@ This does this following:&nbsp;
 * Limits the *Instructions Edit History* field to the most recent 2000 characters to stay within the Workfront database limit. 
 * Checks if the current value of the *Instructions* field matches the front of the *Instructions Edit History* value; it assumes it is blank and if it is not, it does the following:&nbsp;
 
-  * If they match, it leaves the *Instructions Edit History* as is; 
-  * If they do not match, it replaces the *Instructions Edit History* with the latest value in the *Instructions* field, followed by the current date in parentheses, a vertical bar, and the previous *Instructions Edit History*, which preserves the previous value(s) and the date(s) when they were entered.
+   * If they match, it leaves the *Instructions Edit History* as is; 
+   * If they do not match, it replaces the *Instructions Edit History* with the latest value in the *Instructions* field, followed by the current date in parentheses, a vertical bar, and the previous *Instructions Edit History*, which preserves the previous value(s) and the date(s) when they were entered.
 
 ## Access requirements
 
@@ -48,11 +48,11 @@ You must have the following:
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Access level configurations*</span> </td> 
+   <td><strong>Access level configurations*</strong> </td> 
    <td> <p>Administrative access to Custom&nbsp;Forms</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Object permissions</span> </p> </td> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
    <td> <p>Manage permissions on the custom forms </p> <p>For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.<br></p> </td> 
   </tr> 
  </tbody> 
@@ -75,19 +75,19 @@ To add a calculated field that displays a field's edit history to a custom form,
 
 1. To create the single-line text custom field, for example, do the following:
 
-  1. Click  `Single Line Text Field`.
-  1. Specify a `Label` for the custom field, for example: *Instructions*.
-  1. (Optional) Click the `Name` field to update it. The Name of the field matches the Label you just entered by default. 
-  1. For this example, select  `Text` in the `Format` field to format the custom field as text. This is the default. 
-  1. Click  `Done`, then `Save + Close`.
+   1. Click&nbsp;**Single Line Text Field**.
+   1. Specify a **Label** for the custom field, for example: *Instructions*.
+   1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
+   1. For this example, select&nbsp;**Text** in the **Format** field to format the custom field as text. This is the default. 
+   1. Click&nbsp;**Done**, then **Save + Close**.
 
 1. Click the name of the form you added the *Instructions* field to. 
-1. Click `Calculated` to add a calculated custom field to the form.  
+1. Click **Calculated** to add a calculated custom field to the form.  
 
-1. Specify a `Label` for the calculated custom field, for example: *Instructions Edit History*. This is the field that will capture any changes made to the *Instructions* text field you created in Step 2. 
+1. Specify a **Label** for the calculated custom field, for example: *Instructions Edit History*. This is the field that will capture any changes made to the *Instructions* text field you created in Step 2. 
 
-1. (Optional) Click the `Name` field to update it. The Name of the field matches the Label you just entered by default. 
-1. In the `Calculation` field, specify the following calculation for your custom field:
+1. (Optional) Click the **Name** field to update it. The Name of the field matches the Label you just entered by default. 
+1. In the **Calculation** field, specify the following calculation for your custom field:
 
    ```
    LEFT(IF(LEFT(Instructions Edit History,LEN(IF(ISBLANK(Instructions),"-",Instructions)))=Instructions ,Instructions Edit History,CONCAT(IF(ISBLANK(Instructions),"-",Instructions)," (",$$NOW,") | ",Instructions Edit History)),2000)
@@ -97,9 +97,9 @@ To add a calculated field that displays a field's edit history to a custom form,
    >
    >In the above code, replace *Instructions* with the exact name of your single-line text field whose history you are tracking and *Instructions Edit History* with the exact name of your calculated field.
 
-1. (Recommended) Type the same code in the `Instructions` field on the calculated field on the form. 
-1. Always select  `Text` in the `Format` field to format the calculated custom field as text. This is the default. 
-1. Click  `Done`, then `Save+Close`.
+1. (Recommended) Type the same code in the **Instructions** field on the calculated field on the form. 
+1. Always select&nbsp;**Text** in the **Format** field to format the calculated custom field as text. This is the default. 
+1. Click&nbsp;**Done**, then **Save+Close**.
 
 1. (Optional)&nbsp;Attach the custom form to an object.
 

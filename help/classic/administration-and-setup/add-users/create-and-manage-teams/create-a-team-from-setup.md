@@ -45,8 +45,8 @@ You must have the following to perform the steps in this article:
 
 ## Create a team
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Teams`, then click `New Team`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Teams**, then click **New Team**.
 
 1. In the **New Team** box that displays, specify the following information:
 
@@ -73,7 +73,11 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Calendar</td> 
       <td>Choose which calendar tab will appear for this team.</td> 
-     </tr> This is an Agile Team Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see Create an agile team. 
+     </tr> 
+     <tr data-mc-conditions="SnippetConditions-wf-groups.system-level"> 
+      <td role="rowheader">This is an Agile Team</td> 
+      <td>Select this item if you want to configure this new team to be an agile team. For more information about agile teams, see <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Create an agile team</a>.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Work On It</td> 
       <td>Change the Work On It button to a Start button. When a user clicks Start, the status of the item is updated automatically.</td> 
@@ -85,7 +89,7 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click  `Create Team`.
+1. Click&nbsp;**Create Team**.
 
 ## Team owners
 

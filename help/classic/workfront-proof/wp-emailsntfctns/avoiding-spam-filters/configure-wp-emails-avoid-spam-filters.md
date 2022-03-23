@@ -17,7 +17,7 @@ Your email client's spam filter serves an important purpose: protecting you from
 
 To make sure that your Workfront Proof emails are always routed to your inbox instead of your spam folder, you should add the following to the allowlist:
 
-* Workfront Proof mail server: `mx.proofhq.com`
+* Workfront Proof mail server: **mx.proofhq.com**
 * Workfront Proof "from" email addresses (for example, notification@proofhq.com)
 
 For more information about URLs to add to your allowlist, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)&nbsp;in the article [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
@@ -56,11 +56,11 @@ To add Workfront Proof "from" addresses to your email client's filter:
 1. Copy the general Workfront Proof support "from" email address (support@proofhq.com) and paste it into the field indicated for your email client.
 1. Copy the appropriate one of the following Workfront Proof "from" email addresses and paste it SEPARATELY into the field indicated for your email client:
 
-  * notification@support.proofhq.com if you do NOT have a customized subdomain or a white label domain
-  * notification@yoursubdomain.proofhq.com if you have a customized subdomain; substitute your subdomain name in this address
-  * notification@yoursubdomain.yourdomain.com if you have a white label domain; substitute your subdomain name and domain name in this address
+   * notification@support.proofhq.com if you do NOT have a customized subdomain or a white label domain
+   * notification@yoursubdomain.proofhq.com if you have a customized subdomain; substitute your subdomain name in this address
+   * notification@yoursubdomain.yourdomain.com if you have a white label domain; substitute your subdomain name and domain name in this address
 
 <!--
-See the relevant section below for your email client to find out where to paste in these two Workfront Proof "from" addresses.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See the relevant section below for your email client to find out where to paste in these two Workfront Proof "from" addresses.</p>
 -->
 

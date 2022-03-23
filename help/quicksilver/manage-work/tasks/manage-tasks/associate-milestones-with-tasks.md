@@ -53,20 +53,22 @@ Before you can associate a milestone with a task, the following must exist:
 
 ## Associate a milestone with a task
 
-1. Go to a project, then click the More icon , then Edit. 
-1. Using the `Settings` section, set the milestone path to be used on the project. 
-1. Click `Save`. 
-1. Go to a task, then click the More icon , then Edit. 
+1. Go to a project, then click the **More** icon ![](assets/more-icon.png), then **Edit**.  
+
+1. Using the **Settings** section, set the milestone path to be used on the project. 
+1. Click **Save**. 
+1. Go to a task, then click the **More** icon ![](assets/more-icon.png), then **Edit**.  
+
 1. After a milestone path is associated with a project, tasks can be assigned a milestone.
 
    Tasks and Milestones have a 1:1 relationship. You cannot attach the same milestone to multiple tasks. Each task can be linked to a single milestone, or each milestone can be mapped to one task.
 
-1. Click  `Save`.
-1. (Optional) In a list of tasks, add the `Status Icons` column to identify which tasks have milestones.
+1. Click&nbsp;**Save**.
+1. (Optional) In a list of tasks, add the **Status Icons** column to identify which tasks have milestones.
 
    ![](assets/amwt3.png)
 
-1. (Optional) In a list of projects, select the `Milestone` view to identify the progress of your milestone tasks.
+1. (Optional) In a list of projects, select the **Milestone** view to identify the progress of your milestone tasks.
 
    ![Screen_Shot_2018-06-13_at_3.57.56_PM.png](assets/screen-shot-2018-06-13-at-3.57.56-pm-350x57.png)
 

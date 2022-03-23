@@ -98,7 +98,7 @@ The following table displays similarities and differences between results, activ
    <td>Feature</td> 
    <td>Results </td> 
    <td>Activities</td> 
-   <td> <p><span class="bold">Projects</span> </p> <p>&nbsp;</p> </td> 
+   <td> <p><strong>Projects</strong> </p> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td><span style="font-weight: normal;">You can customize their name in the Workfront interface</span> </td> 

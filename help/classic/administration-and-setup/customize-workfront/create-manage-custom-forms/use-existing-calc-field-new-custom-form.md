@@ -17,7 +17,7 @@ When using an existing calculated custom field, the calculation does not transfe
 
 >[!TIP]
 >
->This is when using the calculation stored in the `Instructions` field of the custom form helps.
+>This is when using the calculation stored in the **Instructions** field of the custom form helps.
 
 You can also have a different calculation for the same field, on the new form. Keeping the same name for the calculated custom field ensures cohesiveness and consistency in your naming convention.
 

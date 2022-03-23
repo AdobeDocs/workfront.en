@@ -10,7 +10,7 @@ description: The Projects I'm On and Projects I Own filter buttons do not appear
 
 ## Problem
 
-The `Projects I'm On` and `Projects I Own` filter buttons do not appear in the page header of the Projects list.
+The **Projects I'm On** and **Projects I Own** filter buttons do not appear in the page header of the Projects list.
 
 ## Access requirements
 
@@ -42,13 +42,13 @@ The project filter buttons are not included in the default layout template. The 
 1. Verify that the layout template displays the filter buttons:
 
   1. Access the layout template.
-  1. Select `Lists` under `Customize what users see`.
+  1. Select **Lists** under **Customize what users see**.
   
-  1. Select `Projects` under `Select a list to customize`.
+  1. Select **Projects** under **Select a list to customize**.
   
-  1. In the Filter section, verify that `Projects I'm On` and `Projects I Own` are selected.
+  1. In the Filter section, verify that **Projects I'm On** and **Projects I Own** are selected.
   
-  1. Click `Save`.  
+  1. Click **Save**.  
      For more information, see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md).
 
 1. Assign the layout template to the correct users, job roles, teams, or groups. For information, see [Assign users to a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).

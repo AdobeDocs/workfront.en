@@ -27,20 +27,19 @@ Only users with Administrator or Billing Administrator profile permissions will 
 
 In order to send a partner request, please follow the steps below:
 
-1. Click `Settings` > `Account Settings`, then open the `Partners` tab.&nbsp;
+1. Click **Settings** > **Account Settings**, then open the **Partners** tab.&nbsp;
 
-1. Click `Send new partner invitation`.
-1. In the `Send invitation` box that appears, type the email address of a user within your partner organization.
-1. Click `Send`.
+1. Click **Send new partner invitation**.
+1. In the **Send invitation** box that appears, type the email address of a user within your partner organization.
+1. Click **Send**.
 
 ## Accepting a Partner Request
 
 Any Workfont Proof administrator can accept a partner request, it does not need to be the user whose email address was specified in the invitation. To accept partner request:
 
-1. Click `Settings` > `Account Settings`, then open the `Partners` tab.&nbsp;
+1. Click **Settings** > **Account Settings**, then open the **Partners** tab.&nbsp;
 
-1. Click `Accept`. `  
-   `
+1. Click **Accept**.****
 
 >[!NOTE]
 >
@@ -52,9 +51,9 @@ Any Workfont Proof administrator can reject a partner request.&nbsp;The status o
 
 In order to reject a partner invitation:
 
-1. Click `Settings` > `Account Settings`, then open the `Partners` tab.&nbsp;
+1. Click **Settings** > **Account Settings**, then open the **Partners** tab.&nbsp;
 
-1. Click `Reject and ignore`.
+1. Click **Reject and ignore**.
 
 ## Deleting a Partner Request
 
@@ -66,10 +65,10 @@ If the recipient organization deletes an invitation, the invitation will no long
 
 To delete a partner request:
 
-1. Click `Settings` > `Account Settings`, then open the `Partners` tab.&nbsp;
+1. Click **Settings** > **Account Settings**, then open the **Partners** tab.&nbsp;
 
 1. Click the down arrow to the right of the request.
-1. Select `Delete` (2).
+1. Select **Delete** (2).
 
 ## Removing an Existing Partner Relationship
 
@@ -77,8 +76,8 @@ It is possible to delete an existing partner relationship if it is no longer req
 
 In order to delete a partner:
 
-1. Click `Settings` > `Account Settings`, then open the `Partners` tab.&nbsp;
+1. Click **Settings** > **Account Settings**, then open the **Partners** tab.&nbsp;
 
-1. Click the down arrow to the right of the partner, then click `Delete` in the drop-down menu.
+1. Click the down arrow to the right of the partner, then click **Delete** in the drop-down menu.
 
 If the sender organization deletes a partner, the partner relationship will be removed from both the sender's and the recipient's account.&nbsp;If the recipient organization deletes a partner, the partner will no longer appear in the recipient's account but will be visible in the sender's account as Rejected. The partner relationship can be re-established by sending a new request.

@@ -49,47 +49,52 @@ You can indicate lag types on tasks when you define their predecessor relationsh
 * [Indicate Lag Types in the Predecessors tab of a task](#lag-in-predecessors-tab) 
 * [Indicate Lag Types in a task list](#add-lags-in-task-list)
 
-### Indicate Lag Types in the Predecessors tabof a task
+### Indicate Lag Types in the Predecessors tab of a task
 
 1. Go to a task for which you want to define the predecessor and the Lag Type. 
-1. Select the Predecessors tab. Depending on your configuration, the Predecessors tab might be listed under the More drop-down menu. 
-1. Click `Add Predecessor`.
+1. Select the **Predecessors** tab.  Depending on your configuration, the **Predecessors** tab might be listed under the **More** drop-down menu. 
+
+1. Cross-Project Predecessors
+1. Click **Add Predecessor**.
+
+   ![add_predecessor_with_negative_lag__1_.png](assets/add-predecessor-with-negative-lag--1--350x311.png)   
+
 1. Start typing the name of the predecessor task, then select it when it appears in the list. 
-1. Select the `Dependency Type`.
+1. Select the **Dependency Type**.
 
    For more information about predecessor Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. Specify a `Lag` amount using a numeric value. You can specify negative numbers to indicate a negative lag. 
+1. Specify a **Lag** amount using a numeric value. You can specify negative numbers to indicate a negative lag. 
 1. Select from the following options to identify the type of lag you would like to indicate for your predecessor:
 
-  * `Days`
-  * `Calendar Days`
-  * `Percent`
-  * `Day of the Week`
-  * `Day of the Week (Non-Zero)`
+   * **Days**
+   * **Calendar Days**
+   * **Percent**
+   * **Day of the Week**
+   * **Day of the Week (Non-Zero)**
 
-    For more information about these Lag Types and how they are calculated, see the section [Lag Types overview](#understanding-lag-types) in this article.
+     For more information about these Lag Types and how they are calculated, see the section [Lag Types overview](#understanding-lag-types) in this article.
 
-1. Click `Save`.
+1. Click **Save**.
 
 ### Indicate Lag Types in a task list
 
-1. Go to a task list, and select the `Standard` View from the `View` drop-down menu.
+1. Go to a task list, and select the **Standard** View from the **View** drop-down menu.
 
-1. Click inside the `Predecessors` column corresponding to the task for which you want to specify a predecessor and a lag amount. 
+1. Click inside the **Predecessors** column corresponding to the task for which you want to specify a predecessor and a lag amount. 
 1. Enter the following with no spaces:
 
-  * the number of the task you want to indicate as the predecessor of the task selected
-  * the abbreviation for the dependency type you want to indicate between the tasks
+   * the number of the task you want to indicate as the predecessor of the task selected
+   * the abbreviation for the dependency type you want to indicate between the tasks
 
-    For more information about the abbreviations for Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-  
-  * either a `+` for a positive lag or a `-` for a negative lag
-  
-  * the amount of the lag
-  * the abbreviation for the Lag Type you want to use.
+     For more information about the abbreviations for Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   
+   * either a **+** for a positive lag or a **-** for a negative lag
+   
+   * the amount of the lag
+   * the abbreviation for the Lag Type you want to use.
 
-    For more information about the abbreviations for Lag Types, see the section [Lag Types overview](#understanding-lag-types) in this article.
+     For more information about the abbreviations for Lag Types, see the section [Lag Types overview](#understanding-lag-types) in this article.
 
    For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter "1fs+2d" in the Predecessors column. 
 
@@ -106,8 +111,8 @@ The following table illustrates the Lag Types and how to indicate the amount of 
  <col> 
  <thead> 
   <tr> 
-   <td> <p><span class="bold">Value</span> </p> </td> 
-   <td> <p><span class="bold">Description</span> </p> </td> 
+   <td> <p><strong>Value</strong> </p> </td> 
+   <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
@@ -153,13 +158,13 @@ Consider the following rules when using negative lags:
 
   In this case, consider the following:
 
-  * Schedule the project From Completion Date. 
-  * The last task on the project should use the Must Finish on Task Constraint. It is recommended to give the task a large enough duration in order to account for all tasks on the project. The remaining tasks work well with the As Soon As Possible constraint.
+   * Schedule the project From Completion Date. 
+   * The last task on the project should use the Must Finish on Task Constraint. It is recommended to give the task a large enough duration in order to account for all tasks on the project. The remaining tasks work well with the As Soon As Possible constraint.
 
 * Using a Finish-Start predecessor relationship with tasks might produce an error message.
 
   In this case, consider the following:
 
-  * Set a Finish-Finish predecessor relationship between tasks.
-  * The Duration of the successor task should equal or exceed the intended number of lag days between tasks.
+   * Set a Finish-Finish predecessor relationship between tasks.
+   * The Duration of the successor task should equal or exceed the intended number of lag days between tasks.
 

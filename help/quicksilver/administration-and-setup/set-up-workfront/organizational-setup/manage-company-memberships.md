@@ -17,7 +17,9 @@ For information about creating a new company, see [Create and edit companies](..
 
 You must have the following in order to manage companies in Workfront:
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Workfront plan*</p> </td> 
@@ -26,7 +28,23 @@ You must have the following in order to manage companies in Workfront:
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* One of the following: The System Administrator access level, which allows you to edit any company in the system. For more information, see Grant a user full administrative access. Administrative access to manage companies, which allows you to edit any company in the system. For more information, see Grant users administrative access to certain areas. Note: You can also manage companies associated with any group where you are assigned as a group administrator. In order to add to and remove users from the Workfront system, you must have one of the following: The System Administrator access level. For information about this access level, see Grant a user full administrative access. In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings , the Create option and at least one of the two User Admin options must be enabled. If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member. For information about the Users setting in an access level, see Grant access to users. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td> <p>One of the following:</p> 
+    <ul> 
+     <li> <p>The System Administrator access level, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+     <li> <p>Administrative access to manage companies, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </li> 
+    </ul> <p>Note:  
+     <ul> 
+      <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
+      <li> <p>In order to add to and remove users from the Workfront system, you must have one of the following:</p> 
+       <ul> 
+        <li> <p>The System Administrator access level. For information about this access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+        <li> <p>In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> </li> 
+       </ul> <p>For information about the Users setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     </ul> </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -34,16 +52,25 @@ You must have the following in order to manage companies in Workfront:
 
 ## Manage company memberships
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Companies`.
+1. Click **Companies**.
 1. Click the name of the company.
 1. With the **Company Members** section selected in the left panel, do any of the following:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
-    <tbody> Add a member Click Add member, then select one of these options in the drop-down menu that displays: New user: Add a user who has not yet been added to Workfront. For information about adding users to Workfront, see Add users and Edit a user's profile. Existing user: Add a user already, existing in the system, that you have access to edit. Important: If the user is already a member of another company, the new assignment overrides the old one. The user loses access to items shared with the previous company and gains access to items shared with this company. Import Users: Import a users by uploading a spreadsheet import file. For more information, see Import users. 
+    <tbody> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Add a member</td> 
+      <td> <p>Click <b>Add member</b>, then select one of these options in the drop-down menu that displays:</p> 
+       <ul> 
+        <li> <p><b>New user</b>: Add a user who has not yet been added to Workfront.</p> <p>For information about adding users to Workfront, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a> and <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </li> 
+        <li> <p><b>Existing user</b>: Add a user already, existing in the system, that you have access to edit.</p> <p>Important: If the user is already a member of another company, the new assignment overrides the old one. The user loses access to items shared with the previous company and gains access to items shared with this company.</p> </li> 
+        <li> <p><b>Import Users</b>: Import a users by uploading a spreadsheet import file. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/import-users.md" class="MCXref xref">Import users</a>.</p> </li> 
+       </ul> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Edit members</td> 
       <td> 
@@ -78,7 +105,11 @@ You must have the following in order to manage companies in Workfront:
      <tr> 
       <td role="rowheader">Deactivate members in the system</td> 
       <td> <p>Select at least one user, click the More icon <img src="assets/more-icon.png"> in the toolbar, then select <b>Deactivate</b>.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </td> 
-     </tr> Remind a user to register in the system In the Name column, Unregistered displays next to the name of each unregistered user. To remind these users to register in the system, select the users, click the More icon in the toolbar, then select Remind user to register. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Remind a user to register in the system</td> 
+      <td> <p> In the <b>Name</b> column, <b>Unregistered</b> displays next to the name of each unregistered user. To remind these users to register in the system, select the users, click the More icon <img src="assets/more-icon.png"> in the toolbar, then select <b>Remind user to register</b>.</p> </td> 
+     </tr> 
     </tbody> 
    </table>
 

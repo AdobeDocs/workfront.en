@@ -30,21 +30,21 @@ Consider the following when creating recurring tasks in Workfront:
 * You cannot attach an approval to a parent recurring task. 
 * Workfront transfers most fields that you update for the parent recurrence when creating it to the children tasks.&nbsp;The following fields do not transfer to the children tasks when they are created:
 
-  * The Task Constraint of the children tasks automatically changes to:
+   * The Task Constraint of the children tasks automatically changes to:
 
-    * Must Start On for projects that are planned from Start Date. 
-    * Must Complete On for projects that are planned from Completion Date.
+      * Must Start On for projects that are planned from Start Date. 
+      * Must Complete On for projects that are planned from Completion Date.
 
-  * `<li> <p>Documents attached to the parent do not transfer to the children. </p> </li>`
+   * ```<li> <p>Documents attached to the parent do not transfer to the children. </p> </li>```
 
 * The following changes occur on the parent task after you indicate that the task is recurring:
 
-  * The Duration field is renamed to Duration per Occurrence for the parent task. It remains Duration for the children tasks. 
-  * Status is disabled on the parent task and it is automatically set to New on the children. The parent task automatically completes and the status updates to&nbsp;Complete when all children are completed. 
-  * The only Duration Types available for recurring tasks are:
+   * The Duration field is renamed to Duration per Occurrence for the parent task. It remains Duration for the children tasks. 
+   * Status is disabled on the parent task and it is automatically set to New on the children. The parent task automatically completes and the status updates to&nbsp;Complete when all children are completed. 
+   * The only Duration Types available for recurring tasks are:
 
-    * Simple
-    * Effort Driven
+      * Simple
+      * Effort Driven
 
 ## Considerations for editing recurring tasks
 
@@ -56,9 +56,9 @@ Some changes you make to a recurring task parent might not update on all existin
 
 The following table illustrates whether changes made to the parent trigger updates on the children that have not been individually edited or show progress:
 
-| `Fields updated on the parent task`  |Updates transfer to unedited children or children with no progress recorded |
+| ```Fields updated on the parent task```  |Updates transfer to unedited children or children with no progress recorded |
 |---|---|
-| `Recurrence Frequency*`  |✔ |
+| ```Recurrence Frequency*```  |✔ |
 | Assignments&#42;&#42; | ✔ |
 | Name | ✔ |
 | Description | ✔ |

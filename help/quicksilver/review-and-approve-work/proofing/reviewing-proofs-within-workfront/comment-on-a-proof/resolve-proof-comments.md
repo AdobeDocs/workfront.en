@@ -45,10 +45,10 @@ You must have the following access to perform the steps in this article:
 
 ## Resolve a comment
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
 1. Select the comment. 
 1. Click the check mark icon in the lower-right corner of the comment. A green check mark appears in the upper-left corner of the comment and a "Thread resolved" label and message appear below it. The user who submitted the comment receives a notification that the comment was resolved.
 
@@ -56,12 +56,12 @@ You must have the following access to perform the steps in this article:
 
 ## Reopen a resolved comment
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
 1. Select the comment.
-1. Click the green check mark icon in the lower-right corner of the comment (to the right of the `Reply` button). The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.
+1. Click the green check mark icon in the lower-right corner of the comment (to the right of the **Reply** button). The check mark in the upper-left corner of the comment disappears and a "Thread reopened" label and message appear below it. The user who submitted the comment receives a notification that the comment was reopened.
 
    ![](assets/reopen-resolved-comment-350x334.png)
 

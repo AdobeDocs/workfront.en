@@ -97,7 +97,9 @@ Before you begin, you must do the following:
 >
 >You can budget your resources for a period of 15 years. If you budget resources for a project with a duration longer than 15 years the budgeting information might not be accurate.>
 ><!-->
+><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>
+></MadCap:conditionalText>>
 >-->
 
 1. Go to the project for which you want to budget resources.
@@ -106,10 +108,10 @@ Before you begin, you must do the following:
    >
    >This is a project linked to an initiative in the Scenario Planner whose linked initiative has been published at least once.
 
-1. Click `Business Case` in the left panel.
-1. (Conditional) In the `Resource Budgeting` section, do one of the following:
+1. Click **Business Case** in the left panel.
+1. (Conditional) In the **Resource Budgeting** section, do one of the following:
 
-  * If you just published information from the Scenario Planner, select Scenario Planner in the `Choose which hours to use to calculate the Budgeted Labor Cost of the project` field in the Resource Budgeting area, then click `Choose`.
+  * If you just published information from the Scenario Planner, select Scenario Planner in the **Choose which hours to use to calculate the Budgeted Labor Cost of the project** field in the Resource Budgeting area, then click **Choose**.
 
     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
@@ -130,7 +132,7 @@ Before you begin, you must do the following:
     >  
     >
 
-1. (Optional) Click  `View in Scenario Planner` to open the plan that contains the initiative linked to the project. This opens the Scenario Planner in a new browser tab. 
+1. (Optional)&nbsp;Click&nbsp;**View in Scenario Planner** to open the plan that contains the initiative linked to the project. This opens the Scenario Planner in a new browser tab. 
 1. (Optional) Update information on the initiative. For more information, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/create-and-edit-initiatives.md).
 
    >[!NOTE]

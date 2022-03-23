@@ -4,6 +4,7 @@ product: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Update goals
 description: This should contain different ways of updating goals:
+hidefromtoc: true
 ---
 
 # Update goals

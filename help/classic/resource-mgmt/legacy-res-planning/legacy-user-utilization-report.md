@@ -37,10 +37,10 @@ Only system administrators and users with a Plan license can access the User Uti
 
 To access the User Utilization report:
 
-1. Go to the `People` area in the Global Navigation Bar.
-1. Select the `Legacy` `Resource Planning` tab.
+1. Go to the **People** area in the Global Navigation Bar.
+1. Select the **Legacy** **Resource Planning** tab.
 
-1. Select the `User Utilization` sub-tab to view the `User Utilization` report.  
+1. Select the **User Utilization** sub-tab to view the **User Utilization** report.  
    By default, when you navigate to this tab, you can see the utilization of all the users in your Home Team, for the next 30 days, on projects that are in Planning or Current statuses.  
    ![](assets/user-utilization-tab-for-my-home-team-350x146.png)
 
@@ -62,37 +62,37 @@ There are two sets of filters you can update to change the information in the Us
 * [Use project-specific filters in a User Utilization report](#using-project-specific-filters) 
 * [Use user-specific filters in a User Utilization report](#using-user-specific-filters)
 
-#### `Use project-specific filters in a User Utilization report`
+#### **Use project-specific filters in a User Utilization report**
 
 You can filter the data you display in the User Utilization report by project-specific information.
 
 To filter the User Utilization report by project-specific information:
 
-1. Go to the `User Utilization` report. For more information about accessing the User Utilization report, see [Access the User Utilization report](#accessing-the-user-utilization-report).
+1. Go to the **User Utilization** report. For more information about accessing the User Utilization report, see [Access the User Utilization report](#accessing-the-user-utilization-report).
 
 1. On the left-side panel, select from the following options:
 
-* `Calculate allocation for`: Select the time frame for when your resources are allocated to work. The time frame refers to the Planned Start Dates of the tasks assigned to the users in your report. Choose `Specific Dates` to enter a custom date range, or select from the following options:
-  `<blockquote>  <ul>   <li> <span class="bold">Next 30 Days</span> (this is the default): Includes dates between today and 30 days from today.</li>   <li><span class="bold">This Week</span>: Includes dates in the current week, where the week starts on Sunday and ends on Saturday.</li>   <li><span class="bold">Next Week</span>: Includes dates in the week following the current week, where the week starts on Sunday and ends on Saturday.</li>   <li><span class="bold">Last Week</span>: Includes dates in the week preceding the current week, where the week starts on Sunday and ends on Saturday.</li>   <li><span class="bold">This Month</span>: Includes dates in the current month.</li>   <li><span class="bold">Next Month</span>: Includes dates in the month following the current month.</li>   <li><span class="bold">Last Month</span>: Includes dates in the month preceding the current month.</li>   <li> <p><span class="bold">This Quarter</span>: Includes dates in the current quarter, where the standard quarters are defined as:</p> <p>-- First Quarter: January 1 - March 30.<br>-- Second Quarter: April 1 - June 30.<br>-- Third Quarter: July 1 - September 30.<br>-- Fourth Quarter: October 1 - December 30.</p> </li>   <li><span class="bold">Next Quarter</span>: Includes dates in the quarter following the current quarter, where the standard quarters are defined above.</li>   <li><span class="bold">Last Quarter</span>: Includes dates in the quarter preceding the current quarter, where the standard quarters are defined above.</li>   <li><span class="bold">This Year</span>: Includes dates in the current year, from January 1 to December 31.</li>   <li><span class="bold">Past Year</span>: Includes dates between a year ago today and today. </li>   <li><span class="bold">Last Year</span>: Includes dates in the year preceding the current year. </li>  </ul> </blockquote>` 
+* **Calculate allocation for**: Select the time frame for when your resources are allocated to work. The time frame refers to the Planned Start Dates of the tasks assigned to the users in your report. Choose **Specific Dates** to enter a custom date range, or select from the following options:
+  ```<blockquote>  <ul>   <li> <strong>Next 30 Days</strong> (this is the default): Includes dates between today and 30 days from today.</li>   <li><strong>This Week</strong>: Includes dates in the current week, where the week starts on Sunday and ends on Saturday.</li>   <li><strong>Next Week</strong>: Includes dates in the week following the current week, where the week starts on Sunday and ends on Saturday.</li>   <li><strong>Last Week</strong>: Includes dates in the week preceding the current week, where the week starts on Sunday and ends on Saturday.</li>   <li><strong>This Month</strong>: Includes dates in the current month.</li>   <li><strong>Next Month</strong>: Includes dates in the month following the current month.</li>   <li><strong>Last Month</strong>: Includes dates in the month preceding the current month.</li>   <li> <p><strong>This Quarter</strong>: Includes dates in the current quarter, where the standard quarters are defined as:</p> <p>-- First Quarter: January 1 - March 30.<br>-- Second Quarter: April 1 - June 30.<br>-- Third Quarter: July 1 - September 30.<br>-- Fourth Quarter: October 1 - December 30.</p> </li>   <li><strong>Next Quarter</strong>: Includes dates in the quarter following the current quarter, where the standard quarters are defined above.</li>   <li><strong>Last Quarter</strong>: Includes dates in the quarter preceding the current quarter, where the standard quarters are defined above.</li>   <li><strong>This Year</strong>: Includes dates in the current year, from January 1 to December 31.</li>   <li><strong>Past Year</strong>: Includes dates between a year ago today and today. </li>   <li><strong>Last Year</strong>: Includes dates in the year preceding the current year. </li>  </ul> </blockquote>``` 
 
-* `Show Planned/Projected/Actual allocation from ... to ... percent`: Specify the percentage range for the allocation of the users you want to see in the report, where the Planned, Projected, and Actual allocations are defined as follows:
+* **Show Planned/Projected/Actual allocation from ... to ... percent**: Specify the percentage range for the allocation of the users you want to see in the report, where the Planned, Projected, and Actual allocations are defined as follows:
 
-  * `Planned:` Shows what percentage of the work schedule of the user is already allocated to Planned Hours on the tasks the user is assigned to.  
-    For example, if a user is scheduled to work 8 hours a day, and a task is assigned to the user for 8 hours, the Planned Allocation is 100%.
-  
-  * `Projected:` Shows what percentage of the work schedule of the user is already allocated to Projected Hours on the tasks the user is assigned to.  
-    For example, if a user is scheduled to work 8 hours a day, and a task is assigned to the user with 8 Projected Hours, the Projected Allocation is 100%.
-  
-  * `Actual:` Shows what percentage of the work schedule of the user is already allocated to Actual Hours on the tasks the user is assigned to. The Actual Hours are the hours the user logged for the tasks they are assigned to.  
-    For example, if a user is scheduled to work 5 days a week for 8 hours each day, the work schedule for the user is 40 hours a week. If the user logged 10 hours this week to several of the tasks assigned to them, the Actual Allocation is 25%.
+   * **Planned:** Shows what percentage of the work schedule of the user is already allocated to Planned Hours on the tasks the user is assigned to.  
+     For example, if a user is scheduled to work 8 hours a day, and a task is assigned to the user for 8 hours, the Planned Allocation is 100%.
+   
+   * **Projected:** Shows what percentage of the work schedule of the user is already allocated to Projected Hours on the tasks the user is assigned to.  
+     For example, if a user is scheduled to work 8 hours a day, and a task is assigned to the user with 8 Projected Hours, the Projected Allocation is 100%.
+   
+   * **Actual:** Shows what percentage of the work schedule of the user is already allocated to Actual Hours on the tasks the user is assigned to. The Actual Hours are the hours the user logged for the tasks they are assigned to.  
+     For example, if a user is scheduled to work 5 days a week for 8 hours each day, the work schedule for the user is 40 hours a week. If the user logged 10 hours this week to several of the tasks assigned to them, the Actual Allocation is 25%.
 
-* `Only show hours from specific Projects/ Programs/ Portfolios/ Legacy Resource Pools/ Groups:` Select whether you want to search the allocation of users for specific projects, using the name of the project, program, portfolio, or whether you want to search by projects that are associated with a specific Legacy Resource Pool or Group. Select the criteria you want to search by from the options outlined above, then begin typing the name of the object you selected in the available field. Click to select it, when it appears in the drop-down list.
-* `With a project status of:` Select any project statuses that represent the projects that contain the allocation you want to review. You can select multiple project statuses in the checkbox list. 
-* `Include issue's hours:` Select this option to have the report show allocations on issues in addition to tasks. The User Utilization report shows the allocation of users on tasks by default.
+* **Only show hours from specific Projects/ Programs/ Portfolios/ Legacy Resource Pools/ Groups:** Select whether you want to search the allocation of users for specific projects, using the name of the project, program, portfolio, or whether you want to search by projects that are associated with a specific Legacy Resource Pool or Group. Select the criteria you want to search by from the options outlined above, then begin typing the name of the object you selected in the available field. Click to select it, when it appears in the drop-down list.
+* **With a project status of:** Select any project statuses that represent the projects that contain the allocation you want to review. You can select multiple project statuses in the checkbox list. 
+* **Include issue's hours:** Select this option to have the report show allocations on issues in addition to tasks. The User Utilization report shows the allocation of users on tasks by default.
 
-`<li>3. Click <span class="bold">Update Results</span>.<br> The results of the report should update according to the information you specified in your filters. </li>` 
+```<li>3. Click <strong>Update Results</strong>.<br> The results of the report should update according to the information you specified in your filters. </li>``` 
 
-#### `Use user-specific filters in a User Utilization report`
+#### **Use user-specific filters in a User Utilization report**
 
 In addition to the project-specific filters you can build to update the information in the User Utilization Report, you can also build a user-specific filter to search for specific users in this report.
 
@@ -101,10 +101,10 @@ To build a user-specific filter for the User Utilization report:
 1. Go to the User Utilization report.   
    For more information about accessing the User Utilization report, see [Access the User Utilization report](#accessing-the-user-utilization-report).
 
-1. Click to expand the `Filter`.  
-   The default filter for this field is `My Home Team`. 
+1. Click to expand the **Filter**.  
+   The default filter for this field is **My Home Team**. 
 
-1. Click `Customize Filter`.   
+1. Click **Customize Filter**.   
    For more information about editing a filter, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Apply the custom filter you created and the results in the report should update according to the fields you selected in your filter.
@@ -117,11 +117,11 @@ You cannot modify or create a new View on the User Utilization report. You can o
 
 To change the view of the User Utilization report:
 
-1. Go to the `User Utilization` report.   
+1. Go to the **User Utilization** report.   
    For more information about accessing the User Utilization report, see [Access the User Utilization report](#accessing-the-user-utilization-report).
 
-1. Click to expand the `View`.   
-   The default view for this report is `Allocation`.
+1. Click to expand the**View**.   
+   The default view for this report is **Allocation**.
 
 1. Select from the following options to change the view of the report:
 
@@ -131,88 +131,88 @@ To change the view of the User Utilization report:
 * [Planned Hours view in the User Utilization report](#planned-hours-view) 
 * [Projected Hours view in the User Utilization report](#projected-hours-view)
 
-#### `Actual Hours view in the User Utilization report`
+#### **Actual Hours view in the User Utilization report**
 
 The Actual Hours view is a preconfigured view which displays information about Actual Hours logged against tasks in relation to the available work hours as defined by the schedule of the user.  
 ![](assets/user-utilization-actual-hours-view-350x58.png)
 
 The Actual Hours view displays the following utilization information when applied to the User Utilization report:
 
-* `Name`: The name of the user for whom you are displaying the allocation.
-* `Job Role`: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* **Name**: The name of the user for whom you are displaying the allocation.
+* **Job Role**: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* `Total Actual Hours`: Displays as two numbers separated by a slash.   
+* **Total Actual Hours**: Displays as two numbers separated by a slash.   
   For example "0/176". This means that the user logged 0 hours during the timeframe selected in the User Utilization report out of the 176 hours available to work during the same time frame, as defined by the schedule associated with the user. 
 
-* `Actual Hours per Day`: Displays as two numbers separated by a slash. The numbers represent the average number of daily hours the user logged against the number of daily average available hours as defined by the schedule associated with the user.  
+* **Actual Hours per Day**: Displays as two numbers separated by a slash. The numbers represent the average number of daily hours the user logged against the number of daily average available hours as defined by the schedule associated with the user.  
   For example "0/8". This means the user logged 0 hours a day, and they are scheduled to work an average of 8 hours a day, during the time frame selected in the User Utilization report. 
 
-* `Actual Allocation`: The actual time logged by the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.
+* **Actual Allocation**: The actual time logged by the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.
 
-#### `All Hours view in the User Utilization report`
+#### **All Hours view in the User Utilization report**
 
 The All Hours View is a preconfigured view which displays information about hour totals for various types of allocations (Actual, Planned, and Projected).  
 ![](assets/user-utilization-all-hours-view-350x59.png)
 
 The All Hours view displays the following fields when applied to the User Utilization report:
 
-* `Name`: The name of the user for whom you are displaying the allocation.
-* `Job Role`: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* **Name**: The name of the user for whom you are displaying the allocation.
+* **Job Role**: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* `Available Hours`: The total number of hours that the user has available to work in the time frame selected for the User Utilization Report, according to the schedule associated with the user.
-* `Total Planned Hours`: The total number of all Planned Hours associated with the tasks assigned to the user during the time frame selected for the User Utilization report. 
-* `Total Projected Hours`: The total number of all Projected Hours associated with the tasks assigned to the user during the time frame selected for the User Utilization report. 
-* `Total Actual Hours`: The total number of hours actually logged by the user against the tasks and the issues assigned to the user, during the time frame selected for the User Utilization report.
+* **Available Hours**: The total number of hours that the user has available to work in the time frame selected for the User Utilization Report, according to the schedule associated with the user.
+* **Total Planned Hours**: The total number of all Planned Hours associated with the tasks assigned to the user during the time frame selected for the User Utilization report. 
+* **Total Projected Hours**: The total number of all Projected Hours associated with the tasks assigned to the user during the time frame selected for the User Utilization report. 
+* **Total Actual Hours**: The total number of hours actually logged by the user against the tasks and the issues assigned to the user, during the time frame selected for the User Utilization report.
 
-#### `Allocation view in the User Utilization report`
+#### **Allocation view in the User Utilization report**
 
 The Allocation View is a preconfigured view which is the default view for the User Utilization report. The view displays information about the Planned, Projected and Actual allocation of the user, as a percentage.  
 ![](assets/user-utilization-allocation-view-350x59.png)
 
 The Allocation view displays the following fields when applied to the User Utilization report:
 
-* `Name`: The name of the user for whom you are displaying the allocation.
-* `Job Role`: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* **Name**: The name of the user for whom you are displaying the allocation.
+* **Job Role**: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* `Planned Allocation`: The Planned Hours of all the tasks and issues assigned to the user as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
-* `Projected Allocation`: The Projected Hours of all the tasks and issues assigned to the user as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
-* `Actual Allocation`: The Actual Hours logged by the user against all the tasks and issues assigned to them as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
+* **Planned Allocation**: The Planned Hours of all the tasks and issues assigned to the user as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
+* **Projected Allocation**: The Projected Hours of all the tasks and issues assigned to the user as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
+* **Actual Allocation**: The Actual Hours logged by the user against all the tasks and issues assigned to them as a percentage from the total work time available according to the schedule associated with the user during the time frame selected for the User Utilization report.
 
-#### `Planned Hours view in the User Utilization report`
+#### **Planned Hours view in the User Utilization report**
 
 The Planned Hours view is a preconfigured view which displays information about the Planned Hours on the tasks assigned to the user in relation to the available work hours as defined by the schedule of the user.  
 ![](assets/user-utilization-planned-hours-view-350x58.png)
 
 The Planned Hours view displays the following fields when applied to the User Utilization report:
 
-* `Name`: The name of the user for whom you are displaying the allocation.
-* `Job Role`: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* **Name**: The name of the user for whom you are displaying the allocation.
+* **Job Role**: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* `Total Planned Hours`: Displays as two numbers separated by a slash.   
+* **Total Planned Hours**: Displays as two numbers separated by a slash.   
   For example "35/176". This means that there are a total of 35 Planned Hours on the tasks and issues assigned to the user during the timeframe selected in the User Utilization report out of the 176 hours available to work during the same time frame, as defined by the schedule associated with the user. 
 
-* `Avg Planned Hrs per Day`: Displays as two numbers separated by a slash. The numbers represent the average number of Planned Hours associated with the tasks assigned to the user against the average number of available work hours per day as defined by the schedule associated with the user.  
+* **Avg Planned Hrs per Day**: Displays as two numbers separated by a slash. The numbers represent the average number of Planned Hours associated with the tasks assigned to the user against the average number of available work hours per day as defined by the schedule associated with the user.  
   For example "1.6/8". This means the user is allocated an average number of 1.6 hours a day out of the average of 8 hours per day available to work, during the time frame selected in the User Utilization report, according to the schedule associated with the user. 
 
-* `Planned Allocation`: The Planned Hours associated with the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.  
+* **Planned Allocation**: The Planned Hours associated with the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.  
   For example, if the user is allocated to 35 Planned Hours and they have 176 of total work hours available in the time frame selected in the User Utilization report, then their Planned Allocation is 19.89%.
 
-#### `Projected Hours view in the User Utilization report`
+#### **Projected Hours view in the User Utilization report**
 
 The Projected Hours view is a preconfigured view which displays information about the Projected Hours on the tasks assigned to the user in relation to the available work hours as defined by the schedule of the user.  
 ![](assets/user-utilization-projected-hours-view-350x60.png)
 
 The Projected Hours view displays the following fields when applied to the User Utilization report:
 
-* `Name`: The name of the user for whom you are displaying the allocation.
-* `Job Role`: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* **Name**: The name of the user for whom you are displaying the allocation.
+* **Job Role**: The primary job role associated with the user. For more information about the primary roles of users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* `Total Projected Hours`: Displays as two numbers separated by a slash.   
+* **Total Projected Hours**: Displays as two numbers separated by a slash.   
   For example "35/168". This means that there are a total of 35 Projected Hours on the tasks and issues assigned to the user during the timeframe selected in the User Utilization report out of the 176 hours available to work during the same time frame, as defined by the schedule associated with the user.
 
-* `Avg Projected Hrs per Day`: Displays as two numbers separated by a slash. The numbers represent the average number of Projected Hours associated with the tasks assigned to the user against the average number of available work hours per day as defined by the schedule associated with the user.  
+* **Avg Projected Hrs per Day**: Displays as two numbers separated by a slash. The numbers represent the average number of Projected Hours associated with the tasks assigned to the user against the average number of available work hours per day as defined by the schedule associated with the user.  
   For example "1.67/8". This means the user is allocated an average number of 1.67 Projected Hours a day out of the average of 8 hours per day available to work, during the time frame selected in the User Utilization report, according to the schedule associated with the user. 
 
-* `Projected Allocation`: The Projected Hours associated with the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.   
+* **Projected Allocation**: The Projected Hours associated with the user in the time frame selected in the User Utilization report as a percentage of hours from the total hours available to work during the same time frame, as defined by the schedule associated with the user.   
   For example, if the user is allocated to 35 Projected Hours and they have 168 work hours available for the time frame selected in the User Utilization report, then their Projected Allocation is 20.84%.
 

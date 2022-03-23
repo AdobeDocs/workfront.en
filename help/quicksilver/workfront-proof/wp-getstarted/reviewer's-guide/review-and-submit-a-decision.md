@@ -5,6 +5,7 @@ product-area: documents;system-administration;user-management;setup
 navigation-topic: personal-settings
 title: Review and submit a decision in Workfront Proof - Reviewer's Guide
 description: In this short instruction we present our new ProofHQ Viewer which highlights the benefits and new functionalities. You may still come across the proofs created in our Classic ProofHQ Viewer. If the proofs shared with you open in a viewer that looks different to the one presented here, check out our Reviewer’s Guide for the Classic ProofHQ Viewer.
+hidefromtoc: true
 ---
 
 # Review and submit a decision in Workfront Proof - Reviewer's Guide
@@ -24,7 +25,7 @@ To start the proofing process:
 1. Open the message in your inbox
 1. Click the blue "Go to proof" button
 
-The `Go to proof` button launches your default web browser and it will take you to the proof. The interface you see is called the ProofHQ Viewer and the proof awaiting your review will be displayed inside.
+The **Go to proof** button launches your default web browser and it will take you to the proof. The interface you see is called the ProofHQ Viewer and the proof awaiting your review will be displayed inside.
 
 ## Add comments and markups
 
@@ -32,7 +33,7 @@ You can navigate through the proof pages using the tools (1) at the bottom of th
 
 If you want to add a comment to the proof, or to mark-up an area of the proof:
 
-1. Click the orange `Add Comment` button (2)
+1. Click the orange **Add Comment** button (2)
 
    ![](assets/reviewer's-guide---reviewing-350x191.png)
 
@@ -41,7 +42,7 @@ If you want to add a comment to the proof, or to mark-up an area of the proof:
 1. Use the rectangle tool to draw a simple box shape. Pencil (freehand tool) is great for more precise and complex selections. Use the line tool to draw straight lines or polyline to create various shapes. Add arrows to call something out or indicate a piece of text. The marker tool can be a great highlighter and with the crop tool you can indicate a trim area. Change markups color, thickness, or delete markups.
 1. ![Reviewer_s_guide_-_reviewing_2.png](assets/reviewer's-guide---reviewing-2-350x195.png)
 
-1. Click `Save` (5) when you are finished
+1. Click **Save** (5) when you are finished
 
 As soon as you save your comment a new comment box will activate so you can continue your work without any additional clicks.
 
@@ -49,7 +50,7 @@ As soon as you save your comment a new comment box will activate so you can cont
 >
 >While in the commenting mode use the “Shift” and the “Space bar” keys to switch between Pan and Zoom mode.
 
-`Annotating text`
+**Annotating text**
 
 If you are reviewing a proof that contains text that is selectable, then you will see the text annotation tool (6) activated in the markups toolbar.
 
@@ -78,7 +79,7 @@ To view these comments and respond:
 
 1. In the comment list, click on the comment you wish to view (1).
 1. Click and type in the text field (2) of the comment box to reply to a comment.
-1. Click `Save`.
+1. Click **Save**.
 
 ![Reviewer_s_guide_-_reviewing_4.png](assets/reviewer's-guide---reviewing-350x191.png)
 

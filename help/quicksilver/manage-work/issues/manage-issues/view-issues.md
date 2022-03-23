@@ -24,7 +24,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> <p>Review or higher license to view issues in the Issues sectionof a project.</p> </td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to view issues in the Issues section of a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -43,13 +43,14 @@ You must have the following access to perform the steps in this article:
 
 To view issues on a project, task, or iteration:&nbsp;
 
-1. Open a project, task, or iteration that contains issues, then click Issues in the left panel.  
+1. Open a project, task, or iteration that contains issues, then click **Issues** in the left panel.   
 
-1. &nbsp;From the Filter drop-down menu, click any of the filters listed below:
+1. &nbsp;From the **Filter** drop-down menu, click any of the filters listed below:
 
-  * Open: Displays issues that are open. This includes those associated with a Resolving Object and those in a Closed - Pending Approval status. For information about Resolving Objects, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
-  * `Completed` `:`&nbsp;Displays&nbsp;all issues that have an Actual&nbsp;Completion Date.&nbsp;
-  * `All` `:`&nbsp;Displays&nbsp;all issues.
+  * **Open:** Displays issues that are open.    This includes those associated with a Resolving Object and those in a Closed - Pending Approval status. For information about Resolving Objects, see [Overview of Resolving and Resolvable Objects](../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md).
+  
+  * **Completed****:**&nbsp;Displays&nbsp;all issues that have an Actual&nbsp;Completion Date.&nbsp;
+  * **All****:**&nbsp;Displays&nbsp;all issues.
 
 ## Understand information about issues
 
@@ -57,8 +58,8 @@ You can view information about an issue when you access it.&nbsp;
 
 To access an issue and view information about it:&nbsp;
 
-1. Open a project, task, or iteration that contains issues, then click Issues in the left panel. 
-1. From the Filter drop-down menu, select the filter to display the issues you are trying to view.
+1. Open a project, task, or iteration that contains issues, then click **Issues** in the left panel.  
+1. From the **Filter** drop-down menu, select the filter to display the issues you are trying to view.
 
    Select from the following:
 
@@ -72,38 +73,38 @@ To access an issue and view information about it:&nbsp;
 
 1. &nbsp;From the left panel, click any of the following to view more information about the issue:
 
-  * `Updates`:&nbsp;You can perform the following actions :
+  * **Updates**:&nbsp;You can perform the following actions :
 
     * Comment on the issue, or reply to an existing comment.&nbsp;
     * Log time.
     * Change the status of the issue.  
       For more information about updating work in Workfront, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-  * `Documents`: Attach documents to the issue. For more information about adding documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+  * **Documents**: Attach documents to the issue. For more information about adding documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
   
-  * `Issue Details`: Expand this link to display the Overview and Custom Forms areas.  
+  * **Issue Details**:  Expand this link to display the **Overview** and **Custom Forms** areas.  
     If you have manage permissions to the issue and edit rights on the custom form, you can edit some of the information here.  
-    View or edit the following fields in the Overview area:
+    View or edit the following fields in the **Overview** area:
 
-    * `Name`
-    * `Path`: the path through which the issue was logged to the project.
+    * **Name**
+    * **Path**: the path through which the issue was logged to the project.
 
       &nbsp;If an issue was submitted as a request in&nbsp;a request queue, the names of the project, the Topic Group, and the Queue Topic are listed here. This field cannot be edited.
 
       For more information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
     
-    * `Description`
-    * `URL`: any web address related to the issue.
-    * `Priority`: a visual flag which allows you to prioritize issues.&nbsp;
-    * `Severity`:&nbsp;a visual flag which indicates&nbsp;how severe the problem described in the issue is.
-    * `Primary Contact`: the default Primary Contact is the user who created the issue. This field can be edited.
-    * `Planned Hours`: displays the amount of time that will take someone to complete the issue. The default is 8 hours. This field can be edited.
-    * `Actual Hours`: displays the amount of time that&nbsp;it took to complete the issue. This is the actual time that someone logs for the issue.&nbsp;
-    * `Planned Start Date`: the date when the issue is planned to start. The default is the date and the time when the issue was created.&nbsp;
-    * `Actual Start Date`: the date and the time when the issue status was changed to In Progress.
-    * `Planned Completion Date`: the date when the issue is planned to be completed.&nbsp;
-    * `Actual Completion Date`: the date when the issue is actually completed. This field is filled in automatically when the issue status changes to Closed or Resolved, or can be manually edited.&nbsp;
-    * `Actual Cost`: the cost based on the Actual Hours logged on the issue. This field is not editable. The Actual Cost of an issue is calculated based on the following formula:&nbsp;
+    * **Description**
+    * **URL**: any web address related to the issue.
+    * **Priority**: a visual flag which allows you to prioritize issues.&nbsp;
+    * **Severity**:&nbsp;a visual flag which indicates&nbsp;how severe the problem described in the issue is.
+    * **Primary Contact**: the default Primary Contact is the user who created the issue. This field can be edited.
+    * **Planned Hours**: displays the amount of time that will take someone to complete the issue. The default is 8 hours. This field can be edited.
+    * **Actual Hours**: displays the amount of time that&nbsp;it took to complete the issue. This is the actual time that someone logs for the issue.&nbsp;
+    * **Planned Start Date**: the date when the issue is planned to start. The default is the date and the time when the issue was created.&nbsp;
+    * **Actual Start Date**: the date and the time when the issue status was changed to In Progress.
+    * **Planned Completion Date**: the date when the issue is planned to be completed.&nbsp;
+    * **Actual Completion Date**: the date when the issue is actually completed. This field is filled in automatically when the issue status changes to Closed or Resolved, or can be manually edited.&nbsp;
+    * **Actual Cost**: the cost based on the Actual Hours logged on the issue. This field is not editable. The Actual Cost of an issue is calculated based on the following formula:&nbsp;
 
       ```    
       Issue Actual Cost = Hours Logged * User Cost Rate
@@ -111,13 +112,13 @@ To access an issue and view information about it:&nbsp;
     
       , where the User&nbsp;Cost Rate is the cost rate associated with the user logging the time to the issue.&nbsp;
     
-    * `Entered By`: this is the user who created the issue. This field is not editable.
-    * `Last Updated By`: this is the user who updated any field on the issue last. This field is not editable.&nbsp;
+    * **Entered By**: this is the user who created the issue. This field is not editable.
+    * **Last Updated By**: this is the user who updated any field on the issue last. This field is not editable.&nbsp;
 
-    In the `Custom Forms` area, view of select one or several custom forms to associate with the issue. 
+    In the **Custom Forms** area , view of select one or several custom forms to associate with the issue. 
   
-  * `Hours`: Shows a list of hour entries on the issue.
-  * `Approvals:` Shows the approval paths associated with the issue.  
+  * **Hours**: Shows a list of hour entries on the issue.
+  * **Approvals:** Shows the approval paths associated with the issue.  
     For more information about associating approvals with an issue, see the [Associating an approval process with a work item](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md#associating-the-approval-process-with-an-object) section in [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
 ## View which projects and&nbsp;tasks have issues
@@ -126,13 +127,13 @@ You can add icons in the view of a project or task report or list to show whethe
 
 To add icons that display whether a project has issues in a project report:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click Reporting>New Report>Project Report. 
-1. In the `Show in this column` field, start typing `Status Icons`, then select it when it appears in the list.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click **Reporting**>**New Report**>**Project Report**. 
+1. In the **Show in this column** field, start typing **Status Icons**, then select it when it appears in the list.
 
-1. Click `Save + Close` .
+1. Click **Save + Close** .
 
-   The issue icons display on the projects that have issues in the `Status Icons` column.
+   The issue icons display on the projects that have issues in the **Status Icons** column.
 
    ![project_list_with_issue_icon.png](assets/project-list-with-issue-icon-350x42.png)
 

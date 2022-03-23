@@ -12,7 +12,7 @@ If multiple exchange rates have been configured in Adobe Workfront, you can set 
 
 >[!IMPORTANT]
 >
->If you select a currency other than the default currency in a View, you no longer see the links `Add More Tasks` and `Add More Issues` at the bottom of a project list.
+>If you select a currency other than the default currency in a View, you no longer see the links **Add More Tasks** and **Add More Issues** at the bottom of a project list.
 
 For information about how to change the default currency for a given project, see [Change the project currency](../../../manage-work/projects/project-finances/change-project-currency.md).
 
@@ -56,7 +56,7 @@ Before you can view alternate currencies as described in this section, the Workf
 To convert financial values between currencies when working with reports:
 
 1. Go to the report where you want to convert financial values to a different currency.
-1. Click the `View` drop-down list, click `Change Currency`, then select one of the following currencies that you want to display financial values in:
+1. Click the **View** drop-down list, click **Change Currency**, then select one of the following currencies that you want to display financial values in:
 
   * Project's Original&nbsp;Currency
   * Any of the other currencies
@@ -67,8 +67,15 @@ To convert financial values between currencies when working with reports:
 
    Using this option allows you to quickly convert financial values in a report between rate values.
 
+   ![Change currency](assets/qs-change-currency-2022-350x257.png)  
+
    <!--
-   Tip: You can also select the Change Currency option to convert financial values in other lists.
+   <note type="tip">
+   You can also select the Change Currency option to convert financial values in other lists.
+   <br>
+   <br>
+   <br>
+   </note>
    -->
 
 ## Display the Default Currency across multiple projects with different currencies
@@ -87,23 +94,25 @@ To display two projects with custom currencies in a report:
 
    For more information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Click the Main Menu icon , then click Reporting. 
-1. Click `New Report`, then `Project Report`.
-1. In the `Columns (View)` tab, add an `Actual Cost` column and summarize it by `Sum`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click **Reporting**. 
+1. Click **New Report**, then **Project Report**.
+1. In the **Columns (View)** tab, add an **Actual Cost** column and summarize it by **Sum**.
 
    For information on how to create a column, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In the `Groupings` tab, apply a `Planned Completion Date` grouping.
+1. In the **Groupings** tab, apply a **Planned Completion Date** grouping.
 
    For information on how to create a grouping, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. In the `Filters` tab, add a filter for `Project Name` and select the two projects with the different currencies.
+1. In the **Filters** tab, add a filter for **Project Name** and select the two projects with the different currencies.
 
    For information on how to create a filter, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click `Save + Close`.
+1. Click **Save + Close**.
 
-   The total of the `Actual Cost` is displayed in the Grouping using the system default currency, regardless of the currency of the projects in the report.
+   The total of the **Actual Cost** is displayed in the Grouping using the system default currency, regardless of the currency of the projects in the report.
+
+   ![Currency displayed in grouping](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    If the two projects have different currencies from one another, the system default currency also displays in the Grouping of the report.
 
@@ -120,14 +129,14 @@ If a grouping is applied on a task or hour list within a project, the sums in th
    >
    >The tasks should be assigned to users or job roles with Rate per Hour cost rates.
 
-1. Click Tasks. 
-1. Expand the `View` drop-down menu and select `New View`.
-1. Add `Actual Cost` in the new View as a new column, and summarize it by `Sum`.
-1. Click `Done`, then click `Save View`.
-1. Expand the `Grouping` drop-down menu and select `New Grouping`.
-1. Add `Actual Completion Date` in the new grouping as a new field, then click `Save Grouping`.
+1. Click **Tasks**. 
+1. Expand the **View** drop-down menu and select **New View**.
+1. Add **Actual Cost** in the new View as a new column, and summarize it by **Sum**.
+1. Click **Done**, then click **Save View**.
+1. Expand the **Grouping** drop-down menu and select **New Grouping**.
+1. Add **Actual Completion Date** in the new grouping as a new field, then click **Save Grouping**.
 
-   The `Actual Cost` column summarizes in the new Grouping and displays the total in the currency of the project.
+   The **Actual Cost** column summarizes in the new Grouping and displays the total in the currency of the project.
 
 ## Edit reports with unique currencies
 
@@ -142,9 +151,9 @@ To in-line edit a financial field in a report:
    >If the default currency does not display for a list in any other area, you can edit the View to display the default currency.  
    >For information on how to change the currency in a View, see the section in this article [Apply financial values to a report](#applying-financial-values-to-a-report).
 
-1. Click `Report Actions`, then select `Edit`.
-1. Click `Report Settings`.
-1. Click the `Default Currency` drop-down, then select `Project's Original Currency`.
+1. Click **Report Actions**, then select **Edit**.
+1. Click **Report Settings**.
+1. Click the **Default Currency** drop-down, then select **Project's Original Currency**.
 
-1. Click `Done`.
+1. Click **Done**.
 

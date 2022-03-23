@@ -44,10 +44,12 @@ You must have the following to perform the steps in this article:
 
 ## Create or edit a status for a group
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
+1. Groups
+1. 
 1. Click the name of the group where you want to create or customize statuses.
-1. In the left panel, click Statuses. 
+1. In the left panel, click **Statuses**. 
 
    If the group you are viewing is a top-level group, the list that displays includes the following:
 
@@ -61,17 +63,21 @@ You must have the following to perform the steps in this article:
 
     After a subgroup is created, unlocked statuses that are created in the groups above it are not included in the subgroup’s status list. However, if someone locks one of them later, it is then included in the subgroup’s status list. For more information, see [How groups inherit statuses](../../../administration-and-setup/manage-groups/manage-group-statuses/how-groups-inherit-statuses.md).
 
-1. Select the tab of the object type ( `Project`, `Tasks`, or `Issues`) that you want to associate with the status.
+1. Select the tab of the object type (**Project**, **Tasks**, or **Issues**) that you want to associate with the status.
 
-1. (Conditional) If the status is an issue status, make sure that `Master List` is selected.
+1. (Conditional) If the status is an issue status, make sure that **Master List** is selected.
+
+   ![](assets/screenshot-2016-05-10-17.29.08-350x185.png)
 
    For information about customizing the other issue types (Bug Report, Change Order, Issue, Request), see [Customize default issue types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
-1. (Conditional) To create a new status, click `Add a New Status`.
+1. (Conditional) To create a new status, click **Add a New Status**.
 
    Or
 
-   To edit an existing status, mouse over the status you want to edit, then click the `Edit` option that displays to the far right.
+   To edit an existing status, mouse over the status you want to edit, then click the **Edit** option that displays to the far right.
+
+   ![](assets/group-statuses-edit-350x201.jpg)
 
    >[!NOTE]
    >
@@ -114,7 +120,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Color</td> 
-      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p>  </td> 
+      <td> <p>Customize the color of the status by clicking the color field and selecting a color from the swatch panel. You can also enter a hex number in the field.</p> <p>The status color displays in the upper-right corner of Workfront when a user views the object.</p>  <img src="assets/status-color-350x211.png" style="width: 350;height: 211;">  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Equates With</td> 
@@ -126,18 +132,25 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Hide Status</td> 
-      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all subgroups below the group can use the status.</p> <p>Tip: You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
+      <td> <p>(Project and Task statuses only)</p> <p>Enable this option if you want the status hidden from users. When it is disabled (the default setting), all <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
+         subgroups below the group
+        </MadCap:conditionalText> can use the status.</p> <p>Tip: You can hide an Issue status by disabling all 4 issue types (Bug Report, Change Order, Issue, Request).</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lock for all groups</td> 
-      <td> If you leave this option enabled, the users in your group and its subgroups can see and use the status and group administrators cannot customize it for lower subgroups. When this option is disabled, group administrators can customize the status for lower subgroups. For more information about locking statuses, see Locking or unlocking a custom group status. </td> 
+      <td> <p data-mc-conditions="SnippetConditions-wf-groups.groups">If you leave this option enabled, the users in your group and its subgroups can see and use the status and group administrators cannot customize it for lower subgroups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">When this option is disabled, group administrators can customize the status for lower subgroups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">For more information about locking statuses, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/lock-or-unlock-a-custom-group-status.md" class="MCXref xref">Locking or unlocking a custom group status</a>.</p> </td> 
      </tr> <!--
-      Users can select this status only if required fields on the object are completed (Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed. This story is on the back burner
+      <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+       <td role="rowheader"><span class="preview">Users can select this status only if required fields on the object are completed</span> </td> 
+       <td> <p><span class="preview">(Applies only if you selected Tasks in Step 3) Assures that users can select this status for an object only if all required fields on the object are completed.</span> </p> <!--
+         <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This story is on the back burner</p>
+        --> </td> 
+      </tr>
      --> 
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 
    The status is now available for all projects associated with your group or subgroup. If you locked it, it is available for use by any lower subgroups.
 
@@ -155,16 +168,16 @@ If you are a group administrator (or a Workfront administrator), you can create 
 
    If you are a group administrator (or Workfront administrator), create an unlocked group status as described in [Create or edit a group status](#).
 
-1. In the box in the upper-right corner, delete `System Statuses`, begin typing the name of a group where you want to hide the status, then click the name when it appears.
-1. Hover over the status you want to hide from the group, then click `Edit` when it appears.
+1. In the box in the upper-right corner, delete **System Statuses**, begin typing the name of a group where you want to hide the status, then click the name when it appears.
+1. Hover over the status you want to hide from the group, then click **Edit** when it appears.
 
    ![](assets/hover-click-edit-350x148.jpg)
 
-1. Enable the `Hide Status` option that appears.
+1. Enable the **Hide Status** option that appears.
 
    ![](assets/hide-group-status-350x114.png)
 
-1. Click `Save`.
+1. Click **Save**.
 
    The status is dimmed and no longer visible to all users in that group.
 

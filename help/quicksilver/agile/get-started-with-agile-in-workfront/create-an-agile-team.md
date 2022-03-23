@@ -14,9 +14,9 @@ Any user in the organization can see the agile team and view all agile component
 
 Workfront supports the following agile methodologies:
 
-* `Scrum`: Teams have a backlog of work that needs to be done. When the team is ready to work on a specific chunk of work, the work is moved from the backlog to an iteration. For more detailed information about managing a Scrum team, see [Scrum in an agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
+* **Scrum**: Teams have a backlog of work that needs to be done. When the team is ready to work on a specific chunk of work, the work is moved from the backlog to an iteration. For more detailed information about managing a Scrum team, see [Scrum in an agile team](../../agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md).
 
-* `Kanban:` Teams move work in&nbsp;the Kanban view across predetermined&nbsp;statuses. Default statuses are: backlog, in-process, and done. For more detailed information about managing a Kanban&nbsp;team, see [Kanban in an agile team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
+* **Kanban:** Teams move work in&nbsp;the Kanban view across predetermined&nbsp;statuses. Default statuses are: backlog, in-process, and done. For more detailed information about managing a Kanban&nbsp;team, see [Kanban in an agile team](../../agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md).
 
 ## Access requirements
 
@@ -78,6 +78,12 @@ The following functionality supports this methodology:
 
 ## Create a new agile team
 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. Click the **Switch Teams** icon ![Switch team icon](assets/switch-team-icon.png), then click **Create New Team**.
+
+   ![Select Create new team.](assets/create-new-team-350x198.png)
+
 1. Specify the following information on the New Team dialog:
 
    <table cellspacing="0"> 
@@ -85,25 +91,27 @@ The following functionality supports this methodology:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Team Name</span> </td> 
+      <td role="rowheader"><strong>Team Name</strong> </td> 
       <td>Type a name for the new agile team.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">This is an Agile Team</span> </td> 
+      <td role="rowheader"><strong>This is an Agile Team</strong> </td> 
       <td>Select this option to configure this new team to be an agile team.</td> 
-     </tr> Group Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list. Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow to list all of the teams that are assigned to the groups that they manage. 
+     </tr>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"><strong>Group</strong> </td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>Begin typing the name of a group to add to the team, then select the name when it appears in the drop-down list.</p> <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td>  
      <tr> 
-      <td role="rowheader"><span class="bold">Team Members</span> </td> 
+      <td role="rowheader"><strong>Team Members</strong> </td> 
       <td>Begin typing the name of a user to be on the team, then select the name when it appears in the drop-down list.<br>Repeat this process to add multiple users to the team.<br>Because users can be on more than one team, they can be on both agile and non-agile teams.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>Type a description for the team.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Create`.
+1. Click **Create**.
 
    For information on configuring an Agile team, see the following articles:
 
@@ -114,12 +122,21 @@ The following functionality supports this methodology:
 
 You can&nbsp;convert an existing team to be&nbsp;an agile team:
 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. Switch team
+1. 
 1. Select the team that you want to convert to an agile team.
-1. In the `Agile` section, select  `This is an Agile Team`.
+1. More
+1. Edit
+1. 
+1. 
+1. 
+1. In the **Agile**&nbsp;section, select&nbsp;**This is an Agile Team**.
 
-1. In the `Methodology` section, select whether the team will be using a  `Scrum` or  `Kanban`&nbsp;agile methodology.  
+1. In the **Methodology** section, select whether the team will be using a&nbsp;**Scrum**&nbsp;or&nbsp;**Kanban**&nbsp;agile methodology.  
 
-1. Click  `Save Changes.`
+1. Click&nbsp;**Save Changes.**
 
    For information on configuring an Agile team, see the following articles:
 

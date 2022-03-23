@@ -37,10 +37,17 @@ You must have the following access to perform the steps in this article:
 
 ## Resize the burndown chart
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. Go to the iteration 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    or project
+   </MadCap:conditionalText>
    -->
 
    that contains the burndown chart you want to resize.
@@ -49,10 +56,16 @@ You must have the following access to perform the steps in this article:
 
 ## Collapse the burndown chart
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
 1. Go to the iteration 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    or project
+   </MadCap:conditionalText>
    -->
 
    that contains the burndown chart you want to collapse.

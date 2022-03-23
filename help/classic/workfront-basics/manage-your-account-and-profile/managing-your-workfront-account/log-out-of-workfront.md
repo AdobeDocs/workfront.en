@@ -39,6 +39,9 @@ You must have the following access to perform the steps in this article:
 
 ## Log out of your Workfront account
 
-1. Click your avatar in the upper-right corner of the Global Navigation Bar, then click Logout. 
+1. Click your avatar in the upper-right corner of the Global Navigation Bar, then click **Logout**. 
+
+   ![](assets/log-out-link-350x155.png)
+
 1. This returns you to the login page where you can re-enter your username and password.
 

@@ -39,16 +39,16 @@ To identify possible configuration changes needed for your transition:
 
    Consider the following areas when exploring Workfront :
 
-  * Home
-  * The Workload Balancer
-  * The Resource Planner
-  * The Portfolio Optimizer
-  * Documents
-  * Projects with large numbers of tasks or issues
-  * Large update streams
-  * Reports with large amounts of data
-  * Reports that use complex calculations 
-  * Any other areas that your organization uses
+   * Home
+   * The Workload Balancer
+   * The Resource Planner
+   * The Portfolio Optimizer
+   * Documents
+   * Projects with large numbers of tasks or issues
+   * Large update streams
+   * Reports with large amounts of data
+   * Reports that use complex calculations 
+   * Any other areas that your organization uses
 
 1. Compare the performance of the new Adobe Workfront experience with Workfront Classic.
 

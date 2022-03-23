@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,7 +65,7 @@ To use ServiceNow modules, you must have a ServiceNow account.
 
 To create a connection for your ServiceNow modules:
 
-1. Click `Add` next to the Connection box when you begin configuring the first ServiceNow module.
+1. Click **Add** next to the Connection box when you begin configuring the first ServiceNow module.
 1. Enter the following:
 
    <table cellspacing="0"> 
@@ -405,11 +416,11 @@ The module returns any standard fields associated with the record, along with an
    <td role="rowheader">Search type</td> 
    <td> <p>Select what type of search you want the module to execute</p> 
     <ul> 
-     <li> <p><span class="bold">Advanced query</span> </p> 
+     <li> <p><strong>Advanced query</strong> </p> 
       <ul> 
        <li> <p>Search Query</p> <p>Enter the custom search query. For information on ServiceNow custom search queries, see the <a href="https://docs.servicenow.com/bundle/orlando-platform-user-interface/page/use/common-ui-elements/reference/r_OpAvailableFiltersQueries.html">ServiceNow query documentation</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">Simple</span> </p> 
+     <li> <p><strong>Simple</strong> </p> 
       <ul> 
        <li> <p>Search Criteria</p> <p>Enter the criteria by which you want the module to search. For more information on setting up search filters, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario</a>.</p> </li> 
        <li> <p>Sort by</p> <p>Indicate which field you want the module to sort results by, and whether they should be sorted ascending or descending.</p> </li> 

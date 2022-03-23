@@ -36,9 +36,9 @@ You must have the following to perform the steps in this article:
 
 ## Create a scorecard
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Scorecards`, then click `New Scorecard` to create a new scorecard and launch the scorecard builder.
+1. Click **Scorecards**, then click **New Scorecard** to create a new scorecard and launch the scorecard builder.
 
    ![new_scorecard.png](assets/new-scorecard-350x173.png)
 
@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
    |---|---|
    | Description |Specify a description for the scorecard. The description is displayed next to the scorecard name in the scorecard list. |
 
-1. Click the `Add Question` drop-down menu to open the scorecard question section.
+1. Click the **Add Question** drop-down menu to open the scorecard question section.
 
    ![](assets/3-350x76.png)
 
@@ -77,37 +77,37 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-  * `Value(0-100)`: This is a numerical value. If selected, a numeric field is displayed in the scorecard where users can specify any value between 0-100.
-  * `Drop Down:` If selected, the `Options` section is now displayed.
+  * **Value(0-100)**: This is a numerical value. If selected, a numeric field is displayed in the scorecard where users can specify any value between 0-100.
+  * **Drop Down:**&nbsp;If selected, the **Options** section is now displayed.
 
     ![drop_down_menu_with_answers_UI_for_scorecards.png](assets/drop-down-menu-with-answers-ui-for-scorecards-350x40.png)
 
-    Click `Answer` to add a possible answer to your question.
+    Click **Answer** to add a possible answer to your question.
 
     | Answer Text |Specify one of the possible answers for your question. |
     |---|---|
-    | Value |Specify the value in percentage points of this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value for this answer. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your `Value`. |
+    | Value |Specify the value in percentage points of this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value for this answer. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your **Value**. |
     | Default |Specify whether this answer is the default one. |
     | Delete |You can&nbsp;delete an answer, if you consider it to no longer be pertinent. |
 
-  * `Radio Button:` If selected, the `Options` section is now displayed.
+  * **Radio Button:** If selected, the **Options** section is now displayed.
 
     ![drop_down_menu_with_answers_UI_for_scorecards__1_.png](assets/drop-down-menu-with-answers-ui-for-scorecards--1--350x40.png)
 
-    Click `Answer` to add a possible answer to your question.  
-    `Answer Text`: Specify one of the possible answers for your question.  
-    `Value`: Specify the value in percentage points of this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value for this answer. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your `Value`.
+    Click **Answer** to add a possible answer to your question.  
+    **Answer Text**: Specify one of the possible answers for your question.  
+    **Value**: Specify the value in percentage points of this answer, in case that it is fulfilled. If you choose 100%, the number of points allotted for this question is fully achieved. If you want to indicate that this answer carries only a portion of the total amount of points allotted to this question, select a lower percentage value for this answer. For example, if your question is valued at 10 points, and you want this answer to carry 5 of those points, choose 50% for your **Value**.
 
-    `Default`: Specify whether this answer is the default one.  
-    `Delete`: You can&nbsp;delete an answer, if you consider it to no longer be pertinent.
+    **Default**: Specify whether this answer is the default one.  
+    **Delete**: You can&nbsp;delete an answer, if you consider it to no longer be pertinent.
 
-1. Click `Add Question` to add more questions and answers to your scorecard, following the same steps.
+1. Click **Add Question** to add more questions and answers to your scorecard, following the same steps.
 
    >[!NOTE]
    >
    >You can reorder the questions in your scorecard by dragging and dropping the questions in the correct order.
 
-1. Click `Save` when you are finished entering your data.
+1. Click **Save** when you are finished entering your data.
 
    ![](assets/5-350x289.png)
 

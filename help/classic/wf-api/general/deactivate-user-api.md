@@ -17,15 +17,15 @@ For information about using the Core API, see [API basics](../../wf-api/general/
 To deactivate a user via the API:
 
 1. Generate an API key by using the following API request:  
-   <pre><span class="bold"><domain></span>.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=<span class="bold">username</span>&password=<span class="bold">password</span>&method=PUT</pre>
+   <pre><strong><domain></strong>.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=<strong>username</strong>&password=<strong>password</strong>&method=PUT</pre>
 
 1. Locate the GUID for the user you want to deactivate.
 
-  1. Use the following API request to retrieve the GUID for all users in your system, note that the **isActive** field shows **true** for users that are currently active and **false** for users that have been deactivated:&nbsp;  
-     <pre><span class="bold"><domain></span>.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive</pre>
+   1. Use the following API request to retrieve the GUID for all users in your system, note that the **isActive** field shows **true** for users that are currently active and **false** for users that have been deactivated:&nbsp;  
+      <pre><strong><domain></strong>.my.workfront.com/attask/api/v7.0/USER/search?fields=isActive</pre>
 
-1. Locate the GUID for the user you want to deactivate, use the following **PUT** request to change the user's **isActive** field value to `false`:&nbsp;  
-   <pre><span class="bold"><domain></span>.my.workfront.com/attask/api/v7.0/USER/<span class="bold"><user's GUID></span>?updates={"isActive":"false"}&method=put&apiKey=<span class="bold"><apiKey></span>&fields=isActive</pre>
+1. Locate the GUID for the user you want to deactivate, use the following **PUT** request to change the user's **isActive** field value to **false**:&nbsp;  
+   <pre><strong><domain></strong>.my.workfront.com/attask/api/v7.0/USER/<strong><user's GUID></strong>?updates={"isActive":"false"}&method=put&apiKey=<strong><apiKey></strong>&fields=isActive</pre>
 
 1. The response will show that the **isActive** field value has changed&nbsp;from **true** to **false**indicating that the user has been deactivated:
 

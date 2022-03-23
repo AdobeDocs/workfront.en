@@ -11,7 +11,40 @@ description: The highlighted information on this page refers to functionality no
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 <!--
-You can remove a filter, view, or grouping from the drop-down menus of lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings. Walk-through View the following video to learn how to remove filters, views, and groupings in Adobe Workfront. Note: The video describes how to remove a grouping. However, removing views and filters is identical to removing a grouping. This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience. How-to steps How you remove a reporting element depends on whether you initially created it, or it was shared with you. For example, when removing a grouping: If you created the grouping and you remove it, the grouping is removed from the Workfront system. The grouping is no longer available to any users who you previously shared it with. If the grouping was shared with you and you remove it, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping. To remove a filter, view, or grouping: Go to a list of objects or a report. In the Grouping, Filter, or View drop-down menus, click Remove Grouping, Remove Filter, or Remove View. The My Groupings, My Filters, or My Viewsdialog box displays. All reporting elements that you have rights to remove are available to remove. Other reporting elements are displayed as dimmed. Click the x icon next to any reporting element that you want to remove, then click Done. Additional information See also: Basic Report Creation Program for the new Workfront experience Reporting elements: filters, views, and groupings Create a custom report Create groupings in Adobe Workfront Edit existing groupings Filters overview in Adobe Workfront Views overview in Adobe Workfront Groupings overview in Adobe Workfront
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>You can remove a filter, view, or grouping from the drop-down menus of lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.</p>
+<h2><a name="Walk-thr"></a>Walk-through</h2>
+<p>View the following video to learn how to remove filters, views, and groupings in Adobe Workfront.</p> <note type="note">
+The video describes how to remove a grouping. However, removing views and filters is identical to removing a grouping.
+</note>
+<p>This video was recorded in Workfront Classic. However, the content also applies to the new Workfront experience.</p>
+<p><a href="https://workfront-video.wistia.com/medias/n0qpjfhecr" target="_blank"><img src="assets/video-remove-grouping-350x196.png" style="width: 350;height: 196;"></a> </p>
+<h2><a name="How-to"></a>How-to steps</h2>
+<p>How you remove a reporting element depends on whether you initially created it, or it was shared with you.</p>
+<p>For example, when removing a grouping:</p>
+<ul>
+<li><strong>If you created the grouping and you remove it</strong>, the grouping is removed from the Workfront system. The grouping is no longer available to any users who you previously shared it with.</li>
+<li><strong>If the grouping was shared with you and you remove it</strong>, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.</li>
+</ul>
+<p>To remove a filter, view, or grouping:</p>
+<ol>
+<li value="1"> <p>Go to a list of objects or a report.</p> </li>
+<li value="2"> <p>In the <strong>Grouping</strong>,<strong>Filter</strong>, or<strong>View</strong> drop-down menus, click <strong>Remove Grouping</strong>,<strong>Remove Filter</strong>, or<strong>Remove View</strong>.</p> <p>The <strong>My Groupings</strong>,<strong>My Filters,</strong> or<strong>My Views</strong>dialog box displays.</p> <p>All reporting elements that you have rights to remove are available to remove. Other reporting elements are displayed as dimmed.</p> </li>
+<li value="3">Click the <strong>x</strong> icon next to any reporting element that you want to remove, then click <strong>Done</strong>.</li>
+</ol>
+<h2><a name="Addition"></a>Additional information</h2>
+<p>See also:</p>
+<ul>  
+<p><a href="https://one.workfront.com/s/basic-report-creation-program">Basic Report Creation Program for the new Workfront experience</a> </p>  
+<li><a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md" class="MCXref xref">Create groupings in Adobe Workfront</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md" class="MCXref xref">Edit existing groupings</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a> </li>
+<li><a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a> </li>
+</ul>
+</div>
 -->
 
 You can remove a filter, view, or grouping from lists and reports if you created them or they have been shared with you. You cannot remove default filters, views, or groupings.
@@ -53,34 +86,67 @@ How you remove a reporting element depends on whether you initially created it, 
 
 The following scenarios exist when you remove a grouping:
 
-* `If you created the grouping and you remove it`, the grouping is removed from the Workfront system. The grouping is no longer available to any users who you previously shared it with.
-* `If the grouping was shared with you and you remove it`, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
+* **If you created the grouping and you remove it**, the grouping is removed from the Workfront system. The grouping is no longer available to any users who you previously shared it with.
+* **If the grouping was shared with you and you remove it**, the grouping is removed only for you. The user who originally created it and any other users it has been shared with still have access to the grouping.
 
 ## Remove a filter, view, or grouping 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 using the standard builder
+</MadCap:conditionalText>
 -->
 
 <!--
-You can remove a filter, view, or a grouping for all lists of objects using the standard builder interface.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can remove a filter, view, or a grouping for all lists of objects using the standard builder interface. </p>
 -->
 
 Removing filters, views, or groupings in Workfront is identical.
 
 1. Go to a list of objects or a report.
-1. (Conditional) From a report, click the `Grouping`, `Filter`, or `View` drop-down menu and select `Remove Grouping`, `Remove Filter`, or `Remove View`.
+1. (Conditional)&nbsp;From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to remove, click the **More** icon ![](assets/more-icon.png), then **Remove**. The filter, view, or grouping is removed. 
 
-   The `My Groupings`, `My Filters,` or `My Views` dialog box displays.
+1. (Conditional)&nbsp;From a report, click the **Grouping**,**Filter**, or**View** drop-down menu and select **Remove Grouping**,**Remove Filter**, or**Remove View**.
+
+   The **My Groupings**,**My Filters,** or**My Views** dialog box displays.
 
    All reporting elements that you have rights to remove are available to remove. Other reporting elements are displayed as dimmed.
 
-1. Click the `x` icon next to any reporting element that you want to remove. 
-1. (Conditional) Click `Yes, Delete it` if you selected to delete a filter, view, or grouping that you created and later shared with others.&nbsp;This deletes the filter, view, or grouping from the Workfront system.
+1. Click the **x** icon next to any reporting element that you want to remove. 
+1. (Conditional) Click **Yes, Delete it** if you selected to delete a filter, view, or grouping that you created and later shared with others.&nbsp;This deletes the filter, view, or grouping from the Workfront system.
 
-   ` `**Tip: **`` 
+   ``` ```**Tip: **`````` 
    Removing a filter, view, or grouping that you created without sharing it with others removes it from the system without asking for a confirmation. 
 
-1. Click `Done`.
+1. Click **Done**.
 
-Remove a filter, view, or grouping using the beta builder You cannot remove a filter or grouping using the beta builder interface. You can only delete them in a list of projects, tasks, or issues. The beta builder is not available for any other object lists or for views. For more information, see Delete filters. You can remove a filter or a grouping for lists of projects, tasks, or issues using the beta builder interface. The beta builder interface is not available for any other objects or for views. Go to a list of projects, tasks, or issues. Click the Filter, View, or Grouping icon. Enable the beta builder, then locate the item under My filters, My views, or My groups, select the More icon next to the item, then select Delete. Select Delete on the confirmation message to permanently remove the filter, view, or grouping. 
+<!--
+<h2>Remove a filter<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+, view,
+</MadCap:conditionalText>
+--> or grouping using the beta builder</h2>
+<p>You cannot remove a filter or grouping using the beta builder interface. You can only delete them in a list of projects, tasks, or issues.&nbsp;The beta builder is not available for any other object lists or for views.</p>
+<p>For more information, see <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref">Delete filters</a>.</p>
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>You can remove a filter or a grouping for lists of projects, tasks, or issues using the beta builder interface. The beta builder interface is not available for any other objects or for views.</p>
+<ol>
+<li value="1"> <p>Go to a list of projects, tasks, or issues.</p> </li>
+<li value="2"> <p>Click the <strong>Filter</strong><!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+,
+<strong>View</strong>,
+</MadCap:conditionalText>
+-->or <strong>Grouping</strong> icon.</p> </li>
+<li value="3"> <p>Enable the beta builder, then locate the item under <strong>My filters</strong>, <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<strong>My views</strong>,
+</MadCap:conditionalText>
+--> or <strong>My groups</strong>, select the <strong>More</strong> icon <img src="assets/more-icon.png"> next to the item, then select <strong>Delete</strong>.</p> </li>
+<li value="4"> <p>Select <strong>Delete</strong> on the confirmation message to permanently remove the filter, view, or grouping.</p> </li>
+</ol>
+</div>
+-->
+-->
+

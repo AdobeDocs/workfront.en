@@ -49,25 +49,40 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 Create tasks in a project
 
-1. (Conditional) If you are currently viewing the task list in an agile view, click the List View icon in the upper-right corner to display the task list. 
-1. (Optional) Enable either the Manual Save or Timeline Planning mode for the task list. The Autosave option is enabled by default.  Tip: You can reverse your changes when you select Manual Save or Timeline Planning. 
+1. Tasks
+1. (Conditional) If you are currently viewing the task list in an agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list.  
+
+1. (Optional) Enable either the**Manual Save** or **Timeline Planning** mode for the task list. The **Autosave** option is enabled by default.   ![](assets/autosave-icon-off-highlighted-350x63.png)  ``` ```**Tip: **``````You can reverse your changes when you select Manual Save or Timeline Planning.  
+
 1. Create a new task by doing one of the following:
 
-  * Click New Task at the top of the task list 
-  * Click Add More Tasks at the bottom of the task list
+   * Click **New Task** at the top of the task list 
+   * Click **Add More Tasks** at the bottom of the task list
 
-1. (Conditional) If you clicked New Task in step 5, do the following:
+1. (Conditional)&nbsp;If you clicked **New Task** in step 5, do the following:
 
-  1. Specify the fields in the New Task dialog box. For more information about editing a task including how to assign it, see Edit tasks.
+   1. Specify the fields in the New Task dialog box.  For more information about editing a task including how to assign it, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md). 
+   1. Recurrence Frequency
+   1. Create recurring tasks
+   1. Attach Document
+   1. Add Documents
 
-1. (Conditional) If you clicked Add More Tasks in step 5, start entering the task information using in-line editing. This option provides the greatest convenience, especially when adding multiple tasks to the list.  
+1. (Conditional) If you clicked **Add More Tasks** in step 5, start entering the task information using in-line editing. This option provides the greatest convenience, especially when adding multiple tasks to the list.   ![](assets/ctp4-350x26.png)
+
 1. (Conditional) Do one of the following:
 
-  * If you clicked New Task in step 5, click Save Task to save your changes.
+   * If you clicked **New Task** in step 5, click **Save Task** to save your changes.
 
-  * If you clicked Add More Tasks in step 5, do the following:
+   * If you clicked **Add More Tasks** in step 5, do the following:
 
-    1. Click anywhere in the browser to submit your changes, or press Enter. 
-    1. (Optional) In a task list, select the newly created task, then click Indent. This makes the new task a child or subtask of the previous task. For more information about children tasks, see Tasks overview. 
-    1. (Conditional) If you disabled the Autosave option, do the following:
+      1. Click anywhere in the browser to submit your changes, or press Enter. 
+      1. (Optional) In a task list, select the newly created task, then click **Indent**.  This makes the new task a child or subtask of the previous task. For more information about children tasks, see [Tasks overview](../../../manage-work/tasks/task-information/tasks-overview.md). 
+      
+      1. ```(Conditional) If you disabled the **Autosave** option, do the following:```
+
+         * Undo
+         * Cancel
+         * Undo
+         * Redo
+         * Save
 

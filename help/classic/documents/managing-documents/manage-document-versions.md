@@ -47,9 +47,9 @@ You must have the following:
 
 ## View a list of all versions of a document
 
-1. On the Details tab in the right panel, view the Versions section.
+1. On the **Details** tab in the right panel, view the **Versions** section.
 
-Preview a previous document version On the Details tab in the panel to the right, click the version, then click Preview in the drop-down list that appears. Files that cannot be previewed (such as XLSX and DOC) are downloaded.
+Preview a previous document version  ```<li value="1"> <p> On the <strong>Details</strong> tab in the panel to the right, click the version, then click <strong>Preview</strong> in the drop-down list that appears.</p> <p> <img src="assets/version-hover-329x690.png" alt="" style="width: 329;height: 690;"> </p> </li>``` Files that cannot be previewed (such as XLSX and DOC) are&nbsp;downloaded.
 
 1. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.
 
@@ -57,9 +57,14 @@ Preview a previous document version On the Details tab in the panel to the right
 
    Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof).
 
-Download a single document version Find the document you need. On the Details tab in the right panel, click the More menu to the right of the version, then click Download in the drop-down list that appears. 
+## Download a single document version
+
+1. Find the document you need.
+1. On the **Details** tab in the right panel, click the More menu ![](assets/more-icon.png) to the right of the version, then click **Download** in the drop-down list that appears.
 
 ## Download all versions of a document
+
+1. On the **Details** tab in the right panel, next to **All Versions**, click**Download All**.
 
 ## Delete a document version
 
@@ -71,17 +76,18 @@ If you upload a version of a document by mistake, or a version is no longer need
 
 Keep the following in mind when you consider deleting a document version:
 
-* Only one version can be deleted at a time. If a version is deleted, this action appears in the `Updates` on the document . 
+* Only one version can be deleted at a time. If a version is deleted, this action appears in the **Updates** on the document . 
 * If you upload a new version after deleting a version, the new version receives the next sequential number. For example, if there are 3 versions of a document and you delete version 3, the next document uploaded will be version 4.
 * System updates and comments made on a version are retained in Workfront after the version is deleted.
 
   <!--
-  Deleting a document version in Workfront does not delete the Proof version.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Deleting a document version in Workfront does not delete the Proof version.&nbsp;</li>
   -->
 
 To delete a document version:
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.Find the document you need.
-1. On the Details tab in the panel to the right, click the version, then click `Delete` in the drop-down list that appears. The `Delete` option is visible only if there are at least two versions. 
+1. Go to the project, task, or issue that contains the document, then select **Documents**.Find the document you need.
+1. On the **Details** tab in the panel to the right, click the version, then click **Delete** in the drop-down list that appears. The **Delete** option is visible only if there are at least two versions.
+
    If the document is linked to an outside source, that link is deleted and the document is no longer accessible through Workfront.
 

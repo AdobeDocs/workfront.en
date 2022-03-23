@@ -64,35 +64,39 @@ You can add fields you want Workfront to track for a particular type of object t
 >
 >You can track up to 300 built-in and custom fields in the update feeds. If you are tracking the maximum number of fields and want to track additional fields that are not displayed in the All Fields Sub-tab, you must first remove some of the tracked fields in order to track new fields. For more information about removing fields from the update fields, see see [Remove fields that you don't want tracked](#removing-fields-from-the-update-feeds).
 
-1. In the panel on the left, click `Interface` > `Update Feeds`.  
+1. Setup
+1. In the panel on the left, click **Interface** > **Update Feeds**.  
 
-1. ​Click `Add Fields`, then click the object that you want to be tracked.  
+1. ​Click **Add Fields**, then click the object that you want to be tracked.  
 
-1. In theAdd Fields box that appears, start typing either a built-in (standard) field or a custom field for the object, then click to select it when it appears in the list.
+1. In the**Add Fields** box that appears, start typing either a built-in (standard) field or a custom field for the object, then click to select it when it appears in the list.
 
    If Workfront is already tracking the field, you cannot add it a second time from the list.
 
-1. After adding all the fields you want Workfront to track, click `Add Fields`.
+   ![](assets/3-350x333.png)
 
-   The built-in fields that you added show under the `Built-in Fields` sub-tab.
+1. After adding all the fields you want Workfront to track, click **Add Fields**.
 
-   The custom fields you added show under the `Custom Fields` sub-tab.
+   The built-in fields that you added show under the **Built-in Fields** sub-tab.
 
-   The `All Fields` sub-tab shows both the built-in and the custom fields that are being tracked.
+   The custom fields you added show under the **Custom Fields** sub-tab.
+
+   The **All Fields** sub-tab shows both the built-in and the custom fields that are being tracked.
 
 ### Remove fields that you don't want tracked
 
 You can remove fields you do not want the system to track for a particular type of object throughout the Workfront interface.
 
-1. Click `Interface` > `Update Feeds`.  
+1. Setup
+1. Click **Interface** > **Update Feeds**.  
 
-1. On the `Tracked Fields` tab, select the `All Fields` sub-tab.
+1. On the **Tracked Fields** tab, select the **All Fields** sub-tab.
 
    This shows both the built-in and the custom fields that are currently being tracked.
 
-1. Select the field you want to stop tracking, then click `Remove`.  
+1. Select the field you want to stop tracking, then click **Remove**.  
 
-1. In the `Remove Field` box that appears, click `Yes, Remove It` to confirm.
+1. In the **Remove Field** box that appears, click **Yes, Remove It** to confirm.
 
 Any updates about the previously-tracked fields are preserved in the Updates area where they were recorded.
 
@@ -108,9 +112,9 @@ For example, you can have Workfront record an update every time a user changes a
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Action</span> </th> 
-   <th><span class="bold">Objects</span> </th> 
-   <th><span class="bold">Default Status</span> </th> 
+   <th><strong>Action</strong> </th> 
+   <th><strong>Objects</strong> </th> 
+   <th><strong>Default Status</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -169,11 +173,12 @@ For example, you can have Workfront record an update every time a user changes a
 
 To configure which actions you want Workfront to track:
 
-1. Click `Interface` > `Update Feeds`.  
+1. Setup
+1. Click **Interface** > **Update Feeds**.  
 
-1. Click the `Actions` tab.  
+1. Click the **Actions** tab.  
 
 1. Select an action to enable it, or deselect an action to disable it.
-1. Click `Save`.
+1. Click **Save**.
 
 When you disable an action, any previously-recorded update about that action is preserved in the Updates area where it was recorded.

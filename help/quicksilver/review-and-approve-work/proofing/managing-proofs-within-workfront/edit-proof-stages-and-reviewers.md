@@ -45,13 +45,13 @@ You must have the following access to perform the steps in this article:
 
 ## Edit a stage
 
-1. In a document list that contains the document, hover over the row containing the document, then click Proofing Workflow.
+1. In a document list that contains the document, hover over the row containing the document, then click **Proofing Workflow**.
 
    Or
 
-   In the standalone Workfront Proof, click the  `More` (three dot) menu to the right of the proof, then click  `View proof details`.
+   In the standalone Workfront Proof, click the&nbsp;**More**&nbsp;(three dot) menu to the right of the proof, then click&nbsp;**View proof details**.
 
-1. Make any of the following changes in the `Workflow` section:
+1. Make any of the following changes in the **Workflow** section:
 
    <table cellspacing="0"> 
     <col> 
@@ -59,37 +59,37 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Edit the deadline</td> 
-      <td> <p>Select the date, and choose a new date in the calendar that appears. To remove the deadline completely, select the date, then select <span class="bold">Clear</span> below the calendar that appears.</p> </td> 
+      <td> <p>Select the date, and choose a new date in the calendar that appears. To remove the deadline completely, select the date, then select <strong>Clear</strong> below the calendar that appears.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Remove individual reviewer</td> 
-      <td> <p>Select the <span class="bold">More</span> menu to the right of the reviewer's name, then click <span class="bold">Remove</span> in the drop-down menu. Click <span class="bold">Confirm</span> in the box that appears to remove the reviewer from the proof.</p> </td> 
+      <td> <p>Select the <strong>More</strong> menu to the right of the reviewer's name, then click <strong>Remove</strong> in the drop-down menu. Click <strong>Confirm</strong> in the box that appears to remove the reviewer from the proof.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Remove multiple reviewers</td> 
-      <td>Select the check boxes next to their names, then click the <span class="bold">Delete </span>icon near the upper-right corner of the stage section.</td> 
+      <td>Select the check boxes next to their names, then click the <strong>Delete</strong>icon near the upper-right corner of the stage section.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Message all reviewers</td> 
-      <td>Select the <span class="bold">More</span> menu in the upper-right corner of the stage section, then select <span class="bold">Message all</span>. Configure your message, then select <span class="bold">Send</span>.</td> 
+      <td>Select the <strong>More</strong> menu in the upper-right corner of the stage section, then select <strong>Message all</strong>. Configure your message, then select <strong>Send</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add a reviewer to the stage</td> 
-      <td>Select the <span class="bold">More</span> menu in the upper-right corner of the stage section, then select <span class="bold">Share</span>. Add the user and configure their role and email alerts, and repeat if needed. When finished, click <span class="bold">Share</span>.</td> 
+      <td>Select the <strong>More</strong> menu in the upper-right corner of the stage section, then select <strong>Share</strong>. Add the user and configure their role and email alerts, and repeat if needed. When finished, click <strong>Share</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Delete the stage</td> 
-      <td> <p>Select the <span class="bold">More</span> menu in the upper-right corner of the stage section, the select <span class="bold">Delete </span>stage.</p> <p>Note: If there’s only one stage, the stage cannot be deleted.</p> </td> 
+      <td> <p>Select the <strong>More</strong> menu in the upper-right corner of the stage section, the select <strong>Delete</strong>stage.</p> <p>Note: If there’s only one stage, the stage cannot be deleted.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 ## Edit reviewer details
 
-1. In Workfront, hover over the proof, then click `Proof details` to open the Proofing Details page.
-1. In the `Workflow` section, click the `More` menu ![](assets/more-button-small.png) to the right of the reviewer's name, then click `Edit` in the drop-down menu that appears.   
+1. In Workfront, hover over the proof, then click **Proof details** to open the Proofing Details page.
+1. In the **Workflow** section, click the **More** menu ![](assets/more-button-small.png) to the right of the reviewer's name, then click **Edit** in the drop-down menu that appears.   
 
-1. In the `Edit reviewer` box that appears, edit any of the following details: 
+1. In the **Edit reviewer** box that appears, edit any of the following details: 
 
    <table cellspacing="0"> 
     <col> 
@@ -106,7 +106,11 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Email alerts</td> 
       <td>To change the reviewer's email alert on the proof, open the drop-down menu and select the preferred email alert. For more information, see in the article <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Notifications for proof comments and decisions overview</a>.</td> 
-     </tr> Decision* To change the reviewer's decision on the proof, open the drop-down menu and select the preferred decision. Note that any decision you make on behalf of another user is noted in the Activity section of the proof. This option displays only when the review has made a decision. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Decision*</td> 
+      <td> <p>To change the reviewer's decision on the proof, open the drop-down menu and select the preferred decision. Note that any decision you make on behalf of another user is noted in the Activity section of the proof. This option displays only when the review has made a decision.</p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Stage</td> 
       <td>It is not possible to move reviewers between stages. However, you can remove and re-add a reviewer with a different deadline.</td> 
@@ -116,5 +120,5 @@ You must have the following access to perform the steps in this article:
 
    &#42; You must be the proof creator or owner to edit this field. 
 
-1. Click `Save`.
+1. Click **Save**.
 

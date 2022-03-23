@@ -19,6 +19,7 @@ This section contains the following articles:
 * [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md) 
 * [Share a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) 
 * [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) 
+* Embed a request queue in a dashboard
 * [Remove an External Page from a dashboard in Adobe Workfront](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md) 
 * [Learning Path for reports and dashboards](https://experience.workfront.com/s/reporting)
 

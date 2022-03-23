@@ -37,7 +37,15 @@ You need to following:
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* View or higher access to Projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View or higher permissions to the project For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. For information about requesting additional access to a project, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher access to Projects </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>View or higher permissions to the project</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> <p>For information about requesting additional access to a project, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>. </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -54,12 +62,12 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
    >If you make changes to resources on the initiative, you must re-publish the scenario that the initiative belongs to in order for the latest resource information from the initiative to update on the project.
 
 1. Go to the project where you want to review the allocation of job roles for the project as well as for the associated initiative. 
-1. Click Tasks in the left panel. 
-1. Click the `Show role allocation` icon ![](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
+1. Click **Tasks** in the left panel.  
+1. Click the **Show role allocation** icon ![](assets/show-role-allocation-icon.png) in the upper-right corner of the toolbar.
 
    The Role&nbsp;Allocation panel displays.
 
-1. Review the following information in the `Project Totals` area of the Role Allocation panel: 
+1. Review the following information in the **Project Totals** area of the Role Allocation panel: 
 
    <table cellspacing="0"> 
     <col> 
@@ -89,7 +97,7 @@ If your company has purchased a Workfront Scenario Planner license, you can reco
     </tbody> 
    </table>
 
-   ` `**Tip: **`` Planned Hours from the project do not display in the following scenarios:
+   ``` ```**Tip: **`````` Planned Hours from the project do not display in the following scenarios:
 
   * When tasks or issues are not assigned to job roles, or users with a job role associated with them.
   * When tasks or issues have a Duration of zero.

@@ -25,7 +25,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -34,7 +38,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -51,7 +62,7 @@ You set up an iterator module the same you set up any other module. The Array fi
 
 For more information, see [Configure a module's settings](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
 * The below scenario shows how to retrieve emails with attachments and save the attachments as single files in a selected Dropbox folder.
 
@@ -70,15 +81,15 @@ For more information, see [Configure a module's settings](../../workfront-fusion
   ![](assets/specialized-iterators-350x135.jpg)
 
 <!--
-Learn when to use an Iterator in your scenarios
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Learn when to use an Iterator in your scenarios</h2>
 -->
 
 <!--
-The video below is module 1 of the 3 part lesson titled Iterator and Array Aggregator. It explains the purpose of the Iterator and the Array Aggregator and with the help of a sample scenario, explains when to use an Iterator and what to do with the output.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The video below is module 1 of the 3 part lesson titled Iterator and Array Aggregator. It explains the purpose of the Iterator and the Array Aggregator and with the help of a sample scenario, explains when to use an Iterator and what to do with the output.</p>
 -->
 
 <!--
-video
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">video</p>
 -->
 
 ## Troubleshooting: Mapping panel does not display mappable items under iterator module
@@ -111,7 +122,7 @@ And then if you connect an iterator module to it, you will not be able to map th
 
 ![](assets/connect-iterator-module-350x146.png)
 
-To resolve this, manually start the scenario in the scenario editor. You can un-link the modules after the JSON > Parse JSON module to prevent the flow from proceeding further. Or you can right-click the JSON > Parse JSON module and choose `Run this module only` from the context menu to execute only the JSON > Parse JSON module.
+To resolve this, manually start the scenario in the scenario editor. You can un-link the modules after the JSON > Parse JSON module to prevent the flow from proceeding further. Or you can right-click the JSON > Parse JSON module and choose **Run this module only** from the context menu to execute only the JSON > Parse JSON module.
 
 When the JSON > Parse JSON executes, it learns about the items that it outputs and provides this information to all the subsequent modules, including the iterator module. The mapping panel in the Iterator's setup then displays the items:
 

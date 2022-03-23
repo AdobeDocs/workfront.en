@@ -15,7 +15,7 @@ Calculated Work is a Duration Type that you can set for a task in Adobe Workfron
 
 Calculated Work determines the amount of effort (Planned Hours) needed for the task to be completed. We recommend that you use the Calculated Work Duration Type when the resources assigned to the task are allocated for the entire duration of the task.
 
-Your Workfront `or a group administrator` can set the default Duration&nbsp;Type of your system or group as Calculated Work.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront ```or a group administrator``` can set the default Duration&nbsp;Type of your system or group as Calculated Work.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 As resources are added to a task, a project manager can expect to see the planned effort increase. To illustrate, a one-hour planning meeting with three resources represents three total hours of work required, and a one-hour planning meeting with ten resources represents ten hours of work required. This assumes that each resource is allocated to the task with 100% allocation.
 
@@ -47,9 +47,9 @@ In the following example, the Typical Hours per Work Day is set to 8 in the Proj
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Number of Assignees (each 100% allocated)</span> </p> </th> 
-   <th> <p><span class="bold">Duration</span> </p> </th> 
-   <th> <p><span class="bold">Planned Hours</span> </p> </th> 
+   <th> <p><strong>Number of Assignees (each 100% allocated)</strong> </p> </th> 
+   <th> <p><strong>Duration</strong> </p> </th> 
+   <th> <p><strong>Planned Hours</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -80,6 +80,11 @@ In this case, each assignee is 100% allocated to the Calculated Work task.
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
-Go to a task for which you want to change the Duration Type. On the Task Details tab, click Overview>Edit Overview> Duration Type. Select Calculated Work from the drop-down menu. Click Save.
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1">Go to a task for which you want to change the Duration Type.</li>
+<li value="2"> On the <strong>Task Details</strong> tab, click <strong>Overview</strong>><strong>Edit Overview</strong>> <strong>Duration Type</strong>. </li>
+<li value="3">Select <strong>Calculated Work</strong> from the drop-down menu.</li>
+<li value="4">Click <strong>Save</strong>.</li>
+</ol>
 -->
 

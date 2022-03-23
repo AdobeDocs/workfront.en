@@ -14,7 +14,16 @@ You can adjust the Tracking Mode setting of a task when creating or editing a ta
 For more information about Progress Status of tasks, see [Task Progress Status overview](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
-Set Tracking Mode for tasks To set the tracking mode: Go to the task you want to set the tracking mode for. Click Edit Task in the upper-right corner. The Edit Task dialog box opens. In the Settings section, use the Tracking Mode drop-down menu to select the Tracking Mode for the task. For more information about the tracking mode options, see the Tracking Mode options section in this article. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="setting-tracking-mode"></a>Set Tracking Mode for tasks</h2>
+<p>To set the tracking mode:</p>
+<ol>
+<li value="1">Go to the task you want to set the tracking mode for.</li>
+<li value="2"> Click&nbsp;<strong>Edit Task</strong> in the upper-right corner.  <p>The Edit Task dialog box opens. </p> </li>
+<li value="3"> <p>In the&nbsp;<strong>Settings</strong> section, use the&nbsp;<strong>Tracking Mode</strong> drop-down menu to select the Tracking Mode for the task.</p> <p>For more information about the tracking mode options, see the <a href="#tracking-mode-options" class="MCXref xref">Tracking Mode options</a> section in this article. </p> <p>  </p> </li>
+<li value="4">Click&nbsp;<strong>Save Changes.</strong></li>
+</ol>
+</div>
 -->
 
 ## Tracking Mode options

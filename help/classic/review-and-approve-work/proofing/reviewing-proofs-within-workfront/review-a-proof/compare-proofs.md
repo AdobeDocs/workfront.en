@@ -51,11 +51,13 @@ You can compare two proofs within any single document list, such as within the D
    >
    >A proof must already be generated for each document that you select for comparison.
 
-1. Click `Compare Proofs`.
+1. Click **Compare Proofs**.
 
    <!--
-   If this button is not visible, ensure that two proofed documents are selected.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
+
+   ![proof_compare.png](assets/proof-compare-350x209.png)
 
    Both proofs are displayed in the proofing viewer in a side-by-side view. You can review each document while comparing them.
 

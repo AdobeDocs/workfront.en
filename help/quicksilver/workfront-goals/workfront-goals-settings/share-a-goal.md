@@ -37,7 +37,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="#" class="MCXref xref selected">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -79,7 +87,7 @@ Before you begin, you must have the following:
 
 ## Share a goal
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click `Goals`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals**.
 
    The Goal List displays. 
 
@@ -89,7 +97,7 @@ Before you begin, you must have the following:
    >
    >You can click the name of a list from any section in the Goals area to open the Goal&nbsp;Details panel.
 
-1. Click the `More icon` next to the goal name, then click  `Share`.
+1. Click the **More icon** next to the goal name, then click&nbsp;**Share**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
@@ -99,14 +107,14 @@ Before you begin, you must have the following:
 
 1. Do one of the following:
 
-  * Select the `Manage system-wide` setting to give Manage permissions to everyone in the system who has Edit access to Goals in their access level. This is deselected by default for all new goals. 
-  * Start typing the name of a user that you want to give Manage permissions to in the `Give Manage access to` box. Select the name when it appears in the list.
+  * Select the **Manage system-wide** setting to give Manage permissions to everyone in the system who has Edit access to Goals in their access level. This is deselected by default for all new goals. 
+  * Start typing the name of a user that you want to give Manage permissions to in the **Give Manage access to** box. Select the name when it appears in the list.
 
     >[!TIP]
     >
     >You can only share a goal with other users. You cannot share goals with groups, teams, or companies.
 
-1. Click `Share`.
+1. Click **Share**.
 
    The goal is shared with the users you specified. A "System-wide" label or the name of the users who have Manage permissions to the goal display in the Access to Manage field in the Goal Details panel.
 
@@ -123,9 +131,9 @@ The following table lists the permissions that you can grant when sharing a goal
  </col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Actions</span> </p> </th> 
-   <th> <p><span class="bold">Manage</span> </p> </th> 
-   <th> <p><span class="bold">View</span> </p> </th> 
+   <th> <p><strong>Actions</strong> </p> </th> 
+   <th> <p><strong>Manage</strong> </p> </th> 
+   <th> <p><strong>View</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -143,7 +151,12 @@ The following table lists the permissions that you can grant when sharing a goal
    <td>Copy goal* </td> 
    <td>✓ </td> 
    <td>✓</td> 
-  </tr> Convert results or activities into other goals* ✓ ✓ 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Convert results or activities into other goals*</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+  </tr> 
   <tr> 
    <td>View projects added as activities** </td> 
    <td>✓</td> 

@@ -42,36 +42,37 @@ You must have the following access to perform the steps in this article:
 
 ## Create the report about existing reports
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
-1. Click `Reports`, then `New Report`.
-1. In the `New Report` drop-down men, select `Report` to create a report on existing reports.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
 
-1. In the `Columns (View)` tab, add the columns you want in your report.  
+1. Click **Reports**, then **New Report**.
+1. In the **New Report** drop-down men, select **Report** to create a report on existing reports.
+
+1. In the **Columns (View)** tab, add the columns you want in your report.  
    Some of the following fields may be useful:  
 
    | Field |Description |
    |---|---|
-   | `Run As User: Name` |This is the user specified in the `Run this report with the Access Rights of:` field on the report. If this user is deactivated, a report does not display for anyone the report is shared with. |
-   | `Shared With` |These are all the entities that the report is shared with. |
-   | `Entered By` |This is the owner of the report. |
-   | `Last Viewed Date` |This is the date and time the report was last viewed by a user. |
+   | **Run As User: Name** |This is the user specified in the **Run this report with the Access Rights of:** field on the report. If this user is deactivated, a report does not display for anyone the report is shared with. |
+   | **Shared With** |These are all the entities that the report is shared with. |
+   | **Entered By** |This is the owner of the report. |
+   | **Last Viewed Date** |This is the date and time the report was last viewed by a user. |
 
 1. (Optional) To limit your list of reports to specific deactivated users:
 
-  1. Select the `Filters` tab, then click `Add a Filter Rule`.
+  1. Select the **Filters** tab, then click **Add a Filter Rule**.
   
-  1. Add the filter `Run As User ID` > `Equal`.
+  1. Add the filter **Run As User ID** > **Equal**.
   
   1. Type the name of the deactivated user you want to add to the filter, then click the name when it displays in the list.
   1. Repeat Step C until you have selected all deactivated users you want to include in the report.
 
 1. (Optional) To limit your list of reports to scheduled reports:
 
-  1. Select the `Filters` tab, then click `Add a Filter Rule`.
+  1. Select the **Filters** tab, then click **Add a Filter Rule**.
   
-  1. Add the filter `Scheduled Report ID` > `Is Not Blank`.
+  1. Add the filter **Scheduled Report ID** > **Is Not Blank**.
 
-1. Click `Save + Close`, then type a name for the report, and click `Save Report`.
+1. Click **Save + Close**, then type a name for the report, and click **Save Report**.
 
    Your report information displays.
 
@@ -85,7 +86,7 @@ After creating your report, you can update your reports as needed.
 1. Go to the report you want to update.
 1. Depending on the action you want to take, do one of the following:
 
-  * Update the `Run this report with the Access Rights of:` field to an active user: For more information, see [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
+  * Update the **Run this report with the Access Rights of:** field to an active user: For more information, see [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md).
   
   * Create a copy of the report: For more information, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
   * Delete a report:&nbsp;For more information, see the [Create an exact copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#update2) section of the article [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).

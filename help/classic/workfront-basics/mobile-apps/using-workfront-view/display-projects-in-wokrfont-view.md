@@ -42,15 +42,15 @@ You must have the following access in Workfront to perform the steps in this art
 1. Tap one of the charts at the top of the list.  
    Select from:
 
-  * `Condition`
-  * `Owner`
-  * `Group`
-  * `Portfolio`
-  * `Progress`
-  * `Status`
-  * `Sponsor`  
-    The projects are now listed grouped by the possible values of these fields.  
-    You can group projects by one criteria at a time. The criteria is preloaded in the app in the charts at the top of the list of projects and cannot be modified.
+   * **Condition**
+   * **Owner**
+   * **Group**
+   * **Portfolio**
+   * **Progress**
+   * **Status**
+   * **Sponsor** 
+     The projects are now listed grouped by the possible values of these fields.  
+     You can group projects by one criteria at a time. The criteria is preloaded in the app in the charts at the top of the list of projects and cannot be modified.
 
 ## View project details
 

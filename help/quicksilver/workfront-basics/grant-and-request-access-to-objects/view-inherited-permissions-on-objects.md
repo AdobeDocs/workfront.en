@@ -52,8 +52,9 @@ Viewing inherited permissions is identical for all objects.
 To view inherited permissions for a project:
 
 1. Go to a project whose sharing permissions you want to view. 
-1. Click the More menu , then click Sharing. 
-1. Expand the `Inherited Permissions` list.
+1. Click the **More** menu ![](assets/more-icon.png), then click **Sharing**. 
+
+1. Expand the **Inherited Permissions** list.
 
    This list displays the names of users that have access to either the portfolio or the program that the project belongs to and also have permissions to the project.
 

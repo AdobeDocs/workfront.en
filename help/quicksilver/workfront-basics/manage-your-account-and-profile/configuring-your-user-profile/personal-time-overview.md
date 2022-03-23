@@ -46,10 +46,13 @@ You must have the following access to perform the steps in this article:
 
 ## Configure personal time off in Workfront
 
+1. Main Menu
+1. 
+1. Time Off
 1. Select the desired date for your personal time off. 
-1. Select  `All day`, if you are taking a full day off.  
+1. Select&nbsp;**All day**, if you are taking a full day off.  
    Leave it unselected&nbsp;if you are taking less than a full day off and indicate the start and end times of your time off. 
 
-1. Click `Save`.  
+1. Click **Save**.  
    Your time off is&nbsp;now visible across the Workfront system in scheduling tools like the Resource Grid. When you are assigned work during this time, a tool tip appears informing the user you have scheduled time off.
 

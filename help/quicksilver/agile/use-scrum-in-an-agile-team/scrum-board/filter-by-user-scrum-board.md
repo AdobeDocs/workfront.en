@@ -39,9 +39,14 @@ You must have the following access to perform the steps in this article:
 
 ## Filter by user on the scrum board
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. Navigate to an active iteration.
 1. Click the Filter drop-down menu on the right side of the scrum board.
-1. Select the name of the user or `Unassigned`.
+1. Select the name of the user or **Unassigned**.
 
 >[!NOTE]
 >

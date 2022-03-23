@@ -53,20 +53,20 @@ You must have the following to perform the steps in this article:
 ## Configure user access to reports, dashboards, and calendars using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Reports, then select the abilities you want to grant under **Fine-tune your settings**.
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Reports, then select the abilities you want to grant under **Fine-tune your settings**.
 
    ![reports_access.png](assets/reports-access-350x140.png)
 
    The following options are enabled by default:
 
-  * `Create` 
-  * `Delete` 
-  * `View Built-In Reports`: This needs to be selected to see reports built by Workfront.
-  * `Share` 
-  * `Share Reports Publicly`: Reports can be shared publicly, by sharing a public link to the report with anyone that does not have a Workfront account. This option must be selected to allow for this level of sharing.
-  * `Share System-wide`: Reports can be shared with everyone in the system who has a Workfront license. This option must be selected to allow for this level of sharing.
+   * **Create** 
+   * **Delete** 
+   * **View Built-In Reports**: This needs to be selected to see reports built by Workfront.
+   * **Share** 
+   * **Share Reports Publicly**: Reports can be shared publicly, by sharing a public link to the report with anyone that does not have a Workfront account. This option must be selected to allow for this level of sharing.
+   * **Share System-wide**: Reports can be shared with everyone in the system who has a Workfront license. This option must be selected to allow for this level of sharing.
 
-    For information about sharing reports, dashboards, and calendars, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
+     For information about sharing reports, dashboards, and calendars, see [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. When you are finished, click Save Changes.

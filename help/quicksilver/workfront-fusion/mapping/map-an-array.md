@@ -14,7 +14,7 @@ An array is a special type of item that can contain the following:
 * One or more text values (simple array)
 * One or more collections of the same type (complex array)
 
-` `**Example: **``The Watch emails module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
+``` ```**Example: **``````The Watch emails module returns an array of attachments for every email. Every attachment represents a collection that may contain a name, content, size, and so on.
 
 For more information, see [Item data types](../../workfront-fusion/mapping/item-data-types.md).
 
@@ -29,7 +29,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -38,7 +42,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -52,10 +63,12 @@ You must have the following access to use the functionality in this article:
 1. Click the button located in the target field. 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    These steps from the source article are too vague
+   </MadCap:conditionalText>
    -->
 
-   ` `**Example: **`` For the example above, you would click the Add an attachment button for an email.
+   ``` ```**Example: **`````` For the example above, you would click the Add an attachment button for an email.
 
    ![](assets/add-an-attachment-button-350x152.jpg)
 

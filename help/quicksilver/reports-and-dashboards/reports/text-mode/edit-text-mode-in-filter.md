@@ -49,7 +49,7 @@ For more information, see:
 * [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md) 
 * [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## `Edit text mode in a filter`
+## **Edit text mode in a filter**
 
 Editing a filter using text mode is identical for reports and lists.&nbsp;Accessing the view from a report or from a list differs.
 
@@ -63,10 +63,10 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Do one of the following:
 
-  1. To access the filter from a report, go to the report, then click  `Report Actions` > `Edit` > `Filters` tab.
-  1. To access the filter from a list, go to the list and from the Filter drop-down menu, mouse over the filter that you want to modify and click the Edit icon . The filter builder opens.
+  1. To access the filter from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Filters** tab.
+  1. To access the filter from a list, go to the list and from the **Filter** drop-down menu, mouse over the filter that you want to modify and click the&nbsp;**Edit** icon ![](assets/edit-icon.png). The filter builder opens.
 
-1. Click  `Add a Filter Rule` to start adding the conditions of your filter, then click  `Switch to Text Mode` in the upper-right corner of the builder.
+1. Click&nbsp;**Add a Filter Rule** to start adding the conditions of your filter, then click&nbsp;**Switch to Text Mode** in the upper-right corner of the builder.
 1. Add filter statements using text mode. Each filter statement may contain the following lines and additional information:
 
    <table cellspacing="15"> 
@@ -211,7 +211,7 @@ For information about creating a report, see [Create a custom report](../../../r
    >```   >
    >
 
-1. Click `Done` if you want to save your changes and continue editing the report or the filter.
+1. Click **Done** if you want to save your changes and continue editing the report or the filter.
 1. 
-   Click `Save + Close` to save your report or `Save Filter` to save the filter in the list.
+   Click **Save + Close** to save your report or **Save Filter** to save the filter in the list.
 

@@ -27,7 +27,7 @@ valueformat
 
 &nbsp;text mode values:
 
-| `Format`  |Example  |* `valueformat=`* |
+| **Format** |Example&nbsp; |***valueformat=*** |
 |---|---|---|
 | MM/DD/YY |10/11/18 |<pre>atDate</pre> |
 | MM/DD/YY Time |10/11/18 12:00pm |<pre>longAtDate</pre> |

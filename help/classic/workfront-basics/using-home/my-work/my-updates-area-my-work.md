@@ -11,7 +11,7 @@ Only for users with a Review license, the My Updates area takes the place of the
 
 The My Updates area displays the following information:
 
-* `Any items awaiting approval`. These display at the top of the screen so review users can easily see which items they need to approve or reject. For more information about approving items, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
+* **Any items awaiting approval**. These display at the top of the screen so review users can easily see which items they need to approve or reject. For more information about approving items, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
   You can view the following types of approvals by applying the following filters to this area:
 
@@ -20,7 +20,7 @@ The My Updates area displays the following information:
   | Delegated Approvals |Approvals delegated to you by another user.  |
   | My Approvals |Approvals submitted to you.  |
 
-* `Updates`. These display when another user includes a user with a Review license on a directed update. For more information about updates, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* **Updates**. These display when another user includes a user with a Review license on a directed update. For more information about updates, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Although users with a Review license can be assigned tasks, they do not receive email or other notifications regarding assignments, and they cannot mark them as "Done".
 
@@ -30,5 +30,5 @@ Although users with a Review license can be assigned tasks, they do not receive 
 
 To access the My Updates area:
 
-1. In the Global Navigation Bar, click `My Updates`.
+1. In the Global Navigation Bar, click **My Updates**.
 

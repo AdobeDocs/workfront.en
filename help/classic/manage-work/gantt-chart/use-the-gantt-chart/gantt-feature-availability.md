@@ -19,7 +19,7 @@ The following sections describe when specific Gantt chart functionality will be 
 
 ## Gantt Chart at the Project level
 
-| `Feature`  | `Before Legacy Gantt Is Removed`  | `After Legacy Gantt Is Removed`  | `Under Consideration*`  | `Not Planned`  |
+| **Feature** |**Before Legacy Gantt Is Removed** |**After Legacy Gantt Is Removed** |**Under Consideration&#42;** |**Not Planned** |
 |---|---|---|---|---|
 | Resource grid view |  |  |  |Use the Resource Planning tools to view user allocation. |
 | Full-screen mode |  |  |✓  |  |
@@ -38,7 +38,7 @@ The following sections describe when specific Gantt chart functionality will be 
 
 ## Gantt Chart for a List of Projects
 
-| `Feature`  | `Before Legacy Gantt Is Removed`  | `After Legacy Gantt Is Removed`  | `Under Consideration`  | `Not Planned`  |
+| **Feature** |**Before Legacy Gantt Is Removed** |**After Legacy Gantt Is Removed** |**Under Consideration** |**Not Planned** |
 |---|---|---|---|---|
 | Ability to expand projects |✓ |  |  |  |
 | View cross-project predecessor relationships |✓  |  |  |  |

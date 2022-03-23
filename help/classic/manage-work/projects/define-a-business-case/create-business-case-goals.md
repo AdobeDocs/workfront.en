@@ -12,7 +12,7 @@ As part of creating a Business Case, you can create a set of goals to define the
 Consider the following when creating Business Case goals for your projects:
 
 * Business Case goals are project-specific. You cannot copy goals from one project to another, nor establish goals at the system level. They must be defined at the level of each project. 
-* Your Adobe Workfront administrator `or group administrator` must enable the Goals section for your projects before it displays in the Business Case of your projects. For information about enabling Business Case fields for projects, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Your Adobe Workfront administrator ```or group administrator``` must enable the Goals section for your projects before it displays in the Business Case of your projects. For information about enabling Business Case fields for projects, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * Goals are not a mandatory section in the Business Case of a project.
 
@@ -55,27 +55,27 @@ You must have the following access to perform the steps in this article:
 
 ##  Add a goal to the Business Case of a project
 
-1. Click Projects in the Global Navigation Bar. 
-1. Click the project you want to view and click the Project Details tab. 
-1. Click the Business Case sub-tab.
+1. Click&nbsp;**Projects** in the Global Navigation Bar. 
+1. Click the project you want to view and click the&nbsp;**Project Details** tab.  
+1. Click the&nbsp;**Business Case** sub-tab.
 
    The Business Case is displayed.
 
-1. In the `Goals` section, click  `Edit Goals`.
+1. In the **Goals** section, click&nbsp;**Edit Goals**.
 
 1. Specify your goals.
-   In the  `Importance` drop-down menu, select the level of importance:
+   &nbsp;In the&nbsp;**Importance** drop-down menu, select the level of importance:
 
-  * Highest
-  * High
-  * Medium
-  * Low
-  * Lowest
+   * Highest
+   * High
+   * Medium
+   * Low
+   * Lowest
 
-    ![](assets/g1-350x76.png)
+     ![](assets/g1-350x76.png)
 
-    You cannot customize the Importance levels of goals.
+     You cannot customize the Importance levels of goals.
 
-1. (Optional) To add another goal, click  `Add Another Goal`and repeat Step 5 and Step 6.
-1. Click  `Save`.
+1. (Optional) To add another goal, click&nbsp;**Add Another Goal**and repeat Step 5 and Step 6.
+1. Click&nbsp;**Save**.
 

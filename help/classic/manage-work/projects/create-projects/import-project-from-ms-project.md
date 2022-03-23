@@ -47,20 +47,20 @@ You must have the following access to perform the steps in this article:
 
 ## Create a project from a MS&nbsp;Project
 
-You can create a project from the Projects area in theGlobal Navigation Bar, or from the Projects area of a portfolio or a program.
+You can create a project from the Projects area in the Global Navigation Bar, or from the Projects area of a portfolio or a program.
 
 1. Go to Microsoft Project and open a project that you want to import from in Workfront. 
-1. Click `File`, then `Save As` to save the project as an .xml file. 
+1. Click **File**, then **Save As** to save the project as an .xml file. 
 
 1. Log in to Workfront. 
 1. Do one of the following:
 
-  * Go to the Projects area in the Global Navigation Bar and select the Projects tab, then expand New Project. 
-  * Go to a portfolio, then expand Add Projects. 
-  * Go to a program, then expand Add Projects.
+   * Go to the **Projects** area in the Global Navigation Bar and select the **Projects** tab, then expand **New Project**. 
+   * Go to a portfolio, then expand **Add Projects**. 
+   * Go to a program, then expand **Add Projects**.
 
-1. Choose the `Import MS Project` option. 
-1. Click `Select File`, then browse for the .xml file on your computer which you exported from Microsoft Project.
+1. Choose the **Import MS Project** option. 
+1. Click **Select File**, then browse for the .xml file on your computer which you exported from Microsoft Project.
 
 1. Import the selected file.
 
@@ -74,5 +74,5 @@ You can create a project from the Projects area in theGlobal Navigation Bar, or 
 
 1. (Optional) Continue editing the project in Workfront. For information about editing projects, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the Project Preferences area or by a group administrator `in the Group Project Preferences area.` For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+   The status of a new project created from a template corresponds with the status defined by your Workfront administrator in the Project Preferences area or by a group administrator ```in the Group Project Preferences area.``` For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 

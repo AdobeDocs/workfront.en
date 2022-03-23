@@ -9,9 +9,12 @@ description: The articles in this section contain information about functionalit
 
 # Resource Planning in Adobe Workfront
 
-The articles in this section contain information about functionality in the Planning tab of the People area of Adobe Workfront.
+The articles in this section contain information about functionality in the Planning tab of the People area  of Adobe Workfront.
 
-For information about Legacy Resource Planning, see Overview of Legacy Resource Planning . The Legacy Resource Planning tools are currently deprecated and will soon be removed from Workfront.
+<!--
+For information about Legacy Resource Planning, see
+<a href="../../resource-mgmt/legacy-res-planning/legacy-resource-planning.md" class="MCXref xref" xrefformat="{para}">Overview of Legacy Resource Planning </a> . The Legacy Resource Planning tools are currently deprecated and will soon be removed from Workfront.
+-->
 
 This section contains the following articles:
 
@@ -36,18 +39,18 @@ This section contains the following articles:
 * [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)
 
   <!--
-  Track User Utilization information
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/track-user-utilization.md" class="MCXref xref" xrefformat="{para}">Track User Utilization information</a> </li>
   -->
 
   <!--
-  Budget resources by project in the Resource Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-project-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by project in the Resource Planner </a> </li>
   -->
 
   <!--
-  Budget resources by role in the Resource Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/budget-by-role-resource-planner-d.md" class="MCXref xref" xrefformat="{para}">Budget resources by role in the Resource Planner </a> </li>
   -->
 
   <!--
-  View projects, roles, and users using the Resource Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-planning/view-projects-roles-users-resource-planner.md" class="MCXref xref" xrefformat="{para}">View projects, roles, and users using the Resource Planner</a> </li>
   -->
 

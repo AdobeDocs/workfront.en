@@ -47,6 +47,13 @@ You must have the following access to perform the steps in this article:
 
 ## View and modify your email notification settings
 
+1. Main Menu
+1. 
+1. More
+1. 
+1. Edit
+1. Edit Person
+1. Notifications
 1. Click a category to view the notification settings related to that category.
 
    ![](assets/my-profile-notifications-350x212.png)
@@ -59,17 +66,17 @@ You must have the following access to perform the steps in this article:
    >
    >If you are a team member for a project, you continue to receive email notifications for it until you are removed from the team, even if you no longer have access to the project. For instructions on removing users from a team, see [Remove users from projects](../../manage-work/projects/manage-projects/remove-users-from-projects.md).
 
-   For the `Communication` category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.
+   For the **Communication** category, you can select individual notifications for instant delivery only. You must select all of the notifications to be delivered in a daily digest.
 
    If all email notifications for a given category are activated, the box in the category title appears as selected. If all email notifications in a given category are deactivated, the box is unselected. If some notifications are activated and others are deactivated, the category checkbox appears as a straight line.  
-   When you modify a notification setting, the label `Edited` appears for that notification setting, to let you know that that notification setting has been modified.
+   When you modify a notification setting, the label **Edited** appears for that notification setting, to let you know that that notification setting has been modified.
 
-1. If you selected any notifications to be sent as a daily digest, select the time of the day you want to receive it at the top of the `Notifications` section in the `Email Daily Digest after` menu.
+1. If you selected any notifications to be sent as a daily digest, select the time of the day you want to receive it at the top of the **Notifications** section in the **Email Daily Digest after** menu.
 
    ![](assets/digest-time-stamp-my-settings-350x78.png)
 
    The daily digest includes events that meet the criteria of the notifications 24 hours prior to the selected time. You receive one daily digest email for each type of notification.  
    The daily digest may arrive after the time you select, depending on how many emails are queued for delivery in the system. The time listed is your local time as specified in your browser settings.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

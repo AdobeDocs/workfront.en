@@ -56,35 +56,35 @@ You must have the following access to perform the steps in this article:
 ## Modify the percent allocation for a task
 
 1. Go to a task for whose resources you are changing the percent allocation.
-1. Click Edit Task. 
-1. In the Overview section, ensure that the Duration Type of the task is one of the following:
+1. Click **Edit Task**. 
+1. In the **Overview** section, ensure that the **Duration Type** of the task is one of the following:&nbsp;
 
-  * Calculated Work
-  * Effort Driven
+   * Calculated Work
+   * Effort Driven
 
-   ` `**Tips: **``
+   ``` ```**Tips: **``````
 
-  * For the Calculated Assignment Duration Type, Workfront uses the following formula to calculate the allocation percentage of each assignee:
+   * For the Calculated Assignment Duration Type, Workfront uses the following formula to calculate the allocation percentage of each assignee:
 
-    ```  
-    Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day
-    ```  
-  
-    /   
-  
-    ```  
-    Number of assignees
-    ```  
-  
-    .
+     ```   
+     Allocation Percentage = (Work Required / Number of days in the Duration) / Number of hours per work day
+     ```   
+   
+     /    
+   
+     ```   
+     Number of assignees
+     ```   
+   
+     .
 
-  * For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage.
+   * For the Simple Duration Type, you can estimate the hours assigned to each resource, not the allocation percentage.
 
-1. Click `Assignments`, then modify the Allocation % for each task assignee.
+1. Click **Assignments**, then modify the **Allocation %** for each task assignee.
 
    You can only modify the allocation percentage for user and job role assignments.
 
    You cannot modify the allocation percentage for a team assigned to a task.
 
-1. Click `Save`Changes.
+1. Click **Save****Changes**.
 

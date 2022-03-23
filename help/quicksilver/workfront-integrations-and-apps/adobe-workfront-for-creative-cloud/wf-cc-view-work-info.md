@@ -23,7 +23,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or Plan 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or Plan</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -49,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## View details and custom form data
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -57,9 +61,9 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the `Menu` icon to go to the parent objects of the work item.
+   >Use the **Menu** icon to go to the parent objects of the work item.
 
-1. Click the `Details` icon ![](assets/details.png) in the navigation bar to view:
+1. Click the **Details** icon ![](assets/details.png) in the navigation bar to view:
 
   * Description
   * Planned Completion Date
@@ -70,7 +74,7 @@ You must have the following access to perform the steps in this article:
 
 ## View Document Details
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -78,9 +82,9 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the `Menu` icon to go to the parent objects of the work item.
+   >Use the **Menu** icon to go to the parent objects of the work item.
 
-1. Click the `Document` icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
+1. Click the **Document** icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
 
   * Description
   * File Type
@@ -91,7 +95,7 @@ You must have the following access to perform the steps in this article:
 
 ## View subtasks and issues
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
@@ -99,11 +103,11 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the `Menu` icon to go to the parent objects of the work item.
+   >Use the **Menu** icon to go to the parent objects of the work item.
 
-1. Click the `Issue` icon ![](assets/issues.png) or `Subtask` icon ![](assets/subtasks.png). 
+1. Click the **Issue** icon ![](assets/issues.png) or **Subtask** icon ![](assets/subtasks.png). 
 
-1. Select the task or issue, then click the `Details` icon ![](assets/details.png) in the navigation bar to view:
+1. Select the task or issue, then click the **Details** icon ![](assets/details.png) in the navigation bar to view:
 
   * Planned Completion Date
   * Status 

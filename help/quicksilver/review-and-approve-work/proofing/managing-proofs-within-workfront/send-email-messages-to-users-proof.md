@@ -47,8 +47,19 @@ You must have the following access to perform the steps in this article:
 
 ## Send email messages to users on a proof
 
-1. Findthe document for the proof that contains the users you want to message.
-1. In the `Message details` section, specify the following information:
+1. Find the document for the proof that contains the users you want to message.
+1. Hover over the document, then click **Proofing Workflow**.
+1. ![](assets/proof-workflow-doc-list-350x92.png)
+
+1. To send a message to all users on the stage, click the **More**menu on the stage and choose **Message All**.
+
+1. ![](assets/message-stage-350x122.png)
+
+1. To send a message to an individual user, click the **More**menu next to the user and choose **Message**.
+
+1. ![](assets/message-user-350x121.png)
+
+1. In the **Message details** section, specify the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -60,7 +71,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Discard custom message</td> 
-      <td> <p>Click <span class="bold">Discard custom message</span> if you want to include only the default email content.</p> <p>The default reminder email includes the following information:</p> 
+      <td> <p>Click <strong>Discard custom message</strong> if you want to include only the default email content.</p> <p>The default reminder email includes the following information:</p> 
        <ul> 
         <li>Personal link to the proof<br>Thumbnail of the proof image<br></li> 
         <li>The following proof details: Proof name, version number, folder name (if applicable), and a list of the reviewers and their progress on the proof.</li> 
@@ -77,5 +88,5 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Send.`
+1. Click **Send.**
 

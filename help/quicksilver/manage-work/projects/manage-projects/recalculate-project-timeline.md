@@ -75,7 +75,9 @@ Adobe Workfront recalculates timelines daily only for projects where all of the 
 You can configure how frequently the timeline for your project is updated. When the project timeline is updated, it is recalculated based on changes made to the project 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 or changes made to another project that the timeline is dependent on
+</MadCap:conditionalText>
 -->
 
 .
@@ -83,7 +85,23 @@ or changes made to another project that the timeline is dependent on
 For information, see [Select the project Update Type](../../../manage-work/projects/manage-projects/select-project-update-type.md).
 
 <!--
-You can configure how the timeline for your project is updated: Go to the project for which you want to configure how the timeline is updated. Click the More icon to the right of the project name, then click Edit. The Edit Project dialog box is displayed. Click Settings. In the Update Type drop-down list, select from the following options: - Automatic and On Change: (Default setting) The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. The project timeline is also updated each night. This is the recommended setting for this field because it ensures that the project timeline is always up to date. When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed. This indicates that the recalculation is not yet finished, and the dates are subject to change. - Change Only: The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur. You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on. - Automatic Only: The project timeline is updated each night; it is not updated immediately after changes are made. You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on. Note: A project does not automatically recalculate each night if it is in Planning status. It only recalculates on change. - Manual Only: The project timeline is updated only when you select the option to Recalculate Timelines, as described in Manual recalculation. You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change). For more information about the project Update Type, see Select the project Update Type Note: If the timeline of a project is longer than 15 years, the automatic recalculation is disabled. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>You can configure how the timeline for your project is updated:</p>
+<ol>
+<li value="1">Go to the project for which you want to configure how the timeline is updated.</li>
+<li value="2"> <p>  Click the <strong>More</strong> icon <img src="assets/more-icon.png"> to the right of the project name, then click&nbsp; <strong>Edit</strong>. </p> <p>The <strong>Edit Project</strong> dialog box is displayed.</p> </li>
+<li value="3"> <p>Click<strong>Settings.</strong><br><img src="assets/screen-shot-2013-09-18-at-10.36.16-am.png" alt=""></p> </li>
+<li value="4">In the <strong>Update Type</strong> drop-down list, select from the following options:<br><strong>- Automatic and On Change:</strong> (Default setting) The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. The project timeline is also updated each night. <br>This is the recommended setting for this field because it ensures that the project timeline is always up to date.<br>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed.
+<div>
+<p><img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"></p>
+</div><br>This indicates that the recalculation is not yet finished, and the dates are subject to change. <br><strong>- Change Only:</strong> The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur.<br>You might want to select this option if changes rarely occur in the project or in other projects that the timeline is dependent on.<br><strong>- Automatic Only:</strong> The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if many changes occur each day in the project or in other projects that the timeline is dependent on.<br><note type="note">
+A project does not automatically recalculate each night if it is in Planning status. It only recalculates on change.
+</note><br><strong>- Manual Only:</strong> The project timeline is updated only when you select the option to Recalculate Timelines, as described in <a href="#manual-recalculation" class="MCXref xref">Manual recalculation</a>.<br>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).<br>For more information about the project Update Type, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a><note type="note">
+If the timeline of a project is longer than 15 years, the automatic recalculation is disabled. If you change the dates on the project to less than 15 years, you must manually recalculate your timeline one time before it is calculated automatically.
+</note></li>
+<li value="5">Click <strong>Save Changes.</strong></li>
+</ol>
+</div>
 -->
 
 ### Actions that trigger an automatic recalculation of project timelines
@@ -108,11 +126,19 @@ As a project owner, you can manually recalculate the timelines for individual pr
 
 ### Recalculate timelines for individual projects
 
-You can recalculate the timeline of a project in Workfront from the project page or from a project list or report.
+<!--
+You can recalculate the timeline of a project in Workfront from&nbsp;the project page
+<span class="preview">or from a project list or report</span>.
+-->
 
 1. Go to the project for which you want to recalculate the timeline.
-   Or Go to a project list or report and select one or several projects. 
-1. Click the More icon , then click Recalculate Timeline.
+
+   <!--
+   <p>Or</p>
+   <p>Go to a project list or report and select one or several projects. </p>
+   -->
+
+1. Click the **More** icon ![](assets/qs-more-menu.png) , then click **Recalculate Timeline**.
 
    After the timeline is recalculated, you see a message indicating that the recalculation was successful.  
    Before the timeline recalculation is finished, some planned or projected dates might display as dimmed. This means that the recalculation is not yet finished, and the dates are subject to change.
@@ -122,10 +148,10 @@ You can recalculate the timeline of a project in Workfront from the project page
 You can manually recalculate the timelines of several projects by editing them in bulk.
 
 1. Go to a list of projects.
-1. Select several projects in the list, then click `Edit`.
-1. Click `Settings`, then select `Recalculate Timelines`.
+1. Select several projects in the list, then click **Edit**.
+1. Click **Settings**, then select **Recalculate Timelines**.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 ### Recalculate timelines for all projects in the system (Workfront administrators only)
 
@@ -134,6 +160,22 @@ Workfront administrators can run the Recalculate Timeline diagnostic to immediat
 For more information about recalculating timelines for the entire Workfront site, see the section "Recalculate timelines for the entire Workfront instance" in [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 <!--
-Project Update Types For information about how to update the project's Update Type, see Select the project Update Type . Important: If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual. You can select how each project calculates its timeline by choosing between the following Update Types: Important: If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual. Automatic and On Change: This is the default setting. The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on. The project timeline is also updated each night. This is the recommended setting as it ensures that the project timeline is always up to date. When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed. This indicates that the recalculation is not yet finished, and the dates are subject to change. Change Only: The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur. You might want to select this option if you are concerned about system performance and if changes rarely occur in the project or in other projects that the timeline is dependent on. Automatic Only: The project timeline is updated each night; it is not updated immediately after changes are made. You might want to select this option if you are concerned about system performance and if many changes occur each day in the project or in other projects that the timeline is dependent on. Note: A project does not automatically recalculate each night if it is in Planning status. It only recalculates on change. Manual Only: The project timeline is updated only when you select the option to Recalculate Timelines, as described in the section "Manual Recalculation" in the article Recalculate project timelines. You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="Project"></a>Project Update Types</h2>
+<p>For information about how to update the project's Update Type, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>. </p> <note type="important">
+If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual.
+</note>
+<p>You can select how each project calculates its timeline by choosing between the following Update Types:</p> <note type="important">
+If the timeline of a project is longer than 15 years, Workfront does not calculate the timeline automatically or on change. The Update Type of a project longer than 15 years is always Manual.
+</note>
+<ul>
+<li> <p><strong>Automatic and On Change:</strong>&nbsp;This is the default setting. The project timeline is updated each time a change occurs&nbsp;in the project or in another project that the timeline is dependent on. The project timeline is also updated each night.&nbsp; <br>This is the recommended setting as it ensures that the project timeline is always up to date.</p> <p>When you update a task or the project and trigger a timeline recalculation, all available dates are immediately displayed, allowing you to continue working. On projects with more than 100 tasks, dates that require longer calculations are dimmed. </p> <p> <img src="assets/dates-dimmed-when-insline-editing-350x146.png" style="width: 350;height: 146;"> </p> <p>This indicates that the recalculation is not yet finished, and the dates are subject to change. </p> </li>
+<li><strong>Change Only:</strong>&nbsp;The project timeline is updated each time a change occurs in the project or in another project that the timeline is dependent on; scheduled updates do not occur. <br>You might want to select this option if you are concerned about system performance and if&nbsp;changes rarely occur in the project or in other projects that the timeline is dependent on.</li>
+<li> <p><strong>Automatic Only:</strong>&nbsp;The project timeline is updated each night; it is not updated immediately after changes are made.<br>You might want to select this option if you are concerned about system performance and if many changes occur each day in the project or in other projects that the timeline is dependent on.</p> <note type="note">
+A project does not automatically recalculate each night if it is in Planning status. It only recalculates on change.
+</note> </li>
+<li><strong>Manual Only:</strong>&nbsp;The project timeline is updated only&nbsp;when you select the option to <strong>Recalculate Timelines</strong>, as described in the section "Manual Recalculation" in&nbsp;the article <a href="#" class="MCXref xref selected">Recalculate project timelines</a>.<br>You might want to select this option if you are making many changes to the project at one time, and you want the timeline recalculation to occur after all of the changes have been made (rather than after each individual change).</li>
+</ul>
+</div>
 -->
 

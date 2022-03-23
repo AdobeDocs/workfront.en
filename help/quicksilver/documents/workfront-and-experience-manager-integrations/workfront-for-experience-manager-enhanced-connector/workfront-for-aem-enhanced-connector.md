@@ -16,6 +16,6 @@ description: Use the Workfront for Experience Manager enhanced connector
 * [View or download a linked asset from Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
 
   <!--
-  Sync comments between Workfront and Experience Manager Assets
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-sync-comments.md" class="MCXref xref" xrefformat="{para}">Sync comments between Workfront and Experience Manager Assets</a> </li>
   -->
 

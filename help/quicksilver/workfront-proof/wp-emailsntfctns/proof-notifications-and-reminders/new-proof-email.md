@@ -15,7 +15,7 @@ description: Make this article work better for PiW.
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
-Make this article work better for PiW.
+<p style="color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make this article work better for PiW.</p>
 -->
 
 When you are creating a new proof or a new version of a proof, adding new people to a proof, or adding a workflow to a proof, you can decide if you want to email the reviewers, as explained in these articles:
@@ -30,7 +30,7 @@ The New proof email contains:
 * Your personal message (if you choose to include one)  
 * If you always send the same custom message to your reviewers, it might be a good idea to save it in your Personal settings under the Proofing defaults tab. For more information, see [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 * Personal link to the proof
-* `View details` link that takes you to the associated Workfront object (such as a project, task, or issue)
+* **View details** link that takes you to the associated Workfront object (such as a project, task, or issue)
 * Thumbnail of the proof image
 * The following proof details:
 
@@ -71,7 +71,7 @@ You can specify whether you want to send an email alert to the reviewers on a pr
 
 ### When you create a proof
 
-When you are creating a new proof in the New proof page, under the `Share` section, you can select whether to send email alerts:
+When you are creating a new proof in the New proof page, under the **Share** section, you can select whether to send email alerts:
 
 * Here you can decide if you want to Notify people by email (1). If you deselect this option, none of your reviewers receive an email to let them know that the proof is ready for their review.
 * You can also include a Custom message in the email notification (2).
@@ -90,7 +90,7 @@ When you are creating a new proof in the New proof page, under the `Share` secti
 
 You can select if a new reviewer added to an existing proof will be notified of the proof (similar to above).
 
-* First, add new reviewers by clicking the `Share this Version` button on the `Proof details` page (1).
+* First, add new reviewers by clicking the **Share this Version** button on the **Proof details** page (1).
 
 ![Proof_Details_page_1.png](assets/proof-details-page-1-350x118.png)
 

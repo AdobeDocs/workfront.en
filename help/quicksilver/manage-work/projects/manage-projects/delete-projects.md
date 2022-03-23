@@ -54,7 +54,7 @@ You can delete a project in a project list or at the project level.
 
   For more information about restoring objects, see&nbsp;the article [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-* If the project has tasks or issues with logged hours, the Workfront or group administrator must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks. For more information about enabling the deletion of tasks, issues, or projects where hours are logged, see the "Deletion" section in Configure system-wide task and issue preferences.
+* ```If the project has tasks or issues with logged hours, the Workfront ```or group administrator``` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance for you to be able to delete the project that contains the tasks.```  ```For more information about enabling the deletion of tasks, issues```, or projects ```where hours are logged, see the "Deletion" section in``` [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 ### The impact of deleting projects
 
@@ -105,19 +105,20 @@ You can delete a project in a project list or at the project level.
 You can delete projects from a list of projects.
 
 1. Go to a list of projects or a project report.
-1. Select the project you want to delete, then click `Delete` at the top of the list.  
+1. Select the project you want to delete, then click **Delete** at the top of the list.  
 
-1. Click `Yes, Delete It` to confirm the deletion.&nbsp;
+1. Click **Yes, Delete It** to confirm the deletion.&nbsp;
 
    The project is deleted and stored in the Recycle Bin for 30 days. Your Workfront administrator can restore it from the Recycle Bin during this time.
 
 ## Delete a project at the project level
 
 1. Go to the project you want to delete. 
-1. &nbsp;Click the More icon .
-1. Click  `Delete` `Project` `.`  
+1. &nbsp;Click the **More** icon ![](assets/qs-more-menu.png).
 
-1. Click `Yes,` `Delete it`. &nbsp;
+1. Click&nbsp;**Delete** **Project****.** 
+
+1. Click **Yes,****Delete it**. &nbsp;
 
    The project is deleted and stored in the Recycle Bin for 30 days. Your Workfront administrator can restore it from the Recycle Bin during this time.
 

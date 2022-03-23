@@ -55,7 +55,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 View the following video to learn more about the filters in the Enhanced analytics area:
 
-`<iframe class="vimeo-player_0" src="assets/441153490?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/441153490?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/441153490/8d5303704c)
 
@@ -70,7 +70,7 @@ By default, the visualizations in the Enhanced analytics area show data for the 
 
 To select a new date range:
 
-1. Click the Main Menu icon , thenselect **Analytics**.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. In the top-right corner of the screen, click the date range field to open the calendar view.
 1. Use the arrows above the calendar to locate the month of your start date, then select the start date.
 
@@ -97,7 +97,7 @@ You can add filters based on default project fields, Custom Form fields, and hom
 * [Add a Team filter](#add2)
 
   <!--
-  Add job roles filter link
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Add job roles filter link</li>
   -->
 
 ### Add a project field filter
@@ -119,7 +119,7 @@ Custom Form filters work differently. For more information, see [Add a project f
 
 To add a project field filter:
 
-1. Click the Main Menu icon , thenselect **Analytics**.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. In the top-left corner of the screen, click **Add Filter**, then select the desired filter type.
 
    >[!NOTE]
@@ -138,7 +138,7 @@ To add a project field filter:
 
    As you add filters, data displays in the visualizations below for up to 50 projects.
 
-   ` `**Tip: **``To see data for more than the 50 projects that display by default, you can:
+   ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
 
   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
     ![](assets/pagination-350x118.png)  
@@ -154,7 +154,7 @@ The Custom Form filter type allows you to filter data for projects and tasks bas
 
 To add a Custom Form filter:
 
-1. Click the Main Menu icon , thenselect **Analytics**.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. In the top-left corner of the screen, click **Add Filter**, then select **Custom form**.
 
    ![](assets/select-custom-form-filter-350x271.png)
@@ -186,7 +186,7 @@ To add a Custom Form filter:
 
    As you add filters, data displays in the visualizations below for up to 50 projects.
 
-   ` `**Tip: **``To see data for more than the 50 projects that display by default, you can:
+   ``` ```**Tip: **``````To see data for more than the 50 projects that display by default, you can:
 
   * Use the arrows in the bottom-left corner to display the next 50 projects in that visualization.  
     ![](assets/pagination-350x118.png)  
@@ -198,8 +198,11 @@ To add a Custom Form filter:
 
 ### Add a Team filter
 
-1. Click the Main Menu icon , thenselect **Analytics**.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. In the left panel, click **People**.
+
+   ![](assets/people-area-cropped-qs-350x276.png)
+
 1. In the top-left corner of the screen, click **Add Filter**, then select the **Team** filter.
 1. Locate the teams you want to see data for by entering at least 3 characters of text in the **Search** field, then select each team you want to include in the filter. To select all teams, click **Select All**.
 
@@ -211,7 +214,17 @@ To add a Custom Form filter:
 
    To adjust the date range, see [Change the date range filter](#change).
 
-Add a Job roles filter Click the Main Menu icon , thenselect Analytics. In the left panel, click People. In the top-left corner of the screen, click Add Filter, then select the Job roles filter. Locate the job roles you want to see data for by entering at least 3 characters of text in the Search field, then select each job role you want to include in the filter. To select all job roles, click Select All. [Insert image here] After you select all desired teams, click Apply Filter. As you add filters, data displays in the visualizations below. To adjust the date range, see Change the date range filter. 
+<!--
+<a name="Add2"></a>Add a Job roles filter
+-->
+
+<!--
+<li value="1"> <p> Click the Main Menu icon <img src="assets/main-menu-icon-16x12.png" style="width: 16;height: 12;">, then select <b>Analytics</b>.</p> </li>
+<li value="2"> <p>In the left panel, click <b>People</b>.</p>  <img src="assets/people-area-cropped-qs-350x276.png" style="width: 350;height: 276;">  </li>
+<li value="3"> <p>In the top-left corner of the screen, click <b>Add Filter</b>, then select the <b>Job roles</b> filter.</p> </li>
+<li value="4"> <p style="font-weight: normal;">Locate the job roles you want to see data for by entering at least 3 characters of text in the <b>Search</b> field, then select each job role you want to include in the filter. To select all job roles, click <b>Select All</b>.</p> <p><b>[Insert image here]</b> </p> </li>
+<li value="5"> <p>After you select all desired teams, click <b>Apply Filter</b>.</p> <p>As you add filters, data displays in the visualizations below.</p> <p>To adjust the date range, see <a href="#change" class="MCXref xref">Change the date range filter</a>.</p> </li>
+-->
 
 ## Remove a filter
 
@@ -224,7 +237,7 @@ You can remove a filter at any time. If you remove a filter, it doesn't display 
 
 To remove a filter:
 
-1. Click the Main Menu icon , thenselect **Analytics**.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. If you want to remove a Work filter, remain in the **Work** area.
 
    Or

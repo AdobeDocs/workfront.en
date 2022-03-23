@@ -34,7 +34,7 @@ You must have the following access to perform the steps in this article:
 ## View a list of all proof versions
 
 1. Go to the Document list, and select the proof.
-1. On the Details tab in the right panel, view the Versions section.
+1. On the **Details** tab in the right panel, view the **Versions** section.
 
 ## Preview a previous proof version
 
@@ -43,11 +43,17 @@ You must have the following access to perform the steps in this article:
 >Files that cannot be previewed (such as XLSX and DOC) are&nbsp;downloaded.
 
 1. Go to the document list, and select a proof.
+1. On the **Details** tab in the panel to the right, click the version, then click **Preview** in the drop-down list that appears.
+
+1. ![](assets/version-hover-329x690.png)
 
 ## View a previous proof version
 
 Any user in Workfront with View access to the document can view past versions of a proofed document. It is not required that the user have a proofing license.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the proof you need.
+1. On the **Details** tab in the panel to the right, click the version, then click **View****Proof**.
+
+1. ![document_version_proof_view_.png](assets/document-version-proof-view-.png)
 

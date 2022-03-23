@@ -57,7 +57,7 @@ The following table details the display options for the Gantt chart:
   <tr> 
    <td role="rowheader">Assignments</td> 
    <td> <img src="assets/assignments-in-gantt-312x203.png" alt="assignments_in_gantt.png" style="width: 312;height: 203;"> </td> 
-   <td> <p>Shows task assignees.&nbsp;Mouse&nbsp;over the&nbsp;<span class="bold">Details</span>&nbsp;link next to the name of an assignee to see more detailed information about them, including the percentage of their allocation to the task.</p> <p>Assignees are&nbsp;not displayed on the Gantt chart when the Gantt chart is exported to PDF. When the Gantt chart is exported to PDF, assignees are displayed only in the task list.</p> </td> 
+   <td> <p>Shows task assignees.&nbsp;Mouse&nbsp;over the&nbsp;<strong>Details</strong>&nbsp;link next to the name of an assignee to see more detailed information about them, including the percentage of their allocation to the task.</p> <p>Assignees are&nbsp;not displayed on the Gantt chart when the Gantt chart is exported to PDF. When the Gantt chart is exported to PDF, assignees are displayed only in the task list.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Baseline</td> 
@@ -92,7 +92,7 @@ The following table details the display options for the Gantt chart:
   <tr> 
    <td role="rowheader">Predecessors</td> 
    <td> <img src="assets/predecessor-2-269x200.png" alt="predecessor_2.png" style="width: 269;height: 200;"> </td> 
-   <td> <p>A line from one task to another that shows the predecessor relationship between the two tasks. To highlight an individual predecessor&nbsp;line,&nbsp;mouse over it. Click it to keep it highlighted. You can only highlight one predecessor line at a time.</p> <p>A&nbsp;<span class="bold">Predecessor</span>&nbsp;icon is displayed next to any task that has a predecessor relationship that spans multiple pages on the Gantt chart or on any task that has a cross-project predecessor.</p> <p>Click the <span class="bold">Predecessor</span> icon to view all predecessor and successor tasks, as well as&nbsp;details about each task, such as task name, type of predecessor relationship, and key dates.</p> <p>Note: The Gantt Chart in a list of projects displays information about cross-project predecessors. For more information about how to create predecessor relationships between different projects see <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Create cross-project predecessors</a></p> <p>For more information about predecessors, see&nbsp;<a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Enforce predecessors</a>.</p> </td> 
+   <td> <p>A line from one task to another that shows the predecessor relationship between the two tasks. To highlight an individual predecessor&nbsp;line,&nbsp;mouse over it. Click it to keep it highlighted. You can only highlight one predecessor line at a time.</p> <p>A&nbsp;<strong>Predecessor</strong>&nbsp;icon is displayed next to any task that has a predecessor relationship that spans multiple pages on the Gantt chart or on any task that has a cross-project predecessor.</p> <p>Click the <strong>Predecessor</strong> icon to view all predecessor and successor tasks, as well as&nbsp;details about each task, such as task name, type of predecessor relationship, and key dates.</p> <p>Note: The Gantt Chart in a list of projects displays information about cross-project predecessors. For more information about how to create predecessor relationships between different projects see <a href="../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md" class="MCXref xref">Create cross-project predecessors</a></p> <p>For more information about predecessors, see&nbsp;<a href="../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md" class="MCXref xref">Enforce predecessors</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Progress Status</td> 
@@ -112,11 +112,11 @@ The following table details the display options for the Gantt chart:
 1. Go to the Task List Gantt Chart or the Project List Gantt Chart.  
    For more information on where the either Gantt chart is located, see [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md).
 
-1. (Optional) Select the  `Switch to Projected Dates`&nbsp;setting to display the tasks by their Projected Dates. By default, tasks are displayed by their Planned Dates in the Gantt chart.
-1. Click the options icon to display the  `Options`&nbsp;dialog box.  
+1. (Optional) Select the&nbsp;**Switch to Projected Dates**&nbsp;setting to display the tasks by their Projected Dates. By default, tasks are displayed by their Planned Dates in the Gantt chart.
+1. Click&nbsp;the options icon to display the&nbsp;**Options**&nbsp;dialog box.  
    ![Options.png](assets/options-350x72.png)
 
 1. Select the configuration options&nbsp;that you want to display in the Gantt chart.
 1. Not all of the configuration options are available in the Project List Gantt Chart.
-1. Click anywhere in the Gantt chart to close the  `Options`&nbsp;dialog box.&nbsp;
+1. Click anywhere in the Gantt chart to close the&nbsp;**Options**&nbsp;dialog box.&nbsp;
 

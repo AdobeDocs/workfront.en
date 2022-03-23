@@ -19,7 +19,7 @@ All of your folders are allocated in the left navigation sidebar on in the Folde
 
 The Account folders page shows you all folders in your account (including folders that have been shared with you by users in other Workfront Proof accounts) and allows you to manage them with ease.
 
-1. Click `[Your account name] folders`&nbsp;in the left navigation sidebar.  
+1. Click **[Your account name] folders**&nbsp;in the left navigation sidebar.  
    This page shows the following information for each folder:
 
   * Name
@@ -45,17 +45,17 @@ The Account folders page shows you all folders in your account (including folder
   * Move the folders to a different folder.
   * Share the folders with other users.
   * Delete the folders.
-  * From the `More` menu, change the owner of the folder.
+  * From the **More** menu, change the owner of the folder.
 
-1. Select the checkbox for a single folder, then click the `More` (three dot) menu to the right to see the following additional options (depending on your level of access):
+1. Select the checkbox for a single folder, then click the **More** (three dot) menu to the right to see the following additional options (depending on your level of access):
 
-  * `View folder details`: Displays the Folder details page for that folder.
-  * `New proof`: Displays the new proof page with the folder field automatically populated with the name of the selected folder.
-  * `Upload file`: Displays the new file page, the folder field will be automatically populated with the name of the selected folder.
-  * `New sub-folder`: Allows you to create a folder nested within the selected folder.
-  * `Share`: Lets you add new people to the folder.
-  * `Excel summary`: Lets you download an Excel summary of the proofs in the folder.
-  * `Delete`: Moves the folder to the Trash.
+  * **View folder details**: Displays the Folder details page for that folder.
+  * **New proof**: Displays the new proof page with the folder field automatically populated with the name of the selected folder.
+  * **Upload file**: Displays the new file page, the folder field will be automatically populated with the name of the selected folder.
+  * **New sub-folder**: Allows you to create a folder nested within the selected folder.
+  * **Share**: Lets you add new people to the folder.
+  * **Excel summary**: Lets you download an Excel summary of the proofs in the folder.
+  * **Delete**: Moves the folder to the Trash.
 
 >[!NOTE]
 >
@@ -63,13 +63,13 @@ The Account folders page shows you all folders in your account (including folder
 
 ## Managing a Folder from the Folder Details Page
 
-1. Click the `More` (three dot) menu to the right of a folder, then click `View folder details`.  
-   You can also click the folder name in the `My folders` list in the left sidebar to access the `Folder details` page.
+1. Click the **More** (three dot) menu to the right of a folder, then click **View folder details**.  
+   You can also click the folder name in the **My folders** list in the left sidebar to access the **Folder details** page.
 
 1. Perform any of the following actions:
 
   * Move the folder to be located under a different parent folder.  
-    Move the folder to the top level by clicking `No folder selected` in the drop-down menu.
+    Move the folder to the top level by clicking **No folder selected** in the drop-down menu.
   
   * Share the folder with other users.&nbsp;
   * Create a new subfolder.&nbsp;
@@ -78,8 +78,8 @@ The Account folders page shows you all folders in your account (including folder
 
 ## Renaming a Folder
 
-1. Click the `More` (three dot) menu to the right of a folder, then click `View folder details`.  
-   You can also click the folder name in the `My folders` list in the left sidebar to access the `Folder details` page.
+1. Click the **More** (three dot) menu to the right of a folder, then click **View folder details**.  
+   You can also click the folder name in the **My folders** list in the left sidebar to access the **Folder details** page.
 
 1. Click the folder name at the top of the page.&nbsp;
 1. Edit the name, then click outside of the box.   
@@ -87,7 +87,7 @@ The Account folders page shows you all folders in your account (including folder
 
 ## Changing a Public Folder to a Private Folder
 
-1. Click the `More` (three dot) menu to the right of a folder, then click `View folder details`.
+1. Click the **More** (three dot) menu to the right of a folder, then click **View folder details**.
 
 1. Click the folder icon next to the folder's name.
 
@@ -104,11 +104,11 @@ You can delete a folder from the following locations:
 
 ### Deleting a Folder from the Account Folders Page
 
-1. Click `[Your account name] folders` in the left navigation sidebar to access the Account folders page.  
-   You can also click the folder name in the `My folders` list in the left sidebar to access the `Folder details` page.
+1. Click **[Your account name] folders** in the left navigation sidebar to access the Account folders page.  
+   You can also click the folder name in the **My folders** list in the left sidebar to access the **Folder details** page.
 
 1. Select the checkbox for one or more folders.&nbsp;
-1. Click the `Delete`&nbsp;(trash can) icon.
+1. Click the **Delete**&nbsp;(trash can) icon.
 
    >[!NOTE]
    >
@@ -116,9 +116,9 @@ You can delete a folder from the following locations:
 
 ### Deleting a Folder From the Folder Details Page
 
-1. Click the `More` (three dot) menu to the right of a folder, then click `View folder details`.  
-   You can also click the folder name in the `My folders` list in the left sidebar to access the `Folder details` page.
+1. Click the **More** (three dot) menu to the right of a folder, then click **View folder details**.  
+   You can also click the folder name in the **My folders** list in the left sidebar to access the **Folder details** page.
 
-1. Click the `Delete`&nbsp;(trash can) icon at the top of the page.&nbsp;
-1. Click `OK` to confirm the deletion.
+1. Click the **Delete**&nbsp;(trash can) icon at the top of the page.&nbsp;
+1. Click **OK** to confirm the deletion.
 

@@ -1,0 +1,851 @@
+<html>
+ <head>
+  <title>Configurable access to functionality for each object type</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Configurable access to functionality for each object type</h1> 
+    <p aemmigrated="true">This article explains what you can allow as an Adobe Workfront administrator for each object type, in each access level. It also explains what the default configuration is for each type of access level.</p> 
+    <p aemmigrated="true">For information about all functionality available for an object type in each access level, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref" aemmigrated="true">Functionality available for each object type</a>.</p> 
+    <h2 aemmigrated="true">Projects</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for projects:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner (Plan license type)</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to projects.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to projects.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to projects.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Copy</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to projects.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to projects.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows limited editing access to projects. To see how Edit access is limited in a Worker access level as compared to a Planner access level (which allows full Edit access to projects), see the section <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#projects" class="MCXref xref" aemmigrated="true">Projects</a> in the article <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref" aemmigrated="true">Functionality available for each object type</a>.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share projects. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the Edit button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to projects.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to projects.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to projects.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to projects.</p> <p aemmigrated="true">View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to projects is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Tasks</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for tasks:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to tasks.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to tasks.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to tasks.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to tasks.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to tasks.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share tasks. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to tasks.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to tasks.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to tasks.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to tasks.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to tasks.</p> <p aemmigrated="true">View access is limited because you can't fine-tune it to enable or disable project sharing.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to tasks is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true"><a name="Issues" aemmigrated="true"></a>Issues</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for issues:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to issues.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to issues.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to issues.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to issues.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to issues.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to issues.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to issues.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to issues.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to issues.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to issues.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to issues.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share issues. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to issues.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to issues is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Portfolios</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for portfolios:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to portfolios.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to portfolios.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share portfolios. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to portfolios.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to portfolios.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to portfolios.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to portfolios.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to portfolios.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to portfolios is not available.</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to portfolios is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Programs</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for programs:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to programs.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to programs.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share programs. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to programs.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to programs.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to programs.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to programs.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to programs.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to programs is not available.</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to programs is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Reports, dashboards, and calendars</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for reports, dashboards, and calendars:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to reports, dashboards, and calendars.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to reports, dashboards, and calendars.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button), then disable or enable any of the following actions. Both of them are enabled by default:</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">View Built-In Reports</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to reports, dashboards, and calendars.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default<span class="preview" aemmigrated="true"> except for <b aemmigrated="true">View Built-in Reports</b>, <b aemmigrated="true">Share Reports Publicly</b>, and <b aemmigrated="true">Share system-wide</b></span>.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View Built-In Reports</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share Reports Publicly (externally)</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to programs.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to reports, dashboards, and calendars.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following actions. Both of them are enabled by default:</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">View Built-In Reports</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to reports, dashboards, and calendars.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to reports, dashboards, and calendars.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following actions. Only the Share option is enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">View Built-In Reports</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to reports, dashboards, and calendars.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to reports, dashboards, and calendars that have been shared with them.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to view built-in reports. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable <b aemmigrated="true">View Built-in</b>(disabled by default).</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to reports, dashboards, and calendars is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Filters, views, and groupings</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for filters, views, and groupings:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share filters, views, and groupings. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to filters, views, and groupings.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to filters, views, and groupings is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Documents</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for documents:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to documents.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to documents.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to documents.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default<span class="preview" aemmigrated="true"> except for <b aemmigrated="true">Share Documents Publicly</b> and <b aemmigrated="true">Share system-wide</b></span>.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share Documents Publicly (externally)</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to documents.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to documents.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to documents.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default<span class="preview" aemmigrated="true"> except for <b aemmigrated="true">Share Documents Publicly</b> and <b aemmigrated="true">Share system-wide</b></span>.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share Documents Publicly (externally)</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to documents.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to documents.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to documents.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following actions. All of them are enabled by default except for the last two, <b aemmigrated="true">Share Documents Publicly</b> and <b aemmigrated="true">Share system-wide</b>.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share Documents Publicly (externally)</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to documents.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to documents.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share documents. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to documents.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to documents is not configurable in this access level. But external users can use Workfront to view, review, and download documents.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Users</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for users:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to users.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable the <b aemmigrated="true">View Contact Info</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to users.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following actions. Only the first two options, <b aemmigrated="true">Create</b> and <b aemmigrated="true">Delete</b>, are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true">User Admin (All Users)</li> 
+           <li aemmigrated="true"> <p aemmigrated="true">User Admin (Group Users)</p> </li> 
+          </ul> <p aemmigrated="true">For information about the two User Admin options, see the section <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit" class="MCXref xref" aemmigrated="true">Configure users’ access to edit users using a custom access level</a>in the article <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" aemmigrated="true">Grant access to users</a>.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (only option available): Allows view-only access to users.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable the <b aemmigrated="true">View Contact Info</b> option (enabled by default).</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (only option available): Allows view-only access to users.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then enable or disable the <b aemmigrated="true">View Contact Info</b> option (disabled by default).</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (only option available): Allows view-only access to users.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to view users' contact information. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then enable or disable the <b aemmigrated="true">View Contact Info</b> option (disabled by default).</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to users is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Teams</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for teams:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to teams.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. Both are disabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true">View all teams</li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View teams associated with my groups</p> </li> 
+          </ul> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to teams.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. All of them are enabled by default, except for <b aemmigrated="true">Edit teams I am on</b>.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true">Create</li> 
+           <li aemmigrated="true">Delete</li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Edit teams I am on</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Edit teams in groups I manage (Group Admins only)</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View all teams</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View teams associated with my groups</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to teams.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true">View all teams</li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View teams associated with my groups</p> </li> 
+          </ul> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to teams.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. Only the first option, <b aemmigrated="true">Edit teams I am on</b>, is disabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Edit teams I am on</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View all teams</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View teams associated with my groups</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (only option available): Allows view-only access to teams.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">View all teams</p> </li> 
+           <li aemmigrated="true">View teams associated with my groups</li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (only option available): Allows view-only access to teams.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">View all teams</p> </li> 
+           <li aemmigrated="true">View teams associated with my groups</li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to teams is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p aemmigrated="true">* For information about these options, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md" class="MCXref xref" aemmigrated="true">Grant access to teams</a>.</p> 
+    <h2 aemmigrated="true">Templates</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for templates:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to templates.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to templates.</p> <p aemmigrated="true">To fine-tune this, you can configure the ability to share templates. Click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the View button, then disable or enable the <b aemmigrated="true">Share</b> option (enabled by default).</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to templates.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. All of them are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true">Create</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Delete</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Share system-wide</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b> (only option available): Blocks all access to templates.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b> (only option available): Blocks all access to templates.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b> (only option available): Blocks all access to templates.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to templates is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Financial data</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for financial data:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to financial data.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to financial data.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. Both are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true">View Role Billing &amp; Cost Rates</li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View User Billing &amp; Cost Rates</p> </li> 
+          </ul> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to financial data.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">View</b> button, then disable or enable any of the following options*. Only the last two options, <b aemmigrated="true">View Role Billing &amp; Cost Rates</b> and <b aemmigrated="true">View User Billing &amp; Cost Rates</b>, are enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true">Edit Role Billing &amp; Cost Rates</li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Edit User Billing &amp; Cost Rates</p> </li> 
+           <li aemmigrated="true">View Role Billing &amp; Cost Rates</li> 
+           <li aemmigrated="true"> <p aemmigrated="true">View User Billing &amp; Cost Rates</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b> (selected by default): Blocks all access to financial data.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to financial data.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b> (selected by default): Blocks all access to financial data.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to financial data.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b> (only option available): Blocks all access to financial data.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to financial data is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <p aemmigrated="true">* For information about these options, see <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref" aemmigrated="true">Overview of Billing and Revenue</a>.</p> 
+    <h2 aemmigrated="true">Resource Management</h2> 
+    <p aemmigrated="true">In each access level, you can configure the following options for Resource Management:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Access level</th> 
+       <th aemmigrated="true">Options</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Planner </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to Resource Management.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b>: Allows view-only access to Resource Management.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">Edit</b> (selected by default): Allows full editing access to Resource Management.</p> <p aemmigrated="true">To fine-tune this, click the gear icon <img src="assets/gear-icon-in-access-levels.png" aemmigrated="true"> on the <b aemmigrated="true">Edit</b> button, then disable or enable any of the following options. Only the first option, <b aemmigrated="true">Edit priorities and budget hours in the Planner</b>, is enabled by default.</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true"> <p aemmigrated="true"> Edit priorities and budget hours in the Planner</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Manage Resource Pools</p> <p aemmigrated="true">Note: In order to manage resource pools, a user needs additional access to financial data and permissions to project finances. If you grant Resource Management access to a Planner user who doesn't have access to financial data, the user can still see the hourly allocations in the Resource Planner, but can't switch to Cost view or view the Business Case. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" aemmigrated="true">Grant access to financial data</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref" aemmigrated="true">Share financial permissions on an object in Adobe Workfront</a>.</p> </li> 
+           <li aemmigrated="true"> <p aemmigrated="true">Update Planned Hours in the Workload Balancer</p> <p aemmigrated="true">Note: In order to update planned hours in the Workload Balancer, a user needs permission to contribute to the object, with Make Assignments enabled under Advanced Settings. For information, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref" aemmigrated="true">Overview of sharing permissions on objects in Adobe Workfront</a>.</p> </li> 
+          </ul> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Worker </td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to Resource Management.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to Resource Management.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Reviewer</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b>: Blocks all access to Resource Management.</p> </li> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">View</b> (selected by default): Allows view-only access to Resource Management.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Requestor</td> 
+       <td aemmigrated="true"> 
+        <ul aemmigrated="true"> 
+         <li aemmigrated="true"> <p aemmigrated="true"><b aemmigrated="true">No access</b> (only option available): Blocks all access to Resource Management.</p> </li> 
+        </ul> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">External User</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Access to Resource Management is not available. External users can use Workfront only to review and download documents and to see calendars that are shared with them.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true">Scenario Planner area</h2> 
+    <p aemmigrated="true">The default setting for all access levels is No Access. A Workfront administrator can change this to View or Edit access for any Planner, Worker, and Reviewer access level.</p> <note aemmigrated="true">
+     Users can view a plan that another user created only if a link to the plan is shared with them. 
+    </note> 
+    <h2 aemmigrated="true"><a name="area" aemmigrated="true"></a>Workfront Goals area</h2> 
+    <p aemmigrated="true">All six of the default access levels (and all 4 of the license types) can edit and view Workfront Goals.</p> 
+    <p aemmigrated="true">Edit is the default option.</p> 
+   </div> 
+  </div>
+ </body>
+</html>

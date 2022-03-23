@@ -53,7 +53,7 @@ You must have the following before you begin:
 
 ## Access the My Updates area
 
-1. Click `My Updates` in the `Main Menu`.
+1. Click **My Updates** in the **Main Menu**.
 
    ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x298.png)
 
@@ -73,7 +73,7 @@ You must have the following before you begin:
 
    ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optional) Expand the `Filter` drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the `My Updates` section and select from the following:
+1. (Optional) Expand the **Filter** drop-down menu ![](assets/filter-nwepng.png) in the upper-right corner of the **My Updates** section and select from the following:
 
    <table cellspacing="0"> 
     <col> 
@@ -98,11 +98,11 @@ You must have the following before you begin:
 
 1. To approve or reject an item or suggest changes to a document before approving do the following:
 
-  1. (Optional) Click the `drop-down` icon ![](assets/down-arrow-blue.png) next to your approval decision ( `Approve`, `Changes`, `Reject`) and add a comment, then click  `Add`.
+  1. (Optional) Click the **drop-down** icon ![](assets/down-arrow-blue.png) next to your approval decision (**Approve**, **Changes**,**Reject**) and add a comment, then click&nbsp;**Add**.
 
      Or
 
-     Click  `Skip` if you do not want to enter a comment.
+     Click&nbsp;**Skip** if you do not want to enter a comment.
 
      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
@@ -112,29 +112,29 @@ You must have the following before you begin:
 
      Depending on which drop-down icon you selected, the item is approved, rejected, or, in the case of a document approval, approved with a request to make additional changes. 
   
-     ` `**Tip: **`` If you do not want to add a comment to your decision, you can click the `Approve`, `Reject`, or `Changes` button and the approval decision is granted immediately.
+     ``` ```**Tip: **`````` If you do not want to add a comment to your decision, you can click the **Approve**, **Reject**, or **Changes** button and the approval decision is granted immediately.
 
      ![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
 
      For more information about approving work, see [Approving work in Adobe Workfront](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
-1. Click `Grant access` to grant the access request submitted to you
+1. Click **Grant access** to grant the access request submitted to you
 
    Or
 
-   Expand the `Change access` drop-down menu to modify the access requested before you grant it.
+   Expand the **Change access** drop-down menu to modify the access requested before you grant it.
 
    ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
-1. (Optional) Click  `Ignore` to clear the access request from your approval list without granting it. 
-1. Click  `Delegate my approvals` to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md). 
-1. Scroll to the `Mentions` area underneath your approvals. Here, you can view all items where you have been included in a conversation.
+1. (Optional)&nbsp;Click&nbsp;**Ignore** to clear the access request from your approval list without granting it. 
+1. Click&nbsp;**Delegate my approvals** to delegate the approvals submitted to you if you are unavailable to make approval decisions for some time. For more information about delegating approvals, see [Delegate approval request](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md). 
+1. Scroll to the **Mentions** area underneath your approvals. Here, you can view all items where you have been included in a conversation.
 
    ![](assets/mentions-area-for-reviewers-nwe-350x191.png)
 
-1. (Optional) Click  `Reply` to respond to a comment, enter your response, then click  `Reply` again.
+1. (Optional)&nbsp;Click&nbsp;**Reply** to respond to a comment, enter your response, then click&nbsp;**Reply** again.
 
    For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Click `Pin current page` to pin the My&nbsp;Updates area to your top navigation.
+1. (Optional) Click **Pin current page** to pin the My&nbsp;Updates area to your top navigation.
 

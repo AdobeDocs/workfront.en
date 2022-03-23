@@ -13,7 +13,12 @@ You can remove users from a project when they are no longer involved in completi
 The users associated with a project are listed in the Staffing tab of a project. They represent the Project Team.&nbsp;For more information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 You can assign work to the users on the project in the Staffing tab of a project.
-For more information about scheduling resources for a project, see Work in the Legacy Team Builder in Work in the Legacy Team Builder. 
+
+<!--
+For more information about scheduling resources for a project, see
+<a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref">Work in the Legacy Team Builder</a> in
+<a href="../../../manage-work/projects/manage-projects/work-in-legacy-team-builder.md" class="MCXref xref">Work in the Legacy Team Builder</a>.
+-->
 
 ## Access requirements
 
@@ -48,11 +53,11 @@ You must have the following access to perform the steps in this article:
 
 When a user is removed from a project, any tasks or issues assigned to them might be affected, depending on whether the task or issue was in an Active or Complete state when the user was removed:
 
-* `If the item is in an Active state when the user is removed:` The item is re-assigned to a Job Role if a Job Role was already assigned. If the item&nbsp;did not have a Job Role assigned, you must manually re-assign the item. An item in an Active state is any item that has not completed yet.
-* `If the item is in a Complete state when the user is removed:` The name of the removed user remains on&nbsp;the item.
-* If the user removed is also the creator of a project, the project is not removed from their `Projects I'm On` tab in the Projects area. The project is removed from the lists for all other users that filter for that project by the Entered By field.
+* **If the item is in an Active state when the user is removed:** The item is re-assigned to a Job Role if a Job Role was already assigned. If the item&nbsp;did not have a Job Role assigned, you must manually re-assign the item. An item in an Active state is any item that has not completed yet.
+* **If the item is in a Complete state when the user is removed:** The name of the removed user remains on&nbsp;the item.
+* If the user removed is also the creator of a project, the project is not removed from their **Projects I'm On** tab in the Projects area. The project is removed from the lists for all other users that filter for that project by the Entered By field.
 
-  For more information about the relationship between the Staffing tab and the Projects I'm On tab, see Project Team overview.
+  For more information about the relationship between the **Staffing** tab and the **Projects I'm On** tab, see&nbsp; [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Remove users from a project and Project Team
 
@@ -60,12 +65,31 @@ When you remove a user from the project, the user is also removed from the proje
 
 You can remove users from a project from the People subtabof the project.
 
+* Remove users from a project from the People subtab
+
+  <!--
+  <a href="#removing-users-in-the-scheduling-tab" class="MCXref xref">Remove users from a project from the Team Scheduling subtab</a>
+  -->
+
 Remove users from a project from the People subtab
 
 1. Go to the project where you want to remove the users.
-1. Click `People` ,&nbsp;then select the users you want to remove.   
+1. Staffing.
+1. More
+1. 
+1. 
+1. Click **People** ,&nbsp;then select the users you want to remove.   
 
-1. Click `Remove`.
-1. Click  `Yes, Remove Selected Users` to confirm removal.
+1. Click **Remove**.
+1. Click&nbsp;**Yes, Remove Selected Users** to confirm removal.
 
-Remove users from a project from the Team Scheduling subtab Users can be removed from the project team in the Scheduling tab only when no tasks or issues are assigned to the user. To remove users from a project in the Scheduling subtab: Go to the project where you want to remove users from the project team, then click the Staffing tab. (The Staffing tab might be located under the More menu.) Click the (x) icon next to the user who you want to remove from the project team, then click Remove.  
+<!--
+<h3><a name="removing-users-in-the-scheduling-tab"></a>Remove users from a project from the Team Scheduling subtab</h3>
+<p>Users can be removed from the project team in the Scheduling tab only when no tasks or issues are assigned to the user.</p>
+<p>To remove users from a project in the Scheduling subtab:</p>
+<ol>
+<li value="1">Go to the project where you want to remove&nbsp;users from&nbsp;the project team, then click the <strong>Staffing</strong> tab. (The Staffing tab might be located under the <strong>More</strong> menu.)<br><img src="assets/staffing-tab-350x162.png" alt="staffing_tab.png" style="width: 350;height: 162;"><br></li>
+<li value="2">Click the (x) icon next to the user who you want to remove from the project team, then click&nbsp;<strong>Remove</strong>. <br><br></li>
+</ol>
+-->
+

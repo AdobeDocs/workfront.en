@@ -24,11 +24,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -36,16 +44,16 @@ You must have the following to perform the steps in this article:
 
 ## Delete a custom field
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Custom Forms.`
-1. Click the `Fields` tab.
-1. Select the custom field, then click `Delete`.
-1. If you are sure you want to permanently delete the custom field and all associated data on objects where it was attached, click `Yes, Delete It`.
+1. Click **Custom Forms.**
+1. Click the **Fields** tab.
+1. Select the custom field, then click **Delete**.
+1. If you are sure you want to permanently delete the custom field and all associated data on objects where it was attached, click **Yes, Delete It**.
 
 ## Remove fields without losing data
 
-` `**Warning: **`` Removing fields from a form that has over 500 fields cannot be undone. Avoid this unless you are certain that you won't need to re-add fields to the custom form in the future. Each time you remove a field, another field cannot be added to the custom form until the custom form has fewer than 500 fields.
+``` ```**Warning: **`````` Removing fields from a form that has over 500 fields cannot be undone. Avoid this unless you are certain that you won't need to re-add fields to the custom form in the future. Each time you remove a field, another field cannot be added to the custom form until the custom form has fewer than 500 fields.
 
 1. Determine which fields you want to remove from the original custom form.
 

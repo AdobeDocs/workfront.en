@@ -40,16 +40,16 @@ You must have the following to perform the steps in this article:
 
 ## View, work with, and create teams for your group from the Groups area
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create or modify teams.
-1. In the left panel, click `Teams` ![](assets/teams.png) to list the teams associated with the group and with any subgroups it may have.
+1. In the left panel, click **Teams** ![](assets/teams.png) to list the teams associated with the group and with any subgroups it may have.
 
 1. Do any of the following:
 
-  * `Add a team`: Click `New Team`, then use the following options to configure it:
+  * **Add a team**: Click **New Team**, then use the following options to configure it:
 
     <table cellspacing="0"> 
      <col> 
@@ -61,7 +61,11 @@ You must have the following to perform the steps in this article:
       </tr> 
       <tr> 
        <td role="rowheader">Group</td> 
-       <td> <p> The system fills in the Group field for the new portfolio with the group you are viewing.If you want to associate the team with a differentgroup, start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+       <td> <p> <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
+          The system fills in the Group field for the new portfolio with the group you are viewing. 
+         </MadCap:conditionalText>If you want to associate the team with a <MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
+          different 
+         </MadCap:conditionalText>group, start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader">Team Members</td> 
@@ -86,7 +90,7 @@ You must have the following to perform the steps in this article:
      </tbody> 
     </table>
 
-  * `Edit teams`: Select at least one team, click `the` Edit icon ![](assets/edit-icon.png), then use the following options to configure it:
+  * **Edit teams**: Select at least one team, click **the** Edit icon ![](assets/edit-icon.png), then use the following options to configure it:
 
     <table cellspacing="0"> 
      <col> 
@@ -98,7 +102,7 @@ You must have the following to perform the steps in this article:
       </tr> 
       <tr> 
        <td role="rowheader">Group</td> 
-       <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
+       <td> <p>Associate the team with a group. Start typing the name of the group, then select the name when it appears.</p> You can make sure you are associating the right group with the team by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. <p>Note: When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow <img src="assets/switch-team-icon.png" alt="Switch team icon"> to list all of the teams that are assigned to the groups that they manage.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader">Owner</td> 
@@ -135,6 +139,6 @@ You must have the following to perform the steps in this article:
      </tbody> 
     </table>
 
-  * `Delete teams`: Select at least one team, then click the Delete icon ![](assets/delete.png).
-  * `Export the list of teams`: Click `Export` ![](assets/export.png), then select the file format you want for the exported list.
+  * **Delete teams**: Select at least one team, then click the Delete icon ![](assets/delete.png).
+  * **Export the list of teams**: Click **Export** ![](assets/export.png), then select the file format you want for the exported list.
 

@@ -49,12 +49,17 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the agile iteration where you want to create the story:
 
-  1. Click the name of the specific iteration where you want to create a story.
+   1. People
+   1. Teams
+   1. Iterations
+   1. All Iterations.
+   1. 
+   1. Click the name of the specific iteration where you want to create a story.
 
-1. Click the `Work Items` tab then `Stories`.  
+1. Click the **Work Items** tab then **Stories**.  
    ![Screen_Shot_2018-06-04_at_4.24.17_PM.png](assets/screen-shot-2018-06-04-at-4.24.17-pm-350x164.png)
 
-1. Click `New Story.`
+1. &nbsp;Click **New Story.**
 1. Specify the following information:  
 
    <table cellspacing="0">
@@ -71,7 +76,7 @@ You must have the following access to perform the steps in this article:
      </tr>
      <tr>
       <td role="rowheader">Ready:</td>
-      <td>Select this option if the story is ready to be added to an iteration. When this option is selected, it indicates&nbsp;to users which stories in the backlog are ready to be added to an iteration.<br>A story can be added to an iteration whether or not it is marked <span class="bold">Ready.</span></td>
+      <td>Select this option if the story is ready to be added to an iteration. When this option is selected, it indicates&nbsp;to users which stories in the backlog are ready to be added to an iteration.<br>A story can be added to an iteration whether or not it is marked <strong>Ready.</strong></td>
      </tr>
      <tr>
       <td role="rowheader">Estimate (points)</td>
@@ -92,7 +97,7 @@ You must have the following access to perform the steps in this article:
     </tbody>
    </table>
 
-1. Click `Save Story`.
+1. Click **Save Story**.
 
 ## Create an agile story in the backlog
 
@@ -106,7 +111,7 @@ You can add an existing task or issue as a story to an iteration. For more infor
 
 You can create a subtask to an agile story by using either of the following methods:
 
-* By using the `Subtasks`&nbsp;tab, as described in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md).
+* By using the **Subtasks**&nbsp;tab, as described in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md#creating-subtasks) in [Create subtasks](../../manage-work/tasks/create-tasks/create-subtasks.md).
 
 * Directly from the story board, as described in&nbsp; [Create an iteration](../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md).
 

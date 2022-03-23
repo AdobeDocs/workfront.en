@@ -19,7 +19,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -28,7 +32,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -45,7 +56,7 @@ To use DocuSign modules, you must have a DocuSign account.
 
 To create a connection for your DocuSign modules:
 
-1. Click `Add` next to the Connection box when you begin configuring the first DocuSign module.
+1. Click **Add** next to the Connection box when you begin configuring the first DocuSign module.
 1. Enter the following:
 
    <table cellspacing="0"> 
@@ -82,7 +93,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 This trigger module starts a scenario when an envelope is sent, delivered, signed, completed, or declined.
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader">Connection </td> 
@@ -172,21 +185,21 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-` `**Example: **`` List Envelopes
+``` ```**Example: **`````` List Envelopes
 
 The following API call returns envelopes from the specified date in your DocuSign account:
 
-`URL`:
-<pre>/v2.1/accounts/{accountId}/envelopes/</pre>`Method`:
-<pre>GET</pre>`Query String`:
+**URL**:
+<pre>/v2.1/accounts/{accountId}/envelopes/</pre>**Method**:
+<pre>GET</pre>**Query String**:
 
-`Key`:
+**Key**:
 
 ```
 from_date
 ```
 
-`Value`: 
+**Value**: 
 
 ```
 YYYY-MM-DD
@@ -228,15 +241,15 @@ This action module downloads a single document.
   </tr> 
   <tr> 
    <td role="rowheader">Certificate</td> 
-   <td>Select <span class="bold">Yes</span> if you want to include the envelope signing certificate in the download.</td> 
+   <td>Select <strong>Yes</strong> if you want to include the envelope signing certificate in the download.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Documents by User ID</td> 
-   <td>Select <span class="bold">Yes</span> if you want to allow recipients to retrieve documentx by User ID. For example, if a user is included in two different routing orders with different visibilities, using this option returns all of the documents from both routings.</td> 
+   <td>Select <strong>Yes</strong> if you want to allow recipients to retrieve documentx by User ID. For example, if a user is included in two different routing orders with different visibilities, using this option returns all of the documents from both routings.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Encrypt</td> 
-   <td>Select <span class="bold">Yes</span> if you want the PDF bytes returned in the response to be encrypted for all the key managers configured on your DocuSign account.</td> 
+   <td>Select <strong>Yes</strong> if you want the PDF bytes returned in the response to be encrypted for all the key managers configured on your DocuSign account.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Language</td> 
@@ -244,11 +257,11 @@ This action module downloads a single document.
   </tr> 
   <tr> 
    <td role="rowheader">Show Changes</td> 
-   <td>When set to <span class="bold">Yes</span>, any changed fields for the returned PDF are highlighted in yellow and optional signatures or initials are outlined in red.</td> 
+   <td>When set to <strong>Yes</strong>, any changed fields for the returned PDF are highlighted in yellow and optional signatures or initials are outlined in red.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Watermark</td> 
-   <td> <p>Select <span class="bold">No </span>to remove the watermark from the PDF&nbsp;documents.</p> </td> 
+   <td> <p>Select <strong>No</strong>to remove the watermark from the PDF&nbsp;documents.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -311,33 +324,35 @@ This module uploads a specified file to an existing envelope in DocuSign.
 
 This action module creates a new envelope from a template. It returns the new envelope's ID, as well as the status of the new envelope.
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> <!--
-    Connection
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
    --> 
    <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
   </tr> 
   <tr> <!--
-    Account
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td>
    --> 
    <td> <p>Select the account that contains the envelope where you want to upload a file.</p> </td> 
   </tr> 
   <tr> <!--
-    Template
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template</td>
    --> 
    <td> <p> Select the template that you want to create the new envelope from. Templates are available based on the Account you selected.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <!--
-     After creation
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">After creation</p>
     --> </td> 
    <td> <p>Select whether you want to save the envelope as a draft or send it for signing.</p> </td> 
   </tr> 
   <tr> <!--
-    Template recipients
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Template recipients</td>
    --> <!--
-    Select the recipient of this envelope
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the recipient of this envelope</td>
    --> 
   </tr> 
  </tbody> 
@@ -347,54 +362,79 @@ This action module creates a new envelope from a template. It returns the new en
 
 This action module adds one or more recipients to an existing envelope. If the envelope has already been sent, the recipient is sent an email. This module is not valid for envelopes that have already been completed.
 
-<table cellspacing="0">   
- <tbody> Connection For instructions about connecting your DocuSign account to Workfront Fusion, see Connect the module's app or web service to Workfront Fusion in the article Create a scenario. Account Select the account that contains the envelope where you want add recipients. 
-  <tr> <!--
-    Envelope ID
-   --> <!--
-    Select the or map the ID of the envelope where you want to add the recipient.
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr data-mc-conditions=""> <!--
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection </td>
    --> 
-  </tr> Recipient type Select the type of recipient that you want to add to the envelope. Agent Carbon copy Certified delivery In-person signer Intermediary Signer 
+   <td> <p>For instructions about connecting your DocuSign account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> <!--
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Account </td>
+   --> 
+   <td> <p>Select the account that contains the envelope where you want add recipients.</p> </td> 
+  </tr> 
   <tr> <!--
-    Email
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Envelope ID</td>
+   --> <!--
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the or map the ID of the envelope where you want to add the recipient.</td>
+   --> 
+  </tr> 
+  <tr data-mc-conditions=""> <!--
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Recipient type</td>
+   --> 
+   <td> <p> Select the type of recipient that you want to add to the envelope.</p> 
+    <ul> 
+     <li> <p>Agent</p> </li> 
+     <li> <p>Carbon copy</p> </li> 
+     <li> <p>Certified delivery</p> </li> 
+     <li> <p>In-person signer</p> </li> 
+     <li> <p>Intermediary</p> </li> 
+     <li> <p>Signer</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> <!--
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Email</p> </td>
    --> 
    <td> <p>Enter or map the email address of the recipient you want to add to the envelope.</p> </td> 
   </tr> 
   <tr> <!--
-    Name
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Name</p> </td>
    --> 
    <td>Enter or map the name of the recipient you want to add to the envelope.</td> 
   </tr> 
   <tr> <!--
-    Routing order
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Routing order</p> </td>
    --> 
    <td> <p>Enter or map the routing number for the recipient. Routing number determines the order in which recipients receive and sign your documents.</p> </td> 
   </tr> 
   <tr> <!--
-    Email body
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email body</p> </li> </td>
    --> 
    <td>Enter or map the body (content) of the email is sent to the recipent.</td> 
   </tr> 
   <tr> <!--
-    Email subject
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <li> <p>Email subject</p> </li> </td>
    --> 
    <td>Enter or map the subject of the email that is sent to the recipient.</td> 
   </tr> 
   <tr> <!--
-    Private message
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Private message</p> </td>
    --> 
    <td> <li> <p>Only the selected recipient sees the private message, as well as the general message. The private message is limited to 1000 characters.</p> </li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <!--
-     Authentication
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Authentication</p>
     --> </td> 
    <td> <p>Select the authentication method that you want to use to confirm the recipient's identity.</p> 
     <ul> 
-     <li> <p><span class="bold">None</span> </p> </li> 
-     <li> <p><span class="bold">Access code</span> </p> <p>Enter or map the access code.</p> </li> 
-     <li> <p><span class="bold">Phone</span> </p> <p>Enter or map the phone number</p> </li> 
-     <li> <p><span class="bold">SMS</span> </p> <p>Enter or map the phone number</p> </li> 
+     <li> <p><strong>None</strong> </p> </li> 
+     <li> <p><strong>Access code</strong> </p> <p>Enter or map the access code.</p> </li> 
+     <li> <p><strong>Phone</strong> </p> <p>Enter or map the phone number</p> </li> 
+     <li> <p><strong>SMS</strong> </p> <p>Enter or map the phone number</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

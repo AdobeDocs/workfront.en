@@ -39,7 +39,15 @@ You must have the following access to perform the actions described in this arti
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions on goals</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -57,7 +65,7 @@ You must have the following before you can start:
 >
 >Only goals that have been checked in on at least once display in the Pulse section.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of your screen.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of your screen.
 
    This opens the Workfront Goals area.
 
@@ -114,13 +122,13 @@ You must have the following before you can start:
   * Activity names and owners. For information about activities, see [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
   * Results and activities progress bars and progress statuses. For information about how Workfront Goals calculates goal progress, see [Calculate goal progress in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
-1. Click `Add a comment` to add a comment for the goal, then click `Post`. The comment is visible in the Check-in area, as well as the Updates tab of the Goal Details panel. We recommend that you use the Pulse section to comment on goals that have not been updated in a while and ask the goal owner for an update. 
+1. Click **Add a comment** to add a comment for the goal, then click **Post**. The comment is visible in the Check-in area, as well as the Updates tab of the Goal Details panel. We recommend that you use the Pulse section to comment on goals that have not been updated in a while and ask the goal owner for an update. 
 
-1. (Optional) Click `Show all updates` to display all goal updates. This opens the Updates tab in the Goal&nbsp;Details panel on the right. 
-1. Click the name of a goal to open the `Goal Details` panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
-1. (Optional and conditional) Click `the alignment icon` ![](assets/align-icon.png) to open the goal in the Goal Alignment section, if the goal is aligned to other goals. 
+1. (Optional) Click **Show all updates** to display all goal updates. This opens the Updates tab in the Goal&nbsp;Details panel on the right. 
+1. Click the name of a goal to open the **Goal Details** panel on the right and review more information about the goal as well as manage it and its results and activities. For information about reviewing individual goals, see [Update goals in the Goal Details panel in Adobe Workfront Goals](../../workfront-goals/goal-management/update-goals-in-goal-details-panel.md).
+1. (Optional and conditional) Click **the alignment icon** ![](assets/align-icon.png) to open the goal in the Goal Alignment section, if the goal is aligned to other goals. 
 
-1. (Optional) Expand the `Goals per page` drop-down menu and select from the following options to display additional goals:
+1. (Optional) Expand the **Goals per page** drop-down menu and select from the following options to display additional goals:
 
   * 20.&nbsp;This is the default selection. 
   * 50
@@ -131,6 +139,67 @@ You must have the following before you can start:
 &nbsp;
 
 <!--
-Depending on what environment you access Workfront Goals from, do one of the following: (Optional) Click one of the tabs in the table below to view the following types of goals: Personal Goals where you are designated as the owner or that have a result or activity that you own. My Teams Goals where any of your teams is designated as the Owner. Tip: If you are not assigned to any teams, no results display when you select the My Teams filter. My Groups Goals where any of your groups is designated as the Owner. Company Goals where your organization is the owner. This is the organization associated with your Workfront instance, as described in Configure basic information for your system. Tip: In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. All Goals owned by you, your teams, your groups, your company, or anyone in your organization. (Optional and conditional) If in the Production environment, deselect any of the options in the following table if you want to not display them in the Updates tab. They are selected by default. These options have been removed from the Preview environment and all updates display there by default. Progress Updates Displays information about the history of progress updates on results and activities. Comments Displays comments made by users on the goal. Editing History Displays information about creating and updating the goal, results, and activities.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p class="preview">Depending on what environment you access Workfront Goals from, do one of the following:</p>
+<ol>
+<li value="1"> <p class="preview">(Optional)&nbsp;Click one of the tabs in the table below to view the following types of goals: </p>
+<div>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Personal</td>
+<td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td>
+</tr>
+<tr>
+<td role="rowheader">My Teams</td>
+<td> <p>Goals where any of your teams is designated as the Owner. </p> <note type="tip">
+<span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span>
+</note> </td>
+</tr>
+<tr>
+<td role="rowheader">My Groups</td>
+<td>Goals where any of your groups is designated as the Owner. </td>
+</tr>
+<tr>
+<td role="rowheader">Company</td>
+<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your Workfront instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p>
+<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+<span class="autonumber"><span><b>Tip: </b></span></span>
+<p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p>
+<p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p>
+</div> </td>
+</tr>
+<tr>
+<td role="rowheader">All</td>
+<td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td>
+</tr>
+</tbody>
+</table>
+</div> </li>
+</ol>
+<ol>
+<li value="1"> <p>(Optional and conditional) If in the Production environment, deselect any of the options in the following table if you want to not display them in the Updates tab.&nbsp;They are selected by default. <span class="preview">These options have been removed from the Preview environment and all updates display there by default. </span></p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Progress Updates</td>
+<td>Displays information about the history of progress updates on results and activities. </td>
+</tr>
+<tr>
+<td role="rowheader">Comments</td>
+<td>Displays comments made by users on the goal. </td>
+</tr>
+<tr>
+<td role="rowheader">Editing History</td>
+<td>Displays information about creating and updating the goal, results, and activities. </td>
+</tr>
+</tbody>
+</table> </li>
+</ol>
+</div>
 -->
 

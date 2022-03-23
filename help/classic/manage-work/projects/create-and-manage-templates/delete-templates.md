@@ -48,18 +48,23 @@ You must have the following access to perform the steps in this article:
 ## Considerations for deleting templates
 
 * The tasks which were added to projects when the template was attached remain on the projects. However, the template task information associated with the tasks is deleted. 
-* The name of the template is no longer listed in the `Template` field on the `Overview` sub-tab of the project. 
+* The name of the template is no longer listed in the **Template** field on the **Overview** sub-tab of the project. 
 
 * You can recover a recently deleted template from the Recycle Bin. For information about recovering items from the Recycle Bin, see [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Delete a template
 
-1. Go to the Projects area in your Global Navigation Bar, then to the Projects tab. 
-1. Select the template that you want to delete by clicking the checkbox to the left of the template name, then click `Delete > Yes, Delete It` to confirm the deletion.
+1. Go to the **Projects** area in your Global Navigation Bar, then to the **Projects** tab. 
+
+1. Click **Templates**. 
+1. This opens a list of templates. 
+1. ![](assets/template-selected-with-delete-button-350x179.png)
+
+1. Select the template that you want to delete by clicking the checkbox to the left of the template name, then click **Delete > Yes, Delete It** to confirm the deletion.
 
    Or
 
-   Click the name of a template to access it and click Template Actions> Delete Template> Yes, Delete it.
+   Click the name of a template to access it and click **Template Actions> Delete Template> Yes, Delete it**.
 
    The template is no longer available to be associated with a project.
 

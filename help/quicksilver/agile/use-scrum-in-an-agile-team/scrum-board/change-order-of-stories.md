@@ -41,6 +41,11 @@ You must have the following access to perform the steps in this article:
 
 ## Change story order in an iteration
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. Go to the iteration or project that contains the stories that you want to reorder.  
 1. Drag a story card or a swimlane to the desired vertical location within a status column on the story board.
 

@@ -30,9 +30,9 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-     You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> <!--
-     You must be a group administrator. For more information on group administrators, see Group administrators.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -65,23 +65,23 @@ To build a report for projects which are pending approval of their Business Case
 
    For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Select the `View` tab of the report, then click `Add Column`.
+1. Select the **View** tab of the report, then click **Add Column**.
 
-1. Start typing "Status" in the `Show in this column` field, and select this field when it appears in the list.
+1. Start typing "Status" in the **Show in this column** field, and select this field when it appears in the list.
 
    &nbsp;This column will display the status of the projects.
 
-1. Select the `Filters` tab of the report, then click `Add a Filter Rule`.
+1. Select the **Filters** tab of the report, then click **Add a Filter Rule**.
 
-1. Start typing "Status" in the `Only show me Projects in which the ...` field, and select it when it appears in the list.
-1. Select `Equal` for the filter modifier.
+1. Start typing "Status" in the **Only show me Projects in which the ...** field, and select it when it appears in the list.
+1. Select **Equal** for the filter modifier.
 1. Start typing "Requested" in the available field.&nbsp;
 
    This ensures that the report includes only projects which are in the Requested status.
 
    &nbsp; ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
-1. (Optional) Click `Add another Filter Rule`.
+1. (Optional) Click **Add another Filter Rule**.
 
    You can add additional filters, to show only projects where you are the Project Owner, or the Project Sponsor, or the Portfolio Owner.
 
@@ -109,19 +109,19 @@ To build a report for projects which are pending approval of their Business Case
   
     to display where you are designated as the Portfolio Manager.&nbsp;
 
-1. Click `Save+Close`.
+1. Click **Save+Close**.
 
-   Notice that all projects in the report are in the status of `Requested`.
+   Notice that all projects in the report are in the status of **Requested**.
 
 1. Click the name of a project in the report to open it.
-1. Click Business Case in the left panel.
-1. Click `Approve` or `Reject` in the Business Case Summary area to approve or reject the Business Case.&nbsp;
+1. Click **Business Case** in the left panel. 
+1. Click **Approve** or **Reject** in the Business Case Summary area to approve or reject the Business Case.&nbsp;
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 
-   The project status is changed to `Approved` if the Business Case is approved.
+   The project status is changed to **Approved** if the Business Case is approved.
 
-   The project status is changed to `Rejected` if the Business case is rejected.
+   The project status is changed to **Rejected** if the Business case is rejected.
 
    >[!NOTE]
    >
@@ -131,4 +131,4 @@ To build a report for projects which are pending approval of their Business Case
 
 ##  Approve the Business Case by accessing Requested projects in a portfolio
 
-For more information about reviewing Requestedprojects, see the article [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
+For more information about reviewing Requested projects, see the article [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).

@@ -33,7 +33,15 @@ For information about creating initiatives, see [Create and edit initiatives in 
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -51,7 +59,7 @@ We recommend that you place more urgent initiatives at the top of a plan and the
 
 To update initiative priority:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
 
    A list of plans displays.
 
@@ -65,15 +73,15 @@ To update initiative priority:
 
     ![](assets/multi-select-initiative-number.png)
 
-  * Click the `Prioritize` box at the bottom of the plan, then choose from the following options:
+  * Click the **Prioritize** box at the bottom of the plan, then choose from the following options:
 
-    * `Top`: Moves the selected initiatives to the top of the initiative list.&nbsp;The selected initiatives are listed first on the plan.
-    * `Bottom`:&nbsp;Moves the selected initiatives to the bottom of the initiative list.&nbsp;The selected initiatives are listed last on the plan.
-    * `Select a number`: Moves the selected initiatives after the initiative you indicate here.
+    * **Top**: Moves the selected initiatives to the top of the initiative list.&nbsp;The selected initiatives are listed first on the plan.
+    * **Bottom**:&nbsp;Moves the selected initiatives to the bottom of the initiative list.&nbsp;The selected initiatives are listed last on the plan.
+    * **Select a number**: Moves the selected initiatives after the initiative you indicate here.
 
       ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
     Workfront immediately places the selected initiatives where you indicate and the numbers of all initiatives update accordingly.
 
-1. Click `Save Plan` to save your changes.
+1. Click **Save Plan** to save your changes.
 

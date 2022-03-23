@@ -49,19 +49,44 @@ For more information about designating timesheet approvers, see the section [Cre
 
 ## Approve a timesheet
 
-You can approve any timesheets that have been submitted where you have been designated as an approver. When a timesheet is submitted for approval, the timesheet is listed in the `Approvals` area on your `Home`&nbsp;page. For more information, see [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).
+You can approve any timesheets that have been submitted where you have been designated as an approver. When a timesheet is submitted for approval, the timesheet is listed in the **Approvals**&nbsp;area on your **Home**&nbsp;page. For more information, see [Approving work in Adobe Workfront](../../review-and-approve-work/manage-approvals/approving-work.md).
 
 If the Workfront administrator has&nbsp;enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers, you are notified after the timesheet is approved or rejected. For information about enabling event notifications, see [Event notifications available in Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 To approve a timesheet:
 
-1. (Conditional) Depending on which environment you are creating the timesheet in, select from the following: In the Production environment, Click Timesheets I Approve in the left panel. A list of the timesheets waiting your approval displays. The status of the timesheets is Submitted. In the Preview environment, the All filter is selected by default. Do one of the following to view your timesheets Click My Timesheet Approvals in the upper-right corner of the page Or Select the My Timesheet Approvals filter from the Filter icon drop-down menu. A list of all the timesheets waiting your approval displays. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Timesheets**.
+1. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (Conditional) Depending on which environment you are creating the timesheet in, select from the following:&nbsp;In the Production environment,
+   </MadCap:conditionalText>
+   -->
+
+   Click **Timesheets I Approve**in the left panel.
+
+   A list of the timesheets waiting your approval displays. The status of the timesheets is Submitted.
+
+   ![](assets/timesheets-i-approve-section-old-nwe-350x80.png)
+
+   <!--
+   <ul class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <li> <p>In the Preview environment, the <strong>All</strong> filter is selected by default. Do one of the following to view your timesheets</p>
+   <ul>
+   <li> <p>Click <strong>My Timesheet Approvals</strong> in the upper-right corner of the page</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </p> <p>Or</p> <p>Select the <strong>My Timesheet Approvals</strong>filter from the Filter icon <img src="assets/filter-nwepng.png"> drop-down menu. </p> <p>A list of all the timesheets waiting your approval displays. </p> <p> <img src="assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png" style="width: 350;height: 61;"> </p> </li>
+   </ul> </li>
+   </ul>
+   -->
+
 1. Click the timesheet you want to approve.
-1. Click `Approve`.
+1. Click **Approve**.
 
    Or
 
-   If you want to reject the timesheet, click `Reject` in the lower-left corner of the timesheet.
+   If you want to reject the timesheet, click **Reject** in the lower-left corner of the timesheet.
 
    If approved, the timesheet status changes to&nbsp;Closed.
 

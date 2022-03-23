@@ -41,12 +41,12 @@ You must have the following access to perform the steps in this article:
 
 ## Enable loop in a video proof
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. In the lower-right corner of the proofing viewer, click the `Settings` icon.
+1. In the lower-right corner of the proofing viewer, click the **Settings** icon.
 
    ![phq_viewer_video_playbackspeed__3_.png](assets/phq-viewer-video-playbackspeed--3-.png)
 
-1. Enable the `Loop` option.
+1. Enable the **Loop** option.
 

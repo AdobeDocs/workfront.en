@@ -16,8 +16,8 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
    The event filter currently offers the following operations:
 
-  * Equal: Trigger a scenario only when an event matches the conditions of the filter. For example, you could set up a filter that triggers a scenario only if the event occurs in a specific project.
-  * Not Equal: Trigger a scenario only if an event does not match the conditions of the filter. For example, you can could create a filter that triggers a scenario only if the issue an event occurs in does not have a status of Closed.
+   * Equal: Trigger a scenario only when an event matches the conditions of the filter. For example, you could set up a filter that triggers a scenario only if the event occurs in a specific project.
+   * Not Equal: Trigger a scenario only if an event does not match the conditions of the filter. For example, you can could create a filter that triggers a scenario only if the issue an event occurs in does not have a status of Closed.
 
    Previously, the Watch records module would retrieve all records. Users could filter only by setting up filters later in the scenario.
 
@@ -31,6 +31,6 @@ For a list of recent bug fixes in Workfront Fusion, see the [Workfront Maintenan
 
 For more information on event filters in the Workfront > Watch events module, see [Adobe Workfront modules](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-`<iframe class="vimeo-player_0" src="assets/594670449?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/594670449?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/594670449/76ee783470) 

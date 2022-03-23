@@ -26,7 +26,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -35,7 +39,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -66,8 +77,8 @@ The procedure of connecting the service via an API token is similar for most web
 >We are including instructions for obtaining a Pushover API key only as an example of what you might find.
 
 1. Log in to your Pushover account.
-1. Click `Create an Application/API Token` at the bottom of the page.
-1. Fill in the Application Information and click `Create an Application`.
+1. Click **Create an Application/API Token** at the bottom of the page.
+1. Fill in the Application Information and click **Create an Application**.
 1. Store the provided API token in a safe place. You will need it for the Workfront Fusion HTTP > Make a Request module to connect to the desired web service (Pushover, in this case).
 
 ## Set up the HTTP module
@@ -120,7 +131,7 @@ To connect a web service to your Workfront Fusion scenario, you need to use the 
 
 Specify parameters and values in the JSON format.
 
-` `**Example: **`` {"user":"12345c2ecu1hq42ypqzhswbyam34",
+``` ```**Example: **`````` {"user":"12345c2ecu1hq42ypqzhswbyam34",
 
 "token":"123459evz8aepwtxydndydgyumbfx",
 
@@ -165,7 +176,7 @@ For more information about the JSON modules, see [JSON modules](../../workfront-
 1. Map the JSON string from the Create JSON module to the Request content field in the HTTP > Make a Request module.
 
    <!--
-
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/json-string-350x310.gif" style="width: 350;height: 310;"> </p>
    -->
 
    Now when you run the scenario, the push notification is sent to the device that has been registered in your Pushover account.

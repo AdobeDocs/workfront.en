@@ -10,7 +10,7 @@ You can export to:
 * PDF
 
   <!--
-  PNG
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>PNG</p> </li>
   -->
 
 * XLSX
@@ -34,7 +34,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to create reports, calendars, and dashboards</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> Object permissions Manage access to the report For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -45,14 +49,16 @@ You must have the following access to perform the steps in this article:
 Before you begin, you must enroll in the Reporting Canvas beta program.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
+</MadCap:conditionalText>
 -->
 
 ## Export a report
 
 1. Go to the report that you want to export.
-1. In the report header, click the `More` icon ![](assets/more-icon.png), select `Export`, then select the file format you want.
-1. (Conditional) If you selected `PDF`, configure the fields below to format the exported file, then click `Download PDF`.
+1. In the report header, click the **More** icon ![](assets/more-icon.png), select **Export**, then select the file format you want.
+1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.
 
    <table cellspacing="0"> 
     <col> 
@@ -64,15 +70,15 @@ For more information, see [link to Beta enrollment info].
      </tr> 
      <tr> 
       <td role="rowheader">Orientation</td> 
-      <td> <p>Select <span class="bold">Portrait</span> or <span class="bold">Landscape</span>.</p> </td> 
+      <td> <p>Select <strong>Portrait</strong> or <strong>Landscape</strong>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Scaling options</td> 
       <td> <p>Select the scaling option for the exported file:</p> 
        <ul> 
-        <li> <p><span class="bold">Normal</span> (default option)</p> </li> 
-        <li> <p><span class="bold">Fit to width</span> </p> </li> 
-        <li> <p><span class="bold">Fit to height</span> </p> </li> 
+        <li> <p><strong>Normal</strong> (default option)</p> </li> 
+        <li> <p><strong>Fit to width</strong> </p> </li> 
+        <li> <p><strong>Fit to height</strong> </p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -81,15 +87,15 @@ For more information, see [link to Beta enrollment info].
      </tr> 
      <tr> 
       <td role="rowheader">Footer settings</td> 
-      <td> <p>Select what you want to display in the footer.</p> <p>If you select <span class="bold">Footer message</span>, type the <span class="bold">Footer text</span> that you want to display. You can type up to 255 characters.</p> </td> 
+      <td> <p>Select what you want to display in the footer.</p> <p>If you select <strong>Footer message</strong>, type the <strong>Footer text</strong> that you want to display. You can type up to 255 characters.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Watermark</td> 
-      <td> <p>If you select <span class="bold">Include watermark</span>, do any of the following:</p> 
+      <td> <p>If you select <strong>Include watermark</strong>, do any of the following:</p> 
        <ul> 
-        <li>Type the <span class="bold">Watermark text</span> that you want to display. You can type up to 20 characters.</li> 
-        <li>Slide the <span class="bold">Opacity</span> to the percentage that you want for the text.</li> 
-        <li>Enter the degree of <span class="bold">Rotation</span> that you want for the text.</li> 
+        <li>Type the <strong>Watermark text</strong> that you want to display. You can type up to 20 characters.</li> 
+        <li>Slide the <strong>Opacity</strong> to the percentage that you want for the text.</li> 
+        <li>Enter the degree of <strong>Rotation</strong> that you want for the text.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 

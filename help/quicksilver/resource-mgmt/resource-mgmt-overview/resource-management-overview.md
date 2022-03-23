@@ -14,17 +14,17 @@ Resource Management allows resource managers to make business decisions that ens
 This section contains the following articles:
 
   <!--
-  Get started with Resource Management
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-mgmt-overview/get-started-resource-management-d.md" class="MCXref xref" xrefformat="{para}">Get started with Resource Management </a> </li>
   -->
 
 * [Get started with Resource Management](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
 
   <!--
-  Difference between Legacy Resource Planning and Planning
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref" xrefformat="{para}">Difference between Legacy Resource Planning and Planning</a> </li>
   -->
 
   <!--
-  Migrate from Legacy Resource Estimates to Resource Budgeting
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../resource-mgmt/resource-mgmt-overview/migrate-resource-estimates-to-budgeting.md" class="MCXref xref" xrefformat="{para}">Migrate from Legacy Resource Estimates to Resource Budgeting </a> </li>
   -->
 
 * [Migrate from Resource Scheduling to the Workload Balancer](../../resource-mgmt/resource-mgmt-overview/migrate-resource-scheduling-to-workload-balancer.md) 

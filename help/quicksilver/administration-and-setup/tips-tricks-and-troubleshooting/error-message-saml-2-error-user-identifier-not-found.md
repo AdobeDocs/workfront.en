@@ -51,13 +51,13 @@ You must have the following to perform the steps in this article:
 
 On the ADFS server, make sure&nbsp;there is a claim for name ID:
 
-1. In Windows, click `Start` > `Administration` > `ADFS 2.0 Management`.  
+1. In Windows, click **Start** > **Administration** > **ADFS 2.0 Management**.  
    The ADFS 2.0 Management dialog box is displayed.
 
-1. Select `Trust Relationship` > `Relying Party Trusts` in the left-hand pane.
+1. Select **Trust Relationship** > **Relying Party Trusts** in the left-hand pane.
 
-1. Right-click on the relying party trust related to Adobe Workfront, and select `Edit Claim Rules`.
-1. Verify the claim has an `Outgoing Claim Type` of `Name ID`.
+1. Right-click on the relying party trust related to Adobe Workfront, and select **Edit Claim Rules**.
+1. Verify the claim has an **Outgoing Claim Type** of **Name ID**.
 
 ![1.png](assets/1-350x287.png)
 

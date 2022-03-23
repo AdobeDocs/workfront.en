@@ -26,7 +26,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -35,7 +39,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -46,9 +57,9 @@ You must have the following access to use the functionality in this article:
 
 ## Create a new template
 
-1. Click `Templates` ![](assets/fusion-template-icon.png) in the left navigation panel.
-1. Click `Create a new template` in the top-right corner.
-1. (Optional) Rename the template by replacing the default `New template name` in the top-left corner.
+1. Click **Templates** ![](assets/fusion-template-icon.png) in the left navigation panel.
+1. Click **Create a new template** in the top-right corner.
+1. (Optional) Rename the template by replacing the default **New template name** in the top-left corner.
 1. (Optional) To change the language of your template, click Set up a template ![](assets/fusion-scenario-settings-icon.png) and select the language from the Language drop-down.
 
    >[!IMPORTANT]
@@ -66,8 +77,8 @@ You must have the following access to use the functionality in this article:
    >
    >If your template includes modules that require adding the connection, credentials, or other privacy-sensitive information, this information is not shared with the template users.
 
-1. (Optional) Click `Run once` to test your template.
-1. Click the `Save` icon ![](assets/save-icon.png).
+1. (Optional) Click **Run once** to test your template.
+1. Click the **Save** icon ![](assets/save-icon.png).
 
 >[!NOTE]
 >
@@ -78,9 +89,9 @@ You must have the following access to use the functionality in this article:
 The Workfront Fusion template wizard allows you to provide future users of your template with instructions or information related to the specific fields used in modules.
 
 1. Click the module added to the template to see the module's fields.
-1. Locate the field where you want to add Wizard information, and enable `Use in Wizard` for that field.
+1. Locate the field where you want to add Wizard information, and enable **Use in Wizard** for that field.
 1. Enter the information you want to make visible for users into the Help field.
-1. (Optional) To allow users to see this text when using the template, enable `Use as default value`.
+1. (Optional) To allow users to see this text when using the template, enable **Use as default value**.
 1. Repeat steps 2-4 for each field that you want to provide information for.
-1. Click `OK` to save changes and close the module.
+1. Click **OK** to save changes and close the module.
 

@@ -11,18 +11,19 @@ description: The highlighted information on this page refers to functionality no
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
 
 <!--
-The Summary allows you to interact with important work item information from the following areas:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Summary allows you to interact with important work item information from the following areas:</p>
 -->
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/summary-overview-summary-areas-350x145.png" style="width: 350;height: 145;"> </p>
 -->
 
 You can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of Adobe Workfront that display tasks and issues.
 
 The following table displays the areas where you can locate and use the Summary panel: 
 
-<table cellspacing="3">  
+<table cellspacing="3"> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Tasks</td> 
@@ -36,12 +37,38 @@ The following table displays the areas where you can locate and use the Summary 
   </tr> 
   <tr> 
    <td>Tasks in the Unassigned and Assigned Work areas of the Workload Balancer</td> 
-  </tr> Issues Issue lists within a Project Task Subtask Issues in the Assigned Work area of the Workload Balancer Issues in the Submitted section of the Requests area Documents Documents area Documents section of any object (project, task, issue, program, portfolio, template, template task, user) 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Issues</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>Issue lists within a</p> 
+    <ul> 
+     <li>Project</li> 
+     <li>Task</li> 
+     <li>Subtask</li> 
+    </ul> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Issues in the Assigned Work area of the Workload Balancer</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Issues in the Submitted section of the Requests area</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Documents</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Documents area</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Documents section of any object (project, task, issue, program, portfolio, template, template task, user)</td> 
+  </tr> 
  </tbody> 
 </table>
 
 <!--
-Workfront administrators can customize the Summary in the Layout Template. For more information, see Create and manage layout templates.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront administrators can customize the Summary in the Layout Template. For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md" class="MCXref xref">Create and manage layout templates</a>.</p>
 -->
 
 This article describes how to access and use the Summary panel for tasks and issues.
@@ -82,11 +109,11 @@ You must have the following access to perform the steps in this article:
 ## View the Summary panel in a list of tasks or issues
 
 1. Go to a task or issue and select an item in the list. 
-1. Click the `Summary`icon ![](assets/qs-summary-in-new-toolbar-small.png)
+1. Click the **Summary**icon ![](assets/qs-summary-in-new-toolbar-small.png)
 
-   `or`
+   ```or```
 
-   `Click the `Open Summary` icon ![](assets/open-summary-with-text-nwe.png) in the Submitted section of the Requests area.`
+   ```Click the **Open Summary** icon ![](assets/open-summary-with-text-nwe.png) in the Submitted section of the Requests area.```
 
    After you open the Summary, it stays open as you click or select other tasks or issues and remains open until you manually close it.
 
@@ -99,17 +126,17 @@ You must have the following access to perform the steps in this article:
 1. 
    (Optional)&nbsp;To close the Summary panel, do one of the following:
 
-  * In a task or issue list, click the `Open Summary` icon ![](assets/summary-panel-icon.png)
+  * In a task or issue list, click the **Open Summary** icon ![](assets/summary-panel-icon.png)
 
     Or
 
-    Click the `X` icon in the upper-right corner of the Summary panel. 
+    Click the **X** icon in the upper-right corner of the Summary panel. 
   
-  * In the Submitted section of the Requests area, click the `Close Summary` icon ![](assets/close-summary-with-text-nwe.png)
+  * In the Submitted section of the Requests area, click the **Close Summary** icon ![](assets/close-summary-with-text-nwe.png)
 
     Or
 
-    Click the `X` icon in the upper-right corner of the Summary panel.
+    Click the **X** icon in the upper-right corner of the Summary panel.
 
 ## Percent Complete
 
@@ -119,19 +146,19 @@ Use the progress bar at the top of the Summary to update the percent complete fo
 
 ## Updates
 
-Use the Updates section of the Summary to view recent updates and make updates on the task or issue you selected. Click `See all` to go directly to the Updates tab on the task.
+Use the Updates section of the Summary to view recent updates and make updates on the task or issue you selected. Click **See all** to go directly to the Updates tab on the task.
 
 ![](assets/summary-updates-with-block-quote-350x290.png)
 
 ## Documents
 
-Use the Documents section of the Summary to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the Documents tab on the task or issue, click the `Documents` title.
+Use the Documents section of the Summary to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the Documents tab on the task or issue, click the **Documents** title.
 
 ![](assets/summary-overview-documents-350x84.png)
 
 ## Details
 
-Use the Details section of the Summary to view high-level work item details, make assignments, or add start dates. Click `See all` to go directly to the Details tab on the task or issue.
+Use the Details section of the Summary to view high-level work item details, make assignments, or add start dates. Click **See all** to go directly to the Details tab on the task or issue.
 
 >[!NOTE]
 >
@@ -141,15 +168,15 @@ Use the Details section of the Summary to view high-level work item details, mak
 
 ## Subtasks
 
-This section is only available for tasks. Use the Subtasks section of the Summary to view New, In Progress, and Closed subtasks on the task you selected. Click the `Status` drop-down menu to switch between statuses. To go directly to the Subtasks tab on the task, click the `Subtasks`title.
+This section is only available for tasks. Use the Subtasks section of the Summary to view New, In Progress, and Closed subtasks on the task you selected. Click the **Status** drop-down menu to switch between statuses. To go directly to the Subtasks tab on the task, click the **Subtasks**title.
 
-If you have not added any subtasks to the task, click `Add one here` to go directly to the Subtasks tab on the task.
+If you have not added any subtasks to the task, click **Add one here** to go directly to the Subtasks tab on the task.
 
 ![](assets/summary-overview-subtasks-350x140.png)
 
 ## Hours
 
-Use the Hours section of the Summary to log hours on the task or issue you selected. Click `Log Time` and enter your hours. To go directly to the Hours tab on the task or issue, click the `Hours` title.
+Use the Hours section of the Summary to log hours on the task or issue you selected. Click **Log Time** and enter your hours. To go directly to the Hours tab on the task or issue, click the **Hours** title.
 
 The hour count in the Summary displays the hours you log. Other users will have different hour totals in the Summary depending on the time they log on the task.
 
@@ -159,9 +186,9 @@ If there are no planned hours on the task or issue and you have logged time, the
 
 ## Approvals
 
-Use the Approvals section of the Summary to view approvals attached to the task or issue you selected. If you have not added any approvals, select an existing approval from the drop-down menu or click `Create single-use approval process` to go directly to the Approvals tab on the task or issue.
+Use the Approvals section of the Summary to view approvals attached to the task or issue you selected. If you have not added any approvals, select an existing approval from the drop-down menu or click **Create single-use approval process** to go directly to the Approvals tab on the task or issue.
 
-To go directly to the Approvals tab on the task or issue, click the `Approvals` title.
+To go directly to the Approvals tab on the task or issue, click the **Approvals** title.
 
 ![](assets/summary-overview-approvals-350x122.png)
 

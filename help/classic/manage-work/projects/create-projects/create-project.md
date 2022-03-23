@@ -45,7 +45,7 @@ When you create a project, Workfront applies a set of default settings to it. Fo
 
 Consider the following:
 
-* As a Workfront administrator `or a group administrator`, you can configure the default settings for a new project when configuring Project Preferences.
+* As a Workfront administrator ```or a group administrator```, you can configure the default settings for a new project when configuring Project Preferences.
 * Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
 * If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
 
@@ -83,38 +83,38 @@ You can create a project in Workfront by using one of the following methods:
 
 1. Do one of the following:
 
-  * Go to the Projects area in the Global Navigation Bar and select the Projects tab, then expand New Project. 
-  * Go to a portfolio, then expand Add Projects.
+   * Go to the **Projects** area in the Global Navigation Bar and select the **Projects** tab, then expand **New Project**. 
+   * Go to a portfolio, then expand **Add Projects**.
 
-    >[!TIP]
-    >
-    >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
+     >[!TIP]
+     >
+     >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
 
-  * Go to a program, then expand Add Projects.
+   * Go to a program, then expand **Add Projects**.
 
-    >[!TIP]
-    >
-    >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
+     >[!TIP]
+     >
+     >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
 
-1. Click `New Project` if you want to create a project from scratch.
+1. Click **New Project** if you want to create a project from scratch.
 1. Enter a name for your project. Press Enter to save the name.
 
    The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
 
-1. Click `Start Adding` `Tasks`.
+1. Click **Start Adding** **Tasks**.
 
    Or
 
-   Click `New Task` to add tasks to the project and assign resources to them.   
+   Click **New Task** to add tasks to the project and assign resources to them.   
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details, by clicking the Edit Project link in the project header.
+1. Edit the project details, by clicking the **Edit Project** link in the project header.
 
-   The `Edit Project` dialog box opens.
+   The **Edit Project** dialog box opens.
 
    For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Optional) After configuring the project settings and add the tasks, you can change the status of the project to `Current`.
+1. (Optional) After configuring the project settings and add the tasks, you can change the status of the project to **Current**.
 
    This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
 

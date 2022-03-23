@@ -17,7 +17,11 @@ You must have the following:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
    <td> <p>You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
@@ -29,8 +33,9 @@ You must have the following:
 
 ## Check document storage
 
-1. In the left panel, click `System` > `Customer Info`.
-1. In the `Basic Info` section, find `Storage Quota`. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes.
+1. In the Global Navigation Bar, click **Setup**.
+1. In the left panel, click **System** > **Customer Info**.
+1. In the **Basic Info** section, find **Storage Quota**. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes.
 
    >[!NOTE]
    >

@@ -8,7 +8,7 @@ description: The Project Team consists of users who are associated with the proj
 
 # Manage the Project Team
 
-The Project&nbsp;Team consists of users who are associated with the project. They display in the People section of the project.
+The Project&nbsp;Team consists of users who are associated with the project. They display  in the People section of the project.
 
 ## Access requirements
 
@@ -54,7 +54,7 @@ You can add users to the project team in the following ways:
 
 ### Automatically add users to a Project Team
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear in the People section when the project is created:
+The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
 
 * The creator of the project
 * The project owner
@@ -73,16 +73,17 @@ You can manually add users to a project team by using the Team Scheduling tab.
 >
 >You can add to the Project Team only users that belong to the Group associated with the project.
 
-1. Go to the project where you want to add users to the project team, then click Scheduling in the left panel. The Scheduling section might be located under Show More. 
-1. Click Add Users. The Add Users to Project Team dialog box displays.
+1. Go to the project where you want to add users to the project team, then click **Scheduling** in the left panel. The Scheduling section might be located under **Show More**. 
+
+1. Click **Add Users**.  The Add Users to Project Team dialog box displays.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. In the `Add Users` box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.
+1. In the **Add Users** box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.
 
    Repeat this step to add multiple users to the project team.
 
-1. Click `Add`.
+1. Click **Add**.
 
    The users are now available in the project scheduling area.
 

@@ -42,10 +42,10 @@ You can access and modify system-level issue&nbsp;statuses. You can edit some in
 
 To access system-level issue statuses:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Project Preferences` > `Statuses`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Statuses**.
 
-1. Click the `Issues` tab to see the issue statuses available in Workfront.
+1. Click the **Issues** tab to see the issue statuses available in Workfront.
 
    ![](assets/issue-status-350x212.png)
 

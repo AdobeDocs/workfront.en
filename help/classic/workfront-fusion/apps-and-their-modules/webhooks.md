@@ -10,7 +10,7 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 >
 >To call a third party webhook (outgoing webhooks) use one of the [HTTP](http-modules.md) modules.
 
-Any application that is connected to the Internet and allows the sending of HTTP requests can send webhooks to Adobe Workfront Fusion. To connect such an app to Workfront Fusion, add the `Webhooks > Custom Webhook` instant trigger module to your scenario. When setting this trigger, click the `Add` button next to the Webhook field and enter a name for the new webhook.
+Any application that is connected to the Internet and allows the sending of HTTP requests can send webhooks to Adobe Workfront Fusion. To connect such an app to Workfront Fusion, add the **Webhooks > Custom Webhook** instant trigger module to your scenario. When setting this trigger, click the **Add** button next to the Webhook field and enter a name for the new webhook.
 
 ![](assets/custom-webhook-350x143.jpeg)
 
@@ -60,7 +60,7 @@ To use the second option:
 
    ![](assets/new-scenario-set-up-like-this-350x446.png)
 
-1. Have both scenarios (the one with the HTTP module and the one with the Webhooks module) open in separate browser tabs/windows. Open the scenario with the Webhooks module and click `Redetermine data structure` button to make Workfront Fusion listen for the data (you don't have to unlink other modules, the data won't be used anywhere).
+1. Have both scenarios (the one with the HTTP module and the one with the Webhooks module) open in separate browser tabs/windows. Open the scenario with the Webhooks module and click **Redetermine data structure** button to make Workfront Fusion listen for the data (you don't have to unlink other modules, the data won't be used anywhere).
 
    ![](assets/redetermine-data-structure-350x264.png)
 
@@ -71,7 +71,7 @@ To use the second option:
 
    ![](assets/successfully-determined-350x175.png)
 
-1. Click `OK` to save the data structure.
+1. Click **OK** to save the data structure.
 
    The webhook's items should be now available in the mapping panel for mapping to fields in the configuration of modules connected after the Webhooks module.
 
@@ -81,7 +81,7 @@ To use the second option:
 
 At the moment of delivering a webhook notification, there must be at least one scenario that listens for this webhook data. If the scenario is not active, the data is stored in the queue. Once you activate the scenario, all bundles waiting in the queue will be processed sequentially.
 
-` `**Warning: **``Webhook queues are shared among scenarios that employ the same webhook. If one of the scenarios is disabled, the queue will be filling up with incoming webhooks.
+``` ```**Warning: **``````Webhook queues are shared among scenarios that employ the same webhook. If one of the scenarios is disabled, the queue will be filling up with incoming webhooks.
 
 ## Supported Incoming Data Formats
 
@@ -90,94 +90,94 @@ Workfront Fusion supports 3 formats of incoming data - Query String, Form Data a
 If any part of the data does not pass the validation, Workfront Fusion returns a 400 HTTP status code and specifies in the body of the HTTP response the reason why the incoming data failed the validation checks. If the validation of the incoming data succeeds, Workfront Fusion returns a 200 Accepted' status in response.
 
 <!--
-Query String
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Query String</h3>
 -->
 
 <!--
-GET https://hook.integromat.com/yourunique32characterslongstring?name=Integromat&job=automate
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">GET https://hook.integromat.com/yourunique32characterslongstring?name=Integromat&job=automate</pre>
 -->
 
 <!--
-Form Data
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Form Data</h3>
 -->
 
 <!--
-POST https://hook.integromat.com/yourunique32characterslongstring
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">POST https://hook.integromat.com/yourunique32characterslongstring</pre>
 -->
 
 <!--
-Content-Type: application/x-www-form-urlencoded
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Content-Type: application/x-www-form-urlencoded</pre>
 -->
 
 <!--
-name=Integrobot&job=automate
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">name=Integrobot&job=automate</pre>
 -->
 
 <!--
-Multipart
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Multipart</h3>
 -->
 
 <!--
-POST https://hook.integromat.com/yourunique32characterslongstring
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">POST https://hook.integromat.com/yourunique32characterslongstring</pre>
 -->
 
 <!--
-Content-Type: multipart/form-data; boundary=---generatedboundary
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Content-Type: multipart/form-data; boundary=---generatedboundary</pre>
 -->
 
 <!--
----generatedboundary
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">---generatedboundary</pre>
 -->
 
 <!--
-Content-Disposition: form-data; name="file"; filename="file.txt"
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Content-Disposition: form-data; name="file"; filename="file.txt"</pre>
 -->
 
 <!--
-Content-Type: text/plain
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Content-Type: text/plain</pre>
 -->
 
 <!--
-Content of file.txt
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Content of file.txt</pre>
 -->
 
 <!--
----generatedboundary
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">---generatedboundary</pre>
 -->
 
 <!--
-Content-Disposition: form-data; name="name"
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Content-Disposition: form-data; name="name"</pre>
 -->
 
 <!--
-Workfont Fusion
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfont Fusion</pre>
 -->
 
 <!--
----generatedboundary
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">---generatedboundary</pre>
 -->
 
 <!--
-In order to receive files encoded with multipart/form-data, it is necessary to configure a data structure with a collection type field that contains the nested fields name, mime and data. The field name is a text type and contains the name of the uploaded file. The mime is a text type and contains a file in the [MIME] format (https://en.wikipedia.org/wiki/MIME). The field data is a buffer type and contains binary data for the file being transferred.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In order to receive files encoded with <code>multipart/form-data</code>, it is necessary to configure a data structure with a <code>collection</code> type field that contains the nested fields <code>name</code>, <code>mime</code> and <code>data</code>. The field <code>name</code> is a <code>text</code> type and contains the name of the uploaded file. The <code>mime</code> is a <code>text</code> type and contains a file in the [MIME] format (https://en.wikipedia.org/wiki/MIME). The field <code>data</code> is a <code>buffer</code> type and contains binary data for the file being transferred.</p>
 -->
 
 <!--
-JSON
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">JSON</h3>
 -->
 
 <!--
-POST https://hook.integromat.com/yourunique32characterslongstring
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">POST https://hook.integromat.com/yourunique32characterslongstring</pre>
 -->
 
 <!--
-Content-Type: application/json
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">Content-Type: application/json</pre>
 -->
 
 <!--
-{"name": "Integrobot", "job": "automate"}
+<pre data-mc-conditions="QuicksilverOrClassic.Draft mode">{"name": "Integrobot", "job": "automate"}</pre>
 -->
 
-` `**Tip: **`` If you want to access the original JSON, open the webhook's settings and enable the JSON pass-through option.
+``` ```**Tip: **`````` If you want to access the original JSON, open the webhook's settings and enable the JSON pass-through option.
 
 ![](assets/json--passthrough-350x471.png)
 
@@ -225,7 +225,7 @@ The default response to a webhook call contains just a simple text, "Accepted" a
 1. Add a new webhook in the module's configuration.
 1. Copy the webhook's URL to your clipboard.
 1. Run the scenario - the Custom Webhook module should be waiting for the webhook call (see on the right)
-1. Open a new browser window, paste the copied URL in the address bar and press `Enter`.
+1. Open a new browser window, paste the copied URL in the address bar and press **Enter**.
 
    The Custom Webhook module is triggered and the browser will display a new page.
 
@@ -303,8 +303,8 @@ Configure the Webhook Response module as follows:
    <td role="rowheader"> <p>Custom headers</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">Key</span>: Content-type</li> 
-     <li><span class="bold">Value</span>: text/html</li> 
+     <li><strong>Key</strong>: Content-type</li> 
+     <li><strong>Value</strong>: text/html</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -332,8 +332,8 @@ Configure the Webhook Response module as follows:
    <td role="rowheader"> <p>Custom headers</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">Key</span>: Location</li> 
-     <li><span class="bold">Value</span>: The URL you would like to redirect to.</li> 
+     <li><strong>Key</strong>: Location</li> 
+     <li><strong>Value</strong>: The URL you would like to redirect to.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -345,7 +345,7 @@ Configure the Webhook Response module as follows:
 
 ### Missing items in the mapping panel
 
-If some items are missing in the mapping panel in the setup of the modules following the Webhooks > Custom Webhook module, click on the `Webhooks > Custom Webhook` module to open its setup and click the `Re-determine data structure` button:
+If some items are missing in the mapping panel in the setup of the modules following the Webhooks > Custom Webhook module, click on the **Webhooks > Custom Webhook** module to open its setup and click the **Re-determine data structure** button:
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 

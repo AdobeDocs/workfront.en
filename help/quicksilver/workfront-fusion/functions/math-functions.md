@@ -21,7 +21,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -30,7 +34,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -47,25 +58,25 @@ Returns the average value of the numeric values in a specific array, or the aver
 
 Returns the smallest integer greater than or equal to a specified number.
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
-* `ceil(`
+* ```ceil(```
 
   ```
   1.2
   ```
 
-  `)`
+  ```)```
 
   Returns 2
 
-* `ceil(`
+* ```ceil(```
 
   ```
   4
   ```
 
-  `)`
+  ```)```
 
   Returns 4
 
@@ -73,35 +84,35 @@ Returns the smallest integer greater than or equal to a specified number.
 
 Returns the largest integer less than or equal to a specified number.
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
-* `floor(`
+* ```floor(```
 
   ```
   1.2
   ```
 
-  `)`
+  ```)```
 
   Returns 1
 
-* `floor(`
+* ```floor(```
 
   ```
   1.9
   ```
 
-  `)`
+  ```)```
 
   Returns 1
 
-* `floor(`
+* ```floor(```
 
   ```
   4
   ```
 
-  `)`
+  ```)```
 
   Returns 4
 
@@ -109,13 +120,13 @@ Returns the largest integer less than or equal to a specified number.
 
 Returns a number in requested format. By default, the decimal point is a comma (,) and the thousands separator is a period (.).
 
-` `**Example: **`` `formatNumber(`
+``` ```**Example: **`````` ```formatNumber(```
 
 ```
 123456789<span class="function">;</span>3<span class="function">;</span>,<span class="function">;</span>.
 ```
 
-`)`
+```)```
 
 Returns 123.456.789,000
 
@@ -135,45 +146,45 @@ Parses a string with a number and returns the number. For example, parseNumber(1
 
 Rounds a numeric value to the nearest integer.
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
-* `round(`
+* ```round(```
 
   ```
   1.2
   ```
 
-  `)`
+  ```)```
 
   Returns 1
 
-* `round(`
+* ```round(```
 
   ```
   1.5
   ```
 
-  `)`
+  ```)```
 
   Returns 2
 
-* `round(`
+* ```round(```
 
   ```
   1.7
   ```
 
-  `)`
+  ```)```
 
   Returns 2
 
-* `round(`
+* ```round(```
 
   ```
   2
   ```
 
-  `)`
+  ```)```
 
   Returns 2
 

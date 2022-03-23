@@ -33,13 +33,13 @@ Expired items migrated from Workfront DAM to Workfront Library remain expired.
 
 ## Setup content expiration
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
-1. In the left panel, click `Setup`> `Content expiration`.
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the left panel, click **Setup**> **Content expiration**.
 
    ![](assets/contexpire-350x184.png)
 
-1. In the `Asset Expiration` section, select `Allow assets to expire in the system`.
+1. In the **Asset Expiration** section, select **Allow assets to expire in the system**.
 
    This option adds the Expiration Date field to the taxonomy and allows users to enter an expiration date when uploading new content.
 
@@ -47,7 +47,7 @@ Expired items migrated from Workfront DAM to Workfront Library remain expired.
 
    For more information about taxonomy, see [Overview of taxonomy metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/taxonomy-metadata-overview.md).
 
-1. (Optional) To require users to specify whether content has an expiration date, select `Require an expiration date on asset upload`.
+1. (Optional) To require users to specify whether content has an expiration date, select **Require an expiration date on asset upload**.
 
    This option requires users to either enter an expiration date or select No Date before content is uploaded.
 
@@ -57,28 +57,28 @@ Expired items migrated from Workfront DAM to Workfront Library remain expired.
    >
    >If a user opens an asset that was uploaded prior to your system requiring content expiration metadata, the expiration taxonomy field is added to the asset's metadata. Workfront Library will require the user to either enter an expiration date or select No Date.
 
-1. In the `Visibility` section, specify who can view expired content by choosing one of the following options:
+1. In the **Visibility** section, specify who can view expired content by choosing one of the following options:
 
-  * `Everyone:` All users with permissions to the expired content can view the content and can also see it in search results.
+   * **Everyone:** All users with permissions to the expired content can view the content and can also see it in search results.
 
-    * Users with View permission to the expired content can see it in their personal collections.
-    * Users with Manage permission to the expired content can see it in their Shared With Me or My Library areas and in any collections to which they have access.
+      * Users with View permission to the expired content can see it in their personal collections.
+      * Users with Manage permission to the expired content can see it in their Shared With Me or My Library areas and in any collections to which they have access.
 
-  * `Admins and Managers only:` Only users with Admin access to Workfront Library or Manage permission to the expired content can view the content and see it in search results.
+   * **Admins and Managers only:** Only users with Admin access to Workfront Library or Manage permission to the expired content can view the content and see it in search results.
 
-    * Users with View permission to the expired content cannot view it in Workfront Library once it expires.
-    * Users with Manage permission to the expired content can view it in their Shared With Me or My Library areas and in any collections to which they have access.
+      * Users with View permission to the expired content cannot view it in Workfront Library once it expires.
+      * Users with Manage permission to the expired content can view it in their Shared With Me or My Library areas and in any collections to which they have access.
 
-    For more information on content permissions, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
+     For more information on content permissions, see [Permissions in Workfront Library](../../../workfront-library/administration-and-setup/user-access/permissions-in-workfront-library.md).
 
-1. (Conditional) If you selected `Everyone` in Step 6 and you want to prevent users from downloading or sharing expired content to which they have View permission, select `Prevent Viewer download`.  
+1. (Conditional) If you selected **Everyone** in Step 6 and you want to prevent users from downloading or sharing expired content to which they have View permission, select **Prevent Viewer download**.  
    When this option is enabled, all&nbsp;public links to expired content become disabled.
 
-1. (Optional) To notify content owners of the impending expiration of their content, in the `Notify Users` section select the days you want email notifications sent.
+1. (Optional) To notify content owners of the impending expiration of their content, in the **Notify Users** section select the days you want email notifications sent.
 
    You can select multiple options.
 
    Workfront sends an email notification only when the active (most current) version of content is expiring. No notification is sent when older versions of content expire. For more information about how content versions are managed in Workfront Library, see [Overview of content versioning in Workfront Library](../../../workfront-library/content-management/content-versioning/content-versioning-overview.md).
 
-1. Click `Save.`&nbsp;
+1. Click **Save.**&nbsp;
 

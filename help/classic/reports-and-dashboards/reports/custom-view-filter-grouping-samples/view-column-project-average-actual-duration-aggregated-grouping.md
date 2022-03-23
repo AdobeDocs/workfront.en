@@ -50,13 +50,13 @@ To add this column to a project view:
    For more information about creating Groupings, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 1. Go to an existing project view.
-1. Expand the View drop-down menu, and select  `Customize View`.
-1. Click  `Add Column`.
-1. Click  `Switch to Text Mode`.
-1. Mouse over the  `Show in this column` area, and click  `Click to edit text`.
+1. Expand the View drop-down menu, and select&nbsp;**Customize View**.
+1. Click&nbsp;**Add Column**.
+1. Click&nbsp;**Switch to Text Mode**.
+1. Mouse over the&nbsp;**Show in this column**&nbsp;area, and click&nbsp;**Click to edit text**.
 
 1. Remove all text in the Text Mode box, and replace it with the following code:  
    <pre>aggregator.displayformat=compound <br>aggregator.function=AVG <br>aggregator.namekey=view.relatedcolumn <br>aggregator.namekeyargkey=actualduration <br>aggregator.valuefield=actualDurationMinutes <br>aggregator.valueformat=val <br>displayname=Project Actual Duration <br>durationunitfield=durationUnit.value <br>linkedname=project <br>namekey=actualduration <br>namekeyargkey=actualduration <br>querysort=actualDurationMinutes <br>textmode=true <br>valuefield=actualDurationMinutes <br>valueformat=compound#M:D <br>viewalias=actualduration</pre>
 
-1. Click `Save View`.
+1. Click **Save View**.
 

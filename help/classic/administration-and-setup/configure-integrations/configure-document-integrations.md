@@ -60,16 +60,16 @@ You can configure the following integrations for managing documents:
 
 * Third party cloud document providers:
 
-  * Box
-  * Dropbox
-  * Dropbox Business 
-  * WebDAM
-  * Microsoft OneDrive
-  * Google Drive
+   * Box
+   * Dropbox
+   * Dropbox Business 
+   * WebDAM
+   * Microsoft OneDrive
+   * Google Drive
 
-    <!--  
-    Quip  
-    -->
+     <!--   
+     <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">Quip</li>   
+     -->
 
   >[!TIP]
   >
@@ -84,13 +84,13 @@ In addition, you can enhance your Workfront document experience with a native Di
 ## Configure integrations to manage documents
 
 1. Log in to Workfront as the administrator.
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Documents` > `Cloud Providers.`
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Documents** > **Cloud Providers.**
 
-1. (Optional) To stored documents in a document services application and not in Workfront, select `Prevent Users From Storing Documents in Workfront.`  
+1. (Optional) To stored documents in a document services application and not in Workfront, select **Prevent Users From Storing Documents in Workfront.** 
 
 1. Select the integrations you want enabled.
-1. Click `Save`.
+1. Click **Save**.
 
 If you are setting up integrations with Workfront Library or Workfront DAM, you can enable Workfront to include metadata with documents. For information about mapping metadata, see [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md).
 
@@ -103,11 +103,11 @@ To make the custom integration available to users, you first need to build the i
 After the custom document integration is built, you can make it available to users on your site.
 
 1. Log in to Workfront as the administrator.
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. In the left panel, click `Documents` > `Custom Integration.`
+1. In the left panel, click **Documents** > **Custom Integration.**
 
-1. Click `Add Custom integration`.
+1. Click **Add Custom integration**.
 1. Specify the following information to configure the integration:
 
    <table cellspacing="0"> 
@@ -126,14 +126,14 @@ After the custom document integration is built, you can make it available to use
       <td role="rowheader">Authentication Type</td> 
       <td> <p>The authentication method to use when making authorized API calls to the custom integration.</p> 
        <ul> 
-        <li>If you choose <span class="bold">OAuth</span>, continue with Step 6.</li> 
-        <li>If you choose <span class="bold">ApiKey</span>, continue with Step 7.</li> 
+        <li>If you choose <strong>OAuth</strong>, continue with Step 6.</li> 
+        <li>If you choose <strong>ApiKey</strong>, continue with Step 7.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Conditional) If you selected `OAuth` authentication for the `Authentication Type`, specify the following information:
+1. (Conditional) If you selected **OAuth**&nbsp;authentication for the **Authentication Type**, specify the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -157,7 +157,7 @@ After the custom document integration is built, you can make it available to use
      </tr> 
      <tr> 
       <td role="rowheader">Request Parameters</td> 
-      <td> <p>Specify optional values to be appended to the query string of every API call. For example, access_type=offline.</p> <p>To add multiple request parameters, click <span class="bold">+Add Request Parameter</span>.</p> </td> 
+      <td> <p>Specify optional values to be appended to the query string of every API call. For example, access_type=offline.</p> <p>To add multiple request parameters, click <strong>+Add Request Parameter</strong>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -166,11 +166,11 @@ After the custom document integration is built, you can make it available to use
    >
    >The Workfront&nbsp;Redirect URI that displays at the bottom of the Custom Integration page lists the URI used to register this integration with the external document provider.
 
-1. (Conditional) If you selected `ApiKey` authentication for the `Authentication Type`, specify the API key that was issued by the custom document provider.
+1. (Conditional) If you selected **ApiKey** authentication for the **Authentication Type**, specify the API key that was issued by the custom document provider.
 
    Workfront uses this API key to make authorized API calls to the document provider.
 
-1. Click `Save` to create the integration.
+1. Click **Save** to create the integration.
 
 ## Use document integrations
 
@@ -198,29 +198,29 @@ As a Workfront administrator, you must enable Workfront DAM in Workfront before 
 
 To configure Workfront to send metadata to Workfront DAM:
 
-1. <![CDATA[        ]]>Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. <![CDATA[        ]]>Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. Click `Documents` > `Metadata Mapping`.   
+1. Click **Documents** > **Metadata Mapping**.   
 
-1. In the `Select Source Field for Mapping` field, begin&nbsp;typing the name of the Workfront field you want to map to Workfront DAM, then select it when you see it in the list.&nbsp;
-1. In the `Select Target Field for Mapping`, select the Workfront DAM field you want to populate with the information in the selected Workfront field.
+1. In the **Select Source Field for Mapping** field, begin&nbsp;typing the name of the Workfront field you want to map to Workfront DAM, then select it when you see it in the list.&nbsp;
+1. In&nbsp;the **Select Target Field for Mapping**, select the Workfront DAM field you want to populate with the information in the selected Workfront field.
 
    >[!NOTE]
    >
    >&nbsp;All&nbsp;documents sent to Workfront DAM by users who have the rights to do so have their metadata updated with the Workfront fields mapped here, when they upload to Workfront DAM.
 
-1. Click `Add Mapping`.  
+1. Click **Add Mapping**.  
 
 1. Continue adding more Workfront fields and&nbsp;corresponding Workfront DAM fields.&nbsp;
 
 ### Delete mapped fields
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. Expand `Documents`, then click `Metadata Mapping`.
+1. Expand **Documents**, then click **Metadata Mapping**.
 
 1. In the list of fields, select any of the fields you want to remove from metadata mapping.
-1. Click `Delete`.
+1. Click **Delete**.
 
    The fields are removed from metadata mapping and the information contained in them is not transferred to Workfront DAM with the uploaded documents.&nbsp;
 

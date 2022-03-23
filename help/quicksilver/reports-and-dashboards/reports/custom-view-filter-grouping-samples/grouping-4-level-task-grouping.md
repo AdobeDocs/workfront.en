@@ -47,12 +47,12 @@ You must have the following access to perform the steps in this article:
 To apply this grouping:
 
 1. Go to a list of tasks.
-1. From the `Grouping` drop-down menu, select `New Grouping`.
+1. From the **Grouping**&nbsp;drop-down menu, select **New Grouping**.
 
-1. Click `Switch to Text Mode`.
-1. Remove the text in the `Group your Report` area.
+1. Click**Switch to Text Mode**.
+1. Remove the text&nbsp;in the **Group your Report** area.
 1. Replace&nbsp;the text with the following code:  
    <pre>group.0.linkedname=project<br>group.0.name=Portfolio Owner<br>group.0.notime=false<br>group.0.valuefield=project:portfolio:owner:name<br>group.0.valueformat=string<br>group.1.linkedname=project<br>group.1.name=Program Owner<br>group.1.notime=false<br>group.1.valuefield=project:program:owner:name<br>group.1.valueformat=string<br>group.2.linkedname=projectOwnerMM<br>group.2.listgrouingparsedmethod=nested(project).nested(owner).string(name)<br>group.2.namekey=projectownermm<br>group.2.notime=false<br>group.2.valuefield=projectOwnerMM:name<br>group.2.valueformat=string<br>group.3.enumclass=com.attask.common.constants.ProjectStatusEnum<br>group.3.linkedname=project<br>group.3.namekey=view.relatedcolumn<br>group.3.namekeyargkey.0=project<br>group.3.namekeyargkey.1=status<br>group.3.notime=false<br>group.3.valuefield=project:status<br>group.3.valueformat=val</pre>
 
-1. Click `Save Grouping`.
+1. Click **Save Grouping**.
 

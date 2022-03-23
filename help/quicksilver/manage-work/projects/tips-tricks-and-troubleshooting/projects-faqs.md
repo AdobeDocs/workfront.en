@@ -8,7 +8,7 @@ The following are frequently asked questions about projects.
 
 ### Answer
 
-In order to use the insert options, the task list must be sorted by number. To sort the column by number, click `#` in the column header to the left of `Task Name` to resort the task by number.
+In order to use the insert options, the task list must be sorted by number. To sort the column by number, click **#** in the column header to the left of **Task Name** to resort the task by number.
 
 ## What is the Actual Completion Date?
 
@@ -49,13 +49,11 @@ Although I have the correct permissions, the Add Projects button is missing on t
 
 This is caused by the Portfolio Status being Inactive. To change the status of the Portfolio:
 
-1. Click on `Portfolio Details > Overview`. 
-1. Change the `Status` to `Active.  
-  
-   `
+1. Click on **Portfolio Details > Overview**. 
+1. Change the **Status** to **Active.**
 
-1. Click `Save`.  
-   The `Add Projects` button should now be visible on the `Projects` tab.
+1. Click **Save**.  
+   The **Add Projects** button should now be visible on the **Projects** tab.
 
 ## What access does a Resource Manager receive when added to a project?
 

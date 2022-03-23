@@ -76,26 +76,26 @@ The following list shows which Workfront fields synchronize with Jira fields on 
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Updated Workfront field&nbsp;</span> </th> 
-   <th><span class="bold">Synchronized Jira field/ update</span> </th> 
+   <th><strong>Updated Workfront field</strong> </th> 
+   <th><strong>Synchronized Jira field/ update</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Issue or Task name</td> 
-   <td> <p>Issue name</p> <p>A comment about the Name change is added to the <span class="bold">Workfront</span> tab of the Jira issue.&nbsp;</p> </td> 
+   <td> <p>Issue name</p> <p>A comment about the Name change is added to the <strong>Workfront</strong> tab of the Jira issue.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Issue or Task Description</td> 
-   <td> <p> Issue Description</p> <p>A comment about the updated Description is added to the <span class="bold">Workfront</span> tab of the Jira issue.<br></p> </td> 
+   <td> <p> Issue Description</p> <p>A comment about the updated Description is added to the <strong>Workfront</strong> tab of the Jira issue.<br></p> </td> 
   </tr> 
   <tr> 
    <td> <p> Uploaded Documents</p> <p>Note: Documents which are linked to Workfront items from an external server are not transferred&nbsp;to Jira issues. Only documents uploaded directly to Workfront items are also updated to the linked Jira issues.&nbsp;</p> </td> 
-   <td> <p> Attachments</p> <p>A comment about the uploaded attachments is added to the <span class="bold">Workfront</span> tab of the Jira issue.<br></p> </td> 
+   <td> <p> Attachments</p> <p>A comment about the uploaded attachments is added to the <strong>Workfront</strong> tab of the Jira issue.<br></p> </td> 
   </tr> 
   <tr> 
    <td>Planned Completion Date</td> 
-   <td> <p>Due Date</p> <p>A comment about the Due Date having changed is added to the Workfront tab of the Jira issue.&nbsp;</p> <p>Note: You must enable <span class="bold">Due Date</span> for your Jira issues to be able to see this field updated in Jira.&nbsp;</p> </td> 
+   <td> <p>Due Date</p> <p>A comment about the Due Date having changed is added to the Workfront tab of the Jira issue.&nbsp;</p> <p>Note: You must enable <strong>Due Date</strong> for your Jira issues to be able to see this field updated in Jira.&nbsp;</p> </td> 
   </tr> 
   <tr> 
    <td>Custom Forms and Custom Fields</td> 
@@ -103,15 +103,15 @@ The following list shows which Workfront fields synchronize with Jira fields on 
   </tr> 
   <tr> 
    <td>Issue or Task Priority</td> 
-   <td>Displays in the Workfront right panel of the Jira issue. <br>It does not update the issue <span class="bold">Priority</span> field in Jira.&nbsp;</td> 
+   <td>Displays in the Workfront right panel of the Jira issue. <br>It does not update the issue <strong>Priority</strong> field in Jira.&nbsp;</td> 
   </tr> 
   <tr> 
    <td>Log time&nbsp;</td> 
-   <td> <p>A comment about the logged time is added in the <span class="bold">Workfront</span> tab of the Jira issue. This includes the name of the user who logs the time, as well as the user for whom the time is logged, in case they are different. No time is logged in the <span class="bold">Work log</span> tab in Jira.<br></p> </td> 
+   <td> <p>A comment about the logged time is added in the <strong>Workfront</strong> tab of the Jira issue. This includes the name of the user who logs the time, as well as the user for whom the time is logged, in case they are different. No time is logged in the <strong>Work log</strong> tab in Jira.<br></p> </td> 
   </tr> 
   <tr> 
    <td>Comments</td> 
-   <td> <p>The comment is added to the <span class="bold">Workfront</span> tab of the Jira issue. It is not added to the <span class="bold">Comments</span> tab of the Jira issue</p> <p>Note: When you link two existing items manually, the comments that were added to the Workfront item before linking it to Jira do not synchronize to the Jira issue.&nbsp;</p> </td> 
+   <td> <p>The comment is added to the <strong>Workfront</strong> tab of the Jira issue. It is not added to the <strong>Comments</strong> tab of the Jira issue</p> <p>Note: When you link two existing items manually, the comments that were added to the Workfront item before linking it to Jira do not synchronize to the Jira issue.&nbsp;</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -129,8 +129,8 @@ The following list shows which Jira fields synchronize with Workfront fields on 
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Updated Jira Field&nbsp;</span> </th> 
-   <th><span class="bold">Synchronized Workfront Field/ Update</span> </th> 
+   <th><strong>Updated Jira Field</strong> </th> 
+   <th><strong>Synchronized Workfront Field/ Update</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -145,7 +145,7 @@ The following list shows which Jira fields synchronize with Workfront fields on 
   </tr> 
   <tr> 
    <td>Issue Assignee</td> 
-   <td> <p> Issue or Task Assignee</p> <p>Important: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new active user in Workfront only when the <span class="bold">Automatically create a user in </span>Workfront<span class="bold"> if the Jira user does not have a </span>Workfront<span class="bold"> account</span> is set to <span class="bold">Always</span>. This user does not occupy a Workfront license. Active users can be assigned to work items in Workfront, but cannot be included in updates. For more information about configuring the automatic creation of Workfront users from Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> </td> 
+   <td> <p> Issue or Task Assignee</p> <p>Important: When you assign an item in Jira to a user who does not have a Workfront account, the integration creates a new active user in Workfront only when the <strong>Automatically create a user in</strong>Workfront<strong>if the Jira user does not have a</strong>Workfront<strong>account</strong> is set to <strong>Always</strong>. This user does not occupy a Workfront license. Active users can be assigned to work items in Workfront, but cannot be included in updates. For more information about configuring the automatic creation of Workfront users from Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Issue Attachments</td> 
@@ -161,7 +161,7 @@ The following list shows which Jira fields synchronize with Workfront fields on 
   </tr> 
   <tr> 
    <td> Comments&nbsp;<br><br></td> 
-   <td> <p>Comments are added to the Updates tab of the Workfront issue or task if the <span class="bold">Comments</span> setting in the SYNCHRONIZE FROM JIRA TO WORKFRONT section of the Setup tab to <span class="bold">Always</span>.</p> <p>For information about configuring Workfront settings in Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> <p>For information about commenting on items from linked Jira issues, see <a href="#commenting-from-linked-jira-issues" class="MCXref xref">Comment from a linked Jira issue</a>.</p> </td> 
+   <td> <p>Comments are added to the Updates tab of the Workfront issue or task if the <strong>Comments</strong> setting in the SYNCHRONIZE FROM JIRA TO WORKFRONT section of the Setup tab to <strong>Always</strong>.</p> <p>For information about configuring Workfront settings in Jira, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md">Configuring Workfront for Jira</a>.</p> <p>For information about commenting on items from linked Jira issues, see <a href="#commenting-from-linked-jira-issues" class="MCXref xref">Comment from a linked Jira issue</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -176,8 +176,8 @@ The time you record in Workfront does not affect the time of the linked issue in
 >
 >If the time is added to a Jira item linked to a Workfront task, the Hour Type for the time in Workfront is Task Time. If the time is added to a Jira item linked to a Workfront issue, the Hour Type for the time in Workfront is Issue Time.
 
-A comment is added to the `Workfront` tab in Jira and to the `Updates` tab of the item in Workfront to record logging the time.  
-The time is also displayed in the `Hours` tab of the Workfront item.&nbsp;
+A comment is added to the **Workfront** tab in Jira and to the **Updates** tab of the item in Workfront to record logging the time.  
+The time is also displayed in the **Hours** tab of the Workfront item.&nbsp;
 
 * [Log time for Linked Jira and Workfront items](#logging-time-for-linked-jira-and-workfront-items)&nbsp;
 * [Log time from Jira to a Workfront item](#logging-time-for-workfront-items-only)
@@ -188,23 +188,23 @@ You can log time from a Jira issue linked to a Workfront item, and the time is r
 
 >[!IMPORTANT]
 >
->If the user logging the time in Jira does not exist in Workfront, the integration creates a new active user in Workfront if the `Automatically create a user in`Workfront `if the Jira user does not have a`Workfront `account` is set to `Always`. This user does not occupy a Workfront license. You can assign active users to work items in Workfront, but you cannot include them in updates. For information about configuring the automatic creation of Workfront users from Jira, see [Configuring Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+>If the user logging the time in Jira does not exist in Workfront, the integration creates a new active user in Workfront if the **Automatically create a user in**Workfront**if the Jira user does not have a**Workfront**account** is set to **Always**. This user does not occupy a Workfront license. You can assign active users to work items in Workfront, but you cannot include them in updates. For information about configuring the automatic creation of Workfront users from Jira, see [Configuring Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 To log time for an item in Jira and have it recorded both in Jira and Workfront:
 
 1. Log into Jira.
 1. Go to the Jira issue which is linked to the Workfront item.
-1. Expand the `More` menu and click `Log work`.  
+1. Expand the **More** menu and click **Log work**.  
    ![log_time_from_More_menu_in_Jira.png](assets/log-time-from-more-menu-in-jira-239x232.png)  
 
-1. In the `Time Spent` field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:
+1. In the **Time Spent** field, specify the amount of time spent working on this issue. You must specify the time using the following time periods:
 
   * Weeks (w)
   * Days (d)
   * Hours (h)
 
-1. Continue adding information to your time entry, including a `Work Description`, then click `Log`.  
-   The time is added to the `Work log` tab of the Jira item, as well as to the Workfront item linked to it.  
+1. Continue adding information to your time entry, including a **Work Description**, then click **Log**.  
+   The time is added to the **Work log** tab of the Jira item, as well as to the Workfront item linked to it.  
    The work description of the time entry is recorded as a note on the hour entry in Workfront.&nbsp;
 
 ### Log time from Jira to a Workfront item
@@ -216,13 +216,13 @@ You can log time just to the linked Workfront item from the Jira issue without r
 
    The details of the Workfront item should display in the Workfront right panel of the issue.
 
-1. Click the `Log Time` icon.
+1. Click the **Log Time** icon.
 
    ![Log_time_in_Jira.png](assets/log-time-in-jira.png)
 
-1. Specify the amount of `Hours` and `Minutes` you want to log for the issue.
+1. Specify the amount of **Hours** and **Minutes** you want to log for the issue.
 
-1. Click `Log Time`.
+1. Click **Log Time**.
 
    The time is added to the Workfront item.
 
@@ -239,13 +239,13 @@ To comment from Jira to a Workfront item:
 
    The details of the Workfront item should display in the Workfront right panel of the issue.
 
-1. Click the `Comments` icon in the Workfront panel or n the `Comments` tab. ![Jira_comments_icon.png](assets/jira-comments-icon.png)  
+1. Click the **Comments** icon in the Workfront panel or n the **Comments** tab. ![Jira_comments_icon.png](assets/jira-comments-icon.png)  
 
-1. Start typing a comment, then click `Send`.
+1. Start typing a comment, then click **Send**.
 
    The comment is added to the following:
 
-  * The `Workfront` tab of the Jira issue.
-  * The `Comments` tab of the Jira issue.
-  * The `Updates` tab of the linked item in Workfront.
+  * The **Workfront** tab of the Jira issue.
+  * The **Comments** tab of the Jira issue.
+  * The **Updates** tab of the linked item in Workfront.
 

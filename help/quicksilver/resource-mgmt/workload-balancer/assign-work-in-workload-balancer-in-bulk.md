@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
   * Replace user assignments between users.
   * Unassign a user from all their work items.
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
 * You are responsible for making user assignments on several new projects. The projects were originally created from templates and job roles are already assigned to the various tasks within the projects. You want to assign a specific user, Jackie Simms, to all tasks that are currently assigned to a job role. You can use the Assign function to assign these tasks to Jackie Simms.
 * 45 tasks across 3 different projects are assigned to Jackie Simms. Jackie leaves the organization, and now you need to reassign her tasks to another user. You can use the Replace function to assign these tasks to the new person. 
@@ -71,13 +71,13 @@ You must have the following access to perform the steps in this article:
 
    >[!IMPORTANT]
    >
-   >`You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,` you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
+   >```You cannot view or assign issues from the Unassigned Work area. You can only reassign issues already assigned to users in the Assigned Work area. Otherwise,``` you can assign issues from a list or at the issue level. For information, see [Assign issues](../../manage-work/issues/manage-issues/assign-issues.md).
 
-1. Click `Bulk Assignments` ![](assets/bulk-assignments-wb.png)at the top of the Workload Balancer.
+1. Click **Bulk Assignments** ![](assets/bulk-assignments-wb.png)at the top of the Workload Balancer.
 
    The Bulk Assignments panel opens to the right of the Workload Balancer. 
 
-1. (Conditional) If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the `Project: Name` drop-down menu to select the project or projects that you want to make assignments for. You can select projects by name (this is the default option) or by status.
+1. (Conditional)&nbsp;If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu to select the project or projects that you want to make assignments for. You can select projects by name (this is the default option) or by status.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
-1. (Optional) Click `Select project tasks` to select the task or tasks that you want to make assignments for, then in the `Task: Name` drop-down menu, select tasks by name (this is the default option) or status.
+1. (Optional) Click **Select project tasks** to select the task or tasks that you want to make assignments for, then in the **Task: Name** drop-down menu, select tasks by name (this is the default option) or status.
 
    >[!NOTE]
    >
@@ -98,15 +98,15 @@ You must have the following access to perform the steps in this article:
    >Leave this selection blank if you want to make bulk assignments for issues as well as tasks.   >
    >
    ><!--   >
-   >
+   ><span style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"></span>   >
    >-->   >
    >
 
-1. (Optional) Click the `Delete` icon ![](assets/delete.png) next to one of the selected criteria
+1. (Optional)&nbsp;Click the **Delete** icon ![](assets/delete.png) next to one of the selected criteria
 
    Or
 
-   Click `Clear all` in the upper-right corner of the Bulk&nbsp;Assignments panel to remove all selections. 
+   Click **Clear all** in the upper-right corner of the Bulk&nbsp;Assignments panel to remove all selections. 
 
 1. Select one of the following options and continue with the steps described below:
 
@@ -132,18 +132,18 @@ When you assign a user using Bulk Assignments in the Workload Balancer, the foll
 
 To assign a user to work items previously assigned to job roles:
 
-1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select `Assign`. 
-1. In the `Task role assignment` field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field.
+1. Start assigning work items using Bulk Assignments in the Workload Balancer as described above and select **Assign**. 
+1. In the **Task role assignment** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned within the specified projects are displayed. This is a required field.
 
    ![](assets/bulk-assignments-workload-balancer-assign-selected-350x330.png)
 
-1. In the `User to assign` field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments.&nbsp;For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments.&nbsp;For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront displays a note about the number of items where the user you specified will be assigned and what job role they will replace.
 
    ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
-1. Click `Assign`.
+1. Click **Assign**.
 
    The specified roles are replaced with the user you selected.
 
@@ -162,18 +162,18 @@ When you replace a user with another user using Bulk Assignments in the Workload
 
 To replace a user with another user:
 
-1. Start assigning work items in the Workload Balancer as described above and select `Replace`. 
-1. In the `Currently assigned user` field, click the drop-down arrow to choose from a list of users. Only users currently assigned to incomplete work items within the specified projects are displayed. This is a required field.
+1. Start assigning work items in the Workload Balancer as described above and select **Replace**. 
+1. In the **Currently assigned user** field, click the drop-down arrow to choose from a list of users. Only users currently assigned to incomplete work items within the specified projects are displayed. This is a required field.
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. In the `User to assign` field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments.&nbsp;For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments.&nbsp;For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront displays a note about the number of items where the currently assigned user will replace the second user and which roles they will replace.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. Click  `Replace`.
+1. Click&nbsp;**Replace**.
 
    The first user selected is replaced by the second user in all work items from the selected project.
 
@@ -194,9 +194,9 @@ For more information about user and job role assignments, see [Overview of assig
 
 To unassign a user from work items in the selected projects or for the selected tasks or issues where they are assigned:
 
-1. Start assigning work items in the Workload Balancer as described above and select `Unassign`.  
+1. Start assigning work items in the Workload Balancer as described above and select **Unassign**.  
 
-1. In the `User to unassign` field, click the drop-down arrow to choose from a list of users. Only users currently assigned to incomplete work items within the specified projects display. This is a required field.
+1. In the **User to unassign** field, click the drop-down arrow to choose from a list of users. Only users currently assigned to incomplete work items within the specified projects display. This is a required field.
 
    ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
@@ -204,7 +204,7 @@ To unassign a user from work items in the selected projects or for the selected 
 
    ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
-1. Click `Unassign`.  
+1. Click **Unassign**.  
    You receive a confirmation about the number of work items where the specified user was removed.
 
 &nbsp;

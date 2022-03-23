@@ -23,10 +23,11 @@ For information about creating a chart in a report, see [Add a chart to a report
 
 This section contains the following articles:
 
+* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
 
   <!--
-  Filters overview in Adobe Workfront (draft)
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview-draft.md" class="MCXref xref" xrefformat="{para}">Filters overview in Adobe Workfront (draft)</a> </li>
   -->
 
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
@@ -35,7 +36,7 @@ This section contains the following articles:
 * [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 
   <!--
-  Views overview in Adobe Workfront (draft)
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview-draft.md" class="MCXref xref" xrefformat="{para}">Views overview in&nbsp;Adobe Workfront (draft)</a> </li>
   -->
 
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
@@ -43,7 +44,7 @@ This section contains the following articles:
 * [Use conditional formatting in Views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
 
   <!--
-  Groupings overview in Adobe Workfront (draft)
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview-draft.md" class="MCXref xref" xrefformat="{para}">Groupings overview in&nbsp;Adobe Workfront (draft)</a> </li>
   -->
 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
@@ -51,14 +52,19 @@ This section contains the following articles:
 * [Edit existing groupings](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
   <!--
-  Advanced Filter and condition qualifiers
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/advanced-filter-condition-qualifiers.md" class="MCXref xref" xrefformat="{para}">Advanced Filter and condition qualifiers </a> </li>
   -->
 
 * [Create or edit views in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
 * [Use date-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) 
 * [Use user-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) 
 * [Share a filter, view, or grouping in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md) 
-* [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md) 
+* [Remove filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
+
+  <!--
+  <a href="../../../reports-and-dashboards/reports/reporting-elements/delete-filters.md" class="MCXref xref" xrefformat="{para}">Delete filters</a>
+  -->
+
 * [Use the Milestone view](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) 
 * [Modify column width and order](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 

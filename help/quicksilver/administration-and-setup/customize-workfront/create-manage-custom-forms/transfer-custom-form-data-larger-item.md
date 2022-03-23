@@ -11,7 +11,7 @@ description: Deprecate this article when multi-object custom forms goes to Prod?
 # Transfer custom form data to a larger work item
 
 <!--
-Deprecate this article when multi-object custom forms goes to Prod?
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Deprecate this article when multi-object custom forms goes to Prod?</p>
 -->
 
 Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage it within the task or the issue. In this case, you can convert them to a larger work item:
@@ -28,11 +28,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -44,17 +52,17 @@ You can retain custom form data on a task or issue you want to convert. Because 
 
 To copy a custom form for an issue and save it as a custom form for a task or project:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Custom Forms`.
-1. Select an Issue custom form, then click `Copy`.
-1. In the `Custom Form` dialog box, specify a name for the new form.  
+1. Click **Custom Forms**.
+1. Select an Issue custom form, then click **Copy**.
+1. In the **Custom Form** dialog box, specify a name for the new form.  
 
-1. From the `Form Type` drop-down menu, select the object for which you want to create the new custom form.
+1. From the **Form Type** drop-down menu, select the object for which you want to create the new custom form.
 
-   ` `**Example: **``If you want to transfer the custom form data to a project, select Project.
+   ``` ```**Example: **``````If you want to transfer the custom form data to a project, select Project.
 
-1. Click `Copy Form`.
+1. Click **Copy Form**.
 
    This creates an identical copy of the Issue custom form. This new custom form can now be attached to a task or project as described in the following section.
 
@@ -72,11 +80,11 @@ To transfer custom form data from an issue to a task as you are converting the i
 
    For information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-1. Click `Issue Actions`, then click `Convert to Task`.
+1. Click **Issue Actions**, then click **Convert to Task**.
 
-1. In the `Convert to Task` dialog box, click the `Add Forms`&nbsp;drop-down menu and select the form you copied in the previous section.
+1. In the **Convert to Task** dialog box,&nbsp;click the **Add Forms**&nbsp;drop-down menu and select the form you copied in the previous section.
 
    The information captured in the custom fields of the issue is now transferred to the custom form on the task.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

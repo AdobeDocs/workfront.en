@@ -10,7 +10,9 @@ description: You can add an image widget to a custom form.
 # Add or edit an image 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 widget
+</MadCap:conditionalText>
 -->
 
 in a custom form
@@ -18,7 +20,9 @@ in a custom form
 You can add an image 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 widget
+</MadCap:conditionalText>
 -->
 
 to a custom form.
@@ -28,7 +32,9 @@ For example, next to a custom field where users need to type a serial number fou
 You can also edit the properties for an image 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 widget
+</MadCap:conditionalText>
 -->
 
 that is already added to a custom form.
@@ -40,11 +46,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -53,7 +67,9 @@ You must have the following to perform the steps in this article:
 ## Add an image 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 widget
+</MadCap:conditionalText>
 -->
 
 or edit its properties in a custom form
@@ -68,7 +84,9 @@ or edit its properties in a custom form
   * If you are editing an image  
   
     <!--  
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  
     widget  
+    </MadCap:conditionalText>  
     -->  
   
     already added to the custom form, select the widget.
@@ -76,7 +94,9 @@ or edit its properties in a custom form
 1. Type or edit any of the following properties for the image
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    :
@@ -99,7 +119,9 @@ or edit its properties in a custom form
      <tr> 
       <td role="rowheader">URL</td> 
       <td>(Required) Type or paste the URL of the image <!--
-        widget
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         widget 
+        </MadCap:conditionalText>
        -->where it is stored on the internet.</td> 
      </tr> 
      <tr> 
@@ -109,7 +131,9 @@ or edit its properties in a custom form
      <tr> 
       <td role="rowheader">Size</td> 
       <td>Change the size of the image <!--
-        widget
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         widget 
+        </MadCap:conditionalText>
        -->as needed.</td> 
      </tr> 
     </tbody> 
@@ -119,13 +143,17 @@ or edit its properties in a custom form
 1. (Optional) To position an image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    on the same row as another image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    or field, drag them next to each other until a line appears between them.
@@ -133,31 +161,41 @@ or edit its properties in a custom form
    When you drop the image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    where you want it, a gray outline box appears around the image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    and the other image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    or field, indicating that they share a row. If you drag an image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    until the blue line appears above or below another image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    or field, the two do not share a row.
@@ -167,10 +205,12 @@ or edit its properties in a custom form
    >
    >  
    >  
-   >  * You can use the `Preview` button in the lower-right corner to get an idea of how the image   >  
+   >  * You can use the **Preview** button in the lower-right corner to get an idea of how the image   >  
    >  
    >    <!--   >  
+   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
    >    widget   >  
+   >    </MadCap:conditionalText>   >  
    >    -->   >  
    >  
    >    s and fields will display in the form.
@@ -178,19 +218,33 @@ or edit its properties in a custom form
    >  * When a user is viewing the form, the amount of screen space they are using for the form can affect how image   >  
    >  
    >    <!--   >  
+   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
    >    widget   >  
+   >    </MadCap:conditionalText>   >  
    >    -->   >  
    >  
    >    s and fields display. For example, the third image   >  
    >  
    >    <!--   >  
-   >    widgets   >  
+   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
+   >    <!--   >  
+   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
+   >    widget   >  
+   >    </MadCap:conditionalText>   >  
+   >    -->s   >  
+   >    </MadCap:conditionalText>   >  
    >    -->   >  
    >  
    >    in a row of image   >  
    >  
    >    <!--   >  
+   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
+   >    <!--   >  
+   >    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >  
    >    widget   >  
+   >    </MadCap:conditionalText>   >  
+   >    -->   >  
+   >    </MadCap:conditionalText>   >  
    >    -->   >  
    >  
    >    s and fields may wrap to the next row if horizontal space is limited.
@@ -213,10 +267,16 @@ or edit its properties in a custom form
 ## Reuse an existing image widget
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. With **Add a field** selected, click `Field Library`, then select the image 
+1. With **Add a field** selected, click **Field Library**, then select the image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
+   -->
+   </MadCap:conditionalText>
    -->
 
    in the list that appears.
@@ -224,7 +284,13 @@ or edit its properties in a custom form
    You cannot use an existing image 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
+   -->
+   </MadCap:conditionalText>
    -->
 
    more than once on a form.
@@ -234,16 +300,20 @@ or edit its properties in a custom form
    >When you modify an existing image   >
    >
    ><!--   >
+   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >widget   >
+   ></MadCap:conditionalText>   >
    >-->   >
    >
    >, any changes you make impact that field on all forms where it is used.
 
-1. Click `Apply`.
+1. Click **Apply**.
 1. (Optional) Repeat the two previous steps to add any other existing image
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    s.
@@ -253,7 +323,9 @@ or edit its properties in a custom form
    >You can add up to 500 fields and image   >
    >
    ><!--   >
+   ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   >
    >widget   >
+   ></MadCap:conditionalText>   >
    >-->   >
    >
    >s on a single custom form. However, performance degradation can occur when more than 100 exist on a form, depending on the complexity of the form. 
@@ -264,7 +336,9 @@ or edit its properties in a custom form
 1. (Optional) Create and add any new image
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    widget
+   </MadCap:conditionalText>
    -->
 
    s you need that have not yet been created for your organization, as explained in [Add or edit an image widget in a custom form](#create) in this article.

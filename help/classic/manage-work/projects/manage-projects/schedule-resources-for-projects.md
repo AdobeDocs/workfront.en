@@ -50,15 +50,15 @@ You must have the following access to perform the steps in this article:
 To access the Scheduling tool in a project:
 
 1. Go to the project for which you want to schedule resources.
-1. Click the Staffing tab, then click Scheduling. The Staffing tab might be located under the More menu.
+1. Click the&nbsp;**Staffing**&nbsp;tab, then click&nbsp;**Scheduling**. The Staffing tab might be located under the&nbsp;**More** menu.
 
    For information about scheduling resources using the Scheduling tool in a project, see the [Modify user assignments and allocations](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#modify) section in the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
-1. (Optional and recommended) Click `Switch to Workload Balancer` to schedule resources using the Workload Balancer.
+1. (Optional and recommended) Click **Switch to Workload Balancer** to schedule resources using the Workload Balancer.
 
    >[!TIP]
    >
-   >If you have selected Workload Balancer before, the name of the tabchanges to Workload Balancer.
+   >If you have selected Workload Balancer before, the name of the tab changes to Workload Balancer.
 
    For information about scheduling resources using the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 

@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -245,22 +256,22 @@ Creates a folder inside the specified parent folder.
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Connection </span> </td> 
+   <td><strong>Connection</strong> </td> 
    <td> <p>For instructions about connecting your Office 365 account to Workfront Fusion, see <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Connect the module's app or web service to Workfront Fusion</a> in the article <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Create a scenario</a>.</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Drive ID</span> </td> 
+   <td><strong>Drive ID</strong> </td> 
    <td> <p>Select the drive where you want to create a new folder.</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Folder </span> </td> 
+   <td><strong>Folder</strong> </td> 
    <td> <p>Select the folder that you want to create a new folder in.</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Folder name</span> </td> 
+   <td><strong>Folder name</strong> </td> 
    <td>Enter or map a name for the new folder.</td> 
    <td>&nbsp;</td> 
   </tr> 

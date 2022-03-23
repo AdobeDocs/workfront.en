@@ -31,13 +31,13 @@ The duration of the project counts the number of days between the two task dates
 
 There are two types of Project Duration and the formulas by which&nbsp;Workfront calculates them:
 
-* `Planned Duration`:&nbsp;
+* **Planned Duration**:&nbsp;
 
   ```
   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
   ```
 
-* `Actual Duration`:&nbsp;
+* **Actual Duration**:&nbsp;
 
   ```
   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day

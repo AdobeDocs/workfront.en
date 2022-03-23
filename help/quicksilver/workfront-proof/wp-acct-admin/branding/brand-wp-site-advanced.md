@@ -103,7 +103,7 @@ In this field (7)&nbsp;you can set the Welcome box color that is displayed on th
 These fields allow you to customize the&nbsp;background (8) and the font color (9) of the section headers on the [Account Settings](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) pages.  
 ![Section_headers.png](assets/section-headers-350x138.png)
 
-`Footer`
+**Footer**
 
 In this field (10) of Branding configuration&nbsp;you can compose a footer that will be displayed at the bottom of all the account pages. You can use the built-in WYSIWYG editor or you can simply paste your own design.  
 ![Footer.png](assets/footer-350x157.png)
@@ -112,7 +112,7 @@ In this field (10) of Branding configuration&nbsp;you can compose a footer that 
 >
 >&nbsp;You can't edit HTML in the footer text editor, but you can paste a copied design (including all the links and images).
 
-`Favicon and Page title`
+**Favicon and Page title**
 
 You can customize how your Workfront Proof pages are presented in the browsers by setting your own favicon image (.ICO file) (11) and Page title (12) - these will be displayed&nbsp;in the browsers' tabs/windows headers for all the account pages.  
 ![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
@@ -121,7 +121,7 @@ You can customize how your Workfront Proof pages are presented in the browsers b
 >
 >&nbsp;Your favicon will be displayed also in&nbsp;the headers of the Workfront Proof Viewer windows for all the proofs created on your account.
 
-`Help links`
+**Help links**
 
 You can customize your own help links to point your users and reviewers to your own content. To activate this set the Help links option (13) to Enabled and add your links in the next fields (14). You can configure up to four&nbsp;links, and they will be available:
 
@@ -139,154 +139,161 @@ For an additional charge, customers on Enterprise plans also have the option to 
 Please contact us at sales.team@workfront.com to find out more about the additional branding options.
 
 <!--
-Custom Domains
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Custom-domains"></a>Custom Domains</h2>
 -->
 
 <!--
-Our Select and Premium plans include the option to purchase a fully-branded domain. This means that you can customize your URL as well as all links included in notification emails.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Our Select and Premium plans include the option to purchase a fully-branded domain. This means that you can customize your URL as well as all links included in notification emails.&nbsp;</p>
 -->
 
 <!--
-For more information, please see Configure a branded domain in Workfront Proof.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, please see&nbsp;<a href="../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md" class="MCXref xref">Configure a branded domain in Workfront Proof</a>.</p>
 -->
 
 <!--
-Custom Page Branding
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Custom-page-branding"></a>Custom Page Branding</h2>
 -->
 
 <!--
-Custom branding of the Workfront Proof pages is a paid service and by default includes full customization of the following:
--->
-
-  <!--
-  Log in/landing page
-  -->
-
-  <!--
-  Logout page
-  -->
-
-  <!--
-  Forgot password page
-  -->
-
-<!--
-Design Elements
--->
-
-<!--
-Please create your design in a .PSD file with all the elements placed in the separate layers - this will allow us to prepare the scalable pages for you.
--->
-
-<!--
-There are no particular restrictions on the .PSD files, and the look and layout of the pages is completely up to you. However please make sure that the key elements are included in your design:
--->
-
-<!--
-Login Page
--->
-
-<!--
-Logout page
--->
-
-<!--
-Forgot password
--->
-
-<!--
-Inactivity alert
--->
-
-<!--
-Invalid email address
--->
-
-<!--
-Inactivity and incorrect email address
--->
-
-<!--
-Note: The separate designs for the alerts are not required. If you’d like us to leave the default style of the messages, as shown on the screencasts above, please let us know. The team will match the colors with your design.
--->
-
-<!--
-If you'd like to have placeholder text in the text fields, please include this in your designs.
--->
-
-<!--
-Note: The wording of the alerts cannot be changed as these are the system messages.
--->
-
-<!--
-2. Fonts
--->
-
-<!--
-Please make sure that the text is not rasterized but kept as the text layers, unless you want the particular elements to be displayed as images on your landing pages.
--->
-
-<!--
-If you use custom fonts in your design, please make sure to include the following font files: EOT + .TTF + OTF + SVG + WOFF for support in all browsers.
--->
-
-<!--
-Note: You need to hold an appropriate license, which allows implementing your selected fonts on the web pages.
--->
-
-<!--
-If you use the standard and widely available fonts, the font files are not required. Please see the following lists for reference:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom branding of the Workfront Proof pages is a paid service and by default&nbsp;includes full customization of the following:</p>
 -->
 
   <!--
-  Websafe fonts listed in the standard Font families
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://app.proofhq.com/login">Log in/landing page</a> </li>
   -->
 
   <!--
-  Open Source Google fonts
-  -->
-
-<!--
-3. Screen resolution
--->
-
-<!--
-We support 1024x768 screen resolution (1366x768 for wide screens) and upwards. However, for the landing pages designs we do recommend using higher resolution for the better results on the various screens. The best practice would be to determine what screen resolution is the most common on your users’ machines and prepare a slightly bigger design.
--->
-
-<!--
-4. Browsers compatibility
--->
-
-<!--
-The newer browsers generally don’t require any custom code to display the pages properly. However, if your users have the older browser versions installed on their machines some code adjustments may be needed.
--->
-
-<!--
-By default we do prepare the pages compatible with the following browsers:
--->
-
-  <!--
-  Internet Explorer 9+
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://app.proofhq.com/logout">Logout page</a> </li>
   -->
 
   <!--
-  Safari 6.x+
-  -->
-
-  <!--
-  Chrome 22+ *
-  -->
-
-  <!--
-  Firefox 15+ *
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://app.proofhq.com/login/password">Forgot password page</a> </li>
   -->
 
 <!--
-* Preferred browsers
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Design Elements</h3>
 -->
 
 <!--
-Note: Workfront Proof will not design your custom pages, the PSD files must be supplied by you, but if you have any questions, please contact our Support team.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Please create your design&nbsp;in&nbsp;a .PSD file with all the elements placed in the separate layers - this will allow us to prepare the scalable pages for you.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">There are no particular restrictions on the .PSD files, and the look and layout of the pages is completely up to you. However please make sure that the key elements are included in your design:</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Login Page</strong> <br> <img src="assets/login-350x196.png" alt="login.png" style="width: 350;height: 196;"> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Logout page</strong> <br> <img src="assets/logout-350x181.png" alt="logout.png" style="width: 350;height: 181;"> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Forgot password</strong> <br> <img src="assets/forgot-password-350x177.png" alt="Forgot_password.png" style="width: 350;height: 177;"> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Inactivity alert</strong> <br> <img src="assets/inactivity-350x255.png" alt="Inactivity.png" style="width: 350;height: 255;"> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Invalid email address</strong> <br> <img src="assets/incorrect-password-350x210.png" alt="incorrect_password.png" style="width: 350;height: 210;"> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Inactivity and incorrect email address</strong> <br> <img src="assets/inactivty-and-credentials-350x254.png" alt="inactivty_and_credentials.png" style="width: 350;height: 254;"> </p>
+-->
+
+<!--
+<note type="note">
+&nbsp;The separate designs for the alerts are not required. If you’d like us to leave the default style of the messages, as shown on the screencasts above, please let us know. The team will match the colors with your design.
+</note>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you'd like to have placeholder text in the text fields, please include this in your designs.</p>
+-->
+
+<!--
+<note type="note">
+The wording of the alerts cannot be changed as these are the system messages.
+</note>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>2. Fonts</strong> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Please make sure that the text is not rasterized but kept as the text layers, unless you want the particular elements to be displayed as images on your landing pages.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you use custom fonts in your design, please make sure to include the following font files: EOT + .TTF + OTF + SVG + WOFF for support in all browsers.</p>
+-->
+
+<!--
+<note type="note">
+&nbsp; You need to hold an appropriate license, which allows implementing your selected fonts on the web pages.
+</note>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you use the standard and widely available fonts, the font files are not required. Please see the following lists for reference:</p>
+-->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="http://www.w3schools.com/cssref/css_websafe_fonts.asp">Websafe fonts listed in the standard Font families</a> </li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://www.google.com/fonts">Open Source Google fonts</a> </li>
+  -->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>3. Screen resolution</strong> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">We support 1024x768 screen resolution (1366x768 for wide screens) and upwards. However, for the landing pages designs we do recommend using higher resolution for the better results on the various screens. The best practice would be to determine what screen resolution is the most common on your users’ machines and prepare a slightly bigger design.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>4. Browsers compatibility</strong> </p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The newer browsers generally don’t require any custom code to display the pages properly. However, if your users have the older browser versions installed on their machines some code adjustments may be needed.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">By default we do prepare the pages compatible with the following browsers:</p>
+-->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Internet Explorer 9+</li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Safari 6.x+</li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Chrome 22+ *</li>
+  -->
+
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Firefox 15+ *</li>
+  -->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">* Preferred browsers </p>
+-->
+
+<!--
+<note type="note"> Workfront Proof will not design your custom pages, the PSD files must be supplied by you, but if you have any questions, please contact our Support team.
+</note>
 -->
 

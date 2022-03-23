@@ -41,11 +41,11 @@ When you copy a project in the Teams area, you cannot change the status in the C
 To work around this, change the project status after it has copied.
 
 <!--
-Calendars option is missing from the Main Menu
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Calendars option is missing from the Main Menu</h3>
 -->
 
 <!--
-The Calendars option is missing from the Main menu.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Calendars option is missing from the Main menu.</p>
 -->
 
 ### Cannot move stories or issues from one iteration to another

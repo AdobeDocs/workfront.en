@@ -54,8 +54,8 @@ Authentication options are displayed for all customers. Improved password manage
 
 To configure authentication preferences:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `System` > `Authentication`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **System** > **Authentication**.
 
 1. Select any of the following fields to establish the authentication settings for your organization:
 
@@ -88,7 +88,7 @@ To configure authentication preferences:
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Configure enhanced authentication (coming soon)
 
@@ -96,13 +96,13 @@ This section describes the enhanced authentication experience, which might not y
 
 To configure enhanced authentication preferences:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `System` > **Enhanced Authentication**.
-1. In the `Password Length` box, enter the minimum number of characters required for a valid password.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **System** > **Enhanced Authentication**.
+1. In the **Password Length** box, enter the minimum number of characters required for a valid password.
 
    Workfront requires at least 6 characters.
 
-1. (Optional) In the `Password Requirements` section, select the types of characters required in user passwords.
+1. (Optional) In the **Password Requirements** section, select the types of characters required in user passwords.
 
    You can increase the strength of user passwords by requiring any or all the types of characters in the Password Requirement section. The following options are available:
 
@@ -112,5 +112,5 @@ To configure enhanced authentication preferences:
    | Numbers |Require at least one number |
    | Special Characters |Require at least one special character |
 
-1. Click `Save`.
+1. Click **Save**.
 

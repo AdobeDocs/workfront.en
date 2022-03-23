@@ -56,21 +56,29 @@ You can locate the Planner in two areas of Workfront, depending on whether you w
 
 When using the Resource Planner for multiple projects, the allocation numbers for your resources represent numbers across multiple projects.
 
-To access the Resource Planner subtab in the Peoplearea:
+To access the Resource Planner subtab in the People area:
 
-1. Go to the People area in the Global Navigation Bar. 
-1. Click Planning, then click Resource Planner. For information about budgeting resources in the Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md). 
-1. Click Resource Pools to review existing resource pools and create new ones.   
+1. Go to the **People** area in the Global Navigation Bar. 
+1. Click **Planning**, then click **Resource Planner**. For information about budgeting resources in the Planner, see the article [Budget resources in the Resource Planner using the Project and Role views](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md). 
+  
+   ![resource_planner__Nov_2017.png](assets/resource-planner-global-classic-350x134.png)   
+
+1. Click **Resource Pools** to review existing resource pools and create new ones.   
    For information about creating resource pools, see [Create resource pools in Adobe Workfront](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
+1. Resource Planner
+1. 
+1. Budget resources in the Resource Planner using the Project and Role views
 
 ### Use the Resource Planner for one project
 
 When using the Resource Planner for one project, the allocation numbers for your resources represent numbers for the selected project.
 
 1. Go to a project you want to budget resources for.
-1. Click Project Details > Business Case. 
-1. Scroll to the `Resource Budgeting` section of the Business Case.
-1. Click `Edit Resource Budgeting` to add resource pools to your project and start budgeting your resources.
+1. Click **Project Details** > **Business Case**. 
+
+1. Scroll to the **Resource Budgeting** section of the Business Case.
+1. Click **Edit Resource Budgeting** to add resource pools to your project and start budgeting your resources.
 
    >[!TIP]
    >

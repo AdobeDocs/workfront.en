@@ -58,25 +58,27 @@ You must have the following access to perform the steps in this article:
 ## Enforce a predecessor at the task level
 
 1. Go to the successor task whose predecessor you want to enforce.
-1. Click Predecessors in the left panel, then click Add Predecessor. You might need to click Show More, then Predecessors. 
-1. Specify the name of the predecessor task or tasks in the `Tasks` field. 
-1. Specify the `Dependency Type` between these two tasks.
+1. Click **Predecessors** in the left panel, then click **Add Predecessor**. You might need to click **Show More**, then **Predecessors**.  
 
-   The default `Dependency Type` is `Finish-Start`.
+1. Parent Project
+1. Specify the name of the predecessor task or tasks in the **Tasks** field. 
+1. Specify the **Dependency Type** between these two tasks.
+
+   The default **Dependency Type** is **Finish-Start**.
 
    ![](assets/ep-350x408.png)
 
-1. Select the `Enforced` field to enforce the predecessor.
-1. Click `Save`.
+1. Select the **Enforced** field to enforce the predecessor.
+1. Click **Save**.
 
 ## Enforce a predecessor in a task list
 
 1. Go to a task list on a project.
-1. From the `View` drop-down menu, select the `Standard View`. 
+1. From the **View** drop-down menu, select the **Standard View**. 
 
 1. Make a mental note of the number of task which you are going to designate as the predecessor.
 1. Find the successor task whose predecessor you want to enforce. 
-1. In the `Predecessors` column, start entering the number of the predecessor task followed by "e". For example, type "1e" to add task number 1 as a predecessor to the selected task. 
+1. In the **Predecessors** column, start entering the number of the predecessor task followed by "e". For example, type "1e" to add task number 1 as a predecessor to the selected task. 
 1. Click Enter to save your predecessor information for the task.
 
    ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)

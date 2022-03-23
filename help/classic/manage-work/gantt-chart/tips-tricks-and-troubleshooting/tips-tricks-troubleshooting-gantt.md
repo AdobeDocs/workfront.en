@@ -10,3 +10,5 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
+* Legacy Gantt chart does not display Custom Field data
+

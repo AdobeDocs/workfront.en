@@ -18,7 +18,16 @@ Now you can use Adobe Workfront Fusion to connect to your Anaplan account. With 
 For more information, see [Anaplan Modules](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).
 
 <!--
-Adobe Acrobat Sign connector and modules now available Now you can use Adobe Workfront Fusion to connect to your Adobe Acrobat Sign account. With the Adobe Acrobat Sign modules, you can: Create, update, and read agreements or other records List or search for records in your Adobe Acrobat Sign account Make a custom API call For more information, see Adobe Acrobat Sign modules.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Adobe Acrobat Sign connector and modules now available</h2>
+<p>Now you can use Adobe Workfront Fusion to connect to your Adobe Acrobat Sign account. With the Adobe Acrobat Sign modules, you can:</p>
+<ul>
+<li> <p>Create, update, and read agreements or other records</p> </li>
+<li> <p>List or search for records in your Adobe Acrobat Sign account</p> </li>
+<li> <p>Make a custom API call</p> </li>
+</ul>
+<p>For more information, see <a href="../../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md" class="MCXref xref" xrefformat="{para}">Adobe Acrobat Sign modules</a>.</p>
+</div>
 -->
 
 ## Go directly to the Scenario Editor when creating a scenario

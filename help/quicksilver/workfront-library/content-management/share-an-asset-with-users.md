@@ -45,17 +45,18 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
 
 ## Share a Workfront Library item
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the item you want to share is located.
 
    You can choose Library, My Content , or Collections.
 
    ![](assets/library-left-panel---new-350x217.png)
 
-1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
-1. Navigate to the item and hover, then click the `More` icon in the upper-right corner.
-1. Select `Share` in the drop-down menu.
+1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Navigate to the item and hover, then click the **More** icon in the upper-right corner.
+1. Select **Share** in the drop-down menu.
 
    The Share dialog displays.
 
@@ -65,7 +66,7 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
    >
    >The Share dialog shows only the Workfront Library users and organizational units that you have shared the item with.
 
-1. In the `Give access to` box, begin typing the name of the Workfront Library user or organizational unit that you want to share the item with, then click the name when it displays in the drop-down list.
+1. In the **Give access to** box, begin typing the name of the Workfront Library user or organizational unit that you want to share the item with, then click the name when it displays in the drop-down list.
 
    The user displays in the list and is, by default, given View permission to the item.
 
@@ -81,9 +82,9 @@ You cannot give a user permissions to an item that exceeds their Workfront Libra
 
 1. (Optional) To share the item with an external user:
 
-  1. Enable `Make this public to external users`.
-  1. Click `Copy Link`.
+  1. Enable **Make this public to external users**.
+  1. Click **Copy Link**.
   1. Paste the link in a third-party tool such as a chat or email application, then distribute to the user.
 
-1. Click `Save`.
+1. Click **Save**.
 

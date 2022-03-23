@@ -44,15 +44,15 @@ You must have the following access to perform the steps in this article:
 
 The following are types of priorities you can use to rank projects in Adobe Workfront:
 
-* `The Project Priority field`: You can manually assign a Priority to a project.
+* **The Project Priority field**: You can manually assign a Priority to a project.
 
   For more information about the Project Priority field, see the section [Considerations about project Priority](#consider) in this article.
 
-* `The priority of a project in the Portfolio Optimizer`, if the project is associated with a portfolio:&nbsp;
+* **The priority of a project in the Portfolio Optimizer**, if the project is associated with a portfolio:&nbsp;
 
   For more information about the priority of a project in the Portfolio Optimizer, see in the article [Prioritize projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-* `The priority of a project in the Resource Planner`: You can manually prioritize projects in the Resource Planner, to indicate which projects should receive resources first.&nbsp;
+* **The priority of a project in the Resource Planner**: You can manually prioritize projects in the Resource Planner, to indicate which projects should receive resources first.&nbsp;
 
   For more information about prioritizing projects in the Resource Planner, see the "Project Planning Priority" section in the article [Resource Planner navigation overview](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
@@ -75,17 +75,17 @@ Consider the following when selecting a Priority for your projects:
 
 * You can update the Priority of projects in the following areas of Workfront:
 
-  * In the `Edit Project` dialog box.
-  * In the `Project Details` tab of a project.
+  * In the **Edit Project** dialog box.
+  * In the **Project Details** tab of a project.
   * In a project list or report.
 
 ## Update the project Priority field
 
 1. Go to the project whose Priority you want to update.
-1. Click Project Details in the left panel.
-1. Click the `Edit` icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project Details area, then click  `Overview`. 
+1. Click **Project Details** in the left panel.
+1. Click&nbsp;the **Edit** icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;**Overview**. 
 
-1. In the `Priority` field, select from the following options:
+1. In the **Priority** field, select from the following options:
 
   * None
   * Low
@@ -96,7 +96,7 @@ Consider the following when selecting a Priority for your projects:
   * High
   * Urgent
 
-1. Click Save Changes.
+1. Click **Save Changes**.
 
    You must communicate with other users and have an understanding what each level of priority means for the project.
 

@@ -75,9 +75,9 @@ Some attributes of groupings are:
 
 In addition to filters, views, and groupings, you could also add the following elements to a report:
 
-* `Prompt`: An open filter that can be customized and applied differently every time you run a report.  
+* **Prompt**: An open filter that can be customized and applied differently every time you run a report.  
   For more information about prompts, see the article [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* `Chart`: You can enhance your reports by adding a chart to them and displaying the information in a visual way.  
+* **Chart**: You can enhance your reports by adding a chart to them and displaying the information in a visual way.  
   For more information about charts in reports, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 

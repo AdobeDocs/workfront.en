@@ -31,8 +31,8 @@ You can manually specify the Planned Start Date when you select any of the follo
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Task Constraint Type</span> </p> </th> 
-   <th> <p><span class="bold">Effect of Manually Changing the Planned Completion Date</span> </p> </th> 
+   <th> <p><strong>Task Constraint Type</strong> </p> </th> 
+   <th> <p><strong>Effect of Manually Changing the Planned Completion Date</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -53,7 +53,7 @@ When it is calculated automatically by the system, the following can influence t
 
 * The Start&nbsp;Date preference setting in the Tasks & Issues area in Setup
 
-  Your Workfront `or group administrator` can determine whether a new task starts on the same date as the project's Planned Start&nbsp;Date or on the day you create the task.
+  Your Workfront ```or group administrator``` can determine whether a new task starts on the same date as the project's Planned Start&nbsp;Date or on the day you create the task.
 
   For information about Tasks &&nbsp;Issues preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -68,11 +68,11 @@ When it is calculated automatically by the system, the following can influence t
 * Project Start Date, when the project is scheduled from Start Date.
 * The time off schedule of the Primary&nbsp;Assignee of the task.
 
-  When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the `Consider user time off in task durations` setting is selected for the `User Time Off` field. New projects inherit this setting from the Project&nbsp;Preferences area, but you can edit the setting at the project level.
+  When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the **Consider user time off in task durations** setting is selected for the **User Time Off** field. New projects inherit this setting from the Project&nbsp;Preferences area, but you can edit the setting at the project level.
 
   For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 1 marked for Time-off, the task Planned Start Date becomes June 2.
 
-  For information about the `User Time Off` preference, see the articles ` [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)` or [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+  For information about the **User Time Off** preference, see the articles ``` [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)``` or [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 When set automatically, the Planned Start Date&nbsp;is determined based on the following calculation:&nbsp;
 

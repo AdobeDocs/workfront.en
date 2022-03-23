@@ -51,10 +51,15 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
 
 ## Create custom expense types
 
-1. Go to the Setup area in the Global Navigation Bar.  
-1. Click `Expense Types`.
-1. Click `New Expense Type`.  
-   The `New Expense Type` dialog box is displayed.
+1. Go to the **Setup** area in the Global Navigation Bar.  
+   ![](assets/setup-link-in-global-bar-classic-350x50.png)
+
+1. Click **Expense Types**.
+
+   ![](assets/expense-types-350x125.png)
+
+1. Click **New Expense Type**.  
+   The **New Expense Type** dialog box is displayed.
 
 1. Specify the following information:
 
@@ -85,23 +90,30 @@ The Expense Types that are in Workfront by default cannot be deleted or edited i
      </tr> 
      <tr> 
       <td role="rowheader">Rate</td> 
-      <td> <p>Specify the price per unit. This is a currency formatted field and it represents the cost of each unit established in the <span class="bold">Calculated Unit</span> field. </p> <p>The rate can contain a numerical value with up to 4 numbers after the decimal. For example, 1.0375</p> </td> 
+      <td> <p>Specify the price per unit. This is a currency formatted field and it represents the cost of each unit established in the <strong>Calculated Unit</strong> field. </p> <p>The rate can contain a numerical value with up to 4 numbers after the decimal. For example, 1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Create Expense Type`.  
+   ![](assets/other-expense-type-350x186.png)
+
+1. Click **Create Expense Type**.  
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
 ## Modify custom Expense Types
 
-1. Go to the Setup area in the Global Navigation Bar.  
-1. Click `Expense Types`.
-1. Select the expense type that you want to modify, then click `Edit`.
+1. Go to the **Setup** area in the Global Navigation Bar.  ![](assets/setup-link-in-global-bar-classic-350x50.png)   
 
-   The `Edit Expense Type` dialog box is displayed.
+1. Click **Expense Types**.
+1. Select the expense type that you want to modify, then click **Edit**.
 
-1. Make your desired changes, then click `Save Changes`.  
+   ![](assets/edit-expense-type-350x125.png)
+
+   The **Edit Expense Type** dialog box is displayed.
+
+   ![](assets/ccet5-350x305.png)
+
+1. Make your desired changes, then click **Save Changes**.  
    The expense type is now available for users to associate it with their expenses on projects and tasks.
 
 For more information about how to use expenses and how they can affect the cost of a project, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md). 

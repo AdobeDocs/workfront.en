@@ -15,7 +15,7 @@ The status you configure can be any custom status created for the group, inherit
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
-` `**Example: **`` You could create a custom status called Finished and set it as a default status equated with the Workfront status Complete.
+``` ```**Example: **`````` You could create a custom status called Finished and set it as a default status equated with the Workfront status Complete.
 
 Then, for tasks set to change to the status Complete when they reach 100%, the status displays as Finished instead of Complete.
 
@@ -42,11 +42,12 @@ You must have the following to perform the steps in this article:
 
 ## Set a custom status as a default status for a group
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click Project Preferences > Statuses. 
-1. Click `Set Default Statuses` near the upper-right corner.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Statuses**. 
+1. System Statuses
+1. Click **Set Default Statuses** near the upper-right corner.
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want to set.
-1. Click `Save`.
+1. Click **Save**.
 
    The status is now available as a default status for use with projects associated with the group.
 
@@ -58,11 +59,11 @@ You must have the following to perform the steps in this article:
    >
    >If you assign the project to a different group, the project status will reload and could change.
 
-  1. Go to the project where you want to use the custom status.
-  1. Click Edit Project. 
-  1. In the `Edit Project` box that displays, in the `Group` field under `Project association`, select the group that the custom status is associated with.
-  
-  1. Click `Save Changes`.
+   1. Go to the project where you want to use the custom status.
+   1. Click **Edit Project**. 
+   1. In the **Edit Project** box that displays, in the **Group** field under **Project association**, select the group that the custom status is associated with.
+   
+   1. Click **Save Changes**.
 
 ## Groups inherit default status configurations
 
@@ -76,7 +77,7 @@ For more information, see [How groups inherit statuses](../../../administration-
 
 If you hide a default status (by enabling the Hide status option for it), the system tries to set another status of the equivalent type as the default instead.
 
-If there is no available status of the equivalent type, the status type displays as `Hidden` and is not available for work items.
+If there is no available status of the equivalent type, the status type displays as **Hidden** and is not available for work items.
 
 ![](assets/when-hide-default-status-no-equivalent-350x245.png)
 

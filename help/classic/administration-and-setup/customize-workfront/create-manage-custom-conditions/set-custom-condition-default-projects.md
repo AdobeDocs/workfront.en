@@ -10,7 +10,9 @@ description: If the Condition Type of a project is set to Progress Status instea
 
 # Set a custom condition as the default for projects
 
-If the Condition Type of a project is set to Progress Status instead of Manual, Adobe Workfront automatically displays one of three built-in default conditions on the project (On Target, At Risk, or In Trouble) as it progresses, as explained in [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+If the Condition Type of a project is set to Progress Status instead of Manual, Adobe Workfront automatically displays one of three built-in default conditions on the project (On Target, At Risk, or In Trouble) as it progresses, as explained in [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md). 
+
+![](assets/condition-in-project-header-350x128.png)
 
 You can set your custom conditions as default conditions instead of using these three built-in default conditions. For example, you could change the On Target default condition to display as Tracking Well in all projects.
 
@@ -39,14 +41,14 @@ You must have the following to perform the steps in this article:
 
 ## Set a custom condition as a default condition for all projects:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Project Preferences` > `Conditions`.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Conditions**.  
 
-1. Click the `Project` tab. 
-1. Click `Set Default Conditions`. 
+1. Click the **Project** tab. 
+1. Click **Set Default Conditions**. 
 1. In the drop-down menu next to the default condition you want to change, click the custom condition you want to use instead. 
 1. Repeat the previous step for any other default condition you want to change.
-1. Click `Save`.
+1. Click **Save**.
 
 For information about setting a custom condition as a default condition for tasks and issues, see [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 

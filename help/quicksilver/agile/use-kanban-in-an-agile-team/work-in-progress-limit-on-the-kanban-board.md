@@ -48,7 +48,12 @@ Any time the limit is exceeded for any column on the Kanban board, the limit is 
 
 Team members with Edit rights can update the WIP limit for each status column directly from the Kanban board. Alternatively, you can update the WIP limit as described in the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. On the Kanban board, locate the WIP limit in the upper-right corner of each column on the Kanban board.
 1. Click the WIP limit you want to modify, then specify a new limit.
-1. Press `Enter`.
+1. Press **Enter**.
 

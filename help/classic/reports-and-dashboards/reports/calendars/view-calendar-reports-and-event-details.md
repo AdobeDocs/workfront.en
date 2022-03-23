@@ -43,44 +43,44 @@ You must have the following access to perform the steps in this article:
 
 ## View a calendar report
 
-1. Go to Reporting in the Global Navigation Bar. 
-1. Click the Calendars tab, then select the calendar you want to view.
+1. Go to **Reporting** in the Global&nbsp;Navigation Bar. 
+1. Click the **Calendars**&nbsp;tab, then select the calendar you want to view.
 
    Depending on your access level, you might see the following calendars listed:
 
-  * Your default Adobe Workfront calendar  
-    Workfront creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.
-  * Calendars that you have created  
-    To learn about creating calendars, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
-  
-  * Calendars that other users have shared with you  
-    To learn about sharing calendars, see [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   * Your default Adobe Workfront calendar  
+     Workfront creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.
+   * Calendars that you have created  
+     To learn about creating calendars, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+   
+   * Calendars that other users have shared with you  
+     To learn about sharing calendars, see [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
-1. (Conditional) Click the `View` drop-down, then select the calendar duration you want to view.  
+1. (Conditional) Click the **View** drop-down, then select the calendar duration you want to view.  
    ![View_menu_Calendar_report.png](assets/view-menu-calendar-report-350x189.png)  
    You can choose from the following calendar report views:
 
-  * `Month`: Displays four weeks of the calendar
-  * `Week`: Displays one week of the calendar
-  * `Gantt`: Displays a continuous view of the calendar  
-    ![Gantt_calendar_report.png](assets/gantt-calendar-report-350x141.png)  
-    You can see more events in a Gantt view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
+   * **Month**: Displays four weeks of the calendar
+   * **Week**: Displays one week of the calendar
+   * **Gantt**: Displays a continuous view of the calendar  
+     ![Gantt_calendar_report.png](assets/gantt-calendar-report-350x141.png)  
+     You can see more events in a Gantt view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
 
 1. (Optional) If you are viewing the calendar in the Month or Week views, you can change your calendar view with the following options:
 
-  * To include or exclude weekends:
+   * To include or exclude weekends:
 
-    1. On the `Calendar` toolbar, click  `Calendar Actions`, then from the drop-down list select either `Show Weekend` or `Hide Weekend`.
+      1. On the **Calendar** toolbar, click&nbsp;**Calendar Actions**, then from the drop-down list select either **Show Weekend** or **Hide Weekend**.
 
-  * To quickly change the dates displayed:
+   * To quickly change the dates displayed:
 
-    1. On the `Calendar` toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.  
-       ![click_arrows_the_change_dates_calendar_report.png](assets/click-arrows-the-change-dates-calendar-report-350x50.png)  
-       The dates displayed are adjusted by an interval based your current calendar view.&nbsp;For example, if you are viewing the calendar in the Week view, the calendar displays either one week forward or one week back, depending on the arrow you select.
-    
-    1. (Optional) To return to the current day, click `Today`.
+      1. On the **Calendar** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.  
+         ![click_arrows_the_change_dates_calendar_report.png](assets/click-arrows-the-change-dates-calendar-report-350x50.png)  
+         The dates displayed are adjusted by an interval based your current calendar view.&nbsp;For example, if you are viewing the calendar in the Week view, the calendar displays either one week forward or one week back, depending on the arrow you select.
+      
+      1. (Optional) To return to the current day, click **Today**.
 
-1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the `Calendar`&nbsp;toolbar.  
+1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the **Calendar**&nbsp;toolbar.  
    ![click_arrows_to_change_dates_calendar_report.png](assets/click-arrows-to-change-dates-calendar-report-350x50.png)  
    Press Esc to return to the normal view of the calendar.
 
@@ -98,10 +98,10 @@ You can see the details of an event in a calendar.
 
 1. (Optional) To view additional details on the object:
 
-  1. Hover over the project, task, or issue name.  
-     A details page opens for the object.  
-     ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
+   1. Hover over the project, task, or issue name.  
+      A details page opens for the object.  
+      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
 
-  1. (Optional) To open the associated project, task, or issue, click the title of the object.
-  1. (Optional) To close all the opened details pages, click anywhere outside the event details pages.
+   1. (Optional) To open the associated project, task, or issue, click the title of the object.
+   1. (Optional) To close all the opened details pages, click anywhere outside the event details pages.
 

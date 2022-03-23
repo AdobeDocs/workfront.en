@@ -41,9 +41,11 @@ You must have the following access to perform the steps in this article:
 
 ## Request a document approval
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
+1. Approvals
+1. Add Approver
 1. If your Adobe Workfront administrator has enabled the capability to collaborate with people who don't use Workfront, as described in [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md), you can type their email addresses to include them.
 
    You cannot request approval from teams or groups.
@@ -54,22 +56,28 @@ You must have the following access to perform the steps in this article:
 
 Document approval decisions are not automatically reset when you upload a new version. For example, if your document is approved with changes, the decision will show “changes” as the decision, even if you upload a new version with the specified changes. You can clear the decision on a new version if you manually resubmit the approval.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
+
+1. Scroll down to the **Approvals** section in the Summary, click the ```More```icon, then click ```Resubmit```.
+
+1.
 
 ## Delete a document approval request
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Scroll down to the Approvals section in the Summary, then click the More menu inline with the approver's name and select Delete. The approval request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
+1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver's name and select **Delete**.
+
+   The approval request is removed and the approver receives a notification that their approval is no longer needed. Their approval-related share access is also removed.
 
 ## Send a reminder to an approver
 
 You can send a message to remind document an approver that you're waiting for their feedback.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Scroll down to the Approvals section in the Summary, then click the More menu inline with the approver's name and select Remind. The approver receives a notification informing them the approval is still pending. They may also receive an email reminder if they have that enabled.
+1. Scroll down to the **Approvals** section in the Summary, then click the **More** menu inline with the approver's name and select **Remind**. The approver receives a notification informing them the approval is still pending. They may also receive an email reminder if they have that enabled.
 

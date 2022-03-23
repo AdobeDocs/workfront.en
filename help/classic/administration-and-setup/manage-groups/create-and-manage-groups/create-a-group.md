@@ -43,16 +43,16 @@ These steps explain how to create a new group from scratch. For information abou
 
 You must be a Workfront administrator to create a top-level group.
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
-1. Above the list of groups, click `New Group`.
+1. Above the list of groups, click **New Group**.
 
    >[!TIP]
    >
-   >At the bottom of the list of groups, you can also click `Add More Groups` to add a group in-line, then click `Enter` when you are finished adding the group information.
+   >At the bottom of the list of groups, you can also click **Add More Groups** to add a group in-line, then click **Enter** when you are finished adding the group information.
 
-1. In the `New Group` box that displays, type a name for the group.
+1. In the **New Group** box that displays, type a name for the group.
 1. Specify the following information:
 
    <table cellspacing="0"> 
@@ -88,7 +88,7 @@ You must be a Workfront administrator to create a top-level group.
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
+        <li> <p>Group administrators: You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -98,7 +98,7 @@ You must be a Workfront administrator to create a top-level group.
     </tbody> 
    </table>
 
-1. Click `Create Group`.
+1. Click **Create Group**.
 
 ## Create a top-level group by copying an existing group or subgroup
 
@@ -111,13 +111,14 @@ Keep the following in mind when you want to do this:
 
 To create a new top-level group by copying a group or subgroup:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
-1. Select the group you want to copy, then click More > Copy.
-1. In the `Copy Group` box that appears, type a `Group Name` for the copied group.  
+1. Select the group you want to copy, then click **More** > **Copy**.
+
+1. In the **Copy Group** box that appears, type a **Group Name** for the copied group.  
 
 1. Specify the following information:
 
@@ -154,7 +155,9 @@ To create a new top-level group by copying a group or subgroup:
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators:Any group administrators of the original group are also designated as the group administrators in the copied group. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> A top-level group must have at least 1 group administrator. </li> 
+        <li> <p>Group administrators:<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.copied groups">
+            Any group administrators of the original group are also designated as the group administrators in the copied group.
+          </MadCap:conditionalText> You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -167,14 +170,14 @@ To create a new top-level group by copying a group or subgroup:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
-   >  * You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.
-   >  
+   >   
+   >   
+   >   * If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
+   >   * You can eliminate any user or subgroup from the original group by clicking the X to the right of the user’s or subgroup’s name.
+   >   
    >
 
-1. Click `Create Group`.
+1. Click **Create Group**.
 
 ##  
 

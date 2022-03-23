@@ -17,7 +17,11 @@ Timesheet and Hour Preferences control what appears on a timesheet. This provide
 
 For information about how to log time on a time sheet, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
+![Timesheet layout for the new Workfront experience](assets/timesheet-layout-nwe-350x146.png)  
+
 ## Title
+
+![](assets/timesheet-title-nwe-350x137.png)
 
 Identifies the start and end dates of the timesheet and includes the status of the timesheet.&nbsp;
 
@@ -47,7 +51,7 @@ You can use the Save, Save + Close, Submit for Approval, Cancel and Back to top 
 
 ![](assets/timesheet-job-role-area-nwe.png)
 
-You can select a different job role to associate with the hour entries. Your Workfront administrator must enable the `Assign job roles to hour entries manually` setting. The job role specified for you when you are assigned to the task or the issue displays by default. If you are not assigned a job role on the task or the issue, your Primary Role displays as the default. For more information, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+You can select a different job role to associate with the hour entries. Your Workfront administrator must enable the **Assign job roles to hour entries manually** setting. The job role specified for you when you are assigned to the task or the issue displays by default. If you are not assigned a job role on the task or the issue, your Primary Role displays as the default. For more information, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 You can log multiple hour entries for the same work item for different roles.&nbsp;For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
 
@@ -71,7 +75,7 @@ You can make comments on a timesheet to communicate with your timesheet approver
 
 ![](assets/timesheet-recent-updates-area-and-new-comment-option-nwe-350x155.png)
 
-Any comments made on the timesheet display in this area, at the bottom of the timesheet. `This area displays under the timesheet and above the timesheet's footer.` For more information, see [View and manage comments on a timesheet](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Any comments made on the timesheet display in this area, at the bottom of the timesheet. ```This area displays under the timesheet and above the timesheet's footer.``` For more information, see [View and manage comments on a timesheet](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
 
 ## Work item comments
 

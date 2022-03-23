@@ -46,7 +46,7 @@ After entering their SSO credentials the reviewer will automatically be re-direc
 
 >[!NOTE]
 >
->If the decision is electronically signed, the `signature icon` (5) appears next to the decision in the Workflow section on the Proof details page. If the decision is changed not by the reviewer but by another person who has edit rights on the proof, that person will not be asked to electronically sign the decision and there will be no signature icon next to the decision (6).
+>&nbsp;If the decision is electronically signed, the **signature icon** (5) appears next to the decision in the Workflow section on the Proof details page. If the decision is changed not by the reviewer but by another person who has edit rights on the proof, that person will not be asked to electronically sign the decision and there will be no signature icon next to the decision (6).
 
 ![Electronic_Signature_icon.png](assets/electronic-signature-icon-350x52.png)For information single sign-on, see [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 

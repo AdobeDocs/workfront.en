@@ -55,32 +55,34 @@ Consider the following when generating the unique URL for the User View of the R
 
 To obtain a unique URL in the User View of the Resource Planner and share it with other users:
 
-1. Click Resourcing. 
-1. In the , select `View by User`.
+1. Main Menu
+1. 
+1. Click **Resourcing**. 
+1. In the , select **View by User**.
 1. (Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following:
 
   * Week
   * Month
   * Quarter
 
-1. (Optional) Select whether you want to view the information by `FTE` or `Hours`.  
+1. (Optional) Select whether you want to view the information by **FTE** or **Hours**.  
    ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Optional) Apply filters to the Resource Planner.  
    For information about applying filters, see [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
 
-1. Click the `hyperlink` icon.  
+1. Click the **hyperlink** icon.  
    ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
 
-1. Click `Copy URL`.  
+1. Click **Copy URL**.  
    This copies the unique URL of the Resource Planner in the User View to your clipboard. 
 
 1. (Optional) Do the following:
 
-  1. Go to `Reporting`> `Dashboards`> `New Dashboard`> `Add External Page.`
+  1. Go to **Reporting**>**Dashboards**>**New Dashboard**>**Add External Page.**
   
-  1. Paste the link you copied to your clipboard in the `URL` field.
-  1. Click `Save`, then `Save + Close`.  
+  1. Paste the link you copied to your clipboard in the **URL** field.
+  1. Click **Save**, then **Save + Close**.  
      This will embed the URL into the dashboard and the User view of the Resource Planner displays in a separate dashboard.
 
    Or  

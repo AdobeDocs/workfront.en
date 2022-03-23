@@ -33,7 +33,10 @@ If you have Manager or higher access to Workfront Library, you can add content a
 If you have Manager access or higher to Workfront Library, you can remove content and sub-folders from a folder. Users with Viewer access cannot remove items from a folder. 
 
 <!--
-For more information, see Remove items from a folder in Workfront Library.
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+For more information, see
+<a href="../../../workfront-library/content-management/folders/remove-items-from-a-folder.md" class="MCXref xref" xrefformat="{para}">Remove items from a folder in Workfront Library</a>.
+</MadCap:conditionalText>
 -->
 
 ### Share a folder
@@ -45,7 +48,9 @@ If you have Manager access or higher, you can share a folder and all its content
 If you have Manager access or higher to Workfront Library, you can add folders that you created to portals that you have access to. You can also add folders shared with you and to which you have Manage permissions. However, you cannot add folders to which you have View permissions.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see .
+</MadCap:conditionalText>
 -->
 
 ### Rename a folder

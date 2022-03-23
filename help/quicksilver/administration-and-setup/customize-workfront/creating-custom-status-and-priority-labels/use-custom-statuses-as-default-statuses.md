@@ -34,7 +34,7 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
-## `About setting custom default system-level statuses`
+## **About setting custom default system-level statuses**
 
 When you set a custom status as a default system status, any new groups created in the system inherit that status.
 
@@ -42,17 +42,17 @@ Groups that already existed when you set the new default system status do not au
 
 For example, suppose there are 2 groups already created in your Adobe Workfront environment (Marketing and Sales). You create a new custom status that equates with Current, and call the status In Process. You now create a new group called Engineering. In this scenario, the Engineering group inherits the new default status; the Marketing and Sales groups do not.
 
-## `About setting custom default group-level statuses`
+## **About setting custom default group-level statuses**
 
 A custom status that you set as a default group status is used in the following circumstances:
 
-* `When the Workfront system chooses a status automatically, the default group status is used:` The custom status that you set as the default group status is used when the Workfront system automatically assigns a status to an object.
+* **When the Workfront system chooses a status automatically, the default group status is used:** The custom status that you set as the default group status is used when the Workfront system automatically assigns a status to an object.
 
   For example, a task can be&nbsp;configured to automatically change to Complete status when the percent complete reaches 100%. If you create a custom status that equates with Complete and you set that custom status as a default status, Workfront changes the status of the task to the new default status.
 
   Custom statuses are used in this way only with group statuses that are associated with a task or issue. Custom statuses cannot be used in this way for statuses associated with a project.
 
-* The `status of a project is determined by the group associated with the project`: If the group associated with a given project changes, the status of the project changes depending on the default statuses defined for the group. (A group can be associated with a project via the `Groups` field when editing the project.)
+* The **status of a project is determined by the group associated with the project**: If the group associated with a given project changes, the status of the project changes depending on the default statuses defined for the group. (A group can be associated with a project via the **Groups** field when editing the project.)
 
   If that group changes, the status of the project changes if the new group has a different default status defined that equates with the current status of the project.
 
@@ -60,18 +60,18 @@ A custom status that you set as a default group status is used in the following 
 
 ## Set a custom status as a default status
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Project Preferences` > `Statuses`.
+1. In the left panel, click **Project Preferences** > **Statuses**.
 
 1. (Conditional) To set a default status for a group, begin typing the name of the group in the menu in the upper-right corner.
-1. Click the `Set Default Statuses` drop-down menu.
+1. Click the **Set Default Statuses** drop-down menu.
 1. In the drop-down area that displays, next to the status where you want to set the default status, select the default status you want.
-1. Click `Save`.
+1. Click **Save**.
 1. Associate the project with the group where the status resides. 
 
    <!--
-   This step isn’t in older documentation
+   <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This step isn’t in older documentation</span>
    -->
 
    Users can use the custom status only if the group where the status resides is associated with the project.
@@ -81,8 +81,8 @@ A custom status that you set as a default group status is used in the following 
    >If you are setting the custom status for a group, and you later assign the project to a different group, the project status will reload and could change.
 
   1. Go to the project where you want to use the custom status.
-  1. Click the More menu , then click Edit. 
-  1. In the `Edit Project` box that displays, in the `Group` field under `Project association`, select the group where the status resides.
+  1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  
+  1. In the **Edit Project** box that displays, in the **Group** field under **Project association**, select the group where the status resides.
   
-  1. Click `Save Changes`.
+  1. Click **Save Changes**.
 

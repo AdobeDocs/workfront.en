@@ -38,21 +38,20 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-Overview of the Finance area 
-
-Consider the following when viewing or editing information in the Finance area:
+Overview of the Finance area Consider the following when viewing or editing information in the Finance area:
 
 * The financial information you can find on the Finance area of Project Detailsrepresents values that roll up to the project level from tasks, as well as information entered directly on the project. Some financial information can be managed at the project as well as the task level. 
-* You must have View permissions on the project as well as access to Financial Data from your access level in order to be able to view the Finance areaon a project. 
-* You must have Manage permissions on the project as well as access to Financial Data from your access level in order to be able to edit the information on the Finance area. However, we recommend that only the Project Owner should edit the information on this area.
+* You must have View permissions on the project as well as access to Financial Data from your access level in order to be able to view the Finance area on a project. 
+* You must have Manage permissions on the project as well as access to Financial Data from your access level in order to be able to edit the information on the Finance area . However, we recommend that only the Project Owner should edit the information on this area .
 
 ## View Finance information on a project
 
 1. Go to a project.
-1. Click Project Details in the left panel. 
-1. Click the Edit icon in the upper-right corner of the Details section, then click Finance. 
-   Note: Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see Customize the Details view using a layout template. 
-1. View the following fields in the Finance areaof the project:
+1. Click **Project Details** in the left panel. 
+1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click **Finance**. 
+   ``` ```**Note: **``````Depending on how your Workfront administrator configured your Layout Template, the Overview section might not be listed first, in which case it is collapsed. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).  
+
+1. View the following fields in the Finance area of the project:
 
    <table cellspacing="0"> 
     <col> 
@@ -130,16 +129,19 @@ To edit information on the Project Finance subtab:
    >
    >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance subtab of the project.
 
-1. Click Project Details in the left panel. 
-1. Click the Edit icon in the upper-right corner of the Details section, then click Finance . This opens the Finance area for editing. 
-1. Edit any field that is available for editing, by single-clicking the field or click `+Add` to add information to an empty field.
+1. Click **Project Details** in the left panel. 
+1. Click the **Edit** icon ![](assets/edit-icon.png) in the upper-right corner of the Details section, then click&nbsp;**Finance** . This opens the Finance area for editing. 
+
+1. Edit any field that is available for editing, by single-clicking the field or click **+Add** to add information to an empty field.
 
    >[!TIP]
    >
    >Fields are not available for editing if they are automatically calculated by Workfront or if you don't have editing permissions on them.
 
+   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+
 1. Update any of the fields below. 
-   Note: Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project Details section might be different in your environment. For information, see Customize the Details view using a layout template. 
+   ``` ```**Note: **``````Depending on how your Workfront administrator sets up our Layout Template, the fields in the Project&nbsp;Details section might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
 
    <table cellspacing="0"> 
     <col> 
@@ -149,16 +151,16 @@ To edit information on the Project Finance subtab:
       <td role="rowheader">Performance Index Method</td> 
       <td> <p>Controls the method Workfront uses to calculate project performance metrics. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
        <ul> 
-        <li><span class="bold">Hour-Based:</span>Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
-        <li><span class="bold">Cost-Based:</span>Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
+        <li><strong>Hour-Based:</strong>Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours. </li> 
+        <li><strong>Cost-Based:</strong>Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Estimate at Completion</td> 
       <td> <p>Represents the projected total cost of your project or task when it completes. This is set up at the system level by your administrator, but you can also edit it at the project level. Consider selecting one of the following options:</p> 
        <ul> 
-        <li><span class="bold">Calculate at Project Level</span>: EAC for the parent task and project are determined by entering the actual hours/ actual labor cost into the EAC Formulas. This calculation includes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
-        <li><span class="bold">Roll up from Tasks/ Subtasks</span>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
+        <li><strong>Calculate at Project Level</strong>: EAC for the parent task and project are determined by entering the actual hours/ actual labor cost into the EAC Formulas. This calculation includes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
+        <li><strong>Roll up from Tasks/ Subtasks</strong>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes Actual Hours/ costs and expenses added directly to the parent task or project.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -166,11 +168,11 @@ To edit information on the Project Finance subtab:
       <td>Specify the budget for this project.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Fixed Cost</span> </td> 
+      <td role="rowheader"><strong>Fixed Cost</strong> </td> 
       <td>Specify the fixed cost for this project. This should not include any labor or expense costs.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Fixed Revenue</span> </td> 
+      <td role="rowheader"><strong>Fixed Revenue</strong> </td> 
       <td> <p>Specify the fixed revenue of this project. This should not include revenue coming from any billing records billed to partners or third parties.</p> </td> 
      </tr> 
      <tr> 
@@ -184,5 +186,5 @@ To edit information on the Project Finance subtab:
     </tbody> 
    </table>
 
-1. Click `Save`Changes.
+1. Click **Save****Changes**.
 

@@ -35,7 +35,7 @@ If you share a proof by adding reviewers:
 You can add reviewers to a proof when you are creating a new proof or uploading a new version of a proof:
 
 1. Create the proof or new version, as described in [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) and .
-1. On the `New proof` page or `New proof version` page, in the `Workflow` section, type the email address of the reviewer you want to add.  
+1. On the **New proof**&nbsp;page or **New proof version** page, in the **Workflow** section, type the email address of the reviewer you want to add.  
    For information about sharing a proof with a group, see&nbsp; [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).  
    If you shared proofs with this person before, their email address appears in the autocomplete dropdown.  
    If you change your mind, you can remove a reviewer from the share list by clicking on the trash icon. You can easily remove all reviewers by clicking on the top trash icon.
@@ -44,11 +44,11 @@ You can add reviewers to a proof when you are creating a new proof or uploading 
 
 ## Adding Reviewers to an Existing Proof
 
-1. On the Dashboard or any list view, click the `More` button dropdown to the right of the proof.  
+1. On the Dashboard or any list view, click the **More** button dropdown to the right of the proof.  
    ![](assets/more-button-small.png)
 
-1. Click `Share` in the drop-down menu.
-1. In the `Share this version` page that appears, add reviewers by adding their email addresses.  
+1. Click **Share** in the drop-down menu.
+1. In the **Share this version** page that appears, add reviewers by adding their email addresses.  
    You can also do any of the following:
 
   * Remove all reviewers with one click (4).
@@ -60,7 +60,7 @@ You can add reviewers to a proof when you are creating a new proof or uploading 
   * Include or discard a custom message (10).
   * Add text to the body and the subject line of the custom message (11).
 
-1. Click `Share.`
+1. Click **Share.**
 1. ![Share_this_version_page.png](assets/share-this-version-page-350x330.png)
 
 &nbsp;

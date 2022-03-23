@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -46,7 +57,7 @@ You must have the following access to use the functionality in this article:
 
 ### View scenario execution history on the Scenario Detail page
 
-1. Click the `Scenario` tab in the left panel, then click the scenario.
+1. Click the **Scenario** tab in the left panel, then click the scenario.
 
    Or
 
@@ -62,25 +73,25 @@ You must have the following access to use the functionality in this article:
 
    The following details are listed for every execution of the scenario:
 
-  * Date when the run was `Started`
-  * `Status` (success or failed)
-  * Run `Duration`
-  * Number of `Operations` 
-  * Size of `Data Transfer`
-  * Link to `Details`
+  * Date when the run was **Started**
+  * **Status** (success or failed)
+  * Run **Duration**
+  * Number of **Operations** 
+  * Size of **Data Transfer**
+  * Link to **Details**
 
 ### View scenario execution history on the History tab
 
 The History tab shows more detail than is available on the Scenario detail page. You can also filter and sort the executions on the History tab.
 
-1. Click the `Scenario` tab in the left panel, then click the scenario.
+1. Click the **Scenario** tab in the left panel, then click the scenario.
 
    Or
 
    If you are working on the scenario in the Scenario editor, click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
-1. Click the `History` tab near the upper-left corner of the page
-1. (Optional) For detailed information about a selected scenario run, including which bundles were processed, click the `Details` link.
+1. Click the **History** tab near the upper-left corner of the page
+1. (Optional) For detailed information about a selected scenario run, including which bundles were processed, click the **Details** link.
 
    For more information on processing bundles, see [Scenario execution flow](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -109,17 +120,17 @@ You can sort the scenario execution history.
 
 ## Search all executions of a scenario for specific data
 
-1. Click the `Scenario` icon ![](assets/scenarios-icon.png) in the left panel, then click the scenario.
+1. Click the **Scenario** icon ![](assets/scenarios-icon.png) in the left panel, then click the scenario.
 
    Or
 
    If you are working on the scenario in the Scenario editor, click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
-1. Click the `History` tab near the upper-left corner of the screen.
-1. Click `Fulltext search` in the upper-right corner of the screen.
+1. Click the **History** tab near the upper-left corner of the screen.
+1. Click **Fulltext search** in the upper-right corner of the screen.
 1. Enter the search term.
 
-   ` `**Example: **``If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
+   ``` ```**Example: **``````If you want to find the execution that created a specific project, enter the project ID into the Fulltext search bar.
 
 1. (Optional) Click on a result of the fulltext search to examine the scenario module output bundle that contains the information.
 

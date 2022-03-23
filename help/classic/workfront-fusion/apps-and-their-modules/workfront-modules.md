@@ -30,7 +30,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -39,7 +43,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,7 +65,7 @@ The Workfront connector uses OAuth 2.0 to connect to Workfront.
 
 You can create a connection to your Workfront account directly from inside a Workfront Fusion module.
 
-1. In any Workfront app module, click `Add`next to the Connection box.
+1. In any Workfront app module, click **Add**next to the Connection box.
 1. Enter the name of your instance into the URL. Example: 
 
    ```
@@ -62,25 +73,25 @@ You can create a connection to your Workfront account directly from inside a Wor
    ```
 
    .
-1. Click `Next`.
-1. Click `SAML log in` to create the connection and go back to the module.
+1. Click **Next**.
+1. Click **SAML log in** to create the connection and go back to the module.
 
    Or
 
-   Enter your Username and Password, then click `Log in` to create the connection and go back to the module.
+   Enter your Username and Password, then click **Log in** to create the connection and go back to the module.
 
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * If you do not see a SAML log in button, your organization has not enabled Single Sign-On (SSO). You can log in with your Username and Password.
-   >  
-   >  
-   >    For more information on SSO, see [Overview of single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
-   >  
-   >  * OAuth 2.0 connections to the Workfront API no longer rely on API keys. 
-   >  
+   >   
+   >   
+   >   * If you do not see a SAML log in button, your organization has not enabled Single Sign-On (SSO). You can log in with your Username and Password.
+   >   
+   >   
+   >     For more information on SSO, see [Overview of single sign-on in Adobe Workfront](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+   >   
+   >   * OAuth 2.0 connections to the Workfront API no longer rely on API keys. 
+   >   
    >
 
 ## Workfront modules and their fields
@@ -107,9 +118,9 @@ This trigger module executes a scenario in real time when objects of a specific 
 
 The module returns any standard fields associated with the record, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
-1. Click `Add` to the right of the `Webhook` box.
+1. Click **Add** to the right of the **Webhook** box.
 
-1. Configure the webhook in the `Add a hook` box that displays.
+1. Configure the webhook in the **Add a hook** box that displays.
 
    When you are configuring this module, the following fields display.
 
@@ -128,10 +139,18 @@ The module returns any standard fields associated with the record, along with an
      <tr> 
       <td>Record Type</td> 
       <td>Select the type of Workfront record that you want the module to watch.</td> 
-     </tr> Events filters You can set filters to watch for only records that meet criteria you select. For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND rules. Note: You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one. For more information on event filters, see Event subscription filters in the Workfront &gt; Watch Events modules in this article. Exclude events made by this connection Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td> <p>Events filters</p> </td> 
+      <td> <p>You can set filters to watch for only records that meet criteria you select.</p> <p>For each filter, enter the field you want the filter to evaluate, the operator, and the value that you want the filter to allow. You can use more than one filter by adding AND rules.</p> <p>Note: You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one.</p> <p>For more information on event filters, see <a href="#event" class="MCXref xref">Event subscription filters in the Workfront &gt; Watch Events modules</a> in this article.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td>Exclude events made by this connection</td> 
+      <td>Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop.</td> 
+     </tr> 
      <tr> 
       <td>Record Origin</td> 
-      <td> <p>Choose whether you want the scenario to watch <span class="bold">New Records Only</span>, <span class="bold">Updated Records Only</span>, <span class="bold">New and Updated Records</span>, or <span class="bold">Deleted Records Only</span>.</p> <p>Note: If you choose <span class="bold">New and Updated Records</span>, the webhook creation creates 2 event subscriptions (for the same webhook address).</p> </td> 
+      <td> <p>Choose whether you want the scenario to watch <strong>New Records Only</strong>, <strong>Updated Records Only</strong>, <strong>New and Updated Records</strong>, or <strong>Deleted Records Only</strong>.</p> <p>Note: If you choose <strong>New and Updated Records</strong>, the webhook creation creates 2 event subscriptions (for the same webhook address).</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -195,11 +214,11 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">Filter</td> 
-   <td> <p>Choose whether you want the scenario to watch <span class="bold">New Records Only</span>, <span class="bold">Updated Records Only</span>, or <span class="bold">New and Updated Records</span>.</p> </td> 
+   <td> <p>Choose whether you want the scenario to watch <strong>New Records Only</strong>, <strong>Updated Records Only</strong>, or <strong>New and Updated Records</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Record Type</td> 
-   <td> <p>(Displays after you choose a <span class="bold">Filter</span>.) Select the type of Workfront record that you want the module to watch.</p> <p>For example, if you want to start the scenario each time a new Project is created, select Project</p> </td> 
+   <td> <p>(Displays after you choose a <strong>Filter</strong>.) Select the type of Workfront record that you want the module to watch.</p> <p>For example, if you want to start the scenario each time a new Project is created, select Project</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Outputs</td> 
@@ -246,11 +265,31 @@ This action module makes one of the following conversions:
   <tr> 
    <td>Connection</td> 
    <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> Object type Select the type of object that you want to convert. This is the type that the object has before the conversion. Convert to Select the object that you want to convert it to. This is the type that the object has after the conversion. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Object type</td> 
+   <td> <p>Select the type of object that you want to convert. This is the type that the object has before the conversion.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Convert to</td> 
+   <td>Select the object that you want to convert it to. This is the type that the object has after the conversion.</td> 
+  </tr> 
   <tr> 
    <td>&lt;Object&gt; ID</td> 
    <td> <p>Enter the object's ID. </p> <p>Note: When entering the ID&nbsp;of an object, you can begin typing the name of the object, then select it from the list. The module then enters the appropriate ID into the field.</p> </td> 
-  </tr> Template ID If you are converting to a project, select the Template ID that you want to use for the project. Note: When entering the ID of an object, you can begin typing the name of the object, then select it from the list. The module then enters the appropriate ID into the field. Custom forms Select any custom forms that you want to add to the newly converted object, then enter values for the custom form's fields. Options Enable any options you want when converting the object. Options are available depending on which object you are converting to or from. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Template ID</td> 
+   <td> <p>If you are converting to a project, select the Template ID&nbsp;that you want to use for the project.</p> <p>Note: When entering the ID&nbsp;of an object, you can begin typing the name of the object, then select it from the list. The module then enters the appropriate ID into the field.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Custom forms</td> 
+   <td>Select any custom forms that you want to add to the newly converted object, then enter values for the custom form's fields.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Options</td> 
+   <td> <p>Enable any options you want when converting the object. Options are available depending on which object you are converting to or from.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -281,7 +320,15 @@ Make sure you provide the minimum number of input fields. For example, if you wa
   <tr> 
    <td>Record Type</td> 
    <td> <p>Select the type of Workfront record that you want the module to create.</p> <p>For example, if you want to create a Project, select Project from the dropdown list and then make sure that you have access to data (from previous modules in the scenario) that will populate the project.</p> </td> 
-  </tr> Select fields to map Select the fields that you want available for data input. This allows you to use these fields without having to scroll through the ones you don't need. For fields in custom forms, use the Attach Custom Form field. Attach Custom Form Select any custom forms that you want to add to the new object, then enter values for those fields. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Select fields to map</td> 
+   <td> <p>Select the fields that you want available for data input. This allows you to use these fields without having to scroll through the ones you don't need.</p> <p>For fields in custom forms, use the <b>Attach Custom Form</b> field.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Attach Custom Form</td> 
+   <td>Select any custom forms that you want to add to the new object, then enter values for those fields.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -322,7 +369,11 @@ Make sure you provide the minimum number of input fields. For example, if you wa
   <tr> 
    <td>Record Type</td> 
    <td> <p>Select the type of Workfront record that you want the module to create.</p> <p>For example, if you want to create a Project, select Project from the dropdown list and then make sure that you have access to data (from previous modules in the scenario) that will populate the project.</p> </td> 
-  </tr> Select fields to map Select the fields that you want available for data input. This allows you to use these fields without having to scroll through the ones you don't need. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Select fields to map</td> 
+   <td>Select the fields that you want available for data input. This allows you to use these fields without having to scroll through the ones you don't need.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -342,12 +393,12 @@ This action module lets you make a custom authenticated call to the Workfront AP
 
 The module returns the following information:
 
-* `Status Code`(number): This indicates the success or failure of your HTTP request. These are standard codes that you can look up on the internet.
-* `Headers`(object): A more detailed context for the response/status code that doesn’t relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
+* **Status Code**(number): This indicates the success or failure of your HTTP request. These are standard codes that you can look up on the internet.
+* **Headers**(object): A more detailed context for the response/status code that doesn’t relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
 
   The response headers depend on the HTTP request you chose when configuring the module.
 
-* `Body`(object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
+* **Body**(object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
 
 You can map this information in subsequent modules in the scenario.
 
@@ -414,11 +465,15 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Force delete</td> 
    <td>Enable this option to ensure that the record is deleted, even if the Workfront UI would request confirmation of the deletion.</td> 
-  </tr> ID Enter the unique Workfront ID of the record that you want the module to delete. To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=5e43010c03286a2a555e1d0a75d6a86e 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>ID</td> 
+   <td> <p>Enter the unique Workfront ID of the record that you want the module to delete.</p> <p>To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+  </tr> 
   <tr> 
    <td>Record Type</td> 
    <td>Select the type of Workfront record that you want the module to delete.<!--
-     Is this right? Or or you deleting a record FROM this record type, as it says in the legacy wf fusion wf article?
+     <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this right?&nbsp;Or or you deleting a record FROM&nbsp;this record type, as it says in the legacy wf fusion wf article?</span>
     --></td> 
   </tr> 
  </tbody> 
@@ -466,7 +521,27 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Connection</td> 
    <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> Record Type Select the type of Workfront record that you want the module to interact with. ID Enter or map the unique Workfront ID of the record that you want the module to interact with.Is this correct? To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=5e43010c03286a2a555e1d0a75d6a86e Action Select the action you want the module to perform. You may need to fill out additional fields, depending on the Record Type and Action you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the Record Type and Attach Template for the Action) require additional information (such as an Object ID and a Template ID). Is this paragraph correct? I got it from the requirements doc, #2 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Record Type</td> 
+   <td> <p>Select the type of Workfront record that you want the module to interact with.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>ID</td> 
+   <td>Enter or map the unique Workfront ID of the record that you want the module to interact with.<!--
+     <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
+    --><p>To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Action</td> 
+   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the Record Type and Action you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>Record Type</strong> and Attach Template for the <strong>Action</strong>) require additional information (such as an Object ID and a Template ID).<!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       <span style="color: #ff1493;"> Is this paragraph correct? I got it from the </span>
+       <a href="https://docs.google.com/document/d/1dWaLFHHq8D6iq2nbRd8k3cT2GyyPv_mI-sdWKoCe--o/edit" style="color: #ff1493;">requirements doc</a>
+       <span style="color: #ff1493;">, #2</span>
+      </MadCap:conditionalText>
+     --></p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -489,32 +564,32 @@ When you are configuring this module, the following fields display.
  <col> 
  <tbody> 
   <tr> <!--
-    Connection
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
    --> 
    <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
   </tr> 
   <tr> <!--
-    Record Type
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Type</td>
    --> 
    <td>Choose the Workfront object type that you want the module to read.</td> 
   </tr> 
   <tr> <!--
-    Outputs
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Outputs</td>
    --> 
    <td> <p>Select the information you want included in the output bundle for this module.</p> </td> 
   </tr> 
   <tr> <!--
-    References
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">References</td>
    --> 
    <td>Select any reference fields that you want to include in the output.</td> 
   </tr> 
   <tr> <!--
-    Collections
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Collections</td>
    --> 
    <td>Select any reference fields that you want to include in the output.</td> 
   </tr> 
   <tr> <!--
-    ID
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">ID</td>
    --> 
    <td> <p>Enter the unique Workfront ID of the record that you want the module to read.</p> <p>To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
@@ -542,11 +617,19 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Connection</td> 
    <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> ID Enter the unique Workfront ID of the record that you want the module to update. To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=5e43010c03286a2a555e1d0a75d6a86e 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>ID</td> 
+   <td> <p>Enter the unique Workfront ID of the record that you want the module to update.</p> <p>To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+  </tr> 
   <tr> 
    <td>Record Type</td> 
    <td> <p>Select the type of Workfront record that you want the module to update.</p> </td> 
-  </tr> Select fields to map Select the fields that you want available for data input. This allows you to use these fields without having to scroll through the ones you don't need. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Select fields to map</td> 
+   <td>Select the fields that you want available for data input. This allows you to use these fields without having to scroll through the ones you don't need.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -577,7 +660,11 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Connection</td> 
    <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> Related Record ID Enter the unique Workfront ID of the record to which you want to upload the document. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Related Record ID</td> 
+   <td>Enter the unique Workfront ID of the record to which you want to upload the document.</td> 
+  </tr> 
   <tr> 
    <td>Related Record Type</td> 
    <td>Select the type of Workfront record where you want the module to upload the document.</td> 
@@ -611,7 +698,19 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Connection</td> 
    <td> <p>For instructions about connecting your Workfront app to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Workfront to Workfront Fusion</a> in this article.</p> </td> 
-  </tr> Record Type Select the type of the parent record (Workfront object) whose associated records you want to read. See a list of the Workfront objects types for which you can use this module in Object types available for each Workfront search module in this article. Parent Record ID Enter or map the ID of the parent record whose associated records you want to read. To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=5e43010c03286a2a555e1d0a75d6a86e Collections Select or map the type of child record that you want the module to read. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Record Type</td> 
+   <td> <p>Select the type of the parent record (Workfront object) whose associated records you want to read.</p> <p>See a list of the Workfront objects types for which you can use this module in <a href="#object3" class="MCXref xref">Object types available for each Workfront search module</a> in this article.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Parent Record ID</td> 
+   <td> <p>Enter or map the ID of the parent record whose associated records you want to read.</p> <p>To get the ID, open the Workfront object in your browser and copy the text at the end of the URL after "ID=." For example: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Collections</td> 
+   <td>Select or map the type of child record that you want the module to read.</td> 
+  </tr> 
   <tr> 
    <td>Outputs</td> 
    <td> <p>Select the information you want included in the output bundle for this module.</p> </td> 
@@ -650,7 +749,19 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Search criteria</td> 
    <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to Workfront logs the user into Workfront, and the search will not be successful.</p> </td> 
-  </tr> Outputs Select the fields that you want to include in the output for this module. References Select any reference fields that you want to include in the search. Collections Select any collections that you want to add to the search. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Outputs</td> 
+   <td> <p>Select the fields that you want to include in the output for this module.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>References</td> 
+   <td>Select any reference fields that you want to include in the search.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Collections</td> 
+   <td>Select any collections that you want to add to the search.</td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -669,6 +780,7 @@ See a list of the Workfront objects types for which you can use this module in [
 | Approval Process |&nbsp; |✓ |&nbsp; |
 | Assignment |&nbsp; |✓ |✓ |
 | Baseline |✓ |&nbsp; |&nbsp; |
+| Billing Record |✓ |&nbsp; |&nbsp; |
 | Billing Rate |&nbsp; |✓ |&nbsp; |
 | Company |✓ |✓ |✓ |
 | Dashboard |&nbsp; |&nbsp; |✓ |
@@ -753,7 +865,17 @@ See a list of the Workfront objects types for which you can use this module in [
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-  </tr> Billing Record ✓ ✓ ✓ ✓ 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Billing Record</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Billing Rate</td> 
    <td>✓</td> 
@@ -1093,6 +1215,7 @@ See a list of the Workfront objects types for which you can use this module in [
 |---|---|---|
 | Approval Process |✓ |✓ |
 | Assignment |✓ |✓ |
+| Billing Record |✓ |&nbsp; |
 | Billing Rate |✓ |&nbsp; |
 | Company |✓ |✓ |
 | Document |✓ |✓ |
@@ -1145,7 +1268,7 @@ This is different from setting up a filter in the Workfront Fusion scenario. Wit
 >
 >You cannot edit filters in existing Workfront webhooks. To set up different filters for Workfront event subscriptions, remove the current webhook and create a new one.
 
-` `**Example: **`` Consider a scenario that processes new issues that are assigned to a specific user, Ana.
+``` ```**Example: **`````` Consider a scenario that processes new issues that are assigned to a specific user, Ana.
 
 ### Filter events by using an event subscription filter (recommended)
 

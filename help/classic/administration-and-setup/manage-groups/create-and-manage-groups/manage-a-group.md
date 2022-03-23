@@ -28,30 +28,30 @@ You can view and manage the main details for a group you administer. These inclu
 
 ## Edit, copy, or delete a group
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Groups`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Groups**.
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
-1. Select the group, then click Edit, More > Copy, or More > Delete.
+1. Select the group, then click **Edit**, **More > Copy**, or **More > Delete**.
 
    If you need information about using the box that displays, see one of the following:
 
-  * `Edit`: [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
-  
-  * `Copy`: [Create a top-level group by copying an existing group or subgroup](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
-  
-  * `Delete`: [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
+   * **Edit**: [View and manage a group’s details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)
+   
+   * **Copy**: [Create a top-level group by copying an existing group or subgroup](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group) in the article [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)
+   
+   * **Delete**: [Delete a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md)
 
 ## Configure project, task, and issue preferences for a group
 
 If you are a group administrator and your group needs different project, task, and issue preference settings from those that are set on the system level, you can ask the Workfront administrator to unlock a preference for all groups throughout the organization. After it is unlocked, you (and group administrators for all other groups) can configure it for the groups you manage.
 
-For instructions, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and ` [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)` `.`
+For instructions, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and ``` [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)``` ```.```
 
 ## List, add, and configure subgroups
 
-You can create, view, edit, copy, rename, export, and delete subgroups beneath a group you administer.For instructions, see Manage a subgroup.
+You can create, view, edit, copy, rename, export, and delete subgroups beneath a group you administer. For instructions, see [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 
 ## Configure event notifications for a group
 

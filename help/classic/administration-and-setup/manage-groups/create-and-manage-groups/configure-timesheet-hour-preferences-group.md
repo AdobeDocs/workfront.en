@@ -60,18 +60,20 @@ Consider the following information about configuring an unlocked timesheet or ho
 
 ## Configure an unlocked timesheet or hour preference for a group
 
-Note: If you are a group administrator, you can configure an unlocked timesheet or hour preference for your group only in the new Adobe Workfront experience. Or you can ask a Workfront administrator to configure the preference for your group from the main Timesheets & Hours Preferences area in Setup, as explained in the Tip box above step 1. This can be done in Workfront Classic. 
+``` ```**Note: **`````` If you are a group administrator, you can configure an unlocked timesheet or hour preference for your group only in the new Adobe Workfront experience.
+
+Or you can ask a Workfront administrator to configure the preference for your group from the main Timesheets & Hours Preferences area in Setup, as explained in the Tip box above step 1. This can be done in Workfront Classic.
 
 >[!TIP]
 >
 >If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet &&nbsp;Hours > Preferences, then searching for the group’s name in the box at the top of the page.
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group whose timesheet or hour preferences you want to configure.
-1. In the left panel, click `Timesheets & Hours`.
+1. In the left panel, click **Timesheets & Hours**.
 
-1. On the page that displays, in the `General Preferences` section, configure any of the following options:
+1. On the page that displays, in the **General Preferences** section, configure any of the following options:
 
    <table cellspacing="0"> 
     <col> 
@@ -81,13 +83,18 @@ Note: If you are a group administrator, you can configure an unlocked timesheet 
       <td role="rowheader">Log time for future dates</td> 
       <td> <p>Allows users to log time for future dates throughout the system in:</p> 
        <ul> 
-        <li>Any projects, tasks, and issues where they have access to log time, regardless of project’s group</li> 
+        <li>Any projects, tasks, and issues where they have access to log time<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
+          , regardless of project’s group
+         </MadCap:conditionalText></li> 
         <li>Their timesheets as General Time</li> 
        </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p>Note: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude&nbsp;the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Add expenses from a timesheet</td> 
-      <td> <p>Enables users to record both time and expenses in the timesheet.</p> When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task. </td> 
+      <td> <p>Enables users to record both time and expenses in the timesheet.</p> 
+       <div data-mc-conditions="SnippetConditions-wf-groups.groups"> 
+        <p>When this preference is enabled for a group and the group is set as the home group for certain users, an expense icon displays next to projects and tasks on those users' timesheets. The users can click this icon to add or edit expenses for the project or task.</p> 
+       </div> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Assign Job Roles to hour entries manually</td> 
@@ -96,11 +103,26 @@ Note: If you are a group administrator, you can configure an unlocked timesheet 
          <li>If you disable this setting after assigning job roles to hour entries, users must adjust hours logged under various roles on the Hours tab of the project, task, or issue.</li> 
          <li>If the user does not have a job role assigned in their profile and there is a task assigned as the Task Owner in the Advanced Assignments dialog box, that job role appears when the user logs time on the task.</li> 
         </ul> </p> </td> 
-     </tr> Restrict timesheet editing to owners and admins Restrict editing to timesheet owners, the group's administrators, and Workfront administrators. When this option is disabled, timesheets can also be edited by: Users with administrative access to timesheets and hours in their access level Timesheet approvers if “Can edit hours” is enabled on the timesheet The manager of the timesheet owner Restrict hour editing to owners and admins Restrict editing to the user who input the hours and Workfront administrators. This setting applies to the Hours tab in a project or in an Hours report. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Restrict timesheet editing to owners and admins</td> 
+      <td> <p>Restrict editing to timesheet owners<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">
+         , the group's administrators,
+        </MadCap:conditionalText> and Workfront administrators. When this option is disabled, timesheets can also be edited by:</p> 
+       <ul> 
+        <li> <p>Users with administrative access to timesheets and hours in their access level</p> </li> 
+        <li> <p>Timesheet approvers if “Can edit hours” is enabled on the timesheet</p> </li> 
+        <li> <p>The manager of the timesheet owner</p> </li> 
+       </ul> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Restrict hour editing to owners and admins</td> 
+      <td>Restrict editing to the user who input the hours and Workfront administrators. This setting applies to the Hours tab in a project or in an Hours report.</td> 
+     </tr> 
     </tbody> 
    </table>
 
-1. In the `Pre-Populate timesheets with`section, configure any of the following options: 
+1. In the **Pre-Populate timesheets with**section, configure any of the following options: 
 
    <table cellspacing="0"> 
     <col> 
@@ -125,5 +147,5 @@ Note: If you are a group administrator, you can configure an unlocked timesheet 
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 

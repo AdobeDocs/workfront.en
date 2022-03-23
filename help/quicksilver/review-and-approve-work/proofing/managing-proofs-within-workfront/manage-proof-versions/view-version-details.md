@@ -32,21 +32,22 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
-View and manage details for a previous proof version In a document list, hover over the row containing the proof, then click Document Details. Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage. Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof). 
+View and manage details for a previous proof version  ```<li value="1">In a document list, hover over the row containing the proof, then click <strong>Document Details</strong>.</li>``` ```<li value="2"> <p>Near the top of the Document Details page, click the drop-down menu next to the name, then click the name of the version you want to view and manage.</p> <p> <img src="assets/version-drop-dn-doc-dtls-nwe-350x93.png" style="width: 350;height: 93;"> </p> <p>Along with viewing the version's Details, you can make changes to the version, such as its name, metadata, and proofing settings (if it's a document proof). </p> </li>```  
 
 ## View the proofing details for a previous version
 
 Users must have a proofing license in order to view the proof details of a past version of a proofed document.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the proof you need. 
-1. In the Version area in the Summary, click the version, then click `Details` in the drop-down list that appears. 
-1. On the Document Details page, click Proofing Workflow in the left panel to do any of the following:
+1. In the **Version** area in the Summary, click the version, then click **Details** in the drop-down list that appears. 
+
+1. On the Document Details page, click **Proofing Workflow** in the left panel to do any of the following:
 
   * Add an automated workflow. For more information, see the section [Create an Automated Workflow for the proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#create2) in the article [Configure a proof](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#configuring-the-automated-workflow).
   * Share the proof's public URL. For more information, see [Share a proof link](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#share) in [Share a proof within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
   * View all activity that has occurred on the proof.
   * Send reminder messages to reviewers on the proof.
 
-1. Click `Done`.
+1. Click **Done**.
 

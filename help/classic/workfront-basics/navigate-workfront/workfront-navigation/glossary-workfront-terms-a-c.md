@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms (A-C)
 description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms (A-C)
@@ -34,7 +35,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
  </thead> 
  <tbody> <!--
-   Access Level A user profile that determines how a user can interact with different objects and tools within Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Access Level</td> 
+    <td>A user profile that determines how a user can interact with different objects and tools within Workfront.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Active Task</td> 
@@ -60,11 +64,20 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Ad hoc</td> 
    <td>A type of work process that is unplanned.</td> 
   </tr> <!--
-   Additional Schedules An additional preset to be used for a new user group.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Additional Schedules</td> 
+    <td>An additional preset to be used for a new user group.</td> 
+   </tr>
   --> <!--
-   Agile Methodology A type of methodology based on the collaborative evolution of needs and solutions with cross-functional teams. It encourages flexibility and change based on a fixed timeline.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Agile Methodology</td> 
+    <td>A type of methodology based on the collaborative evolution of needs and solutions with cross-functional teams. It encourages flexibility and change based on a fixed timeline.</td> 
+   </tr>
   --> <!--
-   Agile Team Differ from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an Iteration.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Agile Team</td> 
+    <td>Differ from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an Iteration.</td> 
+   </tr>
   --> 
   <tr> 
    <td> <p>Allocation Date</p> </td> 
@@ -176,11 +189,20 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   </tr> 
  </thead> 
  <tbody> <!--
-   BAU "Business as usual" work that contributes to running the everday primary business goals.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>BAU</td> 
+    <td>"Business as usual" work that contributes to running the everday primary business goals.</td> 
+   </tr>
   --> <!--
-   Backlog The area in an agile environment where new issues are kept until they are ready to be worked on.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Backlog</td> 
+    <td>The area in an agile environment where new issues are kept until they are ready to be worked on.</td> 
+   </tr>
   --> <!--
-   Baseline A source of data to measure iterations against in an agile environment.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Baseline</td> 
+    <td>A source of data to measure iterations against in an agile environment.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Billing Record</td> 
@@ -284,7 +306,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>Budgeted Start Date</p> </td> 
    <td> <p>This is a deprecated field that shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.&nbsp;The field is available in project and task reports.&nbsp;</p> </td> 
   </tr> <!--
-   Burndown Chart A line chart that provides a visual representation of completed and remaining work.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Burndown Chart</td> 
+    <td>A line chart that provides a visual representation of completed and remaining work.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Business Case</td> 
@@ -325,7 +350,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
      <li> It also checks to see if the predecessors of the task are complete. If they are complete, the <i>Can Start</i> value for the task is set to <i>True</i>. If any of the predecessors is not complete, or has a status of <i>Complete - Pending Approval</i>, then the <i>Can Start</i> value for the task is set to <i>False</i>.&nbsp;</li> 
     </ul> </td> 
   </tr> <!--
-   Capacity The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Capacity</td> 
+    <td>The total availability (measure in either hours or FTE) of a designated user, resource pool, team, rob role, or company.</td> 
+   </tr>
   --> 
   <tr> 
    <td> <p>Category</p> </td> 
@@ -358,9 +386,15 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
      <li>Iteration</li> 
     </ul> </td> 
   </tr> <!--
-   Change Order A type of issue raised against a project that outlines a requested change to the agreed scope.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Change Order</td> 
+    <td>A type of issue raised against a project that outlines a requested change to the agreed scope.</td> 
+   </tr>
   --> <!--
-   Change Management A practice area focused on defining, understanding, and adapting planned work to changes in scope, schedule, cost, and resource factors.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Change Management</td> 
+    <td>A practice area focused on defining, understanding, and adapting planned work to changes in scope, schedule, cost, and resource factors.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Change Only</td> 
@@ -378,16 +412,25 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Children</td> 
    <td>The collection of Subtasks to a Parent Task (Summary Task).</td> 
   </tr> <!--
-   Coaching and Training Learning modules, certifications, standards, or a community of practice.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Coaching and Training</td> 
+    <td>Learning modules, certifications, standards, or a community of practice.</td> 
+   </tr>
   --> <!--
-   Commit A communication tool for users to set expectations regarding task deliverables.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Commit</td> 
+    <td>A communication tool for users to set expectations regarding task deliverables.</td> 
+   </tr>
   --> <!--
-   Communication and Reporting Standards to review the exceptions and health of a project, program, or portfolio
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Communication and Reporting</td> 
+    <td>Standards to review the exceptions and health of a project, program, or portfolio</td> 
+   </tr>
   --> 
   <tr> 
    <td>Company</td> 
    <td> <p>A Company is an organizational unit in Workfront. </p> <p> You can associate a user or a project with one company. For more information, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> <!--
-     An organizational unit in Workfront that can define a user's financials, permissions, access and organizational hierarchy.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">An organizational unit in Workfront that can define a user's financials, permissions, access and organizational hierarchy.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -465,7 +508,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Cost</td> 
    <td> <p>The monetary amount that you must spend when completing a project, task, or issue. </p> <p>You can track various types of costs for labor, expenses, risks that relate to the project.&nbsp;For information about tracking costs in&nbsp;Workfront see <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Track costs</a>.</p> <!--
-     A measurement of the amount of time and effort for work
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A measurement of the amount of time and effort for work</p>
     --> </td> 
   </tr> 
   <tr> 

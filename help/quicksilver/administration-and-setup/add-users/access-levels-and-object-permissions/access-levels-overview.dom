@@ -1,0 +1,48 @@
+<html>
+ <head>
+  <title>Access levels overview</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Access levels overview</h1> 
+    <p aemmigrated="true">As an Adobe Workfront administrator, you assign an access level to a user for 2 purposes:</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true">Every user must have an access level in order to log in and work in Workfront. </li> 
+     <li aemmigrated="true">You use the access level to control what a user can see and do with certain Workfront objects and areas.</li> 
+    </ul> 
+    <p aemmigrated="true">Each of the 6 built-in access levels except one (External User) is attached to one of the 4 Workfront licenses: Plan, Work, Review, or Request:</p> 
+    <p aemmigrated="true"> <img src="assets/access-levels-and-licenses-(revers)-350x207.png" style="width: 350;height: 207;" aemmigrated="true"> </p> 
+    <p aemmigrated="true">For information on related topics, see the following articles:</p> 
+    <table cellspacing="15" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <thead aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <th aemmigrated="true">Topic</th> 
+       <th aemmigrated="true">Articles</th> 
+      </tr> 
+     </thead> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Licenses</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">The license attached to an access level determines how the access level can be configured.</p> <p aemmigrated="true">For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" aemmigrated="true">Adobe Workfront licenses overview</a>.</p> <p aemmigrated="true">Tip: You can see which access level and license is assigned to each user by viewing a user list or report. For instructions, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref" aemmigrated="true">List your users’ access levels and licenses</a>.</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Built-in access levels</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">For more information about the 6 built-in access levels shown in the image above, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref" aemmigrated="true">Built-in access levels in Adobe Workfront</a>.</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Assigning access levels</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">For instructions on how to assign an access level to a user, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" aemmigrated="true">Edit a user's profile</a>.</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td aemmigrated="true">Access levels and proofing</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Your users' access levels can affect proofing for each permission profile. For more information, see the section <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#configur" class="MCXref xref" aemmigrated="true">Configure a user's proof permission profile</a> in the article <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref" aemmigrated="true">Configure a user's proofing access</a>.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+   </div> 
+  </div>
+ </body>
+</html>

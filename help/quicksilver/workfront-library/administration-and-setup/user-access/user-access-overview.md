@@ -18,22 +18,22 @@ As a Workfront Library administrator, you can give Workfront users access to Wor
 
 A user can have access to Workfront Library through the following sources:
 
-* `Individual access`: Access given to a specific user
-* `User grouping access`: Access given to an entire group of users that are part of a job role, team, group, or company that exists in Workfront
+* **Individual access**: Access given to a specific user
+* **User grouping access**: Access given to an entire group of users that are part of a job role, team, group, or company that exists in Workfront
 
 >[!TIP]
 >
 >Before adding a user grouping to Workfront Library, be sure it is organized in such a way to coincide with how your organization uses digital content. You can't create user groupings in Workfront Library and changes to these user groupings can only be managed in Workfront, which includes adding and deleting users. For example, if you have a group of users in the Finance Department that needs access to specific documents, you can create a Workfront team that consists of those users. You can then add the team to Workfront Library and give team members access to content relevant to their work.
 
-`<li>You can give access to the following user groupings:</li>`
+```<li>You can give access to the following user groupings:</li>```
 
-* `Job roles`: Includes users assigned to a specified skill set or functional capacity, such as engineer, designer, or consultant. For information about job roles in Workfront, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* **Job roles**: Includes users assigned to a specified skill set or functional capacity, such as engineer, designer, or consultant. For information about job roles in Workfront, see [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
-* `Teams`: Includes individuals who are functionally organized into a working unit, such as Creative team. For information about teams in Workfront, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+* **Teams**: Includes individuals who are functionally organized into a working unit, such as Creative team. For information about teams in Workfront, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
-* `Groups`: Includes users associated with a unit within an organization, such as a department. For information about groups in Workfront, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+* **Groups**: Includes users associated with a unit within an organization, such as a department. For information about groups in Workfront, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-* `Companies`: Includes users within a specific organization or department, or an outside client. For information about companies in Workfront, see [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+* **Companies**: Includes users within a specific organization or department, or an outside client. For information about companies in Workfront, see [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## Access levels
 
@@ -41,9 +41,9 @@ There are 3 access levels in Workfront Library. Each access level grants specifi
 
 You can assign users the following access levels:
 
-* `Admin`: Allows a user access to everything in Workfront Library, including assigning, modifying, or deleting a user's individual access
-* `Manager`: Allows a user to upload content and edit or share content that they own or have Manage permission for
-* `Viewer`: Allows a user to view and download content that they have View permission for
+* **Admin**: Allows a user access to everything in Workfront Library, including assigning, modifying, or deleting a user's individual access
+* **Manager**: Allows a user to upload content and edit or share content that they own or have Manage permission for
+* **Viewer**: Allows a user to view and download content that they have View permission for
 
 >[!NOTE]
 >

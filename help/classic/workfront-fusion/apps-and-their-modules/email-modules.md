@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -53,23 +64,23 @@ Use this option to create scenarios with email modules that require a connection
 
 You can create a connection to your Google account directly from inside an Allocadia module.
 
-1. In any Email module, click `Add`next to the Connection field.
-1. Select `Google`as the connection type.
+1. In any Email module, click **Add**next to the Connection field.
+1. Select **Google**as the connection type.
 1. Enter a name for the connection.
 1. (Optional) Enter your Google Client ID and Client Secret.
-1. Click `Continue`to create the connection and go back to the module.
+1. Click **Continue**to create the connection and go back to the module.
 
 ### Connect to other email services (SMAP)
 
 SMAP connection allows you to access your mailbox remotely and read or manipulate messages in your mailbox. SMAP connection is used by most of the Email modules.
 
-1. In any Email module, click `Add`next to the Connection field.
-1. Select `Others (SMTP)`as the connection type.
-1. Enter a `Name`for the connection.
-1. Select your `Email provider` from the list. If your email provider is not on the list, select Other.
-1. Enter your `Email address`, `Your full name`, your `User name`, and your `Password`.
-1. (Conditional) If your provider is not on the list, enter your `SMTP server` and `Port`, and specify whether you want to `Use a secure connection (TLS)`. To find this information, check the Help section for your mailbox. If you don’t have this information available, contact your email service provider.
-1. Click `Continue`to create the connection and go back to the module.
+1. In any Email module, click **Add**next to the Connection field.
+1. Select **Others (SMTP)**as the connection type.
+1. Enter a **Name**for the connection.
+1. Select your **Email provider** from the list. If your email provider is not on the list, select Other.
+1. Enter your **Email address**, **Your full name**, your **User name**, and your **Password**.
+1. (Conditional) If your provider is not on the list, enter your **SMTP server** and **Port**, and specify whether you want to **Use a secure connection (TLS)**. To find this information, check the Help section for your mailbox. If you don’t have this information available, contact your email service provider.
+1. Click **Continue**to create the connection and go back to the module.
 
 ## Email modules and their fields
 
@@ -119,7 +130,11 @@ Triggers when a new email is received for processing according to specified crit
   <tr> 
    <td role="rowheader">Sender Email Address </td> 
    <td> <p>Enter the email address of the sender whose emails you want to watch.</p> </td> 
-  </tr> Recipient Email Address Enter the email address of the recipient whose emails you want to watch. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Recipient Email Address</td> 
+   <td> <p> Enter the email address of the recipient whose emails you want to watch.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Subject </td> 
    <td> <p>Enter the subject of the email you want to watch.</p> </td> 
@@ -191,9 +206,9 @@ Sends a new email.
    <td role="rowheader"> <p>Attachments</p> </td> 
    <td> <p>Add an attachment:</p> 
     <ul> 
-     <li> <p><span class="bold">File name</span> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
-     <li> <p><span class="bold">Data</span> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
-     <li> <p><span class="bold">Content-ID</span> </p> <p>Enter the content ID to insert the attachment (image) in the content.</p> </li> 
+     <li> <p><strong>File name</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
+     <li> <p><strong>Data</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
+     <li> <p><strong>Content-ID</strong> </p> <p>Enter the content ID to insert the attachment (image) in the content.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -203,7 +218,11 @@ Sends a new email.
   <tr> 
    <td role="rowheader">Blind Copy Recipient</td> 
    <td> <p> Enter or map one or more email addresses to which you want to send a copy of this email without having the email address appear in the email.</p> </td> 
-  </tr> From Enter or map the email address (and name, if needed) that appears in the From field in the email. Important: Use the correct syntax: name@email.com or "Name" name@email.com. Note: Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. test@mail.com or "John Bush" test@email.com. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">From </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader"> <p>Sender</p> </td> 
    <td> <p>Enter or map the email address that appears in the Sender field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
@@ -233,8 +252,8 @@ Sends a new email.
    <td role="rowheader"> <p>Headers</p> </td> 
    <td> <p>Add the headers:</p> 
     <ul> 
-     <li> <p><span class="bold">Key</span> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
-     <li> <p><span class="bold">Value</span> </p> <p>Enter the value for the key.</p> </li> 
+     <li> <p><strong>Key</strong> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
+     <li> <p><strong>Value</strong> </p> <p>Enter the value for the key.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -263,7 +282,15 @@ Creates and adds a new draft to a selected folder.
   <tr> 
    <td role="rowheader">Subject </td> 
    <td> <p>Enter or map the subject line of the email.</p> </td> 
-  </tr> Content Type Select the content type for the email: HTML Plain Text 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Content Type</p> </td> 
+   <td> <p>Select the content type for the email:</p> 
+    <ul> 
+     <li>HTML</li> 
+     <li>Plain Text</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Content </td> 
    <td> <p>Enter or map the email content in HTML format using HTML tags, or in the plain text, depending on what you chose in the Content Type field.</p> </td> 
@@ -272,9 +299,9 @@ Creates and adds a new draft to a selected folder.
    <td role="rowheader"> <p>Attachments</p> </td> 
    <td> <p>Add an attachment:</p> 
     <ul> 
-     <li> <p><span class="bold">File name</span> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
-     <li> <p><span class="bold">Data</span> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
-     <li> <p><span class="bold">Content-ID</span> </p> <p>Enter the content ID to insert the attachment (image) in the content.</p> </li> 
+     <li> <p><strong>File name</strong> </p> <p>Enter the file name. For example, sample.doc.</p> </li> 
+     <li> <p><strong>Data</strong> </p> <p>Enter the path to the folder to upload the attachment.</p> </li> 
+     <li> <p><strong>Content-ID</strong> </p> <p>Enter the content ID to insert the attachment (image) in the content.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -284,7 +311,44 @@ Creates and adds a new draft to a selected folder.
   <tr> 
    <td role="rowheader">Blind Copy Recipient</td> 
    <td> <p> Enter or map one or more email addresses to which you want to send a copy of this email without having the email address appear in the email.</p> </td> 
-  </tr> From Enter or map the email address (and name, if needed) that appears in the From field in the email. Important: Use the correct syntax: name@email.com or "Name" name@email.com. Note: Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. test@mail.com or "John Bush" test@email.com. Sender Enter or map the email address that appears in the Sender field in the email. Tip: If you are unsure whether to use this field or the From field, we recommend choosing the From field. Important: Use the correct syntax: name@email.com or "Name" name@email.com Reply-To If you want replies to this email sent to a different address than the "from" address, enter the email address where you want replies to this email sent. In-Reply-To If you are replying to a specific email, enter or map the ID of the email you are replying to. References Enter the message IDs of all the replies in the thread. Priority Select the priority of the email: High Normal Low Headers Add the headers: Key Add the key. For example, Sender, Date, To, and so on. Value Enter the value for the key. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">From </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the From field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Sender</p> </td> 
+   <td> <p>Enter or map the email address that appears in the Sender field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Reply-To</td> 
+   <td> <p> If you want replies to this email sent to a different address than the "from" address, enter the email address where you want replies to this email sent.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">In-Reply-To</td> 
+   <td> <p> If you are replying to a specific email, enter or map the ID of the email you are replying to.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">References </td> 
+   <td> <p>Enter the message IDs of all the replies in the thread.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Priority</p> </td> 
+   <td> <p>Select the priority of the email:</p> 
+    <ul> 
+     <li>High</li> 
+     <li>Normal</li> 
+     <li>Low</li> 
+    </ul> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Headers</p> </td> 
+   <td> <p>Add the headers:</p> 
+    <ul> 
+     <li> <p><strong>Key</strong> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
+     <li> <p><strong>Value</strong> </p> <p>Enter the value for the key.</p> </li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -447,7 +511,11 @@ Returns emails that match the specified criteria.
   <tr> 
    <td role="rowheader">Sender Email Address </td> 
    <td> <p>Enter or map the email address of the sender whose emails you want to retrieve.</p> </td> 
-  </tr> Recipient Email Address Enter or map the email address of the recipient whose emails you want to retrieve. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Recipient Email Address</td> 
+   <td> <p> Enter or map the email address of the recipient whose emails you want to retrieve.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">From date </td> 
    <td> <p>Enter or map the date to retrieve the emails processed on or after the specified date.</p> </td> 

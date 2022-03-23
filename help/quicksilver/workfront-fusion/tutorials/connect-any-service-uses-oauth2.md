@@ -5,22 +5,23 @@ product-area: workfront-integrations
 navigation-topic: scenarios
 title: Connect to any web service that uses OAuth2
 description: Example used throughout - unsupported app DeviantArt. Recreate this with an app we support??
+hidefromtoc: true
 ---
 
 # Connect to any web service that uses OAuth2
 
 <!--
-Example used throughout - unsupported app DeviantArt. Recreate this with an app we support??
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Example used throughout - unsupported app DeviantArt. Recreate this with an app we support??</p>
 -->
 
 <!--
-Should the title not specify just the OAuth2 authorization type, since there are also 2 others--Basic Authorization and API key?
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Should the title not specify just the OAuth2 authorization type, since there are also 2 others--Basic Authorization and API key?</p>
 -->
 
 One of the many great features of Workfront Fusion is the ability to connect almost any web service to a scenario. In the following guide, we will show you with the help of a real example, that you can manage communication with an API without writing a single line of code.
 
 <!--
-This article users the DeviantArt service to show how Workfront Fusion can integrate with any web service. Our goal is to get a list of the latest deviations. Before we can configure this scenario though, we first have to find out some basic information about the service. Our first step will be to go through the Development section and find out what method DeviantArt uses for user authentication, and which API is appropriate to perform the desired function.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This article users the DeviantArt service to show how Workfront Fusion can integrate with any web service. Our goal is to get a list of the latest deviations. Before we can configure this scenario though, we first have to find out some basic information about the service. Our first step will be to go through the Development section and find out what method DeviantArt uses for user authentication, and which API is appropriate to perform the desired function.</p>
 -->
 
 Workfront Fusion supports the following authorization types:
@@ -103,7 +104,7 @@ Now, go to Workfront Fusion and create a new scenario.
 >
 >Before you start setting up your scenario in Workfront Fusion, we recommend that you go through all APIs that you plan to call and get a list of all scopes that are needed. This way you can aquire all the necessary scopes at once and avoid the hassle of expanding the scopes in the future.
 
-Choose the OAuth 2.0 HTTP(S) request and response processing module from the HTTP app and add it to your scenario. In the open configuration window, click the `Add` button. This will bring up a window that allows you to add a new OAuth2 connection. In this step, enter the information that you have found in the documentation:
+Choose the OAuth 2.0 HTTP(S) request and response processing module from the HTTP app and add it to your scenario. In the open configuration window, click the **Add** button. This will bring up a window that allows you to add a new OAuth2 connection. In this step, enter the information that you have found in the documentation:
 
 | &nbsp; |&nbsp; |
 |---|---|

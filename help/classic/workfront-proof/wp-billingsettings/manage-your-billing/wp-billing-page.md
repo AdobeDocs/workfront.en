@@ -16,7 +16,7 @@ description: To access the Billing page, open the Settings menu it the top right
 
 ## The Billing Page
 
-To access the Billing page, open the `Settings` menu it the top right of the screen and choose `Billing` in the drop-down menu.
+To access the Billing page, open the **Settings** menu it the top right of the screen and choose **Billing** in the drop-down menu.
 
 The Billing page contains the following:
 

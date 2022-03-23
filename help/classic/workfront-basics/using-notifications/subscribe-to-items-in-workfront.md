@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>If your Workfront administrator has enabled <span class="bold">View only updates in which they have been included in the conversation</span> in your access level, you cannot subscribe to items in Workfront.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>If your Workfront administrator has enabled <strong>View only updates in which they have been included in the conversation</strong> in your access level, you cannot subscribe to items in Workfront.</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object Permissions</td> 
@@ -63,8 +63,11 @@ The process for subscribing to an item is identical&nbsp;for all items.
 For example, to subscribe to an issue:
 
 1. Go to the issue you want to subscribe to.
-1. Near the upper-right corner of Workfront, click Subscribe, next to the silent bell icon.  The link changes to Subscribed and the bell icon changes into a ringing bell. 
-1. Click `More` ![](assets/more-icon.png), then click `Subscribe`.
+1. Near the upper-right corner of Workfront, click **Subscribe**, next to the silent bell icon.  
+   ![subscribe_button_on_issues.png](assets/subscribe-button-on-issues-350x490.png)  The link changes to **Subscribed**&nbsp;and the bell icon changes into a ringing bell.  
+   ![Screen_Shot_2017-05-04_at_8.52.48_AM.png](assets/screen-shot-2017-05-04-at-8.52.48-am.png)
+
+1. Click **More** ![](assets/more-icon.png), then click **Subscribe**.
 
    You are now subscribed to the issue. The Update Status for the issue records that you have subscribed to the issue.
 
@@ -73,7 +76,7 @@ For example, to subscribe to an issue:
    To learn more about subscription email, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 <!--
-To learn more about mobile app push notifications, see .
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about mobile app push notifications, see .</p>
 -->
 
 ## Unsubscribe from an item
@@ -83,7 +86,12 @@ You can easily&nbsp;unsubscribe from an item in Workfront. The process for unsub
 For example, to unsubscribe from&nbsp;an issue:
 
 1. Go to the issue you want to unsubscribe from.
-1. Click Unsubscribe. You can also unsubscribe from an item you are subscribed to by clicking the Unsubscribe link in the subscription email.
+1. Near the upper-right corner of Workfront, mouse over the **Subscribed**link, next to the ringing&nbsp;bell icon.
+1. The link changes to **Unsubscribe**.  
+
+1. ![unsubscribe_button_on_issues.png](assets/unsubscribe-button-on-issues-350x497.png)
+
+1. Click **Unsubscribe**. You can also unsubscribe from an item you are subscribed to by clicking the Unsubscribe link in the subscription email.
 
    Once you are&nbsp;unsubscribed to an item, you no longer receive notification&nbsp;when someone comments on the issue.
 
@@ -101,11 +109,12 @@ All subscribers are given View permission to the subscribed item. If the new sub
 ### Subscribe another user to an item
 
 1. Go to the item to which you want to subscribe another user.
-1. Near the upper-right corner of the item, click the number icon next to the Subscribe or Subscribed link. 
-1. In the box that appears, begin typing the name of the user in the `Subscribe others`&nbsp;box, then select&nbsp;the user from the options displayed.&nbsp;  
+1. Near the upper-right corner of the item, click the number icon next to the **Subscribe** or **Subscribed** link. 
+
+1. In the box that appears, begin typing the name of the user&nbsp;in the **Subscribe others**&nbsp;box, then select&nbsp;the user from the options displayed.&nbsp;  
 
 1. (Optional) To add more subscribers, repeat step 4.
-1. Click `Save`.
+1. Click **Save**.
 
 The subscriber is not notified of the subscription, but an entry about the subscription is added to the System Updates for the item.
 
@@ -114,14 +123,16 @@ When someone adds a comment to the Updates tab of the item, the subscriber recei
 ### Unsubscribe another person from&nbsp;an item
 
 1. Go to the item from which you want to unsubscribe another user.
-1. Click the number bubble next to the&nbsp;SubscribeorSubscribed or link.
-1. On the `Subscribers` page that appears, click the "X" next to the name of the user you want to unsubscribe.
+1. Click the number bubble next to the&nbsp;**Subscribe**or**Subscribed** or link.
+1. On the **Subscribers** page that appears, click the "X" next to the name of the user you want to unsubscribe.
 
    Or
 
-   Begin typing the name of the user in the  `Search for people in the list`&nbsp;box, then click the "X" to the right of the user's name.
+   Begin typing the name of the user&nbsp;in the&nbsp;**Search for people in the list**&nbsp;box, then click the "X" to the right of the user's name.
 
-1. Click `Save`.
+   ![](assets/begin-typing-name-search-for-people-350x326.png)
+
+1. Click **Save**.
 
    The user&nbsp;is not notified of being&nbsp;unsubscribed from the item, but an entry about the subscription is added to the System Updates for the item.
 
@@ -136,7 +147,7 @@ For more information, see [View and manage in-app notifications](../../workfront
 Depending on the features your Workfront administrator has enabled, you may receive subscription emails in addition to in-app notifications whenever someone comments on an item you subscribe to.
 
 <!--
-For more information about the subscription email, see the "Receiving Subscription Emails" section in Adobe Workfront notifications.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about the subscription email, see the "Receiving Subscription Emails" section in <a href="../../workfront-basics/using-notifications/wf-notifications.md" class="MCXref xref">Adobe Workfront notifications</a>.</p>
 -->
 
 For more information about setting up or disabling email, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
@@ -151,7 +162,9 @@ To see who is&nbsp;subscribing to an item:
 
 1. Navigate to an item for which you want to see the subscribers.
 
-   If there are any subscribers to the item, the number of subscribers displays next to thesubscription link. You can mouse over the number to display a list of users who subscribe to the item.&nbsp;The first 25 subscribers display&nbsp;in alphabetical order.
+   If there are any subscribers to the item, the number of subscribers displays next to the subscription link. You can mouse over the number to display a list of users who subscribe to the item.&nbsp;The first 25 subscribers display&nbsp;in alphabetical order.
+
+   ![](assets/mceclip2-350x200.png)
 
    You can also view a list of subscribers by adding a&nbsp;Subscriber field as a column on a&nbsp;report or view for the subscribed item. For more information, see [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

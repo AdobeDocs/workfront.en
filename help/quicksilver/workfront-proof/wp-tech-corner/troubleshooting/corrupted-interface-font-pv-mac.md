@@ -22,11 +22,11 @@ Check whether there are any duplicate fonts in the system.
 
 1. Close the browser you are using.
 1. Open the Font Book application in your Applications folder.
-1. Click `All Fonts` (1).
-1. Click  `Edit` > `Look for Enabled Duplicates`.
+1. Click **All Fonts** (1).
+1. Click&nbsp;**Edit** > **Look for Enabled Duplicates**.
 
-1. Click `Yes` to resolve duplicates.
-1. If you see a warning about corrupted fonts, click `Yes`.
+1. Click **Yes** to resolve duplicates.
+1. If you see a warning about corrupted fonts, click **Yes**.
 1. Restart your computer.
 1. Retry the proof.
 
@@ -58,7 +58,7 @@ You might not have access to this functionality because it is supported by Flash
 
 The Legacy proofing viewer is based on Flash Player&nbsp;and sometimes, when the text is missing in the proofing viewer, it is possible&nbsp;there is&nbsp;a font conflict between OS X and Flash Player. Try the following:
 
-1. Open Finder and open the  `Go` tab.
+1. Open Finder and open the&nbsp;**Go** tab.
 1. Press the Option&nbsp;key (⌥ Alt) to open the Library folder in the dropdown list.
 1. While holding the Option key, click the&nbsp;Library folder.
 1. After the Library folder opens, go to Fonts folder located within.

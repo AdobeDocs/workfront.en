@@ -12,7 +12,10 @@ description: In order to use Google Sheets with Adobe Workfront Fusion,you need 
 # Google Sheets modules
 
 <!--
-In order to use Google Sheets with Adobe Workfront Fusion,you need the Workfront Fusion Google Sheets extension (optional, but required for instant triggers).
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">In order to use Google Sheets with Adobe Workfront Fusion,you need the Workfront Fusion Google Sheets extension (optional, but required for instant triggers).<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+</MadCap:conditionalText>
+--></p>
 -->
 
 In a Adobe Workfront Fusion scenario, you can connect your Google account to multiple third-party applications and services.
@@ -30,7 +33,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -39,7 +46,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -53,7 +67,30 @@ You must have the following access to use the functionality in this article:
 To use Google Sheets modules, you must have a Google account.
 
 <!--
-Connecting Instant Triggers (Perform a Function, Watch Changes) using the Workfront Fusion Google Sheets Add-on In order to use instant triggers, the Workfront Fusion add-on must be installed in your spreadsheet and a connection between the Workfront Fusion module and Google Sheets must be established. Workfront Fusion Add-on Installation Connecting the Instant Trigger Module to a Google Sheets Spreadsheet Workfront Fusion Add-on Installation Open the spreadsheet you want to install the extension to. Click the Add-ons tab near the top of the screen and select Get add-ons from the dropdown menu. Search for the Workfront Fusion add-on. Click the +Free button to install the Workfront Fusion add-on. Click the Allow button to grant access rights. The Workfront Fusion add-on is now installed. Connecting the Instant Trigger Module to a Google Sheets Spreadsheet In Workfront Fusion, open the Google Sheets Watch Changes Module. Make sure that you have webhook established. Copy the provided webhook address to the clipboard and click OK. Open your spreadsheet. Open the Workfront Fusion add-on settings. Paste the webhook URL you have copied in step 1 to the Webhook URL field in the Watch Updates settings section or Perform a Function section, depending upon which module you are using. Click the Save button to save the changes in the Workfront Fusion add-on.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="Connecti2"></a>Connecting Instant Triggers (Perform a Function, Watch Changes) using the Workfront Fusion Google Sheets Add-on</h2>
+<p>In order to use instant triggers, the Workfront Fusion add-on must be installed in your spreadsheet and a connection between the Workfront Fusion module and Google Sheets must be established.</p>
+<ul>
+<li><a href="#add-on" class="MCXref xref">Workfront Fusion Add-on Installation</a> </li>
+<li><a href="#connecti3" class="MCXref xref">Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</a> </li>
+</ul>
+<h3><a name="Add-on"></a>Workfront Fusion Add-on Installation</h3>
+<ol>
+<li value="1">Open the spreadsheet you want to install the extension to.</li>
+<li value="2">Click the <strong>Add-ons</strong> tab near the top of the screen and select <strong>Get add-ons</strong> from the dropdown menu.</li>
+<li value="3">Search for the Workfront Fusion add-on.</li>
+<li value="4">Click the <strong>+Free</strong> button to install the Workfront Fusion add-on.</li>
+<li value="5">Click the <strong>Allow</strong> button to grant access rights.</li>
+</ol>
+<p>The Workfront Fusion add-on is now installed.</p>
+<h3><a name="Connecti3"></a>Connecting the Instant Trigger Module to a Google Sheets Spreadsheet</h3>
+<p>In Workfront Fusion, open the Google Sheets Watch Changes Module. Make sure that you have webhook established.</p>
+<p>Copy the provided webhook address to the clipboard and click <strong>OK</strong>.</p>
+<p>Open your spreadsheet.</p>
+<p>Open the Workfront Fusion add-on settings.</p>
+<p>Paste the webhook URL you have copied in step 1 to the Webhook URL field in the Watch Updates settings section or Perform a Function section, depending upon which module you are using.</p>
+<p>Click the <strong>Save</strong> button to save the changes in the Workfront Fusion add-on.</p>
+</div>
 -->
 
 ## Triggers
@@ -88,8 +125,8 @@ The module retrieves only new rows that have not been filled in before. The trig
    <td role="rowheader">Table contains headers</td> 
    <td> <p> Select whether the spreadsheet contains the header row.</p> 
     <ul> 
-     <li> <p><span class="bold">Yes</span> </p> <p>The module doesn't retrieve the header row as output data. </p> <p>Variable names in the output are called by the headers.</p> </li> 
-     <li> <p><span class="bold">No </span> </p> <p>The module also retrieves the first table row</p> <p>Variable names in the output are called A, B, C, D, and so on.</p> </li> 
+     <li> <p><strong>Yes</strong> </p> <p>The module doesn't retrieve the header row as output data. </p> <p>Variable names in the output are called by the headers.</p> </li> 
+     <li> <p><strong>No</strong> </p> <p>The module also retrieves the first table row</p> <p>Variable names in the output are called A, B, C, D, and so on.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -167,8 +204,8 @@ If you see the map button above a field or function, you can use it to set varia
    <td>Table contains headers</td> 
    <td> <p> Select whether the spreadsheet contains the header row.</p> 
     <ul> 
-     <li> <p><span class="bold">Yes</span> </p> <p>The module doesn't retrieve the header row as output data. </p> <p>Variable names in the output are called by the headers.</p> </li> 
-     <li> <p><span class="bold">No </span> </p> <p>The module also retrieves the first table row</p> <p>Variable names in the output are called A, B, C, D, and so on.</p> </li> 
+     <li> <p><strong>Yes</strong> </p> <p>The module doesn't retrieve the header row as output data. </p> <p>Variable names in the output are called by the headers.</p> </li> 
+     <li> <p><strong>No</strong> </p> <p>The module also retrieves the first table row</p> <p>Variable names in the output are called A, B, C, D, and so on.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -179,16 +216,16 @@ If you see the map button above a field or function, you can use it to set varia
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">User entered</span><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
-     <li> <p><span class="bold">Raw</span> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
+     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Insert data option</td> 
    <td> <p>Specify how existing data is changed when new data is input. </p> 
     <ul> 
-     <li> <p><span class="bold">Insert rows</span><![CDATA[	]]></p> <p>Rows are inserted for the new data.</p> </li> 
-     <li> <p><span class="bold">Overwrite </span> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
+     <li> <p><strong>Insert rows</strong><![CDATA[	]]></p> <p>Rows are inserted for the new data.</p> </li> 
+     <li> <p><strong>Overwrite</strong> </p> <p>The new data overwrites existing data in the areas where it is written. Adding data to the end of the sheet inserts new rows or columns so the data can be written.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -226,8 +263,8 @@ This module allows you to change the cell content in a selected row.
    <td>Table contains headers</td> 
    <td> <p> Select whether the spreadsheet contains the header row.</p> 
     <ul> 
-     <li> <p><span class="bold">Yes</span> </p> <p>The module doesn't retrieve the header row as output data. </p> <p>Variable names in the output are called by the headers.</p> </li> 
-     <li> <p><span class="bold">No </span> </p> <p>The module also retrieves the first table row</p> <p>Variable names in the output are called A, B, C, D, and so on.</p> </li> 
+     <li> <p><strong>Yes</strong> </p> <p>The module doesn't retrieve the header row as output data. </p> <p>Variable names in the output are called by the headers.</p> </li> 
+     <li> <p><strong>No</strong> </p> <p>The module also retrieves the first table row</p> <p>Variable names in the output are called A, B, C, D, and so on.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -238,8 +275,8 @@ This module allows you to change the cell content in a selected row.
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">User entered</span><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
-     <li> <p><span class="bold">Raw</span> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
+     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -360,8 +397,8 @@ Retrieves a value from a selected cell.
    <td>Value input option</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">User entered</span><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
-     <li> <p><span class="bold">Raw</span> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
+     <li> <p><strong>User entered</strong><![CDATA[	]]></p> <p>The values are parsed as if the user typed them into the UI. Numbers remain numbers, but strings may be converted to numbers, dates, or other formats following the same rules that are applied when entering text into a cell via the Google Sheets UI.</p> </li> 
+     <li> <p><strong>Raw</strong> </p> <p> The values that the user enters are not parsed and are stored as-is. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -454,11 +491,11 @@ Creates a new sheet in a selected spreadsheet.
   </tr> 
   <tr> 
    <td>Number format</td> 
-   <td> <p>Select the default format of all cells in the spreadsheet.</p> <p><span class="bold">Text</span>: Text formatting. Example: <code>1000. 12</code></p> <p><span class="bold">Number</span>: Number formatting. Example: <code>1,000.12</code></p> <p><span class="bold">Percent</span>: Percent formatting. Example: <code>10. 12%</code></p> <p><span class="bold">Currency</span>: Currency formatting. Example: <code>$1,000.12</code></p> <p><span class="bold">Date</span>: Date formatting. Example: <code>9/26/2008</code></p> <p><span class="bold">Time</span>: Time formatting. Example: <code>3:59:00 PM</code></p> <p><span class="bold">Date time</span>: Date and Time formatting. Example: <code>9/26/08 15:59:00</code> </p> <p><span class="bold">Scientific</span>Scientific number formatting. Example: <code>1. 01E+03</code></p> </td> 
+   <td> <p>Select the default format of all cells in the spreadsheet.</p> <p><strong>Text</strong>: Text formatting. Example: <code>1000. 12</code></p> <p><strong>Number</strong>: Number formatting. Example: <code>1,000.12</code></p> <p><strong>Percent</strong>: Percent formatting. Example: <code>10. 12%</code></p> <p><strong>Currency</strong>: Currency formatting. Example: <code>$1,000.12</code></p> <p><strong>Date</strong>: Date formatting. Example: <code>9/26/2008</code></p> <p><strong>Time</strong>: Time formatting. Example: <code>3:59:00 PM</code></p> <p><strong>Date time</strong>: Date and Time formatting. Example: <code>9/26/08 15:59:00</code> </p> <p><strong>Scientific</strong>Scientific number formatting. Example: <code>1. 01E+03</code></p> </td> 
   </tr> 
   <tr> 
    <td>Sheets </td> 
-   <td> <p>Click <span class="bold">Add </span>to add a sheet to the spreadsheet. For each sheet, enter or map a title for the sheet and the sheet's index. An index of 0 represents the first sheet.</p> </td> 
+   <td> <p>Click <strong>Add</strong>to add a sheet to the spreadsheet. For each sheet, enter or map a title for the sheet and the sheet's index. An index of 0 represents the first sheet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -535,7 +572,9 @@ This action module allows you to perform a custom API call.
 
 Searches rows using the filter options.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Connection </td> 
@@ -697,24 +736,24 @@ Use the Search Rows (Advanced) module & use this formula to get the columns whic
 
 ### Add a button in a sheet to run a scenario
 
-1. In Workfront Fusion, insert the `Webhook`> `Custom webhooks` module/trigger in the scenario and configure it (see [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
+1. In Workfront Fusion, insert the **Webhook**> **Custom webhooks** module/trigger in the scenario and configure it (see [Webhooks](../../workfront-fusion/apps-and-their-modules/webhooks-updated.md)).
 
 1. Copy the webhook's URL.
 1. Execute the scenario.
-1. In Google Sheets, choose `Insert` > `Drawing`... from the main menu bar.
+1. In Google Sheets, choose **Insert** > **Drawing**... from the main menu bar.
 
-1. In the Drawing window, Click the `Text box` icon ![](assets/text-box.png) near the top of the window.
-1. Design a button and click the `Save and Close` button in the top-right corner:
+1. In the Drawing window, Click the **Text box** icon ![](assets/text-box.png) near the top of the window.
+1. Design a button and click the **Save and Close** button in the top-right corner:
 1. The button will be placed in your worksheet. Click the three vertical dots in the button's top-right corner:
-1. Choose `Assign script...` from the menu.
+1. Choose **Assign script...** from the menu.
 1. Enter the name of your script (function), e.g. 
 
    ```
    runScenario
    ```
 
-   and click `OK`:
-1. Choose `Tools` > `Script editor` from the main menu bar.
+   and click **OK**:
+1. Choose **Tools** > **Script editor** from the main menu bar.
 
 1. Insert the following code:
 
@@ -722,13 +761,15 @@ Use the Search Rows (Advanced) module & use this formula to get the columns whic
   * Replace the URL   
   
     <!--  
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  
     https://hook.workfrontfusion.com/xxx...xxx URL  
+    </MadCap:conditionalText>  
     -->  
   
     with the webhook's URL you copied in step 2.
     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
 
-1. Press `Ctrl+S` to save the script file, enter a project name and click `OK`.
+1. Press **Ctrl+S** to save the script file, enter a project name and click **OK**.
 
 1. Switch back to Google Sheets and click your new button.
 1. Grant the required authorization to the script: 
@@ -750,13 +791,13 @@ To help the GS to understand the date, format it with the [formatDate (date; for
 
 To determine the correct format:
 
-1. Choose `File`> `Spreadsheet`settings from the main menu to verify/set the locale.
+1. Choose **File**> **Spreadsheet**settings from the main menu to verify/set the locale.
 
-1. Once you have verified/set the proper locale, determine the corresponding date and time format by choosing `Format`> `Number`from the main menu. The format is displayed next to the Date time menu item:
+1. Once you have verified/set the proper locale, determine the corresponding date and time format by choosing **Format**> **Number**from the main menu. The format is displayed next to the Date time menu item:
 
 1. To compose the correct format that should be passed to the formatDate() function, refer to the list of [Tokens for date and time formatting](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md).
 
-` `**Example: **`` The use of 
+``` ```**Example: **`````` The use of 
 
 ```
 M/D/YYYY HH:mm:ss
@@ -775,6 +816,6 @@ If you miss a built-in function, but it is featured by Google Sheets, you may ex
 You might find that a string of numbers that you are using as text is being interpreted as a date in a Google worksheet. For example, you type 1-2019, intending it as text, but Google interprets it as a date. You can pre-format the number as plain text to prevent this.
 
 1. In Google Sheets, highlight the column or cell containing the number or numbers.
-1. Click `Format` > `Number` > `Plain text`.
+1. Click **Format** > **Number** > **Plain text**.
 
 Another workaround in Workfront Fusion is to type an apostrophe (') before a number, for example, '1-2019 or '1/47. The apostrophe does not display in the cell after the data is sent from Workfront Fusion.

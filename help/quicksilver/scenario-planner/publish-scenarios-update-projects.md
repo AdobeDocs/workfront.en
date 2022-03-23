@@ -31,9 +31,24 @@ You must have the following:
    <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Product</span> </td> 
+   <td><strong>Product</strong> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level* Edit for Scenario Planner and Projects Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions for the plan Manage permissions for published projects For information on requesting additional access to projects, see Request access to objects in Adobe Workfront. For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>&nbsp;</p> <p><strong>Access level*</strong> </p> </td> 
+   <td> 
+    <ul> 
+     <li>Edit for Scenario Planner and Projects</li> 
+    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> 
+    <ul> 
+     <li>Manage permissions for the plan </li> 
+     <li>Manage permissions for published projects</li> 
+    </ul> <p>For information on requesting additional access to projects, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -56,7 +71,7 @@ Before you begin:
 
   >[!TIP]
   >
-  >`When a project exists on multiple plans and you publish information to the project from all plans, the latest publish overwrites the existing Scenario Planner information on the project.`
+  >```When a project exists on multiple plans and you publish information to the project from all plans, the latest publish overwrites the existing Scenario Planner information on the project.```
 
 * If initiatives were created on the plan by importing projects to the plan, publishing the initiative also updates the linked projects with initiative information.
 
@@ -76,8 +91,8 @@ Before you begin:
 >
 >If you make any changes to initiatives on the plan, including resolve conflicts, you must republish the initiative in order for the new information to be visible on the project. This information displays on the projects linked to initiatives only when you publish the corresponding the initiative. For information about resolving conflicts between initiatives, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md)
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click `Scenarios`
-1. (Optional and conditional) If you want to publish from an existing plan, click the `Filter` icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Scenarios**
+1. (Optional and conditional) If you want to publish from an existing plan, click the **Filter** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
    <table cellspacing="0"> 
     <col> 
@@ -100,7 +115,7 @@ Before you begin:
 
    ![](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Optional) Click the `Search` icon ![](assets/search-icon.png) and start typing the name of a plan to quickly find it in the list.
+1. (Optional)&nbsp;Click the **Search** icon ![](assets/search-icon.png) and start typing the name of a plan to quickly find it in the list.
 1. (Conditional)&nbsp;To publish from a new plan, create a plan.
 
    For information about creating plans, see [Create and edit plans in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-plans.md) . 
@@ -113,14 +128,14 @@ Before you begin:
 
    For information about creating initiatives, see [Create and edit initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/create-and-edit-initiatives.md).
 
-1. Click `Save plan`. 
-1. Select the scenario you want to publish from the `Initial scenario` drop-down menu, then click `Go to Publish` ![](assets/go-to-publish-button-icon.png) in the upper-right corner.
+1. Click **Save plan**. 
+1. Select the scenario you want to publish from the **Initial scenario** drop-down menu, then click **Go to Publish** ![](assets/go-to-publish-button-icon.png) in the upper-right corner.
 
    Or
 
-   Click `Compare scenarios`, hover over the scenario card that you want to publish from, then click `Go to Publish` ![](assets/go-to-publish-button-icon.png).
+   Click **Compare scenarios**, hover over the scenario card that you want to publish from, then click **Go to Publish** ![](assets/go-to-publish-button-icon.png).
 
-   The Publish initiatives page displays, showing a list of all initiatives in the scenario. If any of the initiatives was previously published, the project icon ![](assets/project-icon-sp.png) displays after their name and the `Last published` date is populated in the list.
+   The Publish initiatives page displays, showing a list of all initiatives in the scenario. If any of the initiatives was previously published, the project icon ![](assets/project-icon-sp.png) displays after their name and the **Last published** date is populated in the list.
 
    >[!TIP]
    >
@@ -128,7 +143,7 @@ Before you begin:
 
    ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. (Optional and conditional) If you want to publish from an existing plan, click the `Filter` icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
+1. (Optional and conditional) If you want to publish from an existing plan, click the **Filter** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
    <table cellspacing="0"> 
     <col> 
@@ -151,8 +166,8 @@ Before you begin:
 
    ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Optional) Click the `Search` icon ![](assets/search-icon.png) and start typing the name of an initiative to quickly find it in the list.
-1. Select one or multiple initiatives to publish and create or update projects from them, then click `Publish initiatives`.
+1. (Optional)&nbsp;Click the **Search** icon ![](assets/search-icon.png) and start typing the name of an initiative to quickly find it in the list.
+1. Select one or multiple initiatives to publish and create or update projects from them, then click **Publish initiatives**.
 
    This creates a new project from each selected initiatives or updates the existing connected projects, if the published initiatives were already linked to a project.
 
@@ -162,8 +177,8 @@ Before you begin:
 
 1. (Conditional) Do one of the following:
 
-  * If you published one initiative, click `See associated project` to open the project created or updated from the initiative. 
-  * If you published more than one initiative, click  `See associated projects` to open a list of projects published from initiatives. Workfront applies the Scenario Planner Projects filter to the list of projects by default. The projects published most recently display at the top of the list.
+  * If you published one initiative, click **See associated project** to open the project created or updated from the initiative. 
+  * If you published more than one initiative, click&nbsp;**See associated projects** to open a list of projects published from initiatives. Workfront applies the Scenario Planner Projects filter to the list of projects by default. The projects published most recently display at the top of the list.
 
     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 

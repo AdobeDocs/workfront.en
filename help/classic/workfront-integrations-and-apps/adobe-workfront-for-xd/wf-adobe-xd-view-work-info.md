@@ -24,7 +24,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Work or Plan
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Work or Plan</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -51,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 ## View details and custom form data
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x627.png)
 
@@ -59,22 +62,22 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the `Menu` icon to go to the parent objects of the work item.
+   >Use the **Menu** icon to go to the parent objects of the work item.
 
-1. Click the `Details` icon ![](assets/details.png) in the navigation bar to view:
+1. Click the **Details** icon ![](assets/details.png) in the navigation bar to view:
 
-  * Description
-  * Planned Completion Date
-  * Status 
-  * Assigned to
-  * Project Owner (Projects only)
-  * Custom form data
+   * Description
+   * Planned Completion Date
+   * Status 
+   * Assigned to
+   * Project Owner (Projects only)
+   * Custom form data
 
    ![](assets/custom-form-data-350x472.png)
 
 ## View Document Details
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x627.png)
 
@@ -82,20 +85,20 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the `Menu` icon to go to the parent objects of the work item.
+   >Use the **Menu** icon to go to the parent objects of the work item.
 
-1. Click the `Document` icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
+1. Click the **Document** icon ![](assets/documents.png) in the navigation bar, then double-click on a document to view:
 
-  * Description
-  * File Type
-  * Proof Status (only available for proofs)
-  * Version
-  * Size
-  * Custom Form data
+   * Description
+   * File Type
+   * Proof Status (only available for proofs)
+   * Version
+   * Size
+   * Custom Form data
 
 ## View subtasks and issues
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x627.png)
 
@@ -103,16 +106,16 @@ You must have the following access to perform the steps in this article:
 
    >[!TIP]
    >
-   >Use the `Menu` icon to go to the parent objects of the work item.
+   >Use the **Menu** icon to go to the parent objects of the work item.
 
-1. Click the `Issue` icon ![](assets/issues.png) or `Subtask` icon ![](assets/subtasks.png). 
+1. Click the **Issue** icon ![](assets/issues.png) or **Subtask** icon ![](assets/subtasks.png). 
 
-1. Select the task or issue, then click the `Details` icon ![](assets/details.png) in the navigation bar to view:
+1. Select the task or issue, then click the **Details** icon ![](assets/details.png) in the navigation bar to view:
 
-  * Planned Completion Date
-  * Status 
-  * Assigned to
-  * Custom Form data
+   * Planned Completion Date
+   * Status 
+   * Assigned to
+   * Custom Form data
 
    ![](assets/custom-form-data-350x472.png)
 

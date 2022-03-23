@@ -28,8 +28,8 @@ There are two testing environments for Workfront that are replicas of your Workf
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><span class="bold">Standard Support Package</span> </p> </th> 
-   <th> <p><span class="bold">Plus, Preferred, and Enterprise Support Packages</span> </p> </th> 
+   <th> <p><strong>Standard Support Package</strong> </p> </th> 
+   <th> <p><strong>Plus, Preferred, and Enterprise Support Packages</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -62,7 +62,9 @@ The preview environment is ideal for running trainings, testing out new features
 >
 >When you access the Preview Sandbox, notice the blue banner at the top of the screen. The banner cannot be removed while you are working in this environment.
 >
->The name of the environment you are accessing (Preview) and the release version of the code display on the banner. Click `See what’s new` for information about that release.
+>The name of the environment you are accessing (Preview) and the release version of the code display on the banner. Click **See what’s new** for information about that release.
+>
+>![](assets/preview-banner-nwe-350x161.png)
 
 ## Accessing the Preview Sandbox
 
@@ -77,11 +79,11 @@ As a Workfront administrator, you can access the Preview Sandbox via the Workfro
 
 To access the Preview Sandbox:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `System` > `Preferences`.
+1. Click **System** > **Preferences**.
 
-1. In the `Test Environments` section, click `Sandbox Preview`.
+1. In the **Test Environments** section, click **Sandbox Preview**.
 
 1. Log in with your Preview credentials.
 
@@ -92,7 +94,7 @@ To access the Preview Sandbox:
 * [Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5](#preview-through-url-on-cluster-1-2-3) 
 * [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#preview-cluster-4)
 
-#### `Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5`
+#### **Accessing the Preview Sandbox for Accounts on Cluster 1,2,3, and 5**
 
 Historically, you accessed the Preview Sandbox by going to [https://companyname.attasksandbox.com/](https://www.google.com/url?q=https%3A%2F%2Fcompanyname.attasksandbox.com%2F&sa=D&sntz=1&usg=AFQjCNGTfPKCDnAylzkclNwdSuEXksLFRg).
 
@@ -104,8 +106,8 @@ This URL is no longer supported and it has not been redirected to our new URL fo
 
 To log into the Preview Sandbox using a URL:
 
-1. Navigate to this URL: ` [https://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)  
-   `
+1. Navigate to this URL: ``` [https://companyname.preview.workfront.com/](https://companyname.preview.workfront.com/)  
+   ```
 
    If you are an EMEA customer and your account is on Cluster 4, see the section [Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)](#preview-cluster-4) in this article.
 
@@ -113,11 +115,11 @@ To log into the Preview Sandbox using a URL:
 
    Your Preview credentials should be the same as your production credentials, unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs. They do not synchronize automatically.
 
-#### `Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)`
+#### **Accessing the Preview Sandbox for Accounts on Cluster 4 (EMEA Accounts)**
 
 To log into the Preview Sandbox using a URL:
 
-1. Navigate to this URL: `https://companyname.preview.workfront.com/`.
+1. Navigate to this URL: ```https://companyname.preview.workfront.com/```.
 
    You may also access the Preview Sandbox by going to [https://cl04.preview.workfront.com/login](https://cl04.preview.workfront.com/login).
 

@@ -48,24 +48,24 @@ You must have the following access to perform the steps in this article:
 
 ### Submit a timesheet for approval
 
-After a timesheet approver is set (as described in the section [Designate timesheet approvers](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in the article [Approve a timesheet](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), the `Save and Close Timesheet` button at the bottom of the timesheet changes to a `Submit for Approval`&nbsp;button.
+After&nbsp;a timesheet approver is set&nbsp;(as described in the section [Designate timesheet approvers](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) in the article [Approve a timesheet](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)), the **Save and Close Timesheet**&nbsp;button at the bottom of the timesheet changes to a **Submit for Approval**&nbsp;button.
 
 To submit a timesheet for approval:
 
 1. Go to a timesheet that has been configured to have an approver. 
 1. Log time, as described in [Log time](../../timesheets/create-and-manage-timesheets/log-time.md).
-1. Click `Submit for Approval` to launch the timesheet approval process.
+1. Click **Submit for Approval** to launch the timesheet approval process.
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe-350x493.png)
 
-   The `Save for Later` and `Submit for Approval` buttons are replaced by the `Recall` button. The status of the timesheet changes to `Submitted`.
+   The **Save for Later** and **Submit for Approval** buttons are replaced by the **Recall** button. The status of the timesheet changes to **Submitted**.
 
-   When your timesheet is submitted for approval, the approver sees the timesheet listed in the `Approvals` area on the `Home` page. The following things might occur:
+   When your timesheet is submitted for approval, the approver sees the timesheet listed in the **Approvals**&nbsp;area on the **Home** page. The following things might occur:
 
-  * If they approve it, the `Recall` button changes to `Re-Open` and the timesheet status updates to `Closed`. 
-  * If they reject it, `Save for Later` and `Submit for Approval` buttons replace the `Recall` button and the timesheet status updates to `Rejected`.
+  * If they approve it, the **Recall** button changes to **Re-Open** and the timesheet status updates to **Closed**. 
+  * If they reject it, **Save for Later** and **Submit for Approval** buttons replace the **Recall** button and the timesheet status updates to **Rejected**.
 
-1. (Optional) Click  `Recall` if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recalling-a-timesheet).
+1. (Optional)&nbsp;Click&nbsp;**Recall** if you need to reopen the timesheet and update your time. For information, see [Recall a timesheet](#recalling-a-timesheet).
 
 ### View the status of a submitted timesheet
 
@@ -77,7 +77,33 @@ Without these notifications, you can learn about the status of your submitted ti
 
 To view the status of a timesheet:
 
-1. (Conditional) Depending on which environment you are creating the timesheet in, select from the following: In the Production environment, Click My Timesheets in the left panel. A list of all your timesheets displays. The status of the timesheet displays under the timesheet time frame. In the Preview environment, the All filter is selected by default. Do one of the following to view your timesheets Click My Timesheets in the upper-right corner of the page Or Select the My Timesheets filter from the Filter icon drop-down menu. A list of all your timesheets displays. The status of each timesheet displays in the Status column. Timesheets may have the following statuses:
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+
+1. Click **Timesheets**.
+1. 
+
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (Conditional) Depending on which environment you are creating the timesheet in, select from the following:&nbsp;In the Production environment,
+   </MadCap:conditionalText>
+   -->
+
+   Click **My Timesheets**in the left panel.
+
+   A list of all your timesheets displays. The status of the timesheet displays under the timesheet time frame.
+
+   ![](assets/my-timesheets-list-various-statuses-old-nwe-350x194.png)
+
+   <!--
+   <ul class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <li> <p>In the Preview environment, the <strong>All</strong> filter is selected by default. Do one of the following to view your timesheets</p>
+   <ul>
+   <li> <p>Click <strong>My Timesheets</strong> in the upper-right corner of the page</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </p> <p>Or</p> <p>Select the <strong>My Timesheets</strong>filter from the Filter icon <img src="assets/filter-nwepng.png"> drop-down menu. </p> <p>A list of all your timesheets displays. The status of each timesheet displays in the Status column. </p> <p> <img src="assets/my-timesheets-list-various-statuses-nwe-350x60.png" style="width: 350;height: 60;"> </p> </li>
+   </ul> </li>
+   </ul>
+   -->
+
+   Timesheets may have the following statuses:
 
    <table cellspacing="0"> 
     <col> 
@@ -112,8 +138,12 @@ You can recall a timesheet that has already been submitted for approval. Only ti
 
 To recall a timesheet:
 
+1. Main Menu
+1. 
+1. Timesheets
+1. My Timesheets
 1. Select a timesheet with a status of Submitted.
-1. Click `Recall`.
+1. Click **Recall**.
 
    The timesheet becomes editable again and its status changes to Open.
 

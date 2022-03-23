@@ -66,10 +66,19 @@ Any work assigned to the team prior to deactivation remains assigned. We recomme
 
 When using request queues, if you deactivate a team assigned as the default team in a routing rule, the team remains and requests are still routed to the deactivated team. We recommend updating routing rules with active teams before you deactivate the team.
 
-1. Uncheck the `Is Active` box.
-1. Click `Save changes`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Teams**.
+
+1. Click the **Switch team** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
+1. Click the **More** menu, then select **Edit**.
+
+1. ![](assets/edit-team-settings-350x205.png)
+
+1. Uncheck the ```Is Active``` box.
+1. Click ```Save changes```.
 
 ## Known limitations
 
 Deactivated teams display in the following areas:
+
+* The Owner field in Workfront Goals. This requires an additional license for Adobe Workfront Goals. For more information, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 

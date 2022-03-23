@@ -21,15 +21,15 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 
 The following fields can affect the Net Value of a project:
 
-* `Planned Benefit`: This is a manual entry specified by the Project Owner when completing the `Project Info` area of the Business Case.  
+* **Planned Benefit**: This is a manual entry specified by the Project Owner when completing the **Project Info** area of the Business Case.  
   For more information about the Planned Benefit of a project, see the [Project Info](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) section in article [Overview of the Areas of the Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md). 
 
-* `Budgeted Cost`:&nbsp;This is the total cost associated with the project as estimated when you first launch the project.
+* **Budgeted Cost**:&nbsp;This is the total cost associated with the project as estimated when you first launch the project.
 
-  The `Budgeted Cost` uses the  `Budgeted Labor Cost`&nbsp;value which is calculated in the Resource Budgeting area of the Business Case and it takes into account the hours budgeted for your job roles in the Resource Planner and the Cost per Hour rate of each job role.   
-  The Budgeted Cost affects the `Net Value` of the project.&nbsp;For more information about how the Budgeted Cost is calculated, see [Calculate Budgeted Cost](../../../manage-work/projects/project-finances/budgeted-cost.md).
+  The **Budgeted Cost**&nbsp;uses the&nbsp;**Budgeted Labor Cost**&nbsp;value which is calculated in the Resource Budgeting area of the Business Case and it takes into account the hours budgeted for your job roles in the Resource Planner and the Cost per Hour rate of each job role.   
+  The Budgeted Cost affects the **Net Value** of the project.&nbsp;For more information about how the Budgeted Cost is calculated, see [Calculate Budgeted Cost](../../../manage-work/projects/project-finances/budgeted-cost.md).
 
-* `Potential Risk Cost`: This is the cost associated with any risks on the project, as they are defined in the Business Case, or the Risks tab of the project.  
+* **Potential Risk Cost**: This is the cost associated with any risks on the project, as they are defined in the Business Case, or the Risks tab of the project.  
   For more information about calculating the Potential Risk Cost of a project, see the article [Calculate Potential Risk Cost](../../../manage-work/projects/project-finances/potential-risk-cost.md).
 
   &nbsp;

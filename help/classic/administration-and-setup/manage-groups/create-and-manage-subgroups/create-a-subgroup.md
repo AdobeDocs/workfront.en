@@ -38,14 +38,14 @@ You must have the following to perform the steps in this article:
 
 ## Add a subgroup
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Groups`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Groups**.
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
 1. Select the existing group or subgroup where you want to add a new subgroup.
-1. Click `New Subgroup`.
-1. In the `New Subgroup` box that appears, type a `Group Name` for the subgroup.
+1. Click **New Subgroup**.
+1. In the **New Subgroup** box that appears, type a **Group Name** for the subgroup.
 1. (Optional) specify any of the following information:
 
    <table cellspacing="0"> 
@@ -81,7 +81,9 @@ You must have the following to perform the steps in this article:
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the subgroup, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p>Group administrators:A subgroup inherits the group administrators of the group above it, so specifying a user as a group administrator for a subgroup is optional. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> </li> 
+        <li> <p>Group administrators:<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.subgroups">
+            A subgroup inherits the group administrators of the group above it, so specifying a user as a group administrator for a subgroup is optional.
+          </MadCap:conditionalText> You can assign a group member as an administrator for the group using the drop-down menu to the right of the user’s name.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -91,5 +93,5 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Save.`
+1. Click **Save.**
 

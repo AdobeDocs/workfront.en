@@ -47,14 +47,14 @@ Before you can start using the Capacity Planner, the following requirements must
 
 ## Access the Capacity Planner
 
-1. Go to the `People` area in your Global Navigation Bar.
-1. Select the `Legacy` `Resource Planning` tab.
+1. Go to the **People** area in your Global Navigation Bar.
+1. Select the **Legacy** **Resource Planning** tab.
 
-1. Select the `Legacy` `Resource Pools` sub-tab
+1. Select the **Legacy** **Resource Pools** sub-tab
 
-1. Click a `Legacy` `Resource Pool` to select it.
+1. Click a **Legacy** **Resource Pool** to select it.
 
-1. Select the `Capacity Planner` tab.  
+1. Select the **Capacity Planner** tab.  
    This displays the Capacity Planner only for the selected Legacy Resource Pool.
 
 ## Overview of the areas of the Capacity Planner
@@ -84,7 +84,7 @@ For more information about budgeting the availability of job roles in the Resour
 * [Estimate resources in the Capacity Planner](#estimating-resources-in-cp) 
 * [Prioritize projects in the Capacity Planner](#establishing-project-priority)
 
-#### `Overview of the Projects area`
+#### **Overview of the Projects area**
 
 The Projects area of the Capacity Planner displays projects you are currently managing for resource management purposes. The projects which are associated with this Legacy Resource Pool are not automatically added to this area. They will have to be added manually. This area of the Capacity Planner is editable. Projects can manually be added or removed from this section and you can manually adjust the allocation of resources to the projects.
 
@@ -97,63 +97,63 @@ The resource estimates in the Capacity Planner and the Resource Estimates of the
 >The allocation of the resources in the Capacity Planner is different than the Planned Hours of the tasks on the project. You can display the Planned Hours associated with your resources, but this value is not editable in the Capacity Planner. However, the resource estimates (the estimated budgeted time) allocated to resources is manually editable in this area.  
 >![planned_data_on_capacity_planner.png](assets/planned-data-on-capacity-planner-350x50.png)
 
-#### `Add projects to the Capacity Planner`
+#### **Add projects to the Capacity Planner**
 
 You can add projects to the Capacity Planner, even if they are not associated with the Legacy Resource Pool. Adding them to the Capacity Planner in this area will automatically associate them with the Legacy Resource Pool.
 
 To add projects to the Capacity Planner:
 
-1. Access the `Capacity Planner` tab inside a `Legacy` `Resource Pool`.  
+1. Access the **Capacity Planner** tab inside a **Legacy** **Resource Pool**.  
    For more information about accessing the Capacity Planner, see [Access the Capacity Planner](#accessing-cp).
 
-1. To add more projects in the `Projects` area of the `Capacity Planner`, click `Add Projects`.  
+1. To add more projects in the **Projects** area of the **Capacity Planner**, click **Add Projects**.  
    ![](assets/add-projects-capacity-planner.png)
 
-1. In the `Add Project` dialog box, consider specifying the following:
+1. In the **Add Project** dialog box, consider specifying the following:
 
-  * `Portfolio`: Select a portfolio to display only the projects associated with it.
-  * `Show projects without a Resource Pool`: Select this field, if you want to see projects that are not associated with this Legacy Resource Pool.
-  * `Status`: Select the status of the projects that you want to display in the Capacity Planner.
-  * `Date Range`: Select the date range for which you want to manage the resource allocation for the projects in this Legacy Resource Pool.
+   * **Portfolio**: Select a portfolio to display only the projects associated with it.
+   * **Show projects without a Resource Pool**: Select this field, if you want to see projects that are not associated with this Legacy Resource Pool.
+   * **Status**: Select the status of the projects that you want to display in the Capacity Planner.
+   * **Date Range**: Select the date range for which you want to manage the resource allocation for the projects in this Legacy Resource Pool.
 
-    >[!NOTE]
-    >
-    >Allocation data displays for 1095 days (or 3 years) in the Legacy Resource Estimates area of the Business Case.
+     >[!NOTE]
+     >
+     >Allocation data displays for 1095 days (or 3 years) in the Legacy Resource Estimates area of the Business Case.
 
-    ![add__project_in_the_capacity_planner.png](assets/add--project-in-the-capacity-planner-350x186.png)
+     ![add__project_in_the_capacity_planner.png](assets/add--project-in-the-capacity-planner-350x186.png)
 
-1. As projects start populating the top half of the `Add Project` box, select multiple projects by keeping the "shift" key pressed and clicking a project at a time to select it.
-1. Drag and drop the selected projects in the `Projects to Add` area of the `Add Project` dialog box. 
+1. As projects start populating the top half of the **Add Project** box, select multiple projects by keeping the "shift" key pressed and clicking a project at a time to select it.
+1. Drag and drop the selected projects in the **Projects to Add** area of the **Add Project** dialog box. 
 
-1. Click `OK`.  
-   Your projects are appearing in the `Projects` area of the Capacity Planner now.   
+1. Click **OK**.  
+   Your projects are appearing in the **Projects** area of the Capacity Planner now.   
    Each line displays one project.
 
-#### `Estimate resources in the Capacity Planner`
+#### **Estimate resources in the Capacity Planner**
 
 When you are modifying the resource allocations of each job role in the Capacity Planner, you are changing the resource estimates values for your job roles for a specific project. The Planned Hours associated with the job roles do not change.
 
 To edit the allocation of resources in the Capacity Planner:
 
-1. Access the `Capacity Planner` tab inside a `Legacy` `Resource Pool`.  
+1. Access the **Capacity Planner** tab inside a **Legacy** **Resource Pool**.  
    For more information about accessing the Capacity Planner, see [Access the Capacity Planner](#accessing-cp).
 
-1. In the `Projects` area of the `Capacity Planner`, the projects associated with this Legacy Resource Pool appear after they have been added.
+1. In the **Projects** area of the **Capacity Planner**, the projects associated with this Legacy Resource Pool appear after they have been added.
 
 1. Click the icon to the left of the project name, to expand the project.  
    The job roles associated with the project are listed under the project name. 
 1. Start typing a value in Hours, FTE, or Cost, for each job role, for each day of the project timeline, to estimate how much time (in hours or FTE) or cost is needed for a specific job role to complete the project.  
    When adding projects, the current total availability of each job role should change and some resources will appear over-allocated. Over-allocations of resources will appear in red.
-1. (Optional) Manually modify allocations in the `Projects` area to avoid over-allocations.  
+1. (Optional) Manually modify allocations in the **Projects** area to avoid over-allocations.  
    For more information about allocating resources in the Capacity Planner, see [Allocate resources in the Capacity Planner](../../resource-mgmt/legacy-res-planning/allocate-resources-in-capacity-planner.md).
 
-1. Click `Save`.
+1. Click **Save**.
 
-#### `Prioritize projects in the Capacity Planner`
+#### **Prioritize projects in the Capacity Planner**
 
-Projects located in the `Projects` section of the Capacity Planner receive a priority according to their position in the list.
+Projects located in the **Projects** section of the Capacity Planner receive a priority according to their position in the list.
 
-Capacity Planning priority is unrelated to the `priority` setting found on the `Project Details` tab. The Priority field on the Project Details tab is a visual flag that you manually specify to understand how important a project should be. In the Capacity Planner, the project at the top of the list gets assigned resources first, the next project gets assigned resources second, and any projects left on the list receive the resources that remain available.  
+Capacity Planning priority is unrelated to the ```priority``` setting found on the **Project Details** tab. The Priority field on the Project Details tab is a visual flag that you manually specify to understand how important a project should be. In the Capacity Planner, the project at the top of the list gets assigned resources first, the next project gets assigned resources second, and any projects left on the list receive the resources that remain available.  
 ![](assets/capacity-planner-350x186.png)
 
 You can change the priority of any project by dragging and dropping it to the desired position in the list.
@@ -162,18 +162,18 @@ There is a project priority given to projects that belong to a Portfolio. Inside
 
 To view the priority a project has in the Portfolio Optimizer in the Capacity Planner:
 
-1. Go to the `Capacity Planner` of a Legacy Resource Pool.
-1. Click the `Properties` icon.  
+1. Go to the **Capacity Planner** of a Legacy Resource Pool.
+1. Click the **Properties** icon.  
    ![](assets/properties-icon.png)  
    The Preferences dialog box displays. 
 
-1. Select the `Field Data` tab in the Preferences dialog box.
-1. Select the `Priority` field in the `Unused` column, then click the arrow pointing right, to move it to the `Used` column.  
+1. Select the **Field Data** tab in the Preferences dialog box.
+1. Select the **Priority** field in the **Unused** column, then click the arrow pointing right, to move it to the **Used** column.  
    ![](assets/screen-shot-2013-09-19-at-1.03.32-pm-350x242.png)
 
-1. Click `OK`.  
+1. Click **OK**.  
    You can see the priority given to a project in the Portfolio Optimizer in the Priority column you added to the Capacity Planner.  
-   If you click the `Priority` column, you can sort your projects the same way they are displayed in the `Portfolio Optimizer. This ensures that you prioritize your resource allocation according to the same priority by which the portfolio manager expects the project to be completed.`
+   If you click the **Priority** column, you can sort your projects the same way they are displayed in the ```Portfolio Optimizer. This ensures that you prioritize your resource allocation according to the same priority by which the portfolio manager expects the project to be completed.```
 
 ### Net Remaining resources
 
@@ -193,9 +193,9 @@ The following icons and options are visible in the Capacity Planner:
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Icon</span> </th> 
-   <th><span class="bold">Name</span> </th> 
-   <th><span class="bold">Function</span> </th> 
+   <th><strong>Icon</strong> </th> 
+   <th><strong>Name</strong> </th> 
+   <th><strong>Function</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

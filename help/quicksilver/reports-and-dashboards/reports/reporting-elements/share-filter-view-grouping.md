@@ -56,19 +56,43 @@ You must have the following:
 ## Share a filter, view, or grouping
 
 Sharing filters, views, or groupings in Workfront is identical.
-You can share filters in select lists using the following interfaces: Standard interface Beta builder interface Sharing filters in select lists is different depending on which interface you use to share the filter from. For information about the types of filter-building interfaces, see Create or edit filters in Adobe Workfront. You can share views and groupings only in the standard interface. Sharing filters, views, and groupings using the standard interface Sharing filters and groupings using the beta builder interface Sharing filters, views, and groupings using the standard interface Sharing filters, views, and groupings in the standard interface is identical.
+
+<!--
+<p>You can share filters in select lists using the following interfaces:</p>
+<ul>
+<li> <p>Standard interface</p> </li>
+<li> <p>Beta builder interface</p> </li>
+</ul>
+<p>Sharing filters in select lists is different depending on which interface you use to share the filter from. For information about the types of filter-building interfaces, see <a href="../../../reports-and-dashboards/reports/reporting-elements/create-filters.md" class="MCXref xref">Create or edit filters in Adobe Workfront</a>.</p>
+<p>You can share views and groupings only in the standard interface.</p>
+<ul>
+<li> <!--
+<a href="#sharing" class="MCXref xref">Sharing filters, views, and groupings using the standard interface</a>
+--> </li>
+<li> <!--
+<a href="#sharing2" class="MCXref xref">Sharing filters and groupings using the beta builder interface</a>
+--> </li>
+</ul>
+<!--
+<a name="Sharing"></a>Sharing filters, views, and groupings using the standard interface
+-->
+<!--
+Sharing filters, views, and groupings in the standard interface is identical.
+-->
+-->
 
 1. Go to a list of objects or a report.
-1. (Conditional) From a list, click the Filter, View, or Grouping icon, then hover over the filter, view, or grouping you want to share, click the More icon , then Share. From a report, click the Filter, View, or Grouping drop-down menu, then select the filter, view, or grouping you want to share. 
-1. (Conditional) If sharing from a report, click the `Filter`, `View`, or `Grouping` drop-down menu again, then click `Share Filter`, `Share View`, or `Share Grouping`.  
+1. (Conditional)&nbsp;From a list, click the **Filter**, **View**, or **Grouping** icon, then hover over the filter, view, or grouping you want to share, click the **More** icon ![](assets/more-icon.png), then **Share**. From a report, click the **Filter**, **View**, or **Grouping** drop-down menu, then select the filter, view, or grouping you want to share. 
+
+1. (Conditional) If sharing from a report, click the **Filter**, **View**, or **Grouping** drop-down menu again, then click **Share Filter**, **Share View**, or **Share Grouping**.  
    The **Filter Access**, **View Access**, or **Grouping Access** dialog box displays.
 
 1. Complete either of the following, depending on who you want to share with:
 
-   `To share with individual users, teams, roles, groups, or companies:` In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
+   **To share with individual users, teams, roles, groups, or companies:** In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.  
    Repeat this process to share access with multiple users, teams, roles, groups, or companies.
 
-   `To share with all users in the system:` Click the `Settings` icon, then click `Make this visible system-wide`.  
+   **To share with all users in the system:** Click the **Settings** icon, then click **Make this visible system-wide**.  
    Your administrator must select the Share System-wide option for this option to be available. For more information, see the articles [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) and [Share reports, dashboards, and calendars in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).
 
 1. (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
@@ -89,16 +113,58 @@ You can share filters in select lists using the following interfaces: Standard i
      </tr> 
      <tr> 
       <td role="rowheader">Share it</td> 
-      <td> <p>Click <span class="bold">Advanced Settings</span>, then select or deselect the <span class="bold">Share</span> option, depending on whether you want the share recipients to be able to share with others.</p> </td> 
+      <td> <p>Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 
-   Users with whom you shared the filter, view, or grouping can access it by clicking the `Filter`, `View`, or `Grouping` drop-down menu or iconand scrolling down to the `Shared with me` section.
+   Users with whom you shared the filter, view, or grouping can access it by clicking the **Filter**, **View**, or **Grouping** drop-down menu or icon and scrolling down to the **Shared with me** section.
 
-Sharing filters and groupings using the beta builder interface When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface. The beta builder interface is not available for any other objects in Workfront. You cannot build filters or groupings in the beta builder interface when building reports. Share a filter or grouping using the beta builder interface: Go to a list of projects, tasks, or issues. Click the Filter icon or Grouping icon , then enable the Beta setting to access the beta builder. It is disabled by default. This opens the beta filter builder interface. Tip: The header of the builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available. Review the following lists of filters or groupings: My filters / My groupings Filters or groupings that you built and saved yourself. Suggested Filters or groupings that the Workfront administrator adds to your list of filters or groupings, either at the system level, or in your Layout Template. Shared with me Filters or groupings that others created and shared with you or that are shared system-wide. Hover over a filter or grouping you have access to at least view and share, then click the More menu , then click Share. The Filter sharing or Grouping sharing box displays. Enable the View system wide setting. This gives anyone in Workfront permission to view the filter or grouping. Or Start typing the names of users, teams, roles, groups, or companies that you want to share with in the Give access to field. (Optional) Click the right-pointing arrow next to the name of an entity to edit their permissions to the filter or grouping, then enable either the View or Manage option. (Optional) Enable or disable the additional permissions for an entity by doing one of the following: Click View and disable the Share option. It is enabled by default. Click Manage and disable either the Share or the Delete option. They are enabled by default. Tip: Users cannot receive a higher permission than their access level. If they don't have access to Edit filters or groupings in their access level, they cannot receive permissions to manage a filter or grouping. Workfront disables the Manage option for these users and the option is dimmed. Click Share. The filter or grouping is shared with the entities you specified. The filters or groupings you shared display in the Shared with me section of the filter or grouping panel for those entities.
+<!--
+<h3><a name="Sharing2"></a>Sharing filters and groupings using the beta builder interface</h3>
+<p>When sharing filters and groupings from lists of projects, tasks, or issues, you can share them using the beta builder interface instead of the standard interface.</p>
+<p>The beta builder interface is not available for any other objects in&nbsp;Workfront.</p>
+<p>You cannot build filters or groupings in the beta builder interface when building reports.</p>
+<p>Share a filter or grouping using the beta builder interface:</p>
+<ol>
+<li value="1"> <p>Go to a list of projects, tasks, or issues.</p> </li>
+<li value="2"> <p> Click the <strong>Filter</strong> icon <img src="assets/filter-nwepng.png"> or <strong>Grouping</strong> icon <img src="assets/groupingicon.png" alt="Grouping icon">, then enable the <strong>Beta setting</strong> <img src="assets/beta-toggle-white-on-existing-filters.png"> to access the beta builder. It is disabled by default.</p> <p>This opens the beta filter builder interface.</p> <note type="tip">
+The header of the builder interface changes to blue when you enable the beta builder. After you enable the beta builder interface, Workfront keeps it enabled for all areas where it is available.
+</note> <p> <img src="assets/new-filters-my-filters-suggested-shared-filter-lists-nwe-350x234.png" style="width: 350;height: 234;"> </p> </li>
+<li value="3"> <p>Review the following lists of filters or groupings:</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">My filters / My groupings</td>
+<td>Filters or groupings that you built and saved yourself.</td>
+</tr>
+<tr>
+<td role="rowheader">Suggested</td>
+<td>Filters or groupings that the Workfront administrator adds to your list of filters or groupings, either at the system level, or in your Layout Template.</td>
+</tr>
+<tr>
+<td role="rowheader">Shared with me</td>
+<td>Filters or groupings that others created and shared with you or that are shared system-wide.</td>
+</tr>
+</tbody>
+</table> </li>
+<li value="4"> <p>Hover over a filter or grouping you have access to at least view and share, then click the <strong>More</strong> menu <img src="assets/more-menu.png">, then click&nbsp;<strong>Share</strong>.</p> <p> <img src="assets/new-filters-share-option-highlighted-wb-350x129.png" style="width: 350;height: 129;"> </img> </p> <p>The Filter sharing or Grouping sharing box displays.</p> </li>
+<li value="5"> <p>Enable the <strong>View system wide</strong> setting.&nbsp;This gives anyone in Workfront permission to view the filter or grouping.</p> <p>Or</p> <p>Start typing the names of users, teams, roles, groups, or companies that you want to share with in the <strong>Give access to</strong> field.</p> <p> <img src="assets/new-filters-sharing-ui-wb-350x422.png" style="width: 350;height: 422;"> </img> </p> </li>
+<li value="6"> <p>(Optional)&nbsp;Click the right-pointing arrow next to the name of an entity to edit their permissions to the filter or grouping, then enable either the <strong>View</strong> or <strong>Manage</strong> option.</p> <p> <img src="assets/new-filters-granular-permissions-for-manage-wb-350x107.png" style="width: 350;height: 107;"> </img> </p> </li>
+<li value="7"> <p>(Optional) Enable or disable the additional permissions for an entity by doing one of the following:</p>
+<ol>
+<li value="1">Click <strong>View</strong> and disable the <strong>Share</strong> option. It is enabled by default.</li>
+<li value="2"> <p>Click <strong>Manage</strong> and disable either the <strong>Share</strong> or the <strong>Delete</strong> option. They are enabled by default.</p> </li>
+</ol> <note type="tip">
+Users cannot receive a higher permission than their access level. If they don't have access to Edit filters or groupings in their access level, they cannot receive permissions to manage a filter or grouping. Workfront disables the Manage option for these users and the option is dimmed.
+</note> </li>
+<li value="8"> <p>Click <strong>Share</strong>. The filter or grouping is shared with the entities you specified.</p> <p>The filters or groupings you shared display in the <strong>Shared with me</strong> section of the filter or grouping panel for those entities.</p> <p> <img src="assets/new-filters-shared-with-me-area-wb-350x236.png" style="width: 350;height: 236;"> </p> </li>
+</ol>
+-->
 
 ## Video walk-through
 
@@ -113,128 +179,128 @@ This video was recorded in Workfront Classic. However, the content also applies 
 [ ![](assets/video-share-reporting-elements-350x198.png)](https://workfront-video.wistia.com/medias/wj9snapqio)
 
 <!--
-Additional information
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Addition"></a>Additional information</h2>
 -->
 
 <!--
-See also:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See also:</p>
 -->
 
   <!--
-  Reporting elements: filters, views, and groupings
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a> </li>
   -->
 
   <!--
-  Create a custom report
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a> </li>
   -->
 
   <!--
-  Create groupings in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md" class="MCXref xref">Create groupings in Adobe Workfront</a> </li>
   -->
 
   <!--
-  Edit existing groupings
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md" class="MCXref xref">Edit existing groupings</a> </li>
   -->
 
   <!--
-  Filters overview in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a> </li>
   -->
 
   <!--
-  Views overview in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a> </li>
   -->
 
   <!--
-  Groupings overview in Adobe Workfront
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a> </li>
   -->
 
 <!--
-Old content
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Old content</p>
 -->
 
 <!--
-You can share Filters, Views, and Groupings with other users.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can share Filters, Views, and Groupings with other users.</p>
 -->
 
 <!--
-When a Filter, View, or Grouping is shared with you, you can apply that Filter, View, or Grouping to your lists. Depending on the access granted to you, you might be able to modify it and share it with other users.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">When a Filter, View, or Grouping is shared with you, you can apply that Filter, View, or Grouping to your lists. Depending on the access granted to you, you might be able to modify it and share it with other users.</p>
 -->
 
 <!--
-For information about how to create a Filter, View, or Grouping, see Filters overview in Adobe Workfront Views overview in Adobe Workfront and Groupings overview in Adobe Workfront.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about how to create a Filter, View, or Grouping, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a> <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a> and <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Groupings overview in Adobe Workfront</a>.</p>
 -->
 
   <!--
-  Sharing a Filter, View, or Grouping
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#sharing-a-filter-view-or-grouping" class="MCXref xref">Sharing a Filter, View, or Grouping</a> </li>
   -->
 
   <!--
-  Viewing a Filter, View, or Grouping That Has Been Shared with You
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#viewing-a-filter-view-or-grouping-that-has-been-shared-with-you" class="MCXref xref">Viewing a Filter, View, or Grouping That Has Been Shared with You</a> </li>
   -->
 
   <!--
-  Removing a Shared Filter, View, or Grouping
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#removing-a-shared-filter-view-or-grouping" class="MCXref xref">Removing a Shared Filter, View, or Grouping</a> </li>
   -->
 
 <!--
-Sharing a Filter, View, or Grouping
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="sharing-a-filter-view-or-grouping"></a>Sharing a Filter, View, or Grouping</h2>
 -->
 
    <!--
-   Click the Filter, View, or Grouping drop-down menu, then select the Filter, View, or Grouping you want to share.
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu, then select the Filter, View, or Grouping you want to share.</li>
    -->
 
    <!--
-   Click the Filter, View, or Grouping drop-down menu again, then click Share Filter, Share View, or Share Grouping. The Filter Access, View Access, or Grouping Access dialog box is displayed.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu again, then click <strong>Share Filter</strong>, <strong>Share View</strong>, or <strong>Share Grouping</strong>.<br>The Filter Access, View Access, or Grouping Access dialog box is displayed.<br><img src="assets/share-filterviewgrouping-350x382.png" alt="" style="width: 350;height: 382;"></li>
    -->
 
 1. 
 
    <!--
-   Complete either of the following, depending on who you want to share with:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Complete either of the following, depending on who you want to share with:</p>
    -->
 
    <!--
-   To share with individual users, teams, roles, groups, or companies: In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list. Repeat this process to share access with multiple users, teams, roles, groups, or companies.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with individual users, teams, roles, groups, or companies:</strong> In the provided field, begin typing the name of the user, team, role, group, or company you want to share with, then click the name when it appears in the drop-down list.<br>Repeat this process to share access with multiple users, teams, roles, groups, or companies.</p>
    -->
 
    <!--
-   To share with all users in the system: Click the Settings icon, then click Make this visible system-wide. Your administrator must select the Share System-wide option for this option to be available. For more information, see Create or modify custom access levels and Share reports, dashboards, and calendars in Adobe Workfront.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>To share with all users in the system:</strong> Click the <strong>Settings</strong> icon, then click <strong>Make this visible system-wide</strong>.<br>Your administrator must select the Share System-wide option for this option to be available. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> and <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars in Adobe Workfront</a>.</p>
    -->
 
 1. 
 
    <!--
-   (Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Conditional) If you are sharing with individual users, teams, roles, groups, or companies, click the drop-down menu to define the level of access you want to grant.<br><img src="assets/share-filterviewgrouping-dropdown-350x380.png" alt="" style="width: 350;height: 380;"></p>
    -->
 
    <!--
-   You can select from the following options:
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can select from the following options:</p>
    -->
 
     <!--  
-    View it: Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.  
+    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>View it:</strong> Select this option to allow the share recipients only to use the shared Filter, View, or Grouping. When this option is selected, recipients cannot make any modifications to the shared item.</li>  
     -->
 
     <!--  
-    Manage it: Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.  
+    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Manage it:</strong> Select this option to allow the share recipients to use and modify the shared Filter, View, or Grouping.</li>  
     -->
 
     <!--  
-    Share: Click Advanced Settings, then select or deselect the Share option, depending on whether you want the share recipients to be able to share with others.  
+    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Share:</strong> Click <strong>Advanced Settings</strong>, then select or deselect the <strong>Share</strong> option, depending on whether you want the share recipients to be able to share with others.</li>  
     -->
 
 1. 
 
    <!--
-   Click Save
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save</strong></p>
    -->
 
    <!--
-   Users can access the shared Filter, View, or Grouping as described in Viewing a Filter, View, or Grouping That Has Been Shared with You.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users can access the shared Filter, View, or Grouping as described in <a href="#viewing-a-filter-view-or-grouping-that-has-been-shared-with-you" class="MCXref xref">Viewing a Filter, View, or Grouping That Has Been Shared with You</a>.</p>
    -->
 
    <!--
-   Users who you share the Filter, View, or Grouping with can access the shared Filter, View, or Grouping by clicking the Filter, View, or Grouping drop-down menu and scrolling down to the Shared with me section.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who you share the Filter, View, or Grouping with can access the shared Filter, View, or Grouping by clicking the <strong>Filter</strong>, <strong>View</strong>, or <strong>Grouping</strong> drop-down menu and scrolling down to the <strong>Shared with me</strong> section.</p>
    -->
 

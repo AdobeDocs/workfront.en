@@ -33,7 +33,15 @@ You must have the following:
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
    <td> <p>Request or higher</p> </td> 
-  </tr> Access level configurations* Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. Object permissions Edit access to the object associated with the document For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Edit access to the object associated with the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -48,15 +56,20 @@ You must have the following:
 1. Go to the Documents area where the document is uploaded.
 1. From your desktop or a separate browser tab, drag the new version of the document on top of the existing version in Workfront.
 
+   ![](assets/drag-drop-doc-qs-350x145.png)
+
    As you drag the new version, you can hover over a Workfront documents folder to open it. You can then scroll up and down by dragging the files to the top or bottom of the screen.
 
-1. Drop the new version on top of the existing file on the `Documents` tab.
+1. Drop the new version on top of the existing file on the **Documents** tab.
 
    For information about managing document versions, see [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
 
 ## Use the More menu to add a new version
 
 1. Select the document where you want to add a new version. 
-1. Click `Add New` `>` `Version` `.`
+1. Click **Add New** ```>``` **Version** ```.```
+
+   ![](assets/add-new-version-350x185.png)
+
 1. Select the type of document you want to upload, then follow the prompts.
 

@@ -32,20 +32,35 @@ Summary of URL changes:
 
 * *domain*.attask-ondemand.com
 
-`is now…`
+**is now…**
 
 *domain*.my.workfront.com
 
 * *domain*.cr1.attasksandbox.com&nbsp;and&nbsp;*domain*.cr2.attasksandbox.com
 
-`is now…`
+**is now…**
 
 *domain*.sb01.workfront.com&nbsp; and&nbsp;*domain*.sb02.workfront.com
 
 As always, if you have any issues or questions about this change, please feel free to contact Workfront Support.
 
 <!--
-Phases and Timeframe of Changes Phase 1, Automatic Redirect (May 15 - June 12, 2019, depending on cluster) Users who access the *.attask-ondemand.com are automatically redirected to the *.my.workfront.com domain. Schedule by cluster Cluster 1 - May 29 Cluster 2 - June 5 Cluster 3 - May 22 Cluster 4 - May 15 Cluster 5 - June 12 Cluster 6 - May 22 Phase 2, Information Page with Link (July 17, 2019 for all clusters) Users who access the *.attask-ondemand.com domain see an information page explaining this change and contains a link to the *.my.workfront.com domain. Phase 3, Removed Access to the Old URL (August 21, 2019 for all clusters) Users who access the *.attask-ondemand.com domain see a "site has moved" page and explains that the site is now accessed by the my.workfront.com domain.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Phases and Timeframe of Changes</h2>
+<h3>Phase 1, Automatic Redirect (May 15 - June 12, 2019, depending on cluster)</h3>
+<p>Users who access the *.attask-ondemand.com are automatically redirected to the *.my.workfront.com domain.</p>
+<p style="font-weight: bold;">Schedule by cluster</p>
+<p>Cluster 1 - May 29</p>
+<p>Cluster 2 - June 5</p>
+<p>Cluster 3 - May 22</p>
+<p>Cluster 4 - May 15</p>
+<p>Cluster 5 - June 12</p>
+<p>Cluster 6 - May 22</p>
+<h3>Phase 2, Information Page with Link (July 17, 2019 for all clusters)</h3>
+<p>Users who access the *.attask-ondemand.com domain see an information page explaining this change and contains a link to the *.my.workfront.com domain.</p>
+<h3>Phase 3, Removed Access to the Old URL (August 21, 2019 for all clusters)</h3>
+<p>Users who access the *.attask-ondemand.com domain see a "site has moved" page and explains that the site is now accessed by the my.workfront.com domain.</p>
+</div>
 -->
 
 ## Updating SSO Custom Metadata

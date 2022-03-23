@@ -20,11 +20,11 @@ Our&nbsp;folder syncing functionality lets you&nbsp;synchronize a Box folder wit
 
 ## Key Benefits
 
-* `Improve collaborative review and approval:` Provide your team with rich markup, commenting, and discussion tools to improve collaboration on creative assets.
-* `Accelerate project delivery:` Accelerate delivery of your design projects by 56% by shortening the review cycle and reducing the number of revisions. Faster consensus and decisions result in quicker project turnaround and speed to market. Design revisions are reduced by 29%.
-* `Save management time:` When your team spends less time manually printing copies, e-mailing comments, and routing revisions, your effort to manage proofs can be reduced by an average of 59%.
-* `Reduce costs:` Time is money. Standardized workflow makes it possible to streamline your approval processes. Since efficiency, accuracy, and speed are improved, you also save money.
-* `Gain greater visibility and accountability:` You are able to log file versions, comments, and decisions with timestamps in a traceable audit trail. This gives you full accountability for every stage of the review process and helps you meet compliance requirements.  
+* **Improve collaborative review and approval:** Provide your team with rich markup, commenting, and discussion tools to improve collaboration on creative assets.
+* **Accelerate project delivery:** Accelerate delivery of your design projects by 56% by shortening the review cycle and reducing the number of revisions. Faster consensus and decisions result in quicker project turnaround and speed to market. Design revisions are reduced by 29%.
+* **Save management time:** When your team spends less time manually printing copies, e-mailing comments, and routing revisions, your effort to manage proofs can be reduced by an average of 59%.
+* **Reduce costs:** Time is money. Standardized workflow makes it possible to streamline your approval processes. Since efficiency, accuracy, and speed are improved, you also save money.
+* **Gain greater visibility and accountability:** You are able to log file versions, comments, and decisions with timestamps in a traceable audit trail. This gives you full accountability for every stage of the review process and helps you meet compliance requirements.  
   ![Box_and_ProofHQ_integration.jpg](assets/box-and-proofhq-integration-350x157.jpg)
 
 ## Key Features
@@ -37,18 +37,18 @@ Our&nbsp;folder syncing functionality lets you&nbsp;synchronize a Box folder wit
 
 ## >Box Workfront Proof Sync - Overview Video
 
-`<iframe class="vimeo-player_0" src="assets/61894774?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/61894774?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 ## Adding the Workfront Proof Sync App to Your Box Account
 
 Please follow the few simple steps below to add our app to your Box account:
 
-1. In your Box account, go to the `Apps` section.
-1. In the search bar, type `Workfront Proof Sync`.
-1. Click `Workfront Proof Sync` in the search results.
-1. Click `Add` to add the Workfront Proof Sync app to your Box account.
-1. In the confirmation box that appears, click `Okay`.
+1. In your Box account, go to the **Apps** section.
+1. In the search bar, type **Workfront Proof Sync**.
+1. Click **Workfront Proof Sync** in the search results.
+1. Click **Add** to add the Workfront Proof Sync app to your Box account.
+1. In the confirmation box that appears, click **Okay**.
 
 ## Configuring the Integration - Video Tutorial
 
-`<iframe class="vimeo-player_0" src="assets/60652062?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>` 
+```<iframe class="vimeo-player_0" src="assets/60652062?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>``` 

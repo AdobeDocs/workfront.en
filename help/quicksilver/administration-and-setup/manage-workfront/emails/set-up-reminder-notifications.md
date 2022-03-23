@@ -41,15 +41,19 @@ For information about how to create an email template, see [Configure email temp
 
 ## Create&nbsp;a reminder notification
 
-1. Click `Email` > `Notifications`.
+1. Main Menu
+1. 
+1. Setup
+1. 
+1. Click **Email** > **Notifications**.
 
-1. Click the `Reminder Notifications` tab, then click `New Reminder Notification`.
+1. Click the **Reminder Notifications**&nbsp;tab, then click **New Reminder Notification**.
 
 1. In the drop-down list, click&nbsp;the&nbsp;object type you want to associate with the reminder notification.
 
-   For example, if you want to attach a reminder notification to a timesheet, click `Timesheet`.
+   For example, if you want to attach a reminder notification to a timesheet, click **Timesheet**.
 
-1. In the `New Reminder Notification` box that appears, specify the following information.
+1. In the **New Reminder Notification** box that appears, specify the following information.
 
    <table cellspacing="0"> 
     <col> 
@@ -61,7 +65,7 @@ For information about how to create an email template, see [Configure email temp
      </tr> 
      <tr> 
       <td role="rowheader">Qualifying Period</td> 
-      <td> <p>Specify the number of hours, work days, days (calendar days), weeks, or months before or after the date in the <span class="bold">Timing</span> field.</p> <p>Note:  
+      <td> <p>Specify the number of hours, work days, days (calendar days), weeks, or months before or after the date in the <strong>Timing</strong> field.</p> <p>Note:  
         <ul> 
          <li> <p>Reminder notifications begin 24 hours after the specified date and once all criteria are met.</p> </li> 
          <li> <p>Reminder notifications for projects, tasks, and issues trigger every night at midnight, US Mountain Time. All objects that qualify for a reminder notification from that day trigger a notification to the designated users shortly after that time.</p> </li> 
@@ -76,14 +80,14 @@ For information about how to create an email template, see [Configure email temp
       <td role="rowheader">Criteria</td> 
       <td> <p>Select the criteria to qualify the reminder notification to be scheduled. Reminder notifications are not scheduled unless the criteria selection is met.</p> <p>The following criteria options are available, depending on the object type that you&nbsp;selected in Step 4:</p> 
        <ul> 
-        <li><span class="bold">Incomplete in Current Projects:</span>&nbsp;(Available for task and issue reminders) The reminder notification is scheduled to be sent only when the object status that the reminder notification is associated with is not Complete and the project status is Current.</li> 
-        <li><span class="bold">All in Current Projects:&nbsp;</span>(Available for task and issue reminders) The reminder notification is scheduled to be sent regardless of the object status and only when the project status that the reminder notification is associated with is Current.</li> 
-        <li><span class="bold">Incomplete Projects:</span> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is anything but Complete.</li> 
-        <li><span class="bold">Complete Projects:</span> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is Complete.</li> 
-        <li><span class="bold">Open Timesheets:</span> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open.</li> 
-        <li><span class="bold">Submitted Timesheets:</span> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Submitted.</li> 
-        <li><span class="bold">Open Timesheet or Less than 40 Hours per Week:</span> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open or when the timesheet has less than 40 hours logged.</li> 
-        <li><span class="bold">Email Template:</span>&nbsp;From the drop-down, select an email template to attach to your reminder.<br>For information on how to build an email template, refer to <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configure email templates</a>.</li> 
+        <li><strong>Incomplete in Current Projects:</strong>&nbsp;(Available for task and issue reminders) The reminder notification is scheduled to be sent only when the object status that the reminder notification is associated with is not Complete and the project status is Current.</li> 
+        <li><strong>All in Current Projects:</strong>(Available for task and issue reminders) The reminder notification is scheduled to be sent regardless of the object status and only when the project status that the reminder notification is associated with is Current.</li> 
+        <li><strong>Incomplete Projects:</strong> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is anything but Complete.</li> 
+        <li><strong>Complete Projects:</strong> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is Complete.</li> 
+        <li><strong>Open Timesheets:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open.</li> 
+        <li><strong>Submitted Timesheets:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Submitted.</li> 
+        <li><strong>Open Timesheet or Less than 40 Hours per Week:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open or when the timesheet has less than 40 hours logged.</li> 
+        <li><strong>Email Template:</strong>&nbsp;From the drop-down, select an email template to attach to your reminder.<br>For information on how to build an email template, refer to <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configure email templates</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -93,7 +97,7 @@ For information about how to create an email template, see [Configure email temp
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 1. Attach the reminder notification to a work item, as described in [Attach a reminder notification to an object](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md).
 
 ## Receive a reminder notification
@@ -111,9 +115,13 @@ For instance, if a reminder is set to trigger an hour after the Planned Completi
 
 To cause a reminder notification to trigger manually:
 
-1. Click  `System` > `Diagnostics` in the lower left corner of Workfront. 
+1. Main Menu
+1. 
+1. Setup
+1. 
+1. Click&nbsp;**System** > **Diagnostics** in the lower left corner of Workfront. 
 
-1. Click `Send Reminder Notifications` and wait for the confirmation at the top of the screen that they have been sent.
+1. Click **Send Reminder Notifications** and wait for the confirmation at the top of the screen that they have been sent.
 
    The users&nbsp;designated in the reminder notification receive an email.
 

@@ -26,7 +26,7 @@ Changing the zoom level on your browser depends on what browser you are using.
 
 To change the zoom level in Google Chrome:
 
-1. Inside a browser window, navigate to `View`.
-1. Click `Zoom In` to reduce the zoom level in the current browser window.  
+1. Inside a browser window, navigate to **View**.
+1. Click **Zoom In** to reduce the zoom level in the current browser window.  
    The display area in your browser is reduced.
 

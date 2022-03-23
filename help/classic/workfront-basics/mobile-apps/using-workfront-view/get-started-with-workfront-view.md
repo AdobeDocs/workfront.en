@@ -46,23 +46,23 @@ Users with Requestor and External licenses cannot access Workfront using the Wor
 You must have an Apple Cloud account to be able to install applications on an iPad.
 
 1. Go to the App Store on your iPad.
-1. Search for `Workfront View`, then tap it when it appears on the list.
+1. Search for **Workfront View**, then tap it when it appears on the list.
 1. Tap the download from the cloud icon to install the app, then follow the steps to complete the installation.
-1. Tap `Open` to open the app.
+1. Tap **Open** to open the app.
 
 ## Log in to Workfront View
 
-1. Go to the `Workfront View` app on your iPad.  
+1. Go to the **Workfront View** app on your iPad.  
    ![workfront_view_app_Adobe.png](assets/workfront-view-app-adobe-350x261.png)
 
-1. (Optional) Tap `Try the demo` to take a brief demo of the app.  
+1. (Optional) Tap **Try the demo** to take a brief demo of the app.  
    The demo shows sample projects, not the projects in your Workfront system.  
    ![workfront_view_demo.jpg](assets/workfront-view-demo-350x256.jpg)
 
-1. Specify your `Workfront Username`.
-1. Specify your `Workfront Password`.
-1. Specify the `Workfront URL` of your company.  
-   The URL should be in this format: `yourCompanyDomain.my.workfront.com`
+1. Specify your **Workfront Username**.
+1. Specify your **Workfront Password**.
+1. Specify the **Workfront URL** of your company.  
+   The URL should be in this format: ```yourCompanyDomain.my.workfront.com```
 
-1. Tap `LOG IN`.
+1. Tap **LOG IN**.
 

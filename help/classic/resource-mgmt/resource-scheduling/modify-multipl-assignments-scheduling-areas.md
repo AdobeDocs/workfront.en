@@ -16,7 +16,7 @@ description: We are no longer developing the Resource Scheduling tools and they 
 >
 >For more information about the timeline for removing the Resource Scheduling tools and replacing them with the Workload Balancer, see [Deprecation of Resource Scheduling tools in Adobe Workfront](../../resource-mgmt/resource-mgmt-overview/deprecate-resource-scheduling.md).
 
-This article refers to modifying user assignments for multiple tasks using the Scheduling area of Adobe Workfront in the People area. Please also see the following articles for modifying assignments on multiple tasks in other areas:
+This article refers to modifying user assignments for multiple tasks using the Scheduling area of Adobe Workfront  in the People area . Please also see the following articles for modifying assignments on multiple tasks in other areas:
 
 * For information about modifying assignments on multiple tasks in a task list, see [Modify multiple user assignments in a task list](../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md). 
 * For information about scheduling resources using the new Workload Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md).
@@ -25,7 +25,7 @@ You can assign users to multiple tasks at the same time when using the Resource 
 
 >[!NOTE]
 >
->This article applies only when scheduling resources for multiple projects (from the Scheduling tab) or for a single project (from the Staffing tab ); you cannot manage user assignments for multiple tasks as described in this section when scheduling resources for a team (from the Working On tab ).
+>This article applies only when scheduling resources for multiple projects (from the Scheduling  tab ) or for a single project (from the  Staffing tab  ); you cannot manage user assignments for multiple tasks as described in this section when scheduling resources for a team (from the  Working On tab  ).
 
 ## Access requirements
 
@@ -80,45 +80,45 @@ For example:
 
 1. Go to the scheduling timeline for multiple projects or for an individual project:
 
-  * **For multiple projects**:&nbsp;Click People in the Global Navigation Bar, click the Workload Balancer tab, then click Switch back to Scheduling. 
-  * **For an individual project**: Go to a project, then click the Staffing tab (the Staffing tab might be located under the More menu), then ensure that the Scheduling tab is selected and click Switch back to Scheduling.
+   * **For multiple projects**:&nbsp; Click **People** in the Global Navigation Bar, click the **Workload Balancer** tab, then click **Switch back to Scheduling**.  
+   * **For an individual project**:  Go to a project, then click the **Staffing** tab (the Staffing tab might be located under the **More** menu), then ensure that the **Scheduling** tab is selected and click **Switch back to Scheduling**.
 
-1. Click `Actions`.  
+1. Click **Actions**.  
    ![resource_scheduling.png](assets/resource-scheduling.png)
 
-1. In the `Select Project` field, depending on whether you are viewing the scheduling timeline for multiple projects (from the Scheduling tab) or for an individual project (from the Staffing tab), do either of the following:
+1. In the **Select Project** field, depending on whether you are viewing the scheduling timeline for multiple projects (from the Scheduling tab) or for an individual project (from the Staffing tab), do either of the following:
 
-  * `For multiple projects:` Begin typing the name of the project where you want to make assignment changes, then click the name when it appears in the drop-down list. Or, click the drop-down arrow to choose from a list of projects. Repeat this process to make assignment changes across multiple projects.  
-    Leave this field blank to make assignment changes on all projects for which you are the resource manager.
+   * **For multiple projects:** Begin typing the name of the project where you want to make assignment changes, then click the name when it appears in the drop-down list. Or, click the drop-down arrow to choose from a list of projects. Repeat this process to make assignment changes across multiple projects.  
+     Leave this field blank to make assignment changes on all projects for which you are the resource manager.
 
-    >[!NOTE]
-    >
-    >Projects are available to select only if:
-    >
-    >  
-    >  
-    >  * You are designated as the resource manager on the project  
-    >    For more information, see [Designate Resource Managers for a project or template](../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md).
-    >  
-    >  * The project is in one of the following statuses (or a status that equates with one of these statuses): Planning, Current, or Approved  
-    >    For more information about project statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
-    >  
-    >  * You are a user with a Plan license.
-    >  
-    >
+     >[!NOTE]
+     >
+     >Projects are available to select only if:
+     >
+     >   
+     >   
+     >   * You are designated as the resource manager on the project  
+     >     For more information, see [Designate Resource Managers for a project or template](../../manage-work/projects/planning-a-project/designate-resource-managers-for-projects-and-templates.md).
+     >   
+     >   * The project is in one of the following statuses (or a status that equates with one of these statuses): Planning, Current, or Approved  
+     >     For more information about project statuses, see [Create or edit a status](../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+     >   
+     >   * You are a user with a Plan license.
+     >   
+     >
 
-  * `For an individual project:` The `Select Project` field cannot be modified. The `Select Project` field always contains the name of the project you are viewing.
+   * **For an individual project:** The **Select Project** field cannot be modified. The **Select Project** field always contains the name of the project you are viewing.
 
-1. (Optional) Click `Specify tasks` to modify assignment changes on individual tasks. When you specify individual tasks, any projects you selected in the `Select Project` field are ignored.   
-   In the `Select Tasks` field, begin typing the name of the task where you want to make assignment changes. Repeat this step to make assignment changes on additional tasks.  
+1. (Optional) Click **Specify tasks** to modify assignment changes on individual tasks. When you specify individual tasks, any projects you selected in the **Select Project** field are ignored.   
+   In the **Select Tasks** field, begin typing the name of the task where you want to make assignment changes. Repeat this step to make assignment changes on additional tasks.  
    If you leave this field blank, all tasks within the projects you selected in Step 3 are affected.  
    When you make assignment changes on individual tasks, changes are applied to all subtasks for the tasks that you specify. Changes are also applied to all issues associated with the tasks if issues are configured to display on the scheduling timeline, as described in [You can configure various settings to customize how and what information displays in the scheduling timeline.](../../resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md#configuring-issues-to-display-on-the-scheduling-timeline) in [Configure settings in the Scheduling areas](../../resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md).
 
 1. Continue with any of the following sections:
 
-  * [Assign a user](#assigning-a-user)
-  * [Swap a user](#swapping-a-user)
-  * [Unassign a user](#unassigning-a-user)
+   * [Assign a user](#assigning-a-user)
+   * [Swap a user](#swapping-a-user)
+   * [Unassign a user](#unassigning-a-user)
 
 ### Assign a user
 
@@ -131,17 +131,17 @@ When you assign a user in this way, the user is not assigned to the following ty
 
 To assign a user to tasks throughout the selected projects or tasks:
 
-1. Select `Assign User` in the `Select Action` section.  
+1. Select **Assign User** in the **Select Action** section.  
    ![](assets/resource-scheduling-assign-350x393.png)
 
-1. In the `Select Role` field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned to tasks within the specified projects are displayed.   
+1. In the **Select Role** field, click the drop-down arrow to choose from a list of roles. Only roles currently assigned to tasks within the specified projects are displayed.   
    When you assign a user, the user replaces the roles that you select here.
 
-1. In the `Select User to Assign` field, click the drop-down arrow to choose from a list of users.   
-   If the `Limit Assignments to Users with a Matching Role` option is enabled in the Settings area, users are available to select only if they have the selected role assigned to them in their user settings (either as the Primary Role or an Other Role). If this option is disabled, you can begin typing the name of another user you want to assign, even if that user does not have a matching role defined in the system. The option is enabled by default.  
+1. In the **Select User to Assign** field, click the drop-down arrow to choose from a list of users.   
+   If the **Limit Assignments to Users with a Matching Role** option is enabled in the Settings area, users are available to select only if they have the selected role assigned to them in their user settings (either as the Primary Role or an Other Role). If this option is disabled, you can begin typing the name of another user you want to assign, even if that user does not have a matching role defined in the system. The option is enabled by default.  
    For more information about this option, see [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md). By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them. 
 
-1. Click `Assign`.  
+1. Click **Assign**.  
    You can make a maximum of 1,000 assignments in a single action. If the selections you make will make more than 1,000 assignment changes, you must re-adjust your selections and try again.
 
 ### Swap a user
@@ -152,23 +152,23 @@ When you swap a user's task assignments as described in this section, any assign
 
 To swap a user's task assignments with the task assignments of another user:
 
-1. Select `Swap User` in the `Select Action` section.  
+1. Select **Swap User** in the **Select Action** section.  
    ![](assets/resource-scheduling-swap-350x393.png)
 
-1. In the `Select User` field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to swap, then click the name when it appears in the drop-down list).   
+1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to swap, then click the name when it appears in the drop-down list).   
    Users are displayed only when they are assigned to one or more uncompleted tasks within the specified projects.
 
-1. (Conditional) The `Select a Role` field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view the job role set on the task for a user, see the `Assignee's Role` column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
-   In the `Select a Role` field, select the role to determine the type of tasks you want to swap. Only the tasks for which the user is assigned with this role will be assigned to the new user.  
+1. (Conditional) The **Select a Role** field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view the job role set on the task for a user, see the **Assignee's Role** column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
+   In the **Select a Role** field, select the role to determine the type of tasks you want to swap. Only the tasks for which the user is assigned with this role will be assigned to the new user.  
    For example, Hanna Marin is assigned to 5 tasks on the project. On 2 of the tasks her job role is defined as an "Engineer." On the remaining 3 of her tasks her job role is defined as a "Designer." If you select Designer in the Select Role field, this means you want to change the assignments on all 3 of Hanna's tasks where her job role is defined as a "Designer." The 2 tasks where her job role is defined as an "Engineer" remain unchanged.   
    ![](assets/resource-scheduling-swap-role-350x439.png)
 
-1. In the `Select User to Assign` field, click the drop-down arrow to choose from a list of users. Users are available to assign only if their roles (as defined in their user settings) match the roles of the work assigned to the user you are replacing.   
-   If the `Limit Assignments to Users with a Matching Role` option is enabled in the Settings area, users are available to assign only if their roles (as defined in their user settings) match the roles of the work assigned to the user you are replacing. If this option is disabled, you can begin typing the name of another user you want to assign, even if that user does not have a matching role defined in the system. The option is enabled by default.  
+1. In the **Select User to Assign** field, click the drop-down arrow to choose from a list of users. Users are available to assign only if their roles (as defined in their user settings) match the roles of the work assigned to the user you are replacing.   
+   If the **Limit Assignments to Users with a Matching Role** option is enabled in the Settings area, users are available to assign only if their roles (as defined in their user settings) match the roles of the work assigned to the user you are replacing. If this option is disabled, you can begin typing the name of another user you want to assign, even if that user does not have a matching role defined in the system. The option is enabled by default.  
    For more information about this option, see [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md). By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them.   
-   If the user you are replacing is assigned in multiple roles on tasks in the selected projects, and you select more than one role in the `Select a Role` field, the `Select User to Assign` field shows only users who have all of the specified roles.
+   If the user you are replacing is assigned in multiple roles on tasks in the selected projects, and you select more than one role in the **Select a Role** field, the **Select User to Assign** field shows only users who have all of the specified roles.
 
-1. Click `Swap`.  
+1. Click **Swap**.  
    You can make a maximum of 1,000 assignments in a single action. If the selections you make will make more than 1,000 assignment changes, you must re-adjust your selections and try again.
 
 ### Unassign a user
@@ -183,15 +183,15 @@ Tasks marked Complete cannot be unassigned.
 
 To unassign a user from tasks throughout the selected projects or for the selected tasks:
 
-1. Select `Unassign User` in the `Select Action`section.  
+1. Select **Unassign User** in the **Select Action**section.  
    ![](assets/resource-scheduling-unassign-350x335.png)
 
-1. In the `Select User` field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to unassign, then click the name when it appears in the drop-down list). You can unassign only one user at a time.
-1. (Conditional) The `Select a Role` field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view what job role is set on the task for a user, see the `Assignee's Role` column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
-   In the `Select a Role` field, select the role to determine the type of tasks you want to unassign. Only the tasks where the user is assigned with this role will be unassigned.  
+1. In the **Select User** field, click the drop-down arrow to choose from a list of users (or begin typing the name of the user you want to unassign, then click the name when it appears in the drop-down list). You can unassign only one user at a time.
+1. (Conditional) The **Select a Role** field is displayed only when the user you selected is assigned to multiple tasks with differing roles. (To view what job role is set on the task for a user, see the **Assignee's Role** column in the Advanced Assignment dialog box on the task, as described in [Create advanced assignments](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)).  
+   In the **Select a Role** field, select the role to determine the type of tasks you want to unassign. Only the tasks where the user is assigned with this role will be unassigned.  
    For example, Hanna Marin is assigned to 5 tasks on a project. On 2 tasks, her job role is defined as an Engineer. On the remaining 3 of her tasks her job role is defined as a Designer. If you select Designer in the Select Role field, this means that you want to unassign Hanna on all 3 of her tasks where her job role is defined as a Designer. The 2 tasks where her job role is defined as an Engineer will remain unchanged.  
    ![](assets/resource-scheduling-unassign-role-350x400.png)
 
-1. Click `Unassign`.  
+1. Click **Unassign**.  
    You can make a maximum of 1,000 assignments in a single action. If the selections you make will make more than 1,000 assignment changes, you must re-adjust your selections and try again.
 

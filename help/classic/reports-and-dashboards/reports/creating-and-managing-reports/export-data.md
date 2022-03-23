@@ -86,9 +86,9 @@ Information can be exported in the following formats:
 
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
-* `50,000 rows:` The number of rows of data allowed in a report export for .pdf and Tab Delimited files.  
-  For Excel .xls files, this limit is `65,000 rows`.  
-  For Excel .xlsx files, this limit is `100,000 rows`.  
+* **50,000 rows:** The number of rows of data allowed in a report export for .pdf and Tab Delimited files.  
+  For Excel .xls files, this limit is **65,000 rows**.  
+  For Excel .xlsx files, this limit is **100,000 rows**.  
   These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.
 
   >[!NOTE]
@@ -101,22 +101,22 @@ There are several limitations around the way reports display in Workfront as wel
 
 * These limits apply to:
 
-  * A manual export of a report.
-  * A scheduled report.
-  * An export through an API integration.
-  * Data exported through a kick-start.  
-    For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)  
-  
-    >[!NOTE]
-    >
-    >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
+   * A manual export of a report.
+   * A scheduled report.
+   * An export through an API integration.
+   * Data exported through a kick-start.  
+     For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)   
+   
+     >[!NOTE]
+     >
+     >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
 
-  * Exporting utilization information for a project.  
-    For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project) in [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+   * Exporting utilization information for a project.  
+     For more information about exporting utilization information for a project, see [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md#exporting-utilization-information-for-a-project) in [Overview of the Resource Utilization report](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-* `10MB file size:` File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
-* `65,530 hyperlinks:` This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
-* `256 columns`: This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.
+* **10MB file size:** File size limit for any exported report scheduled for delivery. If an exported file attached to an email is larger than 5MB, a link where the file can be downloaded is emailed instead of the attached exported report.
+* **65,530 hyperlinks:** This is a limit imposed by Excel on documents that contain more than 65,530 hyperlinks. These documents cannot be opened when they are exported manually, or sent in a delivered report. Note that an Excel document may have just 200 rows of data, but if there are more than 65,530 links inside the document, the document does not open. This limit exists on Excel files only, not on the other supported formats.&nbsp;
+* **256 columns**: This is a limit imposed by Excel on documents that contain more than 256 columns. These documents cannot be exported manually, or sent in a delivered report. This limit exists on Excel files only, not on the other supported formats.
 
 If you attempt to export data beyond the limit, you might not receive all of the expected data in the export. Rather, a modified report is produced within the limit.
 
@@ -140,7 +140,7 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
    Leave all items deselected to export the entire list.
 
-1. Click `Export`, then select a format.
+1. Click **Export**, then select a format.
 
    >[!NOTE]
    >
@@ -148,17 +148,17 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
    The options available to you for PDF export depend on the locale settings in your Workfront user settings:
 
-  * North America - letter (default), legal, ledger, A4
+   * North America - letter (default), legal, ledger, A4
 
-    <!--  
-  
-    -->
+     <!--   
+     <img src="assets/north-america.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     -->
 
-  * All locations outside of North America - A3, A4 (default), letter, legal, ledger
+   * All locations outside of North America - A3, A4 (default), letter, legal, ledger
 
-    <!--  
-  
-    -->
+     <!--   
+     <img src="assets/everywhere-else.jpg" alt="" data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     -->
 
 1. (Conditional) Depending on the operating system you use, you might have the option of opening or saving the file. Either open the file with the associated application or save it to your hard drive.
 1. Continue with [Use the exported document](#using-the-exported-document).
@@ -185,23 +185,23 @@ Whether you export a list of objects or a report, your exported file will have a
 * [File names for exported lists](#names-for-exported-lists) 
 * [File names for exported reports](#file-names-for-reports)
 
-#### `File names for exported lists`
+#### **File names for exported lists**
 
 When you export a list of objects, the type of the object is displayed on the exported file in the file name and in the title of the list.
 
-When you export a list of task or issues, the `File Name` can be one of the following:
+When you export a list of task or issues, the **File Name** can be one of the following:
 
 * When you export Task and Issue Lists in a Project:
 
-  * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-  
-  * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   
+   * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
 * When you export Task and Issue Lists in a Task (subtasks):
 
-  * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
-  
-  * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
+   
+   * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
 When you export a list of any other objects from a project to a PDF file, the file name of the exported document indicates the type of objects you exported.  
 For example, the file name may be:
@@ -210,7 +210,7 @@ For example, the file name may be:
 
 * *Exported_Risks*, when exporting a list of Risks on the project(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
-#### `File names for exported reports`
+#### **File names for exported reports**
 
 When you export a report, the file name of the exported report is:
 
@@ -223,7 +223,7 @@ When you export a list of objects, only the file in the PDF format will have a t
 * [Titles for exported lists](#titles-for-lists) 
 * [Titles for exported reports](#titles-for-reports)
 
-#### `Titles for exported lists`
+#### **Titles for exported lists**
 
 When you export Task and Issue&nbsp;Lists in a Project to a PDF file, the title of the exported document is one of the following:
 
@@ -241,7 +241,7 @@ For example, the title may be:
 * *Exported Users*, when exporting the People tab on the project.
 * *Exported Risks*, when exporting a list of Risks on the project.
 
-#### `Titles for exported reports`
+#### **Titles for exported reports**
 
 A report which is exported to a PDF file will have a title.
 
@@ -261,8 +261,8 @@ The timestamp includes:
 
 Depending on the type of document you export, timestamps are displayed in various locations:
 
-* `PDF:` Timestamps are displayed on the footer of each page and in the file name.
-* `Excel:` Timestamps are displayed in the file name.
+* **PDF:** Timestamps are displayed on the footer of each page and in the file name.
+* **Excel:** Timestamps are displayed in the file name.
 
 ### Formatting
 

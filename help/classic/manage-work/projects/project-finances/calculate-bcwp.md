@@ -60,8 +60,8 @@ You must have the following access to perform the steps in this article:
 
 You can configure whether the BCWP is calculated in hours or costs by configuring how the Performance Index Method (PIM) of the project is calculated.
 
-1. Go to a project and select the Project Details tab. 
-1. Click Finance, then Edit Finance and locate the Performance Index Method field.  ![](assets/pim-options-hour-cost-based-350x144.png)
+1. Go to a project and select the **Project Details** tab. 
+1. Click **Finance**, then **Edit Finance** and locate the **Performance Index Method** field.  ![](assets/pim-options-hour-cost-based-350x144.png)
 
 1. Select from the following options:
 
@@ -69,7 +69,7 @@ You can configure whether the BCWP is calculated in hours or costs by configurin
    |---|---|
    | Cost-Based |Workfront calculates the BCWP using the Planned Cost of the tasks. |
 
-1. Click Save. The BCWP of the tasks on the project is calculated using hours or costs.
+1. Click **Save**. The BCWP of the tasks on the project is calculated using hours or costs.
 
 ## Calculate BCWP
 
@@ -104,13 +104,13 @@ BCWP = 25% x $10,000 = $2,500
 You can view the value of the Budgeted Cost of Work Performed in a report or list, by adding the BCWP column to your view.
 
 1. Go to a list of tasks or projects.
-1. Expand the `View` menu and select `New View` or `Customize View`.
+1. Expand the **View** menu and select **New View** or **Customize View**.
 
-1. Click `Add Column`.
-1. In the `Show in this column:` field start typing `BCWP` and click to select it when it displays in the list.
+1. Click **Add Column**.
+1. In the **Show in this column:** field start typing **BCWP** and click to select it when it displays in the list.
 
    ![](assets/bcwp-project-view.png)
 
-1. Click `Save View`.
+1. Click **Save View**.
 1. The BCWP field displays in the view.
 

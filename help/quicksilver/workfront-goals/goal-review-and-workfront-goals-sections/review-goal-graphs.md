@@ -41,7 +41,15 @@ You must have the following access to perform the actions described in this arti
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions on goals</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -82,11 +90,11 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 ## Review goal progress in graphs
 
-1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
 
    This opens the Workfront Goals area. 
 
-1. Click `Graphs` in the left panel.
+1. Click **Graphs** in the left panel.
 
    ![](assets/graphs-in-left-panel.png)
 
@@ -135,18 +143,55 @@ The following charts are available in the Graphs section or Workfront Goals:
 
 1. Hover a week node in the goal progress chart and review the following:
 
-  * `Week date`: The month, day, and year of the selected week.
-  * `Progress`:&nbsp;An average of the actual percent complete of all goals for the selected week.
-  * `Baseline`: An average of the expected percent complete of all goals for the selected week.
+  * **Week date**: The month, day, and year of the selected week.
+  * **Progress**:&nbsp;An average of the actual percent complete of all goals for the selected week.
+  * **Baseline**: An average of the expected percent complete of all goals for the selected week.
 
-1. (Optional) Click `Progress` at the bottom of the progress chart to remove the actual overall progress line
+1. (Optional)&nbsp;Click **Progress** at the bottom of the progress chart to remove the actual overall progress line
 
    Or
 
-   Click `Baseline` at the bottom of the progress chart to remove the expected progress from the chart.
+   Click **Baseline** at the bottom of the progress chart to remove the expected progress from the chart.
 
 <!--
-(Optional) Click one of the following tabs to view goals filtered by their owners: Personal Goals where you are designated as the owner or that have a result or activity that you own. My Teams Goals where any of your teams is designated as the Owner. Tip: If you are not assigned to any teams, no results display when you select the My Teams filter. My Groups Goals where any of your groups is designated as the Owner. Company Goals where your organization is the owner. This is the organization associated with your Workfront instance, as described in Configure basic information for your system. Tip: In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. All Goals owned by you, your teams, your groups, your company, or anyone in your organization.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(Optional) Click one of the following tabs to view goals filtered by their owners: </p>
+<div>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Personal</td>
+<td>Goals where you are designated as the owner or that have a result or activity that you own.&nbsp;</td>
+</tr>
+<tr>
+<td role="rowheader">My Teams</td>
+<td> <p>Goals where any of your teams is designated as the Owner. </p> <note type="tip">
+<span>If you are not assigned to any teams, no results display when you select the My Teams filter. </span>
+</note> </td>
+</tr>
+<tr>
+<td role="rowheader">My Groups</td>
+<td>Goals where any of your groups is designated as the Owner. </td>
+</tr>
+<tr>
+<td role="rowheader">Company</td>
+<td> <p>Goals where your organization is the owner.&nbsp;This is the organization associated with your Workfront instance, as described in <a href="../../administration-and-setup/get-started-wf-administration/configure-basic-info.md" class="MCXref xref">Configure basic information for your system</a>. </p>
+<div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>">
+<span class="autonumber"><span><b>Tip: </b></span></span>
+<p>In Adobe Workfront Goals, the Company filter displays the goals for which your organization is selected as the owner. </p>
+<p>You cannot search for companies using this field. Only your organization who is the owner of your Workfront instance is selected by default. </p>
+</div> </td>
+</tr>
+<tr>
+<td role="rowheader">All</td>
+<td>Goals owned by you, your teams, your groups, your company, or anyone in your organization.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
 -->
 
 &nbsp;

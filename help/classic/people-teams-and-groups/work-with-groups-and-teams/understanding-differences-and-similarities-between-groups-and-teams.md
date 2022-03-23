@@ -35,7 +35,7 @@ For more information about creating and managing teams, see [Create and manage t
 
 The&nbsp;following table illustrates differences and similarities between groups and teams:
 
-| `Functionality`  | `Group`  | `Team`  |
+| **Functionality** |**Group** |**Team** |
 |---|---|---|
 | A Planner can create |&nbsp; |✓ |
 | Only a Workfront administrator can create |✓ |&nbsp; |

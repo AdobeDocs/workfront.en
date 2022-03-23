@@ -26,12 +26,12 @@ See the following sections for information about how to brand various aspects of
 To enable branding on your account:
 
 1. Log in to Workfront Proof as the Workfront Proof administrator.
-1. Click `Account Settings` in the upper-right corner of the Workfront Proof interface.
+1. Click **Account Settings** in the upper-right corner of the Workfront Proof interface.
 
    For more information about the various account settings you can configure, see&nbsp; [Account settings.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Click the `Settings` tab.
-1. In the `Branding` section, click  `Enable`. (1)
+1. Click the **Settings** tab.
+1. In the **Branding** section, click&nbsp;**Enable**. (1)
 
    ![Enable_branding.png](assets/enable-branding-350x177.png)
 
@@ -48,30 +48,30 @@ To enable branding on your account:
 To add your own branding image to the proof loading page of every proof created in your account:
 
 1. Log in to Workfront Proof as the Workfront Proof administrator.
-1. Click `Account Settings` in the upper-right corner of the Workfront Proof interface.
+1. Click **Account Settings** in the upper-right corner of the Workfront Proof interface.
 
    For more information about the various account settings you can configure, see&nbsp; [Account settings.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Click the `Settings` tab.
-1. In the `Branding` section, click `Setup` next to `Proof branding`. (1)
+1. Click the **Settings** tab.
+1. In the **Branding** section, click **Setup** next to **Proof branding**. (1)
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
-1. From the drop-down menu select `Branding image`.  
-   If you select `Disable`, the Workfront Proof logo appears on the proof loading page
+1. From the drop-down menu select **Branding image**.  
+   If you select **Disable**, the Workfront Proof logo appears on the proof loading page
 
-1. Click `Save`. (3)
+1. Click **Save**. (3)
 
    ![Proof_loading_page_setup_2.png](assets/proof-loading-page-setup-2-350x164.png)
 
-1. Click `Edit` to select the branding image (4).
+1. Click **Edit** to select the branding image (4).
 
    You can use&nbsp;JPGs, GIFs, or PNGs. Transparency is supported. The recommended image size is 150x300px. Your image on the login and logout pages will be resized to these dimensions.
 
    ![Proof_loading_page_setup_3.png](assets/proof-loading-page-setup-3-350x116.png)
 
 1. Select the image you want to upload. (5)
-1. Click `Save`.
+1. Click **Save**.
 
    Your branding image now shows on the proof loading page of every proof created in your account.
 
@@ -84,44 +84,44 @@ You can configure your branding image to be included on email notifications sent
 To set up email branding:
 
 1. Log in to Workfront Proof as the Workfront Proof administrator.
-1. Click `Account Settings` in the upper-right corner of the Workfront Proof interface.
+1. Click **Account Settings** in the upper-right corner of the Workfront Proof interface.
 
    For more information about the various account settings you can configure, see&nbsp; [Account settings.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Click the `Settings` tab.
-1. In the `Branding` section, click `Edit` next to the Email application image (1).  
+1. Click the **Settings** tab.
+1. In the **Branding** section, click **Edit** next to the Email application image (1).  
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
 1. Select the image you want to use for branding the emails. (2)
 
-   If you have an email branding already configured and you want to disable it, click `Clear`. (4)
+   If you have an email branding already configured and you want to disable it, click **Clear**. (4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 
-1. Click `Save.`
+1. Click **Save.**
 
    The image now appears on all proof notifications emails. (3)
 
    ![Branding_-_email_notification.png](assets/branding---email-notification-350x195.png)
 
 <!--
-Custom Sub-Domains
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="custom_sub_domains"></a>Custom Sub-Domains</h2>
 -->
 
 <!--
-You can add your brand name to your Workfront Proof account URL. For example, your URL might look like this:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can add your brand name to your Workfront Proof account URL. For example, your URL might look like this:</p>
 -->
 
 <!--
-http://yoursubdomain.proofhq.com
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>http://yoursubdomain.proofhq.com</strong> </p>
 -->
 
 <!--
-This customization is also included in all your proof links, as well as in the 'From' email address for your proof notifications.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">This customization is also included in all your proof links, as well as in the 'From' email address for your proof notifications.</p>
 -->
 
 <!--
-For more information on how to set up a branded sub-domain, see Configure a branded domain in Workfront Proof
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information on how to set up a branded sub-domain, see <a href="../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md" class="MCXref xref">Configure a branded domain in Workfront Proof</a></p>
 -->
 
 ## Suppression of Buttons and Links via the API

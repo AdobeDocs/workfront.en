@@ -31,6 +31,59 @@ This setting affects user availability in the following circumstances when sched
 * When displaying allocation indicators, as described in the section "Allocation indicators" in the article&nbsp; [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md).
 
 <!--
-Access requirements You must have the following: Adobe Workfront plan* Any Adobe Workfront license* Plan Access level configurations* System administrator Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions For information on requesting additional access, see Request access to objects in Adobe Workfront. *To find out what plan, license type, or access you have, contact your Workfront administrator. Configure how Workfront calculates resource availability when scheduling resources Log in to Workfront as an administrator. Go to the Setup area in your Global Navigation Bar. Click Resource Management. Select to calculate the availability of users in Workfront using one of the following methods: The Default Schedule: The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user when scheduling resources. The Schedule of the user is ignored. In this case: The Available Hours for a user when scheduling resources are calculated using the following formula: User Available Hours = Default Schedule Hours * User FTE value For example, if the Default Schedule has 40 hours a week available for work, and the user FTE is 0.5, the user is available to work for 20 hours a week in the Scheduling area. For more information about schedules, including the Default Schedule, see Create a schedule. The Available FTE for the user when scheduling resources is the same as the user FTE specified in the user settings. For example, if the user FTE is 0.5 in the user settings, the available FTE of the user is 0.5 in the Resource Planner. For more information about the value of the user FTE as it displays in the user settings, see Edit a user's profile. The User's Schedule: The Schedule of the user is used to determine the availability of the user when scheduling resources. The value of the user FTE is ignored. In this case: The Available Hours in the Resource Planner are the same as the Hours from the Schedule of the user. For example, if the Schedule of the user has 40 hours a week available for work, the user is available to work for 40 hours a week in the Resource Planner. The Available FTE in the Resource Planner is calculated by the following formula: User Available FTE = Hours from the Schedule of the User/ Default Schedule Hours For example, if the Schedule of the user has 20 hours available to work, and the Default Schedule in Workfront has 40 hours available to work, the user's FTE is 0.5. For more information about schedules, including the Default Schedule, see Create a schedule. Note: If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div>
+<h2>Access requirements</h2>
+<p>You must have the following:</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Adobe Workfront plan*</td>
+<td> <p>Any</p> </td>
+</tr>
+<tr>
+<td role="rowheader">Adobe Workfront license*</td>
+<td> <p>Plan </p> </td>
+</tr>
+<tr>
+<td role="rowheader">Access level configurations*</td>
+<td> <p>System administrator</p> <note type="note">
+If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see
+<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
+</note> </td>
+</tr> <!--
+<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<td role="rowheader">Object permissions</td>
+<td> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td>
+</tr>
+-->
+</tbody>
+</table>
+<p>*To find out what plan, license type, or access you have, contact your Workfront administrator.</p>
+</div>
+<h2>Configure how Workfront calculates resource availability when scheduling resources</h2>
+<ol>
+<li value="1">Log in to Workfront as an administrator. </li>
+<li value="2"><![CDATA[
+]]> Go to the&nbsp; <strong>Setup</strong>&nbsp;area in your Global Navigation Bar. <br></li>
+<li value="3"> <p> Click&nbsp;<strong>Resource Management</strong>.<br></p> <p> <br> </p> </li>
+<li value="4"> Select to calculate the availability of users in Workfront using&nbsp;one of the following methods:
+<ul>
+<li><strong>The Default Schedule</strong>:&nbsp;The Default Schedule of the system and the user FTE are used to determine the Available Hours and FTE value for the user when scheduling resources. The Schedule of the user is ignored. In this case:&nbsp;
+<ul>
+<li> The&nbsp;<strong>Available Hours</strong> for a user when scheduling resources<strong></strong>are calculated using the following formula:<br><code>User Available Hours = Default Schedule Hours * User FTE </code><em><code>value</code>&nbsp;</em><br>For example, if the&nbsp;Default Schedule has 40 hours a week available for work, and the user FTE is 0.5, the user is available to work for 20 hours a week in the Scheduling area.<br>For more information about schedules, including the Default Schedule, see&nbsp;<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li>
+<li> The&nbsp;<strong>Available FTE</strong>for the user when scheduling resources<strong></strong>is the same as the user FTE specified in the user settings.&nbsp;&nbsp;<br>For example, if the user FTE is 0.5 in the user settings, the available FTE of the user is 0.5 in the Resource Planner.&nbsp;For more information about the value of the user FTE as it displays in the user settings, see&nbsp;<a href="../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.<br></li>
+</ul></li>
+<li><strong>The User's Schedule</strong>: The Schedule of the user&nbsp;is used to determine the availability of the user when scheduling resources.&nbsp;The value of the user FTE is ignored. In this case:&nbsp;
+<ul>
+<li> The&nbsp;<strong>Available Hours</strong>in the<strong>Resource Planner</strong>are the same as the Hours from the Schedule of the user.<br>For example, if the Schedule of the user has 40 hours a week available&nbsp;for work, the user is available to work for 40 hours a week in the Resource Planner.&nbsp; </li>
+<li> The&nbsp;<strong>Available FTE</strong>in the<strong>Resource Planner</strong>&nbsp;is calculated by the following formula:<br><em>User Available FTE =&nbsp;Hours from the Schedule of the User/ Default Schedule Hours<br></em>For example, if the Schedule of the user has 20 hours available to work, and the Default Schedule in Workfront has 40 hours available to work, the user's FTE is 0.5.<br>For more information about schedules, including the Default Schedule, see&nbsp;<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.</li>
+</ul> <note type="note"> &nbsp;If the user is not associated with a schedule, the Available Hours for the user are calculated using the Default Schedule.
+</note></li>
+</ul></li>
+</ol>
+</div>
 -->
 

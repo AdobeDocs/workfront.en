@@ -10,13 +10,13 @@ You can add the following types of visualizations to a report:
 * Column
 
   <!--
-  Line
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Line</p> </li>
   -->
 
 * Pie
 
   <!--
-  Bubble
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Bubble</p> </li>
   -->
 
 * KPI
@@ -42,7 +42,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to create reports, calendars, and dashboards</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> Object permissions Manage access to the report For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage access to the report</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -53,20 +57,22 @@ You must have the following access to perform the steps in this article:
 Before you begin, you must enroll in the Reporting Canvas beta program.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
+</MadCap:conditionalText>
 -->
 
 ## Add or edit a visualization in a report
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Reports`.
-1. Click `New report`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click **New report**.
 
    Or
 
-   Go to an existing report, click the `More Menu` icon ![](assets/more-icon.png) in the report header, then select `Edit`.
+   Go to an existing report, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**.
 
 1. (Conditional) In the report building that displays, if there isn't already a table on the canvas, add and configure one as explained in [Add or edit a report table in Reporting Canvas](../../reports-and-dashboards/new-reporting-experience/add-or-edit-report-table.md).
-1. From the right panel, double-click the `Visualization` icon ![](assets/visualization-icon.png) or drag it onto the canvas where you want it.
+1. From the right panel, double-click the **Visualization** icon ![](assets/visualization-icon.png) or drag it onto the canvas where you want it.
 
    If you double-click the icon, the visualization displays at the top of the canvas in its default size, which you can change by dragging its corner handles.
 
@@ -84,7 +90,7 @@ For more information, see [link to Beta enrollment info].
 
    >[!TIP]
    >
-   >If you created the table after you added the visualization, the bar chart is selected by default. To change the type, click the `Settings` icon.
+   >If you created the table after you added the visualization, the bar chart is selected by default. To change the type, click the **Settings** icon.
 
 1. Continue on to configure your visualization:
 

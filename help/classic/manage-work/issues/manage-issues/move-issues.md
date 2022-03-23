@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> <p>Review or higher license to move issues in the Issues tabof a project.</p> </td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to move issues in the Issues tab of a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -48,9 +48,9 @@ You must have the following access to perform the steps in this article:
 
 Consider the following when moving&nbsp;issues that contain documents or are associated with a request queue:
 
-* `When an issue is associated with a requests queue:` When you move&nbsp;an issue to another object&nbsp;and the issue&nbsp;is associated with a request queue, the moved&nbsp;issue is no longer associated with the original queue&nbsp;the first issue originated from.
-* `When a document is attached to the issue:`&nbsp;When you move&nbsp;an issue to another object&nbsp;and the issue has a document attached to it, the document, its versions and proofs also move to the new&nbsp;issue. Any approvals associated with the document do&nbsp;not move.
-* `When an issue is linked to a document or a folder:`&nbsp;When you move&nbsp;an issue which has documents or folders linked to a a third party service like Google Drive, the&nbsp;links to the documents move with the issue.&nbsp;
+* **When an issue is associated with a requests queue:** When you move&nbsp;an issue to another object&nbsp;and the issue&nbsp;is associated with a request queue, the moved&nbsp;issue is no longer associated with the original queue&nbsp;the first issue originated from.
+* **When a document is attached to the issue:**&nbsp;When you move&nbsp;an issue to another object&nbsp;and the issue has a document attached to it, the document, its versions and proofs also move to the new&nbsp;issue. Any approvals associated with the document do&nbsp;not move.
+* **When an issue is linked to a document or a folder:**&nbsp;When you move&nbsp;an issue which has documents or folders linked to a a third party service like Google Drive, the&nbsp;links to the documents move with the issue.&nbsp;
 
 ##
 
@@ -64,11 +64,13 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
    Go to an issue report.
 
-1. Click the `More` drop-down menu at the top of the issue list, then click `Move` to.
+1. Issues
+1. 
+1. Click the **More**&nbsp;drop-down menu at the top of the issue list, then click **Move** **to**.
 
-1. The `Move Issue` or `Move Issues` box displays. 
+1. The **Move Issue** or **Move Issues** box displays. 
 
-1. Specify the name of the project where you want to move the issues in the `Select Destination Project` section.
+1. Specify&nbsp;the name of the project where you want to move the issues in the **Select Destination Project** section.
 
    >[!TIP]
    >
@@ -82,27 +84,28 @@ You can move one or multiple issues from a list of issues or from an issue repor
 
 You can move one issue when viewing it.
 
-1. Go to an issue that you want to move, then click Issue Actions in the upper-right corner of the page, then click Move. The `Move Issue` box displays. 
-1. Specify the name of the project where you want to move the issues in the `Select Destination Project` section. The name of the current project displays by default.
+1. Go to an issue that you want to move, then click **Issue Actions** in the upper-right corner of the page, then click **Move**.  The **Move Issue** box displays. 
+
+1. Specify&nbsp;the name of the project where you want to move the issues in the **Select Destination Project** section. The name of the current project displays by default.
 
    >[!TIP]
    >
    >Only 50 projects display in the list.
 
-1. (Optional) Click `Next Step.`
+1. (Optional) Click **Next Step.**
 
    Or
 
-   Select `Task` to select a task to move the issue to.
+   Select **Task** to select a task to move the issue to.
 
    ![move_issue_last_step.png](assets/move-issue-last-step-350x165.png)
 
-1. (Optional) Click `Go back a Step` to go back to the previous screen in the Move Issue box. 
-1. Click `Finish and Move Issue`.
+1. (Optional)&nbsp;Click **Go back a Step** to go back to the previous screen in the Move Issue box. 
+1. Click **Finish and Move Issue**.
 
    Or
 
-   Click `Finish and Move Issues` when you copy multiple issues in a list.
+   Click**Finish and Move Issues** when you copy multiple issues in a list.
 
    The copied issue is added to the specified project.&nbsp;
 

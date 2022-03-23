@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: Test the Resource Scheduling tools (Beta)
 description: The goal of testing the new Resource Scheduling tool in your environment is to:
+hidefromtoc: true
 ---
 
 # Test the Resource Scheduling tools (Beta)

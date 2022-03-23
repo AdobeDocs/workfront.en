@@ -23,7 +23,7 @@ To budget time for your resources for the projects you plan to assign them to, y
 
 * For budgeting allocations for and prioritize multiple projects at the system-level: use the system-level Resource Planner.
 
-  You can access the Resource Planner by going to the Resource Planner subtab in the Peoplearea.
+  You can access the Resource Planner by going to the Resource Planner subtab in the People area.
 
   For information about the Resource Planner, see [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
@@ -39,66 +39,74 @@ To budget time for your resources for the projects you plan to assign them to, y
 
 * Using the Resource Planner you can do the following:
 
-  * Prioritize your projects to decide which projects should receive resources first. (Only in the Resource Planner)
-  * Understand the availability of your resources based on the schedule of your users.
-  * Budget hour, FTE, or cost allocations for your resources (users and job roles) for the projects to which they are assigned.
+   * Prioritize your projects to decide which projects should receive resources first. (Only in the Resource Planner)
+   * Understand the availability of your resources based on the schedule of your users.
+   * Budget hour, FTE, or cost allocations for your resources (users and job roles) for the projects to which they are assigned.
 
   For information about working in the Resource Planner, see the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 <!--
-Prerequisites for resource planning
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="understanding-prerequisites"></a>Prerequisites for resource planning</h2>
 -->
 
 <!--
-To successfully use the Resource Planner for budgeting your resources, you must first ensure that you, your projects, and your tasks meet a set of prerequisites. These prerequisites are mandatory to display the correct information in the Resource Planner and to accurately manage your resources.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To successfully use the Resource Planner for budgeting your resources, you must first ensure that you, your projects, and your tasks meet a set of prerequisites. These prerequisites are mandatory to display the correct information in the Resource Planner and to accurately manage your resources. </p>
 -->
 
 <!--
-Important: If any of the following prerequisites are missing, you might find that some of the information about the allocation or the availability of the resources is missing or has a zero value. For more information understanding why fields are missing data or have zero values, hover over the fields.
+<note type="important">
+If any of the following prerequisites are missing, you might find that some of the information about the allocation or the availability of the resources is missing or has a zero value.
+<br>For more information understanding why fields are missing data or have zero values, hover over the fields.
+</note>
 -->
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/no-users-with-this-role-in-the-res-pool-350x57.png" style="width: 350;height: 57;"> </p>
 -->
 
 <!--
-Note: The following prerequisites are required only when viewing the Resource Planner by project or by job role or when budgeting resources in the Business Case of a project. For more information about the views in the Resource Planner, see the "Project/ Role/ User view" selection section in the article Resource Planner overview.
+<note type="note">
+The following prerequisites are required only when viewing the Resource Planner by project or by job role or when budgeting resources in the Business Case of a project.
+<br>For more information about the views in the Resource Planner, see the "Project/ Role/ User view" selection section in the article
+<a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.
+<br>
+</note>
 -->
 
 <!--
-The following types of prerequisites are required for the correct functionality of the Resource Planner:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following types of prerequisites are required for the correct functionality of the Resource Planner: </p>
 -->
 
   <!--
-  User prerequisites
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#user-prerequisites" class="MCXref xref">User prerequisites</a> </li>
   -->
 
   <!--
-  Project prerequisites
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#project-prerequisites" class="MCXref xref">Project prerequisites</a> </li>
   -->
 
   <!--
-  Tasks and issues prerequisites
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#tasks-prerequisites" class="MCXref xref">Tasks and issues prerequisites</a> </li>
   -->
 
 <!--
-User prerequisites
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="user-prerequisites"></a>User prerequisites</h3>
 -->
 
 <!--
-Ensure the following user setup exists before starting using the Resource Planner:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Ensure the following user setup exists before starting using the Resource Planner:</p>
 -->
 
-`<li>  <ul>   <li> <!--    You have the correct access to budget resources.   --> <!--    For information about the access needed to budget resources, see the article Access needed to budget resources.   --> </li>  </ul> </li>`
+```<li>  <ul>   <li> <!--    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have the correct access to budget resources.</p>   --> <!--    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>.</p>   --> </li>  </ul> </li>```
 
 * 
 
   <!--
-  Users who are assigned to tasks are added to the Resource Pools associated with the project.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who are assigned to tasks are added to the Resource Pools associated with the project.</p>
   -->
 
   <!--
-  For information about adding users to Resource Pools, see Associate resource pools with users in Adobe Workfront and Create resource pools in Adobe Workfront.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about adding users to Resource Pools, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associate resource pools with users in Adobe Workfront</a> and <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a>.</p>
   -->
 
   >[!NOTE]
@@ -106,134 +114,159 @@ Ensure the following user setup exists before starting using the Resource Planne
   >
   >
   ><!--  >
-  >When users are not added to Resource Pools, the following scenarios may exist:  >
+  ><p data-mc-conditions="QuicksilverOrClassic.Draft mode">When users are not added to Resource Pools, the following scenarios may exist: </p>  >
   >-->  >
   >
   >
-  >  
-  >  
-  >  
-  >  
-  >    <!--  >  
-  >    The users do not appear in the Resource Planner although they might be assigned to tasks on the projects.  >  
-  >    -->  >  
-  >  
-  >  
-  >  
-  >    <!--  >  
-  >    If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks.  >  
-  >    -->  >  
-  >  
-  >  
-  >  
-  >    <!--  >  
-  >    If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted.  >  
-  >    -->  >  
-  >  
-  >  
+  >   
+  >   
+  >   
+  >   
+  >     <!--  >   
+  >     <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">The users do not appear in the Resource Planner although they might be assigned to tasks on the projects. </li>  >   
+  >     -->  >   
+  >   
+  >   
+  >   
+  >     <!--  >   
+  >     <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">If the tasks they are associated with have Planned Hours, those hours do not appear for the project in the Resource Planner, unless the user is also associated with a job role on those tasks. </li>  >   
+  >     -->  >   
+  >   
+  >   
+  >   
+  >     <!--  >   
+  >     <li style="font-style: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">If the users are associated with a job role on a task on the project, the Planned Hours display in the Resource Planner for the job role, but the job role cannot be budgeted. </li>  >   
+  >     -->  >   
+  >   
+  >   
   >
 
 * 
 
   <!--
-  Users who are assigned to work and Resource Pools must have Schedules and Job Roles associated with their profile.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Users who are assigned to work and Resource Pools must have Schedules and Job Roles associated with their profile.</p>
   -->
 
   <!--
-  For information about associating Schedules and Job Roles with users, see the article Add users
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about associating Schedules and Job Roles with users, see the article <a href="../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a></p>
   -->
 
   <!--
-  Note: Users who are not associated with a Schedule but are in the Resource Pool of the project cannot be budgeted in the Resource Planner.
+  <note type="note">
+  Users who are not associated with a Schedule but are in the Resource Pool of the project cannot be budgeted in the Resource Planner.
+  </note>
   -->
 
 * 
 
   <!--
-  For accurate Available Hours information, ensure that the schedules associated with your users have the schedule exceptions and time off updated.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For accurate Available Hours information, ensure that the schedules associated with your users have the schedule exceptions and time off updated.</p>
   -->
 
   <!--
-  Note: If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of the Resource Planner.
+  <note type="note">
+  If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of the Resource Planner.
+  </note>
   -->
 
   <!--
-  For information about creating schedules, see the article Create a schedule.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about creating schedules, see the article <a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">Create a schedule</a>.<br></p>
   -->
 
   <!--
-  If you want to budget your resources by Cost, you must associate Job Roles with Cost/Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project. For information about associating job roles with rates, see the article Create and manage job roles. For information about calculating Budgeted Labor Cost, see the article Understand Budgeted Labor Cost and Budgeted Hours for projects. For information about calculating Budgeted Cost, see the article Calculate Budgeted Cost.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to budget your resources by Cost, you must associate Job Roles with Cost/Hr. rates. The cost associated with Job Roles assigned to users in your Resource Pools is used to calculate the Budgeted Labor Cost and the Budgeted Cost of the project.<br>For information about associating job roles with rates, see the article <a href="../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.<br>For information about calculating Budgeted Labor Cost, see the article <a href="../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>.<br>For information about calculating Budgeted Cost, see the article <a href="../../manage-work/projects/project-finances/budgeted-cost.md" class="MCXref xref">Calculate Budgeted Cost</a>.</li>
   -->
 
 <!--
-Project prerequisites
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="project-prerequisites"></a>Project prerequisites</h3>
 -->
 
 <!--
-Ensure the following project setup exists before starting using the Resource Planner:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Ensure the following project setup exists before starting using the Resource Planner:</p>
 -->
 
   <!--
-  Your projects are associated with Resource Pools. For more information about adding Resource Pools to projects, see Associate resource pools with projects and templates in Adobe Workfront. Important: Projects without Resource Pools do not display Planned Hour or assignments information in the Resource Planner.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> Your projects are associated with Resource Pools.<br>For more information about adding Resource Pools to projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md" class="MCXref xref">Associate resource pools with projects and templates in Adobe Workfront</a>.<br><!--
+  <note type="important">
+  Projects without Resource Pools do not display Planned Hour or assignments information in the Resource Planner.
+  </note>
+  --></li>
   -->
 
 * 
 
   <!--
-  You have the correct access to budget resources.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have the correct access to budget resources.</p>
   -->
 
   <!--
-  For information about the access needed to budget resources, see the article Access needed to budget resources.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the access needed to budget resources, see the article <a href="../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Access needed to budget resources</a>.</p>
   -->
 
 <!--
-Tasks and issues prerequisites
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="tasks-prerequisites"></a>Tasks and issues prerequisites</h3>
 -->
 
 <!--
-Ensure the following tasks and issues setup exists before starting budgeting resources in the Resource Planner:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Ensure the following tasks and issues setup exists before starting budgeting resources in the Resource Planner:</p>
 -->
 
   <!--
-  The tasks or issues on the projects for which you are budgeting resources are assigned to one of these entities: Users in the Resource Pools of the project who are also associated with Job Roles Job Roles Note: Teams assigned to tasks or issues do not display in the Resource Planner. The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a Resource Pool associated with the project.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> The tasks or issues on the projects for which you are budgeting resources are assigned to one of these entities:<br>
+  <ul>
+  <!--
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Users in the Resource Pools of the project who are also associated with Job Roles</li>
+  -->
+  <li>
+  <!--
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Job Roles</p>
+  --></li>
+  </ul><!--
+  <note type="note">
+  Teams assigned to tasks or issues do not display in the Resource Planner. The Planned Hours of tasks and issues assigned to job roles display in the Resource Planner, but these hours cannot be budgeted unless a user who is associated with the job role is listed in a Resource Pool associated with the project.
+  </note>
+  --></li>
   -->
 
 * 
 
   <!--
-  Parent tasks should not be assigned to users or roles.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Parent tasks should not be assigned to users or roles. </p>
   -->
 
   <!--
-  This will impact the value of Planned Hours for the project.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">This will impact the value of Planned Hours for the project. </p>
   -->
 
   <!--
-  Tasks and issues have a value for Planned Hours which is greater than zero.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks and issues have a value for Planned Hours which is greater than zero. </li>
   -->
 
   <!--
-  Tasks and issues have a value for their Duration which is greater than zero.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Tasks and issues have a value for their Duration which is greater than zero. </li>
   -->
 
   <!--
-  The Planned Dates of the issues are within the timeline of the project.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Planned Dates of the issues are within the timeline of the project. </li>
   -->
 
 <!--
-Access resource planning tools in Workfront
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="accessing-resource-planning"></a>Access resource planning tools in&nbsp;Workfront</h2>
 -->
 
 <!--
-You can access the Planner from the Resource Planner subtab of the Resourcing area.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can access the Planner from the Resource Planner subtab of the Resourcing area. </p>
 -->
 
 <!--
-For information about accessing the Planner, see Resource Planner overview.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about accessing the Planner, see <a href="../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.</p>
 -->
 
 <!--
-Create Resource Pools You can manage your user resources by adding users to Resource Pools. Having users organized in Resource Pools and associating the pools with your projects are prerequisites to Resource Planning. For information about adding users to Resource Pools and associating them with projects, see Create resource pools in Adobe Workfront and Associate resource pools with users in Adobe Workfront.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="creating-resource-pools"></a>Create Resource Pools</h2>
+<p>You can manage your user resources by adding users to Resource Pools. Having users organized in Resource Pools and associating the pools with your projects are prerequisites to Resource Planning.</p>
+<p>For information about adding users to Resource Pools and associating them with projects, see <a href="../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md" class="MCXref xref">Create resource pools in Adobe Workfront</a> and <a href="../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md" class="MCXref xref">Associate resource pools with users in Adobe Workfront</a>.</p>
+</div>
 -->
 

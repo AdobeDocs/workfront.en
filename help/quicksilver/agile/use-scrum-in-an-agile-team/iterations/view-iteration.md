@@ -35,6 +35,14 @@ You must have the following access to perform the steps in this article:
 
 ## View iterations assigned to a given team
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
+1. In the left panel, select **Iterations** to choose a specific iteration, or select **Current Iteration**.
+
+1. 
 1. (Optional) Click the name of the specific iteration that you want to view.  
    The iteration stories display.
 

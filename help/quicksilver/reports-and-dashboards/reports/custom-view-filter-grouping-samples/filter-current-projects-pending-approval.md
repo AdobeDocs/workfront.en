@@ -45,11 +45,11 @@ You must have the following access to perform the steps in this article:
 To apply this filter:
 
 1. Go to a list of projects.
-1. From the `Filter` drop-down menu, select `New Filter`.
+1. From the **Filter**&nbsp;drop-down menu, select **New Filter**.
 
-1. Click `Switch to Text Mode`.
-1. In the `Set Filter Rules for your Report` area, copy and paste the following code:  
+1. Click**Switch to Text Mode**.
+1. In the **Set Filter Rules for your Report** area, copy and paste the following code:  
    <pre>status=CUR:A<br>sponsorID=$$USER.ID<br>OR:a:status=CUR:A<br>OR:a:portfolio:ownerID=$$USER.ID</pre>
 
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 

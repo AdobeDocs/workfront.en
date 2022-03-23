@@ -46,17 +46,19 @@ You must have the following access to perform the steps in this article:
 
 You must do the following before you can delete&nbsp;a request draft:
 
-* Start creating a request. This saves the request as a draft automatically in the Drafts section.
+* Start creating a request. This saves the request as a draft automatically in the Drafts section .
 
   For information about creating requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Delete a request draft
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront. 
-1. Click Requests, then click Drafts in the left panel. All drafts for all request queues display in this list. 
-1. (Optional) Click `Filter by request type` in the upper-right corner of the list of drafts, then select the request queue that contains the drafts you want to display. 
-1. Select a draft in the list, then click `Delete` at the top of the list.
-1. Click `Yes, Delete it`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront. 
+
+1. Click&nbsp;**Requests**, then click **Drafts** in the left panel. All drafts for all request queues display in this list. 
+
+1. (Optional) Click **Filter by request type** in the upper-right corner of the list of drafts, then select the request queue that contains the drafts you want to display. 
+1. Select a draft in the list, then click **Delete** at the top of the list.
+1. Click **Yes, Delete it**.
 
    The draft is deleted and cannot be recovered.
 

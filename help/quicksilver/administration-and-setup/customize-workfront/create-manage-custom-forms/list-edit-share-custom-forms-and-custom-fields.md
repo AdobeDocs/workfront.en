@@ -11,11 +11,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -23,11 +31,11 @@ You must have the following to perform the steps in this article:
 
 ## Edit custom forms and custom fields and limit how they can be shared
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Custom Forms`.
+1. Click **Custom Forms**.
 
-   With the `Forms` tab selected, all of your organization's custom forms are listed, along with their descriptions, the object types associated with each custom form, the name of the user who created the custom form, and whether it is active.
+   With the **Forms** tab selected, all of your organization's custom forms are listed, along with their descriptions, the object types associated with each custom form, the name of the user who created the custom form, and whether it is active.
 
    For information about what you can do when you select a custom form in the list, see the following articles:
 
@@ -36,7 +44,7 @@ You must have the following to perform the steps in this article:
   * [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md) 
   * [Delete or deactivate a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
-1. Click the `Fields` tab.
+1. Click the **Fields** tab.
 
    All of your organization's Custom Fields display in the Field List view, along with information about the type of each field, instructions and details about the field, and a list of the custom forms that contain it.
 
@@ -57,7 +65,7 @@ You must have the following to perform the steps in this article:
   * [Configure sharing for a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) 
   * [Delete a custom field](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-1. Select the `Sections` tab.
+1. Select the **Sections** tab.
 
    All the Custom Fields that are Section Breaks display in the Parameter Group List view, along with a list of custom forms that contain the Section Break.
 

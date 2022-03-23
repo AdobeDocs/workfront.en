@@ -49,18 +49,18 @@ You must have the following access to perform the steps in this article:
 ## View Resolvable Objects in a task or project report
 
 1. Go to a list of tasks which have been converted from issues.
-1. From the  `View` drop-down menu, select  `New View`.
+1. From the&nbsp;**View**&nbsp;drop-down menu, select&nbsp;**New View**.
 
-1. In the `Column Preview` area, click `Add Column`.
+1. In the**Column Preview**&nbsp;area, click **Add Column**.
 
-1. Click the header of the new column, then click `Switch to Text Mode`.
-1. Mouse over the text mode area, and click  `Click to edit text`.
-1. Remove the text you find in the  `Text Mode`&nbsp;box, and replace it with the following code:
+1. Click the header of the new column, then click **Switch to Text Mode**.
+1. Mouse over the text mode area, and click&nbsp;**Click to edit text**.
+1. Remove the text you find in the&nbsp;**Text Mode**&nbsp;box, and replace it with the following code:
 
    ```
    displayname=Resolvables<br>listdelimiter=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML
    ```
 
-1. Click `Save View`.  
+1. Click **Save View**.  
    A list of all Resolvable Objects displays in the new column. The names of the objects in the list cannot be linked directly to the objects.
 

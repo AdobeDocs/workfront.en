@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -53,8 +64,8 @@ The SOAP module is currently in beta and does not support:
 * Multiple parts in input and output messages. Only single part messages are supported
 * Custom XML Schema elements defined with the help of SOAP Encoding (http://schemas.xmlsoap.org) schemas and elements.
 
-  ` `**Example: **`` The following would not be recognized correctly by Workfront Fusion:
-  <pre><complexType name="ArrayOfFloat"></pre> `<blockquote> <pre><complexContent></pre> </blockquote>` `<blockquote>  <blockquote>  <pre><restriction base="soapenc:Array"></pre>  </blockquote> </blockquote>` `<blockquote>  <blockquote>   <blockquote>   <pre><attribute ref="soapenc:arrayType"</pre>   </blockquote>  </blockquote> </blockquote>` `<blockquote>  <blockquote>   <blockquote>    <blockquote>     <blockquote>     <pre>wsdl:arrayType="xsd:integer[]"/></pre>     </blockquote>    </blockquote>   </blockquote>  </blockquote> </blockquote>` `<blockquote>  <blockquote>  <pre></restriction></pre>  </blockquote> </blockquote>` `<blockquote> <pre></complexContent></pre> </blockquote>`<pre></complexType></pre>It includes the 
+  ``` ```**Example: **`````` The following would not be recognized correctly by Workfront Fusion:
+  <pre><complexType name="ArrayOfFloat"></pre> ```<blockquote> <pre><complexContent></pre> </blockquote>``` ```<blockquote>  <blockquote>  <pre><restriction base="soapenc:Array"></pre>  </blockquote> </blockquote>``` ```<blockquote>  <blockquote>   <blockquote>   <pre><attribute ref="soapenc:arrayType"</pre>   </blockquote>  </blockquote> </blockquote>``` ```<blockquote>  <blockquote>   <blockquote>    <blockquote>     <blockquote>     <pre>wsdl:arrayType="xsd:integer[]"/></pre>     </blockquote>    </blockquote>   </blockquote>  </blockquote> </blockquote>``` ```<blockquote>  <blockquote>  <pre></restriction></pre>  </blockquote> </blockquote>``` ```<blockquote> <pre></complexContent></pre> </blockquote>```<pre></complexType></pre>It includes the 
 
   ```
   soapenc:Array
@@ -76,10 +87,10 @@ The SOAP module is currently in beta and does not support:
 
 ## Workaround
 
-If the SOAP module refuses to process the WSDL file or throws various errors in the module's configuration, you may try using the universal `HTTP > Make a request` module instead:
+If the SOAP module refuses to process the WSDL file or throws various errors in the module's configuration, you may try using the universal **HTTP > Make a request** module instead:
 
 1. In Workfront Fusion, create a new scenario.
-1. Insert the `HTTP > Make a request` module in the scenario.
+1. Insert the **HTTP > Make a request** module in the scenario.
 1. Open the module's configuration and configure it like shown below:
 
    ![](assets/workaround-350x443.png)
@@ -122,7 +133,7 @@ If the SOAP module refuses to process the WSDL file or throws various errors in 
 1. In Workfront Fusion, paste the URL into the HTTP module's URL field.
 1. Open the [Online SOAP Client](https://wsdlbrowser.com/) in a new web browser window/tab.
 1. Paste the WSDL URL into the WSDL URL field.
-1. Click `Browse`.
+1. Click **Browse**.
 1. Pick from the list of functions to the left, for example 
 
    ```
@@ -136,6 +147,6 @@ If the SOAP module refuses to process the WSDL file or throws various errors in 
 
    ![](assets/request-xml-350x172.png)
 
-1. Close the module's configuration by clicking `OK`.
+1. Close the module's configuration by clicking **OK**.
 1. Execute the scenario or module.
 

@@ -25,29 +25,29 @@ When you rename an asset, Workfront Library changes the file name of the asset a
 
 You can rename only the active (or current) version of an asset in Workfront Library. Older versions of the asset cannot be edited.
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the content you want to rename is located.
 
    You can choose Library or My Content.
 
    ![](assets/library-left-panel---new-350x217.png)
 
-1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
-1. Navigate to the thumbnail for the content and hover, then click the `More` icon in the upper-right corner.
-1. Select `Rename` in the drop-down menu.
-1. Type the new name, then press `Enter`.
+1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Navigate to the thumbnail for the content and hover, then click the **More** icon in the upper-right corner.
+1. Select **Rename** in the drop-down menu.
+1. Type the new name, then press **Enter**.
 
 ## Rename a folder
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where the folder you want to rename is located.
 
    You can choose Library or My Content.
 
-1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
-1. Navigate to the folder thumbnail and hover, then click the `More` icon in the upper-right corner.
-1. Select `Rename` in the drop-down menu.
-1. Type the new name, then press `Enter`.
+1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. Navigate to the folder thumbnail and hover, then click the **More** icon in the upper-right corner.
+1. Select **Rename** in the drop-down menu.
+1. Type the new name, then press **Enter**.
 

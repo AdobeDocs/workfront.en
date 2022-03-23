@@ -27,18 +27,18 @@ For information about the Trash, see [Restore and Empty the Trash in Workfront P
 
 ## Deleting a Proof
 
-1. From any list view, click the `More` menu to the right of the proof.  
+1. From any list view, click the **More** menu to the right of the proof.  
    ![](assets/more-button-small.png)
 
-1. Click `View proof details`&nbsp;in the dropdown menu that appears.
-1. Click the `Delete`&nbsp;button near the top right of the page.
+1. Click **View proof details**&nbsp;in the dropdown menu that appears.
+1. Click the **Delete**&nbsp;button near the top right of the page.
 1. In the dropdown menu that appears, choose whether you want to delete the whole proof or only the particular version you are viewing.
 
 ## Other Ways to Delete a Proof
 
 You can also delete proofs in the locations described below. For a proof with multiple versions, keep in mind that these methods delete the entire proof chain.&nbsp;
 
-* In the proofing viewer, you can click `Delete`&nbsp;in the tool menu on the left.&nbsp;
+* In the proofing viewer, you can click **Delete**&nbsp;in the tool menu on the left.&nbsp;
 * In any list view, you can click the checkbox to the left of the proof (or the checkbox in the header to select all listed proofs), then click Delete above the list.
-* In any list view, you click the `More` menu to the right of the proof, then click  `Delete`.
+* In any list view, you click the **More** menu to the right of the proof, then click&nbsp;**Delete**.
 

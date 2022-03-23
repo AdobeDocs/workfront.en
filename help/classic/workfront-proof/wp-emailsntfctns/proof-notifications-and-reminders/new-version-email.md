@@ -15,7 +15,7 @@ description: Does this apply to PiW?
 >This article refers to functionality in the standalone product Workfront Proof. For information on proofing inside Adobe Workfront, see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
-Does this apply to PiW?
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Does this apply to PiW?</p>
 -->
 
 New version emails are sent when you create a New version of a proof. You can customize and disable them the same way as the New proof emails.

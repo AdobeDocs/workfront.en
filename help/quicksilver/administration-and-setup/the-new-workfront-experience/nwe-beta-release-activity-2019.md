@@ -11,9 +11,89 @@ For the most recent enhancements in the new Workfront experience, see [The new A
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span class="bold">Feature</span> </p> </td> 
-   <td> <p><span class="bold">Release dates</span> </p> </td> 
-  </tr> Workfront comments sync to Jira The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream. Beta Preview release: December 19, 2019 Beta Production release: December 19, 2019 New drop-down menu in the Teams area You can now use a drop-down menu in the Teams area to send a work request and edit or delete a team. Beta Preview release: December 19, 2019 Beta Production release: December 19, 2019 Updated look and feel of the Details page on projects, tasks, and issues There's an improved the look, feel, and overall organization of the elements on the Details pages of projects, tasks, and issues in the new Workfront experience. Beta Preview release: December 19, 2019 Beta Production release: December 19, 2019 Find out if a user, job role, team, or group already has a Layout Template assignment When you are assigning a Layout Template to a user, team, group, or job role that already has a Layout Template assignment, an Info icon displays to inform you about the existing assignment. You can hover the icon to see the assignment and decide whether you want to change it. Beta Preview release: December 19, 2019 Beta Production release: December 19, 2019 Link in document approval email opens Document Details Now, when you receive a document approval notification email, the link inside opens the Document Details page. This page contains the document’s metadata, along with quick access to the proofing viewer and the approval Decision buttons. Beta Preview release: December 19, 2019 Beta Production release: December 19, 2019 Access the Summary side panel from more issue lists The Issue Summary is now available from a list of issues within a task and subtask. Beta Preview release: December 19, 2019 Beta Production release: December 19, 2019 Updates area available in the User Profile You can now access the Updates area in your user profile. Beta Preview release: December 13, 2019 Beta Production release: December 13, 2019 Updated portfolio and program headers The headers for the portfolio and program objects now match those of projects, tasks, and issues. Beta Preview release: December 6, 2019 Beta Production release: December 6, 2019 Project Condition has been added to the new project headers The Project Condition is now available in the header of the project. If the Condition Type of the project is Manual, you can update the Condition in the header of the project. Beta Preview release: December 6, 2019 Beta Production release: December 9, 2019 Issues in “Closed-Pending Approval” status are considered incomplete The way Workfront handles issues in a “Complete-Pending Approval” status has been changed. Now, these issues are perceived as Open, and the project cannot be marked as Complete until the approval is resolved. Beta Preview release: December 6, 2019 Beta Production release: December 6, 2019 Add a timezone to an Automated Workflow template Now, when you are creating or modifying an Automated Workflow template for your users' proofs, you can specify the timezone of the users who will be creating or working on the proof Beta Preview release: December 6, 2019 Beta Production release: TBD Summary panel available for issues in a project Use the Summary side panel to view issue information directly from the issue list. Beta Preview release: November 15, 2019 Beta Production release: November 15, 2019 Updated look and feel of new lists All lists now have an updated look and feel, including a cleaner, grid-like design, updated colors and fonts, and more. Preview release: October 15, 2019 Production release: October 15, 2019 New design applied to lists for Reports, Template tasks, Portfolios, and more The new list design is now available on many additional list types. Preview release: October 15, 2019 Production release: October 15, 2019 Customize the Home area in Layout Templates Now you can control what users see in Home using a Layout Template. Beta Preview release: November 6, 2019 Beta Production release: November 6, 2019 Branding available in Setup You can now customize the logo in the Main Menu, top navigation area, and the login screen. You can also add images or solid colors to the background of the login screen. Beta Preview release: November 5, 2019 Beta Production release: November 5, 2019 Combined pages for Task and Issue Details The Task and Issue Details pages have a new design that eliminates the secondary navigation and displays all fields including custom fields on one page. Beta Preview release: October 22, 2019 Beta Production release: November 15, 2019 Redesigned headers for projects, tasks, and issues The headers for projects, tasks, and issues have a new design in the new Workfront experience. Beta Preview release: October 22, 2019 Beta Production release: November 15, 2019 Advanced Search You can now perform an advanced search in addition to a basic search in the new Adobe Workfront experience. Beta Preview release: October 18, 2019 Beta Production release: October 18, 2019 Breadcrumb improvements Various breadcrumb improvements are now available. Beta Preview release: October 18, 2019 Beta Production release: October 18, 2019 
+   <td> <p><strong>Feature</strong> </p> </td> 
+   <td> <p><strong>Release dates</strong> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#workfron" class="MCXref xref" xrefformat="{para}">Workfront comments sync to Jira</a> </p> <p>The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream.</p> </td> 
+   <td> <p>Beta Preview release: December 19, 2019</p> <p>Beta Production release: December 19, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#new6" class="MCXref xref" xrefformat="{para}">New drop-down menu in the Teams area</a> </p> <p>You can now use a drop-down menu in the Teams area to send a work request and edit or delete a team.</p> </td> 
+   <td> <p>Beta Preview release: December 19, 2019</p> <p>Beta Production release: December 19, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#updated6" class="MCXref xref" xrefformat="{para}">Updated look and feel of the Details page on projects, tasks, and issues</a> </p> <p>There's an improved the look, feel, and overall organization of the elements on the Details pages of projects, tasks, and issues in the new Workfront experience.</p> </td> 
+   <td> <p>Beta Preview release: December 19, 2019</p> <p>Beta Production release: December 19, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#find2" class="MCXref xref" xrefformat="{para}">Find out if a user, job role, team, or group already has a Layout Template assignment</a> </p> <p>When you are assigning a Layout Template to a user, team, group, or job role that already has a Layout Template assignment, an Info icon displays to inform you about the existing assignment. You can hover the icon to see the assignment and decide whether you want to change it.</p> </td> 
+   <td> <p>Beta Preview release: December 19, 2019</p> <p>Beta Production release: December 19, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#link" class="MCXref xref" xrefformat="{para}">Link in document approval email opens Document Details</a> </p> <p>Now, when you receive a document approval notification email, the link inside opens the Document Details page. This page contains the document’s metadata, along with quick access to the proofing viewer and the approval Decision buttons.</p> </td> 
+   <td> <p>Beta Preview release: December 19, 2019</p> <p>Beta Production release: December 19, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#access2" class="MCXref xref" xrefformat="{para}">Access the Summary side panel from more issue lists</a> </p> <p>The Issue Summary is now available from a list of issues within a task and subtask.</p> </td> 
+   <td> <p>Beta Preview release: December 19, 2019</p> <p>Beta Production release: December 19, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#updates" class="MCXref xref" xrefformat="{para}">Updates area available in the User Profile</a> </p> <p>You can now access the Updates area in your user profile.</p> </td> 
+   <td> <p>Beta Preview release: December 13, 2019</p> <p>Beta Production release: December 13, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#updated5" class="MCXref xref" xrefformat="{para}">Updated portfolio and program headers</a> </p> <p>The headers for the portfolio and program objects now match those of projects, tasks, and issues.</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;December 6, 2019</p> <p>Beta Production release:&nbsp;December 6, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#project" class="MCXref xref" xrefformat="{para}">Project Condition has been added to the new project headers</a> </p> <p>The Project Condition is now available in the header of the project. If the Condition Type of the project is Manual, you can update the Condition in the header of the project.</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;December 6, 2019</p> <p>Beta Production release:&nbsp;December 9, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#issues" class="MCXref xref" xrefformat="{para}">Issues in “Closed-Pending Approval” status are considered incomplete</a> </p> <p>The way Workfront handles issues in a “Complete-Pending Approval” status has been changed. Now, these issues are perceived as Open, and the project cannot be marked as Complete until the approval is resolved. </p> </td> 
+   <td> <p>Beta Preview release:&nbsp;December 6, 2019</p> <p>Beta Production release:&nbsp;December 6, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#add2" class="MCXref xref" xrefformat="{para}">Add a timezone to an Automated Workflow template</a> </p> <p>Now, when you are creating or modifying an Automated Workflow template for your users' proofs, you can specify the timezone of the users who will be creating or working on the proof</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;December 6, 2019</p> <p>Beta Production release:&nbsp;TBD</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#summary" class="MCXref xref" xrefformat="{para}">Summary panel available for issues in a project</a> </p> <p>Use the Summary side panel to view issue information directly from the issue list.</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;November 15, 2019</p> <p>Beta Production release:&nbsp;November 15, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#updated4" class="MCXref xref" xrefformat="{para}">Updated look and feel of new lists</a> </p> <p>All lists now have an updated look and feel, including a cleaner, grid-like design, updated colors and fonts, and more.</p> </td> 
+   <td> <p>Preview release:&nbsp;October 15, 2019</p> <p>Production release: October 15, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#new4" class="MCXref xref" xrefformat="{para}">New design applied to lists for Reports, Template tasks, Portfolios, and more</a> </p> <p>The new list design is now available on many additional list types.</p> </td> 
+   <td> <p>Preview release:&nbsp;October 15, 2019</p> <p>Production release: October 15, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#customiz2" class="MCXref xref" xrefformat="{para}">Customize the Home area in Layout Templates</a> </p> <p>Now you can control what users see in Home using a Layout Template.</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;November 6, 2019</p> <p>Beta Production release:&nbsp;November 6, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#branding" class="MCXref xref" xrefformat="{para}">Branding available in Setup</a> </p> <p>You can now customize the logo in the Main Menu, top navigation area, and the login screen. You can also add images or solid colors to the background of the login screen. </p> </td> 
+   <td> <p>Beta Preview release:&nbsp;November 5, 2019</p> <p>Beta Production release:&nbsp;November 5, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#combined" class="MCXref xref" xrefformat="{para}">Combined pages for Task and Issue Details</a> </p> <p>The Task and Issue Details pages have a new design that eliminates the secondary navigation and displays all fields including custom fields on one page.</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;October 22, 2019</p> <p>Beta Production release:&nbsp;November 15, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#redesign2" class="MCXref xref" xrefformat="{para}">Redesigned headers for projects, tasks, and issues</a> </p> <p>The headers for projects, tasks, and issues have a new design in the new Workfront experience. </p> </td> 
+   <td> <p>Beta Preview release:&nbsp;October 22, 2019</p> <p>Beta Production release:&nbsp;November 15, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#advanced" class="MCXref xref" xrefformat="{para}">Advanced Search</a> </p> <p>You can now perform an advanced search in addition to a basic search in the new Adobe Workfront experience.</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;October 18, 2019</p> <p>Beta Production release:&nbsp;October 18, 2019</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><a href="#breadcru" class="MCXref xref" xrefformat="{para}">Breadcrumb improvements</a> </p> <p>Various breadcrumb improvements are now available.</p> </td> 
+   <td> <p>Beta Preview release:&nbsp;October 18, 2019</p> <p>Beta Production release:&nbsp;October 18, 2019</p> </td> 
+  </tr> 
   <tr> 
    <td> <p><a href="#new" class="MCXref xref" xrefformat="{para}">New header in Document Details </a> </p> <p>The Document Details header has a new look and feel. This design will soon appear throughout the new Workfront experience.</p> </td> 
    <td> <p>Beta Preview release:&nbsp;September 26, 2019</p> <p>Beta Production release:&nbsp;September 26, 2019</p> </td> 
@@ -51,7 +131,125 @@ For the most recent enhancements in the new Workfront experience, see [The new A
 
 <table> 
  <col> 
- <tbody> Workfront comments sync to Jira The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream. Previously, you could sync comments from Jira to Workfront, but not from Workfront to Jira. For more information, see Configure Adobe Workfront for Jira. New drop-down menu in the Teams area You can now use a drop-down menu in the Teams area to Send a work request Edit a team Delete a team Previously, the options above were available as buttons on the header. For more information, see Manage work and team requests. Updated look and feel of the Details page on projects, tasks, and issues There's an improved the look, feel, and overall organization of the elements on the Details pages of projects, tasks, and issues in the new Workfront experience. For information about the new combined Details pages in the new Workfront experience, see Edit object details in the new Adobe Workfront experience. Find out if a user, job role, team, or group already has a Layout Template assignment When you are assigning a Layout Template to a user, team, group, or job role that already has a Layout Template assignment, an Info icon displays to inform you about the existing assignment. You can hover the icon to see the assignment and decide whether you want to change it. For more information, see Assign users to a layout template. Link in document approval email opens Document Details Now, when you receive a document approval notification email, the link inside opens the Document Details page. This page contains the document’s metadata, along with quick access to the proofing viewer and the approval Decision buttons. Previously, the proof approval email link opened the Approvals page, which does not contain the document’s metadata. Without metadata to provide context, it can be difficult to begin the review and approval process for a proof. For more information, see Approving work in Adobe Workfront. Access the Summary side panel from more issue lists The Issue Summary is now available from a list of issues within a task and subtask. Previously, the Summary panel was available from a list of issues only within In Workfront Classic, you must open the task or issue to see this information. For more information, see Summary overview in the new Adobe Workfront experience. Updates area available in the User Profile You can now access the Updates area in your user profile. Previously, this feature was not available in the new Workfront experience. Updated portfolio and program headers The headers for the portfolio and program objects now match those of projects, tasks, and issues. For information about the updated headers in the new Workfront experience, see New object headers. View this video in full-screen mode. Project Condition has been added to the new project headers The Project Condition is now available in the header of the project. If the Condition Type of the project is Manual, you can update the Condition in the header of the project. For information about the project condition, see Overview of Project Condition and Condition Type. Issues in “Closed-Pending Approval” status are considered incomplete The way Workfront handles issues in a “Complete-Pending Approval” status has been changed. Now, these issues are perceived as Open, and the project cannot be marked as Complete until the approval is resolved. Prior to this change, issues in a “Closed-Pending Approval” status were considered Closed. All issues that have been placed in a Closed - Pending Approval status before this change will behave the same way as they did previously, being considered as completed and allowing for the project to complete as well. All issues placed in this status after this change is made will be considered as incomplete. For information about project statuses, see Access the list of system project statuses. View this video in full-screen mode. Add a timezone to an Automated Workflow template Now, when you are creating or modifying an Automated Workflow template for your users' proofs, you can specify the timezone of the users who will be creating or working on the proofs. This ensures that stage deadlines are set at the right times for those users. Previously, the system set the timezone to that of the Workfront administrator creating the template and it could not be modified. For more information, see Create and manage Automated Workflow templates. Summary panel available for issues in a project Use the Summary side panel to view issue information directly from the issue list within a project. In the Summary, you can Update the percent complete View task updates, subtasks, and task details See attached documents, custom forms, and approval processes Log hours In Workfront Classic, you must open the task to view this information. For more information, see Summary overview in the new Adobe Workfront experience. Updated look and feel of new lists Most lists now have an updated look and feel. Some of the updates include: A cleaner, grid-like design Updated colors and fonts Column headers are easier to read The inline editing experience is easier to read New design applied to lists for Reports, Template tasks, Portfolios, and more The new list design is now available on the following lists: Reports Issues Queue Topics Topic Groups Routing Rules Predecessors Billing records Expenses Risks People section under Project Template tasks Portfolios Backlog work items (Coming soon) Iteration work items (Coming soon) Baselines Billing Rates Dashboards Iterations Programs Resource Pools Templates Timesheets Users For information about viewing items in lists, see Get started with lists in Adobe Workfront. All updated lists work the same way. View this video in full-screen mode. Customize the Home area in Layout Templates Now you can control what users see in the Home area by using a Layout Template. For more information, see Customize Home and Summary using a layout template. View this video in full-screen mode. Branding available in Setup You can now customize the logo in the Main Menu, top navigation area, and the login screen. You can also add images or solid colors to the background of the login screen. New zooming and positioning controls allow you to create exactly the look you want. For more information, see Brand your Adobe Workfront instance. View this video in full-screen mode. Breadcrumb improvements The following breadcrumb improvements are now available: When the screen width prohibits the breadcrumb from displaying the full navigational hierarchy, an ellipsis displays at the second level of the breadcrumb. You can hover over the ellipsis to view the full hierarchy. A tooltip shows the full page name when hovering over any page within the hierarchy. Other look and feel improvements. For more information, see Breadcrumbs overview in the new Adobe Workfront experience. Advanced Search You can now perform an advanced search in addition to a basic search in the new Adobe Workfront experience. For more information, see the article Search Adobe Workfront. View this video in full-screen mode. Redesigned headers for projects, tasks, and issues The headers for projects, tasks, and issues have a new design in the new Workfront experience. Some of the new features include: Shorter headers, allowing more room on the screen for other object information. A new look and feel of widgets, such as Status, Percent Complete, and Assignments. A new Actions area with additional functionality. For information about the object headers in the new Workfront experience, see the article New object headers. View this video in full-screen mode. Combined pages for Task and Issue Details The Task and Issue Details pages have a new design that eliminates the secondary navigation and displays all fields including custom fields on one page. The experience is similar to the one in the Project Details area. For information about the Details pages for objects, see Edit object details in the new Adobe Workfront experience. View this video in full-screen mode. 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Workfron"></a>Workfront comments sync to Jira</h3> <p>The Workfront for Jira integration now syncs your Workfront comments to Jira's native comment stream.</p> <p>Previously, you could sync comments from Jira to Workfront, but not from Workfront to Jira.</p> <p>For more information, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md" class="MCXref xref" xrefformat="{para}">Configure Adobe Workfront for Jira</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="New6"></a>New drop-down menu in the Teams area</h3> <p>You can now use a drop-down menu in the Teams area to</p> 
+    <ul> 
+     <li>Send a work request</li> 
+     <li>Edit a team</li> 
+     <li>Delete a team</li> 
+    </ul> <p>Previously, the options above were available as buttons on the header.</p> <p>For more information, see <a href="../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md" class="MCXref xref" xrefformat="{para}">Manage work and team requests</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Updated6"></a>Updated look and feel of the Details page on projects, tasks, and issues</h3> <p>There's an improved the look, feel, and overall organization of the elements on the Details pages of projects, tasks, and issues in the new Workfront experience.</p> <p>For information about the new combined Details pages in the new Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md" class="MCXref xref" xrefformat="{para}">Edit object details in the new Adobe Workfront experience</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Find2"></a>Find out if a user, job role, team, or group already has a Layout Template assignment</h3> <p>When you are assigning a Layout Template to a user, team, group, or job role that already has a Layout Template assignment, an Info icon displays to inform you about the existing assignment. You can hover the icon to see the assignment and decide whether you want to change it.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md" class="MCXref xref" xrefformat="{para}">Assign users to a layout template</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Link"></a>Link in document approval email opens Document Details</h3> <p>Now, when you receive a document approval notification email, the link inside opens the Document Details page. This page contains the document’s metadata, along with quick access to the proofing viewer and the approval Decision buttons.</p> <p>Previously, the proof approval email link opened the Approvals page, which does not contain the document’s metadata. Without metadata to provide context, it can be difficult to begin the review and approval process for a proof.</p> <p>For more information, see <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref" xrefformat="{para}">Approving work in Adobe Workfront</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Access2"></a>Access the Summary side panel from more issue lists</h3> <p>The Issue Summary is now available from a list of issues within a task and subtask.</p> <p>Previously, the Summary panel was available from a list of issues only within </p> <p>In Workfront Classic, you must open the task or issue to see this information.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref" xrefformat="{para}">Summary overview in the new Adobe Workfront experience</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Updates"></a>Updates area available in the User Profile</h3> <p>You can now access the Updates area in your user profile. Previously, this feature was not available in the new Workfront experience.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Updated5"></a>Updated portfolio and program headers</h3> <p>The headers for the portfolio and program objects now match those of projects, tasks, and issues.</p> <p>For information about the updated headers in the new Workfront experience, see <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref" xrefformat="{para}">New object headers</a>.</p> <p><iframe class="vimeo-player_0" src="assets/377669301?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/377669301/a56cde8ff8" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Project"></a>Project Condition has been added to the new project headers</h3> <p>The Project Condition is now available in the header of the project. If the Condition Type of the project is Manual, you can update the Condition in the header of the project.</p> <p>For information about the project condition, see <a href="../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" xrefformat="{para}">Overview of Project Condition and Condition Type</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Issues"></a>Issues in “Closed-Pending Approval” status are considered incomplete</h3> <p>The way Workfront handles issues in a “Complete-Pending Approval” status has been changed. Now, these issues are perceived as Open, and the project cannot be marked as Complete until the approval is resolved. </p> <p>Prior to this change, issues in a “Closed-Pending Approval” status were considered Closed.</p> <p>All issues that have been placed in a Closed - Pending Approval status before this change will behave the same way as they did previously, being considered as completed and allowing for the project to complete as well. All issues placed in this status after this change is made will be considered as incomplete.</p> <p>For information about project statuses, see <a href="../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" xrefformat="{para}">Access the list of system project statuses</a>.</p> <p><iframe class="vimeo-player_0" src="assets/377893611?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/377893611/4ba2f2ac61" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Add2"></a>Add a timezone to an Automated Workflow template</h3> <p>Now, when you are creating or modifying an Automated Workflow template for your users' proofs, you can specify the timezone of the users who will be creating or working on the proofs. This ensures that stage deadlines are set at the right times for those users.</p> <p>Previously, the system set the timezone to that of the Workfront administrator creating the template and it could not be modified.</p> <p>For more information, see <a href="../../administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md" class="MCXref xref" xrefformat="{para}">Create and manage Automated Workflow templates</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Summary"></a>Summary panel available for issues in a project</h3> <p>Use the Summary side panel to view issue information directly from the issue list within a project. In the Summary, you can</p> 
+    <ul> 
+     <li>Update the percent complete</li> 
+     <li>View task updates, subtasks, and task details</li> 
+     <li>See attached documents, custom forms, and approval processes</li> 
+     <li>Log hours</li> 
+    </ul> <p>In Workfront Classic, you must open the task to view this information.</p> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref" xrefformat="{para}">Summary overview in the new Adobe Workfront experience</a>.</p> <p><iframe class="vimeo-player_0" src="assets/348609016?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Updated4"></a>Updated look and feel of new lists</h3> <p>Most lists now have an updated look and feel. </p> <p>Some of the updates include:</p> 
+    <ul> 
+     <li>A cleaner, grid-like design</li> 
+     <li>Updated colors and fonts</li> 
+     <li>Column headers are easier to read</li> 
+     <li>The inline editing experience is easier to read</li> 
+    </ul> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="New4"></a>New design applied to lists for Reports, Template tasks, Portfolios, and more</h3> <p>The new list design is now available on the following lists:</p> 
+    <ul> 
+     <li>Reports </li> 
+     <li>Issues</li> 
+     <li>Queue Topics </li> 
+     <li>Topic Groups </li> 
+     <li>Routing Rules </li> 
+     <li>Predecessors </li> 
+     <li>Billing records </li> 
+     <li>Expenses </li> 
+     <li>Risks </li> 
+     <li>People section under Project </li> 
+    </ul> 
+    <ul> 
+     <li>Template tasks </li> 
+     <li>Portfolios </li> 
+     <li> <p>Backlog work items (Coming soon)</p> </li> 
+     <li> <p>Iteration work items (Coming soon) </p> </li> 
+     <li>Baselines </li> 
+     <li>Billing Rates </li> 
+     <li> <p>Dashboards </p> </li> 
+     <li> <p>Iterations </p> </li> 
+     <li> <p>Programs </p> </li> 
+     <li> <p>Resource Pools </p> </li> 
+     <li> <p>Templates </p> </li> 
+     <li> <p>Timesheets </p> </li> 
+     <li> <p>Users </p> </li> 
+    </ul> <p>For information about viewing items in lists, see <a href="../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md" class="MCXref xref" xrefformat="{para}">Get started with lists in&nbsp;Adobe Workfront</a>.</p> <p>All updated lists work the same way. </p> <p><iframe class="vimeo-player_0" src="assets/356675385?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/356675385/09ba51d717" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Customiz2"></a>Customize the Home area in Layout Templates</h3> <p>Now you can control what users see in the Home area by using a Layout Template. For more information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md" class="MCXref xref" xrefformat="{para}">Customize Home and Summary using a layout template</a>.</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/374228794?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
+    --> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/374228794/6fb22c33bf" target="_blank">View this video in full-screen mode.</a> </p>
+    --> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Branding"></a>Branding available in Setup</h3> <p>You can now customize the logo in the Main Menu, top navigation area, and the login screen. You can also add images or solid colors to the background of the login screen. </p> <p>New zooming and positioning controls allow you to create exactly the look you want. </p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md" class="MCXref xref" xrefformat="{para}">Brand your Adobe Workfront instance</a>.</p> <p><iframe class="vimeo-player_0" src="assets/371941936?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/371941936/81f4c50adb" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Breadcru"></a>Breadcrumb improvements</h3> <p>The following breadcrumb improvements are now available:</p> 
+    <ul> 
+     <li> When the screen width prohibits the breadcrumb from displaying the full navigational hierarchy, an ellipsis displays at the second level of the breadcrumb. You can hover over the ellipsis to view the full hierarchy.</li> 
+     <li>A tooltip shows the full page name when hovering over any page within the hierarchy.</li> 
+     <li>Other look and feel improvements.</li> 
+    </ul> <p>For more information, see <a href="../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md" class="MCXref xref" xrefformat="{para}">Breadcrumbs overview in the new Adobe Workfront experience</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Advanced"></a>Advanced Search</h3> <p>You can now perform an advanced search in addition to a basic search in the new Adobe Workfront experience.</p> <p>For more information, see the article <a href="../../workfront-basics/navigate-workfront/search/search-workfront.md" class="MCXref xref" xrefformat="{para}">Search Adobe Workfront</a>.</p> <p><iframe class="vimeo-player_0" src="assets/365624996?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/365624996/d88185a42a" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Redesign2"></a>Redesigned headers for projects, tasks, and issues</h3> <p>The headers for projects, tasks, and issues have a new design in the new Workfront experience. Some of the new features include:</p> 
+    <ul> 
+     <li>Shorter headers, allowing more room on the screen for other object information.</li> 
+     <li>A new look and feel of widgets, such as Status, Percent Complete, and Assignments.</li> 
+     <li>A new Actions area with additional functionality.</li> 
+    </ul> <p>For information about the object headers in the new Workfront experience, see the article <a href="../../workfront-basics/the-new-workfront-experience/new-object-headers.md" class="MCXref xref" xrefformat="{para}">New object headers</a>.</p> <p><iframe class="vimeo-player_0" src="assets/368298122?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/368298122/4b0fcc626d" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <h3><a name="Combined"></a>Combined pages for Task and Issue Details</h3> <p>The Task and Issue Details pages have a new design that eliminates the secondary navigation and displays all fields including custom fields on one page. The experience is similar to the one in the Project Details area.</p> <p>For information about the Details pages for objects, see <a href="../../workfront-basics/the-new-workfront-experience/combined-pages-object-details.md" class="MCXref xref" xrefformat="{para}">Edit object details in the new Adobe Workfront experience</a>.</p> <p><iframe class="vimeo-player_0" src="assets/365320329?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/365320329/872b49ffd2" target="_blank">View this video in full-screen mode.</a> </p> </td> 
+  </tr> 
   <tr> 
    <td> <h3><a name="New"></a>New header in Document Details </h3> <p>The Document Details header has a new look and feel. This design will soon appear throughout the new Workfront experience. </p> <p> Some new functionality has also been added to the header in Document Details. For more information, see the following sections in the article <a href="../../documents/managing-documents/manage-document-versions.md" class="MCXref xref" xrefformat="{para}">Manage document versions</a>: </p> 
     <ul> 

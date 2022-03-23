@@ -47,16 +47,16 @@ You must have the following access to perform the steps in this article:
 ## View user Job Role percentage of FTE availability
 
 1. Go to a list of users.
-1. From the  `View` drop-down menu, select  `New View`.
+1. From the&nbsp;**View**&nbsp;drop-down menu, select&nbsp;**New View**.
 
-1. In the `Column Preview` area, click `Add Column`.
+1. In the**Column Preview**&nbsp;area, click **Add Column**.
 
-1. Click the header of the new column, then click `Switch to Text Mode`.
-1. Mouse over the text mode area, and click  `Click to edit text`.
-1. Remove the text you find in the  `Text Mode`&nbsp;box, and replace it with the following code:  
+1. Click the header of the new column, then click **Switch to Text Mode**.
+1. Mouse over the text mode area, and click&nbsp;**Click to edit text**.
+1. Remove the text you find in the&nbsp;**Text Mode**&nbsp;box, and replace it with the following code:  
    <pre>displayname=Roles Time Percentage<br>listdelimiter=<p><br>listmethod=nested(userRoles).lists<br>textmode=true<br>type=iterate<br>valueexpression=CONCAT({role},'-',{timePercentage},'%')<br>valueformat=HTML</pre>
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 
-1. (Optional) Specify a name for your view, then click `Save View`.
+1. (Optional) Specify a name for your view, then click **Save View**.
 

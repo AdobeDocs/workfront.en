@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms (D-F)
 description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms (D-F)
@@ -40,13 +41,25 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>Days Late</p> </td> 
    <td> <p>This field shows a date difference between Planned Start and Today if the Actual Completion Date is missing.</p> <p>Also&nbsp;shows a date difference between Actual Completion and Planned Completion, when an Actual Completion Date is present.</p> </td> 
   </tr> <!--
-   Default Schedule Customizable default working hours to be assigned to users and projects within an organization. Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Default Schedule</td> 
+    <td> <p>Customizable default working hours to be assigned to users and projects within an organization. </p> <p>Schedules are used to calculate the planned, start, and completion dates of tasks that are assigned to users.</p> </td> 
+   </tr>
   --> <!--
-   Deliverable Quantifiable goods or services that must be provided upon the completion of a project.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Deliverable</td> 
+    <td>Quantifiable goods or services that must be provided upon the completion of a project.</td> 
+   </tr>
   --> <!--
-   Demand Management Scoring and prioritization of the intake processes.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Demand Management</td> 
+    <td>Scoring and prioritization of the intake processes.</td> 
+   </tr>
   --> <!--
-   Department Goals Goals unique to a specific department that focus on improving operational metrics within the department.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Department Goals</td> 
+    <td>Goals unique to a specific department that focus on improving operational metrics within the department.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Dependency</td> 
@@ -82,7 +95,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
      <li>Effort Driven</li> 
      <li>Simple</li> 
     </ul> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> <!--
-     Task field used by the planner to set how the work required is allocated to the assignees across the duration.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Task field used by the planner to set how the work required is allocated to the assignees across the duration.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -97,9 +110,15 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>End Date</p> </td> 
    <td> <p> In a Rate report, this is the date when a new billing rate for a job role at the project level ends. The hours associated with the project that are before this date are multiplied by this billing rate to calculate the revenue on the project. </p> </td> 
   </tr> <!--
-   Engagement The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Engagement</td> 
+    <td>The Work Performance Indicator (WPI) that indicates when commitment and belief in the task, project, team, or organization is waning. This indicates that you need to act to revive that belief and commitment. WPI would be measured by asking the simple questions, “Did you understand what was expected of you? Did the work you were assigned make a difference to the organization? Did you do great work?”</td> 
+   </tr>
   --> <!--
-   Enterprise Goals Cross-functional goals that contribute to the metrics of the company goals.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Enterprise Goals</td> 
+    <td>Cross-functional goals that contribute to the metrics of the company goals.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Event</td> 
@@ -113,13 +132,19 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Event notification</td> 
    <td>Email that is generated from an event handler.</td> 
   </tr> <!--
-   Expenses A non-labor cost on tasks or projects.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Expenses</td> 
+    <td>A non-labor cost on tasks or projects.</td> 
+   </tr>
   --> 
   <tr> 
    <td>External</td> 
    <td> <p>Typically, an access level that allows people who don’t have Workfront, to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a>.</p> </td> 
   </tr> <!--
-   External System Any services or software that is stored and governed outside the designated system of record.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>External System</td> 
+    <td>Any services or software that is stored and governed outside the designated system of record.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Financial Management</td> 
@@ -132,7 +157,7 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Filter</td> 
    <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <!--
-     The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The Filter determines the results that display in a report or on an Workfront panel listing, like projects, tasks, or issues.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -147,7 +172,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Folder</td> 
    <td>Folders are used to organize documents or reports associated with an object.</td> 
   </tr> <!--
-   FTE The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>FTE</td> 
+    <td>The designated full time equivalency for users. A full-time user should have 100% FTE and part-time user should have a percentage that equals their working hours.</td> 
+   </tr>
   --> 
  </tbody> 
 </table>

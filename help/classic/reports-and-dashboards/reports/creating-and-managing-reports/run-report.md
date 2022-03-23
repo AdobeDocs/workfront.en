@@ -43,22 +43,23 @@ You must have the following access to perform the steps in this article:
 
 ## Run a report
 
-1. Click Reporting in the Global Navigation Bar, then click the Reports tab. 
+1. Click **Reporting** in the Global Navigation Bar, then click the **Reports** tab. 
+
 1. Select from the following options:
 
-  * `My Reports:` Reports that you have created.
-  * `Shared With Me:` Reports that other users have shared with you.
-  * `All Reports:` All reports in the system that you have access to.
+   * **My Reports:** Reports that you have created.
+   * **Shared With Me:** Reports that other users have shared with you.
+   * **All Reports:** All reports in the system that you have access to.
 
 1. Click the name of the report that you want to run.  
    Or  
-   If the report was created using prompts, select the appropriate information from the drop-down menus, then click `Run Report`.  
+   If the report was created using prompts, select the appropriate information from the drop-down menus, then click **Run Report**.  
    For more information about prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).  
    The contents of the report display with a timestamp in the upper-right corner of the report that includes the date, time, and time zone when the report was run from the context of the user who ran the report.
 
-1. (Optional) Click the `Reload icon`  to refresh the results in a report if the report has been displayed in your browser for a while.  
+1. (Optional) Click the **Reload icon** to refresh the results in a report if the report has been displayed in your browser for a while.  
 
-1. (Conditional) If the report uses filters or prompts, click `Show Filters and Prompts` to display a list of filters and prompts that are being used on the report you are viewing. If the report contains only filters or only prompts, `Show Filters` or `Show Prompts` appears instead.
+1. (Conditional) If the report uses filters or prompts, click **Show Filters and Prompts** to display a list of filters and prompts that are being used on the report you are viewing. If the report contains only filters or only prompts, **Show Filters** or **Show Prompts** appears instead.
 
    Information displays below the report name on the left side of the page. For prompts, this is information about the prompt selections made at the time the report was run, as described in Step 4.
 
@@ -70,7 +71,7 @@ Your report might be cached if it has been displayed in your browser for a while
 
 * Edit the report settings and save the report.
 * Change the View, Group, or Filter.
-* Click the `Reload icon`  
+* Click the **Reload icon** 
   This option is available in the upper-right corner of the page within the message box that indicates the time that the report was saved, or it is available in the upper-right corner of the dashboard that the report is placed on. For more information about reloading dashboards, see the section "Display Dashboards" in the article [Get started with dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
 * Access any page of the report beyond the first page by navigating to the Summary, Matrix, or Chart tabs.

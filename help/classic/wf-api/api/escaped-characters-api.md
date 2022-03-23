@@ -18,9 +18,9 @@ Hexadecimal escaped sequences require the use of valid hexadecimal digits. The f
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Escape Sequence</span> </th> 
-   <th><span class="bold">Unicode Character</span> </th> 
-   <th><span class="bold">Represents</span> </th> 
+   <th><strong>Escape Sequence</strong> </th> 
+   <th><strong>Unicode Character</strong> </th> 
+   <th><strong>Represents</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

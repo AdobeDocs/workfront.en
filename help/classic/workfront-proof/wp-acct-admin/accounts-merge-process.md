@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: account-administration
 title: Accounts merge process
 description: This document outlines the tasks involved in processing merge and split requests for the following data migrations:
+hidefromtoc: true
 ---
 
 # Accounts merge process
@@ -29,9 +30,9 @@ These tasks can minimize the impact of merge and split requests both to our cust
 
 1. The AE liaises with the client to do the following:
 
-  * Confirm that the client's license plan eligibility to make sure that it accommodates licenses for the users and data being moved from the origin account.
+   * Confirm that the client's license plan eligibility to make sure that it accommodates licenses for the users and data being moved from the origin account.
 
-  * Make sure that plan renewal or upgrade is in place before the merge is completed.
+   * Make sure that plan renewal or upgrade is in place before the merge is completed.
 
 1. The __________ works with the client using the information in this article under [Information to analyze with the client](#informat)
 1. Once all information from step 4 is confirmed, the __________ sets the Merge date and arranges Development Team support.
@@ -104,9 +105,9 @@ In step 6 above, the __________ can use the following template to analyze the or
 
 ### XXX account merge into XXX account
 
-`Date`:
+**Date**:
 
-#### `Checklist`
+#### **Checklist**
 
 * Has a power user been appointed to be the folder structure owner on destination account?
 
@@ -129,9 +130,9 @@ In step 6 above, the __________ can use the following template to analyze the or
 
   YES/NO
 
-#### `Original account - XXX`
+#### **Original account - XXX**
 
-* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX `[Tatev, can we change the spelling to the American "organization"?]`
+* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX ```[Tatev, can we change the spelling to the American "organization"?]```
 * Current plan: _______________________
 * Number of active users: _______
 * Number of deactivated users: _______
@@ -157,7 +158,7 @@ In step 6 above, the __________ can use the following template to analyze the or
 
 #### Destination account - XXX
 
-* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX `[same question as above]`
+* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX ```[same question as above]```
 * Current plan: _______________________
 * Number of active users: _______
 * Number of deactivated users: _______

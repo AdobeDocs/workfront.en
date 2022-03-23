@@ -35,7 +35,7 @@ Consider the following when creating recurring tasks in Workfront:
     * Must Start On for projects that are planned from Start Date. 
     * Must Complete On for projects that are planned from Completion Date.
 
-  * `<li> <p>Documents attached to the parent do not transfer to the children. </p> </li>`
+  * ```<li> <p>Documents attached to the parent do not transfer to the children. </p> </li>```
 
 * The following changes occur on the parent task after you indicate that the task is recurring:
 
@@ -56,9 +56,9 @@ Some changes you make to a recurring task parent might not update on all existin
 
 The following table illustrates whether changes made to the parent trigger updates on the children that have not been individually edited or show progress:
 
-| `Fields updated on the parent task`  |Updates transfer to unedited children or children with no progress recorded |
+| ```Fields updated on the parent task```  |Updates transfer to unedited children or children with no progress recorded |
 |---|---|
-| `Recurrence Frequency*`  |✔ |
+| ```Recurrence Frequency*```  |✔ |
 | Assignments&#42;&#42; | ✔ |
 | Name | ✔ |
 | Description | ✔ |

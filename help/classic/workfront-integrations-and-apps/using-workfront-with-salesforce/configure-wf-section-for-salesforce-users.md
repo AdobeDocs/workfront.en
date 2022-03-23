@@ -32,9 +32,27 @@ You must have the following access to use the functionality described in this ar
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -49,53 +67,53 @@ You must have the following access to use the functionality described in this ar
 ## Configure the Workfront section in the Salesforce Classic framework
 
 1. Log in to Salesforce as a Workfront administrator.
-1. Click `Setup.`
-1. In the `Build` section, expand `Customize.`
+1. Click **Setup.**
+1. In the **Build** section, expand **Customize.**
 
-1. Expand `Opportunities`, then click `Page Layouts`to add the Workfront section to an `Opportunity`.
-
-   Or
-
-   Expand `Accounts`, then click `Page Layouts`to add the Workfront section to an Account.
-
-1. Click `Edit` on an existing layout.
+1. Expand **Opportunities**, then click **Page Layouts**to add the Workfront section to an **Opportunity**.
 
    Or
 
-   Click `New` to add a new layout.&nbsp;
+   Expand **Accounts**, then click **Page Layouts**to add the Workfront section to an Account.
 
-1. (Optional) Drag the `Section` component to the layout and drop it in the desired position.  
+1. Click **Edit** on an existing layout.
+
+   Or
+
+   Click **New** to add a new layout.&nbsp;
+
+1. (Optional) Drag the **Section** component to the layout and drop it in the desired position.  
    ![salesforce_new_section_properties.png](assets/salesforce-new-section-properties-350x210.png)  
 
 1. (Optional) Specify a name for the new section.
 
-   We recommend that you name this section `Workfront`.
+   We recommend that you name this section **Workfront**.
 
-1. (Optional) Specify the desired `Layout` and `Tab-key Order`for the new section.
+1. (Optional) Specify the desired **Layout** and **Tab-key Order**for the new section.
 
-   We recommend that you select  `1-Column` layout for the Workfront section.&nbsp;
+   We recommend that you select&nbsp;**1-Column** layout for the Workfront section.&nbsp;
 
-1. Click `OK`.
-1. In the `Layout` area, click `Visualforce Pages.`
+1. Click **OK**.
+1. In the **Layout** area, click **Visualforce Pages.**
 
-1. Drag and drop the `WorfrontOpportunities` component to the new section in the  `Opportunities`  `Layout`.
+1. Drag and drop the **WorfrontOpportunities** component to the new section in the&nbsp;**Opportunities**&nbsp;**Layout**.
 
    Or
 
-   Drag and drop the `WorkfrontAccounts` component to the new section in the  `Account`  `Layout`.  
+   Drag and drop the **WorkfrontAccounts** component to the new section in the&nbsp;**Account**&nbsp;**Layout**.  
    ![WorkfrontAccounts_component.png](assets/workfrontaccounts-component-350x139.png)
 
-1. Click the `Properties` icon in the upper right of the newly added component.  
+1. Click the **Properties** icon in the upper right of the newly added component.  
    ![](assets/salesforce-visualforce-page-properties-350x174.png)  
 
 1. To achieve an optimal display, specify the following properties for the Workfront Visualforce page:
 
-  * `Width (in pixels or %)`: 100%
-  * `Height (in pixels)`: 600
-  * Select `Show scrollbars`.
+   * **Width (in pixels or %)**: 100%
+   * **Height (in pixels)**: 600
+   * Select **Show scrollbars**.
 
-1. Click `OK`.&nbsp;
-1. Click `Save` to save your layout.
+1. Click **OK**.&nbsp;
+1. Click **Save** to save your layout.
 
    All users who have this layout assigned to them are now able to see the Workfront section on their Opportunities or Accounts objects.
 
@@ -113,41 +131,41 @@ You can add the Workfront section to the layout of a Salesforce Opportunity or A
 ### Configure the Workfront section at the Setup level
 
 1. Log into Salesforce as a system administrator.&nbsp; 
-1. Click the `Setup` icon, then click `Setup`. 
+1. Click the **Setup** icon, then click **Setup**. 
 
-1. Expand `Object and Fields`, then click `Object Manager`. 
+1. Expand **Object and Fields**, then click **Object Manager**. 
 
-1. Click `Opportunity`to customize the layout of an Opportunity.
+1. Click **Opportunity**to customize the layout of an Opportunity.
 
    Or
 
-   Click `Account`to customize the layout of an Account. 
+   Click **Account**to customize the layout of an Account. 
 
-1. Click `Page Layouts`. 
+1. Click **Page Layouts**. 
 1. Click the name of an existing page layout to edit it.
 
    Or
 
-   Click `New` to create a new page layout. 
+   Click **New** to create a new page layout. 
 
 1. Continue with [Configure the Workfront Section at the Opportunity or Account level](#lighting-account-opportunity-level) below.
 
 ### Configure the Workfront Section at the Opportunity or Account level
 
 1. Log in to Salesforce as a system administrator.&nbsp; 
-1. Go to an `Opportunity` or `Account`. 
+1. Go to an **Opportunity** or **Account**. 
 
-1. Click the `Setup` icon, then click `Edit Page`.  
+1. Click the **Setup** icon, then click **Edit Page**.  
    ![salesforce_lightning_opportunity_edit_area.png](assets/salesforce-lightning-opportunity-edit-area-350x116.png)  
 
-1. Expand the `Custom-Managed` section. 
-1. Drag and drop the `Workfront` component on your Opportunity or Account page.
+1. Expand the **Custom-Managed** section. 
+1. Drag and drop the **Workfront** component on your Opportunity or Account page.
 
    We recommend using the full width of the page for the Workfront section instead of one of the columns of the layout.
 
    ![salesforce_lightning_builder.png](assets/salesforce-lightning-builder-350x229.png)
 
-1. Click `Save`.
+1. Click **Save**.
 
    All users who have this layout assigned to them are now able to see the Workfront section on their Opportunities or Accounts objects.
 

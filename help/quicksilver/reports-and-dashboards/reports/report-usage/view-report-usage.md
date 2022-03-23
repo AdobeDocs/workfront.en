@@ -57,26 +57,27 @@ You must have the following access to perform the steps in this article:
 
 ## Display report usage information in the View of a report list
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
-1. On the list of reports, click the `View` drop-down menu.
-1. (Optional) Select the `Report Usage` view to display the most common report usage information.  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
+
+1. On the list of reports, click the **View** drop-down menu.
+1. (Optional) Select the **Report Usage** view to display the most common report usage information.  
    Or
 
-1. Click `New View` to create a custom view.
-1. Click `Add Column`.
-1. Start typing any of the following fields, and select them when they appear in the list under the `Report` object to add them to a new column:
+1. Click **New View** to create a custom view.
+1. Click **Add Column**.
+1. Start typing any of the following fields, and select them when they appear in the list under the **Report** object to add them to a new column:
 
-  * `Last 10 users`: Displays the names of the last 10 users who viewed the report.
-  * `Views`: Displays the number of views within any of the following time frames:
+  * **Last 10 users**: Displays the names of the last 10 users who viewed the report.
+  * **Views**: Displays the number of views within any of the following time frames:
 
-    * `This Month, Quarter, Year`
-    * `Last Month, Quarter, Year`
-    * `All Views`: Displays an overall count for all views on the report
+    * **This Month, Quarter, Year**
+    * **Last Month, Quarter, Year**
+    * **All Views**: Displays an overall count for all views on the report
 
-  * `Last Viewed By`: Displays information about the user who viewed the report last
-  * `Last Viewed Date`: Displays the date when the report was viewed last
+  * **Last Viewed By**: Displays information about the user who viewed the report last
+  * **Last Viewed Date**: Displays the date when the report was viewed last
 
-1. Click `Save View`.  
+1. Click **Save View**.  
    The usage information about the report is displayed in the columns you added to the view.  
    You can also build a report for the report object and use this view in the report.  
    For more information about building a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).  
@@ -85,24 +86,25 @@ You must have the following access to perform the steps in this article:
 
 ## Filter a report list by usage information
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**. 
+
 1. <![CDATA[     ]]>
-1. On the list of reports, click the `Filter` drop-down menu.
-1. Click `New Filter`, then click `Add a Filter Rule`.
+1. On the list of reports, click the **Filter** drop-down menu.
+1. Click **New Filter**, then click **Add a Filter Rule**.
 
-1. Start typing any of the following fields, and select them when they appear in the list under the `Report` object to add them as a new filter rule:
+1. Start typing any of the following fields, and select them when they appear in the list under the **Report** object to add them as a new filter rule:
 
-  * `Views`: Displays the number of views within any of the following time frames:
+  * **Views**: Displays the number of views within any of the following time frames:
 
-    * `This Month, Quarter, Year`
-    * `Last Month, Quarter, Year`
-    * `All Views`
+    * **This Month, Quarter, Year**
+    * **Last Month, Quarter, Year**
+    * **All Views**
 
-  * `Last Viewed By`: Displays information about the user who viewed the report last
-  * `Last Viewed Date`: Displays the date when the report was viewed last
+  * **Last Viewed By**: Displays information about the user who viewed the report last
+  * **Last Viewed Date**: Displays the date when the report was viewed last
 
 1. Select a modifier for your field, then specify a value, when prompted.  
-1. Click `Save Filter`.  
+1. Click **Save Filter**.  
    This displays a list of reports that meet the usage information you have defined.  
    You can also build a report for the report object and use this filter in the report.  
    For more information about building a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). You must have Edit access to Reports in your access level to build a report.  

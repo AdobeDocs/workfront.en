@@ -50,9 +50,9 @@ You must have the following access to perform the steps in this article:
 
 ### Limitations for deleting tasks
 
-* When a project has a status of Complete you can delete tasks only if your Workfront administrator `or a group administrator` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* When a project has a status of Complete you can delete tasks only if your Workfront administrator ```or a group administrator``` has allowed this in your Project Preferences area. For information about setting up project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* If the task has logged hours, the Workfront ` `or group administrator`` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance.
+* If the task has logged hours, the Workfront ``` ```or group administrator`````` must allow the deletion of these tasks by configuring the Task & Issue Preferences in your Workfront instance.
 
   For more information about enabling the deletion of tasks where hours are logged, see the "Deletion" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -91,44 +91,44 @@ Depending on how your Workfront administrator configures the Project, Task, or I
 
 ### Delete multiple tasks in a project simultaneously
 
-1. Go to the Projects area of your Global Navigation Bar. 
-1. Click the Projects tab. 
+1. Go to the **Projects** area of your Global Navigation Bar. 
+1. Click the **Projects** tab. 
 1. Click the project name that contains the tasks you want to delete.
-1. Click the Tasks tab. 
+1. Click the **Tasks** tab.  
 1. Do one of the following:
 
-  1. (Conditional) When the `Autosave` toggle is enabled:
+   1. (Conditional) When the **Autosave** toggle is enabled:
 
-    1. Select the tasks you want to delete, then click `More`
-    1. Click `Delete`, then `Yes, Delete It` to confirm the deletion.
+      1. Select the tasks you want to delete, then click **More**
+      1. Click **Delete**, then **Yes, Delete It** to confirm the deletion.
 
-       The tasks are deleted.
+         The tasks are deleted.
 
-  1. (Conditional) Select the Manual save option at the top of the task list, if you want to reverse the changes you make to the task list. Autosave is the default option.
+   1. (Conditional) Select the **Manual save** option at the top of the task list, if you want to reverse the changes you make to the task list.&nbsp;**Autosave** is the default option.
 
-     Do the following:
+      Do the following:
 
-    1. Select the tasks you want to delete. 
-    1. Click `Delete`.
-    1. (Optional) Click `Undo` to reverse your change and not delete the tasks.
-    1. Click `Redo` if you want to keep the change and delete the task.
-    1. Click `Save` to delete the tasks.
+      1. Select the tasks you want to delete. 
+      1. Click **Delete**.
+      1. (Optional) Click **Undo** to reverse your change and not delete the tasks.
+      1. Click **Redo** if you want to keep the change and delete the task.
+      1. Click **Save** to delete the tasks.
 
-       Tasks are deleted only after you save your changes.
+         Tasks are deleted only after you save your changes.
 
 ### Delete a single task
 
-1. Go to the Projects area of your Global Navigation Bar. 
-1. Click the Projects tab. 
+1. Go to the **Projects** area of your Global Navigation Bar.  
+1. Click the **Projects** tab.  
 1. Click the project name that contains the task you want to delete.
-1. Click the Tasks tab. 
+1. Click the **Tasks** tab. 
 1. Click the name of the task you want to delete.
-1. Click Task Actions.
+1. Click **Task Actions**.
 
-1. Click `Delete Task`.
-1. If the deletion is allowed, click `Yes, Delete it`.
+1. Click **Delete Task**.
+1. If the deletion is allowed, click **Yes, Delete it**.
 
-   Your Workfront administrator `or group administrator` might not allow the deletion of tasks where hours are logged.
+   Your Workfront administrator ```or group administrator``` might not allow the deletion of tasks where hours are logged.
 
    For more information about the access and permissions needed to delete a task, see the section [Limitations for deleting tasks](#access-and-permissions-needed) in this article.
 

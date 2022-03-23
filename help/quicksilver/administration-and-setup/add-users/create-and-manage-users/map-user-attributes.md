@@ -49,17 +49,17 @@ Keep the following in mind when mapping attributes:
 
 ## Map user attributes and auto-provision new users
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `System` > `Single Sign-On (SSO)`.
+1. Click **System** > **Single Sign-On (SSO)**.
 
-1. In the `Type` drop-down, click `SAML 2.0`.
+1. In the **Type** drop-down, click **SAML 2.0**.
 
-1. Click `Map User Attributes`.
+1. Click **Map User Attributes**.
 
    ![](assets/map-user-attributes-350x253.png)
 
-1. (Optional) If you want Workfront to create new users from your Active Directory automatically, click `Auto-Provision User`.
+1. (Optional) If you want Workfront to create new users from your Active Directory automatically, click **Auto-Provision User**.
 
    This feature requires attribute mapping.
 
@@ -88,7 +88,9 @@ Keep the following in mind when mapping attributes:
 
    The following table explains the fields you can use to map attributes:
 
-   <table cellspacing="0">   
+   <table cellspacing="0"> 
+    <col data-mc-conditions=""> 
+    <col data-mc-conditions=""> 
     <tbody> 
      <tr> 
       <td role="rowheader">Workfront User Attribute</td> 
@@ -97,27 +99,29 @@ Keep the following in mind when mapping attributes:
      <tr> 
       <td role="rowheader">Directory Attribute</td> 
       <td>Type the SSO attribute label you want to use.<!--
-        Is this right? I’d like to explain this and “Default Value” and their relationship. I’m trying to keep new/unexperienced sysadmins in mind.
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+         <span class="PinkDraftNote">Is this right? I’d like to explain this and “Default Value” and their relationship. I’m trying to keep new/unexperienced sysadmins in mind.</span> 
+        </MadCap:conditionalText>
        --></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Default Value</td> 
       <td> <p>After you choose a Workfront User Attribute, if the value is NULL during the connection, this field fills in with the corresponding default value in the system. Type a value here only if you plan to apply attribute mapping rules (see step 7). The default value acts as an exception to those rules. <!--
-         Is this right?
+         <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this right?</span>
         --></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Click `Rules` to add a rule to the attribute.
+1. (Optional) Click **Rules** to add a rule to the attribute.
 
   1. In the drop-down, choose the attribute modifier you want to use.
   1. In the 2 fields to the right, type the directory attribute value and the value you want to replace it with.
 
      ![](assets/rule-fields-350x64.png)
 
-   You can click `Add Rule` to add more rules to the attribute.
+   You can click **Add Rule** to add more rules to the attribute.
 
-1. (Optional) To map more user attributes, click `Add Mapping` and repeat steps 6-7.
-1. Click `Save`.
+1. (Optional) To map more user attributes, click **Add Mapping** and repeat steps 6-7.
+1. Click **Save**.
 

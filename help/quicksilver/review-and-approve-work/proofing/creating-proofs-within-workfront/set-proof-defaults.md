@@ -37,17 +37,17 @@ You must have the following access to perform the steps in this article:
 
 ## Configure personal proofing defaults
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Proofing`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Proofing**.
 
-1. In the upper-right corner, click your avatar, and select `Personal Settings`. 
-1. Choose the `Proofing defaults` tab, then specify the following information:
+1. In the upper-right corner, click your avatar, and select **Personal Settings**. 
+1. Choose the **Proofing defaults** tab, then specify the following information:
 
    <table cellspacing="3"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td colspan="2"><span class="bold">Default email notification settings</span> </td> 
+      <td colspan="2"><strong>Default email notification settings</strong> </td> 
      </tr> 
      <tr> 
       <td>Default email alert</td> 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
       <td>Choose to receive a notification when you are added to a proof.</td> 
      </tr> 
      <tr> 
-      <td colspan="2"><span class="bold">Message settings</span> </td> 
+      <td colspan="2"><strong>Message settings</strong> </td> 
      </tr> 
      <tr> 
       <td>Proof subject template</td> 
@@ -73,7 +73,7 @@ You must have the following access to perform the steps in this article:
       <td>Type what you want users to see in the bodyof an email when you share a proof with them.</td> 
      </tr> 
      <tr> 
-      <td colspan="2"><span class="bold">Default proof settings</span> </td> 
+      <td colspan="2"><strong>Default proof settings</strong> </td> 
      </tr> 
      <tr> 
       <td>Lock proof when all decisions are made</td> 

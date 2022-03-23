@@ -21,7 +21,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -30,7 +34,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -43,13 +54,13 @@ You must have the following access to use the functionality in this article:
 
 To create a connection inside a Workfront Fusion module:
 
-1. Click `Add` to open the `Create a connection` box.
-1. (Optional) Change the default `Connection name`.
+1. Click **Add** to open the **Create a connection** box.
+1. (Optional) Change the default **Connection name**.
 1. (Conditional) If the app requires advanced connection settings, such as an ID, key, or secret, enter that information.
 
-   You might need to click `Show advanced settings` to display the fields where you can enter this kind of information.
+   You might need to click **Show advanced settings** to display the fields where you can enter this kind of information.
 
-1. Click `Continue`.
+1. Click **Continue**.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
-1. (Conditional) If an `Allow` button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
+1. (Conditional) If an **Allow** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
 

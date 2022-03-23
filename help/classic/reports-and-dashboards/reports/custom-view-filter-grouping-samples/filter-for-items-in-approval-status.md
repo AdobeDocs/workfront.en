@@ -49,14 +49,14 @@ You must have the following access to perform the steps in this article:
 ## Display only items in approval status
 
 1. Go to the filter you want to customize for a list of projects, for example.
-1. Click `Add a Filter Rule` for the `Status` field of the object of your list.  
-   For example, in a project report, add `Status Equal Planning`, if you want to display only projects which are in a status of `Planning - Pending Approval`.
+1. Click **Add a Filter Rule** for the **Status** field of the object of your list.  
+   For example, in a project report, add **Status Equal Planning**, if you want to display only projects which are in a status of **Planning - Pending Approval**.
 
-1. Click `Switch to Text Mode`.
-1. Modify the *status* line by adding `:A` to the 3-letter key of the status:  
+1. Click **Switch to Text Mode**.
+1. Modify the *status* line by adding **:A** to the 3-letter key of the status:  
    <pre>status=PLN:A<br>status_Mod=in</pre>
 
-1. Click `Done`, then `Save Filter`.
+1. Click **Done**, then **Save Filter**.
 
    The list displays only projects that are in a status of Planning - Pending Approval.
 

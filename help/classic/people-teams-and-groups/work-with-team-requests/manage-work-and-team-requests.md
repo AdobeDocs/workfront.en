@@ -8,8 +8,11 @@ A request represents a pending task or issue assignment. Work requests are made 
 >
 >Agile teams do not have team requests.
 
+* Organize&nbsp;requests&nbsp;
 * [Assign a request to a team](#assigning-requests-to-a-team) 
-* [Reassign requests](#reassigning-requests)
+* Reply to work&nbsp;requests
+* [Reassign requests](#reassigning-requests) 
+* Work on a&nbsp;request
 
 ## Access requirements
 
@@ -33,7 +36,7 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
-Organize requests At the top of your Work Requests or the Team Requests lists, there are tools to help you organize your requests. You can sort or group by certain criteria, and you can also filter by a keyword to find a specific request in the list. For more information on how to organize your Work Requests list, see Organize work on the My Work page. 
+Organize&nbsp;requests&nbsp; At the top of your Work Requests or the Team Requests lists, there are tools to help you organize your requests. You can sort or group by certain criteria, and you can also filter by a keyword to find a specific request in the list.&nbsp; For more information on how to organize your Work Requests list, see [Organize work on the My Work page](../../workfront-basics/using-home/my-work/organize-work-my-work.md). 
 
 ## Assign a request to a team
 
@@ -50,18 +53,29 @@ Teams can be assigned to tasks and issues in any of the following ways:
 * When a task or issue is created or modified
 * Through routing rules on a request (issues only)
 
-You can manually assign a request to a team from the team page,&nbsp;as described in this section. Alternatively, you can assign a request to a team by creating an ad hoc work item and assigning it to the team, as described in Create ad hoc work items.
+You can manually assign a request to a team from the team page,&nbsp;as described in this section.  Alternatively, you can assign a request to a team by creating an ad hoc work item and assigning it to the team, as described in [Create ad hoc work items](../../workfront-basics/using-home/my-work/create-ad-hoc-work-items-my-work.md).
 
 To manually assign a request to a team from the team page:
-Click the People tab in the Global Navigation Bar. Click the Teams tab Choose a team from the drop-down menu to select the team that you want to assign the request to. Click the Team Actions, then click Send a Work Request. Fill in the information in the box that opens. Click Send Request. The team is now assigned a new task which is displayed on the Team Requests tab. This task is not currently associated with a project, but it can be moved, as described in Move tasks. Reply to work requests Before agreeing to work on a request (by clicking Work On It), you can send a message to the user who submitted the request. For example, you might need more information regarding the request or you might want to propose a new date before you agree to work on it. You cannot reply to a team request. To reply to a work request: Click My Work in the Global Navigation Bar, then click the Work Requests tab. Click the Reply icon on the request for which you want to contact the requestor. Click in the comment box, then specify your message. (Optional) Click Propose a new date, then select the date when you think you can complete the request. Click Reply. The comment is sent to the user who submitted the request who receives an in-app notification about it. You can view your comment in the drop-down list at the top of the Work Requests tab. After the user responds, the response is displayed in the same location on the Work Requests tab. 
+```<li value="1">Click the <strong>People</strong> tab in the Global Navigation Bar.</li>``` ```<li value="2">Click the <strong>Teams</strong> tab</li>``` ```<li value="3">Choose a team from the drop-down menu&nbsp;to select the team that you want to assign the request to.<br><img src="assets/team-requests-adobe-350x158.png" alt="" style="width: 350;height: 158;"></li>``` ```<li value="4">Click the <strong>Team Actions</strong>, then click<strong>Send a Work Request</strong>.</li>``` ```<li value="5">Fill in the information in the box that opens.</li>``` ```<li value="6">Click <strong>Send Request</strong>.<br>The team is now assigned a new task which is displayed on the Team Requests tab. This task is not currently associated with a project, but it can be moved, as described in <a href="../../manage-work/tasks/manage-tasks/move-tasks.md" class="MCXref xref">Move tasks</a>.</li>```  Reply to work&nbsp;requests Before agreeing to work on a request (by clicking **Work On It**), you&nbsp;can send a message to the user who submitted the request. For example, you might need more information regarding the request or you might want to propose a new date&nbsp;before you agree to work on it. You cannot reply to a team request. To reply to a work request:  ```<li value="1">Click <strong>My Work</strong>&nbsp;in the Global Navigation Bar, then click the <strong>Work Requests</strong>&nbsp;tab.</li>``` ```<li value="2">Click the <strong>Reply</strong>&nbsp;icon on the request for which you want to contact the requestor.<br></li>``` ```<li value="3">Click in the comment box, then specify your message.</li>``` ```<li value="4">(Optional) Click <strong>Propose a new date</strong>, then select the date when you think you can complete the request.</li>``` ```<li value="5">Click <strong>Reply</strong>.<br>The comment is sent to the user who submitted the request who receives an in-app notification about it.<br>You can view your comment in the drop-down list at the top of the <strong>Work Requests</strong> tab.<br><img src="assets/requests-pendingreply-350x103.png" alt="" style="width: 350;height: 103;"><br>After the user responds, the response is displayed in the same location on the <strong>Work Requests</strong> tab.</li>```  
 
 ## Reassign requests
 
-You can reassign requests that have been assigned toyou or your team:
+You can reassign requests that have been assigned to you or  your team:
 
-1. Click the `Reassign`&nbsp;icon.  
+1. Work Requests
+1. Team Requests
+1. 
+1. Work Requests
+1. My Work
+1. Work Requests.
+1. 
+1. Team Requests
+1. People
+1. Teams
+1. Team Requests
+1. Click the **Reassign**&nbsp;icon.  
 
-1. Begin typing the name of the user, group, or team who you want to reassign the request to, then click `Assign`.  
+1. Begin typing the name of the user, group, or team who you want to reassign the request to, then click **Assign**.  
    The request is reassigned.
 
-Work on a request Work and team requests remain on the requests lists until a member of the assigned team acknowledges the work and adds it to their Working On list. If an assigned user who is not a member of the team adds the request to their Working On list, the request remains on the team request list. Work items might be removed from the Working On list if the assigned resource changes before the individual user or team member commits to it. Move an item to your Working On list only when you are currently working on the item or soon will be.  To commit to working on an item by moving it to your Working On list: Click Work On It next to the item that you want to work on in the Work Requests or Team Requests tabs. The work request is removed from the Work Requests or Team Requests list and transferred to your Working On list. When you click on Work on It, the work item is removed from the Team Requests list and other members of the team no longer see it on the Team Request page.  
+Work on a&nbsp;request Work and team requests remain on the requests lists until a member of the assigned team&nbsp;acknowledges the work and adds it to their Working On list. If an assigned user who is not a member of the team adds the request to their Working On list, the request remains on the team request list. Work items might&nbsp;be removed from the Working On&nbsp;list if the assigned resource changes before the individual user or&nbsp;team member commits to it. Move an item to your Working On list only when you are currently working on the item or soon will be.  ![](assets/work-on-it-button-350x54.png)  To commit to working on an item by moving it to your Working On list:  ```<li value="1">Click&nbsp;<strong>Work On It</strong>&nbsp;next to the item that you want to work on in the <strong>Work Requests</strong> or <strong>Team Requests</strong> tabs.<br>The work request is removed from the <strong>Work Requests</strong> or <strong>Team Requests</strong>&nbsp;list and transferred to your Working On list. When you click on Work on It, the work item is removed from the Team Requests list and other members of the team no longer see it on the Team Request page.</li>``` 

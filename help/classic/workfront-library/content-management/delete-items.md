@@ -20,4 +20,17 @@ When you delete an asset that is also linked to a Workfront object, such as a pr
 Users with permissions to an item that is deleted do not receive notification of its deletion.
 
 Currently, you cannot restore a deleted item.
-`<body>  <ol>   <li value="1"> In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. </li>   <li value="2"> <p>In the upper-left corner of Workfront Library, click the <span class="bold">Menu</span> icon.</p> </li>   <li value="3"> <p>Select the area where the item you want to delete is located.</p> </li>   <li value="4">Navigate to the item.</li>   <li value="5"> <p>Hover over the item, click the <span class="bold">More</span> icon in the upper-right corner of the item.</p> </li>   <li value="6"> <p>Select <span class="bold">Delete</span> in the drop-down menu, then click <span class="bold">Delete</span> again to confirm.</p> <p>The item is removed from Workfront Library.</p> <note type="note">    If you delete an item that is used as the cover image of a folder or collection, it remains the cover image until you select a different item, regardless of the item being deleted from Workfront Library. For information on changing the cover image, see     <a href="../../workfront-library/content-management/change-cover-image-of-folder.md" class="MCXref xref" xrefformat="{para}">Change the cover image on an item in Workfront Library</a>.   </note> </li>  </ol> </body>`  
+
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon.
+1. Select the area where the item you want to delete is located.
+1. Navigate to the item.
+1. Hover over the item, click the **More** icon in the upper-right corner of the item.
+1. Select **Delete** in the drop-down menu, then click **Delete** again to confirm.
+
+   The item is removed from Workfront Library.
+
+   >[!NOTE]
+   >
+   >If you delete an item that is used as the cover image of a folder or collection, it remains the cover image until you select a different item, regardless of the item being deleted from Workfront Library. For information on changing the cover image, see [Change the cover image on an item in Workfront Library](../../workfront-library/content-management/change-cover-image-of-folder.md).
+

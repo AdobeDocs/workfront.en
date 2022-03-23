@@ -7,6 +7,7 @@ keywords: connector
 navigation-topic: apps-and-their-modules
 title: Airtable modules
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
+hidefromtoc: true
 ---
 
 # Airtable modules
@@ -15,19 +16,19 @@ Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to
 In a Adobe Workfront Fusion scenario, you can connect your Airtable account to multiple third-party applications and services.
 
 <!--
-For more information, see the tutorial Sync Airtable and Google contacts.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see the tutorial <a href="../../workfront-fusion/tutorials/sync-airtable-google-contacts.md" class="MCXref xref">Sync Airtable and Google contacts</a>.</p>
 -->
 
 ## Connect Airtable to Workfront Fusion
 
 1. Log in to your Airtable account.
 1. Open your account overview and generate the API key.
-1. Open Workfront Fusion and the `Create a connection` dialog of the desired module.
-1. Enter the generated API key in the `API` token field.
+1. Open Workfront Fusion and the **Create a connection** dialog of the desired module.
+1. Enter the generated API key in the **API** token field.
 
    ![](assets/airtable-create-a-connection-350x263.png)
 
-1. Click the `Continue` button. The connection is now established.
+1. Click the **Continue** button. The connection is now established.
 
 ## Airtable modules and their fields
 
@@ -62,27 +63,27 @@ When you are configuring this module, the following fields display.
    <td> <p style="font-weight: bold;">Record</p> </td> 
    <td> <p>Enter the values for the new record.</p> <p>For more information on field types, search for "Field types reference" in the Airtable documentation.</p> 
     <ul> 
-     <li> <p><span class="bold">Text</span>: string</p> <p>A single line of text.</p> </li> 
-     <li> <p><span class="bold">Long text</span>: string</p> <p>Multiple lines of text, which may contain "mention tokens", for example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
-     <li><span class="bold">Attachment</span> : Add the attachment. Airtable will download the file from the provided <code>url</code> and keep its own copy of it. If the File name field is left empty, Airtable generates the name automatically.</li> 
-     <li><span class="bold">Checkbox</span>: Select one of the options.</li> 
-     <li><span class="bold">Multiple select</span>: Select multiple options in the checklist.</li> 
-     <li><span class="bold">Single select</span>: Select one option from the drop-down menu.</li> 
-     <li><span class="bold">Collaborator</span>: Enter the email that uniquely identifies a user in Airtable who this base is shared with.</li> 
-     <li><span class="bold">Date</span>: UTC date, for example, 2019-09-05 (ISO 8601 formatted date)</li> 
+     <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
+     <li> <p><strong>Long text</strong>: string</p> <p>Multiple lines of text, which may contain "mention tokens", for example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
+     <li><strong>Attachment</strong> : Add the attachment. Airtable will download the file from the provided <code>url</code> and keep its own copy of it. If the File name field is left empty, Airtable generates the name automatically.</li> 
+     <li><strong>Checkbox</strong>: Select one of the options.</li> 
+     <li><strong>Multiple select</strong>: Select multiple options in the checklist.</li> 
+     <li><strong>Single select</strong>: Select one option from the drop-down menu.</li> 
+     <li><strong>Collaborator</strong>: Enter the email that uniquely identifies a user in Airtable who this base is shared with.</li> 
+     <li><strong>Date</strong>: UTC date, for example, 2019-09-05 (ISO 8601 formatted date)</li> 
      <li>Phone number:</li> 
-     <li><span class="bold">Emails</span>: A valid email address.</li> 
-     <li><span class="bold">URL</span>: A valid URL (for example, airtable.com or https://airtable.com/universe).</li> 
-     <li><span class="bold">Number</span>: Enter a number.</li> 
-     <li><span class="bold">Currency</span>: Currency value.</li> 
-     <li><span class="bold">Percent</span>: A percentage value. Must be higher than or equal to 0.</li> 
-     <li><span class="bold">Duration</span>: Enter the duration time. If you need help, see the information about the duration field type in the Airtable support documentation. </li> 
-     <li><span class="bold">Rating</span>: Enter the number. For example, "3 stars" is 3. A rating cannot be 0.</li> 
-     <li><span class="bold">Link</span>: Enter the linked records IDs from the table. The order of record IDs will be reversed compared to what you see in the app.</li> 
-     <li><span class="bold">Rollup</span>: Computed value: COUNT(values)</li> 
-     <li><span class="bold">Lookup</span>: Array of long text fields</li> 
-     <li><span class="bold">Autonumber</span>: Automatically incremented unique counter for each record.</li> 
-     <li> <p><span class="bold">Barcode</span>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
+     <li><strong>Emails</strong>: A valid email address.</li> 
+     <li><strong>URL</strong>: A valid URL (for example, airtable.com or https://airtable.com/universe).</li> 
+     <li><strong>Number</strong>: Enter a number.</li> 
+     <li><strong>Currency</strong>: Currency value.</li> 
+     <li><strong>Percent</strong>: A percentage value. Must be higher than or equal to 0.</li> 
+     <li><strong>Duration</strong>: Enter the duration time. If you need help, see the information about the duration field type in the Airtable support documentation. </li> 
+     <li><strong>Rating</strong>: Enter the number. For example, "3 stars" is 3. A rating cannot be 0.</li> 
+     <li><strong>Link</strong>: Enter the linked records IDs from the table. The order of record IDs will be reversed compared to what you see in the app.</li> 
+     <li><strong>Rollup</strong>: Computed value: COUNT(values)</li> 
+     <li><strong>Lookup</strong>: Array of long text fields</li> 
+     <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
+     <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -212,30 +213,30 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td> <p style="font-weight: bold;">Record</p> </td> 
    <td> <p>Enter the values for the new record.</p> <p>In order to delete the content of the field, use the erase function. </p> <!--
-     screenshot
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">screenshot</p>
     --> <p>Field types (via airtable.com/api):</p> 
     <ul> 
-     <li> <p><span class="bold">Text</span>: string</p> <p>A single line of text.</p> </li> 
-     <li> <p><span class="bold">Long text</span>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
-     <li><span class="bold">Attachment</span>: Add the attachment. Airtable will download the file from the provided url and keep its own copy of it. If the File name field is left empty, Airtable will generate the name automatically.</li> 
-     <li><span class="bold">Checkbox</span>: Select one of the options.</li> 
-     <li><span class="bold">Multiple select</span>: Select multiple options in the checklist.</li> 
-     <li><span class="bold">Single select</span>: Select one option from the drop-down menu.</li> 
-     <li><span class="bold">Collaborator</span>: Enter the email that uniquely identifies a user in Airtable who this base is shared with.</li> 
-     <li><span class="bold">Date</span>: UTC date, for example, 2019-09-05. (ISO 8601 formatted date)</li> 
-     <li><span class="bold">Phone number</span>: A telephone number, for example, (415) 555-9876.</li> 
-     <li><span class="bold">Email</span>: A valid email address.</li> 
-     <li><span class="bold">URL</span>: A valid URL such as airtable.com or https://airtable.com/universe.</li> 
-     <li><span class="bold">Number</span>: Enter a number.</li> 
-     <li><span class="bold">Currency</span>: Currency value.</li> 
-     <li><span class="bold">Percent</span>: A percentage value; must be equal to or more than 0.</li> 
-     <li><span class="bold">Duration</span>: Enter the duration time. If you need help, see the information about the duration field type in the Airtable support documentation.</li> 
-     <li><span class="bold">Rating</span>: Enter the number. For example, "3 stars" is 3. A rating cannot be 0.</li> 
-     <li><span class="bold">Link</span>: Enter the linked records IDs from the table. The order of record IDs is reversed compared to what you see in the app.</li> 
-     <li><span class="bold">Rollup</span>: Computed value: COUNT(values)</li> 
-     <li><span class="bold">Lookup</span>: Array of long text fields</li> 
-     <li><span class="bold">Autonumber</span>: Automatically incremented unique counter for each record.</li> 
-     <li> <p><span class="bold">Barcode</span>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
+     <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
+     <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
+     <li><strong>Attachment</strong>: Add the attachment. Airtable will download the file from the provided url and keep its own copy of it. If the File name field is left empty, Airtable will generate the name automatically.</li> 
+     <li><strong>Checkbox</strong>: Select one of the options.</li> 
+     <li><strong>Multiple select</strong>: Select multiple options in the checklist.</li> 
+     <li><strong>Single select</strong>: Select one option from the drop-down menu.</li> 
+     <li><strong>Collaborator</strong>: Enter the email that uniquely identifies a user in Airtable who this base is shared with.</li> 
+     <li><strong>Date</strong>: UTC date, for example, 2019-09-05. (ISO 8601 formatted date)</li> 
+     <li><strong>Phone number</strong>: A telephone number, for example, (415) 555-9876.</li> 
+     <li><strong>Email</strong>: A valid email address.</li> 
+     <li><strong>URL</strong>: A valid URL such as airtable.com or https://airtable.com/universe.</li> 
+     <li><strong>Number</strong>: Enter a number.</li> 
+     <li><strong>Currency</strong>: Currency value.</li> 
+     <li><strong>Percent</strong>: A percentage value; must be equal to or more than 0.</li> 
+     <li><strong>Duration</strong>: Enter the duration time. If you need help, see the information about the duration field type in the Airtable support documentation.</li> 
+     <li><strong>Rating</strong>: Enter the number. For example, "3 stars" is 3. A rating cannot be 0.</li> 
+     <li><strong>Link</strong>: Enter the linked records IDs from the table. The order of record IDs is reversed compared to what you see in the app.</li> 
+     <li><strong>Rollup</strong>: Computed value: COUNT(values)</li> 
+     <li><strong>Lookup</strong>: Array of long text fields</li> 
+     <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
+     <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

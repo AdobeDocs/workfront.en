@@ -22,7 +22,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -31,7 +35,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -46,7 +57,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
 ## Task 1: Add the first module and configure it
 
-1. Search for Email and choose `Watch emails` as the Trigger.
+1. Search for Email and choose **Watch emails** as the Trigger.
 
    >[!NOTE]
    >
@@ -64,7 +75,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
    You can change this based on the volume of messages you receive. However, it’s recommended to set a low value and run the scenario more often.
 
-1. Now click `Show advanced settings` at the bottom to see these filters:
+1. Now click **Show advanced settings** at the bottom to see these filters:
 
    ![](assets/show-adv-settings-350x332.png)
 
@@ -76,7 +87,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
    >
    >We will add a router to look for phrases in an email using the Match Pattern iterator and a Regular Expression (Regex) as a search pattern. This also enables us to build a multi-utility scenario.
 
-1. Once the configuration is done, and you are prompted to specify where to start watching your emails, click `From now on`.
+1. Once the configuration is done, and you are prompted to specify where to start watching your emails, click **From now on**.
 
    ![](assets/from-now-on-350x236.png)
 
@@ -106,7 +117,7 @@ This tutorial requires basic knowledge of regular expressions. To learn about Re
 
      Multiline is useful if your text contains several lines and you need to search for the pattern in each line. For this tutorial we need to search for the pattern in the entire email body text, hence we will leave it unchecked.
   
-  1. In the Text field, click the attribute `Text content` in the list.
+  1. In the Text field, click the attribute **Text content** in the list.
 
      ![](assets/text-content-350x264.png)
 
@@ -152,7 +163,7 @@ Instead of Google Sheets, you can use another app like Airtable or a CRM such as
 
    For example, create one called “Email Data: Support Ticket” with Sender Name, Sender Email and Email Content as columns. Name the worksheet "contains: text parser module."
 
-1. Add the Google Sheets module with `Add a row` as the action.
+1. Add the Google Sheets module with **Add a row** as the action.
 
    ![](assets/add-a-row-350x174.png)
 
@@ -184,7 +195,7 @@ Instead of Google Sheets, you can use another app like Airtable or a CRM such as
 
      ![](assets/sender-name-350x411.png)
 
-  1. Click `OK`, save the scenario, and take it for a test run.
+  1. Click **OK**, save the scenario, and take it for a test run.
 
      You will need to send two separate emails to the connected email address as follows:
 

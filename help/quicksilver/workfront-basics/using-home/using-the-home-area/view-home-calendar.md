@@ -45,10 +45,26 @@ You must have the following access to perform the steps in this article:
 
 ## View the Workfront Home Calendar
 
-1. Click `Work List` in the upper-left corner of Home, then click  `Calendar` in the drop-down menu.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. Click **Work List** in the upper-left corner of Home, then click&nbsp;**Calendar** in the drop-down menu.
+
+   ![](assets/work-list-calendar-drop-down-expanded-home-nwe-350x264.png)
 
    The Home Calendar view displays.
 
+   ![](assets/calendar-group-by-drop-down-home-nwe-350x123.png)   
    All the work items assigned to you or assigned to your groups, teams, or roles display in the left panel.
 
    You can manage your workday by dragging and dropping tasks from the left panel to your calendar. To learn about how to populate your Home Calendar, see [Use the Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).

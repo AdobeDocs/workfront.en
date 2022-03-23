@@ -66,19 +66,24 @@ You can manually update issue statuses or you can let Workfront automatically up
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 
 1. Go to an issue that you are assigned to for which you want to update the status.
-1. Click the Status field in the issue header and select a new status.  
-1. (Optional) Do any of the following to provide additional information about the update, then click `Update` or, if the issue has a status that equates with Complete, click `Done:`
+1. Click the **Status** field in the issue header and select a new status.   ![](assets/nwe-issue-status-expanded-in-header-350x370.png)
 
-  * To add a note about the update, go to the `Updates` section and click `Start a new update`, then type your note.
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the issue has a status that equates with Complete, click **Done:**
 
-  * To notify certain users about the update, type their names in the `Notify` box that appears when you type a note about the update.
-  * To update the condition of the issue, click `Condition`, then select the condition that best reflects the current condition of the issue. Select from the following options:
+  * To add a note about the update, go to the **Updates** section and click **Start a new update**, then type your note.
+
+  * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update.
+  * To update the condition of the issue, click **Condition**, then select the condition that best reflects the current condition of the issue. Select from the following options:
 
     * Going Smoothly
     * Some Concerns
     * Major Roadblocks
 
-  * To update the Commit Date of the issue, expand the `Commit Date` drop-down calendar, and select a new date.
+  * To update the Commit Date of the issue, expand the **Commit Date** drop-down calendar, and select a new date.
+  * To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue
+  * Or
+  * Click inside the bubble to enter a percentage. 
+  * ![](assets/drag-the-progress-bar-350x155.png)
 
 ## Automatically update issue status
 
@@ -112,7 +117,12 @@ Workfront automatically updates the existing status of an issue to a different s
    <td>Update the status of a resolving object attached to the issue</td> 
    <td>Various statuses</td> 
    <td> <p>Various statuses</p> <p>For information about resolving objects and how they affect the status of issues, see the section "Synchronize the Status of the Resolvable Object with that of the Resolving Object" in the article <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Overview of Resolving and Resolvable Objects </a>.</p> </td> 
-  </tr> Click the Start Issue button to accept working on an issue assigned to you New Any status associated with the Start Issue button in your Home Team settings. For information about replacing the Work On It button with a Start Issue button, see Replace the Work On It button with a Start button. Tip: Clicking the Undo button after clicking Start Issue reverts the status to New. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>Click the Start Issue button to accept working on an issue assigned to you</span> </td> 
+   <td><span>New</span> </td> 
+   <td> <p>Any status associated with the Start Issue button in your Home Team settings. </p> <p>For information about replacing the Work On It button with a Start Issue button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span><span>.</span> </p> <p>Tip: Clicking the Undo button after clicking Start Issue reverts the status to New. </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 

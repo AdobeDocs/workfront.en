@@ -47,9 +47,9 @@ You must have the following access to perform the steps in this article:
 
 When a user is removed from a project, any tasks or issues assigned to them might be affected, depending on whether the task or issue was in an Active or Complete state when the user was removed:
 
-* `If the item is in an Active state when the user is removed:` The item is re-assigned to a Job Role if a Job Role was already assigned. If the item&nbsp;did not have a Job Role assigned, you must manually re-assign the item. An item in an Active state is any item that has not completed yet.
-* `If the item is in a Complete state when the user is removed:` The name of the removed user remains on&nbsp;the item.
-* If the user removed is also the creator of a project, the project is not removed from their `Projects I'm On` list in the Projects area. The project is removed from the lists for all other users that filter for that project by the Entered By field.
+* **If the item is in an Active state when the user is removed:** The item is re-assigned to a Job Role if a Job Role was already assigned. If the item&nbsp;did not have a Job Role assigned, you must manually re-assign the item. An item in an Active state is any item that has not completed yet.
+* **If the item is in a Complete state when the user is removed:** The name of the removed user remains on&nbsp;the item.
+* If the user removed is also the creator of a project, the project is not removed from their **Projects I'm On** list in the Projects area. The project is removed from the lists for all other users that filter for that project by the Entered By field.
 
 ## Remove users from a project and Project Team
 
@@ -57,11 +57,14 @@ When you remove a user from the project, the user is also removed from the proje
 
 You can remove users from a project from the People sectionof the project.
 
+* Remove users from a project from the People area
+
 Remove users from a project from the People area
 
 1. Go to the project where you want to remove the users.
-1. Click `People` in the left panel,&nbsp;then select the users you want to remove. This might be located under the Show More area.  
+1. Click **People** in the left panel,&nbsp;then select the users you want to remove. This might be located under the **Show More** area.   
 
-1. Click `Remove`.
-1. Click  `Yes, Remove Selected Users` to confirm removal.
+1. Click **Remove** ![Remove item](assets/remove-icon---x-in-circle.png).
+
+1. Click&nbsp;**Yes, Remove Selected Users** to confirm removal.
 

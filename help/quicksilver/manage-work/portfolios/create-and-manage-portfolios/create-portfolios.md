@@ -43,16 +43,20 @@ You must have the following access to perform the steps in this article:
 
 ## Create a portfolio
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Portfolios. 
-1. Click `New Portfolio`.
-1. Replace `Untitled Portfolio` with the name you want for the portfolio.
+1. Click **Portfolios**. 
+1. Click **New Portfolio**.
+1. Replace **Untitled Portfolio** with the name you want for the portfolio.
 
    The name can contain up to 255 characters.
 
-1. Click Portfolio Details in the left panel.
-1. In the Overview area, change any of the following information:
+1. (Optional) Click the name under **Portfolio Manager** in the header at the top of the page to assign a different manager for the portfolio. 
+1. ![](assets/portfolio-manager-name-350x51.jpg)
+
+1. As the creator of the portfolio, you are assigned as the portfolio manager by default.
+1. Click **Portfolio Details** in the left panel.
+1. In the **Overview** area, change any of the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -64,26 +68,47 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Portfolio Manager</td> 
-      <td> <p>Start typing the name of a user that you want to indicate as the portfolio manager, then select it when it appears in the list. This is the same as the Portfolio Owner. This is the person who can oversee the work defined in the projects of the portfolio and can approve the Business Case.</p> <p>Important: When you designate someone as the Portfolio Manager, they automatically gain&nbsp;Manage permissions to the portfolio, the programs and the projects in the portfolio. </p> Tip: You can also update the Portfolio Manager in the header at the top of the page. </td> 
-     </tr> Group Add the name of a single group if the group owns the portfolio or has responsibility for completing it. You can make sure you are selecting the right group by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. 
+      <td> <p>Start typing the name of a user that you want to indicate as the portfolio manager, then select it when it appears in the list. This is the same as the Portfolio Owner. This is the person who can oversee the work defined in the projects of the portfolio and can approve the Business Case.</p> <p>Important: When you designate someone as the Portfolio Manager, they automatically gain&nbsp;Manage permissions to the portfolio, the programs and the projects in the portfolio. </p> <span class="autonumber"><span><b>Tip: </b></span></span>You can also update the Portfolio Manager in the header at the top of the page. </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Group </td> 
+      <td> <p>Add the name of a single group if the group owns the portfolio or has responsibility for completing it. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p>  <img src="assets/group-details-widget-portfolios-350x250.png" style="width: 350;height: 250;">  </td> 
+     </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Click inside the Add custom form box in the upper-right corner of the Portfolio Details page to select a custom form for the portfolio and update the custom fields.
+1. (Optional) Click inside the **Add custom form** box in the upper-right corner of the Portfolio Details page to select a custom form for the portfolio and update the custom fields.
 
    >[!TIP]
    >
    >You must have portfolio custom forms already created before you can attach them to portfolios.
 
-1. (Optional) Click Programs in the left panel, then Add Programs to add programs to the portfolio.
+1. Save Changes
+1. (Optional) Click **Programs** in the left panel, then **Add Programs** to add programs to the portfolio.
 
    For more information about creating Programs, see [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md).
 
-1. (Optional) Click Projects in the left panel, then Add Projects to add projects to the portfolio.
+1. (Optional) Click **Projects** in the left panel, then **Add Projects** to add projects to the portfolio.
 
    For more information about adding projects to a Portfolio, see [Add projects to a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
-Deactivate a portfolio When you deactivate a portfolio, you can still access it from the Portfolios area, but it no longer displays in the list of portfolios when users try to add it to a project. Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Portfolios. Click the name of the portfolio. Click the More menu to the right of the portfolio name, then click Deactivate Portfolio. Delete a portfolio Click the Main Menu icon in the upper-right corner of Adobe Workfront. Click Portfolios. Select the portfolio, then click the Delete icon. In the box that appears, click Yes, Delete It to confirm.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Deactivate a portfolio</h2>
+<p>When you deactivate a portfolio, you can still access it from the Portfolios area, but it no longer displays in the list of portfolios when users try to add it to a project.</p>
+<ol>
+<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li>
+<li value="2">Click <strong>Portfolios</strong> .</li>
+<li value="3"> <p>Click the name of the portfolio.</p> </li> Click the More menu
+<img src="assets/more-icon.png"> to the right of the portfolio name, then click <strong>Deactivate Portfolio</strong>.
+</ol>
+<h2>Delete a portfolio</h2>
+<ol>
+<li value="1">Click the <strong>Main Menu</strong> icon <img src="assets/main-menu-icon.png"> in the upper-right corner of Adobe Workfront.</li>
+<li value="2"> <p>Click <strong>Portfolios</strong> .</p> </li>
+<li value="3"> <p>Select the portfolio, then click the Delete icon <img src="assets/delete.png">.</p> </li>
+<li value="4"> <p>In the box that appears, click <strong>Yes, Delete It</strong> to confirm.</p> </li>
+</ol>
+</div>
 -->
 

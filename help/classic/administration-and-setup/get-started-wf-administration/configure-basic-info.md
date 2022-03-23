@@ -40,29 +40,29 @@ The customer represents the Workfront instance for your organization. The option
 
 To access the Customer Info page:
 
-1. <![CDATA[]]>Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. <![CDATA[]]>Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. In the left panel, click `System` > `Customer Info`.
+1. In the left panel, click **System** > **Customer Info**.
 
    Depending on the Workfront plan that you have purchased, some sections might be missing from the Customer Info page. Contact your Account Representative if you need to find out which Workfront plan your organization uses.
 
    The sections available in the Customer Info area are:
 
-  * `Basic Info`
+   * **Basic Info**
 
-    For information&nbsp;about configuring basic information in Workfront, see [Configure Basic Info](#configuring-basic-info).
-  
-  * `API Key Settings`
+     For information&nbsp;about configuring basic information in Workfront, see [Configure Basic Info](#configuring-basic-info).
+   
+   * **API Key Settings**
 
-    For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
-  
-  * `IP Allowlist`
+     For information about API key settings, see [Manage API keys](../../administration-and-setup/manage-workfront/security/manage-api-keys.md).
+   
+   * **IP Allowlist**
 
-    For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
-  
-  * `License`
+     For information about adding the IP addresses to your allowlist for where your users can access Workfront, see [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+   
+   * **License**
 
-    For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
 ## Configure Basic Info
 
@@ -70,10 +70,10 @@ Inside the Basic Info area of your Customer Info page, some details about your c
 
 To&nbsp;configure your Basic Info section in your Customer Info area:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `System` > `Customer Info`. 
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **System** > **Customer Info**. 
 
-1. In the `Basic Info` section at the top of the `Customer Info` page, find the following information about your instance with Workfront:
+1. In the **Basic Info** section at the top of the **Customer Info** page, find the following information about your instance with Workfront:
 
    <table cellspacing="0"> 
     <col> 
@@ -117,10 +117,10 @@ To&nbsp;configure your Basic Info section in your Customer Info area:
      </tr> 
      <tr> 
       <td role="rowheader">Product Version</td> 
-      <td>This is the type of Workfront instance that is assigned to you. The product version for most Workfront customers is <span class="bold">Enterprise</span>.</td> 
+      <td>This is the type of Workfront instance that is assigned to you. The product version for most Workfront customers is <strong>Enterprise</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 

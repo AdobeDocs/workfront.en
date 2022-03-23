@@ -47,10 +47,10 @@ The following functionality is currently included in the Workfront Scenario Plan
 
   The following project information is imported into the plan and becomes initiative information:
 
-  * Project name
-  * Job roles associated with tasks and issues on the project
-  * Job roles FTE converted from the Planned Hours assigned to the roles on the project
-  * Job roles hours when the plan is set up to use hours instead of FTEs
+   * Project name
+   * Job roles associated with tasks and issues on the project
+   * Job roles FTE converted from the Planned Hours assigned to the roles on the project
+   * Job roles hours when the plan is set up to use hours instead of FTEs
 
   For information about importing projects into a plan, see Import projects to plans in the Adobe Workfront Scenario Planner.
 
@@ -67,6 +67,10 @@ The following functionality is currently included in the Workfront Scenario Plan
   For information about estimating resources for initiatives, see Resolve initiative conflicts in the Adobe Workfront Scenario Planner.
 
 <!--
-Workfront Scenario Planner video overview For an overview of the Workfront Scenario Planner, watch the following video:
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="video"></a>Workfront Scenario Planner video overview</h2>
+<p>For an overview of the&nbsp;Workfront Scenario Planner, watch the following video:</p>
+<p><a href="https://one.workfront.com/s/managed-content-videos/workfront-scenario-planner-what-is-scenario-planner-in-the-new-workfront-experie-20Y4X000000Cb07UAC" target="_blank"><img src="assets/sp-overview-video-350x194.png" style="width: 350;height: 194;"></a> </p>
+</div>
 -->
 

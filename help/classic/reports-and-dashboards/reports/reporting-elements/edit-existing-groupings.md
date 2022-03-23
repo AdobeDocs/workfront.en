@@ -48,20 +48,26 @@ View the following video to learn how to edit existing groupings.
 ## How-to steps
 
 1. Go to a list of objects that contains the grouping that you want to customize.
-1. Click the `Grouping`drop-down menu.
+1. Click the **Grouping** drop-down menu.
 1. Select the grouping that you want to customize.
-1. In the `Grouping Preview` section, click `Add Grouping` to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
+1. Click the **Grouping** drop-down menu, then click **Customize Grouping**.
+
+1. ![](assets/customize-grouping-285x427.png)
+
+1. The interface builder for customizing the grouping opens.
+1. In the **Grouping Preview** section, click **Add Grouping** to define how you want information in the report to be organized. A preview of what the grouping looks like in the report is shown below.
 
 1. Begin typing the name of the field that represents the way that you want to organize information in the report, then click it when it appears in the drop-down list.
 1. Repeat Steps 5 and 6 to define additional groupings.  
    You can define up to three groupings for organizing information. You can further organize your information with up to four groupings by creating a matrix report. For more information on matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Click `Save` `Grouping` to replace the current grouping with your changes.
+1. Click **Save****Grouping** to replace the current grouping with your changes.
 
 ## Additional information
 
 See also:
 
+* Learning Path for reports and dashboards
 * [Reporting elements: filters, views, and groupings](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) 
 * [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)

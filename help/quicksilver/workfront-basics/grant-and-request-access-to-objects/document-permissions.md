@@ -36,7 +36,7 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
 * You can also share a document publicly or system-wide.
 
-  ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
+  ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
 
 * You can share a document with someone who does not have a Workfront account, by adding their email address in the Give document access to field.
 * When you share a document, users have the same access to all the document versions and all the document proofs.  
@@ -60,9 +60,9 @@ The following table displays what permissions you can grant users when allowing 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Action</span> </p> </th> 
-   <th> <p><span class="bold">Manage</span> </p> </th> 
-   <th> <p><span class="bold">View</span> </p> </th> 
+   <th> <p><strong>Action</strong> </p> </th> 
+   <th> <p><strong>Manage</strong> </p> </th> 
+   <th> <p><strong>View</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

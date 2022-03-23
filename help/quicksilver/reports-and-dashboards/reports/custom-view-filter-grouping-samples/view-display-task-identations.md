@@ -45,12 +45,12 @@ You must have the following access to perform the steps in this article:
 ## Display task indentations in a column of a task list
 
 1. Go to a list of tasks.
-1. From the `View` drop-down menu, click `New View`.
+1. From the **View** drop-down menu, click **New View**.
 
-1. Click `Add Column` and start typing "Task Name" in the `Show in this column` field then select it when it displays in the list.
+1. Click **Add Column** and start typing "Task&nbsp;Name" in the **Show in this column** field then select it when it displays in the list.
 
-1. From the new column, click `Switch to Text Mode`.
-1. Hover over the text mode area, and click `Click to edit text`.
+1. From the new column, click **Switch to Text Mode**.
+1. Hover over the text mode area, and click **Click to edit text**.
 1. Remove the text you find in the 
 
    ```
@@ -63,5 +63,5 @@ You must have the following access to perform the steps in this article:
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))
    ```
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

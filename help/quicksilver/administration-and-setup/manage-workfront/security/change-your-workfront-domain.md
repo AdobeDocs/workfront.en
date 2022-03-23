@@ -36,9 +36,9 @@ You must have the following to perform the steps in this article:
 
 ## Request a domain change
 
-1. Click the `Support` tab on the Workfront One page, then start creating a support case.
-1. In the `Description` box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
-1. Finish filling out the boxes for the support case, then click `Submit`.
+1. Click the **Support** tab on the Workfront One page, then start creating a support case.
+1. In the **Description** box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
+1. Finish filling out the boxes for the support case, then click **Submit**.
 
 You can also call Workfront Support to get help changing your domain.
 
@@ -50,17 +50,17 @@ If your company utilizes SSO, the following steps are required after you have yo
 >
 >This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left sidebar, click `System` > `Customer Info` and make sure that your domain is updated on the Customer Info page.
+1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
-1. In the left sidebar, click `System` > `Single Sign-On (SSO)`.
+1. In the left sidebar, click **System** > **Single Sign-On (SSO)**.
 
-1. Click `Download SAML 2.0 Metadata`.
+1. Click **Download SAML 2.0 Metadata**.
 1. After the file is downloaded, open it and make sure of the following:
 
-  1. `entityID` is pointing to the new domain.
-  1. All locations within `<md:AssertionConsumerService>` point to the new domain.
+  1. **entityID** is pointing to the new domain.
+  1. All locations within **<md:AssertionConsumerService>** point to the new domain.
 
 1. Provide the downloaded metadata file to your Identity Provider so that they can update it on their end.
 1. Make sure the domain is updated for all Workfront integrations used by your organization.

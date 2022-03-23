@@ -58,13 +58,26 @@ If you recall an approval that is associated with the beginning status of the pr
 
 To recall a project approval you submitted:
 
-1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select a `Project` approval.
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
+
+1. Select a **Project** approval.
 
    ![Project.png](assets/project-350x331.png)
 
-1. Click `Recall` in the upper-right corner of the right panel.
+1. Click **Recall** in the upper-right corner of the right panel.
 
 ## Tasks
 
@@ -78,13 +91,26 @@ If you recall an approval that is associated with the beginning status of the ta
 
 To recall a task approval you submitted:
 
-1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select a `Task` approval.
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
+
+1. Select a **Task** approval.
 
    ![Task.png](assets/task-350x400.png)
 
-1. Click `Recall` in the upper-right corner of the right panel.
+1. Click **Recall** in the upper-right corner of the right panel.
 
 ## Issues
 
@@ -96,45 +122,97 @@ If you recall an approval that is associated with the beginning status of the is
 >
 >You can associate the first status of an issue with an approval process by using a template. For more information about creating a request queue, see [Create a Request Queue](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select an `Issue` approval.  
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
+
+1. Select an **Issue** approval.  
    ![Issue.png](assets/issue-350x330.png)
 
-1. Click `Recall` in the upper-right corner of the right panel.
+1. Click **Recall** in the upper-right corner of the right panel.
 
 ## Timesheets
 
 When you recall a timesheet approval, the timesheet returns to the status it was in before it was submitted for approval.
 
-1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select a `Timesheet` approval.  
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
+
+1. Select a **Timesheet** approval.  
    ![Timesheet.png](assets/timesheet-350x329.png)
 
-1. Click `Recall` in the upper-right corner of the right panel.
+1. Click **Recall** in the upper-right corner of the right panel.
 
 ## Documents
 
 To recall a document approval, you must manually remove one or all users from the approval.
 
-1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select a `Document` approval.
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
+
+1. Select a **Document** approval.
 
    ![Document.png](assets/document-350x335.png)
 
-1. Click `Manage Approvals` in the upper-right corner of the right panel.
-1. Click the `Remove` icon inline with the name of a user. Remove all users to completely recall the document&nbsp;approval.
+1. Click **Manage Approvals** in the upper-right corner of the right panel.
+1. Click the **Remove** icon inline with the name of a user. Remove all users to completely recall the document&nbsp;approval.
 
    ![Remove_User.png](assets/remove-user-350x41.png)
 
 ## Access Requests
 
-1. In the `Work List` area, navigate to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select an `Access Request` approval.  
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, navigate to the **Approvals I've Submitted** grouping.
+
+1. Select an **Access Request** approval.  
    ![Access_Request.png](assets/access-request-350x335.png)
 
-1. Click `Recall` in the upper-right corner of the right panel.
+1. Click **Recall** in the upper-right corner of the right panel.
 

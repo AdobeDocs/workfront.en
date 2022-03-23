@@ -10,7 +10,7 @@ description: The Performance Index Method (PIM) for the project controls the met
 
 ##  
 
-The Performance Index Method (PIM) for the project controls the method Adobe Workfront uses to calculate project performance metrics such as Cost `Performance Index` (CPI), Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI), and Estimate At Completion (EAC).
+The Performance Index Method (PIM) for the project controls the method Adobe Workfront uses to calculate project performance metrics such as Cost ```Performance Index``` (CPI), Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI), and Estimate At Completion (EAC).
 
 Workfront calculates these values using the following:
 
@@ -57,15 +57,16 @@ You must have the following access to perform the steps in this article:
 
    >[!IMPORTANT]
    >
-   >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance areaof the project.
+   >You need Manage permissions to the project to perform the following steps. We also recommend that only the Project Owner should make changes to the Finance area of the project.
 
-1. Click Project Details in the left panel, then go to the Finance area. 
-1. Double-click the value in the Performance Index Method field to edit it. 
-1. Select from the following options in the `Performance Index Method` field:
+1. Click **Project Details** in the left panel, then go to the **Finance** area. 
+
+1. Double-click the value in the **Performance Index Method** field to edit it. 
+1. Select from the following options in the **Performance Index Method** field:
 
    | Hour-Based |Workfront uses the Planned Hours in calculating the CPI and EAC of the project, and the EAC of the project displays as a number, in hours.  |
    |---|---|
    | Cost-Based |Workfront uses the Planned Labor Cost in calculating the CPI and EAC of the project, and the EAC displays as a currency value. When you select this option, ensure that your task assignees (job roles or users) are associated with cost rates. |
 
-1. Click `Save`Changes.
+1. Click **Save** **Changes**.
 

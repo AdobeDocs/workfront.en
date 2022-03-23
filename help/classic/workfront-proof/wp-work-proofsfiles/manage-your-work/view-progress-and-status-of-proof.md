@@ -33,36 +33,36 @@ They indicate the following information about a proof:
  <col> 
  <thead> 
   <tr> 
-   <td> <p><span class="bold">Progress Icon</span> </p> </td> 
-   <td> <p><span class="bold">Description</span> </p> </td> 
+   <td> <p><strong>Progress Icon</strong> </p> </td> 
+   <td> <p><strong>Description</strong> </p> </td> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-sent-icon.png" alt="proof_progress_sent_icon.png"> </p> </td> 
-   <td> <p><span class="bold">Sent</span>. The proof has been sent to reviewers.</p> </td> 
+   <td> <p><strong>Sent</strong>. The proof has been sent to reviewers.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-opened-icon.png" alt="proof_progress_opened_icon.png"> </p> <p>&nbsp;</p> </td> 
-   <td> <p><span class="bold">Opened</span>. A reviewer has opened the Proof details page or opened the proof itself in the proofing viewer.</p> </td> 
+   <td> <p><strong>Opened</strong>. A reviewer has opened the Proof details page or opened the proof itself in the proofing viewer.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-comment-icon.png" alt="proof_progress_comment_icon.png"> </p> </td> 
-   <td> <p><span class="bold">Comments</span>. Reviewers&nbsp;(users who can make comments) have made comments have been made on the proof.</p> <p>If no reviewers are designated for the proof, this icon does not display.</p> </td> 
+   <td> <p><strong>Comments</strong>. Reviewers&nbsp;(users who can make comments) have made comments have been made on the proof.</p> <p>If no reviewers are designated for the proof, this icon does not display.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt="proof_progress_decision_icon.png"> </p> </td> 
-   <td> <p><span class="bold">Decision</span>. A reviewer has made a decision on the proof.</p> <p>If no approvers (decision makers) are designated for&nbsp;the proof,&nbsp;this icon does not display.&nbsp;</p> </td> 
+   <td> <p><strong>Decision</strong>. A reviewer has made a decision on the proof.</p> <p>If no approvers (decision makers) are designated for&nbsp;the proof,&nbsp;this icon does not display.&nbsp;</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 These icons can appear in the following colors to indicate certain information about the proof's progress:
 
-* `Green`. Complete.
-* `White`. Not complete.
-* `Orange`.&nbsp;Not&nbsp;complete and deadline is less than 24 hours. 
-* `Red`. Not&nbsp;complete and past the deadline.
+* **Green**. Complete.
+* **White**. Not complete.
+* **Orange**.&nbsp;Not&nbsp;complete and deadline is less than 24 hours. 
+* **Red**. Not&nbsp;complete and past the deadline.
 
 ### Levels of Proof Progress
 
@@ -93,7 +93,7 @@ The standard status options are:
 
 If custom decisions are configured in your account, the status options reflect your&nbsp;custom decision&nbsp;settings.
 
-The status of the proof is driven by the “worst case” participant. For example, suppose there are three decisions on the proof: two have the status of `Accepted` and one has the status of `Rejected`. The "worst case" decision of Rejected over-rules the other decisions and the overall status of the proof is shown as `Rejected`.&nbsp;
+The status of the proof is driven by the “worst case” participant. For example, suppose&nbsp;there are three&nbsp;decisions&nbsp;on the proof: two have the status of **Accepted**&nbsp;and one has the status of **Rejected**. The "worst case" decision of Rejected over-rules the other decisions and the overall status of the proof is shown as **Rejected**.&nbsp;
 
 ## Viewing Progress and Status
 
@@ -129,11 +129,11 @@ In the summary, you can view and edit&nbsp;the following details of your proof:
 * Deadline set for the stage (3)
 * Reviewer details:
 
-  * Number of comments and replies made by each reviewer (4)
-  * Each reviewer's progress (5)
-  * Decision (if a decision has included an electronic-signatures, an icon will be shown next to the decision indicating this.) (6)
-  * Role on the proof (7)
-  * Email alert settings (8)
+   * Number of comments and replies made by each reviewer (4)
+   * Each reviewer's progress (5)
+   * Decision (if a decision has included an electronic-signatures, an icon will be shown next to the decision indicating this.) (6)
+   * Role on the proof (7)
+   * Email alert settings (8)
 
 >[!NOTE]
 >

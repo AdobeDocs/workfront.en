@@ -21,7 +21,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or Plan 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or Plan</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -47,19 +51,19 @@ You must have the following access to perform the steps in this article:
 
 ## Log time in Adobe Photoshop
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. From the `Work List`, select the work item you need to log time to.
-1. Click `Time` in the navigation bar.
+1. From the **Work List**, select the work item you need to log time to.
+1. Click **Time** in the navigation bar.
 
    ![](assets/log-time-350x337.png)
 
-1. (Optional) Choose the `Hour Type` from the drop-down menu.
+1. (Optional) Choose the **Hour Type** from the drop-down menu.
 1. Enter the time in hours for the day you need.
 
    ![](assets/copy-of-log-hours-350x236.png)
 
-1. Click `Submit`.
+1. Click **Submit**.
 

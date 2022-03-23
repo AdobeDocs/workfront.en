@@ -38,21 +38,21 @@ You must have the following to perform the steps in this article:
 
 ## Set up custom quarters for your Workfront system
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Project Preferences` > `Projects.`
+1. Click **Project Preferences** > **Projects.**
 
-1. In the `Timelines` section, select `Enable Custom Quarters`.
+1. In the **Timelines** section, select **Enable Custom Quarters**.
 
 1. Type a name for the custom quarter, such as "Fiscal Q1 2021."
 1. Select start and end dates for the custom quarter.
 
    ![](assets/custom-quarters-nwe-350x107.png)
 
-1. (Optional) Click `Add Custom Quarter` to add additional custom quarters to the system.
+1. (Optional) Click **Add Custom Quarter** to add additional custom quarters to the system.
 1. (Optional) Create a reporting element that refers to the fiscal quarters.
 
-   ` `**Example: **`` Create a filter for a project list and include the Planned Completion Date of a project referencing the custom quarters.
+   ``` ```**Example: **`````` Create a filter for a project list and include the Planned Completion Date of a project referencing the custom quarters.
 
    ![](assets/example-of-project-filter-with-custom-quarters-350x406.png)
 

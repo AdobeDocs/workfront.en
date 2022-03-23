@@ -31,9 +31,27 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,18 +72,45 @@ Before you can create an issue from G Suite, you must
 
    ![](assets/convert-email-task-issue-update.png)
 
-1. If you want to attach the issue to a parent project, click `Project name`, start typing the name of the project where you want the issue, then click the project name when it appears in the list below.
+1. If you want to attach the issue to a parent project, click **Project name**, start typing the name of the project where you want the issue, then click the project name when it appears in the list below.
 1. Make any of these changes:
 
-   | Issue Name |Edit any part of this text, which is taken from the email's subject line. |
-   |---|---|
-   | Description |Edit any part of this text, which is taken from the body of the email. |
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Issue Name</td> 
+      <td>Edit any part of this text, which is taken from the email's subject line.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Edit any part of this text, which is taken from the body of the email.</td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Assign To</td> 
+      <td>Click <strong>Assign To</strong>, click the <strong>Assign this to</strong> option that appears, then start typing the person's name and click it when it appears in the list below. Repeat this for each person you want to add, then click <strong>Save</strong>.</td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Priority</td> 
+      <td>Click the drop-down arrow, then click the priority you want for the issue.</td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Include email attachments</td> 
+      <td> <p>(Available only if the email contains at least one attachment.) Click this option to save attachments in the email to the Documents area of the issue. </p> <p>If you do not want to save an attachment, click the X to the right of its name. </p> <p>If the email contains links to documents in Google Drive, they are saved to the Overview tab of the issue you are creating. </p> <p>Important: In order for this to work, your Workfront administrator must authorize Google Drive to work with documents in Workfront. , as described in the section <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">Configure integrations to manage documents</a> in the article <a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">Configure document integrations</a>.</p> <p>If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Include email file</td> 
+      <td> <p>Click this option to save the original email as an Email (EML) (Email) file <span>to the Documents area</span> of the issue. From there, you can double-click the file to open the email in your email application.</p> <p>If you enable this option, it remains enabled for other emails you convert to tasks, issues, and updates.</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
-1. Click `Create Issue`.
+1. Click **Create Issue**.
 
-   The `Details` tab for the new issue displays in the Workfront for G Suite panel. You can click `Updates` and start communicating with collaborators right away without leaving your in box.
+   The **Details** tab for the new issue displays in the Workfront for G Suite panel. You can click **Updates** and start communicating with collaborators right away without leaving your in box.
 
-   At the bottom of the `Details` tab, you can also click `View in Workfront` to go to the new issue in Workfront.
+   At the bottom of the **Details** tab, you can also click **View in Workfront** to go to the new issue in Workfront.
 
    When you refresh your browser, a message with a link at the bottom of the Workfront for G Suite panel confirms that you have converted the email to an issue:
 
@@ -77,11 +122,11 @@ Before you can create an issue from G Suite, you must
 
 1. (Optional) Continue to work with the issue in the Workfront for G Suite panel by doing any of the following:
 
-  * To add an update on the `Updates` tab, click `Start a new update` and type the update. 
-  
-  * To reply to an update on the `Updates` tab, click `Reply` and type your reply.
+   * To add an update on the **Updates** tab, click **Start a new update** and type the update. 
+   
+   * To reply to an update on the **Updates** tab, click **Reply** and type your reply.
 
-    For both of the above actions, you can notify particular users about your comment. Click  `Notify`, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click `Post`.
-  
-  * Click the `Documents` tab to see any documents saved with the issue.
+     For both of the above actions, you can notify particular users about your comment. Click&nbsp;**Notify**, begin typing the name of a user, then click the name when it appears in the drop-down list. Repeat this process for other users you want to notify, then click **Post**.
+   
+   * Click the **Documents** tab to see any documents saved with the issue.
 

@@ -57,7 +57,7 @@ To remove template information that was added to the project, you can do one of 
 
 ## Delete tasks created from a template
 
-1. Go to the `Tasks` sectionof the project.
+1. Go to the **Tasks** section of the project.
 1. Do one of the following:
 
   * Create a filter for the task list to display only tasks that were created from a template using the following statement:
@@ -70,11 +70,11 @@ To remove template information that was added to the project, you can do one of 
 
     When you apply the filter, only tasks associated with a Template Task ID display in the list. 
   
-  * Create a view for the task list to display the `Template Task ID` or `Template Task Name` fields in a column.
+  * Create a view for the task list to display the **Template Task ID** or **Template Task Name** fields in a column.
 
     When you apply the view, the tasks that contain information in the Template Task ID or Template Task name column were created using a template.
 
     For information about creating a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Select all the tasks identified in Step 2 as created from a template, then click the Delete icon `> Yes, Delete it`. For more information, see [Delete tasks](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Select all the tasks identified in Step 2 as created from a template, then click&nbsp;**the Delete icon****> Yes, Delete it**. For more information, see [Delete tasks](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
 

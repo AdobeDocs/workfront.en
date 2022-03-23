@@ -37,6 +37,17 @@ Consider the following when working with the SNLT constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-Use the Start No Later Than Task Constraint To update the Task Constraint to Start No Later Than: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Start No Later Than. Specify a Planned Start Date. This is the date by which the task must start, and not later than this date. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="using-SNLT"></a>Use the Start No Later Than Task Constraint</h2>
+<p>To update the Task Constraint to Start No Later Than:</p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>. </li>
+<li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
+<li value="4"> <p>Select <strong>Start No Later Than</strong>.</p> </li>
+<li value="5"> <p>Specify a <strong>Planned Start Date</strong>.</p> <p>This is the date by which the task must start, and not later than this date.</p> </li>
+<li value="6">Click <strong>Save Changes</strong>.<br></li>
+</ol>
+</div>
 -->
 

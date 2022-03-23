@@ -40,12 +40,12 @@ You must have the following:
 
 ## Override or change an established billing rate used for a specific job role
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Companies`.
+1. Click **Companies**.
 1. Locate the company where the job role is assigned.
-1. Click  `Edit Company` in the upper-right corner.
-1. In the `Billing Rates` section, select the job role you want to edit, and enter the new billing rate for that job role in the  `Company Billing Rate` box.
+1. Click&nbsp;**Edit Company** in the upper-right corner.
+1. In the **Billing Rates** section, select the job role you want to edit, and enter the new billing rate for that job role in the&nbsp;**Company Billing Rate** box.
 
    ![](assets/88-350x176.png)
 

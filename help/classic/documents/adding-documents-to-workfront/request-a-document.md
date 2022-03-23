@@ -36,10 +36,10 @@ You must have the following:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 1. Go to the area where you want the document you are requesting to reside.
-1. Click the `Documents`&nbsp;tab.&nbsp;
-1. Click the  `Add New` drop-down menu.  
+1. Click the **Documents**&nbsp;tab.&nbsp;
+1. Click the&nbsp;**Add New** drop-down menu.  
 
-1. Click `Request a Document`.
+1. Click **Request a Document**.
 
    The Request a Document dialog box is displayed.
 
@@ -52,7 +52,7 @@ You must have the following:
    >If you have the [Adobe Workfront licenses overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) enabled on your account, you can send a request to any email address. There is a setting in the [Configure system security preferences](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md) that determines whether or not these external email users need to create a password before interacting with Workfront.&nbsp;
 
 1. Describe the reason you are requesting the document.
-1. Click `Send Request`.
+1. Click **Send Request**.
 
    When you make a request to a user, a placeholder is added in the documents area. You can remind the user or cancel the request from this placeholder. The user receives a Workfront notification and an email about the request.
 
@@ -62,7 +62,7 @@ You must have the following:
 
    You can also reply directly to the email and attach the requested documents (if you are configured to support email responses). To configure email responses, see .
 
-1. After you upload the document, the person who requested it can access the document in their personal `Documents`&nbsp;area.
+1. After you upload the document, the person who requested it can access the document in their personal **Documents**&nbsp;area.
 
-   You can access your personal `Documents` area by clicking your user profile picture in the upper-right corner of any Workfront page, clicking your name, then clicking the `Documents`&nbsp;tab.
+   You can access your personal **Documents**&nbsp;area by clicking your user profile picture in the upper-right corner of any Workfront page, clicking your name, then clicking the **Documents**&nbsp;tab.
 

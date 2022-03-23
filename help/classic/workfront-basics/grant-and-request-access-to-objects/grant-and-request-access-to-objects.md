@@ -14,6 +14,7 @@ This section contains the following articles about you can grant and request per
 * [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) 
 * [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md) 
 * [Grant access to objects in the Home area](../../workfront-basics/grant-and-request-access-to-objects/grant-access-home.md) 
+* [Grant object access in the My Work area](../../workfront-basics/grant-and-request-access-to-objects/grant-access-my-work.md) 
 * [Request access to objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/request-access.md) 
 * [View inherited permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md) 
 * [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md) 

@@ -48,13 +48,13 @@ Billing rates associated with users cannot be overridden.
 
 Billing rates associated with job roles can be overridden at the company or project level.
 
-To calculate revenue on projects based on the billing rates of job roles, the `Revenue Type` of the tasks on the projects must be one of the following:
+To calculate revenue on projects based on the billing rates of job roles, the **Revenue Type** of the tasks on the projects must be one of the following:
 
 * Role Hourly
 * Role Hourly w/Cap
 * Role Hourly plus Fixed
 
-For more information about `Revenue Type` and billing rates, see [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+For more information about **Revenue Type** and billing rates, see [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Hierarchy of Billing Rate overrides when calculating Revenue
 
@@ -106,36 +106,37 @@ You can override the billing rate of a job role on a project in the following wa
 To override a billing rate for a project:
 
 1. Go to the project you want to override billing rates for.
-1. Click the Billing Rates tab. This tab might be located under More. 
-1. Click `Add Billing Rate`.
-1. Click `New Billing Rate`.
-1. In the `Job Role` field, select the job role you want to change the billing rate for.  
-   ![new_billing_rate.png](assets/new-billing-rate-350x267.png)  
-   The `Default Billing Rate` field displays the system-level rate for this job role.
+1. Click the **Billing Rates** tab. This tab might be located under **More**. 
 
-1. In the `Billing Rates 1` field, enter the one time billing rate override, then click `Save` to override the billing rate one time,   
-   Or Click `Add Rate` to add more billing rate overrides.
+1. Click **Add Billing Rate**.
+1. Click **New Billing Rate**.
+1. In the **Job Role** field, select the job role you want to change the billing rate for.  
+   ![new_billing_rate.png](assets/new-billing-rate-350x267.png)  
+   The **Default Billing Rate** field displays the system-level rate for this job role.
+
+1. In the **Billing Rates 1** field, enter the one time billing rate override, then click **Save** to override the billing rate one time,   
+   Or Click **Add Rate** to add more billing rate overrides.
 
 1. (Conditional) If you are adding more than one billing rate override, specify the following information:  
-   - `Billing Rates 1`: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the `Default Rate`.  
-   - `Start Date`: this is the date when the Default Rate ends.  
-   - `End Date`: the date when the new billing rate override ends.   
+   - **Billing Rates 1**: the value of the Billing Rate from the beginning of the project to the first date of the first override. This is typically the same amount as the **Default Rate**.  
+   - **Start Date**: this is the date when the Default Rate ends.  
+   - **End Date**: the date when the new billing rate override ends.   
    ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)  
    Workfront applies the override job role rate to the hours that occur during the time frames specified when calculating revenue on the project.  
-   There should be no gaps between the time frames of two override rates. The `Start Date` of an override rate should be the day immediately following the `End Date` of the previous override date.
+   There should be no gaps between the time frames of two override rates. The **Start Date** of an override rate should be the day immediately following the **End Date** of the previous override date.
 
    >[!NOTE]
    >
-   >You cannot specify a `Start Date` for the first override rate, nor an `End Date` for the last override rate. We recommend that you use the Default Rate for the first override rate.  
-   >Workfront assumes that the first override rate is applied for all hours with a date older than the `End Date` of the first override, and that the last override rate is applied for all hours with a date newer than the `Start Date` of the last override.  
+   >You cannot specify a **Start Date** for the first override rate, nor an **End Date** for the last override rate. We recommend that you use the Default Rate for the first override rate.  
+   >Workfront assumes that the first override rate is applied for all hours with a date older than the**End Date** of the first override, and that the last override rate is applied for all hours with a date newer than the **Start Date** of the last override.  
    >If an hour is logged before the Planned Start Date of the project the very first billing rate is used.  
    >If an hour is logged after the Planned Completion Date of the project the very last billing rate is used.
 
-1. Click `Save`.
+1. Click **Save**.
 
-Overview of the Billing Rates tab of a project After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the `Billing Rates` tab of the project.
+Overview of the Billing Rates tab of a project After you have specified the override billing rates for the job roles associated with the project, you can see all the job roles and their overrides in the **Billing Rates** tab of the project.
 
-Notice the following information in the list of `Billing Rates`:
+Notice the following information in the list of **Billing Rates**:
 
 * [Job Role Grouping](#job-role-grouping) 
 * [Project Billing Rate value](#project-billing-rate) 
@@ -145,35 +146,35 @@ Notice the following information in the list of `Billing Rates`:
 
 ### Job Role Grouping
 
-Billing rates are grouped in the `Billing Rates` area by their respective job roles.
+Billing rates are grouped in the **Billing Rates** area by their respective job roles.
 
 ### Project Billing Rate value
 
-In the grouping line corresponding to a job role, notice the billing rate for that job role at the project level in the `Project Billing Rate` column. If the job role has multiple override rates, the override rate corresponding to the current date is displayed in the grouping line in the `Project Billing Rate` column.
+In the grouping line corresponding to a job role, notice the billing rate for that job role at the project level in the **Project Billing Rate** column. If the job role has multiple override rates, the override rate corresponding to the current date is displayed in the grouping line in the **Project Billing Rate** column.
 
 ### Default Billing Rate value
 
-In the grouping line of a job role, notice the billing rate for that job role at the system level in the `Default Billing Rate` column.
+In the grouping line of a job role, notice the billing rate for that job role at the system level in the **Default Billing Rate** column.
 
 >[!NOTE]
 >
->If there are project billing rates for a job role, the `Default Billing Rate` is never applied to calculating Revenue for the project. Only the `Project Billing Rates` are applied to calculate Revenue.
+>If there are project billing rates for a job role, the **Default Billing Rate** is never applied to calculating Revenue for the project. Only the **Project Billing Rates** are applied to calculate Revenue.
 
 ### Company Billing Rate value
 
-In the grouping line of a job role, notice the billing rate for that job role at the company level in the `Company Billing Rate` column. This means that there is a company associated with this project, and this job role has a different billing rate for that company. The billing rate for the company displays, even if it is the same as the project rate.
+In the grouping line of a job role, notice the billing rate for that job role at the company level in the **Company Billing Rate** column. This means that there is a company associated with this project, and this job role has a different billing rate for that company. The billing rate for the company displays, even if it is the same as the project rate.
 
 >[!NOTE]
 >
->If there are project billing rates for a job role, the `Company Billing Rate` is never applied to calculating revenue for the project. Only the `Project Billing Rates` are applied to calculate revenue.
+>If there are project billing rates for a job role, the **Company Billing Rate** is never applied to calculating revenue for the project. Only the **Project Billing Rates** are applied to calculate revenue.
 
 ### Multiple Billing Rate values and timeframes
 
-If you have multiple override billing rates for a specific job role, they are listed under the grouping for that job role. Using inline editing, you can change the override rates and the `Start` `Date` and `End Date` of the override billing rates on this tab.
+If you have multiple override billing rates for a specific job role, they are listed under the grouping for that job role. Using inline editing, you can change the override rates and the **Start** **Date** and **End Date** of the override billing rates on this tab.
 
 >[!NOTE]
 >
->You cannot specify a `Start Date` for the first override rate, and you cannot specify an `End Date` for the last override rate. Workfront assumes that the first override rate is applied for all hours with a date older than the `End Date` of the first override, and that the last override rate is applied for all hours with a date newer than the `Start Date` of the last override.  
+>You cannot specify a **Start Date** for the first override rate, and you cannot specify an **End Date** for the last override rate. Workfront assumes that the first override rate is applied for all hours with a date older than the **End Date** of the first override, and that the last override rate is applied for all hours with a date newer than the **Start Date** of the last override.  
 >If an hour is logged before the Planned Start Date of the project the first billing rate is used.  
 >If an hour is logged after the Planned Completion Date of the project the last billing rate is used.
 
@@ -187,7 +188,7 @@ If you have multiple override billing rates for a specific job role, they are li
 
 Consider the following when calculating Planned Revenue based on a one-time Billing rate override:
 
-* When the `Revenue Type` of a task is `Role Hourly`, Workfront multiplies the Planned Hours of a task by the billing rate of the job role associated with the task to calculate Planned Revenue on the task. 
+* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the Planned Hours of a task by the billing rate of the job role associated with the task to calculate Planned Revenue on the task. 
 
 * When the billing rate of the job role has been overridden at the project level, Workfront uses the override rate from the project to calculate Planned Revenue. 
 * When a task has multiple assignments, the Planned Revenue is calculated by multiplying the billing rate of each assignment's job role and their respective Planned Hour allocation.
@@ -202,15 +203,15 @@ For more information about which job role is used to calculate Planned Revenue, 
 
 Consider the following when calculating Planned Revenue based on multiple Billing Rate overrides:
 
-* When the `Revenue Type` of a task is `Role Hourly`, Workfront multiplies the Planned Hours of a task by the billing rate of the job role associated with the task to calculate Planned Revenue on the task.
+* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the Planned Hours of a task by the billing rate of the job role associated with the task to calculate Planned Revenue on the task.
 
   For more information about which job role is used to calculate Planned Revenue, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-* In case of multiple billing rate overrides, the rate by which the Planned Hours are multiplied changes during the duration of a task. By default, Workfront distributes the Planned Hours evenly across the duration of a task, allocating an equal number of hours for each day of the task. When calculating `Planned Revenue` for a task, Workfront multiplies the Planned Hour per Day by the billing rate of that day. In case of multiple billing rates, that rate could be different every day.
+* In case of multiple billing rate overrides, the rate by which the Planned Hours are multiplied changes during the duration of a task. By default, Workfront distributes the Planned Hours evenly across the duration of a task, allocating an equal number of hours for each day of the task. When calculating **Planned Revenue** for a task, Workfront multiplies the Planned Hour per Day by the billing rate of that day. In case of multiple billing rates, that rate could be different every day.
 
-  For example, you have a task with a Role Hourly `Revenue Type`. The task has a duration of 5 days, and a Planned Hours value of 40 hours. The Planned Hours per Day is 8 hours. Assign a Project Manager job role to the task, and override the billing rate of this job role for the last 3 days of the task, so you will have a Rate 1 billing rate for the first two days, and Rate 2 billing rate for the remaining 3 days of the task for this job role.
+  For example, you have a task with a Role Hourly **Revenue Type**. The task has a duration of 5 days, and a Planned Hours value of 40 hours. The Planned Hours per Day is 8 hours. Assign a Project Manager job role to the task, and override the billing rate of this job role for the last 3 days of the task, so you will have a Rate 1 billing rate for the first two days, and Rate 2 billing rate for the remaining 3 days of the task for this job role.
 
-  The formula which calculates the `Planned Revenue` of this task is:
+  The formula which calculates the **Planned Revenue** of this task is:
 
   ```
   Planned Revenue = (Rate 1) * (Planned Hours for Day 1) + (Rate 1) * (Planned hours for Day 2) + (Rate 2) * (Planned hours for Day 3) + (Rate 2) * (Planned hours for Day 4) + (Rate 2) * (Planned hours for Day 5)
@@ -226,8 +227,13 @@ For more information about finding the Planned Hours per Day amount in Workfront
 
 Consider the following when understanding the distribution of Planned Hours across the Duration of a task:
 
-* By default, Workfront distributes the Planned Hours evenly across the Duration of a task, allocating an equal number of Planned Hours for each day of the task, based on the availability of the project schedule. 
-  To see what amount of Planned Hours is applied to each day during the Duration of a task, you can access the Resource Grid inside the Legacy Gantt of a project. However, this functionality is deprecated and it will soon be removed from Workfront. 
+* By default, Workfront distributes the Planned Hours evenly across the Duration of a task, allocating an equal number of Planned Hours for each day of the task, based on the availability of the project schedule.
+
+  <!--
+  To see what amount of Planned Hours is applied to each day during the Duration of a task, you can access the
+  <strong>Resource Grid</strong> inside the
+  <strong>Legacy Gantt</strong> of a project. However, this functionality is deprecated and it will soon be removed from Workfront.
+  -->
 
   For more information about understanding the distribution of Planned Hours across the Duration of a task, see the "Understanding the Distribution of Planned Hours Across the Duration of a Task" section in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 
@@ -247,36 +253,36 @@ Consider the following when understanding the distribution of Planned Hours acro
 
 Consider the following when calculating Actual Revenue based on a one-time Billing Rate override:
 
-* When the `Revenue Type` of a task is `Role Hourly`, Workfront multiplies the `Actual Hours` of a task by the billing rate of the job role associated with the task to calculate `Actual Revenue` on the task. Actual Hours are hours logged directly to the task.
+* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the **Actual Hours** of a task by the billing rate of the job role associated with the task to calculate **Actual Revenue** on the task. Actual Hours are hours logged directly to the task.
 
-  For more information about which job role is used to calculate `Actual Revenue`, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  For more information about which job role is used to calculate **Actual Revenue**, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-* If the billing rate of the job role has been overridden at the project level, Workfront uses the override rate from the project to calculate Actual Revenue. When you override the billing rate of the job role on the project, the `Actual Revenue` of the project is recalculated automatically using the new adjusted rate.
+* If the billing rate of the job role has been overridden at the project level, Workfront uses the override rate from the project to calculate Actual Revenue. When you override the billing rate of the job role on the project, the **Actual Revenue** of the project is recalculated automatically using the new adjusted rate.
 
   For information about overriding role rates for the project, see [Override Job Role Billing Rates at the project level](../../../manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md).
 
 >[!NOTE]
 >
->If you want to keep the hours that you have already logged on the project before you overrode the original billing rate billed at the original rate, you must include them into a `Billing Record`, and you must mark the `Billing Record` as `Billed`. Otherwise, the `Actual Revenue` from the hours logged before the billing rate was overridden for the project will recalculate using the new rate when the finances of the projects are recalculated.   
->For more information about including hours in a billing record and marking it as `Billed`, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
+>If you want to keep the hours that you have already logged on the project before you overrode the original billing rate billed at the original rate, you must include them into a **Billing Record**, and you must mark the **Billing Record** as **Billed**. Otherwise, the **Actual Revenue** from the hours logged before the billing rate was overridden for the project will recalculate using the new rate when the finances of the projects are recalculated.   
+>For more information about including hours in a billing record and marking it as **Billed**, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
 ### Calculate Actual Revenue based on multiple Billing Rate overrides
 
 Consider the following when calculating Actual Revenue based on multiple Billing Rate overrides:
 
-* When the `Revenue Type` of a task is `Role Hourly`, Workfront multiplies the `Actual Hours` on the task with the billing rate of the job roles assigned to the task to calculate `Actual Revenue` on the task. Actual Hours are hours logged directly to the task. 
+* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the **Actual Hours** on the task with the billing rate of the job roles assigned to the task to calculate **Actual Revenue** on the task. Actual Hours are hours logged directly to the task. 
 
-* In case of multiple billing rate overrides, the rate by which the `Actual Hours` are multiplied to calculate the `Actual Revenue` might change during the duration of a task. Workfront uses the billing rate of the job role whose time frame matches the `Entry Date` of the hours logged for the task to calculate `Actual Revenue.`
+* In case of multiple billing rate overrides, the rate by which the **Actual Hours** are multiplied to calculate the **Actual Revenue** might change during the duration of a task. Workfront uses the billing rate of the job role whose time frame matches the **Entry Date** of the hours logged for the task to calculate **Actual Revenue.**
 
-  For example, a task has the `Revenue Type` of `Role Hourly` and is assigned to the job role of Project Manager. Override the billing rate of this job role with Rate 1 for the dates between June 19 and June 25. Starting June 26, override the billing rate with Rate 2. Log 2 hours for June 20, and 3 hours for June 28.
+  For example, a task has the **Revenue Type** of **Role Hourly** and is assigned to the job role of Project Manager. Override the billing rate of this job role with Rate 1 for the dates between June 19 and June 25. Starting June 26, override the billing rate with Rate 2. Log 2 hours for June 20, and 3 hours for June 28.
 
-  Workfront calculates the `Actual Revenue` for this task using the following formula:
+  Workfront calculates the **Actual Revenue** for this task using the following formula:
 
   ```
   Actual Revenue = 2 * Rate 1 + 3 * Rate 2
   ```
 
-  For more information about which job role is used to calculate `Actual Revenue`, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+  For more information about which job role is used to calculate **Actual Revenue**, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## The impact of Time Zones when calculating Revenue based on multiple Billing Rates
 
@@ -300,30 +306,30 @@ In these cases, the number of Planned Hours per Day might be different between t
 
 Consider the following when calculating Planned Revenue for users in different Time Zones:
 
-* For tasks that have a `Revenue Type` of `Role Hourly` and are assigned to job roles, `Planned Revenue` is calculated by multiplying the `Planned Hours` of a task by the billing rate of the job role. 
+* For tasks that have a **Revenue Type** of **Role Hourly** and are assigned to job roles, **Planned Revenue** is calculated by multiplying the **Planned Hours** of a task by the billing rate of the job role. 
 
-* The `Planned Hours` are evenly distributed across the `Duration` of the task. 
+* The **Planned Hours** are evenly distributed across the **Duration** of the task. 
 
-* The `Duration` is the period of time between the `Planned Start` `Date` and the `Planned Completion Date` of the task. Because the `Planned Start Date` and `Planned Completion Date` of the tasks can differ depending on the time zones of the users viewing the task, the amount of Planned Hours per Day might be different for two users in two different time zones. 
+* The **Duration** is the period of time between the **Planned Start** **Date** and the **Planned Completion Date** of the task. Because the**Planned Start Date** and **Planned Completion Date** of the tasks can differ depending on the time zones of the users viewing the task, the amount of Planned Hours per Day might be different for two users in two different time zones. 
 
 * The amount of Planned Hours per Day does not change the Planned Revenue of a project if the billing rate of the job role is not changed, or when there is only one billing rate override. In this case, even if two users from two different timezones see different Planned Hours per Day, the overall Planned Revenue of the project is identical between the two users.
 
-  However, in the case of multiple billing rate overrides, the overall `Planned Revenue` of the project might seem different for two users in two different timezones, because it relies on the amount of Planned Hours per Day (which could be different for the two users) and the billing rate override (which could be different for the same day, when each user is looking at the task in their own time zone). 
+  However, in the case of multiple billing rate overrides, the overall **Planned Revenue** of the project might seem different for two users in two different timezones, because it relies on the amount of Planned Hours per Day (which could be different for the two users) and the billing rate override (which could be different for the same day, when each user is looking at the task in their own time zone). 
 
-* The accurate `Planned Revenue` amount is the one seen by the user who has the same time zone as the Time Zone of your Workfront instance. Your Workfront administrator defines the Workfront Time Zone in the System Customer Info area.  
+* The accurate **Planned Revenue** amount is the one seen by the user who has the same time zone as the Time Zone of your Workfront instance. Your Workfront administrator defines the Workfront Time Zone in the System Customer Info area.  
   For more information about defining the Time Zone for your system, see the article [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Calculate Actual Revenue for users in different Time Zones
 
 Consider the following when calculating Actual Revenue for users in different Time Zones:
 
-* When the `Revenue Type` of a task is `Role Hourly`, Workfront multiplies the `Actual Hours` on the task with the billing rate of the job roles assigned to the task to calculate the `Actual Revenue`. Actual Hours are hours logged directly to the task. 
+* When the **Revenue Type** of a task is **Role Hourly**, Workfront multiplies the **Actual Hours** on the task with the billing rate of the job roles assigned to the task to calculate the **Actual Revenue**. Actual Hours are hours logged directly to the task. 
 
-* In case of multiple billing rate overrides, Workfront uses the billing rate of the job role whose time frame matches the `Entry Date` of the hours logged for the task to calculate `Actual Revenue`.
+* In case of multiple billing rate overrides, Workfront uses the billing rate of the job role whose time frame matches the **Entry Date** of the hours logged for the task to calculate **Actual Revenue**.
 
-* Because there is no timestamp on the `Entry Date` of logged hours and there is no time stamp on the date ranges of multiple billing rate overrides, `Actual Revenue` calculations are not affected by the Time Zone associated with users.
+* Because there is no timestamp on the **Entry Date** of logged hours and there is no time stamp on the date ranges of multiple billing rate overrides, **Actual Revenue** calculations are not affected by the Time Zone associated with users.
 
-For more information about which job role is used to calculate `Actual Revenue`, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+For more information about which job role is used to calculate **Actual Revenue**, see the "Understanding Revenue Calculations for Tasks Based on User and Role Assignments" section in the article [Overview of Billing and Revenue](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 ## Recalculate Project Finances
 
@@ -335,8 +341,8 @@ For more information about recalculating project finances, see the article [Reca
 
 ## Add a new Billing Rate using the API
 
-To add a new billing rate for a job role using the API, you perform a *setRatesForRole* action for the `Rate` object using the *PUT method*. 
-The action and the date fields on the `Rate` object are available in the API version 8.0. 
+To add a new billing rate for a job role using the API, you perform a *setRatesForRole* action for the **Rate** object using the *PUT method*. 
+The action and the date fields on the **Rate** object are available in the API version 8.0. 
 If you already have several billing rates defined for a job role on a project and you want to add a new billing rate for it with a new date range, you must include both the existing rate and the rate to be added in the same API call. This is similar to how you update collections on objects. 
 
-The following API call is an example where `attachableID` is the `Project ID` of the project where you are adding the rate and `RoleID` is the `Job Role ID` for which you are adding the new billing rate.<pre>{</pre><pre>"attachableID":"593f0150000055<wbr>7d75fdd4fdfcc624f2",</pre><pre>"attachableObjCode":"PROJ",</pre><pre>"roleID":"544820df000014148cda<wbr>5136d4b79d09", </pre><pre>"rates":[</pre><pre>         {"rateValue":"0.00","startDate<wbr>":null,"endDate":"2017-06-11"}<wbr>,</pre><pre>         {"rateValue":"45.00","startDat<wbr>e":"2017-06-12","endDate":"201<wbr>7-06-17"},</pre><pre>         {"rateValue":"95.00","startDat<wbr>e":"2017-06-21","endDate":null<wbr>}</pre><pre>]</pre><pre>}</pre>For more information about using the Workfront API, see the article [API Basics](https://experience.workfront.com/s/article/API-Basics-638808549).
+The following API call is an example where **attachableID** is the **Project ID** of the project where you are adding the rate and **RoleID** is the **Job Role ID** for which you are adding the new billing rate.<pre>{</pre><pre>"attachableID":"593f0150000055<wbr>7d75fdd4fdfcc624f2",</pre><pre>"attachableObjCode":"PROJ",</pre><pre>"roleID":"544820df000014148cda<wbr>5136d4b79d09", </pre><pre>"rates":[</pre><pre>         {"rateValue":"0.00","startDate<wbr>":null,"endDate":"2017-06-11"}<wbr>,</pre><pre>         {"rateValue":"45.00","startDat<wbr>e":"2017-06-12","endDate":"201<wbr>7-06-17"},</pre><pre>         {"rateValue":"95.00","startDat<wbr>e":"2017-06-21","endDate":null<wbr>}</pre><pre>]</pre><pre>}</pre>For more information about using the Workfront API, see the article [API Basics](https://experience.workfront.com/s/article/API-Basics-638808549).

@@ -11,7 +11,7 @@ description: TheAdobe Workfront Community is an online group of over 10,000 Work
 TheAdobe Workfront Community is an online group of over 10,000 Workfront users. Through the community you can to stay up-to-date on product releases, learn about customer events, and talk to other users about Workfront products and services. You’ll find answers to questions and establish connections with other Workfront customers.
 
 <!--
-
+<img src="assets/screen-shot-2018-09-06-at-11.38.27-am-350x112.png" alt="Screen_Shot_2018-09-06_at_11.38.27_AM.png" style="width: 350;height: 112;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
 ## Logging In

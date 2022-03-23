@@ -58,21 +58,21 @@ For information about project conditions and how they are calculated based on Pr
 If you set your project's Condition Type to&nbsp;Manual instead of Progress Status, you can manually update the Condition of a project.
 
 1. Go to the project for which you want to update the Condition. 
-1. Click the Project Details tab, then click Edit Overview on the Overview subtab.
+1. Click the **Project Details** tab, then click&nbsp;**Edit Overview** on the **Overview** subtab.
 
-1. Ensure that the `Condition Type` field is set to `Manual`. 
+1. Ensure that the **Condition Type** field is set to **Manual**. 
 
-1. In the `Condition` field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:
+1. In the **Condition** field, select from the following options the one that matches your understanding of whether the work associated with it is going smoothly or whether there are any delays:
 
-  * `On Target`
-  * `At Risk`
-  * `In Trouble`
+   * **On Target**
+   * **At Risk**
+   * **In Trouble**
 
    For more information about project conditions, see [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
    >[!NOTE]
    >
-   >`Conditions can be customized for your environment, so you` `may` ` find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).`
+   >```Conditions can be customized for your environment, so you``` ```may``` ``` find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).```
 
-1. Click `Save`.
+1. Click **Save**.
 

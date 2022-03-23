@@ -43,9 +43,9 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the document list that contains the combined proof with the files you want to view.
 1. Select the combined proof in the document list.
-1. On the `Details` tab, locate the `Combined Files` section.
+1. On the **Details** tab, locate the **Combined Files** section.
 
    The first five files are displayed. This section is displayed only if the proof is a combined proof.
 
-1. (Optional) Click `See All` to view all files.
+1. (Optional) Click **See All** to view all files.
 

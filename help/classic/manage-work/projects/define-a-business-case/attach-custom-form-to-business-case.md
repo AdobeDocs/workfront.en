@@ -49,7 +49,7 @@ You can attach Custom Forms to a project in the following areas:
 
   For information about attaching custom forms to projects while editing one or multiple projects, see the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* When building the Business Case of a project, in the Project Details tab, in the Business Case subtab as described in this article.
+* When building the Business Case of a project, in the Project Details tab, in the Business Case subtab  as described in this article.
 
 For information about attaching custom forms to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
@@ -59,15 +59,17 @@ To add a custom from to a Business Case, your Workfront administrator needs to s
 
 To attach a custom form:
 
-1. Click Projects in the Global Navigation Bar. 
-1. Click the project you want to attach the custom form to and click the Project Details tab. 
-1. Click the Business Case sub-tab. The Business Case displays. 
-1. In the  `Custom Form` section, select the custom form you want to attach from the drop-down menu.
+1. Click&nbsp;**Projects** in the Global Navigation Bar. 
+1. Click the project you want to attach the custom form to and click the&nbsp;**Project Details**&nbsp;tab. 
+1. Click the&nbsp;**Business Case** sub-tab.  
+   The Business Case displays. 
+
+1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu.
 
    ![](assets/custom-forms-drop-down-menu.png)
 
-1. (Optional) Select  `Edit Custom Form`.  
+1. (Optional) Select&nbsp;**Edit Custom Form**.  
    ![](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click  `Save` .
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** .
 

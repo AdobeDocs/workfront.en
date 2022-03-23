@@ -21,41 +21,40 @@ If you are an administrator on your AD server, you can install and configure AD 
 1. Open&nbsp;the downloaded AdfsSetup.exe file to start the ADFS (Active Directory Federation Services) Installation Wizard.
 1. On the Server Role screen, select one of the options&nbsp;(you need at a minimum a Federation Server).  
 1. &nbsp;If you do not want&nbsp;to expose IIS on your AD server to the internet (ports 80 and 443 for HTTP and HTTPS), you can first set up a Federation Server behind the firewall, then build a second Federation Server Proxy&nbsp;that passes requests through the firewall to the Federation Server.
-1. Once you complete the AD FS setup, select `Start the AD FS 2.0 Management snap-in`&nbsp;, then click `Finish.  
-   `Once this is completed, the AD FS 2.0 Management window should open right away. If not, you can open it from  `Start` > `Administrative Tools` > `AD FS 2.0 Management`. This is&nbsp;the main AD FS control application.
+1. Once you complete the&nbsp;AD FS setup, select **Start the AD FS 2.0 Management snap-in**&nbsp;, then click **Finish.**Once this is completed, the AD FS 2.0 Management window should open right away. If not, you can open it from&nbsp;**Start** > **Administrative Tools** > **AD FS 2.0 Management**. This is&nbsp;the main AD FS control application.
 
 1. Begin by clicking AD FS 2.0 Federation Server Configuration Wizard.  
    This will help you to configure&nbsp;AD FS and connect it&nbsp;to both the Internet via IIS and to AD.
-1. If you are configuring a new AD FS server, select `Create a new Federation Service`.
-1. Select `Stand-alone federation server`&nbsp;(for testing and evaluation purposes).  
+1. If you are configuring a new AD FS server, select **Create a new Federation Service**.
+1. Select **Stand-alone federation server**&nbsp;(for testing and evaluation purposes).  
 
 1. &nbsp;For high availability and load balancing, click New federation server farm.&nbsp;
 1. Specify your Federation Service name.  
    By default the&nbsp;configuration&nbsp;wizard retrieves the SSL certificate bound to the Default Web Site in IIS&nbsp;and will use the subject name specified there. If you use a wildcard certificate you will need to enter the Federation Service name.  
    If there is no SSL certificate configured in IIS, then the configuration wizard will search in the local computer certificate store for any valid certificates. These display in the SSL certificate drop-down. If there are no certificates found, you can&nbsp;use the&nbsp;Server Certificate Generator in IIS&nbsp;to create one.
 
-1. Continue with the configuration, and click `Close` once it is complete.
+1. Continue with the configuration, and click **Close** once it is complete.
 
 ## Configuring Workfront Proof Single Sign-On
 
 If you are a Workfront Proof administrator, you can configure Single Sign-On on the Workfront Proof side.&nbsp;For more information, see [Single Sign-On in Workfront Proof](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md).
 
-1. Click `Settings` > `Account Settings`, then open the  `Single sign-on` tab.
+1. Click **Settings** > **Account Settings**, then open the&nbsp;**Single sign-on** tab.
 
-1. In the  `SSO URL`box, paste your Entity ID.  
+1. In the&nbsp;**SSO URL**box, paste your Entity ID.  
    The following is an example of an Entity ID:  
    http://*<adfs.your-company.com>*/adfs/services/trust  
    Your Entity ID can be found in your Federation Metadata XML file.  
    ![ProofHQ_configuration_02.png](assets/proofhq-configuration-02-350x80.png)
 
 1. &nbsp;Federation Metadata is&nbsp;found in the AD FS 2.0 snap-in > Service > Endpoints folder. In the Metadata section, locate the one with the Federation Metadata type. To view metadata, paste this endpoint in your browser. You can also go to this link directly:&nbsp;https://*<adfs.your-company.com>*/FederationMetadata/2007-06/FederationMetadata.xml after replacing the {adfs.your-company.com}&nbsp;with your own details.
-1. In the `Login URL` box, paste your SSO login.
+1. In the **Login URL** box, paste your SSO login.
 1. The following is an example of an SSO login:
 1. http://*<adfs.your-company.com>*/adfs/ls. 
 1. This link&nbsp;can be located&nbsp;in the Federation Metadata XML file.  
    ![ProofHQ_configuration_03.png](assets/proofhq-configuration-03-350x90.png)
 
-1. In the  `Logout URL` box, enter&nbsp;the link and save.  
+1. In the&nbsp;**Logout URL** box, enter&nbsp;the link and save.  
    The following is an example of a Logout URL:  
    https://*<adfs.your-company.com>*/adfs/ls/?wa=wsignout1.0
 
@@ -67,10 +66,10 @@ If you are a Workfront Proof administrator, you can configure Single Sign-On on 
     * URL = https://*<adfs.your-company.com*>/adfs/ls/?wa=wsignout1.0
     * This step can be completed after configuring the Relying Party Trust (see below) in your AD FS.
 
-  1. In the `Certificate fingerprint` box, enter the data from your certificate.
+  1. In the **Certificate fingerprint** box, enter the data from your certificate.
   1. Go to your&nbsp;ADFS 2.0 snap-in&nbsp;navigate to Service > Certificates > Token-signing.
   1. Right-click on this entry to view the certificate.
-  1. From the Certificate Details tab copy the Thumbprint, and paste it in the `Workfront Proof Single Sign-On` configuration tab.  
+  1. From the Certificate Details tab copy the Thumbprint, and paste it in the **Workfront Proof Single Sign-On** configuration tab.  
   
   1. &nbsp;The fingerprint characters can be separated with colons or spaces, but we do recommend removing these. If you have any troubles with your Single Sign-On configuration, please contact the Customer Support team.
 
@@ -78,7 +77,7 @@ If you are a Workfront Proof administrator, you can configure Single Sign-On on 
 
 Once configuration is complete, you need to work in the&nbsp;Relying Party Trusts section in your AD FS.
 
-1. Navigate to `Trust Relationships` > `Relying Party Trusts` folder, then click `Add a Relying Party Trust`to&nbsp;start the configuration wizard.
+1. Navigate to **Trust Relationships** > **Relying Party Trusts**&nbsp;folder, then click **Add a Relying Party Trust**to&nbsp;start the configuration wizard.
 
 1. Select your data source.  
    All metadata for your ProofHQ account is located under a link like this:  
@@ -99,11 +98,11 @@ Once configuration is complete, you need to work in the&nbsp;Relying Party Trust
 
 Once your Relying Party Trust configuration is complete, you are ready to configure the claim rules to complete the set up. You will configure two claim rules for ProofHQ: E-mail and Name ID.
 
-1. Open the `Edit Claim Rules` dialog box.
-1. Go to `ProofHQ Relying Party Trust`, then click `Edit Claim Rules`&nbsp;(1).   
+1. Open the **Edit Claim Rules** dialog box.
+1. Go to **ProofHQ Relying Party Trust**, then click **Edit Claim Rules**&nbsp;(1).   
    The pop-up should automatically open if you selected this option at the end of configuring the trust.
 
-1. Click `Add Rule` (2) to open the claim configuration window.
+1. Click **Add Rule** (2) to open the claim configuration window.
 
   * E-mail (Send LDAP Attributes as Claims rule template)
   * NameID (Transform an Incoming Claim rule template)

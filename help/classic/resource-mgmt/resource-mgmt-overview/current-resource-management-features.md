@@ -22,9 +22,9 @@ The following table lists currently released functionality and the environment t
  <col> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Functionality</span> </td> 
-   <td><span class="bold">Environment: Preview</span> </td> 
-   <td><span class="bold">Environment: Production</span> </td> 
+   <td><strong>Functionality</strong> </td> 
+   <td><strong>Environment: Preview</strong> </td> 
+   <td><strong>Environment: Production</strong> </td> 
   </tr> 
   <tr> 
    <td> <p>Resource Planning</p> <p>&nbsp;</p> </td> 

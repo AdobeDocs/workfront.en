@@ -5,7 +5,9 @@
 This page describes all Project enhancements made with the 22.1 release to the Preview environment. These enhancements will be made available in the Production environment 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 in January 2022
+</MadCap:conditionalText>
 -->
 
 the week of January 17, 2022.
@@ -23,7 +25,7 @@ For more information, see the articles:
 * [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md) 
 * [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 
-`<iframe class="vimeo-player_0" src="assets/655521623?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/655521623?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/655521623/a837f8cefa)
 
@@ -40,7 +42,7 @@ The pages with the updated toolbar are:
 
 For more information, see [Create and manage dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md).
 
-`<iframe class="vimeo-player_0" src="assets/655512195?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/655512195?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/655512195/8907676e19)
 
@@ -54,7 +56,7 @@ Previously, you had to go to the custom forms tab in the Document Details to mak
 
 For more information, see Summary for documents overview.
 
-`<iframe class="vimeo-player_0" src="assets/647362235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/647362235?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/647362235/d31257c503)
 
@@ -70,7 +72,7 @@ Some of the improvements include:
 
 For more information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-`<iframe class="vimeo-player_0" src="assets/647381042?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/647381042?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/647381042/d982eec1ce)
 
@@ -80,7 +82,7 @@ To offer a consistent experience when performing the same task, we have now upda
 
 For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-`<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338)
 
@@ -96,7 +98,7 @@ Some of the improvements of this newly redesigned interface include:
 
 For more information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
-`<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/637948554?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/637948554/8766b69338)
 
@@ -114,7 +116,7 @@ The redesigned interface matches the experience when creating a project from a t
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-`<iframe class="vimeo-player_0" src="assets/655515076?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/655515076?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/655515076/9eceb34c4b)
 
@@ -130,7 +132,7 @@ Prior to this enhancement, this functionality existed only when you converted th
 
 For more information, see [Convert an issue to a project in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-`<iframe class="vimeo-player_0" src="assets/655516670?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/655516670?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/655516670/c76c22c044)
 
@@ -157,7 +159,7 @@ For instructions on sharing a template, see [Share project templates](../../../m
 
 For information about the new advanced setting Add Documents, see the section in the article [Sharing a template](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
-`<iframe class="vimeo-player_0" src="assets/631405681?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/631405681?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/631405681/b1834b7ab6)
 
@@ -167,6 +169,6 @@ Now you can share a document folder and its contents from the Documents area. Pr
 
 For more information, see [Share a document folder](../../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-`<iframe class="vimeo-player_0" src="assets/655509632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/655509632?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/655509632/920d3db4fb) 

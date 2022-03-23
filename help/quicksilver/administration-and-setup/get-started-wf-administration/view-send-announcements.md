@@ -40,7 +40,7 @@ You must have the following to perform the steps in this article:
 
 ## Send announcements to users
 
-You can use the `Announcements` page to communicate with users in your Workfront system by forwarding announcements sent from Workfront and by composing new announcements. You can send announcements to specific users, groups, teams, or companies within your Workfront system.
+You can use the **Announcements** page to communicate with users in your Workfront system by forwarding announcements sent from Workfront and by composing new announcements. You can send announcements to specific users, groups, teams, or companies within your Workfront system.
 
 * [Forward Workfront announcements to users](#forwarding-announcements-to-users) 
 * [Compose new announcements](#composing-new-announcements)
@@ -53,13 +53,13 @@ You can easily forward messages that you receive from Workfront to users in your
 
    ![](assets/announcement-access-350x212.png)
 
-1. On the `Announcements` page, select the message that you want to forward.
-1. Click `Forward`.
-1. In the `Send to` box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.
+1. On the **Announcements** page, select the message that you want to forward.
+1. Click **Forward**.
+1. In the **Send to** box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.
 
    Or
 
-   To forward the announcement to all users in your system, begin typing `Everyone`, then click it when it appears in the drop-down list. 
+   To forward the announcement to all users in your system, begin typing **Everyone**, then click it when it appears in the drop-down list. 
 
 1. Continue with Step 3 in [Compose new announcements](#composing-new-announcements).
 
@@ -69,24 +69,24 @@ You can easily forward messages that you receive from Workfront to users in your
 
    ![](assets/announcement-access-350x212.png)
 
-1. On the `Announcements` page, click `New Announcement.`
+1. On the **Announcements** page, click **New Announcement.**
 
-1. In the `Send to` box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.
+1. In the **Send to** box, begin typing the name of a user, group, team, or company who you want to receive the announcement message, then click the name when it appears in the drop-down list. Repeat this process to add multiple users, groups, teams, or companies.
 
-   By default, when sending a new announcement message, `Everyone` is pre-populated in this field. If you do not want all users in your system to receive the announcement message, remove `Everyone` from the list.
+   By default, when sending a new announcement message, **Everyone** is pre-populated in this field. If you do not want all users in your system to receive the announcement message, remove **Everyone** from the list.
 
 1. Specify the following additional information:
 
    | Subject |Specify a subject for the announcement. |
    |---|---|
    | Type message here |Specify the content of your message. The message editor enables you to include common markup, including bold, italics, underline, bulleted and numbered lists, and hyperlinks. |
-   | Attachments |Click `Add Attachment,` then browse to and select the file you want to attach to the message. |
+   | Attachments |Click**Add Attachment,** then browse to and select the file you want to attach to the message. |
 
-1. (Optional) Click `Save As Draft` to save the message (including the recipient list, subject, and attachments) as a draft.  
+1. (Optional) Click **Save As Draft** to save the message (including the recipient list, subject, and attachments) as a draft.  
 
-1. (Optional) To view a draft, in the `Announcements` area, click `Drafts`.
+1. (Optional) To view a draft, in the **Announcements** area, click **Drafts**.
 
-1. Click `Send.`
+1. Click **Send.**
 
    Users can now view the announcement message, as described in [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
@@ -96,7 +96,7 @@ If you are a Workfront administrator, you can unsubscribe from receiving certain
 
 By default, you receive all messages sent from Workfront. This is the recommended configuration.
 
-1. On the `Announcements` page, click `Settings.`
+1. On the **Announcements** page, click **Settings.**
 1. Select the topics for which you no longer want to receive messages.
-1. Click `Save Settings.`
+1. Click **Save Settings.**
 

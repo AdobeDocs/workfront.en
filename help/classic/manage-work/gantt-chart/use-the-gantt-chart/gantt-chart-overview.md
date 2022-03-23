@@ -11,7 +11,12 @@ description: This section contains the following articles:
 This section contains the following articles:
 
 * [Get started with the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md) 
-* Gantt Chart feature availability 
+* 
+
+  <!--
+  <a href="../../../manage-work/gantt-chart/use-the-gantt-chart/gantt-feature-availability.md" class="MCXref xref" xrefformat="{para}">Gantt Chart feature availability </a>
+  -->
+
 * [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md) 
 * [View information in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) 
 * [Update information in the task list Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md) 

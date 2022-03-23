@@ -18,7 +18,7 @@ For more information see [Link documents from external applications](../../../do
 
 For information about how a Workfront administrator can enable this option, see [Configure document integrations](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-`<iframe class="vimeo-player_0" src="assets/601045459?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/601045459?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/601045459/fc56304403)
 
@@ -43,7 +43,7 @@ This new consent screen applies to any Adobe Workfront integration that uses OAu
 
 For details on specific integrations, see that integration's documentation.
 
-`<iframe class="vimeo-player_0" src="assets/580421677?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/580421677?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/580421677/ed98219259)
 

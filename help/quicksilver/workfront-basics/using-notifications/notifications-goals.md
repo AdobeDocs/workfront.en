@@ -38,7 +38,10 @@ You must have the following:
    <td role="rowheader">Access level*</td> 
    <td> <p>View access to Goals or higher</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> <!--
-   Object permissions [Insert permissions needed] For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed]</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -74,23 +77,23 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
   </tr> 
   <tr> 
    <td>Someone assigned a Result/an Activity to you</td> 
-   <td> <p>The name of the person who assigned the result or activity to you</p> <p>The Period of the goal for the result or activity</p> <p>The name of the result or activity</p> <p>The <span class="bold">Open in web app</span> button which opens the Goal Details panel</p> <p>The <span class="bold">Change Notifications Settings</span> button which allows you to manage your notifications.</p> </td> 
+   <td> <p>The name of the person who assigned the result or activity to you</p> <p>The Period of the goal for the result or activity</p> <p>The name of the result or activity</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
    <td>Someone created a new personal Goal for you</td> 
-   <td> <p>The name of the person who assigned the goal</p> <p>The Period of the goal</p> <p>The name of the goal</p> <p>The <span class="bold">Open in web app</span> button which opens the Goal Details panel</p> <p>The <span class="bold">Change Notifications Settings</span> button which allows you to manage your notifications.</p> </td> 
+   <td> <p>The name of the person who assigned the goal</p> <p>The Period of the goal</p> <p>The name of the goal</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
    <td>Someone left a comment on your Goal</td> 
-   <td> <p>The name of the person who left the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment</p> <p>The <span class="bold">Open in web app</span> button which opens the Goal Details panel</p> <p>The <span class="bold">Change Notifications Settings</span> button which allows you to manage your notifications.</p> </td> 
+   <td> <p>The name of the person who left the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
    <td>Someone liked a comment you left on a Goal</td> 
-   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <span class="bold">Open in web app</span> button which opens the Goal Details panel</p> <p>The <span class="bold">Change Notifications Settings</span> button which allows you to manage your notifications.</p> </td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
    <td>Someone liked updates on your Goal</td> 
-   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <span class="bold">Open in web app</span> button which opens the Goal Details panel</p> <p>The <span class="bold">Change Notifications Settings</span> button which allows you to manage your notifications.</p> </td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>Open in web app</strong> button which opens the Goal Details panel</p> <p>The <strong>Change Notifications Settings</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
  </tbody> 
 </table>

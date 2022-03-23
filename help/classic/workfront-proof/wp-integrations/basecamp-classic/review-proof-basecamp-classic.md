@@ -33,20 +33,20 @@ When integrated with Workfront Proof, Basecamp allows users to do the following 
 
 If you link a proof to Basecamp, Workfront Proof sends a proof notification email (1) to all reviewers, containing the following information:
 
-* `Proof details` (2): Displays information about the proof. The information that displays depends on how your Workfront administrator has configured Basecamp.
-* `Go to Proof link` (3): Opens the proof in Workfront.&nbsp;
-* `Basecamp URL` (4): Opens the proof in Basecamp. If non-Basecamp reviewers are added to the proof, their email notification does not include the Basecamp link.
-* `Proof progress` (5): Lists the stages of approval and displays the Proof progress indicators.
-* `Stage` (6): Lists the reviewers and their individual progress.
+* **Proof details** (2): Displays information about the proof. The information that displays depends on how your Workfront administrator has configured Basecamp.
+* **Go to Proof link** (3): Opens the proof in Workfront.&nbsp;
+* **Basecamp URL** (4): Opens the proof in Basecamp. If non-Basecamp reviewers are added to the proof, their email notification does not include the Basecamp link.
+* **Proof progress** (5): Lists the stages of approval and displays the Proof progress indicators.
+* **Stage** (6): Lists the reviewers and their individual progress.
 
 ![Basecamp_ProofHQ_email_notification1__1_.png](assets/basecamp-proofhq-email-notification1--1--350x202.png)
 
 To open the proof from the email notification:
 
-1. To open the proof in Workfront Proof, click `Go To Proof`.  
+1. To open the proof in Workfront Proof, click **Go To Proof**.  
    For information on reviewing a proof in Workfront Proof, see [Reviewing a Proof in the Legacy Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proof-in-legacy-proofing-viewer.md).  
    Or  
-   To open the proof in Basecamp, click the URL listed in the `Basecamp URL` field.  
+   To open the proof in Basecamp, click the URL listed in the **Basecamp URL** field.  
    For information on reviewing a proof in Basecamp Classic, see [Reviewing a Proof in Basecamp](#reviewing-your-proof-in-basecamp) in this article.
 
 ## Viewing the Proof via the Basecamp Classic Message
@@ -64,14 +64,14 @@ You can access a proof from a Basecamp Classic message.&nbsp;
 1. To view the proof in full-screen mode in Workfront proof, click the URL listed above the proof (4).
 1. (Conditional) If you are not logged into your Workfront Proof account in one of your browser windows, log to review the proof:
 
-  1. Click `Sign In`&nbsp;(5) above the proof.
-  1. Type your email address (6).  
-     You must use the same email address that was used when you were added to the proof.
-  1. Click `Next`.
-  1. Type your Workfront Proof password (7).  
-     Or  
-     If you do not have a Workfront Proof account, type a public name to display.   
-     You can select "remember me" so you only have to input your details once.
+   1. Click **Sign In**&nbsp;(5) above the proof.
+   1. Type your email address (6).  
+      You must use the same email address that was used when you were added to the proof.
+   1. Click **Next**.
+   1. Type your Workfront Proof password (7).  
+      Or  
+      If you do not have a Workfront Proof account, type a public name to display.   
+      You can select "remember me" so you only have to input your details once.
 
 1. To review the proof, continue with [Reviewing a Proof in Basecamp](#reviewing-your-proof-in-basecamp).
 
@@ -97,11 +97,11 @@ To review the proof:
 
 Other features on the proof window include:
 
-* `Action menus` (4): Allows you to select settings for the proof.
-* `Full-screen button` (5): Allows you to toggle between full-screen and mini-proof.
-* `Sidebar` (6): Allows you to expand or shrink view of proof.
-* `Username` (7): Displays your username if you are logged into Workfront.
-* `Zoom tools` (8): Allows you to magnify an area of the proof.
-* `Page navigation tools` (9): Allows you to scroll to other pages within the proof.
+* **Action menus** (4): Allows you to select settings for the proof.
+* **Full-screen button** (5): Allows you to toggle between full-screen and mini-proof.
+* **Sidebar** (6): Allows you to expand or shrink view of proof.
+* **Username** (7): Displays your username if you are logged into Workfront.
+* **Zoom tools** (8): Allows you to magnify an area of the proof.
+* **Page navigation tools** (9): Allows you to scroll to other pages within the proof.
 
 For more information on reviewing proofs, see [Legacy proofing viewer Overview](../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/legacy-proofing-viewer.md).

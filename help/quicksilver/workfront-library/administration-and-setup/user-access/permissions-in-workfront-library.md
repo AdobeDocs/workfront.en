@@ -19,7 +19,7 @@ Each access level grants specific permissions that allow or restrict users' acti
 
 The following table provides more detailed information about the permissions available for each access level.
 
-| `Permissions`  | `Admin`  | `Manager`  | `Viewer`  |
+| **Permissions** |**Admin** |**Manager** |**Viewer** |
 |---|---|---|---|
 | Configure Workfront Library taxonomy |✓ |&nbsp; |&nbsp; |
 | Edit metadata |✓ |✓ |&nbsp; |

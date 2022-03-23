@@ -35,23 +35,23 @@ Workfront Proof is available in the following languages:
 
 To change your account's default language, follow the steps below.
 
-1. Go to the `Details` tab in  `Account settings` in&nbsp;Workfront Proof.
+1. Go to the **Details** tab in&nbsp;**Account settings** in&nbsp;Workfront Proof.
 
-1. In `Account details` section, click  `Edit`for the  `Default language`settings.
+1. In **Account details** section, click&nbsp;**Edit**for the&nbsp;**Default language**settings.
 
 1. In the drop-down menu select your default language.  
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
-1. Click  `Save.`
+1. Click&nbsp;**Save.**
 
 ## Changing the Default Language in Personal Settings
 
 Individual Workfront Proof&nbsp;users can specify a language different to the one used by default in their&nbsp;account. To change your personal default language, follow the steps below.
 
-1. Go to the  `Personal details` tab in your  `Personal settings` in&nbsp;Workfront Proof.  
+1. Go to the&nbsp;**Personal details** tab in your&nbsp;**Personal settings** in&nbsp;Workfront Proof.  
    For more information, see [Manage Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md).
 
-1. Click on the language visible in the `Language`setting.
+1. Click on the language visible in the**Language**setting.
 1. In the drop-down menu select your preferred language.&nbsp;Your selection will be saved automatically.  
    ![personal_language_setting.png](assets/personal-language-setting-350x197.png)
 

@@ -23,7 +23,9 @@ For more information about how to create, submit, or email requests in to Workfr
 
 * [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md) 
 * [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md) 
+* Copy and submit requests
 * [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md) 
 * [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md) 
+* Share a link to a request queue
 * [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md)
 

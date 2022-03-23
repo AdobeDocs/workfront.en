@@ -31,7 +31,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Planners can configure time for themselves. Only a Workfront administrator can configure time for other users. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Planners can configure time for themselves. Only a Workfront administrator can configure time for other users.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -39,26 +43,27 @@ You must have the following access to perform the steps in this article:
 
 1. Do either of the following, depending on your objective and your access level in the system:
 
-  * `Planner user configuring time logging for yourself:` Click the Main Menu icon. Click your user avatar, then click the More icon next to your name and select Edit.
-  * `System administrator configuring time logging for others:` Begin editing one or more user accounts, as described in [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+  * **Planner user configuring time logging for yourself:** Click the Main Menu icon. Click your user avatar, then click the **More** icon next to your name and select **Edit**.
+  
+  * **System administrator configuring time logging for others:** Begin editing one or more user accounts, as described in [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. In the resulting dialog box, in the `Resource Planning` section, locate the `Log Time in` option.
+1. In the resulting dialog box, in the **Resource Planning** section, locate the **Log Time in** option.
 
    ![](assets/new-timesheet-log-hours-350x249.png)
 
-1. (Conditional) If you are a system administrator editing multiple users simultaneously, select `Log Time in`.
+1. (Conditional) If you are a system administrator editing multiple users simultaneously, select **Log Time in**.
 1. Select from the following options for logging time:   
 
-   | `Hours:` |Users specify hours when logging time in Workfront. |
+   | **Hours:** |Users specify hours when logging time in Workfront. |
    |---|---|
-   | `Days:` | Users specify days when logging time in Workfront. |
+   | **Days:** | Users specify days when logging time in Workfront. |
 
-1. (Conditional) If you selected to log time in days, in the `Equivalent Hours for Full Workday` field, type the number of hours that equal a full day. One day on a user's timesheet is the equivalent of the number of hours you enter here.
+1. (Conditional) If you selected to log time in days, in the **Equivalent Hours for Full Workday** field, type the number of hours that equal a full day. One day on a user's timesheet is the equivalent of the number of hours you enter here.
 
    Consider the following when configuring this setting:
 
   * This option is not available when configuring to log time in hours.
-  * This option is used only for the purpose of logging time. This option is not related to the `Schedule` option that is also available when editing a user. The `Schedule` option is used when calculating timelines and in other areas of Workfront. (For more information about using the `Schedule` option, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)&nbsp;
+  * This option is used only for the purpose of logging time. This option is not related to the **Schedule** option that is also available when editing a user. The **Schedule** option is used when calculating timelines and in other areas of Workfront. (For more information about using the **Schedule** option, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).)&nbsp;
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

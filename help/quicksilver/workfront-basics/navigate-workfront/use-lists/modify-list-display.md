@@ -57,7 +57,11 @@ You must have the following access to perform the steps in this article:
 1. Go to the list in Workfront that you want to modify.
 
    <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    By default, groupings are collapsed.
+   </MadCap:conditionalText>
+   --> <br> </p>
    -->
 
 1. (Optional and conditional) If the groupings in the list are collapsed and you want to view more information, click the desired grouping to expand the list and display the information listed in it.
@@ -68,11 +72,11 @@ You must have the following access to perform the steps in this article:
 
    ![expand_groupings__1_.png](assets/expand-groupings--1--350x227.png)
 
-1. (Optional and conditional) If you want to show a specific number of items on the screen, click the `Showing` drop-down menu in the lower-right corner of the screen, then select to display `100`, `250`, `500`, `All`, or `2000` items.
+1. (Optional and conditional) If you want to show a specific number of items on the screen, click the **Showing** drop-down menu in the lower-right corner of the screen, then select to display **100**, **250**, **500**, **All**, or **2000** items.
 
    ![](assets/list-number-page-350x119.png)
 
-   ` `**Tip: **`` By default, 2,000 items display for updated lists and 100 items display for legacy lists. If the list contains more than 2,000 items, you cannot display all the items on one page.
+   ``` ```**Tip: **`````` By default, 2,000 items display for updated lists and 100 items display for legacy lists. If the list contains more than 2,000 items, you cannot display all the items on one page.
 
    For the best performance in large lists where objects contain formatted text fields, we recommend limiting this number to 250.
 

@@ -5,6 +5,7 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Advanced Filter and condition qualifiers
 description: Provides an overview of filter and condition qualifiers used for text mode statements.
+hidefromtoc: true
 ---
 
 # Advanced Filter and condition qualifiers
@@ -19,63 +20,63 @@ There are several advanced filter and condition qualifiers that allow you to det
 
 ### Advanced Filter and Condition Qualifiers
 
-`contains`
+**contains**
 
 (Case sensitive) Searches for the specified text throughout an entire text string.
 
 * Example: Using 'contains Inf' will capture anything with Inf in it, such as the word 'Infinity'.
 
-`cicontains`
+**cicontains**
 
 This is the case insensitive version of contains.&nbsp;
 
 * Example: 'contains inf' will capture anything with 'Inf' or 'inf'.
 
-`like`&nbsp;  
+**like**&nbsp;  
 (Case sensitive) Searches for portions of a text string in similar fashion to 'contains.' However, 'like' provides the ability to insert wild card characters to break up the text.&nbsp;
 
 * Example: When searching for notes, using 'like %Current% %Dead%' will return any note that contains the phrase "Current to Dead". It will not include any notes that contain "Dead to Current". Each value is searched in the order it is listed. The % represents a wild card to replace characters or segments of text.
 
-`cilike`   
+**cilike** 
 This is the case insensitive version of like.&nbsp;
 
 * Example: 'cilike%Current% %Dead%' will return any notes that contain "Current to Dead" or "current to dead".
 
-`notcontains`   
+**notcontains** 
 (Case sensitive) This is the inverse of contains.
 
-`cinotcontains`&nbsp;  
+**cinotcontains**&nbsp;  
 This is the case insensitive version of notcontains.
 
-`equal`&nbsp;
+**equal**&nbsp;
 
 (Case sensitive) This searches for an exact match in the text string.
 
-`ciequal`&nbsp;
+**ciequal**&nbsp;
 
 This is the case insensitive version of equal.
 
-`notequal`&nbsp;
+**notequal**&nbsp;
 
 This is the inverse of equal.
 
-`cinotequal`   
+**cinotequal** 
 This is the case insensitive version of notequal.
 
-`in`&nbsp;
+**in**&nbsp;
 
 (Case sensitive) This allows you to create a comma-separated list of variables to compare to a single attribute evaluated in a filter. The entire list is treated as an OR statement and will return any results that meet the criteria of one or more of the variables.
 
 * Example: When searching for projects, using 'in CUR, PLN, CPL' will return all projects that are in the Current, OR Planning, OR Complete status.
 
-`ciin`   
+**ciin** 
 This is the case insensitive version of in.
 
-`notin`
+**notin**
 
 (Case sensitive) This is the inverse of in. It will only return results not in the specified list.
 
-`cinotin`
+**cinotin**
 
 This is the case insensitive version of notin.
 

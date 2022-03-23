@@ -66,7 +66,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 ## Edit a dashboard
 
 1. Go to the dashboard that you want to edit.
-1. Click `Dashboard Actions`, then click `Edit`.
+1. Click **Dashboard Actions**, then click **Edit**.
 
    >[!TIP]
    >
@@ -74,10 +74,10 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 
 1. Consider editing the following fields:
 
-  * `Name`: Edit the name of the dashboard.
-  * `Description`: Specify a description for the dashboard.
+   * **Name**: Edit the name of the dashboard.
+   * **Description**: Specify a description for the dashboard.
 
-1. In the `Available Reports & Calendars` section, start typing the name of a report, calendar, or external page in the `Search by name or type ...` field, then drag and drop the report or calendar in the layout pane to the right.
+1. In the **Available Reports & Calendars** section, start typing the name of a report, calendar, or external page in the **Search by name or type ...** field, then drag and drop the report or calendar in the layout pane to the right.
 
    >[!NOTE]
    >
@@ -86,10 +86,10 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 1. (Optional) Select a new layout for the dashboard by clicking a radio button corresponding to the layout you want.
 1. (Optional) Mouse over the name of an existing report and click the trash can icon to remove it from the dashboard.
 1. (Optional) Change the order of the reports on the dashboard by clicking the name of a report, dragging it, and dropping it in the desired spot in the layout pane.
-1. (Optional) Click `Add External Page` to add an external page to the dashboard.  
+1. (Optional) Click **Add External Page** to add an external page to the dashboard.  
    Or  
-   Locate an existing external page in the dashboard, then mouse over it and click the `Edit` icon to edit the external page.  
+   Locate an existing external page in the dashboard, then mouse over it and click the **Edit** icon to edit the external page.  
    For more information about adding or editing external pages in a dashboard, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
 
-1. Click `Save + Close`.
+1. Click **Save + Close**.
 

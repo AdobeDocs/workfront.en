@@ -26,9 +26,9 @@ We continue to make improvements to the way you use Workfront Goals based on the
 
 >[!NOTE]
 >
->`Preview availability:` October 22, 2020
+>**Preview availability:** October 22, 2020
 >
->`Production availability:`&nbsp;With the 20.4 release
+>**Production availability:**&nbsp;With the 20.4 release
 
 This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
 
@@ -39,18 +39,18 @@ You can now limit access to Workfront Goals in the access levels. You can give u
 For information about granting access to Workfront Goals, see [Grant access to Adobe Workfront Goals](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/466277536?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
 -->
 
 <!--
-View this video in full-screen mode.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/466277536/82838520fe" target="_blank">View this video in full-screen mode.</a> </p>
 -->
 
 >[!NOTE]
 >
->`Preview availability:` October 9, 2020
+>**Preview availability:** October 9, 2020
 >
->`Production availability:`&nbsp;With the 20.4 release
+>**Production availability:**&nbsp;With the 20.4 release
 
 This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.
 
@@ -68,17 +68,17 @@ For information, see the following articles:
 * [Create goals in Adobe Workfront Goals](../../../workfront-goals/goal-management/create-goals.md)
 
 <!--
-
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><iframe class="vimeo-player_0" src="assets/461495600?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p>
 -->
 
 <!--
-View this video in full-screen mode.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/461495600/87acace0fa">View this video in full-screen mode.</a> </p>
 -->
 
 >[!NOTE]
 >
->`Preview availability:` September 25, 2020
+>**Preview availability:** September 25, 2020
 >
->`Production availability:`&nbsp;With the 20.4 release
+>**Production availability:**&nbsp;With the 20.4 release
 
 This feature is now included in the [Workfront Goals learning path](https://one.workfront.com/s/getting-started?tabset-9473f=c292c) on Workfront One.

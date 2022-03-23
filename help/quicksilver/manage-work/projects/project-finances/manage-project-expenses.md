@@ -45,35 +45,36 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project where you want to enter expenses.  
    If you want to add expenses to a task, navigate to a task instead.&nbsp;
-1. Click **Show**More, then click `Expenses.`
-1. Click `Add an Expense.`  
-   The `Add an Expense`&nbsp;dialog box is displayed.
+1. Click **Show**** More**, then click **Expenses.**
+1. Click **Add an Expense.** 
+   The **Add an Expense**&nbsp;dialog box is displayed.
 1. Specify the following information:
 
-  * `Description:` Description of the expense.  
+  * **Description:** Description of the expense.  
 
-  * `Expense Type:` (Required) Select the category that best describes the expense.
-  * `Task:` Begin typing the name of the task that this expense is associated with, then click it when it appears in the drop-down list.
-  * `Planned Amount:` The planned budgeted amount for the expense.  
+  * **Expense Type:** (Required) Select the category that best describes the expense.
+  * **Task:** Begin typing the name of the task that this expense is associated with, then click it when it appears in the drop-down list.
+  * **Planned Amount:** The planned budgeted amount for the expense.  
     This affects the Budgeted Cost of the project.
   
-  * `Actual Amount:` The amount that the expense actual cost.  
+  * **Actual Amount:** The amount that the expense actual cost.  
     This affects the Actual Cost of the project.
   
-  * `Planned Date:` The expected date for the expense to occur. You&nbsp;can type the&nbsp;date in the field using the *mm/dd/yy* format, or you can click&nbsp;the calendar icon&nbsp; ![](assets/calendar-icon.png)&nbsp;and select the date dynamically.
+  * **Planned Date:** The expected date for the expense to occur. You&nbsp;can type the&nbsp;date in the field using the *mm/dd/yy* format, or you can click&nbsp;the calendar icon&nbsp; ![](assets/calendar-icon.png)&nbsp;and select the date dynamically.
   
-  * `Date Paid:` The date the expense was paid.
-  * `Billable:` Select this option&nbsp;if you want to&nbsp;bill this expense. Categorizing an expense as billable is important when creating billing records.
-  * `Reimbursable:` Select this option&nbsp;if the expense needs to be reimbursed. You can then mark the expense as reimbursed after the expense has been reimbursed.
+  * **Date Paid:** The date the expense was paid.
+  * **Billable:** Select this option&nbsp;if you want to&nbsp;bill this expense. Categorizing an expense as billable is important when creating billing records.
+  * **Reimbursable:** Select this option&nbsp;if the expense needs to be reimbursed. You can then mark the expense as reimbursed after the expense has been reimbursed.
 
-1. Select a `Custom Form` and specify any additional information required. You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Select a **Custom Form** and specify any additional information required. You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Click `Save Changes.`
+1. Click **Save Changes.**
 
 ## Delete Expenses
 
 1. Go to the&nbsp;project where you want to delete expenses.
-1. ClickShow `More`, then click `Expenses.`
-1. Select the expenses that you want to delete, then click `Delete`.
-1. Click  `Yes, Delete It` to confirm deletion.&nbsp;
+1. Click**Show****More**, then click **Expenses.**
+1. Select the expenses that you want to delete, then click **Delete** ![Delete](assets/delete.png).
+
+1. Click&nbsp;**Yes, Delete It** to confirm deletion.&nbsp;
 

@@ -49,36 +49,36 @@ You must have the following access to perform the steps in this article:
 
 You can create risks as part of planning the Business Case of a project. You can later edit them in the Business Case, when changes occur to their probability, mitigation plan, or cost, for example. For information about creating a Business Case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your Workfront administrator `or group administrator` must enable the `Risks` section in your Business Case in the Project Preferences area before you can view it at the project level in the Business Case section. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Your Workfront administrator ```or group administrator``` must enable the **Risks** section in your Business Case in the Project Preferences area before you can view it at the project level in the Business Case section. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Creating and editing risks in the Business Case is identical.
 
 To create or edit a risk in the Business Case:
 
-1. Go to the project for which you want to create risks.
-1. Click Business Case in the left panel.
-1. In the `Risks` section, click `Edit Risks`.
+1. Go to the project for which you want to create risks. 
+1. Click **Business Case** in the left panel.
+1. In the **Risks** section, click **Edit Risks**.
 1. Enter or edit the following information:
 
-  * `Description:` describe the risk.  
+  * **Description:** describe the risk.  
   
-  * `Potential Cost`: indicate the estimated cost if the risk should occur.  
+  * **Potential Cost**: indicate the estimated cost if the risk should occur.  
   
-  * `Probability`: indicate the probability of the risk occurring as a percentage value.   
+  * **Probability**: indicate the probability of the risk occurring as a percentage value.   
   
-  * `Type:` indicate what category the risk falls under.
-  * `Mitigation Plan`: update the description of the plan to mitigate the risk.  
+  * **Type:** indicate what category the risk falls under.
+  * **Mitigation Plan**: update the description of the plan to mitigate the risk.  
   
-  * `Mitigation Cost`: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+  * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
 
    ![](assets/crp1-350x117.png)
 
-1. (Optional) Click `Add Another Risk` to add additional risks.
-1. Click `Save`.
+1. (Optional) Click **Add Another Risk** to add additional risks.
+1. Click **Save**.
 
 ## Create and edit risks in the Risks area
 
-In addition to creating and editing risks in the Business Case, you can do so using the `Risks` sectionof a project.
+In addition to creating and editing risks in the Business Case, you can do so using the **Risks** sectionof a project.
 
 * [Create risks in the Risks area](#creating-risks-in-the-risks-tab) 
 * [Edit risks in the Risks area](#editing-risks-in-the-risks-tab)
@@ -86,36 +86,36 @@ In addition to creating and editing risks in the Business Case, you can do so us
 ### Create risks in the Risks area
 
 1. Go to the project you want to create risks for.
-1. Click Risks in the left panel.
-1. Click `Start Adding Risks` and create risks by in-line editing their information.
+1. Click **Risks** in the left panel.
+1. Click **Start Adding Risks** and create risks by in-line editing their information.
 
    Or
 
-   Click `New Risk`. The `New Risk` dialogue box opens.
+   Click **New Risk**. The **New Risk** dialogue box opens.
 
    ![](assets/crp3-350x181.png)
 
 1. Enter the following information:
 
-  * `Description`: describe the risk.
-  * `Risk Type`: indicate what category the risk falls under.  
+  * **Description**: describe the risk.
+  * **Risk Type**: indicate what category the risk falls under.  
     Your Workfront administrator defines the Risk Types available in your environment. For information about defining Risk Types, see the article [Edit and create risk types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).  
   
-  * `Probability`: indicate the probability of the risk occurring as a percentage value.
-  * `Potential Cost`: indicate the estimated cost if the risk should occur.
-  * `Mitigation Cost`: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
-  * `Actual Cost`: indicate the actual cost of the risk if the risk occurred.
-  * `Mitigation Plan`: update the description of the plan to mitigate the risk.
+  * **Probability**: indicate the probability of the risk occurring as a percentage value.
+  * **Potential Cost**: indicate the estimated cost if the risk should occur.
+  * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+  * **Actual Cost**: indicate the actual cost of the risk if the risk occurred.
+  * **Mitigation Plan**: update the description of the plan to mitigate the risk.
 
-1. (Conditional) Click `Enter` if you are creating the risk in-line.
+1. (Conditional) Click **Enter** if you are creating the risk in-line.
 
    Or
 
-   Click `Save` if you are editing the information in the `New Risk` dialog box.
+   Click **Save** if you are editing the information in the **New Risk** dialog box.
 
-1. (Optional) Select a different `Status` for the risk, in the `Status` drop-down menu, when applying the `Standard` view for the list of risks.
+1. (Optional) Select a different **Status** for the risk, in the **Status** drop-down menu, when applying the **Standard** view for the list of risks.
 
-   By default, the Status of a risk is `Identified`.
+   By default, the Status of a risk is **Identified**.
 
 ### Edit risks in the Risks area
 
@@ -126,33 +126,33 @@ You can edit one risk at a time, or you can edit multiple risks in bulk.
 To edit risks:
 
 1. Navigate to a project for which you want to edit existing risks.
-1. Click Risks in the left panel.
+1. Click **Risks** in the left panel.
 1. Start in-line editing the fields for the risks you see in the list to edit one risk at a time.
 
    Or
 
-   Select one or several risks, then click `Edit` to edit multiple risks at the same time.
+   Select one or several risks, then click **Edit** to edit multiple risks at the same time.
 
    >[!NOTE]
    >
    >You are applying the same information to all the risks selected, when you edit multiple risks at the same time. The information associated with each risk prior to your changes is overwritten in a bulk edit.
 
-1. If you have clicked `Edit`, the `Edit Risk` dialog box opens.
+1. If you have clicked **Edit**, the **Edit Risk** dialog box opens.
 
    Consider editing the following fields:
 
-  * `Description`: edit the description of the risk.
-  * `Risk Type`: indicate what category the risk falls under. 
-  * `Probability`: indicate the probability of the risk occurring as a percentage value.
-  * `Potential Cost`: indicate the estimated cost if the risk should occur.
-  * `Mitigation Cost`: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
-  * `Actual Cost`: indicate the actual cost of the risk if the risk occurred.
-  * `Mitigation Plan`: update the description of the plan to mitigate the risk.
+  * **Description**: edit the description of the risk.
+  * **Risk Type**: indicate what category the risk falls under. 
+  * **Probability**: indicate the probability of the risk occurring as a percentage value.
+  * **Potential Cost**: indicate the estimated cost if the risk should occur.
+  * **Mitigation Cost**: indicate the cost of the mitigation plan that you must put in place to prevent the risk from occurring.
+  * **Actual Cost**: indicate the actual cost of the risk if the risk occurred.
+  * **Mitigation Plan**: update the description of the plan to mitigate the risk.
 
-1. Click `Save Changes`.
-1. (Optional) Edit the `Status` for a risk, in the `Status` drop-down menu, when applying the `Standard` view for the list of risks.
+1. Click **Save Changes**.
+1. (Optional) Edit the **Status** for a risk, in the **Status** drop-down menu, when applying the **Standard** view for the list of risks.
 
    >[!NOTE]
    >
-   >You cannot edit the `Status` of risks in the `Edit Risk` dialog box. You can do so only in an in-line edit.
+   >You cannot edit the **Status** of risks in the **Edit Risk** dialog box. You can do so only in an in-line edit.
 

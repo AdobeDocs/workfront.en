@@ -38,9 +38,9 @@ You must have the following to perform the steps in this article:
 
 ## About locked and unlocked preferences
 
-Locking a project, task, or issue preference that you have configured at thesystem level ensures that everyonethroughout the system is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can’t reconfigure it for their groups.
+Locking a project, task, or issue preference that you have configured at the```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  system</MadCap:conditionalText>``` level ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level">  throughout the system</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can’t reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level"> their</MadCap:conditionalText>``` groups.
 
-Conversely, unlocking a project, task, or issue preference allows group administrators more flexibility to manage the way their groups work with those items. When a preference is unlocked, group administrators can reconfigure it for their groups.
+Conversely, unlocking a project, task, or issue preference allows group administrators more flexibility to manage the way their groups work with those items. When a preference is unlocked, group administrators can reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.system-level"> their groups</MadCap:conditionalText>```.
 
 For instructions on locking or unlocking a system-level project, task, or issue preference, see [Lock or unlock project preferences for all groups in the system](#) or this one needs to be broken out on it's own also: [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -50,9 +50,9 @@ For instructions on locking or unlocking a system-level project, task, or issue 
 
 ## Unlock a project preference so that groups can configure it
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Project Preferences`, then click `Projects`.
+1. Click **Project Preferences**, then click **Projects**.
 
 1. Do any of the following:
 
@@ -63,5 +63,5 @@ For instructions on locking or unlocking a system-level project, task, or issue 
     >
     >We recommend that you communicate with the administrators and users in groups throughout the system to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by all groups in the system. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators might have made.
 
-1. Click `Save`.
+1. Click **Save**.
 

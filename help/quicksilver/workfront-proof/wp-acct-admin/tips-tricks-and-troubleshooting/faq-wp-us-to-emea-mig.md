@@ -22,7 +22,7 @@ Workfront is directly contacting all organizations affected by the Workfront Pro
 
 Yes. Before the migration, make sure you add the following to your organization's allowlist:
 
-`webcapture.proofhq.eu`
+**webcapture.proofhq.eu**
 
 ## How long will it take to migrate my account?
 

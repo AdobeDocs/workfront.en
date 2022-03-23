@@ -31,12 +31,16 @@ In addition to the considerations below, also see [Overview of sharing permissio
 * Sharing a document is similar to sharing any other object in Workfront. For information about how to share documents in Workfront, see [Share an object in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * You can grant the following permissions to documents:
 
-  * View
-  * Manage
+   * View
+   * Manage
+   
+     ![](assets/screen-shot-2014-08-18-at-9.15.55-am.png) ![](assets/screen-shot-2014-08-18-at-9.16.04-am.png)
 
 * You can also share a document publicly or system-wide.
 
-  ` `**Warning: **``We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
+  ![document_share_public.png](assets/document-share-public.png)
+
+  ``` ```**Warning: **``````We recommend that you use caution when sharing an object containing confidential information with external users. This allows them to view information without being a Workfront user or part of your organization. 
 
 * You can share a document with someone who does not have a Workfront account, by adding their email address in the Give document access to field.
 * When you share a document, users have the same access to all the document versions and all the document proofs.  
@@ -47,6 +51,8 @@ In addition to the considerations below, also see [Overview of sharing permissio
   For more information about restricting inherited permissions on documents, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
   You can manually remove inherited permissions on documents. For more information, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
+
+  ![](assets/screen-shot-2014-01-22-at-10.08.08-am-350x391.png)
 
 * An attached document inherits permissions only from the object where it was attached. If you create a folder on the object and move the document into the folder, it inherits the folder's permissions. But, if you create a folder on a parent or grandparent object and move the document into that folder, it does not inherit that folder's permissions.
 
@@ -60,9 +66,9 @@ The following table displays what permissions you can grant users when allowing 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Action</span> </p> </th> 
-   <th> <p><span class="bold">Manage</span> </p> </th> 
-   <th> <p><span class="bold">View</span> </p> </th> 
+   <th> <p><strong>Action</strong> </p> </th> 
+   <th> <p><strong>Manage</strong> </p> </th> 
+   <th> <p><strong>View</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

@@ -38,7 +38,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -61,18 +69,18 @@ For more information about activities, see [Get started with results and activit
 
 ## Add an activity to a goal
 
-1. Go to the goal for which you want to add an activity and click the name to open the `Goal Details` panel.
-1. Click `Add activities`.
+1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
+1. Click **Add activities**.
 
    ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
-1. From the `Activity Type` drop-down menu, select the type of activity you want to associate with your goal. Select `Manual progress bar` or `Project`. Manual progress bar is the default selection. 
+1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
 
   1. If you selected Manual progress bar:
 
-    1. Start typing a name for your activity in the `Activity` field. 
-    1. (Optional) If you want to set the activity owner as someone other than yourself, click your name in the `Owner` field and begin typing the name of the user that you want to assign as the activity owner, then click it when it appears in the drop-down list.
+    1. Start typing a name for your activity in the **Activity** field. 
+    1. (Optional) If you want to set the activity owner as someone other than yourself, click your name in the **Owner** field and begin typing the name of the user that you want to assign as the activity owner, then click it when it appears in the drop-down list.
 
        >[!NOTE]
        >
@@ -80,9 +88,9 @@ For more information about activities, see [Get started with results and activit
 
        When you update the progress of an activity, the progress of the goal automatically updates.
 
-  1. If you selected `Project`:
+  1. If you selected **Project**:
 
-    1. Click the `Connect projects` field.
+    1. &nbsp;Click the **Connect projects** field.
 
        Existing projects that you have access to View display in the Connect projects list. Projects that are in a status of Dead do not display in the list. 
     
@@ -92,12 +100,12 @@ For more information about activities, see [Get started with results and activit
 
        For more information about associating projects with goals, see [Overview of connecting projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
     
-       ` `**Tips: **``
+       ``` ```**Tips: **``````
 
       * The owner of the project becomes the owner of this activity. If the project has no owner, then the activity has no owner. 
       * You cannot manually update the progress of a project. Workfront calculates the progress of the project based on the project percent complete. When the project percent complete updates in&nbsp;Workfront this also updates the connected project in&nbsp;Workfront Goals including the percent complete of the goal.
 
-1. Click `Save`.
+1. Click **Save**.
 
    The activity is saved for the selected goal. After you activate the goal, the progress of the goal automatically updates when you update the progress of an activity or when the percent complete of a project updates. For information about activating a goal, see [Activate goals in Adobe Workfront Goals](../../workfront-goals/goal-management/activate-goals.md).
 

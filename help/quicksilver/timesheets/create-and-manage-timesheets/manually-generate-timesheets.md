@@ -48,14 +48,18 @@ When you manually generate timesheets:
 
 You can manually generate system-level or group-level timesheets from the Timesheets area in Setup.
 
-1. If you are generating timesheets in use throughout the system, click `Timesheets & Hours.`
+1. Main Menu
+1. 
+1. Setup
+1. 
+1. If you are generating timesheets in use throughout the system, click **Timesheets & Hours.**
 
    Or
 
    If you are generating timesheets used by a specific group, click **Groups**, then click the group's name.
 
-1. Click `Timesheet Profiles`.
-1. Click `More`, then `Generate Timesheets`.
+1. Click **Timesheet Profiles**.
+1. Click **More**, then **Generate Timesheets**.
 
    New timesheets are created for up to two periods of time for users associated with timesheet profiles.
 
@@ -63,8 +67,12 @@ You can manually generate system-level or group-level timesheets from the Timesh
 
 You can manually generate system-level timesheets from the Diagnostics area in Setup.
 
-1. Expand `System`, then click `Diagnostics`.
+1. Main Menu
+1. 
+1. Setup
+1. 
+1. Expand **System**, then click **Diagnostics**.
 
-1. Click `Conduct Diagnostics`.&nbsp;
-1. Click `Generate Timesheets`.
+1. Click **Conduct Diagnostics**.&nbsp;
+1. Click **Generate Timesheets**.
 

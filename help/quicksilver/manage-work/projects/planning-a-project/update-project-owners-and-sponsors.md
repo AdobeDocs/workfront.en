@@ -48,22 +48,24 @@ You must have the following access to perform the steps in this article:
 ## Update the Project Owner of a project
 
 1. Go to the project you want to update.
-1. Click Project Details in the left panel.
-1. Click the Edit icon in the upper-right corner of the Project Details area, then click Overview. 
-1. Specify the name of a user for the `Project Owner` field.
+1. Click **Project Details** in the left panel. 
+1. Click&nbsp;the **Edit** icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;**Overview**.  
+
+1. Specify the name of a user for the **Project Owner** field.
 
    Only active users can be specified as Project Owners.
 
-1. Click Save Changes.
+1. Click&nbsp;**Save Changes**.
 
 ## Update the Project Sponsor of a project
 
 1. Go to the Project you want to update.
-1. Click Project Details in the left panel.
-1. Click the Edit icon in the upper-right corner of the Project Details area, then click Overview. 
-1. Specify the name of a user for the `Project Sponsor` field.
+1. Click **Project Details** in the left panel. 
+1. Click&nbsp;the **Edit** icon ![](assets/qs-edit-icon.png) in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;**Overview**.  
+
+1. Specify the name of a user for the **Project Sponsor** field.
 
    Only active users can be specified as Project Sponsors.
 
-1. Click Save Changes.
+1. Click&nbsp;**Save Changes**.
 

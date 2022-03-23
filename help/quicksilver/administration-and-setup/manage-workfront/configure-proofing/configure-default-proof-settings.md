@@ -13,8 +13,8 @@ These settings allow you to set default values that apply to all new proofs crea
 
 ## Configure new proof settings
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup`.
-1. In the left panel, click `Proofs` > `Proof settings`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup**.
+1. In the left panel, click **Proofs** > **Proof settings**.
 1. Configure the following settings:
 
    | Require login |&nbsp; |

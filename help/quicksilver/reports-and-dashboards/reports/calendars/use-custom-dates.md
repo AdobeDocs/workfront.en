@@ -54,15 +54,18 @@ You must have the following access to perform the steps in this article:
 
 You can choose how you want the group of items to display on your calendar.
 
+1. Main Menu
+1. 
+1. Calendars
 1. Select the calendar you want to add a new group of items to.   
    Or  
-   Click `+ New Calendar` and enter the calendar name.
+   Click **+ New Calendar** and enter the calendar name.
 
    >[!NOTE]
    >
    >You must have Edit access to Reports, Dashboards, and Calendars in your access level to create a calendar report.
 
-1. On the left, click `Add to Calendar`, then click `Add advanced items`.
+1. On the left, click **Add to Calendar**, then click **Add advanced items**.
 
 1. Specify the following:  
 
@@ -79,17 +82,21 @@ You can choose how you want the group of items to display on your calendar.
       <td>Select a color for the group of items. All items display in the selected color on the calendar report.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Date Field</span></td>
-      <td>Choose <span class="bold">Custom dates</span>.<br></td>
+      <td role="rowheader"><strong>Date Field</strong></td>
+      <td>Choose <strong>Custom dates</strong>.<br></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">On the calendar, show</span></td>
+      <td role="rowheader"><strong>On the calendar, show</strong></td>
       <td><p>Choose how you want the dates to show:</p>
        <ul>
-        <li><span class="bold">Single Date</span>: The calendar displays the object on a single date.</li>
-        <li><span class="bold">Duration (Start to End)</span>: The calendar displays the object over a span of days.<br><p>Note: If you choose <span class="bold">Duration</span>, the end date specified must be after the start date or the item won't show on the calendar.</p></li>
+        <li><strong>Single Date</strong>: The calendar displays the object on a single date.</li>
+        <li><strong>Duration (Start to End)</strong>: The calendar displays the object over a span of days.<br><p>Note: If you choose <strong>Duration</strong>, the end date specified must be after the start date or the item won't show on the calendar.</p></li>
        </ul></td>
-     </tr>Custom Dates Enter the custom date name attached to the object you want to track.
+     </tr>
+     <tr data-mc-conditions="">
+      <td role="rowheader"><strong>Custom Dates</strong></td>
+      <td><p>Enter the custom date name attached to the object you want to track.</p></td>
+     </tr>
     </tbody>
    </table>
 
@@ -99,16 +106,16 @@ You can choose how you want the group of items to display on your calendar.
 
 After you set up how you want items to display, you need to add the objects you want to see on the calendar to the grouping.
 
-1. In the `What would you like to add to the calendar?` section, select
+1. In the **What would you like to add to the calendar?** section, select
 
-  * `Tasks`
-  * `Projects`
-  * `Issues`
+  * **Tasks**
+  * **Projects**
+  * **Issues**
 
-1. Click `Add Tasks`, `Add Projects`, or `Add Issues`, depending on the object type you are adding to the calendar.  
+1. Click **Add Tasks**, **Add Projects**, or **Add Issues**, depending on the object type you are adding to the calendar.  
    ![FieldName.png](assets/fieldname-350x144.png)
 
-1. In the drop-down menu, begin typing the field name, then select the field source of the object you want to display on the calendar (for example,  `Late Tasks`).
+1. In the drop-down menu, begin typing the field name, then select the&nbsp;field source of the object you want to display on the calendar (for example,&nbsp;**Late Tasks**).
 1. Set a condition statement for the calendar grouping.
 
    ![CondStmt.png](assets/condstmt-350x56.png)
@@ -116,11 +123,11 @@ After you set up how you want items to display, you need to add the objects you 
    To learn about setting conditions, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
 1. (Optional) Specify additional objects for the calendar grouping by repeating Steps 1-4.
-1. In the `Set the Tasks/Projects/Issues labels to be the...`&nbsp;field, select how the objects in this calendar grouping are labeled in the calendar.
+1. In the **Set the Tasks/Projects/Issues labels to be the...**&nbsp;field, select how the objects in this calendar grouping are labeled in the calendar.
 
    >[!NOTE]
    >
    >If the default label&nbsp;options are not available for a certain object, the object name is&nbsp;shown instead. For example, when the Parent Task label is selected and&nbsp;there is no parent task associated with the object,&nbsp;Adobe Workfront displays the object name you are viewing in the calendar.
 
-1. Click `Save`.
+1. Click **Save**.
 

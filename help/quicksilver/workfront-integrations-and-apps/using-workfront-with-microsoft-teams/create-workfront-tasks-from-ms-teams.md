@@ -24,9 +24,27 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -52,13 +70,13 @@ For information about installing Workfront for Microsoft Teams and logging in to
 
    For information about logging in to Workfront, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
-1. To open a `New task` card:
+1. To open a **New task** card:
 
-  * If you are in the Workfront bot chat channel, type `New task`in the conversation field to create a new task.&nbsp;
+  * If you are in the Workfront bot chat channel, type **New task**in the conversation field to create a new task.&nbsp;
   * If you are in a chat channel other than the Workfront bot chat channel:
 
-    1. Start typing `@workfront`in the conversation field, then select the Workfront bot channel you want.
-    1. Continue typing  `New task`in the conversation field to create a new task.
+    1. Start typing **@workfront**in the conversation field, then select the Workfront bot channel you want.
+    1. Continue typing&nbsp;**New task**in the conversation field to create a new task.
 
        The New task card displays in the Workfront bot channel.
 
@@ -66,16 +84,16 @@ For information about installing Workfront for Microsoft Teams and logging in to
 
 1. In the Workfront bot channel, specify the following information on the New task card:
 
-  * Task name in the `Write the task's title` field.
-  * Task description in the `Write the tasks's description` field.
-  * The take the task must be completed by, in the `Due Date` field.
+  * Task name in the **Write the task's title** field.
+  * Task description in the **Write the tasks's description** field.
+  * The take the task must be completed by, in the **Due Date** field.
 
-1. Click `Save.`&nbsp;
+1. Click **Save.**&nbsp;
 
    The new personal task is created in Workfront. A Reference Number is assigned to it and visible on the new task card.
 
    For information about reference numbers, see the [Reference Numbers of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-reference-numbers-of-objects) section in the [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) article.
 
-1. (Optional) Click `Edit` to edit the task information further.
-1. (Optional) Click `View in Workfront` to open the task in a new tab in Workfront and edit the task further, move it to a project, or assign it to someone else.&nbsp;
+1. (Optional) Click **Edit** to edit the task information further.
+1. (Optional) Click **View in Workfront** to open the task in a new tab in Workfront and edit the task further, move it to a project, or assign it to someone else.&nbsp;
 

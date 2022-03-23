@@ -39,6 +39,12 @@ You must have the following access to perform the steps in this article:
 
 ## Set individual reviewer deadlines
 
+1. Hover over the proof, then click **Proof details** to open the Proof details page.
+1. On the **Proof details** page, under **Workflow**, click **New stage**
+
+1. ![New_Stage_button.png](assets/new-stage-button.png)
+
+1. If you do not see the new stage option, you must covert the workflow to an automated workflow first. 
 1. Add information for the stage,&nbsp;particularly the reviewer's name and the deadline you want for the reviewer.
 1. Repeat the two previous steps as needed to add any other reviewers who need their own deadline.
 

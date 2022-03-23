@@ -42,7 +42,7 @@ When you share an object with a group, all members of that group (including memb
 
 When you are creating or editing one of the following Workfront objects, you can associate it with a group:
 
-* `Project`: You can associate a single group with a project in order to indicate ownership of the project.
+* **Project**: You can associate a single group with a project in order to indicate ownership of the project.
 
   This does not implicitly grant each member of the group rights to the project. In order to have rights to the project users must receive rights by sharing the project with them.
 
@@ -50,7 +50,7 @@ When you are creating or editing one of the following Workfront objects, you can
 
   For instructions on associating a project with a group, see [Manage information in the project Overview area](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
-* `Portfolio, program, or company`: When you are creating or editing a portfolio, program, or company, you can assign a single group to it to indicate that the group owns or has responsibility for it. With this association made, administrators and users can easily identify which portfolios, programs, and companies their groups are working on.
+* **Portfolio, program, or company**: When you are creating or editing a portfolio, program, or company, you can assign a single group to it to indicate that the group owns or has responsibility for it. With this association made, administrators and users can easily identify which portfolios, programs, and companies their groups are working on.
 
   For example, a group administrator can list all of the portfolios in the organization using a list or report and note in the Group column which portfolios are assigned his or her group.
 
@@ -60,14 +60,14 @@ When you are creating or editing one of the following Workfront objects, you can
 
   For instructions, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md), [Create a program](../../../manage-work/portfolios/create-and-manage-programs/create-program.md), and [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-* `Approval Process`: You can make an approval process available for projects, tasks, and issues belonging to a certain group. For more information, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-* `Milestone Path`: You can allow users in certain groups to use a milestone path with their projects. For more information, see [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-* `Layout Template`: You can give a group's administrators permission to modify a Layout Template. For instructions, see Create and manage layout templates.
-* `Timesheet Profile`: You can give a group's administrators permission to modify a timesheet profile. For more information, see [Create, edit, and assign timesheet profiles](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* **Approval Process**: You can make an approval process available for projects, tasks, and issues belonging to a certain group. For more information, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+* **Milestone Path**: You can allow users in certain groups to use a milestone path with their projects. For more information, see [Create a milestone path](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* **Layout Template**: You can give a group's administrators permission to modify a Layout Template. For instructions, see Create and manage layout templates.
+* **Timesheet Profile**: You can give a group's administrators permission to modify a timesheet profile. For more information, see [Create, edit, and assign timesheet profiles](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-* `Schedules`: You can give a group's administrators permission to modify a schedule. For more information, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-* `Teams`: You can associate a group with a team so that the administrators of the groups and its subgroups can view and work with those teams from the Groups area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) or [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
-* `Template`: You can assign a group to a project template. This can help you streamline the project creation process and to help you more easily identify and report on which groups own which project templates. For more information, see the section [Overview](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#overview) in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+* **Schedules**: You can give a group's administrators permission to modify a schedule. For more information, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* **Teams**: You can associate a group with a team so that the administrators of the groups and its subgroups can view and work with those teams from the Groups area. For more information, see [Create a team](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md) or [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
+* **Template**: You can assign a group to a project template. This can help you streamline the project creation process and to help you more easily identify and report on which groups own which project templates. For more information, see the section [Overview](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#overview) in the article [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-* `Recently deleted and restored items`: You can view and manage the groups recently deleted items. For more information, see View and manage a group's recently deleted items and View and manage a group's recently restored items.
+* **Recently deleted and restored items**: You can view and manage the groups recently deleted items. For more information, see View and manage a group's recently deleted items and View and manage a group's recently restored items.
 

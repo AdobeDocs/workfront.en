@@ -46,7 +46,7 @@ For additional information about access to Workfront Goals, see Access needed to
 ## Grant user access to Workfront Goals using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the option to the right of `Goals` that you want to use for this access level.
+1. Click the option to the right of **Goals** that you want to use for this access level.
 
    ![](assets/edit-access-level-goals-350x139.png)
 

@@ -27,9 +27,9 @@ You can set a proof state to lock when the final Approver makes their decision. 
    Or  
    Open the Proof details page for an existing proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. For a new proof, under `Proof settings`, select `Lock proof when all required decisions are made`.  
+1. For a new proof, under **Proof settings**, select **Lock proof when all required decisions are made**.  
    Or  
-   For an existing proof, under `Settings`, select `Lock the proof when all decisions are made`.
+   For an existing proof, under **Settings**, select **Lock the proof when all decisions are made**.
 
 For information about decisions, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
@@ -51,9 +51,9 @@ To require login for all users who review the proof:&nbsp;
    Or  
    Open the Proof details page for an existing proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. For a new proof, under `Proof settings`, select `Require login`.  
+1. For a new proof, under **Proof settings**, select **Require login**.  
    Or  
-   For an existing proof, under `Settings`, select `Login required`.
+   For an existing proof, under **Settings**, select **Login required**.
 
 ## Require Only One Decision for the Proof
 
@@ -65,9 +65,9 @@ Even if you assign the role of Approver or Reviewer and Approver to multiple peo
    Or  
    Open the Proof details page for an existing proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. For a new proof, under `Workflow`, select `Require only one decision for this stage`.  
+1. For a new proof, under **Workflow**, select **Require only one decision for this stage**.  
    Or  
-   For an existing proof, under `Settings`, select `Only one decision required`.
+   For an existing proof, under **Settings**, select **Only one decision required**.
 
 For information about decisions, see [Make a decision on a proof in the proofing viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
 
@@ -79,9 +79,9 @@ You can require an electronic signature of any reviewer who makes a decision on 
    Or  
    Open the Proof details page for an existing proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. For a new proof, under `Proof settings`, select `Require decisions to be electronically signed`.  
+1. For a new proof, under **Proof settings**, select **Require decisions to be electronically signed**.  
    Or  
-   For an existing proof, under `Settings`, select `Require decisions to be electronically signed`.
+   For an existing proof, under **Settings**, select **Require decisions to be electronically signed**.
 
 For information about decisions, see [Configure approval decision options in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 
@@ -93,9 +93,9 @@ You can keep reviewers on a proof from downloading the original file from which 
    Or  
    Open the Proof details page for an existing proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. For a new proof, under `Proof settings`, deselect `Download original file`.  
+1. For a new proof, under **Proof settings**, deselect **Download original file**.  
    Or  
-   For an existing proof, under `Settings`, select `Download of original file`.
+   For an existing proof, under **Settings**, select **Download of original file**.
 
 ## Allow Other Users to Subscribe to the Proof
 
@@ -107,11 +107,11 @@ Enabling subscription on the proof allows people who have not been added explici
 
 If Subscription has been enabled on a proof, the fields below will become active:
 
-* `Subscriber validation required` - Subscriber must click a link in an email to access a proof  
+* **Subscriber validation required** - Subscriber must click a link in an email to access a proof  
   Selecting this option means that the person subscribing will not get immediate access to the proof, but will get a link to the proof in an email. The purpose of subscriber validation is to ensure that the person has entered a correct email address to which they have access.
 
-* `Default role for new subscribers -` This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.
-* `Default email alert for new subscribers`&nbsp;- This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.
+* **Default role for new subscribers -** This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.
+* **Default email alert for new subscribers**&nbsp;- This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.
 
 See also&nbsp; [Subscribe to a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
 
@@ -121,7 +121,7 @@ To allow other users to subscribe to a proof:
    Or  
    Open the Proof details page for an existing proof, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-1. For a new proof, under `Proof settings`, deselect `Subscribe to proof via public URL or embed code`.  
+1. For a new proof, under **Proof settings**, deselect **Subscribe to proof via public URL or embed code**.  
    Or  
-   For an existing proof, under `Settings`, select `Subscription`.
+   For an existing proof, under **Settings**, select **Subscription**.
 

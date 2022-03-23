@@ -11,9 +11,9 @@ description: As a group administrator, you can configure and then lock a project
 
 As a group administrator, you can configure and then lock a project, task, or issue preference if a Workfront administrator has unlocked it at the system level.
 
-Locking a project, task, or issue preference that you have configured at thegroup level ensures that everyonein your group and in its subgroups is using the same setting for that preference. Though you can still reconfigure a preference that you lockfor your group, group administrators can’t reconfigure it for subgroupson lower levels.
+Locking a project, task, or issue preference that you have configured at the```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  group</MadCap:conditionalText>``` level ensures that everyone```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  in your group and in its subgroups</MadCap:conditionalText>``` is using the same setting for that preference. Though you can still reconfigure a preference that you lock```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  for your group</MadCap:conditionalText>```, group administrators can’t reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> sub</MadCap:conditionalText>```groups```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  on lower levels</MadCap:conditionalText>```.
 
-Conversely, unlocking a group’sproject, task, or issue preference allows subgroup administrators more flexibility to manage the way their groups work with those items. When a grouppreference is unlocked, group administratorsof lower subgroups can reconfigure it for those subgroups.
+Conversely, unlocking a ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> group’s </MadCap:conditionalText>```project, task, or issue preference allows ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> sub</MadCap:conditionalText>```group administrators more flexibility to manage the way their groups work with those items. When a ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> group </MadCap:conditionalText>```preference is unlocked, group administrators```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups">  of lower subgroups</MadCap:conditionalText>``` can reconfigure it for ```<MadCap:conditionalText data-mc-conditions="SnippetConditions-wf-groups.groups"> those subgroups</MadCap:conditionalText>```.
 
 This is parallel to the ability that a Workfront administrator has to lock or unlock a preference for everyone in the system.
 
@@ -54,19 +54,19 @@ You must have the following to perform the steps in this article:
 
 ## Lock or unlock a group project, task, or issue preference
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Groups`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Groups**.
 1. Click the name of the group where you want to lock or unlock a project preference.
-1. In the left panel, click `Project Preferences` or `Tasks & Issues Preferences`.
+1. In the left panel, click **Project Preferences** or **Tasks & Issues Preferences**.
 
 1. On the page that appears, do any of the following for a preference that is unlocked at the system level or for a group above your group:
 
-  * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
-  * If you want all groups below yours to use your configuration for a preference, make sure that it is locked ![](assets/lock-toggle-button.png).
+   * If you want administrators of groups below your group to be able to configure a preference for their groups, unlock it ![](assets/unlock-toggle-button.png).
+   * If you want all groups below yours to use your configuration for a preference, make sure that it is locked ![](assets/lock-toggle-button.png).
 
-    >[!IMPORTANT]
-    >
-    >It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators in lower subgroups might have made.
+     >[!IMPORTANT]
+     >
+     >It's important to communicate with the administrators and users in groups below yours to ensure that all needs are accounted for in the way you configure a locked preference. When you lock it, your configuration for it is inherited by any subgroups below. And if the preference has been unlocked for any period of time, your configuration replaces those that group administrators in lower subgroups might have made.
 
-1. Click `Save`.
+1. Click **Save**.
 

@@ -21,9 +21,9 @@ You must have the following to perform the steps in this article:
   <tr> 
    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
    <td> <p>[Request, Review, Work, Plan] or higher</p> <!--
-     You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> <!--
-     You must be a group administrator. For more information on group administrators, see Group administrators.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -61,7 +61,7 @@ Before you begin, you must
      </tr> 
      <tr> 
       <td role="rowheader">Type</td> 
-      <td>Select <span class="bold">Snowflake</span> for the type.</td> 
+      <td>Select <strong>Snowflake</strong> for the type.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Connection string</td> 

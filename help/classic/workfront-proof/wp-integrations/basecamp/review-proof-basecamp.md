@@ -55,12 +55,12 @@ When you receive an email notification about a new proof added to your Basecamp 
 1. ![Basecamp_messages_1.png](assets/basecamp-messages-1-350x129.png)
 
 1. If you are logged in to your Workfront Proof account in one of your browsers windows, you can start reviewing right away. If you cannot see your name in bottom left corner of miniproof:
-1. Click `Sign In` (5).
+1. Click **Sign In** (5).
 1. Type your email address (which was used to add you to the proof) (6).
-1. Click `Next` and in a second box that appears, type your Workfront Proof password (7).  
+1. Click **Next** and in a second box that appears, type your Workfront Proof password (7).  
    If you don't have a Workfront Proof account, type a public name to display.
 
-1. Click `Remember me` so you only have to input your details once.  
+1. Click **Remember me** so you only have to input your details once.  
    Now you're ready to proceed with reviewing the proof in Basecamp.
 
 ## Reviewing a Proof in Basecamp

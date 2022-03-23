@@ -23,14 +23,14 @@ The following sections describe where you can access the scheduling area within 
 
 You can schedule resources in the following areas in Workfront:
 
-* `For any projects for which you are the resource manager (from the Scheduling` tab `)`  
+* **For any projects for which you are the resource manager (from the Scheduling** **tab****)** 
   The Scheduling area in Workfront enables resource managers to make resourcing assignments across multiple projects.  
 
 * **For an individual project when you are a member of the project team (from the Staffing ** tab** of a project)**:
 
-  The Scheduling subtab under the Staffing tabwithin a project enables members of the project team to assign work from the project to users on the project team.
+  The Scheduling subtab under the Staffing tab within a project enables members of the project team to assign work from the project to users on the project team.
 
-* `For an individual team you are a member of (from the Working On tab in the team)`   
+* **For an individual team you are a member of (from the Working On tab in the team)** 
   The Working On tab in a team enables team members to assign work already assigned to the team from multiple projects to individual team members.
 
 ## Functionality available in the Scheduling area
@@ -46,9 +46,9 @@ The scheduling area displays tasks and issues and current resourcing assignments
 
 ### Filter and Swap tools
 
-`Filter tool:` Enables you to filter the content that is displayed on the scheduling timeline. For more information about using the Filter tool, see [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
+**Filter tool:** Enables you to filter the content that is displayed on the scheduling timeline. For more information about using the Filter tool, see [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
-`Swap tool:` (Available only when scheduling resources for projects from the Scheduling tab or Staffing tab) Enables you to quickly assign, swap, or unassign users to tasks across multiple projects. For more information, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
+**Swap tool:** (Available only when scheduling resources for projects from the Scheduling tab or Staffing tab) Enables you to quickly assign, swap, or unassign users to tasks across multiple projects. For more information, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md).
 
 ### Date selection
 
@@ -56,27 +56,27 @@ You can adjust the date range for which data is displayed on the scheduling time
 
 ### Unassigned area
 
-`When scheduling resources as the resource manager (from the Scheduling tab):`
+**When scheduling resources as the resource manager (from the Scheduling tab):**
 
-The `Unassigned` area on the scheduling timeline displays only those tasks and issues that meet all the following criteria:
+The **Unassigned** area on the scheduling timeline displays only those tasks and issues that meet all the following criteria:
 
 * Not assigned to a user.
 * Not assigned to a team.  
-  If the task or issue is assigned to a team, it is still displayed in the `Unassigned` area if the task or issue is also assigned to a role in addition to the team assignment.  
+  If the task or issue is assigned to a team, it is still displayed in the **Unassigned** area if the task or issue is also assigned to a role in addition to the team assignment.  
   If tasks or issues have additional job role assignments that are not being fulfilled by a user, they are also displayed.  
   For example, a task is assigned to 3 job roles: Designer, Product Manager, and Developer. You assign this task to User A who has a Designer job role, and to User B who has a Product Manager job role. In this scenario, the task is still visible in the Unassigned area on the scheduling timeline, because the Developer job role is not assigned to a user.
 
-` `When scheduling resources as a member of the project team (from the Staffing tab in a project)`:`
+```**When scheduling resources as a member of the project team (from the Staffing tab in a project)**:```
 
-The `Unassigned` area at the top of the scheduling timeline displays tasks and issues that meet the following criteria:
+The **Unassigned** area at the top of the scheduling timeline displays tasks and issues that meet the following criteria:
 
 * Associated with the project but not assigned to any users on the project team.   
   Tasks that are associated with the project and are assigned to a user on the project team are displayed in the row of the user to whom the tasks are assigned. 
 * Associated with the project but assigned to a member who is not on the project team.
 
-`When scheduling resources as a team member (from the Working On tab):`
+**When scheduling resources as a team member (from the Working On tab):**
 
-The `Unassigned` area at the top of the scheduling timeline displays tasks and issues that meet the following criteria:
+The **Unassigned** area at the top of the scheduling timeline displays tasks and issues that meet the following criteria:
 
 * Assigned to the team and to no other users on the team.   
   Tasks that are assigned both to the team and to a user on the team are displayed in the row of the user to whom the tasks are assigned. 
@@ -84,16 +84,16 @@ The `Unassigned` area at the top of the scheduling timeline displays tasks and i
 
 ### Users and Roles
 
-`When scheduling resources as the resource manager (from the Scheduling tab):`
+**When scheduling resources as the resource manager (from the Scheduling tab):**
 
-Any users who are eligible to be assigned one of the unassigned tasks are located below the `Unassigned` area. Users are available on the scheduling timeline to be assigned a task or issue in the following circumstances:
+Any users who are eligible to be assigned one of the unassigned tasks are located below the **Unassigned** area. Users are available on the scheduling timeline to be assigned a task or issue in the following circumstances:
 
-* By default, users are displayed on the scheduling timeline only when they have a job role defined in the system (either the primary job role or a secondary job role), and that job role matches the job role assigned to a task or issue that is currently visible in the `Unassigned` area on the scheduling timeline. You can disable this functionality so to allow tasks and issues to be assigned to any user, regardless of whether that user has a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them. For more information, see the section [By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them.](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md#allowing-assignmennts-to-users-regardless-of-role) in the article [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md).  
+* By default, users are displayed on the scheduling timeline only when they have a job role defined in the system (either the primary job role or a secondary job role), and that job role matches the job role assigned to a task or issue that is currently visible in the **Unassigned** area on the scheduling timeline. You can disable this functionality so to allow tasks and issues to be assigned to any user, regardless of whether that user has a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them. For more information, see the section [By default, assignments can be made only to users who have a role defined on their user profile that matches the role assignment of the task or issue that is being assigned to them.](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md#allowing-assignmennts-to-users-regardless-of-role) in the article [Allow user assignments regardless of role and group membership in the Scheduling areas](../../resource-mgmt/resource-scheduling/assignments-regardless-of-role-or-group-scheduling-areas.md).  
   A user and the user's assigned tasks can appear multiple times on the scheduling timeline if the user has multiple job roles designated in the Workfront system.  
   Users remain on the scheduling timeline after they are assigned a task or issue, even if there are no remaining tasks or issues that have a matching role assignment. This allows you to make any necessary changes after they are assigned.  
   If the task is not assigned to a job role, all users that meet the filter requirements are displayed. For more information about the filter, see [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).
 
-* They have been designated in the `Users` field in the `Filter` tab.   
+* They have been designated in the **Users** field in the **Filter** tab.   
   For more information about the filter, see [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md).  
   When scheduling resources for a team (on the Working On tab), the team assignment is also shown.
 
@@ -101,16 +101,16 @@ Any other tasks or issues assigned to those users are also displayed on the time
 
 You can see the level in which users are allocated on a given day, as described in [Manage user allocations in the Scheduling areas](../../resource-mgmt/resource-scheduling/manage-allocations-scheduling-areas.md). Tasks that you do not have at least Contribute permissions display as a gray bar on the scheduling timeline.
 
-`When scheduling resources as a member of the project team (from the Staffing tab in a project):`
+**When scheduling resources as a member of the project team (from the Staffing tab in a project):**
 
 Each member of the team is always displayed on the scheduling timeline, regardless of the job role assignments of the users and the role assignments of the tasks in the Unassigned area.
 
 If a user has multiple job roles defined in the system, the user appears multiple times on the scheduling timeline when either of the following criteria are met:
 
-* There are tasks or issues displayed in the `Unassigned` area that are assigned to the job roles that are associated with the user.
+* There are tasks or issues displayed in the **Unassigned** area that are assigned to the job roles that are associated with the user.
 * There are tasks or issues on the project that have assigned job roles, and those tasks or issues are assigned to a user who has that job role defined in the system.
 
-`When scheduling resources as a team member (from the Working On tab):`
+**When scheduling resources as a team member (from the Working On tab):**
 
 Each member of the team is always displayed on the scheduling timeline, regardless of the job role assignments of the users and the role assignments of the tasks in the Unassigned area.
 
@@ -118,24 +118,24 @@ You can see the level in which users are allocated on a given day, as described 
 
 ### Scheduling timeline
 
-`Default content:` By default, all tasks that meet the requirements defined in the section [Task and issue prerequisites](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#task-and-issue-prerequisites) in the [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md) article on all projects with the status of Current are displayed on the scheduling timeline.
+**Default content:** By default, all tasks that meet the requirements defined in the section [Task and issue prerequisites](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md#task-and-issue-prerequisites) in the [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md) article on all projects with the status of Current are displayed on the scheduling timeline.
 
 To customize what is displayed on the scheduling timeline, including showing issues and projects with a different status, use the filter, as described in [Filter information in the Scheduling area](../../resource-mgmt/resource-scheduling/filter-scheduling-area.md)
 
 A maximum of 10 tasks per day are displayed for a given user. You can expand the list to view all tasks currently assigned to that user.
 
-`Parent tasks:` Whether parent tasks are displayed on the timeline depends on several settings. For more information, see the section "Configure whether parent tasks are displayed on the scheduling timeline" in the [Configure settings in the Scheduling areas](../../resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md) article.
+**Parent tasks:** Whether parent tasks are displayed on the timeline depends on several settings. For more information, see the section "Configure whether parent tasks are displayed on the scheduling timeline" in the [Configure settings in the Scheduling areas](../../resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md) article.
 
-`Color-coding:` Tasks and issues on the scheduling timeline are color-coded according to the project they belong to. You cannot customize the color that is associated with a specific project.
+**Color-coding:** Tasks and issues on the scheduling timeline are color-coded according to the project they belong to. You cannot customize the color that is associated with a specific project.
 
-When scheduling work for teams (from the Staffing tab), colors are used only if the `Show All User Tasks` option is enabled. For more information, seethe section "Configure whether parent tasks are displayed on the scheduling timeline" in the [Configure settings in the Scheduling areas](../../resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md) article.
+When scheduling work for teams (from the Staffing tab), colors are used only if the **Show All User Tasks** option is enabled. For more information, seethe section "Configure whether parent tasks are displayed on the scheduling timeline" in the [Configure settings in the Scheduling areas](../../resource-mgmt/resource-scheduling/configure-settings-scheduling-areas.md) article.
 
-`Task durations:` Task durations are represented on the timeline for each task (the task physically spans across the number of days equal to the duration). You cannot adjust the task duration from the scheduling timeline.
+**Task durations:** Task durations are represented on the timeline for each task (the task physically spans across the number of days equal to the duration). You cannot adjust the task duration from the scheduling timeline.
 
-`Time off:` Time off is represented on the scheduling timeline by a light gray indicator in the column on the day for which time off is scheduled for a given user.   
+**Time off:** Time off is represented on the scheduling timeline by a light gray indicator in the column on the day for which time off is scheduled for a given user.   
 Time off is configured for each user based on the following information:
 
 * The user's personal time-off calendar. For more information about the personal time-off calendar, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md). 
 * The schedule that is assigned to the user. This might be the default schedule or a custom schedule. For more information about schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-`Weekends:` Weekends are represented on the scheduling timeline as light gray shading on Saturdays and Sundays. Days of the week that are set as weekends on the scheduling timeline are not configurable. You can schedule users for work on weekends.
+**Weekends:** Weekends are represented on the scheduling timeline as light gray shading on Saturdays and Sundays. Days of the week that are set as weekends on the scheduling timeline are not configurable. You can schedule users for work on weekends.

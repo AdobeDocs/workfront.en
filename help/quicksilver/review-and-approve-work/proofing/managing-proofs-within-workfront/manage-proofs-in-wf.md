@@ -12,7 +12,14 @@ description: This section contains the following articles:
 This section contains the following articles:
 
 <!--
-Manage proofs Manage proof versions Manage proof reviewers Manage proof notifications Manage proof deadlines Manage automated proofs
+<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li> <p><a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md" class="MCXref xref" xrefformat="{para}">Manage proofs</a> </p> </li>
+<li> <p><a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md" class="MCXref xref" xrefformat="{para}">Manage proof versions</a> </p> </li>
+<li> <p><a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md" class="MCXref xref" xrefformat="{para}">Manage proof reviewers</a> </p> </li>
+<li> <p><a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md" class="MCXref xref" xrefformat="{para}">Manage proof notifications</a> </p> </li>
+<li> <p><a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md" class="MCXref xref" xrefformat="{para}">Manage proof deadlines</a> </p> </li>
+<li> <p><a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md" class="MCXref xref" xrefformat="{para}">Manage automated proofs</a> </p> </li>
+</ul>
 -->
 
 * [Share a proof within Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) 

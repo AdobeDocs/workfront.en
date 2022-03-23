@@ -4,6 +4,7 @@ product: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Align goals to other goals
 description: I created this to answer Alla's slack: https://workfront.slack.com/archives/DPUS05KFW/p1583936447000900
+hidefromtoc: true
 ---
 
 # Align goals to other goals

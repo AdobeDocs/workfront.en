@@ -6,12 +6,13 @@ product-area: workfront-integrations
 navigation-topic: mapping
 title: The mapping panel
 description: Finish this (original article)
+hidefromtoc: true
 ---
 
 # The mapping panel
 
 <!--
-Finish this (original article)
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Finish this (original article)</p>
 -->
 
 ## Star tab
@@ -26,16 +27,18 @@ Note the following about this tab:
 * 
 
   <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   You might see an example value displayed in grey next to an item.
+  </MadCap:conditionalText>
   -->
 
 * You can hover over an item to reveal additional information about it:
 
-  * A tooltip displays to tell you what type of information it represents: text, date, number, array, and so on.
+   * A tooltip displays to tell you what type of information it represents: text, date, number, array, and so on.
 
-    ![](assets/mapping-item-tooltip-350x64.png)
+     ![](assets/mapping-item-tooltip-350x64.png)
 
-  * The module that the item came from pulses at its edges in the scenario editor.
+   * The module that the item came from pulses at its edges in the scenario editor.
 
 * If the item happens to be the same color or type as another item in the list that is from a different app, you can tell what apps they are from by looking at the ID number diplayed in a grey box above the items.
 

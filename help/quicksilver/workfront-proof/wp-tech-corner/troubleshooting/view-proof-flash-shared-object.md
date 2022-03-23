@@ -39,9 +39,9 @@ Make sure that storing Flash Shared Objects is allowed on the computer and that 
 To check if the Shared Objects are allowed:
 
 1. Right click in the Workfront Proof Viewer.
-1. Select `Global Settings` from the context menu.
-1. Go to the `Storage` tab.
-1. Make sure that `Allow sites to save information on this computer` is selected (1).
+1. Select **Global Settings** from the context menu.
+1. Go to the **Storage** tab.
+1. Make sure that **Allow sites to save information on this computer** is selected (1).
 1. ![2017-06-09_1929.png](assets/2017-06-09-1929-350x267.png)
 
 ## Increasing Flash storage
@@ -50,8 +50,8 @@ By default Flash applications may store up to 100 KB of data on the user's drive
 
 1. Open a proof.
 1. Open the right-click menu on the proof.
-1. Click `Settings` to open the Flash settings pop-up.
-1. Go to the `Local` storage tab.
+1. Click **Settings** to open the Flash settings pop-up.
+1. Go to the **Local** storage tab.
 1. Increase the storage up to e.g. 100 KB (1).
 1. Close the settings pop-up and re-open the proof . &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
 

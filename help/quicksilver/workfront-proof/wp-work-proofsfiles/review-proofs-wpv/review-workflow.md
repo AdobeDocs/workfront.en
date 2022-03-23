@@ -19,21 +19,19 @@ All assigned reviewers, including users and guests, can view the Workflow panel.
 
 To access the Workflow panel:
 
-1. If the left icon menu is not displayed, click the  `Menu`icon in the upper-left corner of the proofing viewer.
+1. If the left icon menu is not displayed, click the&nbsp;**Menu**icon in the upper-left corner of the proofing viewer.
 
    ![Menu_icon_in_Proofing_Viewer.png](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. Click the  `Workflow` icon. `  
-   `
+1. Click the&nbsp;**Workflow** icon.****
 
-   ` ![Workflow_icon_in_Proofing_Viewer.png](assets/workflow-icon-in-proofing-viewer.png)  
-   `The  `Workflow`panel appears.
+   ****The&nbsp;**Workflow**panel appears.
 
    ![](assets/workflow-panel-350x115.png)
 
    Each section on the Workflow panel shows the progress and status of the proof, stages, and reviewers.
 
-  * View the overall  `Proof Status`as determined by decisions and actions made on the proof by all reviewers in every stage.
+  * View the overall&nbsp;**Proof Status**as determined by decisions and actions made on the proof by all reviewers in every stage.
 
     ![Screenshot_2018-05-01_10-23-53.png](assets/screenshot-2018-05-01-10-23-53-285x43.png)
 

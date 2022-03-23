@@ -25,7 +25,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -34,7 +38,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -50,8 +61,8 @@ You must have the following access to use the functionality in this article:
 * If the error occurs on the first module, the execution of the scenario is terminated with a warning message. Workfront Fusion then repeatedly attempts to rerun the scenario at increasing time intervals (these are explained below). If all attempts fail, Workfront Fusion deactivates the scenario.
 * If the connection error occurs on another module than the first one, the subsequent steps depend on the [Allow storing incomplete executions](../../workfront-fusion/scenarios/scenario-settings-panel.md#allow) option in the scenario advanced settings:
 
-  * If this option is enabled, the execution of the scenario is moved to the Incomplete executions folder where Workfront Fusion repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, the execution will remain in the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder awaiting manual resolution by the user.
-  * If the option is disabled, the execution of the scenario ends with an error followed by a rollback phase. Workfront Fusion then repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, Workfront Fusion deactivates the scenario.
+   * If this option is enabled, the execution of the scenario is moved to the Incomplete executions folder where Workfront Fusion repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, the execution will remain in the [View and resolve incomplete executions](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) folder awaiting manual resolution by the user.
+   * If the option is disabled, the execution of the scenario ends with an error followed by a rollback phase. Workfront Fusion then repeatedly attempts to rerun the scenario at increasing time intervals. If all attempts fail, Workfront Fusion deactivates the scenario.
 
 ### Increasing time intervals
 
@@ -65,10 +76,12 @@ The algorithm of multiplicatively increasing time intervals between attempts whe
 
 The main reason for employing the increasing time intervals in Workfront Fusion is to prevent frequently executed scenarios from consuming operations on repeatedly failing attempts.
 
-` `**Example: **`` 
+``` ```**Example: **`````` 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 Running this past Sam
+</MadCap:conditionalText>
 -->
 
 A scenario contains the Google Sheets trigger Watch Rows. Google Sheets is unavailable for 30 minutes due to maintenance when Workfront Fusion starts the scenario, so it is unable to retrieve new rows. The scenario stops and tries again in 10 minutes. As the service continues to be unavailable within this time frame, Workfront Fusion is still unable to get information about new rows. The next run of the scenario is scheduled in 1 hour. Google Sheets is available again within this time and the scenario runs successfully.
@@ -86,7 +99,7 @@ If this error occurs, the scenario, up to where the module failed, is moved to t
 If you have not enabled the Allow storing incomplete executions option in the scenario settings, the execution of the scenario terminates with the error and a rollback is performed.
 
 <!--
-Example: If your scenario contains the action Create a tweet, the Twitter's 140-character limit for a tweet cannot be exceeded. If you try to tweet more than 140 characters, the execution of the scenario will terminate with a data error.
+<p class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="autonumber"><span><b>Example: </b></span></span>If your scenario contains the action Create a tweet, the Twitter's 140-character limit for a tweet cannot be exceeded. If you try to tweet more than 140 characters, the execution of the scenario will terminate with a data error.</p>
 -->
 
 ## Duplicate Data Error
@@ -94,7 +107,7 @@ Example: If your scenario contains the action Create a tweet, the Twitter's 140-
 <pre>DuplicateDataError</pre>If Workfront Fusion tries to insert the same bundle twice into a service that does not allow duplicate data, a duplicate data error is generated. If this error occurs, Workfront Fusion proceeds in the same way as as it does for the data error.
 
 <!--
-Example: A scenario containing the action Create a tweet will terminate with this error if Workfront Fusion tries to insert the same tweet twice.
+<p class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="autonumber"><span><b>Example: </b></span></span>A scenario containing the action Create a tweet will terminate with this error if Workfront Fusion tries to insert the same tweet twice.</p>
 -->
 
 ## Invalid Access Token Error
@@ -112,7 +125,7 @@ RateLimitError
 If a limit set by a given service is exceeded, a rate limit error is generated. If this error happens, Workfront Fusion proceeds in the same way as it does for the Connection Error. For more information, see [Connection Error](#connecti) in the article [Error processing](#).
 
 <!--
-Example: You will encounter this error if you try to send more than 1000 tweets within 24 hours. If this happens, wait until the limitation resets within the time frame.
+<p class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="autonumber"><span><b>Example: </b></span></span>You will encounter this error if you try to send more than 1000 tweets within 24 hours. If this happens, wait until the limitation resets within the time frame.</p>
 -->
 
 ## Incomplete Data Error
@@ -125,7 +138,7 @@ An incomplete data error occurs only with triggers. This error is generated if a
 
 If a scenario terminates with the IncompleteDataError, its further behavior will depend on its setting of Max number of consecutive errors. For more information, see [Number of consecutive errors](../../workfront-fusion/scenarios/scenario-settings-panel.md#number) in the article [Scenario settings panel](../../workfront-fusion/scenarios/scenario-settings-panel.md).
 
-` `**Example: **``A scenario has the Workfront trigger Watch Record set to watch for documents. The scenario executes while you are uploading a large document, such as a long video. Because Workfront Fusion tries to download the video while it is still uploading to Workfront, the scenario terminates with the IncompleteDataError.
+``` ```**Example: **``````A scenario has the Workfront trigger Watch Record set to watch for documents. The scenario executes while you are uploading a large document, such as a long video. Because Workfront Fusion tries to download the video while it is still uploading to Workfront, the scenario terminates with the IncompleteDataError.
 
 ## Run time error
 

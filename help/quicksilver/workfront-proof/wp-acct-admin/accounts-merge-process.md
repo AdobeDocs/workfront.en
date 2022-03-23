@@ -5,6 +5,7 @@ product-area: documents;system-administration
 navigation-topic: account-administration
 title: Accounts merge process
 description: This document outlines the tasks involved in processing merge and split requests for the following data migrations:
+hidefromtoc: true
 ---
 
 # Accounts merge process
@@ -104,9 +105,9 @@ In step 6 above, the __________ can use the following template to analyze the or
 
 ### XXX account merge into XXX account
 
-`Date`:
+**Date**:
 
-#### `Checklist`
+#### **Checklist**
 
 * Has a power user been appointed to be the folder structure owner on destination account?
 
@@ -129,9 +130,9 @@ In step 6 above, the __________ can use the following template to analyze the or
 
   YES/NO
 
-#### `Original account - XXX`
+#### **Original account - XXX**
 
-* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX `[Tatev, can we change the spelling to the American "organization"?]`
+* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX ```[Tatev, can we change the spelling to the American "organization"?]```
 * Current plan: _______________________
 * Number of active users: _______
 * Number of deactivated users: _______
@@ -157,7 +158,7 @@ In step 6 above, the __________ can use the following template to analyze the or
 
 #### Destination account - XXX
 
-* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX `[same question as above]`
+* Proof backend ID: https://app.proofhq.com/backend.php/organisation/XXX ```[same question as above]```
 * Current plan: _______________________
 * Number of active users: _______
 * Number of deactivated users: _______

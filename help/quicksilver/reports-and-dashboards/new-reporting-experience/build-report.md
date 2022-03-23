@@ -32,15 +32,17 @@ You must have the following access to perform the steps in this article:
 Before you begin, you must enroll in the Reporting Canvas beta program.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
+</MadCap:conditionalText>
 -->
 
 ## Build a report
 
 All of your changes are saved as you build and edit the blocks in your report.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Reports`.
-1. Click `New report`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click **New report**.
 1. In the report builder that displays, type a name for your report in the upper left corner.
 
    You can edit the name at any time by clicking the **Edit** icon ![](assets/edit-icon.png) next to it.
@@ -61,26 +63,30 @@ All of your changes are saved as you build and edit the blocks in your report.
      </tr> 
      <tr> 
       <td role="rowheader">Story<!--
-        [block icon]
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+         <b>[block icon]</b>
+        </MadCap:conditionalText>
        --></td> 
       <td> <p>Add text that gives context to the information in the report.</p> <p>Important: For the Story block to work properly, you must add a table containing fields as the data source.</p> <!--
-        For more information, see [eventual link].
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see [eventual link].</p>
        --> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Embed<!--
-        [block icon]
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+         <b>[block icon]</b>
+        </MadCap:conditionalText>
        --></td> 
       <td> <p>Add an external source—such as a web page—in the report.</p> <!--
-        For more information, see [eventual link].
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see [eventual link].</p>
        --> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Page filter <!--
-        [block icon]
+        <b data-mc-conditions="QuicksilverOrClassic.Draft mode">[block icon]</b>
        --></td> 
       <td> <p>Add a filter that allows users to look at different aspects of a report. This filter applies to all data in the report.</p> <!--
-        For more information, see [eventual link].
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see [eventual link].</p>
        --> </td> 
      </tr> 
     </tbody> 
@@ -94,15 +100,15 @@ All of your changes are saved as you build and edit the blocks in your report.
     <tbody> 
      <tr> 
       <td role="rowheader">Edit a block</td> 
-      <td> <p>Click the <span class="bold">Edit</span> button on the block.</p> <p>For information on configuring a specific type of block, click the relevant link in the table above.</p> <p>Note: To edit a block that you have already configured, click the <span class="bold">Edit</span> icon <img src="assets/edit-icon.png">.</p> </td> 
+      <td> <p>Click the <strong>Edit</strong> button on the block.</p> <p>For information on configuring a specific type of block, click the relevant link in the table above.</p> <p>Note: To edit a block that you have already configured, click the <strong>Edit</strong> icon <img src="assets/edit-icon.png">.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Duplicate an existing block on the canvas</td> 
-      <td>Click the <span class="bold">More menu</span> icon <img src="assets/more-icon.png"> on the block's header, , then select <span class="bold">Copy block</span>.</td> 
+      <td>Click the <strong>More menu</strong> icon <img src="assets/more-icon.png"> on the block's header, , then select <strong>Copy block</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Remove a block from the canvas</td> 
-      <td>Click the <span class="bold">More menu</span> icon <img src="assets/more-icon.png"> on the block's header, , then select <span class="bold">Delete block</span>.</td> 
+      <td>Click the <strong>More menu</strong> icon <img src="assets/more-icon.png"> on the block's header, , then select <strong>Delete block</strong>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Reposition a block on on the canvas</td> 
@@ -111,10 +117,10 @@ All of your changes are saved as you build and edit the blocks in your report.
     </tbody> 
    </table>
 
-1. (Optional) At any time, click `Preview` in the upper-right corner to see what your report looks like.
-1. (Optional) After you finish building the report, click `Share` in the upper-right corner to give specific users access to the report.
+1. (Optional) At any time, click **Preview** in the upper-right corner to see what your report looks like.
+1. (Optional) After you finish building the report, click **Share** in the upper-right corner to give specific users access to the report.
 
    <!--
-   For more information on sharing a report, see [share report link].
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information on sharing a report, see [share report link].</p>
    -->
 

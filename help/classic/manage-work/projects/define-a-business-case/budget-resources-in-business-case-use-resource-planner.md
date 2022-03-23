@@ -72,9 +72,10 @@ Before you begin, you must do the following:
 To apply Resource Pools and budget project resources in the Business Case for a project with no Resource Pool:
 
 1. Go to the project for which you want to budget resources. 
-1. Select the Business Case sub-tab. 
-1. Click `Edit Resource Budgeting` in the `Resource Budgeting` section. 
-1. In the `Select Resource Pool` field, specify one or several `Resource Pools`.
+1. Project Details
+1. Select the **Business Case** sub-tab.  
+1. Click **Edit Resource Budgeting** in the **Resource Budgeting** section. 
+1. In the **Select Resource Pool** field, specify one or several **Resource Pools**.
 
    You must specify only Resource Pools that are populated with active users.
 
@@ -82,7 +83,7 @@ To apply Resource Pools and budget project resources in the Business Case for a 
    >
    >If the project is already associated with Resource Pools, the Resource Planner displays by default. To add more Resource Pools to the project, edit the project. For information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Click `Apply`.
+1. Click **Apply**.
 
    The Resource Planner is displayed, for the selected project.
 
@@ -98,35 +99,35 @@ To apply Resource Pools and budget project resources in the Business Case for a 
    >
    >Active users are displayed under the job roles associated with them only if they meet the following criteria:
    >
-   >  
-   >  
-   >  * They belong to one of the Resource Pools of the project. 
-   >  * They have Budgeted Hours assigned to them. 
-   >  * They are associated with one of the job roles of the project. 
-   >  
+   >   
+   >   
+   >   * They belong to one of the Resource Pools of the project. 
+   >   * They have Budgeted Hours assigned to them. 
+   >   * They are associated with one of the job roles of the project. 
+   >   
    >
 
    &nbsp;
 
-1. Click `Today` to return to today's time frame.
-1. (Optional) Click `Week`, `Month` or `Quarter` to display information for the project in different time frames.
-1. (Optional) Click the `Hours` drop-down menu, and select `Hours`, `FTE`, or `Cost` to change how information displays in the Resource Planner. Hours display by default.
+1. Click **Today** to return to today's time frame.
+1. (Optional) Click **Week**, **Month** or **Quarter** to display information for the project in different time frames.
+1. (Optional) Click the **Hours** drop-down menu, and select **Hours**,**FTE**, or **Cost** to change how information displays in the Resource Planner. Hours display by default.
 
-1. (Optional) Click `Export` to export the Resource Planner to an Excel file.
+1. (Optional) Click **Export** to export the Resource Planner to an Excel file.
 
    >[!NOTE]
    >
    >You can export data for up to 12 time periods at a time.
 
-1. (Optional) Click the `Full Screen` icon ![full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) to display the Resource Planner in full screen mode.  
+1. (Optional) Click the **Full Screen** icon ![full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png) to display the Resource Planner in full screen mode.  
 
 1. Update the **BDG** (Budgeted Hours) field with Hour, FTE, or Cost values for the users, roles, or the project by doing one of the following:
 
-  * Manually estimate the amount of Hours, FTE, or Cost values for roles, users, or the project.
+   * Manually estimate the amount of Hours, FTE, or Cost values for roles, users, or the project.
 
-    Or 
-  
-  * Click the `Options` icon for the project or the job roles and select an option to automatically budget the hours for roles, users, or the project.
+     Or 
+   
+   * Click the **Options** icon for the project or the job roles and select an option to automatically budget the hours for roles, users, or the project.
 
    For more information about budgeting in the Project View of the Resource Planner, see [Budget resources in the Resource Planner using the Project and Role views](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
@@ -134,13 +135,13 @@ To apply Resource Pools and budget project resources in the Business Case for a 
    >
    >You can budget hours, FTEs, or costs for your resources for any time frame displayed in the Resource Budgeting area, independent of the timeline of the project. For example, if you want to indicate that your resources might not be available during the timeline of the project (where they are associated with Planned Hours), but they might be available during another time, you can do so by budgeting them for time frames where the Planned Hours are zero, if that is when they become available to work.
 
-1. (Optional) To understand whether you can move the budgeted Hours, FTEs, or Costs to another time frame, click the `Options` icon, then `Adjust Budgeting Dates`.
+1. (Optional) To understand whether you can move the budgeted Hours, FTEs, or Costs to another time frame, click the **Options** icon, then **Adjust Budgeting Dates**.
 
    For more information about adjusting budgeted dates, see [Adjust budgeting dates in the Resource Planner](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 
-1. Click `Save`.
+1. Click **Save**.
 
-   If you have Cost per Hour rates associated with your job roles, budgeting the resources in the Resource Budgeting area calculates the `Budgeted Labor Cost` of the project. The Budgeted Labor Cost is displayed in the Resource Budgeting area of the Business Case and in the Business Case Summary.
+   If you have Cost per Hour rates associated with your job roles, budgeting the resources in the Resource Budgeting area calculates the **Budgeted Labor Cost** of the project. The Budgeted Labor Cost is displayed in the Resource Budgeting area of the Business Case and in the Business Case Summary.
 
    >[!TIP]
    >

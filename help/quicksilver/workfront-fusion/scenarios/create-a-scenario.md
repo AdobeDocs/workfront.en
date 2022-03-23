@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -48,16 +59,16 @@ You must have the following access to use the functionality in this article:
 
 ## Begin creating a scenario
 
-1. Click `Scenarios` ![](assets/scenarios-icon.png) in the left panel.
+1. Click **Scenarios** ![](assets/scenarios-icon.png) in the left panel.
 
-1. Click `Create a new scenario` in the upper-right corner of the page. 
-1. (Optional) Under `What services do you want to integrate`, if you are creating a new scenario, select apps you want to work with in the scenario, then click `Continue`.
+1. Click **Create a new scenario** in the upper-right corner of the page. 
+1. (Optional) Under **What services do you want to integrate**, if you are creating a new scenario, select apps you want to work with in the scenario, then click **Continue**.
 
    Or
 
-   Click `Skip` if you want to choose the apps from within the scenario editor.
+   Click **Skip** if you want to choose the apps from within the scenario editor.
 
-1. In the screen that appears (the scenario editor), if you are creating a new scenario, click `New scenario` in the upper-left corner and type a name for the scenario.
+1. In the screen that appears (the scenario editor), if you are creating a new scenario, click **New scenario** in the upper-left corner and type a name for the scenario.
 1. Continue on to [Add a module in a scenario](#add).
 
 ## Add a module in a scenario
@@ -70,9 +81,9 @@ You must have the following access to use the functionality in this article:
 
 1. In the box that displays, find and click the app or service that you want to start with.
 
-   If you selected any apps in step 2, they are displayed in the box for easy access (and in the `Favorites` section at the bottom of the screen).
+   If you selected any apps in step 2, they are displayed in the box for easy access (and in the **Favorites** section at the bottom of the screen).
 
-   If you click `Add another module`, the modules that display depend on where in the scenario you are adding the module. Some modules can be placed only in between other modules, and others only at the beginning of the scenario.
+   If you click **Add another module**, the modules that display depend on where in the scenario you are adding the module. Some modules can be placed only in between other modules, and others only at the beginning of the scenario.
 
    >[!TIP]
    >
@@ -98,25 +109,25 @@ For more information, see [About connecting Adobe Workfront Fusion to an app or 
 
 To create a connection inside a Workfront Fusion module:
 
-1. Click `Add` to open the `Create a connection` box.
-1. (Optional) Change the default `Connection name`.
+1. Click **Add** to open the **Create a connection** box.
+1. (Optional) Change the default **Connection name**.
 1. (Conditional) If the app requires advanced connection settings, such as an ID, key, or secret, enter that information.
 
-   You might need to click `Show advanced settings` to display the fields where you can enter this kind of information.
+   You might need to click **Show advanced settings** to display the fields where you can enter this kind of information.
 
-1. Click `Continue`.
+1. Click **Continue**.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
-1. (Conditional) If an `Allow` button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
+1. (Conditional) If an **Allow** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to Workfront Fusion.
 
 ## Configure the module
 
-1. In the fields below the Connection field, configure the settings for the module, then click `OK`.
+1. In the fields below the Connection field, configure the settings for the module, then click **OK**.
 
    ![](assets/conf-settigs-mod-350x547.png)
 
    These settings are different for every module. A bolded title indicates a required setting.
 
-   ` `**Tip: **`` As you work on your scenario, you can click the module to display this box of settings at any time.
+   ``` ```**Tip: **`````` As you work on your scenario, you can click the module to display this box of settings at any time.
 
    If you see a black circle on a module, you haven't finished configuring its settings. Click the module to open it and continue configuring.
 
@@ -150,11 +161,11 @@ To create a connection inside a Workfront Fusion module:
       <td role="rowheader">Set up a route</td> 
       <td> <p>Click the wrench icon <img src="assets/wrench-icon.gif"> between the two modules and use any of the following options. For more information, see <a href="../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md" class="MCXref xref">Add a filter to a scenario</a>.</p> 
        <ul> 
-        <li><span class="bold">Set up a filter</span>: Control which bundles are used at certain points in the scenario.</li> 
-        <li><span class="bold">Unlink</span>: Removes a route.</li> 
-        <li><span class="bold">Add a router</span>: Adds a router between modules. </li> 
-        <li><span class="bold">Add a module</span>: Adds a new module between modules.</li> 
-        <li><span class="bold">Add a note</span>: Adds a note to the route.</li> 
+        <li><strong>Set up a filter</strong>: Control which bundles are used at certain points in the scenario.</li> 
+        <li><strong>Unlink</strong>: Removes a route.</li> 
+        <li><strong>Add a router</strong>: Adds a router between modules. </li> 
+        <li><strong>Add a module</strong>: Adds a new module between modules.</li> 
+        <li><strong>Add a note</strong>: Adds a note to the route.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -188,7 +199,7 @@ To create a connection inside a Workfront Fusion module:
      </tr> 
      <tr> 
       <td role="rowheader">Access your most commonly used apps and services</td> 
-      <td> Click an icon in the <span class="bold">Favorites</span> section at the bottom of the screen. Icons display in this section automatically as you add apps and services to your scenario. You can also click the Add icon <img src="assets/add-icon.gif"> to add apps and services to this area manually.</td> 
+      <td> Click an icon in the <strong>Favorites</strong> section at the bottom of the screen. Icons display in this section automatically as you add apps and services to your scenario. You can also click the Add icon <img src="assets/add-icon.gif"> to add apps and services to this area manually.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">View an animation showing how data flows through the scenario</td> 
@@ -204,12 +215,12 @@ To create a connection inside a Workfront Fusion module:
      </tr> 
      <tr> 
       <td role="rowheader">Remove a module</td> 
-      <td>Right-click the module, then click <span class="bold">Delete module</span>.</td> 
+      <td>Right-click the module, then click <strong>Delete module</strong>.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. To test-run the scenario, click `Run once`.
+1. To test-run the scenario, click **Run once**.
 
    It's important to verify that the scenario runs as you expect before you activate it. Once activated, the scenario will execute according to its schedule. If everything does not run as expected, see [Error handling](../../workfront-fusion/errors/error-handling.md).
 
@@ -221,7 +232,10 @@ For information about activating a scenario, see [Activate or deactivate a scena
 
 You can use the following keyboard shortcuts when creating or editing a scenario:
 
-<table cellspacing="0">    
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <thead> 
   <tr> 
    <th> <p>Action</p> </th> 

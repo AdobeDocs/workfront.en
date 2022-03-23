@@ -42,7 +42,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -65,14 +73,14 @@ Consider the following when removing alignment between two goals:
 ## Remove goal alignment
 
 1. Go to a child goal aligned to a parent goal. 
-1. Click the goal name to open the `Goal Details` panel. 
-1. `Click the `gear icon` ![](assets/gear-icon-settings.png) next to the parent goal.`
+1. Click the goal name to open the **Goal Details** panel. 
+1. ```Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal.```
 
    ![](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
-1. (Optional) Click `Undo` in the lower-left corner of the screen if you want to revert this change and keep the goals aligned. 
+1. (Optional) Click **Undo** in the lower-left corner of the screen if you want to revert this change and keep the goals aligned. 
 1. (Optional)&nbsp;Add activities and results to either goals to indicate their progress. For information about adding activities and results, see the following articles:
 
   * [Add activities to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md) 

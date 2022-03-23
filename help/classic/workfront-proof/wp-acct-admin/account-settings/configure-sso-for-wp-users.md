@@ -45,27 +45,27 @@ Workfront Proof requires the user's email address as their unique identifier, wh
 
 To configure SSO:
 
-1. Open the `Single Sign-On` tab (1).
-1. Enter the `SSO URL` (2).  
-   This is the link to your SSO server (for example, `https://sso.mycompany.com/opensso`).
+1. Open the **Single Sign-On** tab (1).
+1. Enter the **SSO URL** (2).  
+   This is the link to your SSO server (for example, **https://sso.mycompany.com/opensso**).
 
-1. Enter the `Login URL` (3).  
+1. Enter the **Login URL** (3).  
    This is the URL that will be invoked to redirect the users to your Identity Provider.  
 
 1. This is not an actual URL you enter in the browser, but rather an endpoint which will process the information we send it in order to present the Login screen.
 
-Enter the `Logout URL` (4).  
+Enter the **Logout URL** (4).  
 This is the URL you will be returned to after you log out,&nbsp;for example
 
-`https://www.yourcompany.com/services/logout.asp`
+**https://www.yourcompany.com/services/logout.asp**
 
-1. Enter the `Certificate fingerprint` (5).
+1. Enter the **Certificate fingerprint** (5).
 1. The SHA1 fingerprint of the SAML certificate provided by your SAML Identity Provider.  
 1. Make sure to include the Key Info by setting this on your Identity Provider.
-1. Switch `SSO` to `Enabled` (6).  
-   Once SSO is enabled, you and other users on your account will log in using your own authentication mechanism. What this means is that when the users accesses your Workfront Proof account login screen (for example, `yourcompany.proofhq.com/login`), they will be prompted with the transfer window to your own authentication login page.
+1. Switch **SSO** to **Enabled** (6).  
+   Once SSO is enabled, you and other users on your account will log in using your own authentication mechanism. What this means is that when the users accesses your Workfront Proof account login screen (for example, **yourcompany.proofhq.com/login**), they will be prompted with the transfer window to your own authentication login page.
 
-1. (Optional) Enable `Automatically provision users`&nbsp;(7).  
+1. (Optional) Enable **Automatically provision users**&nbsp;(7).  
    Once this option is enabled the user accounts will be automatically created for people who do not have their own Workfront Proof profiles, but will access your Workfront Proof account using their Single Sign-On credentials. This will be actioned only when the user limit is not yet reached on your account.  
 
 1. New provisioned users will have the Manager profile permissions assigned by default. If you need more information, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
@@ -78,31 +78,31 @@ When you have satellite accounts connected to your hub account, you can administ
 
 Single Sign-On is a Select and Premium feature so Single Sign-On can only be enabled on satellites that are on Select and Premium plans.&nbsp;
 
-1. Click `Settings` > `Account settings` (1).&nbsp;
+1. Click **Settings** > **Account settings** (1).&nbsp;
 
 1. Click the satellite account in the drop down menu (2).
-1. Open the `Single Sign-On` tab (3).
+1. Open the **Single Sign-On** tab (3).
 1. Start editing the SSO configuration (4).
 1. ![Enabling_SSO_-_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)   
    Here you will have two methods (5) of configuration:
 
-1. `Inherited:` SSO with the configuration taken from your hub account.  
-   If a user accesses Workfront Proof through the `default login page` ([https://www.proofhq.com/login](https://www.proofhq.com/login)) there will be `two levels of authorization`:&nbsp;First a user is asked to log in using Workfront Proof access data (email and password); then the user is transferred through an SSO window to the SSO login page.  
+1. **Inherited:** SSO with the configuration taken from your hub account.  
+   If a user accesses Workfront Proof through the **default login page** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) there will be **two levels of authorization**:&nbsp;First a user is asked to log in using Workfront Proof access data (email and password); then the user is transferred through an SSO window to the SSO login page.  
    Therefore, with SSO service enabled, we recommend to log in through your own Workfront Proof sub-domain/domain.
 
    >[!NOTE]
    >
    >At this time, when Single Sign-On is enabled on your Workfront Proof account, you will not&nbsp;be able to log in to the iPhone app with those credentials.
 
-  1. `Manual` (default): SSO with a different configuration (for example, pointing to another Identity Provider).
+   1. **Manual** (default): SSO with a different configuration (for example, pointing to another Identity Provider).
 
-     >[!NOTE]
-     >
-     >If the satellite account is inheriting the SSO configuration from the hub account, the login screen will be that of the hub account. When the satellite account user enters their SSO login details on this page, they will be re-directed back to the satellite account.
+      >[!NOTE]
+      >
+      >If the satellite account is inheriting the SSO configuration from the hub account, the login screen will be that of the hub account. When the satellite account user enters their SSO login details on this page, they will be re-directed back to the satellite account.
 
-     ![Enabling_SSO_-_Satellite_Account_2.png](assets/enabling-sso---satellite-account-2-350x224.png)
+      ![Enabling_SSO_-_Satellite_Account_2.png](assets/enabling-sso---satellite-account-2-350x224.png)
 
-  1. Click `Save` (6).
+   1. Click **Save** (6).
 
 ## SSO Settings Inherited from a Hub Account
 
@@ -117,26 +117,26 @@ In your hub account (9) the SSO Usage field shows that this configuration is in 
 
 If Manual SSO configuration has been chosen for a satellite account (1), you need to manually enter the data for the Single Sign-On.
 
-1. Click `Settings` > `Account settings` (1).&nbsp;
+1. Click **Settings** > **Account settings** (1).&nbsp;
 
-1. Open the `Single sign-on` tab.
-1. Click `Edit,` populate the field and then click `Save` (2).
+1. Open the **Single sign-on** tab.
+1. Click **Edit,** populate the field and then click **Save** (2).
 
-1. On the `SSO` row, click `Enabled` (3).
+1. On the **SSO** row, click **Enabled** (3).
 
 ![Satellite_Account_-_Manual_SSO.png](assets/satellite-account---manual-sso-350x280.png) 
 
 ## SSO Log In
 
-1. Click `Settings` > `Account settings` (1).&nbsp;
+1. Click **Settings** > **Account settings** (1).&nbsp;
 
-1. Open the `Single sign-on` tab.
+1. Open the **Single sign-on** tab.
 1. Make sure that your Workfront Proof domain/sub-domain (1) is set up and that your users access your Workfront Proof account through this customized domain/sub-domain.  
    ![SAML_Subdomain.png](assets/saml-subdomain-350x150.png)  
    With your Single Sign-On enabled, your sub-domain login URL (e.g. yourcompany.proofhq.com/login) displays a transfer screen (2) that takes you directly to your SSO login page.   
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. If a user accesses Workfront Proof through the `default log in page` ([https://www.proofhq.com/login](https://www.proofhq.com/login)) there will be `two levels of authorization`. First a user is asked to log in using Workfront Proof access data (email and password). Then, the user is transferred through an SSO window (2) to the SSO login page.  
+1. If a user accesses Workfront Proof through the **default log in page** ([https://www.proofhq.com/login](https://www.proofhq.com/login)) there will be **two levels of authorization**. First a user is asked to log in using Workfront Proof access data (email and password). Then, the user is transferred through an SSO window (2) to the SSO login page.  
    Therefore, with SSO service enabled, we recommend to log in through your own Workfront Proof sub-domain/domain. 
 
 1. At this time, when Single Sign-On is enabled on your Workfront Proof account, you will not&nbsp;be able to log in to the iPhone app with those credentials.

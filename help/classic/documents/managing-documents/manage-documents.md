@@ -16,6 +16,7 @@ This section contains the following articles:​
 * [The Documents area](../../documents/managing-documents/documents-area.md) 
 * Document Details overview
 * Summary for documents overview
+* View Document Details 
 * [Preview documents](../../documents/managing-documents/preview-documents.md) 
 * [Document approvals and proofing](../../documents/managing-documents/document-approvals-and-proofing.md) 
 * [Add an update to a document](../../documents/managing-documents/add-update-documents.md) 

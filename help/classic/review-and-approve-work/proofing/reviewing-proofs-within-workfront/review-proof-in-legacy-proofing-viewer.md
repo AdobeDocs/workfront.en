@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Reviewing a Proof in the Legacy Proofing Viewer
 description: For information about reviewing a proof in the Web Proofing Viewer, see Review a proof.
+hidefromtoc: true
 ---
 
 # Reviewing a Proof in the Legacy Proofing Viewer
@@ -24,11 +25,11 @@ The extension&nbsp;is available for the following browsers:
 * [Firefox 47+](https://addons.mozilla.org/en-US/firefox/addon/proofhq-rich-media-review/?src=cb-dl-created) 
 * [Safari 9+](https://safari-extensions.apple.com/details/?id=com.proofhq.safari.screenshot-7WEDVS2S75)
 
-The extension installation can be triggered from the Workfront Proof Viewer directly after clicking the `Add Comment` button (browser restart may be required) via the alert screen.&nbsp;
+The extension&nbsp;installation can be triggered from the Workfront Proof Viewer directly after clicking the **Add Comment** button (browser restart may be required) via the alert screen.&nbsp;
 
 ![](assets/screenshot-2016-06-06-15.57.12-350x156.png)
 
-* When viewing interactive content, you cannot use the Navigation tools (i.e. Zoom, Rotation, Measurement tool, Pan, or Fit to). However, all these functions are available in  `Add Comment` mode if&nbsp;the content is captured as a static image, as described in [Proofing Static Content](#proofing-static-content).
+* When viewing interactive&nbsp;content, you cannot use the Navigation tools&nbsp;(i.e.&nbsp;Zoom, Rotation, Measurement tool, Pan, or Fit to). However, all these functions are&nbsp;available in&nbsp;**Add Comment** mode if&nbsp;the content is captured as a static image, as described in [Proofing Static Content](#proofing-static-content).
 
 When proofing interactive URLs:
 
@@ -39,20 +40,20 @@ When proofing interactive URLs:
 
 ## Proofing Static Content
 
-1. Go to the document that contains the proof you want to review, then click `Proof`.
+1. Go to the document that contains the proof you want to review, then click **Proof**.
 
    Removing or Archiving a Proof
 
-1. Click the `Add Comment`&nbsp;button located at the top of the proofing area.&nbsp;
+1. Click the **Add Comment**&nbsp;button located at the top of the proofing area.&nbsp;
 1. A comment box and tool bar appears. Select the tool needed to highlight or mark the document&nbsp;within the proofing&nbsp;tool.  
    ![](assets/screen-shot-2016-09-08-at-3.26.37-pm-350x136.png)
 
-1. (Optional) Upload files to a comment by clicking the `Attach File` icon within the `Add Comment` box.   
+1. (Optional) Upload files to a comment by clicking the **Attach File** icon within the **Add Comment** box.   
    &nbsp; ![](assets/attach-a-file-inside-comment-proof-option.png)
 
 1. Mouse&nbsp;over the comment area where the user's name appears.
 
-   The  `Edit`and `Delete`&nbsp;options appear.
+   The&nbsp;**Edit**and**Delete**&nbsp;options appear.
 
    ![](assets/edit-and-delete-buttons-on-proof-comment-ui-350x102.png)
 
@@ -63,16 +64,16 @@ When proofing interactive URLs:
 
    Options include (in order, from the left):
 
-  * Panning or moving the image
-  * Zooming in
-  * Scaling the document to fit the screen
-  * Select percentage of zoom
-  * Fit to page
-  * Fit to width
-  * Zoom to 100%&nbsp;
-  * Zoom to 100%
-  * Rotate the document&nbsp;
-  * Measure a specific area
+   * Panning or moving the image
+   * Zooming in
+   * Scaling the document to fit the screen
+   * Select percentage of zoom
+   * Fit to page
+   * Fit to width
+   * Zoom to 100%&nbsp;
+   * Zoom to 100%
+   * Rotate the document&nbsp;
+   * Measure a specific area
 
 Any comments made on the document appear in the stream of your Workfront instance, on the Details tab of the document. Proof Comments&nbsp;are&nbsp;marked to distinguish them from document updates.
 
@@ -92,7 +93,7 @@ You can also view different versions side-by-side by clicking the compare button
 
 ![](assets/proof-comparison-screen-with-compare-icon-350x175.png)
 
-You can remove the most recent version of a proof, but previous versions cannot be deleted. Use the `Remove Proof` button in the Workfront document list to remove a proof.&nbsp;
+You can remove the most recent version of a proof, but previous versions cannot be deleted. Use the **Remove Proof** button in the Workfront document list to remove a proof.&nbsp;
 
 If you do not want additional comments made on a proof, you can lock it by selecting the lock proof icon, in the upper left corner of&nbsp;the proofing screen.
 

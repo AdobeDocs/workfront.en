@@ -36,15 +36,13 @@ You must have the following to perform the steps in this article:
 
 ## View, work with, and create companies for your group from the Groups area
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
 1. Click the name of the group for which you want to create or modify companies.
-1. In the left panel, click `Companies ![](assets/companies-icon-left-panel-group-pg.png)
-
-   ` to list the companies associated with the group and any subgroups it may have.
-1. (Optional) To add a company, click `Add Company`, then configure the company using the options listed below. When you are finished, click `Create Company`.
+1. In the left panel, click **Companies** to list the companies associated with the group and any subgroups it may have.
+1. (Optional) To add a company, click **Add Company**, then configure the company using the options listed below. When you are finished, click **Create Company**.
 
    <table cellspacing="0"> 
     <col> 
@@ -61,7 +59,7 @@ You must have the following to perform the steps in this article:
           <li>Only in their primary company</li> 
           <li> <p>In their associated company and the primary company<br></p> <p>For information about the primary company functionality within users' access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> <p>You can have only one or no company designated as a primary company, but you cannot have multiple companies designated as primary companies. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </li> 
          </ul> </li> 
-        <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> The system fills in the Group field for the new company with the group you are viewing. If you have administrative access to companies in your access level, you can remove the group from the company and assign a different one, or leave the company without a group. If you don’t have administrative access to companies, the Group field is required and you can select only the groups you manage or any subgroups under those groups. For information about administrative access to companies, see Grant users administrative access to certain areas. </li> 
+        <li> <p><b>Group</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">The system fills in the <strong>Group</strong> field for the new company with the group you are viewing.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">If you have administrative access to companies in your access level, you can remove the group from the company and assign a different one, or leave the company without a group.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">If you don’t have administrative access to companies, the <strong>Group</strong> field is required and you can select only the groups you manage or any subgroups under those groups.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">For information about administrative access to companies, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p> </li> 
         <li> <p><b>Company Members</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
        </ul> </td> 
      </tr> 
@@ -84,10 +82,13 @@ You must have the following to perform the steps in this article:
 
    For information about editing a company, see the section [Create or edit a company in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) in the article [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) To export the list of companies, click `Export`
+1. (Optional) To export the list of companies, click **Export**
 
    <!--
-
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   <strong></strong>
+   <img src="assets/export.png">
+   </MadCap:conditionalText>
    -->
 
    , then select the file format you want for the exported list.

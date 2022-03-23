@@ -41,12 +41,22 @@ You must have the following access to perform the steps in this article:
 
 ## Create a program
 
-1. Specify the name for the Program in the `Untitled Program` field.
+1. Projects
+1. Click **Portfolios**, and click a portfolio. 
+1. Programs
+1. Add Program
+1. New Program
+1. 
+1. 
+1. 
+1. Specify the name for the Program in the **Untitled Program** field.
 
    The name can contain up to 255 characters.
 
-1. Select the Program Details tab and ensure that Overview is selected. 
-1. Click Edit Overview, then specify an of the following information:  
+1. Select the **Program Details** tab and ensure that **Overview** is selected.  
+
+1. Click **Edit Overview**, then specify an of the following information:   ![](assets/program-with-is-active-350x290.png)
+
 1. Specify the following information:
 
    <table cellspacing="0"> 
@@ -58,7 +68,9 @@ You must have the following access to perform the steps in this article:
       <th>Description</th> 
      </tr> 
     </thead> 
-    <tbody> Name Specify or edit the name of the program. 
+    <tbody>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Name</td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Specify or edit the name of the program.</td>  
      <tr> 
       <td role="rowheader">Description</td> 
       <td> <p>Specify a description for the program.</p> <p>The description is displayed on the landing page of the program.</p> </td> 
@@ -66,12 +78,19 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Program Manager</td> 
       <td> <p>Begin typing the name of the user who you want to act as the Program Manager, then click the user's name when it appears in the drop-down list. This is the same as the Program Owner. </p> </td> 
-     </tr> Group Add the name of a single group if the group owns the program or has responsibility for completing it. Is Active Select this check box if you want the program to be active. Other users can find the program and attach it to projects when creating or editing projects. Inactive programs cannot be attached to projects or included in portfolios. This is enabled by default. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Group </td> 
+      <td> <p>Add the name of a single group if the group owns the program or has responsibility for completing it. </p> </td> 
+     </tr>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">Is Active</td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Select this check box if you want the program to be active. Other users can find the program and attach it to projects when creating or editing projects. Inactive programs cannot be attached to projects or included in portfolios. This is enabled by default.</td>  
     </tbody> 
    </table>
 
+1. Save
 1. (Optional) Double-click any field to update information on the custom form. 
-1. Select the Projects tab and add projects to the program.
+1. Select the **Projects** tab and add projects to the program.
 
    For information about adding projects to programs, see [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
@@ -80,7 +99,7 @@ You must have the following access to perform the steps in this article:
 You can find limited information about the program in its header.
 
 The following information displays in the header of a program:
-Header information Notes Breadcrumb with the name of the portfolio You can access the Portfolio from the header of the Program. Program icon The icon displays to the left of the name of the program. Name of the program You can edit the program name in the header. Active Projects Condition Shows the percentage of projects that are On Target, At Risk, or In Trouble. Mouse over each increment to understand the average percentage of how many projects are in each condition. The projects represented here are projects with a status of Current and Approved. Planned Completion The date when the last project in the program is scheduled to complete. The projects represented here are projects with a status of Current and Approved. Percent Complete You cannot edit the percent complete of the program in the header. The percent complete of the program is an average of the percent complete of the projects in the program. The projects represented here are projects with a status of Current, Planning, and Approved. Program Actions menu Expand the menu to do one of the following to the program: Delete it. Deleting the program does not delete the projects in the program. It removes the association of the projects with the program. Share it Add it to your list of Favorites 
+```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">``` ```<col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">``` ```<tbody>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" style="font-weight: bold;" role="rowheader">Header information</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray" style="font-weight: bold;">Notes </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Breadcrumb with the name of the portfolio</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">You can access the Portfolio from the header of the Program. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p>Program icon</p> <p> <img src="assets/program-icon-classic.png"> </p> </td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray"> <p>The icon displays to the left of the name of the program. </p> </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Name of the program</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">You can edit the program name in the header.</td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader"> <p>Active Projects Condition</p> <p> <img src="assets/active-projects-condition-icon-on-program-classic-350x110.png" style="width: 350;height: 110;"> </p> </td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Shows the percentage of projects that are On Target, At Risk, or In Trouble. Mouse over each increment to understand the average percentage of how many projects are in each condition. The projects represented here are projects with a status of Current and Approved. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">Planned Completion</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">The date when the last project in the program is scheduled to complete. The projects represented here are projects with a status of Current and Approved.</td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">Percent Complete</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">You cannot edit the percent complete of the program in the header. The percent complete of the program is an average of the percent complete of the projects in the program. The projects represented here are projects with a status of Current, Planning, and Approved. </td>  </tr>  <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">   <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">Program Actions menu</td>   <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray"> <p>Expand the menu to do one of the following to the program:</p>    <ul>     <li> <p>Delete it. Deleting the program does not delete the projects in the program. It removes the association of the projects with the program. </p> </li>     <li>Share it</li>     <li>Add it to your list of Favorites</li>    </ul> </td>  </tr> </tbody>```  
 
 ##
 

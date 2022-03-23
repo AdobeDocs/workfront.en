@@ -16,15 +16,15 @@ The Workfront copy of the document is not linked to the copy in Workfront Librar
 To learn how to send a document from Workfront Library to Workfront, see [Add a Workfront Library asset to Workfront](../../workfront-library/content-management/add-a-wf-library-asset.md).
 
 1. In Workfront, navigate to the document you want to send to Workfront Library.
-1. Select the document, then click the `More` drop-down arrow.
-1. Select `Send to` > `Workfront Library`.
-1. In the Send to Workfront Library dialog box, select either `My Content` or `Library`. The folder structure of the selected area displays. You can only send the document directly to the Library area, the My Content area, or to a folder that resides within one of these areas.
+1. Select the document, then click the **More** drop-down arrow.
+1. Select **Send to** > **Workfront Library**.
+1. In the Send to Workfront Library dialog box, select either **My Content** or **Library**. The folder structure of the selected area displays. You can only send the document directly to the Library area, the My Content area, or to a folder that resides within one of these areas.
 1. (Optional) To place the document in a folder, open the desired folder.
-1. Click `Next.`
+1. Click **Next.**
 
    The Metadata panel for the document displays. Depending on how your metadata taxonomy is set up, some of the metadata fields might be prepopulated with metadata from Workfront, for example, the project name.
 
-1. Enter the metadata for the document, then click `Send`.
+1. Enter the metadata for the document, then click **Send**.
 
    A copy of the document is sent to Workfront Library.
 

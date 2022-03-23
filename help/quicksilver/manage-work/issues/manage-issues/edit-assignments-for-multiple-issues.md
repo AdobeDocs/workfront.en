@@ -49,7 +49,15 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
-When to modify user assignments on issues You might want to modify the user assignments for multiple issues for a variety of reasons, including the following: Users join or leave your team A user takes a vacation that extends beyond the issue due dates A specific role or user is set as the assignee for multiple issues and you want to quickly modify all items to be assigned to a different user or role
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="When"></a>When to modify user assignments on issues</h2>
+<p>You might want to modify the user assignments for multiple issues for a variety of&nbsp;reasons, including the following:</p>
+<ul>
+<li>Users join or leave&nbsp;your team</li>
+<li>A user takes a vacation that extends beyond the issue&nbsp;due dates</li>
+<li>A specific role or user is set as the assignee for multiple issues and you want to quickly modify all items to be assigned to a different user or role</li>
+</ul>
+</div>
 -->
 
 ## Modify assignments for multiple issues
@@ -59,27 +67,28 @@ When to modify user assignments on issues You might want to modify the user assi
 
    For example, you can create a filter to display only issues with a specific role as the assignee.&nbsp;Then, you can&nbsp;replace the role with a specific user. Do the following:
 
-  1. Click the `Filter` drop-down list, then click `New Filter`.
+  1. Click the **Filter**&nbsp;drop-down list, then click **New Filter**.
 
      The New Filter dialog box displays. 
   
-  1. Click `Add a Filter Rule.`
-  1. To filter for a specific role, expand `Assignment Roles,` then click `ID.`
+  1. Click **Add a Filter Rule.**
+  1. To filter for a specific role, expand **Assignment Roles,**&nbsp;then click **ID.**
 
      Or
 
-     To filter for a specific user, expand `Assignment Users,` then click `ID.`
+     To filter for a specific user, expand **Assignment Users,**&nbsp;then click **ID.**
 
      >[!TIP]
      >
-     >Do not use `Assigned to`&nbsp;because this field refers only to the Issue Owner and not to all assignees.
+     >Do not use **Assigned to**&nbsp;because this field refers only to the Issue Owner and not to all assignees.
 
-  1. In the drop-down list, select `Equal` as the filter qualifier.
+  1. In the drop-down list, select **Equal** as the filter qualifier.
   1. Begin typing the name of the user or role that you want to filter for, then click the name when it appears in the drop-down list.
-  1. Click `Save Filter.`
+  1. Click **Save Filter.**
 
-1. Select the issues for which you want to modify assignments, then click the Edit icon . The `Edit Issues` displays. The items that are edited display in the upper-left corner of the page.
-1. Go to the `Assignments` section, then select `Assignee`.
+1. Select the issues for which you want to modify assignments, then click the **Edit** icon ![](assets/qs-edit-icon.png).  The **Edit Issues** displays. The items that are edited display in the upper-left corner of the page.
+
+1. Go to the **Assignments** section, then select **Assignee**.
 
    ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
@@ -89,35 +98,35 @@ When to modify user assignments on issues You might want to modify the user assi
 
     1. Start typing the name of a user, role, or team, then select it when it displays in the list. The assignment is added and does not replace the current assignments on the selected issues. 
     
-       ` `**Tip: **``You can assign multiple users or job roles, and you can assign only one team. `You can assign only active users, `job roles`, and teams.`
+       ``` ```**Tip: **``````You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
 
-       `If a user, `job role`, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:`
+       ```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
 
-      * `Reassign the work item to active resources.`
-      * `Associate the users in a deactivated team with an active team and reassign the work item to the active team.`
+      * ```Reassign the work item to active resources.```
+      * ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
 
-       Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the `Assignee`&nbsp;column. If information is not common across the issues selected, no information displays.
+       Information that is common across all issues selected displays. For example, if the same user is assigned to all issues, that user displays in the **Assignee**&nbsp;column. If information is not common across the issues selected, no information displays.
 
   1. To remove individual assignees:
 
-    1. Click the `X icon` next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
+    1. Click the **X icon** next to the name of the assignee that you want to remove if the assignee displays in the Assignments list.
 
        Or
 
-       (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click `Remove Assignee` and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
+       (Conditional) If the assignee that you want to remove does not display in the Assignments section because the assignee is assigned to only some of the issues that you have selected, click **Remove Assignee** and start typing the name of the assignee that you want to remove, then click the name when it appears in the drop-down list.
     
-    1. Click  `Remove Assignee` again to add another assignee to remove.
+    1. Click&nbsp;**Remove Assignee** again to add another assignee to remove.
 
   1. To remove all existing assignees:
 
-    1. Click `Remove All Existing Assignees`, then click `Yes, Delete All Assignees`.
+    1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
 
        This removes not only common assignees (assignees that are displayed in the edit&nbsp;dialog box), but also all assignees on all the selected issues.
 
 1. (Optional) Modify any of the following options for the assignees you selected to associate with the issues:
 
-  * `Issue Owner:`&nbsp;Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
-  * `Assignee's Role`: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
+  * **Issue Owner:**&nbsp;Select the radio button to indicate which assignee is designated as the Issues Owner. If left unselected, Adobe Workfront designates the first assignee as the Issue Owner. This is not available for team assignments. 
+  * **Assignee's Role**: Select a role from the drop-down list. If left unselected, Workfront automatically selects the Primary Role of the user.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

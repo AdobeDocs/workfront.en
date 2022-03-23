@@ -49,11 +49,25 @@ The numbered icon in the upper-right corner of Workfront displays the number of 
 >You can view all in-app notifications both from the web application and the mobile&nbsp;application. Only some of these notifications are sent as push notifications in the mobile application. For more information about notifications in the mobile app, see [Adobe Workfront for iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) or [Adobe Workfront for Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-   Depending on the types of messages available, the color of this number varies: Blue indicates that you have unread announcement messages. You might also have other unread work notifications in addition to unread announcement messages. Orange indicates that there are no announcement messages but you have other unread notifications. Gray indicates that there are no announcement messages or notifications. When you click the numbered icon, your most recent unread notifications appear below it, with the most recent at the top.  Up to 50 notifications display. You can do the following to view more: Scroll to the bottom of the list and click Show More.You can view up to 2,000 notifications here. They are automatically deleted after 30 days. To view all of your notifications, click the Notifications heading, or click View All Notifications. 
+   Depending on the types of messages available, the color of this number varies: 
+
+   Blue indicates that you have unread announcement messages.
+
+   You might also have other unread&nbsp;work notifications in addition to unread announcement messages.
+   Orange indicates that there are no announcement messages but you have other unread notifications.  
+   Gray indicates that there&nbsp;are no announcement messages or notifications.
+
+   When you click the numbered icon, your most recent unread notifications appear below it, with the most recent at the top.  ![](assets/notifications-list-350x467.png)  Up to 50 notifications display. You can do the following to view more:  ```<li>Scroll to the bottom of the list and click <strong>Show More</strong>.You can view up to 2,000 notifications here. They are automatically deleted after 30 days.</li>``` ```<li> <p>To view all of your notifications, click the <strong>Notifications</strong>&nbsp;heading, or click <strong>View All Notifications</strong>.</p> <p> <img src="assets/notification-dropdown-350x342.png" alt="" style="width: 350;height: 342;"> </p> </li>```  
+
 1. Click the notification that you want to view:
 
-  * If the notification you click is about a work item, the associated Workfront object opens, showing the full message on the `Updates` tab. You can `Start a new update area` or type a Reply.
-  * If the notification you click is for an announcement, the `Announcements` page appears, listing all of your announcements. The announcement you clicked is selected on the left and the message is displayed on the right.
+   * If the notification you click is about a work item, the associated Workfront object opens, showing the full message on the **Updates** tab.&nbsp;You can **Start a new update area** or type a **Reply**.
+   
+     ![](assets/object-opens-click-work-ntfctn-350x156.png)
+
+   * If the notification you click is for an announcement, the **Announcements** page appears, listing all of your announcements. The announcement you clicked is selected on the left and the message is displayed on the right.
+   
+     ![](assets/announcements-page-350x163.png)
 
 1. (Optional) Download any attachments included in the notification message, or download all attachments as a ZIP file.
 
@@ -77,16 +91,22 @@ To acknowledge a notification&nbsp;and clear it&nbsp;from the Notifications list
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
 1. Do one of the following:
 
-  * Click the blue dot in the upper-left corner of the notification.
-  * If the notification is for a work item (rather than for an announcement), click the notification to go to the item.
-  * If the notification is for an announcement, click the notification to open the `Announcements` page.
+   * Click the blue dot in the upper-left corner of the notification.
+   * If the notification is for a work item (rather than for an announcement), click the notification to go to the item.
+   * If the notification is for an announcement, click the notification to open the **Announcements** page.
+   * Mark all as seen
 
-### `View acknowledged notifications`
+### **View acknowledged notifications**
 
 To view notifications that you have already acknowledged:
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-1. On the `Notifications` page that appears, scroll down to view your past notifications.
+1. Notifications
+1. or  
+1. Click **View All Notifications**&nbsp;in the lower-right of the Notifications list.  
+
+1. The Notifications page is displayed.
+1. On the **Notifications** page that appears, scroll down to view your past notifications.
 1. (Optional) To bring an acknowledged notification back to your list of notifications, click the blue circle next to the notification.
 
 ## Delete an announcement notification
@@ -101,19 +121,19 @@ However, you can delete an announcement notifications. You can also access an an
 ### Delete an announcement
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-1. Click `Announcements` or `View All Announcements`.
+1. Click **Announcements**&nbsp;or **View All Announcements**.
 
-1. On the `Announcements` page that appears, click the announcement you want to delete in the list on the left, then click `Delete` in the upper-right corner of the page.
+1. On the **Announcements** page that appears, click the announcement you want to delete in the list on the left, then click **Delete** in the upper-right corner of the page.
 
 ### Access and restore an announcement you deleted recently
 
 You can access a notification that you deleted within the past 30 days.
 
 1. Click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the upper-right corner of Workfront to open your list of notifications.
-1. Click `Announcements` or `View All Announcements`.
+1. Click **Announcements**&nbsp;or **View All Announcements**.
 
-1. In the `Announcements` page that displays, click `Deleted`.
+1. In the **Announcements** page that displays, click **Deleted**.
 
 1. Click the message that you want to view.
-1. (Optional) If you want to restore the announcement, click `Move to Inbox` above and to the right of the body of the announcement.
+1. (Optional) If you want to restore the announcement, click **Move to Inbox** above and to the right of the body of the announcement.
 

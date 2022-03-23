@@ -24,7 +24,7 @@ Objects are linked to one another in Workfront. For example, a task or an issue 
 
 The following are some of the most commonly used objects in Workfront and their respective parent and children objects:
 
-| `Object`  | `Parent objects`  | `Child objects`  |
+| **Object** |**Parent objects** |**Child objects** |
 |---|---|---|
 | Portfolios |  |Programs, Projects, Documents, Notes, Users |
 | Programs |Portfolios |Projects, Documents, Notes, Users |
@@ -40,7 +40,7 @@ The following are some of the most commonly used objects in Workfront and their 
 | Documents |Tasks, Issues, Projects, Portfolios, Programs, Users |  |
 
 For a complete list of objects in Workfront, see the [API Explorer](../../../wf-api/general/api-explorer.md).
-&#42; Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see The Adobe Workfront Scenario Planner overview. &#42; Goals are the objects of Workfront Goals. For information about Workfront Goals, see Adobe Workfront Goals overview. 
+&#42; Plans are the objects of the Workfront Scenario Planner. For information about the Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). &#42;&nbsp;Goals are the objects of Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).  
 
 ## Customize object names
 
@@ -71,6 +71,8 @@ As a Workfront administrator, you can customize the names of the following objec
 * Project
 * Task
 * Issue
+* Activity&#42;
+* &#42;Goals, results, and activities are only available if your company purchased Workfront Goals.&nbsp;For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
 For example, if the larger amount of work in your organization is known as a 'Campaign', you can replace the name 'Project' with 'Campaign'. Your Workfront interface shows 'Campaign' instead of 'Project' everywhere where the name 'Project' would appear.
 
@@ -99,31 +101,31 @@ The following areas show the updated name of the objects:
 The following areas do not show the updated name of the objects:
 
   <!--
-  Legacy Gantt
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Legacy Gantt</li>
   -->
 
   <!--
-  Resource Estimates
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates</li>
   -->
 
   <!--
-  Resource Budget Manager
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Budget Manager</li>
   -->
 
   <!--
-  Capacity Planner
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Capacity Planner</li>
   -->
 
   <!--
-  Resource Grid
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Grid</li>
   -->
 
   <!--
-  Team Builder
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Team Builder</li>
   -->
 
   <!--
-  Portfolio Optimizer
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Portfolio Optimizer</li>
   -->
 
 * Referenced Object Type selection for a Typeahead field in a Custom Form
@@ -152,22 +154,44 @@ For more information about which objects can have customized names in Workfront,
 
 The following is a list of objects and their corresponding icons in Workfront.
 
-| `Object`  | `Icon`  | `Customizable object ame`  |
+| **Object** |**Icon** |**Customizable object ame** |
 |---|---|---|
-| Company |  ,  |  |
-| Dashboard |  ,  |  |
-| Group |  ,  |  |
-| Issue |  ,  |✔ |
+| Company |  , ![](assets/nwe-company-icon-54x54.png)
+
+|  |
+| Dashboard |  , ![](assets/nwe-dashboards-icon.png)
+
+|  |
+| Group |  , ![](assets/nwe-group-icon.png)
+
+|  |
+| Issue |  , ![](assets/nwe-issues-icon.png)
+
+|✔ |
 | Job Role | ![job_role_icon.png](assets/job-role-icon-52x50.png), ![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png)
 
 |  |
-| Portfolio |  ,  |✔ |
-| Program |  ,  |✔ |
-| Project |  ,  |✔ |
-| Report | ,  |  |
-| Task |  ,  |✔ |
-| Team | , ![](assets/team-icon-nwe-color.png), |  |
-| Template |  ,  |  |
+| Portfolio |  , ![](assets/nwe-portfolios-icon.png)
+
+|✔ |
+| Program |  , ![](assets/nwe-programs-icon.png)
+
+|✔ |
+| Project |  , ![](assets/nwe-projects-icon.png)
+
+|✔ |
+| Report | , ![](assets/nwe-reports-icon.png)
+
+|  |
+| Task |  , ![](assets/nwe-tasks-icon.png)
+
+|✔ |
+| Team | , ![](assets/team-icon-nwe-color.png), ![](assets/nwe-teams-icon.png)
+
+|  |
+| Template |  , ![](assets/nwe-templates-icon.png)
+
+|  |
 
 ## Reference Numbers of objects
 
@@ -181,7 +205,7 @@ You can search across all the objects that are searchable in Workfront, or you c
 
 Not all objects are searchable in Workfront. You can run basic and advanced searches for the following objects in Workfront:
 
-| `Object`  | `Basic Search`  | `Advanced Search`  |
+| **Object** |**Basic Search** |**Advanced Search** |
 |---|---|---|
 | Projects |✓ | ✓ |
 | Tasks |✓ | ✓ |
@@ -264,13 +288,13 @@ You can report on the following objects when using the report builder in the Wor
 * Group
 * Grouping
 * Hour Type
-* `Initiative`
+* ```Initiative```
 
-  `You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see` [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience).
+  ```You can build a report for initiatives which are the children objects of a plan only if your company has purchased a Workfront Scenario Planner license. For information about initiatives, see``` [Initiatives overview in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2066&pubname=the-new-workfront-experience).
 
-* `Initiative Job Role`
+* ```Initiative Job Role```
 
-  `You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see` [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience).
+  ```You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a Workfront Scenario Planner license. For information about creating initiatives and associating them with job roles, see``` [Create and edit initiatives in the Workfront Scenario Planner](https://one.workfront.com/s/csh?context=2061&pubname=the-new-workfront-experience).
 
 * Iteration
 * Job Role
@@ -281,7 +305,10 @@ You can report on the following objects when using the report builder in the Wor
 * Layout Template
 
   <!--
-  Legacy Resource Pool Note: This report captures information about an area in Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about the current resource pools, see Resource pools overview in Adobe Workfront.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Legacy Resource Pool</p> <note type="note">
+  This report captures information about an area in&nbsp;Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about the current resource pools, see
+  <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview in Adobe Workfront</a>.
+  </note> </li>
   -->
 
 * Milestone
@@ -315,7 +342,10 @@ You can report on the following objects when using the report builder in the Wor
 * Report
 
   <!--
-  Resource Estimate Note: This report captures information about an area in Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see Resource Planner overview.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Resource Estimate</p> <note type="note">
+  This report captures information about an area in&nbsp;Workfront that has been removed. The report might display legacy information but it does not update with current data. Although not recommended, you may update the information in this report using the API. For information about how you estimate resources for projects, see
+  <a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.
+  </note> </li>
   -->
 
 * Resource Pool

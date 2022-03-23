@@ -29,7 +29,15 @@ You must have the following:
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -44,7 +52,7 @@ You must have the following:
 * You cannot import more than 100 projects at a time. 
 * Some project information is also imported into the plan and becomes initiative information. For information about what project information is imported into the plan and becomes initiative information, see the [Project information imported into the plan](#project) section in this article. 
 * Changes that occur on the linked projects do not affect the initiatives on the plan. 
-* Changes that occur on the initiatives on the plan do not automatically affect the linked projects `Initiative changes affect the linked projects only when you publish the initiative from the plan.` `For information about how publishing initiatives affects the linked projects, see` ` [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)`. 
+* Changes that occur on the initiatives on the plan do not automatically affect the linked projects ```Initiative changes affect the linked projects only when you publish the initiative from the plan.``` ```For information about how publishing initiatives affects the linked projects, see``` ``` [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)```. 
 
 * Deleting an initiative that has been created by importing a project does not delete the project. 
 * Deleting a project linked to an initiative does not delete the initiative.
@@ -104,13 +112,13 @@ When you import a project into a plan some project information is also imported 
 >* Changes to the project never affect the initiative after you import the project into the plan.These changes include changes to the job role allocations. 
 >* Changes to the initiative affect the information in the Scenario Planner area on the project only when you publish the initiative to the corresponding project. Otherwise, they do not affect the Planned Hours information for the tasks and issues of the project. 
 >
->  `For information about how publishing initiatives affects the linked projects, see` ` [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)`. 
+>  ```For information about how publishing initiatives affects the linked projects, see``` ``` [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md)```. 
 >
 
-1. Click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click&nbsp;Scenarios to access the Scenario Planner. 
+1. Click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click&nbsp;Scenarios to access the Scenario Planner. 
 
 1. Click the name of a plan where you want to import projects. 
-1. Click `New Initiative`, then click `Import Projects`.
+1. Click **New Initiative**, then click **Import Projects**.
 
    The Import Projects box displays. Projects that have dates included in the time frame of your plan display in a list.
 
@@ -120,12 +128,12 @@ When you import a project into a plan some project information is also imported 
    >
    >Projects in any status display in the list.
 
-1. (Optional) Click the `Filter icon` ![](assets/filter-nwepng.png)and select an available filter from the list to reduce the amount of projects on your list. By default, the list of projects is filtered by the user's currently selected project filter in a list of projects. 
+1. (Optional)&nbsp;Click the **Filter icon** ![](assets/filter-nwepng.png)and select an available filter from the list to reduce the amount of projects on your list. By default, the list of projects is filtered by the user's currently selected project filter in a list of projects. 
 
-1. (Optional) Click the `Search icon` ![](assets/search-icon.png) and add a keyword displayed on any field on the screen. The items containing the search word display in the list automatically and all items are hidden. 
+1. (Optional) Click the **Search icon** ![](assets/search-icon.png) and add a keyword displayed on any field on the screen. The items containing the search word display in the list automatically and all items are hidden. 
 
-1. (Conditional) Click the `X icon` to remove the search and display all projects. 
-1. Select up to 100 projects and click `Import`.
+1. (Conditional)&nbsp;Click the **X icon** to remove the search and display all projects. 
+1. Select up to 100 projects and click **Import**.
 
    The projects are imported as new initiatives.
 
@@ -146,7 +154,7 @@ When you import a project into a plan some project information is also imported 
 
    ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
-   In the `Initiative Duration` area review the following information: 
+   In the **Initiative Duration** area review the following information: 
 
    <table cellspacing="0"> 
     <col> 
@@ -170,13 +178,13 @@ When you import a project into a plan some project information is also imported 
 1. Edit the name of the initiative. By default, it matches the name of the project. 
 1. (Optional) Do one of the following:
 
-  * Update job roles in the `Required Job Roles` section
-  * Update the `Fixed Costs` in the `Costs` section
+  * Update job roles in the **Required Job Roles** section
+  * Update the **Fixed Costs** in the **Costs** section
   
-  * Click `Update available job roles` or `Update available budget` to resolve conflicts between the new initiative and other initiatives on the plan.
+  * Click **Update available job roles** or **Update available budget** to resolve conflicts between the new initiative and other initiatives on the plan.
 
-1. (Conditional) Click `Apply` to save changes to your initiative. 
-1. Click  `Save Plan` to save the changes to your plan. 
+1. (Conditional) Click **Apply** to save changes to your initiative. 
+1. Click&nbsp;**Save Plan** to save the changes to your plan. 
 1. (Optional) To update the changes you make to the initiative back to the project it was imported from, publish the project from the plan.&nbsp;For information about publishing plans, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md). 
 1. (Optional) Click the project icon to access the linked project.
 

@@ -48,16 +48,20 @@ You must have the following access to perform the steps in this article:
 ## Create an interactive proof for a website or other web content
 
 1. Go to the project, task, or issue where you want to create a new website proof or a new version of an existing one.
-1. Click `Documents` in the left panel.
-1. (Conditional) If you are creating a new proof, click `Add New`, then click `Proof` in the menu that appears.
+1. Click **Documents** in the left panel.
+1. (Conditional) If you are creating a new proof, click **Add New**, then click **Proof** in the menu that appears.
 
-1. (Conditional) On the `New proof` page appears, if you are creating a new version of an existing proof:
+1. (Conditional) On the **New proof** page appears, if you are creating a new version of an existing proof:
 
   1. Hover over the URL proof for which you want to create a new version, then select it by clicking in the light blue background surrounding it.
 
      ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
-1. In the `Add files` section, type the URL of the website you want to proof, then press `Enter`.
+  1. Add new
+  1. Version
+  1. Proof
+
+1. In the **Add files** section, type the URL of the website you want to proof, then press **Enter**.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
@@ -67,14 +71,14 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/click-url-350x137.png)
 
-1. (Optional) If you want to change the name of the proof from the website URL to something else, type a `Proof name`.
-1. Select `Interactive`, then click `Done`.
+1. (Optional) If you want to change the name of the proof from the website URL to something else, type a **Proof name**.
+1. Select **Interactive**, then click **Done**.
 
    >[!NOTE]
    >
    >If you are adding a new version to an existing URL proof, any options that were configured on the original proof or previous version are maintained in this version.
 
-1. Click `Create proof` to create a simple proof with no review process.  
+1. Click **Create proof** to create a simple proof with no review process.  
    or  
    Continue by configuring an advanced proof:
 

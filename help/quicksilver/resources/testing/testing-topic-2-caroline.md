@@ -15,7 +15,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>[Any, Pro, Business, Enterprise] <!--
-      Any?
+      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Any?</span>
      --></p> </td> 
   </tr> 
   <tr> 
@@ -47,11 +47,11 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 
    ![](assets/instances-350x232.png)
 
-   ` `**Tip: **`` Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
+   ``` ```**Tip: **`````` Your Preview instance, the second link in the list, is a testing environment that replicates your live Production environment. For more information, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
    You might also see links to sandbox environments in the list. For more information, see [The Adobe Workfront Preview Sandbox Environment](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-1. In the list that displays, with the `Product Profiles` tab selected, click the name of the Workfront Product Profile link.
+1. In the list that displays, with the **Product Profiles** tab selected, click the name of the Workfront Product Profile link.
 
    ![](assets/prod-profile-350x127.png)
 
@@ -67,7 +67,7 @@ Before using the Admin Console for Workfront, you should receive a receive an em
 ## Create users in Workfront
 
 1. Go to the user and admin area in the Admin Console, as described in [Access the user and admin area for your Production instance of Workfront](#access) in this article.
-1. With the `Users`tab selected above the list, select **Add User**.
+1. With the **Users**tab selected above the list, select **Add User**.
 1. In the **Add users to this product profile** box, enter the email address or name of a user you want to add, then select **Save**.
 
    The user is created in Workfront with the Requestor access level. For instructions on how a Workfront administrator can change the user's access level, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -94,7 +94,7 @@ You must add a user to your Production instance of Workfront before you can make
 * Workfront System Administrators can deactivate a Workfront user from within Workfront, but this does not deactivate the user in the Admin Console.
 
   <!--
-  For information about deactivating a user in Workfront, see
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about deactivating a user in Workfront, see </p>
   -->
 
 * The user **Home Group** is determined based on the user who created them. This is currently not customizable from within the Admin Console.

@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## View a calendar report
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Calendars.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Calendars**.
 
    Depending on your access level, you might see the following calendars listed:
 
@@ -55,13 +55,13 @@ You must have the following access to perform the steps in this article:
   * Calendars that other users have shared with you  
     To learn about sharing calendars, see [Share a calendar report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
-1. (Conditional) Click the `View` drop-down, then select the calendar duration you want to view.  
+1. (Conditional) Click the **View** drop-down, then select the calendar duration you want to view.  
    ![View_menu_Calendar_report.png](assets/view-menu-calendar-report-350x189.png)  
    You can choose from the following calendar report views:
 
-  * `Month`: Displays four weeks of the calendar
-  * `Week`: Displays one week of the calendar
-  * `Gantt`: Displays a continuous view of the calendar  
+  * **Month**: Displays four weeks of the calendar
+  * **Week**: Displays one week of the calendar
+  * **Gantt**: Displays a continuous view of the calendar  
     ![Gantt_calendar_report.png](assets/gantt-calendar-report-350x141.png)  
     You can see more events in a Gantt view by scrolling down or sideways. A loading symbol appears as data is populated for the view.
 
@@ -69,17 +69,17 @@ You must have the following access to perform the steps in this article:
 
   * To include or exclude weekends:
 
-    1. On the `Calendar` toolbar, click  `Calendar Actions`, then from the drop-down list select either `Show Weekend` or `Hide Weekend`.
+    1. On the **Calendar** toolbar, click&nbsp;**Calendar Actions**, then from the drop-down list select either **Show Weekend** or **Hide Weekend**.
 
   * To quickly change the dates displayed:
 
-    1. On the `Calendar` toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.  
+    1. On the **Calendar** toolbar, click the left arrow of the date indicator to move back in the calendar or the right arrow to move forward.  
        ![click_arrows_the_change_dates_calendar_report.png](assets/click-arrows-the-change-dates-calendar-report-350x50.png)  
        The dates displayed are adjusted by an interval based your current calendar view.&nbsp;For example, if you are viewing the calendar in the Week view, the calendar displays either one week forward or one week back, depending on the arrow you select.
     
-    1. (Optional) To return to the current day, click `Today`.
+    1. (Optional) To return to the current day, click **Today**.
 
-1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the `Calendar`&nbsp;toolbar.  
+1. (Optional) To view a calendar in full-screen, click the full-screen arrows on the right-hand side of the **Calendar**&nbsp;toolbar.  
    ![click_arrows_to_change_dates_calendar_report.png](assets/click-arrows-to-change-dates-calendar-report-350x50.png)  
    Press Esc to return to the normal view of the calendar.
 

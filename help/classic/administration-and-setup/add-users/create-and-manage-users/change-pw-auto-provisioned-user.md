@@ -66,15 +66,19 @@ You must have the following to perform the steps in this article:
 
    https://<your domain>.my.workfront.com/login/convertUsername
 
-1. In the `Your login email address` box, verify that user's email address is correct, then click `Update Account`.
+1. In the **Your login email address** box, verify that user's email address is correct, then click **Update Account**.
 
    ![](assets/guidusername-350x272.png)
 
    The user's user name is changed to their Workfront email address.
 
-` `**Tip: **`` To find a user's ID:
+``` ```**Tip: **`````` To find a user's ID:
 
+1. People
+1. People
 1. Select the user.
 
    The user's profile page opens and their user ID displays in the URL.
+
+   ![](assets/userid-350x75.png)
 

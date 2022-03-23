@@ -47,29 +47,29 @@ Consider the following when editing tasks in a list:
 
 * Unlike needing Manage permissions to the task when editing it in the Edit Box, you can edit a task in a list only with Contribute permissions to the task. This allows you to edit the following limited information for the task:
 
-  * Description
-  * Status
-  * Percent Complete
-  * Custom&nbsp;Form information
+   * Description
+   * Status
+   * Percent Complete
+   * Custom&nbsp;Form information
 
-    >[!NOTE]
-    >
-    >You can edit a task custom field in a list only if you have permissions to update the field.
+     >[!NOTE]
+     >
+     >You can edit a task custom field in a list only if you have permissions to update the field.
 
-  * Log hours
-  * Modify Assignments
-  * View finance information 
-  * Add expenses, tasks, or issues
+   * Log hours
+   * Modify Assignments
+   * View finance information 
+   * Add expenses, tasks, or issues
 
 * You can edit a task in the following lists:
 
-  * The Tasks tab of the project
-  * The Subtasks tab of the project
-  * A task report
+   * The Tasks  tab  of the project
+   * The Subtasks  tab  of the project
+   * A task report
 
-    >[!NOTE]
-    >
-    >By default, Workfront automatically saves your changes to tasks in the Subtasks tabor in a task report.
+     >[!NOTE]
+     >
+     >By default, Workfront automatically saves your changes to tasks in the Subtasks  tab or in a task report.
 
 * You can control when Workfront saves the changes you make to the tasks in a list. Your changes can be saved automatically or you can manually save them.
 
@@ -109,18 +109,22 @@ Consider the following when saving your task list changes automatically:
 
 To edit tasks in a list and save changes automatically:
 
-1. Go to the project, then click the `Tasks` tab.
+1. Go to the project, then click the **Tasks** tab .
+1. Ensure that **Autosave** is selected in the upper-right corner of the task list. This is the default.
+
+   ![](assets/autosave-setting-enabled-classic-task-list-350x196.png)
+
 1. Edit any field that you have permissions to update manually.
 
    ![](assets/inline-editing-a-task-350x26.png)
 
-1. (Optional) Press `Escape` to cancel your changes.
+1. (Optional) Press **Escape** to cancel your changes.
 1. Press Enter to save your changes to the tasks and to the project timeline. 
 1. (Optional) Right click a task you want to modify.
 
    Or
 
-   Click the `More` menu ![](assets/more-icon-task-list.png) to the right of the task name. 
+   Click the **More** menu ![](assets/more-icon-task-list.png) to the right of the task name. 
 
 1. (Optional) Select from the following options:
 
@@ -129,12 +133,12 @@ To edit tasks in a list and save changes automatically:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Open in a new tab</span></td> 
+      <td role="rowheader"><strong>Open in a new tab</strong></td> 
       <td>Opens the task in a new browser tab. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Edit</span></td> 
-      <td><p>Opens the <span class="bold">Edit Task</span> box, where you can edit the task.</p><p>For information about editing a task, see <a href="#top" class="MCXref xref">Edit tasks in a list</a>.</p></td> 
+      <td role="rowheader"><strong>Edit</strong></td> 
+      <td><p>Opens the <strong>Edit Task</strong> box, where you can edit the task.</p><p>For information about editing a task, see <a href="#top" class="MCXref xref">Edit tasks in a list</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Delete</td> 
@@ -177,9 +181,9 @@ To edit tasks in a list and save changes automatically:
 
 You can manually save changes you make to tasks in a list. When you save changes this way, you have the flexibility to reverse them before saving. 
 
-` `**Tips: **``
+``` ```**Tips: **``````
 
-* You cannot reverse changes you make to tasks in a list when you are editing them in the Subtasks tab or in a task report.
+* You cannot reverse changes you make to tasks in a list when you are editing them in the Subtasks  tab  or in a task report.
 * There are no limitations on how many changes you can reverse. You can reverse all of them one by one until you reach the original state of the tasks.
 
 Consider the following when saving changes in a task list manually:
@@ -191,7 +195,8 @@ Consider the following when saving changes in a task list manually:
 
 There are two ways to manually save changes to tasks in a list. These two ways are described below.
 
-* Save changes in a task list manually when you select the Manual save option
+* [Save changes in a task list manually when you select the Manual save option](#save2)  
+* Save changes in a task list manually when you select the Timeline Planning option
 
 Save changes in a task list manually when you select the Manual save option 
 
@@ -206,21 +211,32 @@ Consider the following when updating tasks in a list after selecting the Manual 
 
 To edit tasks in a list when selecting the Manual save option:
 
-1. Go to a project, then click the `Tasks` tab.
-1. Select Manual save in the upper-right corner of the task list. Note: When you navigate away from this page, Workfront selects the Autosave option again. A toolbar setting displays with options to undo, redo, and save your changes. 
+1. Go to a project, then click the **Tasks** tab .
+1. Select **Manual save** in the upper-right corner of the task list.
+
+   >[!NOTE]
+   >
+   >When you navigate away from this page, Workfront selects the Autosave option again.
+
+   ![](assets/manual-save-setting-enabled-classic-task-list-350x188.png)
+
+   A toolbar setting displays with options to undo, redo, and save your changes.
+
+   ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+
 1. Click inside any field that you have permissions to update manually. The field becomes editable and you can make your changes.
 
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. Press Enter to temporarily save the changes you made.
-1. (Optional) Click the `Undo icon` ![](assets/undo-icon-on-task-list.png) to reverse a change and return a field to its original state.
-1. (Optional and conditional) Click the `Redo icon` ![](assets/redo-icon-on-task-list.png) to restore the change you reversed. 
+1. (Optional) Click the **Undo icon** ![](assets/undo-icon-on-task-list.png) to reverse a change and return a field to its original state.
+1. (Optional and conditional) Click the **Redo icon** ![](assets/redo-icon-on-task-list.png) to restore the change you reversed. 
 
 1. (Optional) Right-click a task you want to modify.
 
    Or
 
-   Click the `More` menu ![](assets/more-icon-task-list.png). 
+   Click the **More** menu ![](assets/more-icon-task-list.png). 
 
 1. (Optional) Select from the following options:
 
@@ -229,7 +245,7 @@ To edit tasks in a list when selecting the Manual save option:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Open in a new tab</span> </td> 
+      <td role="rowheader"><strong>Open in a new tab</strong> </td> 
       <td>Opens the task in a new browser tab. </td> 
      </tr> 
      <tr> 
@@ -260,7 +276,7 @@ To edit tasks in a list when selecting the Manual save option:
    </table>
 
 1. Workfront updates all in-project and cross-project dependencies when you make changes to the timeline of tasks. 
-1. Click `Save` when you want to keep your task changes permanently and save the timeline of the project.
+1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
 Save changes in a task list manually when you select the Timeline Planning option Saving your changes and all the project dependencies is faster. This is not available for projects with more than 2000 tasks.
 
@@ -277,8 +293,12 @@ Consider the following when using the Timeline Planning option in a task list:
 
 To edit tasks in a list when using the Timeline Planning option:
 
-1. Go to a project, then click the `Tasks` tab. 
-1. Select Timeline Planning in the upper-right corner of the task list. This option is dimmed for projects with more than 2000 tasks. 
+1. Go to a project, then click the **Tasks** tab . 
+1. Select **Timeline Planning** in the upper-right corner of the task list.
+
+   This option is dimmed for projects with more than 2000 tasks.
+
+   ![](assets/timeline-planning-enabled-classic-task-list-350x200.png)
 
    >[!TIP]
    >
@@ -286,37 +306,37 @@ To edit tasks in a list when using the Timeline Planning option:
 
    Notice the following changes in the list:
 
-  * The View, Grouping, and Filter drop-down menus are removed and the view is replaced by the following fields:
+   * The View, Grouping, and Filter drop-down menus are removed and the view is replaced by the following fields:
 
-    * Task Number
-    * Task Name
-    * Constraint Type
-    * Duration
-    * Planned Start Date
-    * Planned Completion Date
-    * Predecessors
-    * Assignments
-    * Status
-    * Percent Complete
+      * Task Number
+      * Task Name
+      * Constraint Type
+      * Duration
+      * Planned Start Date
+      * Planned Completion Date
+      * Predecessors
+      * Assignments
+      * Status
+      * Percent Complete
 
-  * The Agile view icon is removed. 
-  * A toolbar setting displays with options to undo, redo, and save your changes.
+   * The Agile view icon is removed. 
+   * A toolbar setting displays with options to undo, redo, and save your changes.
 
-    ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
+     ![](assets/undo,-redo,-save,-and-cancel-widget-for-task-list-350x65.png)
 
 1. Edit any field that you have permissions to update manually.
 
    ![](assets/inline-editing-a-task-350x26.png)
 
 1. Press Enter to temporarily save the changes you made.
-1. (Optional) Click the `Undo icon` ![](assets/undo-icon-on-task-list.png) to reverse a change and return a field to its original state.
-1. (Optional and conditional) Click the `Redo icon` ![](assets/redo-icon-on-task-list.png) to reinstate the change you reversed. 
+1. (Optional) Click the **Undo icon** ![](assets/undo-icon-on-task-list.png) to reverse a change and return a field to its original state.
+1. (Optional and conditional) Click the **Redo icon** ![](assets/redo-icon-on-task-list.png) to reinstate the change you reversed. 
 
 1. (Optional) Right click a task you want to modify
 
    Or
 
-   Click the `More` menu ![](assets/more-icon-task-list.png). 
+   Click the **More** menu ![](assets/more-icon-task-list.png). 
 
 1. Select from the following options:
 
@@ -325,7 +345,7 @@ To edit tasks in a list when using the Timeline Planning option:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Open in a new tab</span> </td> 
+      <td role="rowheader"><strong>Open in a new tab</strong> </td> 
       <td>Opens the task in a new browser tab. </td> 
      </tr> 
      <tr> 
@@ -356,15 +376,15 @@ To edit tasks in a list when using the Timeline Planning option:
    </table>
 
 1. Workfront updates all in-project and cross-project dependencies when you change the timeline of a task. 
-1. Click `Save` when you want to keep your task changes permanently and save the timeline of the project.
+1. Click **Save** when you want to keep your task changes permanently and save the timeline of the project.
 
 ## Edit tasks in bulk
 
 You can edit multiple tasks all at once. Ensure you have manage permissions to the tasks to be able to edit them.
 
 1. Go to a project containing tasks you want to edit in bulk. 
-1. Select the Tasks tab. 
-1. Ensure that the `Autosave` option is selected.
+1. Select the **Tasks** tab.  
+1. Ensure that the **Autosave** option is selected.
 
    >[!IMPORTANT]
    >
@@ -373,25 +393,26 @@ You can edit multiple tasks all at once. Ensure you have manage permissions to t
    For more information about ways of saving changes to tasks in a list, see the section [Considerations about editing tasks in a list](#editing) in this article. 
 
 1. Select several tasks in the tasks list. 
-1. Click Edit. The `Edit Tasks` dialog box opens.
+1. Click **Edit**. The **Edit Tasks** dialog box opens.
+
 1. Specify the information you want to change for all the tasks you selected.
 
-   Editing the information on all tasks is identical to editing information on one task. If you want to edit task Duration, the tasks selected must have the same Task Constraint; otherwise, the `Duration` field does not populate.
+   Editing the information on all tasks is identical to editing information on one task. If you want to edit task Duration, the tasks selected must have the same Task Constraint; otherwise, the **Duration** field does not populate.
 
    For more information about editing a task, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
    >[!NOTE]
    >
-   >The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the `Assignments` field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
+   >The information you are changing on all the tasks selected will override the existing information on individual tasks, except for the **Assignments** field. Adding a new assignee in bulk edit will add that assignee to all the selected tasks. If other assignees are assigned to the selected tasks, they will remain assigned in addition to the one added through bulk edit.
 
-1. Click `Custom Forms` to edit the custom forms attached to all the tasks selected. Only active custom forms display in the list.
+1. Click **Custom Forms** to edit the custom forms attached to all the tasks selected. Only active custom forms display in the list.
 
    If the tasks selected do not have any common custom forms, no forms are listed in this section.
 
    You can edit only the fields on the forms that are attached to all tasks selected and which you have permissions to edit. 
 
-1. (Optional) In the Custom Forms section, select the `Recalculate Custom Expressions` option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
-1. Click `Save Changes`.
+1. (Optional) In the Custom Forms section, select the **Recalculate Custom Expressions** option to ensure that all Calculated Custom Fields that are on the custom forms attached to the tasks selected are up to date. 
+1. Click **Save Changes**.
 
    All changes you made are now visible on all the selected tasks.
 

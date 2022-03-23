@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: Resource Planner performance beta
 description: The new Workfront Resource Planner enables you to ensure that your people are working on the right work, at a right time, and helps to prevent burnout. You can manage demand by job role or user, providing visibility into the availability of the team members, as well as prioritizing strategic work to ensure the top priority work is assigned the resources it needs to be successful. Additionally, the Resource Planner can help you:
+hidefromtoc: true
 ---
 
 # Resource Planner performance beta
@@ -37,16 +38,16 @@ The following improvements have been released to the Preview environment since t
 
 * Improvements to the User View introduced in 18.2 Beta 1 Release:
 
-  * When you first access the Resource Planner, the User View is the new default view, replacing the Project View.  
-    You do not need to be a Resource Manager to view information in the User View.&nbsp;
-  * New limits for how many users, projects, roles, and tasks display have been introduced.
-  * Users lazy load (they display slowly, as you scroll down the page, instead of displaying all the results at once).&nbsp;
-  * You have control over how many projects, roles, tasks, and issues you display for one user at one time.&nbsp;
-  * Filters pull information after polling the entire Workfront database, instead of limiting the results on the screen.  
-    For more information about how filters work in the Resource Planner, see the "Understanding How Information is Filtered in the Resource Planner" section in [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
-  
-  * We have added the option to see the Resource Planner in full screen.&nbsp;
-  * Exporting the information from the User View is temporarily unavailable.&nbsp;
+   * When you first access the Resource Planner, the User View is the new default view, replacing the Project View.  
+     You do not need to be a Resource Manager to view information in the User View.&nbsp;
+   * New limits for how many users, projects, roles, and tasks display have been introduced.
+   * Users lazy load (they display slowly, as you scroll down the page, instead of displaying all the results at once).&nbsp;
+   * You have control over how many projects, roles, tasks, and issues you display for one user at one time.&nbsp;
+   * Filters pull information after polling the entire Workfront database, instead of limiting the results on the screen.  
+     For more information about how filters work in the Resource Planner, see the "Understanding How Information is Filtered in the Resource Planner" section in [Filter information in the Resource Planner](../../resource-mgmt/resource-planning/filter-resource-planner.md).
+   
+   * We have added the option to see the Resource Planner in full screen.&nbsp;
+   * Exporting the information from the User View is temporarily unavailable.&nbsp;
 
 For more information about all limitations in the User View, see [Resource Planner display limitations](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md)For more information about the 18.2 Beta 1 release, see the [User View Improvements in the Resource Planner](../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-1-release-activity.md#user-view-improvements-in-the-resource-planner) section in [2018.2 Beta 1 release activity](../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018.2-beta-1-release-activity.md).
 
@@ -77,16 +78,16 @@ Depending on which view you use in the Resource Planner and what release you are
 
 * User View
 
-  * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/VHvL7Kb0vsNo6yo83)
-  * Compare the current functionality in Preview with the current functionality in Production: [Survey Link](https://goo.gl/forms/AOwa4dPxTK3yVRcO2)
+   * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/VHvL7Kb0vsNo6yo83)
+   * Compare the current functionality in Preview with the current functionality in Production: [Survey Link](https://goo.gl/forms/AOwa4dPxTK3yVRcO2)
 
 * Project View
 
-  * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/qjgROLMKo0hIr2Wq1)
+   * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/qjgROLMKo0hIr2Wq1)
 
 * Role View
 
-  * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/ztio5oZ6LUNmHPyu1)
+   * Compare the current functionality in Production with the functionality in the 17.3 release:&nbsp; [Survey Link](https://goo.gl/forms/ztio5oZ6LUNmHPyu1)
 
 For more information about functionality release in the 17.3 release, see [2017.3 release activity overview](../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017.3-release-activity-overview.md).
 

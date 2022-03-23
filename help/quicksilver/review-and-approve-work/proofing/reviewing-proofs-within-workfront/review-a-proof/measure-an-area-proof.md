@@ -41,21 +41,21 @@ You must have the following access to perform the steps in this article:
 
 ## Measure an area within a proof
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. Click the `Measure an area` icon at the top of the proofing viewer.
+1. Click the **Measure an area** icon at the top of the proofing viewer.
 
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
-1. (Optional) Click  `Measurement markup color` to expand the color options, then click a color and `Opacity` that is easy to see on your proof.  
+1. (Optional) Click&nbsp;**Measurement markup color**&nbsp;to expand the color options, then click a color and **Opacity** that is easy to see on your proof.  
    ![](assets/selection-color-350x330.png)
 
    The default measurement tool color is red.
 
    The proofing viewer remembers your color and opacity selections on all proofs you open until you clear your browser cache.
 
-1. (Optional) Select a different  `Unit of Measurement.`
+1. (Optional) Select a different&nbsp;**Unit of Measurement.**
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
    ![Measurement_tool_when_first_appears.png](assets/measurement-tool-when-first-appears-350x143.png)
 
 1. Drag the corners or edges of the measurement window to resize it.
-1. (Optional) If you need the measurement area to be an exact size, type `Selection size` values.
+1. (Optional) If you need the measurement area to be an exact size, type **Selection size** values.
 1. (Optional) If you need to measure a certain percentage within an area, check the calculate percentage box. A new box appears allowing you to adjust it  
    ![](assets/calculate-percentage-350x230.png)
 

@@ -11,7 +11,7 @@ description: You can indicate whether the results in a grouping should display c
 
 You can indicate whether the results in a grouping should display collapsed or expanded in a list or report by using the standard report builder. The results in a grouping display expanded, by default. For information about creating a grouping, see [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-` `**Tips: **``
+``` ```**Tips: **``````
 
 * When you manually adjust groupings when viewing a list, Adobe Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
 * The results of a grouping always display expanded after accessing them from a chart element.
@@ -50,9 +50,9 @@ You must have the following access to perform the steps in this article:
 ## Indicate whether the results of a grouping should be collapsed or expanded using text mode
 
 1. Go to a list of objects.
-1. From the `Grouping`drop-down menu, select `New Grouping`.
+1. From the **Grouping**drop-down menu, select **New Grouping**.
 
-1. Add a grouping and click `Switch to Text Mode`.
+1. Add a grouping and click **Switch to Text Mode**.
 
    Or
 
@@ -68,5 +68,5 @@ You must have the following access to perform the steps in this article:
    group.0.iscollapsed=false
    ```
 
-1. Click `Done`, then `Save Grouping`.
+1. Click **Done**, then **Save Grouping**.
 

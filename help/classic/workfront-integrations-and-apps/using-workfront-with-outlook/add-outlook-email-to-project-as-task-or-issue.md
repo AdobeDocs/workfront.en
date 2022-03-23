@@ -26,9 +26,27 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -42,28 +60,28 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
 ## Add an Outlook email to a project as a task or issue
 
 1. Select the email within Outlook that you want to convert to a task or an issue.
-1. Click the  `Workfront`&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.
+1. Click the&nbsp;**Workfront**&nbsp;icon in the upper-right corner of the email message to display the Workfront add-in.
 
    You might need to click the down-pointing arrow in the upper right of your email to access the Workfront icon.
 
-1. Click the `Menu` icon to display the list of available Workfront options.
+1. Click the **Menu** icon to display the list of available Workfront options.
 
    ![o365_addin_menu_icon.png](assets/o365-addin-menu-icon.png)
 
-1. Click `Add to Work`.
+1. Click **Add to Work**.
 
    ![outlook___add_to_work.png](assets/outlook---add-to-work-302x413.png)
 
-1. Select the `Add to Project` field.
-1. Start typing the name of a project in the `Project` field, then select it when it appears in the list.&nbsp;
-1. Select the `Task` radio button if you want to add a task to the selected project.
+1. Select the **Add to Project** field.
+1. Start typing the name of a project in the **Project** field, then select it when it appears in the list.&nbsp;
+1. Select the **Task** radio button if you want to add a task to the selected project.
 
    Or
 
-   Select the `Issue` radio button if you want to add an issue to the selected project.
+   Select the **Issue** radio button if you want to add an issue to the selected project.
 
-1. (Optional) Specify who this task or issue is assigned to in the `Assign this to field`.&nbsp;
-1. (Optional) Specify the `Due by date`. This becomes the Planned Completion Date of the task or issue.
+1. (Optional) Specify who this task or issue is assigned to in the **Assign this to field**.&nbsp;
+1. (Optional) Specify the **Due by date**. This becomes the Planned Completion Date of the task or issue.
 1. (Optional) Update the following information from the email before it is saved as a task or issue ( required fields are preceded by an asterisk).
 
    | Task or Issue Name |By default, the task name is the same as the email Subject. You can modify the task name as desired. |
@@ -71,11 +89,13 @@ Your Workfront administrator must enable Outlook for Office with Workfront befor
    | Description |By default, the description is the same as the email Body. You can modify the description&nbsp;as desired. |
    | Attachments |Any email attachments are saved to the Documents area of the task or issue. You can delete any attachments before saving&nbsp;the email as a task or issue. |
 
-1. Click `Add`.
+1. Click **Add**.
 
    The task or issue is added to the specified project
 
-1. (Optional) Click `View in Workfront`&nbsp;to display the task within the&nbsp;Workfront application in a new tab.  
+1. (Optional) Click **View in Workfront**&nbsp;to display the task within the&nbsp;Workfront application in a new tab.
+
+   ![outlook__view_in_workfront_issue.png](assets/outlook--view-in-workfront-issue-350x166.png)
 
 1. (Optional) Go back to Outlook, and select the converted email.
 

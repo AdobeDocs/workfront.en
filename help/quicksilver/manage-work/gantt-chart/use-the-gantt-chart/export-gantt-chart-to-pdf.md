@@ -68,7 +68,7 @@ You must have the following to follow the steps in this article:
   * The time period that is displayed on the Gantt chart.  
     For more information, see [Viewing Information in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-    The way the time period is displayed in the export file depends on whether you select `What I see` or `Multiple pages`&nbsp;in a later step.
+    The way the time period is displayed in the export file depends on whether you select **What I see**&nbsp;or **Multiple pages**&nbsp;in a later step.
 
 1. (Optional) To include&nbsp;only certain tasks&nbsp;in the exported PDF, select the tasks&nbsp;that you want to include.
 
@@ -77,19 +77,19 @@ You must have the following to follow the steps in this article:
    For example, if you are viewing the Gantt chart for a project that contains 50 tasks, but you want to display only 10 tasks on the exported Gantt chart, select the 10 tasks that you want to display.
 
 1. Click the printer icon.  
-   The `Export to PDF` dialog box is displayed.  
+   The **Export to PDF** dialog box is displayed.  
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
 
 1. Select&nbsp;whether you want to export only what you see or the entire Gantt chart:
 
-  * `What I see:` Exports all tasks (including any subtasks) that are displayed on the screen prior to exporting up to 500 items. (This is not what is displayed in the `Preview` section; the Preview section contains only sample data.)
+  * **What I see:**&nbsp;Exports all tasks (including any subtasks) that are displayed on the screen prior to exporting up to 500 items. (This is not what is displayed in the **Preview** section; the Preview section contains only sample data.)
 
     Subtasks are included in the exported PDF even if the parent task is collapsed and the subtasks are not visible. To include only parent tasks, select the parent tasks you want to include and leave any subtasks unselected.
 
-    You can use the `Zoom To` drop-down menu or the slider tool to display only a portion of the Gantt chart, as described in [Viewing Information in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) .
+    You can use the **Zoom To** drop-down menu or the slider tool to display only a portion of the Gantt chart, as described in [Viewing Information in the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) .
   
-  * `Multiple pages:`&nbsp;Exports the entire Gantt chart, even that which is not visible on the current screen up to 500 items.  
-    You can use the `Zoom To` drop-down menu or the slider tool to determine how much information is displayed on each page, as described in [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).&nbsp;Select a more granular option to display more pages to export, or&nbsp;select a less granular option to display fewer pages to export.
+  * **Multiple pages:**&nbsp;Exports the entire Gantt chart, even that which is not visible on the current screen up to 500 items.  
+    You can use the **Zoom To** drop-down menu or the slider tool to determine how much information is displayed on each page, as described in [Configure how information displays on the Gantt Chart](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).&nbsp;Select a more granular option to display more pages to export, or&nbsp;select a less granular option to display fewer pages to export.
 
     >[!NOTE]
     >
@@ -105,11 +105,11 @@ You must have the following to follow the steps in this article:
     >  
     >
 
-1. If the PDF will be printed after it is exported to PDF, in the `Page Size`&nbsp;drop-down menu, select the size of paper you want to print to.   
-   You can select `Letter`, `Legal`, `Ledger`, `A1`, `A2`,  `A3` (available only for some languages), or `A4`.
-1. In the  `Page Orientation` section, select whether you want the PDF to be&nbsp;exported in landscape or portrait orientation.
-1. Select `Show Legend` if you want to include the Legend in your exported PDF.&nbsp;
-1. Click `Export`.
+1. If&nbsp;the PDF will be printed after it is exported to PDF, in the **Page Size**&nbsp;drop-down menu, select the size of paper you want to print to.   
+   You can select **Letter**, **Legal**, **Ledger**, **A1**, **A2**,&nbsp;**A3** (available only for some languages), or **A4**.
+1. In the&nbsp;**Page Orientation** section, select whether you want the PDF to be&nbsp;exported in landscape or portrait orientation.
+1. Select **Show Legend** if you want to include the Legend in your exported PDF.&nbsp;
+1. Click **Export**.
 
    The pdf of the Gantt chart is created and downloaded to your computer.
 

@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -57,7 +68,7 @@ Before you can use the Anaplan connector, you must ensure that the following pre
 
 To create a connection for your Anaplan modules:
 
-1. Click `Add` next to the Connection box.
+1. Click **Add** next to the Connection box.
 1. Select the connection type.
 
    <table cellspacing="0"> 
@@ -231,16 +242,39 @@ This action module exports data from Anaplan. You can export into the following 
 
 This action module returns all accessible records of the selected type.
 
-| Connection |For instructions on creating a connection to Anaplan, see [Connect Anaplan to Workfront Fusion](#connect) in this article. |
-|---|---|
-| Record types | 
-
-<!--
-Select the type of record that you want to retrieve. Workspaces Models Line items Select or map the ID of the Model that contains the line items you want to retrieve. Model lists Select or map the ID of the Workspace and Model ID that contain the Model lists you want to retrieve. Model calendar Select or map the ID of the Workspace that contains the Model calendar you want to retrieve. Model versions Select or map the ID of the Model that contains the Model versions you want to retrieve. Users Views Select whether you want to choose the view by Module or by Model, then select or map the ID of the Module or Model that contains the view you want to retrieve.
--->
-
-|
-| Return workspace size |Enable this option to return an estimate of the current size of the workspace. This estimate is based on the sizes of all of the modules contained in the workspace. |
+<table cellspacing="0"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Connection</td> 
+   <td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record types</td> 
+   <td> <!--
+     <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+      <p>Select the type of record that you want to retrieve.</p> 
+      <ul> 
+       <li> <p><b>Workspaces</b> </p> </li> 
+       <li> <p><b>Models</b> </p> </li> 
+       <li> <p><b>Line items</b> </p> <p>Select or map the ID of the Model that contains the line items you want to retrieve.</p> </li> 
+       <li> <p><b>Model lists</b> </p> <p>Select or map the ID of the Workspace and Model ID that contain the Model lists you want to retrieve.</p> </li> 
+       <li> <p><b>Model calendar</b> </p> <p>Select or map the ID of the Workspace that contains the Model calendar you want to retrieve.</p> </li> 
+       <li> <p><b>Model versions</b> </p> </li> 
+       <li> <p>Select or map the ID of the Model that contains the Model versions you want to retrieve.</p> </li> 
+       <li> <p><b>Users</b> </p> </li> 
+       <li> <p><b>Views</b> </p> <p>Select whether you want to choose the view by Module or by Model, then select or map the ID&nbsp;of the Module or Model that contains the view you want to retrieve.</p> </li> 
+      </ul> 
+     </div>
+    --> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Return workspace size</td> 
+   <td>Enable this option to return an estimate of the current size of the workspace. This estimate is based on the sizes of all of the modules contained in the workspace.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Import Data
 
@@ -310,6 +344,39 @@ This action module updates a single record in Anaplan.
 </table>
 
 <!--
-Upload a file This action module uploads a file to Anaplan. The file must have already been uploaded to Anaplan. You can use this module to upload it to additional locations within Anaplan. Connection For instructions on creating a connection to Anaplan, see Connect Anaplan to Workfront Fusion in this article. Workspace ID Select or map the ID of the Anaplan Workspace where you want to upload a file. Model ID Select or map the ID of the Model where you want to upload a file. File ID Select or map the ID of the file you want to upload.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h4>Upload a file</h4>
+<p>This action module uploads a file to Anaplan. The file must have already been uploaded to Anaplan. You can use this module to upload it to additional locations within Anaplan.</p>
+<table cellspacing="0">
+<col>
+<col>
+<tbody>
+<tr>
+<td role="rowheader">Connection</td>
+<td>For instructions on creating a connection to Anaplan, see <a href="#connect" class="MCXref xref">Connect Anaplan to Workfront Fusion</a> in this article.</td>
+</tr>
+<tr>
+<td role="rowheader">Workspace ID</td>
+<td>Select or map the ID of the Anaplan Workspace<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+where you want to upload a file
+</MadCap:conditionalText>
+-->.</td>
+</tr>
+<tr>
+<td role="rowheader">Model ID</td>
+<td>Select or map the ID of the Model<!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+where you want to upload a file
+</MadCap:conditionalText>
+-->.</td>
+</tr>
+<tr>
+<td role="rowheader">File ID</td>
+<td>Select or map the ID&nbsp;of the file you want to upload.</td>
+</tr>
+</tbody>
+</table>
+</div>
 -->
 

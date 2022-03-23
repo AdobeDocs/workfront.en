@@ -5,6 +5,7 @@ product: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
 title: Tips, tricks, and troubleshooting for Workfront Goals
 description: Your organization must have the following to use the functionality described in this article: A Pro or higher Adobe Workfront plan. An Adobe Workfront Goals license in addition to a Workfront license.Contact your Workfront account manager to learn about a Workfront Goals license. Workfront Goals is available only in the new Adobe Workfront experience. For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.
+hidefromtoc: true
 ---
 
 # Tips, tricks, and troubleshooting for Workfront Goals

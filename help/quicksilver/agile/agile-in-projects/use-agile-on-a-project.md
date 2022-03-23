@@ -13,7 +13,9 @@ description: You can leverage agile functionality for your project (such as stor
 You can leverage agile functionality for your project 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (such as story boards and burndown charts)
+</MadCap:conditionalText>
 -->
 
 &nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog, creating iterations, and so forth). For more information, see [Manage a project in the Agile View](../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). 

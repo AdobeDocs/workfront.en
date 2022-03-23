@@ -45,10 +45,10 @@ You must have the following to perform the steps in this article:
 
 ## Change the display order of conditions
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Project Preferences` > `Conditions`.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Conditions**.  
 
-1. Select the `Projects`, `Tasks`, or `Issues` tab.
+1. Select the **Projects**,**Tasks**, or **Issues** tab.
 
 1. Drag ![](assets/move-icon---dots.png) Conditions to change their order.
 

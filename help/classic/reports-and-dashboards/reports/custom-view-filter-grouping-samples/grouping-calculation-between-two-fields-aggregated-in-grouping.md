@@ -53,19 +53,19 @@ You must have the following access to perform the steps in this article:
 
 ## Display the result of aggregating multiple calculated values in a grouping
 
-1. Go to a task report, click `Report Actions` >  `Edit`.
-1. In the `Groupings` tab, click `Add Grouping`, and start typing `Project Name` in the `Group your Report` > `First by` field, then select it when it displays in the list. 
+1. Go to a task report, click **Report Actions** >&nbsp;**Edit**.
+1. In the **Groupings** tab, click **Add Grouping**, and start typing **Project Name** in the **Group your Report** > **First by** field, then select it when it displays in the list. 
 
-1. In the `Columns(View)` tab, click `Add Column`, then start typing `Planned Hours` in the `Show in this column` field, then select it when it displays in the list.
+1. In the **Columns(View)** tab, click **Add Column**, then start typing **Planned Hours** in the **Show in this column** field, then select it when it displays in the list.
 
    >[!TIP]
    >
    >Always start adding as much information using the Standard interface before you edit information in text mode. Add fields that are closest to or contain the most amount of information that for the calculation you are trying to make.
 
-1. In the `Summarize this column by` field, select `Sum`, then click `Done`.
+1. In the **Summarize this column by** field, select **Sum**, then click **Done**.
 
-1. Click `Switch to Text Mode` in the column you added. 
-1. Hover over the text mode area, and click `Click to edit text`.
+1. Click **Switch to Text Mode** in the column you added. 
+1. Hover over the text mode area, and click **Click to edit text**.
 1. Replace the 
 
    ```
@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
    lines with the lines highlighted in the following text mode example: 
    <pre>valueformat=compound<br>aggregator.displayformat=minutesAsHoursString<br><span style="font-weight: normal;">aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2)</span><br>aggregator.function=SUM<br>aggregator.valueformat=val<br>aggregator.namekey=workrequired<br>linkedname=direct<br>textmode=true<br>valuefield=workRequired<br>namekey=workrequired<br>valueexpression=CONCAT(ROUND(({workRequired}-{actualWorkRequired})/60,2)," Hours")
 viewalias=workrequired<br>displayname=Work Balance<br><br></pre>
-   ` `**Tip: **`` In order to get the aggregated value in the grouping to display the aggregated difference between the Planned Hours and Actual Hours fields, input the same equation into the 
+   ``` ```**Tip: **`````` In order to get the aggregated value in the grouping to display the aggregated difference between the Planned Hours and Actual Hours fields, input the same equation into the 
 
    ```
    aggregator.valuefield
@@ -127,7 +127,7 @@ viewalias=workrequired<br>displayname=Work Balance<br><br></pre>
 
    . 
 
-1. Click `Save+Close`.
+1. Click **Save+Close**.
 
 &nbsp;
 

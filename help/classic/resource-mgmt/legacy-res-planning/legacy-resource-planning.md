@@ -57,10 +57,10 @@ You can manage your user resources by using the User Utilization sub-tab in Lega
 
 To access the User Utilization sub-tab:
 
-1. Go to the `People` area in the Global Navigation bar.
-1. Select the `Legacy` `Resource Planning` tab.
+1. Go to the **People** area in the Global Navigation bar.
+1. Select the **Legacy** **Resource Planning** tab.
 
-1. Click the `User Utilization` sub-tab.  
+1. Click the **User Utilization** sub-tab.  
    ![](assets/screen-shot-2013-09-05-at-2.44.35-pm-350x163.png)  
    For more information about how to use the information on the User Utilization sub-tab, see [Overview of the User Utilization report in the Legacy Resource Management area](../../resource-mgmt/legacy-res-planning/legacy-user-utilization-report.md).
 

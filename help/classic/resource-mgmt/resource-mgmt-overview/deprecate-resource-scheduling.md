@@ -97,7 +97,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
  <tbody> 
   <tr> 
    <td rowspan="2"><span style="font-weight: normal;">Features</span> </td> 
-   <td rowspan="2"> <span class="bold">Resource Scheduling tools feature availability</span></td> 
+   <td rowspan="2"> <strong>Resource Scheduling tools feature availability</strong></td> 
    <td colspan="3">Workload Balancer feature availability</td> 
   </tr> 
   <tr> 
@@ -106,7 +106,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>Not planned</td> 
   </tr> 
   <tr> 
-   <td> <p>Access tool from the Peoplearea</p> </td> 
+   <td> <p>Access tool from the People area</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -188,7 +188,28 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
-  </tr> Quickly assign users based on roles* ✓ ✓ Quickly replace users* ✓ ✓ Quickly unassign users* ✓ ✓ 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>Quickly assign users based on roles*</span> </td> 
+   <td>✓</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>Quickly replace users*</span> </td> 
+   <td>✓</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>Quickly unassign users*</span> </td> 
+   <td>✓</td> 
+   <td><span>✓</span> </td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td><span>Access tool from a team</span> </td> 
    <td>✓</td> 
@@ -218,7 +239,7 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td>Share the Workload Balancer with users with no access to the Peoplearea</td> 
+   <td>Share the Workload Balancer with users with no access to the People area</td> 
    <td>&nbsp;</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -237,7 +258,14 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>✓</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
-  </tr> Access more information about work items without navigating away, using the Summary panel* ✓ 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Access more information about work items without navigating away, using the Summary panel*</td> 
+   <td>&nbsp;</td> 
+   <td>✓</td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> 
   <tr> 
    <td>Display and adjust allocation as a percentage value </td> 
    <td>&nbsp;</td> 
@@ -287,7 +315,13 @@ In addition to existing features, the Workload Balancer has or will have new fun
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> <!--
-   Suggest assignments based on the user's availability ? ✓
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Suggest assignments based on the user's availability</td> 
+    <td>?</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>✓</td> 
+   </tr>
   --> 
  </tbody> 
 </table>

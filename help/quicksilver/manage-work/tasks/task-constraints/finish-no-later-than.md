@@ -36,6 +36,17 @@ Consider the following when using the Finish No Later Than (FNLT) constraint for
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-Use the Finish No Later Than constraint To update the Task Constraint to Finish No Later Than: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Finish No Later Than. Specify a Planned Completion Date. You must complete the task on and not later than this date. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="using-FNLT"></a>Use the Finish No Later Than constraint</h2>
+<p>To update the Task Constraint to Finish No Later Than:</p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>. </li>
+<li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
+<li value="4"> <p>Select <strong>Finish No Later Than</strong>.</p> <p> <img src="assets/fnlt-350x266.png" alt="FNLT.png" style="width: 350;height: 266;"> </p> </li>
+<li value="5"> <p>Specify a <strong>Planned Completion Date</strong>.</p> <p>You must complete the task on and not later than this date. </p> </li>
+<li value="6">Click <strong>Save Changes</strong>.</li>
+</ol>
+</div>
 -->
 

@@ -26,9 +26,27 @@ You must have the following access to use the functionality described in this ar
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -49,14 +67,14 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
   Once you log in, you can see the New Requests tab where you can start entering requests.
 
   <!--
-
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">&nbsp;<img style="font-size: small;width: 350;height: 327;" src="assets/salesforce-new-requests-tab-350x327.png" alt="salesforce_new_requests_tab.png"></p>
   -->
 
 ## Submit Workfront requests from Salesforce
 
 1. Go to an Opportunity or Account in Salesforce. 
 1. Go to the Workfront section.
-1. In the `New Requests` tab, select a request type in the `Select a Request Type` drop-down menu.
+1. In the **New Requests** tab, select a request type in the **Select a Request Type** drop-down menu.
 
    You can see the same request queues that you have access to see in Workfront.&nbsp;
 
@@ -70,18 +88,18 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
 
    Continue to follow the steps described in [Create and submit Adobe Workfront requests](../../manage-work/requests/create-requests/create-submit-requests.md).
 
-1. Click `Submit`.
+1. Click **Submit**.
 
 ## View Workfront requests
 
 1. Go to an Opportunity or Account in Salesforce.
-1. Go to the `Workfront` section.
+1. Go to the **Workfront** section.
 
    >[!NOTE]
    >
    >Depending on how your Workfront administrator configured this section, it might have a different name.
 
-1. Select the `Submitted Requests` tab.
+1. Select the **Submitted Requests** tab.
 
    You can view all the requests that you or others have submitted from this Opportunity or Account in this tab.Requests that are submitted to this request queue in the web application do not display in this list in Salesforce.
 
@@ -93,20 +111,22 @@ To submit a Workfront request from a Salesforce Opportunity or Account ensure th
 
    You can view the following information about the submitted requests:
 
-  * Requests Name (in the Subject&nbsp;column)
-  * Reference Number
-  * Request&nbsp;Type
-  * Status
-  * Submitted on&nbsp;Date
-  * Requested by Name
-  * Assigned to Name  
-    When this information is updated in Workfront, it is also updated in this list.&nbsp;
+   * Requests Name (in the Subject&nbsp;column)
+   * Reference Number
+   * Request&nbsp;Type
+   * Status
+   * Submitted on&nbsp;Date
+   * Requested by Name
+   * Assigned to Name  
+     When this information is updated in Workfront, it is also updated in this list.&nbsp;
 
 1. (Optional) Click the name of the request to open it in Workfront.&nbsp;
 
-   On the Summary panel ![](assets/summary-panel-icon.png), notice the `Integrations` indicator that signifies that this issue originated in Salesforce and is currently linked to an item there.&nbsp;
+   On the Summary panel ![](assets/summary-panel-icon.png), notice the **Integrations** indicator that signifies that this issue originated in Salesforce and is currently linked to an item there.&nbsp;
 
-1. (Optional) Click `Go to Salesforce` to access the Opportunity or Account where the issue originated.
+   ![salesforce_link_from_issue.png](assets/salesforce-link-from-issue-350x466.png)
+
+1. (Optional) Click **Go to Salesforce** to access the Opportunity or Account where the issue originated.
 
    >[!NOTE]
    >

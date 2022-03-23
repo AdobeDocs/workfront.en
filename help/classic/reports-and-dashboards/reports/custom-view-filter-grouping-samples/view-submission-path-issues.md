@@ -45,13 +45,13 @@ You must have the following access to perform the steps in this article:
 ## View the submission path for issues
 
 1. Go to a list of issues.
-1. From the  `View` drop-down menu, select  `New View`.
+1. From the&nbsp;**View**&nbsp;drop-down menu, select&nbsp;**New View**.
 
-1. In the `Column Preview` area, click `Add Column`.
+1. In the**Column Preview**&nbsp;area, click **Add Column**.
 
-1. Click the header of the new column, then click `Switch to Text Mode`.
-1. Mouse over the text mode area, and click  `Click to edit text`.
-1. Remove the text you find in the  `Text Mode`&nbsp;box, and replace it with the following code:
+1. Click the header of the new column, then click **Switch to Text Mode**.
+1. Mouse over the text mode area, and click&nbsp;**Click to edit text**.
+1. Remove the text you find in the&nbsp;**Text Mode**&nbsp;box, and replace it with the following code:
 
    ```
    displayname= Issue Path<br>linkedname=direct <br>namekey=displayQueueBreadcrumb <br>valuefield=displayQueueBreadcrumb <br>valueformat=HTML
@@ -59,5 +59,5 @@ You must have the following access to perform the steps in this article:
 
    &nbsp;
 
-1. Click `Save View`.
+1. Click **Save View**.
 

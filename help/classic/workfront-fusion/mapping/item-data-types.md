@@ -21,7 +21,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -30,7 +34,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -63,7 +74,7 @@ For information on which types of items Workfront Fusion allows for conversion b
     <ul> 
      <li> <p>The compulsory check box is shown in case the field is mandatory and must be filled in.</p> <p> <img src="assets/boolean-checkbox-350x158.jpg" style="width: 350;height: 158;"> </p> </li> 
      <li> <p>Optional fields that can be left blank are displayed as a selection box, allowing selection among three values: <code>Yes</code>, <code>No</code>, and <code>Not defined</code> (default).</p> <p> <img src="assets/boolean-convert-file-350x129.jpg" style="width: 350;height: 129;"> </p> </li> 
-    </ul> <p>You can click <span class="bold">Map</span> if you need to map the value to an item from another module.</p> </td> 
+    </ul> <p>You can click <strong>Map</strong> if you need to map the value to an item from another module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p><a name="Date"></a>Date</p> </td> 
@@ -79,7 +90,7 @@ For information on which types of items Workfront Fusion allows for conversion b
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Select (menu)</p> </td> 
-   <td> <p>When you configure the module settings as described in <a href="../../workfront-fusion/modules/configure-a-modules-settings.md" class="MCXref xref">Configure a module's settings</a>, you can select from several items of the same type. An example is the folder select menu in the settings for the Dropbox modules. </p> <p>When setting modules, the select menu can appear in two forms:</p> <p> <p>If multiple selection is possible, several items with check boxes display.</p> <p> <img src="assets/image-kb-type-list-multi-350x232.jpg" style="width: 350;height: 232;"> </p> </p> <p>If only one option is possible, a drop-down menu displays.</p> <p> <img src="assets/select-menu-dropdown-350x130.jpg" style="width: 350;height: 130;"> </p> <p>If you need to map an item from another module, use the <span class="bold">Map</span> button. This button opens a text field instead of the selection menu. For more information, see <a href="../../workfront-fusion/mapping/map-information-between-modules.md" class="MCXref xref">Map information from one module to another</a>.</p> </td> 
+   <td> <p>When you configure the module settings as described in <a href="../../workfront-fusion/modules/configure-a-modules-settings.md" class="MCXref xref">Configure a module's settings</a>, you can select from several items of the same type. An example is the folder select menu in the settings for the Dropbox modules. </p> <p>When setting modules, the select menu can appear in two forms:</p> <p> <p>If multiple selection is possible, several items with check boxes display.</p> <p> <img src="assets/image-kb-type-list-multi-350x232.jpg" style="width: 350;height: 232;"> </p> </p> <p>If only one option is possible, a drop-down menu displays.</p> <p> <img src="assets/select-menu-dropdown-350x130.jpg" style="width: 350;height: 130;"> </p> <p>If you need to map an item from another module, use the <strong>Map</strong> button. This button opens a text field instead of the selection menu. For more information, see <a href="../../workfront-fusion/mapping/map-information-between-modules.md" class="MCXref xref">Map information from one module to another</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Array</p> </td> 

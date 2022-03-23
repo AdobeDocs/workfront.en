@@ -31,7 +31,7 @@ To view and manage the billing details of your satellite account:
 To view and manage the Account settings of the Satellite account:
 
 1. Go to Account settings&nbsp;at the top of the page.
-1. Click the `Your accounts` drop-down menu, then choose the relevant Satellite account. (1)
+1. Click the **Your accounts** drop-down menu, then choose the relevant Satellite account. (1)
 1. Click the relevant tab to manage the Account setting for the Satellite account.
 
 ![SA_Account_Settings.png](assets/sa-account-settings-350x151.png)

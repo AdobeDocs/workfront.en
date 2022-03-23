@@ -47,9 +47,9 @@ You must have the following access to perform the steps in this article:
 
 Some settings may be locked if your Workfront administrator disabled them at the account level.
 
-1. Go to the project, task, or issue where you want the proof, then click the `Documents` tab.
-1. Mouse over the proof, then click `Document Details`.
-1. In the left panel, click `Proofing Viewer Settings`. 
+1. Go to the project, task, or issue where you want the proof, then click the **Documents** tab.
+1. Mouse over the proof, then click **Document Details**.
+1. In the left panel, click **Proofing Viewer Settings**. 
 1. Adjust the following settings:
 
    <table cellspacing="0"> 
@@ -63,7 +63,10 @@ Some settings may be locked if your Workfront administrator disabled them at the
      <tr> 
       <td role="rowheader">Require decisions to be electronically signed</td> 
       <td> <p>You can require an electronic signature of any reviewer who makes a decision on the proof. When&nbsp;a reviewer makes a decision, a prompt appears asking them to input their email and password and to confirm their decision. <!--
-         For more information, see Understanding electronic signatures in Workfront Proof
+         <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          For more information, see 
+          <a href="../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md" class="MCXref xref">Understanding electronic signatures in Workfront Proof</a>
+         </MadCap:conditionalText>
         --></p> </td> 
      </tr> 
      <tr> 
@@ -82,14 +85,14 @@ Some settings may be locked if your Workfront administrator disabled them at the
       <td role="rowheader">Allow subscribing to proof via public URL or embed code</td> 
       <td> <p>Enabling subscription on the proof allows people who have not been added explicitly to the proof to subscribe themselves to the proof (i.e. add themselves to the proof). They will then be assigned the role and email alert that you select for them in the Subscription settings.</p> <p>If Subscription has been enabled on a proof, the fields below will become active:</p> 
        <ul> 
-        <li><span class="bold">Subscriber validation required</span> - Subscriber must click a link in an email to access a proof<br>Selecting this option means that the person subscribing will not get immediate access to the proof, but will get a link to the proof in an email. The purpose of subscriber validation is to ensure that the person has entered a correct email address to which they have access.</li> 
-        <li><span class="bold">Default role for new subscribers -</span> This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
-        <li><span class="bold">Default email alert for new subscribers</span>&nbsp;- This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
+        <li><strong>Subscriber validation required</strong> - Subscriber must click a link in an email to access a proof<br>Selecting this option means that the person subscribing will not get immediate access to the proof, but will get a link to the proof in an email. The purpose of subscriber validation is to ensure that the person has entered a correct email address to which they have access.</li> 
+        <li><strong>Default role for new subscribers -</strong> This is the default proof role that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
+        <li><strong>Default email alert for new subscribers</strong>&nbsp;- This the default email alert that will be assigned to all reviewers that subscribe themselves to the proof.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Save`.
+1. Click **Save**.
 
 &nbsp;

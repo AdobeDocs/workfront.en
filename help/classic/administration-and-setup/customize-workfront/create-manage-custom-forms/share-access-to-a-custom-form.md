@@ -19,11 +19,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -42,10 +50,10 @@ However, on an object where the custom form is not already attached, a user (eve
 
 Rather than leaving a custom form in the default sharing state (described in [Access to custom forms](#access) in this article), you can configure specific levels of access to the form for certain users, job roles, groups, teams, and companies.
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Custom Forms`.
-1. Select the custom form, then click `Share`.
-1. In the box that displays, under `Give custom form access to`, start typing the name of the user, team, job role, group, or company you want to share the custom form with, then press `Enter` when the name displays.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Custom Forms**.
+1. Select the custom form, then click **Share**.
+1. In the box that displays, under **Give custom form access to**, start typing the name of the user, team, job role, group, or company you want to share the custom form with, then press **Enter** when the name displays.
 1. To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
 
    <table cellspacing="0"> 
@@ -54,56 +62,56 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
     <tbody> 
      <tr> 
       <td role="rowheader">View it</td> 
-      <td> <p>Ability to view and fill out the custom form on objects.</p> <p>Note: For users with Work, Review, and Request licenses, this is the highest available option.</p> <p>Click <span class="bold">Advanced Settings</span> to specify whether you want to allow the following:</p> 
+      <td> <p>Ability to view and fill out the custom form on objects.</p> <p>Note: For users with Work, Review, and Request licenses, this is the highest available option.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow the following:</p> 
        <ul> 
-        <li><span class="bold">Attach to custom data</span>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
-        <li> <p><span class="bold">Share</span>: Ability to share the custom form with others in the system</p> <p>Users with a Work, Review, or Request license can share a custom form only through the API or a custom forms report. For more information, see .</p> </li> 
+        <li><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</li> 
+        <li> <p><strong>Share</strong>: Ability to share the custom form with others in the system</p> <p>Users with a Work, Review, or Request license can share a custom form only through the API or a custom forms report. For more information, see .</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Manage it</td> 
-      <td> <p>Available only for users with a Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <span class="bold">Advanced Settings</span> to specify whether you want to allow following:</p> 
+      <td> <p>Available only for users with a Plan license. </p> <p>In addition to being able to add the form to objects they have access to edit, users can also fully edit the custom form, including adding, editing, and deleting fields.</p> <p>Click <strong>Advanced Settings</strong> to specify whether you want to allow following:</p> 
        <ul> 
-        <li> <p><span class="bold">Attach to custom data</span>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</p> </li> 
-        <li><span class="bold">Delete</span>: Delete the custom form from the system</li> 
-        <li><span class="bold">Share</span>: Share the custom form with others in the system</li> 
+        <li> <p><strong>Attach to custom data</strong>: Ability to attach the custom form to projects, tasks, and issues for which they have Manage access</p> </li> 
+        <li><strong>Delete</strong>: Delete the custom form from the system</li> 
+        <li><strong>Share</strong>: Share the custom form with others in the system</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. (Optional) Repeat Steps 4-5 to add other names to the list and configure their options.
-1. (Optional) If you want to limit access to the custom form (on objects where it's attached) to those you have specified in the previous steps, click the gear icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click `Remove system-wide access`.
+1. (Optional) If you want to limit access to the custom form (on objects where it's attached) to those you have specified in the previous steps, click the gear icon ![](assets/gear-icon-settings-with-dn-arrow.jpg) in the upper right corner of the sharing box, then click **Remove system-wide access**.
 
-   If you change your mind, you can click `Make this visible system-wide` (the default option).
+   If you change your mind, you can click **Make this visible system-wide** (the default option).
 
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
-   >  * Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use " `Make this visible system-wide`." When the option is configured this way, "Visible System-Wide" displays in the dialog box:
-   >  
-   >  
-   >    ![](assets/visible-system-wide-350x480.png)   >  
-   >  
+   >   
+   >   
+   >   * When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
+   >   * Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use "**Make this visible system-wide**." When the option is configured this way, "Visible System-Wide" displays in the dialog box:
+   >   
+   >   
+   >     ![](assets/visible-system-wide-350x480.png)   >   
+   >   
 
-   >  
-   >  
-   >    If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
-   >  
-   >  
+   >   
+   >   
+   >     If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
+   >   
+   >   
    >
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Remove access to a custom form
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Custom Forms`.
-1. Select the custom form, then click `Share`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Custom Forms**.
+1. Select the custom form, then click **Share**.
 1. In the box that displays, click the X to the right of the name of the user, team, role, group, or company whom you no longer want to have special access to the form.
 1. (Optional) Repeat the previous step to for other names you want to remove.
-1. Click `Save`.
+1. Click **Save**.
 

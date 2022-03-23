@@ -90,11 +90,14 @@ Refer to the following table to understand each&nbsp;default priority label and 
 ## Update the Priority of an issue
 
 1. Go to the issue whose priority you want to modify.
-1. Select the Issue Details tab. 
-1. Select the Overview sub-tab. 
-1. Select a value for the `Priority` field.
+1. Select the **Issue Details** tab. 
+1. Select the **Overview** sub-tab. 
+1. Edit Overview
+1. Select a value for the **Priority** field.
 
    Depending on how your Workfront administrator configured Priorities in your system, the options might vary.
 
-1. Click Save.
+   ![](assets/issue-details-tab-with-priority-field-350x343.png)   
+
+1. Click **Save**.&nbsp;&nbsp;
 

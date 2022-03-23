@@ -36,12 +36,12 @@ In order to receive event subscriptions payloads through your firewall, you must
 
 To create, query, or delete an Event Subscription, your Workfront user needs:
 
-* An access level of `System Administrator`  
+* An access level of **System Administrator** 
   To learn more, see [Grant a user full administrative access](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) or [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * An API key
 
   <!--
-  To learn more, see .
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
   -->
 

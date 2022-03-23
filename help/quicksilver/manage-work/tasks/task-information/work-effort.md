@@ -26,7 +26,9 @@ As a project manager, you can decide how you want to estimate the amount of work
   <tr> 
    <td role="rowheader">Work Effort </td> 
    <td> <p>A manual label that defines whether it takes a user a small, medium, or large amount of daily effort to complete a task. <!--
-      The level of effort is estimated to be a percentage of the daily amount of working time.
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       The level of effort is estimated to be a percentage of the daily amount of working time.
+      </MadCap:conditionalText>
      --> </p> <p>Consider the following about Work Effort:</p> 
     <ul> 
      <li>This field is available only for tasks with a Simple Duration Type. </li> 
@@ -83,15 +85,18 @@ You must have the following access to perform the steps in this article:
 
 ## Enable using Work Effort instead of Planned Hours
 
-1. Go to a project and click the More menu , then click Edit. 
-1. Click Task Settings, then select the option `Use Work Effort to automatically calculate task Planned hours`. This is deselected by default.
+1. Go to a project and click the **More** menu ![](assets/more-icon.png), then click&nbsp;**Edit**.  
+1. Click **Task Settings**, then select the option**Use Work Effort to automatically calculate task Planned hours**. This is deselected by default. 
+
+   ![](assets/nwe-work-effort-on-projects-350x182.png)
 
    For more information about enabling the use of Work Effort on a project, see the "Tasks Settings" section in the [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md) article. 
 
-1. Click Tasks on the left panel , then click the name of a task to access it. 
-1. Click the More menu , then click Edit.Ensure the task has a Simple Duration Type. 
-   Tip: You can update the Work Effort for a task in the Task Details section as well. 
-1. In the `Overview` area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
+1. Click **Tasks** on the left panel , then click the name of a task to access it. 
+1. Click the **More** menu ![](assets/more-icon.png), then click&nbsp;**Edit**. Ensure the task has a Simple Duration Type. 
+   ``` ```**Tip: **``````You can update the Work Effort for a task in the Task Details section as well.  
+
+1. In the **Overview** area, click the Work Effort drop-down menu to correct the amount of effort needed to complete the task.
 
    ![](assets/work-effort-on-edit-task-page-350x239.png)
 

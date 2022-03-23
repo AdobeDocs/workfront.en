@@ -44,8 +44,13 @@ You must have the following access to perform the steps in this article:
 
 You can change which status is applied to the work item with the Done button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
-1. Click the More menu, then click Edit. 
-1. Find the `Done Button` section at the bottom of the `Team Settings` page.
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. Click the **More** menu, then click **Edit**. 
+
+1. Find the **Done Button** section at the bottom of the **Team Settings** page.
 
 1. Select one status or more than one status for each work item type.
 
@@ -75,7 +80,7 @@ You can change which status is applied to the work item with the Done button. Yo
 
    If the task or issue is assigned to multiple users, you see a "Done with my part" option in the drop-down menu, in addition to the multiple statuses chosen for your team.  
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 ## Associate users with a Home Team
 
@@ -83,9 +88,16 @@ To make the changes to the Done button functionality visible to users, you can m
 
 To associate users with a Home Team:
 
-1. In the `Organization` section, select the `Home Team` field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
+1. Main Menu
+1. 
+1. Users
+1. More
+1. Edit
+1. 
+1. 
+1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
 
-1. Click `Save Changes`.  
+1. Click **Save Changes**.  
    The&nbsp;users you selected are now associated with a&nbsp;Home Team. &nbsp;  
    Any team settings, including the statuses associated with the Done button are now visible to these users.&nbsp;
 

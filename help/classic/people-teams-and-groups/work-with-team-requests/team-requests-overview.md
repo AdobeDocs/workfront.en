@@ -4,7 +4,7 @@
 
 ## Understand team requests
 
-Team requests are found in the People area in the Team Requests tab. 
+Team requests are found in the People area in the Team Requests tab.  
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ A team request represents a pending work item that is not assigned to a specific
 
 ## Understand&nbsp;the Ready to Start and All subtabs
 
-There are two subtabs on the Team Requests tab: Ready to Start and All. The Ready to Start subtabshows only tasks and issues that meet all of the following criteria:
+There are two subtabs&nbsp;on the Team Requests tab: Ready to Start&nbsp;and All. The Ready to Start subtab&nbsp;shows only tasks and issues that meet all of the following criteria:
 
 * All predecessors have met the&nbsp;conditions for their&nbsp;predecessor dependency types.  
   For example, if the type of predecessor relationship is&nbsp;Finish-Start (predecessor task must finish before the dependent task can start), the predecessor must be&nbsp;marked as Complete. (For more information about predecessor dependency types, see [Overview of task dependency types](../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).)
@@ -34,4 +34,4 @@ There are two subtabs on the Team Requests tab: Ready to Start and All. The Read
 >
 >If the task meets the first three criteria and has a Handoff date within two weeks of the current date, it will show as Ready to Start even if the Planned/Projected dates are further out than two weeks. If the task doesn't have a Handoff date, then the Planned/Projected dates must be within two weeks of the current date.
 
-The&nbsp;All subtabshows all tasks and issues on current projects that are assigned to the logged-in user or all tasks or issues assigned to the team.
+The&nbsp;All subtab&nbsp;shows all tasks and issues on current projects that are assigned to the logged-in user or all tasks or issues assigned to the team.

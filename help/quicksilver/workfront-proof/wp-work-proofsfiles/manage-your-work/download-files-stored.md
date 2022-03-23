@@ -21,12 +21,12 @@ You can download the original files from active, locked, and archived proofs to 
 
 ## Downloading Files From a Single Proof
 
-1. In the List or Thumbnail list layout, click the `More` button at the end of the row where the proof is listed.
+1. In the List or Thumbnail list layout, click the **More** button at the end of the row where the proof is listed.
 1. ![More_button_small.png](assets/more-button-small.png)
 
 1. If you need more information about these layouts, see [Page Layout on the Views Tab in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/basic-features/page-layout-view.md).
-1. Click  `Download original`in the menu that appears.  
-   You can also select the proof in the list, click the `More` button above the list, then click `Download`.  
+1. Click&nbsp;**Download original**in the menu that appears.  
+   You can also select the proof in the list, click the **More** button above the list, then click **Download**.  
    You can also download files:
 
   * While viewing the Proof Details page for the proof.  
@@ -47,11 +47,11 @@ Limit of batch download is currently 4GB
 
 To download original files from multiple proofs:
 
-1. Go to the `Folder details` page or any `Views` page that lists the proofs containing original files you want to download (see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) and [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)).
+1. Go to the **Folder details** page or any **Views** page that lists the proofs containing original files you want to download (see [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) and [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)).
 
 1. Check the box for every proof containing the files you want.  
 1. Batch downloading from archived proofs is currently not available.
-1. Click the `More` button above the list, then click `Download`.  
+1. Click the **More** button above the list, then click **Download**.  
    ![More_button_above_lists.png](assets/more-button-above-lists-350x42.png)
 
 1. When you receive an email notifying you that your batch download is prepared, click the download link.  

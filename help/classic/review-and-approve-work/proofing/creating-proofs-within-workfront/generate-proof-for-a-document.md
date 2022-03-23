@@ -46,34 +46,34 @@ You must have the following access to perform the steps in this article:
 ## Upload a document and create a proof
 
 1. Go to the project, task, or issue where you want to create a new proof.
-1. Click the `Documents`&nbsp;tab.
+1. Click the **Documents**&nbsp;tab.
 1. Click Documents ![](assets/document-icon.png) in the left panel.
-1. Click  `Add New`, then click `Proof` in the menu that appears.
+1. Click&nbsp;**Add New**, then click **Proof** in the menu that appears.
 
    >[!TIP]
    >
-   >You can enable the `Automatically generate proofs when uploading documents` setting in your user profile to automate this process. For more information, see [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
+   >You can enable the **Automatically generate proofs when uploading documents** setting in your user profile to automate this process. For more information, see [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) .
 
-1. In the `New proof` page that appears, continue with [Add files](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#add-files) in [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md).
+1. In the **New proof** page that appears, continue with [Add files](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#add-files) in [Configure a proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md).
 
 ## Upload a document and create a new version of a proof
 
 1. Go to the project, task, or issue where you want to create a new version of an existing proof.
-1. Click the `Documents`&nbsp;tab.
+1. Click the **Documents**&nbsp;tab.
 1. Select the document where you want to add a new version. 
-1. Click `Add New` > `Version` > `Proof`.
-1. In the `New Proof Version` page that appears, you can
+1. Click **Add New** > **Version**&nbsp;> **Proof**.
+1. In the **New Proof Version** page that appears, you can
 
-  * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 
-  * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+   * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 
+   * [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
 
 ## Use drag-and-drop to generate a&nbsp;simple proof for a new version
 
 You can drag-and-drop a document from your file system (such as your desktop) to create a new proof or a new version of an existing proof. The proof contains the following settings, depending on whether you are creating a new proof or a new version:
 
-* `New proof:` Creates a&nbsp;simple proof that is shared only with you.&nbsp;You can modify share settings after the proof is created as described in [Edit proof settings](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
+* **New proof:** Creates a&nbsp;simple proof that is shared only with you.&nbsp;You can modify share settings after the proof is created as described in [Edit proof settings](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md).
 
-* `New version of existing proof:` Creates a new version&nbsp;with the same proof settings as the previous version.
+* **New version of existing proof:** Creates a new version&nbsp;with the same proof settings as the previous version.
 
 To use drag-and-drop to generate a new proof or new proof version:
 
@@ -83,12 +83,12 @@ To use drag-and-drop to generate a new proof or new proof version:
 
 ## Create a proof for an existing document
 
-1. Go to the project, task, or issue where you want the proof, then click the `Documents` section.
-1. Hover over the document, then click the `Create Proof` link that appears below the document name.
+1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
+1. Hover over the document, then click the **Create Proof** link that appears below the document name.
 
    >[!NOTE]
    >
-   >If you have `Automatically generate proofs when uploading documents` enabled in your user profile, the system automatically creates a simple proof.
+   >If you have **Automatically generate proofs when uploading documents** enabled in your user profile, the system automatically creates a simple proof.
 
 1. Choose one of the following:  
 1. 

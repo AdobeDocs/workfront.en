@@ -34,9 +34,9 @@ The Flight plan visualization shows the following project details:
 
 * **Actual condition**: The thick, colored line also shows the condition of a project at different moments in time. The color of the line changes depending on the condition of the project:
 
-  * `Green`: On Target
-  * `Orange`: At Risk
-  * `Red`: In&nbsp;Trouble
+   * **Green**: On Target
+   * **Orange**: At Risk
+   * **Red**: In&nbsp;Trouble
 
   ![](assets/actual-condition-color.png)
 
@@ -87,7 +87,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Flight plan visualization
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -108,10 +108,10 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu in the upper-right corner of the Flight plan visualization, then select a new sorting option:
 
-  * `A - Z` 
-  * `Z - A` 
-  * `Planned completion date` 
-  * `Planned start date`
+   * **A - Z** 
+   * **Z - A** 
+   * **Planned completion date** 
+   * **Planned start date**
 
    All other visualizations on the page update to match your sorting selection.
 
@@ -123,16 +123,16 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. Hover over the project bar graph to see the blue date line, as well as the following details:
 
-  * Planned timeline
-  * Current condition
-  * Custom condition (if applicable)
+   * Planned timeline
+   * Current condition
+   * Custom condition (if applicable)
 
    ![](assets/project-bar-graph-350x143.png)
 
 1. (Optional) To export the visualization data, click the **Export** icon ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 1. To see more project information, click a project on the visualization to open the Burndown and Tasks in flight visualizations.
 

@@ -20,9 +20,9 @@ The following sections describe the difference in current functionality between 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Feature</span> </p> </th> 
-   <th> <p><span class="bold">My Work</span> </p> </th> 
-   <th> <p><span class="bold">Home</span> </p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th> <p><strong>My Work</strong> </p> </th> 
+   <th> <p><strong>Home</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -52,9 +52,9 @@ The following sections describe the difference in current functionality between 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Feature</span> </p> </th> 
-   <th> <p><span class="bold">My Work</span> </p> </th> 
-   <th> <p><span class="bold">Home</span> </p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th> <p><strong>My Work</strong> </p> </th> 
+   <th> <p><strong>Home</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -94,9 +94,9 @@ The following sections describe the difference in current functionality between 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Feature</span> </p> </th> 
-   <th> <p><span class="bold">My Work</span> </p> </th> 
-   <th> <p><span class="bold">Home</span> </p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th> <p><strong>My Work</strong> </p> </th> 
+   <th> <p><strong>Home</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -191,9 +191,9 @@ The following sections describe the difference in current functionality between 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Feature</span> </p> </th> 
-   <th> <p><span class="bold">My Work</span> </p> </th> 
-   <th> <p><span class="bold">Home</span> </p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th> <p><strong>My Work</strong> </p> </th> 
+   <th> <p><strong>Home</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -233,9 +233,9 @@ The following sections describe the difference in current functionality between 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Feature</span> </p> </th> 
-   <th> <p><span class="bold">My Work</span> </p> </th> 
-   <th> <p><span class="bold">Home</span> </p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th> <p><strong>My Work</strong> </p> </th> 
+   <th> <p><strong>Home</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -310,9 +310,9 @@ The following sections describe the difference in current functionality between 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Feature</span> </p> </th> 
-   <th> <p><span class="bold">My Work</span> </p> </th> 
-   <th> <p><span class="bold">Home</span> </p> </th> 
+   <th> <p><strong>Feature</strong> </p> </th> 
+   <th> <p><strong>My Work</strong> </p> </th> 
+   <th> <p><strong>Home</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 

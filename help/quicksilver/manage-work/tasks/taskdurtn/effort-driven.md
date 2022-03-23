@@ -13,7 +13,7 @@ Effort Driven is a duration type that you can set for a task in Adobe Workfront.
 
 ## Overview of the Effort Driven Duration Type
 
-Your Workfront `or a group administrator` can set the default Duration&nbsp;Type of your system or group as Effort Driven.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Your Workfront ```or a group administrator``` can set the default Duration&nbsp;Type of your system or group as Effort Driven.&nbsp;In this case, all new tasks will be created with this Duration Type. For information about changing your task and issue preferences as part of your system-level or group-level project preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 In this scenario, there is a risk of arbitrarily shortening the project plan, unless you, as the project manager, take the time to consider whether the task is actually an Effort Driven task.
 
@@ -25,7 +25,7 @@ Use Effort Driven to:
 
 * Track the total number of hours spent on a task when multiple resources are assigned.
 
-  As resources are added, the Planned Duration of the task decreases. (The principle of "many hands make light work" illustrates the effect that this `Duration Type has on the Planned Duration of a task.`)
+  As resources are added, the Planned Duration of the task decreases. (The principle of "many hands make light work" illustrates the effect that this ```Duration Type has on the Planned Duration of a task.```)
 
 The following sections provide more detailed information about how Workfront calculates the Planned Duration of an Effort Driven task and the effect that adding resources has to the task with this Duration Type.
 
@@ -91,10 +91,10 @@ The following table illustrates how the Planned Duration changes with adding res
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p><span class="bold">Number of Assignees (each 100% allocated)</span> </p> </th> 
-   <th> <p><span class="bold">Duration</span> </p> </th> 
-   <th> <p><span class="bold">Planned Hours</span> </p> </th> 
-   <th><span class="bold"> Planned Duration</span> </th> 
+   <th> <p><strong>Number of Assignees (each 100% allocated)</strong> </p> </th> 
+   <th> <p><strong>Duration</strong> </p> </th> 
+   <th> <p><strong>Planned Hours</strong> </p> </th> 
+   <th><strong>Planned Duration</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -127,6 +127,11 @@ The following table illustrates how the Planned Duration changes with adding res
 For information about changing the Duration Type of a task, see [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
-Go to a task for which you want to change the Duration Type. Click Task Details in the left panel, then in the Overview area click Duration Type. Select Effort Driven from the drop-down menu. Click Save Changes.
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1">Go to a task for which you want to change the Duration Type.</li>
+<li value="2"> Click <strong>Task Details</strong> in the left panel, then in the Overview area click <strong>Duration Type</strong>.  </li>
+<li value="3"> <p>Select <strong>Effort Driven</strong> from the drop-down menu.</p> </li>
+<li value="4">Click <strong>Save</strong><strong>Changes</strong>.</li>
+</ol>
 -->
 

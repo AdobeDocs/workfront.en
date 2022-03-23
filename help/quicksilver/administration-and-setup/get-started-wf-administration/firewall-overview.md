@@ -97,14 +97,18 @@ Provide your network administrator with the following information:
 
 ### View your organization's cluster and Workfront plan
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **System** in the left panel
 1. To view your cluster, Select **Customer Info**.
 
    Your cluster displays near the upper-right of the **Basic Info** section.
 
+   ![](assets/locate-cluster-350x189.png)
+
 1. To view your Workfront plan, select **Licenses**.
 
    Your plan displays near the bottom of the page.
+
+   ![](assets/locate-plan-350x162.png)
 

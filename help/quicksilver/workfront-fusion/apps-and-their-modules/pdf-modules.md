@@ -39,7 +39,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -48,7 +52,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -218,8 +229,8 @@ This action module takes multiple PDF&nbsp;files and combines them into a single
     <ol> 
      <li value="1"> <p>Click Add a Document</p> </li> 
      <li value="2"> <p>In the Source file field, select the module that outputs the document you want to include, or map the source file's name and data. </p> </li> 
-     <li value="3"> <p>(Optional) If you want to include only certain pages from the source file, for each page range that you want to add, click <span class="bold">Add item</span> in the Pages field, then enter the first and last pages of the page range to include, and click <span class="bold">Add</span>. You can include more than one page range from a single document.</p> </li> 
-     <li value="4"> <p>Click <span class="bold">Add</span>. </p> </li> 
+     <li value="3"> <p>(Optional) If you want to include only certain pages from the source file, for each page range that you want to add, click <strong>Add item</strong> in the Pages field, then enter the first and last pages of the page range to include, and click <strong>Add</strong>. You can include more than one page range from a single document.</p> </li> 
+     <li value="4"> <p>Click <strong>Add</strong>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -345,7 +356,7 @@ This tool converts an HTML&nbsp;file to a PDF file.
   </tr> 
   <tr> 
    <td role="rowheader">JSON</td> 
-   <td> <p>If your HTML references JavaScript variables, you can include those variables here. </p> <p>For each variable, click <span class="bold">Add item</span> and include the variable's key and value.</p> <p>Note:   
+   <td> <p>If your HTML references JavaScript variables, you can include those variables here. </p> <p>For each variable, click <strong>Add item</strong> and include the variable's key and value.</p> <p>Note:   
      <ul> 
       <li> <p>When creating a PDF from a ZIP file, the source collateral must include a script element such as: &lt;script src='./json.js' type='text/javascript'&gt;&lt;/script&gt; </p> </li> 
       <li> <p>When creating a PDF from a URL, the content of this JSON object is injected into the browser VM before the page is rendered. </p> </li> 
@@ -542,7 +553,7 @@ This module allows you to selectively rotate or delete pages in a PDF document. 
   </tr> 
   <tr> 
    <td role="rowheader">Pages</td> 
-   <td> <p>For each page range you want to delete, click <span class="bold">Add</span> and then enter the page range's first and last page. </p> <p>Note:   
+   <td> <p>For each page range you want to delete, click <strong>Add</strong> and then enter the page range's first and last page. </p> <p>Note:   
      <ul> 
       <li> <p>You can use negative numbers to count back from the end of the document. The last page of a document is -1, the second to the last page is -2, and so on.</p> </li> 
       <li> <p>To delete a single page, set the same page number as both the start and end of the range.</p> </li> 
@@ -647,7 +658,11 @@ This tool removes security (password protection) from a PDF document.
  </col> 
  <col> 
  </col> 
- <tbody> Connection Select the connection to use for this module. You do not need an Adobe account to create a PDF Services connection. For more information, see You do not need an Adobe account in this article. 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>Select the connection to use for this module.</p> <p>You do not need an Adobe account to create a PDF&nbsp;Services connection. For more information, see <a href="#you" class="MCXref xref">You do not need an Adobe account</a> in this article.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Source file</td> 
    <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> <p>The source file must be in PDF format.</p> </td> 

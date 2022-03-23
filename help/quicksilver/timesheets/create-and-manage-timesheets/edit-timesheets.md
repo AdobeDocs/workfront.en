@@ -39,14 +39,39 @@ You must have the following to perform the steps in this article:
 
 ## Edit timesheets
 
-1. Click the Main Menu icon in the upper-right corner of Adobe Workfront, then click Timesheets. 
-1. (Conditional and optional) In the Production environment, do the following to modify the filter in the list of timesheets: (Optional) To modify the filter in the list of timesheets, do the following:
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**.
+1. 
 
-  1. Click `Filter` to apply the default filter and display timesheets for people in your teams.
+   <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   (Conditional) Depending on which environment you are editing the timesheet in, select from the following:&nbsp;In the Production environment,
+   </MadCap:conditionalText>
+   -->
+
+   Click **All Timesheets** in the left panel.
+
+1. The timesheet filter is prepopulated with the teams you belong to. 
+1. ![](assets/all-timesheets-page-with-preselected-teams-default-old-nwe-350x255.png)
+
+1. ```<li> <!--  <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">In the Preview environment, the <strong>All</strong> filter is selected by default. </p> --> </li>```
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/timesheet-list-one-timesheet-selected-nwe-350x70.png" style="width: 350;height: 70;"> </img> </p>
+   -->
+
+1. 
+
+   <!--
+   (Conditional and optional) In the Production environment, do the following to modify the filter in the list of timesheets:
+   -->
+
+   (Optional) To modify the filter in the list of timesheets, do the following:
+
+  1. Click **Filter** to apply the default filter and display timesheets for people in your teams.
 
      Or
 
-     Click `Reset Filter` to clear the filter selection and add new filtering criteria. 
+     Click **Reset Filter** to clear the filter selection and add new filtering criteria. 
   
   1. Select from the following filtering options:
 
@@ -56,13 +81,43 @@ You must have the following to perform the steps in this article:
      | Status |Displays timesheets associated with the status that you specify. |
      | Time Period |Displays timesheets that include the time period you select. |
 
-  1. Click  `Filter` after defining your filter criteria.
+  1. Click&nbsp;**Filter** after defining your filter criteria.
 
      >[!TIP]
      >
      >Leaving the filter criteria blank and clicking Filter displays all timesheets in the system.
 
-1. (Optional) Click the `View` or **Grouping ** icons to apply a different view or grouping or to create a new one.
+   <!--
+   <p>(Conditional and optional) In the Preview environment, do one of the following to update the filter in the list of timesheets:</p>
+   <ul>
+   <li> <p>Select <strong>My Timesheet Approvals</strong> in the upper-right corner of the page to view only timesheets that you approve</p> <p>Or</p> <p>Select <strong>My Timesheets</strong> to view only your timesheets. </p> <p>This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.</p> <p> <img src="assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png" style="width: 350;height: 58;"> </img> </p> </li>
+   <li> <p>Click the Filter icon <img src="assets/filter-nwepng.png"> to apply a different filter, or create a new one.</p> </li>
+   </ul>
+   -->
+
+1. (Optional)&nbsp;Click 
+
+   <!--
+   the
+   -->
+
+   **View**
+
+   <!--
+
+   -->
+
+   or **Grouping **
+
+   <!--
+
+   -->
+
+   <!--
+   icons
+   -->
+
+   to apply a different view or grouping or to create a new one.
 
    For information about creating filters, views, or groupings, see the following articles:
 
@@ -70,7 +125,19 @@ You must have the following to perform the steps in this article:
   * [Create or edit views in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md) 
   * [Create groupings in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Select one or several timesheets, then click the `Edit` ``icon QS at the top of the timesheet list. 
+1. Select one or several timesheets, then click 
+
+   <!--
+   the
+   -->
+
+   **Edit** ``````
+
+   <!--
+   <span class="preview">icon <img src="assets/edit-icon.png">QS</img></span>
+   -->
+
+   at the top of the timesheet list. 
 1. View or specify the following information:
 
    <table cellspacing="0"> 
@@ -78,27 +145,37 @@ You must have the following to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Owner</span> </td> 
+      <td role="rowheader"><strong>Owner</strong> </td> 
       <td> <p>This is the name of the user for which the timesheet was created.&nbsp;You cannot edit this field. </p> <p>The field does not display when you select multiple timesheets. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Start Date</span> </td> 
+      <td role="rowheader"><strong>Start Date</strong> </td> 
       <td>This is the start date of the timesheet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">End Date</span> </td> 
+      <td role="rowheader"><strong>End Date</strong> </td> 
       <td> This is the end date of the timesheet.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Approvers</span> </td> 
-      <td> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with administrative access to Timesheets can be set as approvers. </p> <p>For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Start entering the names of the timesheet approvers and select them when they appear&nbsp;in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <span class="bold">Closed</span> and it disappears from the timesheet approvals list of all the remaining approvers.</p> </td> 
+      <td role="rowheader"><strong>Approvers</strong> </td> 
+      <td> <p>Approvers are&nbsp;users who approve the timesheet for the users associated with the timesheet. Only users with administrative access to Timesheets can be set as approvers. </p> <p>For more information about timesheet administrative rights, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p>Start entering the names of the timesheet approvers and select them when they appear&nbsp;in the list.</p> <p>You can have multiple approvers on a timesheet. In this case, after&nbsp;one of the approvers approves the timesheet, the timesheet is marked as <strong>Closed</strong> and it disappears from the timesheet approvals list of all the remaining approvers.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Can edit time</span> </td> 
+      <td role="rowheader"><strong>Can edit time</strong> </td> 
       <td> <p>Select this option if you want to allow approvers to edit hours on the timesheet.</p> <p>This option is not available when you select multiple timesheets. </p> </td> 
-     </tr> Overtime You can choose to hide the Overtime box on the timesheet. This option is disabled by default. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader"><span style="font-weight: bold;">Overtime</span> </td> 
+      <td> <p>You can choose to hide the Overtime box on the timesheet.</p> <p>This option is disabled by default.</p> </td> 
+     </tr> 
     </tbody> 
    </table>
 
-1. Click `Save Changes` Save.
+1. Click **Save Changes** 
+
+   <!--
+   Save
+   -->
+
+   .
 

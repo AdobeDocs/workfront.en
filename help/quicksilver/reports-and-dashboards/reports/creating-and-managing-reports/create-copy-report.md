@@ -44,16 +44,18 @@ You must have the following access to perform the steps in this article:
 
 If you want to make a copy of a report that you are the owner of, do the following:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Reports, then All Reports. 
+1. Click **Reports**, then**All Reports**. 
 1. Open a report.
-1. Click `Report Actions`, then `Copy`.
+1. Click **Report Actions**, then **Copy**.
 
    >[!TIP]
    >
    >If the report is a default report, the Copy option does not appear in the Report Actions menu.  
    >For information on how to create a copy of a default report, see [Create a new version of a report](#saving-default-reports-as-new-reports).
+
+   ![Copy report](assets/nwe-fulllistofreportactions-2022.png)
 
    A copy of the original report is created with the default name of *Copy of [Name of the original report]*. For example, the report "Q4 Completed Tasks" would have "Copy of Q4 Completed Tasks" as the name.
 
@@ -63,7 +65,7 @@ If you want to make a copy of a report that you are the owner of, do the followi
    >
    >If you deselect the title before typing the new name, select the report title, delete the name, then enter the new name.
 
-1. (Optional) To share the new version of the report with other users, click `Report Actions`, then `Sharing`.
+1. (Optional) To share the new version of the report with other users, click **Report Actions**, then **Sharing**.
 
    >[!NOTE]
    >
@@ -75,30 +77,33 @@ If you want to make a copy of a report that you are the owner of, do the followi
    To delete the original report, do the following:
 
   1. Navigate to the report.
-  1. Click `Report Actions`, then `Delete`.
+  1. Click **Report Actions**, then **Delete**.
   
-  1. Click `Yes, Delete It` to confirm that you want to delete the report.
+  1. Click **Yes, Delete It** to confirm that you want to delete the report.
 
 ## Create a new version of a report
 
 If you want to create a copy of a default report, do the following:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Reports, then All Reports. 
+1. Click **Reports**, then**All Reports**. 
 1. Click the name of a default report to open it.
-1. Click `Report Actions`, then `Edit`.
+1. Click **Report Actions**, then **Edit**.
+
+   ![Edit report](assets/nwe-reportactionsfordefaultreport-2022.png)
+
 1. Make any modifications you need to in the following tabs of the report:
 
-  * `Columns (View)`: For more information about customizing views, see the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
-  * `Groupings`: For more information about customizing groupings, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-  * `Filters`: For more information about customizing filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-  * `Chart`: For more information about customizing a report chart, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  * **Columns (View)**: For more information about customizing views, see the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  * **Groupings**: For more information about customizing groupings, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  * **Filters**: For more information about customizing filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  * **Chart**: For more information about customizing a report chart, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-1. In the upper-right corner, click `Report Settings`.
-1. In the `Report Title` field, give the report a new name.
-1. Click `Done`.
-1. Click `Save as New Report`.
+1. In the upper-right corner, click **Report Settings**.
+1. In the **Report Title** field, give the report a new name.
+1. Click **Done**.
+1. Click **Save as New Report**.
 
-1. (Optional) To share the new version of the report with other users, click `Report Actions`, then `Sharing`.
+1. (Optional) To share the new version of the report with other users, click **Report Actions**, then **Sharing**.
 

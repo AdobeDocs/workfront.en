@@ -45,7 +45,7 @@ When you create a project, Workfront applies a set of default settings to it. Fo
 
 Consider the following:
 
-* As a Workfront administrator `or a group administrator`, you can configure the default settings for a new project when configuring Project Preferences.
+* As a Workfront administrator ```or a group administrator```, you can configure the default settings for a new project when configuring Project Preferences.
 * Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
 * If you create a project using a template, the settings from the template take precedence over the settings established by the Workfront or group administrator.
 
@@ -77,44 +77,47 @@ You can create a project in Workfront by using one of the following methods:
 
   For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
 
-* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner .
+* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. This is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Adobe Workfront Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md) .
 
 ## Create a project from scratch
 
 1. Do one of the following:
 
-  * Click the Main Menu , click Projects, then expand New Project.
-  * Go to a portfolio, then expand New Project.
+  * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**. 
+  * Go to a portfolio, then expand **New Project**.
 
     >[!TIP]
     >
     >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
 
-  * Go to a program, then expand New Project.
+  * Go to a program, then expand **New Project**.
 
     >[!TIP]
     >
     >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
 
-1. Click `New Project` if you want to create a project from scratch.
+  * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](view-manage-projects-groups-area.md).
+  * When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template.
+
+1. Click **New Project** if you want to create a project from scratch.
 1. Enter a name for your project. Press Enter to save the name.
 
    The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
 
-1. Click `Start Adding` `Tasks`.
+1. Click **Start Adding** **Tasks**.
 
    Or
 
-   Click `New Task` to add tasks to the project and assign resources to them.   
+   Click **New Task** to add tasks to the project and assign resources to them.   
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details, by clicking the More menu and then Edit next to the name of the project.
+1. Edit the project details, by clicking the**More menu** and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
 
-   The `Edit Project` dialog box opens.
+   The **Edit Project** dialog box opens.
 
    For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Optional) After configuring the project settings and add the tasks, you can change the status of the project to `Current`.
+1. (Optional) After configuring the project settings and add the tasks, you can change the status of the project to **Current**.
 
    This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
 

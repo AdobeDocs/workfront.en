@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -268,7 +279,7 @@ This module searches for issues that match your search criteria.
   </tr> 
   <tr> 
    <td role="rowheader">Sort direction</td> 
-   <td> <p>Select ascending or descending. </p> <p>For dates, selecting <span class="bold">descending </span>will return the most recent date first. </p> <p>For number of comments, selecting <span class="bold">descending </span>will return the issue with the highest number of comments first.</p> </td> 
+   <td> <p>Select ascending or descending. </p> <p>For dates, selecting <strong>descending</strong>will return the most recent date first. </p> <p>For number of comments, selecting <strong>descending</strong>will return the issue with the highest number of comments first.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Query</td> 
@@ -553,26 +564,26 @@ This module lists all comments on the specified issue.
 </table>
 
 <!--
-Troubleshooting
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Troubles"></a>Troubleshooting</h2>
 -->
 
 <!--
-Module does not receive any events
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Module does not receive any events</h3>
 -->
 
 <!--
-If a module does not receive any events, check the webhook settings in Github and make sure that:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">If a module does not receive any events, check the webhook settings in Github and make sure that:</p>
 -->
 
 * 
 
   <!--
-  You have set the correct type of event that the chosen module should receive
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have set the correct type of event that the chosen module should receive</p>
   -->
 
 * 
 
   <!--
-  You have entered the correct Payload URL
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You have entered the correct Payload URL</p>
   -->
 

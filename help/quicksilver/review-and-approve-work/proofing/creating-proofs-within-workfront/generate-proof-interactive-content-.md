@@ -56,10 +56,10 @@ Once you add interactive content in a ZIP file to a proof, Adobe Workfront&nbsp;
   * In the case of ZIP files created in iOS, the tool automatically identifies the right folder where the content is placed.
 
 1. Go to the project, task, or issue where you want to upload the ZIP file.
-1. Click `Documents`&nbsp;in the left panel .
-1. Click `Add New`, then click `Proof` in the menu that appears.
-1. In the `Add Files`section, drag and drop or browse for the ZIP&nbsp;file you need.
-1. Click `Create proof` to create a simple proof with no review process.  
+1. Click **Documents**&nbsp;in the left panel .
+1. Click **Add New**, then click**Proof** in the menu that appears.
+1. In the **Add Files**section, drag and drop or browse for the ZIP&nbsp;file you need.
+1. Click **Create proof** to create a simple proof with no review process.  
    or  
    Continue by configuring an advanced proof:
 

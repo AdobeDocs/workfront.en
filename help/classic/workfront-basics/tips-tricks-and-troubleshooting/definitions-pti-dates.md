@@ -108,6 +108,6 @@ Use the Log Time option for projects, tasks, and issues to indicate how much act
 >
 >We recommend logging time on working tasks and issues, rather than parent tasks or projects. Time logged on the working tasks rolls up to the parent tasks and the project as Actual Hours for the parent tasks and the project. Time logged on issues rolls up to the project as Actual Hours for the project.
 
-The date when you log the time is the same as the Hour Entry Date field on the hour entry. You can log time in the project, task, or issue Updates tabor in the Hours tab. When logging time in the Hours tab, you can manually specify the Hour Entry Date and the user the hours belong to.
+The date when you log the time is the same as the Hour Entry Date field on the hour entry. You can log time in the project, task, or issue Updates tab or in the Hours tab . When logging time in the Hours tab , you can manually specify the Hour Entry Date and the user the hours belong to.
 
 For more information, see [Log time](../../timesheets/create-and-manage-timesheets/log-time.md). 

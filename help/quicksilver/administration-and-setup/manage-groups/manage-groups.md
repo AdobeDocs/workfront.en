@@ -17,5 +17,6 @@ This section contains the following subsections:
 * [Create and manage groups](../../administration-and-setup/manage-groups/create-and-manage-groups/create-and-manage-groups.md) 
 * [Create and manage subgroups](../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-and-manage-subgroups.md) 
 * [Group roles](../../administration-and-setup/manage-groups/group-roles/group-roles.md) 
+* Work with a group’s objects
 * [Manage group statuses](../../administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
 

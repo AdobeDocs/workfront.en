@@ -37,25 +37,29 @@ You must have the following:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 <!--
-Note: If your Workfront account is integrated with a Workfront Proof Premium account, the system automatically generates proofs only for new documents, not for new document versions.
+<note type="note">
+If your Workfront account is integrated with a Workfront Proof Premium account, the system automatically generates proofs only for new documents, not for new document versions.&nbsp;
+</note>
 -->
 
 ## Configure whether proofs are&nbsp;automatically generated for a single user
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Users` ![](assets/users-icon-in-main-menu.png). 
-1. Select a user with proofing access, then click Edit. 
-1. In the `Preferences` section, enable or disable the `Automatically generate proofs when uploading documents` checkbox.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Select a user with proofing access, then click **Edit**. 
+1. In the **Preferences**&nbsp;section, enable or disable the **Automatically generate proofs when uploading documents** checkbox.
 
    ![](assets/autogenerate-proofs-350x216.png)
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 ## Configure whether proofs are&nbsp;automatically generated for multiple users
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Users` ![](assets/users-icon-in-main-menu.png). 
-1. In the `Preferences` section, enable `Automatically generate proofs when uploading documents` checkbox, then select `Yes` or `No`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Select users with proofing access, then click **Edit**.
+1. If all users do not have proofing access, the Automatically generate proofs when uploading documents option does not appear.
+1. In the **Preferences**&nbsp;section, enable **Automatically generate proofs when uploading documents** checkbox, then select **Yes** or **No**.
 
    ![](assets/autogenerate-proofs-bulk-350x285.png)
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

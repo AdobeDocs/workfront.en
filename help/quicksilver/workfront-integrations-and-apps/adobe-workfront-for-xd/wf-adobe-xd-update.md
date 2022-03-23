@@ -43,7 +43,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or Plan 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or Plan</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -65,16 +69,16 @@ You must have the following access to perform the steps in this article:
 
 ## Post an update
 
-1. Click the `Menu` icon in the top-right corner, then select `Work List`. You can also use the menu to navigate to parent objects.
+1. Click the **Menu** icon in the top-right corner, then select **Work List**. You can also use the menu to navigate to parent objects.
 
    ![](assets/menu-350x627.png)
 
-1. From the `Work List`, select the work item you need to post an update to.
-1. Click the `Update` icon in the navigation bar.  
+1. From the **Work List**, select the work item you need to post an update to.
+1. Click the **Update** icon in the navigation bar.  
    ![](assets/update-icon---xd-350x476.png)  
 
-1. Click `New Update`.
+1. Click **New Update**.
 1. Type your update.
 1. (Optional) To tag a user, type the @ symbol and the user's name, then choose their name from the drop-down menu.
-1. Click `Submit`. Updates are synced with the Adobe Workfront web application in real time.
+1. Click **Submit**. Updates are synced with the Adobe Workfront web application in real time.
 

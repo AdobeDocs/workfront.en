@@ -41,11 +41,17 @@ You must have the following access to perform the steps in this article:
 
 ## Reset your password in Adobe Workfront
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
-1. Click the More menu , then click Edit.
-1. In theEdit Person box that displays, under `Personal Info`, click `Reset Password`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture.
 
-   If your organization has integrated Workfront with an SSO solution, you may be routed to reset your passwords through your SSO system when you click `Reset Password`.&nbsp;This resets your SSO password which affects logging in to all your other applications inside your organization.
+   ![](assets/nwe-open-profile-from-main-menu-350x564.png)
+
+1. Click the **More menu** ![](assets/more-icon.png), then click **Edit**.
+
+1. In the**Edit Person** box that displays, under **Personal Info**, click **Reset Password**.
+
+   ![](assets/edit-person-box-350x196.jpg)
+
+   If your organization has integrated Workfront with an SSO solution, you may be routed to reset your passwords through your SSO&nbsp;system when you click **Reset Password**.&nbsp;This resets your SSO password which affects logging in to all your other applications inside your organization.
 
 1. Type your old password, then type the new password you want twice.
 
@@ -57,5 +63,5 @@ You must have the following access to perform the steps in this article:
 
    Password rules might be more strict than this, depending on configuration settings set by your Workfront administrator.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

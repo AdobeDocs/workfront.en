@@ -40,11 +40,11 @@ You must have the following to perform the steps in this article:
 
 ## Add filters, views, and groupings
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Interface` > `List Controls`.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Interface** > **List Controls**.  
 
-1. Click `Edit List Controls`.
-1. In the `Object Type` drop-down `menu`, click the object `type for which you want to filters, views, and groupings`.
+1. Click **Edit List Controls**.
+1. In the **Object Type** drop-down ```menu```, click the object ```type for which you want to filters, views, and groupings```.
 
    Four columns display, containing the following:
 
@@ -76,20 +76,20 @@ You must have the following to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Add Filter`, `Add View`, or `Grouping`.
+1. Click **Add Filter**,**Add View**, or**Grouping**.
 
-   If you have custom tabs built before 2012 and the object is a project, a task or an issue, you can also click `Add Custom Tab` to add custom tabs to the list controls.
+   If you have custom tabs built before 2012 and the object is a project, a task or an issue, you can also click **Add Custom Tab** to add custom tabs to the list controls.
 
-1. In the `Search Filters` box that displays, start typing the name of a filter, view, grouping, or custom tab, then click `Search`.
+1. In the **Search Filters** box that displays, start typing the name of a filter, view, grouping, or custom tab, then click **Search**.
 
    Or
 
-   Simply click `Search`, to list all existing filters, views, groupings, or custom tabs.&nbsp;
+   Simply click **Search**, to list all existing filters, views, groupings, or custom tabs.&nbsp;
 
    You must have at least one custom tab built before 2012 in the system before you can see any results when searching for custom tabs.
 
 1. Click the plus sign to the left of the name of a filter, view, grouping, or custom tab that you want to add in your list controls.
-1. Click `Save`.
+1. Click **Save**.
 
    All the users in the system can find the filters, views, and groupings in their drop-down menus at the top of lists that display the selected object. In the case of custom tabs, they can now add the custom tabs in their interface, for the object specified.&nbsp;
 
@@ -101,11 +101,11 @@ You can remove filters, views, and groupings, including most of the default ones
 >
 >At least one filter, one view, and one grouping must remain in your Workfront instance at all times. Without at least one, your lists and reports do not display. In order to assure that a Workfront administrator does not inadvertently delete all of the filters, views, or groupings, the following defaults can’t be removed: Standard view, All filter, and Nothing grouping.
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Interface` > `List Controls`.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Interface** > **List Controls**.  
 
-1. Click `Edit List Controls`.
-1. In the `Object Type` drop-down menu, click your object type.
+1. Click **Edit List Controls**.
+1. In the **Object Type** drop-down menu, click your object type.
 
    Four columns display, containing the following:
 
@@ -138,5 +138,5 @@ You can remove filters, views, and groupings, including most of the default ones
    </table>
 
 1. Click the trash can button to the left of a the name of a filter, view, grouping, or custom tab.
-1. Click `Save` to remove&nbsp;the filter, view, grouping, or custom tab from&nbsp;the list controls for the selected object.
+1. Click **Save** to remove&nbsp;the filter, view, grouping, or custom tab from&nbsp;the list controls for the selected object.
 

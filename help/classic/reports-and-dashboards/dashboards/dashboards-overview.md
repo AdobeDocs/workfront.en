@@ -12,5 +12,6 @@ description: This section contains the following subsections:
 This section contains the following subsections:
 
 * [Understand dashboards](../../reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md) 
-* [Create and manage dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)
+* [Create and manage dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md) 
+* Learning Path for reports and dashboards
 

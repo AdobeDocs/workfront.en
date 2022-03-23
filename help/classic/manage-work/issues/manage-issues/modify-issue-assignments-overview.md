@@ -11,12 +11,12 @@ description: You can assign issues to or unassign issues from users, teams, or j
 
 You can assign issues to or unassign issues from users, teams, or job roles. You can assign multiple resources at the same time, or just one resource. You can assign one issue at a time, or multiple issues in bulk. 
 
-` `**Tip: **`` You can assign multiple users or job roles, and you can assign only one team. `You can assign only active users, `job roles`, and teams.`
+``` ```**Tip: **`````` You can assign multiple users or job roles, and you can assign only one team. ```You can assign only active users, ```job roles```, and teams.```
 
-`If a user, `job role`, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:`
+```If a user, ```job role```, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following:```
 
-* `Reassign the work item to active resources.` 
-* `Associate the users in a deactivated team with an active team and reassign the work item to the active team.`
+* ```Reassign the work item to active resources.``` 
+* ```Associate the users in a deactivated team with an active team and reassign the work item to the active team.```
 
 This article contains general information about the impact of modifying issue assignments. For information about how to assign issues, see the following articles:
 

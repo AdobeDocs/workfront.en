@@ -45,27 +45,27 @@ When this option is enabled, static files and websites are available in a single
 
 To&nbsp;create a multi-page proof:
 
-1. Go to the project, task, or issue where you want the proof, then click the `Documents` section.
-1. Click `Add new` > `Proof`. 
+1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
+1. Click **Add new** > **Proof**. 
 1. Drag and drop the files or browse and select them from your file explorer. You can upload up to 50 files at a time. For information on file limits, see the [Considerations](#consider) section in this article.
 
    >[!NOTE]
    >
    >Interactive files, including videos and interactive websites, cannot be combined into a single proof.
 
-1. Under `Single proof`, enable the option, `Combine all compatible files into single proof`.
-1. In the  `Proof name`&nbsp;field, specify a new name for the combined proof.
+1. Under **Single proof**, enable the option, **Combine all compatible files into single proof**.
+1. In the&nbsp;**Proof name**&nbsp;field, specify a new name for the combined proof.
 1. (Optional) In list of files you have uploaded,&nbsp;reorder the files by dragging them. The order of the files is&nbsp;the page order of the combined&nbsp;proof.
-1. (Optional) To remove a single file from the New proof page, hover over the file and click the `Trash` icon that appears on the right.
+1. (Optional) To remove a single file from the New&nbsp;proof page, hover over the file and click the **Trash** icon that appears on the right.
 
    Or
 
-   To delete all uploaded files at once, click `Delete all`&nbsp;in the upper-right corner of the list.
+   To delete all uploaded files at once, click **Delete all**&nbsp;in the upper-right corner of the list.
 
 1. Once all of your files are uploaded, you must decide if you want to configure a basic proof or an automated proof:
 
-  * With a basic proof, you can add as many reviewers as you want to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it. To configure a basic proof, see [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
-  * With an automated proof, the proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. to configure an automated proof, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+   * With a basic proof, you can add as many reviewers as you want to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it. To configure a basic proof, see [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md).
+   * With an automated proof, the proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. to configure an automated proof, see [Create an advanced proof with an Automated workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
 ## Considerations
 

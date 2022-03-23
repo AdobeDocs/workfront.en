@@ -60,7 +60,16 @@ The following are possible using the Project Owner field:&nbsp;
   For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
-Update the Project Owner of a project Go to the project you want to update. Click Project Details in the left panel. Click the Edit icon in the upper-right corner of the Project Details area, then click Overview. Specify the name of a user for the Project Owner field. Only active users can be specified as Project Owners. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Update the Project Owner of a project</h2>
+<ol>
+<li value="1">Go to the project you want to update.</li>
+<li value="2"> Click <strong>Project Details</strong> in the left panel. </li>
+<li value="3"> Click&nbsp;the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;<strong>Overview</strong>.  </li>
+<li value="4"> <p>Specify the name of a user for the <strong>Project Owner</strong> field.</p> <p>Only active users can be specified as Project Owners.</p> </li>
+<li value="5"> Click&nbsp;<strong>Save Changes</strong>. </li>
+</ol>
+</div>
 -->
 
 ## Project sponsors
@@ -93,6 +102,15 @@ Consider the following when assigning a Project Sponsor:
   For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 <!--
-Update the Project Sponsor of a project Go to the Project you want to update. Click Project Details in the left panel. Click the Edit icon in the upper-right corner of the Project Details area, then click Overview. Specify the name of a user for the Project Sponsor field. Only active users can be specified as Project Sponsors. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Update the Project Sponsor of a project </h2>
+<ol>
+<li value="1">Go to the Project you want to update.</li>
+<li value="2"> Click <strong>Project Details</strong> in the left panel. </li>
+<li value="3"> Click&nbsp;the <strong>Edit</strong> icon <img src="assets/qs-edit-icon.png"> in the upper-right corner of the Project&nbsp;Details area, then click&nbsp;<strong>Overview</strong>.  </li>
+<li value="4"> <p>Specify the name of a user for the <strong>Project Sponsor</strong> field.</p> <p>Only active users can be specified as Project Sponsors.</p> </li>
+<li value="5"> Click&nbsp;<strong>Save Changes</strong>. </li>
+</ol>
+</div>
 -->
 

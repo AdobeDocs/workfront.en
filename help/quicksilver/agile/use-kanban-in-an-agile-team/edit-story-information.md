@@ -18,9 +18,9 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Information</span> </th> 
-   <th><span class="bold">Visible</span> </th> 
-   <th><span class="bold">Editable Inline</span> </th> 
+   <th><strong>Information</strong> </th> 
+   <th><strong>Visible</strong> </th> 
+   <th><strong>Editable Inline</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -31,7 +31,7 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
   </tr> 
   <tr> 
    <td> <p>The project name with a link directly to the project<br><!--
-      This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.
+      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">This link is displayed only on stories (parent tasks, not subtasks) when using the agile view on an iteration; it is not displayed when using an agile view on a project.</span>
      --></p> </td> 
    <td>✓&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -53,7 +53,7 @@ When viewing&nbsp;a story tile on the Kanban board, the information in the follo
   </tr> 
   <tr> 
    <td> <p>The color or category of the tile <!--
-      [Kanban]
+      <span class="wysiwyg-color-pink" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Kanban]</span>
      --></p> </td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -93,6 +93,11 @@ You must have the following access to perform the steps in this article:
 
 ## View and edit information on a story tile
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. Go to the Kanban&nbsp;board.
 1. Expand the story tile to view all fields associated with the story.
 

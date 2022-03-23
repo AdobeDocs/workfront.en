@@ -70,22 +70,22 @@ You must have a request that you or someone in your organization previously subm
 
 ## Copy and submit requests
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Requests`.
-1. (Conditional) If the Submitted section does not display by default, click `Submitted` in the left panel.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Requests**.
+1. (Conditional) If the Submitted section does not display by default, click **Submitted** in the left panel.
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
-  * Select it, then click the `Copy and submit as new` icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.
-  * Click the `More` menu ![](assets/more-icon.png) to the right of the request name, then click  `Copy and submit as new`
+  * Select it, then click the **Copy and submit as new** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.
+  * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click&nbsp;**Copy and submit as new**
 
     Or
 
-    Right-click on the selected request, then click `Copy and submit as new`.
+    Right-click on the selected request, then click **Copy and submit as new**.
 
     ![](assets/request-selected-more-menu-options-nwe-350x191.png)
 
     >[!TIP]
     >
-    >`When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.`
+    >```When you do not have access to create issues, you receive a warning that your administrator restricted you from creating requests.```
 
 1. (Optional) Update the following information, if needed:
 
@@ -96,26 +96,26 @@ You must have a request that you or someone in your organization previously subm
     >
     >If the path changes from the path of the original request, then the creator of the request queue modified the queue.
 
-1. (Optional) Update any information from the copied request. Depending on what fields the request queue creator enabled in the `New Issue Fields` section of the `Queue Details`&nbsp;subtab on the project, you might find&nbsp;any of the following fields:
+1. (Optional) Update any information from the copied request. Depending on what fields the request queue creator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Subject</span> </td> 
+      <td role="rowheader"><strong>Subject</strong> </td> 
       <td>Displays the name of the original request. Update it, if necessary.&nbsp;Otherwise, Workfront names the copied request <b>Copy of &lt;Name of original request&gt;</b>. This is a mandatory field.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>Displays the description of the original request. Update it, if necessary.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">URL</span> </td> 
+      <td role="rowheader"><strong>URL</strong> </td> 
       <td> <p>Displays the URL of the original request. Update it, if necessary.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Priority</span> </td> 
+      <td role="rowheader"><strong>Priority</strong> </td> 
       <td> <p>Specify the priority of your request. The priority should define how fast you think this request should be resolved. The default&nbsp;options are:</p> 
        <ul> 
         <li>None</li> 
@@ -126,7 +126,7 @@ You must have a request that you or someone in your organization previously subm
        </ul> <p>Your Workfront administrator can modify the names of priorities.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Severity</span> </td> 
+      <td role="rowheader"><strong>Severity</strong> </td> 
       <td> <p>Specify the severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default&nbsp;options are:</p> 
        <ul> 
         <li>Cosmetic</li> 
@@ -137,9 +137,13 @@ You must have a request that you or someone in your organization previously subm
        </ul> <p>Your Workfront administrator can modify the names of severities.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Primary Contact</span> </td> 
+      <td role="rowheader"><strong>Primary Contact</strong> </td> 
       <td>The Primary Contact of a request defaults to you, as you are the point person to address any questions pertaining to the request. However, you can change this to any other Workfront user.</td> 
-     </tr> Assignments* Indicate the name of an active user, job role, or a team that the request should be assigned to. Tip: You can specify only one team. Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader"><span>Assignments*</span> </td> 
+      <td> <p>Indicate the name of an active user, job role, or a team that the request should be assigned to. </p> <p>Tip: You can specify only one team. </p> <p>Depending on how the request queue was set up, you might be able to only assign the request to one or two types of resources, instead of all three. </p> <p>We recommend using Routing Rules for your Request Queues so that they can be automatically routed to the appropriate resources. </p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p>Note:  <p style="font-weight: normal;">* Depending on how the request queue was set up, you might be able to only assign one type of resource to the request (for example, users). If a routing rule is also associated to the request queue and it automatically routes the request to a different type of resource (for example, a team), your request is assigned to both the entity that you manually specify when submitting the request (users) and the resource specified in the routing rule (the team.)</p> <p style="font-weight: normal;">For more information, see the following articles:</p> 
         <ul> 
@@ -148,23 +152,23 @@ You must have a request that you or someone in your organization previously subm
         </ul> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Planned Hours</span> </td> 
+      <td role="rowheader"><strong>Planned Hours</strong> </td> 
       <td> <p>Estimate how many hours it would take for this request to complete.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Planned Start Date</span> </td> 
+      <td role="rowheader"><strong>Planned Start Date</strong> </td> 
       <td> <p>The date when work on this request should start.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Planned Completion Date</span> </td> 
+      <td role="rowheader"><strong>Planned Completion Date</strong> </td> 
       <td>The date when you would like for this request to be resolved.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Status</span> </td> 
+      <td role="rowheader"><strong>Status</strong> </td> 
       <td>The default status of a new request is "New." Your Workfront administrator might have changed the name of this&nbsp;status. You can also change the status to something else from this drop-down menu.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Documents</span> </td> 
+      <td role="rowheader"><strong>Documents</strong> </td> 
       <td> <p>Add documents to your request. The documents attached to the original request do not transfer to the copied request.</p> <p>Tip: Depending on how the request queue was set up, the Documents section might display before or after the custom fields.</p> <p> </p> </td> 
      </tr> 
     </tbody> 
@@ -172,12 +176,12 @@ You must have a request that you or someone in your organization previously subm
 
 1. (Optional) Update any information in the custom forms attached, if needed.
 
-   ` `**Tips: **``
+   ``` ```**Tips: **``````
 
   * All custom forms attached to the original request and the values included in the custom fields transfer to the copied request. This includes fields that contain logic.
   * You cannot remove custom forms from the copied request.
 
-1. Click  `Submit`.
+1. Click&nbsp;**Submit**.
 
    The copied request is submitted as a new request in the request queue you specified.
 

@@ -15,3 +15,6 @@ The duration of an issue is automatically calculated by Adobe Workfront and it c
 You can display the Duration of an issue in an issue report or the view of a list of issues.&nbsp;
 
 For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+
+![](assets/nwe-issue-duration-view-highlighted-350x73.png)
+

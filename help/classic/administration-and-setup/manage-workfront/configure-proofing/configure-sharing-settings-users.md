@@ -38,20 +38,22 @@ You must have the following:
 
 ## Configure sharing with other accounts&nbsp;
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof.   
-1. Click `Settings` > `Account settings`, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.    
 
-1. In the `Sharing` section, to the right of `Allow sharing with`, click `Setup`.
+1. Click **Settings** > **Account settings**, then click the **Settings** tab.
+
+1. In the **Sharing** section, to the right of **Allow sharing with**, click **Setup**.
 
 1. In the drop-down list that appears, select an option to specify whether you want to make proofs available to anyone, restrict the sharing of your proofs to your own account only, or restrict it to your own account and any partner accounts you're collaborating with.
-1. Click `Save.`
+1. Click **Save.**
 
 ## Configure visibility to all versions of a shared proof
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof.   
-1. Click `Settings` > `Account settings`, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.    
 
-1. In the `Sharing` section, to the right of `Recipients can view all versions`, select `Enable` or `Disable` to indicate whether you want to allow&nbsp;recipients to view all versions of a proof within the proofing viewer when the Proof URL is enabled.
+1. Click **Settings** > **Account settings**, then click the **Settings** tab.
+
+1. In the **Sharing** section, to the right of **Recipients can view all versions**, select **Enable** or **Disable** to indicate whether you want to allow&nbsp;recipients to view all versions of a proof within the proofing viewer when the Proof URL is enabled.
 
 ## Configure proof visibility based on workflow stage activity
 
@@ -65,22 +67,23 @@ You can specify when proofs with an automated workflow are visible to users who 
 
 To configure when proofs with an automated workflow are visible to users:
 
-1. From Workfront, click the Workfront Proof icon in the Global Navigation Bar to access Workfront Proof.   
-1. Click `Settings` > `Account settings`, then click the `Settings` tab.
+1. From Workfront, click the Workfront Proof icon ![](assets/workfront-proof-icon-checkmark.png) in the Global Navigation Bar to access Workfront Proof.    
 
-1. In the  `Sharing` section, enable or disable  `Proof visibility based on stage activation`.
+1. Click **Settings** > **Account settings**, then click the **Settings** tab.
+
+1. In the&nbsp;**Sharing**&nbsp;section, enable or disable&nbsp;**Proof visibility based on stage activation**.
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Disabled</span> (default)</td> 
+      <td role="rowheader"><strong>Disabled</strong> (default)</td> 
       <td>Proofs are visible to users at the time&nbsp;the proof is created.<br><p>Any user associated with a stage in the workflow for the proof can see the proof in search results immediately after the proof is created.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Enabled</span> </td> 
-      <td> <p>Proofs are visible to users only&nbsp;after the stage they are associated with becomes <span class="bold">active.</span></p> <p>Note:   
+      <td role="rowheader"><strong>Enabled</strong> </td> 
+      <td> <p>Proofs are visible to users only&nbsp;after the stage they are associated with becomes <strong>active.</strong></p> <p>Note:   
         <ul> 
          <li><em style="font-style: normal;">After you enable this option, existing proofs are still visible to users who could view it when it was created.</em> </li> 
          <li><em style="font-style: normal;">After a user gains access to a version of a proof (because the stage the user is associated with becomes active), the user can see only the version where the stage is activated. If a previous version never reached the stage the user is associated with, the user cannot see that version of the proof.&nbsp;</em> </li> 

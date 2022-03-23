@@ -33,7 +33,7 @@ By default, as a system administrator, you have access to the Preview Sandbox en
 
 ### Accessing the Preview Sandbox as a Stand-Alone Workfront Proof&nbsp;Customer
 
-1. Navigate to this URL:  `https://preview.proofhq.com`.
+1. Navigate to this URL:  ```https://preview.proofhq.com```.
 1. Log in using your Preview credentials.  
    Your Preview credentials should be the same as your Production credentials unless you changed them in Production after the Preview refresh happened. The logins are synchronized only when a refresh occurs, which takes place every weekend. They do not synchronize automatically.
 
@@ -44,10 +44,10 @@ As a system administrator, you can access the Workfront Proof&nbsp;Preview Sandb
 To access the Workfront Proof&nbsp;Preview Sandbox:
 
 1. Log in to your Workfront environment. 
-1. Click `Setup` in the Global Navigation bar. 
-1. Click `System`> `Preferences`.  
+1. Click **Setup** in the Global Navigation bar. 
+1. Click**System**>**Preferences**.  
 
-1. In the `Test Environments` section, click `Sandbox Preview`.  
+1. In the **Test Environments** section, click **Sandbox Preview**.  
 
 1. Log in with your Preview credentials.  
    Your Preview credentials should be the same as your Production credential unless you changed them in Production after the Preview refresh happened.&nbsp;The logins are synchronized only when a refresh occurs. They do not synchronize automatically. 

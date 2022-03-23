@@ -39,9 +39,9 @@ You must have the following access to perform the steps in this article:
 
 ## Locate the Portfolio Optimizer
 
-1. Go to the Projects area in the Global Navigation Bar. 
-1. Click the Portfolios tab and click the portfolio you want to view. 
-1. Click the Portfolio Optimization tab.
+1. Go to the **Projects** area in the Global Navigation Bar. 
+1. Click the **Portfolios** tab and click the portfolio you want to view. 
+1. Click the **Portfolio Optimization** tab.
 
    The Portfolio Optimizer displays.
 

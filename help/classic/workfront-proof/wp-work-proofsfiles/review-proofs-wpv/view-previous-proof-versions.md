@@ -27,5 +27,5 @@ To view a previous version:
    ![phq_viewer_version.png](assets/phq-viewer-version-350x184.png)
 
 1. In the list that appears, click the version you want to view.
-1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the `Unlock` icon in the left panel, then click `Yes, unlock`.
+1. (Optional) To unlock the version if you want users to be able to add comments or change a decision, if you have rights to do so, click the **Unlock** icon in the left panel, then click **Yes, unlock**.
 

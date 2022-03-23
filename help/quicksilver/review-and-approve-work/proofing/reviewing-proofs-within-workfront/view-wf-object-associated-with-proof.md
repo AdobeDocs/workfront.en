@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: View the Adobe Workfront object associated with a proof
 description: When you review a proof that is associated with a Adobe Workfront object (usually a project, task, or issue), you can access the associated Workfront object to view updates and related documents and better understand the wider context of the work you need to do.
+hidefromtoc: true
 ---
 
 # View the Adobe Workfront object associated with a proof
@@ -45,13 +46,13 @@ You must have the following access to perform the steps in this article:
 
 ## View the Adobe Workfront object associated with a proof
 
-1. In an email inviting you to review a proof, click `View details` to open the Document details page for the proof in Workfront.
+1. In an email inviting you to review a proof, click **View details** to open the Document details page for the proof in Workfront.
 
    ![](assets/view-details-link-in-proof-email-350x154.png)
 
    Or
 
-   With the proof open in the proofing viewer, click the `Go to Document details` icon in the upper-left corner.
+   With the proof open in the proofing viewer, click the **Go to Document details** icon in the upper-left corner.
 
    ![](assets/go-to-document-details-icon-btn-350x200.png)
 
@@ -59,7 +60,7 @@ You must have the following access to perform the steps in this article:
 
   * Access the proof's associated Workfront object.
 
-    For example, in this screenshot of the upper-left corner of the Document details page, the breadcrumb link `Back to August 18 issue` indicates that the proof is associated with the "August 18" Workfront object, which is an issue:
+    For example, in this screenshot of the upper-left corner of the Document details page, the breadcrumb link **Back to August 18 issue** indicates that the proof is associated with the "August 18" Workfront object, which is an issue:
 
     ![](assets/document-details-page---breadcrumb-to-associated-object-350x157.png)
 
@@ -67,7 +68,7 @@ You must have the following access to perform the steps in this article:
 
     The same is true if the proof is associated with other types of objects. For example, if the object is a task, the task name displays in the breadcrumb and you can click the breadcrumb to view information about the task.
   
-  * Go to the Proof details page for the proof by clicking `Details` in the panel on the right:
+  * Go to the Proof details page for the proof by clicking **Details** in the panel on the right:
 
     ![](assets/proof-details-link-on-doc-details-page-350x438.png)
 

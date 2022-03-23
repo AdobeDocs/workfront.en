@@ -15,12 +15,12 @@ The top navigation bar—which appears at the top of your screen in the new Adob
 ![](assets/global-navigation-bar-350x13.png)
 
 <!--
-
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/global-navigation-bar-2022-noshell-350x15.png" alt="Navigation bar" style="width: 350;height: 15;"> </p>
 -->
 
 ## Home icon
 
-The `Home` icon ![](assets/home-icon.png) takes you to the Home page, which is the default landing page. To learn more about Home, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+The **Home** icon ![](assets/home-icon.png) takes you to the Home page, which is the default landing page. To learn more about Home, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
 An Adobe Workfront administrator can customize the Home icon to match your company's brand. For more information, see [Brand your Adobe Workfront instance](../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
 
@@ -30,38 +30,38 @@ You can pin pages that you visit frequently so that they display within the top 
 
 ## Help menu
 
-The `Help` menu allows you to search for help with a specific task, find more information on using the new Adobe Workfront experience, view content related to the page you are currently on, or submit feedback about your experience.
+The **Help** menu allows you to search for help with a specific task, find more information on using the new Adobe Workfront experience, view content related to the page you are currently on, or submit feedback about your experience.
 
 To learn more about the Help menu, see [Access Adobe Workfront help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Favorites and Recents menu
 
-The `Favorites` icon ![](assets/favorites-icon-62x55.png) opens a list of pages in the system that you have favorited. You can add the page that you're currently on from within this menu. To see a list of places you have visited recently, you can click on the `Recents` tab.
+The **Favorites** icon ![](assets/favorites-icon-62x55.png) opens a list of pages in the system that you have favorited. You can add the page that you're currently on from within this menu. To see a list of places you have visited recently, you can click on the **Recents** tab.
 
 To learn more about favorites and recents, see [Recents and favorites in Adobe Workfront](../../workfront-basics/navigate-workfront/recent-and-favorites/recent-and-favorites.md).
 
 <!--
-Favorites menu
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Favorites menu</h2>
 -->
 
 <!--
-The Favorites icon opens a list of pages in the system that you have favorited. You can add the page that you're currently on from within this menu.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The <strong>Favorites</strong> icon <img src="assets/favorites-icon-62x55.png" style="width: 62;height: 55;" alt="Favorites"> opens a list of pages in the system that you have favorited. You can add the page that you're currently on from within this menu.</p>
 -->
 
 <!--
-To learn more about favorites, see View and manage favorites.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about favorites, see <a href="../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md" class="MCXref xref">View and manage favorites</a>.</p>
 -->
 
 <!--
-Recents menu
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Recents menu</h2>
 -->
 
 <!--
-The Recents icon opens a list of pages you have visited recently.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The <strong>Recents</strong> icon <img src="assets/recents-icon2-40x43.png" alt="Recents" style="width: 40;height: 43;"> opens a list of pages you have visited recently.</p>
 -->
 
 <!--
-To learn more about recents, see View recent items.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more about recents, see <a href="../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md" class="MCXref xref">View recent items</a>.</p>
 -->
 
 ## Notifications menu
@@ -72,26 +72,28 @@ To learn more about notifications, see [View and manage in-app notifications](..
 
 ## Main Menu
 
-The `Main Menu` icon ![](assets/main-menu-icon-16x12.png) 
+The **Main Menu** icon ![](assets/main-menu-icon-16x12.png) 
 
 <!--
-
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<span class="preview"><img src="assets/mainmenu-icon-2022-small.png" alt="Main Menu"> </span>
+</MadCap:conditionalText>
 -->
 
 opens the Main Menu, which allows you to navigate to a different area of Workfront.
 
 The options that are available in the Main Menu are dependent on:
 
-* `Layout template configurations`: To learn how a Workfront administrator can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+* **Layout template configurations**: To learn how a Workfront administrator can modify the Main Menu from a layout template, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-* `License type`: To learn the default configurations for different license types, see [Understand a Reviewer's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand a Worker's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
+* **License type**: To learn the default configurations for different license types, see [Understand a Reviewer's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) or [Understand a Worker's Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
 
-* `User customization`: To learn how to change your own Main menu configuration, see [Customize the Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
+* **User customization**: To learn how to change your own Main menu configuration, see [Customize the Main Menu in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/customize-global-navigation-bar.md).
 
 ![](assets/main-menu-options-350x568.png)
 
 <!--
-
+<p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/main-menu-options-2022-350x481.png" alt="Main menu options" style="width: 350;height: 481;"> </p>
 -->
 
 Each icon takes you to a different area of the new Adobe Workfront experience. To learn more about each area, see:
@@ -156,6 +158,6 @@ Below these options in the Main Menu, you can access:
 
 ## Search menu
 
-The `Search` icon ![](assets/search-icon.png) in the top-right corner of Workfront allows you to perform a basic search, restrict your search to a specific object, or use Advanced Search to search for a keyword for a specific object and use filters to limit your search to specific fields.
+The **Search** icon ![](assets/search-icon.png) in the top-right corner of Workfront allows you to perform a basic search, restrict your search to a specific object, or use Advanced Search to search for a keyword for a specific object and use filters to limit your search to specific fields.
 
 To learn more about search, see [Search Adobe Workfront](../../workfront-basics/navigate-workfront/search/search-workfront.md).

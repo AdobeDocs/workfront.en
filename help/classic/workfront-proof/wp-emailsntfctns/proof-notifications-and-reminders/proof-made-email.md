@@ -44,7 +44,7 @@ If you don't want this link to appear on your recipient's email, you should disa
 
 ## Disabling the Proof Made Email
 
-1. Click `Settings` > `Personal settings`, open the `Proofing defaults` tab, then click `Disable` next to `Email confirmation when proofs are ready`.
+1. Click **Settings** > **Personal settings**, open the **Proofing defaults** tab, then click **Disable** next to **Email confirmation when proofs are ready**.
 
 1. ![Proof_Made_-_proofing_defaults.png](assets/proof-made---proofing-defaults-350x103.png)
 

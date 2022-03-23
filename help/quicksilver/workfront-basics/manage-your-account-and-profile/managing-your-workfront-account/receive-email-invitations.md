@@ -50,20 +50,20 @@ As a new user, after you&nbsp;receive the invitation email, you&nbsp;can follow 
 
 To create a password for Workfront using the invitation email:
 
-1. Click `Get Started` in the invitation email from Workfront.
+1. Click **Get Started** in the invitation email from Workfront.
 
    For more information about receiving an invitation email, see [Receive email invitations](#receiving-email-invitations).
 
    ![New user screen from email invitation](assets/new-user-screen-from-invitation-adobe-350x292.png)
 
 1. Specify the following information:  
-   `First Name`: Your first name (it should be prefilled).  
-   `Last Name`: Your last name (it should be prefilled).  
-   `Title`: Your title in your organization.  
-   `Password`: Choose a password to log in to Workfront.  
-   `Confirm Password`: Confirm your Workfront password.&nbsp;
+   **First Name**: Your first name (it should be prefilled).  
+   **Last Name**: Your last name (it should be prefilled).  
+   **Title**: Your title in your organization.  
+   **Password**: Choose a password to log in to Workfront.  
+   **Confirm Password**: Confirm your Workfront password.&nbsp;
 
-1. Select `I accept the Terms and Conditions`.
-1. Click `Log Me In`.  
+1. Select **I accept the Terms and Conditions**.
+1. Click **Log Me In**.  
    This completes the creation of your user account in Workfront.&nbsp;
 

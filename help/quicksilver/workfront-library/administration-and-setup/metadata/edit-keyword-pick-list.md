@@ -13,15 +13,16 @@ As a Workfront Library administrator you can rename a keyword in the keyword pic
 
 When you rename a keyword in the picklist, the keyword is also edited in all assets tagged with the keyword.
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
-1. In the left panel, click `Setup`> `Keywords`.
-1. Hover over the keyword you want to rename, and click the `Edit` icon. 
-1. Type the new name for the keyword, then click `Save`.
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the left panel, click **Setup**> **Keywords**.
+1. Hover over the keyword you want to rename, and click the **Edit** icon. 
+1. Type the new name for the keyword, then click **Save**.
 
    The Rename Keyword dialog box displays.
 
-1. (Optional) To view all the assets tagged with the keyword, click `See all affected assets.`
+1. (Optional) To view all the assets tagged with the keyword, click **See all affected assets.**
 
    The tagged assets display in a new browser tab. To return to the Rename Keywords dialog box, close the tab.
 
@@ -36,5 +37,5 @@ When you rename a keyword in the picklist, the keyword is also edited in all ass
    >  
    >
 
-1. Click `Save and Apply`.
+1. Click **Save and Apply**.
 

@@ -4,6 +4,7 @@ product-area: documents
 navigation-topic: review-proofs-within-workfront
 title: Review a static proof
 description: You can review a proof that has been shared with you or a proof you have created.
+hidefromtoc: true
 ---
 
 # Review a static proof
@@ -42,7 +43,7 @@ You must have the following access to perform the steps in this article:
 ## Open and work with a proof
 
 1. Go to the document list that contains the proof you want to open.
-1. Hover over the document, then click  `Open proof`.
+1. Hover over the document, then click&nbsp;**Open proof**.
 
    You can proof static content in the Web Proofing Viewer or the Desktop Proofing Viewer. The viewer that opens depends on how your Adobe Workfront administrator has configured your organization's proofing viewers.
 
@@ -99,14 +100,14 @@ The thumbnails panel displays by default. You can hide or adjust the size of the
 * [Hide the thumbnails panel](#hiding-the-thumbnails-panel) 
 * [Adjust the size of the thumbnails panel](#adjusting-the-size-of-the-thumbnails-panel)
 
-#### `Hide the thumbnails panel`
+#### **Hide the thumbnails panel**
 
-1. Click the `Thumbnail` icon in the upper-left corner of the proofing viewer.  
+1. Click the **Thumbnail** icon in the upper-left corner of the proofing viewer.  
    ![hide_thumbnails_panel.png](assets/hide-thumbnails-panel-350x213.png)
 
 1. (Optional) Click the Thumbnail icon again to display the thumbnails panel.
 
-#### `Adjust the size of the thumbnails panel`
+#### **Adjust the size of the thumbnails panel**
 
 1. Mouse over the right edge of the thumbnails panel until the edge is highlighted and your mouse pointer changes.
 
@@ -141,13 +142,13 @@ You can search text within any proof&nbsp;that is created from any of the follow
 
 To search text within proof:
 
-1. Click the `Search document` icon above the proof.
+1. Click the **Search document** icon above the proof.
 
    ![Search_icon_text_in_viewer.png](assets/search-icon-text-in-viewer-350x185.png)
 
 1. In the search field that appears, type the text you want to search for.  
    The proofing viewer highlights the text you type within the proof.
-1. Click the `Up Arrow` and `Down Arrow` icons to the right of the `Search documents` box to cycle through the search results.
+1. Click the **Up Arrow** and **Down Arrow** icons to the right of the **Search documents** box to cycle through the search results.
 
 For information about searching the comment list, see [Search the comment list](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/create-manage-proof-comments.md#searching-the-comment-list) in&nbsp; [Create and manage proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/create-manage-proof-comments.md).
 
@@ -155,18 +156,18 @@ For information about searching the comment list, see [Search the comment list](
 
 You can measure an area within a proof.
 
-1. Click the `Measure an area` icon at the top of the proofing viewer.
+1. Click the **Measure an area** icon at the top of the proofing viewer.
 
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
-1. (Optional) Click  `Measurement markup color` to expand the color options, then click a color and `Opacity` that is easy to see on your proof.  
+1. (Optional) Click&nbsp;**Measurement markup color**&nbsp;to expand the color options, then click a color and **Opacity** that is easy to see on your proof.  
    ![](assets/selection-color-350x330.png)
 
    The default measurement tool color is red.
 
    The proofing viewer remembers your color and opacity selections on all proofs you open until you clear your browser cache.
 
-1. (Optional) Select a different  `Unit of Measurement.`
+1. (Optional) Select a different&nbsp;**Unit of Measurement.**
 
    >[!NOTE]
    >
@@ -177,7 +178,7 @@ You can measure an area within a proof.
    ![Measurement_tool_when_first_appears.png](assets/measurement-tool-when-first-appears-350x143.png)
 
 1. Drag the corners or edges of the measurement window to resize it.
-1. (Optional) If you need the measurement area to be an exact size, type `Selection size` values.
+1. (Optional) If you need the measurement area to be an exact size, type **Selection size** values.
 1. (Optional) If you need to measure a certain percentage within an area, check the calculate percentage box. A new box appears allowing you to adjust it  
    ![](assets/calculate-percentage-350x230.png)
 
@@ -185,11 +186,11 @@ You can measure an area within a proof.
 
 You can rotate the proof within the proofing viewer. When you rotate a proof that contains multiple pages, all pages are rotated simultaneously.
 
-1. Click the `Rotate` icon at the bottom of the proofing viewer.
+1. Click the **Rotate** icon at the bottom of the proofing viewer.
 
    ![proof_viewer_static_rotate.png](assets/proof-viewer-static-rotate-350x36.png)
 
-   The proof is rotated 90 degrees each time you click the `Rotate` icon.
+   The proof is rotated 90 degrees each time you click the **Rotate** icon.
 
 ## Zoom and pan a proof
 
@@ -199,19 +200,19 @@ Alternatively, you can use the thumbnail area to zoom and pan within the proof, 
 
 1. Do any of the following to adjust the zoom percentage of the proof:
 
-  * Click the `Zoom` icon, then either click on the proof to view the proof at a higher zoom level, or drag across an area of the proof to view only that area.
+   * Click the **Zoom** icon, then either click on the proof to view the proof at a higher zoom level, or drag across an area of the proof to view only that area.
 
-    ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
+     ![change_zoom_percentage.png](assets/change-zoom-percentage-350x36.png)
 
-  * Click the current zoom percentage, the click a new zoom percentage or click  `Fit to width`, `Fit to height`, or `Fit to page`.
+   * Click the current zoom percentage, the click a new zoom percentage or click&nbsp;**Fit to width**, **Fit to height**, or **Fit to page**.
 
-    ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
+     ![zoom_percentage_menu.png](assets/zoom-percentage-menu-350x245.png)
 
-  * Click the `Plus` or `Minus` icons to increase or decrease the zoom percentage.
+   * Click the **Plus** or **Minus** icons to increase or decrease the zoom percentage.
 
-    ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
+     ![change_zoom_percentage_-_plus_minus.png](assets/change-zoom-percentage---plus-minus-350x36.png)
 
-1. If you need to pan to a certain area on the video proof, click the `Pan` icon, then drag the proof as needed.
+1. If you need to pan to a certain area on the video proof, click the **Pan** icon, then drag the proof as needed.
 
    ![change_zoom_-_pan.png](assets/change-zoom---pan-350x36.png)
 
@@ -249,7 +250,7 @@ You might not have access to the Legacy proofing viewer because it is supported 
 
 To enable the Web Proofing Viewer:
 
-1. Click  `Open new proofing viewer`&nbsp;near the lower-left corner of the Legacy proofing viewer.
+1. Click&nbsp;**Open new proofing viewer**&nbsp;near the lower-left corner of the Legacy proofing viewer.
 
    The system remembers this setting until you clear your browser cache.
 
@@ -257,5 +258,5 @@ To enable the Web Proofing Viewer:
 
 Depending on your organization's configuration, you may be able to disable the Web Proofing Viewer and use the Legacy proofing viewer:
 
-1. Click the `Legacy viewer`icon near the lower-left corner of the Web Proofing Viewer. ![Legacy_Viewer_icon.png](assets/legacy-viewer-icon.png)
+1. Click the **Legacy viewer**icon near the lower-left corner of the Web Proofing Viewer. ![Legacy_Viewer_icon.png](assets/legacy-viewer-icon.png)
 

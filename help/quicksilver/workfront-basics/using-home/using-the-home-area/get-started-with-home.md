@@ -60,23 +60,45 @@ The Sort by option allows you to group like items in the Work List. You can sort
 
 For more information on how to use groupings, see [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
+![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x332.png)  
+
 ### Narrow your focus with filters
 
-The Work List Filter allows you to narrow your focus to specific work items. 
-The filter options are different depending on what environment you access the Home area from. 
+The Work List Filter allows you to narrow your focus to specific work items.
 
-The following are examples of how you can filter items you see in Home in the Production environment:&nbsp;
+<!--
+The filter options are different depending on what environment you access the Home area from.
+-->
+
+The following are examples of how you can filter items you see in Home 
+
+<!--
+in the Production environment
+-->
+
+:&nbsp;
 
 * Filter based solely on work item type or state:
 
-  * `Type`: Tasks, Issues, Approvals, or Personal tasks
-  * `State`: Working On, Ready to Start, Not Ready, or Completed
+  * **Type**: Tasks, Issues, Approvals, or Personal tasks
+  * **State**: Working On, Ready to Start, Not Ready, or Completed
 
 * Filter using type and state together.
 
   For example, you can select Tasks and Ready to Start to find all of the tasks in your work list that are ready for work.
 
-The following are examples of how you can filter items you see in Home in the Preview environment: Filter by item type and state. For example, if you want to display all the tasks, you can select the Tasks filter. If you want to be more specific than this and display only tasks that are ready for you to start working on, then select the Ready to Start filters under the Tasks filter. Filter by item type only. For example, you can select Issues to see all issues in all states (Working On or Requested), or Approvals to see all work item, request for access, timesheet, document, and proof approvals. Filter by status only. For example, you can select the Completed filter to display tasks and issues that have been completed. This includes Personal tasks but it does not include approvals. For more information on how to use filters, see&nbsp; [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+<!--
+<p>The following are examples of how you can filter items you see in Home in the Preview environment:&nbsp;</p>
+<ul>
+<li> <p>Filter by item type and state.</p> <p>For example, if you want to display all the tasks, you can select the Tasks filter. If you want to be more specific than this and display only tasks that are ready for you to start working on, then select the Ready to Start filters under the Tasks filter. </p> </li>
+<li> <p>Filter by item type only.</p> <p>For example, you can select Issues to see all issues in all states (Working On or Requested), or Approvals to see all work item, request for access, timesheet, document, and proof approvals. </p> </li>
+<li> <p>Filter by status only. </p> <p>For example, you can select the Completed filter to display tasks and issues that have been completed. This includes Personal tasks but it does not include approvals. </p> </li>
+</ul>
+-->
+
+For more information on how to use filters, see&nbsp; [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
+![](assets/filter-home-expanded-group-by-drop-down-nwe-350x551.png)
 
 ### Access work assigned to your team
 
@@ -88,6 +110,8 @@ The Home area has a permanent grouping dedicated to team requests with a direct 
 
 For more information on accessing team requests, see the article [Manage work and team requests in the Home area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
 
+![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x540.png)  
+
 ### Monitor work that you submitted
 
 Keep track of work that you submitted for approval directly from Work List. You can remind the approver about the work that needs approval. You can also recall the approval if needed.
@@ -95,6 +119,8 @@ Keep track of work that you submitted for approval directly from Work List. You 
 >[!NOTE]
 >
 >The Filter and Sort by options do not affect the Approvals I've Submitted grouping. This grouping is visible as long as you have work waiting for approval.
+
+![](assets/approvals-expanded-home-group-by-drop-down-nwe.png)  
 
 ## Prioritize what's important to you
 
@@ -105,6 +131,8 @@ The Work List allows you to surface and prioritize work that is important to you
 >Any work items added to My Priority are visible only to you, and no one can prioritize work for you.
 
 For more information on how to use My Priority, see [Prioritize work in the Home Area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+
+![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x289.png)  
 
 ## Get it done
 
@@ -127,7 +155,10 @@ Communicate quickly and efficiently with coworkers from the Home area. You ask c
 * Updating the Commit Date
 
   <!--
-  Note: This is the only place you can update the Commit Date in Home.
+  <note type="note">
+  This is the only place you can update the Commit Date in Home.
+  <br>
+  </note>
   -->
 
 * Reporting on how you feel things are going

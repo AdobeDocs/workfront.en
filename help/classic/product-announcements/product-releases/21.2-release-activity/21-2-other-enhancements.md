@@ -29,7 +29,7 @@ Areas updating soon
 * PDF exports for lists and reports 
 * Favicon icon in the browser tab
 
-`Areas updating later`
+```Areas updating later```
 
 * Email notifications
 

@@ -40,7 +40,7 @@ You must have the following to perform the steps in this article:
 ## Configure user access to programs using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Programs, then select the abilities you want to grant under **Fine-tune your settings**.
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Programs, then select the abilities you want to grant under **Fine-tune your settings**.
 
    For information about what users in each access level can do with programs, see the section [Programs](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#programs) in the article [Functionality available for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 

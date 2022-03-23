@@ -15,19 +15,19 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 
 ## Scenarios
 
-* The default scenario execution timeout is `40 minutes`. When the execution reaches this timeout, Workfront Fusion interrupts scenario execution after the next cycle or operation, depending on the scenario. This forces the scenario to stop shortly after the 40 minute limit is reached
-* The maximum size of a scenario blueprint is `5 MB`, but we recommend keeping scenario size under `3 MB`.
+* The default scenario execution timeout is **40 minutes**. When the execution reaches this timeout, Workfront Fusion interrupts scenario execution after the next cycle or operation, depending on the scenario. This forces the scenario to stop shortly after the 40 minute limit is reached
+* The maximum size of a scenario blueprint is **5 MB**, but we recommend keeping scenario size under **3 MB**.
 
   App modules that create or update data with large numbers of fields can cause very large blueprints.
 
-  * When using the Workfront app, be sure to only select fields needed for your create or update use cases. 
-  * When using other apps, use custom API modules to interact with any record type that has a large number of fields.
+   * When using the Workfront app, be sure to only select fields needed for your create or update use cases. 
+   * When using other apps, use custom API modules to interact with any record type that has a large number of fields.
 
 * While there is no cap for the number of modules in a scenario, scenarios with more than 150 modules negatively impact the performance of your Workfront Fusion system. For this reason, we do not recommend creating scenarios with over 150 modules.
 
 ## Operations
 
-* The default operation timeout is typically `40 seconds`.
+* The default operation timeout is typically **40 seconds**.
 * The operation timeout for calls to Adobe Workfront is **120 seconds**.
 
 ## Files
@@ -42,6 +42,6 @@ Work automation requires rapid processing, so Adobe Workfront Fusion is designed
 
 ## Webhooks
 
-* The default maximum size of a payload is `5 MB`.
+* The default maximum size of a payload is **5 MB**.
 * Webhooks are limited to 100 requests per second. When this limit is reached, Workfront Fusion sends a 429 (Too Many Requests) status.
 

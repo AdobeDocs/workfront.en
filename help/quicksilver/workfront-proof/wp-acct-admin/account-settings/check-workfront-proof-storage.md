@@ -21,10 +21,10 @@ Your account plan comes with a fixed amount of storage. Plan storage does not re
 
 ## Checking Your Storage Amount
 
-1. Click `Settings` > `Account settings`.
+1. Click **Settings** > **Account settings**.
 
-1. Open the `History` tab.
-1. View your current storage mount under `Usage stats`.  
+1. Open the **History** tab.
+1. View your current storage mount under **Usage stats**.  
    The Billing Administrators of your account will receive a warning email if the storage usage on your account&nbsp;reaches 75%.
 
 ## Getting More Storage

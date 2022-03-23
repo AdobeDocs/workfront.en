@@ -40,14 +40,14 @@ You must have the following to perform the steps in this article:
 
 ## View and manage members of the subgroups under a group
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Groups`.
+1. Click **Groups**.
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the group for which you want to view or manage subgroup members.
-1. In the left panel, click `Subgroup Members`.
+1. In the left panel, click **Subgroup Members**.
 
    This left panel item is available only if the group has subgroups.
 

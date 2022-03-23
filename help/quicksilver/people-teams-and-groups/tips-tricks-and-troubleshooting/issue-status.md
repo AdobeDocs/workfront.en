@@ -5,6 +5,7 @@ product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-groups
 title: Configure the Done button for issues if no team is assigned
 description: Clicking the Done button on an issue updates the status for the issue. By default, the Done button marks an issue as Resolved. Users with certain permissions can configure the Done button to reflect certain statuses in the system. The primary way to configure statuses for the Done button is through the Home Team. For more information, see Configure the Done button for issues.
+hidefromtoc: true
 ---
 
 # Configure the Done button for issues if no team is assigned
@@ -43,12 +44,20 @@ You must have the following access to perform the steps in this article:
 When a user creates a project, their Home group is automatically assigned to the project. Users can change this group in the Project Details section at any time. You need to know what group is on a specific project to modify the default status for the issue Done button. To find the group associated with the project
 
 1. Go to a project.
+1. Project Details
+1. Project association
+1. Group
+1.
 
 ## Update the default status for a specific group
 
-1. In the left panel, click `Project Preferences`, then `Statuses`.
+1. Main Menu
+1. 
+1. Setup
+1. 
+1. In the left panel, click **Project Preferences**, then **Statuses**.
 
-1. Click `Requests`, then type the name of the group in the `System Statuses` search box located on the right.
+1. Click **Requests**, then type the name of the group in the **System Statuses** search box located on the right.
 
 1. Select the group.
 1. Click the Set Default Statuses drop-down menu, then choose the status you want the Done button to use.
@@ -57,5 +66,5 @@ When a user creates a project, their Home group is automatically assigned to the
    >
    >This status is used only when they user has no assigned Home Team and the RLV status has been deleted.
 
-1. Click `Save`.
+1. Click **Save**.
 

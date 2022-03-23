@@ -37,7 +37,15 @@ You must have the following access to perform the actions described in this arti
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions View or higher permissions on goals For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions on goals</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -96,11 +104,11 @@ You can create a filter from scratch or edit one of the built-in filters.
 
    By default, the Goal List section displays. 
 
-1. Click `Filter`in the upper-right corner of the list.
+1. Click **Filter**in the upper-right corner of the list.
 
    ![](assets/filter-icon-and-label.png)
 
-   By default, Workfront applies the `All` filter which displays all goals in your system.
+   By default, Workfront applies the **All** filter which displays all goals in your system.
 
    >[!TIP]
    >
@@ -142,9 +150,9 @@ You can create a filter from scratch or edit one of the built-in filters.
      </tbody> 
     </table>
 
-  * Hover over the name of a filter, then click the `Edit` icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
+  * Hover over the name of a filter, then click the **Edit** icon ![](assets/edit-icon.png) next to its name to customize it and add specific names of users, teams, groups, or the name of your organization, then select it when they appear on the list.
 
-  * Click `New Filter` to create a new filter, then select from the following options to customize the new filter:
+  * Click **New Filter** to create a new filter, then select from the following options to customize the new filter:
 
     <table cellspacing="0"> 
      <col> 
@@ -177,18 +185,18 @@ You can create a filter from scratch or edit one of the built-in filters.
        <td role="rowheader">Owner</td> 
        <td> <p>Start typing the name of an owner, then select it when it appears in the list. </p> <p>You can type the names of users, teams, groups, or the name of your organization or you can select from predefined options. </p> <p>The following predefined filter options always refer to the user who is currently logged in: </p> 
         <ul> 
-         <li> <p><span class="bold">Me</span>: Displays goals where you are the owner.</p> </li> 
-         <li> <p><span class="bold">My Home Team</span> and <span class="bold">All My Teams</span>: Displays goals where either your Home Team or any of your teams are designated as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </li> 
-         <li> <p><span class="bold">My Home Group</span> and <span class="bold">All&nbsp;My&nbsp;Groups</span>: Displays goals where either your Home Group or any of your groups are designated as the owner.</p> </li> 
+         <li> <p><strong>Me</strong>: Displays goals where you are the owner.</p> </li> 
+         <li> <p><strong>My Home Team</strong> and <strong>All My Teams</strong>: Displays goals where either your Home Team or any of your teams are designated as the owner. </p> <p>Tip: No goals display when you are not assigned to any teams. </p> </li> 
+         <li> <p><strong>My Home Group</strong> and <strong>All My Groups</strong>: Displays goals where either your Home Group or any of your groups are designated as the owner.</p> </li> 
         </ul> </td> 
       </tr> 
      </tbody> 
     </table>
 
-1. (Optional) Click `Reset` to clear out all the fields you have selected and start building the filter from scratch. 
-1. (Optional) Click `Apply` to apply the filter without saving.
+1. (Optional) Click **Reset** to clear out all the fields you have selected and start building the filter from scratch. 
+1. (Optional) Click **Apply** to apply the filter without saving.
 
-   The filter displays in the `Unsaved` area of the filter builder as `New Filter`.
+   The filter displays in the **Unsaved** area of the filter builder as **New Filter**.
 
    You cannot rename an unsaved filter.
 
@@ -198,26 +206,26 @@ You can create a filter from scratch or edit one of the built-in filters.
    >
    >You can have only one unsaved New Filter at one time.
 
-1. Click `Save` to save the filter to use it later, then add a name for the filter in the `Add filter name`field and click `Done`.
+1. Click **Save** to save the filter to use it later, then add a name for the filter in the **Add filter name**field and click **Done**.
 
-   This saves the filter in the `Saved` section of the filter builder. You can use this filter in the future.
+   This saves the filter in the **Saved** section of the filter builder. You can use this filter in the future.
 
    The last saved and applied filter displays by default next time you log back in to Workfront
 
-1. (Optional) Click the `left-pointing arrow` next to `New Filter` to exit the filter builder and return to the list of filters. 
-1. (Optional) Hover over the name of a filter, click the `More` menu, then click  `Delete`, then  `Delete`. This deletes the filter and you cannot recover it.
+1. (Optional) Click the **left-pointing arrow** next to **New Filter** to exit the filter builder and return to the list of filters. 
+1. (Optional) Hover over the name of a filter, click the **More** menu, then click&nbsp;**Delete**, then&nbsp;**Delete**. This deletes the filter and you cannot recover it.
 
    >[!TIP]
    >
    >You cannot delete any of the predefined filters.
 
-1. Click the `X icon` in the upper-right corner of the filter builder to close the filter builder.
+1. Click the **X icon** in the upper-right corner of the filter builder to close the filter builder.
 
    The name of the filter currently applied displays to the right of the Filter icon, in the upper-right corner of the goals list.
 
    The list of goals is filtered by your filter criteria. 
 
-1. (Optional) If you want to view the filtered out results, click  `Show them` in the list of goals in the Goal List or the Goal Alignment section.
+1. (Optional) If you want to view the filtered out results, click&nbsp;**Show them** in the list of goals in the Goal List or the Goal Alignment section.
 
    ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
@@ -229,7 +237,7 @@ You can create a filter from scratch or edit one of the built-in filters.
    >
    >Displaying items that are hidden by filters is not possible in the Graphs and Pulse sections.
 
-1. Click  `Reapply filter` to apply the filter and omit the items you displayed in the previous step.
+1. Click&nbsp;**Reapply filter** to apply the filter and omit the items you displayed in the previous step.
 
 &nbsp;
 

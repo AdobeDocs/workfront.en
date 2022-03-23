@@ -23,7 +23,12 @@ The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and
 In 2021, our SAML 2.0 metadata certiﬁcate expired on October 27. The next date when we plan to update the certiﬁcate is November 22, 2022.
 
 <!--
-Important: You must take action to update the metadata in your identity provider with the information from the renewed certiﬁcate before the speciﬁed date. Mismatched certiﬁcates can keep your users from logging in to Workfront after November 22, 20221. Use this message in the last few weeks before the update.
+<note type="important">
+You must take action to update the metadata in your identity provider with the information from the renewed certiﬁcate before the speciﬁed date. Mismatched certiﬁcates can keep your users from logging in to Workfront after November 22, 20221.
+<!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Use this message in the last few weeks before the update.</span>
+-->
+</note>
 -->
 
 >[!NOTE]
@@ -57,29 +62,29 @@ You must have the following to perform the steps in this article:
 
 To review the warning message and acknowledge the update of the SAML 2.0 metadata in your identity provider:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `System` > `Single Sign-On`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **System** > **Single Sign-On**.
 
-1. In the `Type` drop-down menu, select `SAML 2.0`.
+1. In the **Type** drop-down menu, select **SAML 2.0**.
 
-1. Click `Download SAML 2.0 Metadata`.
+1. Click **Download SAML 2.0 Metadata**.
 
    This downloads the renewed Workfront certiﬁcate for SAML 2.0, which contains the correct metadata for your server.
 
-   ` `**Warning: **`` Before you upload the Workfront metadata to your Single Sign-On (SSO) provider in Step 5, copy your current Assertion Consumer Service (ACS) URL to a safe place. This URL, also known as the Reply URL, is found on your SSO provider's Workfront configuration page.
+   ``` ```**Warning: **`````` Before you upload the Workfront metadata to your Single Sign-On (SSO) provider in Step 5, copy your current Assertion Consumer Service (ACS) URL to a safe place. This URL, also known as the Reply URL, is found on your SSO provider's Workfront configuration page.
 
    If the ACS URL changes after you upload the Workfront metadata, this means that the metadata might contain an incorrect ACS URL. You must change it back to the one you copied in order to avoid breaking your Single Sign-On connection. Your updated certificate will still be correct after you do this.
 
 1. Go to your identity provider server and update the new certiﬁcate you downloaded from Workfront on that server, as explained in [Update SAML 2.0 metadata in your identity provider](../../../administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip.md).
-1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that `Admin Exemption` is selected.
+1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that **Admin Exemption** is selected.
 
    When this ﬁeld is selected, Workfront administrators can log in to Workfront with their SSO credentials or their Workfront credentials.
 
-1. Click `Save`.
+1. Click **Save**.
 
    The warning message no longer displays because you acknowledged the renewal of the SAML 2.0 certiﬁcate on the server of your identity provider.
 
-1. Click `Test Connection` to test your conﬁguration.
+1. Click **Test Connection** to test your conﬁguration.
 
    You should see a message confirming that the connection was successful.
 

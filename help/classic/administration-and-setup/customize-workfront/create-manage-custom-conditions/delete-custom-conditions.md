@@ -35,19 +35,19 @@ You must have the following to perform the steps in this article:
 
 ## Delete a custom condition
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Project Preferences` > `Conditions`.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Conditions**.  
 
-1. Select the tab of the object type ( `Project`, `Task`, or `Issue`) where the condition that you want to delete is located.
+1. Select the tab of the object type (**Project**, **Task**, or **Issue**) where the condition that you want to delete is located.
 
-1. Hover over the condition you want to delete, then click the `Delete` icon ![](assets/delete.png) that appears on the far right.
-1. In the confirmation message that appears, click `Delete Condition`.  
+1. Hover over the condition you want to delete, then click the **Delete** icon ![](assets/delete.png) that appears on the far right.
+1. In the confirmation message that appears, click **Delete Condition**.  
 
-1. In the `Delete Condition` box that appears, select a new condition in the drop-down list for all projects that were using the condition that you are deleting.
+1. In the **Delete Condition** box that appears, select a new condition in the drop-down list for all projects that were using the condition that you are deleting.
 
    Custom conditions are available in the drop-down list only if they equate with the same built-in condition as the one you are deleting. For example, if you are deleting a condition that equates with At Risk, only custom conditions that also equate with At Risk are available to select.
 
-1. Click `Delete Condition`.
+1. Click **Delete Condition**.
 
 >[!NOTE]
 >

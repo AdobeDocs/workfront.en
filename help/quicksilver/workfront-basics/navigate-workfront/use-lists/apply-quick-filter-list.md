@@ -15,7 +15,12 @@ You can use the quick filter in a list of objects to help you locate only items 
 
 If you want to save a quick filter, we recommend that you build a permanent filter for your list instead.  
 For information about how to build filters in Adobe Workfront, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-You can use temporary quick filters in all lists, except the following: The Setup area The Reports area Document lists and reports 
+
+You can use temporary quick filters in all lists, except the following:
+
+* The Setup area
+* The Reports area
+* Document lists and reports
 
 Consider the following when applying quick filters to a list:
 
@@ -58,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
 ## Apply a quick filter to a list
 
-1. Go to a list or report that supports quick filters, then click the Quick Filter icon in the toolbar. 
+1. Go to a list or report that supports quick filters, then click the **Quick Filter icon** ![](assets/qs-quick-filter-icon.png) in the toolbar. 
    Or
 
    Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of commands to launch the quick filter:
@@ -71,7 +76,7 @@ You must have the following access to perform the steps in this article:
     >
     >If you press CTRL+F or CMD+F, a tooltip displays next to the quick filter to remind you about these commands. The commands also display inside the quick filter search box.
 
-1. In the `Filter page` box, enter the keyword that you want to filter by.
+1. In the **Filter page** box, enter the keyword that you want to filter by.
 
    You can use any word that currently displays in the view of the list.
 
@@ -83,10 +88,10 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To bulk edit the items found by the quick filter:
 
-  1. Select all or several of the items in the list, then click `Edit` to bulk edit the items.
-  1. After you complete your edits, click `Save Changes`.
+  1. Select all or several of the items in the list, then click **Edit** to bulk edit the items.
+  1. After you complete your edits, click **Save Changes**.
 
-1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click `Export`.
+1. (Optional) To export the items found by the quick filter, select all or several of the items in the list, then click **Export**.
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -95,7 +100,7 @@ You must have the following access to perform the steps in this article:
    >Only the items you found in the quick filter search export to the file you selected. If you don't select any items before exporting the list, the complete, unfiltered list is exported.  
    >For more information, see [Export a list](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md).
 
-1. (Optional) To clear the filtered results, click the `Quick Filter` icon in the top right corner of the window.  
+1. (Optional) To clear the filtered results, click the **Quick Filter** icon in the top right corner of the window.  
    Or  
    Refresh the page.
 

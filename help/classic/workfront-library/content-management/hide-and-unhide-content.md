@@ -39,38 +39,39 @@ When you unhide content, it becomes visible to all users who had access to it pr
 
 ## Hide content
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where item you want to hide is located.
 
    You can choose Library, My Content , or Collections.
 
    ![](assets/library-left-panel---new-350x217.png)
 
-1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
 1. Navigate to the item.
-1. Hover over the item, click the `More` icon in the upper-right corner of the thumbnail, then select `Hide` in the drop-down menu.
+1. Hover over the item, click the **More** icon in the upper-right corner of the thumbnail, then select **Hide** in the drop-down menu.
 
    The content thumbnail disappears from view.
 
 ## Unhide hidden content
 
-1. (Conditional) If you haven't enabled the Show Hidden filter, click the `Filter` icon ![](assets/library-filter-icon.png)in the upper-right corner, then enable the `Show Hidden` toggle at the bottom of the filter list.
+1. Workfront Library
+1. (Conditional) If you haven't enabled the Show Hidden filter, click the **Filter** icon ![](assets/library-filter-icon.png)in the upper-right corner, then enable the **Show Hidden** toggle at the bottom of the filter list.
 
    >[!TIP]
    >
    >Depending on the view you have activated, the name displayed on the Content View drop-down menu could be either Name or Last Modified.
 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
 1. Select the area where item you want to unhide is located.
 
    You can choose Library, My Content , or Collections.
 
    ![](assets/library-left-panel---new-350x217.png)
 
-1. (Conditional) If you are in the list view, click the `Show grid view` icon ![](assets/grid-view-icon.png) to switch to the grid view.
+1. (Conditional) If you are in the list view, click the **Show grid view** icon ![](assets/grid-view-icon.png) to switch to the grid view.
 1. Navigate to the item.
-1. Hover over the item, click the `More` icon in the upper-right corner of the thumbnail, then select `Unhide` in the drop-down menu.
+1. Hover over the item, click the **More** icon in the upper-right corner of the thumbnail, then select **Unhide** in the drop-down menu.
 
    The content is now visible to Workfront Library and portal users who had access to the content prior to it being hid. Any content links shared with external users are restored.
 

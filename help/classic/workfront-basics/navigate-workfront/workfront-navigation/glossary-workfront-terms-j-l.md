@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms (J-L)
 description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms (J-L)
@@ -36,7 +37,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>Kanban Flag</p> </td> 
    <td> <p>In a Task Report or Issue Report,&nbsp;the Kanban Flag field displays the flag status that is set on the story on the Kanban board. Possible values are On Track, Ready to Pull, and Is Blocked.</p> <p>For more information about setting flag status on stories on the Kanban story board, see&nbsp; the article <a href="../../../agile/use-kanban-in-an-agile-team/use-flags-on-stories.md" class="MCXref xref">Use flags on stories on the Kanban board</a>.</p> </td> 
   </tr> <!--
-   KPIs A measurable value that demonstrates how effectively a company is achieving key business objectives.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>KPIs</td> 
+    <td>A measurable value that demonstrates how effectively a company is achieving key business objectives.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Lag</td> 
@@ -76,12 +80,21 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td> <p>Last Viewed Date</p> </td> 
    <td> <p>In a report list, this field displays the date on which the report was displayed last.<br>For more information about usage information in report lists, see the article <a href="../../../reports-and-dashboards/reports/report-usage/view-report-usage.md" class="MCXref xref">View report usage</a>.</p> </td> 
   </tr> <!--
-   Layout Template Defined by the System Administrator or Group Administrator to identify the tabs and reports that display in a given user's workspace.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Layout Template</td> 
+    <td>Defined by the System Administrator or Group Administrator to identify the tabs and reports that display in a given user's workspace.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Layout Type</td> 
    <td>In conjunction with Custom Views, the Layout Type specifies the type of Custom View. Currently, only List is available. In the future, Detail (the Detail view of an object) may become available.</td> 
-  </tr> Legacy Budgeted Cost See Budgeted Cost. Legacy Budgeted Hours This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. If there are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner. Legacy Budgeted Labor Cost In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project. The Legacy Budgeted Labor Cost in a project report is calculated using the following formula: Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role) For more information about calculating Legacy Budgeted Labor Cost, see the article Understand Budgeted Labor Cost and Budgeted Hours for projects 
+  </tr>  
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Legacy Budgeted Cost</p> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>See <i>Budgeted Cost</i>. </p> </td>   
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> <p>Legacy Budgeted Hours</p> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray"> <p> This field shows the number of hours budgeted for the project in the Legacy Resource Estimates area of the Business Case or in the Capacity Planner. <br>If there&nbsp;are multiple job roles, this is a summary of the budgeted hours for all job roles. The Legacy Budgeted Hours are calculated after you have used the "Set budget to schedule" feature, or after you have defined how many of the Planned Hours should be budgeted, in the Resource Estimates area of the Business Case of the project or in the Capacity Planner.&nbsp;</p> </td>   
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"> <p>Legacy Budgeted Labor Cost</p> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray"> <p>In a project report, this field shows the labor cost associated with the project, taking into account the Cost per Hour rate of every job role and the amount of Legacy Budgeted Hours estimated in the Legacy Resource Estimates area of the Business Case that is needed for each role to complete the project.&nbsp;</p> <p>The Legacy Budgeted Labor Cost in a project report is calculated using the following formula:</p> <p><code style="font-style: normal;">Legacy Budgeted Labor Cost = SUM(Job Role Cost per Hour * Legacy Budgeted Hours per Job Role)</code> </p> <p>For more information about calculating Legacy Budgeted Labor Cost, see the article <a href="../../../manage-work/projects/project-finances/budgeted-labor-cost.md" class="MCXref xref">Understand Budgeted Labor Cost and Budgeted Hours for projects</a>&nbsp;&nbsp;</p> </td>  
   <tr> 
    <td> <p>Legacy Resource Pool</p> </td> 
    <td> <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p> </td> 

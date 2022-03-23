@@ -41,9 +41,22 @@ You must have the following access to perform the steps in this article:
 
 ## Viewing submitted proof approvals
 
-1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select a `Proof` approval.
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+
+1. Select a **Proof** approval.
 
    >[!NOTE]
    >
@@ -51,6 +64,9 @@ You must have the following access to perform the steps in this article:
 
    ![Proof.png](assets/proof-350x261.png)
 
-1. (Optional) Click `Go to Proof` in the upper-right corner of the right panel to launch the proofing viewer.
-   Note: You must have View or Edit access to Documents in your Access Level to launch the proofing viewer.
+1. (Optional) Click **Go to Proof** in the upper-right corner of the right panel to launch the proofing viewer.
+
+   <!--
+   <span class="autonumber"><span><b>Note: </b></span></span>You must have View or Edit access to Documents in your Access Level to launch the proofing viewer.
+   -->
 

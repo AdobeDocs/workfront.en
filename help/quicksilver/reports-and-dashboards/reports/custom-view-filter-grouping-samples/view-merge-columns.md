@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
   * When exporting the view to a PDF file, conditional formatting applies to the first column in a merged column. 
   * When exporting the view to an Excel file, merged columns display as separate columns. The individual columns also display their respective conditional formatting rules.
 
-* Columns with the `viewalias` attribute can limit the amount of columns that you can merge. To avoid these limits, avoid using the `viewalias` attribute. If you must include the `viewalias` attribute in a column, make sure that it is the last item listed in the column.
+* Columns with the **viewalias** attribute can limit the amount of columns that you can merge. To avoid these limits, avoid using the **viewalias** attribute. If you must include the **viewalias** attribute in a column, make sure that it is the last item listed in the column.
 
 * If you export a list with shared columns to an Excel or Tab Delimited format, these columns are separated out in the exported file.
 
@@ -102,7 +102,7 @@ To do this:
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information for each column. 
 
-   ` `**Example: **`` The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name and there is no break between the three values:
+   ``` ```**Example: **`````` The following is the text mode code for a merged column that contains three separate columns, starting with the second column of the list. The merged values are Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name and there is no break between the three values:
 
    ```
    column.1.valuefield=name
@@ -138,7 +138,7 @@ To do this:
 
    <pre><img src="assets/shared-column-no-line-breaks-350x142.png" style="width: 350;height: 142;"></pre>
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 
 ## Merge data from two columns with a line break
 
@@ -146,12 +146,12 @@ Do the following to merge the data from multiple columns to display it in one co
 
 1. Add a third column between the two columns you want to merge.
 
-   ` `**Tip: **``
+   ``` ```**Tip: **``````
 
   * The columns you want to merge must be adjacent to each other.
   * You must click the first column that you want to merge.
 
-1. Click `Switch to Text Mode` and add the following code in the middle column that you added in step 1:
+1. Click **Switch to Text Mode** and add the following code in the middle column that you added in step 1:
 
    ```
    value=<br>
@@ -203,7 +203,7 @@ Do the following to merge the data from multiple columns to display it in one co
 
    If you share more than one column, ensure you add the column number in the lines of code that contain the sharing information. 
 
-   ` `**Example: **`` The following is the text mode code for a shared column that contains Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name with a line break. The shared column is the second column of a project view.
+   ``` ```**Example: **`````` The following is the text mode code for a shared column that contains Project&nbsp;Name, Planned Start Date, and Project&nbsp;Owner's name with a line break. The shared column is the second column of a project view.
 
    ```
    column.1.displayname=Project_StartDate_Owner
@@ -283,5 +283,5 @@ Do the following to merge the data from multiple columns to display it in one co
 
    <pre><img src="assets/shared-column-with-line-breaks-350x199.png" style="width: 350;height: 199;"></pre>
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

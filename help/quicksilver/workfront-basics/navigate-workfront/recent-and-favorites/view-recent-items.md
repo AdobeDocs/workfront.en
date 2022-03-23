@@ -34,4 +34,27 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
-View recent items Click the Favorites icon in the upper-right corner of any page in the new Adobe Workfront experience, then select Recents. Click the Recents icon in the upper-right corner of any page in the new Adobe Workfront experience. Under each object type, you can see up to 5 of the last items that you recently viewed. (Optional) To expand the list of recent items, click View More just below the last item under an object type to display the previous 10 items viewed. You can expand the list to display up to 20 items per object type. Click the X on the top right to close the list. For information about how to mark recent items as favorites, see View and manage favorites.  
+
+## View recent items
+
+1. Click the **Favorites** icon in the upper-right corner of any page in the new Adobe Workfront experience, then select **Recents**.
+
+   ![](assets/recents-list-350x250.png)
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><span class="preview">Click the <strong>Recents</strong> icon in the upper-right corner of any page in the new Adobe Workfront experience.</span> </p>
+   -->
+
+   <!--
+   <p class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/recents-list-2022-350x319.png" alt="Recents list" style="width: 350;height: 319;"> </p>
+   -->
+
+   Under each object type, you can see up to 5 of the last items that you recently viewed.
+
+1. (Optional) To expand the list of recent items, click **View More** just below the last item under an object type to display the previous 10 items viewed. You can expand the list to display up to 20 items per object type.
+
+   <!--
+   <li class="preview" value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the X on the top right to close the list.</p> </li>
+   -->
+
+For information about how to mark recent items as favorites, see [View and manage favorites](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md).

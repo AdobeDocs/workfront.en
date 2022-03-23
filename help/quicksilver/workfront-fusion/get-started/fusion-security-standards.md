@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion Security Standards
 description: Adobe Workfront Fusion enforces several best-practice security standards to ensure that data is:
+hidefromtoc: true
 ---
 
 # Adobe Workfront Fusion Security Standards

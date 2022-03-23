@@ -10,11 +10,11 @@ description: The information on this page refers to functionality available only
 
 The information on this page refers to functionality available only in the new Adobe Workfront experience and after your Adobe Workfront administrator has enabled this experience for you.
 
-You can use the Summary panel of a task `or an issue` to update important information for that item. in the Workload Balancer.
+You can use the Summary panel of a task ```or an issue``` to update important information for that item. in the Workload Balancer.
 
 >[!TIP]
 >
->The Summary panel is available for tasks in both areas of the Workload Balancer `and for issues in the Assigned Work area. Issues do not display in the Unassigned Work area.`
+>The Summary panel is available for tasks in both areas of the Workload Balancer ```and for issues in the Assigned Work area. Issues do not display in the Unassigned Work area.```
 
 ## Access requirements
 
@@ -57,13 +57,13 @@ You must have the following:
 
    The Workload Balancer displays work assignment information starting with the current week. 
 
-1. Go to the `Unassigned Work` area and find a work item.
+1. Go to the **Unassigned Work** area and find a work item.
 
    Or
 
-   Go to the `Assigned Work` area, expand a user, and find a work item.
+   Go to the **Assigned Work** area, expand a user, and find a work item.
 
-1. `Click the `Summary` icon, then click the bar of a task or issue.`
+1. ```Click the **Summary** icon, then click the bar of a task or issue.```
 
    >[!TIP]
    >
@@ -75,10 +75,10 @@ You must have the following:
 
 1. Modify a number of fields for the work item, enter an update, or you navigate from here to other areas of Workfront to add documents or other information to the work item.
 
-   ` `**Warning: **``Navigating from the Summary to the Substasks section to add subtasks removes the original task, because parent tasks do not display in the Workload Balancer.
+   ``` ```**Warning: **``````Navigating from the Summary to the Substasks section to add subtasks removes the original task, because parent tasks do not display in the Workload Balancer.
 
    For more information about updating information using the Summary, see [Summary overview in the new Adobe Workfront experience](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Conditional) If you opened any of the sections of the work item, click your browser's `Back button` to return to the Workload Balancer.
-1. Click the `Close icon` ![](assets/close-icon.png) in the upper-right corner of the Summary, to close it.
+1. (Conditional) If you opened any of the sections of the work item, click your browser's **Back button** to return to the Workload Balancer.
+1. Click the **Close icon** ![](assets/close-icon.png) in the upper-right corner of the Summary, to close it.
 

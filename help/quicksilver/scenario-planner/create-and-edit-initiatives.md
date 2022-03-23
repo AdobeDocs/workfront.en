@@ -29,7 +29,15 @@ You must have the following:
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article. </p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -56,16 +64,16 @@ You can create initiatives in the following ways:
 
 To create initiatives from scratch:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios. 
 
 1. Click the name of the plan for which you want to create an initiative.
-1. Click the `+ icon` to the left of `New initiative`
+1. Click the **+ icon** to the left of **New initiative**
 
    Or
 
-   Click the `New initiative` drop-down menu and select either `New initiative`or `Import Projects.`
+   Click the **New initiative** drop-down menu and select either **New initiative**or**Import Projects.**
 
-1. Type a name for your initiative in the `Untitled Initiative` field, then press Enter or click anywhere else on the page.
+1. Type a name for your initiative in the **Untitled Initiative** field, then press Enter or click anywhere else on the page.
 
    The initiative displays on the timeline of the plan, as a blue bar. By default, the duration of an initiative is one month and it always starts on the first month of the plan. 
 
@@ -78,7 +86,7 @@ To create initiatives from scratch:
    >
    >You can only select a duration in months. The duration of an initiative that you create from scratch can never exceed the Duration of the plan.
 
-1. (Optional) From the `Month` drop-down menu, select one of the following options to change the timeline of the plan:
+1. (Optional) From the **Month** drop-down menu, select one of the following options to change the timeline of the plan:
 
    | Month |Displays the timeline by month. This is the default option for a one-year plan.  |
    |---|---|
@@ -86,7 +94,7 @@ To create initiatives from scratch:
    | Year |Displays the timeline by year. This option is available only when the Duration of the plan is 5 years. This is the default option for a 5-year plan.  |
 
 1. (Optional) Scroll from left to right to see the entire duration of the initiative. 
-1. (Optional) Click the `Today` indicator line to come back to the current date.
+1. (Optional) Click the **Today** indicator line to come back to the current date.
 
    ![](assets/today-indicator-350x160.png)
 
@@ -103,10 +111,18 @@ To create initiatives from scratch:
    <table cellspacing="0"> 
     <col> 
     <col> 
-    <tbody> Initiative Duration The duration of the initiative in months. Start and End Dates The start and end dates of the initiative. 
+    <tbody> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Initiative Duration</td> 
+      <td>The duration of the initiative in months. </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Start and End Dates</td> 
+      <td>The start and end dates of the initiative.</td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Required Job&nbsp;Roles Section </td> 
-      <td> <p>Click the <span class="bold">Start typing job role</span> field and select a role from the list or start typing the name of a<span>n active</span> job role. </p> <p><span>Depending on whether the plan is set up to use FTEs or hours,</span> add the number of job roles needed for this initiative in FTE <span><span>or hours</span></span><span> for each month in the initiative</span>. <span>The first three months of the initiative display by default. </span></p> <p><span>Updating the job role information for the initiative also updates the Required job role information for the plan. </span> </p> <p>For information about setting up the plan to use FTE or hours, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> 
+      <td> <p>Click the <strong>Start typing job role</strong> field and select a role from the list or start typing the name of a<span>n active</span> job role. </p> <p><span>Depending on whether the plan is set up to use FTEs or hours,</span> add the number of job roles needed for this initiative in FTE <span><span>or hours</span></span><span> for each month in the initiative</span>. <span>The first three months of the initiative display by default. </span></p> <p><span>Updating the job role information for the initiative also updates the Required job role information for the plan. </span> </p> <p>For information about setting up the plan to use FTE or hours, see <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Create and edit plans in the Adobe Workfront Scenario Planner</a>. </p> 
        <div class="tips" data-mc-autonum="<b>Tips: </b>">
         <span class="autonumber"><span><b>Tips: </b></span></span> 
         <ul> 
@@ -122,7 +138,7 @@ To create initiatives from scratch:
       <td> <p>The total costs of the initiative display to the right of the Costs section. Workfront calculates an initiative's costs using the following formula:</p> <p><code>Initiative Costs = Fixed Costs + People Costs</code> </p> </td> 
      </tr> 
      <tr> 
-      <td> <p>In the <span class="bold">Fixed Costs</span> field, manually enter a rough estimate amount of what you believe it will cost to complete this initiative. This should not include costs associated with the job roles estimated for the initiative.</p> <p><span>Enter an amount for each month of the initiative by moving from one month to the next as you use the Tab key. </span> </p> </td> 
+      <td> <p>In the <strong>Fixed Costs</strong> field, manually enter a rough estimate amount of what you believe it will cost to complete this initiative. This should not include costs associated with the job roles estimated for the initiative.</p> <p><span>Enter an amount for each month of the initiative by moving from one month to the next as you use the Tab key. </span> </p> </td> 
      </tr> 
      <tr> 
       <td> 
@@ -145,7 +161,7 @@ To create initiatives from scratch:
      </tr> 
      <tr> 
       <td role="rowheader">Net Value section</td> 
-      <td>In the <span class="bold">Net Value</span> section , manually enter a rough estimate amount in the <span class="bold">Planned Benefit</span> field. This is what you believe the benefit of achieving this initiative will be. </td> 
+      <td>In the <strong>Net Value</strong> section , manually enter a rough estimate amount in the <strong>Planned Benefit</strong> field. This is what you believe the benefit of achieving this initiative will be. </td> 
      </tr> 
     </tbody> 
    </table>
@@ -154,10 +170,10 @@ To create initiatives from scratch:
    >
    >If you have already defined the number of job roles and the budget for your plan and the number of job role and the costs of the initiative you are editing and of all the initiatives above it and they all exceed the amounts you specified for the plan, Workfront might find that you do have not have enough resources to finish the initiative. Workfront marks this as a conflict when trying to achieve this initiative and it displays it as a red bar. All the initiatives that follow the conflicted initiative display in a red background.&nbsp;You might need to adjust some of the needs of your initiatives starting with the first one that has insufficient resources.&nbsp;For information about adjusting conflicting initiatives, see [Resolve initiative conflicts in the Adobe Workfront Scenario Planner](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Optional) Hover over the name of a job role, then click the `trash can icon` ![](assets/delete.png) to remove it from the initiative. 
+1. (Optional) Hover over the name of a job role, then click the **trash can icon** ![](assets/delete.png) to remove it from the initiative. 
 
-1. (Conditional) If you made changes to the initiative, click `Apply`.
-1. (Conditional) If you made no changes, click the `X` icon in the upper-right of the initiative details panel to close it. 
+1. (Conditional) If you made changes to the initiative, click **Apply**.
+1. (Conditional) If you made no changes, click the **X** icon in the upper-right of the initiative details panel to close it. 
 1. (Optional) Update the priority of your initiatives.
 
    For information about prioritizing initiatives, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md).
@@ -166,7 +182,7 @@ To create initiatives from scratch:
    >
    >Initiatives listed first in the list have a higher priority and get resources before the initiatives listed lower in the list.
 
-1. Click `Save plan`.
+1. Click **Save plan**.
 
    The initiative is now included in your plan.
 

@@ -53,14 +53,14 @@ You must have the following access to perform the steps in this article:
 To change the display name in a project grouping:
 
 1. Go to a list of projects.
-1. From the `Grouping`drop-down menu, select `New Grouping`.
+1. From the **Grouping**drop-down menu, select **New Grouping**.
 
-1. Click  `Add Grouping`, and start typing "Portfolio Name" in the `First by:` field, then select it when it displays in the list.
+1. Click&nbsp;**Add Grouping**, and start typing "Portfolio Name" in the **First by:** field, then select it when it displays in the list.
 
-1. Click `Switch to Text Mode`.
+1. Click **Switch to Text Mode**.
 1. Done one of following:
 
-  * Add the following code to the existing text available in the `Group your Report` box:
+  * Add the following code to the existing text available in the **Group your Report** box:
 
     ```  
     group.0.displayname=Your
@@ -98,5 +98,5 @@ To change the display name in a project grouping:
 
     ![](assets/grouping-edited-name-no-name-350x162.png)
 
-1. Click `Done`, then `Save Grouping`.
+1. Click **Done**, then **Save Grouping**.
 

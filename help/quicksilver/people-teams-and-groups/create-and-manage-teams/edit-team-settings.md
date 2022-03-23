@@ -37,6 +37,18 @@ You must have the following access to perform the steps in this article:
 
 ## Edit team settings
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
+1. Click the **More** menu ![](assets/more-icon.png), then select **Edit**.
+
+1. Only team members with either a Plan or Work license see this option.  
+   If you should have the Edit option but you do not see it, ask your Workfront administratorto verify that Team Settings is visible in the layout template for Scrum Team, Kanban Team, or Waterfall Team.  
+
+1. ![](assets/edit-team-settings-adobe-350x154.png)
+
 1. In team settings, you can make the following kinds of changes:
 
   * Modify the team name
@@ -47,7 +59,7 @@ You must have the following access to perform the steps in this article:
     >
     >When a team is assigned to a group or subgroup, any group administrators of that group or subgroup can manage the team without being a member of it. Group administrators can go to the Teams area from the Main Menu and click the Switch Teams arrow ![Switch team icon](assets/switch-team-icon.png) to list all of the teams that are assigned to the groups that they manage.
 
-    You can make sure you are associating the right group with the team by hovering over it and clicking the information icon that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. Depending on the details configured for the group, you might also see its Business Leader and description. 
+    You can make sure you are associating the right group with the team by hovering over it and clicking the information icon ![](assets/info-icon.png) that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators. 
   
   * Designate the team owner
   * Add and remove team members
@@ -56,15 +68,15 @@ You must have the following access to perform the steps in this article:
 
     For more information on applying a custom layout template to a team, see the "Applying a Custom Template to a Team" section in Change the My Work and Work Requests areas with Layout Templates.
   
-  * Decide if this team is an agile team, by selecting the `This is an Agile Team` option.
+  * Decide if this team is an agile team, by selecting the **This is an Agile Team** option.
 
     For more information on agile teams and how to manage work inside an agile team, see [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
   
   * Change the Work On It button to a Start button. For more information on how to configure the Start button, see [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
-  * Customize the `Done` button. For more information on how to customize the Done button, see:
+  * Customize the **Done** button. For more information on how to customize the Done button, see:
 
     * [Configure the Done button for tasks](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md) 
     * [Configure the Done button for issues](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

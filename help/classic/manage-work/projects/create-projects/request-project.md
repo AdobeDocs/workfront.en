@@ -50,21 +50,21 @@ You must have the following access to perform the steps in this article:
 
 1. Do one of the following:
 
-  * Go to the Projects area in the Global Navigation Bar and select the Projects tab, then expand New Project. 
-  * Go to a portfolio, then expand Add Projects. 
-  * Go to a program, then expand Add Projects.
+   * Go to the **Projects** area in the Global Navigation Bar and select the **Projects** tab, then expand **New Project**. 
+   * Go to a portfolio, then expand **Add Projects**. 
+   * Go to a program, then expand **Add Projects**.
 
-1. Click  `Request Project`.
+1. Click&nbsp;**Request Project**.
 
 1. Do one of the following:
 
-  * Follow the same steps as for creating a project while defining a Business Case. (recommended)
+   * Follow the same steps as for creating a project while defining a Business Case. (recommended)
 
-    For information about defining a Business Case and requesting a project, see [Creating a Business Case](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+     For information about defining a Business Case and requesting a project, see [Creating a Business Case](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  * Create a project from scratch or using a template and change the status to  `Requested`.
+   * Create a project from scratch or using a template and change the status to&nbsp;**Requested**.
 
-    For information about creating a project, see [Creating a Project](../../../manage-work/projects/create-projects/create-project.md) or [Creating a Project Using a Template](../../../manage-work/projects/create-projects/create-project-from-template.md).
+     For information about creating a project, see [Creating a Project](../../../manage-work/projects/create-projects/create-project.md) or [Creating a Project Using a Template](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   The project you request has a status of  `Requested` and it displays on the `Requested Projects` tab of a Portfolio, if you associated it with a Portfolio. A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either `Approved` or `Rejected`.
+   The project you request has a status of&nbsp;**Requested** and it displays on the **Requested Projects** tab of a Portfolio, if you associated it with a Portfolio. A portfolio manager can now review it and either approve it or reject it, in which case the status of the project changes to either **Approved** or **Rejected**.
 

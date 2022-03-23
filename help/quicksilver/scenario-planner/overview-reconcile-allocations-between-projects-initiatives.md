@@ -39,7 +39,7 @@ You can connect projects with initiatives by doing one of the following:
 
 * Publish initiatives to projects
 
-  For more information, see Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner.
+  For more information, see [Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner](../scenario-planner/publish-scenarios-update-projects.md) .
 
 Both processes create a connection between the projects and their corresponding initiatives. After connecting them, you can manage their resource allocations by comparing them and ensuring that they match.
 
@@ -57,11 +57,18 @@ Both processes create a connection between the projects and their corresponding 
 
 * You can view initiative job role allocation on a linked project in the following areas of the project:
 
+  * Scenario Planner section of the Project&nbsp;Details area on a project. For more information, see the following articles:
+  * ```<li> <p><a href="../scenario-planner/publish-scenarios-update-projects.md" class="MCXref xref" xrefformat="{para}">Update or create projects by publishing initiatives in the Adobe Workfront Scenario Planner</a> </p> </li>``` ```<li> <p><a href="../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref" xrefformat="{para}">Manage information in the project Overview area</a> </p> </li>``` 
+  
+  * You cannot see job role information from the project and the initiative side-by-side in the Scenario Planner section of the Project Details.
   * The Role Allocation panel in the following areas:
 
     * Workload Balancer of the project
 
-      For information about how to viewand reconcile the allocations of roles betweenthe initiative and the linked project in the Workload Balancer, see [Show role allocation for projects and initiatives in the Workload Balancer](../scenario-planner/show-role-allocation-workload-balancer.md).
+      For information about how to view and reconcile the allocations of roles between the initiative and the linked project in the Workload Balancer, see [Show role allocation for projects and initiatives in the Workload Balancer](../scenario-planner/show-role-allocation-workload-balancer.md). 
+    
+    * Tasks section 
+    * For information about how to reconcile the allocations of roles between the initiative and the linked project in the Tasks section, see [Show role allocation for projects and initiatives in the task list](../scenario-planner/show-role-allocation-task-list-nwe.md).
 
     >[!TIP]
     >

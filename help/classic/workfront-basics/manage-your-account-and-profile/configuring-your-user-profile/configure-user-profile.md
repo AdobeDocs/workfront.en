@@ -13,5 +13,6 @@ This section contains the following articles:
 
 * [Configure My Settings](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) 
 * [Configure personal time off in Adobe Workfront](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) 
+* [Change the My Work and Work Requests areas with Layout Templates](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/change-my-work-layout-templates.md) 
 * [Create custom tabs or sections](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 

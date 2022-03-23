@@ -12,3 +12,5 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
+* Discover the features available only with the new Adobe Workfront experience
+

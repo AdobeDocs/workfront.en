@@ -9,7 +9,7 @@ description: Adobe Workfront Scenario Planner is available only in the new Adobe
 
 # Adobe Workfront Scenario Planner
 
-Adobe Workfront Scenario Planner is available only in the new Adobe Workfront experience. This section contains the following articles:
+Adobe Workfront Scenario Planner is available only in the new Adobe Workfront experience.  This section contains the following articles:
 
 * [The Adobe Workfront Scenario Planner overview](../scenario-planner/scenario-planner-overview.md) 
 * [Get started with the Adobe Workfront Scenario Planner](../scenario-planner/get-started-with-scenario-planning.md) 

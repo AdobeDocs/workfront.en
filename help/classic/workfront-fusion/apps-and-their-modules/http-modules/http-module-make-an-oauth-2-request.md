@@ -34,7 +34,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -43,7 +47,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -62,49 +73,49 @@ You must have the following access to use the functionality in this article:
 
 1. Create an OAuth client in the target service with which you want Adobe Workfront Fusion to communicate. This option is most likely found in the Developer section of the given service.
 
-  1. When creating a client, enter the appropriate URL in the   
-  
-     ```  
-     Redirect URL
-     ```  
-  
-     or   
-  
-     ```  
-     Callback URL
-     ```  
-  
-     field:
+   1. When creating a client, enter the appropriate URL in the    
+   
+      ```   
+      Redirect URL
+      ```   
+   
+      or    
+   
+      ```   
+      Callback URL
+      ```   
+   
+      field:
 
-     | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/oauth2 |
-     |---|---|
-     | EMEA  |https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
+      | Americas / APAC |https://app.workfrontfusion.com/oauth/cb/oauth2 |
+      |---|---|
+      | EMEA  |https://app-eu.workfrontfusion.com/oauth/cb/oauth2 |
 
-  1. After you create the client, the given service displays 2 keys:   
-  
-     ```  
-     Client ID
-     ```  
-  
-     and   
-  
-     ```  
-     Client Secret
-     ```  
-  
-     . Some services call these   
-  
-     ```  
-     App Key
-     ```  
-  
-     and   
-  
-     ```  
-     App Secret
-     ```  
-  
-     . Save the key and secret in a secure location, so you can provide them when creating the connection in Workfront Fusion.
+   1. After you create the client, the given service displays 2 keys:    
+   
+      ```   
+      Client ID
+      ```   
+   
+      and    
+   
+      ```   
+      Client Secret
+      ```   
+   
+      . Some services call these    
+   
+      ```   
+      App Key
+      ```   
+   
+      and    
+   
+      ```   
+      App Secret
+      ```   
+   
+      . Save the key and secret in a secure location, so you can provide them when creating the connection in Workfront Fusion.
 
 1. Find the 
 
@@ -130,23 +141,23 @@ You must have the following access to use the functionality in this article:
    >
    >.
 
-   ` `**Example: **`` Yahoo addresses:
+   ``` ```**Example: **`````` Yahoo addresses:
 
-  * Authorize URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/request_auth
-    ```  
-  
-  * Token URI:   
-  
-    ```  
-    https://api.login.yahoo.com/oauth2/get_token
-    ```
+   * Authorize URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/request_auth
+     ```   
+   
+   * Token URI:    
+   
+     ```   
+     https://api.login.yahoo.com/oauth2/get_token
+     ```
 
 1. (Conditional) If the target service uses scopes (access rights), check how the service separates individual scopes and make sure you set the separator in the advanced settings accordingly. If the separator is not set correctly, Workfront Fusion fails to create the connection, and you receive an invalid scope error.
 1. After you complete the steps above, you can start to create the OAuth connection in Workfront Fusion. Add the OAuth 2.0 HTTP(S) request and response processing module to your scenario.
-1. In the module's Connection field, click `Add`.
+1. In the module's Connection field, click **Add**.
 1. Fill in the following fields to create a connection: 
 
    <table cellspacing="0"> 
@@ -161,8 +172,8 @@ You must have the following access to use the functionality in this article:
       <td role="rowheader"> <p>Flow type</p> </td> 
       <td> <p>Select the flow for obtaining tokens.</p> 
        <ul> 
-        <li><span class="bold">Authorization Code</span>: Enter the <code>Authorize URI</code> and <code>Token URI</code> from the service's API documentation.</li> 
-        <li><span class="bold">Implicit</span>: Enter the <code>Authorize URI</code> from the service's API documentation.</li> 
+        <li><strong>Authorization Code</strong>: Enter the <code>Authorize URI</code> and <code>Token URI</code> from the service's API documentation.</li> 
+        <li><strong>Implicit</strong>: Enter the <code>Authorize URI</code> from the service's API documentation.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -185,8 +196,8 @@ You must have the following access to use the functionality in this article:
       <td role="rowheader"> <p>Authorize parameters</p> </td> 
       <td> <p>Add any parameters that you want to include in the authorization call. The following standard parameters are always automatically included and do not need to be added.</p> <p>Standard parameters:</p> 
        <ul> 
-        <li> <p><span class="bold">response_type</span> </p> <p> <code>code </code>for Authorization Code flow and <code>token </code>for Implicit flow</p> </li> 
-        <li> <p><span class="bold">redirect_uri</span> </p> 
+        <li> <p><strong>response_type</strong> </p> <p> <code>code </code>for Authorization Code flow and <code>token </code>for Implicit flow</p> </li> 
+        <li> <p><strong>redirect_uri</strong> </p> 
          <table cellspacing="0"> 
           <col> 
           <col> 
@@ -201,15 +212,15 @@ You must have the following access to use the functionality in this article:
            </tr> 
           </tbody> 
          </table> </li> 
-        <li> <p><span class="bold">client_id</span> </p> <p> The Client ID you received when creating the account</p> </li> 
+        <li> <p><strong>client_id</strong> </p> <p> The Client ID you received when creating the account</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Access token parameters</p> </td> 
       <td> <p>Add any parameters that you want to include in the token call. The following standard parameters are always automatically included and do not need to be added.</p> <p>Standard parameters:</p> 
        <ul> 
-        <li><span class="bold">grant_type</span>: <code>authorization_code</code></li> 
-        <li> <p><span class="bold">redirect_uri:</span> </p> 
+        <li><strong>grant_type</strong>: <code>authorization_code</code></li> 
+        <li> <p><strong>redirect_uri:</strong> </p> 
          <table cellspacing="0"> 
           <col> 
           <col> 
@@ -224,19 +235,19 @@ You must have the following access to use the functionality in this article:
            </tr> 
           </tbody> 
          </table> </li> 
-        <li><span class="bold">client_id</span>: The Client ID you received when creating the account is automatically included in the request body</li> 
-        <li><span class="bold">client_secret</span>: The Client Secret you received when creating the account is automatically included in the request body</li> 
-        <li><span class="bold">code</span>: The code returned by the authorization request</li> 
+        <li><strong>client_id</strong>: The Client ID you received when creating the account is automatically included in the request body</li> 
+        <li><strong>client_secret</strong>: The Client Secret you received when creating the account is automatically included in the request body</li> 
+        <li><strong>code</strong>: The code returned by the authorization request</li> 
        </ul> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). Workfront Fusion automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Refresh token parameters</p> </td> 
       <td> <p>Add any parameters that you want to include in the token call. The following standard parameters are always automatically included and do not need to be added.</p> <p>Standard parameters:</p> 
        <ul> 
-        <li> <p><span class="bold">grant_type</span>: <code>refresh_token</code></p> </li> 
-        <li> <p><span class="bold">refresh_token</span>: The most recent refresh token obtained by the service you are connecting to</p> </li> 
-        <li> <p><span class="bold">client_id</span>: The Client ID you received when creating the account is automatically included in the request body</p> </li> 
-        <li> <p><span class="bold">client_secret</span>: The Client Secret you received when creating the account is automatically included in the request body</p> </li> 
+        <li> <p><strong>grant_type</strong>: <code>refresh_token</code></p> </li> 
+        <li> <p><strong>refresh_token</strong>: The most recent refresh token obtained by the service you are connecting to</p> </li> 
+        <li> <p><strong>client_id</strong>: The Client ID you received when creating the account is automatically included in the request body</p> </li> 
+        <li> <p><strong>client_secret</strong>: The Client Secret you received when creating the account is automatically included in the request body</p> </li> 
        </ul> <p>Note:  <p>The OAuth 2.0 standard supports at least 2 methods of client authentication during this step (<code>client_secret_basic</code> and <code>client_secret_post</code>). Workfront Fusion automatically sends the specified client ID and secret through the <code>client_secret_post</code> method. Therefore, these parameters are included as part of the token request body automatically. </p> <p>For more information on OAuth 2.0 authentication, see <a href="https://tools.ietf.org/html/rfc6749">The OAuth 2.0 Authorization Framework</a>.</p> </p> </td> 
      </tr> 
      <tr> 
@@ -258,7 +269,7 @@ You must have the following access to use the functionality in this article:
     </tbody> 
    </table>
 
-1. Click `Continue`to save connection settings. 
+1. Click **Continue**to save connection settings. 
 1. Continue to [OAuth 2.0 request module setup](#oauth).
 
 ### Instructions for creating a connection to Google in the HTTP > Make an OAuth 2.0 request module
@@ -267,7 +278,7 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
 
 1. Ensure that you have created a project, configured OAuth settings, and generated your credentials as described in [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](../../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md).
 1. Open the HTTP > Make an OAuth 2.0 request module.
-1. Click `Add`next to the connection box.
+1. Click **Add**next to the connection box.
 1. Enter the following values:
 
    <table cellspacing="0"> 
@@ -313,7 +324,7 @@ The following example shows how to use the HTTP > Make an OAuth 2.0 request modu
     </tbody> 
    </table>
 
-1. Click `Continue`to save connection settings. 
+1. Click **Continue**to save connection settings. 
 1. Continue to [OAuth 2.0 request module setup](#oauth).
 
 ### Instructions for connecting to Microsoft Graph API via the HTTP > Make an OAuth 2.0 request module
@@ -329,13 +340,17 @@ When you configure the HTTP > Make an OAuth 2.0 request module, Workfront Fusion
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another](../../../workfront-fusion/mapping/map-information-between-modules.md).
 
 <!--
-
+<img src="assets/map-toggle-350x74.png" style="width: 350;height: 74;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
 -->
 
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Connection For information on setting up a connection, see Creating a connection for an OAuth request in this article. 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Connection</td> 
+   <td> <p>For information on setting up a connection, see <a href="#creating" class="MCXref xref">Creating a connection for an OAuth request</a> in this article.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Evaluate all states as errors (except for 2xx and 3xx ) </td> 
    <td> <p>Use this option to set up error handling.</p> <p>For more information, see <a href="../../../workfront-fusion/errors/error-handling.md" class="MCXref xref">Error handling</a>.</p> </td> 
@@ -360,17 +375,17 @@ If you see the map button above a field or function, you can use it to set varia
    <td role="rowheader"> <p>Body type</p> </td> 
    <td> <p>The HTTP Body is the data bytes transmitted in an HTTP transaction message immediately following the headers if there are any to be used.</p> 
     <ul> 
-     <li> <p><span class="bold">Raw</span> </p> <p>The Raw body type is generally suitable for most HTTP body requests even in situations where developer documentation does not specify data to send.</p> <p>Specify a form of parsing the data in the Content type field.</p> <p>Despite the content type selected, data is entered in any format that is stipulated or required by the developer documentation.</p> </li> 
-     <li> <p><span class="bold">Application/x-www-form-urlencoded</span> </p> <p>This body type is to POST data using <code>application/x-www-form-urlencoded</code>.</p> <p>For <code>application/x-www-form-urlencoded</code>, the body of the HTTP message sent to the server is essentially one query string. The keys and values are encoded in key-value pairs separated by <code>&amp;</code> and with an <code>=</code> between the key and the value. </p> <p>For binary data, <code>use multipart/form-data</code> instead.</p> 
+     <li> <p><strong>Raw</strong> </p> <p>The Raw body type is generally suitable for most HTTP body requests even in situations where developer documentation does not specify data to send.</p> <p>Specify a form of parsing the data in the Content type field.</p> <p>Despite the content type selected, data is entered in any format that is stipulated or required by the developer documentation.</p> </li> 
+     <li> <p><strong>Application/x-www-form-urlencoded</strong> </p> <p>This body type is to POST data using <code>application/x-www-form-urlencoded</code>.</p> <p>For <code>application/x-www-form-urlencoded</code>, the body of the HTTP message sent to the server is essentially one query string. The keys and values are encoded in key-value pairs separated by <code>&amp;</code> and with an <code>=</code> between the key and the value. </p> <p>For binary data, <code>use multipart/form-data</code> instead.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b>Example: </b></span></span> 
        <p>Example of the resulting HTTP request format:</p> 
        <p><code>field1=value1&amp;field2=value2</code> </p> 
       </div> </li> 
-     <li> <p><span class="bold">Multipart/form-data</span> </p> <p>The Multipart/form-data is an HTTP multipart request used to send files and data. It is commonly used to upload files to the server.</p> <p>Add fields to be sent in the request. Each field must contain a key-value pair.</p> 
+     <li> <p><strong>Multipart/form-data</strong> </p> <p>The Multipart/form-data is an HTTP multipart request used to send files and data. It is commonly used to upload files to the server.</p> <p>Add fields to be sent in the request. Each field must contain a key-value pair.</p> 
       <ul> 
-       <li> <p><span class="bold">Text</span> </p> <p>Enter the key and value to be sent within the request body.</p> </li> 
-       <li> <p><span class="bold">File </span> </p> <p>Enter the key and specify the source file you want to send in the request body.</p> <p>Map the file you want to upload from the previous module (such as HTTP &gt; Get a File or Google Drive &gt; Download a File), or enter the file name and file data manually.</p> </li> 
+       <li> <p><strong>Text</strong> </p> <p>Enter the key and value to be sent within the request body.</p> </li> 
+       <li> <p><strong>File</strong> </p> <p>Enter the key and specify the source file you want to send in the request body.</p> <p>Map the file you want to upload from the previous module (such as HTTP &gt; Get a File or Google Drive &gt; Download a File), or enter the file name and file data manually.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

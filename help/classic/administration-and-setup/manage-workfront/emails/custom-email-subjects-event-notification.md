@@ -52,21 +52,27 @@ You must have the following access to perform the steps in this article:
 
 ## Customize email subject lines for event notifications
 
-1. In the left panel, click `Email` > `Notifications`.
+1. Setup
 
-1. Click the `Event Notifications` tab.
-1. Click the name of the event notification you want to customize to open the `Event Notification` box.
-1. In the `Email Subject Line` box, change the text and fields, including custom fields, in the email subject.
+1. In the left panel, click **Email** > **Notifications**.
+
+1. Click the **Event Notifications** tab.
+1. Click the name of the event notification you want to customize to open the **Event Notification** box.
+1. In the **Email Subject Line** box, change the text and fields, including custom fields, in the email subject.
+
+   ![edit_email_subject_line_for_event_notification_Approval_pending_on_issues.png](assets/edit-email-subject-line-350x176.png)
 
    The names of the fields added must match the camel case syntax of our database structure. For more information about how our objects and their fields are named in the Workfront database, see the [Adobe Workfront API](../../../wf-api/workfront-api.md).
 
-1. Click `Update` to save the new subject lines for your emails.
+1. Click **Update** to save the new subject lines for your emails.
 
 ## Customize email subject lines for multi-object emails
 
 Some event notifications have multiple subject lines, depending on which objects they trigger.
 
 For example, “Someone includes me on a directed update” has two different subjects lines: first is for tasks, issues, template tasks and documents (also known as a “referenceObject”) and the second one is for objects that allow users to make comments, like portfolio, program, and so on (also known as a “topReferenceObject”).
+
+![](assets/3-350x158.png)
 
 If a user is included in a conversation on the task, issue, template task, or document,&nbsp;an email will generate with the first subject line. The subject line contains “referenceObject:name” and the system defines the object and displays the appropriate name in the subject field. The email subject line&nbsp;would look similar to this: "Comment on Task 123 on Project ABC."&nbsp;
 
@@ -79,6 +85,8 @@ To edit the email subject lines and add additional fields to either subject line
 Some event notifications&nbsp;also have multiple email subjects to outline the different actions which are taken on the objects.
 
 For example, requesting a document to be added to an issue is an event that can trigger two different emails: one for when the document is added, and one for when the document is edited.&nbsp;
+
+![](assets/5-350x157.png)
 
 To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customizing-subjects) in this article.  
 

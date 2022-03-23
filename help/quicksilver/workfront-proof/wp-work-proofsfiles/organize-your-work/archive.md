@@ -40,7 +40,7 @@ It can take up to 24 hours for the archiving process to be completed.
 
 1. On the Dashboard or a list view, select the checkbox for each proof you want to archive (see &nbsp; [Manage Items on the Views Page in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)&nbsp;for information about list views).  
 
-1. Select `More` > `Archive`.  
+1. Select **More** > **Archive**.  
    The Archive proofs message box appears.&nbsp;
 
 1. Click an option to specify whether you want the proof locked or unlocked while it is archived.  
@@ -48,17 +48,17 @@ It can take up to 24 hours for the archiving process to be completed.
 
 ## Listing Archived Proofs
 
-A proof that has been archived appears only in the `Archived proofs` view, with the archived icon to the right of the proof name.
+A proof that has been archived appears only in the **Archived proofs** view, with the archived icon to the right of the proof name.
 
 To display the Archived proofs view:
 
-1. Click `Views`, then click `All items` > `Archived proofs`.
+1. Click **Views**, then click **All items** > **Archived proofs**.
 
-   When you click the name of an archived proof in this list, the Proof details page appears, displaying an `Unarchive` button at the top of this page.
+   When you click the name of an archived proof in this list, the Proof details page appears, displaying an **Unarchive** button at the top of this page.
 
-   Also, if you expand the `Activity` section on this page, you can view an entry telling you when the proof was archived and who archived it.  
+   Also, if you expand the **Activity** section on this page, you can view an entry telling you when the proof was archived and who archived it.  
    ![Archived_proof_Activity_expanded.png](assets/archived-proof-activity-expanded-350x77.png)  
-   If the `Activity` section does not display a name of the user who archived the proof, this means that the proof was archived automatically after 60 days of inactivity.  
+   If the **Activity** section does not display a name of the user who archived the proof, this means that the proof was archived automatically after 60 days of inactivity.  
    To view the contents of an archived proof, you must first unarchive it.&nbsp;
 
 ## Unarchiving Proofs
@@ -67,9 +67,9 @@ Anyone can unarchive a proof at any time. This includes reviewers who are not Wo
 
 To unarchive a proof from the Archived proofs view:
 
-1. Click `Views`, then click `All items` > `Archived proofs`.
+1. Click **Views**, then click **All items** > **Archived proofs**.
 
 1. Click the check box next to any proof or proofs you want to unarchive.
-1. Click `More`, then click `Unarchive` from the menu that appears.  
+1. Click **More**, then click **Unarchive** from the menu that appears.  
    A message appears at the top of the page to indicate that your proof is being unarchived.
 

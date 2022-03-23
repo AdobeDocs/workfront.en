@@ -46,23 +46,26 @@ Smart assignments are available in most locations where you can make assignments
 1. Go to an issue or a task and click one of the following fields to edit them: &nbsp;&nbsp;
 
   * A task or issue list or report 
+  * A task or issue header
+  * The task or issue Summary panel
+  * The Assignments field for an item listed in the Home area
   * Resource Scheduling
   * Workload Balancer
 
-1. Place your cursor in the assignment field, and wait for two seconds. The ``Suggestions or Suggested Assignments list displays.
+1. Place your cursor in the assignment field, and wait for two seconds. The ******Suggestions** or **Suggested Assignments** list displays.
 
    Users displayed in this list are the smart assignment suggestions for the task or the issue.
 
    For more information about where the smart assignments display, see the "Locate smart assignment suggestions" section in the article [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) . 
 
-1. Select the user in the recommendations list by clicking their name. Clicking Assign to me assigns the work item to yourself.
+1. Select the user in the recommendations list by clicking their name. Clicking **Assign to me** assigns the work item to yourself.
 
    >[!TIP]
    >
    >If there are no suggestions, the suggestion list does not open.
 
 1. (Optional) If you do not want to use one of the recommended users from the smart assignments list, start typing the name of the desired user and select the name when it appears in the list.
-1. Click `Enter` to make the assignment.
+1. Click **Enter** to make the assignment.
 
    The selected user is assigned to the task or issue.
 

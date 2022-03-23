@@ -45,7 +45,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -60,7 +68,7 @@ You must have the following before you can start:
 
 ## Considerations for removing results, activities, and disconnecting projects from goals
 
-`<li>  <ul>   <li> <p>You can remove results and activities only from active goals that are in a current or future time period. </p> </li>  </ul> </li>`
+```<li>  <ul>   <li> <p>You can remove results and activities only from active goals that are in a current or future time period. </p> </li>  </ul> </li>```
 
 * You can remove results and activities from a goal by deleting them. Deleted results and activities cannot be recovered. 
 * You cannot delete a project from a goal, but you can disconnect it. By disconnecting the project from the goal the percent complete of the project no longer affects the progress of the goal.
@@ -69,13 +77,13 @@ You must have the following before you can start:
 
 * You cannot remove or disconnect a result or an activity from a goal if they are the last progress indicator for the goal.
 
-  ` `**Warning: **``You can delete a project from a goal, even if it is the last progress indicator on the goal.&nbsp;The goal remains Active, but it shows no progress.
+  ``` ```**Warning: **``````You can delete a project from a goal, even if it is the last progress indicator on the goal.&nbsp;The goal remains Active, but it shows no progress.
 
 ## Delete results and activities from goals
 
 Removing results and activities from goals is identical.
 
-1. Click the `Main Menu icon` ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click `Goals`.
+1. Click the **Main Menu icon** ![](assets/main-menu-icon.png) in the upper-right corner of your screen, then click **Goals**.
 
    This opens the Workfront Goals area.
 
@@ -85,9 +93,9 @@ Removing results and activities from goals is identical.
 
    This opens the Goal Details panel on the right.
 
-1. Click `Results` to remove results or `Activities` to remove activities. 
+1. Click **Results** to remove results or **Activities** to remove activities. 
 
-1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the result or activity name, then click `Delete` > `Yes, delete`.
+1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
 
    ![](assets/delete-result-goal-details-350x108.png)
 
@@ -95,7 +103,7 @@ Removing results and activities from goals is identical.
 
 ## Disconnect projects from goals
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of your screen.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of your screen.
 
    This opens the Workfront Goals area.
 
@@ -105,8 +113,8 @@ Removing results and activities from goals is identical.
 
    This opens the Goal Details panel on the right.
 
-1. Click the `right-pointing arrow` to the left of the Activities sections to expand it. 
-1. Click the `gear icon` ![](assets/settings-gear-icon.png) to the right of the project name, then click `Disconnect`.
+1. Click the **right-pointing arrow** to the left of the Activities sections to expand it. 
+1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
 
    ![](assets/disconnect-project-goal-details-350x94.png)
 

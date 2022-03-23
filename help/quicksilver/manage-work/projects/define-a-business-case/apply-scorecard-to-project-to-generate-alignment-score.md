@@ -61,14 +61,14 @@ You can add scorecards to a project as part of building the business case for th
 
 For more information about building a business case, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your Adobe Workfront administrator `or group administrator` must enable the Scorecard section in the Business Case area of your projects before you can access scorecards from the Business Case. For information about setting up project preferences and enabling areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Your Adobe Workfront administrator ```or group administrator``` must enable the Scorecard section in the Business Case area of your projects before you can access scorecards from the Business Case. For information about setting up project preferences and enabling areas of the Business Case, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 To apply a scorecard to a project:
 
 1. Go to a project to which you want to apply a scorecard.
-1. Click `Business Case`in the left panel.
-1. Find the `Scorecard` section of the Business Case.  
-   You must create a scorecard before the `Scorecard` section displays on the Business Case.
+1. Click **Business Case** in the left panel.
+1. Find the **Scorecard** section of the Business Case.  
+   You must create a scorecard before the **Scorecard** section displays on the Business Case.
 
    For information about creating a scorecard, see [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -82,7 +82,7 @@ To apply a scorecard to a project:
 
    For more information about generating the project overall alignment score, see [Generate an Alignment Score for a project](#generating-an-alignment-score-for-a-project).
 
-1. Click `Save` to save the scorecard and score the project.
+1. Click **Save** to save the scorecard and score the project.
 
    The scorecard is now associated with the project and the project is scored.
 
@@ -128,11 +128,11 @@ You can view the alignment score of a project at the project level, or in the Po
 
 You can view the alignment score of a project at the project level if you have Contribute rights to the project.
 
-1. Go to the project whose Alignment Score you want to view. 
-1. Click `Business Case` in the left panel.
-1. Go to the `Business Case Summary` on the right side of your screen.
+1. Go to the project whose Alignment Score you want to view.  
+1. Click **Business Case** in the left panel.
+1. Go to the **Business Case Summary** on the right side of your screen.
 
-   The Alignment Score is located in the Business Case Summary, in the `Aligned` value.
+   The Alignment Score is located in the Business Case Summary, in the **Aligned** value.
 
    ![alignment_score_on_a_project.png](assets/alignment-score-on-a-project.png)
 
@@ -145,25 +145,26 @@ For more information about the information displayed in the Portfolio Optimizer,
 * [Locate the Alignment Score of the project in the Portfolio Optimizer](#locating-alognment-score-of-the-project) 
 * [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locating-alignment-score-for-portfolio)
 
-#### `Locate the Alignment Score of the project in the Portfolio Optimizer`
+#### **Locate the Alignment Score of the project in the Portfolio Optimizer**
 
-1. Click the Main Menu icon , then Portfolios.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then **Portfolios**. 
+
 1. Click the name of a Portfolio.
-1. Click Portfolio Optimization in the left panel.
+1. Click **Portfolio Optimization** in the left panel.
 
    The Portfolio Optimizer displays. 
 
-1. The alignment score of a project is displayed as a percentage in the `Alignment` column of the Portfolio Optimizer.
+1. The alignment score of a project is displayed as a percentage in the **Alignment** column of the Portfolio Optimizer.
 
    This is the alignment score of the project based on the scorecard associated with the project.
 
 ####  Locate the Alignment Score of the portfolio in the Portfolio Optimizer
 
-1. Go to the `Projects` area in the Global Navigation bar.
-1. Select the `Portfolios` tab.
+1. Go to the **Projects** area in the Global Navigation bar.
+1. Select the **Portfolios** tab.
 1. Click the name of a Portfolio.
-1. Select the `Portfolio Optimization` tab.
-1. At the top of the Portfolio Optimizer find the `Aligned` value, as well as the `Alignment` gauge which indicate the alignment score of the portfolio.
+1. Select the **Portfolio Optimization** tab.
+1. At the top of the Portfolio Optimizer find the **Aligned** value, as well as the **Alignment** gauge which indicate the alignment score of the portfolio.
 
    This is the alignment score of the portfolio.
 
@@ -175,9 +176,9 @@ There is a difference between the alignment score and the portfolio optimizer sc
 
 The alignment score of a project is calculated based on the points obtained after completing the scorecard. This score is then used to determine the portfolio alignment score. The alignment score is displayed as a percentage.
 
-The alignment score of a project displays in the `Alignment` column of the Portfolio Optimizer.
+The alignment score of a project displays in the **Alignment** column of the Portfolio Optimizer.
 
-The portfolio optimizer score is a ranking automatically calculated in the Portfolio Optimizer by which projects can be prioritized. The portfolio optimizer score is displayed as an indicator icon accompanied by a number and it displays in the `Score` column of the Portfolio Optimizer. A Portfolio Optimizer score is generated only when all the sections of the Business Case are completed, except for Goals.
+The portfolio optimizer score is a ranking automatically calculated in the Portfolio Optimizer by which projects can be prioritized. The portfolio optimizer score is displayed as an indicator icon accompanied by a number and it displays in the **Score** column of the Portfolio Optimizer. A Portfolio Optimizer score is generated only when all the sections of the Business Case are completed, except for Goals.
 
 For more information about creating a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

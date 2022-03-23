@@ -13,7 +13,7 @@ You can delegate the following objects in Adobe Workfront:
 * Issues assigned to you
 
   <!--
-  Proof approvals assigned to you
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Proof approvals assigned to you</p> </li>
   -->
 
 * Project, task, issue, document approvals assigned to you.

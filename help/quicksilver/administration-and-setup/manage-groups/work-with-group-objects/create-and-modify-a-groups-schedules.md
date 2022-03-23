@@ -42,17 +42,17 @@ You must have the following to perform the steps in this article:
 
 ## Create or modify the schedules for a group
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Groups`.
+1. Click **Groups**.
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
 1. Click the name of the group where you want to view schedules.
-1. In the left panel, click `Schedules`.
+1. In the left panel, click **Schedules**.
 1. Do any of the following:
 
-  * Click `New Schedule` to create a new schedule
-  * Select a schedule, then use the controls on the toolbar to `Edit`, `Copy`, or `Delete` it. 
-  * `Export` the list of schedules for the group.
+  * Click **New Schedule** to create a new schedule
+  * Select a schedule, then use the controls on the toolbar to **Edit**, **Copy**, or **Delete** it. 
+  * **Export** the list of schedules for the group.
 

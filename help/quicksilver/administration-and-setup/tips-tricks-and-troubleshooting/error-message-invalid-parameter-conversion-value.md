@@ -32,7 +32,15 @@ For example, you have a Custom Field formatted as Text.&nbsp; Now, you want to c
   <tr> 
    <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</p> </td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level* Edit access to: Create Reports, Dashboards, and Calendars Create Filters, Views, and Groupings Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><strong>Access level*</strong> </td> 
+   <td> <p>Edit access to:</p> 
+    <ul> 
+     <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
+     <li> <p>Create Filters, Views, and Groupings</p> </li> 
+    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 

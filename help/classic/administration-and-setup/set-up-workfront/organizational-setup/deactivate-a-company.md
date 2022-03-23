@@ -15,7 +15,9 @@ You can deactivate a company that you no longer use while retaining all of its a
 
 You must have the following in order to manage companies in Workfront:
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Workfront plan*</p> </td> 
@@ -24,22 +26,38 @@ You must have the following in order to manage companies in Workfront:
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* One of the following: The System Administrator access level, which allows you to edit any company in the system. For more information, see Grant a user full administrative access. Administrative access to manage companies, which allows you to edit any company in the system. For more information, see Grant users administrative access to certain areas. Note: You can also manage companies associated with any group where you are assigned as a group administrator. In order to add to and remove users from the Workfront system, you must have one of the following: The System Administrator access level. For information about this access level, see Grant a user full administrative access. In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings , the Create option and at least one of the two User Admin options must be enabled. If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member. For information about the Users setting in an access level, see Grant access to users. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td> <p>One of the following:</p> 
+    <ul> 
+     <li> <p>The System Administrator access level, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+     <li> <p>Administrative access to manage companies, which allows you to edit any company in the system. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </li> 
+    </ul> <p>Note:  
+     <ul> 
+      <li> <p>You can also manage companies associated with any group where you are assigned as a group administrator.</p> </li> 
+      <li> <p>In order to add to and remove users from the Workfront system, you must have one of the following:</p> 
+       <ul> 
+        <li> <p>The System Administrator access level. For information about this access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </p> </li> 
+        <li> <p>In your access level, Edit must be selected for the Users setting. And, for the Users setting, under Fine-tune your settings <img src="assets/gear-icon-in-access-levels.png"> , the Create option and at least one of the two User Admin options must be enabled. </p> <p>If you are using the User Admin (Group Users) option, you must be a group administrator of a group where the user is a member.</p> <p> <img src="assets/access-req-users-350x101.png" style="width: 350;height: 101;"> </p> </li> 
+       </ul> <p>For information about the Users setting in an access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>.</p> </li> 
+     </ul> </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. In the left panel, click `Companies` ![](assets/companies-icon-left-panel.png).
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. In the left panel, click **Companies** ![](assets/companies-icon-left-panel.png).
 
 1. Select one or more companies to deactivate.
-1. Click `Edit`.
-1. If editing a single company, disable the `Is Active` option.
+1. Click **Edit**.
+1. If editing a single company, disable the **Is Active** option.
 
    Or
 
-   If editing multiple companies, select `No` from the `Is Active` drop-down menu.
+   If editing multiple companies, select **No** from the **Is Active** drop-down menu.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

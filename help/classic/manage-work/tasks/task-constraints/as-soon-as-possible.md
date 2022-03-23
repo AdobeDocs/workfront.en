@@ -15,14 +15,23 @@ As Soon As Possible is a task constraint that places the start time of the task 
 
 * As Soon As Possible is the default constraint if a project uses a Schedule Mode of Schedule from Start Date and if the system default start date for a new task is set to Based on the Project Planned Date.  
 
-* If a project uses a schedule mode of Schedule from Start Date and if the system `or group` default Start Date for a new task is set to Today, then the default Task Constraint is Start No Earlier Than.
+* If a project uses a schedule mode of Schedule from Start Date and if the system ```or group``` default Start Date for a new task is set to Today, then the default Task Constraint is Start No Earlier Than.
 
   For information about where to set the default Constraint for a new task, refer to [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-To update the Task Constraint to As Soon As Possible: Go to a task whose Task Constraint you want to update. Click Edit Task. In the Overview section, expand the Task Constraint drop-down menu. Select As Soon As Possible. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>To update the Task Constraint to As Soon As Possible: </p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click <strong>Edit Task</strong>. </li>
+<li value="3"> <p>In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</p> </li>
+<li value="4"> <p>Select <strong>As Soon As Possible</strong>.</p> </li>
+<li value="5">Click <strong>Save Changes</strong>. </li>
+</ol>
+</div>
 -->
 
 ## The difference between Earliest Available Time and As Soon As Possible
@@ -35,11 +44,11 @@ The Earliest Available Time constraint differs from the As Soon As Possible cons
 
 In this situation:
 
-* `Earliest Available Time:` Using the Earliest Available Time constraint on the successor task gives priority to the predecessor's flexible constraint.
+* **Earliest Available Time:** Using the Earliest Available Time constraint on the successor task gives priority to the predecessor's flexible constraint.
 
   For example, suppose that Task A is a predecessor to Task B. Task B has the Earliest Available Time constraint and Task A has the As Late As Possible constraint. In this situation, the task is scheduled as close to the completion of the project as possible.
 
-* `As Soon As Possible:` In this scenario, using the As Soon As Possible constraint on the successor task gives the priority to the successor task.
+* **As Soon As Possible:** In this scenario, using the As Soon As Possible constraint on the successor task gives the priority to the successor task.
 
   For example, suppose that Task A is a predecessor to Task B. Task B has the As Soon As Possible constraint and Task A has the As Late As Possible constraint. In this situation, the task is scheduled as close to the start of the project as possible.
 

@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms (M-O)
 description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms (M-O)
@@ -35,20 +36,32 @@ M-O
   <tr> 
    <td>Milestone</td> 
    <td> <p>A marker that you can associate with a task to indicate that a key point in the Project has been achieved when the task is completed. You generally can use milestones to show a significant event such as the completion of a phase of the project or a set of critical activities. Milestones are typically associated with parent tasks. You must create the milestones before you can attach them to tasks. For information about milestones, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">Create a milestone path</a> and <a href="../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md" class="MCXref xref">Associate milestones with tasks</a>. </p> <!--
-     A way to observe, measure, and monitor the progress or performance of a project, often tied to approvals.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">A way to observe, measure, and monitor the progress or performance of a project, often tied to approvals.</p>
     --> </td> 
   </tr> 
   <tr> 
    <td>Milestone Path</td> 
    <td>A collection of milestones. Milestone Paths are used on Projects to distinguish Projects with certain types of Milestones from Projects with a different set of Milestones.</td> 
   </tr> <!--
-   Milestone Task A task flagged to indicate a reportable event to measure.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Milestone Task</td> 
+    <td>A task flagged to indicate a reportable event to measure.</td> 
+   </tr>
   --> <!--
-   Module A single step within a scenario that performs some function based upon the associated app.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Module</td> 
+    <td>A single step within a scenario that performs some function based upon the associated app.</td> 
+   </tr>
   --> <!--
-   Naming convention An organization-wide set of rules that uses data to create names of projects, tasks, and deliverables.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Naming convention</td> 
+    <td>An organization-wide set of rules that uses data to create names of projects, tasks, and deliverables.</td> 
+   </tr>
   --> <!--
-   Native Integration An integration that requires no manual coding or API configuration. Also referred to as an "out-of-the-box" integration.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Native Integration</td> 
+    <td>An integration that requires no manual coding or API configuration. Also referred to as an "out-of-the-box" integration.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Navigation Menu</td> 
@@ -104,7 +117,10 @@ M-O
    <td>Organizational Setup</td> 
    <td>This defines Companies, Groups, and Security Profiles for your organization.</td> 
   </tr> <!--
-   Owner The user responsible for the completion of the designated object.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Owner</td> 
+    <td>The user responsible for the completion of the designated object.</td> 
+   </tr>
   --> 
  </tbody> 
 </table>

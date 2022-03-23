@@ -50,5 +50,5 @@ Team members with Edit rights can update the WIP limit for each status column di
 
 1. On the Kanban board, locate the WIP limit in the upper-right corner of each column on the Kanban board.
 1. Click the WIP limit you want to modify, then specify a new limit.
-1. Press `Enter`.
+1. Press **Enter**.
 

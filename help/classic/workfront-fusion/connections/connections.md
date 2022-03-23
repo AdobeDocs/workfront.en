@@ -18,7 +18,7 @@ This section contains the following articles:
 * [Create a connection to Workfront Fusion - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
   <!--
-  Allow connections from Adobe Workfront Fusion
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/connections/allow-connections-from-workfront-fusion.md" class="MCXref xref" xrefformat="{para}">Allow connections from Adobe Workfront Fusion</a> </li>
   -->
 
 * [Connect Adobe Workfront Fusion to any web service](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md) 

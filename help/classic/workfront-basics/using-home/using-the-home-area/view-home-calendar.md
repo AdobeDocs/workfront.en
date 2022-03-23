@@ -45,9 +45,14 @@ You must have the following access to perform the steps in this article:
 
 ## View the Workfront Home Calendar
 
-1. Click `Work List` in the upper-left corner of Home, then click  `Calendar` in the drop-down menu.
+1. Home
+1. Click **Work List** in the upper-left corner of Home, then click&nbsp;**Calendar** in the drop-down menu.
+
+   ![](assets/selectcalendar-qs-350x212.png)
 
    The Home Calendar view displays.
+
+   ![](assets/calendarview-qs-350x189.png)
 
    All the work items assigned to you or assigned to your groups, teams, or roles display in the left panel.
 

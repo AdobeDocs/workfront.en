@@ -87,17 +87,21 @@ We recommend that you do the following before deactivating an unused job role:
 
   For information about creating approval processes and routing rules, see the following articles:
 
-  * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) 
-  * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md) 
+   * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
 ## Deactivate a job role
 
-1. In the left panel, click `Job Roles.`
-1. (Optional) In the `Filter` drop-down menu, select `Active` to display only active job roles. 
+1. Setup
+1. In the left panel, click**Job Roles.**
+1. (Optional) In the **Filter** drop-down menu, select **Active** to display only active job roles. 
 1. Click the name of the job role that you want to deactivate.
-1. In the `Is Active` drop-down menu, select `No`. 
-1. Click `Save Changes`.
+1. In the **Is Active** drop-down menu, select **No**. 
+1. Click **Save Changes**.
 
    The job role is deactivated and can no longer be assigned to work, associated with layout templates, and so on. For information about all uses of job roles in&nbsp;Workfront, see [Job role overview](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
 
-Known limitations Deactivated job roles still display in the following area of Workfront: The Assignments field in Home  
+## Known limitations
+
+Deactivated job roles still display in the following area of Workfront:
+```<li> <p>The Assignments field in Home</p> </li>```  &nbsp;

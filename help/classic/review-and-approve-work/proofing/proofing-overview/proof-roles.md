@@ -21,7 +21,7 @@ Proof roles are granted to users for an individual proof at the time the user is
 
 The proof role defines what actions a reviewer can take in relation to that specific proof.
 
-` `**Example: **``If you are assigned the Reviewer role, you are being asked to review the proof by adding markups and comments, but you do not have the option to approve or deny the proof.
+``` ```**Example: **``````If you are assigned the Reviewer role, you are being asked to review the proof by adding markups and comments, but you do not have the option to approve or deny the proof.
 
 Certain proof roles give a reviewer edit rights on the proof (even if their account profile doesn't) and lets them use some additional features like adding actions on comments, creating new versions, and adding more reviewers to the proof.
 
@@ -43,24 +43,24 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
  <thead> 
   <tr> 
    <th> <p>&nbsp;</p> </th> 
-   <th> <p><span class="bold">View a proof</span> </p> </th> 
-   <th> <p><span class="bold">Add markups</span> </p> </th> 
-   <th> <p><span class="bold">Add comments</span> </p> </th> 
-   <th> <p><span class="bold">Edit own comments if there are no replies</span> </p> </th> 
-   <th> <p><span class="bold">Make a decision</span> </p> </th> 
-   <th> <p><span class="bold">Delete comments made by others</span> </p> </th> 
+   <th> <p><strong>View a proof</strong> </p> </th> 
+   <th> <p><strong>Add markups</strong> </p> </th> 
+   <th> <p><strong>Add comments</strong> </p> </th> 
+   <th> <p><strong>Edit own comments if there are no replies</strong> </p> </th> 
+   <th> <p><strong>Make a decision</strong> </p> </th> 
+   <th> <p><strong>Delete comments made by others</strong> </p> </th> 
    <th>Resolve comments</th> 
    <th>Apply Actions to Comments</th> 
-   <th> <p><span class="bold">Edit the proof</span> </p> </th> 
+   <th> <p><strong>Edit the proof</strong> </p> </th> 
    <th>Share the proof with others</th> 
    <th>Create new version</th> 
-   <th> <p><span class="bold">View approval requests in the Home area</span> </p> </th> 
+   <th> <p><strong>View approval requests in the Home area</strong> </p> </th> 
    <th>Add new reviewers</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p><span class="bold">Read Only</span> </p> </td> 
+   <td> <p><strong>Read Only</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
@@ -76,7 +76,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Reviewer</span> </p> </td> 
+   <td> <p><strong>Reviewer</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -92,7 +92,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Approver</span> </p> </td> 
+   <td> <p><strong>Approver</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
@@ -108,7 +108,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Reviewer &amp; Approver</span> </p> </td> 
+   <td> <p><strong>Reviewer &amp; Approver</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -124,7 +124,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Author</span> </p> </td> 
+   <td> <p><strong>Author</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -140,10 +140,10 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Moderator</span> </p> </td> 
+   <td> <p><strong>Moderator</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p><span class="bold">✓</span> </p> </td> 
+   <td> <p><strong>✓</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p>&nbsp;</p> </td> 

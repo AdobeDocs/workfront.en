@@ -23,7 +23,7 @@ This option applies only to Scrum teams and not to Kanban teams.
 
 For more information, see [Configure Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-`<iframe class="vimeo-player_0" src="assets/601336640?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/601336640?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/601336640/d519107145)
 
@@ -50,6 +50,6 @@ You can now create a new story or issue directly from the Kanban board. This mak
 
 For more information, see Add stories and issues from the Kanban board.
 
-`<iframe class="vimeo-player_0" src="assets/578094546?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/578094546?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/578094546/cbdd9b0d72) 

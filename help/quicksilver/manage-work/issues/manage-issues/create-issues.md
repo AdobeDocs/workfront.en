@@ -56,7 +56,7 @@ When you have the correct access and permissions you can create issues on a proj
 
 Your organization should have a well-defined process in place for when and how to record an issue. When you configure this process, the first step is to create the form necessary for submitting an issue. Whether you will allow for issues to be added to tasks and projects directly, or if you have request queues where issues are submitted, you can define what Workfront fields as well as what custom fields are available for users when they submit new issues and must be completed. The New Issue form can contain important information that will be helpful in resolving the issue quickly.
 
-The fields for the new issues on a project are defined in the Queue Details section of the project where the issues will be logged. For information about configuring the Queue Details section of the project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+The fields for the new issues on a project are defined in the  Queue Details section of the project where the issues will be logged. For information about configuring the  Queue Details section of the project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 For information about creating issues by submitting them to a request queue, see the [Create issues by entering a new request](#create-issues-as-new-requests) section in this article.
 
@@ -67,19 +67,19 @@ After you have defined the fields of a new issue form on your project, you can s
 To create an issue on a task or a project:
 
 1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the `Tasks` area, then click the name of a task. 
-1. Click the Issues section.
+1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
+1. Click the **Issues** section.
 
-1. Click `New Issue`.
+1. Click **New Issue**.
 
-1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the `Topic Group` or the `Queue Topic` of your new issue. They should have names customized to your environment.  
+1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. They should have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).  
    ![](assets/new-issue-form--topic--queue--default-fields-only-350x533.png)
 
   * If there is only one Queue Topic set on the project, it is displayed automatically.
   * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
 
-1. (Conditional) If the project creator allowed for the `Issue Type` field to display on the New Issue form, select the type of your issue from the following options:
+1. (Conditional) If the project creator allowed for the **Issue Type** field to display on the New Issue form, select the type of your issue from the following options:
 
   * Bug Report
   * Change Order
@@ -87,25 +87,28 @@ To create an issue on a task or a project:
   * Request  
     Depending on how your Workfront administrator has configured your Project Preferences, the names of the issue types might be different for you.
 
-1. Specify any of the fields available in the `New Issue` form. For more information about defining fields as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
+1. Specify any of the fields available in the **New Issue** form. For more information about defining fields as you enter a new issue, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 
    ![](assets/new-issue-form--no-topic--queue--no-form--default-fields-350x557.png)
 
-1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the `New Issue` form.  
+1. (Conditional) If the Queue Topics are associated with a custom form, that custom form will display in the **New Issue** form.  
    Or  
-   If the project is associated with an issue custom form through the Queue Details area, the form displays in the `New Issue` form, under the default Workfront fields.
+   If the project is associated with an issue custom form through the Queue Details area, the form displays in the **New Issue** form, under the default Workfront fields.
 
    <!--
-   For more information about defining the Queue Details tab of a project, see Overview of the Queue Details tab in a project.
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+   For more information about defining the Queue Details tab of a project, see
+   <a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref">Overview of the Queue Details tab in a project</a>.
+   </MadCap:conditionalText>
    -->
 
-1. Click `Save New Issue.`
+1. Click **Save New Issue.**
 
 Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
 ## Create issues on a task or project inline
 
-Important: The project owner must enable Allow users to add issues inline when defining issue settings for the project before you can add issues inline to the project or tasks. For information about configuring issue settings on a project, see Edit projects. When you want to add several issues quickly, you can create issues for a task or a project inline, by adding them to a list of issues.
+``` ```**Important: **`````` ```The project owner must enable **Allow users to add issues inline** when defining issue settings for the project before you can add issues inline to the project or tasks. For information about configuring issue settings on a project, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).  When you want to add several issues quickly, you can create issues for a task or a project inline, by adding them to a list of issues.
 
 >[!NOTE]
 >
@@ -114,16 +117,16 @@ Important: The project owner must enable Allow users to add issues inline when d
 To create issues inline:
 
 1. Go to a project where you want to create the issue. 
-1. (Optional) If you want to log the issue for a task, go to the `Tasks` section, then click the name of a task. 
-1. Click the Issues section. 
-1. Click `Add More Issues`.
+1. (Optional) If you want to log the issue for a task, go to the **Tasks** section, then click the name of a task. 
+1. Click the **Issues** section.  
+1. Click **Add More Issues**.
 
    A new line is created in the list of issues on the Issues section. 
-   Tip: This option is dimmed if the Allow users to add issues inline setting is deselected in the Edit Project box. For information, see Edit projects.  
+   ``` ```**Tip: **`````` ```This option is dimmed if the Allow users to add issues inline setting is deselected in the Edit Project box. For information, see``` [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. Start typing the name of the issue in the Name field, then continue adding more information about the issue inline. 
 
-   ` `**Tips: **``
+   ``` ```**Tips: **``````
 
   * The fields that are available to edit inline are made available by the view you apply to your issue list. 
   * You might not be able to inline edit the following type of fields:

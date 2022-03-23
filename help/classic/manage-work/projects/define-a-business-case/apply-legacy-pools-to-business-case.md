@@ -17,22 +17,22 @@ For more information about creating a Business Case, see [Create a Business Case
 
 ## Apply a Legacy Resource Pool to the Business Case
 
-The `Legacy Resource Pool` field on the Business Case is&nbsp;used to help estimate potential resource needs during project evaluation.&nbsp;
+The **Legacy Resource Pool** field on the Business Case is&nbsp;used to help estimate potential resource needs during project evaluation.&nbsp;
 
 You must have Edit access to projects in your access level, as well as Manage permissions on the project to be able to edit the Business Case of the project.&nbsp;
 
 To apply a Legacy Resource Pool to the Business Case of a project:
 
 1. Go to the project which you want to associate with the Legacy Resource Pool.&nbsp;
-1. Select the `Project Details` tab.
-1. Select the `Business Case` sub-tab.
-1. In the `Legacy Resource Estimates` section, click `Add`.&nbsp;
+1. Select the **Project Details** tab.
+1. Select the **Business Case** sub-tab.
+1. In the **Legacy Resource Estimates** section, click **Add**.&nbsp;
 
-1. Specify a `Legacy Resource Pool` in the `Legacy Resource Pool` drop-down menu.
+1. Specify a **Legacy Resource Pool** in the **Legacy Resource Pool** drop-down menu.
 
-   This adds the `Legacy`  `Resource Estimates` grid to the Business Case.&nbsp;
+   This adds the **Legacy**&nbsp;**Resource Estimates** grid to the Business Case.&nbsp;
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Add Legacy Resource Estimates to the&nbsp;Legacy Resource Pool on the Business Case
 
@@ -54,18 +54,18 @@ To add resource estimates to the Legacy Resource Estimates grid within the Busin
 
    Click inside the cell where you enter the first estimate, and drag the green outline across the rows and the columns of the grid, to apply the same estimate to multiple roles or dates.
 
-1. (Optional) Click the `Planned` button at the top of the Legacy Resource Estimates grid to show the Planned Hours required for each job role.&nbsp;The Planned&nbsp;allocation shows the Planned Hours of the tasks associated&nbsp;with the job roles.
+1. (Optional) Click the **Planned** button at the top of the Legacy Resource Estimates grid to show the Planned Hours required for each job role.&nbsp;The Planned&nbsp;allocation shows the Planned Hours of the tasks associated&nbsp;with the job roles.
 
    Try to estimate&nbsp;the same amount of hours for your resources as the number of Planned Hours on the project. The estimated hours are your Budgeted Hours. Ideally, these numbers will match.
 
-1. (Optional) To make all the resource estimates (Budgeted Hours) match the Planned Hours from the tasks across all job roles in the Resource Estimates grid, mouse over the name of the Legacy Resource Pool, and click the hammer icon, then click `Set Budget to Schedule`.  
+1. (Optional) To make all the resource estimates (Budgeted Hours) match the Planned Hours from the tasks across all job roles in the Resource Estimates grid, mouse&nbsp;over the name of the Legacy Resource Pool, and&nbsp;click the hammer icon, then click **Set Budget to Schedule**.  
 
-1. (Optional) You can also match the Planned Hours from the tasks for one job role at a time by mousing over each job role and clicking `Set Budget to Schedule` for that role.
+1. (Optional) You can also match the Planned Hours from the tasks for one job role at a time by&nbsp;mousing over each job role and clicking **Set Budget to Schedule** for that role.
 
    ![set_budget_to_schedule_legacy_resource_estimates.png](assets/set-budget-to-schedule-legacy-resource-estimates-350x234.png)
 
-1. (Optional) Click the `Projected` button&nbsp;at the top of the Resource Estimates grid to show the Projected Hours required for each job role, according to their assignments to the tasks in the project. The Projected allocation shows what resources have already been scheduled to meet those needs.&nbsp;
-1. Click `Save` when you finish estimating your resources for the project.
+1. (Optional) Click the **Projected** button&nbsp;at the top of the Resource Estimates grid to show the Projected Hours required for each job role, according to their assignments to the tasks in the project. The Projected allocation shows what resources have already been scheduled to meet those needs.&nbsp;
+1. Click **Save** when you finish estimating your resources for the project.
 
    This calculates the Budgeted&nbsp;Cost of your project.
 

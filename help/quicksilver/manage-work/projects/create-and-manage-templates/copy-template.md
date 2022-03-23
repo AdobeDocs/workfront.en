@@ -42,11 +42,11 @@ You must have the following access to perform the steps in this article:
 ## Copy a template
 
 1. Go to the template that you want to copy.
-1. Click the More menu , then click Copy.
-1. Specify a name for the template in the `New Template Name` field.
+1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png), then click **Copy**.
+1. Specify a name for the template in the **New Template Name** field.
 
-   By default, the new name is ` Copy of *Name of Template.*`
+   By default, the new name is**Copy of Name of Template.**
 
-1. Select whether you want to `Retain user assignments on tasks and template`: select this option to carry all task and template assignments from the original template to the new template.
-1. Click `Save` to create a copy of the template.
+1. Select whether you want to **Retain user assignments on tasks and template**: select this option to carry all task and template assignments from the original template to the new template.
+1. Click **Save** to create a copy of the template.
 

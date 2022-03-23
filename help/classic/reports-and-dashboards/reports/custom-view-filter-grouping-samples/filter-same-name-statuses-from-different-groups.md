@@ -47,14 +47,14 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the filter you want to customize for a list of tasks, for example.  
    This works the same for projects and issues as well.
-1. Click `Add a Filter Rule` for the `Status` field of the object of your list.  
-   For example, in a task report, add `Status Equal *New Status*`, if you want to display only tasks which are in a status of `New Status`.
+1. Click **Add a Filter Rule** for the **Status** field of the object of your list.  
+   For example, in a task report, add **Status Equal New Status**, if you want to display only tasks which are in a status of **New Status**.
 
    >[!TIP]
    >
    >Notice that you have only one option for a status named New Status.
 
-1. Click `Switch to Text Mode`.  
+1. Click **Switch to Text Mode**.  
    The following code should display:  
    <pre xml:space="preserve">status=NST<br>status_Mod=in </pre>
 
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 1. Add the following 2 lines of code to add the status that is missing from the filter:  
    <pre>OR:1:status=NES<br>OR:1:status_Mod=in</pre>
 
-1. Click  `Done`, then `Save Filter`.
+1. Click&nbsp;**Done**, then **Save Filter**.
 
    The list displays both tasks with a status of "New Status" from Group A and with a status of "New Status"&nbsp;from Group B.
 

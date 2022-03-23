@@ -35,32 +35,32 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a card from a board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the card, and select `Delete`.
-1. Click `Delete` on the confirmation message.
+1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Delete**.
+1. Click **Delete** on the confirmation message.
 
 ## Archive a card from a board
 
 1. Access the board.
-1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the card, and select `Archive`.
+1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card, and select **Archive**.
 
    Archived cards are hidden from the board unless you apply a filter to display them. For more information, see [Filter a board to show archived cards](#filter) in this article.
 
    An Archive icon ![Archive](assets/archive-icon-spectrum-25x20.png) appears on archived cards. You can't edit an archived card.
 
-1. To restore an archived card, click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the card and select `Restore`.
+1. To restore an archived card, click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **Restore**.
 
 ## Filter a board to show archived cards
 
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select `Archived cards` to display any archived cards.
+1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select **Archived cards** to display any archived cards.
 
    The filter shows the number of archived cards.
 
    ![Filter archived cards](assets/boards-archived-cards-filter.png)
 
-1. Select `Archived cards` again to clear the option and display only active cards.
+1. Select **Archived cards** again to clear the option and display only active cards.
 

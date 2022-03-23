@@ -16,7 +16,7 @@ You can view the predecessors of tasks in the following areas of Adobe Workfront
 
 * In the task list in the Predecessors column. 
 * In the Gantt chart
-* In the Predecessors tabof a dependent task
+* In the Predecessors tab of a dependent task
 
 For more information, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -52,24 +52,29 @@ You must have the following access to perform the steps in this article:
 ## Create a predecessor
 
 1. Go to a project. 
-1. Click the Tasks tab. 
-1. Ensure that your current view displays the `Predecessor` column.
+1. Click the **Tasks** tab. 
+1. Ensure that your current view displays the **Predecessor** column.
 
    If the view doesn't display the Predecessors column, change to a view that does, or add the column to your view. 
 
 1. Select the task that you want to designate as the dependent task. 
-1. Click inside the `Predecessors` column.
-1. Type the task number that you want to designate as the predecessor of the selected task, then press `Enter`.
+
+   ![](assets/cpr2-350x52.png)
+
+1. Click inside the **Predecessors** column.
+1. Type the task number that you want to designate as the predecessor of the selected task, then press **Enter**.
 
    The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
    For more information about the relationship types available in the Predecessors column, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md) in [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
+   ![](assets/predecessor-screenshot-350x68.png)
+
 ## View predecessor details
 
 You can quickly view details about the predecessor from the task list.
 
-1. On the task list, mouse over the predecessor number in the `Predecessors` column.
+1. On the task list, mouse over the predecessor number in the **Predecessors** column.
 
    A box with the details of the predecessor displays.
 
@@ -77,15 +82,15 @@ You can quickly view details about the predecessor from the task list.
 
    The following details are displayed:
 
-   `Predecessor name:` The name of the predecessor that is being referenced. In the above example, the predecessor is Market Research.
+   **Predecessor name:** The name of the predecessor that is being referenced. In the above example, the predecessor is Market Research.
 
-   `Project name:` The name of the project where the predecessor resides. In the above example, the project name is Target Markets.
+   **Project name:** The name of the project where the predecessor resides. In the above example, the project name is Target Markets.
 
-   `Number of predecessors (left of details box):` The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 0 predecessors.
+   **Number of predecessors (left of details box):** The number of predecessors for the predecessor being referenced. In the above example, the predecessor being referenced has 0 predecessors.
 
-   `Requested:` The date when the predecessor task was requested.
+   **Requested:** The date when the predecessor task was requested.
 
-   `Due Date:` The date when the predecessor task is due.
+   **Due Date:** The date when the predecessor task is due.
 
-   `Number of successors (right of details box):` The number of successor (or dependent) tasks for the predecessor being referenced. In the above example, the predecessor being referenced has 1 successor.
+   **Number of successors (right of details box):** The number of successor (or dependent) tasks for the predecessor being referenced. In the above example, the predecessor being referenced has 1 successor.
 

@@ -39,16 +39,21 @@ You must have the following access to perform the steps in this article:
 
 To filter a Kanban board:
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
 1. Go to a Kanban board.
 1. Click the Filter drop-down menu on the right side of the Kanban board.
-1. Select one or more users or `Unassigned`.
+1. Select one or more users or **Unassigned**.
 
    >[!NOTE]
    >
    >
    >  
    >  
-   >  * The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board. A maximum of fifty cards is displayed by default, but you can click `Show More` to display additional cards.
+   >  * The column totals do not change based on the filtered results. Column totals display the totals for all work items on the board. A maximum of fifty cards is displayed by default, but you can click **Show More** to display additional cards.
    >  * Filters are not applied to the Backlog column.
    >  
    >

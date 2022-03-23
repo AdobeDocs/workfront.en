@@ -13,6 +13,6 @@ You cannot change the owner of a report. However, when you copy a report, you au
 For more information that has moved to other articles, see:
 
 * [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md): This article explains how to create a copy of a report to become the owner of a report.
-* [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md): This article explains how to update the `Run this report with the Access Rights of:` field of a report, which should include only an active user.
+* [Run and deliver a report with the access rights of another user](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md): This article explains how to update the **Run this report with the Access Rights of:** field of a report, which should include only an active user.
 * [Create a report on reporting activities](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md): This article explains how to find information on existing reports, such as who owns a report, who a report is shared with, what user is listed in the **Run this report with the Access Rights of:** field, and so forth.
 

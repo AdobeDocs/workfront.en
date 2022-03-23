@@ -13,9 +13,9 @@ The keyboard shortcuts described in this article are available in both the Web P
 <table cellspacing="15"> 
  <tbody> 
   <tr> 
-   <td><span class="bold">Keyboard Shortcut</span>&nbsp;</td> 
-   <td><span class="bold">Action on Video Proofs</span> </td> 
-   <td><span class="bold">Action on Static Proofs</span> </td> 
+   <td><strong>Keyboard Shortcut</strong>&nbsp;</td> 
+   <td><strong>Action on Video Proofs</strong> </td> 
+   <td><strong>Action on Static Proofs</strong> </td> 
   </tr> 
   <tr> 
    <td> <p>Spacebar<br>Or<br>k (upper-case or lower-case)</p> </td> 
@@ -33,7 +33,7 @@ The keyboard shortcuts described in this article are available in both the Web P
    <td> <p>Previous page</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span> cmd+n</p> <p><span class="bold">Windows:</span> Ctrl+n</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+n</p> <p><strong>Windows:</strong> Ctrl+n</p> </td> 
    <td> <p>Open a new comment window</p> </td> 
    <td> <p>Open a new comment window</p> </td> 
   </tr> 
@@ -63,7 +63,7 @@ The keyboard shortcuts described in this article are available in both the Web P
    <td> <p>&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span>&nbsp;Ctrl+Enter&nbsp;</p> <p><span class="bold">Windows:</span> cmd+return</p> </td> 
+   <td> <p><strong>Mac:</strong>&nbsp;Ctrl+Enter&nbsp;</p> <p><strong>Windows:</strong> cmd+return</p> </td> 
    <td> <p>Save comment</p> </td> 
    <td> <p>&nbsp;</p> </td> 
   </tr> 
@@ -103,57 +103,57 @@ The keyboard shortcuts described in this article are available in both the Web P
    <td> <p>Zoom in or out</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span>&nbsp;ctrl+0</p> <p><span class="bold">Windows:</span> Ctrl+0</p> </td> 
+   <td> <p><strong>Mac:</strong>&nbsp;ctrl+0</p> <p><strong>Windows:</strong> Ctrl+0</p> </td> 
    <td> <p>&nbsp;Fit to page</p> </td> 
    <td> <p>Fit to page</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span>&nbsp;ctrl+1</p> <p><span class="bold">Windows:</span> Ctrl+1</p> </td> 
+   <td> <p><strong>Mac:</strong>&nbsp;ctrl+1</p> <p><strong>Windows:</strong> Ctrl+1</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>Zoom to 100%&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span>&nbsp;ctrl+2</p> <p><span class="bold">Windows:</span> Ctrl+2</p> </td> 
+   <td> <p><strong>Mac:</strong>&nbsp;ctrl+2</p> <p><strong>Windows:</strong> Ctrl+2</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>Fit to width&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span>&nbsp;ctrl+3</p> <p><span class="bold">Windows:</span> Ctrl+3&nbsp;</p> </td> 
+   <td> <p><strong>Mac:</strong>&nbsp;ctrl+3</p> <p><strong>Windows:</strong> Ctrl+3&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>Fit to height&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span> cmd++ <br>Or <br>cmd+shift+scroll up</p> <p><span class="bold">Windows:</span> Ctrl++</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd++ <br>Or <br>cmd+shift+scroll up</p> <p><strong>Windows:</strong> Ctrl++</p> </td> 
    <td> <p>&nbsp;Zoom in</p> </td> 
    <td> <p>Zoom in&nbsp;</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span> cmd+- <br>Or <br>cmd+shift+scroll down</p> <p><span class="bold">Windows:</span> Ctrl+-</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+- <br>Or <br>cmd+shift+scroll down</p> <p><strong>Windows:</strong> Ctrl+-</p> </td> 
    <td> <p>Zoom out&nbsp;</p> </td> 
    <td> <p>Zoom out</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Windows:</span> Hold spacebar while dragging image</p> </td> 
+   <td> <p><strong>Windows:</strong> Hold spacebar while dragging image</p> </td> 
    <td> <p>&nbsp;Pan</p> </td> 
    <td> <p>&nbsp;Pan</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span> cmd+f</p> <p><span class="bold">Windows</span>: Ctrl+f</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+f</p> <p><strong>Windows</strong>: Ctrl+f</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>Search document</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span> cmd+g</p> <p><span class="bold">Windows:</span> Ctrl+g</p> <p><span class="bold">Mac and Windows:</span> Press Enter key in the Search field.</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+g</p> <p><strong>Windows:</strong> Ctrl+g</p> <p><strong>Mac and Windows:</strong> Press Enter key in the Search field.</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>Next search result</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span> cmd+Shift+g</p> <p><span class="bold">Windows:</span> Ctrl+Shift+g</p> <p><span class="bold">Mac and Windows:</span> Press Shift+Enter keys in the Search field.</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+Shift+g</p> <p><strong>Windows:</strong> Ctrl+Shift+g</p> <p><strong>Mac and Windows:</strong> Press Shift+Enter keys in the Search field.</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>Previous search result</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Mac:</span> cmd+z</p> <p><span class="bold">Windows:</span> Ctrl+z</p> </td> 
+   <td> <p><strong>Mac:</strong> cmd+z</p> <p><strong>Windows:</strong> Ctrl+z</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td> <p>Undo typing in a comment</p> </td> 
   </tr> 

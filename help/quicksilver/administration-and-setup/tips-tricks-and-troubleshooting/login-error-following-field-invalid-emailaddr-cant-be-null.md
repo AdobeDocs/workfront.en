@@ -22,4 +22,4 @@ This error is caused by an incorrect item in the Map User Attributes&nbsp;area o
 
 ## Solution
 
-Update the Attribute Mapping for the email address, and click `Save`.
+Update the Attribute Mapping for the email address, and click **Save**.

@@ -32,9 +32,9 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>View access to the type of object </p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
-     You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> <!--
-     You must be a group administrator. For more information on group administrators, see Group administrators.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
     --> </td> 
   </tr> 
   <tr> 
@@ -178,10 +178,11 @@ You can do a basic search in either of the following ways:
 
 To perform a basic search:
 
-1. Click the magnifying glass in the upper-right corner of the page. You can also type ALT + / or Option + / to open the Search menu.  
-1. (Optional) To search for a specific object, click the All drop-down menu and select the object you want to search for.
+1. Click the magnifying glass  in the upper-right corner of the page. You can also type **ALT + /** or **Option + /** to open the Search menu.  
 
-1. In the `Search` box, start typing the information you are searching for.  
+1. (Optional) To search for a specific object, click the **All** drop-down menu and select the object you want to search for.
+
+1. In the **Search** box, start typing the information you are searching for.  
    For information about what fields are searched in Workfront, see [Understand Search](#understanding-search).  
   
    As you begin typing in the search bar, Workfront makes recommendations based on your viewing history and it highlights the keyword you are searching for in blue.
@@ -190,7 +191,7 @@ To perform a basic search:
 
    Or
 
-   Press `Enter` to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
+   Press **Enter** to perform a comprehensive search. This search queries the entire database instead of your most recently viewed items.
    The Search Results page slides open from the left and covers most of the previous page. 
 
    If you performed a general search, Workfront returns results for any object that matches the search term in any of the fields searched, as described in [Understand Search](#understanding-search). The objects that match your search display in a list.
@@ -201,8 +202,9 @@ To perform a basic search:
    >For example, searching for "marketing" displays objects that contain either "marketing" or "market" in the name.
 
 1. (Optional) If your search generated too many results, refine your search as described in [Refine a basic search](#refining-a-search).
+1. Close
 
-Note: The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page. 
+``` ```**Note: **``````The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page. 
 
 #### Refine a basic search
 
@@ -238,20 +240,23 @@ This type of search is helpful when you cannot remember a keyword associated wit
 
 To perform an advanced search:
 
-1. In the upper-right corner of any page in Workfront, click the Search icon . The Search menu displays.  
-1. At the bottom of the Search menu, click `Advanced Search`.  
+1. In the upper-right corner of any page in Workfront, click the **Search** icon . The Search menu displays.  
+
+1. At the bottom of the Search menu, click **Advanced Search**.  
   
    The Advanced Search page slides open from the right and covers most of the previous page.  
 
 1. Select the type of object you are searching for.  
-   `Projects` is selected by default.
+   **Projects** is selected by default.
 
 1. (Optional) Type a keyword in the field at the top of the list.  
-1. (Optional) Click `Filter your results` to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.  
+1. (Optional) Click **Filter your results** to filter your search results based on specific field types, then select a field from the list. If necessary, also select a value for the field.  
    Or  
    Add a new filter.  
 
-1. Click `Search`.  
+1. Click **Search**.  
    A list of items that match your search displays to the right of the Advanced Search toolbar.
 
-Note: The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page.  
+1. Close
+
+``` ```**Note: **``````The Search Results page stays open only when it is in focus. Clicking away from the page or opening another page closes the Search Results page.  

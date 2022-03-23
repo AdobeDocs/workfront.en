@@ -32,6 +32,12 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * A task or issue list or report
 
+* A task or issue page
+* ![](assets/sa1-350x304.png)
+
+* The Advanced Assignments box when making advanced assignments. For information, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md). 
+* ![](assets/smart-assignments-advanced-assignments-classic-350x300.png)
+
 * Resource Scheduling
 
   ![](assets/smart-assignments-scheduling-350x219.png)
@@ -50,18 +56,57 @@ Users are recommended in the smart assignments drop-down list based on a combina
 
   If the work item is assigned to a team or a role, the list of suggested users is filtered further taking into account the existing assignments below. In this case, only the following users display in the list of suggestions:
 
-  * Users whose Home Team is the team assigned to the work item. 
-  * Users whose Primary Role is the role assigned to the work item.
+   * Users whose Home Team is the team assigned to the work item. 
+   * Users whose Primary Role is the role assigned to the work item.
 
-    >[!TIP]
-    >
-    >If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
+     >[!TIP]
+     >
+     >If you’re not part of any team and there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users.
 
 <!--
-Smart assignments criteria for the Production environment Smart assignments display on tasks and issues when the following conditions are met: The task or issue is subordinate to a parent task or issue that has a user, team, or job role currently assigned. Smart assignments display the top twenty recommendations based on a proprietary algorithm that uses your own team information. Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important): The user has the team assigned to the task or issue designated as their Home Team The user is also assigned to the parent task The user has the same primary job role as is currently assigned to the task or issue The user has the team assigned to the parent task or issue designated as their Home Team The user is associated with the same primary job role currently assigned to the parent task The user is a member of the same team as the user who assigned the task or issue and the team is designated as their Home Team The user is a member of the same Home Group as the user who is assigning the task or issue The user has the same primary job role as the user who is assigning the task or issue.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<div>
+<h3><a name="Smart"></a>Smart assignments criteria for the Production environment</h3>
+</div>
+<p>Smart assignments display on tasks and issues when the following conditions are met:</p>
+<ul>
+<li>The task or issue is subordinate to a parent task or issue that has a user, team, or job role currently assigned. </li>
+</ul>
+<p>Smart assignments display the top twenty recommendations based on a proprietary algorithm that uses your own team information.</p>
+<p>Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important):</p>
+<ul>
+<li>The user has the team assigned to the task or issue designated as their Home Team</li>
+<li>The user is also assigned to the parent task</li>
+<li>The user has the same primary job role as is currently assigned to the task or issue</li>
+<li>The user has the team assigned to the parent task or issue designated as their Home Team</li>
+<li>The user is associated with the same primary job role currently assigned to the parent task</li>
+<li>The user is a member of the same team as the user who assigned the task or issue and the team is designated as their Home Team</li>
+<li>The user is a member of the same Home Group as the user who is assigning the task or issue</li>
+<li>The user has the same primary job role as the user who is assigning the task or issue.</li>
+</ul>
+</div>
 -->
 
 <!--
-Make smart assignments Smart assignments are available in most locations where you can make assignments in Workfront. You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team. Note: You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments. To use smart assignments: Navigate to an issue or a task and click one of the following fields to edit them: The Edit Assignment or Reassign this to ... field of a task or an issue The Assignments field of a task or issue list using in-line editing in a task or issue list. The Assignee field after you have clicked Advanced Assignments from a task or an issue. Place your cursor in the assignment field, and wait for two seconds, then the Here are a few recommendations list is displayed. Users displayed in this list are the smart assignment suggestions for the task or the issue. Select the user in the recommendations list by clicking their name. If there are no suggestions, the suggestion list does not open. (Optional) If you do not want to use one of the recommended users from the smart assignments list, start typing the name of the desired user and select the name when it appears in the list. Click Enter to make the assignment.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="assigning-smart-assigmments"></a>Make smart assignments</h2>
+<p>Smart assignments are available in most locations where you can make assignments in Workfront.</p>
+<p>You can use smart assignments on tasks and issues that have previously been assigned to a job role or a team.</p> <note type="note">
+You must have a Plan or a Work license and have at least Contribute permissions to a task or an issue to be able to make assignments to the task or the issue. You must have the Make Assignments option enabled in your permission level to make assignments.
+</note>
+<p>To use smart assignments:</p>
+<ol>
+<li value="1">Navigate to an issue or a task and click one of the following fields to edit them: <br>
+<ul>
+<li>The <strong>Edit Assignment</strong> or <strong>Reassign this to ...</strong> field of a task or an issue</li>
+<li>The <strong>Assignments</strong> field of a task or issue list using in-line editing in a task or issue list. </li>
+<li>The <strong>Assignee</strong> field after you have clicked <strong>Advanced Assignments</strong> from a task or an issue. </li>
+</ul></li>
+<li value="2"> <p>Place your cursor in the assignment field, and wait for two seconds, then the <strong>Here are a few recommendations</strong> list is displayed.</p> <p>Users displayed in this list are the smart assignment suggestions for the task or the issue.<br></p> <p>  </p> <p>  </p> <p> </p> </li>
+<li value="3"> <p>Select the user in the recommendations list by clicking their name. </p> <p>If there are no suggestions, the suggestion list does not open.</p> </li>
+<li value="4">(Optional) If you do not want to use one of the recommended users from the smart assignments list, start typing the name of the desired user and select the name when it appears in the list.</li>
+<li value="5">Click <strong>Enter</strong> to make the assignment. </li>
+</ol>
+</div>
 -->
 

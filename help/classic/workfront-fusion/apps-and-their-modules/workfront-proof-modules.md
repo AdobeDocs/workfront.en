@@ -32,7 +32,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -41,7 +45,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -91,7 +102,15 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td role="rowheader">Record Type</td> 
    <td>Select the type of Workfront Proof record that you want the module to watch.</td> 
-  </tr> Outputs Select the information you want included in the output bundle for this module. Limit Enter or map the maximum number of records you want the module to return during each scenario execution cycle. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Outputs</td> 
+   <td> <p>Select the information you want included in the output bundle for this module.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Limit</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -182,15 +201,29 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Proof Type</td> 
-   <td> <p>Specify whether you want the proof that is created to have a basic workflow or an Automated Workflow.</p> <p>Then fill out the fields that display for the proof type you chose. For example, if you chose Automated Workflow, fill out the <span class="bold">Workflow Stages</span> field to configure the stages.</p> <p>You can use output from the Build module here if you include and run that module earlier in the scenario. For more information, see <a href="#build" class="MCXref xref">Build</a> in this article. <!--
-      Is this correct?
+   <td> <p>Specify whether you want the proof that is created to have a basic workflow or an Automated Workflow.</p> <p>Then fill out the fields that display for the proof type you chose. For example, if you chose Automated Workflow, fill out the <strong>Workflow Stages</strong> field to configure the stages.</p> <p>You can use output from the Build module here if you include and run that module earlier in the scenario. For more information, see <a href="#build" class="MCXref xref">Build</a> in this article. <!--
+      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
      --></p> </td> 
-  </tr> Allow original file to be downloaded Select whether you want to allow the original file that the proof was created from to be downloaded. Classic Proof Viewer Select whether you are using the Classic Proof Viewer. Combine all files into single proof Enable this option to combine all files into a single multi-page proof. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Allow original file to be downloaded</td> 
+   <td>Select whether you want to allow the original file that the proof was created from to be downloaded.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Classic Proof Viewer</td> 
+   <td>Select whether you are using the Classic Proof Viewer.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Combine all files into single proof</td> 
+   <td>Enable this option to combine all files into a single multi-page proof.</td> 
+  </tr> 
   <tr> 
    <td>Create a new proof version<!--
-     ?
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      ?
+     </MadCap:conditionalText>
     --></td> 
-   <td>Select this option if you want the module to create a new version of an existing proof. Then, in the <span class="bold">Existing Proof ID</span> field that displays, map or enter the unique ID of the proof.</td> 
+   <td>Select this option if you want the module to create a new version of an existing proof. Then, in the <strong>Existing Proof ID</strong> field that displays, map or enter the unique ID of the proof.</td> 
   </tr> 
   <tr> 
    <td>Custom Link Label</td> 
@@ -199,7 +232,65 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Custom Link URL</td> 
    <td>Enter or map the URL for the custom link.</td> 
-  </tr> Default email notifications for subscribers Type one of the following numbers to indicate which of the following default email notification settings you want to use for the proof that is created. 1 - All new comments and replies 2 - Replies to my comments 3 - Daily summary 4 - Hourly summary 5 - Decisions only 9 - Disabled Disable Excel Summary Select whether you want to disable the ability to download proof comments to an Excel file. Disable PDF Summary Select whether you want to disable the ability to download proof comments to a PDF file. Disable Subscription Email Select whether you want to disable the subscription email for this proof. Enable Embed Player Select whether you want to enable the embedded player for this proof. Enable Subscriptions Select whether people who are not participants are allowed to subscribe to the proof. If you select this option, you can also select the Default Role for subscribers, as described in this table. Enable Subscriptions Validation Select whether you want to enable subscription email validation. If this is enabled, the subscriber must click a link in an email to access a proof. Enable Team URL Select whether you want the proof that is created to hide or show the team URL. File Hash or File Hashes Add the ID of the file or files from which you want to create a proof or proofs. File Names Add the file name or names for the proof that is created This is a required field. Lock proof when all required decisions are made Specify whether you want the proof that is created to lock after all required decisions are made. Notify recipients about this proof Select an option to indicate whether you want recipients notified when the proof is created. If you select yes, select an option to indicate/include (?) a Custom message subject, Custom message body 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Default email notifications for subscribers</td> 
+   <td>Type one of the following numbers to indicate which of the following default email notification settings you want to use for the proof that is created.
+    <ul>
+     <li><strong>1</strong> - All new comments and replies</li>
+     <li><strong>2</strong> - Replies to my comments</li>
+     <li><strong>3</strong> - Daily summary</li>
+     <li><strong>4</strong> - Hourly summary</li>
+     <li><strong>5</strong> - Decisions only</li>
+     <li><strong>9</strong> - Disabled</li>
+    </ul></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Disable Excel Summary</td> 
+   <td>Select whether you want to disable the ability to download proof comments to an Excel file.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Disable PDF Summary</td> 
+   <td>Select whether you want to disable the ability to download proof comments to a PDF file.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Disable Subscription Email</td> 
+   <td>Select whether you want to disable the subscription email for this proof.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Enable Embed Player</td> 
+   <td>Select whether you want to enable the embedded player for this proof.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Enable Subscriptions</td> 
+   <td>Select whether people who are not participants are allowed to subscribe to the proof.<br>If you select this option, you can also select the Default Role for subscribers, as described in this table.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Enable Subscriptions Validation</td> 
+   <td>Select whether you want to enable subscription email validation. If this is enabled, the subscriber must click a link in an email to access a proof.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Enable Team URL</td> 
+   <td>Select whether you want the proof that is created to hide or show the team URL.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>File Hash <span style="font-weight: normal;">or</span> File Hashes</td> 
+   <td>Add the ID of the file or files from which you want to create a proof or proofs.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>File Names</td> 
+   <td>Add the file name or names for the proof that is created This is a required field.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Lock proof when all required decisions are made</td> 
+   <td>Specify whether you want the proof that is created to lock after all required decisions are made.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Notify recipients about this proof</td> 
+   <td>Select an option to indicate whether you want recipients notified when the proof is created.<!--
+     <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> If you select yes, select an option to indicate/include (?) a Custom message subject, Custom message body</span>
+    --></td> 
+  </tr> 
   <tr> 
    <td>Proof name</td> 
    <td>Type a name for the proof that is created This is a required field. Use a pipe symbol (|) to separate names for multiple proofs.</td> 
@@ -215,7 +306,35 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Require electronic signature</td> 
    <td>Select whether you want to require an anyone who makes a decision on a proof to submit an electronic signature.</td> 
-  </tr> Require login Specify whether you want the proof that is created to require a login. This is the same as the Login Required setting explained in Configure Proof Settings in Workfront Proof Resolution ID Enter the ID of the resolution you want to use for your proof. For a list of resolution IDs, see the Workfront Proof API documentation. SWF Enter the type of SWF proof. Show [item] For each item, select whether you want to show it in the proof. Workspace ID Enter the ID of the workspace you want to create the proof in. Recipients Add the email addresses of the recipients you want for the proof that is created . Deadline Specify the deadline you want for the proof that is created. Use the following date format: YYYY-MM-DD hh:mm 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Require login</td> 
+   <td> <p>Specify whether you want the proof that is created to require a login. </p> <p>This is the same as the Login Required setting explained in <a href="../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md" class="MCXref xref">Configure Proof Settings in Workfront Proof</a></p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Resolution ID</td> 
+   <td>Enter the ID&nbsp;of the resolution you want to use for your proof. For a list of resolution IDs, see the Workfront Proof <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API documentation</a>.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>SWF</td> 
+   <td>Enter the type of SWF proof.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Show [item]</td> 
+   <td>For each item, select whether you want to show it in the proof.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Workspace ID</td> 
+   <td>Enter the ID&nbsp;of the workspace you want to create the proof in. </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Recipients</td> 
+   <td>Add the email addresses of the recipients you want for the proof that is created .</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Deadline</td> 
+   <td> <p>Specify the deadline you want for the proof that is created. Use the following date format:</p> <p>YYYY-MM-DD hh:mm</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -234,11 +353,22 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Connection</td> 
    <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> Method Set the action for the API call. For available actions, see the Proof API documentation. Body (XML) Add the body content for the API call in the form of a standard JSON object. Note: When using conditional statements such as if in your JSON, put the quotation marks outside of the conditional statement. Example: 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Method</td> 
+   <td>Set the action for the API call. For available actions, see the <a href="http://api.proofhq.com/">Proof&nbsp;API documentation</a>.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Body (XML)</td> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-` `**Example: **``  ![](assets/wfp-api-module-example-350x586.png)
+``` ```**Example: **``````  ![](assets/wfp-api-module-example-350x586.png)
 
 #### Download Proof
 
@@ -299,7 +429,10 @@ When you are configuring this module, the following fields display.
    <td>ID</td> 
    <td>Enter or map the unique Workfront Proof ID of the record that you want the module to read.</td> 
   </tr> <!--
-   ________ Select the type of information you want the module to read: proof, proof comments, proof reviewers, or Automated Workflow template. After you choose one of these 4 options, select the fields you want to include for that option.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>________</td> 
+    <td>Select the type of information you want the module to read: proof, proof comments, proof reviewers, or Automated Workflow template. After you choose one of these 4 options, select the fields you want to include for that option.</td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -327,18 +460,32 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Proof ID</td> 
    <td> <p>Enter the unique Workfront Proof ID of the proof for which you want to request a PDF summary.</p> </td> 
-  </tr> Callback URL Enter or map the URL where you want the PDF summary sent. <!--
-   Proof versions Specify whether you want to include all versions of the proof or a specific one. I'm guessing on this
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Callback URL</td> 
+   <td>Enter or map the URL where you want the PDF&nbsp;summary sent.</td> 
+  </tr> <!--
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Proof versions</td> 
+    <td>Specify whether you want to include all versions of the proof or a specific one.<!--
+      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> I'm guessing on this</span>
+     --></td> 
+   </tr>
   --> <!--
-   Webhook URL You can create a separate scenario that uses the Watch for PDF Summary trigger module with a new webhook to retrieve the URL. Is this right?
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Webhook URL</td> 
+    <td> <p>You can create a separate scenario that uses the Watch for PDF Summary trigger module with a new webhook to retrieve the URL.<!--
+       <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode"> Is this right?</span>
+      --></p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
 
 ##### Possible error
 
-* `Error`: “You do not have privilege to perform this request. The stage must contain at least one recipient.”
-* `Solution`: Make sure you are not the only one assigned to the stages of the workflow. There must be another user assigned to the stages of the workflow.
+* **Error**: “You do not have privilege to perform this request. The stage must contain at least one recipient.”
+* **Solution**: Make sure you are not the only one assigned to the stages of the workflow. There must be another user assigned to the stages of the workflow.
 
 #### Update Proof
 
@@ -451,13 +598,21 @@ When you are configuring this module, the following fields display.
    <td>Source file</td> 
    <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
   </tr> <!--
-   Name (Optional) Type a new file name for the uploaded file if you don't want to use the existing one. Is this correct?
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Name</td> 
+    <td>(Optional) Type a new file name for the uploaded file if you don't want to use the existing one. <!--
+      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+       <!--
+        <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
+       --></span>
+     --></td> 
+   </tr>
   --> 
  </tbody> 
 </table>
 
 <!--
-Are there more main fields for this module?
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Are there more main fields for this module?</p>
 -->
 
 ### Searches
@@ -482,7 +637,27 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Connection</td> 
    <td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
-  </tr> Search for Select the type of record you want the module to search for. Proof Enter the Proof Name of the proof you want to search for. Recipient Enter the email address of the recipient you want to search for. Result Set Indicate whether the module will search for All Matching Records or only the First Matching Record. Sort By Select the field that you want to sort results by. Sorting Direction Select whether you want to sort results ascending or descending. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Search for</td> 
+   <td> <p>Select the type of record you want the module to search for.</p> 
+    <ul> 
+     <li> <p><strong>Proof</strong> </p> <p>Enter the Proof Name of the proof you want to search for.</p> </li> 
+     <li> <p><strong>Recipient</strong> </p> <p>Enter the email address of the recipient you want to search for.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Result Set</td> 
+   <td>Indicate whether the module will search for <strong>All Matching Records</strong> or only the <strong>First Matching Record</strong>.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Sort By</td> 
+   <td>Select the field that you want to sort results by.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Sorting Direction</td> 
+   <td> <p>Select whether you want to sort results ascending or descending.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -501,11 +676,62 @@ This search module lists all available workflow templates.
   <tr> 
    <td>Outputs</td> 
    <td> <p>Select the information you want included in the output bundle for this module.</p> </td> 
-  </tr> Limit Enter or map the maximum number of templates you want the module to return during each scenario execution cycle. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Limit</td> 
+   <td> <p>Enter or map the maximum number of templates you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
 <!--
-Build I don't see this in Fusion 2 This action module creates a new proof recipient or stage in an Automated Workflow. The module returns reviewer or stage information (see the examples below the following table). You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your Workfront Proof account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions ________ Select an option to specify whether you are adding a reviewer or a stage in an Automated Workflow. Reviewer If you are adding a reviewer, select (or is it fill out?) the fields containing the reviewer information you want to use. Stage If you are adding a stage, select (or is it fill out?) the fields containing the stage information you want to use. Examples: For a reviewer, the module returns data such as the following: { "primary_decision_maker": true, "email_notification": 1, "role": 3, "email": "name@company.com" } For a stage, the module returns data such as the following: { "stage_id": 0, "start_dependent_time": "13.00", "start_dependent_stage_id": "2", "deadline_time": "", "name": "Stage Name", "stage_one_decision_only": true, "deadline_date": "01.01.2020", "stage_reviewers": [], "start_trigger": 1, "stage_locking": 4, "start_dependent_date": "01.02.2020", "stage_private": true, "deadline_calculate_on": 1 }
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h3><a name="Build"></a>Build</h3> <!--
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">I don't see this in Fusion 2</p>
+-->
+<p>This action module creates a new proof recipient or stage in an Automated Workflow.</p>
+<p>The module returns reviewer or stage information (see the examples below the following table). You can map this information in subsequent modules in the scenario.</p>
+<p>When you are configuring this module, the following fields display.</p>
+<table>
+<col>
+<col>
+<tbody>
+<tr>
+<td>Connection</td>
+<td> <p>For instructions about connecting your Workfront Proof account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
+</tr> <!--
+<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<td> <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+________
+</MadCap:conditionalText>
+--> </td>
+<td>Select an option to specify whether you are adding a reviewer or a stage in an Automated Workflow.</td>
+</tr>
+--> <!--
+<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<td>Reviewer</td>
+<td>If you are adding a reviewer, select <!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(or is it fill out?)</span>
+--> the fields containing the reviewer information you want to use.</td>
+</tr>
+--> <!--
+<tr data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<td>Stage</td>
+<td>If you are adding a stage, select <!--
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(or is it fill out?)</span>
+--> the fields containing the stage information you want to use.</td>
+</tr>
+-->
+</tbody>
+</table>
+<div class="examples" data-mc-autonum="<b>Examples: </b>">
+<span class="autonumber"><span><b>Examples: </b></span></span>
+<ul>
+<li> <p>For a reviewer, the module returns data such as the following:</p><pre>{</pre><pre>"primary_decision_maker": true,</pre><pre>"email_notification": 1,</pre><pre>"role": 3,</pre><pre>"email": "name@company.com"</pre><pre>}</pre> </li>
+<li> <p>For a stage, the module returns data such as the following:</p><pre>{</pre><pre>"stage_id": 0,</pre><pre>"start_dependent_time": "13.00",</pre><pre>"start_dependent_stage_id": "2",</pre><pre>"deadline_time": "",</pre><pre>"name": "Stage Name",</pre><pre>"stage_one_decision_only": true,</pre><pre>"deadline_date": "01.01.2020",</pre><pre>"stage_reviewers": [],</pre><pre>"start_trigger": 1,</pre><pre>"stage_locking": 4,</pre><pre>"start_dependent_date": "01.02.2020",</pre><pre>"stage_private": true,</pre><pre>"deadline_calculate_on": 1</pre><pre>}</pre> </li>
+</ul>
+</div>
+</div>
 -->
 

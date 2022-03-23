@@ -59,14 +59,14 @@ To add a custom from to a Business Case, your Workfront administrator needs to s
 
 To attach a custom form:
 
-1. Go to the project you want to attach the form to, then click Business Case in the left panel.
+1. Go to the project you want to attach the form to, then click **Business Case** in the left panel. 
    The Business Case displays. 
-1. In the  `Custom Form` section, select the custom form you want to attach from the drop-down menu.
+1. In the&nbsp;**Custom Form** section, select the custom form you want to attach from the drop-down menu.
 
    ![](assets/custom-forms-drop-down-menu.png)
 
-1. (Optional) Select  `Edit Custom Form`.  
+1. (Optional) Select&nbsp;**Edit Custom Form**.  
    ![](assets/acf1-350x122.png)
 
-1. (Optional) Specify information in the fields of the custom form, then click  `Save` .
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** .
 

@@ -13,7 +13,7 @@ This functionality is supported for the following objects:
 * Programs
 
   <!--
-  Billing records After you open a billing record on a project, you can use the Details area to attach a custom form to the record and fill it out. You can also export billing record information from the Details area.
+  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Billing records</p> <p>After you open a billing record on a project, you can use the Details area to attach a custom form to the record and fill it out. You can also export billing record information from the Details area.</p> </li>
   -->
 
 >[!NOTE]
@@ -35,7 +35,15 @@ You must have the following:
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront license*</p> </td> 
    <td> <p>Request or higher for issues</p> <p>Review or higher for projects and tasks</p> </td> 
-  </tr> Access level configurations* View or higher for Projects, Tasks, and Issues Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions View or higher permissions to the project, task, or issue whose form you want to export For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"><strong>Access level configurations*</strong> </td> 
+   <td> <p>View or higher for Projects, Tasks, and Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Object permissions</p> </td> 
+   <td> <p>View or higher permissions to the project, task, or issue whose form you want to export</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -55,20 +63,20 @@ Before you start, you must:
 
 Exporting information from the Details section of an object is identical for all objects.
 
-1. Go to a project, task, `portfolio, program,` or issue for which you have at least View permissions. 
-1. Click the `"Details" item` on the left panel, such as `Task Details`.
-1. (Optional) If there is no custom form attached to the object, start typing the name of a custom form in the `Add custom form field`, then click it when it appears in the list.
+1. Go to a project, task, ```portfolio, program,``` or issue for which you have at least View permissions. 
+1. Click the **"Details" item** on the left panel, such as **Task Details**.
+1. (Optional) If there is no custom form attached to the object, start typing the name of a custom form in the **Add custom form field**, then click it when it appears in the list.
 
    You can add up to 10 forms.
 
-1. (Optional) Update information in the Details section, then click `Save Changes`.
-1. Click the `Export` drop-down menu in the upper-right corner, select `Overview`, or the forms you want to export, then click `Export`.
+1. (Optional) Update information in the Details section, then click **Save Changes**.
+1. Click the **Export** drop-down menu in the upper-right corner, select **Overview**, or the forms you want to export, then click **Export**.
 
-   You can also select `Select all` if you want to export the Overview area and all the custom forms.
+   You can also select **Select all** if you want to export the Overview area and all the custom forms.
 
    ![](assets/export-custom-form-button-menu.png)
 
-   ` `**Tips: **``  The following scenarios may exist:
+   ``` ```**Tips: **``````  The following scenarios may exist:
 
   * When your group or Workfront administrator deselects all fields in the Overview area and the object has custom forms attached, the Overview section does not display.
   * When your group or Workfront administrator deselects all fields in the Overview area and the object has no custom forms attached, the Export drop-down menu is not visible.

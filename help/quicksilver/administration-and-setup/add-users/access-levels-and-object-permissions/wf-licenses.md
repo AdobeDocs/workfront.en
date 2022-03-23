@@ -1,14 +1,4 @@
----
-filename: wf-licenses
-title: License types
-user-type: administrator
-content-type: reference
-product-area: system-administration
-keywords: license,type
-navigation-topic: access-levels
-title: Adobe Workfront licenses overview
-description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
----
+
 
 # Adobe Workfront licenses overview
 

@@ -38,7 +38,7 @@ You can manually set the Planned Completion Date&nbsp;in the following areas of 
 * In the Edit Task box, when creating or editing a task.&nbsp;For information, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 * In the Task&nbsp;Details area. For information, see [Manage task information in the Task Details Overview area](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md).
 * In the Home area if the Planned Completion Date displays when viewing a task. For information, see [Update or edit a work item in the Home area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
-* In the task header. For information, see New object headers. 
+* In the task header. For information, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md). 
 * In a task list or report when the Planned Completion Date field displays in the view.
 
   For information, see [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
@@ -50,8 +50,8 @@ You can manually specify the Planned Completion Date when you select any of the 
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Task Constraint Type</span> </p> </th> 
-   <th> <p><span class="bold">Effect of Manually Changing the Planned Completion Date</span> </p> </th> 
+   <th> <p><strong>Task Constraint Type</strong> </p> </th> 
+   <th> <p><strong>Effect of Manually Changing the Planned Completion Date</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -81,11 +81,11 @@ When it is calculated automatically by the system, the following can influence t
 * Project Completion Date, when the project is scheduled from Completion Date.
 * The time off schedule of the Primary&nbsp;Assignee of the task.
 
-  When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the `Consider user time off in task durations` setting is selected for the `User Time Off` field. New projects inherit this setting from the Project&nbsp;Preferences area, but you can edit the setting at the project level.
+  When the Primary Assignee has time off scheduled during the duration of the task, the planned dates of the task adjust accordingly when the **Consider user time off in task durations** setting is selected for the **User Time Off** field. New projects inherit this setting from the Project&nbsp;Preferences area, but you can edit the setting at the project level.
 
   For example, if a task with a Constraint of As Soon As Possible is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task Planned Completion Date becomes June 4.
 
-  For information about the `User Time Off` preference, see the articles [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+  For information about the **User Time Off** preference, see the articles [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
 * The amount of time associated with Approval Settings if the task is associated with an approval. For more information, see [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
 

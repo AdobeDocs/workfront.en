@@ -6,12 +6,13 @@ product-area: workfront-integrations
 navigation-topic: mapping
 title: The mapping panel
 description: Finish this (original article)
+hidefromtoc: true
 ---
 
 # The mapping panel
 
 <!--
-Finish this (original article)
+<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Finish this (original article)</p>
 -->
 
 ## Star tab
@@ -26,7 +27,9 @@ Note the following about this tab:
 * 
 
   <!--
+  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
   You might see an example value displayed in grey next to an item.
+  </MadCap:conditionalText>
   -->
 
 * You can hover over an item to reveal additional information about it:

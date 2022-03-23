@@ -46,10 +46,39 @@ The following table shows what tabs are displayed for each access level, by defa
    <th>External User</th> 
   </tr> 
  </thead> 
- <tbody> My Work (Renamed to My Updates for users with a Reviewer license) Recent Updates ✔ ✔ ✔(Default Landing Tab) ✔(Default Landing Tab) Working On ✔ ✔ ✔ Work Requests ✔ ✔ ✔ Approvals ✔ ✔ ✔ ✔ 
+ <tbody>  
+  <td rowspan="4" class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><strong>My Work</strong> (Renamed to <strong>My Updates</strong> for users with a Reviewer license)</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><strong>Recent Updates</strong> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> ✔</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"> ✔(Default Landing Tab)</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔(Default Landing Tab) </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>   
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><strong>Working On</strong> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔ </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><span style="font-weight: 400;"> ✔</span> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td>   
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray"><strong>Work Requests</strong> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔ </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">✔ </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">&nbsp;</td>   
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><strong>Approvals</strong> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><span style="font-weight: 400;"> ✔</span> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray"><span style="font-weight: 400;"> ✔</span> </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">✔ </td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray">&nbsp;</td> 
+  <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-MediumGray">&nbsp;</td>  
   <tr> 
-   <td rowspan="2"><span class="bold">Projects</span> </td> 
-   <td><span class="bold">Projects</span> </td> 
+   <td rowspan="2"><strong>Projects</strong> </td> 
+   <td><strong>Projects</strong> </td> 
    <td>✔ <br>(Default landing tab)</td> 
    <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing tabb)</td> 
    <td>&nbsp;</td> 
@@ -58,7 +87,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Portfolios</span> </td> 
+   <td><strong>Portfolios</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>&nbsp;</td> 
@@ -67,8 +96,8 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><span class="bold">Reporting</span> </td> 
-   <td><span class="bold">Reports</span> </td> 
+   <td rowspan="3"><strong>Reporting</strong> </td> 
+   <td><strong>Reports</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -77,7 +106,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p><span class="bold">Dashboards</span> </p> </td> 
+   <td> <p><strong>Dashboards</strong> </p> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -86,7 +115,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Calendars</span> </td> 
+   <td><strong>Calendars</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -95,8 +124,8 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="5"><span class="bold">People</span> (renamed to <span class="bold">Teams</span> for users with a Work license)</td> 
-   <td><span class="bold">Teams</span> </td> 
+   <td rowspan="5"><strong>People</strong> (renamed to <strong>Teams</strong> for users with a Work license)</td> 
+   <td><strong>Teams</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔</td> 
@@ -105,7 +134,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">People</span> </td> 
+   <td><strong>People</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>&nbsp;</td> 
@@ -113,10 +142,18 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> <!--
-   Legacy Resource Planning ✔ ✔
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td><strong>Legacy Resource Planning</strong> </td> 
+    <td>✔ </td> 
+    <td>✔ </td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+    <td>&nbsp;</td> 
+   </tr>
   --> 
   <tr> 
-   <td><span class="bold">Planning</span> </td> 
+   <td><strong>Planning</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>&nbsp;</td> 
@@ -125,7 +162,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Scheduling</span> </td> 
+   <td><strong>Scheduling</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>&nbsp;</td> 
@@ -134,8 +171,8 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><span class="bold">Requests</span> </td> 
-   <td><span class="bold">New Request</span> </td> 
+   <td rowspan="3"><strong>Requests</strong> </td> 
+   <td><strong>New Request</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -144,7 +181,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Requests I've Submitted</span> </td> 
+   <td><strong>Requests I've Submitted</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -153,7 +190,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>✔ <br>(Default landing tab)</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">All Requests</span> </td> 
+   <td><strong>All Requests</strong> </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -162,8 +199,8 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>✔ </td> 
   </tr> 
   <tr> 
-   <td rowspan="3"><span class="bold">Timesheet</span> </td> 
-   <td><span class="bold">My Timesheets</span> </td> 
+   <td rowspan="3"><strong>Timesheet</strong> </td> 
+   <td><strong>My Timesheets</strong> </td> 
    <td>✔ </td> 
    <td> ✔</td> 
    <td>✔ </td> 
@@ -172,7 +209,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Timesheets I Approve</span> </td> 
+   <td><strong>Timesheets I Approve</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td>&nbsp;</td> 
@@ -181,7 +218,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">All Timesheets</span> </td> 
+   <td><strong>All Timesheets</strong> </td> 
    <td>✔</td> 
    <td>✔ </td> 
    <td>&nbsp;</td> 
@@ -190,7 +227,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Documents</span> </td> 
+   <td><strong>Documents</strong> </td> 
    <td>&nbsp;</td> 
    <td>✔ </td> 
    <td>✔ </td> 
@@ -200,7 +237,7 @@ The following table shows what tabs are displayed for each access level, by defa
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td><span class="bold">Setup</span> </td> 
+   <td><strong>Setup</strong> </td> 
    <td>&nbsp;</td> 
    <td>✔ </td> 
    <td>Limited Functionality</td> 

@@ -83,10 +83,10 @@ When you change the view, the following information also changes:
 
 In order to display accurate information in the Resource Planner, you must meet a set of prerequisites. For more information about the prerequisites, see the "Prerequisites for working in the Resource Planner" section in the [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) article.  To change the view in the Resource Planner:
 
-1. Go to the `Resource Planner`.  
+1. Go to the **Resource Planner**.  
    For more information about accessing the Resource Planner, see the [Locate the Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) section in the [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md) article.  
 
-1. In the `View by` drop-down menu, select one of the following views:
+1. In the**View by** drop-down menu, select one of the following views:
 
   * [View by Project](#view-by-project-subsection)
   * [View by Role](#view)
@@ -171,7 +171,7 @@ Consider the following when selecting the User View in the Resource Planner:
 * The projects are listed under the name of the user in the same order of priority as they are listed in the Project View.  
   For more information about project priority in the Resource Planner, see the [Project Planning Priority](#project-planning-priority) section in this article. 
 
-* If users have no job role associated with them, the Hours or FTE values are listed under the `No Role` section. 
+* If users have no job role associated with them, the Hours or FTE values are listed under the **No Role** section. 
 * When this view is applied, the Project Hours or FTE add up to the User Hours or FTE.
 
   >[!TIP]
@@ -181,10 +181,10 @@ Consider the following when selecting the User View in the Resource Planner:
 * Your permissions to projects and tasks determine what is displayed under the names of the users you see in the User View.   
   The following scenarios exist:
 
-  * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the `Inaccessible Items` sections. The `Inaccessible Items` sections replace the Project or Task sections in this case.
+  * When you do not have permissions to see projects and the tasks or issues that are assigned to the users displayed in the Resource Planner, those items are listed under the **Inaccessible Items** sections. The **Inaccessible Items** sections replace the Project or Task sections in this case.
   
   * When you do not have permissions to see the projects, but you have access to see the tasks or issues on the projects, the projects, tasks, and issues are listed under the names of the users assigned to them.
-  * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the `Inaccessible Items` section.  
+  * When you have permissions to see the projects, but not any tasks or issues on the projects, the project name displays, and the tasks and issues are listed under the **Inaccessible Items** section.  
     For more information about permissions in Workfront, see [Overview of sharing permissions on objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
@@ -240,12 +240,12 @@ The following categories of job roles are listed in the Resource Planner:
 * The job roles that are assigned to tasks.  
 * The job roles that are not assigned to tasks, but are the primary job roles of the users associated with the resource pools of the projects. 
 * The secondary job roles of users who are assigned to tasks in those job roles. 
-* The secondary job roles of users who have a valid `Percentage of FTE Availability` in their profile.  
-  For more information about the `Percentage of FTE Availability` for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+* The secondary job roles of users who have a valid **Percentage of FTE Availability** in their profile.  
+  For more information about the **Percentage of FTE Availability** for job roles, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 >[!NOTE]
 >
->Job roles assigned to issues are also listed when the `Include hours from Issue` setting is enabled. For more information about enabling issue hours in the Resource Planner, see the [Settings](#settings) section in the [Resource Planner navigation overview](#) article.
+>Job roles assigned to issues are also listed when the **Include hours from Issue** setting is enabled. For more information about enabling issue hours in the Resource Planner, see the [Settings](#settings) section in the [Resource Planner navigation overview](#) article.
 
 ## User Name
 
@@ -261,10 +261,10 @@ In the Project and Role Views, users could appear listed under the following typ
 * Their primary job role
 * Their secondary job role, in the following scenarios:
 
-  * If the secondary job role has a valid number for the `Percentage of FTE Availability` in their user profile.
+  * If the secondary job role has a valid number for the **Percentage of FTE Availability** in their user profile.
   * If the user is assigned to tasks in those roles.
 
-For more information about the `Percentage of FTE Availability` for a job role, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+For more information about the **Percentage of FTE Availability** for a job role, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
 
 ## "No Role" and "No User" sections
 
@@ -273,16 +273,16 @@ For more information about the `Percentage of FTE Availability` for a job role, 
 
 ### "No Role" section
 
-When a user belongs to a resource pool associated with a project, but they do not have a job role associated with them, they appear in the `No Role` section, instead of under a specific job role.
+When a user belongs to a resource pool associated with a project, but they do not have a job role associated with them, they appear in the **No Role** section, instead of under a specific job role.
 
-You cannot budget hours for a user in a `No Role` section. The user must have at least one job role associated with them to be budgeted for work.  
+You cannot budget hours for a user in a **No Role** section. The user must have at least one job role associated with them to be budgeted for work.  
 ![no_role_with_user___res_planner.png](assets/no-role-with-user---res-planner-350x165.png)
 
 ### "No User" section
 
-When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the `No User` section which appears under the `No Role` section in the Resource Planner. These tasks do not appear in the Resource Planner when using the `View by User` view.
+When you assign a task to a team, or you leave it unassigned, the Planned Hours appear under the **No User** section which appears under the **No Role** section in the Resource Planner. These tasks do not appear in the Resource Planner when using the **View by User** view.
 
-You can see the amount of Planned Hours attributed to tasks on the project in the `No User` section in the Resource Planner, but you cannot budget for these allocations.
+You can see the amount of Planned Hours attributed to tasks on the project in the **No User** section in the Resource Planner, but you cannot budget for these allocations.
 
 ![no_user_and_no_role___res_planner.png](assets/no-user-and-no-role---res-planner-350x129.png)
 
@@ -303,7 +303,7 @@ From the Settings area, you can enable or disable options to display or hide inf
 To enable settings in the Resource Planner:
 
 1. Open the Resource Planner.
-1. Click the `Settings` icon.
+1. Click the **Settings** icon.
 
    ![](assets/rp-settings-icon-(1).png)
 
@@ -311,7 +311,7 @@ To enable settings in the Resource Planner:
 
    ![](assets/rp-settings-without-actual-hours-350x211.png)
 
-1. Enable the `Include hours from Issues` setting to display Planned Hours from issues in the Resource Planner. This setting is disabled by default.
+1. Enable the **Include hours from Issues** setting to display Planned Hours from issues in the Resource Planner. This setting is disabled by default.
 
    Consider the following when you enable this setting:
 
@@ -320,7 +320,7 @@ To enable settings in the Resource Planner:
 
     >[!IMPORTANT]
     >
-    >`When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.`
+    >```When the issue Planned Start and Completion Dates are outside the timeline of the project, the Planned Hours for the issue display according to the dates of the issue. For example, if the project timeline is between January and March, but the timeline of the issues is in August, the Planned Hours for the issues appear in the August time period.```
 
 1. (Conditional and optional) If you selected the Project view, enable the Display Portfolio Priorities setting to display the project priorities according to the Portfolio they are assigned to. The priority of the projects according to their portfolios displays next to the Resource Planner priority. This setting is disabled by default.
 
@@ -334,12 +334,12 @@ The option to view information in full screen is available for all views of the 
 
 To display the Resource Planner in full screen:
 
-1. Go to the `Resource Planner`. 
-1. Click the `Full Screen icon` to view the Resource Planner in full screen.  
+1. Go to the **Resource Planner**. 
+1. Click the **Full Screen icon** to view the Resource Planner in full screen.  
    ![RP_sull_sccreen_area_User_View__1_.png](assets/rp-full-screen-icon-highlighted-user-view--350x260.png)  
-   The Resource Planner expands to occupy your entire browser window and the icon changes into a `Close the Full Screen` view option. 
+   The Resource Planner expands to occupy your entire browser window and the icon changes into a **Close the Full Screen** view option. 
 
-1. (Optional) Click the `Close Full Screen icon` to revert to the previous display.
+1. (Optional) Click the **Close Full Screen icon** to revert to the previous display.
 
 ## Export option
 

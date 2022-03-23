@@ -41,7 +41,7 @@ You must have the following access to perform the steps in this article:
 
 1. Navigate to an active iteration.
 1. Click the Filter drop-down menu on the right side of the scrum board.
-1. Select the name of the user or `Unassigned`.
+1. Select the name of the user or **Unassigned**.
 
 >[!NOTE]
 >

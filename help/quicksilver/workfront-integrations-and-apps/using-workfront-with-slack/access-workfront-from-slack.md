@@ -40,7 +40,7 @@ To log in to Workfront from Slack:
    <pre>/workfront log in</pre> Or  
    <pre>/wf log in</pre>
 
-1. Click the Workfront `Log In` link displayed in the response.  
+1. Click the Workfront **Log In** link displayed in the response.  
    A new tab opens with fields for Workfront credentials.
 
 1. Follow the prompts to log in to Workfront using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.
@@ -178,9 +178,9 @@ To log in to Workfront from Slack:
   * <pre>/wf help</pre> Displays a complete list of commands for Workfront.&nbsp; 
   * * Visit Workfront Help:&nbsp; * Opens the Slack section on the Workfront Help Site in a new browser tab.&nbsp;
 
-1. (Optional) To delete the message of any command, mouse over the upper-right corner of the Slack message containing the command and click `Show message actions`, then click `Delete message`. 
+1. (Optional) To delete the message of any command, mouse over the upper-right corner of the Slack message containing the command and click**Show message actions**, then click **Delete message**. 
 
-1. (Optional and conditional) Click `Delete` to confirm you want to delete this message.&nbsp;
+1. (Optional and conditional) Click **Delete** to confirm you want to delete this message.&nbsp;
 
 ### Access Workfront from a shared link in Slack
 
@@ -198,9 +198,9 @@ For more information about accessing Workfront from a shared link, see [Access A
 
 1. Deselect from the following options, to disable your settings for Workfront:
 
-  * In the `General Settings` area, disable the `When pasting a Workfront URL in a Slack channel, show additional description, due date, or requestor name.`setting if you do not want Slack to add additional information about your Workfront objects when you share a URL to the object in Slack.
+  * In the **General Settings** area, disable the **When pasting a Workfront URL in a Slack channel, show additional description, due date, or requestor name.**setting if you do not want Slack to add additional information about your Workfront objects when you share a URL to the object in Slack.
   
-  * In the `Notifications Settings` area, disable notifications that you want to stop receiving from Workfront.  
+  * In the **Notifications Settings** area, disable notifications that you want to stop receiving from Workfront.  
     For information about receiving Workfront notifications in Slack, see [Receive Adobe Workfront notifications in Slack](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
 ## Log out of Workfront from Slack&nbsp;

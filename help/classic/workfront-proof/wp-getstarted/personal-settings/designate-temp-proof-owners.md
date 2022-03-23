@@ -21,28 +21,28 @@ If you are going to be out of the office for an extended period of time, you can
 
 To designate temporary ownership of your proofs:&nbsp;
 
-1. Within Workfront Proof, go to `Personal settings`.  
+1. Within Workfront Proof, go to **Personal settings**.  
    ![personal-settings.png](assets/personal-settings-350x83.png)
 
-1. Click the `Out of office` tab.&nbsp;The following settings are available:
+1. Click the **Out of office** tab.&nbsp;The following settings are available:
 
-  * `Delegate your proofs to` another user in your account.
-  * Enable and disable the `Out of office` function by checking or unchecking the checkbox.
-  * Select the `Start date`.
+   * **Delegate your proofs to** another user in your account.
+   * Enable and disable the **Out of office** function by checking or unchecking the checkbox.
+   * Select the **Start date**.
 
-    If the `Start immediately` option is chosen, ownership of the proofs will be delegated to the selected user immediately after you activate the feature.
+     If the **Start immediately** option is chosen, ownership of the proofs will be delegated to the selected user immediately after you activate the feature.
 
-    If a specific start date and time are set, the feature will be activated on the selected day and at the chosen time.
+     If a specific start date and time are set, the feature will be activated on the selected day and at the chosen time.
 
-  * Select the `End date`.
+   * Select the **End date**.
 
-    If no end date is chosen, the ownership of the proofs will be delegated until the feature is manually disabled.
+     If no end date is chosen, the ownership of the proofs will be delegated until the feature is manually disabled.
 
-    If a specific end date and time are set, the feature will be disabled on the selected day and at the chosen time.
+     If a specific end date and time are set, the feature will be disabled on the selected day and at the chosen time.
 
-    ![out-of-office-options.png](assets/out-of-office-options-350x234.png)
+     ![out-of-office-options.png](assets/out-of-office-options-350x234.png)
 
-1. When proofs are delegated, the delegated owner is shown in the `Details` section of the proof details page. The ownership delegation note appears in the `Activity` section of the proof details page.
+1. When proofs are delegated, the delegated owner is shown in the **Details** section of the proof details page.&nbsp;The ownership delegation note appears in the **Activity** section of the proof details page.
 
    ![activity-section-delegated.png](assets/activity-section-delegated-350x318.png)
 

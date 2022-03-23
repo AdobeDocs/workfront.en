@@ -1,6 +1,6 @@
 
 
-# `Workfront Tools for AEM User Guide : Comments Sync`
+# ```Workfront Tools for AEM User Guide : Comments Sync```
 
 Creates a comment under an asset representing the Adobe Workfront Note object.
 
@@ -18,7 +18,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Review or higher
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Review or higher</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -41,12 +44,12 @@ You must have the following access to perform the steps in this article:
 
 ## Create Event Subscriptions for Note Objects
 
-1. Navigate to `Tools → Cloud Services → Workfront Tools Configuration`. Select the configuration and click `Properties`.  
+1. Navigate to ```Tools → Cloud Services → Workfront Tools Configuration```. Select the configuration and click ```Properties```.  
    ![](assets/properties-config-350x280.png)
 
    ![](assets/wf-tools-350x286.png)
 
-1. Select the `Event Subscriptions` tab. Under the `Create a new event subscription` menu, select `create`from the Event dropdown and under the Object dropdown select `note`. This we create a workflow step that listens for comments added to Workfront linked documents and add the comment in AEM.
+1. Select the ```Event Subscriptions``` tab. Under the ```Create a new event subscription``` menu, select ```create```from the Event dropdown and under the Object dropdown select ```note```. This we create a workflow step that listens for comments added to Workfront linked documents and add the comment in AEM.
 
    ![](assets/event-subs-350x238.png)
 
@@ -55,7 +58,7 @@ You must have the following access to perform the steps in this article:
 1. Test the Create Note Event
 
   1. Navigate to a linked document in Workfront and leave a comment in the Updates tab.
-  1. Navigate to the same linked document in AEM. Once the document is selected, navigate to the Timeline menu in the left navigation and select `Comments`. Here you should see you synced comments from Workfront.
+  1. Navigate to the same linked document in AEM. Once the document is selected, navigate to the Timeline menu in the left navigation and select ```Comments```. Here you should see you synced comments from Workfront.
 
      ![](assets/update-stream-comment-350x225.png)
 

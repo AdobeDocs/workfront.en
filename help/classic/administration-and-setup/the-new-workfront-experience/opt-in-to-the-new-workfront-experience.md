@@ -12,3 +12,5 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
+* Prepare to move your organization to the new Adobe Workfront experience
+

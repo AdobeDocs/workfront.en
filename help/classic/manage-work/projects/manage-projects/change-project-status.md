@@ -41,17 +41,17 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about updating to specific statuses
 
-* `When updating a project to Complete:` Ensure that all tasks and issues are completed on the project. You cannot select the Complete status for a project, or any other status that equates Complete when there are tasks or issues that have not been completed on the project. This includes approving any task or issue that is in a Complete-Pending Approval status.
-* `When updating a project from Complete to Current:` If all the tasks and issues on the project are completed, ensure that the project's Completion Mode is set to Manual. If the project's Completion&nbsp;Mode is Automatic, the status of the project remains Complete.
+* **When updating a project to Complete:** Ensure that all tasks and issues are completed on the project. You cannot select the Complete status for a project, or any other status that equates Complete when there are tasks or issues that have not been completed on the project. This includes approving any task or issue that is in a Complete-Pending Approval status.
+* **When updating a project from Complete to Current:** If all the tasks and issues on the project are completed, ensure that the project's Completion Mode is set to Manual. If the project's Completion&nbsp;Mode is Automatic, the status of the project remains Complete.
 
 ## Change project status
 
 1. Go to the project whose status you want to update.
-1. In the project header, click the name of the status in the `Status` field, then select a new status.
+1. In the project header, click the name of the status in the **Status** field, then select a new status.
 
    Or
 
-   Click Edit Project and select a new status in the `Status` field, then click `Save`Changes.
+   Click **Edit Project** and select a new status in the **Status** field, then click **Save****Changes**.
 
    The project status updates to the status you selected.
 

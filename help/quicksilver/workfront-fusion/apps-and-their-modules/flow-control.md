@@ -23,7 +23,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -32,7 +36,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -45,21 +56,21 @@ You must have the following access to use the functionality in this article:
 
 You can use a Repeater module to repeat a task a given number of times. A Repeater module generates bundles, one after another.
 
-For example, you could use a Repeater module to send five emails with the subjects "Hello 1," "Hello 2," and so on, by connecting the `Email > Send me an email` module to the Repeater module.
+For example, you could use a Repeater module to send five emails with the subjects "Hello 1," "Hello 2," and so on, by connecting the **Email > Send me an email** module to the Repeater module.
 
 To use a Repeater module:
 
-1. Click the Flow Control icon ![](assets/flow-control-icon.gif) at the bottom of the screen, then click `Repeater` in the menu that displays.
-1. Click the Repeater bundle, then click `Connect automatically` in the box that displays.
-1. In the Flow Control box that appears, type the number of repetitions (outputted bundles) you want in the `Repeats` box.
+1. Click the Flow Control icon ![](assets/flow-control-icon.gif) at the bottom of the screen, then click **Repeater** in the menu that displays.
+1. Click the Repeater bundle, then click **Connect automatically** in the box that displays.
+1. In the Flow Control box that appears, type the number of repetitions (outputted bundles) you want in the **Repeats** box.
 
    In our email example, you would type 5.
 
    ![](assets/repeater-2-350x207.png)
 
-   The value of the item increases in each repetition by this value specified in the `Step` field, which you can view by selecting `Show advanced settings`. This number is 1 by default.
+   The value of the item increases in each repetition by this value specified in the **Step** field, which you can view by selecting **Show advanced settings**. This number is 1 by default.
 
-1. Click `OK` to close the `Flow Control` box.
+1. Click **OK** to close the **Flow Control** box.
 
 1. Click the app or service module connected to the Repeater module.
 1. In the box that appears, type the information that you want to repeat.
@@ -120,6 +131,9 @@ An array aggregator is a special type of module which allows to merge several bu
 The Router module allows you to branch your flow into several routes and process the data within each route differently. Once a Router module receives a bundle, it forwards it to each connected route in the order the routes were attached to the Router module. For more information, see [Router module](../../workfront-fusion/modules/router-module.md).
 
 <!--
-Directives The error handling directives allow you to control how your scenario reacts to errors. For more information, see Advanced error handling and Directives for error handling.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Directives</h2>
+<p>The error handling directives allow you to control how your scenario reacts to errors. For more information, see <a href="../../workfront-fusion/errors/advanced-error-handling.md" class="MCXref xref">Advanced error handling</a> and <a href="../../workfront-fusion/errors/directives-for-error-handling.md" class="MCXref xref">Directives for error handling</a>.</p>
+</div>
 -->
 

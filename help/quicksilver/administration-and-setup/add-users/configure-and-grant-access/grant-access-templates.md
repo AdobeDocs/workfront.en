@@ -42,7 +42,7 @@ You must have the following to perform the steps in this article:
 ## Configure user access to templates using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Templates, then select the abilities you want to grant under **Fine-tune your settings**.
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Templates, then select the abilities you want to grant under **Fine-tune your settings**.
 
    ![](assets/access-level-to-templates-with-edit-expanded-350x114.png)
 

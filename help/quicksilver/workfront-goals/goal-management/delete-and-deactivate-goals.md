@@ -37,7 +37,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -88,13 +96,13 @@ Remember the following when deactivating goals:
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the ` `More icon` ![](assets/more-icon.png) ,`then click `Deactivate`.
+1. Click the ```**More icon** ![](assets/more-icon.png) ,```then click **Deactivate**.
 
    ![](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
-1. Click the `X` icon in the upper-right to close Goal Details.
+1. Click the **X** icon in the upper-right to close Goal Details.
 
 ## Delete goals
 
@@ -118,11 +126,11 @@ You can delete goals that are no longer or might never be relevant.
 
    The Goal Details panel opens on the right. 
 
-1. Click the ` `More icon` ![](assets/more-icon.png),`then click `Delete`.
+1. Click the ```**More icon** ![](assets/more-icon.png),```then click **Delete**.
 
    ![](assets/delete-goal-highlighted.png)
 
-1. Click `Yes, delete`.
+1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 

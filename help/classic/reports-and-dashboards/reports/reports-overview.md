@@ -22,4 +22,4 @@ This section contains the following subsections:
 * [Calendars](../../reports-and-dashboards/reports/calendars/calendars.md) 
 * [Tips, tricks, and troubleshooting for reports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
-For in-depth training on reports, seeLearning Path for reports and dashboards.
+For in-depth training on reports, see [Learning Path for reports and dashboards](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).

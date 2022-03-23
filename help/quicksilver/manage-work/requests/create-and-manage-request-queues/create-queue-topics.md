@@ -59,9 +59,10 @@ You must have the following:
 
    For information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
-1. Click Queue Topics in the left panel. You might need to click Show More, then Queue Topics. 
-1. Click `New Queue Topic`.
-1. On the `New Queue Topic` form, specify the following:
+1. Click **Queue Topics** in the left panel. You might need to click **Show More**, then **Queue Topics**.  
+
+1. Click **New Queue Topic**.
+1. On the **New Queue Topic** form, specify the following:
 1. 
 
    <table cellspacing="0"> 
@@ -69,19 +70,19 @@ You must have the following:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Name</span> </td> 
+      <td role="rowheader"><strong>Name</strong> </td> 
       <td> Name of the Queue Topic.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Description</span> </td> 
+      <td role="rowheader"><strong>Description</strong> </td> 
       <td>Describe the Request Queue. The description displays when users select the queue topic in the process of submitting a new request. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Add to Topic Group</span> </td> 
-      <td> If there are no Topic Groups on the project, the name of the project will default as a Topic Group.<br>If you want to create additional Topic Groups from here, select <span class="bold">Create New Topic Group</span> from the drop-down menu.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
+      <td role="rowheader"><strong>Add to Topic Group</strong> </td> 
+      <td> If there are no Topic Groups on the project, the name of the project will default as a Topic Group.<br>If you want to create additional Topic Groups from here, select <strong>Create New Topic Group</strong> from the drop-down menu.<br><img src="assets/create-new-topic-group-within-queue-topic-350x203.png" alt="create_new_topic_group_within_queue_topic.png" style="width: 350;height: 203;"></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Custom Forms</span> </td> 
+      <td role="rowheader"><strong>Custom Forms</strong> </td> 
       <td>Select any custom forms you want to associate with the queue topic. You must create custom forms for issues before you can associate them with queue topics. For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</td> 
      </tr> 
      <tr> 
@@ -97,16 +98,16 @@ You must have the following:
        </div> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Default Duration</span> </td> 
+      <td role="rowheader"><strong>Default Duration</strong> </td> 
       <td>This is the default duration of the request and the Planned Completion Date of the request is calculated based on this value.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Default Route</span> </td> 
+      <td role="rowheader"><strong>Default Route</strong> </td> 
       <td>Specify the routing rule you want to associate with the Queue Topic. You must create the routing rule before you can attach it to a Queue Topic.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Request Types</span> </td> 
-      <td> <p>Choose what kind of requests this queue topic stores. The visible options are set on the <span class="bold">Queue Details</span> tab of the project. This is a required field. </p> <p>Note: Request&nbsp;Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> <p>Select from the following types:</p> 
+      <td role="rowheader"><strong>Request Types</strong> </td> 
+      <td> <p>Choose what kind of requests this queue topic stores. The visible options are set on the <strong>Queue Details</strong> tab of the project. This is a required field. </p> <p>Note: Request&nbsp;Types display as a selection in the Requests area only if the Request Type is selected in both the Queue Details and the Queue Topic pages. For information about setting up the Queue Details area of a project, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>. </p> <p>Select from the following types:</p> 
        <ul> 
         <li>Bug Report</li> 
         <li>Change Order</li> 
@@ -119,6 +120,6 @@ You must have the following:
 
 1. ![](assets/screen-shot-2016-09-07-at-10.20.51-am-350x258.png)
 
-1. Click `Save`.   
+1. Click**Save**.   
    The Queue Topic is now available to use and is visible in the Requests area of Workfront, after a Request Queue and a Topic Group are selected.
 

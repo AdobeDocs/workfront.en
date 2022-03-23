@@ -16,7 +16,7 @@ Use the Start No Earlier Than (SNET) Task Constraint to schedule a task to start
 Consider the following when using the Start No Earlier Than Task Constraint:
 
 * You should use the Start No Earlier Than constraint when the project is scheduled From Start Date. In this case, you can provide a soft constraint on a task before it forces other dependent tasks to show as At Risk.
-* Start No Earlier Than is the default constraint if a project is scheduled From Start Date and if the system `or group` default start date for a new task is set to Today. For information about configuring defaults for tasks, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Start No Earlier Than is the default constraint if a project is scheduled From Start Date and if the system ```or group``` default start date for a new task is set to Today. For information about configuring defaults for tasks, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 * If you schedule the project From Start Date and the system default start date for a new task is set to Based on the Project Planned Date, the default constraint for a new task is As Soon As Possible. 
 * If you schedule the project From Completion Date project and the system default start date for a new task is set to Today, then the Start No Earlier Than constraint schedules the task as it would an As Late As Possible task. 
@@ -39,6 +39,17 @@ Consider the following when using the Start No Earlier Than Task Constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-Use the Start No Earlier Than Task Constraint To update the Task Constraint to Start No Later Than: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Start No Earlier Than. Specify a Planned Start Date. This is the date by which the task must start, and not earlier than this date. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="using-SNET"></a>Use the Start No Earlier Than Task Constraint</h2>
+<p>To update the Task Constraint to Start No Later Than:</p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>. </li>
+<li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
+<li value="4"> <p>Select <strong>Start No Earlier Than</strong>.</p> </li>
+<li value="5"> <p>Specify a <strong>Planned Start Date</strong>.</p> <p>This is the date by which the task must start, and not earlier than this date. </p> </li>
+<li value="6">Click <strong>Save Changes</strong>.</li>
+</ol>
+</div>
 -->
 

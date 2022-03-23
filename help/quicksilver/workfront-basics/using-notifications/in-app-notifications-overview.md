@@ -17,7 +17,7 @@ For instructions on how to view and manage these notifications, see [View and ma
 
 ## Announcement notifications
 
-`<li>Announcements come in one of two ways:</li>`
+```<li>Announcements come in one of two ways:</li>```
 
 * Workfront sends a message to the Announcement page of your organization's Workfront administrators  
 * A Workfront administrator sends a message to users from the Announcement page
@@ -47,25 +47,90 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * [Share](#share) 
 * [Other](#error)
 
-### `Approvals`
+### **Approvals**
 
-### `Requests`
+* 
+* 
+* 
+* 
+* 
+*
 
-### `Assignments`
+  <!--
+  <img src="assets/portfolio.png"> You need to approve a portfolio
+  -->
 
+* [Object name] needs your access approval - [sender's name]
+* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
+
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+*
+
+### **Requests**
+
+* 
+* 
+* 
+* 
+* [Object name] access requested - [sender's name]
+* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.
+
+### **Assignments**
+
+* 
+* 
+* 
+* 
 *
 
   * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
   * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
   * If you assign work to yourself or a team you belong to, you will not receive a notification.
 
-### `Comments`
+### **Comments**
 
-### `Updates`
+* ![](assets/user.png) [Object name] comment - [commenter's name]
+* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
 
-### `Date changes`
+* [Object name] update - [updater's name]
+* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
 
-### `Share`
+* [Object name] update - [updater's name]
+* The object could be a ![](assets/prjneedsapprvl.png)  project, ![](assets/icon-taskassngdtoyou.png) task, ![](assets/issue.png) issue, ![](assets/document.png)  document, report, dashboard, ![](assets/portfolio.png) portfolio, ![](assets/program.png) program, or calendar.  
 
-### `Other`
+* 
+* 
+* 
+*
+
+### **Updates**
+
+* 
+* 
+*
+
+### **Date changes**
+
+* 
+* 
+* 
+*
+
+### **Share**
+
+* 
+* 
+*
+
+### **Other**
+
+* 
+*
 

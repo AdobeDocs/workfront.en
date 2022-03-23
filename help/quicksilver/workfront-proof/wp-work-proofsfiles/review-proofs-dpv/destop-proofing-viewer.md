@@ -56,7 +56,10 @@ The Desktop Proofing Viewer includes the following enhancements over the Legacy 
 The Legacy proofing viewer will be removed from Workfront with the 2018.3 release at the end of the 2018 calendar year
 
 <!--
-(see Legacy proofing viewer removed in 2018.3)
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(see
+<a href="../../../workfront-proof/wp-work-proofsfiles/review-proofs-lpv/lpv-removed-2018.md" class="MCXref xref" xrefformat="{para}">Legacy proofing viewer removed in 2018.3</a>)
+</MadCap:conditionalText>
 -->
 
 . The Legacy proofing viewer is not included for customers acquiring Workfront after the 2018.2 release in July 2018.

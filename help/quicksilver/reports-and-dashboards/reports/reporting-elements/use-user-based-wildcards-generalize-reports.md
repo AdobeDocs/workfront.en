@@ -63,19 +63,19 @@ This video was recorded in Adobe Workfront Classic. However, the content also ap
 To insert a user-based wildcard in a report:
 
 1. Go to a report for which you want to insert a user-based wildcard.
-1. Click `Report Actions`, then `Edit`.
+1. Click **Report Actions**, then **Edit**.
 
-1. Click the `Filters` tab.
-1. Click `Add a Filter Rule`.
+1. Click the **Filters** tab.
+1. Click **Add a Filter Rule**.
 1. Start typing the name of the field that you want to filter by.  
    You must type fields that reference the user object or information about users.
-1. Select `Equal` in the drop-down menu for the filter variable.
+1. Select **Equal** in the drop-down menu for the filter variable.
 
    >[!TIP]
    >
-   >You must always select the `Equal` filter variable when working with wildcards in Adobe Workfront.
+   >You must always select the **Equal** filter variable when working with wildcards in Adobe Workfront.
 
-1. In the `Start typing name ...` box, type: 
+1. In the **Start typing name ...** box, type: 
 
    ```
    $$USER.ID
@@ -93,12 +93,13 @@ To insert a user-based wildcard in a report:
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 
-1. Click `Save + Close`.
+1. Click **Save + Close**.
 
 ## Additional information
 
 See also:
 
+* [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) 
 * [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md) 
 * [Create or edit filters in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md) 
 * [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 

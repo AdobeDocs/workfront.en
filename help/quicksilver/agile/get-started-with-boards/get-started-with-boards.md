@@ -20,6 +20,6 @@ This section contains the following articles:
 * [Filter in a board](../../agile/get-started-with-boards/filter-search-in-board.md)
 
   <!--
-  Add tags
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><a href="../../agile/get-started-with-boards/add-tags.md" class="MCXref xref" xrefformat="{para}">Add tags</a> </p> </li>
   -->
 

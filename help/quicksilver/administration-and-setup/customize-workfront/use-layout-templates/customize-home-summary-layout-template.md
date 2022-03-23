@@ -19,7 +19,7 @@ You can configure:
 
 You can also customize the fields that users see in the Home area when users click a project approval, document approval, or document version approval that is assigned to them.
 
-For information about the Home area, see [Use the Home area](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).For information about the Summary panel, see Summary overview in the new Adobe Workfront experience.
+For information about the Home area, see [Use the Home area](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). For information about the Summary panel, see [Summary overview in the new Adobe Workfront experience](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 For information about layout templates for groups, see [Create and modify a group’s layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
@@ -49,9 +49,9 @@ You must have the following to perform the steps in this article:
 ## Customize Home and Summary using a layout template
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click the down arrow ![](assets/dropdown-arrow.png) under `Customize what users see`, then click `Home` `and Summary`.
+1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home****and Summary**.
 
-1. In the list that appears on the left, click the object type ( `Tasks`, `Issues`, `Projects`, `Documents`, or `Document Versions`) that you want to customize in Home and Summary.
+1. In the list that appears on the left, click the object type (**Tasks**, **Issues**,**Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
 
    <table cellspacing="0"> 
     <col> 
@@ -88,7 +88,7 @@ You must have the following to perform the steps in this article:
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding-350x254.png)
 
-1. (Conditional) If the `Set primary action button` drop-down menu appears (if you select `Tasks` or `Issues` in the list on the left), click the primary action ( `Done` or `Status`) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.
+1. (Conditional) If the **Set primary action button** drop-down menu appears (if you select **Tasks** or **Issues** in the list on the left), click the primary action (**Done** or **Status**) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding-350x223.png)
 
@@ -97,7 +97,7 @@ You must have the following to perform the steps in this article:
    ![](assets/lt-home-add-hide-fields-adobe-branding-350x302.png)
 
 1. Repeat steps 3-6 to customize Home area and the Summary panel for any other object types.
-1. Click `Global settings`, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in Home and Summary:
+1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in Home and Summary:
 
    <table cellspacing="0"> 
     <col> 
@@ -131,6 +131,6 @@ You must have the following to perform the steps in this article:
 
    Or
 
-   If you are finished customizing, click `Save`.
+   If you are finished customizing, click **Save**.
 
 For more information about layout templates, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

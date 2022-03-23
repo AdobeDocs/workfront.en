@@ -1,0 +1,28 @@
+<html>
+ <head>
+  <title>How access levels work</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">How access levels work</h1> 
+    <p aemmigrated="true">As an Adobe Workfront administrator, you can grant users access to view or edit objects by assigning them an access level. The articles below explain how access levels work.</p> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Access levels overview</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Adobe Workfront licenses overview</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Built-in access levels in Adobe Workfront</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">How access levels and permissions work together</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">List your users’ access levels and licenses</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Access to objects and areas by license type</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Functionality available for each object type</a> </li> 
+     <li aemmigrated="true"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Configurable access to functionality for each object type</a> </li> 
+    </ul> 
+    <h2 aemmigrated="true">See also</h2> 
+    <ul aemmigrated="true"> 
+     <li aemmigrated="true"> <p aemmigrated="true">For information about how to create access levels, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Configure access to Adobe Workfront</a>.</p> </li> 
+     <li aemmigrated="true"> <p aemmigrated="true">For information about how users can share objects with each other, granting View and Edit permissions on those objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref" xrefformat="{para}" aemmigrated="true">Grant and request permissions to objects</a>.</p> </li> 
+    </ul> 
+   </div> 
+  </div>
+ </body>
+</html>

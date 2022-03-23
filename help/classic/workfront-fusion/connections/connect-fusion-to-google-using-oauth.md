@@ -20,7 +20,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -29,7 +33,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -53,27 +64,27 @@ You need an existing Google account to make this connection.
 >
 
 1. Sign in to [Google Cloud Platform](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) using your Google credentials.
-1. In the left panel, click `Dashboard`. 
-1. Click `Create project` in the upper-right corner of the screen.
-1. Enter the `Project name`, then click `Create`.
+1. In the left panel, click **Dashboard**. 
+1. Click **Create project** in the upper-right corner of the screen.
+1. Enter the **Project name**, then click **Create**.
 
-1. Click the `Enable APIs and services` tab near the top of the screen.
-1. In the `Search for APIs and Services` field at the top of the screen, type the name of the service you want to use (such as Gmail API or Google Drive API).
+1. Click the **Enable APIs and services** tab near the top of the screen.
+1. In the **Search for APIs and Services** field at the top of the screen, type the name of the service you want to use (such as Gmail API or Google Drive API).
 1. When it displays, click the API or service you want to connect to Workfront Fusion.
-1. Click `Enable`to enable the selected API.
+1. Click **Enable**to enable the selected API.
 1. Repeat steps 6-8 for each API you want to enable.
 
    >[!NOTE]
    >
    >You must enable Google Drive API as well as the API of all Google apps you want to use (such as Google Sheets API).
 
-1. On the screen that appears, click `Create credentials` in the upper-right corner.
+1. On the screen that appears, click **Create credentials** in the upper-right corner.
 1. Continue to the section [Configure OAuth consent settings](#configur) in this article.
 
 ## Configure OAuth consent settings
 
-1. In the left panel, click `OAuth consent screen`. 
-1. Select `External`, then click `Create`.
+1. In the left panel, click **OAuth consent screen**. 
+1. Select **External**, then click **Create**.
 
    >[!NOTE]
    >
@@ -100,7 +111,7 @@ You need an existing Google account to make this connection.
     </tbody> 
    </table>
 
-1. Under Authorized domains, click `Add domain`, and enter 
+1. Under Authorized domains, click **Add domain**, and enter 
 
    ```
    workfrontfusion.com
@@ -108,8 +119,8 @@ You need an existing Google account to make this connection.
 
    .
 
-1. Click `Save and continue`.
-1. Click `Add or remove scopes`.
+1. Click **Save and continue**.
+1. Click **Add or remove scopes**.
 1. In the right panel, enable the following scopes:
 
    <table cellspacing="15"> 
@@ -135,11 +146,11 @@ You need an existing Google account to make this connection.
 
    You may need to expand the list or go to the next page of the list to see them all.
 
-1. Click `Update`.
-1. Click `Save and continue`.
+1. Click **Update**.
+1. Click **Save and continue**.
 1. (Optional) Add any test users to the project.
-1. Click `Save and continue`.
-1. Examine your information for accuracy, then click `Back to dashboard`.
+1. Click **Save and continue**.
+1. Examine your information for accuracy, then click **Back to dashboard**.
 
    >[!NOTE]
    >
@@ -149,13 +160,13 @@ You need an existing Google account to make this connection.
 
 ## Create OAuth Credentials
 
-1. In the left panel, click `Credentials`.
+1. In the left panel, click **Credentials**.
 
    >[!NOTE]
    >
    >If this is not the first API or service (Gmail or Google Drive) you have enabled, you don't have to create new credentials.
 
-1. Click `Create credentials` near the top of the screen, then select `OAuth client ID` from the drop-down menu.
+1. Click **Create credentials** near the top of the screen, then select **OAuth client ID** from the drop-down menu.
 
 1. Fill the required fields as follows:
 
@@ -174,21 +185,21 @@ You need an existing Google account to make this connection.
     </tbody> 
    </table>
 
-1. Under Authorized redirect URIs, click `Add URI` and enter `one` of the following:
+1. Under Authorized redirect URIs, click **Add URI** and enter **one** of the following:
 
-  * For Gmail or Google Drive:   
-  
-    ```  
-    https://app.workfrontfusion.com/oauth/cb/google-restricted
-    ```
+   * For Gmail or Google Drive:    
+   
+     ```   
+     https://app.workfrontfusion.com/oauth/cb/google-restricted
+     ```
 
-  * For other Google apps:   
-  
-    ```  
-    https://app.workfrontfusion.com/oauth/cb/google
-    ```
+   * For other Google apps:    
+   
+     ```   
+     https://app.workfrontfusion.com/oauth/cb/google
+     ```
 
-1. Click `Create`.
+1. Click **Create**.
 
    The Client ID and Client Secret display.
 
@@ -205,18 +216,18 @@ The process of creating a connection to Google differs depending on whether you 
 ### Connect to Google in a Google service module
 
 1. In Workfront Fusion, locate the Google module that you need to create a connection for.
-1. Click `Create a connection`, then click `Show advanced settings`.
+1. Click **Create a connection**, then click**Show advanced settings**.
 
-1. Enter the Client ID and Client Secret you retrieved in [Create OAuth Credentials](#create2) in the respective fields, then click `Continue`.
+1. Enter the Client ID and Client Secret you retrieved in [Create OAuth Credentials](#create2) in the respective fields, then click **Continue**.
 
 1. Sign in with your Google account.
 
-   The `This app isn't verified` window displays. Note that the “app” mentioned in the window title is the OAuth client that you created above.
+   The **This app isn't verified** window displays. Note that the “app” mentioned in the window title is the OAuth client that you created above.
 
-1. Click `Advanced`, then click `Go to Workfront Fusion (unsafe)` to allow access using your custom OAuth client.
+1. Click **Advanced**, then click **Go to Workfront Fusion (unsafe)** to allow access using your custom OAuth client.
 
-1. Click `Allow`to grant Workfront Fusion permission.
-1. In the window that appears, click `Allow`again to confirm your choices.
+1. Click **Allow**to grant Workfront Fusion permission.
+1. In the window that appears, click **Allow**again to confirm your choices.
 
    The connection to the desired Google service using a custom OAuth client is established.
 

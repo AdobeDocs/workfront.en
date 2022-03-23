@@ -32,7 +32,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> <!--
-   Object permissions View access to an object For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>View access to an object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -47,47 +50,59 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 ## Create a Smart Folder&nbsp;
 
-1. Go to the `Documents`&nbsp;area where you want to create the smart folder.
-1. Click `Add new`.
-1. Click `Smart Folder`.
-1. Specify a name for the smart folder in the `Folder Name`&nbsp;field.
-1. Click `Add a Filter Rule`.
+1. Go to the **Documents**&nbsp;area where you want to create the smart folder.
+1. Click **Add new**.
+1. Click **Smart Folder**.
+1. Specify a name for the smart folder in the **Folder Name**&nbsp;field.
+1. Click **Add a Filter Rule**.
 1. Identify the information to be populated in the report by selecting the appropriate data type.
 1. Select the desired filter qualifier.&nbsp;
 
    <!--
-   For more information about each qualifier, see Advanced Filter and condition qualifiers .
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about each qualifier, see <a href="../../reports-and-dashboards/reports/reporting-elements/advanced-filter-condition-qualifiers.md" class="MCXref xref">Advanced Filter and condition qualifiers </a>.</p>
    -->
 
-1. Complete the filter rule, then click `Save Folder`.
+1. Complete the filter rule, then click **Save Folder**.
 
 ## Edit a Smart Folder&nbsp;
 
-1. Go to the `Documents`&nbsp;area that contains the smart folder that you want to edit.
-1. Click `Edit`.
+1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to edit.
+1. In the **Folders** column, click the drop-down arrow next to the smart folder that you want to edit.
+1. ![](assets/smartfolder-edit.png)
 
-   The `Edit Smart Folder`&nbsp;dialog box is displayed.  
+1. Click **Edit**.
+
+   The **Edit Smart Folder**&nbsp;dialog box is displayed.  
    ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
-1. Make your changes, then click `Save Folder`.
+1. Make your changes, then click **Save Folder**.
 
 ## Rename a Smart Folder&nbsp;
 
-1. Go to the `Documents`&nbsp;area that contains the smart folder that you want to rename.
-1. Specify a new name for the folder, then press `Enter`.
+1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to rename.
+1. Folders
+1. 
+1. 
+1. Specify a new name for the folder, then press **Enter**.
 
 ## Copy a Smart Folder
 
-1. Go to the `Documents`&nbsp;area that contains the smart folder that you want to copy.
-1. Click `Copy`.
+1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to copy.
+1. In the **Folders**&nbsp;column, click the drop-down arrow next to the smart folder that you want to copy.
+1. ![](assets/smartfolder-edit.png)
 
-   The `Edit Smart Folder`dialog box is displayed. The `Folder Name`&nbsp;field contains the original name of the folder, with the word Copy&nbsp;in parenthesis.
+1. Click **Copy**.
 
-1. Make your changes, then click `Save Folder`.
+   The **Edit Smart Folder**dialog box is displayed. The **Folder Name**&nbsp;field contains the original name of the folder, with the word Copy&nbsp;in parenthesis.
+
+1. Make your changes, then click **Save Folder**.
 
 ## Delete a Smart Folder&nbsp;
 
-1. Go to the `Documents`&nbsp;area that contains the smart folder that you want to delete.
-1. Click `Delete`.
-1. Click `Yes, Delete It`.
+1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to delete.
+1. In the **Folders** column, click the drop-down arrow next to the smart folder that you want to delete.
+1. ![](assets/smartfolder-edit.png)
+
+1. Click **Delete**.
+1. Click **Yes, Delete It**.
 

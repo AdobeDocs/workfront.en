@@ -5,12 +5,15 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Filters overview in Adobe Workfront (draft)
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+hidefromtoc: true
 ---
 
 # Filters overview in Adobe Workfront
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 (draft)
+</MadCap:conditionalText>
 -->
 
 The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
@@ -163,11 +166,11 @@ A filter contains the following elements:
 
 Workfront has 2 filter operators that connect each filter statement:
 
-* `AND`: When you join 2 filter statement by the AND&nbsp;operator you indicate that you want both filter statements to be met at the same time.
+* **AND**: When you join 2 filter statement by the AND&nbsp;operator you indicate that you want both filter statements to be met at the same time.
 
   By default, the statements in a filter are joined by the AND&nbsp;operator.
 
-* `OR`: When you join 2 filter statements by the OR operator you indicate that you want either statement to be met.
+* **OR**: When you join 2 filter statements by the OR operator you indicate that you want either statement to be met.
 
   >[!TIP]
   >
@@ -177,7 +180,7 @@ Workfront has 2 filter operators that connect each filter statement:
 
 You can use filter modifiers to indicate what kind of information you want your data to match. 
 
-` `**Example: **`` You can filter for projects that have a Percent Complete of 100%. In this case, you can use the "equal" modifier in the following filter statement:
+``` ```**Example: **`````` You can filter for projects that have a Percent Complete of 100%. In this case, you can use the "equal" modifier in the following filter statement:
 
 ```
 Project: Percent Complete Equal(Case Sensitive) 100
@@ -206,7 +209,7 @@ For more information about creating a filter using the text mode interface, see 
 * [Create filters for fields whose values contain commas](#filter-for-fields-with-commas) 
 * [Create filters for whose values are a multi-select custom field](#filter-for-multi-select)
 
-### `Create filters for fields whose values contain commas`
+### **Create filters for fields whose values contain commas**
 
 When building a filter in text mode and filtering for field values that contain commas, you must add a slash ("/") before the commas separating the&nbsp;values, to ensure that the value is read as one filter option. This only applies for the following field types:
 
@@ -225,7 +228,7 @@ If you want to build a filter that would find only projects where the third opti
 
 This syntax also applies when building prompts. For more information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-### `Create filters for whose values are a multi-select custom field`
+### **Create filters for whose values are a multi-select custom field**
 
 You can report on multi-select custom fields.&nbsp;For example, you can report on fields that are checkboxes.
 
@@ -233,7 +236,7 @@ However, when you want to exclude results that have only one of the options sele
 
 For example, if you have a field with 3 options (A, B, and C), and select 2 of the 3 options (A and B, but not C) on an object, you can create a report with a filter with a qualifier of Not Equal for options A and B, and it will only filter out projects that have both A and B, but not only A, and not only B selected. If you create a filter with a qualifier for Not Equal for option A, it will only filter out objects with only A selected, but if A and B are selected, those objects still display in the report.
 
-## `Limitations about joining multiple filter rules`
+## **Limitations about joining multiple filter rules**
 
 You can reference only five objects, excluding the object of the report, when you build a filter in Workfront.&nbsp;
 

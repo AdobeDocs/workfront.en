@@ -22,13 +22,13 @@ The following features can impact the Critical Path of a project:
 
   Consider the following:
 
-  * When a task on the Critical Path has a predecessor relationship, its predecessors and successors are also on the Critical Path if the changes on dates of the predecessors or the successors directly impact their dependents. 
-  
-    ` `**Tip: **`` When the date of the successor of a task does not directly impact the date of their dependent tasks and it does not impact the dates of the project, the successor task is not on the Critical Path.
+   * When a task on the Critical Path has a predecessor relationship, its predecessors and successors are also on the Critical Path if the changes on dates of the predecessors or the successors directly impact their dependents. 
+   
+     ``` ```**Tip: **`````` When the date of the successor of a task does not directly impact the date of their dependent tasks and it does not impact the dates of the project, the successor task is not on the Critical Path.
 
-    ![](assets/successor-not-on-critical-path-350x150.png)
+     ![](assets/successor-not-on-critical-path-350x150.png)
 
-  * When a subtask is identified as a Critical Path task, the parent task is also identified as a Critical Path task, if the Projected Start Date and time of the parent is the same as that of the subtask.
+   * When a subtask is identified as a Critical Path task, the parent task is also identified as a Critical Path task, if the Projected Start Date and time of the parent is the same as that of the subtask.
 
 Taking these features into consideration, the system calculates the Critical Path by using the longest path between the earliest task and the task that determines the end of the project. The Critical Path Calculation takes into account what is the earliest and latest time that each task can start and finish by without making the project longer. This process determines which tasks are "critical" (and belong to the longest path) and which ones have "total float" (can be delayed without making the project longer).
 
@@ -75,12 +75,12 @@ You can view the tasks that belong to the Critical Path in the following areas o
 To view tasks on the Critical Path in the Gantt chart:
 
 1. Go to a project for which you want to view the Critical Path.
-1. Click the Tasks tab. 
-1. Click the `Gantt Chart` icon in the upper-right corner of the task list.
+1. Click the **Tasks** tab.  
+1. Click the **Gantt Chart** icon in the upper-right corner of the task list.
 
    ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
 
-1. Expand the `Options` menu, then enable the `Critical Path` option.
+1. Expand the **Options** menu, then enable the **Critical Path** option.
 
    The tasks that are on the Critical Path have a red line above their timeline in the Gantt chart.
 
@@ -91,23 +91,25 @@ To view tasks on the Critical Path in the Gantt chart:
 To view which tasks are on the critical path in a list of tasks:
 
 1. Go to a project for which you want to view the Critical Path.
-1. Click the Tasks tab. 
-1. From the `View` drop-down menu, select `Status`.
+1. Click the **Tasks** tab. 
+1. From the **View** drop-down menu, select **Status**.
 
-   The tasks that are on the Critical Path have a `Critical Path` flag in the `Flags` column of the list.
+   The tasks that are on the Critical Path have a **Critical Path** flag in the **Flags** column of the list.
 
    You can apply the same view to a task report.
 
    For more information about creating reports, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
+   ![critical_path_in_status_view__1_.png](assets/critical-path-in-status-view--1--350x188.png)
+
    Or
 
-   From the `Filter` drop-down menu, select `New Filter`.
+   From the **Filter** drop-down menu, select **New Filter**.
 
-1. Click `Add Filter Rule` and start typing `Is Critical` in the `Only show me Tasks in which the ...` field. 
+1. Click **Add Filter Rule** and start typing **Is Critical** in the **Only show me Tasks in which the ...** field. 
 
 1. Select it when it appears in the list.
-1. Click `Save Filter`.
+1. Click **Save Filter**.
 
    The list should only display tasks that are on the Critical Path.
 

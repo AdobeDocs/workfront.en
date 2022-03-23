@@ -64,14 +64,14 @@ When you share a link to a specific queue topic with other users, the request fo
 
 Users can change the request type or choose another topic if they need to. The navigation of the Requests area also displays.
 
-1. Go to the Requests area in your Global Navigation Bar. 
+1. Go to the **Requests** area in your Global Navigation Bar. 
 1. Continue selecting topic groups and queue topics until you reach the queue you want to share on the dashboard, if you want to share specific queue. For information about submitting requests, see [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
    >
    >Selecting topic groups and queue topics is optional.
 
-1. Obtain the URL of the request queue from your address bar.
+1. Obtain the URL of the request queue from your address bar.   ![](assets/request-queue-url-in-address-bar-350x12.png)   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-classic-350x238.png)
 
 ### Obtain a link to a request queue and ability to change the request type
 
@@ -81,16 +81,19 @@ When you share a link to a request type, the request type is selected for the us
 
    For information about creating a request queue from a project, go to [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 
 
-1. Go to Queue Setup > Queue Details. 
-1. Copy the code that you find in the `Direct Access URL` field.
+1. Go to **Queue Setup** > **Queue Details**.  
+
+1. Copy the code that you find in the **Direct Access URL** field.
 
    The code should look similar to the following:
 
-   `<samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>`
+   ```<samp>https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=</samp>```
 
    This is the link to the request queue associated with the selected project.The Request Type is preselected.
 
-   Users can select any topic group or queue topic they need, or they can choose another request type.
+   Users can select any topic group or queue topic they need, or they can choose another request type. 
+
+   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-classic-350x256.png)
 
 ### Obtain a link to a request queue with no ability to change the request type
 
@@ -100,48 +103,54 @@ When you share a link to a preselected request type, the request type is selecte
 
    For information about creating a request queue from a project, go to [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md). 
 
-1. Go to Queue Setup > Queue Details. 
-1. Copy the code that you find in the `Embedded Code` field.
+1. Go to **Queue Setup** > **Queue Details**.  
+
+1. Copy the code that you find in the **Embedded Code** field.
 
    The code should look similar to the following:
 
-   `<samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>` 
+   ```<samp><iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe></samp>``` 
 
 1. Edit the code to preserve only the information below:
 
-   `<samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>`
+   ```<samp>https://<yourdomain>.my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71</samp>```
 
    >[!TIP]
    >
-   >You can preserve the `<samp>iframe </samp>`tag when embedding the code in an application other than&nbsp;Workfront.
+   >You can preserve the ```<samp>iframe </samp>```tag when embedding the code in an application other than&nbsp;Workfront.
 
    This is the link to the request queue associated with the selected project. The Request Type is preselected and cannot be changed.
 
-   Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type.
+   Users can select any topic group or queue topic they need for the selected request type. Users cannot select another request type. 
+
+   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-classic-350x227.png)
 
 ## Embed a request queue in a dashboard
 
 You can embed a link to the requests queue or to a queue topic nested under a request queue into a dashboard to give users direct access to entering requests.
 
 1. Obtain a request queue&nbsp;URL using one of the methods described in the [Obtain the URL of the request queue](#obtain) section of this article. 
-1. Go to Reporting in your Global Navigation Bar, then select the Dashboards tab. 
-1. Type a `Name` for the dashboard. This is a required field.
-1. Click `Add External Page`.
+1. Go to **Reporting** in your Global Navigation Bar, then select the **Dashboards** tab. 
 
-1. In the `Add External Page` box, edit the following fields:
+1. Click **New Dashboard**.
+1. Type a **Name** for the dashboard. This is a required field.
+1. Click **Add External Page**.
 
-  * `Name`: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
+1. In the **Add External Page** box, edit the following fields:
 
-  * `Description`: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
-  * `URL`:paste the URL you obtained using one of the methods described in Step 1.
-  * `Height`: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
+   * **Name**: enter the name of the request queue as you want it to appear on the dashboard. This is a required field.
 
-1. Click `Save`. 
-1. Click `Save + Close`.&nbsp;
+   * **Description**: enter a description about that this external page displays. This is not a required field and it is important only for reporting purposes. It does not display in the dashboard.&nbsp;
+   * **URL**:```<MadCap:conditionalText data-mc-conditions="">  paste the URL you obtained using one of the methods described in Step 1.</MadCap:conditionalText>```
+   
+   * **Height**: enter the height of the external page. This defines how much space the external page containing the request queue occupies on the dashboard. This is a required field and the default value is 500.&nbsp;
+
+1. Click **Save**. 
+1. Click **Save + Close**.&nbsp;
 
    The request queue displays in the dashboard as a separate dashboard component.&nbsp;
 
-1. (Optional) Click `Dashboard Actions`, then `Edit` to add reports, calendars, or additional external pages to the same dashboard.  
+1. (Optional) Click **Dashboard Actions**, then **Edit** to add reports, calendars, or additional external pages to the same dashboard.  
    For information about adding components to a dashboard, see [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
 &nbsp;
@@ -149,6 +158,29 @@ You can embed a link to the requests queue or to a queue topic nested under a re
 &nbsp;
 
 <!--
-Go to the Requests area in your Global Navigation Bar. Select the Request Type for the queue you would like added to the dashboard. (Optional) Select a Queue Topic and a Topic Group. Depending on how the project manager set up the request queue, the names of these fields are different in each Workfront instance. Go to the URL of this request queue in your browser, and copy the portion of the URL starting with projectID=. Note: The pathID can sometimes have no value. Copy the entire rest of the URL, starting with projectID=, including the value of the pathID, if there is one. For example, your information from the URL might look like one of the following: projectID=5c53339f0017e56de1b41278355f9fa8&path= projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3 Use the following example to build the URL of your external page. Replace the portion of the URL indicated in bold with information from your Workfront instance: https://<yourCompanyDomain>.my.workfront.com/requests/newRequestEmbedded?projectID=<the projectID and pathID information you copied from the request queue in Step 4>. The resulting URL should be similar to one of the following: https://yourcompany.my.workfront.com/requests/newRequestEmbedded?projectID=5c53339f0017e56de1b41278355f9fa8&path= https://yourcompany.my.workfront.com/requests/newRequestEmbedded?projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3 Copy the URL you built in Step 5. For example, enter a URL similar to one of the following: https://yourcompany.my.workfront.com/requests/newRequestEmbedded?projectID=5c53339f0017e56de1b41278355f9fa8&path= https://yourcompany.my.workfront.com/requests/newRequestEmbedded?projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1"> Go to the <strong>Requests</strong> area in your Global Navigation Bar. </li>
+<li value="2"> <p>Select the <strong>Request Type</strong> for the queue you would like added to the dashboard.</p>  <img src="assets/example-of-request-queue-selected-in-requests-area-350x237.png" style="width: 350;height: 237;">  </li>
+<li value="3"> <p>(Optional) Select a Queue Topic and a Topic Group. Depending on how the project manager set up the request queue, the names of these fields are different in each Workfront instance.</p> </li>  
+<p>Go to the URL of this request queue in your browser, and copy the portion of the URL starting with projectID=.</p>
+<p> <img src="assets/project-and-path-id-for-new-request-350x17.png" style="width: 350;height: 17;"> </p> <note type="note">
+The pathID can sometimes have no value. Copy the entire rest of the URL, starting with projectID=, including the value of the pathID, if there is one.&nbsp;
+</note>
+<p>For example, your information from the URL might look like one of the following:</p>
+<p><em>projectID=5c53339f0017e56de1b41278355f9fa8&path=</em> </p>
+<p><em>projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3</em> </p>
+<p>Use the following example to build the URL of your external page. Replace the portion of the URL indicated in bold with information from your Workfront instance:&nbsp;</p>
+<p><em>https://<strong><yourCompanyDomain></strong>.my.workfront.com/requests/newRequestEmbedded?projectID=<strong><the projectID and pathID information you copied from the request queue in Step 4></strong>.&nbsp;</em> </p>
+<p>The resulting URL should be similar to one of the following: </p>
+<ul>
+<li><i>https://</i><strong>yourcompany</strong><i>.my.workfront.com/requests/newRequestEmbedded?projectID=5c53339f0017e56de1b41278355f9fa8&path=</i> </li>
+<li style="font-style: italic;">https://<strong>yourcompany</strong>.my.workfront.com/requests/newRequestEmbedded?projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3</li>
+</ul>  Copy the URL you built in Step 5.
+<li value="7"> <p>For example, enter a URL similar to one of the following: </p> </li>
+<li value="8">  <p><em>https://<strong>yourcompany</strong>.my.workfront.com/requests/newRequestEmbedded?</em>projectID=5c53339f0017e56de1b41278355f9fa8&path=</p>
+<ul>
+<li> <p><em>https://<strong>yourcompany</strong>.my.workfront.com/requests/newRequestEmbedded?</em><i>projectID=555f815500fe2d8bdb898dd975d70c53&path=565e01c8027d2749044c9aef223999c3</i><![CDATA[			]]></p> </li>
+</ul>  </li>
+</ol>
 -->
 

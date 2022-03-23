@@ -19,22 +19,23 @@ For information on changing the cover image, see [Change the cover image on an i
 
 You&nbsp;can create an unlimited number of collections.&nbsp;
 
-1. In Workfront, click the Main Menu icon , then select Library to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
-1. Click `Collections` in the left panel.
+1. In Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png), then select **Library** to open Workfront Library in a new browser tab. 
+
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. Click **Collections** in the left panel.
 
    ![](assets/library-left-panel-collections--new-350x217.png)
 
-1. Click the `Add New` icon ![](assets/add-icon---library.png) in the upper right corner, then select `New Collection`.
+1. Click the **Add New** icon ![](assets/add-icon---library.png) in the upper right corner, then select **New Collection**.
 
    ![](assets/collection-create-350x322.png)
 
-1. In the `Name` box, type a name for the collection.
-1. (Optional) In the `Description` box, type a description of the collection.
-1. Click `Save`.
+1. In the **Name** box, type a name for the collection.
+1. (Optional) In the **Description** box, type a description of the collection.
+1. Click **Save**.
 1. (Optional) Select a cover image for the collection:
 
-  1. Hover over the collection you just created, click the `More` icon in the upper-right corner of the collection, then click `Select cover image` in the drop-down menu.
+  1. Hover over the collection you just created, click the **More** icon in the upper-right corner of the collection, then click **Select cover image** in the drop-down menu.
   
   1. Navigate to the image you want displayed on the collection cover.
 
@@ -44,7 +45,7 @@ You&nbsp;can create an unlimited number of collections.&nbsp;
      >
      >The image you select remains as the cover image, even if the asset is updated with a new version or is deleted from Workfront Library. For information on changing a cover image, see [Change the cover image on an item in Workfront Library](../../../workfront-library/content-management/change-cover-image-of-folder.md).
 
-  1. Select the image, then click `Save`.
+  1. Select the image, then click **Save**.
 
      The image displays on the collection cover. You might need to refresh your browser tab to see the collection cover.
 

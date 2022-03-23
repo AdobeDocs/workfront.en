@@ -12,7 +12,7 @@ description: You can integrate Adobe Workfront with third-party applications. Th
 You can integrate Adobe Workfront with third-party applications. These integrations can extend the utility of Workfront and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
 
 <!--
-Workfront provides various integrations you can configure either directly from the Workfront application, or directly from another application by installing the Workfront add-in for that application.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront provides various integrations you can configure either directly from the Workfront application, or directly from another application by installing the Workfront add-in for that application.</p>
 -->
 
 Your Workfront administrator must enable and configure built-in integrations before you can use them. To learn which built-in integrations are used within your organization, contact your Workfront administrator.
@@ -33,7 +33,10 @@ The following built-in integrations are currently available in Workfront.
      <li>Download/install from Adobe Exchange or manually</li> 
     </ul> </td> 
   </tr> <!--
-   Adobe Experience Manager
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Experience Manager</td> 
+    <td>&nbsp;</td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -144,6 +147,7 @@ The following built-in integrations are currently available in Workfront.
   </tr> 
   <tr> 
    <td role="rowheader">Workfront DAM*<!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><img src="assets/wf-logo-orange-30-px.png"></p>
     --></td> 
    <td> 
     <ul> 
@@ -152,6 +156,7 @@ The following built-in integrations are currently available in Workfront.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Workfront Fusion*</p> <!--
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/wf-logo-orange-30-px.png"> </p>
     --> </td> 
    <td> 
     <ul> 

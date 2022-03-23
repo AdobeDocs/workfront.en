@@ -60,7 +60,7 @@ You can view or manage approvals from the following areas:
   For information about using Home, see [Get started with Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md). 
 
 * In the header of a project, task, issue, document, or proof 
-* In the Approvals sectionof a project, task, or issue
+* In the Approvals section of a project, task, or issue
 * In a report
 
   >[!NOTE]
@@ -74,7 +74,7 @@ You can view or manage approvals from the following areas:
 ## Review work you submit for approval in the Home area
 
 1. 
-   Click the `Home` icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+   Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
    >[!NOTE]
    >
@@ -83,20 +83,30 @@ You can view or manage approvals from the following areas:
    >  
    >  
    >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >  * Replace the page linked to it with a different page. In this case, click the `Main Menu` ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click `Home`.
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
    >  
    >
 
-1. Select `Work List`, then click the `Filter` drop-down menu  and select `Approvals`.
-1. Expand the `Approvals I've Submitted` section and find the approvals you submitted.
+1. Select **Work List**, then click the **Filter** drop-down menu 
+
+   <!--
+
+   -->
+
+   and select **Approvals**.
+1. Expand the **Approvals I've Submitted** section and find the approvals you submitted.
 
    ![](assets/approvals-i've-submitted-section-in-home-350x532.png)
+
+   <!--
+   <img src="assets/approvals-i've-submitted-section-in-home-nwe-350x401.png" style="width: 350;height: 401;">
+   -->
 
 ##
 
 ## View the approval status of an object
 
-You can view the approval status of an object in the following sectionsof the object:
+You can view the approval status of an object in the following sections of the object:
 
 <table cellspacing="0"> 
  <col> 
@@ -104,7 +114,7 @@ You can view the approval status of an object in the following sectionsof the ob
  <tbody> 
   <tr> 
    <td role="rowheader">Updates </td> 
-   <td> <p>Displays all approval statuses when they occur. Approval statuses display in line with other statuses displayed on the <span class="bold" style="font-weight: normal;">Updates</span> section.</p> </td> 
+   <td> <p>Displays all approval statuses when they occur. Approval statuses display in line with other statuses displayed on the <strong>Updates</strong> section.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Approvals</td> 
@@ -118,7 +128,7 @@ You can view the approval status of an object in the following sectionsof the ob
 
 ### Use the Updates area to view&nbsp;an approval status
 
-When an approval is initiated on a project, task, or issue, a status displays in the `Updates` tab of the object,&nbsp;indicating the approval status. A new status displays&nbsp;any time the object transitions through the approval process. This includes the following events:
+When an approval is initiated on a project, task, or issue, a status displays in the **Updates** tab of the object,&nbsp;indicating the approval status. A new status displays&nbsp;any time the object transitions through the approval process. This includes the following events:
 
 * An approval process is initiated on an&nbsp;object. The approval process is initiated when the status is changed.
 * The object is&nbsp;rejected
@@ -139,5 +149,11 @@ You can gain visibility into where a task or issue that you are working on curre
 To see the current state of where a task or issue is in the approval process:
 
 1. Go to the project, task, or issue that the approval is associated with.
-1. In the left panel, click Approvals. You might need to first click Show More. The Approvals tab displays the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user. For information about creating an Approval Process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+1. In the left panel, click **Approvals**. You might need to first click **Show More**.
+
+   The Approvals tab displays&nbsp;the full information about all past approval paths and stages. You can see exactly who made a decision on the approval or whether the approval is set for a team, job role, or user.
+
+   ![](assets/approvals-tab-expanded-on-issue-nwe-350x273.png)
+
+   For information about creating an Approval Process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 

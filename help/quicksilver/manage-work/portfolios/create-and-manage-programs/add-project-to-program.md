@@ -48,8 +48,9 @@ You must have the following access to perform the steps in this article:
 ## Add a project to an existing program
 
 1. Go to a Program. 
-   Click Projects in the left panel. 
-1. Click New Project and select a method for adding the project.
+   Click **Projects** in the left panel.  
+
+1. Click **New Project** and select a method for adding the project.
 
    >[!TIP]
    >
@@ -84,9 +85,8 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. (Conditional) If you selected `Existing Project`, do the following:
+1. (Conditional) If you selected **Existing Project**, do the following:
 
-  1. In the `Add Projects` dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time. 
-  1. Click `Add Projects`. `  
-     `The project appears in the `Projects` tab of the program and is now associated with the program and portfolio.&nbsp;
+  1. In the **Add Projects** dialog box, type the name of the project in the field provided, then select it when it appears in the list. You may add several projects at a time. 
+  1. Click **Add Projects**.****The project appears in the **Projects** tab of the program and is now associated with the program and portfolio.&nbsp;
 

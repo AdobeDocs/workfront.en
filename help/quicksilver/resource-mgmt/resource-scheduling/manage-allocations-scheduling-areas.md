@@ -22,8 +22,8 @@ This article describes how to update daily hourly allocations for users assigned
 
 You can display user allocations in the following areas of Adobe Workfront:
 
-* On the Scheduling section of the Resourcing area. 
-* On the Scheduling section of a project (when scheduling resources for a single project). 
+* On the Scheduling section of the Resourcing area.  
+* On the Scheduling section of a project (when scheduling resources for a single project).  
 * On the Schedule section of a team (when scheduling resources for a team).
 
 ## Access requirements
@@ -92,8 +92,8 @@ You can modify the user allocations for a task or issue from the following locat
 * The Scheduling timeline  
   The Scheduling timeline is located in the following areas:
 
-  * On the Scheduling section of the Resourcing area.
-  * On the Scheduling section of a project (when scheduling resources for a single project).
+  * On the Scheduling section of the Resourcing area. 
+  * On the Scheduling section of a project (when scheduling resources for a single project). 
   * On the Schedule section of a team (when scheduling resources for a team).
 
   When you modify user allocations from the Scheduling timeline (as described in the [Modify user allocations](#modifying-user-allocations) section in this article), you can define allocations for each user on the task or issue, as well as for each day within the task or issue duration.  
@@ -123,24 +123,24 @@ Various visual indicators are available to provide quick information regarding t
 
 Your system administrator determines how Workfront calculates user availability at the system level (considering hours as well as FTE availability). Depending on this system-wide setting, user availability is calculated either using the default schedule or the user's schedule. For more information, see [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md).
 
-* `Allocation shading`   
+* **Allocation shading** 
   Allocation is visually displayed on tasks assigned to users in the form of shading. Darker shading indicates the allocated hours as a percentage of the assigned users' FTE (Full Time Equivalent) on a given day. (For more information about how to configure FTE in Workfront, see [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md).)   
   For example, a single user is assigned to a task that has an amount of 4 Planned Hours and a Duration of 1 day. The FTE for the user is defined in the system as 1 (meaning that the user is scheduled to work at full-time status, or rather 40 hours a week, or 8 hours a day). The shading for the task on a given day occupies half of the vertical space of the task, this indicates that the user is allocated half of his or her FTE (4 hours) on that day.  
   ![](assets/scheduling-shading-allocation.png)  
   The task or issue displays the cumulative allocation across all users assigned to the work item. You can expand a work item to view more details, including who is assigned to the work item and how many hours each user is assigned.  
-  Shading is not displayed on tasks in the `Unassigned` area on the Scheduling timeline.  
+  Shading is not displayed on tasks in the **Unassigned** area on the Scheduling timeline.  
   ![resource_allocation_expanded.png](assets/resource-allocation-expanded-350x192.png)
 
-* `Daily totals for each day for each user:` You can display the total Planned Hours allocated to a given user on each day. This information is displayed at the top of each user's row on the Scheduling timeline. This information is not displayed by default. You can enable this as described in [Enable user allocations](#enabling-user-allocations). Tasks from projects with any of the following statuses are included when determining daily totals: Current, Planning, or Approved.  
+* **Daily totals for each day for each user:** You can display the total Planned Hours allocated to a given user on each day. This information is displayed at the top of each user's row on the Scheduling timeline. This information is not displayed by default. You can enable this as described in [Enable user allocations](#enabling-user-allocations). Tasks from projects with any of the following statuses are included when determining daily totals: Current, Planning, or Approved.  
   ![resource_daily_totals.png](assets/resource-daily-totals-350x55.png)
 
-* `Overallocation indicators`   
+* **Overallocation indicators** 
   When the total number of Planned Hours assigned to a user on a given day exceeds the number of hours the user works in a day (across all tasks), that user is considered overallocated on that day.   
   When a user is overallocated, a red bar is displayed, outlining each task on the day.   
   Tasks from projects with any of the following statuses are included when determining a user's overallocation: Current, Planning, or Approved.  
   The number of hours a user works in a day is defined via the FTE field in the each user's profile, as described in see [Configure how Workfront calculates resource hour and FTE availability for the Scheduling area](../../resource-mgmt/resource-scheduling/calculate-hours-fte-scheduling-area.md).  
   ![resource_over_allocation.png](assets/resource-over-allocation-350x72.png)  
-  When you enable the `Show Totals for Daily Planned Hours` and the `Show Resource Allocation Highlighting` options in your settings, the daily total number of Planned Hours displays in red when the user is overallocated. Hours are displayed to the nearest tenth by default (for example, 1.3).  
+  When you enable the **Show Totals for Daily Planned Hours** and the **Show Resource Allocation Highlighting** options in your settings, the daily total number of Planned Hours displays in red when the user is overallocated. Hours are displayed to the nearest tenth by default (for example, 1.3).  
   ![RS_planned_hours_in_red_with_decimals__1_.png](assets/rs-planned-hours-in-red-with-decimals--1--350x56.png)
 
 ### Default allocation for Planned Hours
@@ -161,10 +161,10 @@ Hours are displayed to the nearest hundredth by default (for example, 1.33). You
 
 The following types of users can view or modify user allocations in Workfront:
 
-* `Resource Managers:` You can view and modify user allocations for tasks and issues on any projects for which you are the Resource Manager. You can do this either in the Scheduling timeline in the People area, or in the Staffing tab of a project.  
+* **Resource Managers:** You can view and modify user allocations for tasks and issues on any projects for which you are the Resource Manager. You can do this either in the Scheduling timeline in the People area, or in the Staffing tab of a project.  
   For information about how Resource Managers can make changes to tasks and issues across projects, see [Manually assign unassigned tasks and issues in the Scheduling areas](../../resource-mgmt/resource-scheduling/manually-assign-items-scheduling-areas.md). 
 
-* `Plan and Work Users:` You can view allocations for any tasks and issues you are assigned to by using either the new My Work Calendar or the Working On calendar on a team that you are a member of.   
+* **Plan and Work Users:** You can view allocations for any tasks and issues you are assigned to by using either the new My Work Calendar or the Working On calendar on a team that you are a member of.   
   In addition to viewing allocations, you can modify your allocations if you have Contribute access to the tasks and issues.
 
 ### Time zone considerations in the Scheduling areas
@@ -185,11 +185,11 @@ To enable user allocations on the Scheduling timeline:
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
-  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
-  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For multiple projects**:&nbsp; Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click**Workload Balancer** in the left panel, then select**Scheduling** from the upper-left drop-down menu.
 
-1. Click the `Settings` icon on the Scheduling timeline.  
+1. Click the **Settings** icon on the Scheduling timeline.  
    ![scheduling_settings_icon.png](assets/scheduling-settings-icon-350x169.png)  
    The Resource Scheduling Settings dialog box is displayed.  
    ![RS_scheduling_tab_all_settings__4_.png](assets/rs-scheduling-tab-all-settings--4--350x348.png)
@@ -211,10 +211,10 @@ To enable user allocations on the Scheduling timeline:
     </tbody> 
    </table>
 
-1. (Optional) In the `Include Issues` section, select whether you want issues to be displayed on the Scheduling timeline.  
+1. (Optional) In the **Include Issues** section, select whether you want issues to be displayed on the Scheduling timeline.  
    This option is disabled by default.
 
-1. Click `Return to Scheduling`.  
+1. Click **Return to Scheduling**.  
    User allocations are now displayed on the Scheduling timeline.  
    ![RS_daily_planned_totals_and_allocation_highlighting__1_.png](assets/rs-daily-planned-totals-and-allocation-highlighting--1--350x123.png)
 
@@ -228,9 +228,9 @@ To modify user allocations for a task or issue from the Scheduling timeline:
 
 1. Go to the scheduling timeline for multiple projects, for an individual project, or for a team:
 
-  * **For multiple projects**:&nbsp; Click the Main Menu icon in the upper-right corner of Workfront, click Resourcing > Workload Balancer, then select Scheduling in the upper-left drop-down menu.
-  * **For an individual project**: Go to a project, click the Workload Balancer section in the left panel, then select Scheduling from the upper-left drop-down menu.
-  * **For a team**: Click the Main Menu icon in the upper-right corner of Workfront, then click Teams, select a team, click Workload Balancer in the left panel, then select Scheduling from the upper-left drop-down menu.
+  * **For multiple projects**:&nbsp; Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, click **Resourcing > Workload Balancer**, then select **Scheduling** in the upper-left drop-down menu. 
+  * **For an individual project**:  Go to a project, click the **Workload Balancer** section in the left panel, then select **Scheduling** from the upper-left drop-down menu. 
+  * **For a team**:  Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Teams**, select a team, click**Workload Balancer** in the left panel, then select**Scheduling** from the upper-left drop-down menu.
 
    ![scheduling_contours.png](assets/scheduling-contours-350x139.png)
 
@@ -242,11 +242,11 @@ To modify user allocations for a task or issue from the Scheduling timeline:
 
    >[!NOTE]
    >
-   >To maintain the original distribution after modifying hours, click `Cancel`.
+   >To maintain the original distribution after modifying hours, click **Cancel**.
 
 1. Specify the adjusted number of hours.
-1. Click `Save`.  
-   You can save your changes only when the total number of hours for the task is equal to the number of original Planned Hours. This number is shown in the `Planned Hours` field on the task. The number is displayed in red when the total is not equal to the total number of Planned Hours.  
+1. Click **Save**.  
+   You can save your changes only when the total number of hours for the task is equal to the number of original Planned Hours. This number is shown in the **Planned Hours** field on the task. The number is displayed in red when the total is not equal to the total number of Planned Hours.  
    ![resource_allocation_expanded_modified.png](assets/resource-allocation-expanded-modified-350x226.png)
 
 ## Criteria that reset user allocations

@@ -49,8 +49,8 @@ For example, when you add an update to a task, the update appears on the Updates
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Object where the original update was added</span> </th> 
-   <th> <p><span class="bold">Higher-ranked object where the original update also appears</span> </p> </th> 
+   <th><strong>Object where the original update was added</strong> </th> 
+   <th> <p><strong>Higher-ranked object where the original update also appears</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -65,7 +65,11 @@ For example, when you add an update to a task, the update appears on the Updates
   <tr> 
    <td>Project</td> 
    <td>Program, Portfolio</td> 
-  </tr> Document Object where document is attached, Project 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Document </td> 
+   <td>Object where document is attached, Project </td> 
+  </tr> 
   <tr> 
    <td>Program</td> 
    <td>Portfolio</td> 

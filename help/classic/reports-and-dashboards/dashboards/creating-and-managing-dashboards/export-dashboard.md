@@ -53,7 +53,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
 ## Export a dashboard to a .pdf file:
 
 1. Go to the dashboard you want to export.
-1. Click `Dashboard actions`, then select `Print`.
+1. Click **Dashboard actions**, then select **Print**.
 
    The Print dialog opens.
 
@@ -73,31 +73,31 @@ For information on creating dashboards, see [Create a dashboard](../../../report
       <td>Google Chrome</td> 
       <td> 
        <ol> 
-        <li value="1">In the <span class="bold">Destination</span> field, select <span class="bold">Save as PDF</span>, then modify any other print options you want to change.</li> 
-        <li value="2">Click <span class="bold">Save</span>.</li> 
-        <li value="3">(Optional) Edit the <span class="bold">File name</span>, then select a new folder destination for the file.</li> 
-        <li value="4">Click <span class="bold">Save</span> to save the .pdf file to your hard drive.<br><br></li> 
+        <li value="1">In the <strong>Destination</strong> field, select <strong>Save as PDF</strong>, then modify any other print options you want to change.</li> 
+        <li value="2">Click <strong>Save</strong>.</li> 
+        <li value="3">(Optional) Edit the <strong>File name</strong>, then select a new folder destination for the file.</li> 
+        <li value="4">Click <strong>Save</strong> to save the .pdf file to your hard drive.<br><br></li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td>Internet Explorer, Microsoft Edge, and Mozilla Firefox</td> 
       <td> <p>Note: If you're using Internet Explorer version 11, you may not be able to use Print to PDF functionality without installing a third-party plugin.</p> 
        <ol> 
-        <li value="1">In the <span class="bold">Printer</span> or <span class="bold">Select Printer</span> field, select <span class="bold">Microsoft Print to PDF</span>, then modify any other print options you want to change.</li> 
-        <li value="2">Click <span class="bold">Print</span>.</li> 
-        <li value="3">Enter a <span class="bold">File name</span></li> 
+        <li value="1">In the <strong>Printer</strong> or <strong>Select Printer</strong> field, select <strong>Microsoft Print to PDF</strong>, then modify any other print options you want to change.</li> 
+        <li value="2">Click <strong>Print</strong>.</li> 
+        <li value="3">Enter a <strong>File name</strong></li> 
         <li value="4">(Optional) Select a new folder destination for the file.</li> 
-        <li value="5">Click <span class="bold">Save</span>.</li> 
+        <li value="5">Click <strong>Save</strong>.</li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td>Safari</td> 
       <td> 
        <ol> 
-        <li value="1">In the bottom-left corner, click the drop-down arrow, then select <span class="bold">Save as PDF</span>.</li> 
-        <li value="2">Enter a <span class="bold">File name</span>.</li> 
+        <li value="1">In the bottom-left corner, click the drop-down arrow, then select <strong>Save as PDF</strong>.</li> 
+        <li value="2">Enter a <strong>File name</strong>.</li> 
         <li value="3">(Optional) Modify other print options you want to change, including selecting a new folder destination for the file.</li> 
-        <li value="4">Click <span class="bold">Save</span>.</li> 
+        <li value="4">Click <strong>Save</strong>.</li> 
        </ol> </td> 
      </tr> 
     </tbody> 

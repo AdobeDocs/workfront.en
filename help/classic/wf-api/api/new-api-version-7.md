@@ -200,7 +200,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Changes to possible values`&nbsp;
+```¹ Changes to possible values```&nbsp;
 
 &nbsp;
 
@@ -216,7 +216,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 ### AccessRule¹
 
-`¹ Flagged as reportable`
+```¹ Flagged as reportable```
 
 &nbsp;
 
@@ -224,7 +224,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| &nbsp; |&nbsp; |`<strike> AttachedApprovalPaths</strike>`&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |```<strike> AttachedApprovalPaths</strike>```&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 &nbsp;&nbsp;
 
@@ -232,11 +232,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`<strike> Add</strike>`  |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`<strike> Delete</strike>`  |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |`<strike> Edit</strike>`  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> Add</strike>```  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> Delete</strike>```  |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |```<strike> Edit</strike>```  |
 
-`¹ Reportable Flag Removed`
+```¹ Reportable Flag Removed```
 
 &nbsp;
 
@@ -248,9 +248,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | approvalStartDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Date Validation Added`
+```¹ Date Validation Added```
 
-`² Not_Filterable Flag Added`
+```² Not_Filterable Flag Added```
 
 &nbsp;
 
@@ -262,7 +262,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |swapUsersOnProjects¹ |&nbsp; |&nbsp; |
 | &nbsp; |&nbsp; |&nbsp; |&nbsp; |unassignUserFromProjects¹ |&nbsp; |&nbsp; |
 
-`¹ Added field includeIssues`
+```¹ Added field includeIssues```
 
 &nbsp;
 
@@ -272,7 +272,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | bizRuleExclusions¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Changes to possible values`&nbsp;
+```¹ Changes to possible values```&nbsp;
 
 &nbsp;
 
@@ -307,7 +307,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | isPublic |&nbsp;layoutTemplate |userGroups&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | layoutTemplateID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Changed PRECISION validator for 8 to 9`
+```¹ Changed PRECISION validator for 8 to 9```
 
 &nbsp;
 
@@ -329,7 +329,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | changeType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Changes to possible Values`
+```¹ Changes to possible Values```
 
 &nbsp;
 
@@ -359,7 +359,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| `allowedLegacyQueueTopicIDs`  |  |  |  |  `getQueueDefTree` |&nbsp; |&nbsp; |
+| ```allowedLegacyQueueTopicIDs```  |  |  |  |  ```getQueueDefTree``` |&nbsp; |&nbsp; |
 
 &nbsp;
 
@@ -395,7 +395,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 |---|---|---|---|---|---|---|
 | workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Type Changed from Int to Double`&nbsp;
+```¹ Type Changed from Int to Double```&nbsp;
 
 &nbsp;
 
@@ -489,7 +489,7 @@ User Note
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| `<strike> acknowledgedmentIDs</strike>`  |&nbsp; |&nbsp; |&nbsp; |&nbsp;unackknowledgeMany |&nbsp; |&nbsp; |
+| ```<strike> acknowledgedmentIDs</strike>```  |&nbsp; |&nbsp; |&nbsp; |&nbsp;unackknowledgeMany |&nbsp; |&nbsp; |
 | ackDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | ackType |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
@@ -503,4 +503,4 @@ User Note
 |---|---|---|---|---|---|---|
 | &nbsp;name |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
-`¹ Changes to possible Values` 
+```¹ Changes to possible Values``` 

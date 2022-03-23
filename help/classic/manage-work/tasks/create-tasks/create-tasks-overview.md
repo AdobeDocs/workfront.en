@@ -49,7 +49,7 @@ There are two types of default information that Workfront automatically updates 
 
 * System-level default information
 
-  Your Workfront administrator `or a group administrator` establishes the system-level defaults for tasks in the Tasks &&nbsp;Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
+  Your Workfront administrator ```or a group administrator``` establishes the system-level defaults for tasks in the Tasks &&nbsp;Issues area of Project Preferences. For information about task and issue preferences, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) or [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 * Project-level default information
 
@@ -66,9 +66,9 @@ When defining default information to be associated with tasks added to a project
 * You can modify these default settings when you add tasks using the Edit Task box, but not when you add tasks in inline edit.
 * You can define the approval process and the custom forms for tasks in a template.
 
-  * When a project is created from this template, the approval process and custom forms are automatically applied to the project.
-  * When a template is attached to an existing project, the project preserves the original task approval process and custom forms settings if they are defined. If they are not defined, the settings from the template become the settings for the project.
-  * When a template is attached to an existing project, the tasks added to the project from the template preserve the approval process and custom forms settings they had on the template, regardless of the task settings on the project.
+   * When a project is created from this template, the approval process and custom forms are automatically applied to the project.
+   * When a template is attached to an existing project, the project preserves the original task approval process and custom forms settings if they are defined. If they are not defined, the settings from the template become the settings for the project.
+   * When a template is attached to an existing project, the tasks added to the project from the template preserve the approval process and custom forms settings they had on the template, regardless of the task settings on the project.
 
   For information about attaching a template to a project, see [Attach a template to a project](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 

@@ -1,0 +1,173 @@
+<html>
+ <head>
+  <title>Create or modify custom access levels</title>
+ </head>
+ <body>
+  <div class="body-container" aemmigrated="true"> 
+   <div id="mc-main-content" role="main" data-mc-content-body="True" aemmigrated="true"> 
+    <h1 aemmigrated="true">Create or modify custom access levels</h1> <draft-comment aemmigrated="true">
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">** Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help.</p>
+    </draft-comment> 
+    <p aemmigrated="true">As an Adobe Workfront administrator, you can create custom access levels and apply them to users, as explained in <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref" aemmigrated="true">Access levels overview</a>.</p> 
+    <p aemmigrated="true">As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md" class="MCXref xref" aemmigrated="true">How access levels and permissions work together</a>.</p> <note aemmigrated="true"> 
+     <p aemmigrated="true">We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. (You can do this for every access level except for System Administrator and External User.)</p> 
+    </note> 
+    <h2 aemmigrated="true">Access requirements</h2> 
+    <p aemmigrated="true">You must have the following to perform the steps in this article:</p> 
+    <table cellspacing="0" aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <col aemmigrated="true"> 
+     <tbody aemmigrated="true"> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Adobe Workfront plan</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Any</p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Adobe Workfront license</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">Plan </p> </td> 
+      </tr> 
+      <tr aemmigrated="true"> 
+       <td role="rowheader" aemmigrated="true">Access level configurations</td> 
+       <td aemmigrated="true"> <p aemmigrated="true">You must be a Workfront administrator. For more information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" aemmigrated="true">Grant a user full administrative access</a>.</p> <p aemmigrated="true">Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="#" class="MCXref xref selected" aemmigrated="true">Create or modify custom access levels</a>.</p> </td> 
+      </tr> 
+     </tbody> 
+    </table> 
+    <h2 aemmigrated="true"><a name="creating-new-access-from-existing-access" aemmigrated="true"></a>Create or edit a custom access level</h2> 
+    <ol aemmigrated="true"> 
+     <li value="1" aemmigrated="true">Click the <strong aemmigrated="true">Main Menu</strong> icon <img src="assets/main-menu-icon.png" aemmigrated="true"> in the upper-right corner of Adobe Workfront, then click <strong aemmigrated="true">Setup</strong> <img src="assets/gear-icon-settings.png" aemmigrated="true">.</li> 
+     <li value="2" aemmigrated="true">Click <strong aemmigrated="true">Access Levels</strong> in the left panel.</li> 
+     <li value="3" aemmigrated="true"> <p aemmigrated="true">Select the access level you want to copy and customize, then click <strong aemmigrated="true">Copy</strong>.</p> <p aemmigrated="true">Or</p> <p aemmigrated="true">If you are editing an existing access level (that you copied previously), click its name.</p> </li> 
+     <li value="4" aemmigrated="true"> <p aemmigrated="true">In the box that displays, do any of the following to start configuring the custom access level:</p> 
+      <table cellspacing="0" aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <tbody aemmigrated="true"> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Name</td> 
+         <td aemmigrated="true"> <p aemmigrated="true">Type a name for your access level. </p> <p aemmigrated="true">If you just copied an access level to create a new one, the default name is <strong aemmigrated="true">Access Level Name (Copy),</strong> where <strong aemmigrated="true">Access Level Name</strong> is the access level you copied.</p> <p aemmigrated="true">Tip: We recommend that you include the original name of the access level in the name of the copy. For example, at ACME company, a copy of the Planner access level might be named ACME Planner.</p> </td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">Description</strong> </td> 
+         <td aemmigrated="true">Type a description for the access level. It’s helpful to list here what an user with this access level will be able to access.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true"><strong aemmigrated="true">License Type</strong> </td> 
+         <td aemmigrated="true">Make sure that the license selected here is the one that is most closely associated with the type of access level you are creating or editing. The selected license determines what settings are available for the access level. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" aemmigrated="true">Adobe Workfront licenses overview</a>.</td> 
+        </tr> 
+       </tbody> 
+      </table> </li> 
+     <li value="5" aemmigrated="true"> <p aemmigrated="true">(Conditional) If <strong aemmigrated="true">Plan</strong> is selected in the <strong aemmigrated="true">License Type</strong> box, scroll to the section <strong aemmigrated="true">Allow administrative access for</strong> and select administrative access permissions for those who will have this access level.</p> 
+      <table cellspacing="0" aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <tbody aemmigrated="true"> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Approval Processes</td> 
+         <td aemmigrated="true">Create and manage approval processes for use throughout the system and for specific groups.<br aemmigrated="true"><p aemmigrated="true">Without this access, users can create only adhoc approval processes on items they have access to manage.</p></td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Companies</td> 
+         <td aemmigrated="true">Add new and edit existing companies in Workfront.<br aemmigrated="true"><p aemmigrated="true">Without this access, users can only view existing companies.</p></td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Custom forms</td> 
+         <td aemmigrated="true">Create and manage all custom forms within their group. <br aemmigrated="true"><p aemmigrated="true">Without this access, users can only&nbsp;attach existing forms to the objects they have access to contribute or manage.</p></td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Exchange rates</td> 
+         <td aemmigrated="true"> <p aemmigrated="true">Add new currency in Workfront.</p> <p aemmigrated="true">Without this access, the user can add an existing currency only to a project they create.</p> </td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Expenses</td> 
+         <td aemmigrated="true">View all expenses on objects in Workfront.<br aemmigrated="true"><p aemmigrated="true">Without this access, the user can only view the following:</p>
+          <ul aemmigrated="true">
+           <li aemmigrated="true">Expenses on projects, tasks or issues they manage</li>
+           <li aemmigrated="true">Their own expenses</li>
+           <li aemmigrated="true">The expenses of their subordinates</li>
+          </ul><p aemmigrated="true">Note: This does not allow the user to create new Expense Types.<br aemmigrated="true"></p></td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Job roles</td> 
+         <td aemmigrated="true"> <p aemmigrated="true">With this access, the user is allowed to do the following:</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true">View and edit existing job roles</li> 
+           <li aemmigrated="true">Add new job roles</li> 
+           <li aemmigrated="true">Edit role billing and cost rates</li> 
+          </ul> <p aemmigrated="true">Important:  <p aemmigrated="true">If you grant a Planner user administrative access to job roles, the Financial Data access setting Edit Role Billing &amp; Cost Rates is enabled for the user automatically.</p> <p aemmigrated="true">Later, if you disable administrative access to job roles for the Planner user, job roles are still visible to the user because the Edit Role Billing &amp; Cost Rates setting is still enabled. </p> <p aemmigrated="true">If this happens and you need to remove the user's access to view job roles, you need to disable the user's Edit Role Billing &amp; Cost Rates permission setting.</p> <p aemmigrated="true">For instructions, see Grant access to financial data.</p> </p> </td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Milestones in my group</td> 
+         <td aemmigrated="true">View all the milestone paths in the system under the Milestone Paths menu in Setup. Users can also edit or&nbsp;delete any milestone paths belonging to any of their&nbsp;groups. Users cannot manage (edit or delete) milestone paths that are not assigned to their of groups.<br aemmigrated="true"><p aemmigrated="true">Without this access, users can only view existing milestone paths and apply them to projects they have access to manage.</p></td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Reminder notifications</td> 
+         <td aemmigrated="true">Create and manage reminder notifications in Workfront.<br aemmigrated="true">Without this access, users are limited to receiving and viewing notifications.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Timesheets &amp; hours</td> 
+         <td aemmigrated="true"> <p aemmigrated="true">Group administrators can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p aemmigrated="true">Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p aemmigrated="true">All other users with a Plan license can view all hours and timesheets in Workfront.</p> <p aemmigrated="true">Without this option enabled, users can view hours only on:</p> 
+          <ul aemmigrated="true"> 
+           <li aemmigrated="true">Projects, tasks or issues they manage</li> 
+           <li aemmigrated="true">Their own timesheet</li> 
+           <li aemmigrated="true">A timesheet of someone that reports to them</li> 
+           <li aemmigrated="true">A timesheet they approve</li> 
+          </ul> </td> 
+        </tr> 
+       </tbody> 
+      </table> </li> 
+     <li value="6" aemmigrated="true"> <p aemmigrated="true">Click <strong aemmigrated="true">Set additional restrictions</strong>, then set any restrictions you want for the access level.</p> <note aemmigrated="true">
+       For external users such as vendors (anyone not in your organization), we recommend that you restrict access to tasks, projects, updates, announcements, other companies, teams and groups.
+      </note> 
+      <table cellspacing="0" aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <col aemmigrated="true"> 
+       <tbody aemmigrated="true"> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Never give access to the whole project when assigned to a task or issue</td> 
+         <td aemmigrated="true"> Prevents users assigned to tasks or issues to also gain permissions to the parent project, even if the project permissions allow that.<br aemmigrated="true"><p aemmigrated="true">For more information about configuring the permissions on a project, see the section <a href="../../../manage-work/projects/manage-projects/edit-projects.md#access" class="MCXref xref" aemmigrated="true"></a> in the article <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref" aemmigrated="true">Edit projects</a>.</p></td> 
+        </tr> 
+        <tr data-mc-conditions="" aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Never inherit document access from projects, tasks, issues, etc...</td> 
+         <td aemmigrated="true">Prevents documents from inheriting the permissions set on their parent object.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">View only updates in which they have been included in the conversation</td> 
+         <td aemmigrated="true"> <p aemmigrated="true">Enables users to see only comments where their name or the name of their team has been included.</p> <p aemmigrated="true"> <p aemmigrated="true">Note: This prevents&nbsp;users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref" aemmigrated="true">Add users</a>.</p> </p> </td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Never allow users to delete comments </td> 
+         <td aemmigrated="true"> <p aemmigrated="true">Prevents users from deleting the comments they make on items. </p> <p aemmigrated="true">Note: No one can delete the comments of other users.</p> </td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">View only companies, groups &amp; teams they belong to</td> 
+         <td aemmigrated="true">Allows users to view and share items only with companies, groups, and teams they belong to.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Never allow visibility of Planned Hours or Actual Hours</td> 
+         <td aemmigrated="true">Prevents users from seeing the Planned and Actual Hours of work items they have access to. They can, however, see Actual Hours they log themselves, or hours that are logged by someone who reports to them.</td> 
+        </tr> 
+        <tr aemmigrated="true"> 
+         <td role="rowheader" aemmigrated="true">Never allow users to delete announcements</td> 
+         <td aemmigrated="true">Prevents users from deleting announcements in the Announcement Center. For more information, see <a href="../../../administration-and-setup/get-started-wf-administration/view-send-announcements.md" class="MCXref xref" aemmigrated="true">Send announcements</a>.</td> 
+        </tr> 
+       </tbody> 
+      </table> </li> 
+     <li value="7" aemmigrated="true"> <p aemmigrated="true">(Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section <strong aemmigrated="true">People in other companies should only view users from</strong>.</p> <p aemmigrated="true">You can restrict the users to see just users from their own company or from the company you designated as the primary company. For more information about the primary company, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref" aemmigrated="true">Create and edit companies</a>.</p> <p aemmigrated="true"> <note aemmigrated="true">
+        If two users belong to two different companies, but they can both see users from the primary company, they can see the Updates area associated with the primary company.
+       </note> </p> </li> 
+     <li value="8" aemmigrated="true"> <p aemmigrated="true">(Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref" aemmigrated="true">Configure access to Adobe Workfront</a>, such as <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref" aemmigrated="true">Grant access to tasks</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref" aemmigrated="true">Grant access to financial data</a>.</p> </li> 
+     <li value="9" aemmigrated="true"> <p aemmigrated="true">Click <strong aemmigrated="true">Save</strong>.</p> <p aemmigrated="true">After the access level is created, you can assign it to a user<draft-comment aemmigrated="true">
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">
+          (unless it is a System Administrator access level)
+        </MadCap:conditionalText>
+       </draft-comment>. For more information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" aemmigrated="true">Edit a user's profile</a>. <draft-comment aemmigrated="true">
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode" aemmigrated="true">
+         For information about how an Adobe administrator assigns a System Administrator access level to a users, see __________________.
+        </MadCap:conditionalText>
+       </draft-comment></p> </li> 
+    </ol> 
+    <h2 aemmigrated="true"><a name="Special" aemmigrated="true"></a> </h2> 
+   </div> 
+  </div>
+ </body>
+</html>

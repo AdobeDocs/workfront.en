@@ -3,7 +3,9 @@
 # Learn about the latest improvements in Adobe Workfront One
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 Beginning on July 14, 2020,
+</MadCap:conditionalText>
 -->
 
 We recently made various improvements to Adobe Workfront One. These improvements affect search, navigation, and your experience in documentation articles.
@@ -35,17 +37,17 @@ Or are you only interested in results pertaining to Workfront Fusion? Select tha
 >
 >You must be logged in to Workfront One to access this feature.
 
-1. On the search results page, make sure that the `Personalized Search Results` toggle is enabled, then click `Edit Preferences`.
+1. On the search results page, make sure that the **Personalized Search Results** toggle is enabled, then click **Edit Preferences**.
 
    ![](assets/editpref-350x152.png)
 
-1. Click the `Search Preferences` tab.
+1. Click the ```Search Preferences``` tab.
 
    ![](assets/search-preferences-tab-350x224.png)
 
 1. Enable any options that you want to see prioritized in your search results.
 
-   For example, if you enable `Workfront Classic` in the `Version` section, the main link of each search result will display articles for Workfront Classic, and users will have to click the subordinate link of each result to view documentation for the new Workfront experience.
+   For example, if you enable ```Workfront Classic``` in the ```Version``` section, the main link of each search result will display articles for Workfront Classic, and users will have to click the subordinate link of each result to view documentation for the new Workfront experience.
 
    Your changes are saved automatically.
 
@@ -55,7 +57,7 @@ If your organization is using the new Workfront experience, click the article ti
 
 ![](assets/combined2-350x153.png)
 
-If your organization is still using Workfront Classic, click the link that says, `Also available in: The new Workfront experience` to see the Workfront Classic version of the article.
+If your organization is still using Workfront Classic, click the link that says, **Also available in: The new Workfront experience** to see the Workfront Classic version of the article.
 
 ![](assets/combined-search-350x156.png)
 
@@ -83,7 +85,7 @@ When viewing an article, you can now use the new left-panel to see where that ar
 
 ### Jump to sections within an article
 
-When viewing an article, use the `On this page` section to see the main headings within the article and to jump to a specific section.
+When viewing an article, use the **On this page** section to see the main headings within the article and to jump to a specific section.
 
 ![](assets/onthispage-350x229.png)
 
@@ -94,7 +96,10 @@ At the bottom of each article, use the provided arrows to go to the next or prev
 ![](assets/nextprevious-350x49.png)
 
 <!--
-Breadcrumbs
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h3>Breadcrumbs</h3>
+<p>&nbsp;</p>
+</div>
 -->
 
 ## Article improvements
@@ -110,7 +115,7 @@ Breadcrumbs
 
 Now when you're viewing a Adobe Workfront Classic article, you can easily switch to the new Adobe Workfront experience version of the article (or vice-versa).
 
-1. At the top of any article, click the `Currently viewing` drop-down menu to switch to the other version of the article, if one is available.
+1. At the top of any article, click the **Currently viewing** drop-down menu to switch to the other version of the article, if one is available.
 
    ![](assets/switch-version-350x179.png)
 
@@ -132,7 +137,7 @@ Notifications are emailed to you on a weekly digest.
 >
 >You must be logged in to Workfront One to access this feature.
 
-Provide your feedback about any documentation article by using the `Send Feedback` option in the More (3-dot) menu next to the article title.
+Provide your feedback about any documentation article by using the **Send Feedback** option in the More (3-dot) menu next to the article title.
 
 We monitor your feedback daily!
 
@@ -140,7 +145,7 @@ We monitor your feedback daily!
 
 ### Mark an article as helpful
 
-Use the W `as this helpful` message at the bottom of each article to let us know whether we’re on the right track in helping you answer your questions.
+Use the W**as this helpful** message at the bottom of each article to let us know whether we’re on the right track in helping you answer your questions.
 
 ![](assets/helpful-350x168.png)
 
@@ -152,7 +157,7 @@ Quickly create a PDF of any documentation article on Workfront One by clicking t
 
 ### Share articles
 
-Share articles via email or social media by using the `Share Page` option in the More (3-dot) menu next to the article title.
+Share articles via email or social media by using the **Share Page** option in the More (3-dot) menu next to the article title.
 
 ![](assets/share-350x96.png)
 

@@ -51,11 +51,14 @@ For more information about viewing items awaiting approvals or items that you ha
 
 ## Approve work from the Home area
 
-1. Click the `Show` drop-down menu.
+1. Home
+1. 
+1. Try the Home area
+1. Click the **Show** drop-down menu.
 
    ![](assets/filter-home-350x342.png)
 
-1. Click `Approvals`.  
+1. Click **Approvals**.  
    All work items that require your approval are displayed.&nbsp;
 
    >[!NOTE]
@@ -67,36 +70,43 @@ For more information about viewing items awaiting approvals or items that you ha
 
 1. Click one of the available options when making an approval decision (the available options differ depending on the type of item you are approving:
 
-* `Projects:` Click `Approve` or `Reject`&nbsp;next to the&nbsp;work item.
+* **Projects:** Click **Approve**&nbsp;or **Reject**&nbsp;next to the&nbsp;work item.
 
-* `Tasks:` Click `Approve` or `Reject`&nbsp;next to the&nbsp;work item.
+* **Tasks:**&nbsp;Click **Approve**&nbsp;or **Reject**&nbsp;next to the&nbsp;work item.
 
-* `Issues:` Click `Approve` or `Reject` next to the&nbsp;work item.
+* **Issues:**&nbsp;Click **Approve**&nbsp;or **Reject** next to the&nbsp;work item.
 
-* `Timesheets:` Click `Approve` or `Reject`&nbsp;next to the&nbsp;work item.
+* **Timesheets:**&nbsp;Click **Approve**&nbsp;or **Reject**&nbsp;next to the&nbsp;work item.
 
-* `Documents:` Click `Approve`,  `Reject`, or `Changes`&nbsp;next to the&nbsp;work item.  
+* **Documents:**&nbsp;Click **Approve**,&nbsp;**Reject**, or **Changes**&nbsp;next to the&nbsp;work item.  
   Consider the following when viewing&nbsp;proof approvals: (Proof approvals are displayed here when a user shares a proof with you, as described in the section [Share a proof within Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) in the article [Share a proof within Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).)
 
-  * Proofing approvals are displayed in the Home area&nbsp;only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
-  * You receive an in-app notification, notifying you of the proofing approval.  
-    For more information about in-app notifications, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
-  
-  * The name of the user who requested the approval&nbsp;is displayed next to the thumbnail image in the Home area, with the following text:  
-    "*User A* would like your approval on..."  
-    If the user name is not available, the following text is displayed:  
-    "A new version of a proof is ready to view"
-  
-  * To make an approval decision on the proof, click `Go to Proof`, click `Finish review`, then click one of the available options. The available options when approving a proof are:  `Approved`, `Approved with changes`, `Changes required`, and `Not relevant`.  
-    After a decision is made on the proof, the proof remains in the My Approvals tab with the text "Decision Made" until you click the `Refresh` button, or until you refresh the browser page.
+   * Proofing approvals are displayed in the Home area&nbsp;only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
+   * You receive an in-app notification, notifying you of the proofing approval.  
+     For more information about in-app notifications, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+   
+   * The name of the user who requested the approval&nbsp;is displayed next to the thumbnail image in the Home area, with the following text:  
+     "*User A* would like your approval on..."  
+     If the user name is not available, the following text is displayed:  
+     "A new version of a proof is ready to view"
+   
+   * To make an approval decision on the proof,&nbsp;click **Go to Proof**, click **Finish review**, then click&nbsp;one of the available options. The available options when approving a proof are:&nbsp;**Approved**, **Approved with changes**, **Changes required**, and **Not relevant**.  
+     After a decision is made on the proof, the proof remains in the My Approvals tab with the text "Decision Made" until you click the **Refresh** button, or until you refresh the browser page.
 
-    For information about reviewing a proof, see [Review proofs within Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+     For information about reviewing a proof, see [Review proofs within Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-* `Access:` Select the level of access to grant in the `Change access` drop-down menu, then click `Grant Access`. Or, click `Ignore`.
+* **Access:** Select the level of access to grant in the **Change access** drop-down menu, then click **Grant Access**. Or, click **Ignore**.
 
 Approve work from the My Work area
 
-Projects: Click Approve or Reject next to the work item. Tasks: Click Approve or Reject next to the work item. Issues: Click Approve or Reject next to the work item. Timesheets: Click Approve or Reject next to the work item. Documents: Click Approve, Reject, or Changes next to the work item. Consider the following when viewing proofing approvals: (Proof approvals are displayed here when a user shares a proof with you, as described in Share a proof within Adobe Workfront in Share a proof within Adobe Workfront.) Proofing approvals are displayed in the My Work area only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator. You receive an in-app notification, notifying you about the proofing approval. For more information about in-app notifications, see View and manage in-app notifications. The name of the user who requested the approval is displayed next to the thumbnail image in the My Work area, with the following text: "User A would like your approval on..." If the user name is not available, the following text is displayed: "A new version of a proof is ready to view" To make an approval decision on the proof, click Go to Proof, click Finish review, then click one of the available options. The available options when approving a proof are: Approved, Approved with changes, Changes required, and Not relevant. After a decision is made on the proof, the proof remains in the My Approvals tab with the text "Decision Made" until you click the Refresh button, or until you refresh the browser page. Access: Select the level of access to grant in the Change access drop-down menu, then click Grant Access. Or, click Ignore. All: Displays all work items in a combined view. 
+1. My Work
+1. Approvals
+1. My Approvals
+1. 
+1. 
+1.
+
+```<li><strong>Projects:</strong>&nbsp;Click&nbsp;<strong>Approve</strong>&nbsp;or&nbsp;<strong>Reject</strong>&nbsp;next to the&nbsp;work item.</li>``` ```<li><strong>Tasks:</strong>&nbsp;Click&nbsp;<strong>Approve</strong>&nbsp;or&nbsp;<strong>Reject</strong>&nbsp;next to the&nbsp;work item.</li>``` ```<li><strong>Issues:</strong>&nbsp;Click&nbsp;<strong>Approve</strong>&nbsp;or&nbsp;<strong>Reject</strong>&nbsp;next to the&nbsp;work item.</li>``` ```<li><strong>Timesheets:</strong>&nbsp;Click&nbsp;<strong>Approve</strong>&nbsp;or&nbsp;<strong>Reject</strong>&nbsp;next to the&nbsp;work item.</li>``` ```<li><strong>Documents:</strong>&nbsp;Click&nbsp;<strong>Approve</strong>,&nbsp;<strong>Reject</strong>, or&nbsp;<strong>Changes</strong>&nbsp;next to the&nbsp;work item.<br>Consider the following when viewing&nbsp;proofing approvals: (Proof approvals are displayed here when a user shares a proof with you, as described in&nbsp;<a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md" class="MCXref xref">Share a proof within Adobe Workfront</a>&nbsp;in&nbsp;<a href="../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md" class="MCXref xref">Share a proof within Adobe Workfront</a>.)<br>  <ul>   <li>Proofing approvals are displayed in the My Work area&nbsp;only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.</li>   <li>You receive an in-app notification, notifying you about the proofing approval.<br>For more information about in-app notifications, see&nbsp;<a href="../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md" class="MCXref xref">View and manage in-app notifications</a>.</li>   <li>The name of the user who requested the approval&nbsp;is displayed next to the thumbnail image in the My Work area, with the following text:<br>"<em>User A</em>&nbsp;would like your approval on..."<br>If the user name is not available, the following text is displayed:<br>"A new version of a proof is ready to view"</li>   <li>To make an approval decision on the proof,&nbsp;click&nbsp;<strong>Go to Proof</strong>, click&nbsp;<strong>Finish review</strong>, then click&nbsp;one of the available options. The available options when approving a proof are:&nbsp;<strong>Approved</strong>,&nbsp;<strong>Approved with changes</strong>,&nbsp;<strong>Changes required</strong>, and&nbsp;<strong>Not relevant</strong>.<br>After a decision is made on the proof, the proof remains in the My Approvals tab with the text "Decision Made" until you click the&nbsp;<strong>Refresh</strong>&nbsp;button, or until you refresh the browser page.</li>  </ul></li>``` ```<li><strong>Access:</strong>&nbsp;Select the level of access to grant in the&nbsp;<strong>Change access</strong>&nbsp;drop-down menu, then click&nbsp;<strong>Grant Access</strong>. Or, click&nbsp;<strong>Ignore</strong>.</li>``` ```<li><strong>All:</strong>&nbsp;Displays all work items in a combined view.</li>```  
 
 ## Approve work directly from a project, task, or issue
 
@@ -122,27 +132,36 @@ To approve work directly from a project, task, or issue:
      </tr> 
      <tr> 
       <td role="rowheader">Approval stages</td> 
-      <td>The stages of the approval process. <br>The current stage that is pending approval is displayed as blue. You can view previous or future approval stages in the approval process by clicking the More buttons to the right and left of the current stage. Stages that have already been approved are displayed as green; stages that have not yet been approved are displayed as gray.</td> 
-     </tr> See in Approvals Tab Click this option to view the approval stage in the Approvals tab. This is available for tasks and issues. 
+      <td>The stages of the approval process. <br>The current stage that is pending approval is displayed as  blue .  You can view previous or future approval stages in the approval process by clicking the <strong>More</strong> buttons to the right and left of the current stage.  Stages that have already been approved are displayed as  green&nbsp; ; stages that have not yet been approved are displayed as  gray .</td> 
+     </tr>  
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">See in Approvals Tab</td> 
+     <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"> <p>Click this option to view the approval stage in the Approvals tab.</p> <p>This is available for tasks and issues. </p> </td>  
     </tbody> 
    </table>
 
-1. Click `Approve` or `Reject`, depending on whether you want to approve or reject the approval process.  
+1. Click **Approve** or **Reject**, depending on whether you want to approve or reject the approval process.  
    The approval stage that was pending approval is now approved, and the approval process moves to the next stage. The status is approved after all stages have been approved.
 
 ## Approve a document directly from a document&nbsp;
 
 1. Go to the documents area that contains the document that requires your approval.
-1. Select the document, then click `Approve`,  `Changes`, or `Reject`.  
+1. Select the document, then click **Approve**,&nbsp;**Changes**, or **Reject**.  
    ![](assets/approval-approve-document-350x215.png)
 
 1. (Optional) If a proof has been generated for the document, you can approve the document within the proofing interface, as described in [Approve a document from a proof](#approving-a-document-from-a-proof).
 
 ## Approve a document from an approval notification email
 
-Depending on your notification settings, you may receive emails notifying you about documents for which other users need you to make an approval decision. When you receive an email containing a `Make Approval Decision` button, you can can start the approval process directly from the email:
+Depending on your notification settings, you may receive emails notifying you about documents for which other users need you to make an approval decision. When you receive an email containing a **Make Approval Decision** button, you can can start the approval process directly from the email:
 
-1. From the email, click `Make Approval Decision`.
+1. From the email, click **Make Approval Decision**. 
+1. Open
+1. Approve
+1. Changes
+1. Reject
+1. Type any comments to explain your decision, then click **Add Comment**.
+1. Or
+1. Click **Don't Comment**.
 
 ## Approve a document from a proof
 

@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -51,15 +62,15 @@ You must have the following access to use the functionality in this article:
 To use Google Slides modules, you must have a Google account.
 
 <!--
-Connect Google Slides to Workfront Fusion
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Connect Google Slides to Workfront Fusion</h2>
 -->
 
    <!--
-   Go to Workfront Fusion and open the Google Slides module's Create a connection dialog.
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to Workfront Fusion and open the Google Slides module's Create a connection dialog.</li>
    -->
 
    <!--
-   Click Continue, then click Allow.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Continue</strong>, then click <strong>Allow</strong>.</li>
    -->
 
 ## Google Slides modules and their fields
@@ -243,8 +254,8 @@ Creates a new presentation by replacing all tags like {{Name}}, {{Email}} in a t
    <td role="rowheader">Values </td> 
    <td> <p>Add the values:</p> 
     <ul> 
-     <li><span class="bold">Tag</span>: Enter the tag you want to replace in the presentation. For example, {{Name}}</li> 
-     <li><span class="bold">Replaced Value</span>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>{{Name}}</code> in the presentation and the replaced value is Sample, then the <code>{{Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>Tag</strong>: Enter the tag you want to replace in the presentation. For example, {{Name}}</li> 
+     <li><strong>Replaced Value</strong>: Enter the value with which the existing tag is to be replaced. For example, if a string <code>{{Name}}</code> in the presentation and the replaced value is Sample, then the <code>{{Name}}</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -308,8 +319,8 @@ Uploads an image with provided data.
    <td role="rowheader">Values</td> 
    <td> <p>Values Add the values:</p> 
     <ul> 
-     <li><span class="bold">Tag</span>: Enter the tag to which you want to add the URL.</li> 
-     <li><span class="bold">Image URL</span>: Enter the path or URL to the image you want to upload.</li> 
+     <li><strong>Tag</strong>: Enter the tag to which you want to add the URL.</li> 
+     <li><strong>Image URL</strong>: Enter the path or URL to the image you want to upload.</li> 
     </ul> <p>Note: The images must be less than 50MB in size, cannot exceed 25 megapixels, and must be in PNG, JPEG, or GIF format.</p> </td> 
   </tr> 
  </tbody> 
@@ -430,7 +441,7 @@ Performs an arbitrary authorized API call.
  </tbody> 
 </table>
 
-` `**Example: **`` Using an API call you can get the presentation details for the presentation ID you have entered. You can find the presentation ID in the URL when you the open the presentation in Google Slides.
+``` ```**Example: **`````` Using an API call you can get the presentation details for the presentation ID you have entered. You can find the presentation ID in the URL when you the open the presentation in Google Slides.
 
 ![](assets/api-call-350x13.png)
 

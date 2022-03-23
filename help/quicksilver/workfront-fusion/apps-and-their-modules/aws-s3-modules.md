@@ -24,7 +24,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -33,7 +37,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -51,17 +62,17 @@ To use AWS S3 modules, you must have an Amazon Web Service account.
 To connect AWS S3 to Workfront Fusion you must connect your AWS account to Workfront Fusion. To do so, you'll first need to create an API user in AWS IAM.
 
 1. Sign in to your AWS&nbsp;AIM&nbsp;account. 
-1. Navigate to `Identity and Access Management` > `Access Management` > `Users`.
+1. Navigate to **Identity and Access Management** > **Access Management** > **Users**.
 
-1. Click `Add User`.
-1. Enter the name of the new user and select the `Programmatic access` option in the Access type section.
-1. Click `Attach existing policies directly`, then search for `AmazonS3FullAccess` in the search bar. Click it when it appears, then click `Next`.
+1. Click **Add User**.
+1. Enter the name of the new user and select the **Programmatic access** option in the Access type section.
+1. Click **Attach existing policies directly**, then search for **AmazonS3FullAccess** in the search bar. Click it when it appears, then click **Next**.
 
-1. Proceed through the other dialog screens, then click `Create User`.
-1. Copy the provided `Access key ID` and `Secret access key`.
+1. Proceed through the other dialog screens, then click **Create User**.
+1. Copy the provided **Access key ID** and **Secret access key**.
 
-1. Go to Workfront Fusion and open the AWS S3 module's `Create a connection` dialog.
-1. Enter the Access key ID and Secret access key from step 7 to the respective fields and click `Continue`to establish the connection.
+1. Go to Workfront Fusion and open the AWS S3 module's **Create a connection** dialog.
+1. Enter the Access key ID and Secret access key from step 7 to the respective fields and click **Continue**to establish the connection.
 
 The connection has been established. You can proceed with setting up the module.
 

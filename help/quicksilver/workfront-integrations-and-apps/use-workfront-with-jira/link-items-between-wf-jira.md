@@ -74,21 +74,22 @@ To automatically link a Workfront task to a Jira issue:
 
    For more information about access to tasks, see [Grant access to tasks](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-1. Go to a project and select Tasks in the left panel.  
-1. Click `New Task`
+1. Go to a project and select **Tasks** ![](assets/tasks-icon-in-left-panel-14x14.png) in the left panel.  
+
+1. Click **New Task**
 
    Or
 
-   Select an existing task, then click `Edit`.&nbsp;
+   Select an existing task, then click **Edit**.&nbsp;
 
 1. Specify or update any of the fields available for the task.&nbsp;
-1. Click `Assignments` and assign the task to a user, role, or team which is specified as a trigger in the Jira integration.  
+1. Click **Assignments** and assign the task to a user, role, or team which is specified as a trigger in the Jira integration.  
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
    A new task is created in Workfront.
 
-   In the `Updates` area of the new task, there is a comment to indicate that a new issue has also been created in Jira.
+   In the **Updates** area of the new task, there is a comment to indicate that a new issue has also been created in Jira.
 
    ![WF_confirmation_that_Jira_issue_was_created.png](assets/wf-confirmation-that-jira-issue-was-created-350x43.png)
 
@@ -96,7 +97,7 @@ To automatically link a Workfront task to a Jira issue:
 
    Or
 
-   In the `Integrations` area on the Details panel of the task, click the `Go to Jira` link to open the Jira issue.
+   In the **Integrations** area on the Details panel of the task, click the **Go to Jira** link to open the Jira issue.
 
    Any Jira user can immediately start working on items automatically created from Workfront and their updates will transfer to Workfront without needing a license for Workfront to do so.
 
@@ -124,34 +125,34 @@ For more information about updating linked items, see [Update linked items betwe
 To manually link Jira issues to Workfront items:
 
 1. (Conditional) Log in to Workfront and find an issue or a task that you want to link to Jira issue.&nbsp;
-1. (Conditional) From the address bar of the item, copy the `URL` of the item in Workfront.  
+1. (Conditional) From the address bar of the item, copy the **URL** of the item in Workfront.  
    Or
 
-1. From the Details area, copy the `Reference Number` of the item in Workfront.&nbsp;
+1. From the Details area ![](assets/details-icon-in-left-panel.png), copy the **Reference Number** of the item in Workfront.&nbsp;
 
    >[!NOTE]
    >
    >You must have a Workfront license to log in to Workfront. Otherwise, a Workfront user must supply this information to you.&nbsp;
 
 1. In Jira, navigate to an issue that you want to manually link to the Workfront item.
-1. In the Workfront right panel, paste the `URL` or the `Reference Number` of the Workfront item which you want to link to it.  
+1. In the Workfront right panel, paste the **URL** or the **Reference Number** of the Workfront item which you want to link to it.  
    ![manually_link_items_Jira_WF.png](assets/manually-link-items-jira-wf-350x174.png)
 
-1. Click `Link`.
+1. Click **Link**.
 
    The two items become linked and the Workfront right panel is populated with information from the Workfront item.
 
    The following Workfront fields are visible in Jira, by default, in the Workfront right panel:
 
-  * The `Name` of the item: You can access the Workfront item by clicking the name in the panel.&nbsp;
-  * `Project Name` 
-  * The `Status` of the item
-  * The `Priority` of the item
+  * The **Name** of the item: You can access the Workfront item by clicking the name in the panel.&nbsp;
+  * **Project Name** 
+  * The **Status** of the item
+  * The **Priority** of the item
   * The date on which it was created in Workfront
-  * The `Planned Hours` of the item
-  * The `Reference Number`: You can access the Workfront item by clicking the Reference Number in the panel.
+  * The **Planned Hours** of the item
+  * The **Reference Number**: You can access the Workfront item by clicking the Reference Number in the panel.
 
-For more information about enabling additional fields to display in the right panel, see [Configure field synchronization between Jira and Workfront Items](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) section in [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). A comment from the Workfront administrator associated with the integration is posted in the `Workfront` tab of the Jira issue to confirm that a new Jira item has been created. The comment contains a link to the Jira issue.
+For more information about enabling additional fields to display in the right panel, see [Configure field synchronization between Jira and Workfront Items](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md#setting-up-field-synchronization) section in [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md). A comment from the Workfront administrator associated with the integration is posted in the **Workfront** tab of the Jira issue to confirm that a new Jira item has been created. The comment contains a link to the Jira issue.
 
 ![Jira_confirmation_of_the_Jira_issue_created_Workfront_tab.png](assets/jira-confirmation-of-the-jira-issue-created-workfront-tab-350x84.png)
 
@@ -170,7 +171,7 @@ Only a Workfront administrator can unlink items that were automatically linked.&
 To unlink a Jira issue from a Workfront item:
 
 1. In Jira, navigate to an issue which is linked to a Workfront task or issue.
-1. Go to the Workfront right panel, and click the `Unlink` icon, then click `Unlink`.  
+1. Go to the Workfront right panel, and click the **Unlink** icon, then click **Unlink**.  
    ![Jira_WF_unlink_icon.png](assets/jira-wf-unlink-icon-350x222.png)  
    The previously linked Jira and Workfront items are now unlinked. Any fields, comments, or documents that might be updated on them individually in the future are not updated on their previous counterpart in the other application.&nbsp;
 

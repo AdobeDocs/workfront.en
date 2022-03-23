@@ -16,7 +16,7 @@ You can work with scenarios either in an active or an inactive state:
   This is useful when you want to automate the function of a scenario.
 
   <!--
-  For example, you could create an active Instagram-to-Dropbox scenario with a once-per-day schedule that uploads the photos you post on Instagram to Dropbox every day.
+  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, you could create an active Instagram-to-Dropbox scenario with a once-per-day schedule that uploads the photos you post on Instagram to Dropbox every day. </p>
   -->
 
 * An inactive scenario executes only when you run it manually.
@@ -38,7 +38,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -47,7 +51,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -63,7 +74,7 @@ You must create a scenario before you can activate it.
 ## Activate or deactivate a scenario:
 
 1. Click Scenarios ![](assets/scenarios-icon.png) in the left panel, then click the scenario to open it.
-1. In the upper-right corner of the window, click the `On/Off` button.
+1. In the upper-right corner of the window, click the **On/Off** button.
 
    ![](assets/on-off-switch.jpg)
 

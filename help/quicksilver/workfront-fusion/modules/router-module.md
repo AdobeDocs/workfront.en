@@ -32,7 +32,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -41,7 +45,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,11 +65,11 @@ You must have the following access to use the functionality in this article:
 
 A Router can be added to a scenario in one of the following ways:
 
-* If you want to connect the Router module after a module, click on the module's right handle, start typing `router` to search for it, then choose `Flow Control` > `Router` in the list of modules that displays.
+* If you want to connect the Router module after a module, click on the module's right handle, start typing **router** to search for it, then choose **Flow Control** > **Router** in the list of modules that displays.
 
   ![](assets/connect-the-router-350x108.png)
 
-* If you want to insert the Router module between two modules, click on the wrench icon below the route connecting the two modules (or right-click the route) and choose `Add a router` from the menu.
+* If you want to insert the Router module between two modules, click on the wrench icon below the route connecting the two modules (or right-click the route) and choose **Add a router** from the menu.
 
   ![](assets/insert-router-350x191.png)
 
@@ -74,7 +85,7 @@ To place a filter on a route after the Router module to filter bundles as on any
 
    ![](assets/router-click-a-dot-in-route-350x339.png)
 
-1. In the `Set up a filter` box that displays, add conditions, then click `OK` to save the filter setup.
+1. In the **Set up a filter** box that displays, add conditions, then click **OK** to save the filter setup.
 
 ![](assets/set-up-a-filter-2-350x242.png)
 

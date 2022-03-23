@@ -72,7 +72,7 @@ For more information, see the following information:
 
 * "Receiving Emails from the Custom Refresh Sandbox" in [The Adobe Workfront Custom Refresh Sandbox environment](../../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
 
-`<iframe class="mt-media" src="assets/214584374?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
+```<iframe class="mt-media" src="assets/214584374?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
 
 ## Outlook for Office 365 (Workfront)
 
@@ -80,7 +80,7 @@ The Workfront Add-In for Outlook 365 is now available.&nbsp;
 
 For more information about using&nbsp;the add-in, see [Using the Workfront Add-In with Outlook for Office 365.](https://support.workfront.com/hc/en-us/sections/205046167)
 
-`<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;
+```<iframe class="mt-media" src="assets/194705031?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;
 
 ## Search in the Mobile App (Workfront)
 
@@ -92,7 +92,7 @@ You can now&nbsp;search for objects inside the mobile app, similarly to the way 
 
 For more information about the mobile app, see the "Searching in Mobile" section in&nbsp;&nbsp;
 
-`<iframe class="mt-media" src="assets/204243449?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>`&nbsp;&nbsp;
+```<iframe class="mt-media" src="assets/204243449?title=0&byline=0&portrait=0" width="640px" height="360px" frameborder="0" allowfullscreen></iframe>```&nbsp;&nbsp;
 
 ## Improved Help in the Mobile App: Tutorials (Workfront)
 
@@ -121,9 +121,9 @@ You can now include the following additional information&nbsp;in custom views:
   You can configure custom views to include the following columns related to recipient-level data: Role, Position, Email Alerts, My Deadline, Date Added to Proof, and Recipient Search.  
   For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
-* `Proofing Data  
+* ```Proofing Data  
   You can configure custom views to include the following columns related to proofing data: Comment Count (All Versions), Size on Disk, Proof Type, Number of Files per Version, Comment Attachment Data (size on disk, filename), and Filtering by Subfolder.  
-  For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).` 
+  For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).``` 
 * Stage-Level Data Related to&nbsp;Automated Workflows  
   You can configure custom views to include the following columns related to individual stages of&nbsp;automated workflows: SOCD Status, Stage Deadlines, Active Stage Name, Next Stage Name, Stage name, and Template.  
   For more information, see [Create and Manage Custom Views in Workfront Proof Proof](../../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).  
@@ -131,7 +131,7 @@ You can now include the following additional information&nbsp;in custom views:
 
 ## Improvements to Proofing Reports (Formerly Analytics) (ProofHQ)
 
-`The reporting feature (formerly known as Analytics) contains the following improvements:`
+```The reporting feature (formerly known as Analytics) contains the following improvements:```
 
 * New default report types:
 

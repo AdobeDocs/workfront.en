@@ -14,9 +14,9 @@ In the Adobe Workfront for MobileIron app, we support default configurations pro
 
 To configure Workfront for MobileIron for Android:
 
-1. In your MobileIron Cloud instance, go to `Configurations`, then click `Default Android AppConnect Configuration`.
+1. In your MobileIron Cloud instance, go to **Configurations**, then click **Default Android AppConnect Configuration**.
 
-1. Click `Edit`, then choose which options you'd like to use:
+1. Click **Edit**, then choose which options you'd like to use:
 
 | Copy/Paste |When enabled, you can choose between letting users paste into other secure apps or only within the Workfron for MobileIron app. |
 |---|---|
@@ -30,9 +30,9 @@ To configure Workfront for MobileIron for Android:
 
 To configure Workfront for MobileIron for iOS:
 
-1. In your MobileIron Cloud instance, go to `Configurations`, then click `Default iOS AppConnect Configuration`.
+1. In your MobileIron Cloud instance, go to **Configurations**, then click **Default iOS AppConnect Configuration**.
 
-1. Click `Edit`, then choose which options you'd like to use:
+1. Click **Edit**, then choose which options you'd like to use:
 
 | Copy/Paste |When enabled, you can choose between letting users paste into other secure apps or only within the Workfron for MobileIron app. |
 |---|---|

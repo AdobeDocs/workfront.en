@@ -22,14 +22,14 @@ If a folder is public, users in the account (excluding Observers and Light users
 
 Your permission profile also affects the rights you have over public folders:
 
-| `Profile/ Action`  | `See all items in folder`  | `See items explicitly shared with them`  | `Add items`  | `Delete items`  | `Add sub-folders`  | `Delete sub-folders`  | `Edit folder details`  |
+| **Profile/ Action** |**See all items in folder** |**See items explicitly shared with them** |**Add items** |**Delete items** |**Add sub-folders** |**Delete sub-folders** |**Edit folder details** |
 |---|---|---|---|---|---|---|---|
-| `Creator`  |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-| `Billing Administrator`  |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|   `Administrator` |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-| `Supervisor`  |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|   `Manager *` |&nbsp;No |Yes |Yes |No |Yes |No |Yes |
-| `Observer`  |No |Yes |No |No |No |No |No |
+| **Creator** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| **Billing Administrator** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| &nbsp;**Administrator** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| **Supervisor** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| &nbsp;**Manager &#42;** |&nbsp;No |Yes |Yes |No |Yes |No |Yes |
+| **Observer** |No |Yes |No |No |No |No |No |
 
 &#42; If the public folder is owned by a manager, he or she can delete the root folder and any sub-folders.
 
@@ -39,14 +39,14 @@ For more information, see [Proof Permissions Profiles in Workfront Proof](../../
 
 If a folder is private, other users in the same account will not&nbsp;be able to see the name of the folder in the left sidebar unless the folder or items in the folder have been explicitly shared with them or they have a profile of Supervisor, Administrator, or Billing Administrator:
 
-| `Profile/ Action`  | `See all items in folder`  | `See items explicitly shared with them`  | `Add items`  | `Delete items`  | `Add sub-folders`  | `Delete sub-folders`  | `Edit folder details`  |
+| **Profile/ Action** |**See all items in folder** |**See items explicitly shared with them** |**Add items** |**Delete items** |**Add sub-folders** |**Delete sub-folders** |**Edit folder details** |
 |---|---|---|---|---|---|---|---|
-| `Creator`  |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-| `Billing Administrator`  |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|   `Administrator` |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-| `Supervisor`  |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
-|   `Manager *` |&nbsp;No&nbsp; |Yes |No |No |No |No |No |
-| `Observer **`  |No |Yes |No |No |No |No |No |
+| **Creator** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| **Billing Administrator** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| &nbsp;**Administrator** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| **Supervisor** |Yes |Yes |Yes |Yes |Yes |Yes |Yes |
+| &nbsp;**Manager &#42;** |&nbsp;No&nbsp; |Yes |No |No |No |No |No |
+| **Observer &#42;&#42;** |No |Yes |No |No |No |No |No |
 
 If, for example, you would like your Project Manager and their teams to see specific folders only, the Project Manager can set up a private folder and then share the folder with specific users.
 

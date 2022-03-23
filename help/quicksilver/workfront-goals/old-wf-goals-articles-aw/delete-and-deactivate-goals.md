@@ -4,6 +4,7 @@ product: workfront-goals
 navigation-topic: old-workfront-goals-articles
 title: Delete and deactivate goals in the new Adobe Workfront experience
 description: You can deactivate a goal that is no longer relevant but you think it might become relevant in the future.
+hidefromtoc: true
 ---
 
 # Delete and deactivate goals in the new Adobe Workfront experience
@@ -26,7 +27,7 @@ Any user who has access to Workfront Goals can deactivate or delete goals
 You can save time re-creating a goal that might not be relevant anymore but might become relevant in the future. You can do this by deactivating it.
 
 1. Go to a goal you want to deactivate and click to open it. 
-1. In the `Summary` subtab, click the `Settings menu` ![](assets/gear-icon-settings.png), then click  `Deactivate`.
+1. In the **Summary** subtab, click the **Settings menu** ![](assets/gear-icon-settings.png), then click&nbsp;**Deactivate**.
 
    The status of the goal changes to Inactive.
 
@@ -49,7 +50,7 @@ When you delete a goal, the following information is also deleted:
 To delete a goal:
 
 1. Go to a goal you want to delete and click to open it. 
-1. In the `Summary` subtab, click the `Settings menu` ![](assets/gear-icon-settings.png), then click  `Delete`.
+1. In the **Summary** subtab, click the **Settings menu** ![](assets/gear-icon-settings.png), then click&nbsp;**Delete**.
 
    The goal is deleted and removed from the Goals page.
 

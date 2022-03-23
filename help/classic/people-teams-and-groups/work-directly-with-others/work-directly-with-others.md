@@ -11,5 +11,7 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
+* Send direct messages to other users
+* View accomplishments
 * [View the organizational chart](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)
 

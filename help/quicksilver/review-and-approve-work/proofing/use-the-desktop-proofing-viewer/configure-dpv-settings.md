@@ -9,7 +9,7 @@ You can configure the following settings for the Desktop Proofing Viewer:
 * Which email notifications you receive as a reviewer on the proof you have open.
 
   <!--
-  Whether the Desktop Proofing Viewer is the default viewer for all types of proofs (static and video, as well as interactive).
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the Desktop Proofing Viewer is the default viewer for all types of proofs (static and video, as well as interactive).</li>
   -->
 
 You can configure the following settings for the Desktop Proofing Viewer:
@@ -17,7 +17,7 @@ You can configure the following settings for the Desktop Proofing Viewer:
 * How you want links within website content to open in the Viewer.
 
   <!--
-  Whether the background color of the Desktop Proofing Viewer is the default near-black color or white.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Whether the background color of the Desktop Proofing Viewer is the default near-black color or white.</li>
   -->
 
 * What happens when you click a link that is set to open in a new browser tab or window.
@@ -60,32 +60,32 @@ To configure proofing viewer settings:
 
 1. Open the Web Proofing Viewer or the Desktop Proofing Viewer in one of the following ways:
 
-  * If you proof within Adobe Workfront, go to a document list containing a proof you want to view, hover over the document, then click  `Open proof`.
-  * If you use Workfront Proof, click the `Go to Proof` icon for the proof in the Dashboard or a Views list. ![](assets/go-to-proof-blue-icon.png)
+  * If you proof within Adobe Workfront, go to a document list containing a proof you want to view, hover over the document, then click&nbsp;**Open proof**.
+  * If you use Workfront Proof, click the **Go to Proof** icon for the proof in the Dashboard or a Views list. ![](assets/go-to-proof-blue-icon.png)
 
-1. If the left toolbar is not showing, click the  `Menu`&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.
+1. If the left toolbar is not showing, click the&nbsp;**Menu**&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.
 
    ![](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In the left toolbar, click the `Settings` icon ![](assets/settings-icon-in-pv.png).   
+1. In the left toolbar, click the **Settings** icon ![](assets/settings-icon-in-pv.png).   
 
-1. Configure any of the following `Settings` that display.
+1. Configure any of the following **Settings** that display.
 
    The settings available might vary depending on the type of proof you have open.
 
-  * `Show markups`&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the comment marks that reviewers add to proofs when they use the markup tools. If you disable them, you can still see them when you click a comment in the comment list.
+  * **Show markups**&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the comment marks that reviewers add to proofs when they use the markup tools. If you disable them, you can still see them when you click a comment in the comment list.
 
     This setting affects all proofs you open.
   
-  * `Show pins`&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the numbered pins that reviewers add to proofs when they use the markup tools. They indicate where and in what order the reviewer added comments. If you disable them, you can still see them when you click a comment in the comment list.
+  * **Show pins**&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): These are the numbered pins that reviewers add to proofs when they use the markup tools. They indicate where and in what order the reviewer added comments. If you disable them, you can still see them when you click a comment in the comment list.
 
     This setting affects all proofs you open.
   
-  * `Use expanded markup tools`&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): By default, the markup tool options display across the top of the proofing viewer.&nbsp;You can configure them to display in a vertical menu that opens only when you click it.
+  * **Use expanded markup tools**&nbsp;(always available in the Web Proofing Viewer and the Desktop Proofing Viewer): By default, the markup tool options display across the top of the proofing viewer.&nbsp;You can configure them to display in a vertical menu that opens only when you click it.
 
     This setting is in effect for all proofs you open.
   
-  * `Send me email notifications about` (always available in the Web Proofing Viewer and the Desktop Proofing Viewer): Click one of the options below. This setting affects only the proof you have open. For more information, see [Notifications for proof comments and decisions overview](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
+  * **Send me email notifications about** (always available in the Web Proofing Viewer and the Desktop Proofing Viewer): Click one of the options below. This setting affects only the proof you have open. For more information, see [Notifications for proof comments and decisions overview](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md).
 
     <table cellspacing="0"> 
      <col> 
@@ -114,19 +114,29 @@ To configure proofing viewer settings:
       <tr> 
        <td role="rowheader">Daily Summary</td> 
        <td>Workfront sends one email with all&nbsp;comments, replies, and decisions listed only on days when there is activity besides your own.<p>This alert is a good way of seeing a summary of the project&nbsp;without being overwhelmed with multiple&nbsp;updates throughout the day.</p><p>An example use case for this summary is a department leader&nbsp;who wants to monitor the overall progress of the project.</p><p>For more information, see <a href="../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md" class="MCXref xref">Manage notifications for proof comments and decisions</a>.</p></td> 
-      </tr> No email Workfront does not send any email alerts. This is useful for a person who is added to a proof only for reference purposes and does not need to be notified of any changes. The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting. <!--
-       Set a deadline Select the day and time when users must take action on the proof. If you are adding users to a proof for a document that already exists in Workfront, you should have already set a deadline.
+      </tr> 
+      <tr data-mc-conditions=""> 
+       <td role="rowheader">No email</td> 
+       <td>Workfront does not send any email alerts.<br>This is useful&nbsp;for a person who is added to a proof only for reference purposes and does not need to be notified of any changes.<p>The system default is Daily summary (also seen as Not Set). If you or your reviewers do not make any other changes, all your proofs have this setting.</p></td> 
+      </tr> <!--
+       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+        <td role="rowheader">Set a deadline</td> 
+        <td>Select the day and time when users must take action on the proof.<p>If you are adding users to a proof for a document&nbsp;that already exists in Workfront, you should have already set a deadline.</p></td> 
+       </tr>
       --> <!--
-       Notify people by email Select this option to send an email to the users, notifying them of the proof. Click Add a custom message to specify a message to include in the email notification.
+       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+        <td role="rowheader">Notify people by email</td> 
+        <td>Select this option to send an email to the users, notifying them of the proof.<p>Click <strong>Add a custom message</strong>&nbsp;to specify a message to include in the email notification.</p></td> 
+       </tr>
       --> 
      </tbody> 
     </table>
 
     <!--  
-    Use desktop app as default: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see Desktop Proofing Viewer in the article Configure proof settings for your organization. For comparative information about the two viewers, see Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview.  
+    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p><strong>Use desktop app as default</strong>: By default, static and video proofs open in the Web Proofing Viewer in your web browser, and interactive proofs open in the Desktop Proofing Viewer app. This setting lets you configure the Desktop Proofing Viewer as the default viewer for all types of proofs (static and video, as well as interactive). For more information about this setting, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#desktop-proofing-viewer" class="MCXref xref">Desktop Proofing Viewer</a> in the article <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>. For comparative information about the two viewers, see <a href="../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md" class="MCXref xref">Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview</a>.</p> </li>  
     -->  
   
-  * `When clicking hyperlinks in a proof` (available only in the Desktop Proofing Viewer): Select an option to specify what happens in the Desktop Proofing Viewer when you click a link that is set to open in a new browser tab or window.
+  * **When clicking hyperlinks in a proof** (available only in the Desktop Proofing Viewer): Select an option to specify what happens in the Desktop Proofing Viewer when you click a link that is set to open in a new browser tab or window.
 
     This setting is in effect for all interactive proofs you open.
 
@@ -150,10 +160,10 @@ To configure proofing viewer settings:
     </table>
 
     <!--  
-    Background color (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.  
+    <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Background color</strong> (available when you open interactive content in the Desktop Proofing Viewer or Web Proofing Viewer): Change the background color of the Desktop Proofing Viewer from the default near-black color to white. This can make it easier to see interactive content that has a transparent background instead of a white background.</li>  
     -->  
   
-  * `Clear cache`: Clears the browser cache data that might be saved with an interactive proof you are viewing. This enables content such as pop-ups (that can be blocked by browser cache data) to display in the Desktop Proofing Viewer.
+  * **Clear cache**: Clears the browser cache data that might be saved with an interactive proof you are viewing. This enables content such as pop-ups (that can be blocked by browser cache data) to display in the Desktop Proofing Viewer.
 
     The data that is cleared includes the HTTP cache (such as images to be reused after the next page refresh) and the web storage data cache (such as cookies and data that identifies users).
 

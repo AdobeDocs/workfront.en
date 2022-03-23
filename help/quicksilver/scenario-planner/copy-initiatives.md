@@ -27,7 +27,15 @@ You can create initiatives by copying existing ones. You can copy initiatives on
   <tr> 
    <td><b>Product</b> </td> 
    <td> <p>You must purchase an additional license for the Adobe Workfront Scenario Planner to access functionality described in this article.</p> <p>For information about obtaining the Workfront Scenario Planner, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the Adobe Workfront Scenario Planner</a>. </p> </td> 
-  </tr> Access level configurations* Edit access or higher to the Scenario Planner Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see Create or modify custom access levels. Object permissions Manage permissions to a plan For information on requesting additional access to a plan, see Request access to a plan in the Adobe Workfront Scenario Planner. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><strong>Access level configurations*</strong> </td> 
+   <td> <p>Edit access or higher to the Scenario Planner</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p><strong>Object permissions</strong> </p> </td> 
+   <td> <p>Manage permissions to a plan</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the Adobe Workfront Scenario Planner</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -63,12 +71,12 @@ Consider the following when copying initiatives:
 
 ## Copy initiatives
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then click&nbsp;Scenarios.
 
    A list of plans displays. 
 
 1. Click the name of a plan to open it, then locate the initiatives you want to copy.
-1. Select the box to the left of the initiative or initiatives that you want to copy, then click `Copy` from the menu that appears at the bottom of the plan.
+1. Select the box to the left of the initiative or initiatives that you want to copy, then click **Copy** from the menu that appears at the bottom of the plan.
 
    ![](assets/bottom-manage-initiative-menu-350x45.png)
 
@@ -78,7 +86,7 @@ Consider the following when copying initiatives:
 
    >[!NOTE]
    >
-   >`Depending on where you insert the new initiatives, the numbers of existing initiatives may change.`
+   >```Depending on where you insert the new initiatives, the numbers of existing initiatives may change.```
 
 1. Update the name of the copied initiative.
 
@@ -90,5 +98,5 @@ Consider the following when copying initiatives:
 
    For information about prioritizing initiatives, see [Update initiative priorities in the Adobe Workfront Scenario Planner](../scenario-planner/prioritize-initiatives.md). 
 
-1. Click `Save Plan` to save your changes.
+1. Click **Save Plan** to save your changes.
 

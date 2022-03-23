@@ -34,7 +34,7 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
 
 ## Review an approval
 
-1. Select `Show all approvals` in the Approvals area of My Work.
+1. Select **Show all approvals** in the Approvals area of My Work.
 
    For information about My&nbsp;Work in the mobile app, see [My Work section in the mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
@@ -64,7 +64,7 @@ Proofs follow a separate approval process. You cannot approve a proof from a wor
 
    |Reject |
 
-1. (Optional) Select `Add comment` on the confirmation message at the bottom of the screen to add comments to the decision. These comments appear in the updates for the approval.  
+1. (Optional) Select **Add comment** on the confirmation message at the bottom of the screen to add comments to the decision. These comments appear in the updates for the approval.  
    ![Add comment](assets/mobile-addcommenttoapproval-350x123.png)  
    Or  
    Select the arrow on the top left of the approval to go back to the Approvals page.

@@ -16,15 +16,15 @@ The Tasks in flight visualization shows how many tasks (within the applied filte
 
 The Tasks in flight plan visualization shows the following task details:
 
-* `Planned task duration`: The length of a task bar indicates the planned duration, which is based on the task's start date and completion date.
+* **Planned task duration**: The length of a task bar indicates the planned duration, which is based on the task's start date and completion date.
 
   ![](assets/tasks-in-flight-duration-350x80.png)
 
-* `Work effort completed`: The dark blue color within a task bar indicates the amount of work completed for a task. This completion percentage displays to the right of the task bar.
+* **Work effort completed**: The dark blue color within a task bar indicates the amount of work completed for a task. This completion percentage displays to the right of the task bar.
 
   ![](assets/tasks-in-flight-dark-blue-350x35.png)
 
-* `Work effort remaining`: The light blue color within a task bar indicates the amount of work that needs to be completed for a task.
+* **Work effort remaining**: The light blue color within a task bar indicates the amount of work that needs to be completed for a task.
 
   ![](assets/tasks-in-flight-light-blue-350x35.png)
 
@@ -72,7 +72,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Tasks in flight visualization
 
-1. In the Global Navigation Bar,select **Analytics**.
+1. In the Global Navigation Bar, select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -93,12 +93,12 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
    >
    >To learn more about these other visualizations, see:
    >
-   >  
-   >  
-   >  * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
-   >  * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
-   >  * [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md) 
-   >  
+   >   
+   >   
+   >   * [View the Flight plan visualization in Enhanced analytics](../enhanced-analytics/flight-plan-overview.md) 
+   >   * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
+   >   * [View the Burndown visualization in Enhanced analytics](../enhanced-analytics/burndown-overview.md) 
+   >   
    >
 
 1. (Optional) To zoom in on a date range, select a point on the visualization for the start of your date range and drag to the end of your date range.
@@ -109,9 +109,9 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the tasks are sorted, click the **Sort by** menu, then select a new sorting option:
 
-  * `Completion date` 
-  * `Alphabetically A-Z` 
-  * `Work breakdown structure` (This option matches the order that the tasks appear in the project.)
+   * **Completion date** 
+   * **Alphabetically A-Z** 
+   * **Work breakdown structure** (This option matches the order that the tasks appear in the project.)
 
    All other visualizations on the page update to match your sorting selection.
 
@@ -119,11 +119,11 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
    ![](assets/tasks-in-flight-task-details-350x242.png)
 
-1. Click a task to open the task Detailsin a new browser tab, where you can see more information about the task, view or enter updates, or make changes to the task.
+1. Click a task to open the task Details in a new browser tab, where you can see more information about the task, view or enter updates, or make changes to the task.
 1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-  * **Chart (PNG)** 
-  * **Data Table (XSLX)**
+   * **Chart (PNG)** 
+   * **Data Table (XSLX)**
 
 ## Video walk-through
 

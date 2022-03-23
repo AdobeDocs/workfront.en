@@ -14,15 +14,15 @@ In a Adobe Workfront Fusion scenario, you can connect your CloudConvert account 
 To connect your CloudConvert account to Workfront Fusion, you need to obtain the API Key from your CloudConvert account.
 
 1. Log in to your CloudConvert account and open your Dashboard.
-1. Open the `Authorization > API Keys` section.
-1. Click `Create New API key`.
-1. Enter the name for the API key, enable the scopes you want to use, then click `Create`.
+1. Open the **Authorization > API Keys** section.
+1. Click **Create New API key**.
+1. Enter the name for the API key, enable the scopes you want to use, then click **Create**.
 1. Copy the provided token and store it in a safe place.
-1. In Workfront Fusion, start creating a scenario open the CloudConvert module's `Create a connection` dialog.
+1. In Workfront Fusion, start creating a scenario open the CloudConvert module's **Create a connection** dialog.
 
    For instructions, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. Enter the token you saved in step 5, then click `Continue` to establish the connection.
+1. Enter the token you saved in step 5, then click **Continue** to establish the connection.
 
 ## CloudConvert modules and their fields
 
@@ -113,16 +113,36 @@ Converts a file into a selected output format.
    <td role="rowheader">Import a File from URL</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">URL </span> </p> <p>Enter the URL of the file you want to convert.</p> </li> 
+     <li> <p><strong>URL</strong> </p> <p>Enter the URL of the file you want to convert.</p> </li> 
      <li> <p><![CDATA[
 
-]]><span class="bold">Headers</span></p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </li> 
+]]><strong>Headers</strong></p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Format</td> 
    <td>Select whether you want to specify the input format of the file you want to convert. If not specified, the extension of the input file is used as the input format.</td> 
-  </tr> Input Format Select the current format of the file. Output Format Select the target file format you want to convert the file to. File Name Choose a filename (including extension) for the target output file. Conversion and engine specific options Specify conversion and engine specific options. To view available options, see the Cloud Convert API documentation for input_format and output_format. Download a file Enable this option if you also want to include file data in the module's output. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Input Format</td> 
+   <td>Select the current format of the file.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Output Format</td> 
+   <td>Select the target file format you want to convert the file to.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">File Name</td> 
+   <td>Choose a filename (including extension) for the target output file.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Conversion and engine specific options </p> </td> 
+   <td>Specify conversion and engine specific options. To view available options, see the <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">Cloud Convert API</a> documentation for <code>input_format</code> and <code>output_format</code>.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Download a file </td> 
+   <td> <p>Enable this option if you also want to include file data in the module's output.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -148,7 +168,7 @@ Enables you to add one or multiple files to the ZIP, RAR, 7Z, TAR, TAR.GZ or TAR
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Import a file from URL</p> </td> 
-   <td> <p><span class="bold">URL</span> </p> <p>Enter the URL of the file you want to archive.</p> <p><span class="bold">Headers</span> </p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </td> 
+   <td> <p><strong>URL</strong> </p> <p>Enter the URL of the file you want to archive.</p> <p><strong>Headers</strong> </p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format</td> 
@@ -191,7 +211,7 @@ Merges at least two files into one PDF. If input files are not PDFs, they are au
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Import a file from URL</p> </td> 
-   <td> <p><span class="bold">URL</span> </p> <p>Enter the URL of the file you want to archive.</p> <p><span class="bold">Headers</span> </p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </td> 
+   <td> <p><strong>URL</strong> </p> <p>Enter the URL of the file you want to archive.</p> <p><strong>Headers</strong> </p> <p>Define request headers (optional). This is useful, for example, when the specified URL requires the authorization.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Output Format</td> 
@@ -242,15 +262,15 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">Import a file from URL </td> 
    <td> 
     <ul> 
-     <li><span class="bold">URL</span>: Enter the URL of the file you want to convert.</li> 
-     <li><span class="bold">Headers</span>: (Optional) Define request headers. This is useful, for example, when the specified URL requires authorization.</li> 
+     <li><strong>URL</strong>: Enter the URL of the file you want to convert.</li> 
+     <li><strong>Headers</strong>: (Optional) Define request headers. This is useful, for example, when the specified URL requires authorization.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Optimization for </td> 
    <td> <p>Select the optimization profile for specific target needs.</p> 
     <ul> 
-     <li> <p><span class="bold">Web</span>: Optimization for the web (Default)</p> 
+     <li> <p><strong>Web</strong>: Optimization for the web (Default)</p> 
       <ul> 
        <li>Remove redundant and unnecessary data for the web</li> 
        <li>Down-sample, clip, and intelligently compress images</li> 
@@ -259,25 +279,25 @@ When you are configuring this module, the following fields display.
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p><span class="bold">Print</span>: Optimization for print</p> 
+     <li> <p><strong>Print</strong>: Optimization for print</p> 
       <ul> 
        <li> <p>Remove redundant and unnecessary data for printing</p> </li> 
        <li> <p>Down-sample, clip, and intelligently compress images</p> </li> 
        <li> <p>Merge and subset fonts</p> </li> 
        <li> <p>Convert colors to CMYK</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">Archive</span>: Optimization for archiving purposes</p> 
+     <li> <p><strong>Archive</strong>: Optimization for archiving purposes</p> 
       <ul> 
        <li> <p>Remove redundant and unnecessary data for archiving</p> </li> 
        <li> <p>Intelligently compress images</p> </li> 
        <li> <p>Merge and subset fonts</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">Scanned images</span>: Optimization for scanned images</p> 
+     <li> <p><strong>Scanned images</strong>: Optimization for scanned images</p> 
       <ul> 
        <li> <p>Profile optimized for PDFs that mainly consist of raster images</p> </li> 
        <li> <p>Compress the images without significantly reducing the visual quality</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">maximal size reduction</span>: Optimization for maximal size reduction</p> 
+     <li> <p><strong>maximal size reduction</strong>: Optimization for maximal size reduction</p> 
       <ul> 
        <li> <p>Use the maximal possible compression</p> </li> 
        <li> <p>Might reduce the visual quality</p> </li> 
@@ -316,7 +336,7 @@ When you are configuring this module, the following fields display.
 This module creates a job. A job can be one or multiple tasks that are identified in the Name field and linked between each other using the Input field.
 
 <!--
-For further processing of the finished job created with the Create a Job module, please use the New Job Event (job.finished) module in another scenario.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For further processing of the finished job created with the Create a Job module, please use the New Job Event (job.finished) module in another scenario.</p>
 -->
 
 <table cellspacing="0"> 
@@ -339,8 +359,8 @@ For further processing of the finished job created with the Create a Job module,
    <td role="rowheader"> <p>Import a File from URL</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">URL</span>: Enter the URL of the file you want to process.</li> 
-     <li><span class="bold">Headers</span>: (Optional) Define request headers. This is useful, for example, when the specified URL requires authorization.</li> 
+     <li><strong>URL</strong>: Enter the URL of the file you want to process.</li> 
+     <li><strong>Headers</strong>: (Optional) Define request headers. This is useful, for example, when the specified URL requires authorization.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -354,8 +374,8 @@ For further processing of the finished job created with the Create a Job module,
      <li><a href="#merge" class="MCXref xref">Merge Files</a> </li> 
     </ul> 
     <ul> 
-     <li> <p><span class="bold">Execute a Command </span> </p> <p>For more information on executing a command, see the <a href="https://cloudconvert.com/api/v2/command#command-tasks">CloudConvert API documentation</a>.</p> </li> 
-     <li> <p><span class="bold">Export a File to Temporary URL</span> </p> <p> Specify the task name and input task name (e.g. Conversion).</p> </li> 
+     <li> <p><strong>Execute a Command</strong> </p> <p>For more information on executing a command, see the <a href="https://cloudconvert.com/api/v2/command#command-tasks">CloudConvert API documentation</a>.</p> </li> 
+     <li> <p><strong>Export a File to Temporary URL</strong> </p> <p> Specify the task name and input task name (e.g. Conversion).</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -465,7 +485,7 @@ Triggers when a job in your account or task is created, finishes, or fails.
 
 >[!NOTE]
 >
->* If working with the Array Aggregator (e.g. you have many files in different formats to convert), use the `I don't know the input format` option in the Add a task dialog. Otherwise the error is returned.
+>* If working with the Array Aggregator (e.g. you have many files in different formats to convert), use the **I don't know the input format** option in the Add a task dialog. Otherwise the error is returned.
 >* Linking tasks within the job (name > input, name > input,...):
 >
 >  ![](assets/linking-name-across-jobs-350x808.png)>
@@ -653,7 +673,7 @@ Allows you to perform a custom API call.
  </tbody> 
 </table>
 
-` `**Example: **`` List Tasks
+``` ```**Example: **`````` List Tasks
 
 The following API call returns all tasks from your CloudFront account:
 
@@ -697,32 +717,32 @@ If the CloudConvert > Convert a File throws one of the following errors:
    <td role="rowheader"> <p>RuntimeError: </p> <p><span style="font-weight: normal;">Maximum number of repeats exceeded.</span> </p> </td> 
    <td> <p>Locate the corresponding CloudConvert job in your CloudConvert dashboard's list of jobs and check the job's duration:</p> <p> <img src="assets/cloudconvert-duration-350x177.png" style="width: 350;height: 177;"> </p> <p>The CloudConvert &gt; Convert a File module's timeout is set to 3 minutes. If the job's duration exceeds 3 minutes (possibly due to a temporary overload of the CloudConvert service), the module throws the above mentioned error.</p> <p>In this case consider one of these options:</p> 
     <ul> 
-     <li>Enable the <span class="bold">Allow storing of Incomplete Executions</span> option in the scenario settings to store the incomplete executions for later manual resolution. Optionally you may attach an error handling route to the CloudConvert module with the Break directive to resolve the incomplete executions automatically.</li> 
-     <li>Disable the <span class="bold">Download a file option</span> in the CloudConvert &gt; Convert a file module. In this case the module will not wait for the conversion result. To obtain the conversion result, create a new scenario and use the CloudConvert &gt; New Job Event trigger.</li> 
+     <li>Enable the <strong>Allow storing of Incomplete Executions</strong> option in the scenario settings to store the incomplete executions for later manual resolution. Optionally you may attach an error handling route to the CloudConvert module with the Break directive to resolve the incomplete executions automatically.</li> 
+     <li>Disable the <strong>Download a file option</strong> in the CloudConvert &gt; Convert a file module. In this case the module will not wait for the conversion result. To obtain the conversion result, create a new scenario and use the CloudConvert &gt; New Job Event trigger.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-` `**Example: **`` Converting a video from MOV to MP4 format
+``` ```**Example: **`````` Converting a video from MOV to MP4 format
 
 1. Visit [https://cloudconvert.com/video-converter](https://cloudconvert.com/video-converter)
-1. Click `Select File` and choose your sample MOV file.
-1. Click the dropdown, next to `Convert to` and choose `MP4`.
+1. Click **Select File** and choose your sample MOV file.
+1. Click the dropdown, next to **Convert to** and choose **MP4**.
 
-1. Click the `wrench`icon.
+1. Click the **wrench**icon.
 1. Configure the MP4 compression settings as you see fit.
-1. Click `Convert`.
-1. Once the conversion is complete, click `Download`.
+1. Click **Convert**.
+1. Once the conversion is complete, click **Download**.
 1. Review the converted video.
 1. Repeat steps 1 to 8 until you have found the optimal conversion settings for step 5.
 1. Visit [https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
-1. Choose `mov` for the `input_format` field.
+1. Choose **mov** for the **input_format** field.
 
-1. Choose `mp4`for the `output_format` field.
+1. Choose **mp4**for the **output_format** field.
 
 1. A list of all possible parameters like video_codec, crf, etc. will appear.
-1. In Workfront Fusion 2.0, insert the `CloudConvert`> `Convert a File` module in your scenario.
+1. In Workfront Fusion 2.0, insert the **CloudConvert**> **Convert a File** module in your scenario.
 
 1. Open the module's settings.
 1. Configure the module as shown below:

@@ -37,21 +37,21 @@ You must have the following access to perform the steps in this article:
 
 1. Click your avatar in the Global Navigation Bar.
 1. Click your name to access your profile page.
-1. Click the `Accomplishments` tab to view your accomplishments.  
+1. Click the **Accomplishments** tab to view your accomplishments.  
    By default, accomplishments are displayed for the last week.  
    ![](assets/screen-shot-2013-05-30-at-10.44.18-am-350x166.png)
 
-1. To view accomplishments from the last month or year to date, click  `1 month` or  `Year To Date`.
+1. To view accomplishments from the last month or year to date, click&nbsp;**1 month** or&nbsp;**Year To Date**.
 
 ## View another user's accomplishments
 
 You can see only the tasks and issues for which you had View access when the task or issue was marked complete.
 
-1. Click  `People` in the Global Navigation Bar.
-1. Click the  `People` tab.
+1. Click&nbsp;**People** in the Global Navigation Bar.
+1. Click the&nbsp;**People** tab.
 1. Click the name of the user whose accomplishments you want to view.
-1. Click the  `Accomplishments` tab to view the user's accomplishments.  
+1. Click the&nbsp;**Accomplishments** tab to view the user's accomplishments.  
    By default, accomplishments are displayed for the last week.  
 
-1. To view accomplishments from the last month or year to date, click  `1 month` or  `Year To Date`.
+1. To view accomplishments from the last month or year to date, click&nbsp;**1 month** or&nbsp;**Year To Date**.
 

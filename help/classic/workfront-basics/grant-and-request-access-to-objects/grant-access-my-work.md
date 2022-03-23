@@ -44,10 +44,10 @@ You must have the following:
 
 ## Grant access to objects in the My Work area
 
-1. Click `My Work`&nbsp;in the Global Navigation bar.
-1. Click the `Approvals` tab, then click `My Approvals`.
+1. Click**My Work**&nbsp;in the Global Navigation bar.
+1. Click the **Approvals** tab, then click **My Approvals**.
 
-1. Click `Access`.  
+1. Click **Access**.  
    All access requests that have been made to you are&nbsp;displayed.  
    ![](assets/permission-grant-350x93.png)
 
@@ -56,19 +56,20 @@ You must have the following:
    >Access requests that are no longer valid (because they were granted by another user) are automatically removed from your access list after two weeks.
 
 1. (Optional) If the user included a message with the request, the message is displayed next to&nbsp;the orange message icon.
-1. In the `Change access` drop-down list, select the level of access that you want to grant to the user.  
+1. In the **Change access** drop-down list, select the level of access that you want to grant to the user.  
    Or  
-   Click `Ignore` to remove the access request from your list.  
+   Click **Ignore** to remove the access request from your list.  
    The user who is requesting access is&nbsp;not notified that you ignored the request, and the request is still displayed in the user's Work I've Submitted for Approval area.
 
-1. Click `Grant Access`.
+1. Click **Grant Access**.
 
 ## Configure Email Notifications for Requests
 
 You can configure whether you receive email notifications for access requests. Your Workfront administrator can disable this functionality (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
-1. Click `Preferences`, or scroll to the Preferences section.
-1. In the `Email Me When` drop-down list, select or deselect `Someone requests access from me`, depending on whether you want to receive email notifications when another user requests access from you or not.
+1. My Settings
+1. Click **Preferences**, or scroll to the Preferences section.
+1. In the **Email Me When** drop-down list, select or deselect **Someone requests access from me**, depending on whether you want to receive email notifications when another user requests access from you or not.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

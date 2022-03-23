@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: Team scheduling beta
 description: The Team Scheduling area (formerly known as Team Builder) is being updated with a new look and feel, updated architecture for better performance, and support for new functionality.
+hidefromtoc: true
 ---
 
 # Team scheduling beta

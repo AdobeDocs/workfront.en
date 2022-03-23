@@ -5,7 +5,7 @@
 After you add a table to a report, you can set up filter rules to limit the information that displays in the table. With the right access, you can also modify a table in an existing report at any time.
 
 <!--
-[insert more in-depth info here on filters rules, and/or, modifiers, etc.]
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">[insert more in-depth info here on filters rules, and/or, modifiers, etc.]</p>
 -->
 
 There are 3 components in a filter rule:
@@ -29,7 +29,7 @@ There are 3 components in a filter rule:
  </tbody> 
 </table>
 
-` `**Example: **`` If you wanted to limit results in your report to only display projects that are owned by Jane Doe, you could create a filter rule with the field "Project Owner," the operator "Equal To," and the value "Jane Doe."
+``` ```**Example: **`````` If you wanted to limit results in your report to only display projects that are owned by Jane Doe, you could create a filter rule with the field "Project Owner," the operator "Equal To," and the value "Jane Doe."
 
 Or you could display only projects that have an assigned project owner, which would have the field "Project Owner" and the operator "Is Not Blank."
 
@@ -69,12 +69,14 @@ You must have the following:
 Before you begin, you must enroll in the Reporting Canvas beta program.
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For more information, see [link to Beta enrollment info].
+</MadCap:conditionalText>
 -->
 
 ## Configure filter rules for a table
 
-1. Go to an existing report, click the `More Menu` icon ![](assets/more-icon.png) in the report header, then select `Edit`.
+1. Go to an existing report, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**.
 1. Locate the table in the report, then click the **Edit** icon ![](assets/edit-icon.png) in the table header.
 
    >[!TIP]
@@ -84,11 +86,11 @@ For more information, see [link to Beta enrollment info].
 
 1. In the right panel, locate the field that you want to filter by.
 
-  1. (Optional) Enter text in the `Search` box.  
+  1. (Optional) Enter text in the **Search** box.  
      Up to X fields display.
   
-  1. (Conditional) If you don't see the field that you want, click `more fields` to display more options.  
-     `[insert screenshot here]`
+  1. (Conditional) If you don't see the field that you want, click **more fields** to display more options.  
+     **[insert screenshot here]**
 
 1. Select the field, then drag it to the Filter section.
 
@@ -101,47 +103,47 @@ For more information, see [link to Beta enrollment info].
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Equal To</span> </td> 
+      <td role="rowheader"><strong>Equal To</strong> </td> 
       <td> <p>This only returns an exact match of the searched value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Not Equal To</span> </td> 
+      <td role="rowheader"><strong>Not Equal To</strong> </td> 
       <td> <p>This only returns results that are not exact match of the searched value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Is Blank</span> </td> 
+      <td role="rowheader"><strong>Is Blank</strong> </td> 
       <td> <p>The field exists for the object but the field has not yet been given a value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Is Not Blank</span> </td> 
+      <td role="rowheader"><strong>Is Not Blank</strong> </td> 
       <td> <p>The field you are filtering for exists and has been given a value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Is Less Than</span> </td> 
+      <td role="rowheader"><strong>Is Less Than</strong> </td> 
       <td> <p>This searches for all results with a value less than what is entered, not including the entered value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Is Less Than Or Equal To</span> </td> 
+      <td role="rowheader"><strong>Is Less Than Or Equal To</strong> </td> 
       <td> <p>This searches for all results with a value less than or equal to the entered value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Is&nbsp;Greater Than</span> </td> 
+      <td role="rowheader"><strong>Is Greater Than</strong> </td> 
       <td> <p>This searches for all results with a value greater than the value entered, not including the entered value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Is Greater Than Or Equal To</span> </td> 
+      <td role="rowheader"><strong>Is Greater Than Or Equal To</strong> </td> 
       <td> <p>This searches for all results with values greater than or equal to the entered value.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Between</span> </td> 
+      <td role="rowheader"><strong>Between</strong> </td> 
       <td> <p>Provides 2 required field values and searches for all results within range of both fields including the entered values.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Contains</span> </td> 
+      <td role="rowheader"><strong>Contains</strong> </td> 
       <td> <p>This searches for the specified text throughout an entire text string.</p> <p>For example, using "Contains Inf" captures anything with "Inf" or "inf" in it, such as the word "Infinity".</p> <p>Note: Adobe Workfront searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, Workfront does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Does Not Contain</span> </td> 
+      <td role="rowheader"><strong>Does Not Contain</strong> </td> 
       <td> <p>This filters for items that are missing the value specified.</p> <p>For example, "does not contain inf" captures anything with without "Inf" or "inf" in the name.</p> </td> 
      </tr> 
     </tbody> 
@@ -153,14 +155,14 @@ For more information, see [link to Beta enrollment info].
    >
    >Values entered are not case sensitive. For example, using "Contains Inf" captures anything with "Inf" or "inf" in it, such as the word "Infinity".
 
-1. (Optional) To add another filter rule, drag the field to the `Drop to add another rule` drop area in the Filters section, then repeat Steps 5-6.
+1. (Optional) To add another filter rule, drag the field to the **Drop to add another rule** drop area in the Filters section, then repeat Steps 5-6.
 1. (Conditional) If you want to add a filter rule set, do the following:
 
   1. Drag the field that you want to add to the **Add a rule set** drop area.
 
      &nbsp;
   
-  1. Drag the next field for your filter rule set to the `Drop to add another rule` drop area.
+  1. Drag the next field for your filter rule set to the **Drop to add another rule** drop area.
 
      &nbsp;
 
@@ -193,9 +195,9 @@ For more information, see [link to Beta enrollment info].
 
 This is coming, One of the 3 dimmed options in the right panel when you edit. Will get rid of need for prompts.
 
-1. Go to an existing report, click the `More Menu` icon ![](assets/more-icon.png) in the report header, then select `Edit`.
+1. Go to an existing report, click the **More Menu** icon ![](assets/more-icon.png) in the report header, then select **Edit**.
 
    <!--
-
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>&nbsp;</p> </li>
    -->
 

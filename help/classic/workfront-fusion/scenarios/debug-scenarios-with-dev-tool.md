@@ -22,7 +22,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -31,7 +35,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,8 +65,8 @@ To use the Workfront Fusion DevTool, you first need to install it.
    ```
 
    .
-1. Click the `Developer mode` toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
-1. Click `Load unpacked`.
+1. Click the **Developer mode** toggle at the upper-right of the screen to enable Developer mode. If the toggle to the right, developer mode is enabled.
+1. Click **Load unpacked**.
 1. Select the folder containing the DevTool (where you extracted the files in step 2).
 
    Once unpacked, the DevTool appears among your other Chrome extensions.
@@ -86,7 +97,7 @@ To use the Workfront Fusion DevTool, you must add the Workfront Fusion DevTool e
    >
    >We recommend docking the Chrome Developer Console to the bottom to maintain a better view of your modules.
 
-1. Click the `Workfront Fusion` tab in Chrome Dev Tools.
+1. Click the**Workfront Fusion** tab in Chrome Dev Tools.
 
 ## Use the Workfront Fusion DevTool
 
@@ -100,7 +111,7 @@ Workfront Fusion DevTool is divided into 3 main sections. You can find these in 
 
 Live Stream displays what is happening in the background when you click Run once in your scenario.
 
-1. Click the `Live Stream` icon ![](assets/live-stream-icon.png) to open the Live Stream section.
+1. Click the **Live Stream** icon ![](assets/live-stream-icon.png) to open the Live Stream section.
 1. Do any of the following:
 
    <table cellspacing="0"> 
@@ -139,8 +150,8 @@ Live Stream displays what is happening in the background when you click Run once
       <td role="rowheader"> <p>Retrieve the Request in the Raw JSON Format or cURL</p> </td> 
       <td> 
        <ul> 
-        <li> <p><span class="bold">Raw JSON</span> </p> <p>Click <span class="bold">Copy RAW</span> in the upper-right corner of the DevTool's right pane.</p> </li> 
-        <li> <p><span class="bold">cURL</span> </p> <p>Click <span class="bold">Copy cURL</span> in the upper-right corner of the DevTool's right pane.</p> </li> 
+        <li> <p><strong>Raw JSON</strong> </p> <p>Click <strong>Copy RAW</strong> in the upper-right corner of the DevTool's right pane.</p> </li> 
+        <li> <p><strong>cURL</strong> </p> <p>Click <strong>Copy cURL</strong> in the upper-right corner of the DevTool's right pane.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -150,7 +161,7 @@ Live Stream displays what is happening in the background when you click Run once
 
 The Scenario Debugger is useful for more complex scenarios. It displays the history of the scenario runs and enables you to search modules by their name or ID.
 
-1. Click the `Scenario Debugger` icon ![](assets/scenario-debugger-icon.png) to open the Scenario Debugger.
+1. Click the **Scenario Debugger** icon ![](assets/scenario-debugger-icon.png) to open the Scenario Debugger.
 1. (Optional) Enter the search term (name or module ID) in the search field in the left pane of Workfront Fusion DevTool in the Scenario Debugger section.
 1. Double-click the module's name to open its settings in the scenario editor.
 1. View request details by clicking the desired operation.
@@ -159,10 +170,10 @@ The Scenario Debugger is useful for more complex scenarios. It displays the hist
 
 The Workfront Fusion DevTool features tools that make setting up your scenario easier.
 
-1. `<li> <li> <p>Click the <span class="bold">Tools</span> icon <img src="assets/console-tools-icon.png"> to open the Tools.</p> </li> </li>` 
+1. ```<li> <li> <p>Click the <strong>Tools</strong> icon <img src="assets/console-tools-icon.png"> to open the Tools.</p> </li> </li>``` 
 1. Select the tool you want to use
 1. Configure the fields as detailed below.
-1. Click `Run`.
+1. Click **Run**.
 
 Tools and their fields:
 
@@ -217,7 +228,7 @@ Retrieves metadata of the app by the app's module name or ID. This is useful, fo
 
 Copies values from the source module to the target module.
 
-` `**Warning: **``Make sure you set the correct source and target modules. If you select a different type of module, values in the target module will be deleted.
+``` ```**Warning: **``````Make sure you set the correct source and target modules. If you select a different type of module, values in the target module will be deleted.
 
 <table cellspacing="0"> 
  <col> 

@@ -27,7 +27,10 @@ You can add users in Adobe Workfront by creating individual users from scratch o
 For information about how to import multiple users simultaneously, see [Import users](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
 <!--
-Replace this intro with something like the following when we switch to Admin Console: As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see Manage users in the Adobe Admin Console.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>Replace this intro with something like the following when we switch to Admin Console:</p>
+<p>As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.</p>
+</div>
 -->
 
 ## Access requirements
@@ -63,10 +66,10 @@ Before you add a user, gather the information about the user listed below and de
 
 * What is the user's personal information? At a minimum you need the following:
 
-  * Full name
-  * A user name
-  * Default password
-  * Email address
+   * Full name
+   * A user name
+   * Default password
+   * Email address
 
   >[!NOTE]
   >
@@ -83,20 +86,23 @@ Before you add a user, gather the information about the user listed below and de
 
 ## Create a user from scratch
 
-1. In the `New User` box that appears, click `Show Advanced Options`, then configure the available options to enter the person's information,
+1. People
+1. People
+1. Click **New Person**.
+1. In the **New User** box that appears, click **Show Advanced Options**, then configure the available options to enter the person's information,
 
    For information about these options, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Do one of the following:
 
-  * Leave `Send an invite email to this person` enabled. If you do this, the user receives an email where they can follow a link to create their own password for Workfront. Users who do not accept the email invitation and create a Workfront password are listed as Unregistered in Workfront.
-  * Disable `Send an invite email to this person`, then type a `Password` for the person and confirm it in the `Confirm Password` box. You will need to share this password with the user outside of Workfront.
+   * Leave **Send an invite email to this person** enabled. If you do this, the user receives an email where they can follow a link to create their own password for Workfront. Users who do not accept the email invitation and create a Workfront password are listed as Unregistered in Workfront.
+   * Disable **Send an invite email to this person**, then type a **Password** for the person and confirm it in the **Confirm Password** box. You will need to share this password with the user outside of Workfront.
 
-1. y Click `Add This User`.
+1. y Click **Add This User**.
 
    Or
 
-   Click `Add `Person User` & Start Another` to save the new user and add another one.
+   Click **Add Person User & Start Another** to save the new user and add another one.
 
 ## Copy a user to create a new one
 
@@ -108,20 +114,27 @@ You can create a user by copying an existing user.
 >
 >* The information in the Personal Info section.
 >* When I log in, show: The default landing tab for the access level is selected in this box.
+>* In the Global Nav bar show: The default tabs for the access level are selected in this box.  
+>* For more information about how the default landing tab is based on the access level of the user, see the [Default layouts for each access level](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md#default-layouts-for-access-levels) section in&nbsp; [About the default Adobe Workfront layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+>
 >* Direct Reports
 >
 
 To create new user by copying an existing one:
 
+1. People
+1. People
+1. Select the user that you want to copy, click the **New Person** drop-down arrow, then click **New from Selected Person**.
+
 1. In the **New User** box that displays, edit the fields available for the new user.
 
    For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. y Click `Add This User`.
+1. y Click **Add This User**.
 
    Or
 
-   Click `Add `Person User` & Start Another` to save the new user and add another one.
+   Click **Add Person User & Start Another** to save the new user and add another one.
 
 This creates a new account in Workfront for the user.
 

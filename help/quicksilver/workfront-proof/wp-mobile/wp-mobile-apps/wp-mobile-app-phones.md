@@ -40,19 +40,18 @@ The Workfront Proof app automatically detects what type of device you are using.
 
 ## Getting started with the app
 
-You do not have to be a Workfront Proof user to start using the app. Simply install the app on your device and click a `Go To Proof` link in your email notification. The app automatically starts and loads the proof.
+You do not have to be a Workfront Proof user to start using the app. Simply install the app on your device and click a **Go To Proof** link in your email notification. The app automatically starts and loads the proof.
 
 If you are a Workfront Proof user you can log in to the app before opening any proofs. The app allows you to browse all the proofs shared with you and to easily switch between them.
 
 1. Open the app.
-1. Enter your email and password and tap  `Login`.
+1. Enter your email and password and tap&nbsp;**Login**.
 
-   Or `  
-   `
+   Or****
 
    Use Single Sign-On, if it's configured on your Workfront Proof account.
 
-   You can use the  `Forgot password` option if you don't remember your&nbsp;password.
+   You can use the&nbsp;**Forgot password** option if you don't remember your&nbsp;password.
 
 ## The Dashboard
 
@@ -62,12 +61,12 @@ By default, the Dashboard will open the Total proofs view. This view shows all t
 
 ![Screenshot_2016-04-28-20-05-34a.png](assets/screenshot-2016-04-28-20-05-34a-350x535.png)
 
-| `On Time View`  |Shows you all active proofs in your account that you have permission to see and that have no deadline or there is more than 24 hours until the deadline. |
+| **On Time View** |Shows you all active proofs in your account that you have permission to see and that have no deadline or there is more than 24 hours until the deadline. |
 |---|---|
-| `At Risk View`  |Displays all&nbsp;proofs for which the deadline is less than 24 hours. |
-| `Late View`  |Lists all&nbsp;proofs in which not all actions are completed&nbsp;for which the deadline is already breached. |
-| `Recent view`  |Includes the proofs&nbsp;that have been recently accessed by you&nbsp;and that&nbsp;you own, have permissions to see as per your profile permissions and that were shared with you.&nbsp;This view shows&nbsp;only the proofs&nbsp;that you yourself have opened (either via&nbsp;the Workfront Proof Viewer or via the Proof details page). |
-| `Email link`  |To open a proof from your email, simply open the email in your email app, click on the Go to proof button link in the email (1) and you will be taken to the proof in the Workfront Proof app. |
+| **At Risk View** |Displays all&nbsp;proofs for which the deadline is less than 24 hours. |
+| **Late View** |Lists all&nbsp;proofs in which not all actions are completed&nbsp;for which the deadline is already breached. |
+| **Recent view** |Includes the proofs&nbsp;that have been recently accessed by you&nbsp;and that&nbsp;you own, have permissions to see as per your profile permissions and that were shared with you.&nbsp;This view shows&nbsp;only the proofs&nbsp;that you yourself have opened (either via&nbsp;the Workfront Proof Viewer or via the Proof details page). |
+| **Email link** |To open a proof from your email, simply open the email in your email app, click on the Go to proof button link in the email (1) and you will be taken to the proof in the Workfront Proof app. |
 
 ## Review a static proof in the app
 
@@ -83,7 +82,7 @@ When you open a proof in the mobile&nbsp;app, you can do the following:
 
 ## Add comments and replies
 
-1. When you have opened a proof, tap the `Add comment` button (1).
+1. When you have opened a proof, tap the **Add comment** button (1).
 
    ![tap_the_comment_button.png](assets/tap-the-comment-button-350x541.png)
 
@@ -91,7 +90,7 @@ When you open a proof in the mobile&nbsp;app, you can do the following:
 
    ![add_a_comment.png](assets/add-a-comment-350x543.png)
 
-1. Click `Save`.
+1. Click **Save**.
 
 ## Read and reply to comments
 
@@ -102,7 +101,7 @@ When you open a proof in the mobile&nbsp;app, you can do the following:
 
 1. Do any of the following:
 
-  * To reply to a comment, tap the `Reply` button (3).
+  * To reply to a comment, tap the **Reply** button (3).
   * To go back to the proof image, tap the callout icon.
   * To view the full comment and its replies, tap on the comment itself.
 
@@ -111,9 +110,9 @@ When you open a proof in the mobile&nbsp;app, you can do the following:
   * To apply an action on a comment:
 
     1. Open a comment.
-    1. Tap `Reply`.
+    1. Tap **Reply**.
     1. Open the actions menu on the right side of the text field (1).
-    1. Tap `Add action` (2).
+    1. Tap **Add action** (2).
 
        ![actions_on_comments.png](assets/actions-on-comments-350x543.png)
 
@@ -123,7 +122,7 @@ When you open a proof in the mobile&nbsp;app, you can do the following:
 
 You can&nbsp;add a markup (such as a box highlighting an area on the proof) and type a comment that is attached to the markup. You can also make a comment without adding a mark-up.&nbsp;And you can add multiple mark-ups to a single comment.&nbsp;
 
-1. On a proof you have opened, tap `Add comment`&nbsp;(1).
+1. On a proof you have opened, tap **Add comment**&nbsp;(1).
 
    ![tap_the_add_comment_button.png](assets/tap-the-add-comment-button-350x541.png)
 
@@ -135,7 +134,7 @@ You can&nbsp;add a markup (such as a box highlighting an area on the proof) and 
 
    You don't have to add text to save your markup (7).
 
-1. Tap `Cancel` (8) if you want to discard your markup .
+1. Tap **Cancel** (8) if you want to discard your markup .
 
    ![adding_a_markup.png](assets/adding-a-markup-350x543.png)
 
@@ -150,7 +149,7 @@ You can&nbsp;add a markup (such as a box highlighting an area on the proof) and 
    ![decision_button.png](assets/decision-button-350x542.png)
 
 1. Tap the decision you would like to submit (2).
-1. Tap `Save` to submit your decision.
+1. Tap **Save** to submit your decision.
 
    ![submit_decision.png](assets/submit-decision-350x543.png)
 
@@ -165,7 +164,7 @@ You can&nbsp;add a markup (such as a box highlighting an area on the proof) and 
    >  
    >
 
-   If you have already submitted a decision and you want to change it or remove it, you can easily do so. After sumitting a decision, a new option,  `Remove my decision` (6), appears on the Submit your decision screen.
+   If you have already submitted a decision and you want to change it or remove it, you can easily do so. After sumitting a decision, a new option,&nbsp;**Remove my decision** (6), appears on the Submit your decision screen.
 
    ![remove_decision.png](assets/remove-decision-350x543.png)
 
@@ -175,12 +174,12 @@ Reviewing an audio-video proof in the iOS app is just as simple as reviewing a s
 
 1. Tap on the play/pause button to play or pause the video (1).
 1. To navigate the video, tap the navigation bar (2).
-1. To leave a comment, tap the `Comment` button (3), then follow the instructions described&nbsp;above.
+1. To leave a comment, tap the **Comment** button (3), then follow the instructions described&nbsp;above.
 
    Any comments or markups left on the proof will be marked by pins along the navigation bar (4).
 
-1. If you would like to review the comments left on the proof, tap the `Comments` button (5), then follow the instructions described above.
-1. To make a decision, tap the `Decision` button (6), then follow the instructions above.
+1. If you would like to review the comments left on the proof, tap the **Comments** button (5), then follow the instructions described above.
+1. To make a decision, tap the **Decision** button (6), then follow the instructions above.
 
    ![AV_proof.png](assets/av-proof-350x545.png)
 

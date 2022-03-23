@@ -48,23 +48,23 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) To export only specific items in a list, select all items in the list that you want in the exported file.
 
-   ` `**Tips: **`` To locate all of the items that you want to include, you can:
+   ``` ```**Tips: **`````` To locate all of the items that you want to include, you can:
 
-  * `Select to show All or 2000 items in the lists`: For more information, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
-  
-  * `Use the quick filter`: For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).  
-    The quick filter applies only to the current page of the list.
+   * **Select to show All or 2000 items in the lists**: For more information, see [Modify how a list displays](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md).
+   
+   * **Use the quick filter**: For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).  
+     The quick filter applies only to the current page of the list.
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Click `Export`.
+1. Click **Export**.
 1. Select from the following formats:
 
-  * PDF
-  * Excel
-  * Excel (xlsx)
-  * Tab Delimited  
-    `This exports a copy of the list to one of these formats and saves it on your computer.`
+   * PDF
+   * Excel
+   * Excel (xlsx)
+   * Tab Delimited  
+     ```This exports a copy of the list to one of these formats and saves it on your computer.```
 
 1. (Optional) Open the exported list using the appropriate application.  
    All the items in the list display in the exported file, whether they are displayed on the screen in the web application or not.

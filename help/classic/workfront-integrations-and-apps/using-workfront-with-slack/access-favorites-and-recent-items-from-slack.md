@@ -24,7 +24,10 @@ You must have the following:
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront licenses overview* Plan
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
+    <td> <p>Plan</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -71,7 +74,7 @@ Before you can access your favorites and recent items from Slack, you must
 
 * 
 
-1. (Optional) Click `Show more` to list more Favorites.
+1. (Optional) Click **Show more** to list more Favorites.
 1. Click the name of a favorite to open it in Workfront in a new browser tab.
 
 ## Access your recent items list from Slack
@@ -104,6 +107,6 @@ Before you can access your favorites and recent items from Slack, you must
    A list of your Recent Items displays, in the order they were accessed last, with the most recent at the top. The items are listed three at a time and are grouped by object type.  
    ![slack_recent_items.png](assets/slack-recent-items-350x249.png)
 
-1. (Optional) Click `Show more` to list more Recent Items.
+1. (Optional) Click **Show more** to list more Recent Items.
 1. (Optional)&nbsp;Click the name of an item you have recently accessed to open it in Workfront in a new browser tab.
 

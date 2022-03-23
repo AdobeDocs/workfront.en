@@ -1,12 +1,4 @@
----
-filename: grant-access-goals
-title: Grant access to documents
-user-type: administrator
-product-area: system-administration;documents
-navigation-topic: configure-access-to-workfront
-title: Grant access to Adobe Workfront Goals
-description: As an Adobe Workfront administrator, you can use an access level to define a user’s access to Adobe Workfront Goals, as explained in Access levels overview.
----
+
 
 # Grant access to Adobe Workfront Goals
 
@@ -46,7 +38,7 @@ For additional information about access to Workfront Goals, see Requirements to 
 ## Grant user access to Workfront Goals using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the option to the right of `Goals` that you want to use for this access level.
+1. Click the option to the right of **Goals** that you want to use for this access level.
 
    ![](assets/edit-access-level-goals-350x139.png)
 

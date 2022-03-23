@@ -63,7 +63,9 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 For more information on access levels, see [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -79,7 +81,9 @@ For more information on access levels, see [How access levels work](../../admini
 
 A BreadCrumb object represents an element in the parent/child hierarchy of a Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -97,7 +101,9 @@ A BurndownEvent object represents an object that changes the bundown of an itera
 
 For more information on burndown, see [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -114,7 +120,9 @@ For more information on burndown, see [Burndown](../../agile/use-scrum-in-an-agi
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -150,7 +158,9 @@ A DocumentVersion object represents a specific version of a file (such as writte
 
 For more information about document versions, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -174,7 +184,9 @@ A Group object represents a set of users and teams. Groups often represent depar
 
 For more information on groups, see [Groups vs. teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Actions</p> </td> 
@@ -192,7 +204,9 @@ The JournalEntry object can be set up to log information about specific object f
 
 The JournalEntry resource added the flag REPORTABLE.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -219,7 +233,9 @@ Adobe Workfront administrators or group administrators can create templates to c
 
 For the object that represents layout templates in the new Adobe Workfront experience, see [UITemplate](#uitempla)
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -237,7 +253,9 @@ A LinkedFolder object represents a folder linked from an external document provi
 
 For more information on Linked Folders, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -256,7 +274,9 @@ For more information on Linked Folders, see [Link documents from external applic
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Search Fields</p> </td> 
@@ -272,14 +292,16 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
    <td> 
     <ul> 
      <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
-       Removed flag NOT FILTERABLE
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
       --> </li> 
     </ul> </td> 
   </tr> 
@@ -290,7 +312,9 @@ Projects are work items within Workfront, and are a main building block in the w
 
 A ProofApproval object represents an approval that is directly connected to a proof.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -332,7 +356,9 @@ For more information on Request Queues, see [Create a Request Queue](../../manag
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Search Fields</p> </td> 
@@ -348,7 +374,9 @@ A Task object represents a work item that must be performed as a step toward ach
 
 A Team object is a collection of Users that can be assigned to a work item.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -371,7 +399,9 @@ A Team object is a collection of Users that can be assigned to a work item.
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -394,7 +424,9 @@ A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter
 
 A&nbsp;Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -474,7 +506,9 @@ The UserDelegation object added the flag REPORTABLE.
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Search Fields</p> </td> 

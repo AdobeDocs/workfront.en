@@ -48,13 +48,20 @@ You must have the following access to manually update tasks:
 When you are updating a task status, you can also type an explanation about the new status and change other task information such as the due date.
 
 1. Go to a task that you are assigned to for which you want to update the status.
-1. Click the Status drop-down menu in the task details area, and select the new status. 
-1. (Optional) Do any of the following to provide additional information about the update, then click `Update` or, if the task has the `Complete` status, click `Done:`
+1. Click the **Status** drop-down menu in the task details area, and select the new status. 
 
-  * To add a note about the update, go to the `Updates` taband click `Start a new update`, then type your note.  
+1. Due on
+1. 
+1. 
+1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the task has the **Complete** status, click **Done:**
 
-  * To notify certain users about the update, type their names in the `Notify` box that appears when you type a note about the update.
-  * To update the condition of the task, click `Select Condition` to the right of the `Notify` box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   * To add a note about the update, go to the **Updates** tab and click **Start a new update**, then type your note.  
+
+   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update.
+   * To update the condition of the task, click **Select Condition** to the right of the **Notify** box (these appear when you type a note about the update), then select the condition that best reflects the current condition of the task.
+   
+   * 
+   *
 
 ## Automatically update task status
 
@@ -64,8 +71,31 @@ Workfront automatically updates the existing status of a task to a different sta
 >
 >The statuses in the following table are default system statuses. Your Workfront administrator or a group administrator can rename the statuses in your instance of Workfront. For information about creating and managing statuses in Workfront, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-| Action |Original Status |New Status |
-|---|---|---|
-| Update the task percent complete to 100% |New or In Progress |Complete |
-| Update the task percent complete from 100% to a lower number |Complete |In Progress |
+<table cellspacing="15"> 
+ <col> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Action</td> 
+   <td>Original Status</td> 
+   <td>New Status</td> 
+  </tr> 
+  <tr> 
+   <td>Update the task percent complete to 100%</td> 
+   <td>New or In Progress</td> 
+   <td>Complete</td> 
+  </tr> 
+  <tr> 
+   <td>Update the task percent complete from 100% to a lower number</td> 
+   <td>Complete</td> 
+   <td>In Progress</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td><span>Click the Start Task button to accept working on a task assigned to you</span> </td> 
+   <td><span>New</span> </td> 
+   <td> <p>Any status associated with the Start Task button in your Home Team settings.</p> <p>For information about replacing the Work On It button with a Start Task button, see <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a></span>.</p> <p>Tip: <span>Clicking</span> Actually, I'm not ready to startafter clicking Start Task reverts the status to New. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 

@@ -20,8 +20,8 @@ The Planned Completion Dates of issues do not affect the Planned Completion&nbsp
 >
 >* The&nbsp;Commit Date is the date by which the person assigned to the issue manually estimates that they will have completed the issue. For more information see the following articles:
 >
->  * [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) 
->  * [Interactions between the Commit Date and the Planned Completion Date](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
+>   * [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md) 
+>   * [Interactions between the Commit Date and the Planned Completion Date](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md).
 >
 >* The Projected Completion Date is a date calculated by Workfront that takes into account external factors to determine a real-life date for when the issue can be realistically completed. For more information, see [Overview of the Projected Completion Date for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 >
@@ -34,7 +34,8 @@ You can manually set the Planned Completion Date&nbsp;of an issue in the followi
 
 * In the Edit Issue box or in the Issue Details area when creating or editing an issue.&nbsp;For information, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
 * In the Home area if the Planned Completion Date displays when viewing an issue. For information, see [Update or edit a work item in the Home area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
-* On the issue page, in the details section to the right of the issue. 
+* In the My Work area if the Planned Completion Date displays when viewing issues. You must use a Layout Template to add the Planned Completion Date in the My Work area. For information, see [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+* On the issue page, in the details section to the right of the issue.  
 * In an issue list or report when the Planned Completion Date field displays in the view.
 
   For information, see [Edit issues in a list](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
@@ -59,7 +60,7 @@ When set automatically, the Planned Completion Date&nbsp;is determined based on 
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 ```
 
-` `**Example: **`` For example, if your task has a start date of Friday, January 14 and the Default Duration is 5 Days, the Planned Completion Date is Friday, January 21, if the Project&nbsp;Schedule is Monday-Friday for 8 hours a day.
+``` ```**Example: **`````` For example, if your task has a start date of Friday, January 14 and the Default Duration is 5 Days, the Planned Completion Date is Friday, January 21, if the Project&nbsp;Schedule is Monday-Friday for 8 hours a day.
 
 The following situations exist:
 

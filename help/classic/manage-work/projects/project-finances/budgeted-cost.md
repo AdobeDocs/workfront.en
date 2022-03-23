@@ -19,20 +19,36 @@ You cannot manually change the Budgeted Cost of a project. Adobe Workfront calcu
 Budgeted Cost = Budgeted Labor Cost + Budgeted Expenses Cost + Fixed Cost of the project
 ```
 
-* The `Budgeted Labor Cost` in the calculation above is the cost associated with the job roles in the project.
-  When budgeting for resources, you must make a decision whether you are using the legacy or the new resource management tools. For more information about the resource management tools in Workfront, see the article Difference between Legacy Resource Planning and Planning. Depending which resource planning tools you are using to budget your resources, you can track Budgeted Labor Cost in the following areas of Workfront: 
+* The **Budgeted Labor Cost** in the calculation above is the cost associated with the job roles in the project.
+
+  <!--
+  When budgeting for resources, you must make a decision whether you are using the legacy or the new resource management tools.
+  <br>For more information about the resource management tools in Workfront, see the article
+  <a href="../../../resource-mgmt/resource-mgmt-overview/legacy-resource-planning-vs-planning.md" class="MCXref xref">Difference between Legacy Resource Planning and Planning</a>.
+  -->
+
+  <!--
+  Depending which resource planning tools you are using to budget your resources, you can track Budgeted Labor Cost in the following areas of Workfront:
+  -->
 
   You can track the Budgeted Labor Cost of a project in the following area of Workfront:
 
-  * Resource Budgeting area of the Business Case or the Resource Planner
+   * Resource Budgeting area of the Business Case or the Resource Planner
 
-  For information about Budgeted Labor Costs, see the article [Understand Budgeted Labor Cost and Budgeted Hours for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md). 
-  Important: Legacy resource planning tools are currently deprecated and will be removed from Workfront in the near future. You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments. 
+     <!--   
+     Legacy Resource Estimates area of the Business Case or the Capacity Planner   
+     -->
 
-* The `Budgeted Expenses Cost` in the calculation above is the Planned Cost associated with the expenses on the project, as they are calculated in the Expenses area of the Business Case or the Expenses tab of the project.  
+  For information about Budgeted Labor Costs, see the article [Understand Budgeted Labor Cost and Budgeted Hours for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+
+  <!--
+  <span class="autonumber"><span><b>Important: </b></span></span>Legacy resource planning tools are currently deprecated and will be removed from Workfront in the near future. You might not have access to this functionality because it is supported by Flash, which has been deprecated in most environments.
+  -->
+
+* The **Budgeted Expenses Cost** in the calculation above is the Planned Cost associated with the expenses on the project, as they are calculated in the Expenses area of the Business Case or the Expenses tab of the project.  
   For more information about Expenses on a project, see the article [Manage project expenses](../../../manage-work/projects/project-finances/manage-project-expenses.md).
 
-* The `Fixed Cost` in the calculation above is the fixed amount associated with the Cost of the project, as defined in the Financessub-tab in the Details tab of the project.  
+* The **Fixed Cost** in the calculation above is the fixed amount associated with the Cost of the project, as defined in the Finances sub-tab in the Details tab of the project.  
   For more information about the Finance sub-tab of a project, see the article [Manage information in the project Finance area](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 >[!NOTE]
@@ -66,9 +82,27 @@ You can view the following Budgeted Cost information in Workfront:
     <tr> 
      <td>Project Budgeted Cost</td> 
      <td> <!--
-       Resource Estimates report
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Resource Estimates report</p>
       --> <p>Project report</p> <p>Project (Financial Data) report</p> <p>Task report</p> <p>Issue report</p> <p>Budgeted Hour report</p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table>
+
+  <!--
+  <p>The Budgeted Cost as reflected in the Resource Estimates area of the Business Case or the Capacity Planner displays in the following areas of Workfront under the following names: </p>
+  <table cellspacing="15">
+  <col>
+  <col>
+  <tbody>
+  <tr>
+  <td>Budgeted Cost display name</td>
+  <td>Area of Workfront</td>
+  </tr>
+  <tr>
+  <td>Budgeted Cost</td>
+  <td> <p>Resource Estimates report</p> <p>Project report</p> <p>Project (Financial Data) report</p> <p>Task report</p> <p>Issue report</p> <p>Budgeted Hour report</p> <p>For more information about creating a report, see the article <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Create a custom report</a>.</p> </td>
+  </tr>
+  </tbody>
+  </table>
+  -->
 

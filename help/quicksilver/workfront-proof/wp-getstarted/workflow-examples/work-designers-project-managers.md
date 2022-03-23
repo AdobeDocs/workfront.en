@@ -28,7 +28,9 @@ When the designer needs to see comments and decisions made on a proof, he or she
   * Create a new version of the proof for the project manager.  
   
     <!--  
-    For more information, see .  
+    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">  
+    For more information, see&nbsp;.  
+    </MadCap:conditionalText>  
     -->
 
 1. The project manager reviews the proof and then shares it with the client. For more information, see [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
@@ -38,7 +40,9 @@ When the designer needs to see comments and decisions made on a proof, he or she
 1. The designer or project manager amends the file; if the designer then uploads it as a new version, Workfront Proof reassigns the ownership of the proof to the project manager. 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    For more information, see .
+   </MadCap:conditionalText>
    -->
 
 ## When the Designer Doesn't Need to See Proof Comments and Decisions
@@ -58,6 +62,8 @@ When it is not necessary for the designer to be involved in the Workfront Proof 
 1. If necessary, the designer amends the file and uploads it to Workfront Proof, where the project manager can create a new version for another round of proofing. 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    For more information, see .
+   </MadCap:conditionalText>
    -->
 

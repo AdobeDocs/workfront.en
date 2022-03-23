@@ -85,24 +85,24 @@ You can start preparing your import file by building a report of all users in Wo
    | SSO Username |Select the SSO Username field to ensure there are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
 
 1. Save the report. 
-1. Click `Export` at the top of the report and export the report to Excel. 
+1. Click **Export** at the top of the report and export the report to Excel. 
 1. Open the exported Excel file, and start adding your SSO Usernames for each user in the report in the SSO Username column.
 
    >[!IMPORTANT]
    >
    >SSO usernames are case-sensitive.
 
-1. Eliminate all columns in the Excel file, except for the `ID` and the `SSO Username` columns. 
+1. Eliminate all columns in the Excel file, except for the **ID** and the **SSO Username** columns. 
 
 1. Eliminate the column headers and ensure there are no blank rows at the top of the report.
 
    The file you are using for updating your Workfront users with the SSO usernames must contain just 2 columns, in this order:
 
-  * The first column should display the Workfront user ID (the user GUID as found in Workfront).
-  * The second column should contain the SSO Username, as it displays in your SSO system.
-  * The columns should have no headers, and there should not be any empty rows at the top of the list of names.
+   * The first column should display the Workfront user ID (the user GUID as found in Workfront).
+   * The second column should contain the SSO Username, as it displays in your SSO system.
+   * The columns should have no headers, and there should not be any empty rows at the top of the list of names.
 
-    ![](assets/update-users-for-sso-csv-file-for-import-350x47.png)
+     ![](assets/update-users-for-sso-csv-file-for-import-350x47.png)
 
 1. Save the report as a CSV or TSV file on your computer.
 
@@ -110,10 +110,10 @@ You can start preparing your import file by building a report of all users in Wo
 
 The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `System` then `Update Users For SSO`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **System** then **Update Users For SSO**.
 
-1. Click `Choose File` to browse for the file you prepared.
+1. Click **Choose File** to browse for the file you prepared.
 
    For more information about how to prepare this file, see [Prepare the import file](#preparing-the-import-file).
 
@@ -121,7 +121,7 @@ The process of updating users for SSO either adds the SSO Username field to your
 
    This enables all users to log in to Workfront using their SSO credentials.
 
-   The `Only Allow <SSO Configuration> Authentication` setting is enabled for all users included in the CSV. For more information about user settings, see [Update users for single sign-on](#).
+   The **Only Allow <SSO Configuration> Authentication** setting is enabled for all users included in the CSV. For more information about user settings, see [Update users for single sign-on](#).
 
 ## Verify SSO your users' Workfront usernames
 

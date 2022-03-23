@@ -47,12 +47,12 @@ For more information on creating reports, see [Create a report](../../../reports
 
 ## Filter a report by the time frame of a date
 
-1. Go to the Reports area on your Global Navigation Bar. 
-1. Click `New Report`, then select the type of report you want.  
-   For example, select `Hour Report`.
+1. Go to the **Reports** area on your Global Navigation Bar. 
+1. Click **New Report**, then select the type of report you want.  
+   For example, select **Hour Report**.
 
-1. Select the `Filters` tab.
-1. Click `Add a Filter Rule`, then select `Hour Entry Date`.  
+1. Select the **Filters** tab.
+1. Click **Add a Filter Rule**, then select **Hour Entry Date**.  
 
 1. In the following drop-down menu, select any of the following options:
 
@@ -100,7 +100,7 @@ For more information on creating reports, see [Create a report](../../../reports
    </table>
 
 1. These modifiers are available for any date field in a filter or a prompt in any report.  
-1. Click `Save + Close`.
+1. Click **Save + Close**.
 
 ## Built-in time frame modifiers
 

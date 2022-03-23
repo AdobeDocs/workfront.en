@@ -1,6 +1,6 @@
 
 
-# `Workfront Tools for AEM User Guide : Auto Publish Assets`
+# ```Workfront Tools for AEM User Guide : Auto Publish Assets```
 
 ## Access requirements
 
@@ -16,7 +16,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
   </tr> <!--
-   Adobe Workfront license* Work or higher
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Adobe Workfront license*</td> 
+    <td> <p>Work or higher</p> </td> 
+   </tr>
   --> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -37,10 +40,10 @@ You must have the following access to perform the steps in this article:
 
 * Automatically publish assets when sent from Adobe Workfront
 
-  * This option will enable automatic publishing of assets when they are sent from Workfront to AEM. This feature can be enabled conditionally by specifying a Workfront custom form field&nbsp; and the value it should be set to. Whenever a document is sent to AEM, if it satisfies the condition, then the asset will be automatically published.
+   * This option will enable automatic publishing of assets when they are sent from Workfront to AEM. This feature can be enabled conditionally by specifying a Workfront custom form field&nbsp; and the value it should be set to. Whenever a document is sent to AEM, if it satisfies the condition, then the asset will be automatically published.
 
 * Publish all project assets to Brand Portal upon project completion:
 
-  * This option will enable automatic publishing of assets to Brand Portal when the status of the Workfront project they belong to is changed to Complete.  
-    ![](assets/auto-publish-350x290.png)
+   * This option will enable automatic publishing of assets to Brand Portal when the status of the Workfront project they belong to is changed to Complete.  
+     ![](assets/auto-publish-350x290.png)
 

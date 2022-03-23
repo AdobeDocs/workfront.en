@@ -32,9 +32,27 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -67,12 +85,12 @@ Consider the following when working with Workfront notifications from Microsoft 
 
 To manage the Workfront notifications that you can receive in Microsoft Teams:
 
-1. Click the `More added` apps icon on the left navigation bar in Microsoft Teams.
+1. Click the **More added** apps icon on the left navigation bar in Microsoft Teams.
 
    ![](assets/ms-teams-more-added-apps-icon.png)
 
 1. Click Workfront in the list that appears.
-1. Select the `Settings`tab.
+1. Select the **Settings**tab.
 
    ![](assets/ms-teams-settings-tab-350x552.png)
 
@@ -91,25 +109,25 @@ To manage the Workfront notifications that you can receive in Microsoft Teams:
 1. Log in to Workfront from Microsoft Teams.  
    For information about logging in to Workfront, see [Install Adobe Workfront for Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).  
 
-1. Go to the `Chat` area and click the  `Workfront`bot&nbsp;channel.  
+1. Go to the **Chat** area and click the&nbsp;**Workfront**bot&nbsp;channel.  
    This channel is for your personal chat with the Workfront bot. All Workfront notifications display here.&nbsp;
 1. Depending on what type of notification you receive, proceed&nbsp;to the relevant section:
 
-  * [Approval notifications](#approval) 
-  * [Assignment notifications](#assignme) 
-  * [Comment notifications](#comment) 
-  * [Update notifications](#update) 
-  * [Date Change notifications](#date)
+   * [Approval notifications](#approval) 
+   * [Assignment notifications](#assignme) 
+   * [Comment notifications](#comment) 
+   * [Update notifications](#update) 
+   * [Date Change notifications](#date)
 
 ### Approval notifications
 
 You receive approval notifications when you are asked to approve an object, such as a task, timesheet, or proof. You can still comment on the notification, however.From the approval notification, you can perform the following actions:
 
-* `Approve`: Click to approve the item.
-* `Change`: Click to approve the item with changes. 
-* `Reject`: Click to reject the item.&nbsp;
-* `Comment`: Click to make a comment. Your comment also appears in Workfront as an update to the object that the notification is about. 
-* `Go to Proof`: Click to open the proof. You can then make a decision directly in the proof. For more information, see [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+* **Approve**: Click to approve the item.
+* **Change**: Click to approve the item with changes. 
+* **Reject**: Click to reject the item.&nbsp;
+* **Comment**: Click to make a comment. Your comment also appears in Workfront as an update to the object that the notification is about. 
+* **Go to Proof**: Click to open the proof. You can then make a decision directly in the proof. For more information, see [Make a decision on a proof in the proofing viewer](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
 >
@@ -246,11 +264,11 @@ You receive approval notifications when you are asked to approve an object, such
 
 You receive assignment notifications when you, or a team you are on, are assigned to a task or issue in Workfront. From the assignment notification, you can perform the following actions:
 
-* `Work on it`: Select to commit to work on the item. A notification displays briefly to confirm that a new item was added to your work list.
-* `View in Workfront`: Select to view the assigned issue or task in Workfront, which opens a new tab.
-* `Start`: Click to start work on the item. A&nbsp;notification displays briefly to confirm that a new item was added to your work list.&nbsp;
-* `Comment`: Click to make a comment on the item. Your comment also appears in the item's update stream in Workfront.
-* `Status`: Click, then select the new status for the work item from the drop-down menu.
+* **Work on it**: Select to commit to work on the item. A notification displays briefly to confirm that a new item was added to your work list.
+* **View in Workfront**: Select to view the assigned issue or task in Workfront, which opens a new tab.
+* **Start**: Click to start work on the item. A&nbsp;notification displays briefly to confirm that a new item was added to your work list.&nbsp;
+* **Comment**: Click to make a comment on the item. Your comment also appears in the item's update stream in Workfront.
+* **Status**: Click, then select the new status for the work item from the drop-down menu.
 
 #### Actions available on specific assignment notifications:
 
@@ -299,9 +317,9 @@ You receive assignment notifications when you, or a team you are on, are assigne
 
 You receive a communication notification when someone comments on an item you are associated with, or includes you in an update. From the communication notification, you can perform the following actions:
 
-* `Reply`: Click to reply to the comment or update. Your reply also appears in the update stream where the comment appears in Workfront.
-* `View in Workfront`: Select to view the comment and the item in Workfront, which is opened in a new tab.
-* `Status`: Click, then select a new status for the work item that the comment or update is about.
+* **Reply**: Click to reply to the comment or update. Your reply also appears in the update stream where the comment appears in Workfront.
+* **View in Workfront**: Select to view the comment and the item in Workfront, which is opened in a new tab.
+* **Status**: Click, then select a new status for the work item that the comment or update is about.
 
 #### Actions available on specific communication notifications:
 
@@ -364,9 +382,9 @@ You receive a communication notification when someone comments on an item you ar
 
 You receive an information notification when there is an update to an item you are associated with, but you do not need to take any action on the item. From the information notification, you can perform the following actions:
 
-* `Reply`: Click to reply to the update. Your reply also appears in the item's update stream in Workfront.
-* `View in Workfront`: Select to view the comment and the item in Workfront, which is opened in a new tab.
-* `Status`: Click, then select the new status for the item from the drop-down menu.
+* **Reply**: Click to reply to the update. Your reply also appears in the item's update stream in Workfront.
+* **View in Workfront**: Select to view the comment and the item in Workfront, which is opened in a new tab.
+* **Status**: Click, then select the new status for the item from the drop-down menu.
 
 #### Actions available on specific information notifications:
 
@@ -404,8 +422,8 @@ You receive an information notification when there is an update to an item you a
 
 You receive a date change notification when the date changes on a work item you are assigned to. From the date change notification, you can perform the following actions.
 
-* `Comment`: Click to make a comment on the item. Your comment also appears in the item's update stream in Workfront.
-* `Status`: Click, then select the new status for the work item from the drop-down menu.
+* **Comment**: Click to make a comment on the item. Your comment also appears in the item's update stream in Workfront.
+* **Status**: Click, then select the new status for the work item from the drop-down menu.
 
 <table cellspacing="0"> 
  <col> 

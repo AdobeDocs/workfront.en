@@ -38,9 +38,9 @@ As a project manager, you can use the Team Builder to assign users to your proje
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Icon</span> </p> </th> 
-   <th> <p><span class="bold">Name</span> </p> </th> 
-   <th> <p><span class="bold">Function</span> </p> </th> 
+   <th> <p><strong>Icon</strong> </p> </th> 
+   <th> <p><strong>Name</strong> </p> </th> 
+   <th> <p><strong>Function</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -103,43 +103,42 @@ The Preferences icon in the Team Builder allows you to customize your view and m
 
 When customizing your Team Builder view using Preferences, consider updating the following tabs:&nbsp;
 
-`User Fields:` Controls the information you see in the User panel. This tab allows you to select the fields of information that are displayed about team members and the order the columns appear in. Add a field from the Unused list to the Used list to display it. To reorder the columns, drag and drop the labels into order.  
+**User Fields:** Controls the information you see in the User panel. This tab allows you to select the fields of information that are displayed about team members and the order the columns appear in. Add a field from the Unused list to the Used list to display it. To reorder the columns, drag and drop the labels into order.  
 ![](assets/3-350x277.png)
 
-`Task Fields` `:` Controls the information you see in the Task panel. This tab allows you to select the field of information that are displayed about tasks and the order the columns appear in. Add a field from the Unused list to the Used list to display it. To reorder the columns, drag and drop the labels into order.  
+**Task Fields****:** Controls the information you see in the Task panel. This tab allows you to select the field of information that are displayed about tasks and the order the columns appear in. Add a field from the Unused list to the Used list to display it. To reorder the columns, drag and drop the labels into order.  
 ![Task_Fields.Team_Builder.png](assets/task-fields.team-builder-350x277.png)
 
-`Chart Indicators:` Identifies the information displayed in the Gantt chart that is located in the Task panel.  
+**Chart Indicators:** Identifies the information displayed in the Gantt chart that is located in the Task panel.  
 ![](assets/4-350x276.png)
 
-`Matching:` Activates the matching feature in Team Builder. When the matching feature is activated, team members who meet the conditions selected are highlighted when a task is selected. Also, when you select a user, the tasks the user can be assigned to are highlighted.
+**Matching:** Activates the matching feature in Team Builder. When the matching feature is activated, team members who meet the conditions selected are highlighted when a task is selected. Also, when you select a user, the tasks the user can be assigned to are highlighted.
 
 You can match users with a task based on the following criteria:
 
-* `Match on Team Role`: If the task is assigned to a role associated with the user on this project, the task and the user are highlighted in green. To find out the roles associated with a user on a specific project, see the Edit Project User Role icon in the Team Builder.&nbsp;
-* `Match on User Role`: If the task is assigned to any role associated with the user in the user profile, the task and the user are highlighted in green.
-* `Match on Planned Hours`: If a user is available to work the days and the amount of planned hours associated with the task, the task and the user are highlighted in green.&nbsp;
+* **Match on Team Role**: If the task is assigned to a role associated with the user on this project, the task and the user are highlighted in green. To find out the roles associated with a user on a specific project, see the Edit Project User Role icon in the Team Builder.&nbsp;
+* **Match on User Role**: If the task is assigned to any role associated with the user in the user profile, the task and the user are highlighted in green.
+* **Match on Planned Hours**: If a user is available to work the days and the amount of planned hours associated with the task, the task and the user are highlighted in green.&nbsp;
 
 We recommend that use Match on Planned Hours and Match on User Role. However, depending on the needs of your organization, a different option might be preferable.  
 ![](assets/5-350x285.png)
 
 ## Access the Team Builder
 
-1. Click `Projects` in the Global&nbsp;Navigation Bar.
-1. Click the  `Staffing` tab which might be located under the  `More` tab.
+1. Click **Projects** in the Global&nbsp;Navigation Bar.
+1. Click the&nbsp;**Staffing** tab&nbsp;which&nbsp;might be located under the&nbsp;**More** tab.
 
-1. The `Scheduling` sub-tab is the default sub-tab for the `Staffing` tab of a project.  
-   The project team scheduler displays on the `Scheduling` sub-tab by default.  
+1. The **Scheduling** sub-tab is the default sub-tab for the **Staffing** tab of a project.  
+   The project team scheduler displays on the **Scheduling** sub-tab by default.  
    For more information about the project team scheduler, see [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
 
-1. Click the `Team Scheduling Settings` icon in the upper-right corner of the project team scheduler.  
+1. Click the **Team Scheduling Settings** icon in the upper-right corner of the project team scheduler.  
    ![team_scheduling_settings_icon.png](assets/team-scheduling-settings-icon.png)
 
-1. Disable the `Use New Scheduling Area`&nbsp;option.  
+1. Disable the **Use New Scheduling Area**&nbsp;option.  
    ![Screen_Shot_2017-07-31_at_9.56.33_AM.png](assets/screen-shot-2017-07-31-at-9.56.33-am-350x383.png)
 
-1. Click `Save.  
-   `The `Team Builder` displays to replace the project team scheduler.
+1. Click **Save.**The **Team Builder** displays to replace the project team scheduler.
 
 ## Add users to a Project Team
 
@@ -150,13 +149,13 @@ You can manually add users to the project team by using the Team Builder.
 To add users to the project team in the Team Builder:
 
 1. Go to the Team Builder as described in [Access the Team Builder](#accessing-the-team-builder).
-1. Click the  `All` tab in the  `Users` panel to display all the active users in the system  
+1. Click the&nbsp;**All** tab in the&nbsp;**Users** panel to display all the active users in the system  
    Or  
-   Click the  `Group` tab in the  `Users` panel to display all the users in the group associated with the project.  
+   Click the&nbsp;**Group** tab in the&nbsp;**Users** panel to display all the users in the group associated with the project.  
    ![Add_user_tabs.png](assets/add-user-tabs-350x76.png)
 
-1. Select the name of the person you want to add to the team. This adds them to the  `Project Team` sub-tab.
-1. Click  `Save.`
+1. Select the name of the person you want to add to the team. This adds them to the&nbsp;**Project Team** sub-tab.
+1. Click&nbsp;**Save.**
 
 ## Assign users to a Task
 
@@ -173,12 +172,12 @@ To assign users to a task:
 1. Drag the task to the user to assign it to the user.  
    ![](assets/7-350x158.png)
 
-1. Click  `Save.`
+1. Click&nbsp;**Save.**
 
 ## Remove users from a Project Team using the Team Builder
 
 1. Go to the Team Builder as described in [Access the Team Builder](#accessing-the-team-builder).
-1. In the  `User` panel, deselect the user that you want to remove. 
-1. Click  `Save.`  
+1. In the&nbsp;**User** panel, deselect the user that you want to remove. 
+1. Click&nbsp;**Save.** 
    The user is removed from the project team.
 

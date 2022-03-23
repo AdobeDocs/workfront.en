@@ -21,7 +21,7 @@ The following prerequisites are required to run the tests:
 
 These tests also assume that your Document Webhook instance is registered. (You can register your instance in Workfront under Setup > Documents > Custom Integrations.)
 
-`Test 1: Provision the Document Webhook service for a user`
+**Test 1: Provision the Document Webhook service for a user**
 
 Tests the Authentication URL and Token Endpoint URL for OAuth-based Webhook providers.
 
@@ -30,7 +30,7 @@ Tests the Authentication URL and Token Endpoint URL for OAuth-based Webhook prov
 1. (OAuth services only) After completing the previous step, you will see your service’s OAuth2&nbsp;authentication page load in a popup window. (Note: you may be prompted to log in to your service first.) From the authentication page, grant Workfront access to the user’s account by clicking the Trust or Allow button.
 1. Verify your service has been added to the Add Documents drop-down. If you don’t see it initially, try&nbsp;refreshing your browser.
 
-`Test 2: Link a document into Workfront Tests the following endpoints: /files, /metadata`
+**Test 2: Link a document into Workfront Tests the following endpoints: /files, /metadata**
 
 1. In Workfront, Go to the main Documents page by clicking on the Documents link in the top&nbsp;navigation bar.
 1. Select your Document Webhook service under Add Documents.
@@ -38,7 +38,7 @@ Tests the Authentication URL and Token Endpoint URL for OAuth-based Webhook prov
 1. Verify that you are able to navigate the folder structure.
 1. Select and link a document into Workfront
 
-`Test 3: Navigate to a document in the content management system`
+**Test 3: Navigate to a document in the content management system**
 
 Tests the following endpoints: /metadata (specifically the viewLink)
 
@@ -46,7 +46,7 @@ Tests the following endpoints: /metadata (specifically the viewLink)
 1. Select the document and click the Open link.
 1. Verify that the document opens in a new tab.
 
-`Test 4: Navigate to a document in the content management system (with login)`
+**Test 4: Navigate to a document in the content management system (with login)**
 
 Tests the following endpoints: /metadata (specifically the viewLink)
 
@@ -56,7 +56,7 @@ Tests the following endpoints: /metadata (specifically the viewLink)
 1. Verify that content management system’s login screen loads in a new tab.
 1. Login and verify that you’re taken to the document
 
-`Test 5: Download the document from the content management system`
+**Test 5: Download the document from the content management system**
 
 Tests the following endpoints (specifically the download link): /metadata&nbsp;
 
@@ -64,7 +64,7 @@ Tests the following endpoints (specifically the download link): /metadata&nbsp;
 1. Select the document and click the Download link.
 1. Verify that the download begins.
 
-`Test 6: Search for content`
+**Test 6: Search for content**
 
 Tests the following endpoints: /search
 
@@ -73,7 +73,7 @@ Tests the following endpoints: /search
 1. From the modal, perform a search.
 1. Verify that the search results are correct.
 
-`Test 7: Send document from Workfront to content management system`
+**Test 7: Send document from Workfront to content management system**
 
 Tests the following endpoints: /files, /uploadInit, /upload
 
@@ -84,7 +84,7 @@ Tests the following endpoints: /files, /uploadInit, /upload
 1. Go to the desired destination folder and click the Save button.
 1. Verify that the document is uploaded to the correct location in the content management system.
 
-`Test 8: View Thumbnails in Workfront`
+**Test 8: View Thumbnails in Workfront**
 
 Tests the following endpoints: /thumbnail
 
@@ -92,7 +92,7 @@ Tests the following endpoints: /thumbnail
 1. Select the document in the list.
 1. Verify that the thumbnail appears in the right panel.
 
-`Test 9: Get the content bytes`
+**Test 9: Get the content bytes**
 
 Tests the following endpoints: /download
 
@@ -101,7 +101,7 @@ Tests the following endpoints: /download
 1. Send the document to Workfront by selecting Document Actions > Send To... > Workfront. This will&nbsp;create a new document version in Workfront.
 1. Download the document from Workfront by clicking on the Download link.
 
-`Test 10: Refresh access token (OAuth2 Webhook providers only)`
+**Test 10: Refresh access token (OAuth2 Webhook providers only)**
 
 Tests the following endpoints: Token Endpoint URL
 

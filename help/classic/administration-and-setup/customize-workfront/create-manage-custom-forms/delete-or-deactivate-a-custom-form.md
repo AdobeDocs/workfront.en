@@ -11,7 +11,7 @@ description: You can delete or deactivate a custom form from the system.
 
 You can delete or deactivate a custom form from the system.
 
-` `**Warning: **``Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
+``` ```**Warning: **``````Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
 
 ## Access requirements
 
@@ -20,11 +20,19 @@ You must have the following to perform the steps in this article:
 <table cellspacing="0"> 
  <col> 
  <col> 
- <tbody> Adobe Workfront plan* Any 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td>Any</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Plan </p> </td> 
-  </tr> Access level configurations* Administrative access to custom forms For information about how Workfront administrators grants this access, see Grant users administrative access to certain areas.  
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations*</td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -32,10 +40,10 @@ You must have the following to perform the steps in this article:
 
 ## Delete a custom form
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Custom Forms.`
-1. Select the custom form, then click `Delete`.
-1. If you are sure you want to permanently delete the custom form and all associated data on objects where it was attached, click `Yes, Delete It`.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Custom Forms.**
+1. Select the custom form, then click **Delete**.
+1. If you are sure you want to permanently delete the custom form and all associated data on objects where it was attached, click **Yes, Delete It**.
 
 ## Deactivate a custom form
 
@@ -47,9 +55,9 @@ If you re-activeate a custom form, it retains the settings it had before and use
 
 To deactivate a custom form:
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
 1. Click the name of the custom form you want to deactivate.
-1. Click the `Form Settings` tab.
-1. Disable the `Is Active` option.
-1. Click `Save + Close`.
+1. Click the **Form Settings** tab.
+1. Disable the **Is Active** option.
+1. Click **Save + Close**.
 

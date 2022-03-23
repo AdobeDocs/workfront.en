@@ -58,14 +58,14 @@ For a complete list of what email notifications have been enabled for a daily di
 
 There are several things to be aware of when receiving daily digest notifications:
 
-* Each notifications section in your `My Settings` panel generates its own daily digest email. You can have as many daily digest emails every day as notification settings that are enabled&nbsp;for daily digest emails.  
-  For example, if you selected to receive a daily digest email for several actions under the `Information about Projects I Own,`you receive one email notification listing all the events met for this area. 
+* Each notifications section in your **My Settings** panel generates its own daily digest email. You can have as many daily digest emails every day as notification settings that are enabled&nbsp;for daily digest emails.  
+  For example, if you selected to receive a daily digest email for several actions under the **Information about Projects I Own,**you receive one email notification listing all the events met for this area. 
 
-* Notifications in a daily digest email are grouped by various criteria. For example, in the case of `Information about Projects I Own`, the events are grouped by the project name.
+* Notifications in a daily digest email are grouped by various criteria. For example, in the case of **Information about Projects I Own**, the events are grouped by the project name.
 
-  For the `Communication` category, the notifications are grouped by the object where the communication happened.
+  For the **Communication** category, the notifications are grouped by the object where the communication happened.
 
-* The daily digest email lists events that happened for the actions in one particular area (like `Information about projects I Own`) within the 24 hours prior to the time chosen for delivery.
+* The daily digest email lists events that happened for the actions&nbsp;in one particular area (like **Information about projects I Own**) within the 24 hours prior to the time chosen for delivery.
 * The timezone for the time selected for daily digest delivery matches&nbsp;your timezone, as it is configured on your browser.
 * The daily digest emails have the name of the section in the subject line, as well as the date on which they are delivered.
 * At least one event must trigger a notification&nbsp;in order for the daily digest to be delivered. Daily digests are not sent if no events marked for daily digest emails are met.
@@ -131,7 +131,7 @@ There are other emails you might receive from Workfront which cannot be configur
 * Failed to be restored: When the Workfront administrator attempts to restore an object from the Recycle Bin, and the restore fails, an email is sent to the Workfront administrator.
 
   <!--
-  Global POP email configuration problem detected: This email is generated as a result of Workfront having trouble connecting to a POP account which is configured to allow users to reply to email notifications. For more information about how you can allow users to reply to Workfront email notifications, see . If Workfront connects to the POP account and it finds 10 emails in the POP account that are not related to comments in Workfront, it stops processing the rest of the emails and sends a notification to the Workfront administrator. For more information about the message sent when Workfront cannot process emails from the POP account, see the section in .
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Global POP email configuration problem detected: This email is generated as a result of Workfront having trouble connecting to a POP account which is configured to allow users to reply to email notifications. For more information about how you can allow users to reply to Workfront email notifications, see .<br>If Workfront connects to the&nbsp;POP account and it finds 10 emails in the POP account that are not&nbsp;related to comments in Workfront, it stops&nbsp;processing the rest of the emails and sends a notification to the Workfront administrator.<br>For more information about the message sent when Workfront cannot process emails from the POP account, see the section in .</li>
   -->
 
 The following emails can only be configured at the user profile level. They cannot be enabled or disabled&nbsp;at the system level:
@@ -140,7 +140,18 @@ The following emails can only be configured at the user profile level. They cann
 * Comment added to user: when someone comments on your user profile, you will receive an email.&nbsp;
 
 <!--
-Email notifications from Workfront Goals Your organization must have the following to use the functionality described in this article: A Pro or higher Adobe Workfront plan. An Adobe Workfront Goals license in addition to a Workfront license. Contact your Workfront account manager to learn about a Workfront Goals license. Workfront Goals is available only in the new Adobe Workfront experience. For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals. If you are a Workfront Goals user, you can configure notifications for yourself to receive communication about events happening in that area. For information, see Enable Adobe Workfront Goals notifications.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h3><a name="workfront-align"></a>Email notifications from Workfront Goals</h3>
+<div class="workfront_plans">
+<p>Your organization must have the following to use the functionality described in this article: </p>
+<ul>
+<li> <p>A Pro or higher <a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>. </p> </li>
+<li> <p>An Adobe Workfront Goals license in addition to a Workfront license.</p> <p>Contact your Workfront account manager to learn about a Workfront Goals license. </p> <p>Workfront Goals is available only in the new Adobe Workfront experience. </p> </li>
+</ul>
+<p>For additional information about access to Workfront Goals, see Requirements to use Adobe Workfront Goals.</p>
+</div>
+<p>If you are a Workfront Goals user, you can configure notifications for yourself to receive communication about events happening in that area. For information, see <a href="../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md" class="MCXref xref" xrefformat="{para}">Enable Adobe Workfront Goals notifications</a>.</p>
+</div>
 -->
 
 ## In-app notifications

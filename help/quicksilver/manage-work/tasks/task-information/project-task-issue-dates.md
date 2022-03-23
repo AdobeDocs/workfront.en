@@ -5,6 +5,7 @@ product-area: projects
 navigation-topic: task-information
 title: Overview of project, task, and issue dates
 description: Introduction about dates in WF
+hidefromtoc: true
 ---
 
 # Overview of project, task, and issue dates
@@ -23,9 +24,9 @@ The following table contains information about dates associated with projects, t
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">Date Name</span> </th> 
-   <th><span class="bold">Definition</span> </th> 
-   <th><span class="bold">Object</span> </th> 
+   <th><strong>Date Name</strong> </th> 
+   <th><strong>Definition</strong> </th> 
+   <th><strong>Object</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

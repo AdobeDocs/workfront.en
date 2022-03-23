@@ -23,9 +23,9 @@ The following table illustrates the removal timeline of the Legacy proofing view
  <col> 
  <thead> 
   <tr> 
-   <th><span class="bold">2018.2 (July 2018)</span> </th> 
-   <th><span class="bold">2018.3 (November 2018)</span> </th> 
-   <th><span class="bold">19.1 Release and Later</span> </th> 
+   <th><strong>2018.2 (July 2018)</strong> </th> 
+   <th><strong>2018.3 (November 2018)</strong> </th> 
+   <th><strong>19.1 Release and Later</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 

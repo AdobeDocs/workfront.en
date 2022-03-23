@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -59,14 +70,14 @@ To use Bynder modules, you must have a Bynder account.
 
 You can create a connection from Workfront Fusion to your Bynder account directly from inside a Bynder module.
 
-1. In any Bynder module, click `Add`next to the Connection field.
+1. In any Bynder module, click **Add**next to the Connection field.
 1. Select the Bynder domain that you want to connect to.
-1. (Optional) Click `Advanced settings`, then enter your Client ID and Client Secret.
+1. (Optional) Click **Advanced settings**, then enter your Client ID and Client Secret.
 
    For instructions on generating the Client ID and Client Secret, see [Generate a Client ID and Client Secret in Bynder (Optional)](#generate) in this article.
 
 1. In the login window, enter your username (email address) and password.
-1. Click `Continue` to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ### Generate a Client ID and Client Secret in Bynder (Optional)
 
@@ -220,7 +231,7 @@ This action module adds one or more assets to a collection.
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to add to the collection, click <span class="bold">Add item</span>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to add to the collection, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -243,7 +254,7 @@ This action module removes one or more assets from a collection.
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to remove from the collection, click <span class="bold">Add item</span>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to remove from the collection, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -266,7 +277,7 @@ Add a tag to one or more assets
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to tag, click <span class="bold">Add item</span>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to tag, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,7 +300,7 @@ Remove a tag from one or more assets
   </tr> 
   <tr> 
    <td role="rowheader">Asset IDs</td> 
-   <td> <p>For each asset you want to remove a tag from, click <span class="bold">Add item</span>, then enter or map the asset ID.</p> </td> 
+   <td> <p>For each asset you want to remove a tag from, click <strong>Add item</strong>, then enter or map the asset ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -333,8 +344,8 @@ This action module uploads a single asset.
    <td role="rowheader">Save as</td> 
    <td> <p>Select how you want to save the file you are uploading.</p> 
     <ul> 
-     <li> <p><span class="bold">New asset</span> </p> <p>Select the fields and metaproperties that you want to enter information for, then enter the information into those fields.</p> <p>Enter or map the ID of the Brand you want to use for the uploaded asset.</p> </li> 
-     <li> <p><span class="bold">New asset version</span> </p> <p>Enter the ID of the asset that you are uploading a new version for.</p> </li> 
+     <li> <p><strong>New asset</strong> </p> <p>Select the fields and metaproperties that you want to enter information for, then enter the information into those fields.</p> <p>Enter or map the ID of the Brand you want to use for the uploaded asset.</p> </li> 
+     <li> <p><strong>New asset version</strong> </p> <p>Enter the ID of the asset that you are uploading a new version for.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -365,9 +376,9 @@ This search module retrieves all items of a specific type.
    <td role="rowheader">Record Type</td> 
    <td> <p>Select the type of record you want to list.</p> 
     <ul> 
-     <li> <p><span class="bold">Read all collections</span> </p> </li> 
-     <li> <p><span class="bold">Read information about all tags</span> </p> </li> 
-     <li> <p><span class="bold">Read all assets of a collection</span> </p> <p>Enter or map the ID&nbsp;of the collection that you want to list assets of.</p> </li> 
+     <li> <p><strong>Read all collections</strong> </p> </li> 
+     <li> <p><strong>Read information about all tags</strong> </p> </li> 
+     <li> <p><strong>Read all assets of a collection</strong> </p> <p>Enter or map the ID&nbsp;of the collection that you want to list assets of.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -397,9 +408,9 @@ This search module searches for assets base on criteria you supply.
    <td role="rowheader">Criteria</td> 
    <td> <p>Enter the search criteria. </p> 
     <ul> 
-     <li> <p><span class="bold">Field</span> </p> <p>Select the field that you want to use in your search</p> </li> 
-     <li> <p><span class="bold">Logical Operator</span> </p> <p>Select the operator that you want to use in your search.</p> </li> 
-     <li> <p><span class="bold">Value</span> </p> <p>Enter or map the value to look for in the selected field. The value type should be the same as the data type of the selected field. </p> <p>For more information on data types, see <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Item data types</a>.</p> </li> 
+     <li> <p><strong>Field</strong> </p> <p>Select the field that you want to use in your search</p> </li> 
+     <li> <p><strong>Logical Operator</strong> </p> <p>Select the operator that you want to use in your search.</p> </li> 
+     <li> <p><strong>Value</strong> </p> <p>Enter or map the value to look for in the selected field. The value type should be the same as the data type of the selected field. </p> <p>For more information on data types, see <a href="../../workfront-fusion/mapping/item-data-types.md" class="MCXref xref">Item data types</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -431,31 +442,33 @@ This search module searches for assets base on criteria you supply.
 
 This trigger module starts a scenario when an asset is created or updated.
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Connection</p> </td> 
    <td> <p>For instructions about connecting your Bynder account to Workfront Fusion, see <a href="#connect" class="MCXref xref">Connect Bynder to Workfront Fusion </a> in this article.</p> </td> 
   </tr> 
   <tr> <!--
-    Event type
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Event type</td>
    --> <!--
-    Select whether you want to start the scenario when a new asset is created or when an existing asset is updated.
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select whether you want to start the scenario when a new asset is created or when an existing asset is updated.</td>
    --> 
   </tr> 
   <tr> <!--
-    Collections
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Collections</td>
    --> 
    <td> <p>Select the collection that you want to watch for new assets. To watch all collections, leave this field empty.</p> </td> 
   </tr> 
   <tr> <!--
-    Outputs
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Outputs</td>
    --> <!--
-    Select the fields that you want to include in the output.
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the fields that you want to include in the output.</td>
    --> 
   </tr> 
   <tr> <!--
-    Limit
+    <td role="rowheader" data-mc-conditions="QuicksilverOrClassic.Draft mode">Limit</td>
    --> 
    <td> <p>Enter the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
   </tr> 

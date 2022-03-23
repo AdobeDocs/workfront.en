@@ -37,6 +37,18 @@ Consider the following when using the Fixed Dates constraint:
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-Use the Fixed Dates Task Constraint To update the Task Constraint to Finish No Later Than: Go to a task whose Task Constraint you want to update. Click the More icon next to the task name, then click Edit. In the Overview section, expand the Task Constraint drop-down menu. Select Fixed Dates. Specify a Planned Start Date. The task must start on this date. Specify a Planned Completion Date. The task must complete on this date. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="Use"></a>Use the Fixed Dates Task Constraint</h2>
+<p>To update the Task Constraint to Finish No Later Than:</p>
+<ol>
+<li value="1">Go to a task whose Task Constraint you want to update.</li>
+<li value="2"> Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>. </li>
+<li value="3">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</li>
+<li value="4"> <p>Select <strong>Fixed Dates</strong>.</p> </li>
+<li value="5"> <p>Specify a <strong>Planned Start Date</strong>.</p> <p>The task must start on this date. </p> </li>
+<li value="6"> <p>Specify a <strong>Planned Completion Date</strong>.</p> <p>The task must complete on this date. </p> </li>
+<li value="7">Click <strong>Save Changes</strong>.</li>
+</ol>
+</div>
 -->
 

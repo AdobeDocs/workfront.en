@@ -60,8 +60,8 @@ You must have the following access to perform the steps in this article:
 
 You can configure whether the BCWS is calculated in hours or costs by configuring how the Performance Index Method (PIM) of the project is calculated.
 
-1. Go to a project and click Project Details in the left panel.
-1. In the Finance area, locate the Performance Index Method field and double click it to edit it.  ![](assets/pim-options-hour-cost-based-350x144.png)
+1. Go to a project and click **Project Details** in the left panel.
+1. In the **Finance** area, locate the **Performance Index Method** field and double click it to edit it.  ![](assets/pim-options-hour-cost-based-350x144.png)
 
 1. Select from the following options:
 
@@ -69,7 +69,7 @@ You can configure whether the BCWS is calculated in hours or costs by configurin
    |---|---|
    | Cost-Based |Workfront calculates the BCWS using the Planned Cost of the tasks. |
 
-1. Click Save Changes. The BCWS of the tasks on the project is calculated using hours or costs.
+1. Click&nbsp;**Save Changes**. The BCWS of the tasks on the project is calculated using hours or costs.
 
 ## Calculate BCWS
 
@@ -104,13 +104,13 @@ Task BCWS = 20% x $10,000 = $2,000
 You can view the value of the Budgeted Cost of Work Scheduled in a report or list, by adding the BCWS column to your view.
 
 1. Go to a list of tasks or projects.
-1. Expand the `View` menu and select `New View` or `Customize View`.
+1. Expand the **View** menu and select **New View** or **Customize View**.
 
-1. Click `Add Column`.
-1. In the `Show in this column:` field start typing `BCWS` and click to select it when it displays in the list.
+1. Click **Add Column**.
+1. In the **Show in this column:** field start typing **BCWS** and click to select it when it displays in the list.
 
    ![](assets/bcws-in-project-view.png)
 
-1. Click `Save View`.
-1. The `BCWS` field displays in the view.
+1. Click **Save View**.
+1. The **BCWS** field displays in the view.
 

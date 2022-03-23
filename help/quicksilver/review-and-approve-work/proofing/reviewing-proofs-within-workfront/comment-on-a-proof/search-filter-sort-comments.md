@@ -43,11 +43,11 @@ You must have the following access to perform the steps in this article:
 
 You can search the comment list for text contained in the comment itself, comment number, or the use who made the comment.
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
-1. Find the proof you need, then click `Open proof`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
+1. Find the proof you need, then click **Open proof**.
 
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. Click the `Search` icon to display the search box.  
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. Click the **Search** icon to display the search box.  
 
 1. Begin typing either of the following:
 
@@ -63,48 +63,50 @@ You can search the comment list for text contained in the comment itself, commen
 You can filter the comments that display by defining filter parameter such as user, actions, unread status, and more.
 
 1. Open the proof where you want to filter comments.
-1. (Conditional) If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.
-1. In the comments area, click the `Filter` icon.
+1. (Conditional) If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.
+1. In the comments area, click the **Filter** icon.
 
    ![proof_comment_filter.png](assets/proof-comment-filter.png)
 
-1. Use the options that appear below the `Filter` icon to filter the comments by any of the following criteria:
+1. Use the options that appear below the **Filter** icon to filter the comments by any of the following criteria:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Authors</span> </td> 
+      <td role="rowheader"><strong>Authors</strong> </td> 
       <td>Displays only comments and comment replies made by users you specify. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Actions</span> </td> 
-      <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.Configure default proof settings</td> 
+      <td role="rowheader"><strong>Actions</strong> </td> 
+      <td>Displays only comments that match the action you select.n no action. Actions must be enabled in your system. For more information, see <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md" class="MCXref xref">Configure proof settings for your organization</a>.<!-- 
+        <a href="../../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md" class="MCXref xref">Configure default proof settings</a>
+       --></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">General filtering options</span> </td> 
+      <td role="rowheader"><strong>General filtering options</strong> </td> 
       <td> 
        <ul> 
-        <li><span class="bold">Unresolved</span>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
-        <li><span class="bold">Unread</span>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
-        <li><span class="bold">With attachments</span>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
-        <li><span class="bold">Current page only</span>:Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.&nbsp;Available only for static and interactive proofs.</li> 
+        <li><strong>Unresolved</strong>:&nbsp;Displays only comments that are not yet resolved.&nbsp;</li> 
+        <li><strong>Unread</strong>:&nbsp;Displays only comments that you have not yet read.&nbsp;</li> 
+        <li><strong>With attachments</strong>:&nbsp;Displays only comments that contain an attachment, or comments that include a reply that contain an attachment.</li> 
+        <li><strong>Current page only</strong>:Displays only comments from the page you are currently viewing. The comment list refreshes when you change the visible page.&nbsp;Available only for static and interactive proofs.</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Apply` or click the `Filter` icon to view the comment list with your filter criteria applied. The Filter icon displays with a blue dot to indicate that a filter is applied.
+1. Click **Apply**&nbsp;or click the **Filter** icon to view the comment list with your filter criteria applied. The Filter icon displays with a blue dot to indicate that a filter is applied.
 
-1. When you are finished filtering and you want to see all the comments, click the `Filter` icon, click `Reset`, then click the `Filter` icon again.
+1. When you are finished filtering and you want to see all the comments, click the **Filter** icon, click **Reset**, then click the **Filter** icon again.
 
 ## Sort the comment list
 
 When you sort the comment list, the sort option you choose is remembered the next time you open a proof in the proofing viewer you are using.
 
 1. Open the proof where you want to sort comments.
-1. If the comments area is not open, click  `View comments`&nbsp;in the upper-right corner.  
+1. If the comments area is not open, click&nbsp;**View comments**&nbsp;in the upper-right corner.  
 
 1. Click the sorting&nbsp;menu to open it.
 1. ![](assets/mceclip3.png)   
@@ -152,7 +154,7 @@ When you sort the comment list, the sort option you choose is remembered the nex
       <td>Available only for video proofs.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Device (up)</span> </td> 
+      <td role="rowheader"><strong>Device (up)</strong> </td> 
       <td>Displays comments in order according to the device selected when the comment was made. Comments made on lower resolutions display first.</td> 
       <td>Available only for interactive proofs.</td> 
      </tr> 

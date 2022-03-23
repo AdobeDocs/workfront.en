@@ -22,7 +22,9 @@ The following resources are new in Workfront API version 12.
 A BreadCrumb object represents an element in the parent/child hierarchy of an Adobe Workfront work item. Breadcrumbs indicate how a work item fits into the greater structure of Portfolios, Projects, Projects, and Tasks.
 
 <table cellspacing="15"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
   <tr> 
@@ -42,7 +44,9 @@ Rich text fields are now available on more objects. The RichTextParameterValue o
 For more information, see [Rich text fields in the Adobe Workfront API](../../wf-api/general/rich-text-field-api.md).
 
 <table cellspacing="15"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
   <tr> 
@@ -127,18 +131,20 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 For more information on access levels, see [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table cellspacing="15"> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> <!--
+  <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
  --> 
  <tbody> 
   <tr> <!--
-    Direct Fields
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Direct Fields</td>
    --> 
    <td> 
     <ul> 
      <li style="font-weight: bold;"> <!--
-       fieldAccessPrivileges
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">fieldAccessPrivileges</p>
       --> <!--
-       Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.
+       <p style="font-weight: normal;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Added the possible value CPJ (Copy). This allows Users with Planner Access Level to copy Projects.</p>
       --> </li> 
     </ul> </td> 
   </tr> 
@@ -149,62 +155,68 @@ For more information on access levels, see [How access levels work](../../admini
 
 An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">coreAction</span> </p> <p>Added the following possibleValues:</p> 
+     <li> <p><strong>coreAction</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">forbiddenActions</span> </p> <p>Added the following possibleValues:</p> 
+     <li> <p><strong>forbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">secondaryActions</span> </p> <p>Added the following possibleValues:</p> 
+     <li> <p><strong>secondaryActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
     </ul> <!--
-     OR
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">OR</p>
     --> <!--
-     The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value PLANNED_HOURS_CONTOURING, which allows a user to update planned hours in the Workload Balancer</p>
     --> 
     <ul> 
      <li> <!--
-       coreAction
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
       --> </li> 
      <li> <!--
-       forbiddenActions
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
       --> </li> 
      <li> <!--
-       secondaryActions
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
       --> </li> 
     </ul> <!--
-     The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value ADD_TO_CUSTOM_FORMS, which allows a user to add fields to custom forms.</p>
     --> 
     <ul> 
      <li> <!--
-       coreAction
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">coreAction</p>
       --> </li> 
      <li> <!--
-       forbiddenActions
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">forbiddenActions</p>
       --> </li> 
      <li> <!--
-       secondaryActions
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">secondaryActions</p>
       --> </li> 
     </ul> <!--
-     The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The following fields added the possible value EDIT_SYSTEMWIDE, which allows a user to share a custom field system-wide with Delete access. </p>
     --> <!--
-     coreAction forbiddenActions secondaryActions
+     <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+      <li> <p>coreAction</p> </li> 
+      <li> <p>forbiddenActions</p> </li> 
+      <li> <p>secondaryActions</p> </li> 
+     </ul>
     --> </td> 
   </tr> 
  </tbody> 
@@ -214,7 +226,9 @@ An AccessLevelPermissions object represents a specific permission to access, cre
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -235,25 +249,27 @@ If a User does not have access to an object in Workfront that they need, they ca
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
    <td> 
     <ul> 
-     <li><span class="bold">coreAction</span> <p>Added the following possibleValues:</p> 
+     <li><strong>coreAction</strong> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">forbiddenActions</span> </p> <p>Added the following possibleValues:</p> 
+     <li> <p><strong>forbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">secondaryActions</span> </p> <p>Added the following possibleValues:</p> 
+     <li> <p><strong>secondaryActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
@@ -268,13 +284,15 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 An ActivityLog object is a complete list of all activity that has taken place in a given Workfront Proof account.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Operations</p> </td> 
    <td> <p>The following operation was removed from the ActivityLog object:</p> 
     <ul> 
-     <li> <p><span class="bold">ADD </span> </p> </li> 
+     <li> <p><strong>ADD</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -286,13 +304,15 @@ An AnnouncementAttachment object represents a file that has been attached to a W
 
 For more about announcement attachments, see [Send announcements](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">fileExtension</span> </p> <p>Added possible values:</p> 
+     <li> <p><strong>fileExtension</strong> </p> <p>Added possible values:</p> 
       <ul> 
        <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
        <li> <p>qslides (enum.fileextension.qslides)</p> </li> 
@@ -307,25 +327,27 @@ For more about announcement attachments, see [Send announcements](../../administ
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">backlogOrder</span> </p> <p>Removed the following flags:</p> 
+     <li> <p><strong>backlogOrder</strong> </p> <p>Removed the following flags:</p> 
       <ul> 
        <li> <p>DYNAMIC,</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">groupID</span> </p> <p>Added the following flags</p> 
+     <li> <p><strong>groupID</strong> </p> <p>Added the following flags</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
        <li> <p>DYNAMIC,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
       <ul> 
        <li> <p>1 (Small)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 
@@ -342,7 +364,9 @@ A Calendar Section is a calendar report.
 
 For more information on calendar reports, see [Calendar reports overview](../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -363,7 +387,9 @@ A Company object represents an organization consisting of a collection of people
 
 For more information on companies, see [Create and edit companies](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -386,13 +412,15 @@ For more information on companies, see [Create and edit companies](../../adminis
 
 A Customer object represents an organization that uses an instance of Workfront.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Actions</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: normal;"><span class="bold">productEnabled</span> </p> <p style="font-weight: normal;">This action takes a CustomerProductTypeEnum argument and returns a boolean that says whether that customer has an account for that product. </p> </li> 
+     <li> <p style="font-weight: normal;"><strong>productEnabled</strong> </p> <p style="font-weight: normal;">This action takes a CustomerProductTypeEnum argument and returns a boolean that says whether that customer has an account for that product. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -402,7 +430,9 @@ A Customer object represents an organization that uses an instance of Workfront.
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -422,7 +452,9 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Actions</td> 
@@ -440,7 +472,9 @@ A DocumentVersion object represents a specific version of a file (such as writte
 
 For more information about document versions, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -452,7 +486,7 @@ For more information about document versions, see [Upload a new version of a doc
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p style="font-weight: normal;"><span class="bold">proofDecision</span> </p> <p>Added</p> </li> 
+     <li> <p style="font-weight: normal;"><strong>proofDecision</strong> </p> <p>Added</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -475,7 +509,9 @@ For more information about document versions, see [Upload a new version of a doc
 
 A Group object represents a set of users and teams. Groups often represent departmental structure. 
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -495,14 +531,14 @@ A Group object represents a set of users and teams. Groups often represent depar
    <td>Actions</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">assignMultiple</span> </p> <p>This action takes the following arguments:</p> 
+     <li> <p><strong>assignMultiple</strong> </p> <p>This action takes the following arguments:</p> 
       <ul> 
        <li> <p>userIDs (string[])</p> </li> 
        <li> <p>roleIDs (string[])</p> </li> 
        <li> <p>teamID (string)</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">getGroupMembers</span> </p> </li> 
-     <li> <p><span class="bold">updateMembersList</span> </p> <p>This action takes the following arguments:</p> 
+     <li> <p><strong>getGroupMembers</strong> </p> </li> 
+     <li> <p><strong>updateMembersList</strong> </p> <p>This action takes the following arguments:</p> 
       <ul> 
        <li> <p>newMemberIDs (string[])</p> </li> 
        <li> <p>removedMemberDs (string[])</p> </li> 
@@ -518,7 +554,9 @@ A LinkedFolder object represents a folder linked from an external document provi
 
 For more information on Linked Folders, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td> <p>Direct Fields</p> </td> 
@@ -545,7 +583,7 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
    <td role="rowheader"> <p>Direct Fields</p> </td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">backlogOrder</span> </p> <p>Order indicates a task or story's position on the Agile backlog.</p> <p>This field removed the following flags:
+     <li> <p><strong>backlogOrder</strong> </p> <p>Order indicates a task or story's position on the Agile backlog.</p> <p>This field removed the following flags:
        <ul>
         <li>DYNAMIC,</li>
         <li>LAZY_READ,</li>
@@ -557,8 +595,8 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
    <td role="rowheader">Actions</td> 
    <td> <p>These actions added the argument status to support the new Start button functionality, which changes the status of a work item when a user clicks the button to indicate that they have begun work on the item.</p> <p>For more information, see <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> 
     <ul> 
-     <li> <p><span class="bold">acceptWork</span> </p> </li> 
-     <li> <p><span class="bold">unacceptWork</span> </p> </li> 
+     <li> <p><strong>acceptWork</strong> </p> </li> 
+     <li> <p><strong>unacceptWork</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -580,29 +618,29 @@ For more information on custom fields, see [Create or edit a custom form](../../
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">dataType</span> </p> <p>Added possible value:</p> 
+     <li> <p><strong>dataType</strong> </p> <p>Added possible value:</p> 
       <ul> 
        <li> <p>RICH (Rich Text)</p> <p>For more information, see <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich text fields in the Adobe Workfront API</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">displayType</span> </p> <p>Added possible value:</p> 
+     <li> <p><strong>displayType</strong> </p> <p>Added possible value:</p> 
       <ul> 
        <li> <p>RICH (Text Field with Formatting)</p> <p>For more information, see <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich text fields in the Adobe Workfront API</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">label</span> </p> <p>Added</p> </li> 
+     <li> <p><strong>label</strong> </p> <p>Added</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Collection Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">accessRules</span> </p> <p>Added</p> </li> 
+     <li> <p><strong>accessRules</strong> </p> <p>Added</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Default Fields</td> 
    <td> 
     <ul> 
-     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><span class="bold">label</span> </p> <p>Added</p> </li> 
+     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray"><strong>label</strong> </p> <p>Added</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -614,7 +652,9 @@ A Portfolio object is a collection of projects that compete for the same resourc
 
 For more information on portfolios, see [Portfolio overview in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -637,7 +677,9 @@ For more information on portfolios, see [Portfolio overview in Adobe Workfront](
 
 A Program object is a subset of projects within a portfolio, where similar projects can be grouped together.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -670,12 +712,12 @@ For more information on Request Queues, see [Create a Request Queue](../../manag
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li><span class="bold">requestorCoreAction</span> <p>Added the following possibleValues:</p> 
+     <li><strong>requestorCoreAction</strong> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
        <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
        <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for a custom field</a></p> </li> 
-      </ul> <li> <p><span class="bold">requestorForbiddenActions</span> </p> <p>Added the following possibleValues:</p> 
+      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
@@ -698,7 +740,7 @@ A ScheduledReport object represents a report that has been configured to be sche
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">format</span> </p> <p>Added possible values:</p> 
+     <li> <p><strong>format</strong> </p> <p>Added possible values:</p> 
       <ul> 
        <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
        <li> <p>qslides (enum.fileextension.qslides)</p> </li> 
@@ -715,7 +757,9 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
 
 For more information on Scorecard Questions, see [Create a scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
@@ -739,7 +783,7 @@ A Task object represents a work item that must be performed as a step toward ach
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
       <ul> 
        <li> <p>1 (Small)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 
@@ -751,8 +795,8 @@ A Task object represents a work item that must be performed as a step toward ach
    <td role="rowheader">Actions</td> 
    <td> <p>These actions added the argument status to support the new Start button functionality, which changes the status of a work item when a user clicks the button to indicate that they have begun work on the item.</p> <p>For more information, see <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> 
     <ul> 
-     <li> <p><span class="bold">acceptWork</span> </p> </li> 
-     <li> <p><span class="bold">unacceptWork</span> </p> </li> 
+     <li> <p><strong>acceptWork</strong> </p> </li> 
+     <li> <p><strong>unacceptWork</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -770,17 +814,17 @@ A Team object is a collection of Users that can be assigned to a work item.
    <td role="rowheader">Direct Fields</td> 
    <td> <p>The following fields were added to the Team resource:</p> 
     <ul> 
-     <li> <p><span class="bold">completeDaysOnKanbanBoard</span> </p> <p>This field represents the number of days that a completed card remains on the Kanban board.</p> <!--
-       For more information, see Configure Kanban.
+     <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>This field represents the number of days that a completed card remains on the Kanban board.</p> <!--
+       <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
       --> </li> 
-     <li> <p><span class="bold">groupID</span> </p> <p>This field associates a team with a group. This identifies the team as part of the group and allows the Group Administrator to manage the teams.</p> </li> 
-     <li> <p><span class="bold">workOnItStatusChange</span> </p> <p>This is a boolean parameter that indicates whether the team's Work on It button has been configured as a Start button. When a member of the team clicks a Start button to begin work on a work item, the item's status changes from New to a status configured in the team settings.</p> </li> 
+     <li> <p><strong>groupID</strong> </p> <p>This field associates a team with a group. This identifies the team as part of the group and allows the Group Administrator to manage the teams.</p> </li> 
+     <li> <p><strong>workOnItStatusChange</strong> </p> <p>This is a boolean parameter that indicates whether the team's Work on It button has been configured as a Start button. When a member of the team clicks a Start button to begin work on a work item, the item's status changes from New to a status configured in the team settings.</p> </li> 
      <li> <p>The following fields allow you to specify custom statuses for the Start button on the individual work items.</p> 
       <ul> 
-       <li> <p><span class="bold">workOnItOpTaskBugReportStatuses</span> </p> </li> 
-       <li> <p><span class="bold">workOnItOpTaskChangeOrderStatuses</span> </p> </li> 
-       <li> <p><span class="bold">workOnItOpTaskIssueStatuses</span> </p> </li> 
-       <li> <p><span class="bold">workOnItOpTaskRequestStatuses</span> </p> <p><span class="bold">workOnItTaskStatuses</span> </p> </li> 
+       <li> <p><strong>workOnItOpTaskBugReportStatuses</strong> </p> </li> 
+       <li> <p><strong>workOnItOpTaskChangeOrderStatuses</strong> </p> </li> 
+       <li> <p><strong>workOnItOpTaskIssueStatuses</strong> </p> </li> 
+       <li> <p><strong>workOnItOpTaskRequestStatuses</strong> </p> <p><strong>workOnItTaskStatuses</strong> </p> </li> 
       </ul> <p>For more information on the Start button, see <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Replace the Work On It button with a Start button</a>.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -788,7 +832,7 @@ A Team object is a collection of Users that can be assigned to a work item.
    <td role="rowheader">Reference Fields</td> 
    <td> <p>The following field was added to the Team resource:</p> 
     <ul> 
-     <li> <p><span class="bold">group</span> </p> </li> 
+     <li> <p><strong>group</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -808,7 +852,7 @@ For more information on Template Tasks, see [Edit a template task](../../manage-
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
       <ul> 
        <li> <p>1 (Small)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 
@@ -833,7 +877,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
    <td role="rowheader">Core Fields</td> 
    <td> <p>The following field was removed from the Timesheet resource:</p> 
     <ul> 
-     <li> <p><span class="bold">objcode</span> </p> </li> 
+     <li> <p><strong>objcode</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -849,7 +893,7 @@ For more information on Timesheets, see [Timesheets overview](../../timesheets/t
    <td role="rowheader">Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">updateType</span> </p> <p>Added the following possible values:</p> 
+     <li> <p><strong>updateType</strong> </p> <p>Added the following possible values:</p> 
       <ul> 
        <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
        <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
@@ -871,8 +915,8 @@ A User object represents a person with an account in Workfront that can log in a
    <td role="rowheader">Direct Fields</td> 
    <td> <p>The following fields were added to the User resource:</p> 
     <ul> 
-     <li> <p><span class="bold">actualDeactivationDate</span> </p> <p>This represents the date and time that a user was deactivated.</p> <p>For more information on deactivated Users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
-     <li> <p><span class="bold">alignAccessType</span> </p> <p>This field shows the user's access to Workfront Goals. Possible values are:</p> 
+     <li> <p><strong>actualDeactivationDate</strong> </p> <p>This represents the date and time that a user was deactivated.</p> <p>For more information on deactivated Users, see <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deactivate a user</a>.</p> </li> 
+     <li> <p><strong>alignAccessType</strong> </p> <p>This field shows the user's access to Workfront Goals. Possible values are:</p> 
       <ul> 
        <li> <p>No access</p> </li> 
        <li> <p>View</p> </li> 
@@ -884,7 +928,7 @@ A User object represents a person with an account in Workfront that can log in a
    <td role="rowheader">Actions</td> 
    <td> <p>The following action was added to the User resource:</p> 
     <ul> 
-     <li> <p><span class="bold">getUserAccessPermissionsByObjCode</span> </p> <p>This action takes the following arguments</p> 
+     <li> <p><strong>getUserAccessPermissionsByObjCode</strong> </p> <p>This action takes the following arguments</p> 
       <ul> 
        <li> <p>ids (string)</p> </li> 
        <li> <p>objCode (string)</p> </li> 
@@ -898,25 +942,27 @@ A User object represents a person with an account in Workfront that can log in a
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
 
-<table cellspacing="15">   
+<table cellspacing="15"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Direct Fields</td> 
    <td> 
     <ul> 
-     <li> <p><span class="bold">backlogOrder</span> </p> <p>Order indicates a task or story's position on the Agile backlog.</p> <p>This field removed the following flags:</p> 
+     <li> <p><strong>backlogOrder</strong> </p> <p>Order indicates a task or story's position on the Agile backlog.</p> <p>This field removed the following flags:</p> 
       <ul> 
        <li> <p>DYNAMIC,</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">groupID</span> </p> <p>This field added the following flags:</p> 
+     <li> <p><strong>groupID</strong> </p> <p>This field added the following flags:</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
        <li> <p>DYNAMIC,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">workEffort</span> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>This field was added, and represents whether it takes a user a small, medium, or large amount of daily effort to complete a task. Possible values are:</p> 
       <ul> 
        <li> <p>1 (Small)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 

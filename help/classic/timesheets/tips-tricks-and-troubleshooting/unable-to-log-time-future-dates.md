@@ -21,10 +21,11 @@ Contact your Adobe Workfront administrator.
 
 System administrators&nbsp;can update this setting as follows:
 
-1. Expand `Timesheets & Hours`, then click  `Preferences`.
+1. Setup
+1. Expand **Timesheets & Hours**, then click&nbsp;**Preferences**.
 
-1. In the `General Preferences` section, select the `Log hours for future dates`.&nbsp;
+1. In the **General Preferences** section, select the **Log hours for future dates**.&nbsp;
 
-1. Click `Save`.
+1. Click **Save**.
 
 For more information about this and other option regarding timesheets and hours, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 Project managers understand that a CPI value of 1 means the project is exactly on budget. Values greater than 1 indicate a project is under budget (fewer hours or expenses have been recorded than originally planned), and values less than 1 mean a project is over budget (more hours or expenses have been recorded than originally planned). The further from 1, the greater deviation from the plan.
 
-| `CPI Value`  | `Indication on Budget`  |
+| **CPI Value** |**Indication on Budget** |
 |---|---|
 | 1 |On plan or budget |
 | > 1 (greater than 1) |Under budget |
@@ -64,7 +64,7 @@ In Adobe Workfront, the calculation for CPI depends on the Performance Index Met
 * [CPI calculations when using Hour-based PIM](#cpi-calculations-when-using-hour-based-pim) 
 * [CPI Calculations when using Cost-based PIM](#cpi-calculations-when-using-cost-based-pim)
 
-#### `CPI calculations when using Hour-based PIM`
+#### **CPI calculations when using Hour-based PIM**
 
 If 
 
@@ -78,24 +78,24 @@ Otherwise
 CPI = 1
 ```
 
-* `For a non-parent task:`
+* **For a non-parent task:**
 
   ```
   Total Budgeted Cost Work Performed = Planned Hours * (Percent Complete / 100)
   ```
 
-* `For a parent task:`   
+* **For a parent task:** 
   Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all direct child tasks.
 
-* `For a project:`   
+* **For a project:** 
   Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all top level tasks (parents and standalone tasks).
 
 For information about the total Budgeted Cost Work Performed (BCWP), see [Calculate Budgeted Cost Work Performed (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
-#### `CPI Calculations when using Cost-based PIM`
+#### **CPI Calculations when using Cost-based PIM**
 
 <!--
-CPI = (Planned Cost of Work Performed + Planned Cost of Incurred Expenses) / (Total Actual Cost + Actual Cost of Incurred Expenses)
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>CPI = (Planned Cost of Work Performed + Planned Cost of Incurred Expenses) / (Total Actual Cost + Actual Cost of Incurred Expenses)</code> </p>
 -->
 
 If 
@@ -128,16 +128,16 @@ The fields in this calculation are described below:
 
 The Total Budgeted Cost Work Performed is calculated for the following:<![CDATA[		]]>
 
-* <![CDATA[			]]> `For a non-parent task:`
+* <![CDATA[			]]>**For a non-parent task:**
 
   ```
   Total Budgeted Cost Work Performed = Planned Labor Cost * Percent Complete / 100
   ```
 
-* `For a parent task:`   
+* **For a parent task:** 
   Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all direct child tasks.
 
-* `For a project:`   
+* **For a project:** 
   Total Budgeted Cost Work Performed = the sum of the Total Budgeted Cost Work Performed field for all top level tasks.
 
 ## Locate CPI in a project or task
@@ -145,8 +145,11 @@ The Total Budgeted Cost Work Performed is calculated for the following:<![CDATA[
 You can display the CPI of a project or a task in a project or task list or report. In addition, you can view it at the project or task level.
 
 1. Go to the project or task where you want to view the CPI.
-1. Select the Project Details tab or the Task Details tab, depending on whether you are viewing CPI for a project or task. 
-1. Click `Finance`.
+1. Select the **Project Details** tab or the **Task Details** tab, depending on whether you are viewing CPI for a project or task. 
 
-   The CPI displays in the `CPI/ SPI/ CSI` field.
+1. Click **Finance**.
+
+   The CPI displays in the **CPI/ SPI/ CSI** field. 
+
+   ![](assets/cpi.png)
 

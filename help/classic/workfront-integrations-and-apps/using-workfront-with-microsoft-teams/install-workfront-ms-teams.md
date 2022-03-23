@@ -30,9 +30,27 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>Work, Plan</p> </td> 
   </tr> <!--
-   Access level configurations* [Insert any access level configurations needed] Example: Edit access to Documents Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see Create or modify custom access levels. You must be a Workfront administrator. For information on Workfront administrators, see Grant a user full administrative access. You must be a group administrator. For more information on group administrators, see Group administrators.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <p>[Insert any access level configurations needed] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: Edit access to Documents
+       </MadCap:conditionalText>
+      --></p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a group administrator. For more information on group administrators, see <a href="../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a>.</p>
+     --> </td> 
+   </tr>
   --> <!--
-   Object permissions [Insert permissions needed and specify the object] Example: View access or higher on Documents For information on requesting additional access, see Request access to objects in Adobe Workfront.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Object permissions</td> 
+    <td> <p>[Insert permissions needed and specify the object] <!--
+       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        Example: View access or higher on Documents
+       </MadCap:conditionalText>
+      --></p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -54,37 +72,37 @@ As a team owner in Microsoft Teams, you can install the Workfront for Microsoft 
 
 1. Log in to Microsoft Teams as a team owner.
 1. Select the team for whom you want to install the Workfront for Microsoft Teams app.&nbsp; 
-1. Click `Store`on the side navigation bar.
+1. Click **Store**on the side navigation bar.
 
    ![ms_teams_Store_icon.png](assets/ms-teams-store-icon-319x809.png)
 
-1. In the `Search all` box, type *Workfront*.  
+1. In the **Search all** box, type *Workfront*.  
 
-1. Click the `Workfront` card and follow the instructions in the wizard.
-1. (Recommended) Select a team from the `Add to a team` drop-down menu and enable the `Yes` option to add the app to a team.
+1. Click the **Workfront** card and follow the instructions in the wizard.
+1. (Recommended) Select a team from the **Add to a team** drop-down menu and enable the **Yes** option to add the app to a team.
 
    ![ms_teams_add_to_a_team_option.png](assets/ms-teams-add-to-a-team-option-350x122.png)
 
-1. Select `General` to use the app in that channel for the selected team, then click Set up.
+1. Select **General** to use the app in that channel for the selected team, then click Set up.
 
    ![teams_select_which_channel_to_use_the_app_install.PNG](assets/teams-select-which-channel-to-use-the-app-install-350x330.png)
 
 1. When the install completes,&nbsp;a notification that the install was successful appears in the General channel of the team you selected. All members of the team can see this notification.
 1. (Optional) Pin your Workfront app for easier access:
 
-  1. Click the `More` icon under the ``message&nbsp;field in the General channel.
-  
-  1. Mouse over the Workfront app in the list, then click the `More` icon to the right of it.
+   1. Click the **More** icon under the****message&nbsp;field in the General channel.
+   
+   1. Mouse over the Workfront app in the list, then click the **More** icon to the right of it.
 
-     ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
+      ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
-  1. Click `Pin`.
+   1. Click **Pin**.
 
-     This adds a Workfront icon under the chat field. You can quickly access the Search area from here.
+      This adds a Workfront icon under the chat field. You can quickly access the Search area from here.
 
-     For information about searching for Workfront items, see [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
+      For information about searching for Workfront items, see [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
 
-1. Click `Log in to Workfront` to access Workfront from Microsoft Teams.
+1. Click**Log in to Workfront** to access Workfront from Microsoft Teams.
 
    For information about logging in to Workfront, see the [Log in to Workfront from Microsoft Teams](#logging-in-to-workfront) section in this article.&nbsp;
 
@@ -98,22 +116,22 @@ To install Workfront for Microsoft Teams from a private file:
 
 1. Save the private file that you have received from Workfront on your computer.
 1. Log in to Microsoft Teams as a Microsoft team owner.
-1. Click the `More` icon for the team for which you want to install Workfront for Microsoft Teams.
+1. Click the **More** icon for the team for which you want to install Workfront for Microsoft Teams.
 
    ![ms_teams_more_icon_for_team.png](assets/ms-teams-more-icon-for-team-350x177.png)
 
-1. Click `Manage Team`.&nbsp;
-1. Select the `Apps` tab, then click `Upload a custom app` in the lower-right corner of the screen.&nbsp;
+1. Click **Manage Team**.&nbsp;
+1. Select the **Apps** tab, then click **Upload a custom app** in the lower-right corner of the screen.&nbsp;
 
 1. Browse for the private file that you saved on your computer, then follow the installation steps to install Workfront for Microsoft Teams.
 1. When the install completes, a notification that the install was successful appears in the General channel of the team you selected. All members of the team can see this notification.
-1. (Optional) Click the `More` icon under the `Type your questions here` field.
+1. (Optional) Click the **More** icon under the**Type your questions here** field.
 
-1. (Optional) Mouse over the Workfront app in the list, then click the `More` icon to the right of it.
+1. (Optional) Mouse over the Workfront app in the list, then click the **More** icon to the right of it.
 
    ![teams_pin_workfront_link.PNG](assets/teams-pin-workfront-link-350x80.png)
 
-1. (Optional) Click `Pin`.
+1. (Optional) Click **Pin**.
 
    This adds a Workfront icon under the Type your questions here field. You can quickly access the Search area from here.  
    For information about searching for Workfront items, see [Search for and share Adobe Workfront items in Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md).
@@ -130,17 +148,17 @@ For information about accessing Workfront from Microsoft Teams to perform certai
 
 To log in to Workfront from Microsoft Teams:
 
-1. Go to the `General` channel of the team where the Workfront for Microsoft Teams app has been installed and click `Log in to Workfront`.
+1. Go to the **General** channel of the team where the Workfront for Microsoft Teams app has been installed and click**Log in to Workfront**.
 
    The Workfront bot chat channel is added to your Microsoft Teams chat channels.
 
    ![teams_workfront_bot_channel_highlighted.PNG](assets/teams-workfront-bot-channel-highlighted-350x220.png)
 
-1. Go to the Workfront bot chat channel in Microsoft Teams and type *log in* in the `Type your questions here` field.
+1. Go to the Workfront bot chat channel in Microsoft Teams and type *log in* in the **Type your questions here** field.
 
    Or
 
-   Click `Log in`.
+   Click **Log in**.
 
    ![](assets/ms-teams-log-in-prompt-with-4-tabs-350x139.png)
 
@@ -151,11 +169,11 @@ To log in to Workfront from Microsoft Teams:
    >[!NOTE]
    >
    >
-   >  
-   >  
-   >  * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >  * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
-   >  
+   >   
+   >   
+   >   * When you are prompted to enter the domain of your Workfront account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+   >   * Enhanced Authentication is not available until a Workfront administrator enables it for this integration. 
+   >   
    >
 
 1. Close the browser tab you used to log in and return to Microsoft Teams.

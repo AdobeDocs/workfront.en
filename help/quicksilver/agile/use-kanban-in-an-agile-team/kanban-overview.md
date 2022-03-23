@@ -15,9 +15,9 @@ The following sections enable you to better understand how the Kanban board func
 
 The Kanban board consists of the following elements:
 
-`Backlog Column`: Displays all tasks that are currently on the backlog. This column is not displayed by default. For more information about the backlog, including how to display it on the Kanban board, see [Manage the agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+**Backlog Column**: Displays all tasks that are currently on the backlog. This column is not displayed by default. For more information about the backlog, including how to display it on the Kanban board, see [Manage the agile backlog](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
 
-`Story Statuses`: Indicates how a story is progressing based on which status column the story is in.
+**Story Statuses**: Indicates how a story is progressing based on which status column the story is in.
 
 For more information, see [Update the status of stories on the Kanban board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
@@ -25,7 +25,7 @@ Story statuses can be customized for the project by modifying the agile view, as
 
 >[!NOTE]
 >
->A maximum of fifty cards is displayed on the Kanban board by default, but you can click `Show More` to display additional cards.
+>A maximum of fifty cards is displayed on the Kanban board by default, but you can click **Show More** to display additional cards.
 
 ## Relationship between subtasks and stories
 
@@ -42,6 +42,8 @@ You can do the following actions when using the Kanban board:
 * [Add a subtask to an existing story on the Kanban board](../../agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md) 
 * [Add existing tasks or issues to the Kanban board](../../agile/use-kanban-in-an-agile-team/add-existing-tasks-or-issues-to-the-kanban-board.md) 
 * [Assign users to a story on the Kanban board](../../agile/use-kanban-in-an-agile-team/assign-users-to-a-story.md) 
+* Add stories and issues from the Kanban board
+* Delete stories or issues from the Kanban board
 * [Edit story information](../../agile/use-kanban-in-an-agile-team/edit-story-information.md) 
 * [Filter by user on the Kanban board](../../agile/use-kanban-in-an-agile-team/filter-by-user.md) 
 * [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md) 

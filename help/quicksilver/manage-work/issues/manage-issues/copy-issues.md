@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> <p>Review or higher license to copy an issue in the Issues sectionof a project.</p> </td> 
+   <td> <p>Request or higher</p> <p>Review or higher license to copy an issue in the Issues section of a project.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level*</td> 
@@ -56,14 +56,20 @@ You must have the following access to perform the steps in this article:
 
 Consider the following when copying issues that contain documents or are associated with a request queue:
 
-* `When an issue is associated with a request queue:` When you copy&nbsp;an issue to another object&nbsp;and the issue&nbsp;is associated with a request queue, the copied issue is no longer associated with the original queue&nbsp;the first issue originated from.
-* `When a document is attached to the issue:`&nbsp;When you copy&nbsp;an issue to another object&nbsp;and the issue has a document attached to it, the document and its versions also move to the new&nbsp;issue. Any proofs or approvals associated with the document do&nbsp;not move.
-* `When an issue is linked to a document or a folder:`&nbsp;When you copy an issue which has documents or folders linked to a third party service like Google Drive, the&nbsp;links to the documents transfer to the copied issue.&nbsp;
+* **When an issue is associated with a request queue:** When you copy&nbsp;an issue to another object&nbsp;and the issue&nbsp;is associated with a request queue, the copied issue is no longer associated with the original queue&nbsp;the first issue originated from.
+* **When a document is attached to the issue:**&nbsp;When you copy&nbsp;an issue to another object&nbsp;and the issue has a document attached to it, the document and its versions also move to the new&nbsp;issue. Any proofs or approvals associated with the document do&nbsp;not move.
+* **When an issue is linked to a document or a folder:**&nbsp;When you copy an issue which has documents or folders linked to a third party service like Google Drive, the&nbsp;links to the documents transfer to the copied issue.&nbsp;
 
 ## Copy issues in a list
 
 You can copy one or multiple issues from a list of issues or from an issue report. 
-Copying issues differs depending on what environment you use. Copy issues in a list in the Production environment Copy issues in a list in the Preview environment Copy issues in a list in the Production environment
+
+Copying issues differs depending on what environment you use.
+
+* [Copy issues in a list in the Production environment](#copy2) 
+* [Copy issues in a list in the Preview environment](#copy3)
+
+### Copy issues in a list in the Production&nbsp;environment
 
 1. Go to a project whose issues you want to copy.
 
@@ -71,10 +77,13 @@ Copying issues differs depending on what environment you use. Copy issues in a l
 
    Go to an issue report.
 
-1. If you selected to go to a project, click the Issues section, then select the issue or issues you want to copy.  
-1. Click the `More` drop-down menu  at the top of the issue list, then click `Copy` to. The `Copy Issue` or `Copy Issues` box displays. 
+1. If you selected to go to a project, click the **Issues** section, then select the issue or issues you want to copy.   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
 
-1. Specify the name of the project where you want to copy the issues in the `Select Destination Project` section.
+1. Click the **More**&nbsp;drop-down menu  at the top of the issue list, then click **Copy** **to**. ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+
+   The **Copy Issue** or **Copy Issues** box displays. 
+
+1. Specify&nbsp;the name of the project where you want to copy&nbsp;the issues in the **Select Destination Project** section.
 
    >[!TIP]
    >
@@ -82,38 +91,128 @@ Copying issues differs depending on what environment you use. Copy issues in a l
 
 1. Continue copying the issue as described in the section [Copy a single issue](#copy5) in this article, starting with Step 3.
 
-Copy issues in a list in the Preview environment Go to the project that contains the issue or issues that you want to copy. Or Go to an issue report. If you selected to go to a project, click Issues in the left panel. Select the issue or issues that you want to copy and click the More menu at the top of the issue list, then click Copy to. Continue with copying the issue, as described in the section Copy a single issue in the Preview environment starting with Step 4. 
+### Copy issues in a list in the Preview environment
+
+1. Go to the project that contains the issue or issues that you want to copy.
+
+   Or
+
+   Go to an issue report. 
+
+1. If you selected to go to a project, click **Issues** in the left panel. 
+1. Select the issue or issues that you want to copy and click the **More menu** at the top of the issue list, then click **Copy to**.
+
+   ![](assets/copy-issue-in-list-nwe-350x169.png)
+
+1. Continue with copying the issue, as described in the section [Copy a single issue in the Preview environment](#copy6) starting with Step 4.
 
 ## Copy a single issue
 
 You can copy one issue when viewing it. 
-Copying issues differs depending on what environment you use. Copy a single issue in the Production environment Copy a single issue in the Preview environment Copy a single issue in the Production environment
 
-1. Go to an issue that you want to copy, then click the More menu to the right of the issue name, then Copy to.  The `Copy Issue` box displays. 
-1. Specify the name of the project where you want to copy the issues in the `Select Destination Project` section. The name of the current project displays by default. 
-1. Click `Next Step`.
+Copying issues differs depending on what environment you use.
+
+* [Copy a single issue in the Production environment](#copy4) 
+* [Copy a single issue in the Preview environment](#copy6)
+
+### Copy a single issue in the Production&nbsp;environment
+
+1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then **Copy** ```to```.  ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+
+   The **Copy Issue** box displays. 
+
+1. Specify&nbsp;the name of the project where you want to copy&nbsp;the issues in the **Select Destination Project** section. The name of the current project displays by default. 
+1. Click **Next Step**.
 1. (Optional) Select&nbsp;any of the options below to remove&nbsp;the items&nbsp;from&nbsp;the new issue.
 
    >[!NOTE]
    >
    >This impacts&nbsp;only the copied issues not the original issues.
 
-  * `Clear Progress`
-  * `Clear Documents`:  `Removes everything in the documents tab, including document versions, linked documents, and folders.`  
+  * **Clear Progress**
+  * **Clear Documents**:  ```Removes everything in the documents tab, including document versions, linked documents, and folders.```  
     By default, document proofs and approvals cannot be copied to another issue.
   
-  * `Clear Assignments`
-  * `Clear Updates`: This is checked by default.&nbsp;
-  * `Clear Permissions`
-  * `Clear Custom Data`:&nbsp;This will remove the information from the custom form on the issue, as well as the information on the custom forms&nbsp;associated&nbsp;with Documents attached to the issue, if those are also copied with the issue. The custom forms will remain attached to the issues&nbsp;and documents, but the information on the forms will not carry over to the new issue.&nbsp;
+  * **Clear Assignments**
+  * **Clear Updates**: This is checked by default.&nbsp;
+  * **Clear Permissions**
+  * **Clear Custom Data**:&nbsp;This will remove the information from the custom form on the issue, as well as the information on the custom forms&nbsp;associated&nbsp;with Documents attached to the issue, if those are also copied with the issue. The custom forms will remain attached to the issues&nbsp;and documents, but the information on the forms will not carry over to the new issue.&nbsp;
 
-1. (Optional) Click `Go back a step` to go back to the previous screen in the Copy&nbsp;Issue box. 
-1. Click `Finish and Copy`  `Issue`.
+1. (Optional)&nbsp;Click **Go back a step** to go back to the previous screen in the Copy&nbsp;Issue box. 
+1. Click **Finish and Copy**&nbsp;**Issue**.
 
    Or
 
-   Click `Finish and Copy Issues` when you copy multiple issues in a list.
+   Click**Finish and Copy Issues** when you copy multiple issues in a list.
 
    The copied issue is added to the specified project.&nbsp;
 
-Copy a single issue in the Preview environment Go to an issue that you want to copy, then click the More menu to the right of the issue name, then Copyto. The Copy Issue box displays. In the Select Destination Project section, specify the name of the project where you want to copy the issues. The name of the current project displays by default. Tip: Only 100 projects display in the list. (Conditional) Click request access if you do not have access to copy issues to the project. (Conditional) Continue to copy the issue to the selected destination project without requesting access if you have access to add issues to one of the tasks on the destination project. Tip: Similar messages display if the project selected is in pending approval, completed, or dead, when the Workfront administrator prevents adding issues to these projects. For more information, see Configure system-wide project preferences. (Optional) In the Options section, deselect any of the items listed in the table below to remove them from the new issue. All options are selected by default. Note: This impacts only the copied issues not the original issues. Assignments Removes users, job roles, or teams that are assigned to the issue. Progress Removes the percent complete, if any, of the issue. Documents Removes everything in the documents tab, including document versions, linked documents, and folders. By default, document proofs and approvals cannot be copied to another issue. Permissions Removes the entities that the issue is shared with. Updates Removes comments from the Updates section of the issue. Custom Data Removes the information from the custom form on the issue, as well as the information on the custom forms associated with Documents attached to the issue, if those are also copied with the issue. The custom forms will remain attached to the issues and documents, but the information on the forms will not carry over to the new issue. (Optional) In the Select Parent section, select the task where you want to move the issue. Click Copy issue or Copy issues if you selected multiple issues in a list. The copied issues are added to the specified project.  &nbsp;
+### Copy a single issue in the Preview environment
+
+1. Go to an issue that you want to copy, then click the **More** menu ![](assets/more-icon.png)to the right of the issue name, then **Copy** ```to```.
+
+   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+
+   The **Copy Issue** box displays.
+
+   ![](assets/copy-issue-box-nwe-350x285.png)
+
+1. In the **Select Destination Project** section, specify&nbsp;the name of the project where you want to copy&nbsp;the issues. The name of the current project displays by default.
+
+   >[!TIP]
+   >
+   >Only 100 projects display in the list.
+
+1. (Conditional) Click&nbsp;**request access** if you do not have access to copy issues to the project. 
+1. 
+   (Conditional)&nbsp;Continue to copy the issue to the selected destination project without requesting access if you have access to add issues to one of the tasks on the destination project.
+
+   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+
+   >[!TIP]
+   >
+   >Similar messages display if the project selected is in pending approval, completed, or dead, when the Workfront administrator prevents adding issues to these projects.&nbsp;For more information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+1. (Optional) In the **Options** section, deselect any of the items listed in the table below to remove&nbsp;them&nbsp;from&nbsp;the new issue. All options are selected by default.
+
+   >[!NOTE]
+   >
+   >This impacts&nbsp;only the copied issues not the original issues.
+
+   <table cellspacing="0"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Assignments</td> 
+      <td>Removes users, job roles, or teams that are assigned to the issue.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Progress</td> 
+      <td>Removes the percent complete, if any, of the issue. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Documents</td> 
+      <td><span style="line-height: 1.5;">Removes everything in the documents tab, including document versions, linked documents, and folders.</span> <br>By default, document proofs and approvals cannot be copied to another issue.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Permissions</td> 
+      <td>Removes the entities that the issue is shared with. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Updates</td> 
+      <td>Removes comments from the Updates section of the issue.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Custom Data</td> 
+      <td>Removes the information from the custom form on the issue, as well as the information on the custom forms&nbsp;associated&nbsp;with Documents attached to the issue, if those are also copied with the issue. The custom forms will remain attached to the issues&nbsp;and documents, but the information on the forms will not carry over to the new issue.&nbsp;</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. (Optional) In the **Select Parent** section, select the task where you want to move the issue. 
+1. Click **Copy issue** or **Copy issues** if you selected multiple issues in a list.
+
+   The copied issues are added to the specified project.
+
+&nbsp;

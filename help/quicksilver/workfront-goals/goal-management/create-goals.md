@@ -37,7 +37,15 @@ You must have the following:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions Manage permissions to the goal For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>Manage permissions to the goal</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -65,13 +73,13 @@ You can create a new goal in one of the following ways:
 
 ### Create a goal from scratch
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    ![](assets/main-menu-align-icon-highlighted-350x463.png)
 
    The Goal List displays by default and you can view all the goals in the system. 
 
-1. (Conditional) Click Goal List, `Graphs`, Pulse,or Check-in in the left pane, then click  `Add Goal` in the upper-right corner of the page. The Add Goal box displays.
+1. (Conditional) Click Goal List, **Graphs**, Pulse,or Check-in in the left pane, then click&nbsp;**Add Goal** in the upper-right corner of the page. The Add Goal box displays.
 
    ![](assets/add-goal-box-350x235.png)
 
@@ -79,8 +87,8 @@ You can create a new goal in one of the following ways:
    >
    >You can add a goal from any section in Workfront Goals. The process for creating a goal is identical regardless of the section you choose to add the goal from.
 
-1. Start typing what you want to achieve in the `Goal` field. This is the name of the goal and a required field. 
-1. Select a time period when the goal should be executed in the `Period` drop-down menu. This is a pre-filled field. The default is the current quarter.
+1. Start typing what you want to achieve in the **Goal** field. This is the name of the goal and a required field. 
+1. Select a time period when the goal should be executed in the **Period** drop-down menu. This is a pre-filled field. The default is the current quarter.
 
    Select from the following predefined options:
 
@@ -91,25 +99,25 @@ You can create a new goal in one of the following ways:
 
    Or
 
-   Click `Define custom dates` to select a custom time frame. 
+   Click **Define custom dates** to select a custom time frame. 
 
-1. (Conditional) Select a `Start date` and an `End date` for your goal, if you clicked `Define custom dates`. 
+1. (Conditional) Select a **Start date** and an **End date** for your goal, if you clicked **Define custom dates**. 
 
-   ` `**Tips: **``
+   ``` ```**Tips: **``````
 
   * You can create a goal with dates in any time period, including up to 2 years in the past. 
   * When defining custom dates, they are constrained by the initial date you selected. So if you select quarter and then custom dates, you can't go beyond that quarter.
 
-1. (Optional) Click `Reset custom dates` to return to the predefined options.
+1. (Optional) Click **Reset custom dates** to return to the predefined options.
 
    >[!TIP]
    >
    >We recommend that everyone in your organization selects the same timeframes for similar goals or goals that are aligned. This provides better alignment between goals and ensures that everyone's work supports your over-arching strategy.
 
-1. (Optional) Click your name in the `Owner` field, if you want to indicate someone else as the owner of the goal. By default, you are the owner of goals you create. 
-1. Start typing the name of a user, team, group, or the name of your organization in the `Owner` field, then select it when it displays in the list. You can have only one owner for a goal. 
-1. (Optional) Enter a `Description` for the goal. This field is optional. 
-1. Click `Save`.
+1. (Optional) Click your name in the **Owner** field, if you want to indicate someone else as the owner of the goal. By default, you are the owner of goals you create. 
+1. Start typing the name of a user, team, group, or the name of your organization in the **Owner** field, then select it when it displays in the list. You can have only one owner for a goal. 
+1. (Optional) Enter a **Description** for the goal. This field is optional. 
+1. Click **Save**.
 
    The status of the new goal is Draft.
 
@@ -140,7 +148,7 @@ You can create a new goal in one of the following ways:
    >  
    >
 
-1. Click the `X` icon in the upper-right of the Goal Details panel to close it.
+1. Click the **X** icon in the upper-right of the Goal Details panel to close it.
 
 ### Copy an existing goal
 

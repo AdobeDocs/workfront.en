@@ -9,13 +9,17 @@ description: The Desktop Proofing Viewer, which is designed primarily for proofi
 # Install the Desktop Proofing Viewer 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 with Automatic Updates
+</MadCap:conditionalText>
 -->
 
 The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
 
 <!--
-Important: There are two versions of the Desktop Proofing Viewer: one that updates automatically and one that you must update manually. This article contains information about the version that updates automatically.
+<note type="important">
+There are two versions of the Desktop Proofing Viewer: one that updates automatically and one that you must update manually. This article contains information about the version that updates automatically.
+</note>
 -->
 
 ## System Requirements
@@ -49,7 +53,9 @@ You must have the following access to perform the steps in this article:
 ## Install the Desktop Proofing Viewer 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 with automatic updates
+</MadCap:conditionalText>
 -->
 
 on Mac
@@ -64,7 +70,7 @@ If this is not the case, you can follow the steps below.
   * If you are using the Preview environment, click&nbsp; [Mac Preview Download for the Desktop Proofing Viewer.](https://cdn.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview.pkg)
 
 1. Open the file you have just downloaded to start the installation.
-1. On the installation box that appears, click `Continue`, then click `Install`.
+1. On the installation box that appears, click **Continue**, then click **Install**.
 
    ![00000776.png](assets/00000776-350x244.png)
 
@@ -77,7 +83,9 @@ If this is not the case, you can follow the steps below.
 ## Install the Desktop Proofing Viewer 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 with automatic updates
+</MadCap:conditionalText>
 -->
 
 on Windows
@@ -94,8 +102,7 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 
    ![Screen_Shot_2018-05-02_at_10.56.55_AM.png](assets/screen-shot-2018-05-02-at-10.56.55-am-350x271.png)
 
-1. In the security warning box that appears, click&nbsp; `Run.  
-   `The Desktop Proofing Viewer automatically installs and runs.&nbsp;
+1. In the security warning box that appears, click&nbsp;**Run.**The Desktop Proofing Viewer automatically installs and runs.&nbsp;
 1. (Conditional) If you install the application using Internet Explorer, refresh the launching page in the browser after the application installs.
 1. Open an interactive proof from the Documents area.
 

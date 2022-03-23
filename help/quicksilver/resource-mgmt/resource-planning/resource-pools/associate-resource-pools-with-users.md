@@ -39,7 +39,11 @@ You must have the following:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Projects, Templates, and Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> Object permissions Manage permissions for the projects, templates, and users you associate the resource pools with For information on requesting additional access, see Request access to objects in Adobe Workfront. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Manage permissions for the projects, templates, and users you associate the resource pools with</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects in Adobe Workfront</a>.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -47,16 +51,16 @@ You must have the following:
 
 ## Associate resource pools with one user
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Users. 
-1. Check the box next to the name of a user from the list, then click `Edit`.
-1. Click `Resource Planning`.
-1. Start typing the name of a resource pool that you want to associate with the user in the `Resource Pools` field, then select it from the list, when it appears.  
+1. Click **Users**.  
+1. Check the box next to the name of a user from the list, then click **Edit**.
+1. Click **Resource Planning**.
+1. Start typing the name of a resource pool that you want to associate with the user in the **Resource Pools** field, then select it from the list, when it appears.  
    You can associate multiple resource pools with one user.  
    ![add_resource_pool_to_user.png](assets/add-resource-pool-to-user-350x307.png)  
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 For more information about editing users, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
@@ -68,18 +72,18 @@ You can edit multiple users in bulk and associate the same resource pools with a
 
 To associate resource pools with several users in bulk:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
 
-1. Click Users.
-1. Select several users on the list, and click `Edit`.
-1. Click `Resource Planning`.
-1. Start typing the name of a resource pool that you want to associate with the users in the `Resource Pools` field, then select it from the list, when it appears.  
+1. Click **Users**. 
+1. Select several users on the list, and click **Edit**.
+1. Click **Resource Planning**.
+1. Start typing the name of a resource pool that you want to associate with the users in the **Resource Pools** field, then select it from the list, when it appears.  
    You can associate multiple resource pools with multiple users.
 
    >[!NOTE]
    >
    >Only the resource pools that are common to all the users selected appear in this field. If the users selected have no shared resource pools, this field is empty. If this field is empty, the resource pools you specify here will overwrite their individual resource pools.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 For more information about how to edit users in bulk, see [Edit user profiles in bulk](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md). 

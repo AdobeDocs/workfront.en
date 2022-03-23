@@ -4,6 +4,7 @@ content-type: release-notes
 navigation-topic: new-in-preview
 title: Now available in Production
 description: This page describes all features made available in the Production environment since the 2019.3 release. (For information about the 2019.3 release, see 2019.3 release activity overview.)
+hidefromtoc: true
 ---
 
 # Now available in Production
@@ -13,19 +14,27 @@ This page describes all features made available in the Production environment si
 For information about what's coming soon, see [Now available in Preview](../../../product-announcements/product-releases/new-in-preview/now-available-in-preview.md).
 
 <!--
-Future (never publish this)
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Future (never publish this)</h2>
 -->
 
 <!--
-Delete objects in the mobile app You can now delete projects, tasks, issues, documents, requests, and timesheets when accessing Workfront from the mobile app. For more information about the Workfront mobile app, see Adobe Workfront for Android and Adobe Workfront for iOS.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h3>Delete objects in the mobile app</h3>
+<p>You can now delete projects, tasks, issues, documents, requests, and timesheets when accessing Workfront from the mobile app.</p>
+<p>For more information about the Workfront mobile app, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Android</a> and <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
+</div>
 -->
 
 <!--
-September 13, 2019
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">September 13, 2019</h2>
 -->
 
 <!--
-Custom Conditions available in the mobile app You can now set custom Conditions for projects, tasks, and issues while accessing Workfront from the mobile app. For more information about the Workfront mobile app, see Adobe Workfront for Android and Adobe Workfront for iOS.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h3>Custom Conditions available in the mobile app</h3>
+<p>You can now set custom Conditions for projects, tasks, and issues while accessing Workfront from the mobile app.</p>
+<p>For more information about the Workfront mobile app, see <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for Android</a> and <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront for iOS</a>.</p>
+</div>
 -->
 
 ## August 30, 2019
@@ -46,12 +55,12 @@ Custom Conditions available in the mobile app You can now set custom Conditions 
      <p>Previously, to change the display type of a custom field, you had to create a new field and delete the old one. This required transferring data, which was often time consuming.</p> 
      <p>For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a></p> 
      <div class="workfront_plans"> 
-      <p><span class="bold">Available in these environments:</span> </p> 
+      <p><strong>Available in these environments:</strong> </p> 
       <ul> 
        <li>Workfront Classic</li> 
        <li>The new Workfront experience</li> 
       </ul> 
-      <p><span class="bold">First available in Preview:</span> </p> 
+      <p><strong>First available in Preview:</strong> </p> 
       <ul> 
        <li>August 9, 2019</li> 
       </ul> 
@@ -66,12 +75,12 @@ Custom Conditions available in the mobile app You can now set custom Conditions 
      <h3><a name="Create"></a>Create time off calendars and reports</h3> 
      <p>You can now see user’s time off for better planning and execution. You can also add new time off reports and calendars to your dashboards for a real-time view of user availability.</p> 
      <div class="workfront_plans"> 
-      <p><span class="bold">Available in these environments:</span> </p> 
+      <p><strong>Available in these environments:</strong> </p> 
       <ul> 
        <li>Workfront Classic</li> 
        <li>The new Workfront experience</li> 
       </ul> 
-      <p><span class="bold">First available in Preview:</span> </p> 
+      <p><strong>First available in Preview:</strong> </p> 
       <ul> 
        <li>August 9, 2019</li> 
       </ul> 

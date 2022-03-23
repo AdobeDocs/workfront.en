@@ -39,7 +39,16 @@ You must have the following to perform the activities described in this article:
       <li> <p><a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a> </p> </li> 
       <li> <p><span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span> </p> </li> 
      </ul> </p> </td> 
-  </tr> Object permissions View or higher permissions to the goal to view it Manage permissions to the goal to edit it For information about sharing goals, see Share a goal in Adobe Workfront Goals. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Object permissions</td> 
+   <td> 
+    <div> 
+     <p>View or higher permissions to the goal to view it</p> 
+     <p>Manage permissions to the goal to edit it</p> 
+     <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Adobe Workfront Goals</a>. </p> 
+    </div> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -53,7 +62,7 @@ You must have the following before you can start:
 
 ## Access Workfront Goals
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    ![](assets/main-menu-align-icon-highlighted-350x463.png)
 
@@ -67,7 +76,7 @@ You must have the following before you can start:
 
    Or
 
-   Click `Add Goal` in the upper-right corner to add a new goal.
+   Click **Add Goal** in the upper-right corner to add a new goal.
 
    For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 
@@ -87,7 +96,7 @@ You must access an individual goal to perform the following actions as you manag
 
 To access an individual goal in Workfront Goals:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) > `Goals` in the upper-right corner of Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner of Workfront.
 
    The Goal List displays by default. 
 

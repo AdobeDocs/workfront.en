@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
 
 If you regularly review interactive content in the Desktop Proofing Viewer, your Workfront administrator can set the Desktop Proofing Viewer as your default viewer. For more information, see [User Setting for Opening Non-Interactive Proofs in the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) in the article, [Understand the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
-1. In the Desktop Proofing Viewer, type your `Proof URL`.
+1. In the Desktop Proofing Viewer, type your **Proof URL**.
 
    For information about accessing proof URLs, see [Access a proof shared with you](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md).
 
@@ -55,7 +55,7 @@ If you regularly review interactive content in the Desktop Proofing Viewer, your
    >
    >The Desktop Proofing Viewer does not support websites that require you to log in.
 
-1. Click  `Open Proof`&nbsp;in the screen that appears.&nbsp;
+1. Click&nbsp;**Open Proof**&nbsp;in the screen that appears.&nbsp;
 
 &nbsp;
 

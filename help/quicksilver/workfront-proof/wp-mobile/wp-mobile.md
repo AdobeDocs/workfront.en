@@ -16,3 +16,6 @@ description: This section contains the following articles:
 
 This section contains the following articles:
 
+* Tips, tricks, and troubleshooting
+* Workfront Proof Mobile Apps
+

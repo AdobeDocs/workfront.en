@@ -11,8 +11,8 @@ For the most recent enhancements in the new Workfront experience, see [The new A
  <col> 
  <tbody> 
   <tr> 
-   <td> <p><span class="bold">Feature</span> </p> </td> 
-   <td> <p><span class="bold">Release dates</span> </p> </td> 
+   <td> <p><strong>Feature</strong> </p> </td> 
+   <td> <p><strong>Release dates</strong> </p> </td> 
   </tr> 
   <tr> 
    <td> <p><a href="#more3" class="MCXref xref" xrefformat="{para}">More functionality added to the Document Details page</a> </p> </td> 
@@ -211,7 +211,7 @@ For the most recent enhancements in the new Workfront experience, see [The new A
   </tr> 
   <tr> 
    <td> <h3><a name="Streamli"></a>Streamlined in-app notifications</h3> <p>Announcement center messages and in-app notifications now live side-by-side in the notification drop-down. We've also changed the look and feel of the notifications to make them easier to read.</p> <p>In Workfront Classic, Announcement Center messages and in-app notifications were separated, and notification messages were worded differently.</p> <p>For more information, see <a href="../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md" class="MCXref xref" xrefformat="{para}">View and manage in-app notifications</a>.</p> <p><iframe class="vimeo-player_0" src="assets/348608921?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/348608921/1e4c24064c" target="_blank">View this video in full-screen mode.</a> </p> <!--
-     View this video in full-screen mode.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="https://vimeo.com/348608936/b7b3fee088" target="_blank">View this video in full-screen mode.</a> </p>
     --> </td> 
   </tr> 
   <tr> 
@@ -246,7 +246,7 @@ For the most recent enhancements in the new Workfront experience, see [The new A
   </tr> 
   <tr> 
    <td> <h3><a name="More2"></a>More options and information in Document Details</h3> <p>Now you can access proofing functionality in Document Details This is the beginning of our efforts to merge document management with document proofing.</p> <!--
-     For more information, see .
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see .</p>
     --> <p><iframe class="vimeo-player_0" src="assets/349120180?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe> </p> <p><a href="https://vimeo.com/349120180/415c4f5d1e" target="_blank">View this video in full-screen mode.</a> </p> </td> 
   </tr> 
   <tr> 

@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of Workfront terms (G-I)
 description: For the full glossary, see Glossary of Workfront terms.
+hidefromtoc: true
 ---
 
 # Glossary of Workfront terms (G-I)
@@ -32,7 +33,10 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
    <td>Gantt Chart</td> 
    <td> <p>A visual timeline of the project dates in a calendar view based on the planned or projected dates as the tasks of the project are currently scheduled.</p> </td> 
   </tr> <!--
-   Goals A set of business objectives agreed to by the relevant stakeholders.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td>Goals</td> 
+    <td>A set of business objectives agreed to by the relevant stakeholders.</td> 
+   </tr>
   --> 
   <tr> 
    <td>Global Interface Preferences</td> 
@@ -97,7 +101,15 @@ The following table is a list of commonly used terms in Adobe Workfront:&nbsp;&n
   <tr> 
    <td>Issue Management</td> 
    <td> <p>The process and rules governing the definition of issue types and the routing, triage, or traffic process associated with each type.</p> </td> 
-  </tr> Issue Owner The team or users responsible for triaging and completing an issue. Iteration A period of time in which a team produces a pre-defined set of deliverables. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Issue Owner</td> 
+   <td>The team or users responsible for triaging and completing an issue.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>Iteration</td> 
+   <td>A period of time in which a team produces a pre-defined set of deliverables.</td> 
+  </tr> 
  </tbody> 
 </table>
 

@@ -8,11 +8,11 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
 
 # Outbound message format for event subscriptions
 
-`With the release of Adobe Workfront 2017.3, the format for outbound messages for event subscriptions will change to allow for improved performance and better use of event subscriptions for your integrations.`
+```With the release of Adobe Workfront 2017.3, the format for outbound messages for event subscriptions will change to allow for improved performance and better use of event subscriptions for your integrations.```
 
 ## Updates to the Outbound Message Format
 
-`The following changes will be made to the outbound message format:`
+```The following changes will be made to the outbound message format:```
 
 * Outbound messages will include the oldState and newState for a Workfront resource.
 
@@ -22,16 +22,16 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
 
   This field will indicate, in Nanoseconds and EpochSeconds, the time an event occurred. Use eventTime when ordering events processed by your integration.
 
-* `The owner:companyID referenced field on the NOTE resource will be removed.` 
-* `The currentVersion referenced objectOn the DOCU (Document) resource will be removed.`
+* ```The owner:companyID referenced field on the NOTE resource will be removed.``` 
+* ```The currentVersion referenced objectOn the DOCU (Document) resource will be removed.```
 
-`If you currently use Workfront event subscriptions, you will need to update your Workfront integrations before the 2017.3 release in order to account for these changes.`
+```If you currently use Workfront event subscriptions, you will need to update your Workfront integrations before the 2017.3 release in order to account for these changes.```
 
-`To learn more about event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).`
+```To learn more about event subscriptions, see [Event Subscription API](../../wf-api/general/event-subs-api.md).```
 
 ## Samples of Old and New Message Formats
 
-`The following old format CREATE message will no longer be used after the release of 2017.3:` 
+```The following old format CREATE message will no longer be used after the release of 2017.3:``` 
 <pre>{
 &nbsp;&nbsp;"eventType": "CREATE",
 &nbsp;&nbsp;"subscriptionId": "8a0d839d5ef32c9a015ef33064b00001",
@@ -59,7 +59,7 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
  &nbsp;&nbsp;&nbsp;&nbsp;"categoryID": null,
  &nbsp;&nbsp;&nbsp;&nbsp;"status": "CUR",
  &nbsp;&nbsp;&nbsp;&nbsp;"parameterValues": {}
- &nbsp;}<br>}</pre>`The following new format CREATE message will be used after the release of 2017.3:` 
+ &nbsp;}<br>}</pre>```The following new format CREATE message will be used after the release of 2017.3:``` 
 <pre>{
  &nbsp;&nbsp;"eventType": "CREATE",
  &nbsp;&nbsp;"subscriptionId": "8a0d839d5ef32c9a015ef32e2cde0000",
@@ -93,7 +93,7 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
  &nbsp;&nbsp;&nbsp;&nbsp;"parameterValues": {}
  &nbsp;&nbsp;},
  &nbsp;&nbsp;"oldState": {}
-</pre>`The following old format UPDATE message will no longer be used after the release of 2017.3:` 
+</pre>```The following old format UPDATE message will no longer be used after the release of 2017.3:``` 
 <pre>{
  &nbsp;&nbsp;&nbsp;&nbsp;"eventType": "UPDATE",
  &nbsp;&nbsp;&nbsp;&nbsp;"subscriptionId": "8a0d839d5ef32c9a015ef336a5ed0002",
@@ -125,7 +125,7 @@ description: With the release of Adobe Workfront 2017.3, the format for outbound
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"parameterValues": {}
  &nbsp;&nbsp;}
 &nbsp;}
-&nbsp;</pre>`The following new format UPDATE message will be used after the release of 2017.3:` 
+&nbsp;</pre>```The following new format UPDATE message will be used after the release of 2017.3:``` 
 <pre>{
  &nbsp; "eventType": "UPDATE",
  &nbsp;&nbsp;"subscriptionId": "8a0d839d5ef32c9a015ef336a5ed0002",

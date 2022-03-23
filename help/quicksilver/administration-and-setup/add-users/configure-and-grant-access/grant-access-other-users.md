@@ -50,28 +50,28 @@ You can manage what information users can view and edit for other users using a 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. To change the ability of users with a Plan or Work license to view the profiles of other users:
 
-  1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` button to the right of `Users`.
-  
-  1. Disable `View Contact info`, then click the X to close the `Fine-tune your settings` box.
+   1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** button to the right of **Users**.
+   
+   1. Disable **View Contact info**, then click the X to close the **Fine-tune your settings** box.
 
-1. To modify the ability of users with a Plan license access to edit other users, click the gear icon ![](assets/gear-icon-settings.png) on the `Edit` button to the right of `Users`, then select the abilities you want to grant:
+1. To modify the ability of users with a Plan license access to edit other users, click the gear icon ![](assets/gear-icon-settings.png) on the **Edit** button to the right of **Users**, then select the abilities you want to grant:
 
    <table cellspacing="0"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><span class="bold">Create</span> </td> 
+      <td role="rowheader"><strong>Create</strong> </td> 
       <td> <p>Allows users to create users.<br>This option is enabled by default.</p> <!--
-        Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.
+        <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure this change is being made before undrafting these 2 notes. On 3/29, the req doc says that this depends on investigation results.</p>
        --> <p>Note: This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Delete</span> </td> 
+      <td role="rowheader"><strong>Delete</strong> </td> 
       <td> <p> Allows users to delete the users they have created themselves.<br>This option is enabled by default.</p> <p>Note: This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">User Admin (All Users)</span> </td> 
+      <td role="rowheader"><strong>User Admin (All Users)</strong> </td> 
       <td> <p>Allows users to do the following for any user in Workfront:</p> 
        <ul> 
         <li>Edit, delete, or deactivate the user</li> 
@@ -80,7 +80,7 @@ You can manage what information users can view and edit for other users using a 
        </ul> <p>This option is disabled by default.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">User Admin (Group Users)</span> </td> 
+      <td role="rowheader"><strong>User Admin (Group Users)</strong> </td> 
       <td> <p>Allows users to do the following for any user in a group they administer: 
         <ul>
          <li><p>Edit, delete, or deactivate the user</p></li>
@@ -91,7 +91,7 @@ You can manage what information users can view and edit for other users using a 
     </tbody> 
    </table>
 
-   ` `**Tip: **`` If you don’t want to grant group administrators access to all members of the groups they administer, disable both of the User Admin options above. Group administrators will still be able to access group members whom they add to Workfront, or who report to them in Workfront.
+   ``` ```**Tip: **`````` If you don’t want to grant group administrators access to all members of the groups they administer, disable both of the User Admin options above. Group administrators will still be able to access group members whom they add to Workfront, or who report to them in Workfront.
 
 1. (Optional) To configure access settings for other objects and areas in the access level you are working on, continue with one of the articles listed in [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md), such as [Grant access to tasks](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) and [Grant access to financial data](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. When you are finished, click Save.

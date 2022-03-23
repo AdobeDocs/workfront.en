@@ -5,6 +5,7 @@ product-area: portfolios
 navigation-topic: portfolio-optimizer
 title: Risk to Net Value (Draft - Alina) in the new Adobe Workfront experience
 description: The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.
+hidefromtoc: true
 ---
 
 # Risk to Net Value (Draft - Alina) in the new Adobe Workfront experience
@@ -31,23 +32,23 @@ If you view the Portfolio Optimizer in the Production environment, the Risk to N
 
 In the Preview environment, depending on which Portfolio Optimizer you are using, the Risk to Net Value metric is calculated differently:
 
-* `Portfolio Optimizer`
+* ```Portfolio Optimizer```
 
-  * `The Risk indicator is calculated by the following formula:  
-    *Risk value indicator = Risk / (Risk + Net Value)*` 
-  * `The Net Value indicator is calculated by the following formulas:   
+  * ```The Risk indicator is calculated by the following formula:  
+    *Risk value indicator = Risk / (Risk + Net Value)*``` 
+  * ```The Net Value indicator is calculated by the following formulas:   
     Net Value indicator = 1 - Risk / (Risk + Net Value)   
     Or  
-    Net Value indicator = Net Value / (Risk + Net Value)`
+    Net Value indicator = Net Value / (Risk + Net Value)```
 
-* `Legacy Portfolio Optimizer`
+* ```Legacy Portfolio Optimizer```
 
-  * `The Risk indicator is calculated by the following formula:  
-    *Risk value indicator = Risk / (Risk + Legacy Net Value)*` 
-  * `The Net Value indicator is calculated by the following formulas:  
+  * ```The Risk indicator is calculated by the following formula:  
+    *Risk value indicator = Risk / (Risk + Legacy Net Value)*``` 
+  * ```The Net Value indicator is calculated by the following formulas:  
     Net Value indicator = 1 - Risk / (Risk + Legacy Net Value)  
     Or  
-    Net Value indicator = Net Value / (Risk + Legacy Net Value)`
+    Net Value indicator = Net Value / (Risk + Legacy Net Value)```
 
 >[!NOTE]
 >

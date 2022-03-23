@@ -59,21 +59,23 @@ You can request additional access for the following objects:
 
 To remind another user to approve your access request for an object:
 
-1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+1. Home
+1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
-1. Select an `Access Request` approval.  
+1. Select an **Access Request** approval.  
    ![](assets/access-request-350x335.png)
 
-1. Click `Remind` in the upper-right corner of the right panel to send a notification to the approver.
+1. Click **Remind** in the upper-right corner of the right panel to send a notification to the approver.
 
 ## Documents
 
-1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+1. Home
+1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
-1. Select a `Document` approval.  
+1. Select a **Document** approval.  
    ![](assets/document-350x335.png)
 
-1. Click `Manage Approvals` in the upper-right corner of the right panel.
-1. Click the `Remind` icon to send a notification to the approver.  
+1. Click **Manage Approvals** in the upper-right corner of the right panel.
+1. Click the **Remind** icon to send a notification to the approver.  
    ![remind.png](assets/remind-350x41.png)
 

@@ -109,7 +109,7 @@ For a full list of virtual assistant commands, see
  <col> 
  <tbody> 
   <tr> 
-   <td colspan="2"><span class="bold">Search my objects</span> </td> 
+   <td colspan="2"><strong>Search my objects</strong> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -133,7 +133,7 @@ For a full list of virtual assistant commands, see
     </ul> </td> 
   </tr> 
   <tr> 
-   <td colspan="2"><span class="bold">Search Projects I Own/Projects I'm On</span> </td> 
+   <td colspan="2"><strong>Search Projects I Own/Projects I'm On</strong> </td> 
   </tr> 
   <tr> 
    <td> 
@@ -263,7 +263,7 @@ The VA section of the Pin page lets you save voice commands to access at a later
 
 To pin a command:
 
-1. State your command, then tap the `Pin` icon on the Results page.
+1. State your command, then tap the **Pin** icon on the Results page.
 
 ![](assets/pin-and-save-query--350x285.png)
 

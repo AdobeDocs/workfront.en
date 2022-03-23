@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: Testing task list beta
 description: Some information on this page refers to functionality not yet generally available. It is available in the Preview Sandbox environment, only by request.
+hidefromtoc: true
 ---
 
 # Testing task list beta

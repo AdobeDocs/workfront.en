@@ -37,17 +37,17 @@ You must have the following access to perform the steps in this article:
 
 ## Add a column to a board
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Boards`.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Boards**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
-1. Click `Add Column` to the right of the existing columns.
-1. In the new column, type a name and click `Add Column`.
+1. Click **Add Column** to the right of the existing columns.
+1. In the new column, type a name and click **Add Column**.
 
    ![Add new column](assets/boards-add-column.png)<![CDATA[                ]]>
 
 ## Reorder columns on a board
 
 1. Access the board.
-1. Drag and drop the columns into the correct order. Be sure to select the top of the column before dragging it to another location. `Is there a way to do this with the keyboard?`
+1. Drag and drop the columns into the correct order. Be sure to select the top of the column before dragging it to another location. ```Is there a way to do this with the keyboard?```
 
    ![Drag and drop column](assets/boards-dragdropcolumn.png)
 
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 ## Delete a board column
 
 1. Access the board.
-1. Click the `More` menu ![More menu](assets/more-icon-spectrum.png) on the column, and select `Delete`.
+1. Click the **More** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **Delete**.
 
    >[!NOTE]
    >

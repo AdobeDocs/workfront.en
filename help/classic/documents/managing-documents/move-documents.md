@@ -49,14 +49,15 @@ You must have the following:
 
 ## Move a document
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
-1. Click More, then click Move.  
-1. From the drop-down menu in the box that appears, click `Issue`, `Project` or `Task` to indicate the type of object where you want to move the document.&nbsp;
+1. Click **More**,****then click **Move**.  ![](assets/move-document-button-350x203.png)
 
-1. Type the name of the `Issue`, `Project` or `Task` in the text box.
+1. From the drop-down menu in the box that appears, click **Issue**, **Project** or **Task** to indicate the type of object where you want to move the document.&nbsp;
 
-1. Click `Finish`.
+1. Type the name of the **Issue**, **Project** or **Task** in the text box.
+
+1. Click **Finish**.
 
 You can also move a document from the Document Details page. For more information, see in the article .

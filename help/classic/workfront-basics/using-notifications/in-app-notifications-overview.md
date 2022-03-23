@@ -17,7 +17,7 @@ For instructions on how to view and manage these notifications, see [View and ma
 
 ## Announcement notifications
 
-`<li>Announcements come in one of two ways:</li>`
+```<li>Announcements come in one of two ways:</li>```
 
 * Workfront sends a message to the Announcement page of your organization's Workfront administrators  
 * A Workfront administrator sends a message to users from the Announcement page
@@ -47,25 +47,42 @@ When you click the numbered icon ![](assets/notifications-icon-jewel.jpg) in the
 * [Share](#share) 
 * [Other](#error)
 
-### `Approvals`
+### **Approvals**
 
-### `Requests`
-
-### `Assignments`
-
+* [name] wants you to approve this proof. 
+* If the user information is not available, the notification changes to “This proof requires your approval.
+* You need to approve access to an object
+* The object could be a project, task, issue, document, report, dashboard, portfolio, program, or calendar.  
+* 
+* 
+* 
+* 
+* 
+* 
 *
 
-  * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
-  * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
-  * If you assign work to yourself or a team you belong to, you will not receive a notification.
+### **Requests**
 
-### `Comments`
+* 
+* 
+*
 
-### `Updates`
+### **Assignments**
 
-### `Date changes`
+* 
+*
 
-### `Share`
+   * Assignment notifications are sent only when the project status is set to Current (or to a custom status that is the equivalent of Current).
+   * It is&nbsp;not intended for Requestors and Reviewers to be assigned work. Therefore, they are not notified if they are assigned to tasks and issues.&nbsp;
+   * If you assign work to yourself or a team you belong to, you will not receive a notification.
 
-### `Other`
+### **Comments**
+
+### **Updates**
+
+### **Date changes**
+
+### **Share**
+
+### **Other**
 

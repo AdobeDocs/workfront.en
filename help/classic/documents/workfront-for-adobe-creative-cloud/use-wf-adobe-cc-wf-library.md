@@ -35,35 +35,35 @@ Consider the following when accessing Workfront Library content from the Workfro
 To accessWorkfront Library folders and single items from the Workfront extension for Adobe Creative Cloud:
 
 1. Open a supported Adobe Creative Cloud application.
-1. On the `Window` menu, click `Extensions`, then select Workfront.
+1. On the **Window** menu, click **Extensions**, then select Workfront.
 1. The Workfront panel that opens.   
    Log in to Workfront.
 
    For information about logging in to Workfront, see the [Logging in to Workfront from Adobe Creative Cloud Applications](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#logging-in) section in the [Using Workfront for Adobe Creative Cloud](../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md) article.
 
-1. Select the `Library` tab.
+1. Select the **Library** tab.
 
    ![](assets/adobe-cc-library-tab-350x517.png)
 
 1. Do one of the following:
 
-  1. Using the `Search here` box:
+   1. Using the **Search here** box:
 
-    1. Type in the name of an item or folder that you want to navigate to, then press enter.
+      1. Type in the name of an item or folder that you want to navigate to, then press enter.
 
-       The item displays in the `Search results` area.
+         The item displays in the **Search results** area.
 
-  1. Click the `More` icon.
+   1. Click the **More** icon.
 
-     ![](assets/adobe-cc-library-more-menu-350x117.png)
+      ![](assets/adobe-cc-library-more-menu-350x117.png)
 
-    1. Select from the following options:
+      1. Select from the following options:
 
-    * Click `Library` to access the content you have access to view in the Workfront Library.
-    * Click `My Content` to access the content that you have uploaded in the Workfront Library.
-    * Click `Collections` to access a Workfront Library Collection.
+      * Click **Library** to access the content you have access to view in the Workfront Library.
+      * Click **My Content** to access the content that you have uploaded in the Workfront Library.
+      * Click **Collections** to access a Workfront Library Collection.
 
-1. (Optional) To decrease the amount of items that you display in the Workfront extension, click the `Options` icon.
+1. (Optional) To decrease the amount of items that you display in the Workfront extension, click the **Options** icon.
 
    ![](assets/aobe-cc-library-options-icon-with-blue-dot.png)
 
@@ -147,58 +147,92 @@ To accessWorkfront Library folders and single items from the Workfront extension
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Keywords</span> </td> 
-      <td>Start typing a keyword of an item in the <span class="bold">Select</span> box, then press Enter, to only display items that contain that word in their name.</td> 
+      <td role="rowheader"><strong>Keywords</strong> </td> 
+      <td>Start typing a keyword of an item in the <strong>Select</strong> box, then press Enter, to only display items that contain that word in their name.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Click `Show More` to continue to display more items or folders.
+1. (Optional) Click **Show More** to continue to display more items or folders.
 1. Double-click a folder to open its contents.
 
    Folders may contain subfolders.
 
    Up to three folders and subfolders that you open during your search are saved in the breadcrumb at the top of the list of items.
 
-1. Double-click the item when it appears in the `Search results` area to open it in the Adobe application.
+1. Double-click the item when it appears in the **Search results** area to open it in the Adobe application.
 
 <!--
-Upload content to Workfront Library using the Workfront for Adobe Creative Cloud extension
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Upload content to Workfront Library using the Workfront for Adobe Creative Cloud extension </h2>
 -->
 
 <!--
-You can upload the following types of files toWorkfront Library using the Workfront for Adobe Creative Cloud extension:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">You can upload the following types of files toWorkfront Library using the Workfront for Adobe Creative Cloud extension:</p>
 -->
 
   <!--
-  Files that you have been working on in your Adobe applications. The file must first be saved on your computer.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Files that you have been working on in your Adobe applications.</p> <p>The file must first be saved on your computer.</p> </li>
   -->
 
   <!--
-  Any files that have been saved on your computer.
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Any files that have been saved on your computer.</li>
   -->
 
 <!--
-To upload a file to Workfront Library from inside an Adobe application:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To upload a file to Workfront Library from inside an Adobe application:</p>
 -->
 
    <!--
-   Open a file in one of the following supported Adobe applications: InDesign Illustrator Photoshop
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Open a file in one of the following supported Adobe applications:
+   <ol> <!--
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">InDesign</li>
+   --> <!--
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">Illustrator</li>
+   --> <!--
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode">Photoshop</li>
+   -->
+   </ol></li>
    -->
 
    <!--
-   Access the Library tab in the Workfront for Adobe Creative Cloud extension. For information about accessing the Library, see Access Workfront Library assets from Adobe Creative Cloud applications.
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Access the <strong>Library</strong> tab in the Workfront for Adobe Creative Cloud extension.</p> <p>For information about accessing the Library, see <a href="#access">Access Workfront Library assets from Adobe Creative Cloud applications</a>.</p> </li>
    -->
 
    <!--
-   Click the More icon, then select My Content.
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click the <strong>More</strong> icon, then select <strong>My Content.</strong></p> <p> <img src="assets/adobe-cc-more-icon-and-my-content-highlighted-350x232.png" style="width: 350;height: 232;"> </p> </li>
    -->
 
    <!--
-   (Optional) Navigate to the folder where you want to upload the file. Do one of the following: To upload a file that you are working on in the Adobe application: Click Upload document to Library. This option is disabled if you have not saved the file to your computer.; If the file is saved locally, but was modified after opening and not yet saved, it should be automatically saved when you open the Upload screen. To upload a file saved on your computer using the Workfront extension: Click Upload from disk to Library. The file selection dialogue box opens. Browse your computer for the file you want to upload to Workfront Library. You cannot select more than one file. Edit the Name field. By default, the Name field is prepopulated with the name of the file as it is saved on your computer. You cannot edit the file extension. Modify any information about the file you are uploading to Workfront Library.
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(Optional) Navigate to the folder where you want to upload the file.</p> <p>Do one of the following:</p>
+   <ol> <!--
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">To upload a file that you are working on in the Adobe application:
+   <ol> <!--
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Click <strong>Upload document to Library</strong>. </p><p>This option is disabled if you have not saved the file to your computer.;</p><!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If the file is saved locally, but was modified after opening and not yet saved, it should be automatically saved when you open the Upload screen.</p>
+   --></li>
+   --> <!--
+   <li value="2" data-mc-conditions="QuicksilverOrClassic.Draft mode">To upload a file saved on your computer using the Workfront extension:
+   <ol> <!--
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Click <strong>Upload from disk to Library</strong>.</p><p>The file selection dialogue box opens.</p></li>
+   -->
+   </ol></li>
+   --> <!--
+   <li value="3" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Browse your computer for the file you want to upload to Workfront Library.</p><p>You cannot select more than one file.</p></li>
+   --> <!--
+   <li value="4" data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Edit the <strong>Name</strong> field.</p><!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">By default, the <strong>Name</strong> field is prepopulated with the name of the file as it is saved on your computer.</p>
+   --><!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You cannot edit the file extension.</p>
+   --></li>
+   --> <!--
+   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Modify any information about the file you are uploading to Workfront Library.</li>
+   -->
+   </ol></li>
+   -->
+   </ol> </li>
    -->
 
    <!--
-   Click Upload. The file is uploaded to Workfront Library and it is listed in the My Content area.
+   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Click <strong>Upload</strong>.</p> <p>The file is uploaded to Workfront Library and it is listed in the <strong>My Content</strong> area.</p> </li>
    -->
 

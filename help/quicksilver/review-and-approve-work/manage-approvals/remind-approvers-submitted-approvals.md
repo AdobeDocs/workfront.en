@@ -59,21 +59,47 @@ You can request additional access for the following objects:
 
 To remind another user to approve your access request for an object:
 
-1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select an `Access Request` approval.  
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+
+1. Select an **Access Request** approval.  
    ![](assets/access-request-350x335.png)
 
-1. Click `Remind` in the upper-right corner of the right panel to send a notification to the approver.
+1. Click **Remind** in the upper-right corner of the right panel to send a notification to the approver.
 
 ## Documents
 
-1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
-1. Select a `Document` approval.  
+   >[!NOTE]
+   >
+   >Your Workfront administrator might make the following changes to the Home icon in your environment:
+   >
+   >  
+   >  
+   >  * Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
+   >  * Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >  
+   >
+
+1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
+
+1. Select a **Document** approval.  
    ![](assets/document-350x335.png)
 
-1. Click `Manage Approvals` in the upper-right corner of the right panel.
-1. Click the `Remind` icon to send a notification to the approver.  
+1. Click **Manage Approvals** in the upper-right corner of the right panel.
+1. Click the **Remind** icon to send a notification to the approver.  
    ![remind.png](assets/remind-350x41.png)
 

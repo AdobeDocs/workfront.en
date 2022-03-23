@@ -30,7 +30,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -39,7 +43,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -94,9 +105,9 @@ This trigger module returns document details when a new document is created or m
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive you want to monitor.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder you want to watch for created or modified documents.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder you want to watch for created or modified documents.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to watch.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder you want to watch for created or modified documents.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder you want to watch for created or modified documents.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to watch.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -122,9 +133,9 @@ This action module retrieves a list of documents from the selected folder.
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive you want to list documents from.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder you want to list documents from.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder you want to list documents from.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to list documents from.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder you want to list documents from.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder you want to list documents from.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to list documents from.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -156,9 +167,9 @@ You may need to extend your permissions.
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive that contains the document you want to retrieve.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder that contains the document you want to retrieve.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder that contains the document you want to retrieve.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive that contains the document you want to retrieve.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder that contains the document you want to retrieve.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder that contains the document you want to retrieve.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive that contains the document you want to retrieve.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -197,9 +208,9 @@ This action module allows you to create a new document in the selected folder.
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where you want to create a document.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where you want to create a document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where you want to create a document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want to create a document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where you want to create a document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where you want to create a document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want to create a document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -229,25 +240,25 @@ This action module creates a copy of an existing template document and replaces 
    <td role="rowheader"> <p>Create a Document from a Template</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">By Mapping</span> <br>Select this option to map the document template.</li> 
-     <li><span class="bold">By Dropdown</span> <br>Select this option to choose the document template from the drop-down menu.</li> 
+     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>By Dropdown</strong> <br>Select this option to choose the document template from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where your template is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where your template is located.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where your template is located.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where your template is located.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where your template is located.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where your template is located.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where your template is located.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Values</p> </td> 
    <td> <p>Enter the values that will be entered instead of the variables to the new document.</p> 
     <ul> 
-     <li><span class="bold">Tags </span> <br>Enter the tags that are contained in the document template. Do not use <code>{{}}</code>. Example: use <code>name </code>instead of <code>{{name}}</code>.</li> 
-     <li><span class="bold">Replaced Value</span><![CDATA[	]]><br>Enter the value of the tag.</li> 
+     <li><strong>Tags</strong> <br>Enter the tags that are contained in the document template. Do not use <code>{{}}</code>. Example: use <code>name </code>instead of <code>{{name}}</code>.</li> 
+     <li><strong>Replaced Value</strong><![CDATA[	]]><br>Enter the value of the tag.</li> 
     </ul> <p>For example the<code> {{name}}</code> variable in the source document will be displayed as the name field here, where the value can be inserted, such as <code>John</code>.</p> </td> 
   </tr> 
   <tr> 
@@ -267,9 +278,9 @@ This action module creates a copy of an existing template document and replaces 
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where your template is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where you want the document to be created.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where you want the document to be created.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want the document to be created.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where you want the document to be created.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where you want the document to be created.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want the document to be created.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -291,36 +302,36 @@ This action module appends or inserts a new paragraph to an existing document.
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">By Mapping</span> <br>Select this option to map the document.</li> 
-     <li><span class="bold">By Dropdown</span> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>By Mapping</strong> <br>Select this option to map the document.</li> 
+     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where the document you want to add a paragraph to is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where the document you want to add a paragraph to is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where the document you want to add a paragraph to is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add a paragraph to is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where the document you want to add a paragraph to is located, then select the document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where the document you want to add a paragraph to is located, then select the document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add a paragraph to is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Insert a Paragraph</p> </td> 
    <td> <p>Select how you want the new text to be inserted in the document.</p> 
     <ul> 
-     <li> <p><span class="bold">By specification of location</span> </p> 
+     <li> <p><strong>By specification of location</strong> </p> 
       <ul> 
-       <li> <p><span class="bold">By index</span> </p> 
+       <li> <p><strong>By index</strong> </p> 
         <ul> 
-         <li> <p><span class="bold">Index</span> </p> <p>Enter the Index number where you would like to insert your text. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons &gt; Get add-ons. Search for Show and install the Show add-on.</p> </li> 
-         <li> <p><span class="bold">Inserted text</span> </p> <p>Enter the text you want to insert to the document.</p> </li> 
+         <li> <p><strong>Index</strong> </p> <p>Enter the Index number where you would like to insert your text. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons &gt; Get add-ons. Search for Show and install the Show add-on.</p> </li> 
+         <li> <p><strong>Inserted text</strong> </p> <p>Enter the text you want to insert to the document.</p> </li> 
         </ul> </li> 
-       <li> <p><span class="bold">By segment ID</span> </p> <p>Select the header and footer you want to insert the text content to and enter the text you want to insert to the corresponding fields.</p> <p>If the header or footer already contains text, the new text will be added before the existing text.</p> </li> 
+       <li> <p><strong>By segment ID</strong> </p> <p>Select the header and footer you want to insert the text content to and enter the text you want to insert to the corresponding fields.</p> <p>If the header or footer already contains text, the new text will be added before the existing text.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">By appending to the body of the document</span> </p> <p>Appends entered text at the end of the document's body content.</p> <p>The style of the new paragraph will be copied from the paragraph at the current insertion index, including lists and bullets.</p> </li> 
+     <li> <p><strong>By appending to the body of the document</strong> </p> <p>Appends entered text at the end of the document's body content.</p> <p>The style of the new paragraph will be copied from the paragraph at the current insertion index, including lists and bullets.</p> </li> 
     </ul> 
     <ul> 
-     <li> <p><span class="bold">By appending to the end of segment (Header and Footer)</span> </p> <p>Select the header and footer you want to insert the text content to and enter the text you want to insert to the corresponding fields.</p> <p>If the header or footer already contain text, the new text will be added after the existing text.</p> </li> 
+     <li> <p><strong>By appending to the end of segment (Header and Footer)</strong> </p> <p>Select the header and footer you want to insert the text content to and enter the text you want to insert to the corresponding fields.</p> <p>If the header or footer already contain text, the new text will be added after the existing text.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -346,36 +357,36 @@ This action module inserts an image from the URL to the document.
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">By Mapping</span> <br>Select this option to map the document template.</li> 
-     <li><span class="bold">By Dropdown</span> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where the document you want to add an image to is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where the document you want to add an image to is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where the document you want to add an image to is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add an image to is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where the document you want to add an image to is located, then select the document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where the document you want to add an image to is located, then select the document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add an image to is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Insert an Image</p> </td> 
    <td> <p>Select how you want the new image to be inserted in the document.</p> 
     <ul> 
-     <li> <p><span class="bold">By specification of location</span> </p> 
+     <li> <p><strong>By specification of location</strong> </p> 
       <ul> 
-       <li> <p><span class="bold">By index</span> </p> 
+       <li> <p><strong>By index</strong> </p> 
         <ul> 
-         <li> <p><span class="bold">Index</span> </p> <p>Enter the Index number where you would like to insert your image. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons &gt; Get add-ons. Search for Show and install the Show add-on.</p> </li> 
-         <li> <p><span class="bold">Image URL</span> </p> <p>Enter the URL of the image you want to insert to the document.</p> <p>The maximum image size is 50 MB. Must not exceed 25 megapixels. Only PNG, JPEG or GIF format is supported.</p> </li> 
+         <li> <p><strong>Index</strong> </p> <p>Enter the Index number where you would like to insert your image. You can use the Get a Document module retrieve Index number.</p> <p>To display all characters (including hidden) in the document, you can use the Show add-on. You can find the add-on under Add-ons &gt; Get add-ons. Search for Show and install the Show add-on.</p> </li> 
+         <li> <p><strong>Image URL</strong> </p> <p>Enter the URL of the image you want to insert to the document.</p> <p>The maximum image size is 50 MB. Must not exceed 25 megapixels. Only PNG, JPEG or GIF format is supported.</p> </li> 
         </ul> </li> 
-       <li> <p><span class="bold">By segment ID</span> </p> <p>Select the header and footer you want to insert the image to and enter the image URL to the corresponding fields.</p> <p>The maximum image size is 50 MB. The image must not exceed 25 megapixels. Only PNG, JPEG, or GIF format is supported.</p> </li> 
+       <li> <p><strong>By segment ID</strong> </p> <p>Select the header and footer you want to insert the image to and enter the image URL to the corresponding fields.</p> <p>The maximum image size is 50 MB. The image must not exceed 25 megapixels. Only PNG, JPEG, or GIF format is supported.</p> </li> 
       </ul> </li> 
-     <li> <p><span class="bold">By appending to the body of the document</span> </p> <p>Appends a specific image at the end of the document's body content.</p> </li> 
+     <li> <p><strong>By appending to the body of the document</strong> </p> <p>Appends a specific image at the end of the document's body content.</p> </li> 
     </ul> 
     <ul> 
-     <li> <p><span class="bold">By appending to the end of segment (Header and Footer)</span> </p> <p>Select the header and footer you want to insert an image to and enter the image URL you want to insert to the corresponding fields.</p> </li> 
+     <li> <p><strong>By appending to the end of segment (Header and Footer)</strong> </p> <p>Select the header and footer you want to insert an image to and enter the image URL you want to insert to the corresponding fields.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -401,17 +412,17 @@ This action module replaces an existing image. The aspect ratio of the original 
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">By Mapping</span> <br>Select this option to map the document template.</li> 
-     <li><span class="bold">By Dropdown</span> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where the document you want to replace an image is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where the document you want to replace an image is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where the document you want to replace an image is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to replace an image is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where the document you want to replace an image is located, then select the document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where the document you want to replace an image is located, then select the document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to replace an image is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -437,25 +448,25 @@ This action module replaces text in a document.
    <td role="rowheader"> <p>Select a Document</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">By Mapping</span> <br>Select this option to map the document template.</li> 
-     <li><span class="bold">By Dropdown</span> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where the document you want to add text to is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where the document you want to add text to is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where the document you want to add text to is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add text to is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where the document you want to add text to is located, then select the document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where the document you want to add text to is located, then select the document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add text to is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Replace a Text</p> </td> 
    <td> <p>Add each text that you want to replace.</p> 
     <ul> 
-     <li> <p><span class="bold">Old text to be replaced</span> </p> <p>Enter the text you want to replace.</p> </li> 
-     <li> <p><span class="bold">New text to be inserted</span> </p> <p>Enter the new text.</p> </li> 
+     <li> <p><strong>Old text to be replaced</strong> </p> <p>Enter the text you want to replace.</p> </li> 
+     <li> <p><strong>New text to be inserted</strong> </p> <p>Enter the new text.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -477,9 +488,9 @@ This action module converts and downloads the selected document.
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where the document you want to download is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where the document you want to download is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where the document you want to download is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to download is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where the document you want to download is located, then select the document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where the document you want to download is located, then select the document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to download is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -505,9 +516,9 @@ This action module deletes a document.
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where the document you want to delete is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where the document you want to delete is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where the document you want to delete is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to delete is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where the document you want to delete is located, then select the document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where the document you want to delete is located, then select the document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to delete is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -564,13 +575,13 @@ This action module allows you to perform a custom API call.
  </tbody> 
 </table>
 
-` `**Example: **`` The following API call retrieves the details for the specified document in your Google Docs:
+``` ```**Example: **`````` The following API call retrieves the details for the specified document in your Google Docs:
 
-`URL:`
+**URL:**
 
 /v1/documents/1ujkf-GDgB0TQSYPrxbCSK4Uso54tHVMqHZEVZZxB6aY
 
-`Method:`
+**Method:**
 
 GET
 
@@ -596,17 +607,17 @@ This action module finds all links in the document and makes them clickable.
    <td role="rowheader"> <p>Make All Links in a Document</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">By Mapping</span> <br>Select this option to map the document template.</li> 
-     <li><span class="bold">By Dropdown</span> <br> Select this option to choose the document from the drop-down menu.</li> 
+     <li><strong>By Mapping</strong> <br>Select this option to map the document template.</li> 
+     <li><strong>By Dropdown</strong> <br> Select this option to choose the document from the drop-down menu.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Choose a Drive</td> 
    <td> <p>Select the type of drive where the document you want to make links clickable in is located. This option is available if you selected By Dropdown in the previous field.</p> 
     <ul> 
-     <li> <p><span class="bold">My Drive</span> </p> <p>Select the folder where the document you want to make links clickable in is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Shared With Me</span> </p> <p>Select the folder where the document you want to make links clickable in is located, then select the document.</p> </li> 
-     <li> <p><span class="bold">Google Shared Drive</span> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to make links clickable in is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>My Drive</strong> </p> <p>Select the folder where the document you want to make links clickable in is located, then select the document.</p> </li> 
+     <li> <p><strong>Shared With Me</strong> </p> <p>Select the folder where the document you want to make links clickable in is located, then select the document.</p> </li> 
+     <li> <p><strong>Google Shared Drive</strong> (available for G Suite users only)</p> <p>Select whether you want to Use Domain Admin Access. Selecting Yes issues the request as a domain administrator, and all shared drived in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to make links clickable in is located, then select the document.</p> <p>Note: If you have selected the Google Shared Drive option in this field and you are not a G Suite user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

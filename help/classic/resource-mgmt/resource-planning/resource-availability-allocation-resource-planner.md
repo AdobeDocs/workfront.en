@@ -59,22 +59,22 @@ The columns that display the availability and allocation of your resources chang
 
 Consider the following when changing your view to the Resource Planner:
 
-* When you apply the `View by Project` or `View by Role` views, you can see the following columns:
+* When you apply the **View by Project** or**View by Role** views, you can see the following columns:
 
-  * Available Hours, FTE, or Cost
-  * Planned Hours, FTE, or Cost
-  * Budgeted Hours, FTE, or Cost
-  * Hours, FTE, or Cost Variance
-  * Net Hours, FTE, or Cost
+   * Available Hours, FTE, or Cost
+   * Planned Hours, FTE, or Cost
+   * Budgeted Hours, FTE, or Cost
+   * Hours, FTE, or Cost Variance
+   * Net Hours, FTE, or Cost
 
-* When you apply the `View by User` view, you can see the following columns:
+* When you apply the **View by User** view, you can see the following columns:
 
-  * Available Hours or FTE 
-  * Planned Hours or FTE 
-  * Hour or FTE Difference 
-  * Planned Hours Allocation Percentage
+   * Available Hours or FTE 
+   * Planned Hours or FTE 
+   * Hour or FTE Difference 
+   * Planned Hours Allocation Percentage
 
-` `**Tips: **``  The information is not available as Cost when applying the `View by User` view to the Resource Planner.
+``` ```**Tips: **``````  The information is not available as Cost when applying the **View by User** view to the Resource Planner.
 
 For more information about what each column displays, mouse over the name of the column in which the number is displayed.  
 ![Net_hours_res_planner_mouse_over.png](assets/net-hours-res-planner-mouse-over-350x95.png)
@@ -86,7 +86,7 @@ For more information about the data displayed in each column, see the following 
 
 ## View information by Hour, FTE, or Cost
 
-1. Go to the Resource `Planner`.
+1. Go to the **Resource** **Planner**.
 
    By default, information displays by Hours in the Resource Planner.
 
@@ -118,17 +118,17 @@ For more information about the data displayed in each column, see the following 
     </tbody> 
    </table>
 
-1. (Conditional) If you selected **Customize**, indicate options in the `Customize displayed metrics` box to set up your custom view.
+1. (Conditional) If you selected **Customize**, indicate options in the **Customize displayed metrics** box to set up your custom view.
 
    ![](assets/planner-customize-view-box-350x114.png)
 
-1. In the `View type` column on the left, select one of the following views:
+1. In the **View type** column on the left, select one of the following views:
 
-  * Project 
-  * Role
-  * User
+   * Project 
+   * Role
+   * User
 
-1. In the `Display selected items` section, select the type of information you want to display in the columns of the selected view.&nbsp;The following table shows what options are available in each view:
+1. In the **Display selected items** section, select the type of information you want to display in the columns of the selected view.&nbsp;The following table shows what options are available in each view:
 
    | **Option** |**View** |
    |---|---|
@@ -142,7 +142,7 @@ For more information about the data displayed in each column, see the following 
    | Difference |✔ |&nbsp; |&nbsp; |
    | Percent |✔ |&nbsp; |&nbsp; |
 
-1. Select `Use Planned (PLN) values in NET calculations` to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views.
+1. Select **Use Planned (PLN) values in NET calculations** to use Planned instead of Budgeted information when calculating the Net values in the Project and Role views.
 
    When selecting this option Workfront calculates the Net values using the following formula:
 
@@ -152,9 +152,9 @@ For more information about the data displayed in each column, see the following 
 
    >[!TIP]
    >
-   >`This option is applied only when you select at least one option to customize the view in the Display selected items section.`
+   >```This option is applied only when you select at least one option to customize the view in the Display selected items section.```
 
-1. Click `Save`.
+1. Click **Save**.
 
    The customized view that includes your selected columns displays.
 
@@ -172,17 +172,17 @@ You can display the Planned Allocation of users against their availability in a 
 
 To display the allocation of users in a chart:
 
-1. Go to the Resource `Planner`.
+1. Go to the **Resource** **Planner**.
 
    For more information about accessing the Resource Planner, see the [Locate the Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#accessing-the-resource-planner) section in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-1. Select `View by User`.
+1. Select **View by User**.
 
    >[!TIP]
    >
    >You can view the User Allocation Chart only in the User View.
 
-1. Click the `User allocation chart` icon ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png) to display the following information:
+1. Click the **User allocation chart** icon ![RP_user_allocation_chart.png](assets/rp-user-allocation-chart.png) to display the following information:
 
    <table cellspacing="0"> 
     <col> 
@@ -193,7 +193,7 @@ To display the allocation of users in a chart:
       <td>This is the amount of time that all users are available for work in a time period, shown as a percentage from their total available time. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span class="bold">Overallocation % for all users</span> </td> 
+      <td role="rowheader"><strong>Overallocation % for all users</strong> </td> 
       <td> <p>This is the amount of time that users are overallocated in a time period, shown as a percentage from the total available time.</p> <p>Note:  An overallocation happens when the Planned Hours are higher than the Available Hours. </p> </td> 
      </tr> 
      <tr> 
@@ -209,9 +209,9 @@ To display the allocation of users in a chart:
 
    ![RP__user_allocation_chart_Dec._7__2017.png](assets/rp--user-allocation-chart-dec.-7--2017-350x148.png)
 
-1. (Optional) Click the `Overallocation % for all users` area in the chart.  
+1. (Optional) Click the **Overallocation % for all users** area in the chart.  
    All users that are overallocated are highlighted in red.
-1. (Optional) Click the `Underutilization % for all users` area in the chart.  
+1. (Optional) Click the **Underutilization % for all users** area in the chart.  
    All users that are underutilized are highlighted in blue.
 
 1. (Optional) Click the indicator icon ![one_user_overallocation_marker.png](assets/one-user-overallocation-marker.png) that shows where you have at least one user overallocated.  

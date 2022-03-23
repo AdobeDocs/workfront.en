@@ -46,26 +46,28 @@ You must have the following access to perform the steps in this article:
 ## Chain tasks to create predecessor relationships
 
 1. Go to the project that contains the tasks that you want to chain. 
-1. Click Tasks in the left panel.
-1. (Conditional) Select `Autosave` in the upper-right corner of the task list, then select the tasks that you want to chain.
+1. Click **Tasks** in the left panel.
+1. (Conditional) Select **Autosave** in the upper-right corner of the task list, then select the tasks that you want to chain. 
+
+   ![](assets/nwe-autosave-icon-on-highlighted-350x295.png)
 
    >[!IMPORTANT]
    >
    >Chaining tasks in a task list is not possible when you manually save changes to tasks or use the Timeline Planning mode for saving tasks.
 
-1. Right-click the selected tasks, then click `Chain`. 
+1. Right-click the selected tasks, then click **Chain**. 
 1. Select from the following dependency types:
 
-  * `Finish-Start`
-  * `Finish-Finish`
-  * `Start-Start`
-  * `Start-Finish`
+  * **Finish-Start**
+  * **Finish-Finish**
+  * **Start-Start**
+  * **Start-Finish**
 
    For more information about predecessor dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-1. (Optional) Click `Unchain` if some of the tasks have been previously chained.
+1. (Optional) Click **Unchain** if some of the tasks have been previously chained.
 
-   ` `**Warning: **`` Only sequential predecessors are removed by using the unchain option when bulk editing tasks.
+   ``` ```**Warning: **`````` Only sequential predecessors are removed by using the unchain option when bulk editing tasks.
 
    Your selected tasks are now linked by predecessor relationships.
 

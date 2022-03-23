@@ -49,23 +49,23 @@ You must have the following access to perform the steps in this article:
 >If you manually modify the width of a column as described in the section "Modify width and order of columns temporarily"&nbsp;in the article [Modify column width and order](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md) after you have permanently modified the width of the column, the width of the column is preserved according to your manual resizing and the width of the column updated according to the following steps is overwritten. You can view the column according to the width defined in the following steps after you clear your cache or log in from another browser.
 
 1. Go to a list of objects.
-1. From the `View` drop-down menu, click `New View`.
+1. From the **View** drop-down menu, click **New View**.
 
-1. Click `Add Column` to add a new column.
+1. Click **Add Column** to add a new column.
 
    Or
 
    Click the column header of any existing column.
 
-1. Click `Switch to Text Mode`.
-1. Hover over the text mode area, and click `Click to edit text`.
+1. Click **Switch to Text Mode**.
+1. Hover over the text mode area, and click **Click to edit text**.
 1. Add the following code to the text mode of the column:
 
    ```
    width=200<br>usewidths=true
    ```
 
-   For the `width` line, specify any number (in pixels) that represents how wide you want the column to display in the view.
+   For the **width** line, specify any number (in pixels) that represents how wide you want the column to display in the view.
 
-1. Click `Save`, then `Save View`.
+1. Click **Save**, then **Save View**.
 

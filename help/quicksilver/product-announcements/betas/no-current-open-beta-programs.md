@@ -4,6 +4,7 @@ content-type: reference
 navigation-topic: betas
 title: There Are Currently No Open Beta Programs
 description: There are currently no open beta programs.
+hidefromtoc: true
 ---
 
 # There Are Currently No Open Beta Programs

@@ -67,10 +67,10 @@ For information about creating a report, see [Create a custom report](../../../r
 
 1. Do one of the following:
 
-  1. To access the grouping from a report, go to the report, then click  `Report Actions` > `Edit` > `Groupings` tab.
-  1. To access the grouping from a list, go to the list and from the Grouping drop-down menu, click Customize Grouping to customize the grouping that is currently applied to the list. The grouping builder opens.
+   1. To access the grouping from a report, go to the report, then click&nbsp;**Report Actions** > **Edit** > **Groupings** tab.
+   1. To access the grouping from a list, go to the list and from the **Grouping** drop-down menu, click&nbsp;**Customize Grouping** to customize the grouping that is currently applied to the list. The grouping builder opens.
 
-1. Click  `Add Grouping` to add the groupings, then click  `Switch to Text Mode` in the upper-right corner of the builder.
+1. Click&nbsp;**Add Grouping** to add the groupings, then click&nbsp;**Switch to Text Mode** in the upper-right corner of the builder.
 
    >[!TIP]
    >
@@ -80,9 +80,11 @@ For information about creating a report, see [Create a custom report](../../../r
 
    Select the name of the field when you see it in the list.
 
-1. Click `Switch to Text Mode` in the upper-right corner of the builder.
+1. Click **Switch to Text Mode** in the upper-right corner of the builder.
 
    The grouping is then displayed in text mode.
+
+   ![grouping_switch_to_text_mode.png](assets/grouping-switch-to-text-mode-350x173.png)
 
    When you edit a grouping in text mode, Workfront adds the 
 
@@ -92,10 +94,10 @@ For information about creating a report, see [Create a custom report](../../../r
 
    line of code to the grouping. This indicates that the grouping is modified in text mode.
 
-   ` `**Example: **`` To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode.
+   ``` ```**Example: **`````` To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode.
 
    ```
-   textmode=true<br>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br><span class="bold">group.0.valuefield=project:name</span><br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br><span class="bold">group.0.valueformat=string</span><br>group.1.linkedname=assignedTo<br>group.1.namekey=view.relatedcolumn<br><span class="bold">group.1.valuefield=assignedTo:name</span><br>group.1.namekeyargkey.0=assignedTo<br>group.1.namekeyargkey.1=name<br><span class="bold">group.1.valueformat=string</span>
+   textmode=true<br>group.0.linkedname=project<br>group.0.namekey=view.relatedcolumn<br><strong>group.0.valuefield=project:name</strong><br>group.0.namekeyargkey.0=project<br>group.0.namekeyargkey.1=name<br><strong>group.0.valueformat=string</strong><br>group.1.linkedname=assignedTo<br>group.1.namekey=view.relatedcolumn<br><strong>group.1.valuefield=assignedTo:name</strong><br>group.1.namekeyargkey.0=assignedTo<br>group.1.namekeyargkey.1=name<br><strong>group.1.valueformat=string</strong>
    ```
 
    >[!IMPORTANT]
@@ -103,7 +105,24 @@ For information about creating a report, see [Create a custom report](../../../r
    >The lines in bold are mandatory.
 
    <!--
-   Example: To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode: textmode=true group.0.linkedname=project group.0.namekey=view.relatedcolumn group.0.valuefield=project:name group.0.namekeyargkey.0=project group.0.namekeyargkey.1=name group.0.valueformat=string group.1.linkedname=assignedTo group.1.namekey=view.relatedcolumn group.1.valuefield=assignedTo:name group.1.namekeyargkey.0=assignedTo group.1.namekeyargkey.1=name group.1.valueformat=string Important: The lines in bold are mandatory.
+   <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Example: </b></span></span>
+   <p>To group a list of tasks by the Project Name and then by the name of the Primary Assignee, your grouping should look like the following, in text mode:</p>
+   <p><code>textmode=true</code> </p>
+   <p><code>group.0.linkedname=project</code> </p>
+   <p><code>group.0.namekey=view.relatedcolumn</code> </p>
+   <p><code style="font-weight: bold;">group.0.valuefield=project:name</code> </p>
+   <p><code>group.0.namekeyargkey.0=project</code> </p>
+   <p><code>group.0.namekeyargkey.1=name</code> </p>
+   <p><code style="font-weight: bold;">group.0.valueformat=string</code> </p>
+   <p><code>group.1.linkedname=assignedTo</code> </p>
+   <p><code>group.1.namekey=view.relatedcolumn</code> </p>
+   <p><code style="font-weight: bold;">group.1.valuefield=assignedTo:name</code> </p>
+   <p><code>group.1.namekeyargkey.0=assignedTo</code> </p>
+   <p><code>group.1.namekeyargkey.1=nam</code>e</p>
+   <p><code style="font-weight: bold;">group.1.valueformat=string</code> </p> <note type="important">
+   The lines in bold are mandatory.
+   </note>
+   </div>
    -->
 
    Each field in the grouping has several lines of code that refer to that field.
@@ -115,7 +134,9 @@ For information about creating a report, see [Create a custom report](../../../r
    >The key lines in a text mode grouping are similar to the lines required to build text-mode views.
 
    <!--
-   Tip: The key lines in a text mode grouping are similar to the lines required to build text-mode views.
+   <div class="tip_one-tip-with_bullets" data-mc-autonum="<b>Tip: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Tip: </b></span></span>
+   <p>The key lines in a text mode grouping are similar to the lines required to build text-mode views.</p>
+   </div>
    -->
 
    <table cellspacing="15"> 
@@ -123,13 +144,13 @@ For information about creating a report, see [Create a custom report](../../../r
     <col> 
     <thead> 
      <tr> 
-      <th><span class="bold">Sample Line</span> </th> 
-      <th><span class="bold">Description</span> </th> 
+      <th><strong>Sample Line</strong> </th> 
+      <th><strong>Description</strong> </th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td><span class="bold">group.&lt;number&gt;.</span> </td> 
+      <td><strong>group.&lt;number&gt;.</strong> </td> 
       <td> <p>Each line of code is preceded by this text. The lines of code that refer to the same field selected in the grouping are numbered with the same number, as follows:</p> 
        <ul> 
         <li>The first grouping of the report has a group number of 0. All lines referring to the first grouping start with <code>group.0</code>.</li> 
@@ -139,7 +160,7 @@ For information about creating a report, see [Create a custom report](../../../r
        </ul> <p>Note: 4 groupings are not supported in the builder. They are only supported when using text mode. Workfront does not support more than 4 levels of groupings.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p><span class="bold">valuefield</span>=</p> </td> 
+      <td> <p><strong>valuefield</strong>=</p> </td> 
       <td> <p>This is the name of the object or of the field as it appears in the database. For more information about how objects and fields appear in the database, see <a href="../../../wf-api/general/api-explorer.md" class="MCXref xref">API Explorer</a>.</p> <p>The following scenarios exist:</p> 
        <ol> 
         <li value="1"> <p> If the name of the field you display is a phrase instead of a single noun, you must use camel case syntax for the <code>valuefield</code>. For example, for the Planned Start Date of a task the code is:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
@@ -148,11 +169,11 @@ For information about creating a report, see [Create a custom report](../../../r
        </ol> <p>For information about how objects connect to one another, see the section <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependency and hierarchy of objects</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>.</p> <p>Note: If you choose a field in text mode that is not valid in the standard interface and you switch to the standard interface, the grouping is deleted.</p> </td> 
      </tr> 
      <tr> 
-      <td><span class="bold">valueformat=</span> </td> 
+      <td><strong>valueformat=</strong> </td> 
       <td> <p>This line represents the format used to display the <code>valuefield</code>. The <code>valueformat</code> identifies whether an object or field displays as text, number, percentage, or date.</p> <p>We recommend using <code>HTML</code> for your <code>valueformat</code>, especially when using <code>valueexpression</code>, to ensure the most accurate display of your information.</p> <p>For information about additional values for this line, see <a href="../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md" class="MCXref xref">Use conditional formatting in Text Mode</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td> <p><span class="bold">valueexpression=</span> </p> </td> 
+      <td> <p><strong>valueexpression=</strong> </p> </td> 
       <td> <p>You can add this line to replace <code>valuefield</code>, if you want to group your list by a calculation between several fields.</p> <p>You must enclose the <code>valuefield</code> of the objects in curly brackets every time you use it in a <code>valueexpression</code>.</p> <p>The following scenarios exist:</p> 
        <ol> 
         <li value="1"> <p>If you want to display the name of a grouping in upper case, you would use:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>The <code>valuefield</code> of the object is spelled as it appears in the API Explorer.</p> </li> 
@@ -160,16 +181,16 @@ For information about creating a report, see [Create a custom report](../../../r
        </ol> </td> 
      </tr> 
      <tr> 
-      <td><span class="bold">namekey= / name=</span> </td> 
+      <td><strong>namekey= / name=</strong> </td> 
       <td> <p>This line defines the grouping label. In this case it is using the abbreviated value based on the key.</p> <p>If you want to modify the grouping name you can change this value to the following:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>group.0.name=Your Value</code> </p> <p><code>Name</code> allows you to enter any text for the grouping name, while <code>namekey</code> requires you enter a key that is used to translate the name of a grouping.</p> <p>To change the grouping name you can also add the <code>displayname </code>line, if one is not present.</p> </td> 
      </tr> 
      <tr> 
-      <td><span class="bold">displayname =</span> </td> 
+      <td><strong>displayname =</strong> </td> 
       <td> <p>You can add the following line to change the name of a column, which overwrites the <code>namekey/name</code> value:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>group.0.displayname=Your Value</code> </p> <p>We recommend removing all the lines that contain <code>name </code>when you rename a grouping.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click `Done` if you want to save your changes and continue editing the grouping or report.
-1. Click `Save Grouping` in a list or `Save + Close` to save your report.
+1. Click **Done** if you want to save your changes and continue editing the grouping or report.
+1. Click **Save Grouping** in a list or **Save + Close** to save your report.
 

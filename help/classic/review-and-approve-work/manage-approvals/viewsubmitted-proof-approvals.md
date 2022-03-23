@@ -41,9 +41,10 @@ You must have the following access to perform the steps in this article:
 
 ## Viewing submitted proof approvals
 
-1. In the `Work List` area, Go to the `Approvals I've Submitted` grouping.
+1. Home
+1. In the **Work List** area, Go to the **Approvals I've Submitted** grouping.
 
-1. Select a `Proof` approval.
+1. Select a **Proof** approval.
 
    >[!NOTE]
    >
@@ -51,5 +52,5 @@ You must have the following access to perform the steps in this article:
 
    ![Proof.png](assets/proof-350x261.png)
 
-1. (Optional) Click `Go to Proof` in the upper-right corner of the right panel to launch the proofing viewer.
+1. (Optional) Click **Go to Proof** in the upper-right corner of the right panel to launch the proofing viewer.
 

@@ -12,7 +12,7 @@ description: When a user clicks Work on It or adds an update comment to a new ta
 
 When a user clicks Work on It or adds an update comment to a new task they have been assigned to (without manually setting a condition for the task), Adobe Workfront displays the default condition for tasks, which is configured in Setup. The same is true for issues.
 
-Workfront uses the built-in condition `Going Smoothly` as the default condition for tasks and, separately, for issues. As a Workfront administrator, you can change the default condition for both of these object types to a custom condition you have created.
+Workfront uses the built-in condition **Going Smoothly** as the default condition for tasks and, separately, for issues. As a Workfront administrator, you can change the default condition for both of these object types to a custom condition you have created.
 
 ## Access requirements
 
@@ -39,15 +39,15 @@ You must have the following to perform the steps in this article:
 
 ## Set a custom condition as a default condition for tasks or for issues:
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click `Project Preferences` > `Conditions`.
+1. Click **Project Preferences** > **Conditions**.
 
-1. Click the `Tasks` or `Issues` tab. 
+1. Click the **Tasks** or **Issues** tab. 
 
-1. Click `Set Default Conditions`. 
+1. Click **Set Default Conditions**. 
 1. In the drop-down menu, click the custom condition you want as the default condition for tasks (or issues). 
-1. Click `Save`.
+1. Click **Save**.
 
 >[!NOTE]
 >

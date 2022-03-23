@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
 ## Configure user access to Resource Management tools using a custom access level
 
 1. Begin creating or editing the access level, as explained in [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Click the gear icon ![](assets/gear-icon-settings.png) on the `View` or `Edit` button to the right of Resource Management, then select the abilities you want to grant under **Fine-tune your settings**.
+1. Click the gear icon ![](assets/gear-icon-settings.png) on the **View** or **Edit** button to the right of Resource Management, then select the abilities you want to grant under **Fine-tune your settings**.
 
    ![](assets/resource-management-details-of-edit-in-the-access-level-350x68.png)
 
@@ -53,7 +53,11 @@ You must have the following to perform the steps in this article:
      <tr> 
       <td role="rowheader">Manage Resource Pools</td> 
       <td> <p>Allows users with this license to create, edit, and delete Resource Pools. This option is disabled by default.</p> </td> 
-     </tr> Update Planned Hours in the Workload Balancer Allows users with this license to update the Planned Hours of work items when they update the user allocations in the Workload Balancer. The total number of allocated hours becomes the Planned Hours of the work items. This option is disabled by default. For more information, see Manage user allocations in the Workload Balancer. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader"><span>Update Planned Hours in the Workload Balancer</span> </td> 
+      <td> <p>Allows users with this license to update the Planned Hours of work items when they update the user allocations in the Workload Balancer. The total number of allocated hours becomes the Planned Hours of the work items.</p> <p>This option is disabled by default.</p> <p> For more information, see <a href="../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </td> 
+     </tr> 
     </tbody> 
    </table>
 

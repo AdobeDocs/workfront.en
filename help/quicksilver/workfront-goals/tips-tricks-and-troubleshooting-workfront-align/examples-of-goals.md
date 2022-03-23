@@ -5,6 +5,7 @@ product: workfront-goals
 navigation-topic: tips-tricks-and-troubleshooting-workfront-goals
 title: Examples of goals in Workfront Goals
 description: Add all the examples in one page - from the Atiim folder
+hidefromtoc: true
 ---
 
 # Examples of goals in Workfront Goals

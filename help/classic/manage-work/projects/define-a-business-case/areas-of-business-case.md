@@ -12,7 +12,7 @@ This article describes the areas of the Business Case of a project.
 
 For information about creating a Business Case for a project, see [Create a Business Case for a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Your Adobe Workfront administrator `or group administrator` must enable all the&nbsp;sections in the Business Case&nbsp;before they are visible on the project, except for the Project Info section.&nbsp;The Project Info section is enabled by default.
+Your Adobe Workfront administrator ```or group administrator``` must enable all the&nbsp;sections in the Business Case&nbsp;before they are visible on the project, except for the Project Info section.&nbsp;The Project Info section is enabled by default.
 
 For more information about enabling the areas of the Business Case, see the "Business Cases" section in&nbsp; [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -21,6 +21,11 @@ The following are areas in the Business Case of a project:
 * Project Info
 * Goals
 * Expenses
+
+  <!--
+  Legacy Resource Estimates&nbsp;
+  -->
+
 * Resource Budgeting
 * Risks
 * Scorecard
@@ -29,34 +34,34 @@ The following are areas in the Business Case of a project:
 
 ## Project Info
 
-The `Project Info` area of the Business Case is&nbsp;not configurable by the Workfront administrator. All projects have a Project Info area in the Business Case.&nbsp;
+The **Project Info** area of the Business Case is&nbsp;not configurable by the Workfront administrator. All projects have a Project Info area in the Business Case.&nbsp;
 
 The Project Info section of the Business Case includes the basic information of a project, before the project has actually started.
 
 Consider editing the following fields:
 
-* `Description`: Specify a description for your project.
-* `Project Owner`
+* **Description**: Specify a description for your project.
+* **Project Owner**
 
   By default, the user creating the project is also the Project Owner. You can edit this field and indicate another active user as the owner of the project. 
 
-* `Project Sponsor`
+* **Project Sponsor**
 
   Consider adding someone else than the Project Owner as the Sponsor of the project. The sponsor receives the approval of the Business Case.&nbsp;
 
-* `Portfolio`: Specify a Portfolio for the project. You must create the Portfolio and place it in the status of `Active` before it is available to select in this drop-down menu.
+* **Portfolio**: Specify a Portfolio for the project. You must create the Portfolio and place it in the status of **Active** before it is available to select in this drop-down menu.
 
   For more information about portfolios, see [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   For more information about creating Portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-* `Planned Benefit`: Estimate what the monetary benefit is planned to be for your organization when this project is completed. It can be any amount of currency and it must be a positive value. For example $10,000.
-* `Status`: By default, the Status for a project request is set to `Idea`.
+* **Planned Benefit**: Estimate what the monetary benefit is planned to be for your organization when this project is completed. It can be any amount of currency and it must be a positive value. For example $10,000.
+* **Status**: By default, the Status for a project request is set to **Idea**.
 
-  If you change the Status to anything other than Idea or Planning, the  `Submit` button disappears from the Business Case Summary area, and you can no longer submit the Business Case for approval.&nbsp;
+  If you change the Status to anything other than&nbsp;Idea or&nbsp;Planning, the&nbsp;**Submit** button disappears from the Business Case Summary area, and you can no longer submit the Business Case for approval.&nbsp;
 
-* `Fixed Start Date`: Specify a date when you would like for the project to start.
-* `Fixed End Date`: Specify a date when you would like for the project to end.
+* **Fixed Start Date**: Specify a date when you would like for the project to start.
+* **Fixed End Date**: Specify a date when you would like for the project to end.
 
   >[!NOTE]
   >
@@ -79,7 +84,16 @@ Any expenses that you enter on the Business Case are also entered&nbsp;on the Ex
 Expenses affect the following fields on the project:
 
 * Budgeted Cost
+
+  <!--
+  Legacy Budgeted Cost
+  -->
+
 * Net Value
+
+  <!--
+  Legacy Net Value
+  -->
 
 For more information about the Budgeted Costs and Net Values, see [Overview of Business Case financial fields](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
@@ -88,7 +102,47 @@ For more information about&nbsp;expenses, see&nbsp; [Manage project expenses](..
 Your Workfront administrator can set up custom Expense Types.
 
 For more information about&nbsp;creating custom Expense Types, see [Create custom expense types](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).&nbsp;
-Legacy Resource Estimates This is a read-only area that captures information from a tool that has been removed from Workfront. The information is preserved for historic purposes, but it cannot be updated. Although not recommended, you may update the information in this report using the Workfront API. Tip: Only projects whose resources have been budgeted before the tool was removed display this area in the Business Case. For information about how you estimate resources for projects, see Resource Planner overview. Using the Legacy Resource Estimates area of the Business Case, you can estimate the cost of the resources working on your project. This area is enabled by default in the Business Case, but the Workfront administrator might choose to not display it. Legacy Resource Estimates display anticipated labor resources needed to complete your project. You can view your requested labor resources by FTE, Hours, or Cost. The information displayed here is also displayed in the Capacity Planner. For more information about Legacy Resource Estimates, see Estimate project resources by applying Legacy Resource Pools to the Business Case . For more information about the Capacity Planner, see Plan resources in the Capacity Planner. The cost of the resources estimated in the Legacy Resource Estimates area represents the Legacy Labor Cost of the project. The Planned Cost of the Legacy Resource Estimates affects the Legacy Budgeted Cost and the Legacy Net Value of the project. For more information about Budgeted Costs and Net Values, see Overview of Business Case financial fields . 
+
+<!--
+<a name="resource-estimates"></a>Legacy Resource Estimates
+-->
+
+<!--
+This is a read-only area that captures information from a tool that has been removed from&nbsp;Workfront. The information is preserved for historic purposes, but it cannot be updated. Although not recommended, you may update the information in this report using the Workfront API.
+-->
+
+<!--
+<span class="autonumber"><span><b>Tip: </b></span></span>Only projects whose resources have been budgeted before the tool was removed display this area in the Business Case.
+-->
+
+<!--
+For information about how you estimate resources for projects, see
+<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">Resource Planner overview</a>.
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Using the Legacy Resource Estimates area of the Business Case, you can estimate the cost of the resources working on your project. This area&nbsp;is enabled by default in the Business Case, but the Workfront administrator might choose to not display it.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Legacy Resource Estimates display anticipated labor resources needed to complete your project. You can view your requested labor resources by FTE, Hours, or Cost. The information displayed here is also displayed in the Capacity Planner.&nbsp;</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Legacy Resource Estimates, see <a href="../../../manage-work/projects/define-a-business-case/apply-legacy-pools-to-business-case.md" class="MCXref xref">Estimate project resources by applying Legacy Resource Pools to the Business Case </a>.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about the Capacity Planner, see <a href="../../../resource-mgmt/legacy-res-planning/plan-resources-in-capacity-planner.md" class="MCXref xref">Plan resources in the Capacity Planner</a>.</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">The cost of the resources&nbsp; estimated in the Legacy Resource Estimates area represents&nbsp;the Legacy Labor Cost of the project. The Planned Cost of the Legacy Resource Estimates affects the Legacy Budgeted Cost and the Legacy Net Value of the project.&nbsp;</p>
+-->
+
+<!--
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about Budgeted Costs and Net Values, see <a href="../../../manage-work/projects/define-a-business-case/business-case-finances.md" class="MCXref xref">Overview of Business Case financial fields </a>.</p>
+-->
 
 ## Resource Budgeting
 
@@ -101,13 +155,15 @@ The hours budgeted for the resources on the project display in the Resource Budg
 
 For more information about budgeting resources for the project in the Business Case, see [Budget resources in the Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
+![business_case___RP_info_with_user_and_budgeted_cost__1_.png](assets/business-case---rp-info-with-user-and-budgeted-cost--1--350x116.png)
+
 Consider the following when viewing the Resource Budgeting section of the Business Case:
 
 * You can budget resource information here using the following tool:
 
-  * The Resource Planner
+   * The Resource Planner
 
-    For information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+     For information, see [Budget resources in the Business Case using the Adobe Workfront Resource Planner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
 * The information displayed here also displays in the system-level Resource Planner .&nbsp;  
 * After budgeting your resources, the Budgeted Labor Cost of the project displays in the Resource Budgeting area if the roles are associated with Cost per Hour rates.&nbsp;The Budgeted Labor&nbsp;Cost displays in the currency of the project.
@@ -140,7 +196,7 @@ Scorecards&nbsp;measure the Alignment of the project. This area&nbsp;is enabled 
 
 For more information about applying a scorecard to a project and generating an alignment score, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-To apply a scorecard, your Workfront administrator must create one. The `Scorecard` area of the Business Case does not display unless a scorecard is created.
+To apply a scorecard, your Workfront administrator must create one. The **Scorecard** area of the Business Case does not display unless a scorecard is created.
 
 For more information about&nbsp;creating a scorecard, see&nbsp; [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -156,14 +212,14 @@ For more information about&nbsp;creating a custom form, see [Create or edit a cu
 
 You can use custom forms to collect additional information that is not displayed in the other fields of the Business Case.
 
-For more information about applying a custom form, see [Attach a Custom Form to a Business Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md). ``
+For more information about applying a custom form, see [Attach a Custom Form to a Business Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md). ``````
 
 ## Business Case Summary
 
 * [Overview of the Business Case Summary](#understanding-business-case-summary) 
 * [Export the Business Case](#exporting-the-business-case)
 
-### `Overview of the Business Case Summary`
+### **Overview of the Business Case Summary**
 
 You can see a summary of the main project finances and whether a project is aligned or not with a Scorecard in the Business Case Summary panel, in the upper-right corner of the Business Case .
 
@@ -173,24 +229,44 @@ You cannot edit the Business Case Summary. This is only a quick view of the stat
 The following fields display in the Business Case Summary:
 
 * The Project Net Value
+
+  <!--
+  The Project Legacy Net Value
+  -->
+
 * The Project Budgeted Cost
+
+  <!--
+  The Project Legacy Budgeted Cost
+  -->
+
 * The Potential Risk Cost
 * The Planned Benefit
 * The Alignment Score
 
 For more information about these fields, see [Overview of Business Case financial fields](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-### `Export the Business Case`
+### **Export the Business Case**
 
 You can export the Business Case to a PDF&nbsp;file, in case you need to print it or attach it to an email in a more condensed format.&nbsp;
 
 For information, see [Export the Business Case of a project in Adobe Workfront](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
-To export a Business Case: Go to the Business Case area of a project. In the Business Case Summary area, click Export. A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format. (Optional) You can attach the PDF file to an email, or print it.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>To export a Business Case:</p>
+<ol>
+<li value="1">Go to the <strong>Business Case</strong> area of a project. </li>
+<li value="2"> <p>In the<strong>Business Case Summary</strong> area, click <strong>Export</strong>.<br>A PDF file is downloaded to your computer. The file contains all areas of the Business Case in an easy to read format.</p> <p> <img src="assets/bc-summary-exported-350x160.png" alt="BC_Summary_exported.png" style="width: 350;height: 160;"> </p> </li>
+<li value="3">(Optional) You can attach the PDF file to an email, or print it.&nbsp;</li>
+</ol>
+</div>
 -->
 
 <!--
-You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format. The file contains all areas of the Business Case in an easy to read format. For information about how to export the Business Case, see Export the Business Case of a project in Adobe Workfront
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>You can export the Business Case to a PDF file, in case you need to print it or attach it to an email in a more condensed format.&nbsp; The file contains all areas of the Business Case in an easy to read format.</p>
+<p>For information about how to export the Business Case, see <a href="../../../manage-work/projects/define-a-business-case/export-business-case.md" class="MCXref xref">Export the Business Case of a project in Adobe Workfront</a></p>
+</div>
 -->
 

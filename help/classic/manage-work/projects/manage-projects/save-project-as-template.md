@@ -42,7 +42,8 @@ You must have the following access to perform the steps in this article:
 ## Save a project as a template
 
 1. Go to the project that you want to save as a template. 
-1. Click Project Actions, then click Save as Template.  
+1. Click **Project Actions,** then click **Save as Template.** 
+
 1. Specify the following information for the template:
 
    <table cellspacing="0"> 
@@ -61,8 +62,8 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader">Is Active</td> 
       <td> <p>Select from the following options:</p> 
        <ul> 
-        <li> <p><span class="bold">Yes</span>: Other users can find the template and attach it to projects.</p> </li> 
-        <li><span class="bold">No</span>: Other users cannot find the template and cannot attach it to projects.</li> 
+        <li> <p><strong>Yes</strong>: Other users can find the template and attach it to projects.</p> </li> 
+        <li><strong>No</strong>: Other users cannot find the template and cannot attach it to projects.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -72,21 +73,21 @@ You must have the following access to perform the steps in this article:
     </tbody> 
    </table>
 
-1. Click `Manage Forms` to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x167.png)
 
-1. Click `Next Step.`
-1. In the `Options` section, select the checkbox beside any information you want to clear from the template.
+1. Click **Next Step.**
+1. In the**Options** section, select the checkbox beside any information you want to clear from the template.
 
    ![](assets/save-as-template-options-step-350x147.png)
 
-1. Click `Next Step.`
-1. In the `Exclude` section, select any tasks that you want to exclude from the project.
+1. Click **Next Step.**
+1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Click `Finish and Save Template.`
+1. Click **Finish and Save Template.**
 
    Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
 

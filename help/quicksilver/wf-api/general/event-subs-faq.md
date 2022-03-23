@@ -35,7 +35,7 @@ If you attempt to create an event subscription and receive a response code: 409 
 
 Look for the following scenarios and use the recommended solution:
 
-* Ensure that your subscription endpoint—defined by the `url` field—is returning a 2XX HTTP response code. If it is not, contact Workfront Support or see [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md).
+* Ensure that your subscription endpoint—defined by the **url** field—is returning a 2XX HTTP response code. If it is not, contact Workfront Support or see [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md).
 
 * The event delivery request could be timing out before it completes. Ensure that your endpoint consistently responds within 5 seconds. This is the default timeout set for the HTTP request to deliver an Event Subscription message. If your endpoint is not responding within 5 seconds, contact Workfront Support or see [Event Subscription delivery requirements](../../wf-api/general/setup-event-sub-endpoint.md).
 * The events might not generate the way you think. Ensure that you're not making assumptions about how or when events should and do fire. For example, you might think that updating a document on a task generates a task update event, but instead, it generates a document create or document update event.
@@ -67,7 +67,7 @@ Please contact Workfront Support. To learn how to contact support, see [Contact 
 
 ## What different types of authentication can I use with Workfront Event Subscriptions?
 
-You can use any authentication that uses a bearer token. The `authToken` field of a subscription is a string that represents an OAuth2 bearer token used to authenticate with the URL specified in the `url` field. In theory, this token value could be anything as long as the destination endpoint is aware of how to handle its encoding, which is `utf-8`.
+You can use any authentication that uses a bearer token. The **authToken** field of a subscription is a string that represents an OAuth2 bearer token used to authenticate with the URL specified in the **url** field. In theory, this token value could be anything as long as the destination endpoint is aware of how to handle its encoding, which is **utf-8**.
 
 ## How long should it be before I receive my event payload from Workfront Event Subscriptions?
 
@@ -75,13 +75,13 @@ In general, you can expect to receive Event Subscription event delivery requests
 
 ## Additional resources
 
-* `API Documentation`: [Event Subscription API](../../wf-api/general/event-subs-api.md)
+* **API Documentation**: [Event Subscription API](../../wf-api/general/event-subs-api.md)
 
-* `Best practices`: [Event subscription best practices](../../wf-api/general/event-sub-best-practice.md)
+* **Best practices**: [Event subscription best practices](../../wf-api/general/event-sub-best-practice.md)
 
-* `Fields that trigger Event Subscription payloads`: [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md)
+* **Fields that trigger Event Subscription payloads**: [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md)
 
-* `Understanding Event Subscription retries`: [Event subscription retries](../../wf-api/api/event-sub-retries.md)
+* **Understanding Event Subscription retries**: [Event subscription retries](../../wf-api/api/event-sub-retries.md)
 
-* `Configuring your firewall for Workfront`: [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Configuring your firewall for Workfront**: [Configure your firewall's allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
 

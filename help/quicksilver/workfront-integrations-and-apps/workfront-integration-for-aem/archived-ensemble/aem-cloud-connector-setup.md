@@ -4,6 +4,7 @@ product-area: workfront-integrations;setup
 navigation-topic: workfront-for-adobe-experience-manager
 title: Set up the AEM cloud connector
 description: This document explains how to include the Workfront Connector as a Maven dependency in AEM projects deployed to an AEM as a Cloud Service environment. The steps in this document refers to an AEM project called 'sample-site,' which acts as a stand-in for a client's site. The sample-site AEM project is based on Adobe's Maven archetype.
+hidefromtoc: true
 ---
 
 # Set up the AEM cloud connector
@@ -26,9 +27,9 @@ Before the Workfront Connector can be included as a Maven dependency in the 'sam
 #### If a repository file is not provided and/or you're building the source code
 
 1. In the root directory of the 'sample-site' AEM project, {sample-site-root}, create a folder called 'repository'.&nbsp;
-1. In the terminal, enter the command below. Be sure to replace `{connector-root}` & `{sample-site-root}` with the correct file paths for your installation:
+1. In the terminal, enter the command below. Be sure to replace **{connector-root}** & **{sample-site-root}** with the correct file paths for your installation:
 
-   <pre>mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=<span class="bold">{connector-root}</span>/all/target/workfront-aem- connector.all-1.9.0-SNAPSHOT.zip -DgroupId=com.workfront -DartifactId=workfront-aem-connector.all -Dversion=1.9.0-SNAPSHOT -Dpackaging=zip -DlocalRepositoryPath=<span class="bold">{sample-site-root}</span>/repository</pre>
+   <pre>mvn org.apache.maven.plugins:maven-install-plugin:2.5.2:install-file -Dfile=<strong>{connector-root}</strong>/all/target/workfront-aem- connector.all-1.9.0-SNAPSHOT.zip -DgroupId=com.workfront -DartifactId=workfront-aem-connector.all -Dversion=1.9.0-SNAPSHOT -Dpackaging=zip -DlocalRepositoryPath=<strong>{sample-site-root}</strong>/repository</pre>
 
 1. Continue to the following section: Update the project's POM&nbsp;files.
 
@@ -67,34 +68,34 @@ In order for the Workfront Connector to connect to a Workfront environment, it m
 
 1. In the Source code, navigate to the following path '{sample-site-root}/ui.apps/src/main/content/jcr_root/apps/sample-site/config'.
 1. Create a file named 'com.workfront.dam.integration.config.impl.WorkfrontConfigServiceImpl.xml' in the config folder.
-1. Add the snippet below as the contents of the newly created file. The `bolded` attributes should have their values customized to suit the specific implementation.
+1. Add the snippet below as the contents of the newly created file. The **bolded** attributes should have their values customized to suit the specific implementation.
 
-   <pre><?xml version="1.0" encoding="UTF-8"?></pre><pre><jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0"</pre><pre>xmlns:sling="http://sling.apache.org/jcr/sling/1.0"</pre><pre>jcr:primaryType="sling:OsgiConfig"</pre><pre><span class="bold">workfront.folder.path</span>="/content/dam/{PATH}"</pre><pre><span class="bold">workfront.api.key</span>="{WORKFRONT_ADMIN_USER_API_KEY}"</pre><pre><span class="bold">workfront.url</span>="https://organization.my.workfront.com"</pre><pre><span class="bold">webhooks.api.key</span>="{UNIQUE_ID}"</pre><pre><span class="bold">document.sync.auth.token</span>="{UNIQUE_ID}"</pre><pre><span class="bold">comment.sync.auth.token</span>="{UNIQUE_ID}"</pre><pre><span class="bold">metadata.sync.auth.token</span>={UNIQUE_ID}"</pre><pre><span class="bold">request.whitelist</span>="[{IP_ADDRESS_LIST}]"</pre><pre><span class="bold">ignore.domain</span>="{Boolean}false"</pre><pre><span class="bold">use.sso.username</span>="{Boolean}false"</pre><pre><span class="bold">show.collections</span>="{Boolean}true"</pre><pre><span class="bold">version.enabled</span>="{Boolean}true"/></pre>
+   <pre><?xml version="1.0" encoding="UTF-8"?></pre><pre><jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0"</pre><pre>xmlns:sling="http://sling.apache.org/jcr/sling/1.0"</pre><pre>jcr:primaryType="sling:OsgiConfig"</pre><pre><strong>workfront.folder.path</strong>="/content/dam/{PATH}"</pre><pre><strong>workfront.api.key</strong>="{WORKFRONT_ADMIN_USER_API_KEY}"</pre><pre><strong>workfront.url</strong>="https://organization.my.workfront.com"</pre><pre><strong>webhooks.api.key</strong>="{UNIQUE_ID}"</pre><pre><strong>document.sync.auth.token</strong>="{UNIQUE_ID}"</pre><pre><strong>comment.sync.auth.token</strong>="{UNIQUE_ID}"</pre><pre><strong>metadata.sync.auth.token</strong>={UNIQUE_ID}"</pre><pre><strong>request.whitelist</strong>="[{IP_ADDRESS_LIST}]"</pre><pre><strong>ignore.domain</strong>="{Boolean}false"</pre><pre><strong>use.sso.username</strong>="{Boolean}false"</pre><pre><strong>show.collections</strong>="{Boolean}true"</pre><pre><strong>version.enabled</strong>="{Boolean}true"/></pre>
 
 1. The following describes each attribute and how to configure them:
 
-  1. `workfront.folder.path`: The assets path where Workfront files are stored. This path must be within /content/dam. If changed, the new path must already exist..
-  1. <![CDATA[  ]]> `workfront.api.key`: Retrieved from Customer Info section of the Workfront setup screen. This must be a Workfront admin user's API Key.
-  1. `workfront.url workfront.url`: The URL of the Workfront instance being linked to. Example: https://[account].my.workfront.com
+  1. **workfront.folder.path**: The assets path where Workfront files are stored. This path must be within /content/dam. If changed, the new path must already exist..
+  1. <![CDATA[  ]]>**workfront.api.key**: Retrieved from Customer Info section of the Workfront setup screen. This must be a Workfront admin user's API Key.
+  1. **workfront.url workfront.url**: The URL of the Workfront instance being linked to. Example: https://[account].my.workfront.com
   1. The following keys and tokens can be created using the following URL to generate a unique guid for each: [UUID Generator](https://www.uuidgenerator.net/).&nbsp;
 
-    1. `webhooks.api.key`:&nbsp;REQUIRED This will act as the AEM API key stored in the Workfront Custom configuration for the Workfront Connector.&nbsp;
-    1. `document.sync.auth.token`: This auth token will create a webhook within the Workfront environment that will enable users to automatically create new proof versions of a document in Workfront when the file content is updated in AEM. If left empty, this feature will be disabled.
-    1. `comment.sync.auth.token`: This auth token will create a webhook within the Workfront environment that will enable users to synchronize comments on a linked document. If left empty, this feature will be disabled.
-    1. `metadata.sync.auth.token`: This auth token will create a webhook within the Workfront environment that will enable users to synchronize metadata on a linked document. If left empty, this feature will be disabled.
-    1. `request.whitelist`: Restrict access to only those requests originating from the IP list specified.
+    1. **webhooks.api.key**:&nbsp;REQUIRED This will act as the AEM API key stored in the Workfront Custom configuration for the Workfront Connector.&nbsp;
+    1. **document.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to automatically create new proof versions of a document in Workfront when the file content is updated in AEM. If left empty, this feature will be disabled.
+    1. **comment.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize comments on a linked document. If left empty, this feature will be disabled.
+    1. **metadata.sync.auth.token**: This auth token will create a webhook within the Workfront environment that will enable users to synchronize metadata on a linked document. If left empty, this feature will be disabled.
+    1. **request.whitelist**: Restrict access to only those requests originating from the IP list specified.
 
       1. Input a comma separated list of whitelisted IP Addresses. Ex: [1.1.1.1,0.0.0.0]
 
-       `<li><span class="bold">ignore.domain</span>: If enabled, the email address domain name will be ignored when mapping users from Workfront to AEM. i.e. @example.com  <ol>   <li value="1">Options: {Boolean}false or {Boolean}true</li>  </ol></li>``<li><span class="bold">use.sso.username</span>: If enabled, the connector will use the Workfront user's Federated ID when mapping users to AEM.</li>`
+       ```<li><strong>ignore.domain</strong>: If enabled, the email address domain name will be ignored when mapping users from Workfront to AEM. i.e. @example.com  <ol>   <li value="1">Options: {Boolean}false or {Boolean}true</li>  </ol></li>``````<li><strong>use.sso.username</strong>: If enabled, the connector will use the Workfront user's Federated ID when mapping users to AEM.</li>```
 
       1. Options: {Boolean}false or {Boolean}true
 
-    1. `show.collections`: This option enables Workfront users to see AEM Asset Collections and link them in the Workfront Documents UI. Linked Collections cannot have documents added to them.
+    1. **show.collections**: This option enables Workfront users to see AEM Asset Collections and link them in the Workfront Documents UI. Linked Collections cannot have documents added to them.
 
       1. Options: {Boolean}false or {Boolean}true
 
-    1. `version.enabled`: This option enables Workfront users to leverage AEM Versioning when the assets already exist in DAM.
+    1. **version.enabled**: This option enables Workfront users to leverage AEM Versioning when the assets already exist in DAM.
 
       1. Options: {Boolean}false or {Boolean}true
 
@@ -102,7 +103,7 @@ In order for the Workfront Connector to connect to a Workfront environment, it m
 
 The 'workfront-service' user requires the following permissions to these locations:
 
-| `Location`  | `Permission`  |
+| **Location** |**Permission** |
 |---|---|
 | > /content/dam | jcr:read rep:write |
 | > /home | jcr:read |
@@ -132,23 +133,27 @@ After you add the connector to your existing project structure and configure the
    >
    >Workfront recommends creating a Workfront administrator dedicated solely to your AEM integration. For more information about assigning the Workfront administrator access level to a user, see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-1. Click  `Documents`>  `Custom Integration.`
+1. Main Menu
+1. 
+1. Setup
+1. 
+1. Click&nbsp;**Documents**>&nbsp;**Custom Integration.**
 
-1. Click `Add Custom Integration`.
-1. In the  `Name` box, specify the name of the custom integration.
+1. Click **Add Custom Integration**.
+1. In the&nbsp;**Name** box, specify the name of the custom integration.
 
    This is the name users see when using the integration within Workfront; for example, you could enter *"AEM Assets"* for the name.&nbsp;
 
-1. In the  `Base API URL` box, specify the URL for your AEM instance.
+1. In the&nbsp;**Base API URL** box, specify the URL for your AEM instance.
 
    The base API URL consists of the URL for your AEM instance followed by the path: /bin/webhooks/api/
 
    ![mceclip3.png](assets/mceclip3-350x130.png)
 
-1. In the  `Authentication Type` drop-down menu, select `ApiKey.`
+1. In the&nbsp;**Authentication Type** drop-down menu,&nbsp;select **ApiKey.**
 
-1. In the `API Key` box, paste the AEM API Key you copied when you configured AEM Assets.
-1. Click `Save`.
+1. In the**API Key** box, paste the AEM API Key you copied when you configured AEM Assets.
+1. Click **Save**.
 1. (Optional) Ensure the integration is marked Active.  
    ![aem_custom_integration_active.png](assets/aem-custom-integration-active-350x81.png)
 
@@ -166,15 +171,15 @@ In order to use custom form data from Workfront inside of AEM, you must
 ### Set up Workfront Property Mapping
 
 1. In AEM, click the tool icon on the left side of the screen.
-1. Click `Assets`, then `Workfront Property Mapping`. 
+1. Click **Assets**, then **Workfront Property Mapping**. 
 
-1. Click `New Mapping` in the right corner of the screen.
+1. Click **New Mapping** in the right corner of the screen.
 1. Specify the following:  
 
    | Workfront Field Name |Enter the name of the custom form field from Workfront. |
    |---|---|
    | AEM Property |Enter the name of the metadata field previously set up in the schema. |
-   | Property Type |Select `String`.  |
+   | Property Type |Select **String**.  |
    | Property Path |This field populates automatically. |
    | Multifield |Check the box if the field is set up as a multi-select field in Workfront. |
 

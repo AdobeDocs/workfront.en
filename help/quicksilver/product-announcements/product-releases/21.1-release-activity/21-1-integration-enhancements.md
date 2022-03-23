@@ -25,6 +25,6 @@ To take advantage of this new functionality, you must log in to your Microsoft T
 
 For more information, see [Manage Adobe Workfront notifications in Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
-`<iframe class="vimeo-player_0" src="assets/498466836?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/498466836?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/498466836/69b975a59c) 

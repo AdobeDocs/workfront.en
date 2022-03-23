@@ -17,11 +17,11 @@ One limitation to creating tasks in the Legacy Gantt Chart is that you cannot up
 
 ## Create tasks
 
-1. Go to the Legacy Gantt Chart located on the `More` tab.
+1. Go to the Legacy Gantt Chart located on the **More** tab.
 
    ![](assets/ctlgc1-350x198.png)
 
-1. Select `+Add Task`&nbsp;in the 'Name Column,' under the last task.
+1. Select **+Add Task**&nbsp;in the 'Name Column,' under the last task.
 
    ![](assets/ctlgc2-350x145.png)
 
@@ -37,5 +37,5 @@ One limitation to creating tasks in the Legacy Gantt Chart is that you cannot up
 1. The Legacy Gantt Chart is located in the 'More' tab. If needed, click the toggle full-screen icon&nbsp; ![](assets/ctlgc4.png)&nbsp;to make the chart full screen.&nbsp;Note that each task listed in the chart has a number associated with it (see the # column).
 1. Select a task or tasks by clicking the selection icon&nbsp; ![](assets/ctlgc5.png)&nbsp;next to the name of the task. There needs to be a task above the task you are editing in order to establish a subtask. Use the Control (Windows or Linux), Command (Mac), or Shift keys to select multiple tasks.
 1. Right-click and select indent task. Notice the tasks change: The selected task or tasks become subtasks for task above it. Right-click and select outdent to reverse the subtask operation.
-1. Click the `Save` button to save your changes, or 'Cancel' to discard them.
+1. Click the **Save** button to save your changes, or 'Cancel' to discard them.
 

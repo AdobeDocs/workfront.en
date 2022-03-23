@@ -29,8 +29,8 @@ See [Subscribe to a Proof in Workfront Proof](../../../workfront-proof/wp-work-p
 To use a proof's Public&nbsp;URL:
 
 1. Go to the Proof defails page, as described in [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
-1. Open the `More sharing options` section.
-1. Make sure that the `Proof URL` is enabled.
+1. Open the **More sharing options** section.
+1. Make sure that the **Proof URL** is enabled.
 1. Copy the Public&nbsp;URL to the clipboard.
 1. Paste the Public URL into an email or a chat window and send it to your recipient
 
@@ -52,5 +52,5 @@ To access the proof from a Public&nbsp;URL:
 
 * Users open the proof by using their login details which include their registered email and password for Workfront Proof.
 * Non-users open the proof by entering an email address and display name.
-* In either case, select `Remember me` so that you will have to enter your details this one time (for this proof).
+* In either case, select **Remember me** so that you will have to enter your details this one time (for this proof).
 

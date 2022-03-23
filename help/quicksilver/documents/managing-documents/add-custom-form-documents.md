@@ -43,16 +43,28 @@ You must have the following:
 
 * The custom form must be shared with you
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 
 Add a custom form To add a custom form to a document:
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
+
+1. Click the **Summary** icon ![](assets/summary-panel-icon.png), then find the **Details** section. 
+
+1. In the **Add custom form** box, begin typing and select a custom form. The form saves automatically to the document. 
+1. ```**Note: **```
+1. Create or edit a custom form
 
 Edit a custom form
 
-1. Go to the project, task, or issue that contains the document, then select `Documents`.
+1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
+
+1. Click the **Summary** icon ![](assets/summary-panel-icon.png), then find the **Details** section near the top. 
+
+1. Click **Edit** in the top-right corner, then expand the desired form.
+1. Make the needed changes, then click **Save**.
+1.
 

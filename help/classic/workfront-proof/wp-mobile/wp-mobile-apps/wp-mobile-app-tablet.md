@@ -43,21 +43,21 @@ The Workfront Proof tablet&nbsp;app gives you access to the dashboard with the p
 
 1. Do one of the following:
 
-  * Log in using your Workfront Proof credentials.
+   * Log in using your Workfront Proof credentials.
 
-    If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don’t have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.
-  
-  * If Single Sign-On is enabled in your account, tap that option on the login screen.
+     If you get a proof invitation email and open in on your mobile device, the link will take you to the proof in the app. You don’t have to be a user to be able to review proofs; however, you do have to have the app installed on your device to be able to view them.
+   
+   * If Single Sign-On is enabled in your account, tap that option on the login screen.
 
-    You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider’s page where you will be able to log in using your password.
+     You will be taken to the login page that will ask you for your email address. After typing your email address, you will be redirected to your Identity Provider’s page where you will be able to log in using your password.
 
-    ![Login_screen.png](assets/login-screen-350x261.png)
+     ![Login_screen.png](assets/login-screen-350x261.png)
 
 ## The Dashboard
 
 If you&nbsp;would like to stay logged in to your Workfront Proof account:
 
-1. Enable `Keep me logged in` in the sidebar menu under `Settings`:
+1. Enable **Keep me logged in**&nbsp;in the sidebar menu under **Settings**:
 
 ![Keep_me_logged_in.gif](assets/keep-me-logged-in-350x446.gif)
 
@@ -71,9 +71,9 @@ Other elements of the dashboard are the search bar that lets you search the acco
 
 Similarly to the dashboard charts in our web application, in the mobile app we display a list of proofs that were shared with you. The welcome message at the top of the page will give you the total number of the proofs and below that we break them down into *On time*, *At risk,* and *Late proofs*.
 
-* `On time proofs` are the proofs that either do not have a deadline set or the deadline is&nbsp;out by more than 24 hours.
-* `At risk proofs` are the ones where the deadline is within the next 24 hours - the progress bar is orange for these proofs.
-* `Late proofs` are the proofs that are already past the deadline - the progress bar is red for these proofs. Upon reaching the deadline Workfront Proof sends the late decision makers and the proof owner an automated reminder email.
+* **On time proofs** are the proofs that either do not have a deadline set or the deadline is&nbsp;out by more than 24 hours.
+* **At risk proofs** are the ones where the deadline is within the next 24 hours - the progress bar is orange for these proofs.
+* **Late proofs** are the proofs that are already past the deadline - the progress bar is red for these proofs. Upon reaching the deadline Workfront Proof sends the late decision makers and the proof owner an automated reminder email.
 
 These proofs are grouped into separate views, allowing you to conveniently prioritize your work, starting from the proofs that are already past the deadline.
 
@@ -87,7 +87,7 @@ Another view that you may find useful is the *Recent* view - it shows you the pr
 
    Or
 
-   To open a proof from an email notification, reviewers can click on the `Go to proof` link in the notification.   
+   To open a proof from an email notification, reviewers can click on the **Go to proof** link in the notification.   
    If you have a Workfront Proof account, you can log in and access your proof from the dashboard.
 
    >[!NOTE]
@@ -100,15 +100,15 @@ Another view that you may find useful is the *Recent* view - it shows you the pr
 
 1. Navigate in your proof:
 
-  * To jump to a specific page of the proof, swipe sideways or use the thumbnails list.
+   * To jump to a specific page of the proof, swipe sideways or use the thumbnails list.
 
-    You can also use the arrows at the bottom of the page or put in a specific page number.
-  
-  * To go to a different version of the proof, use the version drop-down menu at the top of the page.
-  * To zoom in, pinch the screen.
-  * To pan, press and hold and move the image around until you find the right position.
+     You can also use the arrows at the bottom of the page or put in a specific page number.
+   
+   * To go to a different version of the proof, use the version drop-down menu at the top of the page.
+   * To zoom in, pinch the screen.
+   * To pan, press and hold and move the image around until you find the right position.
 
-    Reviewing proofs in the mobile app is as simple as reviewing proofs using the Workfront Proof Viewer. Below we will take a closer look at adding comments and markups, managing feedback and making decisions. We will also discuss different options available in the sidebar of the app.
+     Reviewing proofs in the mobile app is as simple as reviewing proofs using the Workfront Proof Viewer. Below we will take a closer look at adding comments and markups, managing feedback and making decisions. We will also discuss different options available in the sidebar of the app.
 
 ## Comment in the app
 
@@ -118,9 +118,9 @@ You can edit and delete only comments if no reply has been posted. If you don’
 
 There are three comment viewing options in the app. You can switch between them by clicking on the comment button.
 
-* `List view`&nbsp;displays a list of all comments. You browse them either by tapping on each comment or by tapping on the up and down arrows.&nbsp;
-* `Single comment view` displays one comment at a time. To go to the next comment, tap the arrow at the top of the page.
-* `Hide comments`  `view` hides all comments.
+* **List view**&nbsp;displays a list of all comments. You browse them either by tapping on each comment or by tapping on the up and down arrows.&nbsp;
+* **Single comment view** displays one comment at a time. To go to the next comment, tap the arrow at the top of the page.
+* **Hide comments**&nbsp;**view** hides all comments.
 
 Every markup left on the proof drops a pin on the image. To view the comment and markup associated with the pin, simply tap the pin. You can do that only if the comment editing box is closed. To close the comment box, tap the x in the top left comment of the box.
 
@@ -133,11 +133,11 @@ Proofing text on the go is really in the Workfront Proof tablet app. The text an
 
    The text tool has four options to choose from:
 
-   | `Highlight`  |Highlights the text and copies it into the comment box. |
+   | **Highlight** |Highlights the text and copies it into the comment box. |
    |---|---|
-   | `Replace`  |Adds [REPLACE] and [WITH] into the comment box together with the text, making it easier for you to recommend replacement text. |
-   | `Delete`  |Strikes through the text and adds [DELETE] to the comment box. |
-   | `Insert after`  |Adds [INSERT AFTER] into the comment box. |
+   | **Replace** |Adds [REPLACE] and [WITH] into the comment box together with the text, making it easier for you to recommend replacement text. |
+   | **Delete** |Strikes through the text and adds [DELETE] to the comment box. |
+   | **Insert after** |Adds [INSERT AFTER] into the comment box. |
 
 1. (Optional)To paste text from another document you have saved on your tablet, tap and holding your finger on the comment box until you see an option to paste the text copied from the document.
 
@@ -194,7 +194,7 @@ The compare tool displays the two most recent versions of the proof.
 
    ![decisions.png](assets/decisions-350x303.png)
 
-   If you don’t see the green `Finish review` button and you think you should make a decision on the proof, your Workfront Proof administrator can update your proof role, as explained in [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+   If you don’t see the green **Finish review** button and you think you should make a decision on the proof, your Workfront Proof administrator can update your proof role, as explained in [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 ## The proofing viewer sidebar
 
@@ -205,12 +205,12 @@ The sidebar contains a lot of useful features and functionalities. Depending on 
 | Dashboard |Takes you back to the mobile app dashboard. |
 |---|---|
 | Workflow |Shows you the details of the review stages, together with a list of reviewers, their deadlines, progress bars, decisions and the number of comments and replies. |
-| `Details`  |Shows you information about the proof, additional sharing options and the activity audit trail. |
-| `Share`  |Displays the Proof URL and the Embed code. |
-| `Notifications`  |Lets you update your email alerts on the proof you’re currently reviewing. This doesn’t alter your default settings. |
-| `Lock`  |Lets you lock the proof. You need to have edit rights on the proof to be able to see this option. |
-| `Delete`  |Moves the proof to the Trash folder. You need to have edit rights on the proof to be able to delete it. |
-| `Settings`  |You can decide to show pins and/or markups on the proof, you can also enable Keep me logged in to prevent you from getting logged out of the app. |
-| `Help`  |Lets you bring up the app tour again. |
-| `Log out`  |Logs you out from the app and your account. |
+| **Details** |Shows you information about the proof, additional sharing options and the activity audit trail. |
+| **Share** |Displays the Proof URL and the Embed code. |
+| **Notifications** |Lets you update your email alerts on the proof you’re currently reviewing. This doesn’t alter your default settings. |
+| **Lock** |Lets you lock the proof. You need to have edit rights on the proof to be able to see this option. |
+| **Delete** |Moves the proof to the Trash folder. You need to have edit rights on the proof to be able to delete it. |
+| **Settings** |You can decide to show pins and/or markups on the proof, you can also enable Keep me logged in to prevent you from getting logged out of the app. |
+| **Help** |Lets you bring up the app tour again. |
+| **Log out** |Logs you out from the app and your account. |
 

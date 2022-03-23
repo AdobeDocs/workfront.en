@@ -68,7 +68,7 @@ There are several ways to upload a new proof version in Workfront. Default proof
 
    Or
 
-   Select the row where the proof is listed, click `Add new` > `Version`, then click the option you want to use to add the new version of the proof.
+   Select the row where the proof is listed, click **Add new** > **Version**, then click the option you want to use to add the new version of the proof.
 
 ## Create a new version of a proof from the proofing viewer (Workfront Proof only)
 
@@ -81,11 +81,11 @@ If you are using the standalone Workfront Proof, you can create a new version of
 To create a new version of a proof in Workfront Proof:
 
 1. Open the proof.
-1. Click the `Version` drop-down menu in the upper-left corner, then click `+ New version` in the box that appears.
+1. Click the **Version** drop-down menu in the upper-left corner, then click **+ New version** in the box that appears.
 
-   On the `New proof version of` page that appears, you can see all the reviewers from the previous version, including their roles and email notification settings. You can easily edit the roles and notifications of existing reviewers or remove existing reviewers from the new version on this page.
+   On the **New proof version of** page that appears, you can see all the reviewers from the previous version, including their roles and email notification settings. You can easily edit the roles and notifications of existing reviewers or remove existing reviewers from the new version on this page.
 
-1. Under `Add files`, upload a file as a new version of the proof by dragging and dropping from your computer or by clicking `browse` and selecting the file you want. You can type a  `Proof name`&nbsp;for the version or leave this box blank to&nbsp;use the same filename with a version number added on the end.
+1. Under **Add files**, upload a file as a new version of the proof by dragging and dropping from your computer or by clicking **browse** and selecting the file you want. You can type a&nbsp;**Proof name**&nbsp;for the version or leave this box blank to&nbsp;use the same filename with a version number added on the end.
 
    Or
 
@@ -95,14 +95,14 @@ To create a new version of a proof in Workfront Proof:
    >
    >Drag and drop is available only with browsers that fully support HTML5. This excludes Internet Explorer 7 through 9 and Safari.
 
-1. Under `Workflow`, make any of the following changes to specify the reviewers for this version of the proof.
+1. Under **Workflow**, make any of the following changes to specify the reviewers for this version of the proof.
 
    Reviewers from the previous version are replaced by the reviewers you add.
 
-  * Change the `Owner` of the version to another user in your account.  
+  * Change the **Owner** of the version to another user in your account.  
     For information about owner permissions, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
   
-  * Using the `Type contact name or email address to add a recipient box`, add reviewers to the version. You can specify a `Proof role` and an `Email alerts` type for each recipient.
+  * Using the **Type contact name or email address to add a recipient box**, add reviewers to the version. You can specify a **Proof role** and an **Email alerts** type for each recipient.
 
     For information about adding groups to the proof, see&nbsp; [Add Groups to a Proof](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md).&nbsp;For information about roles, see [Manage Proof Roles in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
@@ -113,20 +113,19 @@ To create a new version of a proof in Workfront Proof:
   * Set a proof deadline for the version.  
   * Hover over a reviewer's name to see any decisions he or she made on a previous version.
 
-1. Under `Email notification`, do any of the following:
+1. Under **Email notification**, do any of the following:
 
   * Specify whether you want to notify the reviewers of the new version.  
     Your selection will be logged in the Activity section of the Proof details page. For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
   
   * Add a custom subject and message.
 
-1. In the `Organization` section, do any of the following:&nbsp;
+1. In the **Organization** section, do any of the following:&nbsp;
 
   * Apply one or more tags to the proof. For more information, see [Create and Manage Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).  
     Note that tags are inherited from the previous version of the proof, as well. If you add a new tag&nbsp;to the new version, previous versions are also tagged.
   
-  * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information. `  
-    `The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
+  * Add the version to a folder. See [Manage Folders in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) for more information.****The folder&nbsp;will be copied from the previous version of the proof. If you select a different folder, the whole proof (all versions) will be moved.
   
   * Billing administrators and Administrators can make the folder field mandatory across the whole account on the Settings tab. See [Configure proof settings for your organization](../../../administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md) for more information.
 
@@ -141,15 +140,50 @@ To create a new version of a proof in Workfront Proof:
     The selections made in this section will be shown in the Proof details page (where some fields can be edited). For more information, see [Manage Proof Details in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
-Create a new version of a proof from the proofing viewer
+<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Creating"></a>Create a new version of a proof from the proofing viewer</h2>
 -->
 
 <!--
-To create a new version from the proofing viewer
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To create a new version from the proofing viewer</p>
 -->
 
 <!--
-Open the proof. Click the Version drop-down menu in the upper-left corner, then click + New version in the box that appears. On the New proof version of page that appears, you can see all the reviewers from the previous version, including their roles and email notification settings. You can easily edit the roles and notifications of existing reviewers or remove existing reviewers from the new version on this page. Under Add files, upload a file as a new version of the proof by dragging and dropping from your computer or by clicking browse and selecting the file you want. You can type a Proof name for the version or leave this box blank to use the same filename with a version number added on the end. Or Capture a web page as a new version of the proof by typing a URL Note: Drag and drop is available only with browsers that fully support HTML5. This excludes Internet Explorer 7 through 9 and Safari. Under Workflow, make any of the following changes to specify the reviewers for this version of the proof. Reviewers from the previous version are replaced by the reviewers you add. Change the Owner of the version to another user in your account. For information about owner permissions, see Proof Permissions Profiles in Workfront Proof. Using the Type contact name or email address to add a recipient box, add reviewers to the version. You can specify a Proof role and an Email alerts type for each recipient. For information about adding groups to the proof, see Add Groups to a Proof. For information about roles, see Manage Proof Roles in Workfront Proof. Note: If the creator or owner of the proof has The Proof Made email disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the Notify people by email box is checked on the New proof page. For information about email notifications, see Configure email notification settings in Workfront Proof. See also The Proof Made email and New proof email. Set a proof deadline for the version. Hover over a reviewer's name to see any decisions he or she made on a previous version. Under Email notification, do any of the following: Specify whether you want to notify the reviewers of the new version. Your selection will be logged in the Proof activity section on the Proof details page. Add a custom subject and message. Under Proof settings, make any of the changes below: Require login on the proof Require electronic signatures on the proof (Enterprise plan only) Lock the proof when all decisions are made Allow or block download of original file Public sharing of the proof, including public sharing settings Subscription to the proof The selections made in this section will be shown in the Proof details page.
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1">Open the proof.</li>
+<li value="2"> <p>Click the <strong>Version</strong> drop-down menu in the upper-left corner, then click <strong>+ New version</strong> in the box that appears.</p> <p>On the <strong>New proof version of</strong> page that appears, you can see all the reviewers from the previous version, including their roles and email notification settings. You can easily edit the roles and notifications of existing reviewers or remove existing reviewers from the new version on this page.</p> </li>
+<li value="3"> <p>Under <strong>Add files</strong>, upload a file as a new version of the proof by dragging and dropping from your computer or by clicking <strong>browse</strong> and selecting the file you want. You can type a&nbsp;<strong>Proof name</strong>&nbsp;for the version or leave this box blank to&nbsp;use the same filename with a version number added on the end.</p> <p>Or<br></p> <p>Capture a web page as a new version of the proof by typing a URL</p> <note type="note">
+Drag and drop is available only with browsers that fully support HTML5. This excludes Internet Explorer 7 through 9 and Safari.
+<br>
+</note> </li>
+<li value="4"> <p>Under <strong>Workflow</strong>, make any of the following changes to specify the reviewers for this version of the proof.</p> <p>Reviewers from the previous version are replaced by the reviewers you add.</p>
+<ul>
+<li>Change the <strong>Owner</strong> of the version to another user in your account.<br>For information about owner permissions, see <a href="../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md" class="MCXref xref">Proof Permissions Profiles in Workfront Proof</a>.</li>
+<li> <p>Using the <strong>Type contact name or email address to add a recipient box</strong>, add reviewers to the version. You can specify a <strong>Proof role</strong> and an <strong>Email alerts</strong> type for each recipient.</p> <p>For information about adding groups to the proof, see&nbsp;<a href="../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md" class="MCXref xref">Add Groups to a Proof</a>.&nbsp;For information about roles, see <a href="../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md" class="MCXref xref">Manage Proof Roles in Workfront Proof</a>.</p> <note type="note">
+If the creator or owner of&nbsp;&nbsp;the proof has
+<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">The Proof Made email</a> disabled by default (in their personal settings), they won't receive any Proof made or New proof emails even if the Notify people by email box is checked on the New proof page. For information about email notifications, see
+<a href="../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md" class="MCXref xref">Configure email notification settings in Workfront Proof</a>.&nbsp;See also
+<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">The Proof Made email</a> and
+<a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md" class="MCXref xref">New proof email</a>.
+<br>
+</note> </li>
+<li>Set a proof deadline for the version.</li>
+<li>Hover over a reviewer's name to see any decisions he or she made on a previous version.</li>
+</ul> </li>
+<li value="5">Under <strong>Email notification</strong>, do any of the following:
+<ul>
+<li>Specify whether you want to notify the reviewers of the new version.<br>Your selection will be logged in the Proof activity section on the Proof details page.</li>
+<li>Add a custom subject and message.</li>
+</ul></li>
+<li value="6">Under Proof settings, make any of the changes below:
+<ul>
+<li>Require login on the proof</li>
+<li>Require electronic signatures on the proof (Enterprise plan only)</li>
+<li>Lock the proof when all decisions are made</li>
+<li>Allow or block download of original file</li>
+<li>Public sharing of the proof,&nbsp;including public sharing settings</li>
+<li>Subscription to the proof<br>The selections made in this section will be shown in the Proof details page.</li>
+</ul></li>
+</ol>
 -->
 
 ## About the New Version message

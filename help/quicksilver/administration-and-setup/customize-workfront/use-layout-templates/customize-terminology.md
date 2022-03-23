@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
 ## Customize user interface terminology
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click `Set Terminology` near the upper-right corner of the page.
+1. Click **Set Terminology** near the upper-right corner of the page.
 1. Do any of the following:
 
   * To use an alternative term provided by Workfront, click the down arrow&nbsp; ![](assets/dropdown-arrow.png) next to the label, then click the alternative label you want in the drop-down list.
@@ -67,7 +67,7 @@ You must have the following to perform the steps in this article:
     >
     >Alternative labels provided in the drop-down lists are supported in versions of Workfront localized for non-English languages.
 
-  * To provide your own custom alternative for the label displayed for an object, click `Set custom name` to the right of the label, then type the `Singular` and `Plural` forms of the custom term. You can click `Reset` if you change your mind.
+  * To provide your own custom alternative for the label displayed for an object, click **Set custom name** to the right of the label, then type the **Singular** and **Plural** forms of the custom term. You can click **Reset** if you change your mind.
 
     You can customize the following object names:
 
@@ -100,11 +100,21 @@ You must have the following to perform the steps in this article:
          <li>Activity</li>
         </ul></td>
        <td><p>These objects require an additional license. For more information, see <a href="../../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">Adobe Workfront Goals overview</a>.</p></td>
-      </tr>Workfront Scenario Planner objects Initiative Scenario Plan These objects require an additional license. For information, see Get started with the Adobe Workfront Scenario Planner.
+      </tr>
+      <tr data-mc-conditions="">
+       <td role="rowheader"><p>Workfront Scenario Planner objects</p></td>
+       <td>
+        <ul>
+         <li>Initiative</li>
+         <li>Scenario</li>
+         <li>Plan </li>
+        </ul></td>
+       <td><p>These objects require an additional license. For information, see <a href="../../../scenario-planner/get-started-with-scenario-planning.md" class="MCXref xref">Get started with the Adobe Workfront Scenario Planner</a>.</p></td>
+      </tr>
      </tbody>
     </table>
 
-1. When you are finished, click `Done`.
+1. When you are finished, click **Done**.
 
    >[!TIP]
    >
@@ -114,7 +124,7 @@ You must have the following to perform the steps in this article:
 
    Or
 
-   If you are finished customizing, click `Save`.
+   If you are finished customizing, click **Save**.
 
 1. To see your terminology changes:
 

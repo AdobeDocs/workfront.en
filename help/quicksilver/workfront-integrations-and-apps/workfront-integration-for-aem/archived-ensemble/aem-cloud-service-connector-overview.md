@@ -4,6 +4,7 @@ product-area: workfront-integrations
 navigation-topic: workfront-for-adobe-experience-manager
 title: AEM as a Cloud Service Connector overview
 description: passes info immediately
+hidefromtoc: true
 ---
 
 # AEM as a Cloud Service Connector overview

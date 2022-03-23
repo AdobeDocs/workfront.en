@@ -73,23 +73,48 @@ You can manually add users to a project team by using the Team Scheduling tab.
 >
 >You can add to the Project Team only users that belong to the Group associated with the project.
 
-1. Go to the project where you want to add users to the project team, then click the Staffing tab. The Staffing tab might be located under the More menu. 
-1. Click the Scheduling tab, then click Add Users.
+1. Go to the project where you want to add users to the project team, then click the **Staffing** tab. The Staffing tab might be located under the **More** menu. 
+
+   ![project_team.png](assets/project-team-350x130.png)   
+
+1. Click the **Scheduling** tab, then click **Add Users**.
 
    The Add Users to Project Team dialog box displays.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. In the `Add Users` box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.
+1. In the **Add Users** box, begin typing the name of the user you want to add to the project team, then click the name when it appears in the drop-down list.
 
    Repeat this step to add multiple users to the project team.
 
-1. Click `Add`.
+1. Click **Add**.
 
    The users are now available in the project scheduling area.
 
-For more information about using the project scheduling area, see the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md). 
-Update the users' roles on the Project Team You can update the role that a user fulfills on the project as you view the Project Team. This is important when approvals on the project are assigned to job roles. Only the users who fulfill the roles specified in the approval process receive the approval notifications. For information about establishing approval settings, see Configure global approval settings. Go to a project, then click Staffing > People. You might need to click More, then Staffing. The name of the users who are associated with the project display in a list. Double-click in the Job Role column in the same row as the user whose job role on the project you want to update to change the role that the user fulfills on this project. A list of roles displays. You must have a Plan license with access to edit users to update their roles on the Project Team. Important: The role of the user updates for the project and the Primary Role of the user updates in the user's profile. Updating the job role that the user fulfills on the project also changes the Primary Role on the user's profile. Select the role from the list when it appears, then press Enter . 
+For more information about using the project scheduling area, see the article [Get started with Resource Scheduling](../../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).
+
+##  Update the users' roles on the Project Team
+
+You can update the role that a user fulfills on the project as you view the Project&nbsp;Team.&nbsp;This is important when approvals on the project are assigned to job roles. Only the users who fulfill the roles specified in the approval process receive the approval notifications. For information about establishing approval settings, see [Configure global approval settings](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md).
+
+1. Go to a project, then click **Staffing** > **People**. You might need to click **More**, then&nbsp;**Staffing**.  The name of the users who are associated with the project display in a list. 
+
+1. Double-click in the **Job Role** column in the same row as the user whose job role on the project you want to update to change the role that the user fulfills on this project.
+
+   A list of roles displays.
+
+   ![](assets/update-role-on-project-team-user-350x176.png)
+
+   You must have a Plan license with access to edit users to update their roles on the Project&nbsp;Team.
+
+   >[!IMPORTANT]
+   >
+   >The role of the user updates for the project and the Primary Role of the user updates in the user's profile. 
+   >
+   >
+   >Updating the job role that the user fulfills on the project also changes the Primary&nbsp;Role on the user's profile.
+
+1. Select the role from the list when it appears, then press Enter .
 
 ## Remove users from a Project Team
 

@@ -37,16 +37,18 @@ You must have the following to perform the steps in this article:
 
 ## Create or edit a custom condition
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
-1. Click `Project Preferences` > `Conditions`.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.
+1. Click **Project Preferences** > **Conditions**.  
 
-1. Click the tab of the object type ( `Project`, `Task`, or `Issue`) that you want to associate with the condition.
+1. Click the tab of the object type (**Project**, **Task**, or **Issue**) that you want to associate with the condition.
 
-1. To create a new condition, click `Add a New Condition`.
+1. To create a new condition, click **Add a New Condition**.
 
    Or
 
-   To edit an existing condition, hover over the condition you want to edit, then click the `Edit` icon that appears to the far right.
+   To edit an existing condition, hover over the condition you want to edit, then click the **Edit** icon that appears to the far right.
+
+   ![](assets/custom-condition-edit-350x118.png)   
 
 1. Configure your custom condition using the following options:
 
@@ -89,19 +91,19 @@ You must have the following to perform the steps in this article:
 
    This changes the order in which conditions display in projects, tasks and issues:
 
-  * When a user is editing a project
+   * When a user is editing a project
 
-    ![](assets/change-condition-edit-project-350x96.png)
+     ![](assets/change-condition-edit-project-350x96.png)
 
-  * When a user is changing the condition for a task or issue on the Updates tab:
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-    ![](assets/change-condition-update-comment-350x141.png)
+     ![](assets/change-condition-update-comment-350x141.png)
 
-  * When a user is changing the condition for a task or issue in a list view:
+   * When a user is changing the condition for a task or issue in a list view:
 
-    ![](assets/change-conditions-list-drop-down-only-350x172.png)
+     ![](assets/change-conditions-list-drop-down-only-350x172.png)
 
-1. Click `Save`.
+1. Click **Save**.
 
 You can set your custom condition as a default condition for projects or for tasks and issues. For more information, see [Set a custom condition as the default for projects](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md) and [Set a custom condition as the default for tasks and issues](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 

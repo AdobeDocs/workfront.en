@@ -69,9 +69,9 @@ To export a Kick-Start template:
 
    For information on how to turn off FLOs in Legacy Workfront Fusion, see the Legacy Workfront Fusion [Getting Started](https://learn.fusion.workfront.com/quickstart-2019/) guide. For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. Click `System` > `Export Data (Kick-Starts)`.
+1. Click **System** > **Export Data (Kick-Starts)**.
 
 1. Click **More Options**, then select the types of information that you want to include.
 
@@ -87,9 +87,9 @@ To export a Kick-Start template:
     <col> 
     <thead> 
      <tr> 
-      <th> <p><span class="bold">Object</span> </p> </th> 
-      <th> <p><span class="bold">Exports as</span> </p> </th> 
-      <th> <p><span class="bold">Sheets in the exported spreadsheet</span> </p> </th> 
+      <th> <p><strong>Object</strong> </p> </th> 
+      <th> <p><strong>Exports as</strong> </p> </th> 
+      <th> <p><strong>Sheets in the exported spreadsheet</strong> </p> </th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -130,7 +130,7 @@ To export a Kick-Start template:
      </tr> 
      <tr> 
       <td> <p>User</p> </td> 
-      <td> <p>Exports as Excel file. To see the full list of options, click <span class="bold">More Options</span>.</p> </td> 
+      <td> <p>Exports as Excel file. To see the full list of options, click <strong>More Options</strong>.</p> </td> 
       <td> <p>User</p> <p>Preferences</p> </td> 
      </tr> 
      <tr> 
@@ -271,7 +271,7 @@ To export a Kick-Start template:
     </tbody> 
    </table>
 
-1. Click `Download`.
+1. Click **Download**.
 1. Continue with [Populate the spreadsheet template with your data](#populating-the-excel-template-with-your-data-and-uploading-to-workfront) to populate the template with your information.
 
 ## Populate the spreadsheet template with your data
@@ -303,40 +303,40 @@ When you open one of these tabs, row 2 displays the fields for each object that 
 >
 >  However, if a required field contains a default value set in the system preferences, you don't have to populate it. 
 >
->  For example, on the `PROJ Project` tab, the `setCondition` and `setConditionType` fields can be left empty, but the `setGroupID` and `setName` columns cannot.
+>  For example, on the **PROJ Project** tab, the **setCondition** and **setConditionType** fields can be left empty, but the **setGroupID** and **setName** columns cannot.
 >
 
 ### Import a record
 
 Each row of the sheet corresponds to a unique object.
 
-1. Complete the cell in the `isNew` column:
+1. Complete the cell in the **isNew** column:
 
-  * If the object you are importing is new, type `TRUE` to import the data in the row.
-  * If the object is already in Workfront, type `FALSE` to ignore the row.
+   * If the object you are importing is new, type **TRUE** to import the data in the row.
+   * If the object is already in Workfront, type **FALSE** to ignore the row.
 
-1. Complete the cell in the `ID` column in one of the following ways:
+1. Complete the cell in the **ID** column in one of the following ways:
 
-  * If the object you are importing is new (and you typed `TRUE` in the `isNew` column), specify any number for the ID. This number must be unique in the spreadsheet.
-  
-  * If the object you are importing already exists in the Workfront system (and you typed `FALSE` in the `isNew` column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
-  
-    ` `**Example: **`` For a project, the value displayed in the `setGroupID` column must one of the following:
+   * If the object you are importing is new (and you typed**TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
+   
+   * If the object you are importing already exists in the Workfront system (and you typed**FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+   
+     ``` ```**Example: **`````` For a project, the value displayed in the **setGroupID** column must one of the following:
 
-    * The GUID for an existing Group in your Workfront instance
-    * The value (number) in the ID column on the `GROUP Group` sheet if you are creating a new Group during the import
+      * The GUID for an existing Group in your Workfront instance
+      * The value (number) in the ID column on the **GROUP Group** sheet if you are creating a new Group during the import
 
-      ![](assets/verysimplekickstartprojectimport-350x31.png)
+        ![](assets/verysimplekickstartprojectimport-350x31.png)
 
 1. Input values for the required fields and any other fields you want to populate during the import.
 1. (Optional) To add custom data:
 
-  * Create a new column for each custom field that you want to include in the import process. 
-  * Name each new column for its corresponding custom field as follows: `DE:[Name of Custom Field as Appears in Workfront]`.
-  * In the column `setCategoryID`, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
-  * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
+   * Create a new column for each custom field that you want to include in the import process. 
+   * Name each new column for its corresponding custom field as follows: **DE:[Name of Custom Field as Appears in Workfront]**.
+   * In the column **setCategoryID**, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
+   * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
 
-    ` `**Example: **``Type A|D under the DE: Departments column to populate department A and department D in your custom form.
+     ``` ```**Example: **``````Type A|D under the DE: Departments column to populate department A and department D in your custom form.
 
 ### Include dates
 
@@ -370,51 +370,51 @@ You can use the following wildcards when populating your Kick-Start template spr
  <col> 
  <thead> 
   <tr> 
-   <th> <p><span class="bold">Wildcard</span> </p> </th> 
-   <th> <p><span class="bold">Behavior</span> </p> </th> 
+   <th> <p><strong>Wildcard</strong> </p> </th> 
+   <th> <p><strong>Behavior</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>$$TODAY</p> </td> 
-   <td> <p>When used on a <span class="bold">setDate</span> field, this wildcard sets the date as midnight on the day when you import the Kick-Start.</p> <p>You can modify the wildcard using the standard syntax allowed with the wildcard on a filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you want a project to start on the Monday of the week it is imported on, regardless of the day you actually perform the import, you could use <span class="bold">$$TODAYbw</span>. This sets your project's planned start date as 12:00 AM on Sunday. Since the schedule for the project probably doesn't allow work at that time, it will start at 9:00 AM Monday morning.</p> </td> 
+   <td> <p>When used on a <strong>setDate</strong> field, this wildcard sets the date as midnight on the day when you import the Kick-Start.</p> <p>You can modify the wildcard using the standard syntax allowed with the wildcard on a filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you want a project to start on the Monday of the week it is imported on, regardless of the day you actually perform the import, you could use <strong>$$TODAYbw</strong>. This sets your project's planned start date as 12:00 AM on Sunday. Since the schedule for the project probably doesn't allow work at that time, it will start at 9:00 AM Monday morning.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$NOW</p> </td> 
-   <td> <p>When used on a <span class="bold">setDate</span> field, this wildcard sets the date according to the moment when you create the record during the Kick-Start import.</p> <p>You can modify the wildcard using the standard syntax allowed with the wildcard on a filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you want a project to start 3 hours after it is imported, you could use <span class="bold">$$NOW+3h</span>.</p> </td> 
+   <td> <p>When used on a <strong>setDate</strong> field, this wildcard sets the date according to the moment when you create the record during the Kick-Start import.</p> <p>You can modify the wildcard using the standard syntax allowed with the wildcard on a filter.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>If you want a project to start 3 hours after it is imported, you could use <strong>$$NOW+3h</strong>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$USER.ID</p> </td> 
-   <td> <p>When used on a <span class="bold">setAssignedToID</span> or other userID based field, this wildcard assigns the work or otherwise associates the record with the individual performing the import.</p> </td> 
+   <td> <p>When used on a <strong>setAssignedToID</strong> or other userID based field, this wildcard assigns the work or otherwise associates the record with the individual performing the import.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>$$CUSTOMER</p> </td> 
-   <td> <p>This wildcard was added specifically for Kick-Start user imports. When a Workfront account is created, a user with the System Administrator access level is created. The username assigned to the default administrator can be used as a prefix when creating other users in the account.</p> <p>Because usernames must be unique across all customers, this is useful when you have several individuals with very common usernames such as John Smith, who might have a username "jsmith." By prepending the username assignment with the default administrator username, you guarantee that each username is unique (for example: <span class="bold">$$CUSTOMER.jsmith</span>).</p> <p>Tip: A more elegant way to ensure that usernames are unique system wide is to input the individual's email address in the <span class="bold">setUsername</span> field.</p> </td> 
+   <td> <p>This wildcard was added specifically for Kick-Start user imports. When a Workfront account is created, a user with the System Administrator access level is created. The username assigned to the default administrator can be used as a prefix when creating other users in the account.</p> <p>Because usernames must be unique across all customers, this is useful when you have several individuals with very common usernames such as John Smith, who might have a username "jsmith." By prepending the username assignment with the default administrator username, you guarantee that each username is unique (for example: <strong>$$CUSTOMER.jsmith</strong>).</p> <p>Tip: A more elegant way to ensure that usernames are unique system wide is to input the individual's email address in the <strong>setUsername</strong> field.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Attribute name substitution for IDs
 
-Though it is a best practice to use IDs whenever possible, sometimes it's inconvenient to cross-reference IDs from one sheet to another when setting a `setAttributeID` value. You can reference values by name simply by changing the column header.
+Though it is a best practice to use IDs whenever possible, sometimes it's inconvenient to cross-reference IDs from one sheet to another when setting a **setAttributeID** value. You can reference values by name simply by changing the column header.
 
-` `**Examples: **``
+``` ```**Examples: **``````
 
-* `(project import)`
+* **(project import)**
 
-  When importing projects, set the `setGroupID` of the projects by going to the `GROUP Group` sheet, making note of the respective Group IDs, and pasting them in the correct cells ( `setGroupID` column) on the `PROJ Project` sheet.
+  When importing projects,&nbsp;set the **setGroupID**&nbsp;of the projects by going to the **GROUP Group** sheet, making note of the respective Group IDs, and pasting them in the correct cells (**setGroupID** column) on the **PROJ Project** sheet.
 
   This is feasible when working with only a few groups and projects, but if you are working with several of each, it's not practical.
 
-  To do the Attribute Name Substitution for the example described above, you change the `setGroupID` column header to `#setGroupID GROUP` `name`. You can then reference each project's group by name.
+  To do the Attribute Name Substitution for the example described above, you change the **setGroupID** column header to **#setGroupID GROUP****name**. You can then reference each project's group by name.
 
   >[!NOTE]
   >
   >The option to use Attribute Name Substitution is limited to references for existing records only. You cannot use name substitution for objects you are creating in the same import.
 
-* `(user import)`
+* **(user import)**
 
-  When importing users, fill in the `setRoleID` from a list of roles on the `ROLE Role` tab.
+  When importing users,&nbsp;fill in the **setRoleID** from a list of roles on the **ROLE Role** tab.
 
   Some of the Role IDs are for records that already exist in the account, and others are being created during the import.
 
@@ -422,13 +422,13 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
   Here is how you can use both methods on the same import file:
 
-  * Add a column in the spreadsheet to the left of the `setRoleID` column.
-  * Name the new column `#setRoleID ROLE name`.
-  * For role assignments to existing records, input the role names in the `#setRoleID ROLE name` column.
+   * Add a column in the spreadsheet to the left of the **setRoleID** column.
+   * Name the new column **#setRoleID ROLE name**.
+   * For role assignments to existing records, input the role names in the **#setRoleID ROLE name** column.
 
-    For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
+     For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
 
-    ![](assets/setroleid-350x66.png)
+     ![](assets/setroleid-350x66.png)
 
 ## Import the spreadsheet data into Workfront
 
@@ -452,13 +452,13 @@ To import the template spreadsheet data into Workfront:
 
    For information on how to deactivate scenarios in Workfront Fusion, see [Activate or deactivate a scenario](../../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. Click `System` > `Import Data (Kick-Starts)`.
+1. Click **System** >**Import Data (Kick-Starts)**.
 
-1. In the `Upload data with Kick-Start spreadsheet` section, click `Choose File`, then browse to and select the populated spreadsheet.
+1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose File**, then browse to and select the populated spreadsheet.
 
-1. Click `Upload.`
+1. Click **Upload.**
 
    If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and the file cannot be uploaded.
 

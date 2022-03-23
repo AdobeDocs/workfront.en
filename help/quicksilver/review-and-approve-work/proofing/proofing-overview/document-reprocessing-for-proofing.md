@@ -18,7 +18,7 @@ All font text is extracted in its layer as long as you include the correct file 
 
 >[!NOTE]
 >
->`Workfront currently supports documents containing up to 2000 pages. This includes combined proofs. For more information, see [Create a multi-page proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)`.
+>```Workfront currently supports documents containing up to 2000 pages. This includes combined proofs. For more information, see [Create a multi-page proof](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)```.
 
 ## General tips
 
@@ -45,7 +45,7 @@ Normally, processing takes a few seconds per page. However, various factors can 
 
 Submitted files go through some or all the following steps:
 
-1. `Submission`. When you upload a document to the system, you do so using the New proof page or using an application programming interface (API).&nbsp;
-1. `Queue`. During heavy traffic periods, Workfront may need to queue submissions to keep from overloading the system. Most proofs spend only a few seconds in a queue.&nbsp;
-1. `Processing.`&nbsp;The files reach the processing machines as per the content type. We use different tools to process video proofs, web captures, static images and documents. Rich Media containers (ZIP) and Interactive web capture submissions do not require processing.
+1. **Submission**. When you upload a document to the system, you do so using the New proof page or using an application programming interface (API).&nbsp;
+1. **Queue**. During heavy traffic periods, Workfront may need to queue submissions to keep from overloading the system. Most proofs spend only a few seconds in a queue.&nbsp;
+1. **Processing.**&nbsp;The files reach the processing machines as per the content type. We use different tools to process video proofs, web captures, static images and documents. Rich Media containers (ZIP) and Interactive web capture submissions do not require processing.
 

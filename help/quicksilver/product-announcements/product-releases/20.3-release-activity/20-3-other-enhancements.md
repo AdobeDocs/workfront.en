@@ -30,7 +30,7 @@ For more information about creating requests, see [Create and submit Workfront r
 >
 >For the Preview release, if you have a custom Layout Template assigned to you, you will need to add the Drafts area of your Requests by modifying your Layout Template.
 
-`<iframe class="vimeo-player_0" src="assets/434806684?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/434806684?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/434806684/ff57c4b715)
 
@@ -46,7 +46,7 @@ Previously, you had to click on each item individually.
 
 For more information, see Log time.
 
-`<iframe class="vimeo-player_0" src="assets/434799001?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/434799001?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/434799001/3b5ad5ebe3)
 
@@ -62,7 +62,7 @@ Previously, the calendar would automatically use Actual dates once they were ava
 
 For more information, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-`<iframe class="vimeo-player_0" src="assets/425518710?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/425518710?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/425518710/076503c510)
 
@@ -80,11 +80,11 @@ For more information, see [Use custom date fields in a calendar report](../../..
 
 ## Email changes
 
-`Outbound email changes:` All email from Workfront will come from notifications@my.workfront.com. This includes automated alerts and user to user communication.
+**Outbound email changes:** All email from Workfront will come from notifications@my.workfront.com. This includes automated alerts and user to user communication.
 
 Previously, System administrators could add an custom email address in the Email Setup area.
 
-`Inbound email POP reply changes:` System Administrators will no longer have the ability to configure a custom POP email server for incoming email replies to notifications.
+**Inbound email POP reply changes:** System Administrators will no longer have the ability to configure a custom POP email server for incoming email replies to notifications.
 
 For more information, see [Email spoofing and POP reply email changes](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=en_US).
 
@@ -105,7 +105,7 @@ There is also now a User details link that displays the following user informati
 
 For more information, see [Enroll users in the new Adobe Workfront experience](../../../administration-and-setup/add-users/create-and-manage-users/enroll-users-new-workfront-experience.md).
 
-`<iframe class="vimeo-player_0" src="assets/434805153?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/434805153?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/434805153/b8d6061d09)
 
@@ -119,7 +119,7 @@ Now you can use a Layout Template to change the logos in the top navigation area
 
 For more information, see Brand your Adobe Workfront instance.
 
-`<iframe class="vimeo-player_0" src="assets/430811222?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/430811222?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/430811222/0ba29e6266)
 
@@ -131,7 +131,7 @@ To assure that Group Administrators don’t inadvertently edit approval processe
 
 For more information, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-`<iframe class="vimeo-player_0" src="assets/434820239?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/434820239?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/434820239/9e5ef0c564)
 
@@ -149,7 +149,7 @@ Here are the main highlights:
 
 For more information, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-`<iframe class="vimeo-player_0" src="assets/434800156?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/434800156?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/434800156/685b28ebb4)
 
@@ -159,7 +159,7 @@ To make it easier to organize your Workfront groups to match your organization h
 
 For more information, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-`<iframe class="vimeo-player_0" src="assets/430810856?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/430810856?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/430810856/4c7589d1f7)
 
@@ -180,7 +180,7 @@ The left sidebar in Setup is now faster and easier to use and leverages the basi
 
 For information about how to use the Setup area, see Administration and setup.
 
-`<iframe class="vimeo-player_0" src="assets/421243507?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/421243507?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/421243507/26ad60f0ef)
 
@@ -190,7 +190,7 @@ As a Workfront administrator, you can now easily find the cluster number inside 
 
 For information about the Customer Info area, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
-`<iframe class="vimeo-player_0" src="assets/437227061?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/437227061?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/437227061/2e33b9cc3d)
 

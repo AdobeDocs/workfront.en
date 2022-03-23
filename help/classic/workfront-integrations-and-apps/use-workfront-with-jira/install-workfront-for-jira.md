@@ -60,9 +60,9 @@ For more information about requesting an add-on to be installed on your Jira app
 To install Workfront for Jira:
 
 1. Log in to Jira as a Jira administrator.
-1. Find the `Workfront for Jira`&nbsp;add-on in the [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
+1. Find the **Workfront for Jira**&nbsp;add-on in the [Atlassian Marketplace](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview).
 
-1. Click `Get it now` to install it.
+1. Click **Get it now** to install it.
 
    After the installation completes, you can log in to Workfront from Jira and configure your integration.
 
@@ -76,42 +76,42 @@ To install Workfront for Jira:
 
 Although installing the Workfront add-on in the two Jira environments is similar, you must consider the following when working with a Jira Server installation:
 
-* When configuring the add-on in Jira, the address specified in the  `JIRA Base URL` field may not be the same URL you use to access Jira on your private server. The `JIRA Base URL` must be a publicly-accessible address connected to your private server using NAT or reverse proxy protocols, so Workfront can access it to make requests to your server.&nbsp;&nbsp;
+* When configuring the add-on in Jira, the address specified in the&nbsp;**JIRA Base URL**&nbsp;field may not be the same URL you use to access Jira on your private server. The **JIRA Base URL** must be a publicly-accessible address connected to your private server using NAT or reverse proxy protocols, so Workfront can access it to make requests to your server.&nbsp;&nbsp;
 
 * You must use SSL encryption to secure the communication between JIRA and Workfront. When you enable SSL, you must have a full SSL certificate stack from a certificate authority. We do not support self-signed certificates.&nbsp; 
 * You must ensure that the jira.workfront.com domain is accessible from your corporate servers. It serves as a middleware environment between Workfront and Jira and is required for the add-on to operate.
 
   You must also add the following static IP addresses to the allowlist on your firewall for outbound and inbound connections.
 
-  * 
-  
-    ```  
-    35.162.128.73
-    ```
+   * 
+   
+     ```   
+     35.162.128.73
+     ```
 
-  * 
-  
-    ```  
-    34.213.36.118
-    ```
+   * 
+   
+     ```   
+     34.213.36.118
+     ```
 
-  * <![CDATA[ ]]>  
-  
-    ```  
-    35.160.0.242
-    ```
+   * <![CDATA[ ]]>   
+   
+     ```   
+     35.160.0.242
+     ```
 
-  * 
-  
-    ```  
-    3.209.27.146
-    ```
+   * 
+   
+     ```   
+     3.209.27.146
+     ```
 
-  * 
-  
-    ```  
-    18.205.251.4
-    ```
+   * 
+   
+     ```   
+     18.205.251.4
+     ```
 
   For more information about configuring your firewall for optimal functionality with Workfront, see [Configuring Your Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 

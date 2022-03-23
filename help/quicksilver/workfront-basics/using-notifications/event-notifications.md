@@ -18,17 +18,17 @@ Event notifications are emails triggered by various types of events on objects s
 
 Event notification emails can be configured at the following levels listed below. Configuration of an event notification consists of activating or deactivating it.
 
-* `System level`: A Workfront administrator can activate and deactivate event notifications at the system level, as explained in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* **System level**: A Workfront administrator can activate and deactivate event notifications at the system level, as explained in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
   All groups inherit system notifications by default, but group administrators might be able to change some configurations on the group level, if allowed by the Workfront administrator, as explained in the next bullet item below.
 
-* `Group level`: A group administrator can configure an event notification for groups they manage after a Workfront administrator unlocks this ability for groups. (missing or bad snippet) For more information, see [View and configure event notifications for a group](view-and-configure-event-notifications-group.md).
+* **Group level**: A group administrator can configure an event notification for groups they manage after a Workfront administrator unlocks this ability for groups. (missing or bad snippet) For more information, see [View and configure event notifications for a group](view-and-configure-event-notifications-group.md).
 
   >[!NOTE]
   >
   >This functionality is available initially only to customers on Cluster 4 as part of a phased roll-out. It will become available for other clusters shortly thereafter. This article will be updated as this occurs.
 
-* `User level`: All of the event notifications that are activated system-wide are listed in each user's Notifications section on their individual profile. Users can activate and deactivate their individual event notifications there.
+* **User level**: All of the event notifications that are activated system-wide are listed in each user's Notifications section on their individual profile. Users can activate and deactivate their individual event notifications there.
 
   Workfront administrators and users with access to edit other users can also activate and deactivate notifications in the profile of individual users.
 

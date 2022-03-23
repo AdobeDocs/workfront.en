@@ -41,16 +41,16 @@ You must have the following to perform the steps in this article:
 
 ## Copy a layout template
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Interface` > `Layout Templates`.
+1. In the left panel, click **Interface** > **Layout Templates**.
 
 1. Click the name of the layout template you want to modify.
-1. Click `Copy`.
+1. Click **Copy**.
 
    All settings except for the name, description, and user assignments in the existing layout template are copied to the new template.
 
-1. In the screen that appears, type a new `Layout template name` and (optional) a `Description` for it.
+1. In the screen that appears, type a new **Layout template name** and (optional) a **Description** for it.
 
 1. Assign the template to the users who need it, as described in [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 1. (Optional) Customize the template, as described in the following articles:

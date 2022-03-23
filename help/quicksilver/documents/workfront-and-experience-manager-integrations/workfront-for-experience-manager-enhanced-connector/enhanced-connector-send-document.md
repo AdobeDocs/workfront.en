@@ -54,13 +54,15 @@ Before you begin, you must
 When a user sends a document from Workfront to Experience Manager Assets, mapped metadata transfers along the document. If configured, the metadata syncs continuously each time a change is made. 
 
 <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
 For information on metadata syncing, see
+</MadCap:conditionalText>
 -->
 
 To send a document:
 
-1. Go to the `Documents` area in Workfront, and select the document you want to send.
-1. Click `Send to`, then choose the Experience Manager Assets integration your administrator set up.
+1. Go to the **Documents** area in Workfront, and select the document you want to send.
+1. Click **Send to**, then choose the Experience Manager Assets integration your administrator set up.
 
    >[!NOTE]
    >
@@ -68,8 +70,8 @@ To send a document:
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. Choose where you want the asset to go, then click `Select Folder`.
-1. When you find your desired destination, click `Save`.
+1. Choose where you want the asset to go, then click **Select Folder**.
+1. When you find your desired destination, click **Save**.
 
 ## Send a new version to Experience Manager Assets
 
@@ -77,8 +79,8 @@ You can add a new version to a document you have previously uploaded to Workfron
 
 To send the most recent version:
 
-1. Go to the `Documents` area in Workfront, and locate the document.
-1. Click `Send to`, then choose the Experience Manager Assets integration your administrator set up.
+1. Go to the **Documents** area in Workfront, and locate the document.
+1. Click **Send to**, then choose the Experience Manager Assets integration your administrator set up.
 
    >[!NOTE]
    >
@@ -86,5 +88,5 @@ To send the most recent version:
 
    ![](assets/copy-of-send-to-in-toolbar-350x149.png)
 
-1. Click `Save`. The new version saves in the same location as the previous version.
+1. Click **Save**. The new version saves in the same location as the previous version.
 

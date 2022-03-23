@@ -27,7 +27,7 @@ Consider the following before you start using Workfront Goals:
 * You can view your goals and all the goals that anyone in Workfront has created. 
 
   <!--
-  (this will change with the access levels epic)
+  <span style="color: #ff0000;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(this will change with the access levels epic)</span>
   -->
 
 * You can view personal goals, as well as goals within your team, group, or company. 
@@ -50,10 +50,10 @@ Use the following checklist when creating goals:
 
 * Goals should be:
 
-  * Quarterly
-  * Measurable
-  * Indicative of what you want to achieve
-  * Aligned to other parent goals or contributed to by results and activities
+   * Quarterly
+   * Measurable
+   * Indicative of what you want to achieve
+   * Aligned to other parent goals or contributed to by results and activities
 
 * Keep it simple and focused: Less is more when it comes to goals. You should set only 3-5 company-level goals a quarter. Each goal should have no more than 1-3 results or contributing activities to help you stay focused.
 
@@ -61,20 +61,20 @@ Use the following checklist when creating goals:
 
 * When setting a goal, we recommend that you follow this process, in this order:
 
-  1. Propose goals as drafts for the upcoming quarter for your teams or groups.
-  1. Start a conversation about your drafted goals and decide which goals you need to pursue for the next quarter. 
-  1. Using the drafts, decide which goals you need to activate for the new quarter. 
-  1. Do one of the following:
+   1. Propose goals as drafts for the upcoming quarter for your teams or groups.
+   1. Start a conversation about your drafted goals and decide which goals you need to pursue for the next quarter. 
+   1. Using the drafts, decide which goals you need to activate for the new quarter. 
+   1. Do one of the following:
 
-    * Encourage everyone in your organization to enter their own goals, activities, and results, by first aligning them with the team, group, or company-level goals that you decided to activate. After they have aligned and activated their own goals, you can activate the organization-level goals.
+      * Encourage everyone in your organization to enter their own goals, activities, and results, by first aligning them with the team, group, or company-level goals that you decided to activate. After they have aligned and activated their own goals, you can activate the organization-level goals.
 
-      Ideally, the progress of the personal goals of your individual contributors will ultimately achieve the organizational goals. In this case, your team, group, and company goals might not have their own activities or results. 
-    
-    * Activate the goals you want to pursue for your organization. Decide what results or activities you need to measure the progress on the goals you are planning for the next quarter. For information about activating goals, see Activate goals in Workfront Goals.
+        Ideally, the progress of the personal goals of your individual contributors will ultimately achieve the organizational goals. In this case, your team, group, and company goals might not have their own activities or results. 
+      
+      * Activate the goals you want to pursue for your organization. Decide what results or activities you need to measure the progress on the goals you are planning for the next quarter. For information about activating goals, see Activate goals in Workfront Goals.
 
-  1. Always keep the progress of your results and activities current. Review At Risk goals frequently and decide what adjustments you can make to deliver the goals on time.
+   1. Always keep the progress of your results and activities current. Review At Risk goals frequently and decide what adjustments you can make to deliver the goals on time.
 
-     You can view At Risk goals in the Goal List. For information about filtering for At Risk goals, see View at-risk goals in&nbsp;Workfront Goals.
+      You can view At Risk goals in the Goal List. For information about filtering for At Risk goals, see View at-risk goals in&nbsp;Workfront Goals.
 
 ## Recommendations for managing goals based on your role
 

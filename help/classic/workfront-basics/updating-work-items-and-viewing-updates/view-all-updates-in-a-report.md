@@ -8,7 +8,7 @@ description: The Updates tab of an object displays a maximum number of 200 updat
 
 # View all updates in a Note report
 
-The Updates tabof an object displays a maximum number of 200 updates by default.&nbsp;To see all the updates that any of the users have entered for an object, you can create a Note report that displays all the updates.
+The Updates tab of an object displays a maximum number of 200 updates by default.&nbsp;To see all the updates that any of the users have entered for an object, you can create a Note report that displays all the updates.
 
 >[!NOTE]
 >
@@ -55,17 +55,17 @@ Creating a report for Notes for any object is identical, regardless of the objec
 
 For example, to create a Note report for all the notes on a project:
 
-1. From the Reporting tab, click `New Report`, then choose  `Note`.
+1. From the **Reporting** tab, click **New Report**, then choose&nbsp;**Note**.
 
-1. (Optional) Click `Views`, then `Add Column` to add the `Name` of the `Project` in the view of the report.&nbsp;
+1. (Optional) Click **Views**, then **Add Column** to add the **Name** of the **Project** in the view of the report.&nbsp;
 
-1. (Optional) Click `Groupings`, then `Add Grouping` to group by the `Project Name`, if you are reporting on multiple projects at the same time.  
+1. (Optional) Click **Groupings**, then **Add Grouping** to group by the **Project Name**, if you are reporting on multiple projects at the same time.  
    This ensures that the notes are grouped by their respective projects, making the report easier to read.&nbsp;
 
-1. (Optional) Click `Filters,`then  `Add a Filter Rule`to filter for just one project, or specific projects.
+1. (Optional) Click **Filters,**then&nbsp;**Add a Filter Rule**to filter for just one project, or specific projects.
 
-1. (Conditional and optional) Set the `Project Name` as  `Equal` to the project name of the project you want to view updates for.&nbsp;&nbsp;  
+1. (Conditional and optional) Set the **Project Name** as&nbsp;**Equal** to the project name of the project you want to view updates for.&nbsp;&nbsp;  
 
-1. Click `Save + Close`.  
+1. Click **Save + Close**.  
    All the updates entered on the project by all users with permissions to at least View the project are displayed in the report.
 

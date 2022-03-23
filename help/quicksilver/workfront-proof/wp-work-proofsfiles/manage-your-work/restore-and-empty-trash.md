@@ -25,14 +25,14 @@ Workfront Proof does not limit the number of proofs, files, and folders in the T
 
 If you are an administrator or billing administrator, you can restore&nbsp;proofs, files, and folders that users in your organization have deleted.
 
-1. Click `Trash`&nbsp;in the sidebar on the left to list your deleted items.
+1. Click **Trash**&nbsp;in the sidebar on the left to list your deleted items.
 1. Select the item you want to restore.
-1. Click `Restore selected`.
+1. Click **Restore selected**.
 
 ## Emptying the Trash
 
 If you are an administrator or billing administrator, you can empty the Trash. For information about permissions, see [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-1. Click `Trash`&nbsp;in the sidebar on the left.
-1. Click `Empty trash`.
+1. Click **Trash**&nbsp;in the sidebar on the left.
+1. Click **Empty trash**.
 

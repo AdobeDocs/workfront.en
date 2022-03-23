@@ -61,12 +61,12 @@ You must have the following access to perform the steps in this article:
 
 1. Locate the object you want to edit, then click inside any field in the list.
 
-   ` `**Tip: **`` If you have multiple pages, you can locate an object by using:
+   ``` ```**Tip: **`````` If you have multiple pages, you can locate an object by using:
 
-  * `Pagination`: Click the backward and forward arrows to navigate between pages.  
-    Located at the bottom-right corner of the list, the pagination area remains sticky as you scroll through the list.
-  * `Quick filter`: Click the filter icon or type Alt+F to open the quick filter, then enter text to display only items that contain the entered text.  
-    The quick filter is located in the list toolbar. For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
+   * **Pagination**: Click the backward and forward arrows to navigate between pages.  
+     Located at the bottom-right corner of the list, the pagination area remains sticky as you scroll through the list.
+   * **Quick filter**: Click the filter icon or type Alt+F to open the quick filter, then enter text to display only items that contain the entered text.  
+     The quick filter is located in the list toolbar. For more information, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
    If the field can be edited, this turns the field and all other fields displayed in the list into editable cells.
 

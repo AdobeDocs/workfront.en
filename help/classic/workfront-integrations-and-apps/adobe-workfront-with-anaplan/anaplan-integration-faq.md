@@ -4,6 +4,7 @@ product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
 title: Adobe Workfront with Anaplan Integration FAQ
 description: Do I have to use Adobe Workfront Fusion?
+hidefromtoc: true
 ---
 
 # Adobe Workfront with Anaplan Integration FAQ

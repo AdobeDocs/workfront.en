@@ -66,33 +66,33 @@ By applying a layout template, you can configure what fields you can see in the&
 
 To apply a custom layout template:
 
-1. `If you are a Workfront administrator:`
+1. ```If you are a Workfront administrator:```
 
-  1. Go to the  `People`area&nbsp;on the Global Navigation Bar.&nbsp;
-  1. Click the  `People` tab.
-  1. Find the name of the user you want to assign a layout template to.
-  1. Click their name to edit their profile.
-  1. Click `Edit User's Info` on the upper right of the user panel.
+   1. Go to the&nbsp;**People**area&nbsp;on the Global Navigation Bar.&nbsp;
+   1. Click the&nbsp;**People** tab.
+   1. Find the name of the user you want to assign a layout template to.
+   1. Click their name to edit their profile.
+   1. Click **Edit User's Info** on the upper right of the user panel.
 
 1. If you are a Plan license user and you want&nbsp;to change the layout template for yourself:
 
-  1. `Click your avatar in the upper-right corner of any Workfront page.`   
-     ![](assets/setup-search-nav-350x47.png)
+   1. ```Click your avatar in the upper-right corner of any Workfront page.```   
+      ![](assets/setup-search-nav-350x47.png)
 
-  1. Click `My Settings`.
+   1. Click **My Settings**.
 
 1. Do either of the following:
 
-  * In the `Access` section, in the `Layout Template`&nbsp;field, begin typing the name of the layout template that you want to apply to the&nbsp;My Work area, then click it when it appears in the drop-down list.  
-    When this field is populated, the layout template defined here takes precedence over the layout template of the home team.
-  
-  * Populate the `Home Team` field in the `Organization` section with the name of a team whose layout template you want this user to adopt.  
-    The Workfront administrator can tell you what layout template is associated with what team.  
-    To use this method, the `Layout Template`&nbsp;field of your user profile must be blank.  
-    If it is not blank, the layout template defined in the `Layout Template`&nbsp;field takes precedence over the layout template of the home team.
+   * In the **Access**&nbsp;section, in the **Layout Template**&nbsp;field, begin typing the name of the layout template that you want to apply to the&nbsp;My Work area, then click it when it appears in the drop-down list.  
+     When this field is populated, the layout template defined here takes precedence over the layout template of the home team.
+   
+   * Populate the **Home Team** field in the **Organization** section with the name of a team whose layout template you want this user to adopt.  
+     The Workfront administrator can tell you what layout template is associated with what team.  
+     To use this method, the **Layout Template**&nbsp;field of your user profile must be blank.  
+     If it is not blank, the layout template defined in the **Layout Template**&nbsp;field takes precedence over the layout template of the home team.
 
-1. Click `Save Changes`.  
-   If you are a Workfront administrator applying the layout template for another user, log in as that user to ensure that the layout template has been applied for them. For more information on how to log in as another user, see [Log in as another user](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). If you are editing your own profile, navigate to your My Work area by clicking `My Work` in the Global Navigation Bar to ensure that the layout template has been applied.
+1. Click **Save Changes**.  
+   If you are a Workfront administrator applying the layout template for another user, log in as that user to ensure that the layout template has been applied for them. For more information on how to log in as another user, see [Log in as another user](../../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). If you are editing your own profile, navigate to your My Work area by clicking **My Work** in the Global Navigation Bar to ensure that the layout template has been applied.
 
 ## Apply the Layout Template to a team
 
@@ -102,14 +102,14 @@ Their individual layout template settings will override the settings of the home
 
 To assign a layout template to a team:
 
-1. Go to the  `People`&nbsp;area in the Global Navigation Bar.
-1. Click the `Teams`tab.
+1. Go to the&nbsp;**People**&nbsp;area in the Global Navigation Bar.
+1. Click the **Teams**tab.
 1. In the drop-down list, select the team whose layout template you want to change.
-1. Click `Team Settings`&nbsp;in the upper-right corner of the page.  
+1. Click **Team Settings**&nbsp;in the upper-right corner of the page.  
    The Team Settings dialog box is displayed.
 
-1. In the `Basic Info` section, locate the `Layout Template` field.
+1. In the **Basic Info** section, locate the **Layout Template** field.
 
-1. If the `Layout Template`&nbsp;field is not already populated with the custom layout template that you want to use, begin typing the name of the layout template that you want to apply to the team, then click it when it appears in the drop-down list.
-1. Click `Save Changes`.
+1. If the **Layout Template**&nbsp;field is not already populated with the custom layout template that you want to use, begin typing the name of the layout template that you want to apply to the team, then click it when it appears in the drop-down list.
+1. Click **Save Changes**.
 

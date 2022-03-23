@@ -20,5 +20,6 @@ This section contains the following articles:
 * [Edit an existing calendar report](../../../reports-and-dashboards/reports/calendars/edit-an-existing-calendar-report.md) 
 * [Delete a calendar report](../../../reports-and-dashboards/reports/calendars/delete-a-calendar-report.md) 
 * [Copy a calendar report](../../../reports-and-dashboards/reports/calendars/copy-a-calendar-report.md) 
-* [Add ad-hoc events to a calendar report](../../../reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
+* [Add ad-hoc events to a calendar report](../../../reports-and-dashboards/reports/calendars/add-ad-hoc-events.md) 
+* Learning Path for reports and dashboards
 

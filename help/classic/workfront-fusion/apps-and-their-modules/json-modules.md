@@ -23,7 +23,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
@@ -32,7 +36,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -51,7 +62,7 @@ You must have the following access to use the functionality in this article:
 The Data structure describes how the JSON data is organized and enables the mapping of individual JSON items to other modules in your scenario. If you don't provide the Data structure, you may manually execute the module and Workfront Fusion will build the structure from the provided JSON:
 
 1. Add the Parse JSON&nbsp;module to a scenario.
-1. In the `JSON String` field, enter the JSON from which you want to build a data structure.
+1. In the **JSON String** field, enter the JSON from which you want to build a data structure.
 1. Do not connect other modules to the Parse JSON module yet. Because Workfront Fusion does not yet know the structure of the JSON data, it is not yet possible to map data from the Parse JSON module to other modules in your scenario.
 1. Manually run the scenario. This allows the Parse JSON module to identify the JSON structure from the JSON you have provided.
 1. You can now connect following modules. The items from the Parse JSON module are now available for mapping.
@@ -68,7 +79,7 @@ If the JSON string field contains a collection
 
 :
 
-` `**Example: **`` {
+``` ```**Example: **`````` {
 
 "name" : "Peter",
 
@@ -87,7 +98,7 @@ If the JSON string field contains an array
 
 :
 
-` `**Example: **`` [
+``` ```**Example: **`````` [
 
 {
 
@@ -128,7 +139,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 This aggregator module aggregates output from a previous module into JSON. 
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader">Source module </td> 
@@ -157,7 +170,9 @@ This aggregator module aggregates output from a previous module into JSON.
 
 This action module converts a JSON string to XML.
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader">JSON&nbsp;string </td> 
@@ -170,7 +185,9 @@ This action module converts a JSON string to XML.
 
 This action module parses a JSON string into a data structure, which allows you to access the data inside the JSON&nbsp;string.
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader">Data structure</td> 
@@ -187,7 +204,9 @@ This action module parses a JSON string into a data structure, which allows you 
 
 This action module creates JSON from a data structure.
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader">Data structure</td> 
@@ -200,7 +219,9 @@ This action module creates JSON from a data structure.
 
 This action module transforms an object into a json string.
 
-<table cellspacing="0">   
+<table cellspacing="0"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td role="rowheader">Object</td> 
@@ -211,14 +232,14 @@ This action module transforms an object into a json string.
 
 ## Transforming data records to JSON
 
-` `**Example: **`` The following example shows how to transform data records from Google Sheets to JSON format:
+``` ```**Example: **`````` The following example shows how to transform data records from Google Sheets to JSON format:
 
-1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the `Maximum number of returned rows` to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing " `Run this module only`." Verify the output of the module.
+1. Place the Google Sheets > Select rows module in your scenario to fetch the data. Set up the module to retrieve rows from your Google spreadsheet. Set the**Maximum number of returned rows** to a small number, but larger than one for testing purposes (Example, three). Execute the Google Sheets module by right-clicking it and choosing "**Run this module only**." Verify the output of the module.
 
-1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the `Source node` field. Leave the other fields as they are for the moment.
-1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click `Add`to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click `Generator`and paste your JSON sample to the `Sample data` field:
+1. Connect the Array Aggregator module after the Google Sheets module. In the module's setup choose the Google Sheets module in the **Source node** field. Leave the other fields as they are for the moment.
+1. Connect JSON > Create JSON module after the Array Aggregator module. The module's setup requires a Data structure that describes the JSON format. Click **Add**to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **Generator**and paste your JSON sample to the **Sample data** field:
 
-   ` `**Example: **`` {
+   ``` ```**Example: **`````` {
 
    "books": [
 
@@ -236,9 +257,9 @@ This action module transforms an object into a json string.
 
    }
 
-1. Click `Save`. The Specification field in the Data structure now contains the generated structure.
-1. Change the name of your Data structure to something more specific and click `Save`. A field corresponding to the root array attribute appears as a mappable field in the JSON module's setup.
-1. Click the `Map` button next to the field and map the 
+1. Click **Save**. The Specification field in the Data structure now contains the generated structure.
+1. Change the name of your Data structure to something more specific and click **Save**. A field corresponding to the root array attribute appears as a mappable field in the JSON module's setup.
+1. Click the **Map** button next to the field and map the 
 
    ```
    Array[]
@@ -246,9 +267,9 @@ This action module transforms an object into a json string.
 
    item from the Array aggregator output to it:
 
-1. Click `OK` to close the JSON module's setup.
-1. Open the setup of the Array Aggregator module. Change the `Target structure` from Custom to the JSON module's field corresponding to the root array attribute. Map items from the Google Sheets module to the appropriate fields.
-1. Click `OK` to close the Array Aggregator module's setup.
+1. Click **OK** to close the JSON module's setup.
+1. Open the setup of the Array Aggregator module. Change the **Target structure** from Custom to the JSON module's field corresponding to the root array attribute. Map items from the Google Sheets module to the appropriate fields.
+1. Click **OK** to close the Array Aggregator module's setup.
 1. Run the scenario.
 
    The JSON module outputs the correct JSON format. 
@@ -271,5 +292,5 @@ if
 
 in your JSON, put the quotation marks outside of the conditional statement.
 
-` `**Example: **``  ![](assets/quotes-in-json-350x120.png)
+``` ```**Example: **``````  ![](assets/quotes-in-json-350x120.png)
 

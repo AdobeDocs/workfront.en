@@ -62,7 +62,9 @@ Do the following:
 
 ### Step 3b: You or your teams use the Scheduling tools, but do not modify user allocation
 
-If you or your teams do not modify the daily hour allocations on work assignments, then you are ready to switch scheduling resources to the Workload Balancer.
+If you or your teams do not modify the daily hour allocations on work assignments, then you are ready to switch scheduling resources to the Workload Balancer. 
+
+![](assets/nwe-workload-balancer-global-350x125.png)
 
 Do the following:
 

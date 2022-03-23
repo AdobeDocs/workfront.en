@@ -41,11 +41,11 @@ You must have the following access to perform the steps in this article:
 
 1.
 
-  1. Go to the project, task, or issue that contains the document, then select `Documents`.
+  1. Go to the project, task, or issue that contains the document, then select **Documents**.
   1. Find the proof you need.
 
-1. Click `Proofing Workflow`.
-1. In the `Workflow`area, select `No Deadline`.
+1. Click **Proofing Workflow**.
+1. In the **Workflow**area, select **No Deadline**.
 
    ![](assets/no-deadline-basic-proof-350x70.png)
 

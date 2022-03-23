@@ -6,6 +6,7 @@ product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Legal Terms and Conditions
 description: In order to use the Adobe Workfront Fusion services, you must agree to our Terms. This is a short version of the Terms. Please refer to the sections below for detailed terms. In order to use Workfront Fusion, you must register for an account and must be older than 18 years or have parent or guardian consent. By registering an account, you give us permission to manipulate your data and the information you want to transfer through Workfront Fusion. We are doing our best to keep these transfers secure. The security of your data is our top priority. You may not misuse Workfront Fusion to perform criminal activities or other illegal acts. If you choose a Paid Subscription, the applicable subscription fee must be paid in advance by credit card. Your Paid Subscription will automatically renew. You may cancel your Paid Subscription without penalty at any time. If you disagree with our terms, you do not have the right to use Workfront Fusion. Workfront Fusion may change these Terms at any time without prior notice. For more information please refer to the below complete Terms.
+hidefromtoc: true
 ---
 
 # Legal Terms and Conditions
@@ -21,7 +22,7 @@ In order to use the Adobe Workfront Fusion services, you must agree to our Terms
 IMPORTANT: BY REGISTERING A Workfront FusionACCOUNT AND USING THIS WEBSITE AND OTHER FEATURES OR SERVICES (collectively, the "Service") YOU AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS, OUR , AND . IF YOU DISAGREE, YOU DO NOT HAVE THE RIGHT TO USE THE SERVICE.
 
 <!--
-These Terms of Service are a legal agreement ("Agreement") between INTEGROMAT LLC, 16192 Coastal Highway, Lewes, Delaware 19958 USA, File number: 5682354 or Workfront Fusion s.r.o., Novákových 1954/20a, 180 00 Praha 8, Czech Republic, ID: 29152861 (“we”, “us”, “our”,"Workfront Fusion" unless the context otherwise requires), and You for use of the Service. "You" ("You", "your", "user" unless the context otherwise requires) refers to any individual who creates an account on the Service, or, if the Service is being used on behalf of an entity by an individual authorized to agree to such terms on behalf of such entity, then "You" refers to such entity.
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">These Terms of Service are a legal agreement ("Agreement") between INTEGROMAT LLC, 16192 Coastal Highway, Lewes, Delaware 19958 USA, File number: 5682354 or Workfront Fusion s.r.o., Novákových 1954/20a, 180 00 Praha 8, Czech Republic, ID: 29152861 (“we”, “us”, “our”,"Workfront Fusion" unless the context otherwise requires), and You for use of the Service. "You" ("You", "your", "user" unless the context otherwise requires) refers to any individual who creates an account on the Service, or, if the Service is being used on behalf of an entity by an individual authorized to agree to such terms on behalf of such entity, then "You" refers to such entity.</p>
 -->
 
 Workfront Fusion reserves the right to modify the Terms of Service at any time and without notice or acceptance by You. By using the Service, You signify your irrevocable acceptance of these Terms of Service. Accordingly, if at any time you will not agree with these Terms of Service, You will no longer have right to use the Service.

@@ -9,6 +9,6 @@ This section contains the following articles:
 * [Add items to a folder in Workfront Library](../../../workfront-library/content-management/folders/add-items-to-a-folder-library.md)
 
   <!--
-  Remove items from a folder in Workfront Library
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../../workfront-library/content-management/folders/remove-items-from-a-folder.md" class="MCXref xref" xrefformat="{para}">Remove items from a folder in Workfront Library</a> </li>
   -->
 

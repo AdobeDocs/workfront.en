@@ -16,8 +16,8 @@ If you run a report with the access rights of another user who has higher access
 
 >[!TIP]
 >
->You should replace the `Run this report with the Access Rights of:` field with an active user only when you want the report to display with the access rights of that user.&nbsp;For example, a Work-license user might not have permissions to see all the items in a report built by a Plan-license user or a System Administrator, unless the report displays with the access rights of a Planner or a System Administrator.  
->If the report is shared with users with similar access as the user specified in the `Run this report with the Access Rights of:` field, you can leave this field blank.
+>You should replace the **Run this report with the Access Rights of:** field with an active user only when you want the report to display with the access rights of that user.&nbsp;For example, a Work-license user might not have permissions to see all the items in a report built by a Plan-license user or a System Administrator, unless the report displays with the access rights of a Planner or a System Administrator.  
+>If the report is shared with users with similar access as the user specified in the **Run this report with the Access Rights of:** field, you can leave this field blank.
 
 ## Access requirements
 
@@ -50,31 +50,31 @@ You must have the following access to perform the steps in this article:
 
 ## Display a report with the access rights of another user
 
-Populating the `Run this Report with the Access Rights of:` field ensures a report contains the same data, regardless of which user is accessing the report. The report displays as it would for the specified user.
+Populating the **Run this Report with the Access Rights of:** field ensures a report contains the same data, regardless of which user is accessing the report. The report displays as it would for the specified user.
 
-The users accessing the report must have at least View permissions on the report to be able to see it. If the user listed in the `Run this Report with the Access Rights of:` field is deactivated, the report no longer displays for any other users who the report is shared with.
+The users accessing the report must have at least View permissions on the report to be able to see it. If the user listed in the **Run this Report with the Access Rights of:** field is deactivated, the report no longer displays for any other users who the report is shared with.
 
 To run a report with the access rights of another user:
 
-1. Go to the Reports area in your Global Navigation Bar. 
+1. Go to the **Reports** area in your Global Navigation Bar.  
 1. Select the report you want to display with the access rights of another user.
-1. Click `Report Actions`, then click `Edit`.
+1. Click **Report Actions**, then click **Edit**.
 
-1. Click `Report Settings`.  
+1. Click **Report Settings**.  
 
-1. In the `Run this report with the Access Rights of:` field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.
+1. In the **Run this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as, then select it when you see it in the list.
 
    >[!NOTE]
    >
-   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other than themselves for the `Run this Report with the Access Rights of:` field.
+   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other than themselves for the **Run this Report with the Access Rights of:** field.
 
-1. Click `Done`.
-1. Click `Save + Close`.  
-   The report now displays for all users who the report is shared with as if it was viewed by the user specified in the `Run this report with the Access Rights of:` field.
+1. Click **Done**.
+1. Click **Save + Close**.  
+   The report now displays for all users who the report is shared with as if it was viewed by the user specified in the **Run this report with the Access Rights of:** field.
 
 >[!IMPORTANT]
 >
->We do not recommend using a different user other than the logged-in user for the `Run this report with the Access Rights of:` field if the report contains a filter that uses a wildcard referring to the logged-in user. This can create confusion for the users looking at the report, as the report displays according to what is defined in the filter. This means that the report displays differently for each user, according to the filter, and disregards the value specified in the `Run this report with the Access Rights of:` field.  
+>We do not recommend using a different user other than the logged-in user for the **Run this report with the Access Rights of:** field if the report contains a filter that uses a wildcard referring to the logged-in user. This can create confusion for the users looking at the report, as the report displays according to what is defined in the filter. This means that the report displays differently for each user, according to the filter, and disregards the value specified in the **Run this report with the Access Rights of:** field.  
 >For more information about wildcards for user fields, see the "User-based variables" section in the [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Deliver a report with the access rights of another user
@@ -83,33 +83,33 @@ You can set up reports to be delivered as attachment to an email. You can set up
 
 To deliver a report with the access rights of another user:
 
-1. Go to the Reports area in your Global Navigation Bar. 
+1. Go to the **Reports** area in your Global Navigation Bar.  
 1. Select the report you want to deliver with the access rights of another user.
 1. Click the name of the report to select it.
-1. Click `Report Actions`.
-1. Click `Send Report`.  
+1. Click **Report Actions**.
+1. Click **Send Report**.  
 
-1. In the `Deliver this report with the Access Rights of:` field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.
+1. In the **Deliver this report with the Access Rights of:** field, start typing the name of the user that you want the report to display as when it is delivered in an email, then select it when you see it in the list. The default is the name of the user who is building the report.
 
    >[!NOTE]
    >
-   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other then themselves for the `Deliver this Report with the Access Rights of:` field.
+   >Users with a lower access level that are allowed to build reports do not have the ability to select a user other then themselves for the **Deliver this Report with the Access Rights of:** field.
 
-1. Select the `Format` you want the report to display in the email:
+1. Select the **Format** you want the report to display in the email:
 
-  * HTML
-  * PDF
-  * MS Excel
-  * MS Excel (.xlsx)
-  * TSV
+   * HTML
+   * PDF
+   * MS Excel
+   * MS Excel (.xlsx)
+   * TSV
 
-1. Click `Send Now` to send it immediately.  
+1. Click **Send Now** to send it immediately.  
    Or  
-   Click `Make Repeating Delivery` to schedule a recurring delivery for the report.  
+   Click **Make Repeating Delivery** to schedule a recurring delivery for the report.  
    For more information about report deliveries, see the article [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 >[!IMPORTANT]
 >
->We do not recommend using a different user other than the user who schedules the delivery for the `Deliver this report with the Access Rights of:` field, if the report contains a filter that uses a wildcard referring to the logged in user. This can create confusion for the users receiving the report, as the delivered report displays as it would for the user who is scheduling the report for delivery. In this case, the delivered report disregards the value specified in the `Deliver this report with the Access Rights of:` field.  
+>We do not recommend using a different user other than the user who schedules the delivery for the **Deliver this report with the Access Rights of:** field, if the report contains a filter that uses a wildcard referring to the logged in user. This can create confusion for the users receiving the report, as the delivered report displays as it would for the user who is scheduling the report for delivery. In this case, the delivered report disregards the value specified in the **Deliver this report with the Access Rights of:** field.  
 >For more information about wildcards for user fields, see the "User-Based Variables" section in the [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

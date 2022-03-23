@@ -18,7 +18,7 @@ This section contains the following articles:
 * [Delete user data](../../workfront-fusion/workfront-fusion-basics/delete-user-data.md)
 
   <!--
-  Delete an account
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/workfront-fusion-basics/delete-an-account.md" class="MCXref xref">Delete an account</a> </li>
   -->
 
 * [Adobe Workfront Fusion FAQ](../../workfront-fusion/workfront-fusion-basics/faq.md)

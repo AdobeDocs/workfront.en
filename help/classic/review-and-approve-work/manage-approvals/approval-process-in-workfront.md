@@ -25,21 +25,21 @@ This article contains general information about approval processes associated wi
 
 If you are an Adobe Workfront administrator, or a user with administrative access to approval processes, you can associate the following approval processes with projects, tasks, and issues:
 
-* `A system-level global approval process`: Users can attach these to any of the following:
+* **A system-level global approval process**: Users can attach these to any of the following:
 
-  * A project, task, or issue in the Approvals section
-  * In the Edit Project box, the Task Default Approval Process area
-  * In the Queue Details or Queue Topic section of a project, in the Default Approval Process areas. The project must be enabled as a request queue.
+   * A project, task, or issue in the Approvals section
+   * In the Edit Project box, the Task Default Approval Process area
+   * In the Queue Details or Queue Topic section of a project, in the Default Approval Process areas. The project must be enabled as a request queue.
 
-* `A group-level global approval process`: Users can attach these to the following:
+* **A group-level global approval process**: Users can attach these to the following:
 
-  * A project, task, or issue belonging to the group that is associated with the approval process in the Approvals section
-  * In the Edit Project box, the Task Default Approval Process area for a project belonging to the group associated with the approval process
-  * In the Queue Details or Queue Topic section of a project, in the Default Approval Process areas. The project must be enabled as a request queue and must belong to the group associated with the approval process.
+   * A project, task, or issue belonging to the group that is associated with the approval process in the Approvals section
+   * In the Edit Project box, the Task Default Approval Process area for a project belonging to the group associated with the approval process
+   * In the Queue Details or Queue Topic section of a project, in the Default Approval Process areas. The project must be enabled as a request queue and must belong to the group associated with the approval process.
 
   For information about creating system-level or group-level approval process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-* `A single-use approval process`: For use with a single project, task, issue, template, or template task. This type of approval process affects only the object that is associated with it and is not available to be associated with any other objects.
+* **A single-use approval process**: For use with a single project, task, issue, template, or template task. This type of approval process affects only the object that is associated with it and is not available to be associated with any other objects.
 
   For information about creating a single-use approval process, see [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
@@ -56,16 +56,16 @@ For information about creating a system-level approval process or a group-level 
 * You must create the project, task, issue, template, or template task before the approval process can be associated with them.
 * An approval process is always associated with two essential things:
 
-  * Each approval process corresponds to a certain work item status in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.
-  
-    ` `**Tips: **``
+   * Each approval process corresponds to a certain work item status in the Workfront system. When you change the status of a work item, an attached approval for that status requires the status change to be confirmed before the new status can be assigned to the item.
+   
+     ``` ```**Tips: **``````
 
-    * You can associate a group-level approval with a global or a group-level status. 
-    * You cannot change the status of an item using an approval process to a status other than the one associated with the approval process.
+      * You can associate a group-level approval with a global or a group-level status. 
+      * You cannot change the status of an item using an approval process to a status other than the one associated with the approval process.
 
-      ` `**Example: **``For example, if you have a task approval associated with the status of In&nbsp;Progress, the task automatically changes its status to In&nbsp;Progress when the approval is granted. It cannot automatically change its status to Completed or any other status that is not associated with the approval.
+        ``` ```**Example: **``````For example, if you have a task approval associated with the status of In&nbsp;Progress, the task automatically changes its status to In&nbsp;Progress when the approval is granted. It cannot automatically change its status to Completed or any other status that is not associated with the approval.
 
-  * The entities associated with an approval process can be users, job roles, or teams. They are responsible for accepting and rejecting the approval.
+   * The entities associated with an approval process can be users, job roles, or teams. They are responsible for accepting and rejecting the approval.
 
 * When you create a work item, it does not automatically have an approval process attached. You must attach one manually if you want to use one. For information about attaching an approval process to an item, see [Associate a new or existing approval process with work](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md). 
 * The Workfront administrator or a user with administrative access to approval processes can create a system-level global approval processes for use throughout the system. A group administrator with administrative access to approval processes can create a group-level global approval process for use only by a certain group that they manage.
@@ -86,7 +86,7 @@ This section explains the following about approving work items:
 
 Attaching a status to an approval process ensures that the item moves through departments in the right order.
 
-` `**Example: **``You could attach an approval process to the Marketing Department status that requires approval by the Finance department. Then, when someone changes the status for a work item to “Marketing Department,” the item can't move to that department until the Finance department signs off on it.
+``` ```**Example: **``````You could attach an approval process to the Marketing Department status that requires approval by the Finance department. Then, when someone changes the status for a work item to “Marketing Department,” the item can't move to that department until the Finance department signs off on it.
 
 For more information about statuses for work items, see the following articles:
 
@@ -109,7 +109,7 @@ The following scenario illustrates how an approval process helps users approve w
 1. The designated approvers receive a notification about the pending approval process and they review the work item.
 1. The approval process ends after the designated approvers approve all steps of the process. Or, if they reject a step, the status is either reset to a predefined status, or an issue is created. (The person who created the approval process defined which of these automated steps happens after a rejection.)
 
-` `**Example: **`` An advertising team has created a status called Ready for Printing and an approval process called Designer/ Copywriter Signoff that they associated with this status. This approval process is configured to:
+``` ```**Example: **`````` An advertising team has created a status called Ready for Printing and an approval process called Designer/ Copywriter Signoff that they associated with this status. This approval process is configured to:
 
 * Require approval by the team's designer and copywriter
 * Initiate whenever someone changes a work item's status to Ready for Printing

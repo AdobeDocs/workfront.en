@@ -54,8 +54,8 @@ Your Adobe Workfront administrator has configured your system so that you review
 ## View a proof with a preset device or resolution setting
 
 1. Go to the document list that contains the proof you want to open.
-1. Hover over the document, then click  `Open proof`.
-1. Click `Responsive` at the center-bottom of the proofing viewer.
+1. Hover over the document, then click&nbsp;**Open proof**.
+1. Click **Responsive** at the center-bottom of the proofing viewer.
 
    ![Resolution_option_in_DPV.png](assets/resolution-option-in-dpv-350x64.png)
 
@@ -72,9 +72,9 @@ Your Adobe Workfront administrator has configured your system so that you review
 ## View a proof with a custom resolution setting
 
 1. Go to the document list that contains the proof you want to open.
-1. Hover over the document, then click  `Open proof`.
-1. Click `Responsive` at the center-bottom of the Proofing Viewer.
-1. Type a custom  `Responsive`resolution.
+1. Hover over the document, then click&nbsp;**Open proof**.
+1. Click **Responsive** at the center-bottom of the Proofing Viewer.
+1. Type a custom&nbsp;**Responsive**resolution.
 
    ![Type_a_custom_resolution_DPV.png](assets/type-a-custom-resolution-dpv.png)
 
@@ -86,7 +86,7 @@ Your Adobe Workfront administrator has configured your system so that you review
 
    The custom resolution displays in the following locations:
 
-  * In the  `Resolution`panel at the bottom-center of the viewer.   
+  * In the&nbsp;**Resolution**panel at the bottom-center of the viewer.   
     ![Screenshot_2018-05-15_10-27-54.png](assets/screenshot-2018-05-15-10-27-54.png)
 
   * In any comments reviewers add to the proof. Each comment includes the screen resolution that was selected when the reviewer created the comment.

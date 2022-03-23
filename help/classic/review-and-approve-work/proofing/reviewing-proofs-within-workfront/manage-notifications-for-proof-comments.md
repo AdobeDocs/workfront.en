@@ -46,17 +46,17 @@ You must have the following access to perform the steps in this article:
 ## Manage notifications for proof comments and decisions
 
 1. Open the proof for which you want to configure notifications you will receive.
-1. If the left toolbar is not showing, click the  `Menu`&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.
+1. If the left toolbar is not showing, click the&nbsp;**Menu**&nbsp;icon, located in the upper-left corner of the Web Proofing Viewer.
 
    ![Menu_icon_in_Proofing_Viewer.png](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. In the left toolbar, click the  `Settings`&nbsp;icon. ![Settings_icon.png](assets/settings-icon.png)  
+1. In the left toolbar, click the&nbsp;**Settings**&nbsp;icon. ![Settings_icon.png](assets/settings-icon.png)  
 
-1. Under `Send me email notifications about`, click the setting you want for the proof.
+1. Under **Send me email notifications about**, click the setting you want for the proof.
 
    The setting you select remains in effect only for the proof you have open.
 
-   The system default is `Daily summary`. If you or your reviewers do not make any other changes, all your proofs have this setting.
+   The system default is **Daily summary**. If you or your reviewers do not make any other changes, all your proofs have this setting.
 
    <table cellspacing="0"> 
     <col> 

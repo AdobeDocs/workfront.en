@@ -79,6 +79,9 @@ reference in the following contexts:
 For information about reporting on collections, see [Reference collections in a report](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 <!--
-Tip: For information about how issues appear in a collection, see the API Explorer and select the API Unsupported option from the upper-right corner of the page.
+<note type="tip">
+For information about how issues appear in a collection, see the
+<a href="https://one.workfront.com/s/api-explorer" target="_blank">API Explorer</a> and select the API Unsupported option from the upper-right corner of the page.
+</note>
 -->
 

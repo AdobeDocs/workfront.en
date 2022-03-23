@@ -49,11 +49,11 @@ If the same resource is assigned to two different tasks, you can use resource le
 Consider the following when leveling resources on a project:
 
 * Resource leveling only applies to one project, so Adobe Workfront does not level resources across more than one project at a time.
-* If `Effort Driven` is selected as a `Duration Type`, Workfront will not level the resources.
+* If **Effort Driven** is selected as a **Duration Type**, Workfront will not level the resources.
 * When multiple users are assigned to the same task, leveling will be canceled.
-* Conditions for the type of `Task Constraint` will take precedence over the leveling of resources. For example, if `Fixed Dates` is selected as the Task Constraint, resource leveling will not change the task dates.
+* Conditions for the type of **Task Constraint**&nbsp;will take precedence over the leveling of resources. For example,&nbsp;if **Fixed Dates** is selected as the Task Constraint, resource leveling will not change the task dates.
 * Predecessor relationships will take precedence over resource leveling.
-* `Resource Leveling` needs to be set to `Manual` for the project in order to adjust leveling in the Gantt chart. Users can have the system automatically level resources by adjusting this setting on the project and selecting `Automatic` instead of `Manual`.
+* **Resource Leveling** needs to be set to **Manual** for the project in order to adjust leveling in the Gantt chart. Users can have the system automatically level resources by adjusting this setting on the project and selecting **Automatic** instead of **Manual**.
 
   ![](assets/resource-leveling-mode.png)
 
@@ -62,27 +62,39 @@ Consider the following when leveling resources on a project:
 ## Apply Resource Leveling in the Gantt Chart
 
 1. Navigate to a project.
-1. Select the `Tasks` area.
-1. Click the `Gantt` icon.  
+1. Select the **Tasks** area.
+1. Click the **Gantt** icon.  
 
-1. Disable the `Autosave` option.
+1. Disable the **Autosave** option.
 
    >[!TIP]
    >
    >You cannot level resources in the Gantt chart when the Autosave option is enabled.
 
-1. Click the `Resource Leveling` drop-down menu and select `Level Now`.  
+1. Click the **Resource Leveling** drop-down menu and select **Level Now**.  
    ![new_gantt_resource_leveling.png](assets/new-gantt-resource-leveling.png)
 
-1. (Optional) Select `Clear Leveling`, to remove all resource leveling from the project.
+1. (Optional) Select **Clear Leveling**, to remove all resource leveling from the project.
 
    >[!NOTE]
    >
    >Your resources might be overallocated if they are assigned to multiple tasks which occur during the same time frame.
 
-1. Click `Save`.&nbsp;
+1. Click **Save**.&nbsp;
 
 <!--
-Overview of Leveling Delay At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic schedule. As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when Adobe Workfront levels the tasks a more realistic schedule overcomes resource conflicts. To manually add a Leveling Delay to a task: Navigate to a task for which you want to add a Leveling Delay. Click the More icon to the right of the task name, then click Edit. Click Settings. Specify the Leveling Delay, in hours. This is the time that the resource will be delayed starting the task due to resource conflicts. Click Save Changes.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="leveling-delay"></a>Overview of Leveling Delay</h2>
+<p>At times, there might be conflicts between task schedules on a project. You can level resources or address resource conflicts by rescheduling resources and tasks so that all tasks can be completed within a realistic&nbsp;schedule. </p>
+<p>As the project manager, or the task assignee, you can also add a Leveling Delay on individual tasks to account for any resource or scheduling conflicts. In other words, a task might be scheduled with a delay to ensure that when Adobe Workfront levels&nbsp;the tasks a more realistic schedule overcomes resource conflicts.</p>
+<p>To manually add a Leveling Delay to a task:</p>
+<ol>
+<li value="1">Navigate to a task for which you want to add a Leveling Delay.</li>
+<li value="2">  Click the <strong>More icon</strong> to the right of the task name, then click <strong>Edit</strong>.  <p>  </p> </li>
+<li value="3">Click <strong>Settings</strong>.<br></li>
+<li value="4">Specify the <strong>Leveling Delay</strong>, in hours.<br>This is the time that the resource will be delayed starting the task due to resource conflicts.</li>
+<li value="5">Click <strong>Save Changes</strong>.&nbsp;</li>
+</ol>
+</div>
 -->
 

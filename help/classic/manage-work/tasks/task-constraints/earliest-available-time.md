@@ -14,41 +14,41 @@ Earliest Available Time is a Task Constraint that schedules a task to begin at t
 For information about how to update the Task&nbsp;Constraint on a task, see [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
-To update the Task Constraint to Earliest Available Time:
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">To update the Task Constraint to Earliest Available Time:</p>
 -->
 
    <!--
-   Go to a task whose constraint you want to modify.
+   <li value="1" data-mc-conditions="QuicksilverOrClassic.Draft mode">Go to a task whose constraint you want to modify. </li>
    -->
 
 1. 
 
    <!--
-   Click Edit Task.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Edit Task</strong>.</p>
    -->
 
    <!--
-   Click the More icon next to the task name, then click Edit.
-   -->
-
-1. 
-
-   <!--
-   In the Overview section, expand the Task Constraint drop-down menu.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Click the <strong>More</strong> icon <img src="assets/qs-more-icon-on-an-object.png"> next to the task name, then click <strong>Edit</strong>.</p>
    -->
 
 1. 
 
    <!--
-   Select Earliest Available Time.
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">In the <strong>Overview</strong> section, expand the <strong>Task Constraint</strong> drop-down menu.</p>
+   -->
+
+1. 
+
+   <!--
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Select <strong>Earliest Available Time</strong>.</p>
    -->
 
    <!--
-
+   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">  </p>
    -->
 
    <!--
-   Click Save Changes.
+   <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
 ## The difference between Earliest Available Time and As Soon As Possible
@@ -61,15 +61,15 @@ The Earliest Available Time constraint differs from the As Soon As Possible cons
 
 In this situation:
 
-* `Earliest Available Time:` Using the Earliest Available Time constraint on the successor task gives priority to the predecessor's flexible constraint.
+* **Earliest Available Time:** Using the Earliest Available Time constraint on the successor task gives priority to the predecessor's flexible constraint.
 
-  ` `**Example: **`` Task A is a predecessor to Task B. Task B has the Earliest Available Time constraint and Task A has the As Late As Possible constraint. In this situation, Task B is scheduled as close to the completion of the project as possible.
+  ``` ```**Example: **`````` Task A is a predecessor to Task B. Task B has the Earliest Available Time constraint and Task A has the As Late As Possible constraint. In this situation, Task B is scheduled as close to the completion of the project as possible.
 
   ![Earliest Available Time constraint when task has the dates close to the project's Completion Date](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
 
-* `As Soon As Possible:` In this scenario, using the As Soon As Possible constraint on the successor task gives the priority to the successor task.
+* **As Soon As Possible:** In this scenario, using the As Soon As Possible constraint on the successor task gives the priority to the successor task.
 
-  ` `**Example: **``  Task A is a predecessor to Task B. Task B has the As Soon As Possible constraint and Task A has the As Late As Possible constraint. In this situation, Task B is scheduled as close to the start of the project as possible.
+  ``` ```**Example: **``````  Task A is a predecessor to Task B. Task B has the As Soon As Possible constraint and Task A has the As Late As Possible constraint. In this situation, Task B is scheduled as close to the start of the project as possible.
 
   ![As Soon As Possible constraint when task has the dates close to the project's Start Date](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
 

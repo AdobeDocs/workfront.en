@@ -74,30 +74,31 @@ Finding the value for Actual Hours for an item is identical for tasks, projects,
 
 You can find the Actual Hours information on tasks in the following locations:
 
-* Actual Hours in the Details section 
-* Actual Hours in the Hours section 
+* [Actual Hours in the Details section](#actual)  
+* [Actual Hours in the Hours section](#actual2)  
 * [Actual Hours in reports](#reports) 
 * [Actual Hours in Resource Management tools](#resource-grid)
 
-Actual Hours in the Details section Finding Actual Hours in the Details sectionis identical for projects, tasks, and issues.
+Actual Hours in the Details section Finding Actual Hours in the Details section is identical for projects, tasks, and issues.
 
 To locate Actual Hours in Task Details:
 
 1. Go to a task for which you want to review the Actual Hours.
-1. Click Task Details in the left panel. 
-1. Click `Overview` and notice the `Actual Hours` value.
+1. Click **Task Details** in the left panel.  
+1. Click **Overview** and notice the **Actual Hours** value.
 
    This is the total of hours logged on this task.
 
-Actual Hours in the Hours section Finding Actual Hours in the Hours sectionis identical for projects, tasks, and issues.
+Actual Hours in the Hours section Finding Actual Hours in the Hours section is identical for projects, tasks, and issues.
 
-To locate Actual Hours in Hours section:
+To locate Actual Hours in Hours section :
 
 1. Go to a task for which you want to review the Actual Hours.
-1. Click Hours in the left panel. Depending on your configuration, the Hours section might be listed under Show More. This displays a list of hour entries logged on the task. 
-1. Ensure that the `Standard` view and the `Project` grouping are applied to this list.
+1. Click **Hours** in the left panel.  Depending on your configuration, the Hours section might be listed under **Show More**.  This displays a list of hour entries logged on the task. 
 
-   The number shown in the grouping line for the `Hours` column is the total number of Actual Hours on the task.
+1. Ensure that the **Standard** view and the **Project** grouping are applied to this list.
+
+   The number shown in the grouping line for the **Hours** column is the total number of Actual Hours on the task.
 
 ### Actual Hours in reports
 
@@ -107,12 +108,13 @@ Adding the Actual Hours column to a task view is similar to building a view in a
 
 To show Actual Hours in a task report:
 
-1. Click the Main Menu icon in the upper-right corner of Workfront, then click Reports. 
-1. Click `New Report`, then choose `Task` as your object.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Reports**.  
 
-1. Click `Add Column`, and start typing `Actual Hours` when the `Show in this column` drop-down field is displayed. Select the field when it appears in the list.
+1. Click **New Report**, then choose **Task** as your object.
 
-1. Click `Save + Close` to save the report.
+1. Click **Add Column**, and start typing **Actual Hours** when the **Show in this column** drop-down field is displayed. Select the field when it appears in the list.
+
+1. Click **Save + Close** to save the report.
 
    The Actual Hours column shows the number of hours logged on each task.
 

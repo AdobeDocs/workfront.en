@@ -61,16 +61,16 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
 
    You can select only one document. You cannot share the link for multiple documents at the same time.
 
-1. Click `Share` > `Proof Link`.
-1. In the `Proof link` box that appears, do either of the following:
+1. Click **Share** > **Proof Link**.
+1. In the **Proof link** box that appears, do either of the following:
 
-  * To copy the link to your clipboard, click `Copy link`.
+  * To copy the link to your clipboard, click **Copy link**.
 
     You can now distribute the link via a third-party tool, such as a chat or an email application.
   
   * To email the link directly from Adobe Workfront, do the following:
 
-    1. In the `Or email link to` field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.
+    1. In the **Or email link to** field, begin typing and select the name of your recipient. Or specify the email address of an external user who you want to share with.
 
        >[!NOTE]
        >
@@ -84,7 +84,7 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
         <tbody>
          <tr>
           <td role="rowheader">Send public link</td>
-          <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <span class="bold">Subscribe to proof via public URL or embed code</span> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
+          <td><p>Includes a button in the email notification that directs users to the proof within the proofing viewer they are using and grants View access.</p><p>If <strong>Subscribe to proof via public URL or embed code</strong> is turned off for the proof, users can sign in with their Workfront login credentials to add comments to the proof. If it is turned on, anyone providing their email address and name (no password required) can sign and add comments to the proof.</p></td>
          </tr>
          <tr>
           <td role="rowheader">Send download link</td>
@@ -97,7 +97,7 @@ Sharing a proof link grants Workfront users viewing access. Users can comment on
         </tbody>
        </table>
 
-    1. Click `Send`.
+    1. Click **Send**.
 
        Your recipients receive an email notification containing information about the proof and the buttons you chose to include.
 
@@ -116,29 +116,32 @@ You can add any Workfront user to the proof if you have Edit rights on the proof
 >
 
 <!--
-Add users to a new proof
+<h3 data-mc-conditions="QuicksilverOrClassic.Draft mode"><a name="Adding"></a>Add users to a new proof</h3>
 -->
 
 <!--
-Begin the process for generating a proof on a document or website in Workfront, as described in the Generate a proof articles. Configure the proof as described in the section Workflow in the article Configure a proof.
+<ol data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<li value="1">Begin the process for generating a proof on a document or website in Workfront, as described in the <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof.md" class="MCXref xref">Generate a proof</a> articles.</li>
+<li value="2">Configure the proof as described in the section <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md#workflow" class="MCXref xref">Workflow</a> in the article <a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-proof.md" class="MCXref xref">Configure a proof</a>.</li>
+</ol>
 -->
 
 ### Add users to an existing proof from the Documents tab
 
 1. Select the document that contains the proof that you want to add users to.
-1. If the proof does not have an automated workflow (stages), click the `More` icon in the upper-right corner of the Stage 1 section, then click `Share` in the drop-down menu.
+1. If the proof does not have an automated workflow (stages), click the **More** icon in the upper-right corner of the Stage 1 section, then click **Share** in the drop-down menu.
 
    Or
 
-   If the proof does have an Automated Workflow, click the `More` icon in the upper-right corner of the stage where you want to add the reviewer, then click `Share` in the drop-down menu.
+   If the proof does have an Automated Workflow, click the **More** icon in the upper-right corner of the stage where you want to add the reviewer, then click **Share** in the drop-down menu.
 
-1. In the `Share this version` box that appears, under `Share`, begin typing the name or email address of a user who you want to share the proof with, then click the name when it appears in the drop-down list.
+1. In the **Share this version** box that appears, under **Share**, begin typing the name or email address of a user who you want to share the proof with, then click the name when it appears in the drop-down list.
 
 1. (Optional) Repeat this step to add multiple users to the proof.
 1. (Optional) Set a deadline for the reviewers.
-1. (Optional) Make sure `Notify people by email` is selected if you want to let the reviewers know you have added them to the proof.
-1. (Optional) `Add a custom message` to the email.
-1. When you have added all the reviewers, click `Share`.
+1. (Optional) Make sure **Notify people by email** is selected if you want to let the reviewers know you have added them to the proof.
+1. (Optional) **Add a custom message** to the email.
+1. When you have added all the reviewers, click **Share**.
 
 ### Add users to an existing proof from the proofing viewer
 

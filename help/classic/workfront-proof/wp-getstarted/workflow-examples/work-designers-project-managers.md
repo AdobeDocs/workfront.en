@@ -24,12 +24,14 @@ When the designer needs to see comments and decisions made on a proof, he or she
 
 1. The designer creates a new proof and assigns the project manager as the owner of the project (for more information, see [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). As the creator of the proof, the designer can:
 
-  * Comment on the proof and use the Actions tab to keep track of comment threads. 
-  * Create a new version of the proof for the project manager.  
-  
-    <!--  
-    For more information, see .  
-    -->
+   * Comment on the proof and use the Actions tab to keep track of comment threads. 
+   * Create a new version of the proof for the project manager.   
+   
+     <!--   
+     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
+     For more information, see&nbsp;.   
+     </MadCap:conditionalText>   
+     -->
 
 1. The project manager reviews the proof and then shares it with the client. For more information, see [Share a Proof in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 1. The client receives an email containing a link to the proof. For more information, see [New proof email](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
@@ -38,7 +40,9 @@ When the designer needs to see comments and decisions made on a proof, he or she
 1. The designer or project manager amends the file; if the designer then uploads it as a new version, Workfront Proof reassigns the ownership of the proof to the project manager. 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    For more information, see .
+   </MadCap:conditionalText>
    -->
 
 ## When the Designer Doesn't Need to See Proof Comments and Decisions
@@ -58,6 +62,8 @@ When it is not necessary for the designer to be involved in the Workfront Proof 
 1. If necessary, the designer amends the file and uploads it to Workfront Proof, where the project manager can create a new version for another round of proofing. 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    For more information, see .
+   </MadCap:conditionalText>
    -->
 

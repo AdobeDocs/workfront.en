@@ -34,7 +34,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -43,7 +47,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -116,7 +127,7 @@ When you are configuring this module, the following fields display.
 This trigger module executes a scenario when someone sends a message. The module returns all standard fields associated with the record or records, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
 
 <!--
-Is this correct?
+<span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Is this correct?</span>
 -->
 
 This module requires some extra setup:
@@ -125,21 +136,23 @@ This module requires some extra setup:
 
    To access the setup page, locate and click the button labeled “Setup” in the upper-right hand corner of the Salesforce account. From the Salesforce setup page, locate the “Quick Find / Search” bar on the left hand side. Search for “Workflow Rules.” 
 
-1. Click `Workflow Rules`. This will take you to .
-1. On the the Workflow Rules page that appears, click `New Rule` and select the object type the rule will apply to (such as. “Opportunity” if you are monitoring updates to Opportunity records).
-1. Click `Next`.
-1. Set a rule name, evaluation criteria, and rule criteria, then click `Save` and `Next`.
+1. Click **Workflow Rules**. This will take you to .
+1. On the the Workflow Rules page that appears, click **New Rule** and select the object type the rule will apply to (such as. “Opportunity” if you are monitoring updates to Opportunity records).
+1. Click **Next**.
+1. Set a rule name, evaluation criteria, and rule criteria, then click **Save** and **Next**.
 
-1. Click `Done`.
-1. From the newly created Workflow rule, click `Edit`..
-1. From the `Add Workflow Action` drop-down list, select `New Outbound Message`.
+1. Click **Done**.
+1. From the newly created Workflow rule, click **Edit**..
+1. From the **Add Workflow Action** drop-down list, select **New Outbound Message**.
 
-1. Specify name, description, Endpoint URL, and fields you want to include in the new outbound message, then click `Save`.
+1. Specify name, description, Endpoint URL, and fields you want to include in the new outbound message, then click **Save**.
 
-   The `Endpoint URL` field contains the URL provided on the Salesforce Outbound Message 
+   The **Endpoint URL** field contains the URL provided on the Salesforce Outbound Message 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    card
+   </MadCap:conditionalText>
    -->
 
    in Workfront Fusion.
@@ -147,17 +160,28 @@ This module requires some extra setup:
 1. Configure a scenario beginning with the Outbound Message event 
 
    <!--
+   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
    card
+   </MadCap:conditionalText>
    -->
 
    .
-1. Click the `</>` icon in the bottom right and copy the provided URL.
-1. Return to the `Workflow Rules` page, locate the newly created rule, then click `Activate`.
+1. Click the **</>** icon in the bottom right and copy the provided URL.
+1. Return to the **Workflow Rules** page, locate the newly created rule, then click **Activate**.
 
 When you are configuring this module, the following fields display.
 
 <!--
-Connection For instructions about connecting your Salesforce account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions
+<table data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<col>
+<col>
+<tbody>
+<tr>
+<td>Connection</td>
+<td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
+</tr>
+</tbody>
+</table>
 -->
 
 <table> 
@@ -166,7 +190,7 @@ Connection For instructions about connecting your Salesforce account to Workfron
  <tbody> 
   <tr> 
    <td>Webhook</td> 
-   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <span class="bold">Add </span>and enter the webhook's name and connection.</p> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
+   <td> <p>Select the webhook that you want to use to watch outgoing messages. To add a webhook, click <strong>Add</strong>and enter the webhook's name and connection.</p> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
    <td>Record Type </td> 
@@ -209,7 +233,7 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 ### Actions
 
   <!--
-  Create a Record (Static Fields)
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#create2" class="MCXref xref">Create a Record (Static Fields)</a> </li>
   -->
 
 * [Create a Record](#create) 
@@ -220,13 +244,33 @@ This trigger module starts a scenario when a field is updated in Salesforce.
 * [Download Attachment/Document](#download2)
 
   <!--
-  Update a Record (Static Fields)
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#update3" class="MCXref xref">Update a Record (Static Fields)</a> </li>
   -->
 
 * [Create a Record](#create)
 
 <!--
-Create a Record (Static Fields) This action module creates a new record in an object. You specify the type of record. The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your Salesforce account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions Record Type Select the type of Salesforce record that you want the module to create. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h4><a name="Create2"></a>Create a Record (Static Fields)</h4>
+<p>This action module creates a new record in an object.</p>
+<p>You specify the type of record.</p>
+<p>The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
+<p>When you are configuring this module, the following fields display.</p>
+<table>
+<col>
+<col>
+<tbody>
+<tr>
+<td>Connection</td>
+<td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
+</tr>
+<tr>
+<td> <p>Record Type </p> </td>
+<td> <p>Select the type of Salesforce record that you want the module to create. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td>
+</tr>
+</tbody>
+</table>
+</div>
 -->
 
 #### Create a Record
@@ -268,29 +312,31 @@ The module returns the ID of the record and any associated fields, along with an
 
 When you are configuring this module, the following fields display.
 
-<table>   
+<table> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> <!--
-    Connection
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
    --> 
    <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> <!--
-    Record Type
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Type</td>
    --> <!--
-    Select the type of Salesforce record that you want the module to [action].read.
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the type of Salesforce record that you want the module to [action].read.</td>
    --> 
   </tr> 
   <tr> <!--
-    Record Fields
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Record Fields</td>
    --> <!--
-    Select the fields that you want the module to read. You must select at least one field.
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Select the fields that you want the module to read. You must select at least one field.</td>
    --> 
   </tr> 
   <tr> <!--
-    ID
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">ID</td>
    --> <!--
-    Enter or map the unique Salesforce ID of the record that you want the module to read. To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: https://eu5.salesforce.com/&lt;object ID&gt;
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique Salesforce ID of the record that you want the module to read.</p> <p>To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
    --> 
   </tr> 
  </tbody> 
@@ -331,12 +377,12 @@ This action module lets you make a custom authenticated call to the Salesforce A
 
 The module returns the following:
 
-* `Status Code`(number): This indicates the success or failure of your HTTP request. These are standard codes that you can look up on the internet.
-* `Headers`(object): A more detailed context for the response/status code that doesn’t relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
+* **Status Code**(number): This indicates the success or failure of your HTTP request. These are standard codes that you can look up on the internet.
+* **Headers**(object): A more detailed context for the response/status code that doesn’t relate to the output body. Not all headers that appear in a response header are response headers, so some might not be useful to you.
 
   The response headers depend on the HTTP request you chose when configuring the module.
 
-* `Body`(object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
+* **Body**(object): Depending on the HTTP request you chose when configuring the module, you may receive some data back. That data, such as the data from a GET request, is contained in this object.
 
 When you are configuring this module, the following fields display.
 
@@ -374,29 +420,29 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-` `**Example: **`` The following API call returns the list of all users in your Salesforce account:
+``` ```**Example: **`````` The following API call returns the list of all users in your Salesforce account:
 
-* `URL`: 
+* **URL**: 
 
   ```
   query
   ```
 
-* `Method`: GET
-* `Query String`:
-* `Key`: 
+* **Method**: GET
+* **Query String**:
+* **Key**: 
 
   ```
   q
   ```
 
-* `Value`: 
+* **Value**: 
 
   ```
   SELECT Id, Name, CreatedDate, LastModifiedDate FROM User LIMIT 10
   ```
 
-Matches of the search can be found in the module's Output under `Bundle > Body > records`.
+Matches of the search can be found in the module's Output under **Bundle > Body > records**.
 
 In our example, 6 users were returned:
 
@@ -410,7 +456,9 @@ The module returns the ID of the attachment or document and any associated field
 
 When you are configuring this module, the following fields display.
 
-<table>   
+<table> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
    <td>Connection</td> 
@@ -445,30 +493,66 @@ The module returns the ID of the  attachment or document and any associated fiel
 
 When you are configuring this module, the following fields display.
 
-<table>   
+<table> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
  <tbody> 
   <tr> <!--
-    Connection
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Connection</td>
    --> 
    <td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td> 
   </tr> 
   <tr> <!--
-    Type of Download
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode">Type of Download</td>
    --> <!--
-    Specify the type of file that you want to download from Salesforce. Attachment Document ContentDocument (This is a document that has been uploaded to a library in Saleforce CRM Content or Salesforce Files.)
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Specify the type of file that you want to download from Salesforce.</p> 
+     <ul> 
+      <li>Attachment</li> 
+      <li>Document</li> 
+      <li>ContentDocument (This is a document that has been uploaded to a library in Saleforce CRM Content or Salesforce Files.)</li> 
+     </ul> </td>
    --> 
   </tr> 
   <tr> <!--
-    ID / Attachment ID / ContentDocument ID
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>ID / </p> <p>Attachment ID / </p> <p>ContentDocument ID</p> </td>
    --> <!--
-    Enter or map the unique Salesforce ID of the record that you want the module to download. To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: https://eu5.salesforce.com/&lt;object ID&gt;
+    <td data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>Enter or map the unique Salesforce ID of the record that you want the module to download.</p> <p>To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/&lt;object ID&gt;</code></p> </td>
    --> 
   </tr> 
  </tbody> 
 </table>
 
 <!--
-Update a Record (Static Fields) This action module edits a record in an object. You specify the ID of the record. The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario. When you are configuring this module, the following fields display. Connection For instructions about connecting your Salesforce account to Workfront Fusion, see Create a connection to Workfront Fusion - Basic instructions ID Enter or map the unique Salesforce ID of the record that you want the module to update. To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: https://eu5.salesforce.com/<object ID> Record Type Select the type of Salesforce record that you want the module to [action].update. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API. See also the information about working with records in the Salesforce REST API Developer Guide.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h4><a name="Update3"></a>Update a Record <!--
+<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+(Static Fields)
+</MadCap:conditionalText>
+--></h4>
+<p>This action module edits a record in an object.</p>
+<p>You specify the ID of the record.</p>
+<p>The module returns the ID of the  record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.</p>
+<p>When you are configuring this module, the following fields display.</p>
+<table>
+<col>
+<col>
+<tbody>
+<tr>
+<td>Connection</td>
+<td> <p>For instructions about connecting your Salesforce account to Workfront Fusion, see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Workfront Fusion - Basic instructions</a></p> </td>
+</tr>
+<tr>
+<td>ID</td>
+<td>Enter or map the unique Salesforce ID of the record that you want the module to update.<p>To get the ID, open the Salesforce object in your browser and copy the text at the end of the URL after the last forward slash (/). For example: <code>https://eu5.salesforce.com/<object ID></code></p></td>
+</tr>
+<tr>
+<td>Record Type </td>
+<td> <p>Select the type of Salesforce record that you want the module to [action].update. Fields become available based on the type of record selected in the Record Type field. These fields are based on the Salesforce API.</p> </td>
+</tr>
+</tbody>
+</table>
+<p>See also the information about working with records in the Salesforce REST API Developer Guide.</p>
+</div>
 -->
 
 #### Update a Record

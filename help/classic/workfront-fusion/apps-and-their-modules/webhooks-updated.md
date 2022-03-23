@@ -23,7 +23,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -32,7 +36,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -49,12 +60,12 @@ You must have the following access to use the functionality in this article:
 
 To use a webhook to connect an app to Workfront Fusion:
 
-1. Add the `Webhooks`> `Custom Webhook` instant trigger module to your scenario.
+1. Add the **Webhooks**>**Custom Webhook** instant trigger module to your scenario.
 
-1. Click `Add` next to the Webhook field and enter a name for the new webhook.
-1. (Optional) Click `Advanced Settings`. 
-1. In the `IP restrictions` field, enter a comma-separated list of the IP addresses that the module can accept data from.
-1. Click `Save`
+1. Click **Add** next to the Webhook field and enter a name for the new webhook.
+1. (Optional) Click **Advanced Settings**. 
+1. In the **IP restrictions** field, enter a comma-separated list of the IP addresses that the module can accept data from.
+1. Click **Save**
 
 After you create a webhook, a unique URL displays. This is the address where the webhook sends data. Workfront Fusion validates the data sent to this address, then passes it on for processing in the scenario.
 
@@ -68,7 +79,7 @@ In order to recognize the data structure of the incoming payload, Workfront Fusi
 
 Or you can follow the steps below to send the sample data via the HTTP > Make a request module.
 
-1. Create a new scenario with the `HTTP` > `Make a request` module
+1. Create a new scenario with the **HTTP** > **Make a request** module
 
 1. Configure the module with the following values: 
 
@@ -102,7 +113,7 @@ Or you can follow the steps below to send the sample data via the HTTP > Make a 
    ![](assets/new-scenario-set-up-like-this-350x446.png)
 
 1. Open the scenario with the Webhooks module in a separate browser tab or window.
-1. In the webhooks module, click `Redetermine data structure`.
+1. In the webhooks module, click **Redetermine data structure**.
 
    You do not need to unlink other modules from the webhooks module.
 
@@ -113,7 +124,7 @@ Or you can follow the steps below to send the sample data via the HTTP > Make a 
 
    ![](assets/successfully-determined-350x175.png)
 
-1. Click `OK` to save the data structure.
+1. Click **OK** to save the data structure.
 
    The webhook's items are now available in the mapping panel for use with subsequent modules in the scenario.
 
@@ -220,19 +231,19 @@ For more information on MIME format, see [MIME modules](../../workfront-fusion/a
 ### JSON
 
 <pre>POST https://app.workfrontfusion.com/wh/<yourunique32characterslongstring></pre><pre>Content-Type: application/json</pre><pre>{"name": "Workfront Fusion", "job": "automate"}</pre>
-` `**Tip: **`` If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
+``` ```**Tip: **`````` If you want to access the original JSON, enable JSON pass-through when setting up the webhook.
 
-1. Click `Add`to add a new webhook.
-1. Click `Show advanced settings`.
-1. Click `JSON pass-through`.
+1. Click **Add**to add a new webhook.
+1. Click **Show advanced settings**.
+1. Click **JSON pass-through**.
 
 ## Webhook headers
 
 To access the webhook's headers, enable Get request headers when setting up the webhook.
 
-1. Click `Add`to add a new webhook.
-1. Click `Show advanced settings`.
-1. Click `Get request headers`.
+1. Click **Add**to add a new webhook.
+1. Click **Show advanced settings**.
+1. Click **Get request headers**.
 
 You can extract a particular header value with the combination of 
 
@@ -248,7 +259,7 @@ get()
 
 functions. 
 
-` `**Example: **`` The example below shows a formula that extracts the value of the 
+``` ```**Example: **`````` The example below shows a formula that extracts the value of the 
 
 ```
 authorization
@@ -276,14 +287,14 @@ The default response to a webhook call is the text "Accepted". The response is r
 
 ### Test the response to a webhook
 
-1. Include the `Custom Webhook` module in your scenario.
+1. Include the **Custom Webhook** module in your scenario.
 1. Add a new webhook to the module.
 1. Copy the webhook URL to your clipboard.
 1. Run the scenario.
 
    The lightning icon on the Custom Webhook module changes to spinning dots. This shows that the module is now waiting for the webhook call.
 
-1. Open a new browser window, paste the copied URL in the address bar and press `Enter`.
+1. Open a new browser window, paste the copied URL in the address bar and press **Enter**.
 
    The Custom Webhook module is triggered and the browser will display a new page.
 
@@ -351,7 +362,7 @@ Timeout for sending a response is 40 seconds. If the response is not available w
 
 ### HTML Response example
 
-` `**Example: **`` Configure the Webhook Response module as follows:
+``` ```**Example: **`````` Configure the Webhook Response module as follows:
 
 <table cellspacing="0"> 
  <col> 
@@ -369,8 +380,8 @@ Timeout for sending a response is 40 seconds. If the response is not available w
    <td role="rowheader"> <p>Custom headers</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">Key</span>: Content-type</li> 
-     <li><span class="bold">Value</span>: text/html</li> 
+     <li><strong>Key</strong>: Content-type</li> 
+     <li><strong>Value</strong>: text/html</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -384,7 +395,7 @@ This will produce an HTML response that displays like this in a web browser:
 
 ### Redirect example
 
-` `**Example: **`` Configure the Webhook Response module as follows:
+``` ```**Example: **`````` Configure the Webhook Response module as follows:
 
 <table cellspacing="0"> 
  <col> 
@@ -398,8 +409,8 @@ This will produce an HTML response that displays like this in a web browser:
    <td role="rowheader"> <p>Custom headers</p> </td> 
    <td> 
     <ul> 
-     <li><span class="bold">Key</span>: Location</li> 
-     <li><span class="bold">Value</span>: The URL you would like to redirect to.</li> 
+     <li><strong>Key</strong>: Location</li> 
+     <li><strong>Value</strong>: The URL you would like to redirect to.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -411,7 +422,7 @@ This will produce an HTML response that displays like this in a web browser:
 
 ### Missing items in the mapping panel
 
-If some items are missing in the mapping panel in the setup of the modules following the Webhooks > Custom Webhook module, click on the `Webhooks > Custom Webhook` module to open its setup and click `Re-determine data structure`:
+If some items are missing in the mapping panel in the setup of the modules following the Webhooks > Custom Webhook module, click on the **Webhooks > Custom Webhook** module to open its setup and click **Re-determine data structure**:
 
 ![](assets/redetermine-data-structure-btn-350x195.png)
 

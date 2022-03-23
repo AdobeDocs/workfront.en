@@ -27,13 +27,15 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For more information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
+  ![](assets/screen-shot-2014-01-22-at-10.05.02-am-350x410.png)
+
 * You can remove inherited permissions from the Portfolio. For more information about removing permissions from objects, see [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Portfolio permissions
 
 The following table displays what permissions you can grant users when allowing them to view or manage a Portfolio:
 
-| `Actions`  | `Manage`  | `View`  |
+| **Actions** |**Manage** |**View** |
 |---|---|---|
 | Edit Portfolio details |✓ |&nbsp; |
 | View a Portfolio |✓ |✓ |

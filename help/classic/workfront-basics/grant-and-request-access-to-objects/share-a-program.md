@@ -38,13 +38,15 @@ In addition to the considerations below, also see [Overview of sharing permissio
 
   For more information about the hierarchy of objects in Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
+  ![](assets/screen-shot-2014-01-22-at-10.05.02-am-350x410.png)
+
 * You can remove inherited permissions from the program. For more information about removing permissions from objects, see&nbsp; [Remove permissions from objects in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Program permissions
 
 The following table displays what permissions you can grant users when allowing them to view or manage a program:
 
-| `Actions`  | `Manage`  | `View`  |
+| **Actions** |**Manage** |**View** |
 |---|---|---|
 | Edit program details |✓ |&nbsp; |
 | View a program |✓ |✓ |

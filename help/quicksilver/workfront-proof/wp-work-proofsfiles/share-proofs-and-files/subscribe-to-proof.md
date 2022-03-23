@@ -21,8 +21,8 @@ When another user sends you open a Proof URL and you open it in your browser, it
 
 &nbsp;To subscribe to a proof:
 
-1. Click  `Sign In`&nbsp;at the top of the proofing viewer.&nbsp;
-1. Type your email address in the `Sign in` box that appears.
+1. Click&nbsp;**Sign In**&nbsp;at the top of the proofing viewer.&nbsp;
+1. Type your email address in the **Sign in** box that appears.
 1. If you are not a reviewer on the proof nor a user of Workfront Proof, type your display name.   
    Or  
    If you have a Workfront Proof password, type it (whether or not you are a reviewer on the proof).   

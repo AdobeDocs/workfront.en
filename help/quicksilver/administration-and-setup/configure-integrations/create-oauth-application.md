@@ -42,9 +42,9 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <!--
-     You must be a Workfront administrator.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront administrator. </p>
     --> <!--
-     For information on Workfront administrators, see Grant a user full administrative access.
+     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information on Workfront administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>
     --> </td> 
   </tr> 
  </tbody> 
@@ -62,7 +62,7 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
 
 ### Create an OAuth2 application using server authentication (JWT flow)
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
@@ -110,7 +110,7 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
 
 ### Create an OAuth2 application using user credentials (Authorization code flow)
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. In the left navigation panel, click **System**, then select **OAuth Applications**.
 1. Click **Create app integration**.
 1. In the window that apears, select **User Authentication**.
@@ -137,9 +137,19 @@ When you create an OAuth2 app for ClientApp, you are essentially telling Workfro
      <tr> 
       <td role="rowheader">Redirect URLs</td> 
       <td>Users will be redirected to this path after they have authenticated with Workfront. <!--
-        The path will be appended with the authorization code for access, and must have a protocol.
+        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+         The path will be appended with the authorization code for access, and must have a protocol.
+        </MadCap:conditionalText>
        --></td> 
-     </tr> Absolute refresh token expiration Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire. Inactivity refresh token expiration Select the amount of time after which, if the user has not been active in your system, their refresh token expires. For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer. 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Absolute refresh token expiration</td> 
+      <td> <p>Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "No expiration" if you do not want the refresh token to expire.</p> </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td role="rowheader">Inactivity refresh token expiration</td> 
+      <td> <p>Select the amount of time after which, if the user has not been active in your system, their refresh token expires. </p> <p>For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer.</p> </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Logo</td> 
       <td>You can add a logo to make this app more identifiable. </td> 

@@ -21,15 +21,15 @@ The Project activity visualization shows an aggregate view of activities on the 
 
 Project activities display in different colors to summarize specific events in a project over a period of time:
 
-* `Users logged in`: Purple boxes show that people assigned to the project logged in on that day. A darker shade indicates a higher number of people logging in.
+* **Users logged in**: Purple boxes show that people assigned to the project logged in on that day. A darker shade indicates a higher number of people logging in.
 
   ![](assets/project-activity-users-logged-in.png)
 
-* `Task status change`: Pink boxes show that people changed the status of a task for the project on that day. A darker shade indicates a higher number of task statuses changing.
+* **Task status change**: Pink boxes show that people changed the status of a task for the project on that day. A darker shade indicates a higher number of task statuses changing.
 
   ![](assets/project-activity-task-status-changes.png)
 
-* `Tasks completed`: Blue boxes show that people completed a task for the project. A darker shade indicates a higher number of tasks being completed.
+* **Tasks completed**: Blue boxes show that people completed a task for the project. A darker shade indicates a higher number of tasks being completed.
 
   ![](assets/project-activity-tasks-completed.png)
 
@@ -78,7 +78,7 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 ## View the Project activity visualization
 
-1. Click the Main Menu icon , thenselect **Analytics**.
+1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
    ![](assets/filters-select-date-range-350x344.png)
@@ -103,10 +103,10 @@ For prerequisites to using Enhanced Analytics, see [Prerequisites](../enhanced-a
 
 1. (Optional) To change how the projects are sorted, click the **Sort by** menu, then select a new sorting option:
 
-  * `A - Z` 
-  * `Z - A` 
-  * `Planned completion date` 
-  * `Planned start date`
+  * **A - Z** 
+  * **Z - A** 
+  * **Planned completion date** 
+  * **Planned start date**
 
    All other visualizations on the page update to match your sorting selection.
 

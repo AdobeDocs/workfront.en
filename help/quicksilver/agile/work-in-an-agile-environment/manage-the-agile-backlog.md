@@ -10,8 +10,8 @@ description: The following work items can be assigned to an agile team and added
 
 The following work items can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using:
 
-* `Scrum agile teams:` Tasks and issues can be assigned to the agile team and added to the backlog.
-* `Kanban agile teams:` Tasks can be assigned to the agile team and added to the backlog. Users can view the backlog directly from the agile story board, as described in [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). The team uses this backlog to prioritize and manage their work queue.
+* **Scrum agile teams:** Tasks and issues can be assigned to the agile team and added to the backlog.
+* **Kanban agile teams:** Tasks can be assigned to the agile team and added to the backlog. Users can view the backlog directly from the agile story board, as described in [Add the backlog to the Kanban board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). The team uses this backlog to prioritize and manage their work queue.
 
 Tasks or issues can be&nbsp;assigned to the team (and subsequently added to the team backlog) from anywhere in Adobe Workfront. For example, a single team might be assigned work assignments from multiple projects.
 
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 You can reorder stories in the backlog list by using the drag-and-drop method.
 
 1. Go to the agile backlog where you want to reorder stories.
-1. In the `View` drop-down menu, select the `Backlog` view or a custom view that contains the `Order` column.
+1. In the **View** drop-down menu, select the **Backlog** view or a custom view that contains the **Order** column.
 
    >[!NOTE]
    >
@@ -82,13 +82,13 @@ Because stories in a backlog vary in size, users can break them down into workab
 To break down a story:
 
 1. Go to the backlog that contains the story you want to break down.
-1. Select the story you want to break down, then click `Breakdown Story`.  
+1. Select the story you want to break down, then click **Breakdown Story**.  
    The Breakdown Story dialog box is displayed.  
    ![backlog_breakdown_dialog.png](assets/backlog-breakdown-dialog-350x171.png)
 
 1. Specify a name and estimate for the story, and select whether the story is ready.
-1. Click `Add Story` to create another story from the original story.
-1. Click `Save`.&nbsp;
+1. Click **Add Story** to create another story from the original story.
+1. Click **Save**.&nbsp;
 
 ### Edit stories
 
@@ -107,13 +107,19 @@ When you create a story from the backlog, the story is created as a task or issu
 
 To create a story from the backlog:
 
+1. Main Menu
+1. 
+1. Teams
+1. Switch team
+1. 
+1. Backlog
 1. Do either of the following, depending on whether you want to create a task or an issue:
 
-  * `To create a task:` Click the `Stories` tab.
+  * **To create a task:** Click the **Stories** tab.
   
-  * `To Create an issue:` Click the `Issues` tab.
+  * **To Create an issue:** Click the **Issues** tab.
 
-1. Click `New Story` or `New Issue`.
+1. Click **New Story** or **New Issue**.
 
 1. Specify the following information:  
 
@@ -122,39 +128,39 @@ To create a story from the backlog:
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><span class="bold">Story Name:</span></td>
+      <td role="rowheader"><strong>Story Name:</strong></td>
       <td> Type a name for the story.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Description:</span></td>
+      <td role="rowheader"><strong>Description:</strong></td>
       <td>(Optional) Type a description for the story.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Ready:</span></td>
+      <td role="rowheader"><strong>Ready:</strong></td>
       <td> Select whether the story is ready to be added to an iteration. This setting is informational only. Stories can be added to an iteration regardless of the status of this setting.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Estimate:</span></td>
+      <td role="rowheader"><strong>Estimate:</strong></td>
       <td>Specify a point or hourly estimate for the story. Estimates affect the burndown chart. The burndown&nbsp;chart for an iteration is accurate only if each story contains an accurate estimate.&nbsp;(If you provide a point estimate, you must have already designated in the team settings how many hours each point represents.)</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Parent Project:</span></td>
+      <td role="rowheader"><strong>Parent Project:</strong></td>
       <td>Begin typing the name of the project where this story will be created, then click the name when it appears in the drop-down list.<br>The status of the project must be set to Current. If the status of the project is anything but Current, it is not displayed in the drop-down menu.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Parent Task:</span></td>
+      <td role="rowheader"><strong>Parent Task:</strong></td>
       <td>(Optional) Begin typing the name of the parent task that this story is subordinate to, then click the name when it appears in the drop-down list.</td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="bold">Custom Forms:</span></td>
+      <td role="rowheader"><strong>Custom Forms:</strong></td>
       <td> (Optional) Select any custom forms that you want to add to this story.</td>
      </tr>
     </tbody>
    </table>
 
-1. Click `Save Story`.
+1. Click **Save Story**.
 
-### `Assign a task or issue to an agile team`
+### **Assign a task or issue to an agile team**
 
 You can assign a task or issue to an agile team. After it is assigned, the task or issue appears as a new story on the team backlog.
 
@@ -162,12 +168,12 @@ To assign a task or issue to an agile team:
 
 1. Go to the Project that contains the task that you want to re-assign. 
 1. Select the task or issue in the list. 
-1. Click `Edit`. 
-1. Click `Assignments`. 
+1. Click **Edit**. 
+1. Click **Assignments**. 
 1. (Optional) Delete any existing assignees. 
-1. Click `Add Assignee`. 
+1. Click **Add Assignee**. 
 1. Begin typing the name of the agile team who you want to be assigned to the task or issue, then click the team name when it appears in the drop-down list. 
-1. Click `Save Changes`.  
+1. Click **Save Changes**.  
    The task or issue is now available on the team backlog.
 
 ## Move stories from the backlog to an iteration or Kanban board
@@ -176,18 +182,18 @@ To assign a task or issue to an agile team:
 * [Export stories from the backlog](#exporting-stories-from-the-backlog)
 
 1. Go to the backlog of the agile team.
-1. Select the stories you want to move to an iteration or Kanban board, then click `More` > `Move to`.  
+1. Select the stories you want to move to an iteration or Kanban board, then click **More** > **Move to**.  
    If moving the story to a Kanban board, the Move Story to the Kanban Board is displayed.  
    If moving the story to an iteration, the Move Story to an Iteration dialog box is displayed.  
    ![agile_backlog_addtoiteration.png](assets/agile-backlog-addtoiteration-350x136.png)
 
 1. Do either of the following:
 
-  * `For Scrum teams:` In the `Select Iteration` field, select the iteration where you want to move the stories.
+  * **For Scrum teams:** In the **Select Iteration** field, select the iteration where you want to move the stories.
   
-  * `For Kanban teams:` In the `Select Kanban Board` field, select your team Kanban board. (Kanban teams can have only one Kanban board.)
+  * **For Kanban teams:** In the **Select Kanban Board** field, select your team Kanban board. (Kanban teams can have only one Kanban board.)
 
-1. Click `Move Story`.
+1. Click **Move Story**.
 
 ### Move existing stories&nbsp;to the backlog
 

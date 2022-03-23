@@ -36,22 +36,22 @@ You must have the following to perform the steps in this article:
 
 ## Configure how hours are managed when an item is deleted and restored
 
-1. Click `Setup` near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
+1. Click **Setup** near the upper-right corner of Adobe Workfront on the Global Navigation Bar.  
 
-1. Expand  `Timesheets & Hours`, then click `Preferences`.
+1. Expand&nbsp;**Timesheets & Hours**, then click**Preferences**.
 
-1. Locate the `Project, Task or Issue Deletion Preferences` section.
-1. (Conditional) To configure how hours are managed when a project is deleted, select one of the following options in the `When deleting projects` section:
+1. Locate the **Project, Task or Issue Deletion Preferences** section.
+1. (Conditional) To configure how hours are managed when a project is deleted, select one of the following options in the **When deleting projects** section:
 
-  * Keep logged hours already added to timesheets as general hours (If this project is restored at a later time, the hours remain on the timesheet)  
-    This option is selected by default.
-  * Delete any logged hours (If this project is restored at a later time, logged hours are restored to the project)
+   * Keep logged hours already added to timesheets as general hours (If this project is restored at a later time, the hours remain on the timesheet)  
+     This option is selected by default.
+   * Delete any logged hours (If this project is restored at a later time, logged hours are restored to the project)
 
-1. (Conditional) To configure how hours are managed when a task or issue is deleted, select one of the following options in the `When deleting tasks or issues`&nbsp;section:
+1. (Conditional) To configure how hours are managed when a task or issue&nbsp;is deleted, select one of the following options in the **When deleting tasks or issues**&nbsp;section:
 
-  * Move any logged hours to the project where the task or issue resides (If this task or issue is restored at a later time, the hours remain on the project)  
-    This option is selected by default.
-  * Delete any logged hours (If this task or issue is restored at a later time, logged hours are restored to the task or issue)
+   * Move any logged hours to the project where the task or issue resides (If this task or issue is restored at a later time, the hours remain on the project)  
+     This option is selected by default.
+   * Delete any logged hours (If this task or issue is restored at a later time, logged hours are restored to the task or issue)
 
-1. Click `Save`.
+1. Click **Save**.
 

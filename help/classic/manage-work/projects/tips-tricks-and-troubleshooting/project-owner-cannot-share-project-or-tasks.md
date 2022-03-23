@@ -11,7 +11,7 @@ description: A user who is designated as the Project Owner of a project and has 
 
 ## Problem
 
-A user who is designated as the `Project Owner` of a project and has `Manage` permissions on the project is unable to share their project or any of its tasks with a Team. When they are sharing the project, a certain `Team` is not available to share and cannot be found in the `Give project access to` or the `Give task access to` fields.
+A user who is designated as the **Project Owner** of a project and has **Manage** permissions on the project is unable to share their project or any of its tasks with a Team. When they are sharing the project, a certain **Team** is not available to share and cannot be found in the **Give project access to** or the **Give task access to** fields.
 
 ## Cause
 
@@ -22,16 +22,16 @@ The Adobe Workfront administrator restricted the user to viewing only Companies,
 As a Workfront administrator, do the following:
 
 1. Find the user and click to access it.
-1. Click Edit <User's First Name>'s Info. 
-1. Click `Access` and make note of the name of the `Access Level` assigned to this user.
+1. Click**Edit <User's First Name>'s Info**. 
+1. Click **Access** and make note of the name of the **Access Level** assigned to this user.
 
-1. Go to `Setup > Access Levels.`
-1. Click the name of the `Access Level` to edit it.&nbsp;
-1. Deselect the following field: `View only companies, groups & teams they belong to.`
+1. Go to **Setup > Access Levels.**
+1. Click the name of the **Access Level** to edit it.&nbsp;
+1. Deselect the following field: **View only companies, groups & teams they belong to.**
 
    ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-1. Click `Save` Changes `.`
+1. Click **Save** **Changes****.**
 
 1. Ask the user to share the project or the tasks with the team, again.&nbsp;
 

@@ -23,7 +23,7 @@ For information about the Plan access level, see [Grant access to projects](../.
 
 For information about copying a project, see [Copy a project](../../../manage-work/projects/manage-projects/copy-project.md).
 
-`<iframe class="vimeo-player_0" src="assets/500530877?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/500530877?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/500530877/958cb9ebec)
 
@@ -39,7 +39,7 @@ On the Details page for an object, when you are filling in a multi-select drop-d
 
 For information about editing data on a Custom Form, see Edit information on Custom Forms.
 
-`<iframe class="vimeo-player_0" src="assets/500509190?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/500509190?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/500509190/dd16c60166)
 
@@ -53,7 +53,7 @@ Previously, users had to use workarounds to ensure that all data in calculated c
 
 For more information, see Edit information on Custom Forms.
 
-`<iframe class="vimeo-player_0" src="assets/486601498?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/486601498?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/486601498/fcd21c5042)
 
@@ -67,7 +67,7 @@ Adobe Workfront administrators can now give Group Administrators more autonomy b
 
 For more information, see Configure task and issue preferences for a group.
 
-`<iframe class="vimeo-player_0" src="assets/486598651?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/486598651?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/486598651/5696df879e)
 
@@ -83,7 +83,7 @@ For information about configuring an access level, see [Create or modify custom 
 
 For information about access settings that you can configure for programs and portfolios, see [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 
-`<iframe class="vimeo-player_0" src="assets/486600620?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/486600620?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/486600620/908d93b6ee)
 
@@ -101,7 +101,7 @@ This option displays only if the field contains more than 2 checkboxes.
 
 For more information, see Edit information on Custom Forms.
 
-`<iframe class="vimeo-player_0" src="assets/486602711?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/486602711?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/486602711/b66a6953d2)
 
@@ -116,7 +116,7 @@ For example, if you want to protect sensitive data, such as a report listing you
 
 For more information, see the section [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md#configur) in the article [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
-`<iframe class="vimeo-player_0" src="assets/481767348?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/481767348?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode](https://vimeo.com/481767348/e3f72f418e).
 
@@ -128,7 +128,7 @@ Previously, only a top-level group could have Group Administrators, and those ad
 
 For more information, see the section [Group administrators for subgroups](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for) in the article [Subgroups overview](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
-`<iframe class="vimeo-player_0" src="assets/481764187?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/481764187?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode](https://vimeo.com/481764187/855b405a46).
 
@@ -149,7 +149,7 @@ For more information, see the following articles:
 * [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) 
 * [View and configure event notifications for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-`<iframe class="vimeo-player_0" src="assets/502703858?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/502703858?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/502703858/b5cd50ed5d)
 
@@ -163,15 +163,15 @@ If you are a Group Administrator, it’s easy to view and work with your group�
 
 * Click Projects in the left menu to see the group’s projects and create new ones for the group. If a selected project has been shared with you, you can use the buttons in the toolbar to edit, export, copy, or delete it.
 
-  For more information, see View and create projects from the Groups area in the new Adobe Workfront experience.
+  For more information, see [View and create projects from the Groups area in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2Fview-manage-projects-groups-area.htm&_LANG=en).
 
 * Click Approvals in the left menu to see and manage all of the approval processes associated with the group.
 
-  For more information, see View and create approval processes from the Groups area in the new Adobe Workfront experience.
+  For more information, see [View and create approval processes from the Groups area in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2Fview-manage-approval-processes-groups-area.htm&_LANG=en).
 
 This functionality is also available for Workfront administrators.
 
-`<iframe class="vimeo-player_0" src="assets/482726141?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/482726141?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode.](https://vimeo.com/482726141/a9cf241425)
 
@@ -181,8 +181,8 @@ To determine how well your licenses are distributed, you can now view the number
 
 If you manage a top-level group, you can view both the number of licenses that are used in a group (and its subgroups) and the maximum number of licenses allocated for the group.
 
-For more information, see View the number of licenses allocated and used in a group in the new Adobe Workfront experience.
+For more information, see [View the number of licenses allocated and used in a group in the new Adobe Workfront experience](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&topicId=Content%2FAdministration_and_Setup%2FManage_groups%2Fview-number-licenses-allocated-used-group.htm&_LANG=en).
 
-`<iframe class="vimeo-player_0" src="assets/481775659?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>`
+```<iframe class="vimeo-player_0" src="assets/481775659?" frameborder="0" allowfullscreen="1" width="560px" height="315px"></iframe>```
 
 [View this video in full-screen mode](https://vimeo.com/481775659/474d71d8ee).

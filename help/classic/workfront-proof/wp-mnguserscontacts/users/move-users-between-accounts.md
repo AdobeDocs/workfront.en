@@ -17,10 +17,10 @@ If you are a Workfront Proof administrator and you have one or more&nbsp;satelli
 
 ## Moving Users Between Connected Accounts
 
-1. Click `Settings` > `Account settings`.
+1. Click **Settings** > **Account settings**.
 
-1. Open the `Users` tab.
-1. Click the `Move user`&nbsp;icon (1). ![Move_user2.png](assets/move-user2-350x95.png)
+1. Open the **Users** tab.
+1. Click the **Move user**&nbsp;icon (1). ![Move_user2.png](assets/move-user2-350x95.png)
 
 1. In&nbsp;the Move user box that appears, confirm the&nbsp;user you want to move (1).
 1. Select a destination account from&nbsp;the connected accounts list (2).
@@ -30,7 +30,7 @@ If you are a Workfront Proof administrator and you have one or more&nbsp;satelli
 
 1. Check the checkboxes if you want to move the proofs (5)&nbsp;and files (6)&nbsp;along with the user.
 1. Create a name for the folder (7) in which all the moved items will be placed on the new account.
-1. Click `Move user` (8) to start the&nbsp;process.  
+1. Click **Move user** (8) to start the&nbsp;process.  
    ![Moving_users_pop-up.png](assets/moving-users-pop-up-350x380.png)
 
 If you choose to move the user without their proofs and files then this action will be performed straight&nbsp;away. If you choose to move the user along with their proofs and files, the user's profile will be reassigned straight&nbsp;away, but the proofs and files will be gradually appearing on the destination account as this operation requires time to transfer the data.

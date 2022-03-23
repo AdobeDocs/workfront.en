@@ -54,7 +54,7 @@ When the rate of a user or a role changes during the life of a project, the foll
 * When the change is made, the updated rate is used from that point on as hours are logged and the financial information is calculated. Changing the rate does not affect how things were calculated before the change was made. For all the existing hours logged, the old rate is used to calculate financial information. 
 * You can force Adobe Workfront to use the new rate retroactively for all the hours logged so far, by using the Recalculate Finance option. This forces Workfront to retroactively recalculate all previously entered hours, planned costs, and revenues in accordance with the new rate information.
 
-` `**Warning: **``Prior to manually recalculating finances for a given project, you might want to preserve any financial data that has already been calculated at a previous rate. We recommend to use the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
+``` ```**Warning: **``````Prior to manually recalculating finances for a given project, you might want to preserve any financial data that has already been calculated at a previous rate. We recommend to use the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
 
 ## Preserve financial data for tasks with existing hours
 
@@ -88,7 +88,7 @@ For example, a user's billing rate changes during the course of a project from $
 * [Preserve Project Revenue by creating a Billing Record](#create-billing-record) 
 * [Preserve Project Revenue by using multiple Billing Rate overrides](#multiple-billing-rate-overrides)
 
-#### `Preserve Project Revenue by creating a Billing Record`
+#### **Preserve Project Revenue by creating a Billing Record**
 
 When billing rates change at any level mentioned above, you can preserve existing revenue which has already been calculated on the project by avoiding to use the manual Recalculate Finance option or by locking the time recorded on the project and calculated using the old rate into a billing record with a status of Billed.
 
@@ -96,7 +96,7 @@ When you do not recalculate finances on the project or when you lock the hours l
 
 For more information about creating billing records, see the article [Create billing records](../../../manage-work/projects/project-finances/create-billing-records.md).
 
-#### `Preserve Project Revenue by using multiple Billing Rate overrides`
+#### **Preserve Project Revenue by using multiple Billing Rate overrides**
 
 When billing rates change for job roles at the project level, you can preserve existing revenue which has already been calculated on the project by using multiple billing rates overrides which are locked within a specified time frame.
 
@@ -130,11 +130,24 @@ If your rates change during the life of a project and you want your cost and rev
 >
 >You can prevent revenue values from updating to reflect the new rates when you manually recalculate finance by following the steps in the section [Preserve financial data for tasks with existing hours](#preserving-financial-data-for-tasks-with-existing-hours) of this article. Cost values are always updated to reflect the new rates when you manually recalculate the finances on a project.
 
-You can recalculate the finances of projects in Workfront from the project page or from a project list or report. You can recalculate the finances while editing them in bulk. For information, see the Manually recalculate finances in bulk in the Edit Projects box section in this article.
+<!--
+You can recalculate the finances of projects in Workfront from&nbsp;the project page
+<span class="preview">or from a project list or report</span>.
+-->
 
-1. Go to the project where you want to recalculate finances. 
-   Or Go to a project list or report and select one or several projects. 
-1. Click the More menu next to the name of the project, then click Recalculate Finance. All planned costs and revenue on the project are recalculated with any new information.  
+<!--
+You can recalculate the finances while editing them in bulk. For information, see the
+<a href="#recalculate-finances-in-bulk" class="MCXref xref">Manually recalculate finances in bulk in the Edit Projects box</a> section in this article.
+-->
+
+1. Go to the project where you want to recalculate finances.
+
+   <!--
+   <p>Or</p>
+   <p>Go to a project list or report and select one or several projects. </p>
+   -->
+
+1. Click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the project, then click **Recalculate Finance**.  All planned costs and revenue on the project are recalculated with any new information.  
   
    You should receive a confirmation at the top of the browser that the finances of the project have been recalculated successfully.  
    Existing cost values and some revenue values which have not been locked update to reflect the new rates.
@@ -150,10 +163,10 @@ You can manually recalculate the finances of several projects by editing them in
 To manually recalculate the finances of several projects:
 
 1. Go to a list of projects.
-1. Select several projects in the list, then click `Edit`.
-1. Click `Settings`, then select `Recalculate Costs And Revenues`.
+1. Select several projects in the list, then click **Edit**.
+1. Click **Settings**, then select **Recalculate Costs And Revenues**.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 
 ## Actions that trigger an automatic recalculation of finances
 
@@ -167,4 +180,4 @@ The following actions trigger the financial recalculation of projects in Workfro
 >
 >When you change the project status, only the planned values are being recalculated.
 
-You can also recalculate finances manually under the More menu at the project level, by clicking Recalculate Finances.  
+You can also recalculate finances manually under the **More** menu ![](assets/qs-more-menu.png) at the project level, by clicking **Recalculate Finances**. 

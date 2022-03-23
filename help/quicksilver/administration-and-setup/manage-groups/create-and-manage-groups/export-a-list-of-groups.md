@@ -34,17 +34,17 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
-1. Click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click `Setup` ![](assets/gear-icon-settings.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the left panel, click `Groups` ![](assets/groups-icon.png).
+1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
    In the list of groups that displays, group administrators can see the groups they manage, as well as any subgroups of those groups. Adobe Workfront administrators can see all groups.
 
-1. If you want to export the entire group of groups that you manage, click the Export icon.
+1. If you want to export the entire group of groups that you manage, click the Export icon ![](assets/export.png).
 
    Or
 
-   To export some of the groups you manage, select those groups, then click the Export icon. 
+   To export some of the groups you manage, select those groups, then click the Export icon ![](assets/export.png). 
 
 1. Select the file format you want for the exported list.
 

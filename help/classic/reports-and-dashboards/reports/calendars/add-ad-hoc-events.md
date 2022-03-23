@@ -45,17 +45,17 @@ You must have the following access to perform the steps in this article:
 
 1. Within the calendar, go to the date to which you want to add an ad-hoc event, then click the starting date for your event.
 1. Enter the event name and, if desired, select a color for the event.
-1. (Conditional) If your ad-hoc event takes place over several days, check `This will span multiple days`, then select the ending date from the pop-up calendar.  
+1. (Conditional) If your ad-hoc event takes place over several days, check **This will span multiple days**, then select the ending date from the pop-up calendar.  
    ![calendar_report_-_span_multiple_days.png](assets/calendar-report---span-multiple-days-350x247.png)
 
-1. Click `Save.`
+1. Click **Save.**
 1. (Optional) To modify an ad-hoc event:
 
-  1. Click the event on the calendar to open the details page for the event.
-  1. Click the edit icon (pencil), edit the event, then click `Save.`
+   1. Click the event on the calendar to open the details page for the event.
+   1. Click the edit icon (pencil), edit the event, then click **Save.**
 
 1. (Optional) To delete an ad-hoc event:
 
-  1. Click the event on the calendar to open the details page for the event.
-  1. Click the trash can icon, then click `Yes, Delete it.`
+   1. Click the event on the calendar to open the details page for the event.
+   1. Click the trash can icon, then click **Yes, Delete it.**
 

@@ -25,8 +25,8 @@ Workfront deprecated the Default Version of the API as of July 2017.&nbsp;This m
 
 ## Determining the API Version You Are&nbsp;Using
 
-`You can determine the version of the API you are using by checking the URI of an HTTP request sent to the Workfront API. The following example shows a Workfront request URI that specifies Version 7 of the API:` 
-<pre>https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5</pre>`I` `f a URI does not specify a version, then it is using the Default Version of the API, as shown in the following example:` 
+```You can determine the version of the API you are using by checking the URI of an HTTP request sent to the Workfront API. The following example shows a Workfront request URI that specifies Version 7 of the API:``` 
+<pre>https://<domainname>.my.workfront.com/attask/api/v7.0/proj/4c7c08b20000002de5ca1ebc19edf2d5</pre>```I``` ```f a URI does not specify a version, then it is using the Default Version of the API, as shown in the following example:``` 
 <pre>https://<domainname>.my.workfront.com/attask/api/proj/4c7c08b20000002de5ca1ebc19edf2d5</pre>
 
 >[!IMPORTANT]
@@ -35,12 +35,12 @@ Workfront deprecated the Default Version of the API as of July 2017.&nbsp;This m
 
 ## Updating Integrations to Use Supported API Versions
 
-`As you build or maintain Workfront integrations you should include a method for dynamically updating the API version and other properties subject to change (such as your API key).`
+```As you build or maintain Workfront integrations you should include a method for dynamically updating the API version and other properties subject to change (such as your API key).```
 
-`To make updating integrations more efficient, you should consider the following suggestions for recording integration values:`
+```To make updating integrations more efficient, you should consider the following suggestions for recording integration values:```
 
-* `Store values subject to future changes in a properties file you keep updated` 
-* `Create a web service to manage properties in real time` 
-* `Store property values in a data store that your application can read`
+* ```Store values subject to future changes in a properties file you keep updated``` 
+* ```Create a web service to manage properties in real time``` 
+* ```Store property values in a data store that your application can read```
 
-`Designing your Workfront integrations with this in mind alleviates the need for extensive development work when those values inevitably change.` 
+```Designing your Workfront integrations with this in mind alleviates the need for extensive development work when those values inevitably change.``` 

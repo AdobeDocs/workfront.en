@@ -43,10 +43,10 @@ You must have the following access to perform the steps in this article:
 
 If you have a Plan license, you can configure the Start button for a team in the Edit team window. Following is how the button works after it is enabled for a team:
 
-* `The team is assigned to a work item`: If a team is assigned to the work item, members on that team see the Start button and the statuses configured for that team.
-* `The user belongs to a Home Team`: If no team is assigned to the work item but the user is assigned to a Home Team in their profile, then the user sees the Start button and the statuses configured for that team. This is the scenario we recommend if you want users to use the Start button frequently.
-* `The user is assigned to a work item`: If there is no team assigned to the work item and no Home Team assigned to the user but the user is assigned to the work item, then the user sees the Start button and the combined statuses configured for that all teams they are assigned to.
-* `The user isn't assigned to any teams:` If there is no team assigned to the work item and no team for the user, including the Home Team, and the item is assigned to the user, then the user seems the Work On It button.
+* **The team is assigned to a work item**: If a team is assigned to the work item, members on that team see the Start button and the statuses configured for that team.
+* **The user belongs to a Home Team**: If no team is assigned to the work item but the user is assigned to a Home Team in their profile, then the user sees the Start button and the statuses configured for that team. This is the scenario we recommend if you want users to use the Start button frequently.
+* **The user is assigned to a work item**: If there is no team assigned to the work item and no Home Team assigned to the user but the user is assigned to the work item, then the user sees the Start button and the combined statuses configured for that all teams they are assigned to.
+* **The user isn't assigned to any teams:** If there is no team assigned to the work item and no team for the user, including the Home Team, and the item is assigned to the user, then the user seems the Work On It button.
 
 >[!NOTE]
 >
@@ -58,14 +58,17 @@ If you have a Plan license, you can configure the Start button for a team in the
 
 To configure the Start button:
 
-1. In the `Teams` drop-down menu, select a team.  
+1. People
+1. Teams
+1. In the **Teams** drop-down menu, select a team.  
    or  
-   Click `Create Team`.
+   Click **Create Team**.
 
-1. Find the `Work On It` button section near the bottom of the Team Settings page.
-1. Select the `Change the Work On It button to a Start button to automatically update the status of an item` check box.
+1. Team Settings
+1. Find the **Work On It** button section near the bottom of the Team Settings page.
+1. Select the **Change the Work On It button to a Start button to automatically update the status of an item** check box.
 1. Select one or more statuses for each work item type. If you select more than one status, a drop-down menu appears when you click Start where you can choose the desired status.
-1. Click `Save changes`. Users now see a Start Task or a Start Issue button instead of the Work On It button when they are assigned a work item.
+1. Click **Save changes**. Users now see a Start Task or a Start Issue button instead of the Work On It button when they are assigned a work item.
 
    >[!NOTE]
    >
@@ -75,9 +78,12 @@ To configure the Start button:
 
 To associate users with a Home Team:
 
-1. In the `Organization` section, select the `Home Team` field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
+1. People
+1. People
+1. Edit
+1. In the **Organization** section, select&nbsp;the **Home Team** field. Start typing the name of the team whose settings you want to associate with the&nbsp;users. Click the name of the team when you see it in the list.
 
-1. Click `Save Changes`.  
+1. Click **Save Changes**.  
    The&nbsp;users you selected are now associated with a&nbsp;Home Team. &nbsp;  
    Any team settings, including the statuses associated with the Done button are now visible to these users.&nbsp;
 

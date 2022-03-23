@@ -43,16 +43,21 @@ You must have the following access to perform the steps in this article:
 ## Send a message unrelated to a work item to another user
 
 1. Go to the home page of the user you want to send a message to.  
-   You can do either ofthe following to navigate to a user's home page:
+   You can do either of the following to navigate to a user's home page:
 
-  * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
+   * Click the linked name of the user as it appears anywhere in the Workfront interface. User names are displayed in many areas of the Workfront interface, such as in a comment made by the user.
+   * People,
+   * People
 
-1. On the `Updates`&nbsp;tab, click in the text box field.
+1. On the **Updates**&nbsp;tab, click in the text box field.
+
+   ![Message user on the Updates tab](assets/message-user-350x211.png)
+
 1. Type your message.
-1. (Optional) Click in the `Notify`&nbsp;field, then begin typing the name of another user you want to include in this message.  
+1. (Optional) Click in the **Notify**&nbsp;field, then begin typing the name of another user you want to include in this message.  
 
-1. (Optional) Select `Private to my company` to make this message visible only to other users in your company.  
+1. (Optional) Select **Private to my company** to make this message visible only to other users in your company.  
 
-1. Click `Update.`  
-   The message is posted at the top of the list of messages on the `Updates`&nbsp;tab on the user's home page.
+1. Click **Update.** 
+   The message is posted at the top of the list of messages on the **Updates**&nbsp;tab on the user's home page.
 

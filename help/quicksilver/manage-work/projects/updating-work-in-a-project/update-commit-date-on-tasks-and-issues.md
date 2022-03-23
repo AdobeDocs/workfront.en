@@ -47,7 +47,7 @@ Before you begin, you must be assigned to the task or issue you need to update t
 
 Updating the Commit Date is identical for tasks and issues.
 
-1. Go to a task or issue that you are assigned to as the `Task Owner`.
+1. Go to a task or issue that you are assigned to as the **Task Owner**.
 
    For more information about finding out who the Task Owner for an issue or task is, see the section [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in the article [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
@@ -55,17 +55,21 @@ Updating the Commit Date is identical for tasks and issues.
 
    Or
 
-   Click `Start Task` or `Start Issue` if the Work on it button has been customized in your environment to indicate that you are now working on the work item.
+   Click **Start Task** or **Start Issue** if the Work on it button has been customized in your environment to indicate that you are now working on the work item.
 
    At this time, the Commit Date and the Planned Completion Date of the task or issue are the same.
 
-1. (Optional) If you clicked Start Task or Start Issue, click Undo in the lower-left corner of the screen. The Commit Date is removed. For information about replacing the Work On It button with a Start button, see ` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)`.
+1. (Optional) If you clicked Start Task or Start Issue, click **Undo** in the lower-left corner of the screen. The Commit Date is removed.  For information about replacing the Work On It button with a Start button, see ``` [Replace the Work On It button with a Start button](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)```.
 
    >[!TIP]
    >
    >The option to undo your selection to start your work is not available when you click Work on it.
 
-1. Click Updates in the left panel, then click the Start a new update > Commit Date Or Click Task Details or Issue Details in the left panel, then double click Commit Date and select a new date from calendar, then click Save Changes. 
+1. Click **Updates** in the left panel, then click the **Start a new update** >**Commit Date**
+
+   Or
+
+   Click **Task Details** or **Issue Details** in the left panel, then double click&nbsp;**Commit Date** and select a new date from calendar, then click&nbsp;**Save Changes**.
 
    The following things happen after making this change:&nbsp;
 

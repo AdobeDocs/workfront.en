@@ -44,13 +44,13 @@ A custom form can be associated with any of the following object types:
 For information about associating a custom form with an 
 
 <!--
-one or more
+<span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">one or more</span>
 -->
 
 object type
 
 <!--
-s
+<span class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">s</span>
 -->
 
 , see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
@@ -77,6 +77,11 @@ You can add the following types of custom fields to a custom form in Workfront:
 For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
 <!--
-Image widgets in custom forms You can add an image widget that displays in your custom form when users fill it out. For example, next to a custom field where users need to type a serial number found on a piece of equipment, you could include a diagram or photo showing where to find the number on the equipment. For more information, see Add an image or edit its properties in a custom form.
+<div class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2>Image widgets in custom forms</h2>
+<p>You can add an image widget that displays in your custom form when users fill it out.</p>
+<p>For example, next to a custom field where users need to type a serial number found on a piece of equipment, you could include a diagram or photo showing where to find the number on the equipment.</p>
+<p>For more information, see Add an image or edit its properties in a custom form.</p>
+</div>
 -->
 

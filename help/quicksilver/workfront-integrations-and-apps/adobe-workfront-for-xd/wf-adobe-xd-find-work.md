@@ -21,7 +21,11 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Work or higher 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Work or higher</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>You must have an Adobe Creative Cloud license in addition to a Workfront license.</td> 
@@ -73,8 +77,8 @@ Use the Filter to narrow your focus to specific work items. There are a couple o
   <tr> 
    <td> <p>The first is filtering based solely on work item type or attributes:</p> 
     <ul> 
-     <li><span class="bold">Work item</span>: Tasks, Subtasks, Issues, or Personal tasks</li> 
-     <li><span class="bold">Work item state</span>: Working On, Ready to Start, or Not Ready</li> 
+     <li><strong>Work item</strong>: Tasks, Subtasks, Issues, or Personal tasks</li> 
+     <li><strong>Work item state</strong>: Working On, Ready to Start, or Not Ready</li> 
     </ul> <p>The second is filtering using work item and work item state together. For example, you can select Tasks and Ready to Start to find all of the tasks in your work list that are ready for work.</p> <p>You can also use Field Match to search for a specific item within your filter set. </p> </td> 
    <td> <img src="assets/filter-items.png"> </td> 
   </tr> 

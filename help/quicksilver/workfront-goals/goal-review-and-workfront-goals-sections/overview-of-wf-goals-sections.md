@@ -27,7 +27,7 @@ You can apply filters to display only the goals that are important to you in eac
 
 >[!TIP]
 >
->Filters updated in one section are automatically applied to the Goal List, Graphs `, Goal Alignment`, and Pulse sections. This way, you can update them only once. For more information, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
+>Filters updated in one section are automatically applied to the Goal List, Graphs ```, Goal Alignment```, and Pulse sections. This way, you can update them only once. For more information, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
 
 Following is a brief overview of the sections of Workfront Goals and the options available for managing goals. For more information about additional actions that you can perform within each section of Workfront Goals, we also recommend the following articles:
 
@@ -60,7 +60,7 @@ Use the Goal List to do the following:
 
   >[!TIP]
   >
-  >Clicking `Check in` opens the Check-in section in the left panel.
+  >Clicking **Check in** opens the Check-in section in the left panel.
 
 * Print or export a list of goals.
 
@@ -84,7 +84,7 @@ Use the Graphs section to do the following:
 
   >[!TIP]
   >
-  >Clicking `Check in` opens the Check-in section in the left panel.
+  >Clicking **Check in** opens the Check-in section in the left panel.
 
 ## Goal Alignment
 
@@ -132,7 +132,7 @@ Use the Pulse section to do the following:
 
 ## Check-in
 
-`You must have access to Edit Goals in your access level before you can access the Check- in section. For information about granting access to Goals, see` ` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)`.
+```You must have access to Edit Goals in your access level before you can access the Check- in section. For information about granting access to Goals, see``` ``` [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)```.
 
 You can use the Check-in section to update active goals and any results and activities that you are the owner of. You can primarily view only goals in an Active status in this section. Children goals aligned to active parents also display in the Check-in section, regardless of their status.
 
@@ -160,6 +160,14 @@ Use the Check-in section to do the following:
 * Add new goals.
 
 <!--
-Settings Note: This section has been removed from the Preview environment. For information about setting up notifications for goals, see Notifications: Goals. You can select what kind of email notifications you should receive from Workfront Goals in the Settings section. You can receive email notifications about goal, result, or activity assignments, as well as when someone comments on or likes one of your actions. For information about email notifications from Workfront Goals, see Enable Adobe Workfront Goals notifications.
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<h2><a name="settings"></a>Settings</h2> <note type="note">
+<span>This section has been removed from the Preview environment. For information about setting up notifications for goals, see</span>
+<a href="../../workfront-basics/using-notifications/notifications-goals.md" class="MCXref xref">Notifications: Goals</a>.
+</note>
+<p>You can select what kind of email notifications you should receive from&nbsp;Workfront Goals in the Settings section. You can receive email notifications about goal, result, or activity assignments, as well as when someone comments on or likes one of your actions. </p>
+<p>For information about email notifications from Workfront Goals, see <a href="../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md" class="MCXref xref">Enable Adobe Workfront Goals notifications</a>. </p>
+<p> <img src="assets/settings-section-350x143.png" style="width: 350;height: 143;"> </p>
+</div>
 -->
 

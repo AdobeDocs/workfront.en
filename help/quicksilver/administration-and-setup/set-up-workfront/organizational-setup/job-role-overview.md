@@ -52,8 +52,9 @@ You can use job roles for the following purposes:
   >
   >If users are assigned a layout template to their user profile that template takes precedence over the one assigned to their primary job role.&nbsp;For more information, see [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* `You can override job role rates based on different currencies, when working with resources from different countries. This allows you to obtain more accurate Cost and Revenue amounts for work items.`
+* You can assign job roles to plans and initiatives to manage the availability of your resources when using the Adobe Workfront Scenario Planner. This requires an additional license for the Scenario Planner. For more information, see [Get started with the Adobe Workfront Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md). 
+* ```You can override job role rates based on different currencies, when working with resources from different countries. This allows you to obtain more accurate Cost and Revenue amounts for work items.```
 
-  `For more information, see` [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  ```For more information, see``` [Create and manage job roles](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 &nbsp;

@@ -25,44 +25,44 @@ There is no limit on the number of Workfront Library portals your organization c
 
 ## Set up a portal
 
-1. In Workfront, click the Workfront Library icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
-1. In the upper-left corner of Workfront Library, click the `Menu` icon ![](assets/library-menu-icon.png).
-1. In the left panel, click `Portals`.
+1. In Workfront, click the **Workfront Library** icon on the Global Navigation Bar to open Workfront Library in a new browser tab. 
+1. In the upper-left corner of Workfront Library, click the **Menu** icon ![](assets/library-menu-icon.png).
+1. In the left panel, click **Portals**.
 
    ![](assets/portals-red-square-350x224.png)
 
 1. Select the portal you want to configure.
-1. Click the `Menu` icon in the upper-left corner of the portal, then click `Setup`.
+1. Click the **Menu** icon in the upper-left corner of the portal, then click **Setup**.
 
    You can continue with the portal set up in the following ways:
 
-  * [Add your organization's branding to the portal](#add) 
-  * [Select taxonomy for content in the portal](#select) 
-  * [Enable searching for keywords in the portal](#enable)
+   * [Add your organization's branding to the portal](#add) 
+   * [Select taxonomy for content in the portal](#select) 
+   * [Enable searching for keywords in the portal](#enable)
 
 ### Add your organization's branding to the portal
 
 You can brand a portal with your company logo or another image.
 
 1. Complete the steps 1-5 in [Set up a portal](#set)
-1. In the `Setup` panel, click `Branding`.
+1. In the **Setup** panel, click **Branding**.
 
-1. Hover over the `NO LOGO` box, then click `Select new image`.
-1. Browse to the image you want to use for the branding, then click `Open`.
+1. Hover over the **NO LOGO** box, then click **Select new image**.
+1. Browse to the image you want to use for the branding, then click **Open**.
 
    ![](assets/brandingimageupld-350x150.png)
 
    The image can be up to a 1,000 x 1,000 pixel image in one of following file formats:
 
-  * JPG
-  * GIF
-  * PNG
+   * JPG
+   * GIF
+   * PNG
 
    >[!TIP]
    >
    >If the image you want to use for your branding is in Workfront Library, but it doesn't meet the formatting requirements, you can download the image with a different file size and format. You can then upload the image and use it for branding the portal. For more information on downloading a file, see the "Download a single content file" section in the article [Download items from Workfront Library](../../../workfront-library/content-management/basics/download-content-from-library.md)
 
-1. Click `Save New Logo`.
+1. Click **Save New Logo**.
 
    Refresh the browser page where you have Workfront Library to see the new logo.
 
@@ -71,7 +71,7 @@ You can brand a portal with your company logo or another image.
 Your portal users might not need to view all the taxonomy you collect on your organization's assets. To give portal users only the metadata they need, you can specify the taxonomy fields that display on content added to the portal.
 
 1. Complete the steps 1-5 in [Set up a portal](#set)
-1. In the `Setup` panel, click `Taxonomy`.
+1. In the **Setup** panel, click **Taxonomy**.
 
    A list of your organization's taxonomy displays.
 
@@ -86,9 +86,9 @@ Your portal users might not need to view all the taxonomy you collect on your or
 You can allow keyword metadata to display for content in the portal. This enables users to search for and filter portal content. While in the portal, you cannot add or remove keywords from the keyword picklist. For more information on keyword metadata, see [Overview of keyword metadata in Workfront Library](../../../workfront-library/administration-and-setup/metadata/keyword-metadata-overview.md)
 
 1. Complete the steps 1-5 in [Set up a portal](#set)
-1. In the `Setup` panel, click `Keywords`.
+1. In the **Setup** panel, click **Keywords**.
 
-1. Enable `Display all keywords in the portal`.  
+1. Enable **Display all keywords in the portal**.  
    ![](assets/portals-keywords-350x194.png)
 
 <![CDATA[]]> 

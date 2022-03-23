@@ -37,11 +37,11 @@ You must have the following access to perform the steps in this article:
 
 ## Customize the Global Navigation Bar
 
-1. Click your user avatar in the upper-right corner of Workfront, then click My Settings. 
-1. Click `Preferences`.  
+1. Click your user avatar in the upper-right corner of Workfront, then click **My Settings**. 
+1. Click **Preferences**.  
 
-1. (Optional) In the `When I log in, show:` field, select the default landing page for your Workfront web application.
-1. Click the `In the Global Nav bar, show:` drop-down list, then select the areas that you want to show in the Global Navigation Bar.
+1. (Optional) In the **When I log in, show:** field, select the default landing page for your Workfront web application.
+1. Click the **In the Global Nav bar, show:** drop-down list, then select the areas that you want to show in the Global Navigation Bar.
 
-1. Click `Save Changes`.
+1. Click **Save Changes**.
 

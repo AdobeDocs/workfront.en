@@ -19,8 +19,8 @@ You must have Contribute permissions on an issue to be able to update its severi
 
 You can update the severity of issues in the following areas of Workfront:
 
-* In the  `Edit Issue` dialog box
-* In the Issue Details area of an issue 
+* In the&nbsp;**Edit Issue** dialog box
+* In the **Issue Details** area of an issue  
 * In an issue list or report
 
 ## Access requirements
@@ -57,13 +57,17 @@ You must have the following access to perform the steps in this article:
 To update the severity of an issue in the Issue Details area of an issue:
 
 1. Go to the issue whose severity you want to update.
-1. Click Issue Details in the left panel.
+1. Click **Issue Details** in the left panel.
 
-   The Overview section should display by default. 
+   The **Overview** section should display by default. 
 
-1. Select the appropriate `Severity` from the drop-down menu.
+1. Click the **Severity** field in the **Basic information** area. 
+
+1. ![](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+
+1. Select the appropriate **Severity** from the drop-down menu.
 
    Depending on how your Workfront administrator configured severities in your system, the options might vary.
 
-1. Click Save Changes.
+1. Click **Save Changes**.
 

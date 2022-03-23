@@ -18,7 +18,7 @@ By default, new users have Adobe Workfront Classic as their personal Workfront e
 
 For more information about the new experience, see [the new Workfront experience page](https://one.workfront.com/s/new-workfront-experience).
 
-` `**Tip: **`` As an Adobe Workfront administrator or a group administrator, you can change your own Workfront environment by doing one of the following:
+``` ```**Tip: **`````` As an Adobe Workfront administrator or a group administrator, you can change your own Workfront environment by doing one of the following:
 
 * Selecting Switch to the new experience from the user menu in the Global Navigation Bar
 * Selecting Switch to Classic in the Main Menu.
@@ -65,15 +65,15 @@ To see the New Experience screen, you must meet the following conditions:
 
 ## Enroll users in the new Adobe Workfront experience
 
-1. To access the `Setup` area, do one of the following:
+1. To access the **Setup** area, do one of the following:
 
-  * If your personal Workfront environment is in the new Adobe Workfront experience, click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click `Setup`.
-  
-  * If your personal Workfront environment is in Adobe Workfront Classic, click `Setup` ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
+   * If your personal Workfront environment is in the new Adobe Workfront experience, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup**.
+   
+   * If your personal Workfront environment is in Adobe Workfront Classic, click **Setup** ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
 
-1. In the left panel, click `New Experience`.
+1. In the left panel, click **New Experience**.
 
-1. In the `All Users` section, begin typing the name of the user, team, or group you want to enroll in to the new experience, then click the name when it appears.
+1. In the **All Users** section, begin typing the name of the user, team, or group you want to enroll in to the new experience, then click the name when it appears.
 
    >[!TIP]
    >
@@ -81,47 +81,47 @@ To see the New Experience screen, you must meet the following conditions:
 
    >[!NOTE]
    >
-   >`If you are a Group administrator, you can only see names of users in groups that you manage.`
+   >```If you are a Group administrator, you can only see names of users in groups that you manage.```
 
-1. (Optional) Click `User details` inline with a user to see the user's:
+1. (Optional) Click **User details** inline with a user to see the user's:
 
-  * Name
-  * Job role
-  * Email address
-  * Profile picture
+   * Name
+   * Job role
+   * Email address
+   * Profile picture
 
-1. Select the name of each user that you want to enroll, or click the `Select All` option, then click `Enroll Selected Users`.
+1. Select the name of each user that you want to enroll, or click the **Select All** option, then click **Enroll Selected Users**.
 
-   Your changes save automatically and each enrolled user appears in the `Enrolled Users` section.
+   Your changes save automatically and each enrolled user appears in the **Enrolled Users** section.
 
 1. Instruct users that they must log out and log back in to Workfront in order to see the new Adobe Workfront experience.
 
 ## Remove users from the new Adobe Workfront experience
 
-1. To access the `Setup` area, do one of the following:
+1. To access the **Setup** area, do one of the following:
 
-  * If your personal Workfront environment is in the new Adobe Workfront experience, click the `Main Menu` icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click `Setup`.
-  
-  * If your personal Workfront environment is in Adobe Workfront Classic, click `Setup` ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
+   * If your personal Workfront environment is in the new Adobe Workfront experience, click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Setup**.
+   
+   * If your personal Workfront environment is in Adobe Workfront Classic, click **Setup** ![](assets/gear-icon-settings.png) in the Global Navigation Bar.
 
-1. Click `New Experience`.
+1. Click **New Experience**.
 
-1. In the `Enrolled Users` section, begin typing the name of the user, team, or group you want to remove from the new experience, then click the name when it appears.
+1. In the **Enrolled Users** section, begin typing the name of the user, team, or group you want to remove from the new experience, then click the name when it appears.
 
    >[!NOTE]
    >
    >If you are a Group administrator, you can only see names of users in groups that you manage.
 
-1. (Optional) Click `User details` inline with a user to see the user's:
+1. (Optional) Click **User details** inline with a user to see the user's:
 
-  * Name
-  * Job role
-  * Email address
-  * Profile picture
+   * Name
+   * Job role
+   * Email address
+   * Profile picture
 
-1. Select each user that you want to remove from the new experience, or click the `Select All` option, then click `Remove Selected Users`.
+1. Select each user that you want to remove from the new experience, or click the **Select All** option, then click **Remove Selected Users**.
 
-   Your changes save automatically and each unenrolled user appears in the `All Users` section.
+   Your changes save automatically and each unenrolled user appears in the **All Users** section.
 
 1. Instruct users that they must log out and log back in to Workfront in order to see Adobe Workfront Classic.
 
@@ -129,8 +129,8 @@ To see the New Experience screen, you must meet the following conditions:
 
 As a Workfront administrator or a group administrator, you can change your own Workfront environment.
 
-1. In the upper-right corner of Workfront, click the `Main Menu` icon ![](assets/main-menu-icon.png).
-1. Click `Switch to Classic Workfront`.
+1. In the upper-right corner of Workfront, click the **Main Menu** icon ![](assets/main-menu-icon.png).
+1. Click **Switch to Classic Workfront**.
 
    You are redirected to Adobe Workfront Classic.
 
@@ -141,7 +141,7 @@ As a Workfront administrator or a group administrator, you can change your own W
 As a Workfront administrator or a group administrator, you can change your own Workfront environment.
 
 1. In the upper-right corner of Workfront, click your profile picture.
-1. Click `Switch to the new experience`.
+1. Click **Switch to the new experience**.
 
    You are redirected to the new Adobe Workfront experience.
 

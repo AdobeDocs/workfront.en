@@ -28,7 +28,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -37,7 +41,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -70,7 +81,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Search events](#search)
 
   <!--
-  Google Calendar modules
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#watch2" class="MCXref xref">Google Calendar modules</a> </li>
   -->
 
 * [Get an event](#get) 
@@ -79,7 +90,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Delete an event](#delete)
 
   <!--
-  Get an event
+  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#get" class="MCXref xref">Get an event</a> </li>
   -->
 
 #### Watch events
@@ -156,15 +167,17 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>Query</td> 
    <td> <p>Enter or map the search term that you want to search by. <!--
-      The module does not search extended properies.
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+        The module does not search extended properies. 
+      </MadCap:conditionalText>
      --></p> </td> 
   </tr> 
   <tr> 
    <td>Order by</td> 
    <td> <p>Select the order of the events returned in the result.</p> 
     <ul> 
-     <li><span class="bold">Start Time</span>: Order by the start date and time (ascending). This is only available when querying single events.</li> 
-     <li><span class="bold">Updated Time</span>: Order by last modification time (ascending).</li> 
+     <li><strong>Start Time</strong>: Order by the start date and time (ascending). This is only available when querying single events.</li> 
+     <li><strong>Updated Time</strong>: Order by last modification time (ascending).</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -394,10 +407,10 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">Minimum access role</td> 
    <td> <p>Select the minimum access role for the user. The module returns calendars based on this minimum access role.</p> 
     <ul> 
-     <li><span class="bold">Free Busy Reader</span>: The user can read free/busy information. </li> 
-     <li><span class="bold">Owner</span>: The user can read and modify events and can access control lists. </li> 
-     <li><span class="bold">Reader</span>: The user can read events that are not private. </li> 
-     <li><span class="bold">Writer</span>: The user can read and modify events.</li> 
+     <li><strong>Free Busy Reader</strong>: The user can read free/busy information. </li> 
+     <li><strong>Owner</strong>: The user can read and modify events and can access control lists. </li> 
+     <li><strong>Reader</strong>: The user can read events that are not private. </li> 
+     <li><strong>Writer</strong>: The user can read and modify events.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -620,20 +633,20 @@ When you are configuring this module, the following fields display.
    <td>Role</td> 
    <td> <p>Select the role to assign to the access rule. </p> 
     <ul> 
-     <li><span class="bold">Free Busy Reader</span>: The user can read free/busy information. </li> 
-     <li><span class="bold">Owner</span>: The user can read and modify events and can access control lists. </li> 
-     <li><span class="bold">Reader</span>: The user can read events that are not private. </li> 
-     <li><span class="bold">Writer</span>: The user can read and modify events.</li> 
+     <li><strong>Free Busy Reader</strong>: The user can read free/busy information. </li> 
+     <li><strong>Owner</strong>: The user can read and modify events and can access control lists. </li> 
+     <li><strong>Reader</strong>: The user can read events that are not private. </li> 
+     <li><strong>Writer</strong>: The user can read and modify events.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Type</td> 
    <td> <p>Select the type of scope. </p> 
     <ul> 
-     <li><span class="bold">Default</span>: The public scope. This is the default value. </li> 
-     <li><span class="bold">User</span>: Limits the scope to a single user. </li> 
-     <li><span class="bold">Group</span>: Limits the scope to a group. </li> 
-     <li><span class="bold">Domain</span>: Limits the scope to a domain. </li> 
+     <li><strong>Default</strong>: The public scope. This is the default value. </li> 
+     <li><strong>User</strong>: Limits the scope to a single user. </li> 
+     <li><strong>Group</strong>: Limits the scope to a group. </li> 
+     <li><strong>Domain</strong>: Limits the scope to a domain. </li> 
     </ul> <p>Note: The permissions granted to the Default, or the public, scope apply to any user, authenticated or not.</p> </td> 
   </tr> 
   <tr> 
@@ -677,11 +690,11 @@ When you are configuring this module, the following fields display.
    <td>Role</td> 
    <td> <p>Select the role to assign to the access rule. </p> 
     <ul> 
-     <li><span class="bold">None</span>: This role provides no access.</li> 
-     <li><span class="bold">Free Busy Reader</span>: The user can read free/busy information. </li> 
-     <li><span class="bold">Owner</span>: The user can read and modify events and can access control lists. </li> 
-     <li><span class="bold">Reader</span>: The user can read events that are not private. </li> 
-     <li><span class="bold">Writer</span>: The user can read and modify events.</li> 
+     <li><strong>None</strong>: This role provides no access.</li> 
+     <li><strong>Free Busy Reader</strong>: The user can read free/busy information. </li> 
+     <li><strong>Owner</strong>: The user can read and modify events and can access control lists. </li> 
+     <li><strong>Reader</strong>: The user can read events that are not private. </li> 
+     <li><strong>Writer</strong>: The user can read and modify events.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -793,7 +806,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td>Calendars</td> 
-   <td> <p>For each calendar that you want to retrieve information from, click <span class="bold">Add </span>and enter or map the Calendar ID.</p> </td> 
+   <td> <p>For each calendar that you want to retrieve information from, click <strong>Add</strong>and enter or map the Calendar ID.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -813,10 +826,10 @@ You can trigger a scenario a specified time before an event with the help of sta
 
 1. In Gmail, redirect the Google Calendar email reminders to the mailhook's email address:
 
-  1. Open your `Gmail settings`.
-  1. Open the `Forwarding and POP/IMAP` tab.
-  1. Click `Add a forwarding address.`
-  1. Paste the copied mailhooks's email address, click `Next`, confirm by pressing `Proceed` in the popup window, then click `OK`.
+  1. Open your **Gmail settings**.
+  1. Open the **Forwarding and POP/IMAP** tab.
+  1. Click **Add a forwarding address.**
+  1. Paste the copied mailhooks's email address, click**Next**, confirm by pressing **Proceed** in the popup window, then click **OK**.
   
   1. In Workfront Fusion, switch to the new scenario that should finish its execution by receiving the confirmation email.
   1. Click the bubble above the module to inspect the module's output.
@@ -830,21 +843,21 @@ You can trigger a scenario a specified time before an event with the help of sta
 
      ![](assets/confirmation-code-350x252.png)
 
-  1. In Gmail, paste the Confirmation code in the edit box and click `Verify`:
+  1. In Gmail, paste the Confirmation code in the edit box and click**Verify**:
 
      ![](assets/paste-code-350x46.png)
 
-  1. Open the `Filters and Blocked Addresses` tab.
-  1. Click `Create a new filter`.
+  1. Open the **Filters and Blocked Addresses** tab.
+  1. Click **Create a new filter**.
   1. Setup a filter for all emails coming from   
   
      ```  
      calendar-notification@google.com
      ```  
   
-     and click `Create a filter`:
-  1. Select `Forward it to` and choose the mailhooks's email address from the list.
-  1. Click `Create filter` to create the filter.
+     and click**Create a filter**:
+  1. Select **Forward it to** and choose the mailhooks's email address from the list.
+  1. Click **Create filter** to create the filter.
 
 1. (Optional) In Workfront Fusion, add the Text parser > Match pattern module after the Webhooks > Custom mailhook module to parse the email's HTML code to obtain any information you need.
 

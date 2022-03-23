@@ -39,7 +39,7 @@ The following fields are recorded in every audit log entry:
    <td> Action performed by the user, such as Change, Create, and Delete. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><span class="bold">Object</span> </td> 
+   <td role="rowheader"><strong>Object</strong> </td> 
    <td> Name of the object affected as a result of the action. </td> 
   </tr> 
   <tr> 
@@ -71,7 +71,25 @@ The following fields are recorded in every audit log entry:
        <li><p>Changes permissions to Projects, Tasks, Issues, Portfolios, Programs, Reports, Documents, Users, or Templates</p><p>Note: <p>The system does not record any permission changes to&nbsp;Financial Data or within the following access types: View and Edit.<br></p><p>For example, if a user changes the Planner access type from View to Edit, the system will not display information contained in the Fine-tune your settings drop-down menu.</p></p></li>
       </ul></li> 
     </ul> </td> 
-  </tr> Company The system generates a Company audit log entry when a user does one of the following: Creates a company Changes a company: Renames it Adds or removes members Adds, edits, or deletes the value in its Group field Adds or edits a company billing rate for a job role Removes a company billing rate for a job role Sets it as the primary company for the organization Attaches or removes a custom form Deletes a company For more information about statuses, see Statuses overview. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Company</td> 
+   <td> <p>The system generates a Company audit log entry when a user does one of the following:</p> 
+    <ul> 
+     <li> <p>Creates a company</p> </li> 
+     <li> <p>Changes a company:</p> 
+      <ul> 
+       <li>Renames it</li> 
+       <li>Adds or removes members</li> 
+       <li>Adds, edits, or deletes the value in its Group field</li> 
+       <li>Adds or edits a company billing rate for a job role</li> 
+       <li>Removes a company billing rate for a job role</li> 
+       <li> Sets it as the primary company for the organization</li> 
+       <li>Attaches or removes a custom form</li> 
+      </ul> </li> 
+     <li>Deletes a company</li> 
+    </ul> <p>For more information about statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md" class="MCXref xref">Statuses overview</a>.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Condition</td> 
    <td> <p>The system generates a Condition audit log entry when a user does one of the following actions:</p> 
@@ -125,7 +143,7 @@ The following fields are recorded in every audit log entry:
        <li><p>Hides or displays the formula associated with a calculated field in the Instructions hover text</p></li>
        <li><p>Enables or disables Update previous calculations</p></li>
        <li><p>Adds or changes skip logic or display logic</p></li><!--
-        Adds or changes a filter for a typeahead field
+        <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>Adds or changes a filter for a typeahead field</p></li>
        -->
       </ul></li> 
      <li>Deletes a custom form</li> 
@@ -238,7 +256,23 @@ The following fields are recorded in every audit log entry:
       </ul></li> 
      <li>Deletes an issue severity</li> 
     </ul> <p>For more information about configuring job roles, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">Create and customize issue severities</a>.</p> </td> 
-  </tr> Status The system generates a Status audit log entry when a user does one of the following actions: Creates a status on the system or group level Changes a status on the system or group level: Renames it Makes it a default status Locks or unlocks it Hides or unhides it Changes the color or description Deletes a status on the system or group level For more information about statuses, see Statuses overview. 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Status</td> 
+   <td> <p>The system generates a Status audit log entry when a user does one of the following actions:</p> 
+    <ul> 
+     <li>Creates a status on the system or group level</li> 
+     <li>Changes a status on the system or group level:
+      <ul>
+       <li>Renames it</li>
+       <li>Makes it a default status</li>
+       <li>Locks or unlocks it</li>
+       <li>Hides or unhides it</li>
+       <li>Changes the color or description </li>
+      </ul></li> 
+     <li>Deletes a status on the system or group level</li> 
+    </ul> <p>For more information about statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md" class="MCXref xref">Statuses overview</a>.</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Tasks &amp; Issues Preferences</td> 
    <td> <p>The system generates a Tasks &amp; Issues Preferences audit log entry when a user changes a Tasks &amp; Issues preference in one of the following ways:</p> 
@@ -253,7 +287,9 @@ The following fields are recorded in every audit log entry:
    <td> <p>The system generates a User audit log entry when a user does one of the following actions:</p> 
     <ul> 
      <li> <p>Creates a user<!--
-        Gevorg checking with Jonah on whether this note should be here:
+        <MadCap:conditionalText style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
+          Gevorg checking with Jonah on whether this note should be here:
+        </MadCap:conditionalText>
        --></p> <p>Note: This is not available if your organization’s Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.</p> </li> 
      <li>Deletes a user</li> 
      <li>Changes a user's access level, company, team, or group</li> 

@@ -19,7 +19,11 @@ You must have the following access to use the functionality in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> <p>Pro or higher</p> </td> 
-  </tr> Adobe Workfront license* Plan, Work 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>Plan, Work</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td> <p>Workfront Fusion for Work Automation and Integration </p> </td> 
@@ -28,7 +32,14 @@ You must have the following access to use the functionality in this article:
    <td role="rowheader">Product</td> 
    <td>Your organization must purchase Adobe Workfront Fusion as well as Adobe Workfront to use functionality described in this article.</td> 
   </tr> <!--
-   Access level configurations* You must be a Workfront Fusion administrator for your organization. You must be a Workfront Fusion administrator for your team.
+   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+    <td role="rowheader">Access level configurations*</td> 
+    <td> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your organization.</p>
+     --> <!--
+      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must be a Workfront Fusion administrator for your team.</p>
+     --> </td> 
+   </tr>
   --> 
  </tbody> 
 </table>
@@ -45,10 +56,10 @@ To use Widen modules, you must have a Widen account.
 
 You can create a connection to your Widen account directly from inside a Widen module.
 
-1. In any Widen module, click `Add`next to the Connection field.
+1. In any Widen module, click **Add**next to the Connection field.
 1. Select the Widen domain that you want to connect to.
 1. Enter the token for your Widen account. For instructions on locating this token, see the [Widen API FAQs](https://community.widen.com/collective/s/article/API-FAQs).
-1. Click `Continue` to create the connection and go back to the module.
+1. Click **Continue** to create the connection and go back to the module.
 
 ## Widen modules and their fields
 
@@ -192,18 +203,18 @@ This action module adds one or more assets to collections.
    <td role="rowheader">Collections ID</td> 
    <td> <p>For each collection that you want to add the assets to:</p> 
     <ol> 
-     <li value="1"> <p> Click <span class="bold">Add</span>.</p> </li> 
+     <li value="1"> <p> Click <strong>Add</strong>.</p> </li> 
      <li value="2"> <p>Enter or map the Collection ID.</p> </li> 
-     <li value="3"> <p>Click <span class="bold"> Add item</span>.</p> </li> 
+     <li value="3"> <p>Click <strong>Add item</strong>.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Assets ID</td> 
    <td> <p>For each asset that you want to add to a collection:</p> 
     <ol> 
-     <li value="1"> <p> Click <span class="bold">Add</span>.</p> </li> 
+     <li value="1"> <p> Click <strong>Add</strong>.</p> </li> 
      <li value="2"> <p>Enter or map the Asset ID.</p> </li> 
-     <li value="3"> <p>Click <span class="bold"> Add item</span>.</p> </li> 
+     <li value="3"> <p>Click <strong>Add item</strong>.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -229,18 +240,18 @@ This action module removes one or more assets from collections.
    <td role="rowheader">Collections ID</td> 
    <td> <p>For each collection that you want to remove the assets from:</p> 
     <ol> 
-     <li value="1"> <p> Click <span class="bold">Add</span>.</p> </li> 
+     <li value="1"> <p> Click <strong>Add</strong>.</p> </li> 
      <li value="2"> <p>Enter or map the Collection ID.</p> </li> 
-     <li value="3"> <p>Click <span class="bold"> Add item</span>.</p> </li> 
+     <li value="3"> <p>Click <strong>Add item</strong>.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Assets ID</td> 
    <td> <p>For each asset that you want to remove from a collection:</p> 
     <ol> 
-     <li value="1"> <p> Click <span class="bold">Add</span>.</p> </li> 
+     <li value="1"> <p> Click <strong>Add</strong>.</p> </li> 
      <li value="2"> <p>Enter or map the Asset ID.</p> </li> 
-     <li value="3"> <p>Click <span class="bold"> Add item</span>.</p> </li> 
+     <li value="3"> <p>Click <strong>Add item</strong>.</p> </li> 
     </ol> </td> 
   </tr> 
   <tr> 
@@ -320,8 +331,8 @@ This action module uploads a file into your Widen account.
    <td role="rowheader">Upload Method</td> 
    <td> <p>Select how you want to upload the file.</p> 
     <ul> 
-     <li> <p><span class="bold">From File</span> </p> <p>Select or map the source file from a previous module.</p> </li> 
-     <li> <p><span class="bold">By URL</span> </p> <p>Enter or map the URL of the file that you want to upload.</p> </li> 
+     <li> <p><strong>From File</strong> </p> <p>Select or map the source file from a previous module.</p> </li> 
+     <li> <p><strong>By URL</strong> </p> <p>Enter or map the URL of the file that you want to upload.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
